@@ -16,9 +16,10 @@ for z in indoor wilted plantseg; do unzip -q $z.zip -d $z && rm $z.zip; done
 | [Healthy and Wilted Houseplants](https://www.kaggle.com/datasets/russellchan/healthy-and-wilted-houseplant-images) | 854 unique (904 files) | no splits | 2 (452 healthy / 452 wilted) | 50 |
 | [PlantSeg](https://zenodo.org/records/17719108) | 7,774, each with a lesion mask | 5,367 / 846 / 1,561 | 115 diseases, 34 crops | 50 |
 
-![Example test-set images with labels](assets/examples.jpg)
-
 ## Test set
 
 `python build_testset.py` writes `data/testset.csv` (200 images, labels `healthy / watering / fungal_bacterial / pest / other`).
 `data/gold_advice.json` is the advice answer key, from UMD and Clemson extension pages.
+`data/curated.csv` is a hand-picked 12-image subset (clear examples of all 5 labels, from all 3 datasets) for manual evaluation, shown one by one in [curated.md](curated.md):
+
+![Curated examples](assets/examples.jpg)
