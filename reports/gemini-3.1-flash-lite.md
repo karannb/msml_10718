@@ -22,6 +22,20 @@ Answer with exactly one label:
 
 - Reproduce: `python classify.py --model gemini-3.1-flash-lite` then `python report.py --model gemini-3.1-flash-lite`.
 
+## Comparison with random baselines
+
+K = 5 labels; p_k = share of test images with true label k (healthy 0.31, watering 0.06, fungal_bacterial 0.39, pest 0.06, other 0.18).
+Balanced accuracy = mean over labels of the per-label accuracy; any guesser that ignores the image scores 1/K on it.
+
+| Predictor                                 | Expected accuracy   | Accuracy   | Balanced accuracy   |
+|:------------------------------------------|:--------------------|:-----------|:--------------------|
+| Uniform random: each label with prob. 1/K | 1/K                 | 20%        | 20%                 |
+| Stratified random: label k with prob. p_k | sum_k p_k^2         | 29%        | 20%                 |
+| Majority class: always `fungal_bacterial` | max_k p_k           | 39%        | 20%                 |
+| `gemini-3.1-flash-lite`                   |                     | 62%        | 54%                 |
+
+With n = 100 images the accuracy is uncertain by about ±5% (one standard deviation, sqrt(a(1-a)/n)).
+
 ## Accuracy per label
 
 | label            |   n |   correct | accuracy   |
@@ -65,6 +79,7 @@ Answer with exactly one label:
 
 ## Observations (run of 2026-09-28)
 
+- The model beats the strongest image-blind guesser (always `fungal_bacterial`, 39%) by 23 points, and scores 54% balanced accuracy vs 20% for any guesser.
 - Clear-cut classes are near perfect: cactus scale insects (pest), snake plant anthracnose, healthy snake and money plants.
 - Most errors come from the 16 -> 5 label mapping in `build_testset.py`, not from what the model sees: leaf withering (mapped to `watering`) is read as disease, and leaf tip necrosis / manganese toxicity (mapped to `other`) are read as watering problems. These 3 classes hold 17 of the 38 errors.
 - Real weaknesses: healthy cacti called diseased (2/6), aloe anthracnose (3/7) and aloe sunburn (2/6).
