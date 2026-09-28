@@ -23,3 +23,15 @@ for z in indoor wilted plantseg; do unzip -q $z.zip -d $z && rm $z.zip; done
 `data/curated.csv` is a hand-picked 12-image subset (clear examples of all 5 labels, from all 3 datasets) for manual evaluation, shown one by one in [curated.md](curated.md):
 
 ![Curated examples](assets/examples.jpg)
+
+## LLM baseline (Gemini free tier)
+
+```bash
+python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+cp .env.example .env   # paste a free key from https://aistudio.google.com/apikey
+python classify.py     # 100 Indoor test images -> data/preds/<model>.csv, prints accuracy + confusion matrix
+```
+
+`llm.py` sends each image with a fixed prompt and forces the answer to one of the 5 labels. Set `GEMINI_MODEL` in `.env` to switch model; `classify.py --source all --n 200` runs the whole test set. `python report.py` writes `reports/<model>.md`.
+
+Results: [gemini-3.1-flash-lite](reports/gemini-3.1-flash-lite.md) (62% on the 100 Indoor images).
