@@ -26,12 +26,15 @@ for z in indoor wilted plantseg; do unzip -q $z.zip -d $z && rm $z.zip; done
 
 ## LLM baseline (Gemini free tier)
 
+Zero-shot classification of the 100 Indoor test images into the dataset's 16 native classes (plant + condition).
+
 ```bash
 python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 cp .env.example .env   # paste a free key from https://aistudio.google.com/apikey
-python classify.py     # 100 Indoor test images -> data/preds/<model>.csv, prints accuracy + confusion matrix
+python classify.py     # -> data/preds/<model>.csv (resumable)
+python report.py       # -> reports/<model>.md
 ```
 
-`llm.py` sends each image with a fixed prompt and forces the answer to one of the 5 labels. Set `GEMINI_MODEL` in `.env` to switch model; `classify.py --source all --n 200` runs the whole test set. `python report.py` writes `reports/<model>.md`.
+`llm.py` sends each image with a prompt listing the 16 classes and forces the answer to one of them. Set `GEMINI_MODEL` in `.env` to switch model.
 
-Results: [gemini-3.1-flash-lite](reports/gemini-3.1-flash-lite.md) (62% on the 100 Indoor images).
+Results: [gemini-3.1-flash-lite](reports/gemini-3.1-flash-lite.md): 61% accuracy (random: 6%), plant correct 81%, healthy vs. sick 93%.

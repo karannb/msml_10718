@@ -1,4 +1,4 @@
-"""Gemini client for zero-shot plant-condition classification (free tier via Google AI Studio key)."""
+"""Gemini client for zero-shot classification of the Indoor Plant Disease Detection dataset (16 native classes)."""
 
 import os
 import time
@@ -12,15 +12,29 @@ load_dotenv()
 
 MODEL = os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite")
 
-LABELS = ["healthy", "watering", "fungal_bacterial", "pest", "other"]
+# The 16 native classes of the Indoor Plant Disease Detection dataset, with a plain description of each name.
+CLASSES = {
+    "Aloe_Healthy": "aloe vera, no visible problem",
+    "Aloe_Anthracnose": "aloe vera with anthracnose",
+    "Aloe_LeafSpot": "aloe vera with leaf spot",
+    "Aloe_Rust": "aloe vera with rust",
+    "Aloe_Sunburn": "aloe vera with sunburn",
+    "Cactus_Healthy": "cactus, no visible problem",
+    "Cactus_Dactylopius_Opuntia": "cactus infested by Dactylopius opuntiae (cochineal scale insect)",
+    "Money_Plant_Healthy": "money plant (pothos), no visible problem",
+    "Money_Plant_Bacterial_wilt_disease": "money plant (pothos) with bacterial wilt",
+    "Money_Plant_Manganese_Toxicity": "money plant (pothos) with manganese toxicity",
+    "Snake_Plant_Healthy": "snake plant, no visible problem",
+    "Snake_Plant_Anthracnose": "snake plant with anthracnose",
+    "Snake_Plant_Leaf_Withering": "snake plant with leaf withering",
+    "Spider_Plant_Healthy": "spider plant, no visible problem",
+    "Spider_Plant_Fungal_leaf_spot": "spider plant with fungal leaf spot",
+    "Spider_Plant_Leaf_Tip_Necrosis": "spider plant with leaf tip necrosis",
+}
+LABELS = list(CLASSES)
 
-PROMPT = """You are a plant health expert. Look at the photo of a plant and classify its main condition.
-Answer with exactly one label:
-- healthy: no visible problem.
-- watering: wilting, drooping, withering or collapse caused by too little or too much water.
-- fungal_bacterial: spots, lesions, rust, mildew, rot, blight or wilt caused by a fungus or bacterium.
-- pest: insects, mites, scale or other animals on or damaging the plant.
-- other: any other problem (sunburn, nutrient deficiency or toxicity, salt/fluoride tip burn, virus, physiological disorder)."""
+PROMPT = "You are a plant health expert. Look at the photo, identify the plant and its condition, and answer with exactly one class:\n" + "\n".join(
+    f"- {k}: {v}" for k, v in CLASSES.items())
 
 MIME = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp"}
 
