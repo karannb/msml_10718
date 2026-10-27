@@ -1,0 +1,20 @@
+== Embedding (frozen, computed once per image)
+input: photo $x$, rotated by its file's rotation flag, shorter side resized to $\lfloor 256 s / 224 \rfloor$, center crop $s \times s$   // $s$ = `image_size`
+$h_0, h_1, \dots, h_P = \mathrm{DINOv2}(x)$, $P = (s / 14)^2$   // last-layer tokens of `backbone`: $h_0$ = CLS, $h_1..h_P$ = patches, each in $\mathbb{R}^{768}$
+$z = [h_0 ; \frac{1}{P} \sum_{p=1}^{P} h_p] \in \mathbb{R}^{1536}$
+
+== Cleaning (once, before training)
+duplicates: $i \sim j$ if $\mathrm{md5}(x_i) = \mathrm{md5}(x_j)$ or $\cos(h_0^{(i)}, h_0^{(j)}) \geq \tau$, groups = connected components   // $\tau$ = 0.96: pairs above it are the same photo or the same scene seconds apart
+drop a group if it holds a test image or two different labels; else keep 1 image of it
+split kept images per (source, label): validation share `val_frac`, rest train
+
+== Training the head
+input: train pairs $(z_i, y_i)$, $i = 1..n$, $n$ = `n_train`, labels $y \in \{1..K\}$, $K = 5$, from `sources`
+$\mu = \frac{1}{n} \sum_i z_i$, $\sigma = \mathrm{std}_i(z_i)$, $\tilde z_i = (z_i - \mu) / \sigma$   // per coordinate
+$w_k = n / (K n_k)$, $n_k = \#\{i : y_i = k\}$   // `class_weight` = balanced
+for $C$ in `C_grid`:
+    $W, b = \arg\min_{W, b} C \sum_{i} w_{y_i} [-\log \mathrm{softmax}(W \tilde z_i + b)_{y_i}] + \frac{1}{2} \lVert W \rVert_F^2$
+keep the $C$ with the highest balanced accuracy on the validation pairs
+
+== Prediction
+$\hat y = \arg\max_k (W (z - \mu) / \sigma + b)_k$

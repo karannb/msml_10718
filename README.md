@@ -38,3 +38,26 @@ python report.py       # -> reports/<model>.md
 `llm.py` sends each image with a prompt listing the 16 classes and forces the answer to one of them. Set `GEMINI_MODEL` in `.env` to switch model.
 
 Results: [gemini-3.1-flash-lite](reports/gemini-3.1-flash-lite.md): 61% accuracy (random: 6%), plant correct 81%, healthy vs. sick 93%.
+
+## DINOv2 + linear head
+
+A linear classifier on frozen [DINOv2](https://huggingface.co/facebook/dinov2-base) image embeddings, predicting the 5 pooled labels (plant type ignored).
+Full explanation (labels, cleaning, results, limits): [reports/dinov2-head.md](reports/dinov2-head.md).
+The label of each dataset's classes is in `labels.py`. Images live on `/data/user_data/mdrieux/msml_10718/raw` (`data/raw` links there); jobs run on Babel with `sbatch jobs/run.sbatch <script>`.
+
+```bash
+jobs/download.sh                       # the 3 datasets above + PlantDoc (github.com/pratikkayal/PlantDoc-Dataset)
+python build_pool.py                   # -> data/pool.csv: every image with its pooled label (no Augmented_* copies)
+python embed.py                        # DINOv2 embedding of every image (GPU)
+python clean.py                        # -> data/trainval.csv: duplicates merged, copies of test images dropped, 85/15 split
+python train_head.py --setting indoor  # -> results/indoor-224px/head.npz, reports/dinov2-head-indoor-224px.md
+python train_head.py --setting all     # -> results/all-224px/head.npz,    reports/dinov2-head-all-224px.md
+python predict.py results/all-224px/head.npz photo.jpg
+```
+
+Results on the 200-image test set (balanced accuracy):
+
+| Trained on | 224 x 224 px | 448 x 448 px (`--image_size 448` in embed.py and train_head.py) |
+|---|---|---|
+| Indoor dataset only | [71%](reports/dinov2-head-indoor-224px.md) | [70%](reports/dinov2-head-indoor-448px.md) |
+| All four datasets | [93%](reports/dinov2-head-all-224px.md) | [94%](reports/dinov2-head-all-448px.md) |

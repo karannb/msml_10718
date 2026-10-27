@@ -1,0 +1,101 @@
+{
+ "url": "https://lab.loopflowlabs.com",
+ "project": "msml_10718",
+ "title": "Plant condition classifier (10-718)",
+ "headline": "test_bal_acc",
+ "views": [
+  {
+   "title": "Test balanced accuracy",
+   "label": "Test balanced accuracy (200 images)",
+   "kind": "curve",
+   "metric": "test_bal_acc",
+   "better": "higher",
+   "shows": "balanced accuracy $\\frac{1}{|K'|} \\sum_{k \\in K'} \\frac{\\#\\{i : y_i = k, \\hat y_i = k\\}}{\\#\\{i : y_i = k\\}}$, $K'$ = labels present on the 200 images of data/testset.csv (100 Indoor, 50 Wilted, 50 PlantSeg), same for every experiment"
+  },
+  {
+   "title": "Test accuracy",
+   "label": "Test accuracy (200 images)",
+   "kind": "curve",
+   "metric": "test_acc",
+   "better": "higher",
+   "shows": "$\\frac{1}{200} \\#\\{i : \\hat y_i = y_i\\}$ on data/testset.csv"
+  },
+  {
+   "title": "Test balanced accuracy, Indoor images",
+   "label": "Balanced accuracy, Indoor test images (100)",
+   "kind": "curve",
+   "metric": "test_bal_acc_indoor",
+   "better": "higher",
+   "shows": "balanced accuracy $\\frac{1}{|K'|} \\sum_{k \\in K'} \\frac{\\#\\{i : y_i = k, \\hat y_i = k\\}}{\\#\\{i : y_i = k\\}}$, $K'$ = labels present on the 100 Indoor images of the test set (5 labels)"
+  },
+  {
+   "title": "Test balanced accuracy, Wilted images",
+   "label": "Balanced accuracy, Wilted test images (50)",
+   "kind": "curve",
+   "metric": "test_bal_acc_wilted",
+   "better": "higher",
+   "shows": "balanced accuracy $\\frac{1}{|K'|} \\sum_{k \\in K'} \\frac{\\#\\{i : y_i = k, \\hat y_i = k\\}}{\\#\\{i : y_i = k\\}}$, $K'$ = labels present on the 50 Healthy-and-Wilted images of the test set (labels healthy, watering)"
+  },
+  {
+   "title": "Test balanced accuracy, PlantSeg images",
+   "label": "Balanced accuracy, PlantSeg test images (50)",
+   "kind": "curve",
+   "metric": "test_bal_acc_plantseg",
+   "better": "higher",
+   "shows": "balanced accuracy $\\frac{1}{|K'|} \\sum_{k \\in K'} \\frac{\\#\\{i : y_i = k, \\hat y_i = k\\}}{\\#\\{i : y_i = k\\}}$, $K'$ = labels present on the 50 PlantSeg images of the test set (labels fungal_bacterial, other)"
+  },
+  {
+   "title": "Validation balanced accuracy vs regularization",
+   "label": "Validation balanced accuracy",
+   "kind": "curve",
+   "metric": "val_bal_acc",
+   "better": "higher",
+   "shows": "balanced accuracy $\\frac{1}{|K'|} \\sum_{k \\in K'} \\frac{\\#\\{i : y_i = k, \\hat y_i = k\\}}{\\#\\{i : y_i = k\\}}$, $K'$ = labels present on the experiment's own validation images; step $k$ is the $k$-th value of `C_grid` (0.001 to 1)"
+  },
+  {
+   "title": "Confusion matrix on the test set",
+   "label": "Confusion matrix (test)",
+   "kind": "image",
+   "key": "confusion",
+   "shows": "rows = true label, columns = predicted label, counts on the 200 test images; colour = share of the row"
+  }
+ ],
+ "glossary": {
+  "algos": {
+   "dinov2-linear-head": "$\\hat y = \\arg\\max_k (W (z - \\mu) / \\sigma + b)_k$ with $z$ the frozen DINOv2 embedding of the photo and $(W, b)$ fit by class-weighted logistic regression"
+  },
+  "params": {
+   "setting": "which datasets the head is trained on: indoor (Indoor Plant Disease only) or all (Indoor, Wilted, PlantSeg, PlantDoc)",
+   "backbone": "frozen image model giving $z$ (facebook/dinov2-base, ViT-B/14)",
+   "embedding": "$z = [h_0 ; \\frac{1}{256} \\sum_p h_p]$: CLS token and mean patch token of the last layer",
+   "n_train": "$n$: number of training images after cleaning",
+   "n_val": "number of validation images after cleaning",
+   "sources": "datasets the training images come from",
+   "C_grid": "values of $C$ tried; the one with the best validation balanced accuracy is kept",
+   "C": "$C$: inverse regularization strength in $C \\sum_i w_{y_i} \\ell_i + \\frac{1}{2} \\lVert W \\rVert_F^2$",
+   "class_weight": "$w_k = n / (K n_k)$: each label weighs the same in the loss",
+   "val_frac": "share of each (source, label) group held out for validation",
+   "dup_threshold": "$\\tau$: two images are duplicates if $\\cos(h_0^{(i)}, h_0^{(j)}) \\geq \\tau$ (or identical files)",
+   "image_size": "$s$: the photo's shorter side is resized to $\\lfloor 256 s / 224 \\rfloor$, then center-cropped to $s \\times s$ pixels, giving $(s / 14)^2$ patch tokens"
+  },
+  "symbols": {
+   "x": "a photo",
+   "z": "frozen DINOv2 embedding of $x$, in $\\mathbb{R}^{1536}$",
+   "h_0": "CLS token of DINOv2's last layer",
+   "y": "pooled label: healthy, watering, fungal_bacterial, pest, other",
+   "K": "number of labels (5)",
+   "W, b": "weights and bias of the linear head, $W \\in \\mathbb{R}^{K \\times 1536}$",
+   "\\mu, \\sigma": "per-coordinate mean and standard deviation of $z$ on the training images",
+   "C": "inverse regularization strength",
+   "\\tau": "cosine-similarity threshold for near-duplicates",
+   "n_k": "number of training images with label $k$"
+  }
+ },
+ "table": [
+  "test_bal_acc",
+  "test_acc",
+  "test_bal_acc_indoor",
+  "test_bal_acc_wilted",
+  "test_bal_acc_plantseg"
+ ]
+}
