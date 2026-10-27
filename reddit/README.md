@@ -14,24 +14,10 @@ The 13 threads in `data/reddit/cases.csv` (the Reddit eval cases) are never scra
 
 ## Using the CSV
 
-`question`, `answer` and `outcome` are passages copied verbatim from the thread, and temporally
-consistent: the question holds only OP text posted before OP's confirmation, the answer only other
-users' text posted before it, the outcome only OP's confirmation and later comments. Images appear
-as `{Image_01}`, `{Image_02}`, ... (post photos after the title, OP's "after" photos in the
-outcome) and column `Image_NN` holds that image's path from the repo root. Reddit's own braces are
-doubled, so `str.format` fills the placeholders:
-
-```python
-import pandas as pd
-df = pd.read_csv("data/reddit/resolved/threads.csv", dtype=str).fillna("")
-image_cols = [c for c in df.columns if c.startswith("Image_")]
-row = df.iloc[0]
-prompt = row.question.format(**{c: "<image>" for c in image_cols})
-images = [row[c] for c in image_cols if row[c]]   # in placeholder order
-```
-
-Other columns: `plant`, `problem`, `advice_summary` (Claude's summary of the thread),
-`*_sources` (comment IDs each field was copied from), `advice_comment_url`, `outcome_comment_url`.
+See the data card, [`data/reddit/resolved/README.md`](../data/reddit/resolved/README.md). It
+covers every column, what the build guarantees (verbatim text, right author, right order in time),
+what to keep away from a model under test, and ready-to-run loaders for Claude, Gemini and
+`diagnose.py`.
 
 ## Pipeline
 
