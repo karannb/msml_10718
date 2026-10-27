@@ -83,3 +83,23 @@ python diagnose.py --image photo.jpg --title "..." --body "..." --dry_run   # sh
 ## Reddit "advice that worked" dataset (`reddit/`)
 
 96 Reddit threads where OP came back to confirm a commenter's advice worked, each cut to a verbatim question → answer → outcome with its photos: `data/reddit/resolved/threads.csv` and `data/reddit/resolved/images/`. Images are `{Image_01}`, `{Image_02}`, ... placeholders in the text, filled with `str.format` from the `Image_NN` path columns. Columns, guarantees, caveats and loaders for Claude, Gemini and `diagnose.py`: [data/reddit/resolved/README.md](data/reddit/resolved/README.md). The scrape → label → one-turn pipeline: [reddit/README.md](reddit/README.md).
+
+## Evaluation
+
+Method, metrics and baseline results: [eval_methodology.md](eval_methodology.md). Citation sources: [corpus.md](corpus.md).
+
+```bash
+python run_system.py --classifier SPEC [--recommender SPEC] --run NAME   # or --system SPEC
+python evaluate.py runs/NAME [--task native] [--baseline runs/OTHER] [--judge] [--check-urls]
+python score_outcomes.py   # hand-judged recommendation baselines on data/reddit_cases.csv
+```
+
+`SPEC` is an endpoint (`https://…`), a file of outputs (`file:preds.csv` with `image,pred[,confidence]`, or JSONL) or `py:module:function`.
+`evaluate.py` reports accuracy and balanced accuracy (5 labels, or `--task native` for the 16 classes), McNemar vs a baseline, harm flags, citation checks, LLM-judge scores, error rate, latency, cost and expected error cost, in `results/NAME.json` and `results/summary.csv`.
+Endpoints receive `POST {case_id, description, image: {mime, data_b64}, diagnosis}` (`diagnosis` only for recommenders) and return any of:
+
+```json
+{"diagnosis": {"label": "pest", "confidence": 0.8},
+ "remedies": [{"action": "Dab mealybugs with rubbing alcohol.", "source_url": "https://..."}],
+ "usage": {"cost_usd": 0.001, "input_tokens": 1450, "output_tokens": 210}}
+```

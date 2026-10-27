@@ -1,0 +1,66 @@
+case_id,system,condition,run_date,answer,coverage,source_post_retrieved,solved,harm
+1,google_lens,generic_question,2026-09-28,Underwatering first; temperature shock third,mentioned,False,,
+3,google_lens,generic_question,2026-09-28,Watering stress; fungal spot,missed,False,,
+5,google_lens,generic_question,2026-09-28,Mealybugs,chosen,True,,
+6,google_lens,generic_question,2026-09-28,"Underwatering, most likely",chosen,False,,
+10,google_lens,generic_question,2026-09-28,Mealybugs,chosen,False,,
+11,google_lens,generic_question,2026-09-28,No AI Overview; visual matches did not identify thrips,missed,False,,
+12,google_lens,generic_question,2026-09-28,Healthy fern sori,chosen,True,,
+H,google_lens,generic_question,2026-09-28,Severe wilting; underwatering first,false_alarm,False,,
+2,google_lens,generic_question,2026-09-28,Stem and root rot,,,,
+4,google_lens,generic_question,2026-09-28,Low light and support mentioned after leaf curl,,,,
+7,google_lens,generic_question,2026-09-28,Excess moisture or crown rot; aging,,,,
+8,google_lens,generic_question,2026-09-28,Dehydration and low humidity,,,,
+9,google_lens,generic_question,2026-09-28,Low light first; humidity also mentioned,,,,
+1,google_lens,poster_details,2026-09-28,Severe dehydration first; cold exposure later,mentioned,True,,
+3,google_lens,poster_details,2026-09-28,Thrips infestation,chosen,False,,
+5,google_lens,poster_details,2026-09-28,Mealybugs,chosen,True,,
+6,google_lens,poster_details,2026-09-28,"Peace lily; dehydration if soil is dry, root trouble if wet; asks for soil check",mentioned,False,,
+10,google_lens,poster_details,2026-09-28,Stem/root rot plus mealybugs or spider mites,mentioned,False,,
+11,google_lens,poster_details,2026-09-28,Thrips,chosen,True,,
+12,google_lens,poster_details,2026-09-28,Healthy fern sori,chosen,True,,
+H,google_lens,poster_details,2026-09-28,"Healthy, normal sprawling growth",chosen,True,,
+2,google_lens,poster_details,2026-09-28,Root and stem rot,,,,
+4,google_lens,poster_details,2026-09-28,"Low light, possible overwatering, and support",,,,
+7,google_lens,poster_details,2026-09-28,Overwatering or wet crown,,,,
+8,google_lens,poster_details,2026-09-28,"Too much sun, low humidity, or possible root issue",,,,
+9,google_lens,poster_details,2026-09-28,Overwatering from daily watering; recommends humidity tent,,True,,
+1,claude_sonnet_5.5_medium,image_only,,Fatsia wilt; watering/root trouble favored; cold shock mentioned,mentioned,,no,no
+3,claude_sonnet_5.5_medium,image_only,,"Watering, dry air or minor sun damage",missed,,no,yes
+5,claude_sonnet_5.5_medium,image_only,,Mealybugs,chosen,,no,no
+6,claude_sonnet_5.5_medium,image_only,,Overwatering/root trouble favored; underwatering mentioned,mentioned,,yes,no
+10,claude_sonnet_5.5_medium,image_only,,Mealybugs on the growing tip,chosen,,no,no
+11,claude_sonnet_5.5_medium,image_only,,Lamp burn favored; thrips as an alternative,mentioned,,no,yes
+12,claude_sonnet_5.5_medium,image_only,,"Normal sori, not pests",chosen,,yes,no
+H,claude_sonnet_5.5_medium,image_only,,Not sick; asserted low light caused the sprawl,mentioned,,no,no
+2,claude_sonnet_5.5_medium,image_only,,"Normal variegation; rootless base might reflect rot, callus or lost roots",,,,
+4,claude_sonnet_5.5_medium,image_only,,Leggy Monstera adansonii; more light and support,,,,
+7,claude_sonnet_5.5_medium,image_only,,Suspected crown/stem rot; advised less water,,,,
+8,claude_sonnet_5.5_medium,image_only,,Underwatering/low humidity favored,,,,
+9,claude_sonnet_5.5_medium,image_only,,Fittonia not diseased; leggy from aging/low light,,,,
+1,claude_sonnet_5.5_medium,poster_details,,Underwatering favored; cold shock third,mentioned,,no,no
+3,claude_sonnet_5.5_medium,poster_details,,"Thrips listed among possible pests, not chosen",mentioned,,no,no
+5,claude_sonnet_5.5_medium,poster_details,,Mealybugs,chosen,,no,no
+6,claude_sonnet_5.5_medium,poster_details,,Underwatering favored,chosen,,yes,no
+10,claude_sonnet_5.5_medium,poster_details,,Mealybugs on the white tip; added unverified root stress,chosen,,no,yes
+11,claude_sonnet_5.5_medium,poster_details,,Lamp burn favored; thrips an alternative,mentioned,,no,no
+12,claude_sonnet_5.5_medium,poster_details,,Normal sori,chosen,,yes,no
+H,claude_sonnet_5.5_medium,poster_details,,Not sick; attributed sprawl to low light,mentioned,,no,no
+2,claude_sonnet_5.5_medium,poster_details,,Normal variegation; base could be callus/soil or early rot; check firmness,,,,
+4,claude_sonnet_5.5_medium,poster_details,,Low light and weak support,,,,
+7,claude_sonnet_5.5_medium,poster_details,,Suspected drying/low light; advised more consistent water (reversed),,,,
+8,claude_sonnet_5.5_medium,poster_details,,Root stress favored despite moist soil; low humidity/heat,,,,
+9,claude_sonnet_5.5_medium,poster_details,,Aging plus dry heat/low humidity; mentioned watering,,,,
+1,google_text_search,title_only,2026-10-05,"Results about distress signals, state services, music, emergencies",missed,False,,
+3,google_text_search,title_only,2026-10-05,All five results about animal rescue,missed,False,,
+5,google_text_search,title_only,2026-10-05,Result 5 lists mealybugs in a broad problem catalog,mentioned,False,,
+6,google_text_search,title_only,2026-10-05,Baby memes and childbirth stories,missed,False,,
+10,google_text_search,title_only,2026-10-05,Result 2 lists mealybugs among pests; others emphasize root rot and watering,mentioned,False,,
+11,google_text_search,title_only,2026-10-05,Result 4 names thrips among possible pests,mentioned,False,,
+12,google_text_search,title_only,2026-10-05,Results 1-2 and 4 explain normal spore structures,chosen,False,,
+H,google_text_search,title_only,2026-10-05,General care guides; no finding of normal growth,missed,False,,
+2,google_text_search,title_only,2026-10-05,"Other people's Pilea, pothos and philodendron rescues",,False,,
+4,google_text_search,title_only,2026-10-05,"Emotional support, parenting, relationships",,False,,
+7,google_text_search,title_only,2026-10-05,Human crises and relationships,,False,,
+8,google_text_search,title_only,2026-10-05,Volunteering and helping people,,False,,
+9,google_text_search,title_only,2026-10-05,Results 2-3 recommend high humidity and a plastic-bag dome (matches the poster's helpful action),,False,,
