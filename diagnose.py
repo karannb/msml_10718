@@ -18,6 +18,7 @@ import os
 from pathlib import Path
 
 import anthropic
+import nb
 from dotenv import load_dotenv
 from PIL import Image, ImageOps
 
@@ -59,6 +60,7 @@ def classifier_outputs(head, images):
     return "\n".join(lines)
 
 
+@nb.core
 def build_prompt(title, body, classifier=None):
     text = f"Reddit post, r/houseplants.\nTitle: {title}\n\n{body}".rstrip()
     if classifier is not None:

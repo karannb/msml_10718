@@ -58,11 +58,36 @@
    "kind": "image",
    "key": "confusion",
    "shows": "rows = true label, columns = predicted label, counts on the 200 test images; colour = share of the row"
+  },
+  {
+   "title": "Diagnosis score on resolved Reddit threads",
+   "label": "Diagnosis score (96 Reddit threads)",
+   "kind": "curve",
+   "metric": "diag_score",
+   "better": "higher",
+   "shows": "$\\frac{1}{96} \\sum_t s_t$, $s_t$ = 1 if the grader finds the answer's main diagnosis is thread $t$'s confirmed problem, 0.5 if partly, 0 if not; threads of data/reddit/resolved/threads.csv"
+  },
+  {
+   "title": "Advice score on resolved Reddit threads",
+   "label": "Advice score (96 Reddit threads)",
+   "kind": "curve",
+   "metric": "advice_score",
+   "better": "higher",
+   "shows": "$\\frac{1}{96} \\sum_t a_t$, $a_t$ = 1 if the grader finds following the answer would most likely have produced the fix that worked in thread $t$, 0.5 if partly, 0 if not"
+  },
+  {
+   "title": "Harmful answers on resolved Reddit threads",
+   "label": "Share of harmful answers (96 Reddit threads)",
+   "kind": "curve",
+   "metric": "harmful_rate",
+   "better": "lower",
+   "shows": "share of the 96 threads where the grader finds the answer recommends something likely to make the plant worse"
   }
  ],
  "glossary": {
   "algos": {
-   "dinov2-linear-head": "$\\hat y = \\arg\\max_k (W (z - \\mu) / \\sigma + b)_k$ with $z$ the frozen DINOv2 embedding of the photo and $(W, b)$ fit by class-weighted logistic regression"
+   "dinov2-linear-head": "$\\hat y = \\arg\\max_k (W (z - \\mu) / \\sigma + b)_k$ with $z$ the frozen DINOv2 embedding of the photo and $(W, b)$ fit by class-weighted logistic regression",
+   "llm-diagnosis": "answer = Claude(photos of the post, its title and text, optionally the classifier's probabilities per photo), graded against the advice that worked in the thread"
   },
   "params": {
    "setting": "which datasets the head is trained on: indoor (Indoor Plant Disease only) or all (Indoor, Wilted, PlantSeg, PlantDoc)",
@@ -76,7 +101,12 @@
    "class_weight": "$w_k = n / (K n_k)$: each label weighs the same in the loss",
    "val_frac": "share of each (source, label) group held out for validation",
    "dup_threshold": "$\\tau$: two images are duplicates if $\\cos(h_0^{(i)}, h_0^{(j)}) \\geq \\tau$ (or identical files)",
-   "image_size": "$s$: the photo's shorter side is resized to $\\lfloor 256 s / 224 \\rfloor$, then center-cropped to $s \\times s$ pixels, giving $(s / 14)^2$ patch tokens"
+   "image_size": "$s$: the photo's shorter side is resized to $\\lfloor 256 s / 224 \\rfloor$, then center-cropped to $s \\times s$ pixels, giving $(s / 14)^2$ patch tokens",
+   "model": "Claude model that answers the post",
+   "grader": "Claude model that grades each answer against the thread's confirmed problem, advice and outcome, without knowing the option",
+   "option": "llm: post only; llm+classifier: post plus the classifier's probabilities for each photo and a warning that it is unreliable",
+   "classifier": "trained head whose output is added in option llm+classifier",
+   "n_threads": "number of resolved Reddit threads evaluated"
   },
   "symbols": {
    "x": "a photo",
@@ -88,7 +118,12 @@
    "\\mu, \\sigma": "per-coordinate mean and standard deviation of $z$ on the training images",
    "C": "inverse regularization strength",
    "\\tau": "cosine-similarity threshold for near-duplicates",
-   "n_k": "number of training images with label $k$"
+   "n_k": "number of training images with label $k$",
+   "t": "a resolved Reddit thread",
+   "x_j": "the $j$-th photo of a post",
+   "p(y \\mid x_j)": "the classifier's softmax probability of label $y$ for photo $x_j$",
+   "s_t": "diagnosis grade of thread $t$: 1, 0.5 or 0",
+   "a_t": "advice grade of thread $t$: 1, 0.5 or 0"
   }
  },
  "table": [

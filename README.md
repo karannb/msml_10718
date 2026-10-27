@@ -83,3 +83,11 @@ python diagnose.py --image photo.jpg --title "..." --body "..." --dry_run   # sh
 ## Reddit "advice that worked" dataset (`reddit/`)
 
 96 Reddit threads where OP came back to confirm a commenter's advice worked, each cut to a verbatim question → answer → outcome with its photos: `data/reddit/resolved/threads.csv` and `data/reddit/resolved/images/`. Images are `{Image_01}`, `{Image_02}`, ... placeholders in the text, filled with `str.format` from the `Image_NN` path columns. Columns, guarantees, caveats and loaders for Claude, Gemini and `diagnose.py`: [data/reddit/resolved/README.md](data/reddit/resolved/README.md). The scrape → label → one-turn pipeline: [reddit/README.md](reddit/README.md).
+
+## Claude on the 96 resolved Reddit threads (`eval_resolved.py`)
+
+Runs `diagnose.py` (Haiku) on every thread of `data/reddit/resolved/threads.csv`, with and without the classifier's output, and has a second Haiku call grade each answer blind against the thread's confirmed problem, the advice that worked and the poster's outcome. Result: adding the classifier makes no clear difference (diagnosis score 0.59 vs 0.59, advice score 0.55 vs 0.58). Report: [reports/llm-resolved-haiku-5-5.md](reports/llm-resolved-haiku-5-5.md); per-thread answers, grades and the grader's reasons: `results/llm/resolved-haiku-5-5/`.
+
+```bash
+sbatch -J resolved -c 2 --mem=16G --time=00:30:00 jobs/run.sbatch 'jobs/eval_resolved.sh'   # resumes; --model claude-opus-5-5 for Opus
+```
