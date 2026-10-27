@@ -61,3 +61,21 @@ Results on the 200-image test set (balanced accuracy):
 |---|---|---|
 | Indoor dataset only | [71%](reports/dinov2-head-indoor-224px.md) | [70%](reports/dinov2-head-indoor-448px.md) |
 | All four datasets | [93%](reports/dinov2-head-all-224px.md) | [94%](reports/dinov2-head-all-448px.md) |
+
+## Asking Claude what is wrong with a plant (`diagnose.py`)
+
+Input: a Reddit-style post, meaning one or more photos plus a title and body text. Two options:
+
+1. **`llm`**: the photos, the post and the question "What is wrong with my plant?" are sent to Claude (`claude-haiku-5-5`).
+2. **`llm+classifier`**: the same, plus the DINOv2 classifier's probabilities for each photo. The prompt lists the classifier's 5 classes and says it is often wrong and overconfident on phone photos.
+
+```bash
+# once: put your Anthropic API key in .env (git ignores it)
+echo 'ANTHROPIC_API_KEY=sk-ant-...' > .env && chmod 600 .env
+
+# runs both options; option 2 needs DINOv2, so run it on a compute node
+sbatch -J diagnose jobs/run.sbatch '$PY diagnose.py --image photo.jpg --title "SOS" --body "Leaves went black overnight" --out results/llm/sos.json'
+python diagnose.py --image photo.jpg --title "..." --body "..." --dry_run   # show the prompts without calling the API
+```
+
+`--mode llm` or `--mode llm+classifier` runs a single option. `--head` picks the classifier (default `results/all-224px/head.npz`). The prompt text is at the top of `diagnose.py`. `--model claude-opus-5-5` uses Opus instead of the default Haiku. First results on 3 Reddit photos: [reports/llm-reddit.md](reports/llm-reddit.md).
