@@ -79,3 +79,7 @@ python diagnose.py --image photo.jpg --title "..." --body "..." --dry_run   # sh
 ```
 
 `--mode llm` or `--mode llm+classifier` runs a single option. `--head` picks the classifier (default `results/all-224px/head.npz`). The prompt text is at the top of `diagnose.py`. `--model claude-opus-5-5` uses Opus instead of the default Haiku. First results on 3 Reddit photos: [reports/llm-reddit.md](reports/llm-reddit.md).
+
+## Reddit "advice that worked" dataset (`reddit/`)
+
+96 Reddit threads where OP came back to confirm a commenter's advice worked, each cut to a verbatim question → answer → outcome with its photos: `data/reddit/resolved/threads.csv` and `data/reddit/resolved/images/`. Images are `{Image_01}`, `{Image_02}`, ... placeholders in the text, filled with `str.format` from the `Image_NN` path columns. Columns, guarantees, caveats and loaders for Claude, Gemini and `diagnose.py`: [data/reddit/resolved/README.md](data/reddit/resolved/README.md). The scrape → label → one-turn pipeline: [reddit/README.md](reddit/README.md).
