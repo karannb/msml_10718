@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says \"Kentias tolerate lower light well, but avoid harsh direct sun,\" which steers the owner away from the fix that actually worked (more light) and could prolong the decline. The other steps (\"Check drainage,\" \"Water based on soil,\" \"Hold off on fertilizer and repotting\") are low-risk, and no chemicals are involved. The main risk is delayed correction, not direct damage."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference identifies insufficient light, with the plant pulling resources from older foliage. The model instead points to \"environmental stress from the move,\" dry air, watering, and water quality. Light appears only in passing (\"Moving to new light\") and is treated as non-critical. Most of the advice is a generic checklist that could apply to almost any palm, and none of it is tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps like \"Empty any standing water,\" \"Water thoroughly when the top 2\u20133 cm is dry,\" pebble trays, and \"Remove fully yellow or brown fronds at the base with clean scissors\" are concrete. They are easy for any home owner to do with common items."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Check drainage",
+  "Water based on soil, not a schedule",
+  "Raise humidity. Group it with other plants, use a pebble tray, or run a humidifier",
+  "Use bright, indirect light",
+  "Use filtered or rainwater if you can",
+  "Hold off on fertilizer and repotting",
+  "check the roots for rot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2620,
+ "output_tokens": 544
+}

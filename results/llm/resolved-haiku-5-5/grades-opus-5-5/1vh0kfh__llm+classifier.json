@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check feed strength for possible overfeeding",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check runoff pH of the root zone",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the medium stays soggy or dries out too fast",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether leaf tips look bleached or crispy and the light distance",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Note which leaves are yellowing (old lower vs new top)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Measure runoff EC/PPM if a meter is available",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take close-up photos of affected leaves, top and underside",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names nutrient deficiency (nitrogen) as the top likely cause, which matches the confirmed problem, but it never tells the owner to feed the plant and focuses on checks instead, so the advice only partly leads to the fix; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2079,
+ "output_tokens": 502
+}

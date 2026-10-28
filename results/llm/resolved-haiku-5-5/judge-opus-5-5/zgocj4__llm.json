@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Rehydrating with \"Bottom-water it\" correctly targets the underwatering. However, \"Hold off on repotting. The soil doesn't need to be replaced right now\" overlooks the drainage problem the REFERENCE confirmed. If the pot has no holes, bottom watering won't work and later watering could pool. The model partly hedges with \"Make sure excess water can drain out\", which keeps the risk minor rather than serious."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly picks out dry soil: \"a quarter cup of water over a month is probably not enough for the root zone\". It also cites case evidence such as the stretched stems and the decorative bowl. But it misses the REFERENCE's main point, that the pot and soil setup is the root problem and needs a repot into a container with drainage holes. Instead it advises the opposite (\"Hold off on repotting\"). The light advice is plausible given \"limited sun exposure\" but is secondary."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are clear and doable: \"Set the pot in a tray or bowl of water for 15\u201320 minutes\", move it to the brightest window, and optionally buy a grow light. One catch is that bottom watering needs drainage holes, which this setup may lack. A user could follow the step and see no effect, which adds ambiguity."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Improve the light. Move it to your brightest window",
+  "a cheap LED grow light on a timer for 12\u201314 hours a day can make a big difference",
+  "Repot only if it becomes root-bound or the soil stays soggy",
+  "Check the soil every few days, and water again when the top feels dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2398,
+ "output_tokens": 900
+}

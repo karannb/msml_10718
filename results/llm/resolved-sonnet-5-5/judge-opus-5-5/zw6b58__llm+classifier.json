@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe. The model warns against over-compacting: \"Don't compact it so hard that you crush the roots or choke off airflow.\" It also cautions about standing water: \"don't let it sit in standing water.\" Correctly dismissing the classifier's \"watering\" alarm avoids pointless intervention. Nothing here risks harm to the plant, the person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The model correctly says \"The problem is the stability of the setup, not a disease,\" which matches the reference. Its main fix, \"Set the clear pot inside a ceramic or terracotta cachepot,\" is exactly what the poster did and what worked. Rock counterweights (\"tuck a rock down the side\") also match the commenters' advice. The causes it gives (top-heavy bloom spike, light bark, fresh repot) are tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses common household items: a heavier outer pot, pebbles, rocks, a chopstick, and existing stakes and clips. The steps are concrete and numbered, such as \"Gently work the bark down around the roots, using a chopstick.\" A typical owner could do all of this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2513,
+ "output_tokens": 460
+}

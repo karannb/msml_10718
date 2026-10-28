@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Bring him back inside to bright, indirect light\" and \"Water thoroughly... then empty the saucer,\" directly addresses dehydration without risking overwatering, since it adds \"Don't let him sit in soggy soil.\" The \"Gently tug on the plant\" check and the rot-cutting step are conditional and low-risk. No chemicals or toxicity concerns are involved."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"all point to underwatering. Moving him outside probably made it worse,\" matches the reference's underwatering after going outdoors, and \"Bring him back inside\" plus \"Water thoroughly\" mirror the commenters' advice. However, it attributes the outdoor stress to \"drier and windier\" air and never names sun stress or scorch. It mentions sun only in passing with \"Avoid direct sun for now.\" Some steps are generic filler, such as \"Don't fertilize\" and \"Be patient.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses only water, scissors, or a knife and a windowsill, and is clearly ordered, e.g. \"Soak the soil until water runs out the bottom, then empty the saucer.\" The checks (\"top inch or two of soil is dry,\" \"base feels firm, not mushy\") are easy for any owner to do this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "away from heating vents and drafts",
+  "water only when the top inch or two of soil is dry",
+  "Don't fertilize until he shows new growth",
+  "Be patient. Recovery can take several weeks",
+  "Trim only the fully brown, dead leaves with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2307,
+ "output_tokens": 1007
+}

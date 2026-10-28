@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe for the plant and the person. It warns against overwatering (\"evenly damp... never soggy\") and fertilizing (\"Don't fertilize until there is new growth\"), and it recommends shade during recovery. Tipping the plant out of the pot to check the corm adds a small disturbance, but it is offered as optional (\"or by poking at the soil\"). No chemicals are involved, and bananas are not notably toxic."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "\"Most likely cause: transplant shock and root loss from removing the pups and repotting\" matches the reference exactly. The advice to \"Cut off the dead leaves\" and keep the soil damp mirrors what the commenters recommended. The output cites case-specific evidence, including \"a yellow-green, still-living spear leaf\" and the firm green pseudostem, which is consistent with the new leaf the poster later reported. It also explains that the growing point is in the corm, which directly answers the user's question about recovery."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household tools: scratch the base, trim the dead leaves, water to \"wrung-out sponge\" dampness, and move the plant to bright shade. The output gives a clear timeline (\"3\u20136 weeks\") and a simple firm-versus-mushy test for deciding whether the plant is alive. Any home grower could do this within the week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Humidity helps.",
+  "Be patient.",
+  "Make sure the pot drains."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2611,
+ "output_tokens": 543
+}

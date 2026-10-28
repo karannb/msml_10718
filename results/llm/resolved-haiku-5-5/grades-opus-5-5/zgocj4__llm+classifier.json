@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Remove pot from decorative bowl and bottom-soak in an inch of water for 15-30 minutes, then drain fully",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that top inch of soil is dry or pot feels light before watering again",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If bowl lacks drainage, keep pot in a separate saucer and use bowl as cover only",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brightest window, ideally south- or west-facing",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If light is insufficient, set up a grow light for 12-14 hours a day",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Snip off dead brown material and trim leggy stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in spring if root-bound or soil stays soggy",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  }
+ ],
+ "reason": "It correctly identifies underwatering and recommends bottom-soaking, but it misses the poor soil and no-drainage pot, adds low light as a co-cause, and tells the owner not to repot even though repotting into a pot with drainage holes was the confirmed fix. The improved watering still helps, so this is not graded harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2129,
+ "output_tokens": 1215
+}

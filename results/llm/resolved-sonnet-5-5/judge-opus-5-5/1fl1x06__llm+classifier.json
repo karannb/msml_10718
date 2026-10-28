@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output recommends \"Dab it with a cotton swab dipped in 70% isopropyl alcohol\" and insecticidal soap or neem oil, with the caveat \"Test on one leaf first, because polka dot leaves are thin and can be sensitive.\" These are standard low-risk treatments, and the patch test lowers the risk of leaf damage. The mention of a systemic insecticide is reserved for persistent infestations, though it has no pet or child safety warning. That is a minor omission that does not reach meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies a \"mealybug\", matching the reference. It cites case-specific evidence: \"oval, segmented, waxy body... fringe of short filaments\" and \"tucked into a leaf axil.\" The core advice to dab with alcohol and \"Inspect carefully\" matches the reference exactly. It also addresses the visible stem stub and the plant's hairs, both tied to the photos."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and numbered, and they use household items: \"cotton swab dipped in 70% isopropyl alcohol, or just squish it.\" Insecticidal soap and neem are easy to buy, and the schedule (\"every 7 days for 3\u20134 weeks\") is clear. The repeated spraying may be more than a single bug requires, but it is still easy to do."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the neighbors and keep monitoring them for a few weeks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2398,
+ "output_tokens": 543
+}

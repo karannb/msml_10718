@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice \"Put it in bright indirect light first. Strong direct sun could scorch the pale shoot\" matches the reference's warning against immediate direct sun. \"Keep the soil moist, not soggy\" and \"add drainage holes\" guard against rot. Nothing here risks harm to the plant or to people."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output says the seed is viable and should be planted (\"Plant it now\"). It explains that the pale, dead-looking shoot is etiolation from being kept in a dark cupboard, which ties directly to the case details. It also introduces light gradually, as the reference advises. The note on root hairs versus mold and the reminder that lychee seeds lose viability quickly are accurate and specific to this situation. The outcome described in the reference (vigorous growth) is consistent with the output's encouraging prognosis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only ordinary household materials: \"potting soil with perlite,\" drilling drainage holes in a cup, and placing the pot in bright indirect light. Clear failure signs are listed so the owner knows what to watch for. Any home grower could do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use a well-draining mix",
+  "Keep the soil moist, not soggy",
+  "Be patient"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2623,
+ "output_tokens": 477
+}

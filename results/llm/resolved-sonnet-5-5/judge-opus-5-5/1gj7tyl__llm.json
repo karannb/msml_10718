@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The steps are mostly safe: \"Test on one leaf first\", \"Isolate the plant\" and \"Don't let it sit in water.\" Two caveats are missing. The output mentions \"a systemic insecticide\" without warning about pets or children. It also says \"Use a cotton swab with straight alcohol\" without noting phytotoxicity risk on large areas. Neither is likely to cause serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output names thrips as a possibility (\"thrips/spider mite activity\") and suggests checking for \"fine webbing\", which the poster later found. It also correctly ties the big browning to the light change (\"Going from low light to a bright window suddenly can scorch leaves\"), matching the poster's follow-up. However, it leans toward scale and mealybug as the main ID rather than thrips. It also dismisses the specks as \"mostly like dust\" and says browning is \"most likely not from the bugs\", which only partly fits the reference. The treatment plan (isolate, wipe, neem/insecticidal soap repeated, systemic as an option) matches the reference closely."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use household or easily bought products: \"soapy water or diluted rubbing alcohol (about 50/50)\", \"insecticidal soap or neem oil every 5\u20137 days for 3\u20134 weeks\" and \"Rinse the plant in the shower.\" The paper-towel smear test and phone macro check are practical diagnostic tips."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Don't repot or fertilize now",
+  "make sure the pot drains. Don't let it sit in water",
+  "Trim badly browned edges if you like",
+  "keep the plant out of direct heating and cooling airflow"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3310,
+ "output_tokens": 627
+}

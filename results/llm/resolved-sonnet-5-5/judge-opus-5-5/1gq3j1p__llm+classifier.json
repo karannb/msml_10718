@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe. It includes 'Test any spray on one leaf first', a warning against spraying in strong direct sun, and a reminder to check the harvest interval on the pyrethrin label for edibles. The neem/insecticidal soap treatment would also work on the actual aphid problem, so following it would not harm the plant or delay effective action."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model says 'Most likely whiteflies' when the confirmed problem is aphids, so the diagnosis is wrong. It does hedge ('I can't rule out something else') and gives a shake test to confirm. Its core treatment, 'Spray with insecticidal soap or neem oil... Cover the undersides thoroughly', matches the reference fix that worked. Some steps are whitefly-specific and less relevant to aphids (yellow sticky traps for adults, vacuuming 'sluggish' adults), and aphids are never named as a possibility."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use easy-to-find supplies: shower rinse, insecticidal soap or neem, sticky traps, a handheld vacuum. The schedule is clear ('every 5\u20137 days for at least 3\u20134 weeks'), and the confirmation methods (shaking a branch, using a phone macro) are simple for any home grower."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Isolate the plant from your other houseplants right away",
+  "Inspect your other plants for the same pests",
+  "Remove the worst-affected leaves and bag them before throwing them out"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2522,
+ "output_tokens": 545
+}

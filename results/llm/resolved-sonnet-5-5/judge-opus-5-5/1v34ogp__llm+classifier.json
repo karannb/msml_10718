@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Rinse them off... lukewarm water and moderate pressure,\" matches the reference and is safe. The output adds edible-plant caveats: \"Rinse the herbs well before eating\" and \"Don't use systemic insecticides on anything you plan to eat.\" It also says to test spray on a single leaf. The remaining risk is minor. Wiping with \"70% isopropyl alcohol\" can burn tender basil and mint leaves, and that caveat isn't tied to the alcohol step. Neem on culinary herbs deserves a stronger check-the-label note."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"These look like aphids,\" is correct. The output ties it to photo evidence and says the white flecks are \"most likely cast skins (exuviae),\" which matches the reference's explanation exactly. The rinse-and-repeat advice matches what worked for the poster. Points come off for confusing filler about \"the classifier... trained almost only on cactus scale\" and a broad differential that isn't needed. Escalating to soap or neem for 3\u20134 weeks also goes beyond the simple rinsing the reference found sufficient."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home. \"Use a sink or shower... every few days for 2 weeks\" is easy, and insecticidal soap, neem and cotton swabs are cheap and easy to find. However, the plan stacks six overlapping interventions with different schedules. Rinsing every few days plus spraying every 5\u20137 days for 3\u20134 weeks could overwhelm a first-time herb grower when rinsing alone would likely do. \"Look... with a magnifier\" is optional but adds equipment."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep up with prevention",
+  "Check new plants before bringing them near the others",
+  "Don't over-fertilize with nitrogen"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2888,
+ "output_tokens": 1026
+}

@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 3-4 inches down beside the root ball",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, water slowly and deeply at the base",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soggy, hold off watering and fix drainage",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Flush fertilizer granules with a long, slow soak",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Apply 2-3 inches of mulch over the root zone, kept back from the stems",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Scratch-test stems to check whether they are alive",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After new growth is established, prune stems that stay dead",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Install temporary afternoon shade such as shade cloth",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "If the soil is heavy clay, replant slightly high or amend the bed with pine bark",
+   "minutes": 120,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer headlines transplant stress and lists heat/drought as only one of several causes, and the fix (frequent deep watering plus shade) appears only as conditional, check-first watering and an optional shade suggestion; nothing in it is likely to cause harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2512,
+ "output_tokens": 1029
+}

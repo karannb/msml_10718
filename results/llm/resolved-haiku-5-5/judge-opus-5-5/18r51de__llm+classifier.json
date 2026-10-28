@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Stop watering until the top few centimeters are dry\" and \"Check drainage\" suit the wet soil the user reports and are low risk. However, \"Inspect the roots\" and \"If you need to repot again\" could add stress to a plant still in transplant shock, though both are conditional. Croton sap is irritating and toxic to pets, yet trimming roots and cuttings is suggested without any glove or pet warning. \"Keep it in bright, indirect light\" may also keep the plant under-lit, which slows the recovery the reference tied to more sun."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output is partly right. It recognizes wet soil and \"Transplant stress adds to it,\" but it leads with drainage problems rather than transplant shock combined with low light. It misreads the mix by warning about \"a layer of LECA under it,\" when the user said the components were mixed 1:1:1. It also never names low light as a cause. The reference's key fix was more sun or a grow light, while the output says \"bright, indirect light,\" which is the opposite emphasis for a sun-loving croton."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Stop watering,\" \"remove it from the decorative sleeve,\" check that the pot has holes, and look for firm white or tan roots. Repotting with perlite or an orchid-style mix is optional and easy to buy for. There is some ambiguity about when to escalate to root inspection, but overall the plan is practical for a typical owner."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "resist the urge to fertilize while it recovers",
+  "Expect some further leaf drop while it adjusts",
+  "Make sure the pot has holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2904,
+ "output_tokens": 972
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice matches the reference and is safe: \"Change the water completely every 3 to 7 days. Don't top off\" and \"Trim off the rotten parts.\" The suggestion of \"about 1 drop of 3% hydrogen peroxide per cup of water\" is a very mild, low-risk dose. Minor gaps: there is no reminder to sterilize the scissors, and no note that pothos is toxic to pets or children, which matters for trimmed cuttings."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"root and stem rot caused by stagnant water\" with \"Topping off doesn't refresh the water or add oxygen,\" matches the reference's confirmed root rot from low oxygen and ties directly to the poster's admission. However, it misses the reference's key point that hydroponic plants need diluted water-soluble fertilizer. It even notes \"Stored energy running out\" after a year without growth but never recommends feeding. It also does not mention that the mug was too small and held too little water. The suggestion to \"Consider switching to soil\" is generic and not part of the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week: trim the rotten roots, wash the container with soap and hot water, do full water changes every 3\u20137 days, let tap water sit overnight, and move the plant to bright indirect light. Everything needed is common household material. Hydrogen peroxide is optional and easy to buy."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it to bright, indirect light",
+  "Consider switching to soil",
+  "check for pests if you move it to soil",
+  "Keep the soil lightly moist, not soggy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3093,
+ "output_tokens": 904
+}

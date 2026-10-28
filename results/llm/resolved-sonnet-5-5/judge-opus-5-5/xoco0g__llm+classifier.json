@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. It recommends to \"Keep the soil lightly moist and don't let it dry out fully\" and to raise humidity, which addresses the real problem. The main risk is false reassurance: \"You're probably doing fine\" on watering and \"Be patient for a few more weeks\" could delay the prompt watering and moisture the plant needed. No chemical or toxicity concerns."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It names \"Low humidity or dry air near the window\" as a likely cause, which partly matches the reference (moisture stress). But it ranks \"Adjustment to the move\" first and dismisses the watering signal (\"Nothing in the photo looks like clear over- or underwatering\"), when underwatering was in fact the issue. It also says \"Misting helps little,\" yet misting plus water fixed the curling almost immediately. Several causes are listed without committing to the right one."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"grouping plants, using a pebble tray, or running a humidifier,\" \"Check the soil a few cm down,\" and adding a sheer curtain. However, the guidance is spread across several hypotheses, which makes it less clear what to do first, and none of it gives an immediate fix for the acute curling."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Make sure the pot drains well and doesn't sit in water",
+  "Calatheas prefer bright indirect light",
+  "Be patient for a few more weeks and watch the new growth",
+  "post a closer photo of the leaf undersides"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2693,
+ "output_tokens": 742
+}

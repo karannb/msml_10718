@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model calls transplant stress \"probably the main factor\" and says watering every 4 days \"can work.\" It also advises keeping the plant \"evenly moist,\" watering after only the top 2\u20133 cm dries. Together these reassure the user and may keep the overwatering going, delaying the fix the reference confirms (letting the soil dry fully). It does mitigate this by flagging drainage (\"Make sure the pot has drainage holes\") and warning signs of root rot, so the risk is moderate rather than serious."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "Overwatering and lack of drainage appear only as cause #2, hedged with \"underwatering and low humidity can look similar.\" The confirmed cause in the reference is overwatering in a pot without drainage. The top-ranked diagnosis, transplant stress, is not supported by the reference. Much of the remaining advice (light, humidity, pests, soil mix, nutrients) is a generic checklist not tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable: \"Check the soil moisture with your finger or a chopstick,\" check drainage, inspect leaf undersides, and trim the yellow leaf. Some items take more effort, such as maintaining \"60% humidity or higher\" and buying a chunky mix with orchid bark. The long, scattered list also dilutes the single action that matters most."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright, indirect light and keep it away from AC vents and drafts",
+  "Aim for 60% humidity or higher if you can",
+  "Inspect the leaves, especially the undersides, for pests",
+  "Use a chunky, well-draining mix (potting soil with perlite and orchid bark)",
+  "Too little light or too much direct sun can both cause yellowing",
+  "Don't water on a fixed schedule"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2741,
+ "output_tokens": 911
+}

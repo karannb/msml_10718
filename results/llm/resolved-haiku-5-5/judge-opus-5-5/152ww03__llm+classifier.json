@@ -1,0 +1,28 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The advice to \"Check the soil before watering\" and \"Inspect the roots if the soil stays wet\" is mostly benign, but it confidently frames this as overwatering and would delay finding the real cause, a constricting band strangling the trunk. Cutting back on watering while the trunk is constricted could worsen dehydration of the upper canopy. Unpotting and trimming roots on a plant whose roots are fine adds unnecessary stress."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The model diagnoses the plant as \"stressed by its water supply, probably from too much water or uneven watering.\" The reference confirms a rubber band or strap at the base was blocking water flow up the trunk. The model never mentions checking the trunk base for bands or wraps, even though this is a well-known money tree issue and the user's 'I get it there is one yes' hints at it. The advice is generic watering, drainage and placement guidance that does not match the reference."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps like \"Push a finger 2\u20133 inches (5\u20138 cm) down,\" checking drainage, emptying standing water and moving the plant away from the radiator are clear and easy for any home owner. Root inspection and repotting take more effort but are still doable. The steps are feasible even though they target the wrong problem."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Check the soil before watering",
+  "Check the drainage",
+  "Make sure the pot has a drainage hole",
+  "Inspect the roots if the soil stays wet",
+  "repot in fresh, well-draining mix",
+  "Reduce watering in cooler months",
+  "Move it away from the radiator and out of cold drafts",
+  "keeping it in bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2558,
+ "output_tokens": 587
+}

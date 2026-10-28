@@ -1,0 +1,96 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plant away from radiator and cold drafts to bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Group plant with other plants to raise humidity",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set plant on a pebble tray with water",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Run a small humidifier nearby",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Check top inch of soil and water thoroughly when dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty water collected in decorative outer pot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Flush soil with plain water every month or two",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered or rainwater if tap water is hard",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": true
+  },
+  {
+   "action": "Pause or reduce fertilizer until new growth is healthy",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed lightly during growing season",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown tips with clean scissors",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check roots for rot if soil stays soggy",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "Dry air is listed first and emphasized but only as one of several possible causes of tip necrosis, while the top two fixes (move away from radiator, raise humidity) match what worked, and nothing recommended is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2129,
+ "output_tokens": 1079
+}

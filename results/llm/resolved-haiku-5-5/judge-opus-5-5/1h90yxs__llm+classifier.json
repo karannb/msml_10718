@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. \"Cut back to the last healthy green node,\" \"Propagate the cuttings,\" and \"Repot... with drainage holes\" match the reference approach. The root-rot speculation (\"If water collects at the bottom, the roots can rot\") is unverified, but the guidance it leads to is still harmless. Minor gaps: the plant is likely a pothos, and the output never warns about toxicity to pets or children when handling and propagating cuttings. The conservative trim could also leave the weak vines draining energy longer than needed."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output notices the core issue, \"Long, bare, woody stems... put its energy into long vines with little root support.\" However, it frames the main diagnosis as \"a root problem combined with drought stress\" rather than an overgrown, leggy plant needing a hard chop. It never recommends the decisive 60\u201380% cut that the reference says made the plant 'branch like crazy.' Instead it suggests cutting only dead sections back \"to the last healthy green node.\" Repotting and propagating cuttings do match the reference, but the photo details about a cachepot and debris are speculative."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Scratch a stem with your fingernail,\" root in water, and repot into a pot \"only 1\u20132 inches wider than the root ball.\" Everything uses easily available supplies. One ambiguity is how much to cut, since \"last healthy green node\" could leave almost all of the leggy vine. Moss poles and trellises are optional extras."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright, indirect light and avoid cold drafts or direct hot sun while it recovers",
+  "let the top inch or so of soil dry before watering again",
+  "fresh, well-draining potting mix",
+  "Don't leave it sitting in water",
+  "If you can share the plant's name or a close-up of the roots... I can give you more specific advice"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2986,
+ "output_tokens": 1101
+}

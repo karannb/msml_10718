@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scratch test the woody stalk to check if alive",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut woody stalk back to just above a leafy node",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no leaves on stalk, cut it near the soil",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune/pinch tips above leaf nodes regularly, max one third at a time",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pinch off flower buds as they appear",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Root trimmings in a glass of water",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Thin seedlings to strongest one or two",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Start fresh plants from cuttings or seed as backup",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer identifies the woody, leggy basil from poor pruning and gives clear advice to cut back the stalk and prune above nodes, matching the fix that worked, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2046,
+ "output_tokens": 522
+}

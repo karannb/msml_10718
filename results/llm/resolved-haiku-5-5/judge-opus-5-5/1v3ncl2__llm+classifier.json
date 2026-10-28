@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The model says the rue is overwatered and advises \"Water less often. Wait until the soil is dry several centimeters down\" and repotting into cactus mix. The confirmed problem was dehydration, so this would worsen it and delay the fix the poster needed. Repotting and root disturbance would add stress to an already dehydrated plant. It also omits any caveat that rue sap can cause phototoxic skin reactions, which matters because it recommends handling roots and pruning stems."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The headline diagnosis, \"too much water combined with too little light\", is the opposite of the confirmed dehydration. The REFERENCE says it \"may be need little more water\", and the poster confirmed the plant was dehydrated. The model dismisses the user's own dehydration hypothesis. The light and etiolation points are plausible but secondary, and the core watering advice is wrong."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Lift the plant out of the decorative pot\", repot with cactus soil and perlite, move it to the sunniest spot, and prune. A grow light is an optional extra purchase. The steps are actionable even though they target the wrong problem."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Hold off on fertilizer until it's recovering",
+  "Move it into your sunniest spot",
+  "If the roots look healthy and it still declines, let me know and we can look at other causes",
+  "Remove yellow, brown, and dead stems and leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2398,
+ "output_tokens": 531
+}

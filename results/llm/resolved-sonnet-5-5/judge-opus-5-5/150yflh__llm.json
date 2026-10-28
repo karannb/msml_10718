@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Leave it alone and let the leaf unfurl. Don't cut or unroll anything,\" is safe and matches the reference. Saying \"you don't need to change anything\" about the light avoids unnecessary changes. \"Check the roots\" could mean disturbing a young cutting, and no gentle method is given, but the risk is negligible. No chemicals or toxic hazards are involved."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly calls the plant healthy (\"Nothing looks wrong with your plant\"). It notes that \"Variegation often looks more extreme, or just different, on a leaf that hasn't unfurled,\" which matches the reference's 'wait until it's unfurled.' It also judges the 30W light at 1.5 ft fine, as the reference does. However, it never says the immature leaf typically darkens as it matures, which was the key reassurance in the reference. The 'What to do' list also drifts into generic care tips."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy: leave the leaf alone, keep conditions steady, and hold off on heavy fertilizing. The specific threshold \"above about 65\u00b0F\" helps, and \"Post an update once the leaf unfurls\" sets a clear checkpoint. Nothing requires special tools or products."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep conditions steady: bright light, warmth (above about 65\u00b0F), and humidity if you can manage it",
+  "Keep the medium lightly moist, not soggy",
+  "Don't fertilize heavily yet",
+  "Check the roots"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2857,
+ "output_tokens": 861
+}

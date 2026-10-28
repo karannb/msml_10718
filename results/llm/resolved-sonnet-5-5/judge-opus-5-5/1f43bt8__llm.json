@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model advises to 'Cut the stem (petiole) close to the base with clean, sharp shears' and 'Don't remove more than about 1/4 of the foliage at once.' Both are safe, conservative pruning practices. The watering guidance ('water deeply when the top 2\u20133 inches of soil are dry... isn't sitting in water') and the winter cold warning are sound. Nothing here would damage the plant or endanger people or pets in any meaningful way."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model correctly answers 'Pruning: yes' and recommends removing old, dead leaves, which broadly matches the reference. However, it misses the reference's specific targets: the bottom leaves touching the ground. It also tells the user to 'Leave alone: leaves that are still mostly green, even if torn,' which is more conservative than what actually improved the plant (the poster removed 7 leaves). It entirely misses the key pot warning that the container is narrow at the top and may need breaking. Instead it gives the generic 'Repot every 2\u20133 years.' Much of the maintenance section is boilerplate care advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only shears and scissors: 'cut along the brown with scissors,' 'Rotate the pot every week or two,' and 'Bring it indoors before nighttime temperatures drop below about 10\u00b0C / 50\u00b0F.' Any home owner can follow these this week without special tools."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Repot every 2\u20133 years in spring into a pot 2\u20134 inches wider, with well-draining mix",
+  "use a balanced fertilizer every 2\u20134 weeks in spring and summer",
+  "water deeply when the top 2\u20133 inches of soil are dry, and let the excess drain",
+  "check the undersides of leaves for spider mites and scale",
+  "Overwatering is the most common way to kill one"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2804,
+ "output_tokens": 939
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output tells the user to check the soil before watering: \"If it's bone dry... underwatered. If it's soggy and smells sour, suspect root rot.\" It also says to inspect the roots and remove rot. \"Water thoroughly after repotting, then let the top 1-2 inches dry out\" is standard and low-risk. A pothos toxicity warning for pets is missing, but no treatment involved creates a hazard."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly names the core issue as \"Too much length for the roots to support\" and root-bound, and calls cutting back \"the most important step\" with \"You can cut back hard\". This matches the reference's 60\u201380% chop-and-prop advice, and the propagation section mirrors it too. Points are lost for hedged extra causes like \"Possible watering swings\" and \"Low light, maybe\", and for not quantifying how hard to cut. It also lists repotting first rather than leading with the trim."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and home-friendly. \"Cut just below a node\", \"pot 1-2 inches bigger with drainage holes\", and \"Put them in water... Roots usually show up in 1-3 weeks\" need only scissors, a pot, and potting mix. Anyone could do this the same week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light to encourage fuller growth",
+  "Repot into a pot 1-2 inches bigger with drainage holes and fresh, well-draining potting mix",
+  "let the top 1-2 inches dry out before watering again"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2853,
+ "output_tokens": 563
+}

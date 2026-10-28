@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Move up only one size, about 2\u20135 cm wider, into a pot with drainage holes,\" is safe and correctly warns that \"Going much bigger can cause waterlogging.\" Dividing is framed as optional, and trimming \"any mushy ones\" is appropriate. \"You don't need to rush\" is a soft suggestion, not something that would harm a healthy, actively growing plant. No chemicals or risky steps are proposed."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies that \"the plant is root-bound\" from \"Roots have grown out through the drainage holes of the 27 cm pot.\" It recommends going up one size, which matches the reference exactly, and addresses the user's note about multiple plants in the pot. However, it adds an irrelevant digression about a \"classifier's 'fungal_bacterial 76%' call\" the user never mentioned. It also includes a speculative note on pale dots. \"Plants that are a little snug often flower better, so you don't need to rush\" slightly undercuts the reference's clear recommendation to repot, especially since indoor S. nicolai rarely flowers."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Most steps are concrete and doable: pick a pot 2\u20135 cm wider with drainage, loosen roots gently, and trim mushy ones. The healthy-vs-rotten root checklist is easy for a home owner to apply. One step is confusingly worded: \"You don't need to remove the roots from the old pot unless you see rot\" likely means old soil, and as written it could confuse a nervous first-time repotter. The suggestion to use a magnifier is minor, optional extra effort."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Repot in spring or early summer, when it's actively growing",
+  "into a pot with drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2337,
+ "output_tokens": 1091
+}

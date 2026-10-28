@@ -1,0 +1,82 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with a finger 2-3 cm deep",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly if soil is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift nursery pot out of decorative pot and empty standing water after each watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to a spot with bright indirect light away from heater/AC vents",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered or rainwater if tap water is hard",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": true
+  },
+  {
+   "action": "Flush soil with plenty of water about monthly",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fronds that are fully yellow or brown at the base",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown frond tips following the leaf shape",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Apply diluted fertilizer in spring/summer once recovered",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If base is mushy, soil smells sour, or yellowing spreads to new fronds, check roots for rot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with move stress and watering and lists low light only as a third possibility, and the key fix of moving it to brighter light is present but buried among many other steps; nothing recommended is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2356,
+ "output_tokens": 1085
+}

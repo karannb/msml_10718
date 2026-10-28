@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Holding off watering (\"Stop watering until the top 2 to 3 inches are dry\") and trimming only \"badly damaged leaves\" are low-risk. Two minor issues: \"Don't repot again\" would discourage the fix that worked here (a chunkier mix and removing nursery mesh from the corms). Suggesting a spot near \"a north window\" may still leave a light-hungry Alocasia too dark, prolonging the real problem."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model names \"transplant stress combined with soggy soil\" as the main cause and lists \"low light\" only as a contributing factor, while the reference identifies insufficient light as the primary problem. It does use case details such as the damp soil, the Miracle-Gro mix and the bathroom location. However, it invents \"two days after watering\", leaks internal \"classifier\" language, and never mentions grow lights or the strong light Alocasias need. The diagnosis is partly right."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are numbered, concrete and need no special tools: check soil depth, move toward a window, avoid drafts. \"Check the roots and base of the stems\" means unpotting the plant, which conflicts somewhat with \"Don't repot again\" and creates mild ambiguity. Overall a beginner can follow this within the week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Avoid major temperature swings",
+  "Don't follow a fixed schedule",
+  "Trim only the badly damaged leaves",
+  "Watch for new leaves unfurling over the next few weeks",
+  "Don't repot again or fertilize yet"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2765,
+ "output_tokens": 830
+}

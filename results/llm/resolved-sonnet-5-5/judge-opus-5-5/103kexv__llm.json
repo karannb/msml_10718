@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Check the roots,\" \"Cut off any rotted roots with clean scissors,\" and \"never leave the plant standing in water\" directly addresses root rot and would not worsen it. The output never mentions that peace lilies are toxic to cats, dogs, and children (calcium oxalate). That caveat matters because the user is told to handle and trim the plant. The \"let tap water sit out overnight\" tip is harmless, though it only helps with chlorine."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"overwatering and possible root rot,\" matches the confirmed problem. It is backed by case-specific evidence: \"black or dark brown and mushy-looking\" leaves, \"limp and drooping even though the soil looks moist,\" and a probable lack of a drainage hole. The steps match the reference's root inspection, cleanup, and warning about standing water, although the output suggests repotting rather than the water propagation that worked for the poster. The \"Other factors\" section on light, tap water, and drafts is generic filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only common items: \"Slide the plant out,\" \"clean scissors,\" a \"plastic nursery pot with drainage,\" and \"potting soil with extra perlite or bark.\" It gives a clear watering rule (\"top 1\u20132 inches of soil are dry\") and clear root descriptions (\"white or tan and firm\" versus \"brown or black, mushy\"). Any home grower could do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Peace lilies like bright, indirect light",
+  "Keep them away from cold drafts and heat vents",
+  "use filtered or rainwater, or let tap water sit out overnight"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2546,
+ "output_tokens": 625
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wipe each leaf with a damp microfiber or soft cloth, supporting it underneath",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use a soft brush to clean crevices near veins and stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse tops and undersides of leaves with a gentle lukewarm shower",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the film won't come off with water, wash with a tiny amount of mild dish soap and rinse well",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides with a magnifier or zoomed phone camera for mites, webbing and stippling every few days for about three weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites reappear, treat both leaf surfaces with insecticidal soap or neem oil per the label",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from others while treating",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies the residue as Captain Jack's dust rather than disease, and it recommends wiping and rinsing, but it relies on plain water or soap instead of the lemon-juice solution that fixed the problem; nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2084,
+ "output_tokens": 860
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk: \"Cut the flower spikes back... just above a pair of leaves,\" \"diluted balanced fertilizer every 2-4 weeks,\" and outdoor planting \"only after the last frost\" with hardening off. It recommends no chemicals beyond diluted fertilizer, and nothing would harm a healthy plant, people or pets. Calling the flowers \"edible\" is reasonable for basil."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly says the plant is healthy and flowering, with \"Nothing looks wrong with it.\" Its three core steps match the reference: trim the flower spikes, feed with a \"balanced fertilizer,\" and \"move it to a pot a size or two larger.\" It is less specific than the reference's 12-inch pot. Some cultivar claims are questionable: Wild Magic is generally sold as a vegetatively propagated perennial hybrid, so \"naturally short-lived,\" \"usually grown as a seed-sown annual,\" and the advice to save seed may mislead."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps like \"cut just above a pair of leaves or a leaf node,\" root cuttings in water, repot, feed every 2-4 weeks, and harden off \"over 7-10 days\" are concrete and need only common supplies. They are clearly ordered and doable this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep the soil lightly moist but not soggy",
+  "Make sure the pot drains well",
+  "Water at the base in the morning to reduce the risk of fungal problems",
+  "Choose full sun and rich, well-draining soil"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2734,
+ "output_tokens": 978
+}

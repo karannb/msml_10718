@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk. It says to 'Move the plant a few feet away from the radiator,' to raise humidity, and to 'Water... then empty the saucer... Don't let it sit in water.' Nothing here would worsen a dry-air problem. The fertilizer advice is conservative ('half strength or less'), and trimming instructions preserve healthy tissue."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output ranks 'Dry air from the radiator' as the most likely cause and cites case-specific evidence (radiator under the window). That matches the reference's confirmed diagnosis and the poster's fix of moving the plant to more humid air. It also lists three more causes (watering, salts, sun) and adds generic items like flushing and fertilizing, which dilutes the focus somewhat. Still, the primary diagnosis and its top remedies match the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: 'Move the plant a few feet away from the radiator,' use a 'pebble tray,' 'Let the top inch or so dry out,' and trim tips 'with clean scissors.' No special equipment is needed beyond an optional small humidifier."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Fertilize lightly, only during spring and summer, at half strength or less",
+  "Flush the soil every few months with plenty of water",
+  "Check for pests",
+  "Water thoroughly and consistently"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2442,
+ "output_tokens": 506
+}

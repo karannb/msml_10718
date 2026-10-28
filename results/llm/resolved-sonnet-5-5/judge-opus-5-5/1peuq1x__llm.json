@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice like \"Stop fertilizing\" and \"Check the roots\" is safe. Two minor risks: \"Run plain water through the pot for a few minutes\" could prolong sogginess in what the reference identifies as a dense, poorly draining mix. \"Keep the moisture even... lightly damp\" runs counter to the reference's thorough-water-then-dry-almost-fully approach. There is also no mention that Alocasia is toxic to pets and children, though the risk is low."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output rightly says fertilizer \"may have been the final straw\" for an already stressed plant. It flags \"Root or moisture issues. Alocasia hate soggy roots\" and \"Alocasia often drop older leaves,\" which matches the reference's leaf-drop prediction. However, it does not identify the dense, poorly draining mix or the overly large pot as the core problem. It only suggests repotting into \"fresh, airy mix\" if rot is found, and never mentions sizing the pot to the root ball. The variegation claim and the low-humidity point are speculative, and several steps (light, warmth, humidity) are generic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps are concrete and doable at home: stop fertilizing, flush, inspect roots, and \"Cut off only the fully brown parts.\" Root inspection on a baby plant is easy. Some guidance is vague, such as \"lightly damp but never soggy\" and \"good drainage and airflow,\" with no specific mix ratios or pot sizing."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright, indirect light and warmth",
+  "Aim for 65\u201380\u00b0F (18\u201327\u00b0C) and high humidity",
+  "Keep the moisture even",
+  "with good drainage and airflow",
+  "check the leaf undersides for webbing or stippling"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2939,
+ "output_tokens": 1060
+}

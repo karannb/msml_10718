@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Move it out of direct sun to a spot with bright, indirect light... Don't move it to a dark corner,\" directly addresses the confirmed problem and is what helped the poster. Watering guidance (\"Water only when that inch is dry\") is close to the reference's advice not to let the soil dry out completely. The other suggestions (pebble tray, filtered water, trimming badly damaged leaves) carry no meaningful risk to the plant, people, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"The most likely culprit is too much direct sun,\" matches the reference and cites the plant sitting in a bright window. However, the plant ID \"most likely a Calathea lancifolia (rattlesnake plant)\" is wrong at the species level; the reference says Goeppertia rufibarba. The output does get the genus and family context right (\"Calatheas are in the Goeppertia genus now\"). Some advice is generic add-on material, such as humidity, filtered water, and drainage, but it is reasonably tied to Marantaceae care and the office setting."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"a few feet back from the window or behind a sheer curtain,\" the finger test \"about an inch down,\" emptying the saucer, and trimming with clean scissors. A pebble tray or filtered water is cheap and easy to set up. An office worker could do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Make sure the pot drains. Empty any runoff from the saucer",
+  "Raise humidity with a pebble tray, a humidifier nearby, or grouping it with other plants",
+  "Use filtered or distilled water if your tap water is hard or chlorinated",
+  "Trim badly damaged leaves at the base with clean scissors",
+  "Be patient... new growth is the best sign that the change is working"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2585,
+ "output_tokens": 912
+}

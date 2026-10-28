@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output says the cause is \"overwatering with poor drainage, leading to root and stem rot\" and advises watering \"every 10\u201314 days.\" The reference found the plant was under-watered: water ran straight through the pot, and \"these plants like a fair amount of water.\" Cutting back watering would likely worsen the real problem. Aggressive root trimming (\"Cut away all rotted material\") on a plant that may not have rot adds some risk, though inspecting the roots first limits this."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output does pick up real case evidence: the light change (\"Moving it back to the window was a good call\"), drainage, and repotting, all of which match the reference. But its central diagnosis, \"overwatering\u2026 root and stem rot,\" reverses the confirmed cause of insufficient water with water draining straight through. It also misses that the plant was root-bound. It never connects the removed tray to water running straight out, which the poster confirmed was the issue."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: unpot, inspect roots, mix \"2 parts soil to 1 part perlite,\" and use a nursery pot inside the metal pot. It uses common materials such as cinnamon, perlite and scissors. Some steps depend on what the owner finds at the roots, which adds a little ambiguity, but it is clearly laid out."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "Don't water on a fixed schedule",
+  "Water when the top 1\u20132 inches of soil are dry",
+  "Use a pot with drainage holes",
+  "a bit more airflow will help prevent it from returning"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2783,
+ "output_tokens": 1011
+}

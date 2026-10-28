@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "Most watering and potting advice is low-risk. However, the plant is misidentified as a Dracaena when it is actually a Crinum. Two parts of the output could therefore hurt it. First, \"If the trunk is very tall and bare, you can cut it back to encourage new growth\" would mean cutting the pseudostem/bulb neck of a Crinum, which won't regrow like a cane. Second, \"Move it to bright, indirect light... a few feet back from the south window\" underserves a sun-loving Crinum, which the reference says needs maximum light and warmth."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The core ID is wrong. \"Your plant looks like a corn plant (Dracaena fragrans)\" conflicts with the reference's Crinum lily ID, later confirmed by the plant blooming as a spider lily. The 25 lb weight clue, which points to a large bulb, is ignored. Some advice coincidentally overlaps with the reference, such as \"standard potting mix with added perlite\" and watching cold windows in zone 5a. But the Dracaena-specific advice (fluoride sensitivity, cane cutting, peeling bark being normal 'for this species') is misdirected. It also misses the reference's tips on root warmth, heating pads and summering outdoors."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable: \"Soak the root ball until water runs out the drainage holes,\" \"go up only 1\u20132 inches in diameter,\" and \"Acclimate it over 2\u20133 weeks.\" Insecticidal soap and perlite are easy to buy. Feasibility is undermined only because the steps are tailored to the wrong plant."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Check leaf undersides and the joints where leaves meet the stem for mealybugs, scale, or spider mites",
+  "Wipe leaves with a damp cloth",
+  "Water again only when the top 1\u20132 inches are dry",
+  "Empty the saucer after watering",
+  "go up only 1\u20132 inches in diameter",
+  "Keep it away from cold drafts",
+  "trim any mushy, dark roots"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3389,
+ "output_tokens": 1107
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"move the calathea a foot or two inboard... away from the window glass\" and to \"Push a finger about 2 inches down. If it's still wet, hold off\" is conservative and low-risk. No chemicals are involved, and it explicitly warns against overwatering. \"Don't remove the curled leaves yet\" prevents unnecessary damage. Nothing here would worsen a humidity or cold-stress problem."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output names \"your cold house\" as the likely culprit. Humidity is only secondary: \"Dry indoor air from heating can make it worse\" and \"Calatheas are very sensitive to dry air.\" The reference confirms low humidity as the cause, so the output identifies the right factor but does not make it the primary diagnosis. Its humidity fixes (\"pebble tray,\" \"humidifier,\" grouping with the ZZ and snake plant) are weaker than the bag/enclosure method that actually worked. Pebble trays and grouping with low-transpiration succulents like ZZ and snake plant would add little humidity. The watering and water-quality bullets are generic checklist items."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing special: \"hold a hand near the glass,\" \"move the calathea a foot or two,\" \"Push a finger about 2 inches down,\" \"set it on a pebble tray.\" A humidifier and filtered or distilled water are easy to buy. Any home owner could do all of this within a week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Watering: ... Push a finger about 2 inches down. If it's still wet, hold off",
+  "make sure the plastic pot isn't sitting in water in its saucer",
+  "Water quality: Calatheas can react to tap water high in minerals, chlorine, or fluoride",
+  "Only trim leaves that are fully brown or crispy",
+  "set it on a pebble tray, or run a humidifier nearby"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2512,
+ "output_tokens": 836
+}

@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Repot into a pot 2-4 cm wider with chunky, well-draining mix, gently loosening the outer roots",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains out the bottom",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the top 3-5 cm of soil is dry before watering again",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the root ball is hydrophobic, soak the pot in a bucket for 15-20 minutes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered water or rainwater for watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant out of strong direct sun into bright, indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for a softening, discolored or smelly stem, mass leaf yellowing, or a collapsing crown, and post an update if seen",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the stem turns mushy, cut above the rot and root the healthy top",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer recognizes the root-bound, water-repelling root ball and the dehydrated stem but frames the plant as basically fine, so the diagnosis is partial; its top steps (repot, water thoroughly, soak if hydrophobic) match the fix that worked, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2373,
+ "output_tokens": 1060
+}

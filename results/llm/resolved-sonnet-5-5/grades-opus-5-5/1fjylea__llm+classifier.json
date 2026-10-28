@@ -1,0 +1,103 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with a finger or by lifting the pot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the pot has drainage holes",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scoop out the mold and 1-2 cm of topsoil and replace with fresh potting mix",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Remove dead leaves from the soil surface",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only when the top 2-3 cm of soil are dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty water from the saucer or outer pot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to a brighter spot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Improve airflow with a small fan or an open window",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If decline continues, slide the plant out and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown or mushy roots if found",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh well-draining mix in a pot with drainage holes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Optionally dust cinnamon on the soil surface",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Optionally drench the soil with diluted 3% hydrogen peroxide",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies mold caused by overly wet soil, but its main advice is to replace only the topsoil and let it dry, with a full soil change offered only as a conditional repot; nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2238,
+ "output_tokens": 1323
+}

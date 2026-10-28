@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is safe and fits the problem: \"Scrape off the moldy layer\", \"Water less often\", and checking the roots. The optional \"lightly spray the surface with a 3% hydrogen peroxide solution\" is commonly used undiluted at 3% on soil and is low risk, though it could stress roots if overdone. Cinnamon is benign. There is a small risk from tipping out and trimming the roots of a small plant unnecessarily, but the advice is conditional. Overall minor caveats only."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"surface mold, probably a saprophytic fungus feeding on damp organic matter... sign of overwatering\", matches the reference exactly, including the point that it is not a serious threat on its own. The poster resolved the problem by changing the soil, and \"Repot if needed... fresh, well-draining potting mix\" covers this. It cites case-specific evidence (\"the dried one at the left of the pot\"). However, steps like \"Increase airflow and light\" and the drainage advice are somewhat generic boilerplate."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses common household items: gloves, scissors, perlite, cinnamon, a fan, and hydrogen peroxide. The instructions are concrete, for example \"top half-inch\" and \"top 1 to 2 inches\". A typical owner could do all of it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Place the plant where it gets bright, indirect light and gentle air movement",
+  "Make sure the pot has drainage holes",
+  "Let the top 1 to 2 inches of soil dry out before watering again",
+  "Repot if needed"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2333,
+ "output_tokens": 594
+}

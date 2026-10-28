@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to \"set it in fresh soil at the same depth\" and to \"Keep the swollen trunk base at or just above soil level so it doesn't rot.\" This matches the reference's warning against changing soil height on the stem. The watering advice (\"Push a finger about an inch into the soil... If it's still damp, wait\") is conservative and safe. The only gap is that ficus sap is an irritant to pets, which goes unmentioned, but this poses no meaningful risk to the plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly concludes \"Should you repot? Yes\" and explains that top-dressing \"won't refresh the root zone, so repotting is the better choice.\" This matches the reference. It also directly answers the soil question, \"You don't need bonsai soil or layers... regular potting soil,\" which aligns with \"normal soil is just fine,\" and it ties the root-bound concern to the case evidence (\"two years in a small plastic nursery pot\"). One point off because the opening \"Nothing looks seriously wrong\" and the watering, drainage and pale-leaf checklist add generic, somewhat distracting material before the real answer. The reference also does not specifically warn against top-dressing for height reasons, which the model handles only implicitly."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and simple: \"regular potting soil with about a third perlite,\" \"one or two inches wider than the current pot. Plastic is fine,\" and \"Gently remove the plant, loosen the outer roots... water well.\" This directly addresses the user's complaint that blogs were too complicated. Everything needed is cheap and easy to find."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Push a finger about an inch into the soil. If it's dry, water thoroughly until it drains",
+  "Make sure the pot has them so water doesn't pool",
+  "if more leaves yellow, suspect overwatering or low nutrients"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2587,
+ "output_tokens": 681
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Water thoroughly... set the pot in a sink or tub of water for 20\u201330 minutes,\" fits a dehydrated plant with roots the user described as firm and white. The output also warns against overcorrecting: \"don't let the pot sit in standing water.\" Peace lilies are mildly toxic to pets, and a warning would have been nice, but the advice itself creates no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies the plant as a peace lily and the problem as underwatering, matching the REFERENCE. It ties the diagnosis to evidence in the CASE: \"Floppy, drooping leaves: the classic sign of underwatering\" and \"Healthy white, firm roots... isn't suffering from root rot.\" Its core advice, \"Water thoroughly\" and \"Cut off fully brown or yellow leaves,\" matches the REFERENCE's \"Cut the yellow, and WATER WATER WATER.\" A few general environment tips (light, humidity, flushing) dilute the focus slightly but don't contradict anything."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a sink or tub soak for 20\u201330 minutes, a finger test \"about 1\u20132 inches down,\" and \"clean scissors.\" Anyone can do these this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light, away from direct sun, heaters, and cold drafts",
+  "try grouping plants, using a pebble tray, or misting occasionally",
+  "Consider flushing the soil every few months",
+  "Be patient"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2646,
+ "output_tokens": 580
+}

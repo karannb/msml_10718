@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Water thoroughly if the soil is dry,\" matches the reference fix. It is safely gated by \"Push a finger 2 inches into the soil... If it's wet or soggy, hold off,\" which guards against the overwatering look-alike. It recommends no chemicals and warns that \"peace lilies are mildly toxic to cats and dogs.\" Suggesting a repot during recovery adds slight stress, but it is optional and low-risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies the plant as a peace lily and the problem as thirst: \"the drooping is most likely thirst... Peace lilies do this dramatically when dry.\" This matches the reference exactly. It cites case-specific evidence, such as the dark green, firm leaves and the black cachepot. The repot advice responds to the user's own comment about poor soil. Some padding is generic, including the light, fertilizer, and trimming tips, which would apply to almost any plant."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"Push a finger 2 inches into the soil,\" \"Water until it runs out the bottom, then empty any standing water,\" and \"let it drain for 10\u201315 minutes.\" Repotting with a store-bought aroid mix is easy for a beginner. A novice could do all of it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "Hold off on fertilizer for a few weeks while it recovers",
+  "Trim dead leaves",
+  "Repot if the soil is poor or compacted"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2575,
+ "output_tokens": 841
+}

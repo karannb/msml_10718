@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says to 'Move it back 1-2 m from the window or add a sheer curtain' and to 'Move it out of direct midday sun.' The reference found the plant was getting too little light on the shelf, so this would likely make the real problem worse and delay the fix that worked (moving it outside). The watering advice ('never leave it standing in water', 'Water... when the top 3-4 cm of soil is dry') is safe and roughly matches the reference's suggestion to space out watering. Switching to rainwater is harmless. Overall the risk is to the plant, through continued decline, not acute harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model ranks 'Tap water minerals' first and 'Too much direct sun' second. This is the opposite of the reference's confirmed cause, too little light from shelf shading, and the problem was solved by more light. Fluoride and hard water mainly cause brown tips, not dying black crowns, so that lead diagnosis is weak. The crown-rot and overwatering point ('Water sitting in the crown or in the saucer') partly overlaps with the reference's tip to water less. Much of the rest is a generic checklist (pests, fertilizer, drafts, roots)."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home owner: 'empty the saucer after 15-20 minutes', 'potting mix with some perlite', 'Trim the brown tips with clean scissors.' Rainwater or filtered water is easy to get. The main drawback is that the list covers five possible causes, so it is unclear which change to try first, though each step is simple."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Make sure the pot has drainage and the soil is airy",
+  "Check the roots and trim any dead, mushy ones",
+  "Check the crown for pests like mealybugs or thrips, and avoid heavy fertilizing",
+  "Less likely: cold drafts, fertilizer burn, or pests",
+  "Water thoroughly when the top 3-4 cm of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2809,
+ "output_tokens": 1006
+}

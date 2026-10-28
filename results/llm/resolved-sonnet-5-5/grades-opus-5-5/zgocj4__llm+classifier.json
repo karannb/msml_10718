@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water thoroughly until water runs out the drainage holes, then empty the saucer or outer bowl",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, bottom water by setting the pot in a dish of water for 15\u201330 minutes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that water isn't pooling in the outer bowl",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to the brightest spot, ideally a south or west window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, set up a grow light for 10\u201312 hours a day",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Snip off brown, dry stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut back leggy stems and press the cuttings into soil to root",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the soil is hydrophobic, refresh it with a gritty, fast-draining mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Feel the stems to check whether they are soft and limp or firm",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names underwatering but pairs it with low light and misses the no-drainage pot, and it gives deep and bottom watering while saying repotting isn't needed, so it captures part of the fix without causing real harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2294,
+ "output_tokens": 1182
+}

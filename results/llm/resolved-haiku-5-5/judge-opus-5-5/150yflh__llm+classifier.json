@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is reassuring and mostly safe: \"Your light setup is probably fine... Don't move it closer\" matches the reference, and it correctly warns to watch for \"crispy, tan, or papery white patches.\" The minor risks are \"gently tugging\" the cutting, which can disturb new roots, and the plastic bag humidity tip, which can encourage rot on a node cutting if overdone. Neither is likely to cause serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly concludes the plant is healthy (\"Nothing in this photo looks diseased\") and that the light is fine, which matches the reference. However, it attributes the whiteness mainly to albo variegation and misses the reference's key point: an immature, still-curled leaf looks lighter and darkens or shows more green once unfurled. It partly compensates with \"Variegation patterns also change from leaf to leaf\" and \"Don't panic about white leaves,\" and it uses case-specific details (30W, 1.5 ft, 8\u201310 hours)."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are simple and concrete: keep the current light setup, watch for burn signs, check for rooting, and monitor the node for \"softness or darkening.\" No special equipment is needed beyond an optional plastic bag or humidity dome. Any home grower could do this right away."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "keep the soil lightly moist, maintain humidity",
+  "give it bright indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2558,
+ "output_tokens": 921
+}

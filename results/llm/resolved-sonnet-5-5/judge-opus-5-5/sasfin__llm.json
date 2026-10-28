@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Soak it thoroughly... for 20-30 minutes... Then let it drain fully,\" directly addresses dehydration and is safe. The output correctly rules out root rot from the user's \"white and firm\" roots, and it gives sensible warning signs for overwatering. There are two minor gaps. It never mentions that peace lilies are toxic to pets and children (calcium oxalate), which matters when pruning leaves. It also suggests repotting a freshly stressed plant (\"Repot if it's root-bound\"), though this is conditional and low risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"Most likely underwatering or an inconsistent watering history,\" matches the reference. The two key actions also match: soak thoroughly and \"Cut fully yellow or brown leaves at the base.\" The output uses case evidence well, citing the white, odor-free roots and the crispy brown edges. Some content is padding that could apply to almost any plant, such as the tap water minerals note, the light advice, the fertilizer schedule and the moving stress list, which dilutes the focus slightly."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a sink or basin, room-temperature water, \"20-30 minutes,\" and \"clean scissors.\" The repotting guidance is specific (\"move up one pot size (1-2 inches wider)\"). The ongoing watering rule (\"when the top inch of soil is dry\") is easy to follow. Everything can be done today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it the right light. Bright indirect light is ideal.",
+  "Water when the top inch of soil is dry",
+  "Hold off on fertilizer for a month or so",
+  "Repot if it's root-bound",
+  "Tap water minerals. Fluoride and chlorine can cause brown tips over time.",
+  "Moving or stress. Plants that change homes often drop or yellow some leaves."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2796,
+ "output_tokens": 927
+}

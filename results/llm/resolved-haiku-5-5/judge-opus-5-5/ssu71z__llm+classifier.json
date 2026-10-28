@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says \"Don't water right away. Water only when the top inch or so of soil is dry\" and \"adding water now could cause rot,\" which protects against the overwatering risk the reference highlights. The humidity dome comes with \"Don't seal it completely,\" and the drainage advice is sound. Nothing here would harm the plant, the person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly names \"transplant shock\" for the drooping ivy and stresses \"restraint with water,\" which matches the reference. It does not mention the reference's specific concern that the ivy's pot is oversized, so the large soil volume dries slowly. It partly makes up for this by warning that \"Standing water is the most common way cuttings die\" and telling the user to check drainage. Plant-specific details, such as callusing the cactus segments and the tug test for roots, show the advice is tailored to this case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and uses household items: a plastic bag dome, the top-inch finger test, a gentle tug after 3\u20136 weeks, and the nursery pot used as a liner. The suggestion to \"drill one\" in terracotta takes a little effort, but the liner alternative makes it optional. A novice could follow all of this right away."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give the ivy bright, indirect light",
+  "Water only when the top inch or so of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2434,
+ "output_tokens": 509
+}

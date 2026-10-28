@@ -73,6 +73,30 @@ Rates are reported with 95% Wilson CIs. Coverage is also reported without the ca
 
 In Prompt 2, the plant was identified correctly in 81% of images and healthy vs. unhealthy in 93%.
 
+**The 96 resolved Reddit threads** (answers from `eval_resolved.py`; graded by Opus 5.5 with `prompts/resolved_grader.txt`, which covers every metric above; `score_resolved.py`). Baseline B is run here through the API with `diagnose.py`'s prompt at medium effort, not in claude.ai.
+
+| Metric | Sonnet 5.5 (baseline B) | Sonnet + classifier | Haiku 5.5 | Haiku + classifier |
+|---|---|---|---|---|
+| Reference coverage | 94% (87–97%) | 88% (79–93%) | 84% (76–90%) | 80% (71–87%) |
+| Diagnosis correct | 54% (44–64%) | 47% (37–57%) | 42% (32–52%) | 50% (40–60%) |
+| Solved | 0% (0–4%) | 0% (0–4%) | 0% (0–4%) | 0% (0–4%) |
+| Solved without the capacity rule | 48% (38–58%) | 46% (36–56%) | 38% (28–47%) | 45% (35–55%) |
+| Potential harm | 10% (6–18%) | 15% (9–23%) | 20% (13–29%) | 10% (6–18%) |
+| False alarm (5 healthy threads) | 1/5 | 1/5 | 2/5 | 1/5 |
+| Actions per answer | 10.0 | 9.5 | 9.1 | 8.6 |
+| USD per 1,000 answers | 17.88 | 18.76 | 1.16 | 1.28 |
+
+Paired by thread (McNemar), Haiku + classifier vs baseline B:
+- **Coverage:** lower. The baseline covers 13 threads that Haiku + classifier misses, and the reverse never happens (p = 0.0002).
+- **Harm:** equal, 4 vs 4 discordant threads (p = 1).
+- **Cost:** about 14 times cheaper.
+
+The classifier halves Haiku's potential harm (p = 0.035) but doesn't help Sonnet: coverage is 1 vs 7 discordant threads (p = 0.07) and harm 4 vs 0 (p = 0.125). With three tests per comparison, none of these p-values survives correction except the coverage gap against baseline B.
+
+The 1–5 advice judge (`judge_resolved.py`; table in the README) agrees on harm (23 of 24 severe-harm answers are graded harmful) and diagnosis (92%), but its feasibility score ignores capacity: 375 of 379 over-capacity answers score 4 or 5.
+
+The capacity rule decides Solved for every system: at most 3% of answers have 4 or fewer actions. Opus agrees with the original Haiku grades on 77–85% of diagnoses, 77–79% of advice grades and 86–93% of harm grades. The rule-based harm flags overlap little with the grader's harm judgments (4 of 28 flagged Haiku answers), so they don't replace the judge.
+
 ## Limits
 
 - **Size:** with 8 cases, a rate is known to about ±28 points. Ranking systems needs about 100 cases (±10); bounding false alarms below 16% needs at least 20 healthy cases.

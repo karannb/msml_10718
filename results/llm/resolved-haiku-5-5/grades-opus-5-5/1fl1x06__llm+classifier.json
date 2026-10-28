@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab each visible bug with a cotton swab dipped in isopropyl alcohol",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively remove bugs with a soft brush or gentle rinse",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Thoroughly inspect leaf undersides, stem joints, nodes and base for more pests",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray all surfaces with insecticidal soap or neem oil every 5-7 days for 3-4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Inspect other houseplants and new plants for pests",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether bugs are cottony (mealybug) or smooth dome-shaped (scale)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names mealybugs but only alongside scale as an equal possibility, and its main advice of dabbing with alcohol and inspecting thoroughly matches the fix that worked, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1960,
+ "output_tokens": 694
+}

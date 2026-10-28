@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Lift plant out of decorative pot and check roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim off brown, mushy, or smelly roots if present",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into container with drainage holes using cactus/succulent mix with perlite or grit",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Water only when soil is dry several centimeters down or pot feels light, then water thoroughly and drain",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to sunniest spot, acclimating gradually over a week",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use a grow light 12-14 hours a day if sunny spot not possible",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Prune yellow, brown, dead stems and leaves and cut back leggy stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses overwatering when the plant was actually dehydrated, and its advice to water less would likely make the dehydration worse and delay the fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2063,
+ "output_tokens": 511
+}

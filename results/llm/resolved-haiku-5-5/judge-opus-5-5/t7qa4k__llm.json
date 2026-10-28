@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Move it back a bit, or filter the light\" and \"Check the soil before watering... water only when it's dry at that depth\" carries no meaningful risk. Trimming the dead leaves is benign. The watering advice works against the overwatering the reference suspects, so nothing here would worsen the actual problem."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The primary diagnosis is \"sun scorch,\" while the reference points to older leaves dying off naturally and possible overwatering. The output does mention \"natural aging\" and warns about a fixed schedule and \"soggy roots,\" so it partly overlaps. However, it centers on light shock, and it omits the reference's moss pole and fertilizing advice. The scorch reasoning is tied to the case details (the move to a brighter window), so the output is a mix of partly right and plausible-but-different."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps such as \"Put it a few feet from the window or behind a sheer curtain,\" \"Cut them at the base,\" and \"Push a finger about 2 inches into the soil\" are concrete and need no special tools. Any home owner can do them this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Make sure the pot drains well",
+  "Give it a few weeks in the new spot",
+  "Philodendrons do best in bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2381,
+ "output_tokens": 482
+}

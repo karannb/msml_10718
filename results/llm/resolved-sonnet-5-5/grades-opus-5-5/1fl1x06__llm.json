@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab visible mealybug with alcohol-soaked cotton swab",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Thoroughly inspect leaves, nodes, tips and soil surface for more bugs and egg sacs",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test insecticidal soap or neem oil on a few leaves first",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray whole plant with insecticidal soap or diluted neem oil every 5-7 days for 3-4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Check nearby plants for mealybugs and keep checking weekly",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If infestation grows, apply systemic imidacloprid insecticide",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies the mealybug and leads with the same alcohol dab and thorough inspection that worked, with no harmful advice.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2095,
+ "output_tokens": 510
+}

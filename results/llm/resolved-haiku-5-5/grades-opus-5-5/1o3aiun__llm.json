@@ -1,0 +1,89 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Unpot and check roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim any rotten roots with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in a gritty mix of 1 part potting mix to 2 parts perlite, pumice or cactus mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Loosen the outer roots and break up the compacted peat root ball",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Confirm the terracotta pot has a drainage hole and remove any water-holding saucer",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture every few days and water deeply only when dry several inches down",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scratch-test stems for green under the bark",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune dead brown stems back to green wood",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move to bright shade or morning sun for 1-2 weeks after repotting, then back to full sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Overwinter in the garage under a grow light on a 12-14 hour timer",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Keep the plant dry for a few days before moving and secure the pot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames wet roots and dense soil, which is the opposite of the confirmed underwatering in fast-drying terracotta, and its advice to keep the terracotta, use a grittier mix and water less would worsen the drying out.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2449,
+ "output_tokens": 1170
+}

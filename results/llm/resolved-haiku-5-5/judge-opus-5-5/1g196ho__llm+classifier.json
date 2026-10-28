@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Gently slide the plant out of the pot\" and \"Repot if the soil is old\" right away disturbs a dehydrated, stressed plant in winter. The reference recommends holding off on repotting until spring/summer. The model also suggests soaking the pot \"for 20 to 30 minutes\" even though the user already watered thoroughly last night, which risks soggy old soil, though \"let it drain completely\" and \"water when the top inch or so of soil is dry\" limit that risk. None of this is likely to cause serious harm, and the poster later repotted successfully."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis of \"severe underwatering\" plus \"old, compacted soil\" that \"can also become hydrophobic\" matches the reference's drought stress and compacted, depleted soil. The epiphyte explanation and the suggestion to \"Make backup cuttings\" because of the plant's history are tailored to this case. However, the model invents a detail (\"cold drafts from that door\") that is not in the case. It also deviates from the reference's timing by pushing an immediate root check and repot rather than waiting until spring."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable with household items and an easily bought cactus mix: \"soak the pot in a bowl of water for 20 to 30 minutes,\" \"water when the top inch or so of soil is dry,\" and \"Healthy segments root easily in moist potting mix.\" Recovery signs are clearly described (\"Plump, green segments and new growth\"). Nothing requires professional tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light and stable temperatures",
+  "Make sure the pot has drainage holes",
+  "water when the top inch or so of soil is dry, not on a fixed schedule",
+  "Be patient",
+  "Don't fertilize until it's clearly growing again"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2702,
+ "output_tokens": 1016
+}

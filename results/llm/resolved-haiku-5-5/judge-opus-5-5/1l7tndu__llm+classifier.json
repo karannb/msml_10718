@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is gentle: shade, a mini-greenhouse that is opened daily, and no fertilizer. There is a minor risk in the emphasis on 'limiter l'arrosage' and 'arrosez seulement si les 1 \u00e0 2 premiers centim\u00e8tres sont secs'. A freshly transplanted seedling that collapsed within minutes likely needs immediate water, so withholding it could prolong the wilting. Nothing suggested is dangerous to people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies 'un choc de repiquage, pas une maladie' from the sudden collapse right after repotting, which matches the reference. It also covers the water-glass approach that actually revived the plants ('le basilic peut s'enraciner dans l'eau'), but only as a side note for photo 2 rather than the main fix. Some listed causes, like 'pot trop grand' and 'soleil direct', are speculative and not tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a plastic bag with holes, a finger test for soil moisture, and a glass of water. Timelines are given ('3 \u00e0 5 jours', 'racines 2 \u00e0 3 cm'). A beginner could follow all of it immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Ne pas fertiliser pendant la r\u00e9cup\u00e9ration",
+  "Les mettre \u00e0 l'ombre ou en lumi\u00e8re vive indirecte",
+  "Garder le substrat l\u00e9g\u00e8rement humide, pas d\u00e9tremp\u00e9",
+  "am\u00e9liorez l'a\u00e9ration"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2948,
+ "output_tokens": 841
+}

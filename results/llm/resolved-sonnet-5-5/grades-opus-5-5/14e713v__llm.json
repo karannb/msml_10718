@@ -1,0 +1,96 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check whether the stem base is firm or mushy and whether the leaves are soft",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take the plant out of the pot and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off any rotted roots with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into cactus or succulent mix with extra perlite or pumice (50%+ grit)",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check that the inner pot has drainage holes and empty water from the cache pot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bury the stem slightly deeper if it is long and bare",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wait a week after repotting, then water thoroughly only when the soil is completely dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place yellow sticky traps near the pot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 7,
+   "unclear": false
+  },
+  {
+   "action": "Water with a Bti treatment (mosquito bits) to kill gnat larvae",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Scrape off the moldy top layer of soil and replace it with dry grit or sand",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to a bright spot with a few hours of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the stem is mushy when unpotted, report back for guidance on cutting off the rot and re-rooting",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies the overly wet soil, mold and gnats but treats rot only as a conditional possibility and suggests it may have been caught early; its repotting into cactus mix and root trimming match much of the fix, but chopping off the rotten part is deferred to a follow-up, and nothing in it is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2564,
+ "output_tokens": 1428
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output warns against oversizing: \"A pot that's too big holds excess wet soil and risks root rot.\" It also says \"don't yank\" stuck roots and to avoid fertilizing for 3-4 weeks. Bird of paradise is mildly toxic to pets, but that isn't relevant to a repotting question. Nothing here would damage the plant or the person."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis matches the reference: \"the roots coming out of the drainage holes just mean it's getting root-bound.\" The advice \"Go up 4-5cm in diameter (about 30-32cm)\" is the same as the reference's \"only go up one size larger.\" The output uses case details: the 27cm pot, Strelitzia's fleshy roots, the multiple plants in the pot, and the user's fear of stunting. A few lines are generic, such as the soil mix and checking roots for rot."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The numbered steps are clear and use common supplies: a 30-32cm pot, potting soil with perlite or bark, and scissors. Advice like \"Lay the pot on its side and slide the plant out\" and \"Cut the pot if you have to\" is practical for a home owner. The choice about dividing comes with a clear recommendation."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use a chunky, well-draining mix",
+  "Make sure it has drainage holes",
+  "Trim anything black, mushy, or smelly",
+  "Keep it in bright light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2777,
+ "output_tokens": 534
+}

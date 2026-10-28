@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says \"Topping up with soil is fine as a quick fix,\" while the reference warns against adding soil on top because changing the soil height on the stem stresses plants. The caveat \"Don't bury the trunk flare\" limits this risk. The rest of the advice carries no meaningful danger: well-draining mix, \"don't prune the roots heavily,\" and pots with drainage. This is a minor risk at most."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output engages with this case well. It identifies a ginseng ficus, notes the \"soil level has dropped, so the upper roots... are exposed,\" and answers the user's soil and pot questions directly. However, it frames repotting as \"reasonable but not urgent\" and endorses topping up. The reference clearly says to repot and not top up. It also says \"Regular potting soil on its own tends to stay wet,\" whereas the reference says normal potting soil is just fine. The diagnosis is partly aligned, but the key advice diverges from the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are simple and match the user's wish to avoid complex blog instructions. \"You can skip the layered soil setups... Just put a bit of mix at the bottom, set the plant in, and fill around it.\" The materials are easy to buy: potting mix, perlite, and a pot 1\u20132 inches wider. Any home grower can do this."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water when the top 1\u20132 inches of soil feel dry, and let the excess drain out",
+  "Give it bright light, ideally some direct sun near a window",
+  "Avoid drafts and moving it around",
+  "Feed with diluted fertilizer every month or so in spring and summer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2768,
+ "output_tokens": 947
+}

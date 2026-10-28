@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Unpot, shake off wet soil, inspect roots and base",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut away all rotted tissue with sterilized knife/scissors",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dust cuts with cinnamon or sulfur powder",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Let plant dry 2-4 days in shaded airy spot to callus",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in cactus/succulent mix (with perlite/pumice) in pot with drainage holes",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Water only when soil is completely dry, starting after about a week",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scrape off moldy top soil and discard old soil",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set out yellow sticky traps for gnats",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 6,
+   "unclear": false
+  },
+  {
+   "action": "If rot reached stem center, separate and replant healthy pups",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively propagate healthy leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies overwatering root rot with mold and gnats as the main problem, and its core advice matches the confirmed fix: cut away the dark rot, repot in cactus soil and keep it dry; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2289,
+ "output_tokens": 675
+}

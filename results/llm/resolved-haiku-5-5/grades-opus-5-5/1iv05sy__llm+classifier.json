@@ -1,0 +1,68 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Rinse leaves gently with plain water and wipe with soft damp cloth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and check roots and soil",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Adjust watering, letting top 1-2 inches of soil dry between waterings",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf joints, undersides and stem base for pests with bright light and magnifier",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If cottony masses found, dab them with alcohol-dipped cotton swab",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Review environment (light, humidity, temperature, drafts) and adjust",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Remove fully brown dead leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take and share photos of roots and stem base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer says there is no active infestation and blames spray residue and watering, when the confirmed problem was a whitefly-type infestation; it also tells the owner to stop the alcohol treatment that actually cleared the bugs, which would delay the fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2396,
+ "output_tokens": 576
+}

@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. It tells the owner to check roots, improve drainage and water thoroughly, which won't hurt an underwatered kalanchoe, and it adds a sensible caveat: \"If the soil stays wet for days, or the stem base is mushy or dark, rot is the bigger problem.\" The main risk is delay. Saying \"Be patient. Firm leaves usually come back slowly, over several weeks\" after a month of no recovery could keep her dehydrated if the soil is shedding water. There is also no note that kalanchoes are toxic to pets."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The diagnosis of \"underwatering damage\" matches the reference. It also comes close to the real mechanism with \"roots... may be too weak to take up water well, so she can stay limp even with regular watering.\" However, it misses the key point that the dried-out soil isn't absorbing water. It never recommends the fix that worked, which was bottom-soaking or submerging the pot for about an hour. Its watering step, \"Soak the soil until water runs out the bottom,\" is the same routine that was already failing. Much of the rest is generic or speculative: light, rotating, fertilizer, and the overwatering possibility."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: lift the plant to check roots, keep her in the nursery pot, water and empty the cachepot, move her to a south or west window, rotate weekly. No special tools are needed. The root inspection and trimming may intimidate a novice somewhat. The list is also long and not prioritized toward the single most effective action."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give her more light. Put her in the brightest window you have",
+  "rotate her weekly so she grows straighter",
+  "Be patient",
+  "feed her lightly with diluted succulent fertilizer during spring and summer",
+  "Don't water on a schedule",
+  "Check the roots"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2938,
+ "output_tokens": 934
+}

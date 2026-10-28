@@ -1,0 +1,75 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture several inches down before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove plant from pot and inspect rhizome and roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot is found, cut away rotten roots with clean scissors or knife",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let plant air-dry for a few hours before repotting",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Discard moldy soil",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot at original depth in fresh chunky well-draining aroid mix with perlite or bark",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Use a pot with drainage holes, or a nursery pot with holes inside a decorative pot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Water only when top 2-3 inches of soil are dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove dead and yellowing leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses overwatering and root rot, while the confirmed problem was underwatering (water running straight through), poor drainage, a root-bound pot and low light. Its repotting, drainage and window advice partly matches the fix but misses thorough watering. The stop-watering advice is protected by a soil check, so it is not graded harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2184,
+ "output_tokens": 1348
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is conservative and safe. \"Don't repot again or move it around\" and \"Water it lightly if the soil is dry, but don't drown it\" avoid making transplant shock worse. \"Skip fertilizer for a few weeks\" prevents root burn. No chemicals are recommended, and the root-rot warning signs give a sensible point at which to act, so following this would not harm the plant, person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: transplant shock causing wilting. It is tied to case evidence: \"Rinsing the soil off bare-rooted it, and any fine feeder roots that broke can't take up water fast enough.\" The reassurance that \"it can recover\" agrees with the reference's \"give it time, it will bounce back.\" However, the zebra plant ID and the photo-based claims (\"Your photo looks fairly dim,\" \"a lot of perlite\") cannot be checked against the case. Much of the list (humidity, temperature, drainage) is a generic care checklist. The \"several days to a couple of weeks\" timeline is more pessimistic than the actual recovery within hours."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: leave it alone, water lightly only if dry, move it to bright indirect light, use a pebble tray, and skip fertilizer. Nothing requires special tools. A humidifier is offered as one option alongside cheap alternatives like a pebble tray or grouping plants."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light. Avoid direct sun.",
+  "Raise the humidity... Put it on a pebble tray, use a humidifier, or set it near other plants.",
+  "Keep it away from vents and drafts.",
+  "Keep it warm, around 65\u201380\u00b0F.",
+  "Check drainage. Make sure the pot has drainage holes and the mix is loose and well-draining"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2568,
+ "output_tokens": 961
+}

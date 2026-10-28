@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk: \"Fertilize lightly... at half strength\" and \"Pull the Mother of Thousands\" are safe and match the reference. The only concern is the hedge \"Overwatering or soil that stays wet too long,\" which points the wrong way for a plant in very fast-draining cactus mix and could encourage underwatering. It also gives no warning that Mother of Thousands (Kalanchoe) is toxic to pets when it tells the user to pull and handle it."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output names \"Low nutrients, because cactus mix is lean\" and \"Competition from the Mother of Thousands babies,\" and it recommends fertilizing and a less draining mix (\"likes slightly more moisture than a pure cactus mix gives\"). All of this matches the reference. However, it hedges this diagnosis among several alternatives, adds a light diagnosis that the case does not clearly support, and says \"You probably don't need to repot completely.\" In the reference, the poster repotted into less draining soil and the plants improved."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear and doable at home: \"Scrape off the top inch or two of soil,\" \"regular potting soil with about 30% perlite,\" \"balanced fertilizer at half strength every few weeks,\" and \"Prune the leggy stems back by about a third.\" All products are common, and the user can do this within the week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water when the top inch or two is dry. Don't let it sit in water.",
+  "Give it full sun, or at least 6 hours of bright light.",
+  "check the roots for rot. Mushy brown roots mean overwatering. Firm white roots mean the plant is fine.",
+  "Repot only if the roots are circling or poking out of the drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2696,
+ "output_tokens": 1068
+}

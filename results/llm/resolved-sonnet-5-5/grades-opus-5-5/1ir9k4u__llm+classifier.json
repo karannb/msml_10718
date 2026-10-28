@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Take the cutting out and check the stem for a node",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off brown mushy tissue down to firm healthy tissue",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Replant the cutting in clean water or barely damp moss in a clear jar, warm with bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the water every few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally dust the cut with cinnamon",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively dip the cut in rooting hormone if using moss",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Cut down large leaves on the cutting",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the parent plant's root ball for rot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot the parent in fresh chunky well-draining mix in a pot with drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames a missing node and rot, explicitly says the frequent-water-change routine is not the problem, and mentions slow timing only as a secondary cause; it recommends continuing water changes every few days and trimming the stem, which is the opposite of the fix that worked (remove moss, stop changing water, wait) and would likely delay rooting.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2640,
+ "output_tokens": 1194
+}

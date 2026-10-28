@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Stop watering on a schedule... every 3\u20135 weeks,\" correctly reduces watering, which is what the reference stresses most. However, the model calls root inspection \"optional but worthwhile\" and says \"It's not an emergency.\" The reference urges digging the plant out now to check for rot, so this framing could delay needed action. Leaf removal is limited to fully yellow stems, which fits the reference's warning against cutting stems that are only starting to yellow. The model also omits that ZZ sap is a mild irritant and toxic to pets, which matters when cutting rhizomes."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"probably overwatering,\" matches the reference. It is backed by case evidence: the \"raisin-like\" stem, yellowing starting in newer growth, winter conditions and moisture-retentive universal soil. Advice on longer watering intervals, rhizome inspection and amending the universal soil fits the reference. It falls short of 5 because it treats repotting and root inspection as optional, while the reference makes them the priority. It also judges watering by soil dryness rather than by stem firmness as the reference suggests."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home with common items: \"Check with a finger or a wooden skewer,\" lifting the inner pot out to empty standing water, and mixing in \"30\u201350% perlite, pumice, or coarse sand.\" It gives a fallback for the user's limited soil (\"If not, repot into the universal soil but water very sparingly\"). Clear signs for telling healthy rhizomes from rotten ones make the inspection easy to follow."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep the light where it is. Bright indirect light is good.",
+  "Avoid cold drafts from the window."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3042,
+ "output_tokens": 993
+}

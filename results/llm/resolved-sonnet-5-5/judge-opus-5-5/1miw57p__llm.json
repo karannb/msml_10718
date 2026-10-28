@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output ranks 'Planting and soil problems' and waterlogging ('If water pools there, the roots get waterlogged and rot') as most likely and advises 'If it's wet or muddy, hold off.' That framing could lead the owner to water less during a 100F heat wave, when the reference shows daily watering was needed. The conditional advice to 'lift the plants and replant them slightly high' would add serious transplant stress in extreme heat. The finger test and 'Stop fertilizing' lower the overall risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The confirmed problem is underwatering and drought stress. The model only places 'Heat and sun stress... fit heat and drought stress' third, behind speculative soil and drainage problems and possible overwatering. 'Stop fertilizing now' matches the reference's 'no need to feed yet,' and it notes the root ball may dry out. However, it never gives the core fix of watering daily, and much of the output speculates about drainage, oxalis, and mulch."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Most steps are concrete and easy for a home owner: 'Push a finger 2-3 inches down,' 'Pull the mulch back,' the scratch test, and 'a hose trickling for 10-15 minutes.' The percolation test takes several hours but is still doable. Lifting and replanting with pine bark fines is substantial effort, and shade cloth requires a purchase."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Don't use a schedule",
+  "Check the soil moisture and drainage",
+  "Water deeply only when the top 2 inches are dry. Morning is best.",
+  "Consider temporary afternoon shade cloth during heat waves",
+  "overwatering looks the same as underwatering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3031,
+ "output_tokens": 1034
+}

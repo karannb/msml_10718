@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk. \"Push a finger 2-3 cm... If it's wet, wait\" and emptying the cachepot guard against overwatering, and areca palms are non-toxic. There is a minor risk of delay: it names watering as \"the most likely thing to adjust\", which could keep the owner focused on water instead of the real cause. That risk is softened because it also says \"Move it to a spot with bright, indirect light.\""
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The reference confirms insufficient light. The model ranks light third and frames the main issue as \"transplant/environment stress\" with \"watering as the most likely thing to adjust.\" Its point #1 does mention moving \"to a dimmer home\", and it reasons well from the photos (older fronds yellowing, \"near a window with blinds and a curtain\"). However, the advice is diluted across watering, humidity, fluoride and trimming rather than centred on light."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need no special tools: the finger test, lifting the nursery pot out, moving the plant, and trimming brown tips. The many parallel recommendations are somewhat contradicted by \"avoid changing too many things at once.\" \"Use filtered or rainwater if your tap water is hard\" is a little ambiguous for an average owner."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil. Push a finger 2-3 cm in",
+  "keep it away from heater or AC vents",
+  "Use filtered or rainwater if your tap water is hard, and flush the soil",
+  "Hold off on fertilizer for now",
+  "Brown tips are common with low humidity",
+  "Give it a few weeks to settle"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2706,
+ "output_tokens": 851
+}

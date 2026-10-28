@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Unpot it and check the roots and corm... Trim all the rotten parts\" and \"Water only when the top 2\u20133 inches of soil are dry, not when the leaves droop,\" directly fixes the overwatering problem and is safe. Minor gaps: it never mentions that Alocasia is toxic to pets and children, a relevant omission when handling and trimming the plant. \"Some insecticidal soap\" on an already stressed plant comes with no spot-test caveat. Endorsing water culture for a plant with damaged roots carries some risk if the roots are not cleaned and the water is not changed."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies the main issue as \"root problems from the dense, wet soil. The soil is probably the bigger issue.\" It ties this to case evidence: the user waters \"whenever the leaves droop,\" which it explains as a rot cycle, plus the fine soil and the built-in tray. This matches the reference (overwatering in dense soil, fixed by repotting). The sun-stress co-diagnosis is reasonable given the user's own account. Some steps are generic filler (\"bright, indirect light,\" \"humidity moderate to high,\" \"Don't fertilize\"), and the pest inspection is speculative."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: unpot, inspect roots for \"mushy, brown or black, or smelly\" signs, trim with clean scissors, and repot. It gives a clear mix ratio (\"40\u201350% perlite, bark, or pumice\") and a fallback that fits what the user already has (\"use the temporary setup. Sphagnum moss works\"). The finger test for watering is simple. The only small ambiguity is lumping water culture and moss together under \"keep the moss damp.\""
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light indoors, with no direct sun and no cold drafts",
+  "Keep humidity moderate to high if you can",
+  "Don't fertilize until it's putting out new healthy growth",
+  "Inspect for pests"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2817,
+ "output_tokens": 1160
+}

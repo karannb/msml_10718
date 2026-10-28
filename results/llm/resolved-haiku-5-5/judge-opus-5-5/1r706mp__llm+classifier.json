@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Dabbing bugs 'with a cotton swab dipped in isopropyl alcohol' matches the reference approach, and 'avoid spraying in direct sun' echoes the reference's caution about light. Recommending 'insecticidal soap or neem oil' on an edible herb carries minor risk. 'Wash the plant before eating it' and 'Follow the label' help, but the output does not say to choose products labeled for edible plants or to observe pre-harvest intervals. It also gives no alcohol concentration and no test-spot caveat."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis 'mealybugs' matches the reference, and the output cites case-specific evidence: 'fluffy, cottony-looking clusters on the stems and leaf stalks near the base'. It ties advice to the user's situation ('Before repotting, inspect the roots', 'as you're already doing' re: the separate table, gotu kola being edible). The paragraph about the classifier's 'watering' and 'healthy' scores is irrelevant to the user and adds noise. The multi-week soap/neem regimen goes beyond the simpler alcohol spray that worked in the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use common household items: 'cotton swab dipped in isopropyl alcohol', 'damp cloth', insecticidal soap, and rinsing roots 'under lukewarm water'. Timing is clear with 'Repeat weekly for 3\u20134 weeks'. Everything is doable this week without special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check your other plants for white fluff too",
+  "Follow the label, and avoid spraying in direct sun",
+  "repot into fresh potting mix in a clean pot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2405,
+ "output_tokens": 939
+}

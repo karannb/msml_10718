@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice ('Keep it dry for 1-2 weeks', 'Leave the hole open to air. Don't cover it or seal it') matches the reference and is safe. Minor issues: 'out of direct harsh sun while it recovers' could leave a plant that had plenty of light prone to sunburn when moved outside, and there is no acclimation note. The alcohol wipe is unnecessary but low risk. Agave sap can irritate skin, yet there is no glove caveat for handling the wound or trimming."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies a minor puncture from a neighboring spine ('a spine from a neighboring leaf that pushed through the surface') that will callus if kept dry, which matches the reference's 'keep it from getting wet... It will be fine.' It ties its observations to the photo, noting the 'pale flecks' are dried sap. It pads with some speculation ('mottled green patches... harmless film') and an odd contingency ('treat it as a cutting'), which does not really apply to an agave leaf."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use common household items, such as 'a cotton swab dipped in 70% isopropyl alcohol', cinnamon or sulfur, and cactus mix. Timelines ('1-2 weeks') and visual signs of a healthy callus ('dry, firm, and slightly brown or tan') are clear. Anyone could follow this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use a fast-draining cactus or succulent mix",
+  "Put it somewhere bright with good airflow"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2410,
+ "output_tokens": 816
+}

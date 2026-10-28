@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Gentle wiping, 'a drop of mild dish soap... rinse with plain water,' gloves and mask, and keeping pets and kids away are all low-risk. Insecticidal soap or neem on an Alocasia carries a small phototoxicity risk, but repeat applications are framed reasonably. The main concern is 'Skip leaf shine, oils, or vinegar. They can burn leaves.' Vinegar is not harmful advice in itself, but it discourages the mild acidic wipe that actually solved this case and may prolong the problem. The output also invents photo details ('on the pot, the floor, and your hand'), which is a minor confidence issue."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly identifies the problem as dust residue, not plant damage, which matches the reference. However, its removal advice ('lukewarm water and a soft cloth,' 'take the plant to a shower, sink, or hose') mostly repeats what the poster said already wasn't working. It misses the reference fix, a diluted lemon juice (1/3 juice, 2/3 water) wipe followed by a rinse, and it actively warns against vinegar. The mite-checking steps (white paper tap test, stippling, undersides) are relevant to the poster's question about whether the mites are gone, but the pink-tint and stained-hand details appear hallucinated."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses common household items: a cloth, dish soap, a shower or hose, white paper, and a phone camera. The steps are concrete, such as 'a drop of mild dish soap to a quart of water' and 'Check again every 3\u20134 days for 2\u20133 weeks.' A typical owner could do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Be patient",
+  "keep humidity up, since mites love dry air",
+  "Isolate the plant from your others in the meantime",
+  "Check the label"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2673,
+ "output_tokens": 1109
+}

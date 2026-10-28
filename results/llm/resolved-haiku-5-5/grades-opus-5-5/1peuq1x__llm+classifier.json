@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Flush the soil by watering thoroughly with plain water several times, letting it drain fully each time",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Resume fertilizing at quarter to half strength once new growth appears",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the light and move the plant back if it recently moved into stronger light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep humidity steady",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Check whether the soil smells sour or the stem base feels soft",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally trim the crispy leaf edges with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for spreading spots, soft or black stems, or fuzz",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies fertilizer stress but misses the dense, poorly draining mix and the pot size, which it only hints at as a possible root problem; it never suggests repotting into a snug pot with an airy mix, though its flushing and feeding advice is unlikely to do serious harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2430,
+ "output_tokens": 969
+}

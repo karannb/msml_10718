@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Move the plant to the sunniest spot or outdoors in full sun, acclimating it gradually over about a week",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide the plant out of its pot and check the roots and soil moisture",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim any rotten roots if found",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a gritty mix (cactus mix plus perlite or sand) in a pot slightly bigger than the root ball",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the plant is in a nursery pot with drainage holes and no water pools in the cachepot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly, then let the soil dry well before watering again",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune dead and yellow growth and cut leggy stems back by about a third",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wear gloves and long sleeves when pruning or repotting",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames low light and mentions underwatering only as one possibility, while its main advice (let the soil dry out more deeply, use a fast-draining gritty mix) pushes toward drier conditions, which would likely worsen dehydration and delay the needed extra watering.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2322,
+ "output_tokens": 1097
+}

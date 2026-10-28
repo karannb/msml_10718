@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2-3 inches deep and water only when dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect roots and base of stems for mushiness or smell",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are mushy, brown or smelly, trim them and let the plant dry out",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to a brighter spot near an east or north window",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim badly damaged leaves at the base",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for new leaves unfurling over the next few weeks",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with transplant stress and soggy soil and treats low light only as a contributing factor. Moving to a brighter spot appears but is buried as step 3 of 6. Its 'don't repot' advice conflicts with what the poster did, though it isn't clearly harmful, since light was the main fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2218,
+ "output_tokens": 770
+}

@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Pruning advice like 'Cut stems just above a pair of leaves' and 'Pinch off flower buds' is safe and standard for basil, and removing the woody stalk matches the reference. The minor risk is 'keep the larger one and gently remove or transplant the others.' This could lead the user to discard the young plants the reference says to focus on. Transplanting is offered as an option, so harm is limited."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the problem as structural: 'a woody, bare stalk.' Its options to cut to a leafy node or 'Remove it entirely' align with the reference's 'get rid of the stalk.' The pruning instruction, 'Cut stems just above a pair of leaves, so two new shoots branch out,' matches the reference's Y-shaped side-shoot advice. It diverges by framing the small plants as competitors to be thinned rather than the focus, and it asserts photo details ('small green buds higher up') that may be invented."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "All steps need only scissors or fingers and can be done immediately: 'Trim just above one of those nodes,' 'Remove it entirely at the soil line,' 'Pinch off flower buds.' The instructions are concrete and easy for any home grower to follow."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Never strip more than about a third of the plant at once"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2172,
+ "output_tokens": 899
+}

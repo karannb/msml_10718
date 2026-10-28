@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Shake, tap or brush open flowers to aid pollination",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Switch to a low-nitrogen, higher-potassium tomato/bloom fertilizer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Lightly mulch the soil surface",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Check soil and water deeply when top 2\u20133 cm is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally move pot to a brighter spot with more direct sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for sticky/curled leaves, insects or spotted/yellow foliage and report back",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames heat-driven blossom drop and other growing conditions rather than the plant's immaturity, prescribing pollination, fertilizer and light changes for a normal plant; its 'be patient' note is buried among them, though none of the steps would hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2363,
+ "output_tokens": 856
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The reference confirms the plant lacked water: water ran straight through the pot with no tray, and commenters said 'These plants like a fair amount of water.' The model's 'Water less... Water less often through winter' would worsen that underwatering and delay recovery. Unpotting, removing mushy roots, and repotting are reasonable and low-risk. It also gives no toxicity warning for Alocasia/Colocasia, which matters with pets or children."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output does use case evidence (mold, removed tray, moved from window, added soil), and correctly names low light and the need to repot. But its main diagnosis, 'overwatering with poor drainage, leading to root and stem rot', reverses the reference finding of insufficient water. It assumes the pot has 'no drainage holes', while the poster found water was draining straight out. It never mentions the root-bound condition or rotating the plant at the window."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: unpot, inspect roots, repot in a perlite/bark mix, use a nursery pot inside the decorative one, and trim collapsed petioles. They need only common supplies and moderate effort. Some steps, like 'save any firm tuber sections and re-root them', are vaguer, but the plan is still practical overall."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "Water only when the top 2\u20133 inches of soil are dry, not on a fixed weekly schedule",
+  "A little extra airflow helps too",
+  "Repot in a chunky, fast-draining mix",
+  "Cut off the collapsed petioles and dead leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2861,
+ "output_tokens": 1046
+}

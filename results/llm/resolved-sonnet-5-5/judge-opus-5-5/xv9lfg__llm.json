@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Wait\" and \"Leave it alone\" will not seriously damage the plant. However, it confidently states \"It isn't stuck, it's just early\" and says to \"avoid physically freeing it.\" That could delay the simple fix that worked in the reference (brushing on water and gently easing the leaf out), and a leaf left stuck too long may tear or deform. There is no chemical or toxicity risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The headline diagnosis, \"Nothing looks wrong... you're probably just a bit impatient,\" contradicts the reference, which confirms a leaf stuck because of low humidity. The output does mention humidity: \"you can mist it or put the plant somewhere more humid for a few days to loosen things up.\" But this is framed as a contingency only, not the main fix, and it advises against gentle manual help, which worked for the poster. The cataphyll explanation is accurate background, but much of the care section is generic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are easy: wait, mist, or move the plant somewhere more humid. Anyone can do these. The triggers for action are vague, though (\"staying shut for many weeks\"). The main recommendation to wait leaves the owner unsure when to switch to the misting step that would actually solve the problem."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright indirect light, even moisture (let the top inch or two dry out between waterings), and normal household humidity will help",
+  "Signs of pests, like sticky residue, webbing, or tiny bugs",
+  "The tip turning brown, black, or mushy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2371,
+ "output_tokens": 967
+}

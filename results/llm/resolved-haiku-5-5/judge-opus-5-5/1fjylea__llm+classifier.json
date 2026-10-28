@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output advises \"Let the soil dry more between waterings\" and notes \"Surface mold rarely needs fungicide,\" which steers the user away from unnecessary chemicals. The root check (\"look for brown, mushy roots. Trim any you find\") is conditional and appropriate. Nothing here would worsen the problem or endanger people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, \"surface mold, probably saprophytic fungi feeding on damp organic matter... signals that the soil stays wet too long,\" matches the reference almost exactly, including that it is \"usually harmless to the plant itself.\" Advising to \"Scrape off the top 1-2 cm of soil... top up with fresh, dry potting mix\" parallels what the poster actually did, which was changing the soil. It cites case evidence such as the yellowing leaves and \"the one lying on the soil.\" Some lines, like the airflow/light advice, are somewhat generic but tied to the moisture cause."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Scrape off the top 1-2 cm,\" \"Empty any saucer after watering,\" \"Water only when the top few centimeters feel dry.\" The repotting and cachepot options are clearly explained. Anyone could do this within a week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it somewhere with more light and air movement",
+  "Water only when the top few centimeters feel dry, and water thoroughly so excess drains out"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2270,
+ "output_tokens": 548
+}

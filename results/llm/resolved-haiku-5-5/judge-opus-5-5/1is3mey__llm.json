@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Water only when the soil is completely dry all the way down\" and \"soak the soil and let all the excess drain out\" directly fixes the frequent-sip watering pattern without risk. It also warns about sunburn: \"Acclimate them over a week or two so they don't sunburn.\" Root inspection and pruning are low-risk. There are no chemicals and no toxicity concerns."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names both problems in the reference: \"Not enough light\" with etiolation evidence, and \"Watering too often for the light they now get.\" It ties these to the case facts, namely the move to a new spot and the 2-3 day sip watering. The advice to \"soak the soil\" and wait until it is dry matches the reference. It misses the reference's points about plants sitting too low in their pots and about using wrinkled leaves as a watering cue. The rot speculation goes slightly beyond the reference but is clearly framed as \"consistent with.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step uses common items and is concrete: moving the pots to a south/west window, emptying saucers, buying cactus mix or perlite, taking cuttings and letting them callus for 2-3 days. The root check is described in plain terms (\"firm and white or tan\" vs \"mushy, black\"). All of it is doable at home this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Grow lights also work.",
+  "Make sure the pot has drainage holes.",
+  "Never let the pot sit in water."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2744,
+ "output_tokens": 540
+}

@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect roots for rot (firmness, color, smell)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot one size larger (2\u20135 cm wider) into pot with drainage holes in spring/early summer",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Optionally divide the clump of plants when repotting",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gently loosen roots and trim any mushy ones",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check pale dots on pot base with a magnifier for insect eggs or scale",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the plant as root-bound and recommends repotting one size up, which matches the confirmed fix; saying there is no rush is mild and does not risk real harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1971,
+ "output_tokens": 580
+}

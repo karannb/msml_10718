@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Keep the soil lightly moist, not soggy\" and \"water when the top inch is just barely dry\" suits a recently disturbed zebra plant. It also warns about rot: \"If the stem turns mushy or black at the base... cut back on watering immediately.\" Tenting \"with some airflow\" is low risk, and \"Don't fertilize\" and \"Don't repot again\" are protective. Zebra plants are generally non-toxic, so a missing toxicity warning is not a concern."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies \"transplant shock\" and ties it to case evidence: \"Rinsing off the soil likely damaged or stripped some of the roots.\" This matches the reference's diagnosis, and its \"it will likely be okay if you give it time\" plus bright, indirect light mirror the reference advice. Some items, such as humidity and checking the pot, are somewhat generic, but they are tied to the species' needs. The timeline (\"3\u20136 weeks\" for new growth, possible lower-leaf drop) is more pessimistic than the actual overnight recovery, but it does not contradict it."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use common items: a finger test for moisture, a pebble tray or clear bag, and moving the plant to bright, indirect light. \"Leave it alone\" is easy to follow. Nothing requires special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light. Avoid direct sun and cold drafts.",
+  "Make sure it has drainage holes",
+  "Raise the humidity"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2587,
+ "output_tokens": 579
+}

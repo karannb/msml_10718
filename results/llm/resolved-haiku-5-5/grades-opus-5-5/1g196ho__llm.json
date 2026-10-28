@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check that the top inch of soil is dry before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide the plant out of the pot and inspect the roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the roots are mushy, black or smelly, trim them with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into fresh, well-draining mix (peat-based with perlite, or orchid/bark mix)",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Check for a drainage hole; if there is none, use a draining pot or put a plastic nursery pot inside the planter",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains, then empty the saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, bottom-water for 20\u201330 minutes",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright, indirect light away from harsh sun, heaters and drafts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take 2\u20133-segment cuttings and plant them in a small pot of moist mix as a backup",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies dehydration with old, compacted soil, and its main advice (repot into fresh mix, then water when dry) matches the fix the poster used; the advice to wait before watering depends on checking the soil, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2246,
+ "output_tokens": 1151
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plant to sunniest spot available",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Provide midday/afternoon shade during hot periods",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hand-pollinate flowers by tapping or using brush/cotton swab",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Switch to low-nitrogen bloom fertilizer or balanced at half strength",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Water consistently to keep soil evenly moist",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check container drains well",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Reply with temperatures, variety, watering and fertilizing details",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The plant was simply too immature to fruit, but the answer blames light and other stresses and only briefly mentions patience; its changes are mostly unnecessary but unlikely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2210,
+ "output_tokens": 478
+}

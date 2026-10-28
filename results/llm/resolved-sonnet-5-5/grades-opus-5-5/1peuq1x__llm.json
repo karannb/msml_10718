@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Flush the medium with lukewarm plain (ideally filtered or rain) water and let it drain fully",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gently check the roots for rot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot into fresh airy mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Monitor the medium so it stays lightly damp but never soggy",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant in bright indirect light at 65\u201380\u00b0F with high humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally trim off fully brown dead leaf tissue",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the leaf undersides for spider mites (webbing or stippling)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names fertilizer stress and wet, poorly draining sphagnum as the leading causes but frames them among several possibilities. It recommends repotting into an airy mix only if rot is found, never mentions a snug pot, and favors flushing and keeping the mix evenly damp, which doesn't fix the drainage problem but is not clearly harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2579,
+ "output_tokens": 941
+}

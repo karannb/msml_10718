@@ -1,0 +1,68 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Move the plant to the brightest spot, such as a south- or west-facing window, acclimating it gradually",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift the plant out of the decorative pot and check for pooled water",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty any standing water from the cachepot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Unpot and inspect the roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim the damaged roots and repot in fresh cactus or herb mix with perlite or grit",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Let the soil dry to 4\u20135 cm deep or nearly dry throughout, then water thoroughly and let it drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune off dead or yellow stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Share close-up photos of the roots or stems, or report how much direct sun the plant gets",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The plant was dehydrated, but the answer blames low light and overwatering and tells the owner to water even less, which would worsen the dehydration and delay the fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1974,
+ "output_tokens": 791
+}

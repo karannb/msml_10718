@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly low-risk. However, 'move the pots to the sunniest spot you have' conflicts with the case's note that 'it is hot', and could increase heat stress, which the output itself flags as a cause of flower drop. Switching fertilizer and shaking the flowers are harmless but unnecessary interventions for a plant that only needs time. The output does not address people or pets, but no toxic products are recommended."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference says the plant is simply not mature enough yet and just needs time. The output instead names 'Not enough light (my top suspect)' and lists four more causes, so the problem is misprioritized. The correct answer appears only as a minor side tip: 'Be patient with early flowers. Young plants often drop their first flowers, and that's normal.' The output does cite case evidence (morning sun only, heat, healthy leaves), but it is largely a generic checklist of flower-drop causes."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home grower to follow: 'Gently flick or shake the flowers', 'switch to a tomato or vegetable fertilizer', and 'Water deeply when the top 2\u20133 cm of soil is dry'. Moving the pots may not be possible on a fixed balcony, and the output admits a sun/heat 'tradeoff' without resolving it, which leaves the reader with some ambiguity."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the soil evenly moist and consider mulching the surface",
+  "Check for pests like aphids or thrips",
+  "Water deeply when the top 2\u20133 cm of soil is dry, and make sure the pot drains well",
+  "Keep watering consistent",
+  "Avoid high-nitrogen fertilizer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2525,
+ "output_tokens": 800
+}

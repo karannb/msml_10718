@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": true,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water at soil level when top 1\u20132 cm of soil is dry, then let it drain fully",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pinch or cut off spent flower stalks and clear dead material from the crown",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to a cool, bright spot out of hot midday sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place on balcony in bright shade or morning sun with afternoon shade",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If plant stays limp with moist soil, slide it out of the pot and check the roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, repot in fresh free-draining mix with perlite or grit",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Feed with diluted liquid fertilizer every 2\u20133 weeks while blooming",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "After flowering, plant in a shady garden spot or a larger pot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls the shriveled flowers spent blooms, but it frames the plant as declining from heat, wet soil and sun and buries the deadheading fix among unneeded treatments; nothing it recommends is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2710,
+ "output_tokens": 1098
+}

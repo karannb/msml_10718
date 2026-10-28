@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice ('Cut the woody stalk back to just above a node that still has leaves', 'Pinch off flower buds', 'Take no more than about a third of the plant at once') involves no chemicals and poses no risk to people or pets. Basil is non-toxic. The worst outcome is losing the old woody stalk, which the reference recommends discarding anyway."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies a 'woody, leggy stalk that's the result of years of improper pruning.' This matches the reference diagnosis. 'Cut just above a pair of leaves (a node)' and 'pinch the tips regularly to encourage branching' mirror the reference's advice to cut above the Y-shaped side shoots. 'Keep the new seedlings' aligns with 'focus on the small plants.' However, the output leans toward rescuing the old stalk rather than the reference's clearer 'get rid of the stalk.' The suggestion that the plant may 'push new shoots from the base' after being cut near the soil is optimistic for old woody basil."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and needs no special tools: 'Gently scrape the bark with a fingernail', cut above a node, root cuttings 'in a glass of water', and thin the seedlings. A typical home grower could do all of this in minutes this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Take no more than about a third of the plant at once",
+  "Starting fresh from cuttings or seed is a good backup"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2321,
+ "output_tokens": 814
+}

@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The output says the white specks are \"dried spray residue, not insects\" and advises \"Stop spraying alcohol, peroxide, and insecticides.\" The reference confirms a live pest infestation that was cured with heavy alcohol treatment. Telling the owner to stop treating an active infestation would let it spread to this plant and others. The owner already has an ongoing mealybug problem in the collection. Steering toward watering changes and root checks delays the action that was actually needed."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The diagnosis \"damaged or dying tissue, not an active infestation\" contradicts the reference's confirmed pest infestation (whiteflies or similar). The output endorses the classifier's \"watering\" call and focuses on root health, which the case gives no evidence for. The user explicitly describes bugs that won't disappear. Much of the advice is generic: checking roots, reviewing light, humidity and drafts, removing dead leaves."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: rinse leaves, slide the plant out to inspect roots, use a magnifier, dab pests with a cotton swab. A magnifier is the only mildly extra tool. The steps are clear even though they target the wrong problem."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Check the roots",
+  "let the top inch or two of soil dry between waterings",
+  "Review the environment",
+  "Syngoniums like bright indirect light, humidity above about 50%, and stable temperatures",
+  "Drafts, heaters, vents, or direct sun can cause browning",
+  "Remove the dead leaves once they're fully brown"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2872,
+ "output_tokens": 570
+}

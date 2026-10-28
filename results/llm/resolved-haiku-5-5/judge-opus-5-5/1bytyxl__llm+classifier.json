@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model advises: \"Move it to a bright window, ideally with some direct morning or afternoon sun.\" This conflicts with the reference warning not to put the seedling straight into bright direct sun. A pale, etiolated shoot grown in darkness can scorch if moved abruptly, especially in afternoon sun, and the model gives no gradual-acclimation caveat. The watering and mold advice (\"evenly damp, like a wrung-out sponge\", open the lid for airflow) is safe."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The core conclusion matches the reference: \"the seed appears to be germinating, and I don't think the plant is dying.\" The model ties its explanation to the case, attributing the pale shoot to growth in the dark cupboard and identifying the white structures as roots rather than mold. However, it asserts \"there are no 'dead first leaves' to worry about,\" which may dismiss the user's actual observation. It also mentions rewrapping the seed even though it appears to be already potted. The light advice diverges from the reference's caution about direct sun."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear and simple: move it to a window, keep the mix damp \"like a wrung-out sponge\", vent the lid, and optionally add \"a small stake\". All of these need only household items and can be done immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Lychees can get tall indoors, so you'll probably want to pot it up or prune it eventually",
+  "don't let it sit in standing water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2473,
+ "output_tokens": 891
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly benign: hand-pollinating, steady watering, mulching, and \"Switch to a low-nitrogen, higher-potassium feed\" pose little risk. The main issue is over-intervention. Telling a hot-weather plant to \"Move the plant to the sunniest spot you have\" could add heat stress, which partly conflicts with the shade-cloth advice. The plant only needed time, but none of these steps is likely to cause serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model correctly names the symptom (\"blossom drop\") and ties some causes to case details, such as \"morning sun alone is often not enough\" and the heat. However, the REFERENCE confirms the real cause was immaturity (\"Definitely not mature enough yet... give it time\"), which the model never mentions. Instead it ranks low light, heat, nitrogen, pollination and watering as causes. Only the closing line \"Some flower drop is normal for peppers\" loosely matches the reference."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps such as \"Gently shake the plant or tap the flowers,\" \"use a small paintbrush,\" and switching to a tomato fertilizer are concrete and easy for a home grower. Shade cloth requires a purchase. The advice to maximize sun while also shading from heat is somewhat contradictory, which adds ambiguity."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep watering consistent",
+  "Water deeply when the top inch of soil is dry, and aim for even moisture",
+  "Move the plant to the sunniest spot you have",
+  "Rotate it so all sides get light",
+  "mulch the surface to keep roots cooler"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2573,
+ "output_tokens": 1083
+}

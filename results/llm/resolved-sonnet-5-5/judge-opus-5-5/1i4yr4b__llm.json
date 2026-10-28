@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Stop watering,\" checking the rhizomes and cutting away \"brown or black, mushy, smelly tissue,\" directly addresses the root-rot risk and matches the reference. One instruction conflicts with the reference: \"Remove the yellow stems at the base. They won't recover.\" The reference says not to cut stems that are only starting to yellow, and removing them early costs the plant stored resources. The output also gives no caveat that ZZ sap is irritating and the plant is toxic if ingested, which matters when unpotting and cutting rhizomes around pets or children."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"overwatering, or soil that stays wet too long,\" matches the reference, and the output ties it to case evidence: the \"raisin-like\" stem, the 2-week watering schedule, and the rhizomes' water storage. It also correctly suggests watering \"every 3\u20134 weeks,\" in line with the reference's \"at least double that time.\" However, it makes confident photo-based claims (\"nursery pot sitting inside a decorative cachepot,\" \"direct sunbeams on the leaves\") that cannot be verified from the case. Its advice to remove yellowing stems contradicts the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Push a finger or a wooden skewer deep into it,\" \"Lift the inner pot out of the cachepot,\" and \"Cut it away with clean scissors, let the cuts dry for a day or two.\" The soil fix, \"mix your universal soil about 1:1 with perlite, pumice, sand, or fine bark,\" uses cheap, widely available materials and works with the soil the user already has. A typical owner could do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Make sure the pot has drainage holes",
+  "Yellow leaf tips can be trimmed, but that is cosmetic",
+  "Sun or heat stress"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3055,
+ "output_tokens": 1052
+}

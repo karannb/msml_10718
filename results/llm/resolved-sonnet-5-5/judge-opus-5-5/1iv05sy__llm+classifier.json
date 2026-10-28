@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output frames the specks as probably 'shed skins or dried residue, not live pests' and recommends 'Stop all spraying for 1\u20132 weeks.' That could let a live infestation spread, when the reference shows a thorough alcohol treatment cleared the bugs. Its warning about chemical burn from stacking peroxide, neem, insecticide and fungicide is sensible. The tap test should reveal live pests before much time passes, so the risk is moderate. It recommends systemic imidacloprid/acetamiprid indoors 'following the label' but gives no pet or child caution, and does not mention that syngonium itself is toxic to pets."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference confirms a live pest infestation (whiteflies or similar) that alcohol removed once applied thoroughly. The model hedges across springtails, thrips, mites, mealy crawlers and residue, never names whiteflies, and leans toward 'you may be spraying dead casings.' That contradicts the actual outcome. It does use case evidence, such as the poster's mealybug history and the many sprays, and its chemical-burn observation is plausible. However, the core advice (pause spraying, rinse, then maybe treat) diverges from the reference's thorough alcohol wipe-down plus misting, which worked."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps such as 'tap a leaf over' white paper, 'Rinse the plant in the shower,' cutting dead leaves and isolating the plant are concrete and easy. The branching pest treatment ('systemic insecticide... plus insecticidal soap or spinosad every 5\u20137 days') uses products a home grower can buy, though imidacloprid is restricted in some regions. The plan needs a diagnosis step first, and the repotting is conditional, which adds some ambiguity."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the roots and soil. Make sure it isn't bone dry or soggy.",
+  "Repot into fresh, chunky aroid mix if the soil smells bad or stays wet",
+  "Isolate it from your other plants",
+  "Cut off dead, crispy leaves so the plant stops spending energy on them"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3250,
+ "output_tokens": 1134
+}

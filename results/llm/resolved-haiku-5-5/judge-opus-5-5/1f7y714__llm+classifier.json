@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model diagnoses underwatering and advises to 'bottom-water it' and 'Water thoroughly... then empty the saucer.' It also warns 'Don't overcorrect,' which protects against swinging into root rot. The root check is conditional: 'if it doesn't improve within about a week.' Aglaonema is mildly toxic to pets, which is not mentioned, but no chemicals or risky treatments are suggested, so the omission poses negligible risk here."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, 'almost certainly underwatering,' matches the reference, and the prognosis, 'Very likely' to survive with 'A few lower leaves may yellow and drop,' mirrors the commenters' advice. It cites case evidence such as 'petioles... arched down sharply' and the absence of mushy stems. It also addresses the user's specific detail that watering days ago didn't help, explaining that soil may have 'become hydrophobic.' It links the cause to the user's setup with 'Fix the automatic system... for all 50 plants.'"
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses things a home owner already has: a finger test at '2-3 cm,' a basin for '20-30 minutes' of bottom-watering, and draining the saucer. Timelines are concrete, such as 'Expect recovery in 1-3 days' and a root check 'within about a week.' Adjusting the automatic system per plant is realistic, since the user built it."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Hold off on fertilizer until it's clearly growing again",
+  "Water thoroughly until water runs out the drainage holes, then empty the saucer",
+  "trim the rot and repot in fresh, well-draining mix",
+  "Trim only leaves that are fully brown or crispy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2482,
+ "output_tokens": 906
+}

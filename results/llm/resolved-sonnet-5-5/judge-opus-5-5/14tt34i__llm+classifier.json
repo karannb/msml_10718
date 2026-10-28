@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Repot with drainage\" using \"a chunky, airy mix\" and to \"Water only when the top 1\u20132 inches of soil are dry\" directly fixes the wet-soil and root-rot risk without recommending chemicals. Trimming rotted roots with \"clean scissors\" and \"Don't fertilize until it has recovered\" are both safe. The one minor gap is that it never mentions Monstera is toxic to pets, and the sap can irritate skin during pruning."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It identifies the reference's main problems: \"The soil is very dark and looks wet or heavy,\" no drainage, and roots at risk of rot. It recommends \"potting soil with about 30\u201340% perlite and some bark,\" which matches the reference's aroid mix. It also links \"leggy and leaning\" growth and dim wall-mounted spots to a need for more light, which matches the reference's 'reaching' comment. Its assumption that the bucket has no holes may conflict with the user's \"small holes\" remark, but the drainage fix still matches what the poster later did."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only common supplies: a nursery pot with holes, perlite, bark, and scissors. Suggestions such as \"keep the bucket as a decorative outer cover and set a plastic nursery pot inside it\" are practical. The numbered order (unpot, check roots, trim, repot, adjust light and watering) is easy to follow this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the top 1\u20132 inches of soil are dry",
+  "Give it bright, indirect light",
+  "Don't fertilize until it has recovered",
+  "Low humidity or tap water with a lot of minerals can cause tip burn"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2786,
+ "output_tokens": 1242
+}

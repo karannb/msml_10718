@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is safe. 'Cut off all the dead leaves' matches the reference, and 'Don't fertilize until you see new leaves' is sensible. The 'Cut test' ('cut down until you see white to pale green, moist tissue') carries a risk: it could sever the emerging leaf that the model itself mentions ('The tall yellow-green spear... may be the newest growth'), and the poster later saw exactly such a leaf. Tipping the plant out to inspect the corm also adds disturbance to a shocked plant. Both risks are moderated because bananas can resprout from the corm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly identifies a 'double shock' from pup removal plus repotting, with root loss causing collapse, which matches the reference's transplant-shock diagnosis. Its key advice to trim the dead growth and keep watering ('Water lightly. Keep the soil barely moist') aligns with commenters, though it leans drier than 'keep it watered.' It cites case-specific evidence (pups removed, crispy leaves, green pseudostem). The overwatering and full-sun causes are speculative additions not supported by the case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home grower: 'Squeeze it', trim dead leaves, 'Move it to bright shade or morning sun only', water lightly. No special tools are needed. However, the advice to cut the stem down to living tissue conflicts with watching for the center spear, and 'Gently tip the plant out or dig down' takes some effort and judgment."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Be patient.",
+  "Make sure the pot drains well.",
+  "Don't fertilize until you see new leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2703,
+ "output_tokens": 1062
+}

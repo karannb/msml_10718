@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wipe leaves with lukewarm water and a soft microfiber cloth along the veins",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If needed, wipe leaves with water plus a drop or two of mild dish soap, then rinse with plain water",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe undersides and leaf stems",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Shake a leaf over white paper to check for mites",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides with magnifier or phone zoom for webbing and stippling every few days for 2-3 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Apply neem oil or insecticidal soap to undersides and rinse off later",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from others until mites are gone",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies dust-product residue and recommends wiping it off with water or mild soap, which resembles the confirmed fix but omits the lemon juice solution and adds many extra steps; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2078,
+ "output_tokens": 540
+}

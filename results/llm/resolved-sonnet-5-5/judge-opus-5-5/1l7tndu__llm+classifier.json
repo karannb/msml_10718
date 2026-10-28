@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe. The model says 'Les laisser dans l'eau claire (chang\u00e9e tous les 1 \u00e0 2 jours), \u00e0 la lumi\u00e8re vive sans soleil direct', and the alternative is to replant in 'terreau l\u00e9ger et humide' with light watering, shade and a ventilated humidity cover. Basil is non-toxic, no chemicals are involved, and nothing here would worsen transplant shock."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly identifies 'choc de repiquage', which matches the reference. It ties this to the case evidence: plants collapsing minutes after transplant, damaged fine roots, and the plants seen in a glass of water. It includes keeping them in water, the approach that worked for the poster. However, it leads with 'Ne les laissez pas dans l'eau trop longtemps' and adds a stray reference to 'le classifieur... watering', which slightly undercuts the guidance that proved effective. Some steps, such as warmth at 18\u201325 \u00b0C, are generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses household items: a glass of water, a pencil to make a hole, a transparent bag, a teaspoon. The instructions are concrete, with timeframes ('2 \u00e0 3 jours', 'racines fassent 3 \u00e0 5 cm'). A beginner could follow this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Arrosez l\u00e9g\u00e8rement apr\u00e8s la plantation, pour que le terreau soit humide mais pas d\u00e9tremp\u00e9",
+  "Chaleur : le basilic aime 18 \u00e0 25 \u00b0C et d\u00e9teste le froid",
+  "Pincez ou retirez les feuilles trop ab\u00eem\u00e9es"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2997,
+ "output_tokens": 827
+}

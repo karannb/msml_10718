@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Prune hard,\" \"Repot into a pot 1\u20132 inches wider,\" and propagate is safe for the plant. Watering only \"when the top 1\u20132 inches of soil are dry,\" after checking roots for mush, guards against overwatering. Pothos is toxic to pets, but none of the actions here create exposure risk, so the missing warning is minor."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output identifies the leggy, overgrown, root-bound pothos and cites case evidence such as \"pot is packed with thick stems and aerial roots\" and \"long and bare, with only a few leaves at the very tips.\" Its core advice to \"Prune hard,\" \"Propagate the cuttings,\" and repot matches the REFERENCE's chop-and-prop plus repotting. It does not give the REFERENCE's 60\u201380% figure, but \"cut the long bare vines back\" conveys a hard trim."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are numbered and concrete: \"Slide the plant out of the pot,\" cut \"just above a node,\" and root cuttings in water \"in 1\u20133 weeks.\" They need only scissors, a slightly larger pot, potting mix and perlite. Any home grower can do this in one session."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Put it in bright, indirect light",
+  "Fertilize lightly in spring and summer",
+  "Remove fully yellow or dead leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2853,
+ "output_tokens": 527
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice \"Wait. Don't unwrap or pull on the tip\" is low-risk and correctly warns against tearing the leaf. However, it confidently says \"The new vine isn't stuck,\" which could leave a genuinely stuck leaf to dry out or deform when a simple fix exists. It also never mentions humidity, so the actual cause goes unaddressed. This is a minor risk from delay, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The REFERENCE confirms the leaf was stuck from low humidity and was freed by brushing on water and gently coaxing it out. MODEL_OUTPUT says \"Nothing is wrong with the plant\" and \"The new vine isn't stuck,\" attributing any delay to \"cooler rooms or lower light\" instead of humidity, which contradicts the reference. It also adds irrelevant commentary about a \"classifier\" misreading variegation and wrongly calls the mother plant \"the cutting\" (\"while the cutting is still establishing\"). It correctly notes the leaf is unfurling from a sheath, but the diagnosis and remedy miss the reference."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps (\"Wait,\" \"Keep it in bright indirect light and a fairly warm spot,\" \"Keep watering normally\") are trivially easy for any owner. The light and warmth guidance is somewhat vague. The monitoring cues (\"tip turns brown, black, or mushy\") are clear and actionable. The steps are easy to carry out, though they wouldn't resolve the actual problem."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep it in bright indirect light and a fairly warm spot",
+  "Keep watering normally"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2122,
+ "output_tokens": 1006
+}

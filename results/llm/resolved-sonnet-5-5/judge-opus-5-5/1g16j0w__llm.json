@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says \"Give him a deep soak... then let the soil dry out completely\" and warns \"Don't overcorrect. Haworthia rots easily.\" It also says to bring him indoors and avoid direct afternoon sun. These steps fit a dehydrated, sun-stressed succulent. Haworthia is non-toxic, and no chemicals are suggested. Delaying the repot until after recovery is sensible."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis \"Sun stress or sunburn, plus dehydration... from the sudden move outside\" matches the reference's underwatering/sun stress. \"Bring him back indoors\" and the deep soak match the commenters' advice to water him and take him inside. The advice is tied to the case (reaching, semi-shade outdoors, too little water) and goes on to cover the poster's \"what to do afterward\" question. The species ID can't be verified from the photo description, but it doesn't change the core advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are simple and concrete: soak until water drains, check the drainage hole, move him to an east window, and remove dead leaves. The optional extras (\"a cheap grow light\", \"cactus/succulent mix with added perlite\") are easy to buy. A home owner can do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "If your home is dim, a cheap grow light helps a lot.",
+  "Check that the pot has a drainage hole."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2590,
+ "output_tokens": 522
+}

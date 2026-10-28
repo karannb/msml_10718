@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check whether the pot has drainage holes",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no drainage holes, put the plant in a nursery pot with holes inside the decorative pot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Check the top 3\u20135 cm of soil with a finger and water only when dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to a brighter spot with indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off the yellow stem at the base with clean scissors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer says the plant is doing well but treats natural leaf aging as only the third possibility behind repotting stress and overwatering, and it never suggests trellising the trailing vine (the fix the poster followed), though its safeguarded advice is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2253,
+ "output_tokens": 842
+}

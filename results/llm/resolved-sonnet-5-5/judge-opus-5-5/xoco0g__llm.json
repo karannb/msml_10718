@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Nothing here would directly damage the plant, person or pets. Advice like \"Keep the soil lightly moist, not soaked and not bone dry\" and \"pebble tray, a humidifier\" is safe. The minor risk is reassurance that could delay the needed fix: \"The curling is likely just adjustment, and it should settle down\" and \"Your routine sounds fine.\" It also says \"Misting does very little\", yet in this case spraying with water resolved the curling almost immediately."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The reference confirms moisture stress (underwatering/low humidity). The model's lead explanation is \"The pale, rolled-up leaves are probably new growth\" plus \"a reaction to the move\", which misses the main cause. It does list the right factors as possibilities: \"Letting it dry out too much can cause curling too\" and \"Radiators or heating near the window dry the air quickly.\" However, these are buried among light and adjustment explanations, and it frames the user's drying-out routine as \"fine\" when it was the problem."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Water when the top 2\u20133 cm of soil is dry,\" pull back from the window or add a sheer curtain, use a pebble tray or group plants, and check for spider mites. These need only common items. The hedged list of possible causes leaves some ambiguity about what to act on first."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it out of direct sun, with bright indirect light only",
+  "Raise the humidity if you can",
+  "A pebble tray, a humidifier, or grouping the plants together works better",
+  "check that the pot drains well and the soil isn't staying soggy",
+  "Check under the leaves for spider mites"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2578,
+ "output_tokens": 918
+}

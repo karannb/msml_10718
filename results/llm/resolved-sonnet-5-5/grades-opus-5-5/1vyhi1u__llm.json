@@ -1,0 +1,96 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Remove plant from pot and inspect roots and corms",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut away rotted roots and mushy stems if present",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let plant dry out for a few hours before repotting",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dust cuts with cinnamon or fungicide if corm is firm",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh chunky mix (2 parts soil to 1 part perlite/bark) with corm top at soil line, discarding moldy soil",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Use a pot with drainage holes or a plastic nursery pot inside the metal pot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Empty water that collects in the outer pot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off dead and collapsed leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top 1-2 inches of soil and water only when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scrape off surface mold",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Increase airflow around the plant",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "If base is mush, start firm corm pieces in moist perlite or sphagnum moss",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer gets poor drainage and low light right, but it blames overwatering and rot when the plant was actually underwatered and root-bound. Its repotting, drainage and window-light advice overlaps with the fix, but it also says to water less. The soil-check safeguard keeps that from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2376,
+ "output_tokens": 1434
+}

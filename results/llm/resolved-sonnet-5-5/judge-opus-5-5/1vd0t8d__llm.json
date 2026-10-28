@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is conservative: \"Don't repot again,\" \"Water only when the top 3\u20135 cm... is dry,\" and \"Skip fertilizer for a month or two.\" None of it would harm the plant, the owner or pets. Removing a yellow leaf is benign. The model does not mention that Monstera is toxic to pets, but nothing it recommends creates exposure risk, so this is not a meaningful omission."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The core conclusion matches the reference: \"Your plant isn't dying... fairly healthy,\" don't repot, and new growth is a good sign. It also uses case evidence such as \"Only one stem... is yellowing\" and \"The long trailing vine is a good sign.\" However, it ranks \"Natural aging\" third, behind repotting stress and overwatering, while the reference attributes the yellowing to normal oldest-leaf senescence. It also misses the reference's one concrete action, trellising the floor vine. The light and drainage tips are only loosely tied to the photos."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is simple and needs no special equipment. Examples include \"Check with your finger,\" \"empty the saucer afterward,\" and \"cut off the yellow stem at the base with clean scissors.\" A home owner can do all of it right away."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "Water only when the top 3\u20135 cm (1\u20132 in) of soil is dry",
+  "Make sure water can drain out, and empty the saucer afterward",
+  "Skip fertilizer for a month or two"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2634,
+ "output_tokens": 572
+}

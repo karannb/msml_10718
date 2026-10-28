@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core treatment, \"Spray insecticidal soap or neem oil (follow the label)... Repeat every 5\u20137 days,\" plus \"Blast them off\" with water, is safe and also works on aphids, which the REFERENCE confirms. Caveats like \"test on one leaf first\" and spraying \"out of direct sun\" lower the risk. The minor concern is the misidentification: whitefly-specific follow-ups like releasing \"Encarsia formosa parasitic wasps\" won't help with aphids and could delay effective escalation."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model confidently says the pests \"look like whiteflies.\" It mentions \"Other possibilities are aphids\" but then dismisses that option, while the REFERENCE confirms an aphid infestation. The recommended neem oil spray happens to match what worked for the poster. However, the whitefly framing drives several whitefly-specific steps (shake test, vacuuming adults, Encarsia wasps, egg-hatch reasoning) that don't fit the actual problem."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Most steps use common household items or easily bought products: a shower sprayer, insecticidal soap or neem oil, and sticky traps. The steps are clear and come with a concrete schedule (\"every 5\u20137 days for at least 3\u20134 weeks\"). Buying parasitic wasps and using a \"handheld vacuum in the morning\" are less typical for a home owner, but they are optional or fallback measures."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Isolate the plant so they don't spread to your other houseplants",
+  "Avoid over-fertilizing with nitrogen, which makes plants more attractive to sucking pests",
+  "Remove heavily infested leaves and bag them before throwing them out"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2429,
+ "output_tokens": 1093
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Water until it drains from the bottom, then empty the saucer. Wait until the top inch or two of soil is dry before watering again,\" fits a dehydrated plant and adds no rot risk. Prayer plants are non-toxic to people and pets, and nothing here involves chemicals. The repotting suggestion is conditional (\"if the plant seems stalled\") and modest (\"only 1\u20132 inches wider\"), so it carries little risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output leads with the correct diagnosis, matching the reference: \"Underwatering: Soft, thinning, or limp leaves usually mean the plant was thirsty... leaves may take a few days to firm up.\" It also ties advice to case evidence: the heater the user mentioned, the window, the plant having \"filled the pot in under six months,\" and \"the hanging yellow one.\" However, it adds speculative causes the user never described, such as sun scorch (\"Pale, bleached patches\") and fluoride in tap water. Listing these alongside the real cause dilutes the reference's simple message to wait a day or two after watering."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses common household items or cheap purchases: a pebble tray, a sheer curtain, filtered water, and pruning at the base. The instructions are concrete (\"top inch or two of soil is dry,\" \"a few feet back from the window\") and can easily be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise humidity with a pebble tray, grouping plants together, or a small humidifier.",
+  "Bright indirect light is ideal, not direct sun.",
+  "If you see brown leaf tips even when the plant is watered properly, your tap water may have fluoride or high minerals. Try filtered or distilled water.",
+  "Check the roots if the plant seems stalled."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2478,
+ "output_tokens": 650
+}

@@ -1,0 +1,33 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "If the sheath is still tight after about a week, moisten it with water, let it soften, and gently peel it back",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the leaf is constricted, snip along the sheath with clean scissors",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the soil and water when the top inch is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer recognizes the unfurling leaf and its sheath but says the leaf isn't really stuck, and it puts the moistening fix behind a week of waiting. That is a delay rather than real harm, since the leaf would likely free itself anyway.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1813,
+ "output_tokens": 674
+}

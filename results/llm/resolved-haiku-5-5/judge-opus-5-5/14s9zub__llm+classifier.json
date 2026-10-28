@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output recommends \"Shower the plant (lukewarm...)\", \"insecticidal soap or neem oil... repeat per the label\", and \"Isolate it\". These are gentle, label-guided steps with no product mixing or dangerous dosing. Parlor palm is non-toxic, so the lack of a pet warning is not an omission. There is a small risk of leaf burn if neem is applied in light, which the reference warns about, but \"per the label\" partly covers this."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output names \"spider mites or thrips\" as most likely and cites case-specific evidence: \"Fine pale speckling or stippling... faintly dusty, grayish-green look.\" This matches the reference's \"pale and thin\" fronds from sap-sucking mites. Hedging toward thrips and fungus gnats dilutes the diagnosis slightly. The advice to do repeated insecticidal treatment, cover leaf undersides, and check for webbing aligns with the reference's multiple spray rounds. Some generic care items (humidity, watering, trimming) are appended but are loosely tied to the brown tips seen."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and cheap. \"Tap a frond over white paper\", \"Flip leaves and look closely\", and \"Shower the plant... Repeat every few days for about two weeks\" need no special equipment. Insecticidal soap and neem are easy to buy. The timing is clear, though the output does not specify a 3\u20134 week schedule like the reference does."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Raise humidity and avoid heating vents or dry drafts",
+  "Water evenly. Let the top inch or so of soil dry out, then water thoroughly",
+  "Trim brown fronds at the base if they're mostly dead",
+  "Isolate it from your other plants until it's clear"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2729,
+ "output_tokens": 656
+}

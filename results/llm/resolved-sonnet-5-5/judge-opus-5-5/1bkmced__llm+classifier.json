@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is largely safe. Spinosad, insecticidal soap, pyrethrin and a systemic granule are appropriate for thrips, and the output adds the qualifier \"where legal and suitable for indoor plants.\" However, it recommends systemic acetamiprid/imidacloprid granules without warning to keep pets and children away from treated soil or to follow label rates. Alternating sprays with a systemic is also somewhat heavy but not dangerous."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It correctly diagnoses thrips, matching the reference. It ties the diagnosis to case evidence: \"Damage appears on new leaves as they unfurl\u2026 already injured when it opens,\" the black specks as frass, and the recurrence after Pyrexine. Recommending \"A systemic granule\u2026 handles the larvae and pupae\" and noting that sprays miss eggs in tissue mirrors the reference's key advice. It also offers a plausible differential (mites) with a concrete check."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use readily available products: shower rinse, Captain Jack's spinosad, systemic granules, sticky traps. \"Spray every 5\u20137 days for at least 4\u20136 weeks\" plus soil treatment and optional beneficial nematodes is a lot of ongoing effort. The many parallel options may also feel overwhelming, but each one is doable at home."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate every pothos from the other plants",
+  "Keep new cuttings and plants quarantined until you're sure they're clean",
+  "Prune the badly damaged new growth and discard it"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3367,
+ "output_tokens": 923
+}

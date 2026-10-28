@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Stopping fertilizer, mulching, and adding afternoon shade match the reference and are safe. The conditional rule, \"If it is dry, water slowly and deeply... If it is soggy, hold off and fix drainage,\" carries little risk of active harm. However, by raising drainage and rot (\"roots can suffocate or rot\"), it could make the owner hesitate to water more, which is the action the reference says was needed. The suggestion of \"lifting the plants slightly and planting them a little high\" could add stress if done during the heat wave, though it is framed as a later plan."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The headline diagnosis, \"transplant stress made worse by site and soil problems, probably with some root damage,\" differs from the reference's confirmed underwatering/drought stress. It does rank \"Heat and drought stress at the root ball\" as the most likely cause and correctly notes that every-other-day watering \"can still be too little\" in 100\u00b0F heat. Several details may be unverifiable or hallucinated, such as the Encore tags and standing water in photo 5. It never gives the reference's clear fix of watering daily, instead diluting the advice with drainage and planting-depth hypotheses. \"Stop fertilizing\" does match the reference."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable for a home gardener: the finger/trowel moisture check, a slow deep soak, 2-3 inches of mulch kept back from the stems, the scratch test, and shade cloth. The main ambiguity is that it gives no concrete watering frequency or amount, unlike the reference's daily 2-3 minutes of hose water per plant. The replanting/amending suggestion takes more effort and is vaguely timed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check moisture before you water again",
+  "Mulch 2-3 inches deep over the root zone",
+  "Consider temporary afternoon shade",
+  "If the soil is heavy clay, plan on lifting the plants slightly and planting them a little high, or amending the bed"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2882,
+ "output_tokens": 1161
+}

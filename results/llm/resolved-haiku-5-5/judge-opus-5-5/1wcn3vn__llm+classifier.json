@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. \"Lift the pot out, empty any water\" is a sensible case-specific fix for the clear outer container. The finger-test watering guidance is sound. The one minor risk is \"ideally a south or west exposure\": strong afternoon sun can scorch money tree leaves, and no caveat about direct sun is given. Nothing would seriously harm the plant, but it also misses the real cause, so the stunting would continue."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference identifies the problem as multiple money trees tangled in one pot that need untangling and separating. The model never recognizes this. It blames \"Leggy, stretched growth with big gaps between leaves\", which contradicts the user's report of lots of leaves, and \"Money trees grow slowly indoors.\" \"It's probably getting root-bound\" and \"you can check the roots when you do it\" loosely touch on crowding, but the model never suggests separating plants. The clear outer pot observation is case-specific but unrelated to the stunting complaint."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner. Examples include \"Repot in spring into a container 2 to 3 inches wider\", \"push a finger about 2 inches into the soil\", and \"use a saucer you can pour out after watering.\" No special tools are needed, and everything can be done this week or in spring as stated."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it closer to a bright window... and rotate it every few weeks so it grows evenly",
+  "Repot in spring into a container 2 to 3 inches wider, with drainage holes and fresh well-draining potting mix",
+  "Feed it lightly with a balanced, diluted fertilizer during spring and summer, and skip it in winter",
+  "push a finger about 2 inches into the soil and water thoroughly only when it's dry at that depth"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2297,
+ "output_tokens": 1048
+}

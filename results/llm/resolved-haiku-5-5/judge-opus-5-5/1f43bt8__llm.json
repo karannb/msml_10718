@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The pruning guidance is low-risk: \"Cut at the base of the leaf stalk with clean, sharp shears... sanitize the blade first\" and \"Don't remove more than about a third of the leaves.\" Care advice such as \"move it gradually into full sun to avoid scorching\" and \"don't let it sit in standing water\" is sound. One minor risk: by saying only to \"Repot every 2 to 3 years, or when roots fill the pot,\" it misses the reference's warning that the narrow-topped pot may have to be broken if transplanting is delayed."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly says the lowest, oldest leaves are the pruning candidates and that splits are normal, which partly matches the reference. However, it narrows removal to leaves that are \"fully yellow, brown, or dried out\" and says to \"Leave leaves that are mostly green, even if they're ragged.\" The reference instead recommends cutting the bottom leaves touching the ground, and the poster removed seven leaves with good results. It misses the case-specific pot concern entirely. The \"balcony\" reference is not supported by the case text. Much of the maintenance section is generic care-sheet content."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only common tools: \"clean, sharp shears or a knife,\" a \"balanced liquid fertilizer,\" and a soil-dryness check. Watering cues (\"top 2 to 3 inches of soil are dry\") and the temperature threshold for bringing it inside (\"50\u00b0F (10\u00b0C)\") are clear. Any home owner could do this right away."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water thoroughly when the top 2 to 3 inches of soil are dry",
+  "Use a balanced liquid fertilizer every 4 to 6 weeks during spring and summer",
+  "Check the undersides of leaves and where the stalks meet for spider mites, mealybugs, and scale",
+  "Wipe the leaves occasionally to remove dust",
+  "Repot every 2 to 3 years, or when roots fill the pot",
+  "Bright light is best",
+  "Water less in cooler months"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2494,
+ "output_tokens": 1060
+}

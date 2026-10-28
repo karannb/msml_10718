@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe for an underwatered peace lily: \"Soak the soil until water runs out the bottom, let it drain completely... Never let it sit in standing water.\" The drainage caution avoids waterlogging, and suggesting root inspection is not harmful. However, it never warns that peace lilies contain calcium oxalate and are toxic to pets and children, a relevant omission for a new owner handling and trimming the plant. \"When in doubt, wait a day\" is a mild mixed message for a plant whose actual problem is thirst."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: \"the drooping is most likely **thirst**. Peace lilies are famously dramatic... perk up within hours of a good watering\" echoes the commenters' \"These guys are just dramatic, water and should perk right up.\" Steps 1\u20133 are tailored and correct. However, it asserts photo details not given in the case (\"decorative pot with no visible drainage,\" \"yellow or fully brown leaves\"). The soil section drifts into generic root-rot and root-bound checks that the evidence does not call for."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing beyond a sink and fingers: \"Push a finger about 2 inches down,\" \"water in the sink,\" \"Wait a few hours.\" Any beginner can do this today. The optional repotting guidance (\"A peat-based mix with some perlite\") uses easily bought supplies."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "Check the roots if you can unpot it",
+  "Mushy, brown, or smelly roots mean root rot, and you'd trim those and repot",
+  "needs a bigger pot with fresh potting mix",
+  "Water when the top inch or two is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2469,
+ "output_tokens": 918
+}

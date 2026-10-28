@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Check drainage first\", \"Use a chunkier mix\" and \"Water only when the top 1\u20132 inches of soil are dry\" directly counters the overwatering and rot risk. Nothing here worsens the problem, and no chemicals are recommended. \"Skip fertilizer for now\" is appropriately cautious for a stressed plant. Monstera's mild toxicity to pets goes unmentioned, but that is not material here because no handling-risk treatment is advised."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"Very dark, dense soil\" with uncertain drainage, \"overwatering or early stem/root rot\" and \"Leggy, sparse growth... wants more light\". These match the reference's diagnosis of dense, wet, poorly drained soil plus insufficient light. The mix recommendation (\"orchid bark, perlite and some potting soil\") is essentially the reference's aroid mix. It cites case-specific evidence such as the metal bucket and photos 5 and 6, and it correctly reads \"small holes\" as normal fenestrations. Some speculation about humidity and salt is minor."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week. They include using a nursery pot as a cachepot, sliding the plant out to inspect the roots, trimming with clean scissors, and buying bark and perlite. The window placement guidance (\"east window or a bit back from a south or west window\") and the watering rule are clear. Rooting cuttings in water as a backup is simple."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "It can also come from low humidity or salt buildup",
+  "Skip fertilizer for now"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2699,
+ "output_tokens": 609
+}

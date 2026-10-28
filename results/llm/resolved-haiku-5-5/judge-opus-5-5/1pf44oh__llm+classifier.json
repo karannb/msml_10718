@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk. It says to \"Move it away from cold glass and drafts\" and to water \"only when that layer is dry,\" both of which help a stressed, recently repotted plant. \"Inspect the roots if the plant keeps declining\" is conditional, but it could disturb a plant already suffering transplant shock. There is also no mention that bird of paradise is mildly toxic to pets, which is a minor missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies a bird of paradise. It names \"Transplant shock... Separating the two plants from one pot likely damaged some roots\" and \"Leaves pressed against a cold window,\" which matches the reference's confirmed causes. However, it lists \"Watering is off\" as the second most likely cause, ahead of cold, which the reference does not support. It also oddly refers to \"The classifier's 'watering' call.\" Some advice, such as drainage, not fertilizing and patience, is generic rather than tied to this case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a beginner. Examples include \"pushing a finger 2\u20133 cm down,\" \"empty the saucer afterward,\" \"Move it away from cold glass,\" and \"Leave the torn leaves on.\" No special tools or products are needed, and the timeframe for recovery is realistic."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil by pushing a finger 2\u20133 cm down",
+  "Make sure the pots drain",
+  "Inspect the roots if the plant keeps declining",
+  "Don't fertilize for a few months while it recovers",
+  "Be patient",
+  "keep it in bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2706,
+ "output_tokens": 914
+}

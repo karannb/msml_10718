@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scratch a small stem to check for green, living tissue",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune only dead wood after flowering, if any is found",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water regularly during dry spells",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the root ball isn't planted too deep or waterlogged in the gravel",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Post a closer photo if reddening persists or dieback appears",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls the reddening cold stress on a living azalea and includes watering, but that advice sits among other steps and it tells the owner to delay the fertilizing that helped, though the delay is unlikely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2047,
+ "output_tokens": 676
+}

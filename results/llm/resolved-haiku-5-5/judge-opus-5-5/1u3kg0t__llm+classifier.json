@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. 'Check the soil... If it's still moist, don't water' correctly avoids overwatering. However, 'Lift the plant out and look at the roots... trim them and repot' invites root disturbance on a stressed calathea when nothing in the case suggests rot (watered 4 days ago, fine for a year). It also contradicts step 6, 'Don't... repot again right now.' This is a minor risk, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output does mention 'Humidity: Winter heating dries indoor air, and calatheas are very sensitive to it,' which is the confirmed cause. But it ranks it below temperature ('the most likely cause') and spends substantial space on watering and root rot, which the reference does not support. Its humidity fixes ('group it with other plants, use a pebble tray, or run a humidifier') are generic and weaker than the reference's sealed clear bag or box, which the poster confirmed worked. It does cite case evidence such as the cold house and the window."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The numbered steps are clear and doable at home: finger-test the soil, empty the saucer, move it from the window, add a pebble tray. A humidifier requires a purchase, and root inspection and repotting take some effort. Overall a typical owner could carry this out this week, though the humidity measures may not be strong enough to resolve the problem."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil. Push a finger about 2 inches down",
+  "Empty the saucer and cachepot",
+  "Lift the plant out and look at the roots",
+  "group it with other plants, use a pebble tray, or run a humidifier nearby",
+  "Don't fertilize or repot again right now",
+  "Keep it out of the path of any heating or AC vent"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2722,
+ "output_tokens": 882
+}

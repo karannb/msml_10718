@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output says the dots are \"almost certainly not pests\" and \"Neither problem looks serious.\" In reality there was a confirmed thrips/mixed infestation across all five plants. That confident dismissal could delay treatment and let the pests spread to the other plants. It is partly offset by \"keep inspecting\", the alcohol-swab test, and the conditional \"isolate the plant and treat with insecticidal soap or neem.\" None of the care advice (keep near the window, don't overwater) would directly damage the plant."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis is wrong. Calling the dots \"dried sap or guttation residue\" and the specks \"dust\" contradicts the reference, which confirms thrips plus other bugs with webbing. The output does correctly flag sun/relocation stress (\"Moving it straight into bright windows may also have stressed it\"), which matches part of the reference. It also gives a reasonable light recommendation. Several tips are generic and not tied to the case, such as \"avoid drafts\" and \"be patient.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week. Examples are \"wipe a bead with a damp cloth or rubbing alcohol on a cotton swab,\" checking leaf axils with a flashlight, using a sheer curtain, and treating with insecticidal soap or neem weekly if pests are found. No special equipment is needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Avoid drafts",
+  "Be patient. Don't repot, fertilize, or make other big changes for several weeks",
+  "Make sure the nursery pot has drainage holes, and don't let it sit in water",
+  "check the roots for rot and check that the soil isn't staying soggy",
+  "Wipe the leaves with a damp cloth to remove dust"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3357,
+ "output_tokens": 643
+}

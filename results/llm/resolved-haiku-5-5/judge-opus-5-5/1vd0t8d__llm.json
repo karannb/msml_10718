@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. \"Don't repot again now. Let it settle first\" matches the reference. The minor risk is the suggestion to \"gently lift the plant and look for firm, white or tan roots\" and trim them. On a recently repotted, root-trimmed plant that is actually healthy, this adds needless disturbance. It is framed conditionally (\"If the soil stays soggy\"), which limits the risk. Watering less and holding off on fertilizer pose little danger."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The reassurance is right: \"Did you kill it? Almost certainly not\" and \"Don't repot again now\" both align with the reference. But the output calls \"transplant stress or too much moisture\" the \"most likely causes\" and locates the yellowing \"on the stems and newest growth.\" The reference instead identifies normal yellowing of the oldest leaf on a healthy plant that is putting out new growth. It also misses the reference's one concrete action, trellising the vine lying on the floor, and fills that space with generic care tips."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week. Examples include \"empty the saucer after watering\" and \"Water only when the top 2\u20133 cm (about an inch) is dry.\" It also gives clear signs to watch for, such as mushy or black leaf bases. No special tools or products are needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the light bright and indirect. Avoid direct harsh sun while it recovers.",
+  "Don't fertilize for at least a couple of months.",
+  "Be patient. Give it 3\u20136 weeks.",
+  "Check drainage. Make sure the pot has a hole and empty the saucer after watering",
+  "Water only when the top 2\u20133 cm (about an inch) is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2589,
+ "output_tokens": 1077
+}

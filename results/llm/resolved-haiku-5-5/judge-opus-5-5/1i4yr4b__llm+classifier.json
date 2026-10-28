@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output recommends checking the rhizomes, cutting away rot, letting the cuts dry, repotting into a chunkier mix, and watering less often (\"every 3\u20135 weeks\"). All of this is safe and matches the reference. It also says to \"Leave partly yellow ones,\" which agrees with the reference's warning not to cut more stems that are only starting to yellow. Nothing here risks harming the plant or the person. ZZ toxicity to pets is not mentioned, but the advice involves no handling risk that makes this a meaningful omission."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The primary diagnosis, \"Overwatering or poor drainage,\" with possible rot, matches the reference. The output ties it to case evidence: the raisin-like stem, the 2-week watering schedule, and the universal soil. The advice to unpot and inspect the rhizomes, use a chunkier mix, and extend watering intervals all aligns with the reference. It loses a point for diluting the diagnosis with cold exposure, light, salt buildup, and a generic pest check, which the reference does not support."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: \"Gently slide the plant out of its pot,\" \"Mix universal soil with roughly one-third perlite, pumice, or orchid bark,\" and water every 3\u20135 weeks after checking that the soil is dry several inches down. Perlite and orchid bark are cheap and easy to find. No special tools are needed."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check for pests. Look under the leaves and at the stem bases for scale, mealybugs, or webbing",
+  "Move it away from the window and cold drafts",
+  "Lower light in winter"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3053,
+ "output_tokens": 608
+}

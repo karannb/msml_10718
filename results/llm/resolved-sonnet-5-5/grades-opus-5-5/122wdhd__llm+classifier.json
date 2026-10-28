@@ -1,0 +1,96 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check the torn end of the cutting for rhizome or root nubs",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim the dry torn scrap off the cutting with clean scissors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Put the cutting in a jar of water in bright indirect light",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the propagation water every few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively plant the cutting in a small pot of moist peat/coco-perlite mix and cover with a clear bag",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Discard the cutting if it turns mushy",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the parent is in a draining pot with loose, well-draining mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": true
+  },
+  {
+   "action": "Water the parent lightly after repotting",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the parent in bright indirect light away from direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Provide extra humidity for the parent",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Support heavy leaves with a small stake or loose ties",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Cut any cracked or kinked stems cleanly at the base",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies a mechanically broken stem and recommends rooting it in water, which is what worked; its pessimism about rooting success is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2296,
+ "output_tokens": 1093
+}

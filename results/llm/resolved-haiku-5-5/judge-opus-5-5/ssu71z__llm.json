@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is safe and fits the case. \"Water only when the top inch is dry\" and \"If it's wet, don't water\" directly address the overwatering risk the reference flags. One minor risk is \"consider repotting into a smaller container,\" which could add stress to a cutting already in shock, whereas the reference advises minimal intervention. Saying the second plant \"may be a little thirsty\" could also prompt unnecessary watering of a plant the reference says looks great."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output names \"Transplant shock\" and \"Too much soil. A large pot holds a lot of moisture... which can lead to rot,\" which matches the reference's diagnosis and ties to the user's ivy drooping in the bigger pot. It also correctly notes the other plant looks healthy. However, it pads the answer with speculative causes like \"Low light or cold. Winter windows...\" that have no basis in the case, and with general cutting-care tips."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Stick a finger in about an inch,\" \"A clear bag loosely over the pot,\" and keeping the plant away from cold glass. A novice could do all of this this week. The instructions are clearly numbered, with realistic expectations (\"look worse for a week or two\")."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use bright, indirect light. Keep it out of direct sun",
+  "Water only when the top inch is dry",
+  "Don't fertilize yet. Wait until you see new growth",
+  "Be patient",
+  "Low light or cold. Winter windows often have less light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2448,
+ "output_tokens": 847
+}

@@ -1,0 +1,89 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check the stem base for rot signs: softness, wobbling, yellow translucent leaves, sour smell",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Stop watering until the soil is fully dry, then water thoroughly about every 2\u20133 weeks",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Unpot the plant and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off black, mushy or hollow roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the stem base is rotted, cut back to healthy tissue and let the cut dry for a few days",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Discard the old soil and debris, then repot in cactus mix with extra perlite or pumice",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the inner pot drains and empty standing water from the outer pot after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Put out yellow sticky traps for gnats",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Add a 1 cm top layer of sand or grit",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "If needed, water once with BTI (Mosquito Bits or Gnatrol)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to a brighter, sunnier spot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is overly wet soil with mold and gnats, and it treats root/stem rot only as a risk to check. Its unpot, cut-rot and repot-in-cactus-soil steps match the fix that worked, and its reassurance depends on checking first, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2568,
+ "output_tokens": 1300
+}

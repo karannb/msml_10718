@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water the pilea a day or two before separating",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gently loosen the root ball and separate the pilea by hand",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pot the pilea at the same depth in a pot with drainage and fresh well-draining mix, firming the soil lightly",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Place the pilea in bright, indirect light out of direct sun while it recovers",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the top inch of soil is dry before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the pumpkin planter has a drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If there is no drainage hole, keep the plants in nursery pots set inside the pumpkin",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls everything healthy and gives repotting tips, but never identifies the actual fix: rearranging the plants so the Kalanchoe gets the most light. Its advice isn't damaging, though the reassurance glosses over the Kalanchoe's light needs.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1960,
+ "output_tokens": 1014
+}

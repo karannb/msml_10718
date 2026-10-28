@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The core advice, \"Try placing it 2 to 3 metres back from the window, or put a sheer curtain,\" is the opposite of the confirmed fix. The reference attributes the problem to too little light on the shaded shelf, and the plant recovered once moved outdoors. Following this would reduce light further and likely continue the decline. The line \"Once a week can be right or too little in a hot climate\" could also push toward more watering, whereas the reference suggests extending the interval. The crown-rot and root checks reduce the risk somewhat."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The headline diagnosis, \"most likely getting too much direct sun,\" contradicts the reference (insufficient light from shelf shading). The output does engage with case details such as southern France, 9am\u20133pm sun and 50 cm from the window, but it draws the wrong conclusion. The rest is a scattershot list (crown rot, tap water fluoride, roots) that is not tied to evidence in the case. It never considers that the shelf blocks light or that moving the plant outdoors could help."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home grower: \"2 to 3 metres back,\" \"sheer curtain,\" \"water when the top 2 to 3 cm of soil is dry,\" \"Gently slide the plant out of its pot.\" No special tools are needed. The long list of things to check adds some ambiguity about priorities. Feasibility is judged independently of correctness."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Don't water on a schedule. Instead, water when the top 2 to 3 cm of soil is dry",
+  "water thoroughly and let the excess drain",
+  "Make sure the pot's saucer doesn't hold standing water",
+  "try rainwater or filtered water, or let tap water sit out overnight",
+  "Healthy roots are white or cream-colored and firm. If they're brown, mushy, or smell bad, trim the damaged parts and repot in fresh, well-draining potting mix",
+  "trim off the dead leaves at the base so the plant can focus on new growth"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2645,
+ "output_tokens": 924
+}

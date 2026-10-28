@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe and standard: \"water when the top 2-3 inches are dry,\" \"pot only 1-2 inches wider,\" \"half strength monthly.\" Nothing would seriously damage the plant. However, \"Braided money trees are naturally slow growers\" and \"Nothing seriously wrong is visible\" confidently steer the owner away from the real cause, crowding of multiple tangled trees. That could delay the fix that worked."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model never recognizes that the plant is multiple money trees tangled together in one pot. It attributes stunting to \"Weak light is the most common cause of slow growth\" and normal slow growth instead. It does notice the \"braided trunk,\" but frames braiding as normal rather than as the crowding problem. Most of the advice (light, fertilizer, soil checks, flushing salts) is generic, though the repot recommendation partially overlaps with separating the plants."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable with common supplies: \"Check the soil with a finger,\" \"Empty it after watering,\" \"potting soil plus perlite or bark,\" \"Rotate the plant regularly.\" No special tools are needed, and the steps are clear."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Give it brighter indirect light",
+  "Feed it with a balanced fertilizer at half strength monthly during spring and summer",
+  "Check the soil with a finger: water when the top 2-3 inches are dry",
+  "Look under the leaves for fine webbing or tiny insects",
+  "flush the pot with water every month or two",
+  "Rotate the plant regularly",
+  "repot into a slightly larger pot with good drainage"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2701,
+ "output_tokens": 603
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Move plant closer to a bright south or west window",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rotate the plant every few weeks",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in spring into a pot 2-3 inches wider with drainage and fresh well-draining mix, checking roots",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Fertilize lightly with diluted balanced fertilizer in spring and summer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Lift pot out of clear outer container and empty standing water",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use a saucer or cache pot with drainage layer instead",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches deep and water thoroughly when dry, letting it drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames light, slow pace and root-binding and never identifies the multiple tangled money trees; repotting might expose the roots but it never says to separate them, and its reassurance that slow growth is normal delays the real fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1947,
+ "output_tokens": 522
+}

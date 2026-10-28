@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Advice is safe: \"Change the water every 1-2 weeks, fully. Don't just top it off\" and \"diluted to about a quarter strength\" fertilizer are conservative. No chemical risks. Pothos is toxic to pets and children, and a brief caveat would have been nice, but it is a work plant and the omission is minor. Calling the crust \"mineral and organic buildup\" without certainty is hedged appropriately."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output identifies root rot and low oxygen from topping off (\"This is the most likely cause\") and lack of nutrients (\"a year in water without fertilizer\"), matching the REFERENCE. It cites case evidence: the user topping off, the year of stagnation, and the location away from the window. The steps to rinse and rub off gunk, trim rotten roots with clean scissors, and add 1/4-strength fertilizer mirror the reference. It does not mention container size, which the reference emphasizes, and its fertilizer frequency (monthly) is less than the reference's every watering."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and numbered (\"Take it out and rinse... Trim any rot... Wash the jar... Add a few drops of liquid fertilizer\"). They use household items and easily bought fertilizer. They are realistic for an office plant this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright, indirect light works best",
+  "A desk lamp or a grow light helps if the office is dim",
+  "move it to soil (a well-draining potting mix)"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3304,
+ "output_tokens": 551
+}

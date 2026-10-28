@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Slide plant out of pot and check roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot, trim soft roots",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot, repot into fresh chunky well-draining mix in pot with open drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "If roots fine, clear drainage holes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let soil dry more between waterings; water only when top 2-3 cm dry, pour until it drains, empty saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move to warm, bright spot away from cold windows",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally buy and set up a grow light",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses overwatering and root rot when the problem was shallow underwatering, and its advice to water less and possibly disturb or trim the roots would delay the thorough soak that fixed the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2320,
+ "output_tokens": 489
+}

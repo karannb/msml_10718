@@ -1,0 +1,103 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap branches over white paper to confirm thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place blue or yellow sticky traps near plants",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Test alcohol spray on a single leaf before wider use",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect all 80+ plants, especially orchids and blooming plants",
+   "minutes": 120,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate heavily infested plants",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect new plant purchases before adding them to the collection",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off badly damaged leaves and infested flowers and bag them",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap, neem or spinosad every 3-5 days for 3-6 weeks, rotating products",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Apply a soil drench or top-dressing to kill pupae",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": true
+  },
+  {
+   "action": "Repot heavily infested plants in fresh media",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Release predatory mites (A. swirskii/cucumeris) or Orius",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "For severe cases, use a systemic insecticide like imidacloprid",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Keep monitoring sticky traps for several weeks after thrips disappear",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies thrips, but the beneficial-insect program that worked is only one of many suggestions and framed as 'possibly', and nothing recommended is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2386,
+ "output_tokens": 1345
+}

@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Loosen the root ball by teasing the roots apart or making vertical cuts / shaving the outer layer",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into fast-draining mix (cactus mix or a 50/50 blend with potting soil, or add perlite/sand), sizing up only slightly",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the pot has a drainage hole and isn't sitting in a saucer that holds water",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly once after repotting",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with a finger or skewer and water when the top 1-2 inches are dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead brown stems lightly without cutting into bare wood",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant out of harsh afternoon sun for a few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If overwintering in the garage, set up a timed grow lamp for 12-14 hours",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Optionally bring the plant in during rain",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is root-binding, with drought stress mentioned only as a possibility. It does not point to the terracotta pot drying the plant out. It also tells the owner to keep the terracotta, discourages plastic and recommends a fast-draining cactus mix, which would worsen the confirmed drying-out problem.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2760,
+ "output_tokens": 1151
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Use a systemic insecticide\u2026 imidacloprid granules or drench (check what's legal in your area)\" plus abamectin and sulfur is reasonable, and it says \"follow the label.\" However, it gives no explicit warning about pets or children handling treated soil in a home bathroom. The phrase \"Safe options are fine for non-edible plants\" is vague. Nothing here would worsen the plant's problem, so the risk is minor and comes from missing caveats."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies \"thrips damage\" and cites case-specific evidence: \"Damage appears on new growth as it unfurls\u2026 This is the strongest clue,\" black specks as frass, and relapse after pyrethrin because eggs sit inside leaf tissue. This closely matches the REFERENCE's reasoning and its systemic-granule recommendation. There are a few flaws. Spinosad is listed under \"systemic insecticide\" when it is translaminar rather than truly systemic. It claims \"Your photos show some spotting on the syngonium,\" which contradicts the poster and may be invented. The broad-mite alternative is plausible but hedges the diagnosis."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and numbered: \"Cut off the worst new growth,\" \"strong shower spray,\" \"Repeat spraying every 5-7 days for 4-6 weeks,\" and \"Sticky blue traps.\" The products are easy to buy at garden centers. Imidacloprid availability varies by region, and the list of steps is long and somewhat sprawling. It does not commit to one primary treatment the way the REFERENCE does, which adds ambiguity."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate everything",
+  "consider asking your local extension service or a nursery to look at a cutting under magnification",
+  "follow the label"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3428,
+ "output_tokens": 1087
+}

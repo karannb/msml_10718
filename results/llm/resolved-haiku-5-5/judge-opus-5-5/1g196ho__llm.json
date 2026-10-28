@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Waiting to water and the line \"If they're mushy, black, or smell bad, trim them off\" are sound and guard against overwatering. The main risk is \"Repot into fresh soil\" right away, which disturbs an already stressed plant in winter; the reference suggests waiting until spring or summer. The poster later repotted with good results, so the risk is minor. There are no chemical or toxicity concerns."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Severe dehydration\" and \"old soil may have become compacted\" match the reference's drought stress and compacted, depleted soil. The output ties its advice to the case: soil age, the sentimental value (\"Insurance policy\" cuttings), and the pot's drainage. It differs from the reference on repotting timing. Its 'hydrophobic' claim (\"water runs through without fully soaking in\") also conflicts with the user's report that water sank in. The care-going-forward bullets are generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear and use household items: sliding the plant out of the pot, \"clean scissors,\" potting mix with perlite, and \"Bottom-watering for 20\u201330 minutes.\" Taking 2\u20133 segment cuttings is easy for a home owner. Everything can be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright, indirect light, away from harsh direct sun and drafts",
+  "Moderate watering, letting the top inch dry between waterings",
+  "Cool temperatures, and keep it away from heaters and cold drafts"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2672,
+ "output_tokens": 789
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The finger test and 'water thoroughly until it drains out the bottom' are safe and address the confirmed thirst. However, 'Repot and divide... split the clump into 2-3 smaller sections' is listed as a parallel step rather than after rehydration, and could add transplant shock to an already wilting plant. Top-watering a bone-dry, root-bound clump may also run straight through without wetting the rootball, which is why the reference recommends a soak. These are minor risks, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly notes 'the soil is almost certainly not the cause' and that 'drooping but still plump, green leaves... fit this' (thirst). It also raises the cold window, matching the reference's secondary point. But it hedges ('I can't tell which from the photos') and gives root rot equal weight. Much of the advice is broad care guidance (repotting, pruning, light hours, routine) instead of a clear 'soak it now' recommendation like the reference's 20-minute bath."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: 'Stick your finger 1-2 inches into the soil,' 'water thoroughly,' 'Pinch just above a pair of healthy leaves,' and rooting cuttings in a glass of water. Dividing a dense seedling clump takes more effort and skill than a beginner may have. The sheer number of steps could also overwhelm someone who only needed to water."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Basil needs 6-8 hours of direct light",
+  "Water when the top inch of soil is dry, and don't let it sit in standing water",
+  "Check the bottom of the pot for drainage holes",
+  "pot each in fresh potting mix with drainage holes",
+  "Put it somewhere warm... with bright light. A south-facing window is ideal"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2662,
+ "output_tokens": 956
+}

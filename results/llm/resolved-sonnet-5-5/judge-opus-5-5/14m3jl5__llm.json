@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Cut just above a node that has a leaf or a visible bud\" and \"Don't take more than about \u2153 of the plant at a time\" is gentle and safe. Basil is non-toxic, and no chemicals are recommended. Nothing here would damage the plant or endanger people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies an overgrown, woody basil and says \"If the stalk has no live nodes, you can remove it\" and \"let the next generation take over.\" This matches the reference's advice to get rid of the stalk and focus on the small plants. \"Pinch or cut just above a pair of leaves, which prompts two new branches\" mirrors the reference's cut-above-the-Y-shaped-side-shoots guidance. Points are deducted for the generic 'Other care notes' block and for assuming details not in the text, such as \"After repotting\" and \"That window is good.\" It also does not suggest moving the plant outdoors, which helped the poster."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps need only \"clean, sharp scissors\" and, optionally, a glass of water for cuttings. Instructions like \"Cut just above a node\" and \"Remove flower buds as soon as they appear\" are concrete, and any home grower can carry them out this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use clean, sharp scissors.",
+  "Water consistently but don't overwater.",
+  "Basil wants 6+ hours of bright light... a grow light helps in winter.",
+  "Make sure the pot has drainage."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2489,
+ "output_tokens": 794
+}

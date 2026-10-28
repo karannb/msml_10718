@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Soak the pot in a sink or bucket for 20\u201330 minutes, then let it drain",
+   "minutes": 35,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil dryness and water again only when the top few centimeters are dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Press around the trunk base to check for soft, dark or mushy areas",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If stem rot is found, cut above healthy tissue and propagate the top",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Optionally repot one size up into fresh well-draining mix with perlite",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies underwatering as the main cause and leads with a thorough soak, which matches the fix that worked. It downplays the rootbound issue and makes repotting optional, but nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2219,
+ "output_tokens": 779
+}

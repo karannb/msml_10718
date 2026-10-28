@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output gates watering on a soil check: \"If it's bone dry, water thoroughly... If it's wet... suspect root rot.\" This avoids overwatering a plant that is already wet. Moving it to \"indirect or filtered light\" and holding off on fertilizer are both safe. Nothing here is likely to harm the plant, people, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It names \"Underwatering. This is the most likely cause,\" which matches the reference, and ties it to the case (\"Two weeks in the sun without care would dry the pot out completely\"). It also adds secondary causes and generic extras such as \"pinch back leggy stems\" and \"Don't fertilize,\" which dilute the simple reference fix, \"a good drink.\" The plant ID and the cold-weather note are not supported by the case, though they do no harm."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special equipment: a finger test to 2\u20133 cm, watering until it drains, and a 20\u201330 minute bottom soak if water runs straight through. Any home owner could do these today. It also says what to expect: \"bounce back within a day or two.\""
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Don't fertilize until it has recovered",
+  "pinch back leggy stems to encourage bushier growth",
+  "check that drainage is working",
+  "Keep the soil lightly moist, not soggy",
+  "repot in fresh, well-draining mix if needed"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2536,
+ "output_tokens": 519
+}

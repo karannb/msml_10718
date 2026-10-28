@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core treatment, \"Dab each bug with a cotton swab dipped in 70% isopropyl alcohol,\" matches the reference and was confirmed not to harm the plant. Insecticidal soap and diluted bleach for the pot are low-risk. Two caveats are missing. The reference advises limiting direct sun or grow lights for 24 hours after alcohol, which the output omits. Gotu kola is often eaten, yet the output recommends \"insecticidal soap or neem oil\" with no note about edibility or rinsing before harvest."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies \"mealybugs\" from the \"small white, cottony or fuzzy blobs tucked into the stems and leaf bases,\" matching the reference. Its main remedy, 70% alcohol, is the one the poster used successfully. It ties advice to the case: gotu kola tolerates rinsing because it \"likes moisture,\" it suggests checking for root mealybugs during the planned repot, and it acknowledges the plant is already isolated. A few steps, such as quarantine and trimming, are standard but still relevant here."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use common household items: \"cotton swab,\" \"70% isopropyl alcohol,\" a sink shower, insecticidal soap, gloves and newspaper. Frequency is concrete (\"every 5\u20137 days for 3\u20134 weeks\"). The swab test (\"A mealybug will smear\") gives a simple way to confirm the diagnosis. Everything is doable this week without special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it quarantined for at least a month after you stop seeing bugs, and check your other plants",
+  "Trim heavily infested stems and bag them",
+  "use fresh potting mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2614,
+ "output_tokens": 927
+}

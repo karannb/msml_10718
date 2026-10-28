@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "\"Don't water again yet\" is appropriate for soil that is still moist. However, \"Be patient and don't move it again\" and \"Avoid sudden changes in location\" discourage the fix the reference says worked: moving the plant into more light. Following them could keep the soil wet longer and raise root-rot risk. \"Lift the plant out... trim the rotten parts and repot\" adds a second root disturbance only a week after repotting, which is a minor risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output labels the problem \"transplant shock\" and lists wet soil and root rot as possibilities, which partly overlaps with the reference. It never identifies low light as the cause, though the user said the plant is \"further away from the window.\" The light advice, \"Keep the light steady... Your plant lamp is fine if it runs on a consistent schedule,\" mentions the lamp without recommending more light. Much of the rest is generic calathea care: humidity, pebble trays, water quality, and brown edges."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable with household items: the finger test at 2\u20133 cm, checking roots, using a pebble tray, letting tap water sit overnight. The many alternative causes and the optional unpot-and-repot step add some ambiguity and effort, but a typical owner could carry them out this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright, indirect light is ideal",
+  "A pebble tray under the pot, a humidifier, or grouping plants together works better",
+  "Rainwater, filtered, or distilled water is best",
+  "they hate drafts, heating vents, and cold windows",
+  "Be patient",
+  "Look for new leaves unfurling as a sign it's recovering",
+  "repot in fresh, well-draining soil in a pot with drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2787,
+ "output_tokens": 1013
+}

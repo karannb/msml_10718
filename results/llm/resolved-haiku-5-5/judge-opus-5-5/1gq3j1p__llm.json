@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core treatment, \"Use insecticidal soap or neem oil, covering both sides of the leaves. Repeat every 5\u20137 days,\" plus \"Spray it hard with water,\" is safe and works against aphids too. The edible-plant caveat (\"stick to soap, neem, or horticultural oil... rinse the fruit well\") is appropriate. The minor risk is the misidentification: calling the yellowish insect near the stem a possible \"small beneficial insect\" could lead the user to spare the actual aphids, and yellow sticky traps target whiteflies more than aphids."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model diagnoses \"whiteflies\" and reads the white specks as \"whitefly eggs or nymphs,\" but the reference confirms an aphid infestation. The \"yellowish insect near the stem\" was likely an aphid, yet it was waved off as uncertain. The neem/soap advice happens to match the reference's successful treatment, so the outcome would probably still be good. However, the diagnosis and its whitefly-specific framing (fluttering adults, sticky traps for adults) are wrong."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use easily bought items: a water sprayer, insecticidal soap or neem, sticky traps, and bags. \"Repeat every 5\u20137 days for at least 3 weeks\" gives a clear schedule. Any home grower could do this within the week."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Isolate the plant so the pests don't spread to your other houseplants",
+  "Remove heavily infested leaves and bag them",
+  "Vacuum fallen debris and wipe nearby surfaces",
+  "Check the label of any product you use for edible plants"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2220,
+ "output_tokens": 958
+}

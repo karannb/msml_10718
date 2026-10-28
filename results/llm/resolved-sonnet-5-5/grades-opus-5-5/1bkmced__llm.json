@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the affected and intertwined plants",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off the worst new growth and bin it",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse the plants with a strong shower spray, including sheaths and leaf undersides",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray with spinosad every 5-7 days for 4-6 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Apply a systemic soil drench or granules such as imidacloprid",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Treat or replace the top layer of potting mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Put up blue sticky traps to monitor adults",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Inspect new growth with a loupe or phone macro for thrips or mites",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If broad mites are suspected, treat with an abamectin- or sulfur-based miticide",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "If damage persists after a month, photograph the sheath and consult an extension service or nursery",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names thrips as its main diagnosis, and its core advice matches the poster's fix: cut back damaged growth, spray, then apply a systemic soil granule treatment, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2866,
+ "output_tokens": 1027
+}

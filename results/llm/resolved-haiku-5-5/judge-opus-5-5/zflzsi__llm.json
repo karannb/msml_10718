@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Let it drain completely\" and \"Water when the top inch or so of soil is dry,\" is safe and fits drought recovery. Telling the owner to \"Gently slide the plant out of the pot\" and possibly \"repot in fresh, well-draining potting mix\" adds some disturbance to an already stressed plant when root rot is unlikely after drought, which is a minor risk. It also doesn't mention that peace lilies are toxic to pets and children, a small missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Severe underwatering that's been made worse by dry winter air\" matches the reference diagnosis exactly and ties to the case evidence (\"Three weeks without water\", \"indoor heating\"). The recovery timeline (\"Within a day or two you should see some of the droopy leaves start to perk up\") fits the reference's point that it can take hours, and \"Raise the humidity\" matches what helped the poster. Points off for generic filler (light, fertilizer, root-rot check) and an unverifiable claim about a strappy-leaved plant in the pot."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing special: \"pebble tray or by grouping plants together\", \"away from radiators and heating vents\", \"top inch or so of soil is dry.\" Any home owner can do all of this this week. Unpotting is optional and explained clearly."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Put it in bright, indirect light",
+  "Hold off on fertilizer until you see new growth",
+  "Check the roots. Gently slide the plant out of the pot",
+  "repot in fresh, well-draining potting mix",
+  "Cut off the badly damaged leaves at the base"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2379,
+ "output_tokens": 836
+}

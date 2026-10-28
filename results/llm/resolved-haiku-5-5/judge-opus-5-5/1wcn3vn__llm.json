@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model's steps carry no meaningful risk: \"Go up only 1 to 2 inches in pot diameter,\" \"Use a well-draining mix,\" and \"Empty the clear saucer after watering\" are all safe and include sensible root-rot caveats. No chemicals are involved. The only cost is that the advice may not fix the real problem, and repotting is harmless even if it doesn't help."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model attributes the stunting to being \"root-bound\" and to slow indoor growth. The reference's confirmed cause is multiple money trees tangled together in one pot, which need to be separated. The model even notes \"firm braided trunks\" but treats the braid as healthy rather than as the cause. It never suggests unbraiding or separating the plants. Some details do draw on the photo (the white crust, the clear saucer, Foxfarm soil), but the core diagnosis misses the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week: \"Slide the plant out of its pot,\" \"Go up only 1 to 2 inches,\" mix in perlite, empty the saucer, and flush the soil. They need no special tools, and the order of actions is clear."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Light is the other common limit. Bright, indirect light encourages stronger growth.",
+  "Give it more light if it's far from a window, and rotate it occasionally so it grows evenly.",
+  "Use a well-draining mix.",
+  "Make sure the new pot has drainage holes.",
+  "That's usually from inconsistent watering or dry air, and it isn't serious."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2380,
+ "output_tokens": 575
+}

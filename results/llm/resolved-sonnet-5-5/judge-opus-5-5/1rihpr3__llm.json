@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. Cautious watering ('Water thoroughly, let it drain fully, and never leave it standing in water') suits the damp soil described, and 'don't feed right now' is sensible. However, 'Don't repot again. Let it settle' could delay finding problems like the nursery mesh around the corms that the poster later discovered. There is also no warning that Alocasia is toxic to pets and children, which is a minor missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output does name light as a factor ('Bathrooms are often darker than they feel... A cheap grow light would also work'), which matches the reference. But it ranks 'Transplant and environment shock' as 'the most likely cause' and lists light third, while the reference confirms insufficient light as the main problem. It does tie some reasoning to case evidence (damp soil, bathroom location, clearance plant). It never mentions dormancy or checking for leftover nursery mesh."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: finger-check moisture, lift the pot to judge weight, trim with clean scissors, move to an east window or near a south/west window, or buy a cheap grow light. 'Move it to a brighter spot if the bathroom is dim' is a bit conditional and leaves the user to judge the light themselves. Overall, a beginner could act on this within the week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it away from drafts and vents",
+  "Be patient",
+  "Keep an eye out for spider mites",
+  "Water thoroughly, let it drain fully, and never leave it standing in water",
+  "Trim off the dead or mushy parts with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3027,
+ "output_tokens": 860
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, 'Water thoroughly, which you've done. Let it drain fully and don't leave it sitting in the saucer,' is safe and matches the actual problem. There are minor risks. 'Consider repotting into the next size up' could add stress if done while the plant is still dehydrated or in winter. 'Move it back from the glass' changes a spot the user says the plant loves, based on speculative light stress. Neither is likely to cause serious harm, and the insecticidal soap and root-rot cautions are appropriately conditional."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output names 'Underwatering' as cause #1 and ties it to case evidence: 'You said it needed a good watering' and 'filled the pot in under 6 months, it is probably root-bound.' This matches the REFERENCE's confirmed dehydration. 'Be patient. Give it a few days to a week to perk up' mirrors the reference advice to wait and see. However, it adds speculative causes such as 'Direct sun and heat' and filtered water that are not supported by the case. It also appears to misread the photo order: the user posted 'Before and then today,' yet the output describes the first photo as the damaged one. Those additions dilute the focus somewhat."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week. They include 'water when the top inch or so of soil is dry,' checking for roots 'poking out of the drainage hole,' grouping plants or using a humidifier, using a sheer curtain, and trimming crispy leaves. A humidifier or insecticidal soap is easy to buy. No professional tools are required."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise humidity with a humidifier near it, or group it with other plants",
+  "Use filtered or rainwater if you can",
+  "Consider repotting into the next size up",
+  "keep it away from vents and heaters",
+  "look under the leaves for spider mites"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2882,
+ "output_tokens": 974
+}

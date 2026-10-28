@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Shading, a loose humidity cover, and watching for damping-off are all safe. The one minor risk is \"Water gently, only when the top of the soil is dry\". A just-transplanted, collapsed seedling usually needs a thorough watering-in now, not waiting for the surface to dry, so this could prolong the wilting. Nothing involves chemicals or toxic hazards."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Your basil is most likely suffering from transplant shock\" matches the reference, and the output ties this to the collapse \"within minutes\" after repiquage. However, it does not lead with the remedy that actually revived the plant, placing the stems in water. It only mentions \"For the glass\" as a side note and refers to a glass the CASE never mentions. Several listed causes, such as cold tile floors and overwatering, are speculative and not drawn from the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use household items: \"covering them loosely with a clear plastic bag,\" keeping them out of direct sun, and changing the water in the glass every few days. A beginner can do all of this immediately with no special products."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep them out of direct sun and away from drafts",
+  "Bright indirect light is ideal",
+  "Water gently, only when the top of the soil is dry",
+  "Don't fertilize until new growth appears",
+  "The soil should be moist, not soggy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2581,
+ "output_tokens": 792
+}

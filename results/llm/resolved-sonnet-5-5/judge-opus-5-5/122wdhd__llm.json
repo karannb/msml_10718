@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model does recommend 'put it in water or a very humid setup,' which matches the reference, so following it is unlikely to hurt the cutting or the person. However, 'Trim the dry, papery bit off the bottom first' could remove the node the reference identified as the rooting point. Its claim that 'the odds are low' and 'many of these attempts fail' could also discourage a viable attempt. These are minor risks, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model correctly identifies the plant as 'Maranta leuconeura (red prayer plant), not a true Calathea,' which matches the reference, and it suggests water propagation. But its core claim is inaccurate: 'Marantas and calatheas grow from rhizomes and clumps, not stem nodes like pothos' and 'Probably not as a standalone cutting.' Marantas root readily from stem nodes, the reference notes a visible node, and the poster's cutting rooted quickly. This makes the output partly right and partly misleading."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for anyone: 'Change the water every few days, keep it in bright indirect light,' use a clear bag for humidity, and support the clump when repotting. They need no special tools or products and can be done this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "give it bright indirect light and decent humidity",
+  "Use a loose, well-draining mix (potting soil + perlite + a little orchid bark)",
+  "Keep the soil lightly moist but not soggy",
+  "use filtered or rainwater if you can",
+  "Expect a few days of drooping after repotting"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2533,
+ "output_tokens": 884
+}

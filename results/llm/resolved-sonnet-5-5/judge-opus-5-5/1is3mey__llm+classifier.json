@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core care changes are safe and match the reference: \"Soak the soil thoroughly... wait until it is completely dry before watering again... every 1-2 weeks\" and moving to bright light \"gradually so the leaves don't burn.\" The main risk is pushing propagation as \"the best route\" and suggesting the old stems \"can't\" be saved. This could lead the owner to cut up or discard plants that, per the reference, recovered with care changes alone. Unpotting to inspect roots adds minor stress but is not dangerous. No chemicals are involved and there is no toxicity concern."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly identifies low light after the move as a key cause and ties it to the case evidence (\"Not enough light after the move... Stretched stems, pale leaves\"). It also correctly flags that sips every few days are \"too little and too frequent.\" However, it says \"Watering is probably not the main issue\" and floats underwatering (\"it has simply been underwatered\"). This contradicts the reference's diagnosis of overwatering. It also misses the reference's point that the plants sit too low in their pots and are shaded by the rim. The odd aside \"The classifier says 'watering'\" adds confusion."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable with common supplies: a brighter window, cactus mix with perlite, a pot with drainage, letting cuttings callus for 2-3 days, and soak-and-dry watering. The full propagation and repotting workflow is more effort than this case needs, and it requires judgment calls about which stems are dead. Still, a home grower can follow it this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Repot in fast-draining mix (cactus soil with extra perlite or pumice) in a pot with drainage holes",
+  "Empty the saucer so water doesn't sit in it",
+  "Move it to the brightest spot you have"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3045,
+ "output_tokens": 979
+}

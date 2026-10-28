@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says \"Water only when the top few centimeters of soil are dry, then water thoroughly\". The reference advised not watering a cold-damaged plant, so regular watering raises the risk of rot in damaged tissue. \"Leave the stem and any firm, green parts alone\" goes against the reference's chop-and-humidity-dome approach, which could delay the action that saved the plant. It does warn about root rot and drainage, and nothing here is dangerous to people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model doubts the confirmed diagnosis: \"I'm not sure it's cold damage... look more like they're yellowing and drying at the edges,\" attributing the damage to transport stress or dry air instead. It never suggests cutting back to about 1 cm above the soil, withholding water, or covering with a jar, which is the reference's core advice. Much of the advice (humidity, drafts, temperature range, no fertilizer) is generic care. It does keep cold injury open as a possibility and asks good follow-up questions."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps such as \"Remove leaves that are fully crispy or brown with clean scissors,\" \"Move it back from the window,\" and pebble tray or grouping plants are simple and concrete. A humidifier is listed as optional, with cheaper alternatives. The advice is clear and doable this week, though it is not the most effective approach for this case."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it away from drafts, heaters, and AC vents",
+  "keep temperatures steady, ideally around 18\u201327\u00b0C",
+  "Raise humidity if you can with a humidifier, a pebble tray, or grouping plants together",
+  "Water only when the top few centimeters of soil are dry",
+  "check that the pot drains well and doesn't sit in water",
+  "Don't fertilize until it's clearly growing again",
+  "Bright, indirect light is better"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2410,
+ "output_tokens": 1088
+}

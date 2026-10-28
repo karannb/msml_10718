@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The schedule ('Days 1-3: bright shade or morning sun only, for 1-2 hours\u2026 keep it out of harsh afternoon sun until it's fully adjusted') is conservative and cannot hurt the plant. The watering advice ('Water deeply only when the soil is completely dry') suits a succulent. Calling 'reddish, bronze' leaves sunburn may overstate harmless stress coloring, but the only consequence is moving the plant to shade. Burro's tail is generally non-toxic, so no pet or child warning is needed."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly treats this as a healthy plant needing greenhouse-to-sun acclimation ('Your burro's tail looks healthy\u2026 Acclimating it to sun'), which matches the confirmed problem. Its gradual approach is more cautious than the reference ('just put it outside'), where the plant thrived without burning, but it still answers the poster's actual question. Mentions of farina, a hanging pot and a fuchsia above it appear to come from the photo and may not be verifiable. The 'Other care tips' section is mostly generic succulent advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "A day-by-day plan ('Days 1-3\u2026 Days 4-7\u2026 Week 2 onward') is concrete and needs no equipment, only moving the pot. The tip to 'move it closer to the sun over time' fits a hanging plant. The burn symptoms to watch for are easy to recognize. Any home owner can do this right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water deeply only when the soil is completely dry, and make sure the pot drains well",
+  "Keep it out of cold or frost",
+  "check it regularly"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2262,
+ "output_tokens": 909
+}

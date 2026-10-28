@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move grow light a bit closer (12-18 inches) if growth looks leggy",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top inch of medium and water lightly when slightly dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the node has roots and a healthy base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If next growth is mostly white, cut back to a node with more green",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer says the plant is healthy and advises waiting until the leaf unfurls, matching the resolved outcome, though it credits the paleness to variegation rather than immaturity. Its advice is benign.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2450,
+ "output_tokens": 561
+}

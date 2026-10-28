@@ -1,0 +1,103 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scoop out the moldy top inch of soil and the dead leaf on the surface and discard",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with a finger or wooden skewer and water only when the top 2-3 cm is dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the pot has drainage holes",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If there are no drainage holes, move the plant into a nursery pot with drainage set inside the decorative pot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant near a bright window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Run a small fan near the plant for airflow",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, open a window for a while each day for airflow",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Top-dress the soil with a thin layer of sand, perlite or fine gravel",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Optionally sprinkle cinnamon on the soil",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Optionally drench the soil with diluted hydrogen peroxide (1 part 3% to 4 parts water)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Remove dead and fallen leaves",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the trunk for softness and smell the soil for rot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root rot is suspected, unpot, trim mushy roots and repot in fresh well-draining mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies soil mold caused by overly damp conditions, but a full soil change is only recommended conditionally for root rot, while the main advice is to scoop off the top layer and dry the soil, so the fix is only partially present; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2265,
+ "output_tokens": 1393
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. It tells the user to check soil moisture before watering (\"Push a finger 2\u20133 inches... down\") and to empty pooled water, which avoids blind overwatering. Trimming dead leaves and taking node cuttings will not hurt the plant. Minor gaps: it never mentions that monstera sap is irritating and toxic to pets, which matters during root handling and cutting, and \"Loosen the ties on the moss pole\" could leave an already poorly supported plant flopping further."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model makes a hedged \"watering problem\" its main diagnosis, while the reference identifies a poorly supported, struggling plant that needs repotting, more light and proper staking. There is some overlap: \"repot into fresh, chunky, well-draining aroid mix\" (only offered conditionally if rot is found), \"somewhere bright,\" and a passing note about the moss pole. However, the support advice is to loosen ties rather than attach the nodes to the pole and tie at specific points, as the reference recommends. Much of the output is a generic underwatering-versus-overwatering decision tree."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need no special equipment: the finger test, lifting the nursery pot, inspecting roots, watering thoroughly and draining, trimming, and rooting cuttings in water. The branching \"If dry / If soggy\" structure adds a little ambiguity. The staking guidance is vague (\"Loosen the ties\") and does not say how to position the plant on the pole."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the plant somewhere bright but out of direct harsh sun, and avoid cold drafts",
+  "Be patient, since recovery can take weeks to months",
+  "Water again when the top 2\u20133 inches are dry. Don't overcorrect with constant watering",
+  "Check the soil. Push a finger 2\u20133 inches (5\u20137 cm) down",
+  "If you can share a photo of the roots or tell me how often you water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2478,
+ "output_tokens": 979
+}

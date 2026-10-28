@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The repotting steps are safe, especially \"Don't bury it deeper than before.\" However, \"You can top-dress with fresh soil... It's a fine stopgap\" contradicts the reference warning against raising the soil level on the stem, and on a ginseng ficus it could bury the trunk flare. There is also no mention that ficus sap irritates skin and is mildly toxic to pets. Both are minor risks."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: \"Yes, it's a good idea, especially after two years. The soil looks compacted.\" Its answers to the poster's questions also match: \"A standard potting mix... Bonsai soil is nice but not required\" and \"No layers needed.\" It identifies the plant as a ginseng ficus and cites case evidence such as two years without repotting and the compacted, mossy soil. It loses a point for endorsing top-dressing, which the reference explicitly advises against."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The numbered steps are concrete: water the day before, loosen roots, trim up to a third, set the flare at the soil line, then water. They use common materials (potting mix, perlite, a pot with drainage holes) and directly address the poster's stated wish for something simpler than complex blogs. Anyone could do this in an afternoon."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "water when the top inch or so of soil is dry",
+  "give it bright indirect light",
+  "Pick a pot one size up, with drainage holes",
+  "Keep it out of direct harsh sun for a week or two while it recovers"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2624,
+ "output_tokens": 787
+}

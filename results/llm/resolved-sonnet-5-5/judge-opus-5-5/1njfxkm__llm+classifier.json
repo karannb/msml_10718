@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Move it out of direct sun, to a spot with bright, indirect light,\" plus \"keep it evenly slightly moist, never soggy and never bone dry,\" matches the reference and carries no risk. Calatheas/Goeppertia are non-toxic to pets, so no toxicity warning was needed. Withholding fertilizer and trimming damaged leaves are low-risk. Suggesting a root check is a reasonable caveat rather than a push to repot unnecessarily."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model leads with sun stress, citing case evidence: \"in a south- or west-facing window with direct light... bleached or yellowing areas.\" This matches the confirmed problem, and the watering advice matches the reference's \"don't let it dry out completely.\" However, it misidentifies the plant as \"Calathea lancifolia (rattlesnake plant)\" rather than Goeppertia rufibarba, even though it noticed the \"fine hairs on the stems\" that point to rufibarba. It also hedges the diagnosis with a mix of watering and humidity causes, and adds generic tips on tap water and humidity."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable this week. Moving the plant back from the window, watering when the top \"2\u20133 cm\" is dry, letting tap water sit overnight, and using a pebble tray all need only common household items. The instructions are clearly numbered and easy for an office plant owner to follow."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use a pot with drainage holes and empty the saucer",
+  "Raise the humidity with a pebble tray, a small humidifier or grouping plants together",
+  "Trim the badly damaged leaves at the base",
+  "Don't fertilize until it recovers. Then use a diluted, balanced fertilizer",
+  "consider a self-watering pot or a plant sitter",
+  "check the roots: mushy, brown, smelly roots would mean root rot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2766,
+ "output_tokens": 1171
+}

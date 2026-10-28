@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The output rightly warns that \"70% alcohol with peppermint oil is risky. It can burn leaves and strip the waxy cuticle,\" which protects the user's 25-year-old orchids. However, it suggests \"a soil drench with systemic imidacloprid\" in an indoor plant room without any pet or child toxicity caveat. It also lists pyrethrin and spinosad sprays alongside predatory mites without warning that these sprays can kill the beneficials. These are missing caveats rather than outright dangerous advice."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: thrips. The output adds case-specific points, noting that \"pupae in the soil are unaffected by foliar sprays\" and giving a 4-6 week spray schedule. It names \"predatory mites such as *Amblyseius cucumeris*,\" the same approach that eradicated the thrips in the reference, but buries it as one option in a soil-treatment step rather than making it the lead strategy for an 80-plant room. The long \"Confirm first\" section is somewhat redundant, since the user already identified the pest."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete, and the products are easy to buy, e.g. \"Spinosad (for example Conserve or Captain Jack's)\", blue sticky traps and nematodes. However, \"Isolate any plant that's infested\" and spraying undersides every 5-7 days across 80 plants is a heavy, partly impractical workload. The output offers little guidance on scaling, such as whole-room release of beneficials."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate any plant that's infested, and inspect all the others",
+  "Quarantine new plants for several weeks in the future",
+  "Rotate products so resistance doesn't build",
+  "look up the product's compatibility with that orchid type"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2765,
+ "output_tokens": 979
+}

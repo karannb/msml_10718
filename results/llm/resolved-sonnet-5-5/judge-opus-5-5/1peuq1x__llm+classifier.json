@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Flush the medium with plain water, a few times the pot's volume\" is generally safe, and it adds \"let it drain fully.\" However, the reference identifies a dense, poorly draining mix as the real problem, so heavy flushing could prolong waterlogging. \"Keep the moss lightly moist, not soggy\" also conflicts with the reference's advice to let it dry almost fully between waterings. Stopping fertilizer and checking roots are safe, so the risk is minor."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly ties the damage to post-fertilizing stress, citing \"It started a few days after fertilizing.\" It also notes that \"Sphagnum can stay soggy or dry out unevenly\" and that \"Alocasias often sacrifice older leaves when they are stressed.\" It misses the reference's central fix: repot into a pot just the size of the root ball, in an airy sphagnum/bark/perlite mix. Instead it treats the problem mainly as salt burn plus generic environmental factors such as humidity, light and drafts."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Flush the medium,\" \"Stop fertilizing for at least 4\u20136 weeks... quarter to half of the labeled strength,\" and a root check with clear signs of healthy versus rotting roots. A few items are vague, such as \"Keep humidity high, light bright but indirect\" and \"make sure the pot drains.\""
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep humidity high, light bright but indirect, and temperatures warm",
+  "Low humidity or a draft",
+  "Light that is too strong or too weak",
+  "Check the roots if the leaves keep declining",
+  "Pests such as spider mites"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3012,
+ "output_tokens": 997
+}

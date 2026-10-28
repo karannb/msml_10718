@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model adds a useful caveat to the user's plan: \"A 70% alcohol spray can burn some leaves, especially waxy or fuzzy ones. Test a few leaves and spray in shade.\" This matters for decades-old orchids. It recommends rotating spinosad, insecticidal soap, and neem rather than mixing them, which is safe. Minor gaps: it raises spray frequency to \"every 3\u20135 days\" across 80+ plants without warning about cumulative leaf stress, and gives no pet or child precautions for the products."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: \"stippling... typical of thrips feeding damage.\" The model gives thrips-specific advice, such as \"Their pupae drop into the potting mix\" and \"A spinosad soil drench... can break the life cycle,\" plus blue sticky traps. However, it never mentions biological control with predatory mites (Amblyseius cucumeris/swirskii). In the reference, that is what actually eradicated the thrips in an 80-plant room where chemical treatments had little effect. The commentary about the classifier being \"trained mostly on scale insects\" is irrelevant to the user."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use easy-to-buy products: \"Tap a branch over white paper,\" sticky traps, spinosad, insecticidal soap, and neem. Repeating alcohol sprays \"every 3\u20135 days for several weeks\" on 80+ plants is labor-intensive. Soil drenching or top-dressing every pot also takes significant effort, though both are doable."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate heavily infested plants and inspect new arrivals before they join the collection",
+  "Rotating prevents resistance"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2629,
+ "output_tokens": 1044
+}

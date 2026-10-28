@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is conservative and safe. It says to 'Check the roots... Trim any rotted ones with clean scissors,' to use chunky mix and drainage, to hold off fertilizer, and to use a fan on low. Nothing involves chemicals, overwatering, or toxic exposure. A minor omission is that philodendrons are toxic to pets, but none of the actions it recommends create a pet risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis of 'overwatering or poor drainage, with root stress (possibly early root rot)' and the actions 'Check the roots' and use a mix that is 'chunky, for example potting soil with perlite and bark' closely match the reference's advice to inspect roots and use a chunky aroid mix. It also ties its reasoning to case details, such as the AC outage causing humidity and the soil being dry on top but wet below. However, it misses the reference's specific point that nursery sphagnum/peat plugs retain water. It also misreads 'reported' as a fresh repot causing stress, when the reference implies the old packed soil may still be there. Some items, like the pest check and fertilizer hold, are filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: 'Push a finger or a wooden skewer 2 inches down,' 'Slide the plant out of the pot,' trim leaves with clean shears, add a low fan. All of the materials are common and cheap, and the instructions are clear enough for a beginner."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Hold off on fertilizer until it stabilizes",
+  "Isolate it and check for pests",
+  "Look under the leaves and at the stems for mites, thrips, or scale",
+  "Improve airflow"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2939,
+ "output_tokens": 607
+}

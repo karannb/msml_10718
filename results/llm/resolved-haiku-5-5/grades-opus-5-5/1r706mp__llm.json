@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant away from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab visible mealybugs with rubbing alcohol on cotton swab, including stem bases",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray whole plant with insecticidal soap or neem oil, including leaf undersides",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Repeat treatment every 5-7 days for 3-4 weeks",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If repotting, inspect roots and soil, rinse roots, and use fresh potting mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Clean pot and tools after repotting",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaves for honeydew or sooty mold",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies mealybugs and its main advice of applying rubbing alcohol matches the fix that worked, with nothing harmful recommended.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1944,
+ "output_tokens": 494
+}

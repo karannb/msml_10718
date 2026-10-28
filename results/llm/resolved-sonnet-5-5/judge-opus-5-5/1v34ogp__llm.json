@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"mix a few drops of plain dish soap in a spray bottle of water\" carries a small risk: dish detergents are not true insecticidal soaps and can burn basil's tender leaves. The spot-test caveat (\"Test one leaf first and wait a day\") reduces this risk. Neem on edible herbs is paired with a label/pre-harvest caveat (\"wait the time listed on the product label\"). Nothing here would seriously harm the plant or person, but the treatments go beyond what the reference needed."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies \"aphids\" and explains that the white specks are \"shed aphid skins,\" which matches the reference exactly. \"Rinse them off... spray the leaves, especially the undersides\" is the core fix the poster actually used. However, it hedges with \"probably with some whitefly or other sap-feeders nearby,\" which nothing in the case supports. It also adds sticky traps and soil checks that are not tied to the evidence."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: rinse at the sink, use store-bought insecticidal soap or neem, \"Repeat every 5\u20137 days for 3\u20134 weeks,\" and prune damaged leaves. All the products are easy to buy, and the instructions are clear."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil surface and nearby plants for stragglers",
+  "Inspect new plants before bringing them near your others",
+  "Avoid over-fertilizing with nitrogen",
+  "If the soap and neem don't work after a few rounds, send a closer photo"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2784,
+ "output_tokens": 577
+}

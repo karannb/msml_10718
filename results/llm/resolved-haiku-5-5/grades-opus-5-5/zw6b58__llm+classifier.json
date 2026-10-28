@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Put stones, glass beads, or gravel in a heavier cachepot and set the nursery pot inside it",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Restake with a single sturdy stake close to the stems and tie the spike with soft plant ties",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Gently press the bark around the base to firm it up",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch the leaves for wrinkling or softening and the roots for mushiness or blackening",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the top-heavy, poorly anchored pot as the main problem, and its first fix, setting the nursery pot inside a weighted larger pot, matches what worked for the poster; nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2069,
+ "output_tokens": 415
+}

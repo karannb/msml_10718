@@ -1,0 +1,96 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Poke a white spot with a swab or toothpick to confirm it is a soft mealybug",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Look for honeydew, ants, yellowing or stunted growth",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab each mealybug with a cotton swab dipped in 70% isopropyl alcohol",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the roots for white cottony clumps (root mealybugs) while repotting",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gently rinse roots and stems under lukewarm water",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Discard the old soil in a sealed bag",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Clean the pot with soapy water or dilute bleach",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh potting mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Test insecticidal soap or neem oil on a small area first",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap or neem oil on stems and leaf undersides, repeated weekly for 4-6 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Optionally apply a systemic soil insecticide if the plant won't be eaten",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Set up gloves and newspaper or an outdoor spot for the repotting work",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names mealybugs as the main diagnosis and makes dabbing with 70% alcohol a core early step, matching the fix that worked, while its extra repotting and spraying steps are excessive but not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2329,
+ "output_tokens": 1310
+}

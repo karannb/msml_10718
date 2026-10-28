@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and fits a dehydrated plant: \"soak the whole pot in a basin of water for 20-30 minutes\" and \"Empty the saucer after 10-15 minutes.\" The fallback (\"If the soil is wet and the plant still droops... let it dry out\") guards against overwatering. However, peace lilies contain calcium oxalate and are toxic to pets and children, and there is no warning. Minor issues: \"Letting water sit out overnight\" does not remove fluoride, and repotting is suggested without saying to wait until the plant recovers."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"a watering problem, probably underwatering,\" matches the reference. It correctly uses the user's evidence: \"The roots you described (white, firm, odorless) are healthy. That makes root rot from overwatering unlikely.\" The two key actions match the reference's 'cut the yellow and WATER': a thorough soak and \"Cut fully yellow or brown leaves at the base.\" Points off because it states photo observations that are not supported by the case (\"soil surface looks dry and pulled slightly away,\" \"a lot of dust in the saucer\"). It also adds generic care items on light, fertilizer and repotting."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items, for example \"Push a finger 2-3 cm down,\" a basin soak with clear timings, and pruning \"with clean scissors.\" It sets a clear expectation (\"recovery in a day or two\") and gives a simple ongoing routine. Any home owner can do this right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright, indirect light is best. Low light is tolerated, but direct sun will scorch the leaves.",
+  "Hold off on fertilizer for a month or so. Then use a diluted fertilizer occasionally in spring and summer.",
+  "repot into a pot one size up with fresh potting mix",
+  "Peace lilies also like humidity"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2753,
+ "output_tokens": 973
+}

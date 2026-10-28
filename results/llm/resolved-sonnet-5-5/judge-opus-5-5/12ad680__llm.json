@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe for an underwatered plant: 'Bone dry... water it thoroughly from the top until it drains out... empty the saucer' and 'don't leave it sitting in water for hours'. The root-rot branch is conditional ('Still wet or soggy: don't add more water'), so it won't worsen the real problem. The main gap is that it never mentions peace lilies are toxic to pets and children (calcium oxalate). Suggesting a root check after 24\u201348h also carries a small risk of needlessly disturbing a plant that is simply recovering."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies 'a peace lily (Spathiphyllum) that is badly wilted but very likely salvageable' and says 'Drooping like this after a few days without water is classic peace lily behavior', which matches the reference. The 'water thoroughly... let it drain' instruction mirrors the reference's 'add more, dump what drains in 20 min'. However, the speculation about root rot and transit stress isn't supported by the case. Much of the rest (light, fertilizer, misting, tap-water minerals) is generic filler rather than tied to evidence."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing beyond a finger, scissors, and potting mix: 'Push a finger in about 2\u20133 cm', 'Soaking for 20\u201330 minutes is fine'. It gives clear timelines ('perk up within a few hours to a day', 'give it 1\u20132 weeks'). Any home owner can follow this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Put it in bright, indirect light. Avoid direct sun",
+  "Don't fertilize until it has recovered",
+  "Check drainage. The pot needs drainage holes",
+  "Trim only what's dead",
+  "occasional misting or a spot away from heaters helps",
+  "let it sit out overnight or use filtered water",
+  "repot in fresh, well-draining potting mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2823,
+ "output_tokens": 999
+}

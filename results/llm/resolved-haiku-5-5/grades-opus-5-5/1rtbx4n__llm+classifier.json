@@ -1,0 +1,68 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Water only when soil is dry several cm down; check soil moisture before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ensure pot drains and is not sitting in water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Unpot Thanksgiving cactus and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim rotten parts, let dry a day, repot in fresh cactus mix with perlite in a pot with drainage hole",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Move both plants away from cold glass, drafts and radiators to a 15-22\u00b0C spot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plants to bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If segments keep failing, take 2-3 healthy segments, callus and root them in moist cactus mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Send a photo of the roots",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer dismisses underwatering and diagnoses overwatering/cold root rot, advising the owner to let the cactus dry out more and unpot it, which would delay the needed watering for a plant dying of thirst.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2581,
+ "output_tokens": 585
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is safe. The beheading steps (\"Let the cut end dry and callus for 2 to 4 days\" and \"water lightly only once it's rooting\") are sound and lower rot risk. The one gap is \"Move it to the brightest spot you have, such as a south- or west-facing window with direct sun for several hours a day\" with no warning to acclimate gradually. A stretched, low-light plant moved straight into strong afternoon sun can scorch. The reference's East window is gentler."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis is correct and backed by case evidence: \"most likely **etiolation**... caused by too little light\" and \"The stem has grown long and leaning, with big gaps between leaf sets.\" It also rightly rejects the classifier's watering label. The advice matches the reference's core steps: more light, \"Cut the top rosette off,\" and replant. It omits the reference's tip to propagate the extra leaves, which is what gave the poster many new plants. It also adds some generic watering and pot advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week: \"Cut the top rosette off with a clean blade, leaving a few inches of stem,\" callus for 2\u20134 days, then set on cactus mix. They need only common items, a blade, cactus mix and optionally a cheap LED grow light, and give clear timeframes."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water thoroughly only when the soil is completely dry, and make sure the pot drains freely",
+  "Terracotta is a good choice for this",
+  "Rotate the pot every week or so",
+  "If you tell me the exact species or a tag photo, I can give more specific care advice"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2335,
+ "output_tokens": 886
+}

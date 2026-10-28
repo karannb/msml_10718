@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Slide the plant out of the pot and check the roots for rot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot into fresh well-draining mix in a pot with drainage holes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If soil is soggy, let it dry and water thoroughly only when the top inch is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is bone dry, soak the pot in a bowl of water for 20-30 minutes",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move to a warm spot with 6+ hours of bright light, away from cold glass and drafts",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take cuttings of healthy stems and root them in a glass of water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune crispy stems and mushy leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After recovery, split the clump into 2-3 pots",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer favors overwatering and lists underwatering only second, and the 20-minute soak fix is a conditional step buried among root checks and repotting; the soil-check safeguard keeps it from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2459,
+ "output_tokens": 975
+}

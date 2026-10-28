@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The model tells the user to \"Stop watering now. Don't water again until the soil is mostly dry\" and to \"Unpot and check the roots,\" then repot without watering for days. The plants were actually dying of thirst, so this would worsen dehydration and add transplant stress. It also says \"Your watering schedule of every two weeks is reasonable,\" which reinforces the real cause. Cuttings as a backup are a mitigating safety net, but the core advice is likely to deepen the damage."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The model diagnoses root failure from rot or cold: \"Wilting while the soil is wet usually means the roots aren't working.\" The reference confirms underwatering in dry winter air, with the terracotta pot drying calathea soil faster. The model even dismisses thirst (\"the soil tells you that isn't the case here\") and calls the second plant an Oxalis, while the reference names a calathea. Its advice contradicts the reference's \"Just water them\" and its point about watering based on how the plant looks rather than on a schedule."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Empty the saucer,\" \"Twist off 2\u20133 healthy segments,\" \"Use a fast-draining mix, such as cactus mix with extra perlite.\" Unpotting and root inspection take some effort and confidence but need no special tools. The advice is practical to carry out, though wrong for this case."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Give bright, indirect light",
+  "A grow light helps if you have one",
+  "Move them away from cold glass and drafts",
+  "Be patient. Recovery takes weeks",
+  "Don't fertilize until you see new growth",
+  "Use a fast-draining mix",
+  "Never let the pot sit in water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3125,
+ "output_tokens": 761
+}

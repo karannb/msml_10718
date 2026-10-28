@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Cut the flower spikes,\" \"Pinch for bushiness,\" \"Repot,\" and \"feed it lightly every few weeks with a balanced fertilizer\" is low-risk for a healthy basil. The cautions \"Never cut down into bare woody stem\" and \"Harden it off over 1-2 weeks\" actively prevent damage. There are no chemicals, no toxicity concerns, and no watering advice that would harm the plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies a healthy, flowering plant (\"Nothing looks seriously wrong... it's bolting\"). Its core advice, to cut the flowers, repot, and use a balanced fertilizer, matches the REFERENCE, and it cites photo evidence such as \"small nursery pot in the second photo.\" However, it gives no target pot size, where the REFERENCE recommends 12 inches. It also frames Wild Magic as an annual finishing its life cycle that \"may decline\" and suggests collecting seed. That is questionable: Wild Magic is a hybrid, often described as perennial and sterile."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home grower: \"Trim them back to just above a pair of leaves,\" \"pinch... every week or two,\" \"Take 4-6 inch cuttings... root them in water.\" The outdoor guidance gives clear thresholds (\"nights stay above about 10\u00b0C (50\u00b0F)\") and spacing. Everything needed is common household or garden-centre equipment."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep the soil evenly moist but not soggy",
+  "Let the top of the soil dry slightly between waterings",
+  "Water at the base and keep the soil moist",
+  "Move it into a pot with drainage"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2840,
+ "output_tokens": 980
+}

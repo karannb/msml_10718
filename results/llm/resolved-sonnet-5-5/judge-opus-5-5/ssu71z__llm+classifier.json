@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice like \"Water lightly, only when the top inch or so of soil is dry\" and \"Don't fertilize yet\" fits a fresh cutting in an oversized pot and lowers rot risk. One small risk is \"Consider moving it to a smaller pot.\" A second repot right after planting could add stress to a cutting already in shock, which conflicts with the reference's minimal-intervention advice. No pet-toxicity note for ivy, though no chemicals beyond Super Thrive are recommended."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"transplant shock\" for the drooping ivy. It flags that \"the pot is the bigger issue... easy to overwater and rot the stem base,\" and says the other plant \"looks green and firm.\" All of this matches the reference. It ties the explanation to case evidence: one thin cutting, a large volume of damp mix, and the Super Thrive mention. A few lines, such as the light advice, are generic, but they are minor."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: check the top inch of soil, do a tug test at 3\u20134 weeks, add perlite, tie the twine loosely, and root ivy in a jar of water. None require special tools or products beyond common supplies."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "Bright, indirect light is best",
+  "Make sure the pot has drainage holes",
+  "Be patient, water less than you think you should"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2714,
+ "output_tokens": 766
+}

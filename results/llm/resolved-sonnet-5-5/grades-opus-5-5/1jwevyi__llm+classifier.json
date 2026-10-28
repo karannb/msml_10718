@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scratch a twig to check for green, moist tissue underneath",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Look along the stems for leaf buds or new leaves",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bend a small twig to test whether it is flexible or brittle",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "In late spring, prune off twigs that are clearly dead",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Replace the gravel around the base with 2\u20133 inches of pine bark, pine needles or shredded leaves",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Water deeply during dry spells",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Apply an acidic azalea fertilizer such as Holly-tone after the plant leafs out",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Improve the soil if it is clay or drains poorly",
+   "minutes": 90,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly calls this winter color change and cold stress on a living azalea; watering and fertilizing appear, but watering is limited to dry spells and fertilizing is deferred, behind a main message of waiting, so the advice is partial but not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2370,
+ "output_tokens": 927
+}

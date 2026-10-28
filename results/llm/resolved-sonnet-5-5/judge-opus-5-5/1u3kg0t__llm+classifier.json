@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The steps are low-risk: \"Move it away from the window and away from drafts,\" \"Check the soil before watering again,\" and \"Don't repot or fertilize while it's stressed.\" There are no chemicals, no unsafe products and no advice likely to worsen low humidity. Raising humidity to \"50%+\" is endorsed, so following the advice would not delay the needed fix."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model names \"cold stress\" as the most likely cause, while the reference confirms low humidity. Humidity only appears as a secondary item: \"Keep humidity moderate-to-high (50%+) if you can\" and \"Dry indoor winter air makes mites more likely.\" It does use case evidence (sudden onset, the window spot, the user saying they are cold). However, it never offers the reference's targeted fix of sealing the plant in a clear bag or box, and it includes several generic checks."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable this week, for example \"Stick a finger 1\u20132 inches down,\" \"empty any standing water,\" and move it to a spot at \"65\u201380\u00b0F.\" A humidifier is an easy purchase, and grouping plants costs nothing. No professional tools are needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil before watering again",
+  "Make sure the pot drains",
+  "Look under the leaves and at the leaf joints for spider mites",
+  "Don't repot or fertilize while it's stressed",
+  "check the roots for rot",
+  "bright indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2715,
+ "output_tokens": 745
+}

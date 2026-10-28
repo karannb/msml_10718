@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"If it's damp, stop watering\" and repotting \"into a pot only 1\u20132 inches wider than the root ball,\" directly addresses the overwatering risk and is safe. However, \"flush the soil with water occasionally to wash out salts\" works against the overwatering diagnosis, since it adds a lot of water to an already soggy, oversized pot. There is also no mention that Monstera is toxic to pets and children when trimming leaves or roots. Both are minor risks."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"Overwatering in an oversized pot\" as the top cause and grounds it in the photo: \"The pot is large for the plant... a lot of soil volume for very little plant.\" This matches the reference (an oversized pot holding too much moisture, with root rot risk) and the poster's fix of a smaller pot and less frequent watering. It also explains why new leaves are affected. Some generic padding remains (light, humidifier, pebble tray), but it is framed as secondary."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: check moisture \"2\u20133 inches down,\" slide the plant out and look for \"Mushy, brown, or smelly roots,\" trim with clean scissors, and repot into a slightly larger pot with bark and perlite. All the materials are common and easy to buy, and the steps can be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "flush the soil with water occasionally to wash out salts",
+  "consider a humidifier or pebble tray",
+  "Hold off on fertilizer until it recovers"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2830,
+ "output_tokens": 901
+}

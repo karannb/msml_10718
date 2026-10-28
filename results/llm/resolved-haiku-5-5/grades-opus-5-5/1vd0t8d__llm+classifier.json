@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check that the pot has a drainage hole and isn't sitting in standing water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the top 2\u20133 inches of soil are dry before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly once the top soil is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant in bright, indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully yellow leaves at the base",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The plant was healthy with normal old-leaf yellowing, but the answer blames transplant stress and wet soil, prescribes care changes, and never mentions trellising the vine; its watering advice includes a soil check, so it isn't harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2352,
+ "output_tokens": 871
+}

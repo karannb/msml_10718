@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Nothing in the advice endangers the plant, the person, or pets. 'Move it to a warmer spot away from the window and any drafts', 'If it's dry, water. If it's wet, hold off', and 'Don't repot or fertilize while it's stressed' are all safe and conservative. Calathea is non-toxic, so no toxicity warning was needed. Leading with cold rather than humidity could delay the fix that actually worked, but humidity is still recommended, so the risk is negligible."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output names 'Most likely cause: cold', while the reference confirms low humidity. Humidity appears only as item 3 of 'Other things to check' ('Aim for 50% or higher. A humidifier or grouping plants together helps') and as 'Add humidity if you can'. Cold and low humidity are linked, and the output notes that 'cold dry air can drop humidity a lot', so the diagnosis is partly right. However, the six-item checklist (watering, water quality, humidity, light, pests, roots) reads as a generic calathea troubleshooting list. Some case details are used, such as the user saying they are cold and the plant sitting by the window."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home owner: 'Stick a finger in 1\u20132 inches', 'Empty the saucer', 'Move it to a warmer spot', 'Inspect the leaves for pests'. Buying a humidifier is an optional cost. The long multi-cause list dilutes the priority, and the output never mentions the cheap enclosure method (a sealed clear bag or box) that solved the problem."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil moisture and adjust",
+  "They like bright indirect light",
+  "Check the undersides of leaves and the stems for spider mites",
+  "filtered or distilled water or rainwater is better",
+  "Don't repot or fertilize while it's stressed",
+  "only trim leaves that are fully brown or dead",
+  "look for brown, mushy roots"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2895,
+ "output_tokens": 698
+}

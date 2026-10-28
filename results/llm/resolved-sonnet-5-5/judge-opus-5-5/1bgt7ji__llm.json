@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk. The model says to 'use a barrier like copper tape, or iron phosphate bait, which is safer around pets' and recommends Bt for caterpillars. Both are mild, appropriate treatments. It also warns that 'monstera and pothos are toxic to pets.' The watering guidance ('let the top 2\u20133 inches of soil dry out') is sound for low light. Missing the humidity cause doesn't make any step harmful."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model correctly catches the chewing-pest component, one half of the reference's confirmed problem: 'Those leaves look **chewed**, not overwatered.' It cites photo-specific evidence for each plant. However, it misses low humidity entirely, which the reference treats as the main cause. The reference says the tears 'formed while the leaves were developing,' and misting fixed the problem. Instead the model attributes all damage, including the brown edges, to chewing wounds, so the diagnosis is only partly right."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a typical home owner: 'Go out with a flashlight 1\u20132 hours after dark,' look for 'silvery slime trails,' 'check under the pot,' hand-pick pests, and use copper tape or iron phosphate bait. All products are cheap and widely available. The steps are clear and doable this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Inspect leaf undersides and stem joints for other pests",
+  "make sure the pots drain well"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2676,
+ "output_tokens": 539
+}

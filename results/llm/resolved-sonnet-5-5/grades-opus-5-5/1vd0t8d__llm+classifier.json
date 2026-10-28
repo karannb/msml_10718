@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check top 3-5 cm of soil for dryness before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ensure pot drains and empty standing water from saucer",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If yellowing worsens or soil smells sour, unpot and inspect roots for rot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove badly yellowed leaves with clean scissors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant closer to a window for bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the plant mostly healthy but blames repotting stress and overwatering, listing natural aging only last, and it prescribes corrective care; it never suggests trellising the vine, though none of its advice is likely to hurt.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2476,
+ "output_tokens": 733
+}

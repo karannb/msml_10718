@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is conservative. It says to empty standing water, let the soil dry before watering, skip fertilizing, avoid repotting and only trim dead tissue. Nothing here would damage the plant, and no chemicals are involved. 'Move it closer to a bright window, out of direct midday sun' is correct and safe."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "Light is identified, and the output cites case evidence: 'sits in a corner next to a curtain... leaning and reaching'. The reference confirms insufficient light as the cause. However, the headline diagnosis is 'transplant/relocation stress combined with a watering or light issue', and light ranks only third behind acclimation and watering. The output also adds humidity, tap water and pests, which dilutes the correct diagnosis into a list of possibilities."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and can be done at home: lift the nursery pot and empty water, use a finger test 2-3 inches deep, move the plant near a bright window, rotate it, and trim tips with scissors. No special tools are required."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it away from vents, heaters, and drafts",
+  "Use filtered or rainwater if your tap water is hard",
+  "Check for pests too",
+  "Water thoroughly but less often",
+  "Don't repot right now"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2858,
+ "output_tokens": 472
+}

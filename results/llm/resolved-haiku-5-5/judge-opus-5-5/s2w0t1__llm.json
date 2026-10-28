@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Nothing here is dangerous to people or pets, and the rubbing-alcohol swab check for mealybugs is mild. The main risk is misdirection. Leading with \"Move it out of direct sun\" and pushing root-rot checks on an underwatered plant could delay the actual fix. Saying it \"should stabilize within a few weeks\" without stressing more water could prolong the dehydration."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly identifies the plant as \"Dracaena marginata\", which matches the reference. It does mention \"Letting the plant dry out too much... also causes drooping\", but only as one of five scattered causes. The lead hypothesis is \"Sun stress\", and it misses the shriveling stem the reference relies on. It also invents context (\"UK winter\") and leans on rot and drainage instead of underwatering."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Empty the outer pot\", \"Let the top 2\u20135 cm of soil dry out before watering again\", and checking for mealybugs with a cotton swab and rubbing alcohol. Unpotting to inspect roots takes some effort but is standard. However, the seven-step list is long and diffuse, so the owner may not know which action matters most."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water consistently",
+  "Keep it away from cold glass and drafts in winter",
+  "Be patient",
+  "Check the roots",
+  "repot in fresh, well-draining soil in a pot with drainage holes",
+  "don't fertilize until you see new growth",
+  "Trim fully brown or dead leaves at the base"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2565,
+ "output_tokens": 864
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The headline advice, \"Move it out of direct sun... Spider plants prefer bright light but not hours of direct sun,\" is the opposite of the confirmed fix. The real problem was too little light on the shelf, and the plant recovered only after being moved outside. Following this would likely repeat the pattern of dying plants. Some secondary advice is benign or aligned with the reference, such as letting soil dry between waterings and emptying the saucer. There are no chemical or toxicity risks."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output calls the plant \"mostly healthy\" and focuses on \"dark, dried tips,\" which downplays the user's actual complaint of blackening central leaves. Its primary diagnosis, \"Sun scorch through glass,\" contradicts the reference, which says the shade and low light from the shelf were the cause. It does engage with case details (south-facing window, 9am\u20133pm, 50 cm), and the crown-rot and overwatering caveat partly overlaps with the reference's suggestion to extend time between waterings. The core diagnosis and main recommendation are still wrong."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home owner: \"let the top 2 to 3 cm of soil dry,\" \"Empty the saucer within 30 minutes,\" \"Trim the brown tips with clean scissors,\" and use a sheer curtain. No special tools or products are needed. Feasibility is high even though the direction of the main advice is wrong."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "check the soil with a finger rather than following a schedule",
+  "Use filtered or rainwater if you can, or let tap water sit overnight",
+  "Flush the soil every few months",
+  "If the roots are circling the pot, repot into fresh mix in a slightly larger pot",
+  "Trim the brown tips with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2755,
+ "output_tokens": 850
+}

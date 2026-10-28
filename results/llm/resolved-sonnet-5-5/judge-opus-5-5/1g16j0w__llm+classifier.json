@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Soak the soil thoroughly until water drains out the bottom, then empty the saucer\" and to \"let the soil dry out almost completely before the next one\" is right for a drought-stressed succulent and guards against overcorrection. It also warns about rot (\"A mushy or black base means rot, so stop watering\"). Haworthia is non-toxic, so no toxicity caveat is missing. There is no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output diagnoses underwatering plus sun/heat stress from the outdoor move (\"the move outdoors probably added sun and heat stress on top of the drought\"), which matches the reference. Its core advice, water properly and move to \"bright, indirect light\" indoors, mirrors the reference's \"Water him and take him back inside.\" It ties each observation to case evidence: the reaching, the semi-shade, and the dry soil. The soil-mix suggestion is somewhat generic but is linked to an observation that the mix looks dense."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only common items: water, a tray for bottom-watering, a window spot, and perlite or cactus mix from any garden store. Timeframes are given (\"20-30 minutes,\" \"every 2-3 weeks\"), and the warning signs come with clear actions. Any home owner can do this right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil mix",
+  "Make sure the pot has a drainage hole",
+  "Be patient"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2635,
+ "output_tokens": 542
+}

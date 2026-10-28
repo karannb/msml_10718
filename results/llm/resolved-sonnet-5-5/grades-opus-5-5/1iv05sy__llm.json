@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect with magnifier or phone macro for mealybugs, mites, springtails",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse plant in shower/sink with lukewarm water, focusing on axils and stem bases",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove worst leaves and dead material and bag them",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Apply imidacloprid systemic soil drench for mealybugs, repeated weekly for 4-6 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Apply abamectin-based miticide for mites, repeated weekly for 4-6 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh soil and clean pot if soil shows pests",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If soil specks jump (springtails), let soil dry more between waterings",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tap a leaf over white paper to check for moving pests",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take a clear macro photo for identification",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies a sap-sucking pest infestation as the main problem, but its advice discourages alcohol (the actual fix) in favour of rinsing and systemic or miticide treatments, which would likely still help and are not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2650,
+ "output_tokens": 1276
+}

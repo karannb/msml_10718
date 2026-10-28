@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says \"mist it lightly or dab it with a damp cotton swab to soften it... Don't force it.\" This is gentle and matches the reference's fix. It recommends no chemicals and nothing harmful to the plant. It omits that Philodendrons are toxic to pets and children, but no treatment here creates exposure risk, so this is not a meaningful harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies a new leaf stuck in its cataphyll/sheath while unfurling (\"the sheath can dry and stick to the leaf, which can trap or deform it\"). It also recommends misting, which is what resolved the case in the reference. However, it says \"Wait. Give it a week or two\" as the first step and claims bathroom humidity is \"unlikely to be the problem,\" which downplays the misting that worked within hours. The general care section on light and drainage is generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a spray bottle, a cotton swab, and fingers or tweezers. The instructions are clear (\"mist it lightly... then gently peel it back or slide it off\"), and anyone can do them right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "Don't let it sit in standing water",
+  "Just check that the pot drains well and let the top inch or two dry out between waterings"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2335,
+ "output_tokens": 494
+}

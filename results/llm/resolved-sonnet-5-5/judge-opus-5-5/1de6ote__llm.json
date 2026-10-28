@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is safe: \"Water thoroughly\" and \"Bottom watering for 15-20 minutes works well if the soil seems hydrophobic\" address the real problem. There is minor risk in \"Slide her out of the pot... Trim any dead ones\" and repotting a stressed, blooming plant, since that adds disturbance. Kalanchoe is toxic to pets, but no warning is needed here because no treatment depends on it. Nothing would seriously worsen the plant's condition."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output does catch the key insight from the reference: \"once it dries out completely it can turn hydrophobic, so water runs off or through without soaking in\" and \"Dry peat can repel water.\" However, it ranks \"Root damage from the drought\" as \"the most likely reason\" and puts root inspection and repotting first. It also suggests only a 15-20 minute bottom soak rather than the longer immersion that worked. Filler about light, overwatering, and pruning flowers dilutes the case-specific fix."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps such as \"Bottom watering for 15-20 minutes,\" \"Check the roots,\" and \"Use a gritty cactus/succulent mix\" are concrete and use easily bought materials. However, there are seven steps plus pruning and propagation, with conditional branches, so the simplest effective action (a long soak) is buried. The plan is doable but more effort than necessary."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give her bright light. A south or east window is ideal.",
+  "Be patient. Succulents recover slowly.",
+  "Rotate the pot regularly so she grows evenly toward the light.",
+  "Repot if the roots look bad or the soil is compacted.",
+  "Check the roots. Healthy roots are white or tan and firm."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2985,
+ "output_tokens": 926
+}

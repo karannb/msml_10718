@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The output says \"Water stress, probably too much\" and tells the user to \"Stop watering until the top inch of soil is dry.\" The reference confirms the plant was underwatered and recovered within hours of a 20-minute soak. Withholding water from a plant that is already wilting from thirst could kill it. Unpotting and dividing a severely stressed plant (\"Separate the seedlings... repot each\") adds further stress. Basil is non-toxic, so there is no risk to people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The core diagnosis is reversed: the output claims overwatering, while the reference confirms underwatering. Two points do align with the reference. \"Possibly cold... A chilly window\" matches the commenter's secondary concern, and \"Soil isn't the main problem\" correctly corrects the user's guess. The thinning advice also roughly parallels the poster getting rid of some plants. The light and pinching advice is reasonable for basil but not tied to the cause of this wilting."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are clear and doable with common items: checking roots, repotting, pinching buds, taking cuttings in a glass of water. A grow light is optional. Unpotting, dividing and repotting takes some effort but is within reach of a typical owner. The main problem is the direction of the advice, not whether it can be carried out."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Give it good light",
+  "Keep it warm",
+  "Water only when the top inch is dry, and make sure the pot drains freely",
+  "Remove the damaged leaves",
+  "Check the roots"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2599,
+ "output_tokens": 558
+}

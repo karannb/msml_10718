@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Gently remove loose debris from the hole with a dry cotton swab or soft brush",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep the damaged spot dry for about a week so it calluses",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If trimming anything, sterilize tools with 70% isopropyl alcohol",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor the wound for 1\u20132 weeks for soft, dark, water-soaked tissue, sour smell or new spots",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Acclimate the plant gradually before moving it outdoors",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Identify the species and share a whole-plant photo for a more confident answer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies minor mechanical damage with no disease and recommends keeping it dry so it calluses, which matches the confirmed outcome. It doubts the spike is a thorn, but this doesn't change the care, and nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2138,
+ "output_tokens": 920
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Wait until late spring... before judging or pruning,\" to \"Water deeply during dry spells... don't leave it soggy,\" and to apply acidic fertilizer \"after it has leafed out\" is all conservative and safe. Nothing in it risks the plant, people, or pets. Holly-tone is a common, low-risk product. The output gives no dosage but implicitly defers to the label."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output says \"it is probably not dead\" and attributes the red color to \"normal winter color change, with possibly some cold stress,\" which matches the reference's finding of winter-stressed but alive azaleas. It cites case evidence: some partly green leaves (the same cue the reference relies on), the Encore/reblooming type, the 50\u00b0F cool rain slowing recovery, and first-year establishment explaining poor bloom. Its watering and fertilizing advice matches what actually revived the poster's plants. The gravel and roadside details likely come from the photo and cannot be verified here. A few lines, such as soil improvement, are generic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The scratch test, bend test, waiting, watering, and buying Holly-tone are all easy, concrete steps a home gardener can do. Replacing the gravel with \"2\u20133 inches of pine bark\" takes more effort but is doable. \"If the soil is clay or drains poorly, improve it\" is vague and gives no method."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "If the soil is clay or drains poorly, improve it.",
+  "Water deeply during dry spells this first year. Don't let it dry out, and don't leave it soggy.",
+  "Then prune off any twigs that are clearly dead."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2788,
+ "output_tokens": 940
+}

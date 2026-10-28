@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk. \"Stop watering until the top 2\u20133 inches are dry\" and \"Going too long without water is less harmful\" are safe for an Alocasia in moisture-retentive Miracle-Gro mix. Moving him to \"the brightest spot you can\" directly helps the real problem. Minor gaps: no warning that Alocasia is toxic to pets and children if chewed. Framing moisture as the main issue could also lead the owner to fixate on watering and delay the light fix, though light is still recommended."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output ranks \"transplant stress and too much moisture\" as primary and \"light as a possible secondary problem.\" The reference confirms insufficient light as the main cause, so the ranking is inverted. It does tie advice to case details: the Miracle-Gro mix holding water, the damp soil, and bathrooms being \"too dim\" despite looking bright. Its suggestion to add \"extra perlite or orchid bark\" matches the chunkier mix the poster later used. However, \"The brown, mushy patch on the leaf you're holding\" describes a photo detail not given in the case, which looks fabricated. Several steps are boilerplate."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: let the soil dry, empty saucers, trim leaves with clean scissors \"at the base of the stem,\" and move the plant to a brighter window. \"Check the base of the stems... you'd need to unpot the plant and cut away the rotten parts\" is less detailed for a self-described beginner. The output also doesn't mention a grow light as an option if a brighter spot isn't available, which the reference suggested."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Be patient.",
+  "avoid cold drafts from windows or vents",
+  "Don't fertilize for a few months while he recovers",
+  "Trim the badly damaged leaves with clean scissors",
+  "Check that the pot drains and doesn't sit in water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2735,
+ "output_tokens": 1014
+}

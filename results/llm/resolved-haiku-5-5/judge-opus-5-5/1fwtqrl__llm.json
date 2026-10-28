@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Go up only one size, about 2-5 cm wider\" and to \"Keep the soil level the same\" is safe and matches the reference. The main risk is the opening line, \"Nothing is wrong with your plant\" and \"You don't need to repot right now,\" which could delay a repot the reference treats as needed, though delay here is low-stakes. There is no meaningful chemical or toxicity risk, though Strelitzia's mild pet toxicity is not mentioned."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly recognizes the plant is root-bound (\"Roots poking out of drainage holes mean it's root-bound\"). Its core repot advice, \"Go up only one size,\" matches the reference exactly. It also addresses the case detail that several plants share the pot (\"Consider dividing it\"). However, it frames root-binding as not a problem and discourages repotting now, whereas the reference confirms crowding as the problem and the plant thrived after repotting."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: pick a pot 2-5 cm wider, use potting soil with perlite or bark, keep the soil level the same, and optionally divide the stems. All materials are easy to buy, and the timing guidance (spring or early summer) is clear."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Use a chunky, well-draining mix, such as potting soil with perlite, orchid bark, or coco chips",
+  "Trim any roots that are black, mushy, or smell bad",
+  "keep feeding it during the growing season"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2176,
+ "output_tokens": 913
+}

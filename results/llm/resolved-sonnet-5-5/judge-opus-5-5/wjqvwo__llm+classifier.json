@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says to check the soil before watering (\"If it's dry, water thoroughly... If it's soggy, don't water\") and to \"Move it out of direct sun\", so it avoids overwatering and stops the scorching. It does not mention that peace lilies are toxic to pets and children, which is a minor omission for someone housesitting. Otherwise there is no harmful chemical use or risky advice."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It correctly identifies a peace lily with thirst plus sun and heat stress, matching the reference's \"burned and thirsty\". It ties this to evidence in the photos: \"The pot is sitting in full sun on the lawn\" and \"glass table in bright, reflected light and heat\". Its advice to water well and move the plant to bright but shaded light matches the reference, and it explains why the problem is not fungal."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items. Examples include \"Push a finger 3\u20135 cm down\", \"soak the pot in a bucket of water for 20\u201330 minutes\" and \"Cut fully brown leaves off at the base\". A housesitter can do all of this immediately. The optional repotting step is clearly marked as conditional."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Be patient",
+  "Don't fertilize until it has recovered",
+  "repot into a slightly larger container with fresh, well-draining potting mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2627,
+ "output_tokens": 505
+}

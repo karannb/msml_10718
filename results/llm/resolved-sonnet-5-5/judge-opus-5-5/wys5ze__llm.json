@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe: 'I'd repot' with a pot 'only 1-2 inches wider... with drainage holes.' However, 'adding a layer of fresh soil on top is okay as a stopgap' and 'slightly lower so the roots are covered' run against the reference's explicit warning not to change soil height on the stem. It also omits that Ficus sap can irritate pets and skin. These are minor risks rather than serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the need to repot after 2 years ('Since it's been 2 years, I'd repot'). It matches the reference that 'Regular potting soil works fine' and directly answers the user's worry about layering ('no layering is necessary'). It cites case-specific observations: exposed roots, depleted soil, and the shallow pot. It loses a point for endorsing top-dressing, which the reference specifically advises against, and for some generic care boilerplate."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The 'Easy version' gives four clear numbered steps using common items: a slightly larger pot with holes, potting soil, and perlite or bark. This directly addresses the user's complaint that blogs were 'too much for me.' Any home owner could do this in an afternoon."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "If many yellow and drop, check watering and light",
+  "Light: bright, indirect light",
+  "water when the top 1-2 inches of soil are dry, and let the excess drain out",
+  "a diluted balanced fertilizer every 2-4 weeks in spring and summer",
+  "trim leggy branches if you want it fuller"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2863,
+ "output_tokens": 876
+}

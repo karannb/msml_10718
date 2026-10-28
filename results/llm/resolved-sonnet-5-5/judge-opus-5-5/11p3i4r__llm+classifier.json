@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The headline says 'the roots are stressed, probably from watering', which steers the user toward suspecting overwatering even though they reported dry soil. That could delay watering a plant that is actually thirsty. The risk is softened by step 2, 'If the soil is dry all the way down, water thoroughly with room-temperature water', and the conditional root-rot steps are appropriate. Nothing chemically unsafe is suggested."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference confirms underwatering plus broken stems from the shower. The model's lead diagnosis centers on soggy roots, explaining away the user's 'top 2 inches feel dry' with 'the soil lower down can still be wet'. Underwatering appears only as a conditional branch. Physical damage to the stems from the shower's force is never mentioned. Speculation about water temperature, minerals, and moving the plant is not grounded in the case evidence."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps like 'pushing a finger or a wooden skewer to the bottom of the pot' and 'water thoroughly with room-temperature water... let the excess drain' are concrete and easy for a home owner. The branching logic is clear. However, the many possible causes and contingencies, including repotting and trimming roots, add some ambiguity and effort."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright, indirect light, away from drafts and heaters",
+  "Be patient. Recovery takes a few weeks",
+  "Raise humidity gently, to about 50% or more",
+  "repot into fresh, airy, well-draining mix",
+  "Trim only the dead, crispy leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2656,
+ "output_tokens": 932
+}

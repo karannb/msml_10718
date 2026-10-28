@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Water thoroughly... soak the pot in a bucket of water for 20\u201330 minutes,\" is correct for a dry, wilting croton, and the caution to \"make sure the pot has drainage holes\" and \"don't leave it soggy\" guards against overcorrecting. The main gap is that it never mentions croton sap is toxic and irritating to pets and children. That matters for someone handling, repotting, and pruning dropped leaves. It is a missing caveat rather than active harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"underwatering (the soil was dry)\" matches the reference, and it is supported by case evidence: \"leaves droop... classic thirst wilt\" and \"small white pot with little soil volume, sitting in full hot sun.\" The line \"Crotons are dramatic\" also echoes the reference. Some items are generic padding not tied to the case, such as \"Protect it from cold and drafts\" and \"Pot it up if needed.\" The claim that the plant was \"just been moved outdoors\" is an assumption. The \"day or two\" recovery estimate is conservative compared with the reference's three hours, but still reasonable."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use only water, a bucket, and a finger test: \"Water when the top 2\u20133 cm (about an inch) feels dry.\" Moving the plant to \"bright shade or morning sun\" is concrete and easy. Any home owner can do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Protect it from cold and drafts",
+  "Pot it up if needed... repot into a slightly larger pot with a well-draining mix",
+  "Don't let it dry out completely, and don't leave it soggy either",
+  "consistent moisture and plenty of light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2408,
+ "output_tokens": 828
+}

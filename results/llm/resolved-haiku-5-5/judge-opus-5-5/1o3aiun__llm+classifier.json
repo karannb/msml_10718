@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model frames the problem as overwatering and advises \"Water only when it's dry... Rosemary prefers to dry out between waterings.\" In a fast-drying terracotta pot at 90\u00b0F, this would continue the underwatering the reference identifies. It also misreads the user's question about plastic pots as wrapping the plant: \"Don't wrap it in plastic. A bag traps heat.\" This steers the user away from switching to a plastic pot, the fix that worked. Shading and the scratch test are low-risk, so this is a missing-the-real-cause risk rather than severe harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The main diagnosis, \"stem dieback from earlier root stress, probably from overwatering,\" contradicts the reference, which confirms underwatering in terracotta. The model does notice that \"the pot looks dry\" and \"Terracotta dries fast in 90\u00b0F sun,\" but treats this as secondary. It never recommends more water, a plastic nursery pot, or a larger pot of 3 gallons or more. The \"plastic\" misreading shows weak case-specific comprehension, though the root and stem descriptions are tailored to the photos."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps such as \"Move it out of direct afternoon sun,\" \"Gently scratch a stem with your fingernail,\" and the finger-dryness test are concrete and easy for a novice. The repotting guidance is practical given the move and the heat. One phrase, \"A cool garage that's too warm and dark,\" is self-contradictory and confusing, and the soil advice hedges somewhat."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when it's dry",
+  "Use a fast-draining mix",
+  "Empty any saucer after watering",
+  "Repot carefully",
+  "light and airflow matter"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2981,
+ "output_tokens": 929
+}

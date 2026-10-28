@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The reference confirms overwatering, but the output diagnoses \"underwatering\" and directs the owner to \"Water well now, and fill the bulb if you're using it.\" It also suggests refilling the bulb \"every few days to a week,\" which would keep the soil constantly wet and worsen the actual problem, raising the risk of root rot. The root check (\"If they're black, mushy, or smell bad, trim them\") partly offsets this. There is also no mention that Tradescantia sap can irritate pets and skin."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output correctly identifies Tradescantia zebrina and \"leggy growth from too little light,\" which matches half of the reference diagnosis. However, it gets the watering problem backwards (\"underwatering\" instead of overwatering). Its light advice of \"an east or north window\" may still be too dim for a plant that is losing color. It misses the reference's key fix of laying the vines on the soil to root at the nodes and build a fuller plant, which the poster confirmed worked."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The numbered steps are concrete and doable at home: unpot to check the roots, move to a window, trim stems, pinch tips, and use the finger test for soil moisture. No special tools are needed. The bulb advice is somewhat ambiguous (fill it or remove it), and \"Consider a hanging basket or a mostly upright setup\" is vague."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water thoroughly when the top 1 to 2 inches of soil feel dry",
+  "Check the roots",
+  "repot in fresh, well-draining soil",
+  "Move it to bright, indirect light",
+  "Trim the dead and crispy stems back to healthy growth",
+  "Water until it drains from the bottom, then empty the saucer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2439,
+ "output_tokens": 1027
+}

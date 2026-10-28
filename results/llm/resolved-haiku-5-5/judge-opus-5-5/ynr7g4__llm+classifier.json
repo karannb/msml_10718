@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"If it's dry an inch down, water thoroughly until it runs out the drainage holes,\" matches the fix that worked for the poster, and it is gated on a soil check. The output warns against standing water and names signs of root rot, which prevents over-application. It recommends no chemicals, and Fittonia is non-toxic, so there is no person or pet risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "\"The most likely cause of the droop is dehydration from the soil drying out while you were away\" matches the reference diagnosis of drought stress. The output ties this to case evidence (two weeks away, Fittonia's dramatic wilting) and to photo details (red coloration, legginess, blue support string). The humidity tip is somewhat generic, but the advice overall is tailored and consistent with \"a good drink.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps like \"Check the soil with your finger\" and \"water thoroughly\" are simple and need no special tools. Moving the plant out of sun and pinching back stems are easy. The pebble tray is a common, cheap household option. The recovery timeline of \"a few hours to a day\" gives the owner a clear checkpoint."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise humidity a bit with a tray of pebbles and water, or group it with other plants",
+  "it may need better light or a trim"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2287,
+ "output_tokens": 491
+}

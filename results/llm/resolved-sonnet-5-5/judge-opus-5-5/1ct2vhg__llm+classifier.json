@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe: 'Don't touch the leaves' and 'Water the soil, not the leaves' protect the farina, as the reference recommends. One minor risk is 'wipe it with a cotton swab and rubbing alcohol' on farina-covered leaves, which would strip the powder and cause the blotchiness the reference warns about. Beheading and amending the soil carry little risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly identifies 'not enough light, which causes etiolation' and recognizes the powder as normal farina ('Don't touch the leaves... new growth will have fresh powder'). This matches the reference. It answers the grow-light duration question with '10\u201314 hours under a grow light'. However, it attributes the 'green stuff' mainly to water spots or rubbed-off farina rather than to green colour from low light, which is only briefly mentioned. It also misses the reference's key advice: put the plants back in the window and add the grow light, since grow lights alone are too weak for full-sun plants. The soil and watering points are somewhat generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy to buy or do: a timer, '6\u201312 inches from the plants', perlite or pumice, and simple beheading instructions. Any home grower can carry these out this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the soil is fully dry, then soak it and let it drain",
+  "Rotate the pots weekly",
+  "Mix in about 50% perlite or pumice for faster drainage"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3274,
+ "output_tokens": 954
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Stop watering\" and \"Make sure the pot drains\" suit the wet soil the poster described. However, \"Keep the plant stable. Avoid moving it\" works against the fix that actually revived the plant: moving it to more sun or a grow light. That could delay recovery. The conditional advice to unpot, trim and repot \"if the plant keeps declining\" adds a second disturbance soon after repotting, but it is gated on root inspection, so the risk is low."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly uses the case evidence (\"watering indicator reading fully blue 10 days after watering\") and lists \"Repotting stress\" as a cause. But it ranks root rot first, while the reference confirms transplant shock with wet soil and low light. It never mentions light, which the poster later identified as the key factor in recovery. The reference to a \"decorative lace cachepot\" is not in the case text and may be inferred from a photo or invented."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and uses household tools: \"Push a chopstick or your finger into the soil\", remove the plant from the cachepot, and check whether roots are firm and white or mushy and brown. The thresholds are clear (\"top 2\u20133 cm... is dry\"). Any home grower can do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the plant stable. Avoid moving it, drafts, and big temperature changes while it recovers.",
+  "Either way, be patient.",
+  "Don't fertilize."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2912,
+ "output_tokens": 850
+}

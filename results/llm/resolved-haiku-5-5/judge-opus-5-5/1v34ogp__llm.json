@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Spray the leaves, especially the undersides, with a strong stream of water every few days\" is safe and matches what resolved the case. \"Use insecticidal soap or neem oil... Test on one leaf first and avoid spraying in direct sun\" and \"Avoid systemic insecticides on herbs you plan to eat... Rinse herbs well\" are reasonable caveats. Two minor risks remain. Neem's suitability for edible herbs depends on the product label, which isn't mentioned. A three-week spray regimen aimed at the wrong pest adds unnecessary chemical exposure."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis, \"most likely show whiteflies\", is wrong; the reference confirms aphids. The model misreads the white specks as \"whitefly adults or young\" when they are molted aphid skins. It only hedges that the close-up \"could also be a tiny aphid.\" The confirmation test (\"If tiny white specks fly up, they're likely whiteflies\") and the whitefly life-cycle rationale for treatment duration don't fit this case. The water-spray step and leaf removal do coincide with the reference's effective solution."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home grower. They include spraying with water, using a white sheet tap test, yellow sticky traps, and store-bought insecticidal soap. The \"every 5\u20137 days for at least 3 weeks\" regimen is more effort than this case needed, since rinsing alone worked. It is still clearly doable."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Remove heavily affected leaves",
+  "Keep the plants isolated",
+  "check your other houseplants for signs of spread"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2621,
+ "output_tokens": 951
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Soak properly... 30\u201345 minutes. Then let it drain fully\" and \"Empty the saucer,\" is safe and matches the reference. It omits that peace lilies are toxic to pets and children if chewed, a minor missing caveat. Unpotting is gated on \"if it hasn't perked up in 24\u201348 hours,\" and the repot step (\"Repot if root-bound\") is unconditioned, which could add stress to a wilted plant. Neither risk is serious."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies \"a peace lily (Spathiphyllum) that is wilting from lack of water\" and notes \"no yellowing, brown spots, mushy stems,\" echoing the reference's \"It isnt dry or crispy or yellow, so it's fine.\" The hydrophobic-soil explanation for poor uptake is relevant and case-tied. However, it adds speculative concerns (\"Five days without water alone rarely does this much damage\") and generic padding (placement, fertilizing, city tap water) that the reference doesn't need."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Push a finger 3\u20134 cm down,\" \"Set the pot in a basin... for 30\u201345 minutes,\" and \"Empty the saucer.\" The root-check criteria are clear and easy for a home owner to follow. Everything can be done within a day or two."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright indirect light, out of direct sun and away from heaters or drafts",
+  "Don't fertilize until it has recovered",
+  "Repot if root-bound, into a pot one size larger",
+  "Trim any leaves that stay crispy or yellow",
+  "Letting the water sit out overnight or using filtered water helps"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2805,
+ "output_tokens": 637
+}

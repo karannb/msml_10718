@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output gives no chemical treatments and no dangerous steps. It stresses patience: \"Be patient... Early flowers dropping is normal and doesn't mean the plant is sick.\" The advice to switch to a bloom fertilizer and to shake the flowers carries little risk. It also sensibly warns that afternoon shade may be protective in heat, so the plant isn't moved into harsher conditions."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly calls the plant healthy and notes that \"Early flowers dropping is normal,\" which partly matches the reference. However, its main diagnosis is heat (\"this is probably the main cause\"), followed by pollination, nitrogen, light and watering. The real answer was plant immaturity, and the output never says this directly. It does tie some points to case evidence (the heat and morning-sun details), but the list of five causes is shotgun-style and includes generic watering and light advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "All steps are simple and concrete for a home grower: \"Shake or brush the flowers daily,\" switch to a tomato or bloom fertilizer, mulch, and water when the top 2\u20133 cm is dry. No special tools are needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water deeply when the top 2\u20133 cm of soil is dry, and avoid letting the pot sit wet.",
+  "Keep watering even",
+  "Peppers want 6\u20138 hours of direct sun."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2714,
+ "output_tokens": 516
+}

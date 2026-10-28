@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Move it out of direct sun\" and \"Leave the damaged leaf alone, or trim it... cut it off at the base,\" is low-risk and matches what the reference and poster did. Telling the user to \"Water the soil rather than the leaves\" and \"Skip the misting\" removes a plausible contributor to water spotting. No chemicals are recommended, and Pilea is non-toxic, so a missing toxicity warning is not a concern."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The primary diagnosis, \"Sunburn / leaf scorch (most likely)... Water droplets sitting on the leaves can make it worse,\" matches the reference's \"water marks or sun stress.\" It is tied to case evidence: the hot months, the user's overhead watering and the weeding. The trim-or-leave advice matches the reference's \"trim it off.\" It loses a point for padding with generic content (soil-dryness watering, weekly rotation, a boilerplate \"When to worry\" list) and for adding speculative secondary causes like weeding stress."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps like \"Move it out of direct sun,\" \"A sheer curtain helps,\" \"Check the top 2-3 cm... of soil,\" and \"cut it off at the base\" need no special equipment or cost. This suits a user who said they lack money for misting, and everything can be done immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water by soil dryness, not a schedule",
+  "make sure the pot drains",
+  "Rotate the pot every week or so",
+  "Mushy, black, or yellowing leaves, which suggest overwatering or root rot",
+  "Spreading brown spots with yellow halos, which suggest a fungal or bacterial problem",
+  "Tiny insects or webbing, which suggest pests"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2699,
+ "output_tokens": 919
+}

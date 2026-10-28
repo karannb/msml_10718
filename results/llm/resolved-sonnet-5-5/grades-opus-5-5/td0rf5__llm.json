@@ -1,0 +1,33 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "If still stuck after a week, gently remove the loose dry cataphyll",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the leaf is glued down, dab lukewarm water on the stuck spot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant in a bright spot without harsh direct sun to keep variegation",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies a new leaf snagging while unfurling, but its main advice is to wait a week, with wetting the stuck spot only as a later conditional step; nothing in it would harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2130,
+ "output_tokens": 664
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output advises \"Give bright light, but not harsh direct sun at first\" and \"Keep the mix evenly moist, not soggy\", which matches the reference's warning against immediate direct sun. The dome advice includes \"Open it daily for airflow so mold doesn't start.\" Nothing here poses a risk to the plant, people, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It correctly identifies a viable sprouted seed with an etiolated shoot: \"grew for a long time in a dark cupboard with no light, so it has no chlorophyll.\" This explains the dead-looking leaves using case evidence. It also distinguishes root hairs from mold, consistent with the photos. The advice to plant it and avoid harsh direct sun matches the reference, and the note that \"the seed often sends up a new shoot\" is accurate and specific to this seed."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and simple: \"Plant it with the seed half-exposed... in a loose, well-draining mix\", place it in a bright filtered window, and optionally use a clear bag as a dome. A home grower can do all of this this week with common materials."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep the mix evenly moist, not soggy",
+  "keep it away from cold drafts"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2622,
+ "output_tokens": 469
+}

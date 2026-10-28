@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model warns that \"Watering every time it droops can keep the soil too wet\" and advises checking soil before watering, checking roots, and trimming rot, all of which fit the real problem. Insecticidal soap is mild and only advised if mites are seen. The minor risk is that it treats watering as one cause among several (\"sunburn plus transplant and watering stress\"), so the overwatering message is somewhat diluted. Discouraging sphagnum because it \"stays wet\" is sound. There are no toxicity warnings, though alocasia is toxic to pets, which is a small missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The reference confirms overwatering in dense soil, fixed by a repot. The model leads with sunburn and lists possible spider mites, with watering third, so it is only partly right. It does tie watering to the user's habit of watering whenever the plant droops. It also addresses the fine soil by suggesting perlite or orchid bark and checking roots, which matches the eventual fix. However, it says \"keep the current mix\" is an option and adds speculative mites. Some advice is generic (bright indirect light, humidity, hold off fertilizer)."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: \"mixing in perlite or orchid bark (roughly 1 part amendment to 2 or 3 parts soil)\", \"Check the roots... Rotten roots are black, mushy\", and cutting leaves \"at the base of the stalk\". The materials are cheap and easy to find, and the instructions are clear enough to follow this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Put it in bright, indirect light, away from harsh direct sun and drafts, with moderate humidity and steady temperatures",
+  "Hold off on fertilizer until you see new growth",
+  "Sudden changes in light, temperature, or watering often cause leaves to yellow, drop, or droop"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2702,
+ "output_tokens": 673
+}

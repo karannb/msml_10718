@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Inspect leaves, joints and stems closely with a magnifier or macro lens for pests",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and check roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mealybugs are found, dab them with a cotton swab dipped in isopropyl alcohol, repeating over a few weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively apply a systemic insecticide like imidacloprid",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown leaves with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take and share a sharper close-up of white flecks or roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames treatment damage and only lists pests as a possibility, so the diagnosis is partial. Alcohol treatment appears only as a conditional step, so the advice is partial. Telling the owner to stop spraying alcohol for one to two weeks would delay control of an active infestation, so it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2346,
+ "output_tokens": 884
+}

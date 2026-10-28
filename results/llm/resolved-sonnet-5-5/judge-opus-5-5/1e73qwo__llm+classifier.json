@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The model's main recommendation, \"Move it back from the window, or hang a sheer curtain, so it gets bright light without hours of direct sun,\" is the opposite of what fixed the problem. The reference confirms the plant had too little light on the shelf and recovered once moved outside. Following this advice would reduce light further and worsen the decline. The confident line \"I think the sun is the main culprit, and that's an easy fix\" would also delay the needed change. The secondary advice (water the soil not the crown, empty the saucer, filtered water) is low-risk."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The model diagnoses \"Too much direct sun\" as the \"top suspect,\" which directly contradicts the confirmed cause: insufficient light due to shelf shading and indoor conditions. It uses case details such as \"Six hours of direct southern French sun, 50 cm from the glass,\" but reaches the wrong conclusion and ignores the shelf placement the user mentioned. The crown-rot and drainage points loosely echo the reference's caution about overwatering. However, the list of fluoride, fertilizer and rot causes is a generic spider-plant checklist rather than a case-specific analysis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home owner: \"hang a sheer curtain,\" \"Switch to filtered or rain water,\" \"Water thoroughly only when the top 3-4 cm of soil is dry,\" and \"Unpot it once and check the roots.\" No special tools or products are needed. Feasibility is high even though the main step is misdirected."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Switch to filtered or rain water",
+  "flush the pot thoroughly every month or so",
+  "Use a diluted feed, only occasionally",
+  "Trim off the damaged tips and leaves",
+  "Unpot it once and check the roots",
+  "Check that the pot drains freely and empty the saucer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2757,
+ "output_tokens": 835
+}

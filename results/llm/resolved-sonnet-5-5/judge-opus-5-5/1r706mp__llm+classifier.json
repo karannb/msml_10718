@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Dab each bug with a cotton swab dipped in 70% isopropyl alcohol,\" matches the reference, which reported no plant damage. The output also adds sensible cautions: \"test a small area first and avoid spraying in strong sun\" and \"I'd avoid systemics if you use it that way\" for an edible herb. One minor gap: it recommends neem oil on an edible herb without noting label pre-harvest intervals or the need to wash leaves before eating. Rinsing the roots of a soft herb during repotting adds a little stress, but the risk is low."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely mealybugs\" matches the confirmed diagnosis. The output cites case evidence (\"white, fuzzy or cottony blobs\u2026 where the thin leaf stalks (petioles) meet the soil\") and uses the poster's planned repotting to check for root mealybugs. The alcohol treatment matches the reference exactly. Two things detract: the odd internal paragraph \"About the classifier\u2026 trained mostly on cochineal scale on cactus\" is confusing and irrelevant to the user, and the 4\u20136 week spray regimen goes well beyond what the reference showed was enough for a small, early infestation."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use common household items: \"70% isopropyl alcohol,\" a cotton swab, insecticidal soap or neem, and a sealed bag. The poster was already planning to repot, so \"Use the repotting to your advantage\" fits their situation. However, the combined plan (root rinse, discarding soil, bleaching the pot, and weekly spraying for 4\u20136 weeks) is more effort than needed. For a squeamish user, the simple alcohol treatment from the reference would likely have been enough."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Repot in fresh mix",
+  "clean the pot with soapy water or dilute bleach",
+  "Wear gloves, work outdoors or over newspaper"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2686,
+ "output_tokens": 1346
+}

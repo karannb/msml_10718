@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and fixes the real cause: \"Change the water every 3\u20137 days rather than topping it off\" and \"Remove any roots that are black, mushy, or hollow\" stop the low-oxygen conditions behind the rot. \"Optionally dip the cut ends in a little hydrogen peroxide\" gives no dilution guidance, and full-strength peroxide could damage tissue, which is a minor risk. It also never mentions that pothos is toxic to pets and children, which matters on a desk at work."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"root and stem rot caused by stagnant water,\" matches the reference. It ties the problem to the case: \"Topping off old water, rather than changing it, lets bacteria multiply and oxygen run out\" and the mention of roots stressed in the mug. It misses a key part of the reference: water-grown pothos need diluted water-soluble fertilizer because they get no nutrients from soil, which helps explain why it \"neither grows nor dies.\" It also never says outright that the small container held too little water and oxygen. The classifier paragraph and the scale speculation add little."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are clear and doable at home: trim rotten roots, rinse in lukewarm water, use a clean jar, and change the water regularly. Some items are vague: \"a little hydrogen peroxide or diluted cinnamon\" has no amounts, and \"perlite and peat, or in LECA\" may mean buying supplies. Overall a typical owner can do this within a week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright, indirect light, not direct sun",
+  "Be patient. Recovery can take several weeks",
+  "Consider soil or semi-hydro instead"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3158,
+ "output_tokens": 1040
+}

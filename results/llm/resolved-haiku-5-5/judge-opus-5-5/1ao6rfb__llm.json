@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The concrete actions are low-risk: \"Stop spraying the leaves and water only the soil,\" \"Remove them at the base,\" and keep her in \"a shaded or lightly shaded spot outside.\" None of this would damage a healthy primrose. The minor risk is the framing. Saying the plant is \"struggling\" and raising possible Botrytis (\"brown spots... could be early signs\") and root rot (\"soggy soil causes root rot\") could prompt needless intervention or worry for a plant the reference calls very healthy."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The headline diagnosis, \"struggling with a combination of heat, humidity, and watering habits,\" contradicts the reference, which says the plant is healthy and the flowers are simply fading naturally. The output does mention deadheading (\"The dried, dark-red blooms... are finished... Remove them\") and briefly concedes \"Her flowers may also just be short-lived,\" which partly matches. Both points are buried under speculative problems (Botrytis, wet soil, heat shock). It also leans away from full sun outdoors, while the reference says sun at this time of year is fine."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for any home owner: stop misting, water at the soil and empty the saucer \"after 15-20 minutes,\" pinch off spent blooms, and choose a shaded balcony spot. No special tools are needed. There is slight ambiguity in \"Let the top layer dry slightly,\" and the long list of fixes is more effort than this healthy plant needs."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright, indirect light is ideal",
+  "Keep her away from radiators and heaters",
+  "empty any saucer after 15-20 minutes so the roots don't sit in water",
+  "Let the top layer dry slightly between waterings",
+  "soggy soil causes root rot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2856,
+ "output_tokens": 1088
+}

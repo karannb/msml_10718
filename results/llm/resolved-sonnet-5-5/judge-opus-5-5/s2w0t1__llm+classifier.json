@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The soaking advice, \"If the soil is hard and repels water, soak the pot in a basin for 20-30 minutes,\" directly helps the actual underwatering problem. Nothing is dangerous, and rubbing alcohol on mealybugs is standard. Minor risks: \"Repot into a fresh, well-draining mix\" could add stress to a dehydrated plant. It also says \"The plant doesn't look seriously sick,\" which may slow action on a shriveling stem. There is no warning that Dracaena marginata is toxic to cats and dogs."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly identifies the plant as \"Dracaena marginata (dragon tree), not a true yucca,\" matching the reference. It also notes case-specific evidence: \"The soil surface looks dry and coarse... may be compacted or hydrophobic, so water could be running off.\" However, it never mentions the shriveling stem, the key sign in the reference. It spreads the diagnosis across four causes (watering, sun scorch, pests, old soil) instead of committing to underwatering. The checklist also includes generic items like repotting, fertilizing and filtered water."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Lift the inner pot out,\" \"soak the pot in a basin for 20-30 minutes,\" \"dab them with rubbing alcohol on a cotton swab.\" No special equipment is needed. The long list of eight actions, with no ranking, may leave the owner unsure what to do first, which slightly reduces clarity."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water thoroughly only when the top 4-5 cm (about 2 in) of soil is dry",
+  "Bright indirect light is best",
+  "Use filtered or rainwater if you can",
+  "Trim off fully yellow or brown leaves",
+  "Repot into a fresh, well-draining mix if it has been more than 2 years",
+  "Fertilize lightly, at half strength, once a month in spring and summer only",
+  "Old, tired soil"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2783,
+ "output_tokens": 1020
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Set the stem in a glass of water with the node submerged. Change the water every few days\" is safe and matches what worked for the poster. Maranta is non-toxic to pets, and there are no chemicals involved. The plastic-bag tip includes a caution to \"vent it occasionally to prevent mold.\" The only minor oddity is suggesting a repot right after the user has just repotted, but it is framed gently and is low risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly re-identifies the plant as a \"red-veined prayer plant (Maranta leuconeura)\" and stresses \"Find a node,\" both of which match the reference (\"That's a red maranta and it looks like you've got a node\"). It recommends water propagation, which is what the poster did successfully. It also addresses the sagging and snapping the user described with staking and pruning. A few details, such as the \"dried, brown tip,\" are asserted from photos we cannot verify, and some condition advice is boilerplate. The core diagnosis and plan are accurate and tailored."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps (\"Trim the base,\" \"Remove lower leaves,\" put the cutting in a glass of water, and \"pot it up once they're an inch or two long\") are concrete and need only household items. Staking with \"a stake or small moss pole\" uses cheap, widely available supplies. Anyone can do this right away. The water-versus-soil choice is clearly laid out."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "bright indirect light, no direct sun, normal room warmth, and humidity",
+  "Repot into a pot that's only slightly larger, and handle the root ball gently",
+  "Keep the parent plant somewhat humid and watered consistently"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2449,
+ "output_tokens": 874
+}

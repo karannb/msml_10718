@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice avoids harmful actions. It says to \"Check the drainage now\" and to \"Water only when the top 2 to 3 inches of soil are dry,\" which counters the wet-soil problem rather than worsening it. It recommends no chemicals, and the tip to wash tools between cuts is a sensible precaution. Monstera toxicity to pets is not mentioned, but that omission is minor and not tied to any risky step."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the main problem in the reference: \"the galvanized metal planter looks like it has no drainage hole, and the soil looks wet,\" with a fix of \"chunky, well-draining mix such as aroid mix with perlite or bark,\" which matches the commenters' advice. It also ties the light problem to evidence: \"low light causes the stretched, weak growth you see.\" However, it hedges with leaf-spot and underwatering/humidity possibilities, and it frames light as secondary rather than a confirmed co-cause, which dilutes the focus somewhat."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and homeowner-friendly: lift the nursery pot out of the cachepot, inspect the roots for firm white versus mushy brown, repot in aroid mix, and water at 2\u20133 inch dryness. Everything needed is easy to buy, and no special tools are required. The instructions are clearly ordered and doable this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use bright, indirect light",
+  "Don't fertilize until new growth appears",
+  "Keep an eye on the spotted leaves",
+  "isolate the plant from your others",
+  "Trim damaged leaves with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2700,
+ "output_tokens": 596
+}

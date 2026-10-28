@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe: \"Water thoroughly, then let the soil dry\" and \"Skip fertilizer for now\" will not hurt a drought-stressed kalanchoe. The main risk is indirect. By stressing \"Don't water more often to compensate. Overcorrecting is the main way to lose a kalanchoe now,\" the output may keep the owner on a routine that, per the reference, was not rehydrating the soil, which delays recovery. Unpotting a stressed plant to inspect roots carries minor risk. No chemicals are involved, so no toxicity warning is needed."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly identifies \"Lingering drought stress\" and soft, low-turgor leaves. It compares Chanel with Dior using the photos. It comes close to the real issue with \"she may not be taking up water well even now,\" but blames root damage instead of dry soil failing to absorb water. It never suggests the reference fix of soaking the pot in a bowl of water for an hour. Low light, flowering energy, and pruning are reasonable extras but dilute the focus, and \"Soak until water drains out\" is the routine top-watering that may run straight through hydrophobic soil."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: slide the plant out to check roots, water until it drains, move her to a south or east window, rotate weekly, cut spent flower stalks, and prune leggy stems later. The list is long, and the root inspection or repotting is more involved than the simple soak that actually worked. It is still clear and achievable this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give her more light",
+  "Skip fertilizer for now",
+  "Be patient. Recovery takes weeks to months",
+  "Water thoroughly, then let the soil dry",
+  "Check the roots and soil moisture",
+  "Rotate her every week or so"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3063,
+ "output_tokens": 994
+}

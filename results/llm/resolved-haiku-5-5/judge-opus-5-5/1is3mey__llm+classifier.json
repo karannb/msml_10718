@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model says \"Water thoroughly only when the soil is completely dry, usually every 1-3 weeks\" and \"stop watering until you see the soil dry out fully,\" which addresses overwatering correctly. It also warns to \"Increase exposure gradually... since sudden full sun can sunburn them,\" preventing a likely secondary harm. Trimming mushy stems and letting cuttings callus is standard and safe. No chemicals or risky steps are involved."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model names both causes, \"not enough light, plus an inconsistent watering routine,\" and ties them to case evidence: the move, the \"sip every 2 days\" habit, and the etiolation seen in the photos. Its line \"A 'sip' wets only the top... while constant dampness invites rot\" matches the reference's advice to water thoroughly and less often. However, it frames light as the main driver and watering as secondary, while the reference stresses overwatering equally or more. It also misses the reference's specific point that the plants sit too low in their pots and are shaded by the rims, and it never mentions using wrinkled leaves as a cue to water."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: move the plants to a south or east window or add a grow light, water until it drains and then empty the saucer, trim with clean scissors, callus the cuttings, and amend the soil with perlite or pumice. All of these use common, cheap supplies and are realistic within a week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "make sure the pot has a drainage hole",
+  "Use a well-draining mix",
+  "add a grow light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2901,
+ "output_tokens": 577
+}

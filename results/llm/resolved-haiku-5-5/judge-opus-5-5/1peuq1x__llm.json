@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "\"Flush the soil by running plenty of plain water through the pot\" could keep a dense, poorly draining mix (the reference's actual problem) waterlogged and stress the roots further. Root checking and repotting into \"fresh, airy medium\" are only offered \"if the yellowing continues\" and only for rot. The closing line, \"a clean flush and a pause on fertilizer will probably settle it,\" may delay the repot that helped. No chemical or toxicity hazards."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output links symptoms to the timing after feeding and covers overwatering/root rot, so it is partly right. It misses the reference's key fixes: repot into a pot just the size of the root ball, use a sphagnum/bark/perlite mix, and expect new alocasias to throw fits and drop leaves. It also gets case facts wrong: \"The second leaf looks mostly healthy\" contradicts the user saying both leaves are yellowing, and the variegation point assumes a variegated plant the case never mentions. The humidity and drafts advice is generic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Flushing, pausing fertilizer, checking roots and leaving leaves on are all clear, doable home steps. \"Keep humidity high (60% or more if possible)\" may need a humidifier or hygrometer, but it is hedged. The root-trim-and-repot step is conditional and only loosely described."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep humidity high (60% or more if possible)",
+  "keep it out of drafts and direct harsh light",
+  "Low humidity or inconsistent watering: Alocasias are sensitive to both",
+  "Check whether the medium stays wet"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2676,
+ "output_tokens": 907
+}

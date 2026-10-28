@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model advises to \"Trim only what's fully dead\" with \"clean, sharp shears\" and \"Don't cut into the pseudostem or the new spike.\" Its watering advice is \"Keep the soil lightly moist, but don't let it sit soggy.\" Both are safe and protect the recovering growth. There are no chemicals, and \"Skip fertilizer\" avoids stressing damaged roots. Bananas are not notably toxic, and the rot warning is appropriate."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model says \"The plant is likely in transplant shock\" and ties this to pup removal disturbing roots, which matches the reference. Its core actions (trim dead material, keep watered, be patient) also match. It cites case-specific evidence such as \"The tall pale spike in the middle may be new growth,\" consistent with the poster later seeing a new leaf. However, the photo details are not verifiable from the case text. Items like \"bright, indirect light and warmth\" and \"Check the pot size\" are fairly generic padding."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household tools: \"lightly scratch it with a fingernail,\" cut crispy leaves with shears, and \"Let the top inch or two dry out between waterings.\" No special products or tests are required, and a typical owner can do all of it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light and warmth",
+  "Skip fertilizer for several weeks",
+  "Be patient",
+  "Check the pot size",
+  "Ensure the drainage holes aren't blocked"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2509,
+ "output_tokens": 787
+}

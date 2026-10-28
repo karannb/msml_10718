@@ -1,0 +1,89 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move the grow light to 6-8 inches above the plants, and closer if they keep stretching",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Run the grow light 12-14 hours a day on a timer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If a plant gets too leggy, behead it and root the top",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides, leaf joints and the soil surface for mealybugs",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Treat mealybugs with isopropyl alcohol on a cotton swab",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use a systemic insecticide for stubborn mealybugs",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Isolate an infested plant",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into cactus soil mixed 50/50 with perlite, pumice or grit if the soil stays damp",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Replace the bark mulch with a top layer of grit or pumice",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check that the soil is completely dry before watering thoroughly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Send a close-up photo of the green material and yellowing leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with insufficient light as the cause of stretching and colour loss and correctly calls farina normal, but its grow-light fix leaves out returning the plants to the window and is buried under mealybug, soil and repotting steps, though none of these is clearly harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2516,
+ "output_tokens": 1378
+}

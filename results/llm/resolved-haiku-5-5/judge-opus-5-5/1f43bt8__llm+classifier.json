@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The pruning guidance is conservative and safe: \"Cut at the base of the leaf stalk (petiole) with clean, sharp shears,\" \"Don't remove more than about a third of the leaves at once,\" and \"avoid cutting the new leaves emerging from the center.\" Watering advice to \"stick a finger in the soil before watering rather than following a schedule\" avoids overwatering. Nothing here would damage the plant. No pet-toxicity note is given, but the task doesn't involve ingestion, so the omission is minor."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output gets the core question right: \"Yes, you can remove the leaves that look bad,\" targeting older, browning lower and outer leaves. This partly matches the reference's advice to cut bottom leaves. However, it hedges with \"Possibly some browning or dryness at the edges of the lower or outer leaves.\" It never mentions the leaves touching the ground. It also misses the reference's case-specific warning that the pot is narrow at the top and should be transplanted before it has to be broken, offering only generic \"Repot every 2 to 3 years, or when roots circle the pot.\" The long maintenance section is mostly boilerplate, and the \"balcony\" references are not grounded in the user's text."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any owner: \"Cut at the base of the leaf stalk (petiole) with clean, sharp shears, close to the soil or the main stem,\" plus a clear one-third limit and a finger test for watering. The only tools needed are shears and a basic liquid fertilizer, both readily available. Everything can be done this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright, indirect or filtered sun is ideal",
+  "Water thoroughly when the top 2 to 5 cm (1 to 2 inches) of soil is dry, and let excess drain",
+  "Feed with a balanced liquid fertilizer every 4 to 6 weeks during spring and summer",
+  "Repot every 2 to 3 years, or when roots circle the pot or grow out of the drainage holes",
+  "Make sure the pot drains well",
+  "Wipe the leaves occasionally to remove dust"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2643,
+ "output_tokens": 1142
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice of avoiding standing water, keeping the plant away from radiators and adding humidity is safe and fits a drought-stressed peace lily. 'Gently slip the plant out of the pot' to check roots right after a heavy soak adds stress, and the case shows no sign of rot. The output also never mentions that peace lilies are toxic to pets and children if chewed. Neither issue is serious."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "'Most likely, this is underwatering\u2026 three weeks without water plus dry winter indoor air' matches the REFERENCE diagnosis exactly. 'Peace lilies are known for bouncing back within hours of a drink' matches the commenter's advice. The humidity tips ('grouping plants or using a pebble tray') fit the poster's eventual humidifier fix. However, 'Expect slow recovery\u2026 a few weeks' contradicts the hours-scale rebound the REFERENCE describes. The root-rot check and light advice are also not tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: 'Water when the top inch or so of soil is dry', 'keep it away from radiators and vents', and use a pebble tray. Checking and trimming roots is doable for any owner. The question about which plant is the peace lily adds slight ambiguity, but it does not block any action."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use bright, indirect light",
+  "Water when the top inch or so of soil is dry",
+  "Check the roots",
+  "repot into one that does",
+  "grouping plants or using a pebble tray helps"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2415,
+ "output_tokens": 926
+}

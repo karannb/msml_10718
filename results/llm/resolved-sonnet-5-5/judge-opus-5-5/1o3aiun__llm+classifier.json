@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says \"You don't need plastic. Terracotta is actually better for rosemary because it dries faster\" and recommends \"a gritty, fast-draining mix.\" Its watering advice, \"Let the top 1\u20132 inches dry out,\" could further dry out a plant that, per the REFERENCE, was actually underwatered in fast-drying terracotta during 90\u00b0F Great Plains heat. That would perpetuate the real problem. The suggestion to soak the root ball for 10\u201315 minutes partly offsets this, and nothing in the advice is chemically or personally dangerous."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model does notice that \"the plant can be both thirsty\" because the dense root ball repels water. That partly touches on the real issue of drying out. However, its core recommendations contradict the REFERENCE: it says to stay with terracotta, use a pot \"only 1\u20132 inches wider,\" and pick a gritty mix. The REFERENCE recommends switching to black plastic nursery pots of 3+ gallons and giving more water. The model also mostly accepts the user's overwatering framing by mentioning \"cycles of too wet and then too dry.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a novice. Examples include \"make 3\u20134 vertical cuts about an inch deep,\" \"soaking the pot in a tub for 10\u201315 minutes,\" and specific perlite percentages. Everything uses common household or garden-center supplies."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it airflow and full sun",
+  "Let the top 1\u20132 inches dry out, then water thoroughly until it drains",
+  "with a drainage hole"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3112,
+ "output_tokens": 860
+}

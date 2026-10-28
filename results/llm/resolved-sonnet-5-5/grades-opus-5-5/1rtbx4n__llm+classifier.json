@@ -1,0 +1,68 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Unpot the cactus and check the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim the mushy parts and repot into an airy mix with perlite/bark in a draining pot",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture deeper down with a finger or skewer before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plants to bright indirect light at a steady temperature, away from cold glass, drafts and the hob",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If badly rotten, take cuttings, callus them and root them in a light mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Check the oxalis roots/bulbs for mush and let it dry",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the oxalis keeps dying back, reduce watering and wait for dormancy to end",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses overwatering and explicitly rules out thirst when the confirmed problem was underwatering, so its advice to withhold water and repot would have delayed the needed fix and worsened the dehydration.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2682,
+ "output_tokens": 585
+}

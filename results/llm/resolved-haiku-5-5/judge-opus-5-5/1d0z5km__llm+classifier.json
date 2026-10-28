@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output's core advice is safe: \"Pinch off the flower spikes... pinch the tips of the stems just above a leaf pair\" and \"Harden it off over 1\u20132 weeks... Wait until nighttime temperatures stay above about 10\u00b0C.\" No chemicals are recommended. Watering at the base in the morning is sound. Nothing here risks the plant, the person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly reads the case as a healthy, flowering plant, matching the reference's \"healthy plant; flowering\" and its advice to cut off the flowers for bushier growth. It ties the leggy look to the plant putting energy into seed. However, it leaves out two key reference points: feeding with a balanced fertilizer and moving the plant to a bigger pot (about 12 inches), which is what the poster actually did. The outdoor-transition advice is specific to basil (frost sensitivity, 50\u00b0F nights)."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special equipment: \"pinch the tips of the stems just above a leaf pair,\" \"root them in water,\" and harden off \"a few hours of outdoor shade each day.\" The temperature threshold gives a clear signal for when to plant out. Any home grower could do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Plant it in full sun, in well-draining soil"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2296,
+ "output_tokens": 504
+}

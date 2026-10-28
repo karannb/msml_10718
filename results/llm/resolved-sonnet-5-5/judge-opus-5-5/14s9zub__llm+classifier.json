@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model recommends 'Treat with insecticidal soap or neem/horticultural oil... Repeat every 5-7 days for at least 3-4 weeks' along with rinsing and wiping. These are low-toxicity, appropriate options. It leaves out the reference's caution about spraying out of direct light to avoid leaf burn, which matters especially for oils. That missing caveat is a minor risk. Misting for humidity is of limited benefit but harmless."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The model diagnoses 'a spider mite infestation', which matches the confirmed problem in the reference. It cites case-specific evidence: 'fine, uniform stippling', possible webbing in photo 2, and notes that Chamaedorea is mite-prone. Its advice to repeat treatments 'every 5-7 days for at least 3-4 weeks' closely matches the reference's '3-4 rounds, one week apart'. The confirmation tests (paper tap, tissue wipe) are tailored to distinguishing mites from dust."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use household items and products that are easy to buy: 'white paper', 'shower or sink', 'damp cloth', and insecticidal soap or neem oil. The instructions are numbered and concrete, and a typical owner could start them this week. A phone macro lens or loupe is optional."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate the plant from your other plants",
+  "Check nearby plants for the same stippling",
+  "Cut off the worst-damaged fronds if you like"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2864,
+ "output_tokens": 551
+}

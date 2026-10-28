@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove visible bug by dabbing with alcohol-soaked cotton swab or squishing",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf axils, leaf undersides, new growth and soil surface for more bugs, egg masses, honeydew",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test insecticidal soap or neem oil on one leaf first",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray whole plant with insecticidal soap or neem oil weekly for 3-4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Check and monitor neighboring plants for a few weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If infestation is heavy or recurs, use a systemic houseplant insecticide",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies mealybug as the main diagnosis and its core advice, dabbing with alcohol and inspecting thoroughly, matches the fix that worked; the extra treatments are reasonable and include a leaf test, so nothing is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2105,
+ "output_tokens": 551
+}

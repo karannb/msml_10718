@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is safe: \"Water the soil, not the leaves\" protects the farina, and amending with \"pumice or perlite (about 50%)\" is standard for succulents. The minor risk is that it implies the grow light alone can fix things (\"These plants just need far more light than most windows provide\"). The reference warns that grow lights deliver only a fraction of sunlight and recommends using the window plus the light. Following the model could prolong the low-light problem, but it would not seriously harm the plant. The beheading suggestion is optional and described correctly."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference. It cites \"etiolation\" and \"loss of stress coloring,\" says the green is the plant \"reverting to green\" from less light, and correctly calls the powder \"farina\" that is removed by touch or water. All of this is tied to the user's photos and questions. It diverges from the reference by recommending the grow light alone (\"12-14 hours a day\") rather than returning the plants to the window with a supplemental light. It also adds unverifiable speculation about \"water spots or mineral residue.\" Some soil and watering advice is generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: \"12-14 hours a day, ideally on a timer,\" \"6-12 inches\" from the plants, a full-spectrum 5000-6500K bulb, and mixing in perlite. Beheading instructions are clear (\"leaving about an inch of stem, let the cut end callus for a few days\"). No specialized tools are needed."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the soil is completely dry, then soak thoroughly and let it drain",
+  "Rotate the pots weekly so growth stays even",
+  "Yellowing or translucent lower leaves can mean overwatering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3065,
+ "output_tokens": 1057
+}

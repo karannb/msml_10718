@@ -1,0 +1,75 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check the soil moisture yourself instead of trusting the classifier label",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to the sunniest spot available",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rotate the plant so all sides get light",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If very hot, put up shade cloth during the hottest hours",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, shelter the plant from afternoon sun reflecting off walls",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hand-pollinate by shaking or tapping the plant or using a small paintbrush, for a few weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Switch to a low-nitrogen, higher-potassium tomato/pepper fertilizer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Water deeply when the top inch of soil is dry to keep moisture even",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Mulch the soil surface to keep roots cooler",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  }
+ ],
+ "reason": "The plant was simply too immature to fruit and needed time, but the answer diagnoses blossom drop and prescribes several interventions instead of patience; those steps are unnecessary but unlikely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2222,
+ "output_tokens": 1090
+}

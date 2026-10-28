@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Gently wipe each leaf with lukewarm water and a drop of dish soap using a soft cloth, repeating every few days",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternative: wipe leaves with dilute insecticidal soap instead of dish soap",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Rinse leaves with clean water in shower or sink while keeping soil dry",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wear gloves while cleaning off the dust",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides and stem joints for mites, webbing and stippling",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tap leaves over white paper, using a magnifier, to look for moving specks",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "For future mite problems, spray insecticidal soap, neem oil or miticide every 5-7 days for 2-3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity around the plant",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": true
+  },
+  {
+   "action": "Watch new leaves for curling, yellowing or webbing as signs mites persist",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies Captain Jack's dust residue and recommends a similar wipe-then-rinse method, but it uses soapy water instead of the diluted lemon juice that worked, and nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2261,
+ "output_tokens": 1251
+}

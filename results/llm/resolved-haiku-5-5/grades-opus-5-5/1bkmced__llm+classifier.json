@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect new growth, sheaths and leaf undersides with a hand lens for thrips",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check for spider mites with a flashlight and by tapping a leaf over white paper",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the pothos from other plants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place blue or yellow sticky traps",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Spray spinosad or insecticidal soap thoroughly every 5-7 days for 3-4 weeks, alternating products",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Shower the plant to knock off insects",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove heavily damaged leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Apply a systemic imidacloprid insecticide if the problem persists after several weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names thrips as the main cause, but it puts the systemic treatment that fixed the problem last, as a conditional step after weeks of sprays; that delay is not likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2663,
+ "output_tokens": 934
+}

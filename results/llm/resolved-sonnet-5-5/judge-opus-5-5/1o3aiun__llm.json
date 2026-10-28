@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The real problem was drying out in fast-drying terracotta. The output pushes the plant further toward drought. It says \"The terracotta pot you have is a good choice because it breathes and dries faster,\" recommends \"Succulent/cactus mix\" with extra perlite or sand, and advises \"Size up only slightly.\" On a 90\u00b0F Great Plains day, this would likely keep stressing an underwatered plant. It also explicitly discourages the plastic pot that saved the plant: \"Plastic pot? You don't need it.\" The caveat \"it should never go bone dry\" and the hydrophobic root-ball note slightly reduce the risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output does flag \"Possible drought stress, not just overwatering\" and says the plant \"can be dry inside while you think you're overwatering,\" which partly matches the REFERENCE. However, it frames the main issue as \"severely root-bound.\" Its concrete advice runs directly against the REFERENCE: it favors terracotta over plastic, a smaller pot over 3+ gallons, and fast-draining mix over more water. It does tie observations to specific photos, but the overall conclusion is mostly wrong."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"make 3\u20134 vertical cuts about \u00bd inch deep,\" \"50/50 blend of cactus mix and regular potting soil,\" and \"top 1\u20132 inches are dry.\" The products are easy to buy and the instructions are clear. Feasibility is good even though the direction of the advice is misguided."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check moisture with your finger or a wooden skewer, not a schedule",
+  "Fast drainage is more important than the watering amount",
+  "Rosemary wants lots of sun and good airflow",
+  "Make sure it has a drainage hole, and don't put it in a saucer that holds water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3246,
+ "output_tokens": 963
+}

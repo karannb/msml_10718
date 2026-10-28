@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice, including \"Put a few stones, glass beads, or some gravel in the bottom of a decorative cachepot and set the clear nursery pot inside it. Keep the nursery pot in place because it has drainage holes,\" is safe. It preserves drainage. The warnings \"don't pack it tightly, since roots need air\" and \"Empty the saucer after watering\" protect against root rot. Nothing involves chemicals or risk to people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly says \"The problem is mechanical: the plant is top-heavy and not anchored well.\" Its main fix, a weighted cachepot, matches the reference's \"slip it into a pot\" and what the poster actually did. Firming the bark parallels the poster's plan to add more bark. However, it asserts photo details that the case never describes, such as \"Clear plastic pots,\" \"The spike leans away from the stake,\" and \"the saucer has water pooled in it.\" It also discusses an unexplained \"classifier output,\" which may be fabricated or irrelevant. These unverified claims lower the score slightly."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use household items: \"stones, glass beads, or some gravel,\" a cachepot, and \"soft plant ties.\" They are clearly numbered and can be done in minutes. No special tools or expertise are needed."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Be patient",
+  "Avoid standing water. Empty the saucer after watering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2394,
+ "output_tokens": 819
+}

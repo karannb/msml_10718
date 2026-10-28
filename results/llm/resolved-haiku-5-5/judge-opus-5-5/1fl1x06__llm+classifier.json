@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model recommends to \"Dab each one with a cotton swab dipped in isopropyl alcohol (70% or higher)\" and to use \"insecticidal soap or neem oil, following the label.\" These are standard, low-risk treatments. Telling the user to follow the label limits misuse. A note about testing a leaf first would have been nice, but leaving it out poses minimal risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model names \"mealybugs or scale insects\" and describes the \"white-to-pale-pink ovals sitting on the stems.\" It also gives the user a way to tell the two apart. Its core advice, \"Dab each one with... isopropyl alcohol\" and \"Check thoroughly,\" matches the reference exactly. Hedging between mealybug and scale, and adding a multi-week spray regimen for what turned out to be a single bug, keeps it from being fully precise."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use common household or easily bought items: \"cotton swab,\" \"isopropyl alcohol,\" and \"insecticidal soap or neem oil.\" Timing is spelled out as \"repeat every 5 to 7 days for about 3 to 4 weeks.\" A beginner can do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Isolate the plant from your other plants",
+  "Inspect your other houseplants and any new plants you've brought home"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2253,
+ "output_tokens": 516
+}

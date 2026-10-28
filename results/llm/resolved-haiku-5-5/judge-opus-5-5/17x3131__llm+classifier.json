@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The output tells the user to \"wait until the top 2\u20133 inches are dry before watering again\" and to \"Check the roots... Mushy, brown, or smelly roots mean rot, and you should trim them.\" Both steps help with the real problem of overwatering. It never says the pot is oversized, though, and \"Raise humidity\" plus \"flush the soil with plain water\" would add moisture to a plant already holding too much. That is a minor risk, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output does put watering first (\"keeping it constantly soggy\"), mentions root damage, and notes the pot \"may lack drainage,\" so it is partly right. It misses the confirmed cause, a pot far too large for a three-leaf plant, which the poster fixed by downsizing. It also dilutes the diagnosis with a shotgun list of humidity, light, fertilizer, and pests. Some points are tied to the case, such as the new leaves being affected and the grow light and sticky trap visible in the photos, but much of the advice is broad."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and doable at home, for example \"Slide the plant out. Healthy roots are firm and white or tan\" and \"wait until the top 2\u20133 inches are dry.\" Nothing needs special equipment. The step on light distance is a little vague, but overall the advice is easy to carry out this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Raise humidity: Group plants, use a pebble tray, or run a humidifier",
+  "Pause fertilizer until new growth looks clean",
+  "Check light distance from the grow light",
+  "Trim the dead tissue with clean scissors",
+  "repot in fresh, chunky, well-draining mix in a pot with drainage holes",
+  "Give it 3\u20134 weeks of consistent care"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2770,
+ "output_tokens": 637
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice says to \"Cut off the dead leaves,\" \"Water when the top few inches of soil are dry... never soggy,\" and \"Hold off on fertilizer.\" These are safe and match the reference. Bananas are not notably toxic, and no chemicals are recommended. Warning against soggy soil after root disturbance reduces the risk of rot."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies \"transplant shock and root damage, probably made worse by the pup removal,\" which matches the reference diagnosis. It ties this to case evidence: rapid browning after disturbance and the stem near the soil being \"still yellow-green and firm.\" It answers the user's direct question about trimming (\"Trimming them doesn't hurt the plant\") and recommends watering, both consistent with the commenters. It also explains away the classifier's fungal call."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"Scratch the stem... with a fingernail,\" cut the dead leaves, move the plant to bright indirect light, and water when the top inches are dry. It also gives a clear sign of success (\"A new leaf spike emerging from the center\") and a realistic timeline. Any home grower can do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise humidity if your air is dry",
+  "Move it somewhere bright but out of harsh direct sun",
+  "Be patient"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2549,
+ "output_tokens": 515
+}

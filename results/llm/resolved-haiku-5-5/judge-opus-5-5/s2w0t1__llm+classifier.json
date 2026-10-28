@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Step 1 says \"If it's dry, water thoroughly until it drains out,\" which handles the real problem (underwatering) safely. Step 5, \"Move it back from the window,\" could cut light the plant doesn't need to lose, but the risk is small. The output does not mention that Dracaena is toxic to cats and dogs, a minor missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly re-identifies the plant as \"Dracaena marginata,\" matching the reference. It lists \"Root or watering stress\" and says the root ball \"may be dry,\" which partly matches the underwatering diagnosis. However, it misses the key evidence, the shriveling stem, and spreads the diagnosis across sun stress, drainage/rot, and drafts. Several of these are generic and not supported by the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: \"Push a finger 5 cm down, or lift the pot,\" \"let it sit in the sink for 20 minutes,\" and \"empty any standing water from the outer pot.\" No special tools are needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Don't fertilize until it's clearly recovering",
+  "Trim dead leaves at the base",
+  "keep it away from cold glass and drafts",
+  "repotting into fresh, well-draining mix may be needed",
+  "Look for pests",
+  "Give it a few weeks after these changes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2600,
+ "output_tokens": 512
+}

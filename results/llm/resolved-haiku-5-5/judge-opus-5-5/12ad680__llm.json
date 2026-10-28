@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Core advice is safe and matches the reference: 'Soak it thoroughly... 20-30 minutes' and 'Don't leave it sitting in standing water afterward.' Some extra steps add minor risk for a plant that only needs water. 'Check the roots... Gently slide it out of the pot' and 'Repot if needed' can add stress to a freshly wilted plant. 'Remove the brown, dead-looking material at the center' is not supported by the case and could lead to unnecessary cutting. It also omits that peace lilies are toxic to pets and children, which matters if trimming or handling."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis is correct and matches the reference: 'peace lily... wilting is almost certainly from underwatering... dramatic droopers... usually bounce back quickly.' It also tailors advice to the case: it explains why the plant 'didn't drink a lot' ('Dry soil often repels water') and links the city water note to the user's location. However, much of the output is generic padding (root check, repotting, pests, light placement) not tied to case evidence. 'expect the plant to drop leaves while it adjusts' contradicts the reference's point that the plant is fine and will perk up."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only a sink, water and scissors: 'set it in a sink or tub with a few inches of room-temperature water for 20-30 minutes,' 'Let it sit in the sink until it stops dripping.' Watering guidance is clear ('Water when the top inch or two is dry'). Any home owner can do all of this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Choose a good spot. Bright, indirect light is ideal. Keep it away from direct sun, heaters, and cold drafts.",
+  "Repot if needed... into fresh, well-draining potting mix in a pot with drainage holes",
+  "Check the roots... If you find black, mushy roots, trim them off",
+  "Look under the leaves and along the stems for spider mites, mealybugs, or fungus gnats",
+  "Cut off leaves that are fully brown, crispy, or yellow"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2623,
+ "output_tokens": 1048
+}

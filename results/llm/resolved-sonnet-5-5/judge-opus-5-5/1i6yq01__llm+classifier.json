@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Give it a few days\" and \"Keep the soil evenly moist, not soggy,\" is safe and matches the reference. The instruction to \"Bottom-soak the pot in a few inches of water for 20\u201330 minutes\" comes right after the user said they had already watered thoroughly. Doing both carries a small risk of oversaturation, softened only by \"then drain it fully.\" The root-rot warning (\"If the soil stays wet and the leaves keep drooping... suspect root rot\") is a helpful safeguard, and no chemicals are involved."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"Most likely this is underwatering, made worse by dry heated air,\" matches the confirmed dehydration. It cites case evidence: \"You said it needed a good watering, and the leaves are softer and thinner than normal,\" and links fast drying to the plant outgrowing its pot in under 6 months. \"Recovery is usually visible in 1\u20133 days\" mirrors the reference's \"see how the watering affects it in the next day or two.\" However, some details look speculative or possibly hallucinated from the photos (\"Terracotta pots,\" \"sun through blinds\"). The list also includes extras not tied to evidence, such as filtered water and moving it from the window."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Bottom-soak the pot in a few inches of water for 20\u201330 minutes,\" a pebble tray, and \"Keep it away from heater vents.\" Timelines are clear (\"1\u20133 days\"), and the checks for root rot and spider mites can be done by eye. Any home plant owner could do this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise the humidity. Use a humidifier or a pebble tray, or group it with other plants.",
+  "use lukewarm water, preferably filtered or left out overnight",
+  "Move it back a little from the window if the sun hits the leaves directly for hours",
+  "Check the roots when you next repot... go up one pot size",
+  "Water when the top inch or so is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2778,
+ "output_tokens": 990
+}

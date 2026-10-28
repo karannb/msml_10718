@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says \"I don't think it's a serious fungal infection\" and \"Don't keep cutting leaves unless a spot is clearly spreading.\" The user had already reported spots on other leaves, which is evidence of spread. This advice could delay the fungicide treatment the reference shows was needed. Stopping ACV is sound, and copper fungicide is offered as a conditional fallback, so the risk is limited to slowing treatment rather than direct damage."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference confirms fungal leaf spots, treated by removing affected leaves and applying copper fungicide every 2 weeks. The model ranks fungal spotting only second, behind \"water droplets or spray residue,\" and claims \"The other leaves look healthy,\" which contradicts the user's statement that \"There are a few other spots on the other leaves.\" Its eventual mention of \"Remove the affected leaves and consider a copper-based fungicide\" matches the reference, but it is hedged and conditional."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Stop the ACV,\" \"Water the soil, not the foliage,\" \"Take a photo every few days,\" and check undersides for thrips with a magnifier. Copper fungicide is easy to buy. The differential list of four causes adds some ambiguity about what to actually do first."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Isolate it from your other plants for a few weeks",
+  "Water only when the top 1\u20132 inches are dry, and make sure the pot drains well",
+  "Give it bright indirect light and some airflow",
+  "Check for pests"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2742,
+ "output_tokens": 822
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Soak the soil thoroughly until water drains out, then wait until it's completely dry\" and \"Don't give small sips,\" fixes the real problem and matches the REFERENCE. The main risk is \"Put them in the brightest spot you have, ideally a south- or west-facing window with several hours of direct sun\" with no caveat to acclimate gradually. Etiolated succulents moved suddenly into full direct sun can scorch. Taking cuttings is not harmful but is more drastic than needed, since the REFERENCE says they recover with care changes alone."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly names both confirmed problems. It says \"Etiolation... the plant isn't getting enough light. The move to a dimmer spot caused this\" and \"A sip every 2 days keeps the top of the soil damp,\" tying each to the user's own statements, as the REFERENCE does. It misses the REFERENCE's point that the plants sit too low in their pots, so the pot rim shades them. Some photo-based claims cannot be verified and may be invented, such as \"Water sitting in the saucer\" and the Graptopetalum ID. The emphasis on propagation goes beyond the REFERENCE."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Cut... 3\u20135 cm below the rosette,\" \"Leave them... 2\u20134 days until the cut end dries over,\" and \"cactus soil with extra perlite or sand.\" The watering guidance, \"usually every 1\u20132 weeks,\" is clear. The full propagation workflow adds effort a beginner may not need, and \"Check the old roots and stems\" implies unpotting without explaining how."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use a fast-draining mix, not regular potting soil",
+  "A cheap grow light works if the window is weak",
+  "Empty the saucer after watering",
+  "in a pot with drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2781,
+ "output_tokens": 1000
+}

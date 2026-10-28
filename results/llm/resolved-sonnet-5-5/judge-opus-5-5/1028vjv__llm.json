@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe. It says to \"Water when the top 1\u20132 inches of soil are dry\" and \"never let the pot sit in standing water,\" which guards against overwatering. Trimming tips while leaving a \"thin brown edge\" is careful. It flags root rot and spider mites as things to check, and nothing here would harm the plant, people, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It ranks \"Low humidity\" first as the most likely cause, which matches the confirmed diagnosis. It also uses details from the photo, such as the sheer curtain, the grouped plants, and the new growth. However, it then lists four more causes, each with its own fix: water quality, watering, fertilizer, and sun. That dilutes the focus. It never names the remedy that actually worked for the poster, moving the plant to a more humid spot, and offers pebble trays and humidifiers instead."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner, such as \"adding a pebble tray, or running a humidifier nearby,\" filtered water, and flushing the soil. No special tools are needed. Every step is clear and can be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water when the top 1\u20132 inches of soil are dry",
+  "Flush the soil every month or two",
+  "Give it bright, indirect light",
+  "Fertilize lightly"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2589,
+ "output_tokens": 492
+}

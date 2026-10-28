@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Water it thoroughly... let the pot soak for 15\u201330 minutes,\" directly addresses the dry soil and matches what worked for the poster (bottom soaking overnight). It also includes sensible guards: \"Empty the saucer\" and \"Keep the soil lightly moist, not soggy.\" Calathea is non-toxic to pets, and the only treatment suggested is mild insecticidal soap, used only if pests are found. Nothing here is likely to harm the plant or the household."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly names \"Thirst (most likely)\" and ties it to case evidence: \"You said the top 2 inches of soil feel dry. A shower doesn't mean the pot got watered.\" This matches the reference diagnosis. However, it misses the second confirmed problem, broken or flopped stems from the shower. It attributes shower harm to water temperature, tap chemistry and drafts rather than physical damage, and never warns that stems may stay down after the leaves recover. The humidity, light, and pest sections are mostly generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: \"Water slowly until it drains from the bottom, and let the pot soak for 15\u201330 minutes in a sink or tub,\" empty the saucer, and \"Trim the fully dead leaf at the base with clean scissors.\" No special equipment is needed beyond the humidifier the user already owns. All of it can be done today."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Put it back in bright, indirect light, away from vents, drafts, and direct sun",
+  "Raise humidity to about 50% or higher with a humidifier near the plant or by grouping plants together",
+  "Don't fertilize until it recovers",
+  "Check for pests too. Dry conditions attract spider mites",
+  "Tap water chemistry. Calatheas are sensitive to fluoride, chlorine, and salts"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2765,
+ "output_tokens": 927
+}

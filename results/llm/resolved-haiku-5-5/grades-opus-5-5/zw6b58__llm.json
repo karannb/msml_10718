@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Add pebbles or stones to the bottom of the outer pot, or set the clear pot inside a heavier decorative cachepot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Restake: push a stake deep into the bark and loosely tie the spike and leaves with soft ties",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Gently firm the bark around the roots and make sure the crown sits at or just above the bark line",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the plant daily and re-tie if needed",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wait a few days before watering, then let the bark dry out between waterings",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies top-heaviness and an unstable pot as the main problem, and its first fix (put the pot inside a heavier cachepot or add weight) matches what the poster did, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2018,
+ "output_tokens": 428
+}

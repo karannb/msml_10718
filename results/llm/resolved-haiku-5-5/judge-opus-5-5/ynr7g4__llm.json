@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Water thoroughly... bottom-water by setting the pot in a tray or sink of water for 15-30 minutes... Then let excess drain,\" is a safe way to rehydrate a drought-stressed plant. The root-rot step is conditional (\"if it doesn't recover\"), so it won't push the owner into unnecessary root disturbance. No chemicals are recommended, and Fittonia is non-toxic to pets, so no toxicity warning is missing."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly diagnoses drought stress tied to case evidence: \"two weeks in the sun while you were away most likely dried it out and scorched some leaves.\" Its main fix, a thorough watering, matches the reference (\"A good drink is probably all it needs\"), and the poster confirmed this worked. The Fittonia identification can't be checked because the photo isn't described. Extras like \"Boost humidity with a pebble tray\" and the root-rot check are more generic and add little for this case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"setting the pot in a tray or sink of water for 15-30 minutes,\" moving it to indirect light, and snipping \"crispy or fully brown leaves... at the stem.\" A typical owner can do all of this right away. A pebble tray or humidifier is optional and easy to get."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Boost humidity with a pebble tray, a humidifier nearby, or grouping it with other plants",
+  "Check the roots if it doesn't recover",
+  "trim any black, mushy ones"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2121,
+ "output_tokens": 843
+}

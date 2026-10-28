@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model opens with \"Your plant is most likely stressed from the move, not seriously infested. I can't confirm any pests from these photos,\" even though the user said they saw bugs \"you could clearly tell were a bug.\" That confident downplaying could delay treatment of a real infestation (thrips, plus webbing found later). It does include conditional pest steps (\"isolate the plant... insecticidal soap or neem oil, repeating every week\") and safe light-acclimation advice, so the risk is delay rather than direct damage."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model correctly attributes the large browning to the abrupt light change (\"Moving it from low light straight into bright window light can scorch the leaves\"), which matches the poster's follow-up. However, it misses the main confirmed problem, a thrips/pest infestation. It dismisses pests and even calls the dark blotches \"soft, blurry shadows,\" contradicting the user's clear report of visible bugs. Much of the advice (humidity, watering rules, root rot) is generic and not tied to the case evidence."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Wipe one with a cotton swab and rubbing alcohol,\" \"Put it a few feet back from the glass, or use a sheer curtain,\" and trimming tips with clean scissors. The pest treatment is only conditional and gives no specific product use or schedule beyond \"every week or so.\" Overall the steps are easy to follow, but the pest guidance is vague."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "dry indoor air or inconsistent watering can contribute",
+  "Use a humidifier or a pebble tray if your air is dry",
+  "Make sure the pot drains, and check the roots if the soil stays wet for long",
+  "Mushy, dark, or smelly roots mean rot, so trim those",
+  "Be patient",
+  "new growth will show whether it's recovering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3072,
+ "output_tokens": 673
+}

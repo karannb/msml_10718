@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice addresses the real overwatering problem even though it is framed as secondary. It says \"Stop watering on a schedule. Water only when the top 2\u20133 inches are dry\" and \"Empty the built-in tray,\" and it includes a root check with rot trimming. Warning against sphagnum because it \"stays wet\" is sensible for a waterlogged plant. The main risk is that leading with \"sun scorch\" may downplay the urgency of fixing the dense, wet soil, and there is no toxicity caveat for alocasia, which matters for pets and children."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The primary diagnosis is \"sun scorch (light damage) from the sudden move into direct sun,\" whereas the REFERENCE confirms overwatering in dense soil. Overwatering appears only as an aggravating factor (\"made worse by watering on a droop schedule\"). The advice still matches the REFERENCE's fix closely: amending dense soil with perlite or bark, checking roots and repotting in chunky mix, and watering only when dry. It also ties this to case evidence such as watering whenever the plant droops and the built-in tray. This makes it partly right, with a misplaced emphasis."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy to follow: \"1 part amendment to 2\u20133 parts mix,\" sliding the plant out to inspect roots, emptying the tray, and the 2\u20133 inch dryness check. The user says they have no chunkier substrate right now, so \"amend the current mix with perlite or orchid bark\" requires a purchase. Both are widely available, though. Shade cloth for moving it outside is optional."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright indirect light, not direct sun",
+  "Be patient",
+  "post a photo of the roots and a close-up of any new growth"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2686,
+ "output_tokens": 968
+}

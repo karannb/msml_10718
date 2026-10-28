@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk: \"Stop watering the leaves. Water only the soil\" and \"Move it out of harsh midday sun to bright, indirect light\" are gentle, non-chemical measures. \"Remove the most damaged leaves with clean scissors. Don't remove more than needed\" matches the reference's trimming advice. No chemicals are recommended, and Pilea is non-toxic, so no pet warning is needed."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output ranks \"Sun scorch or stress\" first and ties it to the user's mention of hot months, and it suggests removing damaged leaves. Both match the reference (sun stress or water marks; trim the leaf; avoid sunburn). It also cites case-specific evidence such as overhead watering and recent weeding. However, it adds speculative causes (leaf spot, pests, drainage) and refers to internal \"classifier\" percentages, which dilutes an answer the reference treats as largely benign."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is simple and needs no special equipment: water only the soil, move the plant out of midday sun, snip damaged leaves with scissors, and look under the leaves. It also respects the user's stated constraint by saying \"Don't mist.\" A typical owner could do all of this right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the pot for drainage.",
+  "Check the undersides of leaves for mites, thrips, or aphids",
+  "Keep an eye on it."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2612,
+ "output_tokens": 529
+}

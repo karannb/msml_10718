@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The top recommendation, \"Soak the plant thoroughly from the bottom,\" addresses the confirmed underwatering problem and won't hurt the plant. Dabbing mealybugs \"with rubbing alcohol on a cotton bud\" is a safe, standard treatment. Moving it \"out of direct sun\" is overly cautious for a marginata but harmless. The output never mentions that Dracaena is toxic to cats and dogs, a minor missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies the plant as \"Dracaena marginata (dragon tree), not a yucca\" and ranks \"Underwatering, or uneven watering\" first. It ties this to case evidence (\"the soil looks bone dry\") and explains water-repellent dry peat, which matches the reference. It misses the key visual clue the reference cites, the shriveling stem. It also dilutes the diagnosis with four more causes (sun, fluoride, pests, root-bound), some of them fairly generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special equipment: \"push a finger 2\u20133 inches into the soil,\" \"sit the inner pot in a few inches of water for 20\u201330 minutes,\" \"move it 1\u20132 meters back from the window.\" The numbered action plan is clear, and anyone could follow it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Make sure the pot has drainage and isn't sitting in standing water",
+  "Repot into a chunky, well-draining mix if they're circling",
+  "Be patient for 4\u20138 weeks",
+  "Trim fully brown leaves, but leave leaves that are only partly damaged",
+  "If you can share a photo of the roots, or tell me how often you water, I can narrow it down further"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2785,
+ "output_tokens": 918
+}

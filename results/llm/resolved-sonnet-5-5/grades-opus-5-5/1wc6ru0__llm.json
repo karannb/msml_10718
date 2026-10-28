@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water all plants a day or two before separating",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gently remove the pilea from the pumpkin planter, using a butter knife around the edge if stuck",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Loosen and tease apart the pilea roots by hand, keeping a good root ball",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pot the pilea in a small pot with drainage using potting soil mixed with perlite",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Water the repotted pilea lightly and keep it in bright indirect light, out of harsh sun, for 1-2 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the kalanchoe to the brightest spot, ideally a sunny window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are too tangled, take pilea stem cuttings and root them in water or moist soil",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer recognizes the plants' mismatched needs and says the kalanchoe needs the brightest spot, matching the light-rearrangement fix, but this is buried under pilea-separation steps; nothing recommended is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2344,
+ "output_tokens": 841
+}

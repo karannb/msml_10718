@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is gentle and low-risk: \"Water only when the top 2-3 inches of soil are dry\", \"Don't repot again\", \"Keep the plant away from cold windows and vents.\" It recommends no chemicals, and \"Stop fertilizing\" is harmless. The one small hedge is \"Curled leaves can mean thirst\", but it is balanced by the root-rot warning, so nothing here would harm the plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies a bird of paradise and \"transplant shock, which is common after dividing and repotting\". It also explicitly says \"Keep the plant away from cold windows,\" which matches the reference's confirmed causes of repotting stress and cold window placement. It also correctly explains that leaf splitting is normal for this plant. However, it dilutes the diagnosis with generic watering and humidity bullets and a speculative \"white\" (S. nicolai) ID that the case does not establish. It also never asks about or emphasizes the balcony/window context the way the reference does."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home owner: \"Water only when the top 2-3 inches of soil are dry\", \"Keep the plant away from cold windows and vents\", \"Trim only the badly damaged leaves at the base\", and \"Be patient.\" The suggested pebble tray or humidifier are cheap and easy to get. Nothing requires special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Dry indoor winter air is a common cause of curling. Grouping plants, using a pebble tray, or running a humidifier helps.",
+  "Water only when the top 2-3 inches of soil are dry, and make sure the pot drains well.",
+  "Stop fertilizing until you see new growth.",
+  "Be patient."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2499,
+ "output_tokens": 640
+}

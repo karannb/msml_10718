@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Recommending \"Dab them off with a cotton swab... dipped in rubbing alcohol\" and \"insecticidal soap or neem oil\" is safe overall, and steering away from systemic pesticides on an herb that may be eaten is a good call. Two caveats are missing. The reference notes to limit sun or grow lights for about 24 hours after alcohol, and there is no advice to patch-test first. The output also does not warn that gotu kola treated with neem or soap should be washed before eating. These are minor gaps."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly names \"mealybugs\" and links the ID to the case evidence (\"white fuzzy specks\", \"cottony tufts\"). It recommends rubbing alcohol, which matches the reference. It also addresses the user's specific worries: the planned repot (\"look at the roots and soil for more mealybugs\") and the plant already being separate from the others. The repeat schedule and the honeydew check are relevant to mealybugs, not generic filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses easy-to-find household items: rubbing alcohol, cotton swabs, insecticidal soap, and neem. The schedule is concrete (\"every 5\u20137 days for about 3\u20134 weeks\"). The repotting steps are clear and simple to follow."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Clean your pot and tools afterward"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2301,
+ "output_tokens": 512
+}

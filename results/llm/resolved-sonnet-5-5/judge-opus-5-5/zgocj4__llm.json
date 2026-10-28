@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Bottom-water it,\" \"Water on a schedule,\" and \"Add light\" are low-risk and correctly push the cautious owner toward more water. The main risk is \"Don't repot right now. Repotting adds stress, and it isn't the problem.\" The reference identifies a no-drainage pot as the core problem. Keeping the plant in that setup risks pooled water or continued shallow watering, though \"Make sure the pot drains\" partly mitigates this."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "\"The most likely problem is underwatering\" and \"A quarter cup only wets the top layer\" match the reference and cite case evidence (a quarter cup in a month, dry soil). However, the output assumes a draining nursery pot, saying it is \"sitting inside a decorative bowl.\" It also explicitly advises against repotting, which contradicts the reference's main fix: repot into fresh soil in a pot with drainage holes, then soak overnight. The low-light and etiolation point ties to the user's mention of limited sun, but it is a secondary issue that the reference does not discuss."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Set the nursery pot in a dish or bowl with about 1\u20132 inches of water for 15\u201330 minutes,\" \"Check the soil every 5\u20137 days,\" and \"a cheap clip-on LED grow light for 10\u201312 hours a day.\" If the pot actually lacks drainage holes, as the reference indicates, the bottom-watering step would not work as described. That reduces practicality somewhat."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Put it in your brightest window, ideally with a few hours of direct sun",
+  "When the top inch is dry, water thoroughly",
+  "Don't let it sit in standing water",
+  "Trim later"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2688,
+ "output_tokens": 1025
+}

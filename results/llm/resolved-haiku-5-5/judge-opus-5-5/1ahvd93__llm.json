@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The headline, \"probably **stressed, not necessarily overwatered**,\" steers the user away from the confirmed cause: overwatering in a pot without drainage. That could delay the correction that actually helped (simply stopping watering). The practical steps partly offset this: \"Water only if it's dry there, and let excess drain fully\" and checking for \"Brown, mushy roots\" would push toward reduced watering. Unpotting to inspect roots on a newly acquired, stressed plant adds minor extra disturbance."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model leads with acclimation and light stress (\"Transplant or shipping stress,\" \"sunburn or a physical injury\") as more likely than overwatering, which contradicts the reference. It does note that \"Watering every 4 days on a schedule can be too frequent in... a pot without drainage,\" which is the actual problem. However, this is buried as one of three possibilities rather than identified as the cause. Its claim that patchy yellowing argues against overwatering also conflicts with the reference, which explains that excess water yellows older leaves by bursting cells."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Check the soil 2 to 3 inches (5 to 7 cm) down before watering,\" \"Empty any saucer,\" and \"Cut it off at the base once it's completely yellow.\" Root inspection takes more effort and is somewhat vague (\"if you can\"). The output never explicitly tells the user to move the plant to a pot with drainage holes, even though it raises drainage as a factor."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the light steady and bright but indirect. Avoid moving it around.",
+  "Stop fertilizing for now while it adjusts.",
+  "Check the roots if you can.",
+  "focus on new growth",
+  "Transplant or shipping stress: Moving to a new home, pot, or soil can cause leaves to yellow for a few weeks."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2461,
+ "output_tokens": 1088
+}

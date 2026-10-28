@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check the top inch of soil for dryness before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains, then empty the saucer",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If water beads up or runs straight through, bottom-water for 20\u201330 minutes",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to brighter, filtered light near an east or south window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune long bare vines above a node and remove crispy dead growth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Propagate cuttings in water or stick them back into the pot's soil",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Refresh the soil with a well-draining mix with perlite if it stays hard to rewet",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Feed monthly with diluted balanced fertilizer in spring and summer",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names low light as the main cause but blames underwatering and explicitly rules out overwatering; its main advice of more light and rooting cuttings in the pot matches the fix, and its check-the-soil safeguard keeps the watering advice from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2319,
+ "output_tokens": 1065
+}

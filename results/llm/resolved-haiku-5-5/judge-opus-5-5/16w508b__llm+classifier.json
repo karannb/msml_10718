@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The thrips treatment, \"neem oil or insecticidal soap in the evening, every 5-7 days for at least 3-4 weeks,\" is reasonable and low-risk. However, \"Move the plant out of direct reach of the window's brightest light... or use a sheer curtain\" would reduce light for a plant 3 m from a window, and the REFERENCE confirms low light is a real problem. Suggesting \"a soil drench or systemic\" without any safety or pet/child caveat, and applying oils in 35\u00b0C heat with only an 'evening' note, are minor risks."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model names sulphur burn as \"the key suspect\" and adds heat/light scorch, which partly contradicts the REFERENCE's diagnosis of thrips plus low light. Thrips do appear in point 3 with case-specific evidence (\"fine yellow-green stippling,\" \"they feed on the new growth as it unfurls\") and correctly call for repeated treatment, matching the REFERENCE. The model also notices stretching for light (\"long bare stems... needs more consistent light\"), but then undercuts this with scorch-avoidance advice. It never suggests chop-and-prop, and the root and overwatering speculation is generic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Most steps use common products and are concrete: \"Tap a leaf over white paper,\" \"blue sticky traps,\" neem or soap on a clear schedule, and cutting off damaged leaves. The light advice is contradictory, telling the user both to reduce light and that the plant needs more consistent light, which leaves them unsure what to do. Root checks and isolation are doable at home."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the roots and drainage",
+  "water only when the top 2-3 cm of soil is dry",
+  "Empty any saucer",
+  "Give it time",
+  "possibly repotting in fresh mix",
+  "isolate the plant from other plants"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3312,
+ "output_tokens": 1036
+}

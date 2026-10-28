@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The cleaning steps (\"lukewarm water and a soft microfiber cloth\", \"one or two drops of mild dish soap... then rinse well\") are low-risk for an Alocasia. There is a contradiction: the output says \"Avoid leaf shine products and oils. They can clog the leaf surface\" but then recommends \"neem oil\" for ongoing control. It gives no caveat about testing oils on sensitive Alocasia foliage or avoiding application in bright light. This is a minor risk, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: \"The white residue is most likely leftover dust product, not damage.\" It cites case evidence, such as the dust bottle in the photo and residue in creases and veins. The removal method (dilute dish soap, then rinse) differs from the reference's 1/3 lemon juice to 2/3 water solution, which the poster confirmed worked. It is a plausible alternative but not the proven fix. The mite-checking tips directly answer the poster's worry that residue hides whether mites remain, though the aside about \"the classifier's 'watering' call\" is irrelevant to the user."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "All steps use common household items: water, microfiber cloth, dish soap, white paper and a phone camera. The instructions are concrete (\"Wipe in the direction of the veins\", \"Inspect every few days for about two to three weeks\"), and anyone can do them this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep the plant separate from others until you're confident the mites are gone",
+  "consider a gentler option like neem oil or insecticidal soap",
+  "Avoid leaf shine products and oils"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2474,
+ "output_tokens": 934
+}

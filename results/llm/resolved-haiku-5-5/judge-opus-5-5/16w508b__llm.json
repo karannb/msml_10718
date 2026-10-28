@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The output says thrips are \"probably not the main cause of the damage,\" which downplays the confirmed problem. That could delay the sustained thrips treatment that eventually worked for the poster. It also says to \"Move the plant out of direct heat and glass exposure... or add a sheer curtain,\" but the plant is already 3 m from the window and its confirmed issue includes low light, so this would make things worse. Unpotting and root-trimming an already stressed plant with no evidence of rot adds needless stress. The sulphur caution and the test-spot advice for soap or neem are reasonable."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The main diagnosis, \"sulphur burn\" plus \"heat and light stress\" plus \"possible bacterial leaf spot\" plus \"root or watering problems,\" does not match the reference. The reference identifies a thrips infestation plus low light and recommends a thrips treatment and chop-and-prop. The output reads light as too strong, which is the opposite of the reference. It does use some case details, such as the 35\u00b0C heat and the sulphur question the poster raised. However, the root and watering section is generic and not supported by evidence in the case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Use blue sticky traps,\" \"Let the top 5 cm or so dry out,\" and \"sterilise your scissors between cuts.\" The products are easy to buy. Unpotting and inspecting roots takes some effort but is manageable. Feasibility is good, even though several steps target the wrong problem."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Unpot and check the roots",
+  "repot in a chunky, well-draining aroid mix",
+  "Water consistently",
+  "Pause fertilizer until the plant stabilises",
+  "improve airflow",
+  "Keep the plant isolated from others"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3073,
+ "output_tokens": 1052
+}

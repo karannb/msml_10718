@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice like \"Don't repot again,\" \"Water less often... when the top 2\u20133 inches of soil are dry,\" and \"Skip fertilizer\" is low-risk for a healthy Monstera. However, it frames a normal plant as stressed and possibly overwatered (\"The soil in photo 2 looks quite wet\"), which could prompt unnecessary changes. The claim \"Partly yellow leaves can still recover\" is generally inaccurate but harmless. It also misses the reference's practical protection step of trellising the floor vine so its growing tip isn't stepped on."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference says the plant is healthy and the single yellow leaf is the oldest one dying off naturally, with new growth as a good sign. The model instead diagnoses \"transplant stress\" and claims \"The yellow-green leaves and stems are the newest growth,\" which misreads the situation and contradicts the reference. It correctly answers the pot question (\"Don't repot again... The pot size is reasonable\") and reassures that the plant isn't dead. It omits the trellis advice entirely, and much of the remaining care list is boilerplate."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps like \"Empty the saucer after watering,\" \"Only water when the top 2\u20133 inches of soil are dry,\" and \"Don't repot again\" are concrete and easy for any home grower. No special tools or products are needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give bright, indirect light. Keep it out of harsh direct sun, but don't leave it in a dim corner.",
+  "Check drainage. Make sure the pot has a drainage hole",
+  "Only water when the top 2\u20133 inches of soil are dry, and water thoroughly when you do.",
+  "Skip fertilizer until you see new healthy growth.",
+  "Be patient. Recovery can take several weeks to a couple of months."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2733,
+ "output_tokens": 1198
+}

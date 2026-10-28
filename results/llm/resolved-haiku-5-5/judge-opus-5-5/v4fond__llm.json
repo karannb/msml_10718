@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The output says \"Your money tree may not have spider mites\" and \"Hold off on spraying unless you confirm mites,\" which could lead the owner to pause treatment of a confirmed infestation. Mites multiply fast, so this delay could worsen the problem. The shade, sun-burn and phytotoxicity caveats are reasonable, but the main thrust delays needed action."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The reference confirms a spider mite infestation treated with Bonide systemic. The model instead says brown tips \"usually point to a care issue rather than pests\" and lists underwatering, salt buildup and sun scorch. It ignores the user's clear statement that they are fighting spider mites. The advice to raise humidity, trim tips and check soil is generic and does not address mites or suggest escalation such as a systemic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps like \"Stick a finger 2 to 3 inches down,\" the tap-test over white paper, trimming tips and using a pebble tray are clear and easy for a home owner. However, they target the wrong problem, and no feasible mite-escalation plan is given."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Check the roots and soil",
+  "Raise humidity by grouping plants, using a pebble tray, or running a humidifier",
+  "Trim the brown tips with clean scissors",
+  "Keep the plant out of harsh direct sun",
+  "Make sure the pot drains well",
+  "Flushing the pot helps"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2441,
+ "output_tokens": 522
+}

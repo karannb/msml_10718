@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. Steps like \"Check the roots first,\" \"empty the outer pot after watering,\" and \"Leave any firm, green stem, because it can still sprout\" are conservative and unlikely to hurt the plant. There are minor gaps: no warning that monstera sap contains calcium oxalate and irritates skin and pets when pruning. The plant is also already weak, so \"Prune the dead parts\" could lead an owner to cut too aggressively."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output covers several points in the reference: \"Move it to bright, indirect light,\" repotting in a \"chunky, well-draining mix,\" and noting the plant is \"loosely attached to the moss pole, and the stems are flopping.\" However, its \"top suspect\" is \"Watering problems... overwatering and root rot,\" which the reference does not identify. The key support fix is reduced to a vague \"Tie the plant to the pole more securely... once it's stable.\" The reference's specific guidance is missing: position the nodes to rest against the coir pole, tie the stem sections but not the leaf petioles, and untie the wrong spots."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are clear and need only household items: \"Slide the plant out of the pot,\" cut rotted roots \"with clean scissors,\" mix \"potting soil plus perlite and bark,\" and wait until the \"top 2-3 inches (5-7 cm) of soil are dry.\" The propagation backup is also practical. The staking instruction is the main ambiguity, because it gives no guidance on where or how to tie the stems to the pole."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it to bright, indirect light",
+  "Wait until the top 2-3 inches (5-7 cm) of soil are dry. Then water thoroughly and let it drain fully.",
+  "Hold off on fertilizer until you see new growth",
+  "Low humidity or dry air. This probably adds to the crispy edges.",
+  "Never let the plant sit in standing water",
+  "If you tell me how often you water, what kind of light it gets, and what the roots look like, I can narrow down the cause."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2866,
+ "output_tokens": 1106
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is gentle and low-risk: \"Wait,\" \"gently remove the dry, papery cataphyll... Only take it if it comes away with almost no pressure,\" and \"Don't pull or peel the leaf itself, because new growth tears easily.\" Dabbing lukewarm water is essentially the reference's misting fix. No chemicals or risky interventions are suggested. It omits that philodendrons are toxic to pets, but nothing recommended raises that exposure risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: \"a new leaf in the middle of unfurling\" that can \"snag on the dried cataphyll.\" The output ties this to photo details such as the glossy red curl and the papery brown sheath. The remedy \"dab a little lukewarm water on the spot to soften it\" parallels the reference's spray-bottle fix. However, the output suggests waiting \"a week or so\" first, whereas misting freed the leaf within hours. The cultivar ID and the generic care line add some filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear and need only water and fingers: wait, gently remove a loose cataphyll, and \"dab a little lukewarm water.\" The \"When to worry\" signs are concrete and observable. Any new owner could do this right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "bright indirect light, evenly moist but not soggy soil",
+  "Leaves yellow and soil stays wet for days, which points to overwatering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2461,
+ "output_tokens": 785
+}

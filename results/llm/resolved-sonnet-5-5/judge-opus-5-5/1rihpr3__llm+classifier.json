@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Let the top half or more of the pot dry out\", \"Make sure the pot has drainage holes\" and \"Move him somewhere brighter\" is safe and fits a damp-soil, low-light situation. Telling a new owner to \"Check the rhizome and roots again\" so soon after a repot adds a little disturbance stress, and the user already reported the roots look good. There is no warning that Alocasia is toxic to pets and children, which is a minor missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model makes the primary diagnosis \"transplant stress and too much moisture around the roots\" and ranks light only third. The reference confirms insufficient light as the main problem. The model does tie low light to the case (\"Bathrooms are often dim... slows its water use and keeps the soil wet longer\") and recommends moving it brighter, which matches the reference fix. The emphasis is still inverted, and it ends by calling it \"an overwatering and adjustment problem.\" It also suggests a moisture-retentive mix is a factor, which partially aligns with the poster later using a chunkier mix. It misses the nursery mesh around the corms and possible dormancy."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home. Examples include \"near an east window or a few feet from a south or west window,\" \"check by lifting the pot or using a stick,\" \"Cut off fully brown or mushy parts with clean scissors,\" and \"Don't fertilize for a month or two.\" No special equipment is needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Make sure the pot has drainage holes and isn't sitting in water",
+  "Don't use a pot much bigger than the root ball",
+  "be patient and keep conditions steady",
+  "Expect to lose an old leaf or two. New growth is the sign he's recovering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2940,
+ "output_tokens": 649
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most steps are low-risk. Watering thoroughly, using a perlite-amended mix, avoiding a surface cleaner on leaves, and gradually acclimating to sun will not harm a Crinum. The main concern is \"Temperatures are fine... within the comfortable range for this plant\": this rests on the wrong ID and contradicts the reference's warning that a Crinum in zone 5a may need extra warmth, such as a root heat mat. \"Gently slide the plant out\" of a 25 lb pot also carries a minor risk of damaging the bulb."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model confidently states \"This looks most like a corn plant (Dracaena fragrans)\" and rules out a bulb, but the reference and the later bloom confirm a Crinum (spider lily). The bulb's weight (25 lbs) was a clue the model missed. Some advice loosely matches the reference (\"well-draining potting mix with some perlite\", use south light). However, the care framing (Dracaena needs, temperature reassurance) is tied to the wrong plant, and it never mentions warmth needs or outdoor summering and flowering."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable: \"set the pot in a tub of water for 20 to 30 minutes\", \"let the top 2 to 3 inches dry out\", \"go only 2 to 3 inches wider\" when repotting. Unpotting a 25 lb plant to check roots takes some effort but is achievable. Everything uses common household supplies."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the undersides for mites, mealybugs, or scale",
+  "use insecticidal soap or neem oil instead",
+  "Make sure the pot drains freely and doesn't sit in standing water",
+  "Remove dead or badly damaged leaves at the base",
+  "Let me know if you find pests or if the roots look bad"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3268,
+ "output_tokens": 1012
+}

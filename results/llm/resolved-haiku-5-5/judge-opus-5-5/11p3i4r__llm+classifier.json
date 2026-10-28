@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. Telling the user to 'Push a finger or wooden skewer 3\u20134 inches down. If it's dry throughout, the plant needs more water' would lead to watering. However, raising root rot ('Calatheas can also get root rot from overwatering') and suggesting the user 'Lift the plant out' and repot adds unnecessary disturbance to an already stressed plant whose top 2 inches are dry. It may also delay the simple watering that fixed it. There is no chemical or toxicity risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference says the plant was simply thirsty and the shower broke the stems. The model leads with 'dry air and inconsistent watering' and even says 'the top 2 inches being dry doesn't settle it,' treating overwatering and rot as equally likely despite clear evidence of dry soil. It never connects the shower to the physically flopped or broken stems. Instead it attributes 'long, floppy stalks' to water stress and leggy growth. Much of the recovery section (light, drafts, water quality, humidity) is generic Calathea care rather than tied to this case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: a finger or skewer test, watering until it drains, a pebble tray, trimming crispy edges. Unpotting to inspect roots and repotting takes more effort, and the advice has many branches without a single clear first action like 'water it now.' Still, nothing requires special tools."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright, indirect light, away from direct sun",
+  "Keep it away from drafts, doors, and temperature swings",
+  "Use filtered, distilled, or rainwater if your tap water is hard or chlorinated",
+  "A pebble tray or grouping it with other plants also helps",
+  "Keep the soil evenly moist, not soggy",
+  "Check if it's root-bound",
+  "Trim those and repot in fresh, well-draining soil"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2778,
+ "output_tokens": 860
+}

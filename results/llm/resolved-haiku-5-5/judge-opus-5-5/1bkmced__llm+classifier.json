@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The products are reasonable. 'Spinosad or insecticidal soap every 5\u20137 days for 3\u20134 weeks' is a standard thrips protocol, and the imidacloprid suggestion includes 'Follow label directions carefully, especially around pets.' The main risk is delay. The user has already sprayed for 'months and months,' yet the output repeats a spray regimen and reserves the systemic for 'if the problem persists after several weeks,' which could prolong the infestation. It also isolates only the pothos, although thrips likely infest the neighboring philodendrons and syngoniums too."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: 'Your photos point most strongly to thrips.' It ties this to case evidence such as leaves 'coming out from the sheath like this,' black specks read as frass, and pyrethrin working only briefly. It also correctly explains that sprays miss insects hidden in new growth. However, the reference makes a systemic treatment the primary fix because eggs sit inside leaf tissue, while the output lists it last as a fallback. It also includes a stray, confusing line: 'The classifier says watering.'"
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use easy-to-buy items: sticky traps, spinosad, insecticidal soap, systemic granules, and a shower the user already has in the bathroom. 'Use a hand lens' can be replaced with the phone flashlight it mentions. The seven-step, multi-week spray schedule takes real effort but is clear."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Remove heavily damaged leaves so the plant can focus on new growth",
+  "Isolate the pothos",
+  "Follow label directions carefully"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3225,
+ "output_tokens": 902
+}

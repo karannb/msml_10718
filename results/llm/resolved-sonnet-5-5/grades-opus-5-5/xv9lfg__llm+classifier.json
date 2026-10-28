@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check that the top few centimeters of soil are dry before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Provide a little extra humidity around the plant",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "If still curled after a few weeks, lightly mist the new leaf",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, move the plant to a more humid spot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "As a last resort, gently loosen a truly stuck sheath",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch the tip for browning, blackening, sliminess or shriveling",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls this normal unfurling rather than a leaf stuck from low humidity, and it pushes the moistening fix behind 1\u20133 weeks of waiting and a warning against touching the sheath, which delays the fix that worked.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2030,
+ "output_tokens": 885
+}

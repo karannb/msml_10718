@@ -1,0 +1,28 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. Telling the owner to 'Keep it out of harsh direct sun' could keep a light-starved palm in dim conditions, which works against the real fix. Unpotting to 'Check the roots' three weeks after purchase adds mild transplant stress but is low risk. No chemicals or toxicity concerns."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference confirms insufficient light as the cause, with older fronds yellowing as the plant pulls nutrients from them. The model instead blames 'tip burn, usually from dry air, uneven watering, or salt/mineral buildup.' Light appears only as step 5, 'Give it bright, indirect light,' framed generically and with a caution against direct sun. The output does correctly note that the yellowing is on older fronds but misreads why. Most of the advice is a generic checklist rather than an emphasis on increasing light."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and uses common household items: checking the roots, emptying the cachepot, the 2\u20133 cm dryness rule, a pebble tray, and trimming with clean scissors. Any home owner could do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water thoroughly, but not constantly",
+  "Give it bright, indirect light",
+  "Raise humidity. Group it with other plants, use a pebble tray, or run a humidifier",
+  "Keep it away from vents and drafts",
+  "Pause fertilizer for now",
+  "Check the roots",
+  "Cut off fully yellow or brown fronds at the base with clean scissors",
+  "Use filtered or rainwater if your tap water is hard"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2621,
+ "output_tokens": 570
+}

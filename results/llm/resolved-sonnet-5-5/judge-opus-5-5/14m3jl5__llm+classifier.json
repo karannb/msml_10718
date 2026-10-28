@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Cut just above a pair of leaves or a visible node\" and \"Never take more than about a third of the plant at once\" is standard, safe basil care. No chemicals are recommended. The caution against \"cut the whole thing to the soil\" is conservative and can't hurt the plant. Watering \"when the top inch of soil is dry\" with drainage is low-risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the woody, overgrown main stalk and the seedlings. It matches the reference's core advice: cut above leaf pairs so \"two new branches form\" (the reference's Y-shaped side shoots) and \"Treat the seedlings as your future plants\". It is softer than the reference on removing the stalk, saying \"leaving it is acceptable\" where the reference says to get rid of it. It also invents details absent from the case, such as \"a 4-year-old plant\" and a whole \"After repotting\" section, when no repot was mentioned. The light, watering and fertilizing tips are generic padding."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy at home: pinch above leaf pairs, remove flower buds, root 4-inch cuttings in water, and use a south window or grow light. None of them needs special tools. A typical owner could do all of this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it 6+ hours of bright light",
+  "Water when the top inch of soil is dry, and make sure the pot has drainage",
+  "Don't fertilize for a few weeks, then feed lightly",
+  "Slight sulking after repotting is normal"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2474,
+ "output_tokens": 1029
+}

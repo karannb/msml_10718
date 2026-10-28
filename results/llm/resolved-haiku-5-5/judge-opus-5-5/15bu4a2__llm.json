@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "Most steps are low-risk: \"Remove heavily affected leaves with sterilized scissors\", \"avoid wetting the foliage\". The \"copper-based spray\" suggestion comes with no safety caveats (gloves, keeping it away from pets and children, phytotoxicity on aroids), and philodendrons are toxic to pets, which also goes unmentioned. The confident bacterial diagnosis and the talk of discarding the plant could push the owner toward needless chemical treatment. It also delays the real fix: the root check is pushed to \"when you next have the plant out of the pot\" instead of being done now."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The headline diagnosis, \"bacterial leaf spot or blight, probably Xanthomonas or Erwinia\", does not match the reference, which points to shipping stress and old, water-retaining peat or sphagnum around a grower plug. Root rot is mentioned but dismissed as \"Less likely since you water only when dry\". The output never addresses the grower's plug, the packed moss, or a chunky aroid mix, which are the core of the reference advice. Removing bad leaves and checking roots do overlap partly with what actually worked."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The numbered steps are concrete and doable at home: isolating the plant, pruning with alcohol-wiped blades, watering the soil directly, and running a fan. A dehumidifier and copper spray are purchasable but add cost. Step 5 is vague about timing. The seller-contact advice is easy to follow."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Isolate the plant away from your other plants",
+  "Improve airflow with a fan on low",
+  "Check undersides for thrips, spider mites, or scale",
+  "Natural aging: Lower leaves yellowing and dying is normal",
+  "let the top inch dry out between waterings"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2828,
+ "output_tokens": 649
+}

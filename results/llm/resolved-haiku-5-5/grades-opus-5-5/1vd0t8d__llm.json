@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check pot has drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only when top 2-3 cm of soil is dry (check soil first)",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil stays soggy, lift plant and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are mushy/brown/smelly, trim rotten roots and let dry",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor new growth over 3-6 weeks",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer says the plant looks healthy and calls the yellowing partly normal, but it blames transplant stress or overwatering as the most likely causes and prescribes treatment. It never suggests trellising the vine, which was the fix the poster followed. Its watering advice is safeguarded by a soil check, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2208,
+ "output_tokens": 509
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is safe. The soil check (\"If it's wet, hold off\") and emptying the outer pot reduce overwatering risk. The main concern is \"It won't recover, so you can remove it,\" since cutting the big leaf takes away much of a weak, leggy plant's photosynthetic area. Ties should also go at the node, not the petiole, per the reference. It also never mentions that monstera is toxic to pets and children while telling the user to handle and trim the plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly spots the core problems in the reference. \"The stems are long, thin, and leaning, which often means the plant isn't getting enough light\" leads to \"Move it to brighter, indirect light,\" and \"Tie the stems to the moss pole... so they climb instead of flopping\" covers support. However, repotting is only conditional (\"Mushy, black, or smelly roots mean rot... repot in fresh, chunky soil\"), while the reference recommends repotting for drainage and root room outright. The output also gives no detail on where to tie (nodes, not leaf stems). The humidity and underwatering speculation is generic and not tied to the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps are concrete and doable at home this week: \"Push a finger 2 to 3 inches down,\" \"empty the outer pot after watering,\" \"soft plant ties,\" and \"pebble tray.\" No special tools are needed beyond scissors and ties, and the user already has a moss pole."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Increase humidity with a pebble tray, grouping plants, or a humidifier",
+  "Be patient. Monsteras recover slowly",
+  "Avoid cold drafts from doors",
+  "Check the soil. Push a finger 2 to 3 inches down",
+  "Check the undersides for tiny webs, bumps, or insects"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2498,
+ "output_tokens": 1029
+}

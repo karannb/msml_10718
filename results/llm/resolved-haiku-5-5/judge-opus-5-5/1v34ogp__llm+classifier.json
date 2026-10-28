@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Rinse hard. Spray the plants with a strong jet of water\" matches what solved the problem in the reference. Insecticidal soap is described as safe on edibles, with \"Rinse before eating. Test on one leaf first.\" The caution on neem for herbs harvested soon is reasonable. Nothing here would harm the plant, the person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output hedges with \"probably aphids, whiteflies, or thrips. I can't tell which,\" so it never commits to aphids, the confirmed answer. It also misses the reference's key insight that the white specks are molted aphid skins, offering only \"could be more nymphs, eggs, or wax.\" Its first and main treatment, rinsing every few days, does match the reference. The ID guide is useful but generic, covering five pests (including springtails and spider mites) rather than one tailored diagnosis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: spraying with water, buying insecticidal soap, a clear schedule (\"every 5\u20137 days for about 3 weeks\"), and optional sticky traps. All products are cheap and easy to find. The tap-a-leaf-over-white-paper test is easy too."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the rest of your collection on the undersides of leaves and along stems",
+  "Use yellow sticky traps near the plants to catch flying adults",
+  "post a closer photo of the undersides of the leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2945,
+ "output_tokens": 536
+}

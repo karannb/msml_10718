@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Deep, slow soak of each plant early in the morning (soaker hose or drip line suggested)",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 3 inches down before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Install shade cloth or a temporary screen for afternoon shade",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Check mulch depth (2-3 inches) and pull it back from the stems",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides for lace bugs and spider mites",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scratch-test stems to see if they are alive",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune dead, brittle tips once confirmed dead",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Replace any dead plant in fall",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Amend beds with compost or pine bark fines",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names heat and drought stress from underwatering as the main cause and recommends shade and no fertilizer, but it suggests watering 2-3 times a week (more in heat waves) instead of the daily watering that worked, so the advice only partly matches; the soil check and the heat-wave caveat keep it from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2455,
+ "output_tokens": 1168
+}

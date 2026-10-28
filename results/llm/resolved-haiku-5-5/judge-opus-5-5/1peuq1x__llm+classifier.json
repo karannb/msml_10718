@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The advice to 'Flush the soil by watering thoroughly with plain water several times' is risky here because the reference identifies a dense, poorly draining mix. Repeated saturation could worsen root stress or rot in an Alocasia. The output does say to check whether 'the soil smells sour or the stem base feels soft,' but it never makes flushing conditional on drainage. The rest is low-risk: stop fertilizing, resume at reduced strength, and leave the damaged leaves on."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output ties the timing to fertilizing ('Symptoms started a few days after feeding') and correctly reads the margin pattern, which partly matches the reference's 'stress/decline after fertilizing.' It misses the core issues: the dense, poorly draining mix and the need to repot into a snug pot with an airy sphagnum/bark/perlite mix. It also omits the watering rhythm of drenching thoroughly, then letting it nearly dry. Root problems appear only as a side possibility, and some advice (light, humidity) is generic and not tied to case evidence."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home grower: flush with water, pause fertilizer, resume at 'a quarter to half strength,' adjust light, and trim crispy edges. 'Keep humidity steady and avoid large swings in watering' is vague with no actionable method. No special tools are needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the light. Bright, indirect light is best.",
+  "Keep humidity steady and avoid large swings in watering.",
+  "Low humidity or dry air: This can also cause crisp edges."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2790,
+ "output_tokens": 876
+}

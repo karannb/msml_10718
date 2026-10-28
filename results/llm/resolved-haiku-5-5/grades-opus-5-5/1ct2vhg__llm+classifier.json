@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Run the grow light 14\u201316 hours a day, 6\u201312 inches above the plants, on a timer",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Move the grow light closer gradually if the plants keep stretching",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect white spots, leaf undersides and crevices for mealybugs with a magnifier or cotton swab",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mealybugs are found, dab them with isopropyl alcohol",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly only when the soil is completely dry, ensuring drainage",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Amend the cactus mix with perlite or pumice for drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Remove the green algae/moss growth from the soil surface",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Improve airflow around the pots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Behead very leggy plants, let the cut callus, and replant the top rosettes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies etiolation and colour loss from low light, but its fix relies only on the grow light rather than moving the plants back to the sunny window plus a grow light, and it buries this among many other tasks, though nothing is likely harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2413,
+ "output_tokens": 1277
+}

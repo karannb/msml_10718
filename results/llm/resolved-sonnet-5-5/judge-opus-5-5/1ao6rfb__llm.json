@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Following this advice poses no meaningful risk. \"Stop misting. Water at the soil level instead\" and \"Remove dead flowers and leaves\" are safe and appropriate. The root check is conditional (\"If the plant stays limp even when the soil is moist\"), so it won't cause unnecessary repotting, and \"diluted liquid fertilizer every 2\u20133 weeks\" is a conservative dose. Advising against direct sun is more cautious than the reference but won't hurt the plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly says \"your plant doesn't look like it's dying\" and \"The dark, papery, shriveled flowers... are just spent blooms,\" and it recommends pinching off spent flower stalks. All of this matches the reference. However, it also frames the plant as \"unhappy with its conditions\" and lists \"Likely causes of the decline\" (heat, wet soil, sun stress). These are speculative and partly contradict the reference, which says the plant is healthy and sun is fine. The answer to the balcony question (\"no, don't put it in direct sun\") is more restrictive than the reference's \"sun at this time of year should be fine too.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy: \"Stop misting,\" \"Pinch or cut spent flower stalks right at the base,\" and \"Bright shade or morning sun with afternoon shade.\" No special tools or products are needed beyond an optional fertilizer and perlite. Any home owner could do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the roots. Healthy roots are white or tan and firm. Brown, mushy, or smelly roots mean rot.",
+  "repot in a fresh, more free-draining mix (add some perlite or grit)",
+  "Feed lightly... use a diluted liquid fertilizer every 2\u20133 weeks",
+  "Water when the top 1\u20132 cm of soil is dry, then let it drain fully. Never leave it standing in a saucer of water.",
+  "Don't move it around constantly, since changes stress it too."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3289,
+ "output_tokens": 1135
+}

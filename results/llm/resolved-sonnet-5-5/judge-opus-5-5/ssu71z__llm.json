@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and matches the reference: 'Water sparingly' and 'don't water until the soil dries somewhat' address the oversized-pot rot risk, and 'Fertilizer isn't needed until there's new growth' prevents overfeeding. Some of the advice pushes more intervention than the reference's 'let them do their thing.' Examples are 'move it to a smaller pot' and 'Consider rooting ivy in a jar of water first,' which could add disturbance to an already shocked cutting. 'Keep the soil lightly moist' slightly conflicts with the dry-down advice. There is also no warning that English ivy is toxic to pets and children. These are minor risks."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference. 'The drooping is almost certainly transplant or cutting shock' and 'The pot may be too big. A large pot holds lots of wet soil around a tiny cutting, which raises the risk of rot' closely mirror the commenters. The output ties advice to case evidence: the bigger pot, the Super Thrive use, and the chilly window. It loses a point for padding with generic tips ('Bright, indirect light,' 'Use well-draining soil') and for extra speculation (callusing, water-rooting) that the reference did not call for. It also never states plainly that the main remedy is minimal intervention."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable with household items. Examples include 'a clear plastic bag or a dome loosely over the plant,' 'Let the top inch or two of soil dry out,' and watching for 'black or mushy' stems. Some instructions are ambiguous or contradictory, which may confuse a nervous novice. 'Don't tug the cuttings' sits next to 'when you very gently tug,' and 'keep lightly moist' sits next to 'don't water until the soil dries somewhat.' Overall the advice is easy to follow."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright, indirect light is best",
+  "Use well-draining soil",
+  "Bright, indirect light and no cold drafts matter most",
+  "Be patient",
+  "It's a good idea to remove any leaves that turn yellow or mushy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2787,
+ "output_tokens": 1036
+}

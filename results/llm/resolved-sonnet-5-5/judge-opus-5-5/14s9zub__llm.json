@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The plan uses low-risk options: \"Rinse it thoroughly... lukewarm water,\" \"insecticidal soap or neem oil... Follow the label directions,\" and \"avoid direct sun right after spraying.\" This matches the reference's warning about spraying in light. Parlor palms are non-toxic to pets, and nothing here involves mixing chemicals or unsafe doses. A minor gap is that it doesn't suggest a patch test or mention that misting adds little humidity, but neither poses meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It correctly identifies \"a spider mite infestation,\" matching the confirmed problem. It ties the diagnosis to visual evidence (\"Fine stippling,\" \"Dull, dusty, faded leaflets\"), which echoes the reference's \"pale and thin\" fronds. Its treatment schedule, \"Repeat every 5\u20137 days for at least 3\u20134 weeks,\" closely matches the reference's \"3-4 rounds, one week apart.\" It also gives mite-specific confirmation steps (the paper tap test, checking for webbing). Some photo details, like specks on the wall, can't be verified, and the prevention section is fairly generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only common household items: \"white sheet of paper,\" \"phone's macro mode,\" a shower rinse, a damp cloth, and store-bought \"insecticidal soap or neem oil.\" The schedule is clear and realistic. Any home plant owner could start this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the undersides of the leaves regularly.",
+  "Quarantine new plants for a couple of weeks.",
+  "Isolate the plant now."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2902,
+ "output_tokens": 987
+}

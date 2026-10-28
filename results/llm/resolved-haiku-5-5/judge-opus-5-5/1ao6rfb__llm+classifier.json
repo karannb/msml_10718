@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Remove dead flowers and stems at the base with clean scissors\" and \"Stop misting... keep the mix evenly moist but never soggy\" is low-risk and fits a primula. Keeping the plant in balcony shade is more cautious than the reference (\"sun at this time of year should be fine too\") but will not hurt it. Calling possible fungal rot speculative is fine because it leads to no harmful treatment. The only gap is a missing note about primula sap irritating skin, which is minor for a polyanthus-type plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly says the main issue is \"normal flower aging\" and that \"The leaves look mostly healthy,\" matching the reference that the plant is fine and spent flowers are dying naturally. Its deadheading advice matches the reference's pinch-off recommendation. However, the headline frames the case as \"made worse by warmth, dry indoor air, and possibly some fungal rot,\" and it lists several \"Likely causes.\" That overstates a problem the reference says does not exist. The advice to avoid full sun on the balcony also diverges slightly from the reference, which says sun is fine at this time of year."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing beyond scissors and choosing a spot: \"Remove dead flowers and stems,\" \"Stop misting,\" \"Use the balcony in shade or partial shade.\" The temperature target (\"5 to 15\u00b0C\") is clear. Any home owner could do all of this immediately."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it away from radiators and heaters",
+  "bright indirect light",
+  "keep the mix evenly moist but never soggy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3232,
+ "output_tokens": 1020
+}

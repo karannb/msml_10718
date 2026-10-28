@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is gentle and appropriate for wilted basil seedlings: \"endroit lumineux mais sans soleil direct\", \"Gardez les racines dans l'eau\", \"Ne mettez pas d'engrais\" and a ventilated plastic cover. Nothing here would damage the plant or endanger people or pets. Basil is non-toxic and no chemicals are recommended. The rot warning (\"Si elles deviennent noires ou translucides\") is a useful safety check."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"choc de transplantation\" matches the reference, and the mechanism (damaged fine roots losing contact with the soil) is accurate. The advice to \"Gardez les racines dans l'eau\" and the note that \"La solution dans l'eau (bouturage) marche tr\u00e8s bien avec le basilic\" match what actually revived the plant. However, the output invents photo details (\"Sur votre photo, les racines sont visibles et semblent encore pr\u00e9sentes et blanches/brunes claires\", \"comme sur votre photo\") that are not in the case description. It also offers water as only one of two options rather than the primary fix, and includes some generic basil-care lines."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use household items: a glass of water, a pencil to make a hole, a plastic bag, light potting soil. Timelines are clear (\"pendant 2 \u00e0 4 jours\", \"dans 24 \u00e0 48 h\"). The main ambiguity is the either/or in step 2 (water \"ou\" replant), which leaves a beginner unsure which path to take, while steps 3\u20134 assume replanting."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Le basilic aime la chaleur (18-25 \u00b0C), la lumi\u00e8re, et une terre humide mais bien drain\u00e9e.",
+  "Ne mettez pas d'engrais pour l'instant",
+  "Mettez-les dans un endroit lumineux mais sans soleil direct"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2939,
+ "output_tokens": 1014
+}

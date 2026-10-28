@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The key advice, \"Move it out of direct sun. Bright indirect light,\" matches the reference fix, which the poster confirmed helped. The watering step, \"Push a finger in about an inch. If it's dry, water thoroughly,\" with a warning against standing water, fits the reference's \"don't let it dry out completely, without drowning it.\" Pebble trays, filtered water and trimming only fully brown leaves carry no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model names \"too much direct sun\" as the most likely cause and cites case evidence (\"bleached patches,\" \"right against a bright window\"), which matches the confirmed problem. However, it misidentifies the plant as \"Calathea lancifolia\" rather than Goeppertia rufibarba, and the user explicitly asked for the ID. It also gives dry air and underwatering secondary weight, which the reference does not confirm. Care needs are similar within Marantaceae, so the advice still fits, but the wrong ID and the somewhat generic humidity and water-quality add-ons cost a point."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: \"a spot a few feet back from the window,\" the finger test for soil moisture, a pebble tray, and trimming fully brown leaves at the base. No special tools are needed beyond an optional humidifier or distilled water, both easy to buy. An office worker can do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Raise the humidity. Try a pebble tray, grouping it with other plants, or running a humidifier nearby",
+  "keep it away from AC vents and heaters",
+  "Use filtered or distilled water if your tap water is hard",
+  "Be patient. Give it several weeks",
+  "make sure the pot drains"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2543,
+ "output_tokens": 871
+}

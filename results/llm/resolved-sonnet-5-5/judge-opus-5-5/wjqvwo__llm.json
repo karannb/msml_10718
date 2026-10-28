@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core steps, \"Move it out of direct sun\" and \"Water it thoroughly... let the pot sit in a few inches of water for 20\u201330 minutes,\" are safe and directly fix the confirmed problem. The root rot check and repotting step (\"trim those off and repot\") is conditional, so it is low risk, though unpotting someone else's plant while housesitting is a bit invasive. There is no note that peace lilies are toxic to pets and children (calcium oxalate), which is a minor missing caveat in a housesitting context where pets may be present."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies the plant as a peace lily and names \"Underwatering\" as the most likely cause and \"Too much direct sun\" as the second, matching the reference's \"burned and thirsty.\" It cites case-specific evidence such as \"The first photo shows it sitting in full sun on the lawn\" and \"soil surface looks dry.\" The advice (water well, move to bright indirect light) mirrors the reference exactly. The root problems section is speculative padding but is clearly framed as secondary."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing special: \"Take it to a sink and let water run through,\" soak for 20\u201330 minutes, and move it to \"a shaded patio or a spot near a window with a sheer curtain.\" Pruning with clean scissors is easy. Any housesitter could do the main steps today, and the output says when to expect results (\"within a few hours to a day\")."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Don't fertilize until it has recovered",
+  "Use filtered or rainwater if you can",
+  "Make sure the pot has drainage holes",
+  "Check the roots if it doesn't perk up",
+  "repot in fresh, well-draining mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2536,
+ "output_tokens": 897
+}

@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice like \"Stop watering until the top 2 to 3 inches of soil are dry\" and \"Move her into a nursery pot with drainage holes\" fits the reference's wet-soil and poor-drainage problem and won't worsen it. The light advice, \"Keep her away from direct sun through the window, which can scorch leaves,\" pushes toward caution when the reference says the plant is reaching for more light, so it could prolong low-light stress. There is no mention that monstera is toxic to pets and children, though this is a minor gap."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly flags \"Dark, damp soil and a pot that looks like it has no drainage hole\" and possible root or stem rot, which partly matches the reference. It never names the dense soil mix or recommends a chunky aroid mix (soil, perlite, orchid bark), which was the core fix the poster used. It also frames light as a scorch risk rather than the insufficient light the reference identifies. Much of the remaining advice (humidity, fertilizer, drafts) is generic rather than tied to the case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"set that inside the galvanized container,\" the finger test for dryness, and trimming \"black, mushy, or smelly roots\" with clean scissors. Drilling a drainage hole in a metal planter takes some effort. The list is fairly long, but each item is clear."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Use bright, indirect light",
+  "Raise the humidity with a pebble tray, a humidifier, or grouping plants together",
+  "Hold off on fertilizer until she's putting out new growth steadily",
+  "Keep the pot away from heaters and cold drafts",
+  "Cut off badly damaged leaves",
+  "If you tell me how often you water, where she gets light... I can give more specific advice"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2553,
+ "output_tokens": 1006
+}

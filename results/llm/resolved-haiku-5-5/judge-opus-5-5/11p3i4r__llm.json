@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Water thoroughly... or bottom-water for 15\u201320 minutes,\" is safe and matches what fixed the plant. Telling the owner to \"Inspect the roots\" and possibly repot a plant that is simply thirsty adds unnecessary disturbance to an already stressed Calathea. It is a minor risk, not serious harm. There are no chemical or toxicity concerns, and Calatheas are pet-safe."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly names dehydration and ties it to the case evidence: \"The top 2 inches being dry... points to the roots not getting enough water.\" However, it hedges with \"Dehydration or root trouble\" and then buries the diagnosis among generic causes: water quality, humidity, light, and pests. It also claims the shower \"probably didn't cause this,\" which misses the broken stems from the shower that the reference identifies. It invents photo details such as \"tiny holes like the ones in your photos\" and attributes flopping stems to low light."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home, for example \"bottom-water for 15\u201320 minutes. Empty the saucer afterward.\" The long list of seven actions plus root inspection and repotting adds effort and dilutes the single key action of watering. Even so, everything uses common materials."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright indirect light is ideal",
+  "Check the undersides of the leaves for spider mites or thrips",
+  "Use filtered or distilled water if you can",
+  "Keep it stable: Bright indirect light, steady temperatures around 18\u201327\u00b0C (65\u201380\u00b0F), no drafts, and consistent humidity",
+  "Give it time",
+  "Inspect the roots: If they're rotten, trim the bad parts and repot into fresh, well-draining soil",
+  "Trim dead or badly damaged leaves at the base"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2710,
+ "output_tokens": 659
+}

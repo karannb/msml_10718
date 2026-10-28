@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Place plant in bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top inch or two of soil is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity a bit if the tip seems slow",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Check tip for browning/mushiness, sheath progress and pests",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If sheath is dry and leaf trapped, mist it or move plant somewhere more humid for a few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer mainly calls the leaf normal and 'not stuck', mentioning a trapped leaf and misting only as a buried conditional, and its advice to wait weeks and not touch it delays the simple water-and-coax fix that worked.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2026,
+ "output_tokens": 830
+}

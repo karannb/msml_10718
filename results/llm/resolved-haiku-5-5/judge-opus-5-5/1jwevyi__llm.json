@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Model says the plant is \"most likely alive\" and recommends a scratch test and patience, which is safe and correct. \"Don't fertilize now\" and \"Water deeply during dry spells\" carry no meaningful risk; delaying fertilizer until growth establishes is conservative and harmless. Mulch advice includes the correct caveat \"kept a few inches away from the stems.\" No chemical or toxicity concerns."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: winter reddening from anthocyanins, with the plant alive (\"Your azalea is most likely alive\"). Advice to water and protect roots from heat (\"Gravel heats up in summer\") aligns with the reference's \"keep it watered and protect from the heat and sun.\" It addresses the reblooming variety and first-year transplant context. Minor issues: the gravel claim depends on photo details not described in the case. The advice not to fertilize now differs slightly from what the poster found helpful."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps are concrete and easy for a home gardener: a fingernail \"Scratch test,\" \"about an inch of water per week,\" and a \"2\u20133 inch layer of pine bark, pine straw.\" No special tools or tests are required. The timing guidance (\"April or May\") is clear."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Prune only dead wood",
+  "Azaleas prefer acidic, well-drained soil"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2518,
+ "output_tokens": 528
+}

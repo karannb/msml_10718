@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "Telling the user to \"Stop spraying everything\" and warning that stacked treatments can burn leaves is sensible. However, \"Repeat every 7 days for at least 4-6 weeks\" directly follows the imidacloprid soil drench and abamectin miticide advice, which could be read as weekly systemic drenching. That would exceed typical label intervals. There is no warning that syngonium is toxic to pets and children, and none about keeping systemic insecticide-treated plants away from pets."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference identifies whiteflies or similar foliage bugs and recommends physically wiping them off with alcohol plus misting. The output hedges across \"springtails,\" \"thrips/mite debris,\" \"mealybug crawlers,\" and \"spider or broad mites\" and never mentions whiteflies. Its core plan of systemic drenches and miticides diverges from the reference's simple scrub-and-wipe approach. Rinsing and removing bad leaves partly overlap with the reference, and noting possible treatment damage is a case-specific insight."
+ },
+ "feasibility": {
+  "score": 3,
+  "reason": "Rinsing in the shower, isolating, removing leaves, and \"tap a leaf over white paper\" are easy for anyone. An abamectin miticide is hard for home users to obtain, and imidacloprid is restricted in some regions. The repeat schedule is ambiguous about which product it applies to. Juggling diagnostic branches plus multiple products adds effort and uncertainty."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Isolate it from your other plants",
+  "Repot in fresh soil if the soil shows pests, and clean the pot",
+  "Remove the worst leaves and any dead material",
+  "Syngoniums are tough... Don't give up on it!"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3126,
+ "output_tokens": 948
+}

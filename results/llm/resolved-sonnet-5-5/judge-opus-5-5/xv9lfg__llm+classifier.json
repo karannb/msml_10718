@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Wait. Give it 1\u20133 weeks\" and \"Nothing looks wrong\" could delay the simple fix that worked in the REFERENCE. A stuck leaf left dry may tear or deform. The risk is minor, though, because the advice is gentle: \"Don't pull the sheath open\" avoids damage, and it does say \"A little extra humidity helps leaves unfurl.\" Nothing here is chemically or physically dangerous."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The REFERENCE confirms the leaf was truly stuck from low humidity and was freed by brushing on water. The output concludes \"you're probably just being impatient,\" which misses the confirmed problem. It does correctly link humidity to unfurling and suggests \"mist it lightly\" as a fallback, and it addresses the scindapsus sheath (cataphyll) specifically. However, it delays the intervention by weeks and mixes in generic care tips."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are simple and need no special tools: wait, mist lightly, move the plant somewhere more humid, and \"Gently loosening a sheath that is truly stuck\" as a last resort. Any home owner can follow them. The \"When to worry\" criteria are clear and observable."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep conditions steady: bright indirect light",
+  "let the top few centimeters of soil dry between waterings",
+  "keep it warm"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2375,
+ "output_tokens": 721
+}

@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with finger or chopstick before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly once the top 2-3 cm of soil is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the pot has drainage holes and is not sitting in standing water",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use a chunky well-draining mix of potting soil, perlite and orchid bark",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light away from AC vents and drafts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity to 60% or higher",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": true
+  },
+  {
+   "action": "Inspect leaf undersides and stem joints for spider mites, wiping with a damp cloth",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim off the leaf once it is mostly yellow",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If more leaves yellow, stems soften or soil smells sour, check roots for rot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with transplant stress and lists overwatering/no drainage only as a secondary possibility; the drainage and soil-check advice that would fix it is present but mixed among many other tips, and it includes safeguards, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2408,
+ "output_tokens": 1078
+}

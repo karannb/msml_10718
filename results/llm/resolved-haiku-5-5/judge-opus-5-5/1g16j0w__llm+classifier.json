@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Bring him back inside\" and \"Water the soil thoroughly,\" matches the reference and is safe for an underwatered, sun-stressed plant. The bromeliad-specific step \"Fill the cup in the middle with water\" rests on an unconfirmed ID. The model admits it \"can't confirm the exact species,\" and the poster's note that the plant was \"reaching\" fits a succulent or other rosette plant better. If it were an aloe or agave, standing water in the crown could cause rot. This is a minor risk, partly offset by the hedge."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"underwatering plus stress from the move outside,\" matches the reference exactly. The recommended actions (water him, bring him inside, acclimate slowly) align with what helped the poster. The model ties its claims to visible evidence such as \"Curled, drooping outer leaves... dehydration\" and \"Crispy, bleached tips... sun or heat stress.\" The speculative bromeliad ID and the cup-watering and mother-rosette advice may not fit this plant, which keeps the score from a 5."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and needs only water, scissors, and a spot indoors. Examples include \"Trim off the dead, brown leaves at the base with clean scissors\" and \"Start with a few hours of morning sun... build up over a couple of weeks.\" The rot instruction (\"cut away the affected part\") is somewhat vague. Overall, any home owner could follow this plan this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Don't fertilize while he's recovering",
+  "Let the top inch dry out between waterings",
+  "Make sure the pot drains",
+  "Give him a few weeks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2433,
+ "output_tokens": 1066
+}

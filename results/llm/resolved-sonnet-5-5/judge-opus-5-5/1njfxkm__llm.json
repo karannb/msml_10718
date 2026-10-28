@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Move it out of direct light... a few feet back from the window, or hang a sheer curtain,\" fixes the confirmed problem without risk. Watering guidance (\"Water when the top inch is dry... Don't let it sit in water\") fits the reference's advice to keep soil moist but not soggy. No chemicals are recommended, fertilizer is correctly withheld, and calatheas are non-toxic. One small inaccuracy: \"let tap water sit out overnight\" won't remove fluoride, but this is harmless."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model ranks \"Too much direct sun (most likely)\" first and ties it to case evidence (\"right in a sunny window\", bleaching on upper exposed leaves), which matches the confirmed cause. Its plant ID, \"Calathea lancifolia (rattlesnake plant)\", is wrong. The reference identifies Goeppertia rufibarba, though it is the same genus with the same care needs. The output also adds secondary causes and checks (humidity, tap water, repotting stress, pests, drainage) that are mostly generic and dilute the focus."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps such as \"Put it a few feet back from the window\", \"Water when the top inch is dry\", \"Trim badly damaged leaves at the base with clean scissors\", and \"Skip fertilizer for now\" are concrete and need only common household items. An office worker could do all of them this week. Optional items like a pebble tray or humidifier are cheap and easy to find."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise humidity. A pebble tray, a small humidifier, or grouping it with other plants helps.",
+  "Use filtered, distilled, or rainwater if you can",
+  "Check for pests. Look under the leaves for spider mites",
+  "Check drainage. Make sure the pot has holes.",
+  "Skip fertilizer for now.",
+  "Give it a few weeks."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2738,
+ "output_tokens": 1057
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The confirmed problem was dehydration, yet the output says rue prefers to \"dry out more deeply, usually the top half or more of the pot\" and to \"let it dry well before watering again.\" Following that would worsen the plant's actual condition. It also recommends unroot-checking, root trimming, repotting and cutting stems back \"by about a third\" on an already stressed plant, which adds stress. The phytophotodermatitis warning is a good inclusion, but rue's toxicity to pets is not mentioned. The bone-dry soil check slightly mitigates the risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output names \"Not enough light (probably the main issue)\" as the primary cause, which contradicts the reference's confirmed dehydration. It does note \"If the soil is bone dry and pulling away from the edges, it's underwatered,\" but this is buried among overwatering, root-rot and pot-size theories. The action steps all point toward less water. Some content is tailored to rue (Mediterranean, lean soil), but the core diagnosis and fix do not match the reference."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and achievable for a home grower: \"Move it to your sunniest spot,\" \"Gently slide the plant out,\" and repot with \"cactus mix plus extra perlite or sand.\" Repotting and acclimating outdoors take some effort but need no special tools. The instructions are clear, even if the watering direction is wrong."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the roots and trim any that are rotten",
+  "Make sure the plant is in a nursery pot with drainage holes",
+  "Drooping and yellowing can mean either too much or too little water",
+  "Don't fertilize right now"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2657,
+ "output_tokens": 961
+}

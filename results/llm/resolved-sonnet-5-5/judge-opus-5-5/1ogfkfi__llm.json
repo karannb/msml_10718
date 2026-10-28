@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe. \"Don't water again until the top 2\u20133 cm of soil is dry\" and \"pour out any standing water\" directly address the wet-soil risk. Root trimming is offered only if decline continues and rot is found. There are no chemicals and no risky interventions, and calatheas are non-toxic to pets."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly flags \"Wet soil after a week with no extra watering is a warning sign\" and endorses the lamp (\"Your grow lamp is fine for 10\u201312 hours a day\"). Both overlap with the reference. However, it treats low light as a minor factor (\"Light or temperature shock... your lamp should help\") rather than the key fix. It never says that moving the plant away from the window is slowing drying and recovery, and it does not tell the user to maximize light. Much of the advice is generic calathea care: filtered water, temperature, no fertilizer, and humidity, which it frames as a main cause."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and household-level: lift the inner pot and empty the cache pot, wait for the top 2\u20133 cm to dry, run the lamp 10\u201312 hours. The long list dilutes priority, and the humidifier suggestion requires a purchase. Still, everything is doable this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Use room-temperature, ideally filtered or rain, water",
+  "Keep it warm, around 18\u201326 \u00b0C, and away from drafts",
+  "Don't fertilize for now",
+  "Be patient. Recovery can take 2\u20134 weeks",
+  "A humidifier works better, or you can group it with other plants",
+  "Give bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2886,
+ "output_tokens": 866
+}

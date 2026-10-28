@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output says 'No clear webbing, cottony masses, or insects appear in any photo' and calls the plant 'mostly healthy', even though the user reports bugs they 'could clearly tell were a bug'. That framing could delay pest treatment while an infestation spreads to the user's other plants. The alcohol swab test and the gradual light adjustment are safe. The advice to isolate the plant only applies 'if you find' pests, which is a weak safeguard."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "It correctly names sun scorch from the move ('Leaves that were adapted to low light and then placed in direct window sun can scorch quickly'), which matches the reference's sun-change stress. However, it downplays the main confirmed problem, a thrips/pest infestation: 'possibly with a pest problem that I can't confirm'. It never mentions thrips or spider mites and does not recommend neem, insecticidal soap, or treating the soil. The humidity and watering advice is generic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps like 'Dab a suspicious spot with a cotton swab dipped in rubbing alcohol', 'Put the plant a few feet back from the glass, or use a sheer curtain', and checking soil with a skewer are concrete and easy to do. The pest-treatment steps are thin, but what is given is doable."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Raise humidity if your home is dry, for example with a pebble tray or a humidifier",
+  "Water thoroughly only when the deeper soil is nearly dry, and make sure the pot drains",
+  "Be patient with the damage",
+  "cut them off at the base once they're fully brown"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3180,
+ "output_tokens": 582
+}

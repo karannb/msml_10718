@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Watch the white tissue for crispy, tan or papery patches from light burn",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If burn patches appear, move the grow light a bit farther away",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gently tug the cutting to check whether it has rooted",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If not rooted, keep the soil lightly moist",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If not rooted, raise humidity with a loose plastic bag or humidity dome",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If not rooted, give the cutting bright indirect light",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the node for softness or darkening",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly says the plant is healthy and the light is fine, and it reassures the owner to wait, which matches the fix. It frames the whiteness as variegation rather than an immature leaf that will darken, but the advice is harmless.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2093,
+ "output_tokens": 803
+}

@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture to the bottom of the pot with a finger or skewer and inspect the drainage holes",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soggy, let soil dry, ensure the pot drains freely and empty the saucer",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slip the plant out of the pot and inspect roots for sour smell or mushiness",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot in fresh, airy, well-draining mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If dry throughout, water thoroughly with room-temperature filtered, distilled or rainwater and let drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright, indirect light away from drafts and heaters",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead, crispy leaves at the base",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity to about 50% or more, e.g. with a humidifier",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leans toward overwatering/soggy soil and only mentions watering a dry plant as a conditional step, while ignoring the broken stems; its soil check guards against harm, so this is a partial diagnosis with partial advice that is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2300,
+ "output_tokens": 1221
+}

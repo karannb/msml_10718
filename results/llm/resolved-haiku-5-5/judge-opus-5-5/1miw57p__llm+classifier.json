@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice to 'Water deeply and more often while it's this hot... which may mean daily watering' and 'Stop fertilizing' directly addresses drought stress and does not risk harm. The warning about mulch against stems and the root-rot caveat ('If the stems turn soft or dark at the base') are reasonable safeguards. No chemicals or risky treatments are recommended, and the fertilizer hold-off removes a possible stressor."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis of 'heat and drought stress' matches the reference's confirmed underwatering/drought stress. The key fixes match the reference: daily watering, shade, and 'Hold off on more [fertilizer] for now' (reference: 'no need to feed yet'). The advice cites case evidence: 100\u00b0F heat, every-other-day watering, the recent feeding, and visible scorch. It loses a point for hedging with transplant shock and fertilizer stress, and for adding less-tied items like the drainage test and lace bug/spider mite checks, which the output itself admits are 'Neither is obvious in these photos.'"
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Most steps are concrete and easy: water until moist 6\u20138 inches down, check with a finger or trowel, pull mulch back 2\u20133 inches, and stop fertilizing. Shade cloth or a temporary screen is easily bought. 'Dig a test hole... amend or raise the bed' is vaguer and more labor-intensive for an established planting, which makes it a bit less straightforward."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check drainage. Dig a test hole and fill it with water. If it drains slowly, amend or raise the bed.",
+  "Look under the leaves for lace bugs or spider mites",
+  "Trim dead tips once the weather cools"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2822,
+ "output_tokens": 931
+}

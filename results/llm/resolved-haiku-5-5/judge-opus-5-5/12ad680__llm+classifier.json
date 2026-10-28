@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Rehydrate thoroughly... Let it drain completely... making sure no water sits in the bottom,\" is safe and matches the reference's approach. The output gives no toxicity warning even though peace lilies contain calcium oxalate, which is harmful to pets and children, and that matters when it advises trimming. Suggesting the owner slide the plant out of its pot and possibly repot a drought-stressed plant could add stress, but it is conditional and low-risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies a \"peace lily\" that is \"almost certainly underwatered\" and calls it a \"dramatic drooper,\" which matches the reference exactly. It addresses the case-specific complaint that the plant didn't drink much by explaining that bone-dry potting mix can become \"hydrophobic,\" and it reasons from visual evidence (\"No obvious pests... mushy stem bases\"). Some content is generic, such as the humidity, drafts and root-check tips, but the main diagnosis and fix are on target."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Soak the pot in a sink or bucket for 30 to 60 minutes, until the bubbles stop,\" trim with clean scissors, and \"water when the top few centimeters are dry.\" Anyone can do these this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in indirect light, away from heaters and drafts",
+  "mist or raise humidity if your air is dry",
+  "repot in fresh, well-draining mix",
+  "Check the roots"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2642,
+ "output_tokens": 567
+}

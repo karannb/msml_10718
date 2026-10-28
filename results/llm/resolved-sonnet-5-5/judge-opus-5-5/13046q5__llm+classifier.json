@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The cleaning method, \"lukewarm water with a tiny drop of mild dish soap... Rinse with clean water... Keep the soil from getting soaked,\" is gentle and low-risk, and the advice to \"Wear gloves, and keep pets and kids away\" is a sensible caveat. It doesn't mention that Alocasia itself is toxic to pets and children due to calcium oxalate. Repeating soap washes every few days is mildly risky on a sensitive plant, but the rinse step reduces that."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly says \"Nothing appears to be wrong with the plant itself... leftover pesticide dust,\" which matches the reference. It addresses the user's real worry with targeted mite-checking steps, such as the \"white paper under a leaf and tap it\" test. However, its main fix (dilute dish soap) differs from the reference's 1/3 lemon juice to 2/3 water wipe, which the poster confirmed worked. The 'Going forward' section is also fairly generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear, numbered, and use household items: dish soap, a microfiber cloth, and a shower or sink. The mite check needs only a magnifier or white paper. Anyone could do this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise the humidity. Mites thrive in dry air",
+  "Don't spray in direct sun, which can burn the leaves",
+  "use insecticidal soap, neem oil, or a miticide spray",
+  "Check for fine webbing and for stippled, yellowing leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2657,
+ "output_tokens": 960
+}

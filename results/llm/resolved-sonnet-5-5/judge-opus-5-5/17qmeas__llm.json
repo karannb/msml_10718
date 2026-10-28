@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output tells the user to check the soil before watering, to drain fully, and to not leave the pot sitting in the cat planter, which has no drainage. The fallback 'If the soil is soggy, smells sour, or the stems are mushy... that's the opposite problem' guards against overwatering a rotting plant. It omits that syngonium is toxic to pets, but that is minor because the case raises no pet-related concern."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, 'underwatering made worse by a small pot and a hot room', matches the reference exactly. The advice ties to case evidence: the 2.5\u20133\" pot, the hot room, and roots out of the drainage holes. It recommends bottom soaking and says to 'Expect recovery within hours to a day', which mirrors the reference's test. It also correctly rates humidity as a minor factor. Some details, such as the cat planter and the broken stem, come from the photos and cannot be verified, but they don't change the diagnosis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only a bowl of water: 'bottom-soak the pot in a bowl of water for 15\u201320 minutes', lift the nursery pot out before watering, and 'water every 3\u20135 days... when the top inch or so is dry'. Deferring repotting to spring respects the user's wish not to disturb the plant. Anyone could do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check for sudden temperature changes, such as a draft or heat source nearby",
+  "Check for pests. Look under the leaves for spider mites or thrips"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2871,
+ "output_tokens": 561
+}

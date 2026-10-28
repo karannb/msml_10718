@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core steps match the reference and are safe: \"Pot it up now\" and \"Start with a bright windowsill out of harsh direct sun.\" The risks are minor. Telling the user to \"trim any\" suspect spots on the roots of a fragile seedling could injure it. The toxicity warning is framed around conkers, so it may not register for a lychee, whose seeds also carry some toxicity concerns. The confident claim that the seed is a horse chestnut could mislead the user about long-term care."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The viability call and planting advice match the reference: \"Is it viable? Yes\" and \"Give it bright light gradually.\" The explanation that the pale shoot is etiolated from sprouting in the dark is case-specific and plausible. However, the model contradicts the user and the reference with \"I don't think it's a lychee... looks more like a horse chestnut.\" Advice built on that error is wrong for a lychee: the \"long taproot\" pot depth, the conker toxicity framing, and \"plant it outdoors\" (a lychee needs a tropical climate)."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy to follow this week: \"Use a deep pot with drainage,\" \"Plant the seed about 2\u20133 cm deep,\" and \"Water when the top layer is dry to the touch.\" No special equipment is needed beyond a pot and potting mix."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it moist, not soggy",
+  "Use a deep pot with drainage and a loose, peat-free potting mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2490,
+ "output_tokens": 804
+}

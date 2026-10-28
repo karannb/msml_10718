@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model warns \"If it's wet or soggy, don't water\" and tells the user to check for root rot, so it avoids overwatering. However, \"A clear bag or a cover is only a short-term fix\" could trap moisture around a plant whose soil is already staying wet. Its light advice, \"Bright, indirect light is ideal. Your grow lamp is fine\", is mild and doesn't push the user to increase light, so recovery may be slower. These are minor risks, and Calathea is pet-safe."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model correctly names repotting stress and notes \"The soil is still moist a week later... roots may be staying too wet.\" But it ranks low light only third and pairs it with humidity: \"Low light and low humidity... adds to the stress.\" The reference treats increased light as the key fix, and the poster confirmed \"The lamp actually helped.\" The model doesn't connect low light to the soil staying wet, and it spends a lot of space on humidity and drainage, so it is only partly aligned."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: \"Push a finger 3\u20135 cm down\", \"empty the cachepot\", and \"grow lamp... about 10\u201312 hours a day.\" The user already owns the lamp. Checking the roots is easy, and every step can be done this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright, indirect light is ideal",
+  "A pebble tray, a humidifier or grouping plants works better",
+  "Don't fertilize for 4\u20136 weeks, and keep it away from heaters and drafts",
+  "Trim only leaves that turn fully yellow or brown",
+  "Make sure the inner pot has holes and isn't sitting in water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2796,
+ "output_tokens": 611
+}

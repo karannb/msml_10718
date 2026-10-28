@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Apply insecticidal soap or neem oil to all surfaces, following the label. Repeat every 5\u20137 days for about 3 weeks\" is safe and standard. Rinsing, isolating, and raising humidity carry no risk, and Chamaedorea elegans is non-toxic to pets. The output omits the reference's caution about spraying out of direct light, but \"following the label\" covers most of that risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output leads with \"spider mites or thrips\" and cites case-specific evidence: \"stippled and slightly silvery or grayish, with tiny dots,\" matching the reference's \"pale and thin\" fronds. Its repeated-treatment schedule mirrors the reference's \"3-4 rounds, one week apart.\" It hedges with thrips rather than committing, but it gives concrete ways to tell the two apart (\"Fine webbing suggests spider mites\"). The light and watering tips at the end are somewhat generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a white paper \"tap test,\" a phone zoom, a shower rinse, and store-bought insecticidal soap or neem oil. The schedule is clear (\"every 5\u20137 days for about 3 weeks\"), and nothing requires special equipment."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "bella palms prefer bright indirect light and don't like to dry out completely or sit wet",
+  "Water when the top inch or so of soil is dry, and don't let the pot sit in standing water",
+  "Isolate the plant from your other plants to prevent spreading"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2703,
+ "output_tokens": 580
+}

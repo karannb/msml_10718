@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Water only when the top 2-3 inches are dry\" and \"Trim off any rotten roots,\" is safe and addresses the overwatering. However, \"Flush the soil. Run plenty of water through to clear salt buildup\" adds a large volume of water to soil the output itself describes as \"dark, dense and wet\" in an oversized pot, which could worsen root rot. This contradictory step is a minor risk rather than serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies \"most likely overwatering or poor drainage\" and notes that \"The pot is large for a plant this size... That setup holds water around the roots for a long time,\" which matches the reference's diagnosis. It never explicitly recommends moving to a smaller pot, though that was the fix that worked. It also dilutes the diagnosis by hedging on low humidity and salt buildup and adding generic light, draft and fertilizer advice."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: the finger test at 2-3 inches, sliding the plant out to inspect roots, checking for drainage holes, and a mix of potting soil, orchid bark and perlite. The flushing step conflicts with the drying-out goal, which could confuse a beginner. Omitting a smaller-pot instruction leaves the most effective fix unstated."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light. Don't put it in direct sun.",
+  "Avoid cold drafts and keep it away from vents.",
+  "Hold off on fertilizer until the plant is growing normally again.",
+  "Cut off the brown parts if you like, following the leaf shape.",
+  "Flush the soil. Run plenty of water through to clear salt buildup."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2777,
+ "output_tokens": 996
+}

@@ -1,0 +1,27 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is generally safe: \"Pick a pot only 1-2\" wider,\" \"Empty the saucer after watering,\" and half-strength fertilizer are low-risk. The main issue is indirect. Telling the user stunting is normal (\"Money trees grow slowly indoors... A wide, bushy canopy is normal\") and pointing to light and nutrients may delay the real fix, which is separating the tangled plants. This would not damage the plant, so the risk is minor."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference identifies multiple money trees tangled in one pot as the cause of stunting, fixed by untangling and separating them. The output notices \"trunks\" plural at the base but never connects this to the problem or suggests dividing the plants. Instead it blames slow growth, light, and nutrients. The repot answer is partly relevant, but most of the advice is generic care (light, rotation, fertilizer, watering) that would apply to any money tree."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear and concrete: choose a pot 1-2\" larger, add perlite or bark, empty the saucer, rotate weekly, and cut just above a node. A typical owner can do all of this this week with common supplies."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "It wants bright, indirect light. Put it near a window and rotate it every week or two",
+  "Feed with a balanced houseplant fertilizer at half strength every 2-4 weeks during spring and summer",
+  "Water only when the top 2\" of soil is dry, then water thoroughly",
+  "Check the undersides of the leaves for spider mites or scale",
+  "Use a chunky, well-draining mix",
+  "Pick a pot only 1-2\" wider than the current one",
+  "Overwatering is the most common way these die"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2632,
+ "output_tokens": 899
+}

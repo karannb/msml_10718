@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says \"Don't water yet\" and warns that \"Wet soil with few working roots can lead to root rot,\" both safe and consistent with the reference. It even flags standing water in the saucer. The risk is that it says \"maintain bright, indirect light. Your plant lamp is fine if it isn't too close\" without pushing for more light. That leaves the low-light cause partly unaddressed and could slow recovery. Suggesting she unpot again soon after a repot is a minor added stress, but it is conditional."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly identifies post-repot stress and soil staying too wet: \"the main risk is overwatering while the roots heal.\" It misses the reference's key point that low light is a main driver and that more light is the fix. It only notes that \"a move away from the window adds to the stress\" and never tells her to move the plant back or turn on the lamp, which was the actual fix. The humidity advice (humidifier, grouping, pebble tray) and the drafts/heaters advice are generic Calathea care."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner. Examples include \"Wait until the top 2\u20133 cm... of soil is dry\" and \"empty any saucer.\" The root check comes with clear criteria (\"firm and white or tan\"). It needs no special equipment beyond scissors."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Group it with other plants, use a humidifier, or set the pot on a pebble tray",
+  "Keep it out of drafts, heaters, and AC",
+  "maintain bright, indirect light",
+  "Be patient",
+  "use fresh, well-draining soil"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2667,
+ "output_tokens": 584
+}

@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk: \"water only when the top inch or two of soil is dry\" and \"Trim any mushy, dark roots\" won't hurt a wilted, root-bound plant, and taking cuttings is safe insurance. However, it identifies the plant as a pothos without noting that pothos is toxic to pets and children if chewed. Its conservative instruction to \"Leave the green, healthy-looking sections\" could also delay recovery, since a sprawling plant keeps spreading its limited energy."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly sees the plant as leggy and root-bound and recommends cuttings and repotting \"one size up,\" which matches the reference's chop-and-prop and repot advice. It misses the core intervention: cutting back 60\u201380% of each strand so the plant branches and comes back fuller. Instead it says to trim only \"the crispy, yellow leaves and any stems that are fully brown.\" Much of the diagnosis is a generic light/watering checklist (\"Too little light... Too much direct sun...\") hedged as \"one or more of these.\""
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Cut 4\u20136 inch pieces, each with at least 2\u20133 nodes,\" root them in water, slide the plant out to check the roots, and repot with fresh mix. The materials are ordinary. The only ambiguity is how much of the main plant to cut back, which leaves the owner unsure about the key decision."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move her to bright, indirect light",
+  "water only when the top inch or two of soil is dry",
+  "Too little light makes vines stretch and drop leaves. Too much direct sun scorches them.",
+  "Yellowing, crispy leaves can come from either drying out too much or staying soggy",
+  "Be patient. Recovery can take weeks to months.",
+  "fresh, well-draining potting mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2684,
+ "output_tokens": 937
+}

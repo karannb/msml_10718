@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The output recommends no chemicals or drastic actions. It mostly asks diagnostic questions and suggests 'check runoff pH' and 'check your feed strength.' The minor risk is that 'Overfeeding can cause similar tip burn' could make the grower hesitate to feed a plant that is actually hungry. That would delay the fix the reference confirms worked."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It ranks 'Nutrient issue, probably nitrogen or magnesium' first, which partly matches the reference ('They look hungry'). It also notes 'Pale, light-green newer growth at the top.' However, it centers the yellowing on 'mid and lower leaves,' while the reference says upper leaves. It spreads the diagnosis across pH lockout, watering, and light stress rather than committing. Much of the rest is a generic differential and a long list of questions."
+ },
+ "feasibility": {
+  "score": 3,
+  "reason": "There is no concrete action step such as 'feed at recommended strength.' The output mainly asks for information, including 'pH and runoff EC or PPM readings,' which requires meters many home growers lack. The steps it does give ('check whether the mix stays soggy', check light distance) are easy but vague. They leave the owner unsure what to actually do this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Overwatering or underwatering can both cause yellowing",
+  "Check whether the mix stays soggy or dries out too fast",
+  "How often you water, and how wet the medium is before watering",
+  "Your light type and how far it hangs above the canopy",
+  "Photos of a few affected leaves close up, showing both the top and underside, would also help a lot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2335,
+ "output_tokens": 1045
+}

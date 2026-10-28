@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Leave it alone for now. Pulling on it can tear the new leaf\" and \"Don't force the leaf open\" protects the plant. \"Moisten it with a little water and let it soften\" matches the reference's spray method and carries no risk. The optional \"small snip with clean scissors along the sheath\" is cautious enough that the risk of nicking the leaf is negligible."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies a new leaf emerging from a dried \"papery tan wrapping\" (cataphyll/sheath), which is the confirmed problem. It ties this to photo evidence (red petiole hook, tan sheath) and to the poster's humid bathroom. However, it says \"The leaf isn't really stuck,\" which downplays the reference's 'stuck in sheath' diagnosis. It also suggests waiting \"a week or so\" before moistening, whereas the reference's immediate spraying freed the leaf within hours."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are simple and clear: wait, then \"Moisten it with a little water,\" \"carefully peel it back,\" and optionally snip the sheath with clean scissors. Everything needed is common household equipment. A beginner could follow this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light, and water when the top inch or so of soil is dry."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2144,
+ "output_tokens": 904
+}

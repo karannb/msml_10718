@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "If any spots look fuzzy, wipe them with a cotton swab and rubbing alcohol",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the crevices near the rosette centers for white cottony mealybugs",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Give the plants more light: 6+ hours of direct sun, or a grow light 6-12 inches away for 10-14 hours on a timer, increased gradually",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Rotate the pots weekly",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only when the soil is fully dry, soaking the soil (not the leaves) and letting it drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into cactus mix amended with about 50% perlite or pumice",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Optionally behead stretched plants, let the cuttings callus, then set them on dry soil to root",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names insufficient light and etiolation as the main cause, correctly explains the farina, and its main advice of more sun or a close grow light matches the fix; the extra suggestions are not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2740,
+ "output_tokens": 990
+}
