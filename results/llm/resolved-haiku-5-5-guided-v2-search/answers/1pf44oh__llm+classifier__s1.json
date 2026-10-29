@@ -1,0 +1,63 @@
+{
+ "thread_id": "1pf44oh",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1pf44oh_01.jpg",
+  "data/reddit/resolved/images/1pf44oh_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: New to plant care - leaves curling and breaking\n\nHi guys! I'm new to plant care. We bought two plants that were in the same pot and looked droopy at the store. We repotted the two plants in separate pots, new soil, watered them and let them be in the winter sun for a few hours per day. However, the leaves are curling and seem to have a lot fo breakage. Any tips would be appreciated, if anyone had any advice on what we are doing wrong...\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 98%, healthy 1%, other 1%, fungal_bacterial 0%, pest 0%\nPhoto 2: watering 53%, other 26%, healthy 20%, fungal_bacterial 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: transplant shock, plus leaf splitting that is normal for this plant.** The large leaves look like a bird of paradise (*Strelitzia*). Repotting disturbs fine feeder roots, and for a week or two the plant cannot take up as much water as its leaves lose, so it responds by wilting and curling. The splits along the veins in photo 1 are probably normal: the leaves are large and naturally tear along the veins from movement, age, handling, or airflow. Leaves may also curl after a transplant, but they will usually rally in a few days after the transplant shock wears off. The classifier's 98% \"watering\" reading is a weak hint, not proof.\n\n**Other possibilities:**\n- **Underwatering:** New dry mix can hold too little moisture. Push a finger or skewer several inches down. If it's dry at depth, water thoroughly. If water runs straight down the sides and out the bottom, the root ball may be hydrophobic.\n- **Overwatering:** Photo 1's soil looks dark and dense. If the soil stays wet for days or smells sour, stop watering and check the roots. Rotted roots are brown, soft, and may smell sour.\n- **Cold or drafts:** Winter sun on a cold window can chill the plant. Keep it away from cold glass and drafts.\n\n**What to do:**\n1. **Stop repotting and fertilizing.** Give it 2\u20134 weeks to settle.\n2. **Check moisture before every watering.** Water only when the root zone has dried, and do not leave the plant sitting in water for hours.\n3. **Move it to bright indirect light** away from cold glass, rather than a few hours of direct winter sun.\n4. **Trim only leaves that are mostly brown or broken at the base.** Keep split leaves that are still mostly green, since they are still useful.\n\nJudge recovery by new growth, not old damage. Old damaged leaves will not reverse. Also check leaf undersides for pests, such as webbing or sticky residue, while it recovers.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 37564,
+ "output_tokens": 2134,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "bird of paradise leaves curling tearing repotting care",
+   "results": [
+    {
+     "url": "https://www.livelyroot.com/blogs/plant-care/bird-of-paradise-leaves-troubleshooting",
+     "title": "Why Are My Bird of Paradise Leaves Curling, Splitting or Turning Brown? Fixing Common Strelitzia Leaf Issues"
+    },
+    {
+     "url": "https://www.mars-hydro.com/info/post/bird-of-paradise-leaves-curling",
+     "title": "Bird of Paradise Leaves Curling: Causes & Fixes"
+    },
+    {
+     "url": "https://www.theplantmanual.com/article/common-problems-bird-of-paradise/",
+     "title": "Bird of Paradise Problems: Curling, Splitting & Brown Leaves"
+    },
+    {
+     "url": "https://easyplant.com/blog/bird-of-paradise-leaves-curling",
+     "title": "Why Are My Bird of Paradise Leaves Curling?"
+    },
+    {
+     "url": "https://abanahomes.com/blogs/plant-care/birds-of-paradise-leaves-curling-7-alarming-reasons-and-how-to-fix-them",
+     "title": "Birds Of Paradise Leaves Curling- 7 Alarming Reasons And How To Fix Th"
+    },
+    {
+     "url": "https://planterhoma.com/blogs/planting-tricks-tips/bird-of-paradise-leaves-curling",
+     "title": "Why Are the Bird of Paradise Leaves Curling Problems and Solutions?"
+    },
+    {
+     "url": "https://www.gardeningknowhow.com/ornamental/flowers/bop/leaf-curl-on-bird-of-paradise.htm",
+     "title": "Curling Leaves On Bird Of Paradise - Why Are Leaves Curling Up On Bird Of Paradise"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/bird-of-paradise/curling-leaves/",
+     "title": "Bird of Paradise Curling Leaves: 6 Causes and Fixes"
+    },
+    {
+     "url": "https://thegardeningfix.com/bird-of-paradise-leaves-curling/",
+     "title": "Why Are My Bird of Paradise Leaves Curling"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/why-are-the-leaves-on-my-bird-of-paradise-dry-and-curling",
+     "title": "Why Are the Leaves on My Bird of Paradise Dry and Curling?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

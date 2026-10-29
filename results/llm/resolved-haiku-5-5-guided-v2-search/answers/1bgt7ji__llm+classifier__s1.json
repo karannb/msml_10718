@@ -1,0 +1,105 @@
+{
+ "thread_id": "1bgt7ji",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1bgt7ji_01.jpg",
+  "data/reddit/resolved/images/1bgt7ji_02.jpg",
+  "data/reddit/resolved/images/1bgt7ji_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: why do my plant leaves have tore up?\n\nthe apartment i am living in doesnt receive a lot of sun light, so the water from the soil doesnt dry up much quickly than regular time. the brown spots are from overwatering pretty sure.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 83%, fungal_bacterial 16%, watering 1%, other 0%, pest 0%\nPhoto 2: watering 84%, healthy 8%, fungal_bacterial 6%, other 2%, pest 0%\nPhoto 3: healthy 69%, watering 30%, fungal_bacterial 1%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: physical tearing, not overwatering.** The Monstera (photo 1) has jagged rips that don't follow the veins, which usually mean mechanical stress: a bump during watering, a curious pet, or rough handling. The pothos and the Dracaena (photo 3) show the same frayed, torn pattern on leaves that are otherwise firm and green. Overwatering usually looks like soft, mushy tissue or a bad smell, and none of these leaves show that. The classifier's \"healthy\" and \"watering\" labels don't settle it.\n\n**Other possibilities:**\n- **Leaf-miner or caterpillar damage (pothos, photo 2).** Leaf miners leave winding translucent trails inside the leaf. Hold the leaf up to a light and look for these, and check the undersides for chewing caterpillars. Caterpillar damage tends to look chewed or ragged along the edges.\n- **Low humidity or rubbing (Dracaena, photo 3).** Dry air can make leaf edges brittle, and the leaf appears to be against the netting. Check for silvery streaks from thrips on the leaf surfaces.\n\n**Your watering concern is worth checking.** Low light does slow drying, so the soil may stay wet longer than you expect. Don't cut back on water until you know this is the case. Push a finger 2\u20133 inches into the soil. If it's still damp, hold off, then check that the pot drains. If it's dry, your watering is fine.\n\n**What to do:**\n1. Leave the torn leaves alone. Only trim a leaf if browning spreads from a tear, and use clean scissors.\n2. Check the soil before each watering and confirm the pot has a drainage hole. Water only when the top couple of inches are dry.\n3. Inspect the undersides and stems for pests, and look for mushy or black stem bases, which would point to root rot.\n4. Move the plants away from the netting, foot traffic, and any pets. Repotting or changing the pot is not needed unless the soil is dense or waterlogged.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 39239,
+ "output_tokens": 2876,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "monstera leaves torn edges causes mechanical damage pests",
+   "results": [
+    {
+     "url": "https://garden.org/thread/view/110572/Pests-on-Monstera-Deliciosa/",
+     "title": "Pests on Monstera Deliciosa in the Houseplants forum - Garden.org"
+    },
+    {
+     "url": "https://leafypixels.com/guides/holes-in-leaves/",
+     "title": "Why Do My Leaves Have Holes? Causes & Fixes for Monstera, Philodendron, and More"
+    },
+    {
+     "url": "https://pottedpixie.com/damaged-monstera-leaves/",
+     "title": "Diagnose Your Damaged Monstera Leaves: Tearing, Ripping and Bending"
+    },
+    {
+     "url": "https://leafandledge.com/articles/why-houseplant-leaves-split.html",
+     "title": "Why Houseplant Leaves Split: Monstera Fenestration"
+    },
+    {
+     "url": "https://www.gardening-forums.com/threads/monstera-leaf-ripping-what-is-wrong-please-help.18939/",
+     "title": "Monstera Leaf Ripping- What is Wrong - Please Help"
+    },
+    {
+     "url": "https://biologyinsights.com/monstera-leaf-damage-causes-and-how-to-fix-them/",
+     "title": "Monstera Leaf Damage: Causes and How to Fix Them - Biology Insights"
+    },
+    {
+     "url": "https://www.beangrowing.com/why-are-my-monstera-leaves-ripping/",
+     "title": "Why are my Monstera Leaves Ripping & What To Do"
+    },
+    {
+     "url": "https://greenygardener.com/what-s-wrong-with-my-monstera-plant/",
+     "title": "What\u2019S Wrong With My Monstera Plant: A Visual Diagnosis Guide"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/why-are-my-monstera-leaves-curling",
+     "title": "Why Are My Monstera Leaves Curling? Causes & Fixes"
+    },
+    {
+     "url": "https://greg.app/question/kkdc8/can-someone-tell-me-whats-going-on-with-my-monstera-the-leaf-of-my-monstera-grew-in-all-tattered-and",
+     "title": "Can someone tell me what\u2019s going on with my monstera?"
+    }
+   ]
+  },
+  {
+   "query": "pothos leaf holes torn edges causes",
+   "results": [
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/why-does-my-pothos-have-holes",
+     "title": "Why Does My Pothos Have Holes? 7 Causes & How to Fix Them"
+    },
+    {
+     "url": "https://gardenforindoor.com/holes-in-pothos-leaves/",
+     "title": "Holes In Pothos Leaves (6 Causes And Solutions) - Garden For Indoor"
+    },
+    {
+     "url": "https://ecofamilylife.com/garden/holes-in-pothos-leaves-8-causes-and-solutions/",
+     "title": "Holes in Pothos Leaves"
+    },
+    {
+     "url": "https://thenatureofhome.com/why-holes-in-pothos-leaves/",
+     "title": "Why Holes in Pothos Leaves? Causes, Treatment & Prevention"
+    },
+    {
+     "url": "https://microveggy.com/holes-in-pothos-leaves/",
+     "title": "What Causes Holes in Pothos Leaves? And How to Fix Them 2026"
+    },
+    {
+     "url": "https://nuplantcare.com/holes-in-pothos-leaves/",
+     "title": "Why Are There Holes In My Pothos Leaves? - NuPlantCare"
+    },
+    {
+     "url": "https://houseplantauthority.com/holes-pothos-leaves/",
+     "title": "7 Causes of Holes in Pothos Leaves (and How to Fix Them)"
+    },
+    {
+     "url": "https://plantscraze.com/holes-in-pothos-leaves/",
+     "title": "Why are There Holes in My Pothos Leaves? - Plants Craze"
+    },
+    {
+     "url": "https://www.theplantaide.com/articles/why-are-there-holes-in-the-leaves-of-a-pothos.html",
+     "title": "Why are there holes in the leaves of a pothos - The Plant Aide"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

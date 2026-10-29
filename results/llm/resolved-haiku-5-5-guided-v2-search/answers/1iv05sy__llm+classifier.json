@@ -1,0 +1,108 @@
+{
+ "thread_id": "1iv05sy",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1iv05sy_01.jpg",
+  "data/reddit/resolved/images/1iv05sy_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Heeeey reddit wtf is that and why isn't alcohol working?\n\nThis was my very first syngonium. I absolutely will. Not. Lose. It. It started my love for syngoniums and i just cannot lose it. I have sprayed this thing down so many times in the last few weeks. I've used peroxide, alcohol, insecticide, neem, I tried fungicide as a last ditch! What is is and how to I make them disappear!?\n\nI've had a nasty mealy problem for the last year ish but haven't lost a plant yet. These didn't look like mealies to I wasn't too sure what to do and everything either reeks and isn't working or smells slightly better and still isn't working.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 97%, fungal_bacterial 2%, other 1%, healthy 0%, pest 0%\nPhoto 2: healthy 51%, fungal_bacterial 25%, watering 23%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: chemical leaf burn from repeated spraying.** The leaves are brown, papery, and dry across their surfaces, not just at the edges, and the pale flecks are scattered over the leaf faces. That fits residue from alcohol, peroxide, neem, insecticide, and fungicide. These result from the alcohol stripping the leaf's waxy cuticle and causing rapid dehydration. Damage like this can show up a day or so after spraying.\n\n**Other possibilities:**\n- **Mealybugs.** You've dealt with them before, so check carefully. Mealybugs cluster where leaf meets stem, in the crown of the plant, along the underside of leaves, and on stems. If you see white cotton in those spots, the flecks may be wax from pests, and treatment changes.\n- **Underwatering or low humidity.** Crispy leaves can come from this. Syngonium's leaves will droop dramatically if their soil dries out too much. It will recover quickly if you water it. Push a finger 2\u20133 cm into the soil. Only water if it's dry. If it's still wet, don't water.\n\n**What to do:**\n1. **Stop all sprays now.** Rinse the plant with plain water, ideally in the shade, to wash off residue. Dilute alcohol is safer if you still need it, roughly one part 70% isopropyl alcohol with three parts water. Test it on one leaf first.\n2. **Inspect the leaf joints and crown** with a flashlight. Dab any visible mealybugs with a cotton swab of diluted alcohol. Treat the plant only where you see pests, and keep it separate from your others.\n3. **Trim the dead leaves** at the base. Brown tissue on a syngonium leaf cannot be reversed. Remove only the fully brown leaves. The green stems and newer growth look healthy, so leave them alone.\n4. **Adjust care:** keep it in bright, indirect light and avoid a draft. If the humidity drops below 40%, they may become stressed and develop brown and crispy leaves. A humidifier or pebble tray helps.\n\nPlease share how often you water and whether the soil is wet or dry. That would help confirm which cause it is.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 45390,
+ "output_tokens": 3355,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "syngonium leaves browning crispy after rubbing alcohol spray damage",
+   "results": [
+    {
+     "url": "https://plantsatglance.com/syngonium-brown-edges/",
+     "title": "5 Syngonium Brown Edges Causes & Proven Fixes"
+    },
+    {
+     "url": "https://indonesiaplants.com/blogs/article/syngonium-plant-problems",
+     "title": "Syngonium Plant Problems"
+    },
+    {
+     "url": "https://alphascience.blog/is-alcohol-bad-for-plants-science",
+     "title": "Is Alcohol Bad for Plants? The Science Explained [Fact Check] - AlphaScience.blog"
+    },
+    {
+     "url": "https://greencitizen.com/blog/can-you-spray-alcohol-on-plants/",
+     "title": "Can You Spray Alcohol on Plants? - GreenCitizen"
+    },
+    {
+     "url": "https://plantsatglance.com/syngonium-problems/",
+     "title": "5 Syngonium Problems & Proven Fixes - Plants at a glance"
+    },
+    {
+     "url": "https://garden.org/thread/view/166319/Can-this-syngonium-plant-be-saved/",
+     "title": "Can this syngonium plant be saved? in the Houseplants forum - Garden.org"
+    },
+    {
+     "url": "https://biologyinsights.com/can-i-spray-rubbing-alcohol-on-my-plants/",
+     "title": "Can I Spray Rubbing Alcohol on My Plants? - Biology Insights"
+    },
+    {
+     "url": "https://provisiongardens.com/blogs/grower-guides/isopropyl-alcohol-for-plants-what-it-does-in-pest-and-disease-sprays",
+     "title": "Isopropyl Alcohol for Plants: What It Does in Pest and Disease Sprays"
+    },
+    {
+     "url": "https://greg.app/pink-syngonium-problems/",
+     "title": "How Can You Tell If A Pink Syngonium Is Dying?"
+    },
+    {
+     "url": "https://plnts.com/en/care/houseplants-family/syngonium",
+     "title": "Caring for Syngonium: Expert advice for plants"
+    }
+   ]
+  },
+  {
+   "query": "syngonium mealybug identification white cottony leaf axils",
+   "results": [
+    {
+     "url": "https://plantsatglance.com/syngonium-pests/",
+     "title": "5 Syngonium Pests: How to Identify & Get Rid of Them"
+    },
+    {
+     "url": "https://livetoplant.com/most-common-syngonium-plant-pests-identification-and-treatment-guide/",
+     "title": "Most Common Syngonium Plant Pests: Identification and Treatment Guide"
+    },
+    {
+     "url": "https://leafypixels.com/plants/syngonium-white-butterfly/",
+     "title": "Syngonium White Butterfly Care: Complete Guide"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/mealybugs-on-houseplants",
+     "title": "Mealybugs on Houseplants: Identification and Treatment"
+    },
+    {
+     "url": "https://plantcircle.com/blogs/plant-circle-care-guides-blog/common-pests-mealybugs",
+     "title": "Mealybugs on Houseplants: Identify & Treat Them - Plant Circle"
+    },
+    {
+     "url": "https://plantdrop.co.uk/blogs/plant-care-guides-indoor/mealybugs-on-houseplants-treatment",
+     "title": "Mealybugs on Houseplants: Don't Panic \u2014 Here's How to Treat Them"
+    },
+    {
+     "url": "https://rhinopestmanagement.com/pest-id/mealybug",
+     "title": "Mealybug \u2014 ID, Signs & Treatment"
+    },
+    {
+     "url": "https://plantgrail.com/articles/mealybugs-on-houseplants/",
+     "title": "Mealybugs on houseplants: find them, check the roots, and treat from alcohol swab up"
+    },
+    {
+     "url": "https://www.tujardinpro.com/en/garden-pests-diseases/mealybugs-on-plants/",
+     "title": "Mealybugs on Plants: How to Identify and Remove Them 2026"
+    },
+    {
+     "url": "https://gardenuk.co.uk/problems/mealybug-identification-treatment-uk/",
+     "title": "Mealybug: White Fuzz Killing Your Plants"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

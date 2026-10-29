@@ -1,0 +1,104 @@
+{
+ "thread_id": "1iv05sy",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1iv05sy_01.jpg",
+  "data/reddit/resolved/images/1iv05sy_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Heeeey reddit wtf is that and why isn't alcohol working?\n\nThis was my very first syngonium. I absolutely will. Not. Lose. It. It started my love for syngoniums and i just cannot lose it. I have sprayed this thing down so many times in the last few weeks. I've used peroxide, alcohol, insecticide, neem, I tried fungicide as a last ditch! What is is and how to I make them disappear!?\n\nI've had a nasty mealy problem for the last year ish but haven't lost a plant yet. These didn't look like mealies to I wasn't too sure what to do and everything either reeks and isn't working or smells slightly better and still isn't working.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 97%, fungal_bacterial 2%, other 1%, healthy 0%, pest 0%\nPhoto 2: healthy 51%, fungal_bacterial 25%, watering 23%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: spray damage on dried-out leaves, not a disease.** The brown leaves are papery and tan, with glassy patches. Your spraying routine (alcohol, peroxide, insecticide, neem, fungicide, all within weeks) is the strongest clue. Alcohol that is too strong or sprayed too heavily can damage leaf tissue, pull moisture out of leaves, and leave plants stressed for weeks. The stems and new shoots at the base look firm and green, so the core of the plant is likely still alive.\n\n**Other possibilities:**\n- **Underwatering or low humidity.** The classifier leans this way, and crisp, papery leaves fit. Push a finger 2\u20133 cm into the soil. If it's bone dry and the pot feels light, this is likely. If the soil is damp, drop this idea. Dry soil often leaves the soil dry and dusty, and the leaves respond with brown, brittle edges, curling, and wilting.\n- **Mealybugs.** You've dealt with them before, and the white flecks could be residue from them. But they look more like dried spray than cottony tufts. Check leaf joints and the stem base with a magnifier or phone macro. Mealybugs show up as white, cotton-like clusters near leaf joints, stems, or undersides. If you see them, treat only those spots.\n\n**Fix:**\n1. **Stop the blanket spraying.** Rinse the foliage with lukewarm water and keep the plant out of direct sun while it recovers.\n2. **Trim the dead leaves** with clean scissors. Leave a thin brown margin on partly green leaves.\n3. **Water by checking the soil, not the calendar.** When the top few centimetres are dry, water thoroughly until it drains, then empty the saucer. Keep humidity around 50\u201360% with a pebble tray or humidifier, and keep the plant out of heater airflow in bright, indirect light.\n4. **If pests are confirmed,** dab them with a cotton swab of 70% isopropyl. Test one or two leaves first and wait 24 hours before treating more, then recheck weekly for about three weeks.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 56353,
+ "output_tokens": 3294,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "syngonium brown crispy leaves causes",
+   "results": [
+    {
+     "url": "https://indonesiaplants.com/blogs/article/syngonium-plant-problems",
+     "title": "Syngonium Plant Problems"
+    },
+    {
+     "url": "https://plantsatglance.com/syngonium-problems/",
+     "title": "5 Syngonium Problems & Proven Fixes - Plants at a glance"
+    },
+    {
+     "url": "https://succulentsbox.com/blogs/blog/why-are-your-syngonium-leaves-changing-color-causes-care-tips",
+     "title": "Why Are Your Syngonium Leaves Changing Color? Causes & Care Tips - Succulents Box"
+    },
+    {
+     "url": "https://plantgeh.com/problem-solution/why-your-arrowhead-vine-has-crispy-brown-tips-and-the-fix/",
+     "title": "Why Your Arrowhead Vine Has Crispy Brown Tips - and the Fix"
+    },
+    {
+     "url": "https://greg.app/brown-spots-on-confetti-syngonium-leaves/",
+     "title": "Why Are There Brown Spots on My Confetti Syngonium? \ud83c\udf42"
+    },
+    {
+     "url": "https://plnts.com/en/care/houseplants-family/syngonium",
+     "title": "Caring for Syngonium: Expert advice for plants"
+    },
+    {
+     "url": "https://greg.app/brown-spots-on-syngonium-ice-frost-leaves/",
+     "title": "Why Are There Brown Spots on My Syngonium 'Ice Frost'?"
+    },
+    {
+     "url": "https://greg.app/brown-spots-on-syngonium-neon-pink-leaves/",
+     "title": "Why Are There Brown Spots on My Syngonium 'Neon Pink'?"
+    },
+    {
+     "url": "https://plantsatglance.com/syngonium-red-spot-problems/",
+     "title": "5 Syngonium Red Spot Problems & How to Fix Them"
+    },
+    {
+     "url": "https://greg.app/brown-spots-on-syngonium-sunshine-speckles-leaves/",
+     "title": "Brown Spots On Syngonium 'Sunshine Speckles' Leaves"
+    }
+   ]
+  },
+  {
+   "query": "rubbing alcohol spray houseplant leaf damage",
+   "results": [
+    {
+     "url": "https://greencitizen.com/blog/can-you-spray-alcohol-on-plants/",
+     "title": "Can You Spray Alcohol on Plants? - GreenCitizen"
+    },
+    {
+     "url": "https://planthouseandgarden.com/70-alcohol-on-houseplants/",
+     "title": "Isopropyl Alcohol on Plants: Can You Spray It? I Tested 70%"
+    },
+    {
+     "url": "https://yourindoorherbs.com/is-alcohol-safe-for-plants/",
+     "title": "Can You Spray Plants With Alcohol? Is It Safe?"
+    },
+    {
+     "url": "https://gardeningmentor.com/can-i-spray-rubbing-alcohol-on-my-plants/",
+     "title": "Can You Spray Rubbing Alcohol On Plants? - Gardening Mentor"
+    },
+    {
+     "url": "https://www.plantersdigest.com/is-alcohol-safe-for-plants/",
+     "title": "Is Alcohol Safe for Plants? A Spirited Garden Investigation"
+    },
+    {
+     "url": "https://www.houzz.com/discussions/5830005/dying-plants-after-spraying-with-rubbing-alcohol-dawn",
+     "title": "Dying plants after spraying with rubbing alcohol/dawn"
+    },
+    {
+     "url": "https://www.hunker.com/13406091/rubbing-alcohol-as-an-insecticide/",
+     "title": "Rubbing Alcohol As An Insecticide - Hunker"
+    },
+    {
+     "url": "https://garden.org/thread/view/105048/Thoughts-on-diluted-alcohol-spray-for-bugs-on-plants/",
+     "title": "Thoughts on diluted alcohol spray for bugs on plants in the Ask a Question forum - Garden.org"
+    },
+    {
+     "url": "https://www.justanswer.com/home-improvement/rrj1w-when-spray-house-plants-equal-parts-rubbing.html",
+     "title": "Do I Need to Rinse Rubbing Alcohol Off House Plants? FAQ"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

@@ -1,0 +1,99 @@
+{
+ "thread_id": "1jwevyi",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1jwevyi_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Are my rebloom Azaleas dead after this winter?\n\nMy azalea leaves turned this reddish hue over winter. Is this normal? It's a reblooming variety, planted last summer in Connecticut (zone 7). It barely bloomed in the fall (nursery said it\u2019s normal for it not to bloom if replanted) Do you think it'll recover with warmer weather? It's been cold and rainy, around 50 degrees max since spring started. Any insight on the color change as the weather warms up? Thank you!\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 45%, other 44%, fungal_bacterial 11%, watering 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: normal cold-season color change.** Evergreen azaleas often turn red, bronze, or purple when temperatures drop. Fall and winter foliage on some reblooming varieties show purple-to-bronzy tinges as cooler temperatures and shorter days arrive. Your photo fits that pattern: the reddening is spread across the whole shrub, and the newest tips look fresh. Your temperature history (about 50\u00b0F and rainy since spring began) suggests the plant is still in cool-weather mode.\n\n**Possibility 2: winter burn.** This causes rusty-brown or purple-brown leaves, usually on the side facing the wind, after frozen ground stops roots from replacing moisture. Badly damaged shrubs can look dead by late winter, but the seemingly dead branches often push out fresh green growth once the weather warms. Look for crisp brown leaf edges or dead, brittle stems.\n\n**Possibility 3: transplant stress.** A plant moved last summer may still be settling in, and the gravel bed may dry out quickly.\n\n**Check that decides it:**\n- Scratch a small twig with a fingernail. Green under the bark means it is alive. Brown and dry means dieback.\n- Push a finger 2 inches into the soil near the base. Dry soil means the plant needs water; soggy soil means you should hold off.\n\n**Fix:**\n1. **Wait and watch.** Do nothing drastic. Check again in late spring for new green leaves. Once you see 1\u20132 inches of fresh shoots, the azalea has usually established in its new spot.\n2. **Water deeply when dry.** Give the root zone a thorough soaking whenever the top couple of inches are dry, especially during windy spells. Avoid keeping it soggy.\n3. **Swap the gravel for mulch.** Pull back the gravel near the base and add 2\u20133 inches of organic mulch, keeping it off the trunk. Mulch protects roots from temperature swings and dryness.\n4. **Hold off on fertilizer and pruning.** Feed once after the spring bloom. Prune only dead wood after flowering. Even reblooming types like Encore should only be pruned in spring after their main flowering display.\n\nThe classifier's split between \"healthy\" and \"other\" fits this reading. Your plant most likely isn't dead.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 40600,
+ "output_tokens": 1642,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "azalea leaves turn reddish purple in winter cold normal",
+   "results": [
+    {
+     "url": "https://encoreazalea.com/blogs/plant-care/do-encore-azaleas-lose-their-leaves",
+     "title": "Why Are My Azalea Leaves Turning Red? Evergreen Azalea Care Tips"
+    },
+    {
+     "url": "https://www.rhododendron.org/protection.htm",
+     "title": "Rhododendron and Azalea Weather Protection"
+    },
+    {
+     "url": "https://growveggy.com/b/azalea-turning-red/",
+     "title": "Why Is My Azalea Turning Red? [Causes and Solutions] - Grow Veggy"
+    },
+    {
+     "url": "https://www.gfloutdoors.com/what-do-azaleas-look-like-in-winter/",
+     "title": "What do Azaleas Look Like in Winter?"
+    },
+    {
+     "url": "https://garden.org/frogs/view/42958/",
+     "title": "How to Grow and Care for Rhododendrons - Garden.org"
+    },
+    {
+     "url": "https://yourflowersguide.com/azaleas/azalea-brown-yellow-leaves-save-shrub/",
+     "title": "Why azalea leaves are turning brown or yellow and how to save your shrub"
+    },
+    {
+     "url": "https://www.justanswer.com/general/8aml7-azalea-leaves-turn-brown-winter.html",
+     "title": "Is there an azalea that the leaves turn brown in winter then slowly turn green and flower in the spring? Or are these"
+    },
+    {
+     "url": "https://www.bonsainut.com/threads/azalea-leaves-turning-red.34725/",
+     "title": "Azalea leaves turning red"
+    },
+    {
+     "url": "https://www.bonsainut.com/threads/azalea-winter-browning-and-leafs-dropping.67864/",
+     "title": "Azalea winter browning and leafs dropping"
+    }
+   ]
+  },
+  {
+   "query": "reblooming azalea transplant recovery spring leaves",
+   "results": [
+    {
+     "url": "https://towerlandscapedesign.com/when-is-the-best-time-to-move-azaleas/",
+     "title": "When is the Best Time to Move Azaleas? A Complete Guide"
+    },
+    {
+     "url": "https://www.epicgardening.com/azalea-dying/",
+     "title": "Why Your Azalea is Dying and How to Revive it"
+    },
+    {
+     "url": "https://stonepostgardens.com/when-is-the-best-time-to-move-azaleas/",
+     "title": "When is the Best Time to Move Azaleas? A Complete Guide to Transplanting Tips"
+    },
+    {
+     "url": "https://azaleas.org/faq/",
+     "title": "FAQ - Azalea Society of America"
+    },
+    {
+     "url": "https://flowersgeek.com/when-to-transplant-azaleas-for-healthier-growth-and-more-blooms/",
+     "title": "When to Transplant Azaleas for Healthier Growth and More Blooms"
+    },
+    {
+     "url": "https://mygardeningzone.com/how-to-transplant-azaleas/",
+     "title": "Azaleas Transplant Guide: Move Your Shrubs Without the Shock - My Gardening Zone"
+    },
+    {
+     "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/shrubs/azalea.aspx",
+     "title": "Azalea - Arkansas Cooperative Extension Service"
+    },
+    {
+     "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/shrubs/transplanting.aspx",
+     "title": "Transplanting"
+    },
+    {
+     "url": "https://www.bonsainut.com/threads/best-time-to-dig-azaleas.44880/",
+     "title": "Best time to dig azaleas?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

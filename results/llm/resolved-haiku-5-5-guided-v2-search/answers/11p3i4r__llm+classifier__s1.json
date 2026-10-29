@@ -1,0 +1,64 @@
+{
+ "thread_id": "11p3i4r",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/11p3i4r_01.png",
+  "data/reddit/resolved/images/11p3i4r_02.jpg",
+  "data/reddit/resolved/images/11p3i4r_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: My wife showered this furry feather and it instantly didn't like it. Any suggestions?\n\nI ready that furry feather curls on low humidity, which doesn't make sense after showering! I have tried to turn on the humidifier overnight with no luck.\n\nNot at all, the top 2inches feel dry!\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 93%, healthy 7%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 3: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: underwatering, made worse by dry air.** The splayed, floppy leaves and crisp tan edges fit thirst. Drooping with dry soil = underwatering. Your top 2 inches are a weak test in a big pot, though. Push a chopstick or your finger to the bottom. Also lift the pot: if it feels light, it's dry all the way through.\n\n**Other possibilities:**\n- **Low humidity:** Humidity-stressed calathea shows dry, papery edges that are often already browning at the margins. A shower gives only a brief boost, so the room air is probably still too dry.\n- **Tap-water minerals:** Browning leaf edges and tips can appear even when watering, light, and humidity all seem correct. If the brown edges keep coming back on new growth, this is the likely cause. The check is whether new leaves come in clean after you switch water.\n- **Root rot** is less likely, since the soil is dry at the top. If the bottom is soggy, with a sour smell or mushy roots, unpot, remove any mushy brown roots, repot in fresh well-draining soil.\n\n**What to do:**\n1. **Water thoroughly today.** Pour until water runs out the drainage holes, then empty the saucer. Most calathea will visibly recover within a few hours as cells refill. If the soil is very dry and hydrophobic, soak the pot in a tub for 20\u201330 minutes.\n2. **Switch to filtered, distilled, or rainwater.** The solution is simple but requires commitment: use only filtered water, distilled water, or collected rainwater.\n3. **Raise the humidity steadily.** Run a humidifier near the plant for several hours a day, aiming for about 50\u201360%. A hygrometer will show you the actual number. Keep the plant away from vents and cold drafts.\n4. **Tidy up.** Cut off the badly crisped leaves at the base, and trim brown edges on the rest with clean scissors. Damaged tissue won't recover, so judge progress by whether the new leaves come in clean.\n\nWater again only when the soil is dry an inch down. Overwatering is the bigger risk if the soil stays wet.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 38714,
+ "output_tokens": 2889,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "Calathea drooping crispy edges underwatering humidity care",
+   "results": [
+    {
+     "url": "https://www.bloomingexpert.com/tips/calathea/drooping-3/",
+     "title": "Why Is Your Calathea Drooping? 5 Causes \u2014 Diagnosed by Soil Moisture and Leaf Position - Blooming Expert"
+    },
+    {
+     "url": "https://www.theleafypod.com/plants/calathea",
+     "title": "Calathea Care Guide: Watering, Light & Problems"
+    },
+    {
+     "url": "https://plantcareclub.com/care-guides/calathea-care-guide",
+     "title": "Calathea Care Guide: Humidity, Water & Troubleshooting"
+    },
+    {
+     "url": "https://plantcareai.app/plant-care-guides/calathea",
+     "title": "Calathea Care Guide"
+    },
+    {
+     "url": "https://indoorflora.com/calathea-care/",
+     "title": "Calathea Care: Beautiful, Fussy, and Worth It (Sometimes) \u2014 IndoorFlora"
+    },
+    {
+     "url": "https://www.leonandgeorge.com/pages/help-why-are-my-calathea-s-leaf-edges-browning",
+     "title": "Why Does My Calathea Have Brown Leaf Edges? by L\u00e9on & George"
+    },
+    {
+     "url": "https://plantidentifierfree.app/blog/how-to-save-a-dying-calathea",
+     "title": "How to Save a Dying Calathea (Step-by-Step)"
+    },
+    {
+     "url": "https://www.getgrowli.app/blog/calathea-care",
+     "title": "Calathea care \u2014 fix the humidity, or skip the plant"
+    },
+    {
+     "url": "https://www.leonandgeorge.com/pages/care-calathea",
+     "title": "Calathea Care Guide: How to Care for a Calathea by L\u00e9on & George"
+    },
+    {
+     "url": "https://plantfix.org/plants/calathea",
+     "title": "Calathea \u2014 Care & Troubleshooting"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

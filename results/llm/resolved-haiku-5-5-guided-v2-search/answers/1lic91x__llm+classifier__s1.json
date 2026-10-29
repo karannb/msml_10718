@@ -1,0 +1,101 @@
+{
+ "thread_id": "1lic91x",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1lic91x_01.jpg",
+  "data/reddit/resolved/images/1lic91x_02.jpg",
+  "data/reddit/resolved/images/1lic91x_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Can you help me? My chili pepper plant can't bear fruit\n\nBut the problem is that a lot of flowers are born which then fall and do not become fruit\n\nThey only get the sun in the morning, then the rest of the day they are in the shade. In general it is hot but the leaves are not falling.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 93%, fungal_bacterial 7%, healthy 0%, pest 0%, other 0%\nPhoto 2: healthy 93%, watering 4%, fungal_bacterial 2%, other 1%, pest 0%\nPhoto 3: watering 79%, healthy 21%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: not enough direct sun.** Your plant gets only morning sun and is shaded the rest of the day. Peppers need a minimum of 6 hours of direct sunlight daily to flower and fruit properly, and they perform best with 8+ hours. Partial shade can keep a plant leafy and flowering but produce little fruit. The leaves look healthy and I see no pests, so this is most likely a site problem.\n\n**Two other possibilities:**\n- **Heat.** Your post says it is hot. Daytime heat above 90\u00b0F (32\u00b0C) is equally problematic. When air temperatures spike, pollen desiccates before it can fertilize. Check the forecast or put a thermometer by the plant. Reflected heat from a wall or railing can make it worse.\n- **Too much nitrogen.** The plant has large, dark, lush leaves and few fruits, which fits. If your plant looks lush and green but won't set fruit, excess nitrogen is the likely cause. Check the fertilizer label. If it is a high-nitrogen feed (or a general-purpose one used often), that is a strong suspect.\n\nWatering is less likely. The soil in the first photo looks moist, not dry, but do a finger test two inches down before changing anything. Water only if it is dry there.\n\n**What to do:**\n1. **Maximise sun.** Move the trough to the sunniest spot you have, or shift it to get more direct light at midday. If you can't add sun, shade cloth is not the answer; it only helps when heat is the problem.\n2. **Stop high-nitrogen feeding.** Switch to a tomato-type or low-nitrogen feed and avoid heavy use for now.\n3. **Hand-pollinate.** Peppers are self-pollinating but still need airflow or gentle hand pollination. Lightly tap open flowers or brush them with a soft brush mid-morning, every day during bloom.\n4. **Add afternoon shade only if it's very hot.** If temperatures go above 90\u00b0F, position the material so it intercepts the sun from late morning through mid-afternoon, and keep it raised so air can move beneath.\n\nA few dropped flowers are normal. Give these changes two to four weeks before judging.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 36011,
+ "output_tokens": 2535,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "pepper plant flowers drop without setting fruit causes",
+   "results": [
+    {
+     "url": "https://www.elmdirt.com/blogs/news/why-pepper-plants-arent-producing",
+     "title": "Why Your Pepper Plants Aren't Producing (And the Fix)"
+    },
+    {
+     "url": "https://www.sandiaseed.com/blogs/news/pepper-flower-drop",
+     "title": "Pepper Flower Drop"
+    },
+    {
+     "url": "https://grassblogger.com/why-are-my-pepper-plants-flowering-but-not-setting-fruit/",
+     "title": "Why Are My Pepper Plants Flowering But Not Setting Fruit"
+    },
+    {
+     "url": "https://knowthepepper.com/guides/pepper-flower-drop/",
+     "title": "Pepper Flower Drop: 8 Causes and How to Fix It"
+    },
+    {
+     "url": "https://www.harmonypeppers.com/post/blossom-drop-pepper-plants-causes-prevention",
+     "title": "Blossom Drop in Pepper Plants: Causes, Science & Prevention"
+    },
+    {
+     "url": "https://knowthepepper.com/guides/pepper-plant-flowers-falling-off/",
+     "title": "Pepper Plant Flowers Falling Off: Causes and Next Steps"
+    },
+    {
+     "url": "https://www.sandiaseed.com/blogs/news/pepper-plant-has-flowers-but-no-peppers",
+     "title": "Pepper Plant has Flowers but No Peppers"
+    },
+    {
+     "url": "https://gardenexperthub.com/why-does-my-pepper-plant-flower-but-not-produce-peppers/",
+     "title": "Why Your Pepper Plant Flowers But Won\u2019t Set Fruit"
+    },
+    {
+     "url": "https://cultivatedearth.com/en/hot-pepper/hot-pepper-flower-drop/",
+     "title": "Why Are My Hot Pepper Flowers Falling Off?"
+    }
+   ]
+  },
+  {
+   "query": "chili pepper flower drop heat shade sunlight hours",
+   "results": [
+    {
+     "url": "https://gardenoracle.com/chili.html",
+     "title": "Growing Chili Peppers Organically"
+    },
+    {
+     "url": "https://spicytrio.com/7-reasons-why-your-pepper-plants-flowers-are-dropping/",
+     "title": "7 Reasons Why Your Pepper Plant\u2019s Flowers are Dropping"
+    },
+    {
+     "url": "https://knowthepepper.com/guides/pepper-flower-drop/",
+     "title": "Pepper Flower Drop: 8 Causes and How to Fix It"
+    },
+    {
+     "url": "https://www.chili-shop24.com/detail/index/sArticle/12310",
+     "title": "What to Do When Your Pepper Drops the Flower Bud - causes and prevention - chili-shop24.com"
+    },
+    {
+     "url": "https://www.harmonypeppers.com/post/blossom-drop-pepper-plants-causes-prevention",
+     "title": "Blossom Drop in Pepper Plants: Causes, Science & Prevention"
+    },
+    {
+     "url": "https://positivebloom.com/chilli-flowers/",
+     "title": "Chilli Flowers: The Answers To All Your Questions"
+    },
+    {
+     "url": "https://knowthepepper.com/guides/pepper-plant-flowers-falling-off/",
+     "title": "Pepper Plant Flowers Falling Off: Causes and Next Steps"
+    },
+    {
+     "url": "https://greg.app/chilli-pepper-flower-problems/",
+     "title": "\ud83c\udf36 Step-by-Step Guide to Fixing Flower Issues in Chilli Pepper"
+    },
+    {
+     "url": "https://completegardening.com/if-your-pepper-plants-drop-their-blossoms-in-the-july-heat-one-simple-fix-slows-the-falling-auto-b382ec73/",
+     "title": "If Your Pepper Plants Drop Their Blossoms in the July Heat, One Simple Fix Slows the Falling - Complete Gardening"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

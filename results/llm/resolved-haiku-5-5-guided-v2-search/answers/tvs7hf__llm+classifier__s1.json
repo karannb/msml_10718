@@ -1,0 +1,103 @@
+{
+ "thread_id": "tvs7hf",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/tvs7hf_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Start of a fungal infection\u2026? My local plant store said there\u2019s no sign of root rot or pests\u2026they sprayed apple cider vinegar and threw out the soil since it started to smell musty. Should I continue to spray w ACV?\n\nThere are a few other spots on the other leaves unfortunately\u2026and I cut off another one this morning. It\u2019s still really vibrant but I am definitely worried.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 70%, healthy 26%, fungal_bacterial 5%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: a fungal or bacterial leaf spot, probably triggered by soil that has stayed too wet.** The photo shows small, dark brown-to-black spots scattered over the leaf, with a few more on other leaves. Fungal leaf spots are common and usually result from too much moisture on the leaves. You might notice these spots appearing after a period of rain or if your plant is frequently misted. The musty smell is the bigger clue. If you've noticed a musty odor around your houseplant, the cause is most likely from overwatering. The classifier's \"watering\" result is weak evidence, but it agrees with the smell.\n\n**Other possibilities:**\n- **Leaf spot from wet leaves alone:** If you water from above or mist, the spots may come from water sitting on the leaves. Check whether the spots appear mainly where water pools.\n- **Pests:** The spots look too uniform for most pests, but look under the leaves for tiny insects, webbing, or sticky residue. Fungus gnats near the soil would also point toward overwatering.\n\n**What to do:**\n1. **Check the roots now.** Your store threw out the soil, so the plant is probably in fresh mix. Still, check the roots when you repot. Wash the root ball under cool running water, exposing every root. Cut every black, mushy, or grey root back to firm white tissue with sterilised scissors.\n2. **Repot into fast-draining mix in a pot with drainage holes**, sized only slightly larger than the root ball. Don't leave water in a saucer.\n3. **Water only when the top 2\u20133 inches are dry**, and water thoroughly. Keep foliage dry and improve airflow around the plant.\n4. **Remove spotted leaves with clean scissors** and bin them rather than composting. Wipe your tools between cuts.\n\n**On the ACV:** I wouldn't keep spraying it. I can't point to reliable evidence that it cures leaf spot, and it can damage leaves. Fixing the moisture problem matters far more.\n\n**Watch for:** Spots that spread quickly, turn yellow-haloed or water-soaked, or the stems going soft. Isolate the plant and take a sample to a local plant clinic if that happens.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 40126,
+ "output_tokens": 2175,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "monstera leaf spots fungal bacterial causes",
+   "results": [
+    {
+     "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10681914",
+     "title": "Non-toxic plant agent compositions and methods and uses thereof"
+    },
+    {
+     "url": "https://gardenforindoor.com/monstera-brown-spots/",
+     "title": "9 Reasons For Brown Spots On Monstera (And How To Fix It) - Garden For Indoor"
+    },
+    {
+     "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12364268",
+     "title": "Non-toxic plant agent compositions and methods and uses thereof"
+    },
+    {
+     "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11771091",
+     "title": "Non-toxic plant agent compositions and methods and uses thereof"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/monstera-diseases",
+     "title": "Common Monstera Plant Diseases (And How To Treat Them)"
+    },
+    {
+     "url": "https://sproutingindoors.com/7-reasons-for-black-spots-on-monstera/",
+     "title": "7 Reasons for Black Spots on Monstera & How to Fix Them - Sprouting Indoors"
+    },
+    {
+     "url": "https://tropicflow.com/blogs/plant-care-article-how-to/top-5-monstera-diseases-symptoms-and-effective-solutions-for-healthy-plants",
+     "title": "Top 5 Monstera Diseases: Symptoms and Effective Solutions for Healthy Plants"
+    },
+    {
+     "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10798945",
+     "title": "Material for enhancing attributes of a topical or surface treatment composition"
+    },
+    {
+     "url": "https://ariumology.com/2025/12/12/monstera-black-spots-diagnosis-causes-and-treatments-for-leaf-necrosis/",
+     "title": "Monstera Black Spots: Causes, Diagnosis & Treatment"
+    }
+   ]
+  },
+  {
+   "query": "musty smell houseplant soil root rot overwatering",
+   "results": [
+    {
+     "url": "https://www.ruralsprout.com/smell-houseplant-soil/",
+     "title": "The Weird Reason You Should Sniff Your Houseplant Soil"
+    },
+    {
+     "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/why-does-my-houseplant-soil-smell-bad",
+     "title": "Why Does My Houseplant Soil Smell Bad? Causes & Fixes"
+    },
+    {
+     "url": "https://www.hunker.com/13427598/the-remedy-for-a-musty-smelling-house-plant/",
+     "title": "The Remedy For A Musty Smelling House Plant - Hunker"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/why-does-my-plant-soil-smell-bad",
+     "title": "Why Does My Plant Soil Smell Bad? A Smell-by-Smell Diagnosis"
+    },
+    {
+     "url": "https://mburcandle.co/blogs/mbur-blog/why-your-houseplant-soil-smells-and-the-fix",
+     "title": "Why Your Houseplant Soil Smells (and the"
+    },
+    {
+     "url": "https://yardandgardenguru.com/10-signs-of-an-overwatered-houseplant-and-how-to-fix-it/",
+     "title": "Signs of Overwatering in Houseplants"
+    },
+    {
+     "url": "https://getplanta.com/article/treatment/treatsmellysoil",
+     "title": "What to do if your plant\u2019s soil smells"
+    },
+    {
+     "url": "https://www.housedigest.com/2041240/wilting-house-plants-make-home-smell-bad/",
+     "title": "How Houseplants Are Making Your Home Smell Bad (& How To Prevent It) - House Digest"
+    },
+    {
+     "url": "https://www.plantvine.com/2026/07/03/signs-of-overwatered-houseplants/",
+     "title": "9 Signs of Overwatered Houseplants"
+    },
+    {
+     "url": "https://www.livingetc.com/advice/6-reasons-why-your-houseplants-may-smell-bad-and-how-to-fix-them-quickly",
+     "title": "6 Reasons Why Your Houseplants May Smell Bad \u2014 and How to Fix Them, Quickly"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

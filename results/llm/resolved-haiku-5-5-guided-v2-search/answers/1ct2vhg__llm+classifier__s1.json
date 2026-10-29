@@ -1,0 +1,105 @@
+{
+ "thread_id": "1ct2vhg",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1ct2vhg_01.jpg",
+  "data/reddit/resolved/images/1ct2vhg_02.jpg",
+  "data/reddit/resolved/images/1ct2vhg_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Please help again \ud83d\ude23\n\nI\u2019ve added 3 of my succulents in the pics. The left side of each pic is when I first received them (April 1st) and the pic on the right is now (mid-May) \ud83d\ude2d they were so beautiful.\n\nI had them in a window which was causing major curving and stretching so I now have them under an artificial grow light, but I have no clue how long I should leave it on.\n\n3. What is the green stuff that\u2019s taking over my purple pretty one? I love that one and it\u2019s just not looking good.\n\nI have them in succulent and cactus soil made by miracle grow I think. Is that ok? Each pot has at least one hole in the bottom. I miss the beautiful vibrant colors without the powdery look.\n\nLooks awful compared to when I got it. The leaves are yellowing and it looks like it\u2019s growing green mold or something. It used to be pretty and purple\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 97%, other 2%, fungal_bacterial 1%, healthy 0%, pest 0%\nPhoto 2: watering 98%, healthy 1%, other 0%, fungal_bacterial 0%, pest 0%\nPhoto 3: watering 99%, healthy 1%, fungal_bacterial 1%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: etiolation (stretching) from too little light.** The top-right and left-hand photos show long, pale stems with gaps between leaves, and your post says they were stretching in the window. Light-starved or \"etiolated\" plants look pale and spindly with large gaps between leaves on their stems. Succulents will grow tall and lose pigmentation in an effort to absorb more sunlight. Stretched stems won't shrink back, so the fix is mostly about new growth.\n\n**Other possibilities:**\n- **Overwatering:** The dark, bark-like top layer and a Miracle-Gro mix can hold moisture. Check by pushing a chopstick 2 inches into the soil. If it comes out dark or the pot feels heavy, wait longer before watering. If it's dry, the leaf yellowing is more likely from light or age.\n- **Mealybugs vs. farina on the purple Echeveria:** The speckled white on the bottom-right photo could be natural wax or pests. If the white material sits in cottony clumps in leaf crevices, it is more likely mealybugs. An even, matte film that doesn't move is normal farina.\n\nThe classifier's \"watering\" readings are unreliable on phone photos, so I'd rely on the soil check.\n\n**What to do:**\n1. **Light:** Keep the grow light close, about 6 to 12 inches above the plants, on a timer. Make sure your lights are on for at least 14-16 hours a day. Some growers use 10 to 12 hours instead, so start there and watch for stretching. If you move plants into sun, ease them in over 1 to 2 weeks to avoid scorching.\n2. **Behead the worst stretched rosettes:** Cut the top off with an inch or two of stem, and let the cut dry. Treat four to seven days in a dry, shaded spot as the range and go by feel. Then set it on dry, gritty mix. The base often sprouts new offsets.\n3. **Watering:** Water only when the soil is dry most of the way down, and make sure the pots drain freely. Pull back the bark mulch and replace it with gritty mix or pumice.\n4. **Pests:** Dab any fluffy white clusters with rubbing alcohol on a cotton swab, and isolate the plant. Leave the even white film alone.\n\nThe yellowing lower leaves are fine if the new growth looks healthy.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 45313,
+ "output_tokens": 3370,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "succulent stretching etiolation grow light how long",
+   "results": [
+    {
+     "url": "https://mountaincrestgardens.com/blog/are-my-succulents-stretching/",
+     "title": "Are my succulents stretching? - Mountain Crest Gardens"
+    },
+    {
+     "url": "https://www.succulent.care/succulents-stretching-under-grow-lights/",
+     "title": "How To Prevent Stretching In Your Happy Succulents"
+    },
+    {
+     "url": "https://www.succulencare.com/blog/succulent-care-guide-for-beginners-water-light-soil",
+     "title": "Succulent Care for Beginners: The Complete Guide (2026)"
+    },
+    {
+     "url": "https://succulentsaviors.com/posts/why-succulents-stretch-out-etiolation-fix/",
+     "title": "Why Succulents Stretch Out and How to Fix Etiolation"
+    },
+    {
+     "url": "https://www.succulencare.com/blog/fixing-leggy-succulents-etiolation-guide",
+     "title": "The Ultimate Guide to Fixing Leggy Succulents (Etiolation)"
+    },
+    {
+     "url": "https://build-construct.com/lawn-garden/why-succulents-grow-tall-and-leggy-and-how-to-fix-it/",
+     "title": "Why Succulents Grow Tall and Leggy and How to Fix It"
+    },
+    {
+     "url": "https://hardyhouseplants.com/how-to-fix-and-prevent-stretched-succulents-etiolation/",
+     "title": "How to Fix and Prevent Stretched Succulents (Etiolation) - Hardy House Plants"
+    },
+    {
+     "url": "https://www.betterindoorhouseplants.com/guides/leggy-stretching-succulents",
+     "title": "Why Is My Succulent Stretching? Fixing Leggy, Etiolated Growth"
+    },
+    {
+     "url": "https://succulentsbox.com/blogs/blog/succulents-etiolation-and-how-to-fix-it",
+     "title": "Succulent Etiolation: Understanding and Fixing Leggy Growth - Succulents Box"
+    }
+   ]
+  },
+  {
+   "query": "succulent white powdery coating farina vs mealybugs",
+   "results": [
+    {
+     "url": "https://www.succulencare.com/blog/white-powder-on-succulents-farina-vs-mildew",
+     "title": "White Powder on Succulents: Farina vs. Mildew (2026 Guide)"
+    },
+    {
+     "url": "https://thesucculenteclectic.com/what-is-this-white-stuff-on-my-succulents/",
+     "title": "What Is This White Stuff on My Succulents?"
+    },
+    {
+     "url": "https://plantidentifierfree.app/blog/white-fuzz-on-succulents",
+     "title": "White Fuzz on Succulent Leaves: Causes & How to Fix It"
+    },
+    {
+     "url": "https://gardenviveflorida.com/white-powder-on-flapjack-succulent-is-it-normal/",
+     "title": "White Powder on Flapjack Succulent: Is It Normal or a Problem? (A Gardener\u2019s Guide)"
+    },
+    {
+     "url": "https://thenextgardener.com/blogs/news/what-is-farina-on-succulents",
+     "title": "What is Farina on Succulents?"
+    },
+    {
+     "url": "https://plantophiles.com/plant-care/white-spots-on-succulents-2/",
+     "title": "White Spots on Succulents - The Reasons"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/succulent-farina",
+     "title": "Succulent Farina: What It Is, Why It Matters, and How to Protect It"
+    },
+    {
+     "url": "https://rarecactus.com/articles/early-signs-of-mealybugs/",
+     "title": "Early Signs of Mealybugs: Spot and Treat Them Fast"
+    },
+    {
+     "url": "https://thenextgardener.com/blogs/news/how-to-treat-powdery-mildew-on-succulents",
+     "title": "How to Treat Powdery Mildew on Succulents"
+    },
+    {
+     "url": "https://thenextgardener.com/blogs/news/what-is-farina-on-succulents?page=4",
+     "title": "What is Farina on Succulents?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

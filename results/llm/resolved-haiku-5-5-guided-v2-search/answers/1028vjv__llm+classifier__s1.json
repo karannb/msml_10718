@@ -1,0 +1,108 @@
+{
+ "thread_id": "1028vjv",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1028vjv_01.jpg",
+  "data/reddit/resolved/images/1028vjv_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: What\u2019s going on with the leaves? What am I doing wrong and how to treat it?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 90%, watering 9%, fungal_bacterial 2%, other 0%, pest 0%\nPhoto 2: watering 77%, healthy 22%, fungal_bacterial 1%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: dry, heated air near the radiator.** Brown, tan-tipped leaflets across many fronds, with the bases still green, fit dry air best. The white radiator under the window is a likely source. Parlor palms tolerate low humidity better than most houseplants, but this is especially likely during winter heating, in air-conditioned rooms, or when the plant is near radiators, fireplaces, heaters, or vents. Low humidity pulls moisture from the thin leaflet tips faster than the roots can replace it. The classifier's \"watering\" reading on photo 2 doesn't match what I see. Nothing is wilting, so I'd weigh it lightly.\n\n**Other possibilities:**\n- **Salt buildup from tap water or fertilizer.** Check the soil surface, pot rim, and drainage holes for a white crust. Tip burn that continues even after watering and humidity are improved points this way.\n- **Watering problems.** Push a finger 1\u20132 inches into the soil. Dry soil points to underwatering; soggy soil, a musty smell, or water pooling in the outer pot points to overwatering. Also look under the fronds for fine webbing, since spider mites are documented as a main indoor palm problem, easily mistaken for dry air.\n\n**Fix:**\n1. **Move the palm away from the radiator and any vent**, then raise humidity with a humidifier or a pebble tray. If the room is dry, use a humidifier nearby.\n2. **Adjust watering based on the finger test.** If the soil is dry, water thoroughly until it drains, then let the top inch dry before watering again. Empty any water sitting in the decorative pot. If the soil stays wet, hold off watering.\n3. **If you see crust, flush the soil** with plain water, letting it drain fully through the holes. Feed only monthly during spring and summer, at half strength. Stop fertilizing completely in the fall and winter.\n4. **Trim the brown tips** with clean scissors, following the leaf shape and not cutting into green tissue. The brown ends will not turn green again, so judge success by whether new fronds come in clean over the next 4\u20136 weeks.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 56031,
+ "output_tokens": 2547,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "parlor palm yellow brown leaf tips causes",
+   "results": [
+    {
+     "url": "https://www.gardeningknowhow.com/houseplants/parlor-palm/parlor-palm-problems.htm",
+     "title": "Parlor Palm Problems? How To Bring Your Neanthe Bella Plant Back From The Brink"
+    },
+    {
+     "url": "https://plantwateringguide.com/plant-problems/parlor-palm-brown-tips",
+     "title": "Parlor Palm Brown Tips: Tap Water, Dry Air, or Overwatering?"
+    },
+    {
+     "url": "https://fullygrows.com/troubleshooting-issues-with-parlor-palms-brown-tips-crispy-fronds-and-more/",
+     "title": "Troubleshooting Issues with Parlor Palms: Brown Tips, Crispy Fronds, and More"
+    },
+    {
+     "url": "https://bloomboxusa.com/blogs/news/parlour-palm-care-guide",
+     "title": "The Complete Guide for Parlour Palm Care"
+    },
+    {
+     "url": "https://plantify.co.za/pages/parlor-palm-care-instructions",
+     "title": "Parlor Palm Care Instructions"
+    },
+    {
+     "url": "https://gardenish.co/learn/why-parlor-palm-leaves-have-brown-tips",
+     "title": "Why Parlor Palm Leaves Have Brown Tips"
+    },
+    {
+     "url": "https://www.plantsolve.com/plants/parlor-palm/",
+     "title": "Parlor Palm Care: Light, Water & Brown Tip Prevention"
+    },
+    {
+     "url": "https://smartgardenguide.com/why-does-my-parlor-palm-have-brown-tips/",
+     "title": "Why Does My Parlor Palm Have Brown Tips? - Smart Garden Guide"
+    },
+    {
+     "url": "https://growhub.ae/blogs/blog/brown-leaf-tips-on-parlor-palm-what-to-fix-first-water-air-or-salts",
+     "title": "Brown Leaf Tips on Parlor Palm: What to Fix First (Water, Air, or Salt"
+    },
+    {
+     "url": "https://www.gardenersworld.com/house-plants/how-to-grow-parlour-palm/",
+     "title": "Parlour Palm (Chamaedorea): Caring for Parlour Palm Plants"
+    }
+   ]
+  },
+  {
+   "query": "palm leaf tip browning low humidity heating underwatering",
+   "results": [
+    {
+     "url": "https://bloomscape.com/common-issue/why-are-the-tips-of-my-palm-turning-brown/",
+     "title": "Why Does My Palm Have Brown Tips?"
+    },
+    {
+     "url": "https://whyismy.org/articles/why-is-my-palm-tree-turning-brown",
+     "title": "Why Is My Palm Tree Turning Brown? 8 Causes & Proven Fixes"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/indoor-plants/palm-problems/",
+     "title": "Yellow Fronds, Brown Tips, and Webbing on Indoor Palms: How to Fix Each Before They Spread - Blooming Expert"
+    },
+    {
+     "url": "https://theyardandgarden.com/majesty-palm-brown-tips/",
+     "title": "Causes Of Majesty Palm Brown Tips And How To Fix It"
+    },
+    {
+     "url": "https://plantgeh.com/problem-solution/parlor-palm-brown-tips/",
+     "title": "Parlor Palm Brown Tips: Why Fronds Crisp and How to Fix Them"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/tips-of-palm-leaves-turning-brown",
+     "title": "Tips of Palm Leaves Turning Brown: Causes & Fixes That Work"
+    },
+    {
+     "url": "https://purehomegardens.com/palm-plant-brown-tips",
+     "title": "Why are Palm Tree Leaves turning Brown at Tips: Common Causes"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/palm-plant-leaves-turning-brown",
+     "title": "Why Are My Palm Plant Leaves Turning Brown?"
+    },
+    {
+     "url": "https://plantelio.com/areca-palm-brown-tips/",
+     "title": "Areca Palm Brown Tips: Causes and How to Fix Brown Leaf Tips - Plantelio"
+    },
+    {
+     "url": "https://www.ohiotropics.com/2023/01/26/parlor-palm-brown-tips/",
+     "title": "7 Big Causes of Parlor Palm Brown Tips & How to Prevent"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

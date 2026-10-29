@@ -1,0 +1,110 @@
+{
+ "thread_id": "16w508b",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/16w508b_01.jpg",
+  "data/reddit/resolved/images/16w508b_02.jpg",
+  "data/reddit/resolved/images/16w508b_03.png",
+  "data/reddit/resolved/images/16w508b_04.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Last Attempt to Save Adansonii - Please Help! (story in comments)\n\nLooking for some advice on my next plan of action with my Adansonii. It's taken a beating over the last year despite hours of research, worry, and remedial action.\n\n**Context**: I'm based in Portugal, the plant gets a lot of indirect light (dark photos are taken at night), but temps do get over 35 celsius in Summer.\n\n* **Aug '23:** plant extra sad, leaves getting yellow/ brown patches (sulphur burn?). Thrips still present but infestation not major = finding around 3 each week.\n\n* **Aug/Sept '23:** new shoots growing fast suddenly but leaves getting even more yellow/ brown patches, including new leaves. I'm removing these to avoid disease spread. Still finding the odd black (non moving) thrip on the new leaves but still no larvae\n\nIt's about 3 metres away from a big window.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 95%, healthy 5%, fungal_bacterial 0%, pest 0%, other 0%\nPhoto 2: watering 84%, healthy 14%, fungal_bacterial 1%, pest 0%, other 0%\nPhoto 3: watering 95%, healthy 5%, fungal_bacterial 0%, pest 0%, other 0%\nPhoto 4: watering 92%, healthy 7%, fungal_bacterial 1%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: an ongoing thrips infestation, made worse by heat and sulphur spraying.** The yellow-silver stippling with dark specks in the first close-up fits thrips feeding, and the pale slender insect in the second close-up looks like a thrips larva. Thrips rasp leaf cells, leaving silvery streaks and black droppings, and new growth is usually hit first. The brown patches with yellow halos look more like scorch. Sulphur can burn leaves once temperatures pass about 30\u00b0C, and your summer temperatures exceed that. The classifier's \"watering\" label is unreliable on phone photos like these.\n\n**Other possibilities:**\n- **Underwatering in heat:** A terracotta pot in 35\u00b0C weather can dry out fast. Push a finger 5 cm into the soil. If it's dry, water thoroughly until it drains from the base. If it's still wet, don't water and check the roots instead.\n- **Spider mites:** Fine webbing or evenly spread dots on the undersides would point to mites. The treatment overlaps with thrips, so you'd treat for both.\n\n**What to do:**\n1. **Stop sulphur completely in hot weather.** Spray only in early morning or evening when it's below about 28\u00b0C, and never within two weeks of neem oil.\n2. **Control the thrips.** Isolate the plant, rinse the leaves, and spray insecticidal soap or neem every 5\u20137 days for at least three weeks. Add blue sticky traps to track adults. Replace the top 2\u20133 cm of soil, since pupae hide there.\n3. **Prune the worst leaves.** Silvered scars won't recover, but new growth should come in clean once the infestation is broken.\n4. **Reduce heat stress.** Move the plant away from the hot window or shade the glass in the afternoons.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 55057,
+ "output_tokens": 3844,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "sulfur spray leaf burn high temperature houseplants",
+   "results": [
+    {
+     "url": "https://www.epicgardening.com/sulfur-fungicide/",
+     "title": "How to Use Sulfur Fungicide on Plants"
+    },
+    {
+     "url": "https://justaplantroom.com/blogs/learn-share/sulfur-in-pest-control-benefits-challenges-and-best-practices",
+     "title": "Sulfur in Pest Control: Benefits, Challenges, and Best Practices"
+    },
+    {
+     "url": "https://scienceinsights.org/how-to-use-sulfur-plant-fungicide-rates-safety/",
+     "title": "How to Use Sulfur Plant Fungicide: Rates & Safety - ScienceInsights"
+    },
+    {
+     "url": "https://whyfarmit.com/sulfur-powder-for-plants/",
+     "title": "Sulfur Powder for Plants: When To Use It, How To Apply & More"
+    },
+    {
+     "url": "https://topgardenliving.com/sulfur-spray-for-plants/",
+     "title": "Best Sulfur Spray for Plants: Top Picks for Healthy Verdant Gardens"
+    },
+    {
+     "url": "https://home.onehowto.com/article/sulfur-for-plants-uses-and-benefits-13310.html",
+     "title": "Sulfur for Plants - Uses and Benefits - With Guide to Using Sulfur at Home"
+    },
+    {
+     "url": "https://www.growershub.co.nz/blogs/thehub/why-spraying-sulfur-in-a-grow-room-is-a-bad-idea",
+     "title": "Why Spraying Sulfur in a Grow Room Is A Bad Idea!"
+    },
+    {
+     "url": "https://www.greenwaybiotech.com/blogs/gardening-articles/sulfur-powder-in-organic-gardening-a-complete-guide-to-soil-amendment-ph-adjustment-pest-control-and-plant-health",
+     "title": "Sulfur Powder in Organic Gardening: A Complete Guide to Soil Amendment, pH Adjustment, pest control and Plant Health"
+    },
+    {
+     "url": "https://compassgm.co.uk/what-is-sulphur-used-for/",
+     "title": "What is Sulphur Used For? The Gardener's Secret Weapon"
+    },
+    {
+     "url": "https://seedy.farm/crop-protection/sulfur-pesticide-fungicide/",
+     "title": "Sulfur Pesticides & Fungicides: A Home Gardener\u2019s Essential Guide \u2014 Seedy Farm"
+    }
+   ]
+  },
+  {
+   "query": "thrips damage monstera leaves silver stippling identification",
+   "results": [
+    {
+     "url": "https://growtropicals.com/blogs/how-to-deal-with-houseplant-pests/thrips-on-your-indoor-plants-here-s-how-to-manage-them",
+     "title": "Thrips on Your Indoor Plants? Here\u2019s How to Manage Them"
+    },
+    {
+     "url": "https://blog.plantdoctor.app/tips/thrips-monstera-philodendron-control",
+     "title": "Spotting and Beating Thrips on Monsteras & Philodendrons"
+    },
+    {
+     "url": "https://greenygardener.com/signs-of-thrips-on-monstera/",
+     "title": "Signs Of Thrips On Monstera"
+    },
+    {
+     "url": "https://diybackyardfarm.com/thrips-on-monstera-eradicating-thrips-infestations-on-monstera/",
+     "title": "Thrips On Monstera : Eradicating Thrips Infestations On Monstera"
+    },
+    {
+     "url": "https://theaiplantdoctor.com/blog/thrips-on-houseplants/",
+     "title": "Thrips on Houseplants: How to Identify and Get Rid of Them"
+    },
+    {
+     "url": "https://foliacollective.com/thrips-on-plants/",
+     "title": "Thrips on Plants: Spot Them and Get Rid Fast"
+    },
+    {
+     "url": "https://randylemmon.com/thrips-damage-leaf-flower-growth-warning-signs",
+     "title": "Thrips Damage: Leaf, Flower & Growth Warning Signs - Randy Lemmon"
+    },
+    {
+     "url": "https://greg.app/question/49ottx/what-do-i-do-about-thrips-every-time-i-buy-a-monstera-it-has-a-thrip-infestation-monstera",
+     "title": "What do I do about thrips? Every time I buy a monstera it..."
+    },
+    {
+     "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/what-does-thrips-damage-look-like-on-houseplants",
+     "title": "What Does Thrips Damage Look Like on Houseplants?"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/thrips-on-houseplants",
+     "title": "Thrips on Houseplants: The Pest Behind Silver-Streaked Leaves"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

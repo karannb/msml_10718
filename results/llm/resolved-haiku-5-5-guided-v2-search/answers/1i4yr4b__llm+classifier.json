@@ -1,0 +1,64 @@
+{
+ "thread_id": "1i4yr4b",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1i4yr4b_01.jpg",
+  "data/reddit/resolved/images/1i4yr4b_02.jpg",
+  "data/reddit/resolved/images/1i4yr4b_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: ZZ concerns\n\nI\u2019ve had this ZZ plant for almost 2 years now, keeping it in indirect sunlight and watering it every 2 weeks or so, depending on the soil. Last year it grew a lot of new fresh green stems and leaves and it was thriving. However, over Christmas time, I was away from home for 2 weeks and when I came back I saw one of the previous new stem (lighter green) became completely yellow and raisin like. I cut it out as close to the soil as possible. Now I see that one of the smaller stems is also becoming yellow (with a brown tip) and other leaves start to have bright yellow tips. What could be the problem?\n\nI have only some green plants universal soil available.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 66%, watering 33%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: healthy 74%, watering 21%, fungal_bacterial 4%, other 1%, pest 0%\nPhoto 3: watering 57%, healthy 42%, fungal_bacterial 1%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: overwatering, with early rhizome rot.** Your watering schedule is the main clue. ZZ plants store water in underground rhizomes, and a ZZ plant that never fully dries out between waterings is the most common way the rhizomes rot from the inside, often before any leaf symptoms appear. Watering every two weeks in universal soil, which holds moisture, can keep the root zone wet for too long. The stem that collapsed while you were away and the newer yellowing stems fit this pattern. The decorative outer pot may also trap water at the bottom.\n\n**Other possibilities:**\n- **Underwatering or a dry spell:** Less likely. ZZ plants tolerate drought well, and the collapsed stem was soft, not shriveled. If the soil is bone dry and the stems are wrinkled but firm, thirst is the better explanation.\n- **Normal aging plus sun:** The single yellow-tipped mature leaflet in the third photo may be ordinary turnover or light stress. Leave it alone if the rest of the plant is firm.\n\n**The check that decides it:** Lift the pot. Heavy means still wet. Push a wooden skewer or finger several centimetres down. Then unpot and squeeze the rhizomes and stem bases. Firm, pale rhizomes mean you are dealing with overwatering alone. Soft, brown, or smelly tissue confirms rot.\n\n**Fix:**\n1. **Stop watering now** and empty any water from the outer pot.\n2. **Unpot and trim.** Cut away any soft, brown, or foul-smelling rhizome and roots with clean scissors. Cut yellow stems at the soil line, since once a ZZ plant leaf or stem turns yellow, it will never revert to green. Let the healthy parts dry for 24 to 48 hours.\n3. **Repot into fast-draining mix.** Use a pot with a drainage hole and a mix that is at least half perlite, pumice, or cactus mix. Universal soil alone stays too wet.\n4. **Water by dryness, not by calendar.** Wait until the soil is dry all the way down, which may mean every 3 to 4 weeks or more in winter. Keep the plant in bright indirect light.\n\nYour plant may recover if the rhizomes are still firm. Check them first, since that will tell you how much can be saved.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 41566,
+ "output_tokens": 2586,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "ZZ plant yellow stems rhizome rot overwatering",
+   "results": [
+    {
+     "url": "https://plantcarebasics.com/zz-plant-leaves-turning-yellow/",
+     "title": "Why is my ZZ plant turning yellow? Read the leaf pattern first"
+    },
+    {
+     "url": "https://leafypixels.com/plants/zz-plant/overwatering/",
+     "title": "Overwatering on ZZ Plant: Causes, Checks & Fixes"
+    },
+    {
+     "url": "https://www.myedenplants.com/best-tool-2026/why-is-my-zz-plant-dying",
+     "title": "Why Is My ZZ Plant Dying? Causes + Fix (USA"
+    },
+    {
+     "url": "https://bababerry.co/blogs/self-watering/zz-plant-yellow-leaves-overwatering-or-normal",
+     "title": "ZZ Plant Yellow Leaves: Overwatering or Normal? (2026)"
+    },
+    {
+     "url": "https://www.plantsolve.com/plants/zz-plant/",
+     "title": "Zz Plant Care Guide"
+    },
+    {
+     "url": "https://hardyhouseplant.com/plants/zz-plant/yellow-leaves/",
+     "title": "ZZ Plant Yellow Leaves: 7 Real Causes (And Easy Fixes)"
+    },
+    {
+     "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/why-is-my-zz-plant-turning-yellow",
+     "title": "Why Is My ZZ Plant Turning Yellow? Causes & Fixes"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/zz-plant-care-guide",
+     "title": "ZZ Plant Care Guide \u2014 Watering, Light & Common Problems (2026)"
+    },
+    {
+     "url": "https://www.theleafypod.com/plants/zz-plant",
+     "title": "ZZ Plant Care Guide: Watering, Light & Problems"
+    },
+    {
+     "url": "https://plantfix.org/plants/zz-plant",
+     "title": "ZZ Plant \u2014 Care & Troubleshooting"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

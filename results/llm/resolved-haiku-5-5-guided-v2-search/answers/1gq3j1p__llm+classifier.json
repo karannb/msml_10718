@@ -1,0 +1,104 @@
+{
+ "thread_id": "1gq3j1p",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1gq3j1p_01.jpg",
+  "data/reddit/resolved/images/1gq3j1p_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: What are these and how do I get rid of them?\n\nAm I doomed?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: other 75%, fungal_bacterial 13%, healthy 9%, watering 2%, pest 0%\nPhoto 2: healthy 64%, fungal_bacterial 27%, other 7%, pest 1%, watering 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: whiteflies, in their immature stage.** The flat, oval, white specks scattered across the leaves match whitefly nymphs. Colorado State calls them scale-like, translucent and immobile, and easy to overlook. Adults are the easy part to confirm: when a plant is disturbed, clouds of small white-winged insects fly up. Gently tap the plant over a white sheet of paper. A cloud of flying insects confirms it.\n\n**Other possibilities:**\n- **Aphid cast skins.** White objects on the top surface of leaves are more likely to be aphid skins. Look for live aphids on new growth and stems. If the specks are only on top and nothing is moving, this is more likely.\n- **Spider mites.** Check for fine webbing and tiny stippling on the leaves. Mites would change the diagnosis.\n\nYour photos don't show visible damage yet, so you caught this early. The classifier's \"other\" label isn't reliable here, so I'd rely on the photos and the flip-and-tap checks.\n\n**Fix:**\n1. **Isolate the tomato.** Plants should be isolated in a separate area for 1-2 weeks and monitored regularly.\n2. **Remove the worst leaves** and bag them. Older leaves that are heavily infested can be removed by hand. Hosing or spraying the undersides of the rest knocks off many of the nymphs.\n3. **Spray the undersides every 5\u20137 days** with insecticidal soap or neem oil, following the label. Eradication usually requires four to five applications at five- to seven-day intervals. Soap only works while wet, so rinse the plants with clear water the day after application. Spray in the evening, and test one leaf first.\n4. **Add yellow sticky traps** at canopy height to catch adults. Trapping alone will not eliminate the problem, because the nymphs stay on the leaves.\n\nWhiteflies are persistent, but a single plant that is caught early is very manageable. Keep inspecting the undersides weekly.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 48903,
+ "output_tokens": 2990,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "tiny white oval specks on leaves whitefly nymphs houseplant",
+   "results": [
+    {
+     "url": "https://www.almanac.com/pest/whiteflies",
+     "title": "Whiteflies: How to Identify and Get Rid of Whiteflies"
+    },
+    {
+     "url": "https://plantfix.org/guides/tiny-white-bugs",
+     "title": "Tiny White Bugs on Plants: Identify & Kill All 5 Types"
+    },
+    {
+     "url": "https://plantgrail.com/articles/whiteflies-on-houseplants/",
+     "title": "Whiteflies on houseplants: identification, honeydew, sticky cards and control"
+    },
+    {
+     "url": "https://www.rhs.org.uk/biodiversity/glasshouse-whitefly",
+     "title": "Glasshouse Whitefly: Identification and Control"
+    },
+    {
+     "url": "https://getbusygardening.com/how-to-kill-whiteflies/",
+     "title": "How To Get Rid Of Whiteflies On Indoor Plants, For Good! - Get Busy Gardening"
+    },
+    {
+     "url": "https://leafyplace.com/whiteflies/",
+     "title": "Whiteflies on Plants: Ways to Kill These Tiny White Flying Bugs"
+    },
+    {
+     "url": "https://aptivepestcontrol.com/blog/what-are-those-tiny-white-bugs-on-plants/",
+     "title": "What Are Those Tiny White Bugs on Plants?"
+    },
+    {
+     "url": "https://leafyplace.com/white-bugs-on-plants/",
+     "title": "White Bugs on Plants (Tiny and Small): Pictures, Identification, and Control"
+    },
+    {
+     "url": "https://www.planetnatural.com/pest-problem-solver/houseplant-pests/whitefly-control/",
+     "title": "How to Identify and Control Whiteflies Effectively"
+    }
+   ]
+  },
+  {
+   "query": "indoor tomato whiteflies control extension",
+   "results": [
+    {
+     "url": "https://www.almanac.com/pest/whiteflies",
+     "title": "Whiteflies: How to Identify and Get Rid of Whiteflies"
+    },
+    {
+     "url": "https://homeguides.sfgate.com/control-whiteflies-tomato-plants-41739.html",
+     "title": "How to Control Whiteflies on Tomato Plants"
+    },
+    {
+     "url": "https://extension.colostate.edu/resource/greenhouse-whitefly/",
+     "title": "Greenhouse Whitefly"
+    },
+    {
+     "url": "https://plantdoctor.app/guides/stop-whiteflies-tomatoes-peppers-balcony-guide",
+     "title": "Stop Whiteflies on Tomatoes & Peppers"
+    },
+    {
+     "url": "https://www.getgrowli.app/pests/whitefly/tomatoes",
+     "title": "Whitefly on tomatoes \u2014 control guide"
+    },
+    {
+     "url": "https://www.planetnatural.com/pest-problem-solver/houseplant-pests/whitefly-control/",
+     "title": "How to Identify and Control Whiteflies Effectively"
+    },
+    {
+     "url": "https://extension.missouri.edu/publications/g7275",
+     "title": "Managing Whiteflies on Indoor and Outdoor Plants"
+    },
+    {
+     "url": "https://ask.extension.org/kb/faq.php?id=361165",
+     "title": "How to rid white flies naturally on tomato plants - Ask Extension"
+    },
+    {
+     "url": "https://forums.thanoshome.com/t/how-to-control-whiteflies-on-your-plants/5257",
+     "title": "How to Control Whiteflies on Your Plants? - Insects & Creepy-Crawlies - Thanos Home Forums"
+    },
+    {
+     "url": "https://plantwiseplusknowledgebank.org/doi/full/10.1079/pwkb.20177801304",
+     "title": "Whiteflies on tomato-Zambia: Bemisia tabaci"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

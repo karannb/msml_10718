@@ -1,0 +1,62 @@
+{
+ "thread_id": "1njfxkm",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1njfxkm_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Help! Office plant looking sad :(\n\ngot this plant a couple months ago and repotted, moved to my office and it's been looking kind of sad ever since. just got back from a business trip and it looks overtly sick now. trying to figure out 1, what kind of plant it is, and 2, what's wrong with it - too much sun? too much/not enough water? not enough drainage? thanks in advance!\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 100%, fungal_bacterial 0%, healthy 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: too much direct sun, with dry soil from your trip on top of it.** The plant looks like a rattlesnake plant (*Calathea lancifolia*), a calathea with wavy leaves and dark oval markings. The sun-facing leaves show bleached, tan-brown blotches and faded patterns, which fits sun scorch. Intense sun can bleach the leaves and fade the rattlesnake patterns. The office window is the likely source.\n\n**Other possibilities:**\n- **Underwatering or dry air.** Crispy edges and curling are classic signs of this, and a trip often leaves soil dry. Underwatering signs include leaves curling inward, crispy brown edges, drooping, and soil pulling away from the pot sides. Check whether the leaves that are not sun-hit also look crisp. If they are, dryness is a bigger factor.\n- **Mineral buildup from tap water.** Brown tips are most often caused by fluoride, chlorine, or minerals in tap water, or by fertiliser build-up. If the tips are brown but the sun-facing leaves are not, this becomes more likely.\n\nThe classifier's \"watering 100%\" is a weak hint. The bleaching pattern points more to light. Still, the trip may have dried the plant out, so check the soil.\n\n**Quick check:** Push a finger about an inch into the soil. If it is dry and the pot feels light, the plant needs water. If it is wet, don't water, and check the drainage hole.\n\n**Fix:**\n1. **Move it out of direct sun.** Put it a few feet back from the glass, or filter the light with a sheer curtain. Shield the plant from direct sunlight, as it burns or fades the colour of its foliage.\n2. **Water properly.** If the soil is dry, water until it drains from the holes, then empty the saucer. Use distilled, rain, or filtered water if you can, since calatheas are sensitive to the fluoride, chlorine, and dissolved salts in tap water.\n3. **Raise humidity.** Group it with other plants, set it on a pebble tray, or use a humidifier, and keep it away from AC or heater vents.\n4. **Trim the damage.** Cut off crispy brown bits, leaving a thin brown line so you don't cut healthy tissue. Damaged leaves won't recover, but new leaves should come in cleaner once conditions are right.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 30827,
+ "output_tokens": 1991,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "calathea rattlesnake leaves crispy brown edges sun scorch watering humidity",
+   "results": [
+    {
+     "url": "https://plantify.co.za/pages/rattlesnake-plant-care-instructions",
+     "title": "Rattlesnake Plant Care Instructions"
+    },
+    {
+     "url": "https://howmanyplants.com/plant/calathea-rattlesnake",
+     "title": "Calathea Rattlesnake \u2014 How Many Plants"
+    },
+    {
+     "url": "https://www.botanicaly.com/en/plant-care/calathea-lancifolia/brown-tips",
+     "title": "Rattlesnake plant brown leaves"
+    },
+    {
+     "url": "https://www.healthyhouseplants.com/indoor-houseplants/rattlesnake-plant-calathea-lancifolia-care-guide/",
+     "title": "Rattlesnake Plant (Calathea lancifolia) Care Guide \ud83c\udf1f - Healthy Houseplants"
+    },
+    {
+     "url": "https://plantgrail.com/articles/why-your-rattlesnake-plant-has-browning-leaves-and-how-to-fix-it/",
+     "title": "Why Your Rattlesnake Plant Has Browning Leaves (And How to Fix It)"
+    },
+    {
+     "url": "https://houseplant101.com/plants/calathea-rattlesnake/",
+     "title": "Calathea Rattlesnake Care"
+    },
+    {
+     "url": "https://simplifyplants.com/11-care-tips-for-rattlesnake-plant-calathea-lancifolia/",
+     "title": "11 Care Tips For Rattlesnake Plant (Calathea Lancifolia) \u00bb Simplify Plants"
+    },
+    {
+     "url": "https://infloramation.com/the-ultimate-rattlesnake-plant-care-guide-calathea-lancifolia/",
+     "title": "Rattlesnake Plant Care (Calathea lancifolia): LigRattlesnake Plant Care Guide (Calathea lancifolia)"
+    },
+    {
+     "url": "https://www.patchplants.org/complete-calathea-plant-care-guide/",
+     "title": "Calathea Care Guide: Light, Water, Humidity & Varieties"
+    },
+    {
+     "url": "https://leafyplace.com/calathea-lancifolia-rattlesnake-plant/",
+     "title": "Calathea Lancifolia: Care and Growing Guide for Rattlesnake Plant"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

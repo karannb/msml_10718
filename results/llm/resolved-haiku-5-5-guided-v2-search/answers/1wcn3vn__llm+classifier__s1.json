@@ -1,0 +1,101 @@
+{
+ "thread_id": "1wcn3vn",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1wcn3vn_01.jpg",
+  "data/reddit/resolved/images/1wcn3vn_02.jpg",
+  "data/reddit/resolved/images/1wcn3vn_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: 1 year old money tree\n\nHello I've had this Money Tree for about a year, still in the same pot. It's producing a lot of leaves but I wanted it to grow taller and it feels stunted. Do you think this plant is ready to be reported? This is the same pot I bought it in.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 93%, healthy 7%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 73%, healthy 27%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 3: healthy 54%, watering 39%, fungal_bacterial 5%, pest 1%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: a healthy plant that is root-bound in its original nursery pot.** Stunted growth despite plenty of new leaves is the classic sign. If you see a dense web of roots circling the outer edge of the soil or forming a tight mat at the bottom, the plant has exhausted the available space. The fact that it's still in its first pot after a year fits this. Yes, it's ready to repot.\n\n**Other possibilities:**\n- **Salt buildup or water chemistry causing the brown tips.** The lower leaves have tan, crispy edges, and there's white crust at the soil line and on the trunk base. Excess fertilizer can lead to salt buildup, which affects the leaf tips. Tap water can also cause this. To tell it apart, check whether the crust is present and whether you fertilize regularly.\n- **Overwatering from the saucer.** The clear dish under the pot may hold water. Lift the pot and check the saucer. If it's wet and the soil stays soggy for days, this is the problem, not underwatering. The classifier's \"watering\" label is a weak hint, and I can't confirm dry or wet soil from these photos.\n\n**Fix:**\n1. **Repot in spring or early summer.** Choose a pot 1-2 inches larger in diameter than the current pot with drainage holes. Use fresh, well-draining mix, and keep the trunk at the same depth. Gently loosen circling roots, and trim only roots that are black or mushy. Try not to prune more than 1/3 of the total root ball. Don't strip off all the old soil.\n2. **Empty the saucer.** After watering, tip out any water still standing in the saucer, ideally within about half an hour.\n3. **Water by feel.** Water when the top 1\u20132 inches are dry, and expect 7\u201314 day intervals in summer and 14\u201321 days in winter, depending on pot size and light.\n4. **Flush the salts.** Water thoroughly with plain water until it runs out the bottom, and flush the soil with plain water every three months. Hold fertilizer for 4\u20136 weeks after repotting, then use a balanced fertilizer at half strength.\n\nThe plant otherwise looks healthy, so trimming the crispy tips is optional.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 46785,
+ "output_tokens": 2358,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "money tree Pachira aquatica repotting root bound",
+   "results": [
+    {
+     "url": "https://thenextgardener.com/blogs/news/a-full-guide-when-and-how-to-repot-money-tree-plant",
+     "title": "A Full Guide: When and How to Repot Money Tree Plant?"
+    },
+    {
+     "url": "https://www.gardenia.net/plant/pachira-aquatica-money-tree",
+     "title": "Money Tree (Pachira aquatica) - Gardenia.net"
+    },
+    {
+     "url": "https://www.almanac.com/plant/money-tree-plant",
+     "title": "Money Tree Plant (Pachira Aquatica) Care Guide"
+    },
+    {
+     "url": "https://www.letgardening.com/money-tree",
+     "title": "Money Tree Care Guide: How to Grow & Care for Pachira Aquatica"
+    },
+    {
+     "url": "https://plantcareforbeginners.com/articles/repotting-pachira-aquatica",
+     "title": "How to repot a Pachira Aquatica (Money tree)"
+    },
+    {
+     "url": "https://garden.org/thread/view/103949/Pachira-aquatica-repot-help-needed-please/",
+     "title": "Pachira aquatica repot help needed please? in the Ask a Question forum - Garden.org"
+    },
+    {
+     "url": "https://www.lawnstarter.com/blog/home-garden/money-tree-plant-care-good-luck/",
+     "title": "Money Tree Care for Beginners"
+    },
+    {
+     "url": "https://thebotanicalbarindy.com/blogs/blog/money-tree-pachira-aquatica-care",
+     "title": "Money Tree (Pachira Aquatica) Care"
+    }
+   ]
+  },
+  {
+   "query": "Pachira aquatica brown leaf tips watering salt buildup",
+   "results": [
+    {
+     "url": "https://www.plantsforallseasons.co.uk/blogs/pachira-care/common-problems-and-solutions-for-pachira-aquatica-money-tree",
+     "title": "Common Problems and Solutions for Pachira Aquatica (Money Tree)"
+    },
+    {
+     "url": "https://www.nature-and-garden.com/gardening/pachira.html",
+     "title": "Pachira (Pachira aquatica): care, watering and propagation"
+    },
+    {
+     "url": "https://www.theplantdaddies.com/blogs/plant-care/how-to-care-for-your-pachira-aquatica-money-tree",
+     "title": "How to Care for your Pachira aquatica (Money Tree)"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/plant-pachira",
+     "title": "Plant Pachira Care Guide: Watering, Light & Propagation Tips"
+    },
+    {
+     "url": "https://plantgrail.com/articles/money-tree-care-guide-pachira-aquatica/",
+     "title": "Money Tree Care Guide (Pachira aquatica): Watering, Light, and Braided-Trunk Rescue"
+    },
+    {
+     "url": "https://www.theplantindex.com/plants/money-tree",
+     "title": "Money Tree (Pachira aquatica): Complete Care & Braided-Trunk Guide"
+    },
+    {
+     "url": "https://www.letgardening.com/money-tree",
+     "title": "Money Tree Care Guide: How to Grow & Care for Pachira Aquatica"
+    },
+    {
+     "url": "https://www.ferberpainting.com/us/blog/how-to-revive-a-pachira-money-tree-the-complete-guide/",
+     "title": "How to Revive a Pachira (Money Tree): The Complete Guide"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/pachira-aquatica-care",
+     "title": "Pachira Aquatica Care: Complete Guide for Healthy Growth"
+    },
+    {
+     "url": "https://davesgarden.com/community/forums/t/807840/",
+     "title": "Beginner Gardening:Pachira Aquatica - was doing wonderfully, not anymore?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

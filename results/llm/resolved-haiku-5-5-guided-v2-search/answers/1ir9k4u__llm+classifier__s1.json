@@ -1,0 +1,65 @@
+{
+ "thread_id": "1ir9k4u",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1ir9k4u_01.jpg",
+  "data/reddit/resolved/images/1ir9k4u_02.jpg",
+  "data/reddit/resolved/images/1ir9k4u_03.jpg",
+  "data/reddit/resolved/images/1ir9k4u_04.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Please help! Monstera Prop not going well?\n\nTl;Dr I tried to save my dying monstera by propagating the only healthy looking bits that were left. It's been in a jug of water with spagham moss, water gets changed regularly, it's been 3 weeks and I have no roots yet..\n\nAfter a week or two of it not recovering, I decided I needed to do emergency surgery. I watched some YouTube videos on propagating monstera and I cut the \"middle\" section out of the plant, as that's where the \"healthiest\" looking leaves remained. I used a clean, fresh razor blade to make the cuts and did exactly as the video said... I have changed the water out every 3-4 days. The leaves still look unchanged, no better or worse, but there are no signs of new roots or new growth anywhere and the areas that were cut have just turned brown...\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 90%, healthy 10%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 92%, fungal_bacterial 5%, healthy 3%, other 0%, pest 0%\nPhoto 3: watering 97%, fungal_bacterial 3%, healthy 0%, other 0%, pest 0%\nPhoto 4: healthy 92%, watering 8%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: stem rot, probably from the original plant's roots.** The cut ends have turned black and soft, and the dark, sunken lesions along the stems look like rot spreading in from the wounds. The root ball in the photos has thin, brown, stringy roots, which suggests the mother plant was already rotting below the soil. Its lower leaves show brown patches, and the big plant in the last photo sits in a deep pot with no visible drainage, so overwatering is the likeliest root cause. The classifier's \"watering\" label fits the mother plant's decline but not the cuttings, so I'd weight it lightly.\n\n**Other possibilities:**\n- **Normal drying of cut tissue.** Some browning at a cut end is common. It's fine if the tissue is dry and firm and the browning stops at the wound. Squeeze each piece: if it's mushy or smells, it's rot.\n- **No node on the cutting.** Without a node, a cutting never roots, even if it stays green for weeks. Look for a small raised, tan ring where a leaf attached. If a piece has none, start over with a new one.\n\n**Quick check:** Squeeze the stem below the brown area. Firm means the problem is mostly cosmetic. Soft means rot.\n\n**Fix:**\n1. **Sanitize a sharp blade** with rubbing alcohol. Cut off all soft, brown tissue until you reach firm green stem. Keep the node if you can, since cutting above it can cost you the cutting. Let the cut dry for a day or two before re-submerging.\n2. **Change the water every 3\u20135 days** and submerge only the node, not the cut end. Keep the jar out of direct sun.\n3. **Inspect the mother plant's roots.** Keep any firm, pale roots, trim the mushy brown ones, and repot in a chunky, well-draining mix in a pot with drainage holes. Water only when the top few inches are dry.\n4. **If the cuttings keep rotting,** take a fresh cutting that includes a node and root it in moist sphagnum or soil instead of water.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 45241,
+ "output_tokens": 2517,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "monstera stem cutting brown black rot water propagation node",
+   "results": [
+    {
+     "url": "https://garden.org/thread/view/100864/Monstera-Deliciosa-cuttings-in-water/",
+     "title": "Monstera Deliciosa cuttings in water in the Ask a Question forum - Garden.org"
+    },
+    {
+     "url": "https://www.bumbleplants.com/blogs/plants/should-i-cut-off-the-brown-aerial-roots-from-monstera-deliciosa",
+     "title": "Should I cut off the brown aerial roots from Monstera Deliciosa? \u00b7 Bumble Plants"
+    },
+    {
+     "url": "https://bababerry.co/blogs/self-watering/how-to-propagate-a-monstera-deliciosa",
+     "title": "How to Propagate a Monstera: Cutting + Node Guide (2026)"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/monstera/propagate/",
+     "title": "Monstera Propagation: The Node Is a Hormone Factory (Water vs. Moss vs. Soil Rooting Compared) - Blooming Expert"
+    },
+    {
+     "url": "https://plantcareclub.com/care-guides/propagate-monstera-stem-cuttings-air-layering",
+     "title": "How to Propagate Monstera: Stem Cuttings & Air Layering (2026 Guide)"
+    },
+    {
+     "url": "https://leafandpaw.com/2018/07/02/illustration-of-monstera-deliciosa/",
+     "title": "Illustrated Propagation: Monstera Deliciosa - Leaf and Paw"
+    },
+    {
+     "url": "https://leafypixels.com/guides/monstera-propagation-guide/",
+     "title": "Monstera Propagation Guide: Water, Soil, Nodes and Cuttings"
+    },
+    {
+     "url": "https://garden.org/thread/view/121582/Albo-Monstera-Propagation-Question/",
+     "title": "Albo Monstera Propagation Question in the Ask a Question forum - Garden.org"
+    },
+    {
+     "url": "https://garden.org/thread/view/118801/MONSTERA-ALBO-IN-TROUBLE-Root-rot-when-propagating/",
+     "title": "MONSTERA ALBO IN TROUBLE!!! Root rot when propagating :( in the Propagation forum - Garden.org"
+    },
+    {
+     "url": "https://tandranicole.com/propagating-monstera-albo/",
+     "title": "A Beginner\u2019s Guide to Propagating a Monstera Albo in Water - Tandra Nicole"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

@@ -1,0 +1,18 @@
+{
+ "thread_id": "1bgt7ji",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1bgt7ji_01.jpg",
+  "data/reddit/resolved/images/1bgt7ji_02.jpg",
+  "data/reddit/resolved/images/1bgt7ji_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: why do my plant leaves have tore up?\n\nthe apartment i am living in doesnt receive a lot of sun light, so the water from the soil doesnt dry up much quickly than regular time. the brown spots are from overwatering pretty sure.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 83%, fungal_bacterial 16%, watering 1%, other 0%, pest 0%\nPhoto 2: watering 84%, healthy 8%, fungal_bacterial 6%, other 2%, pest 0%\nPhoto 3: healthy 69%, watering 30%, fungal_bacterial 1%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: physical damage, not watering.** The tears in all three photos have ragged, torn edges and missing chunks, which fits animal chewing, wind or balcony gusts, or leaves rubbing against walls, furniture, or the netting in the third photo. Overwatering makes leaves go soft, yellow, or mushy, and these leaves are firm with dry, brittle edges. The brown streaks on the monstera look like scrapes, not rot spots. The classifier's \"watering\" call is weak evidence here, and it contradicts what the leaves show.\n\n**Ways to tell the causes apart:**\n- **Pets:** bites are rounder, with tooth-mark gouges, and often sit low on the plant. Check for chewed stems or dog or cat access.\n- **Insect chewing:** look at the undersides and new growth at night with a flashlight for caterpillars, beetles, or snails, and check for droppings (small dark specks) near the holes.\n- **Wind or rubbing:** damage is mostly on the exposed outer leaves, with tears running along the leaf and abrasion on the side facing the net or wall.\n\n**What to do:**\n1. Move the plants out of wind and away from anything they rub against, and keep pets away from them.\n2. Inspect the undersides and stems for pests. If you find any, treat with insecticidal soap or neem oil.\n3. Trim torn leaves back to the stem or base with clean scissors. Damaged leaves won't heal, but new growth will be fine.\n4. Water only when the top 2 to 3 cm (about an inch) of soil is dry. Your low light means the soil stays wet longer, so you need to water less often than you would in a sunnier spot. Make sure the pots drain well.\n\nAlso move the plants as close to your brightest window as you can. Low light causes slow growth and leggy stems, but it does not cause tearing.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 7470,
+ "output_tokens": 1632,
+ "web_search_requests": 0,
+ "searches": [],
+ "possible_leaks": []
+}

@@ -1,0 +1,103 @@
+{
+ "thread_id": "xv9lfg",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/xv9lfg_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Is this new vine stuck or am I just too impatient?\n\nI took some cuttings from this scindapsus a while ago (they are doing great). Now the mother plant is forming a new vine from the last node before I cut it, but the tip seems to be stuck. Do I need to do something or just wait?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: fungal_bacterial 58%, healthy 27%, watering 13%, other 2%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: this is normal. The new shoot is still unfurling.** The growing tip is wrapped in a pale, tightly rolled sheath, which is how Scindapsus new leaves start out. New Scindapsus leaves emerge in a protective fiddlehead shape, gradually flattening over 5\u201310 days. Other sources describe a slower timeline, and one notes that it can take anywhere from a few days to two weeks for a leaf to fully open. Your mother plant's leaves look clean, with no spots, webbing, or soft stems, so the classifier's 58% fungal_bacterial reading doesn't match what I see. I don't see lesions in the photo.\n\n**Less likely, and how to tell them apart:**\n- **Low humidity sticking the sheath.** The protective sheath dries out before the leaf can open and physically welds itself closed. If the sheath looks dry, papery, or split, and your room is dry (heating, AC), this is the cause.\n- **Thrips on the growth tip.** Thrips are the most common pest cause and they hide on the growth tip itself. Use a magnifier on the tip and undersides of nearby leaves. Look for silvering, distorted leaves, or dusty specks.\n\n**What to do:**\n1. **Wait another 1\u20132 weeks** and keep the plant where it is. Don't pull on the sheath.\n2. **If it stays closed,** dampen a cotton bud with water and gently loosen the sheath edges. Don't force it.\n3. **Keep the humidity moderate.** Grouping plants or using a humidifier works better than misting.\n4. **Don't change the watering routine** because of this. Water when the top of the soil is dry, not on a fixed schedule.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 41664,
+ "output_tokens": 1524,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "scindapsus pictus new leaf unfurling stuck",
+   "results": [
+    {
+     "url": "https://greg.app/question/d8jvs/whats-up-with-scindapsis-aka-satin-pothos-off-and-on-developing-new-leaf-will-turn-brown-at-tip-take",
+     "title": "What\u2019s up with scindapsis aka satin pothos?"
+    },
+    {
+     "url": "https://garden.org/thread/view/120154/Why-is-my-scindapsus-pictus-failing-now/",
+     "title": "Why is my scindapsus pictus failing now in the Ask a Question forum - Garden.org"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/why-are-the-leaves-on-my-scindapsus-drooping-or-curled",
+     "title": "Why Are the Leaves on My Scindapsus Drooping or Curled?"
+    },
+    {
+     "url": "https://plantgrail.com/plants/scindapsus-pictus/",
+     "title": "Scindapsus Pictus Care: Fix Curling Leaves, Yellow Leaves & More"
+    },
+    {
+     "url": "https://greg.app/scindapsus-pictus-silver-hero-leaves-curling/",
+     "title": "Why Are My Scindapsus pictus 'Silver Hero' Leaves Curling?"
+    },
+    {
+     "url": "https://garden.org/thread/view/140873/Scindapsus-pictus-new-leaf-yellow/",
+     "title": "Scindapsus pictus new leaf yellow in the Houseplants forum - Garden.org"
+    },
+    {
+     "url": "https://plnts.com/en/blog/plant-leaves-not-opening-or-unfurling-the-cause-and-solution",
+     "title": "Plant leaves not opening or unfurling: the cause & solution!"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/new-growth-problems-pale-small-deformed-leaves",
+     "title": "My Plant's New Growth Looks Wrong: Diagnosing Pale, Small, or Deformed New Leaves"
+    },
+    {
+     "url": "https://www.ourhouseplants.com/plants/satin-pothos-scindapsus-pictus",
+     "title": "Scindapsus pictus (Satin Pothos): Info, Care Tips and Problem Guide"
+    }
+   ]
+  },
+  {
+   "query": "scindapsus cuttings new growth slow to emerge node",
+   "results": [
+    {
+     "url": "https://greenboog.com/scindapsus-breeding-technique-5-simple-steps/",
+     "title": "How to Propagate Scindapsus from a Stem Node"
+    },
+    {
+     "url": "https://garden.org/thread/view/146040/Propagated-pothos-doesnt-shoot-new-leaves/",
+     "title": "Propagated pothos doesn't shoot new leaves in the Ask a Question forum - Garden.org"
+    },
+    {
+     "url": "https://www.bybrittanygoldwyn.com/scindapsus-pictus-care/",
+     "title": "Your scindapsus pictus care and propagation guide!"
+    },
+    {
+     "url": "https://floralacres.ca/blogs/this-month-in-the-garden/in-the-tropical-garden-scindapsus",
+     "title": "In the Tropical Garden - Scindapsus"
+    },
+    {
+     "url": "https://www.theplantindex.com/plants/scindapsus-pictus",
+     "title": "Scindapsus pictus (Satin Pothos): Care, ID vs. Pothos & Toxicity Guide"
+    },
+    {
+     "url": "https://www.ourhouseplants.com/plants/scindapsus-treubii-moonlight-and-dark-form",
+     "title": "Scindapsus Treubii Moonlight and Dark Form: Info, Care Tips and Problem Guide by ourhouseplants.com"
+    },
+    {
+     "url": "https://www.jennijuniper.com/scindapsus-varieties-and-care/",
+     "title": "The Scindapsus"
+    },
+    {
+     "url": "https://www.myedenplants.com/best-tool-2026/how-to-propagate-scindapsus-pictus",
+     "title": "Propagate Scindapsus Pictus: Easy Method That Works (USA 2026)"
+    },
+    {
+     "url": "https://flowerri.com/blogs/propagation/how-to-propagate-scindapsus-pictus-a-comprehensive-guide",
+     "title": "How to Propagate Scindapsus Pictus: A Comprehensive Guide"
+    },
+    {
+     "url": "https://www.getgrowli.app/propagate/scindapsus-silvery-ann",
+     "title": "How to Propagate Scindapsus Silvery Ann? Stem Cuttings"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

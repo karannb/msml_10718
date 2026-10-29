@@ -24,4 +24,4 @@ interval over threads. Cost of this run: $0.30.
 | diag_score   | 0.00 [-0.05, 0.06] | -0.01 [-0.07, 0.04]                | 11 / 72 / 13                                    |
 | advice_score | 0.03 [-0.03, 0.09] | 0.03 [-0.03, 0.09]                 | 18 / 64 / 14                                    |
 
-Per-thread grades and reasons: `results/llm/resolved-haiku-5-5/scores.csv`. Answers: `results/llm/resolved-haiku-5-5/answers/`.
+Per-thread grades and reasons: `results/llm/resolved-haiku-5-5/scores-all.csv`. Answers: `results/llm/resolved-haiku-5-5/answers/`.

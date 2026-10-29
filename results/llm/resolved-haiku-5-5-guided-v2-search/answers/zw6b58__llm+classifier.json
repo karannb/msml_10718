@@ -1,0 +1,108 @@
+{
+ "thread_id": "zw6b58",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/zw6b58_01.jpg",
+  "data/reddit/resolved/images/zw6b58_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: how do i make this pot more stable?\n\ni repotted my orchid three days ago and put it in this pot. it\u2019s fallen over three times since then and it\u2019s very hard for me to balance it to stay upright. any suggestions?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 89%, watering 9%, fungal_bacterial 1%, other 0%, pest 0%\nPhoto 2: watering 82%, healthy 11%, fungal_bacterial 6%, other 1%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: normal post-repotting instability, not a disease.** The leaves are firm, green, and unwilted, and nothing in the photos shows rot or pests. The orchid is top-heavy with a flower spike, and its roots haven't yet grabbed the fresh bark. After repotting, fresh bark provides limited resistance, so the plant tips easily. It should settle as roots anchor, usually over weeks.\n\n**Fix:**\n\n1. **Anchor it.** Push a bamboo skewer into the bark, away from the roots, and tie the stem loosely to it with soft ribbon or plant tie. Don't tighten it against the stem. Place the skewer in the medium, avoiding the roots of the plant, and tie the Phal to it gently. You can also run a soft wire through the drainage slots and around the base to hold it. Keep the tie low on the stem, below the flower spike.\n\n2. **Add weight and leave it alone.** Put a few pebbles or a heavier cache pot under the clear pot to lower the centre of gravity. After you do that, don't move it around. Just leave it in its growing spot unless you're watering it.\n\n3. **Check the saucer and the watering.** The saucer looks like it holds water, and standing water causes rot, so empty it after every watering. Pre-soaked fresh bark holds moisture for the first few days, so don't add water by habit. Wait until the bark in the top third of the pot feels dry to the touch before watering again. Insert a skewer to check the middle of the pot as well.\n\n4. **Hold the fertilizer.** Hold off on fertilizer for 4 to 6 weeks while the roots heal.\n\n**Why I don't weigh the classifier's \"watering\" call much:** the damp, dark bark in photo 2 is probably just freshly soaked medium. Overwatering would show as soft, brown or mushy roots, and the leaves don't look like that. A quick root check will confirm this. Healthy roots look green when wet and silvery when dry.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 47646,
+ "output_tokens": 2480,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "repotted phalaenopsis orchid unstable falling over staking",
+   "results": [
+    {
+     "url": "https://garden.org/thread/view/151028/How-can-I-stop-my-orchid-from-leaning/",
+     "title": "How can I stop my orchid from leaning? in the Orchids forum - Garden.org"
+    },
+    {
+     "url": "https://missorchidgirl.com/stabilizing-leaning-phalaenopsis-orchid/",
+     "title": "MissOrchidGirl - Stabilizing leaning Phalaenopsis Orchid"
+    },
+    {
+     "url": "https://greg.app/phalaenopsis-orchid-leaves-falling-over/",
+     "title": "Why Are My Phalaenopsis Orchid Leaves Falling Over?"
+    },
+    {
+     "url": "https://greg.app/mini-phalaenopsis-orchid-leaves-falling-over/",
+     "title": "Why Are My Mini Phalaenopsis Orchid Leaves Falling Over? \ud83d\ude14"
+    },
+    {
+     "url": "https://phalpal.com/",
+     "title": "Phal Pal Orchid Support System: Stabilize Orchids After Repotting"
+    },
+    {
+     "url": "https://www.orchidboard.com/community/potting-and-repotting/72168-orchid-wont-stay-pot-repotted.html",
+     "title": "orchid won't stay in it's pot after repotted - Orchid Board - Most Complete Orchid Forum on the web !"
+    },
+    {
+     "url": "https://www.gardenia.net/guide/why-are-my-orchids-flowers-falling-off-reasons-and-remedies",
+     "title": "Why Are My Orchid Flowers Falling Off? Reasons and Remedies"
+    },
+    {
+     "url": "https://www.orchidboard.com/community/beginner-discussion/98042-prop-orchid-leaves-top-heavy.html",
+     "title": "Do you prop your orchid up if the leaves are top heavy? - Orchid Board - Most Complete Orchid Forum on the web !"
+    },
+    {
+     "url": "https://www.loveorchids.co.uk/blogs/home/when-should-you-repot-an-orchid",
+     "title": "When to Repot an Orchid: 5 Signs It\u2019s Time"
+    },
+    {
+     "url": "https://www.missouribotanicalgarden.org/Portals/0/Gardening/Gardening%20Help/Factsheets/Orchid%20Problems34.pdf",
+     "title": "Visit us on the Web: www.gardeninghelp.org Orchids: Problems"
+    }
+   ]
+  },
+  {
+   "query": "phalaenopsis repotting bark media watering after repotting wait days",
+   "results": [
+    {
+     "url": "https://greg.app/plant-care/how-to-repot/phalaenopsis-orchid/",
+     "title": "How to Repot a Phalaenopsis Orchid"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/orchids/repotting-guide/",
+     "title": "Orchid Repotting: Bark Mix and Damaged Root Care"
+    },
+    {
+     "url": "https://plantin.alibaba.com/plant-wiki/when-to-repot-orchids-phalaenopsis",
+     "title": "When to Repot Phalaenopsis Orchids: Best Time & Care Tips"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/orchids/phalaenopsis-growing-guide/",
+     "title": "Phalaenopsis Orchid Care: Light, Humidity, Reblooming"
+    },
+    {
+     "url": "https://plantin.alibaba.com/plant-wiki/when-to-replant-orchids-phalaenopsis",
+     "title": "When to Replant Orchids Phalaenopsis - Plant Care"
+    },
+    {
+     "url": "https://thehomesprouts.com/plantcare/is-phalaenopsis-orchid-an-indoor-plant-repotting-guide",
+     "title": "Phalaenopsis Orchid Repotting: 7-Step Root Rot Fix (2026)"
+    },
+    {
+     "url": "https://discover.hubpages.com/living/A-Quick-Guide-to-Repotting-a-Phalaenopsis-Orchid",
+     "title": "A Quick Guide to Repotting a Phalaenopsis Orchid - HubPages"
+    },
+    {
+     "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/how-do-i-water-an-orchid",
+     "title": "How Do I Water an Orchid?"
+    },
+    {
+     "url": "https://www.orchidboard.com/community/potting-and-repotting/77705-afraid-repot-phalaenopsis-bad-experience.html",
+     "title": "Afraid to repot phalaenopsis after a bad experience - Orchid Board - Most Complete Orchid Forum on the web !"
+    },
+    {
+     "url": "https://www.justaddiceorchids.com/when-to-repot-your-orchid",
+     "title": "3 Telltale Signs It\u2019s Time to Repot Your Orchid"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

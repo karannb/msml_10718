@@ -1,0 +1,54 @@
+{
+ "thread_id": "1ipphor",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1ipphor_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Just got this thing today. Rinsed the crappy Lowe\u2019s soil off of it and repotted it and it showed how much it hated that within hours. It\u2019ll be okay if I give it time right?\n\nBasically it wilted within 2 hours after repotting\u2026. If even that long\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 58%, healthy 42%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: transplant shock from root disturbance.** Rinsing off the Lowe's soil and repotting disturbed the roots, so the plant couldn't take up water fast enough and wilted within hours. This is a common reaction for zebra plants (*Aphelandra*). Transplant shock is a real risk with this plant and looks identical to underwatering (wilting, yellowing, stunted growth). In your photo the leaves still look reasonably firm and I see no pests, so this is recoverable. Recovery usually takes a few weeks, not days.\n\n**Other possibilities:**\n- **Overwatering or root rot.** Rinsing and repotting often leaves the root ball and mix soggy. Wilting in wet soil points to root rot from overwatering. Check this now: push a finger an inch into the soil. If it's wet, don't water. Tip the plant out and look for brown, mushy roots.\n- **Underwatering.** Less likely, since you've just watered, but if the soil is bone dry, water thoroughly. This plant wants consistent moisture, not extremes.\n\n**What to do:**\n1. **Water only when needed.** Water thoroughly when the top inch of soil feels dry, let it drain completely, and never let the pot sit in a saucer full of water.\n2. **Keep it stable and shaded.** Keep your plant in a shaded area for a few days. Direct sunlight can be too harsh during this adjustment period. Bright indirect light is ideal after that. Keep it away from drafts and cold windows.\n3. **Boost humidity gently.** A plastic bag over the plant may help. Prop it loosely so air still moves, and open it for a few minutes daily to prevent mold.\n4. **Hold off on fertilizer.** Hold off on fertilizing for a few weeks to allow roots to settle.\n\nIf it hasn't perked up in about two to three weeks, or the stem goes soft, unpot it and trim any mushy roots to healthy white tissue.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 27826,
+ "output_tokens": 1937,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "zebra plant Aphelandra wilting after repotting transplant shock care",
+   "results": [
+    {
+     "url": "https://www.ukhouseplants.com/plants/aphelandra-squarrosa",
+     "title": "Our Care-Guide for Aphelandra Squarrosa! (Zebra Plants)"
+    },
+    {
+     "url": "https://www.plantscryer.com/plants/zebra-plant",
+     "title": "How to Care for Zebra Plant"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/zebra-spider-plant-wilting-after-repotting",
+     "title": "Why Is My Zebra Spider Plant Wilting After Repotting It?"
+    },
+    {
+     "url": "https://www.aol.com/articles/keep-zebra-plant-alive-thriving-205546017.html",
+     "title": "How to Keep a Zebra Plant Alive and Thriving Indoors - AOL"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/zebra-spider-plant-dying-after-repotting",
+     "title": "My Zebra Spider Plant Is Dying After Repotting It. Help!"
+    },
+    {
+     "url": "https://www.gardenweb.com/discussions/4264190/zebra-plant-aphelandra-squarrosa-help",
+     "title": "Zebra Plant - Aphelandra Squarrosa Help"
+    },
+    {
+     "url": "https://plnts.com/en/care/houseplants-family/aphelandra",
+     "title": "Aphelandra Care Guide: Tips & Tricks"
+    },
+    {
+     "url": "https://bababerry.co/blogs/self-watering/zebra-plant-care",
+     "title": "Zebra Plant Care: Complete Aphelandra Guide (2026)"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

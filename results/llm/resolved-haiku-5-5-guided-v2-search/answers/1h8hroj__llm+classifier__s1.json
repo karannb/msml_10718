@@ -1,0 +1,55 @@
+{
+ "thread_id": "1h8hroj",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1h8hroj_01.jpg",
+  "data/reddit/resolved/images/1h8hroj_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Is this basil plant salvageable?\n\nIdk what I\u2019m doing wrong. My girlfriend brought it from Winco and we watered it and put it near a window and it just continues to wilt. Maybe I need better soil.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: an overcrowded, root-bound grocery basil.** Store basil is usually a clump of seedlings packed into one small pot. Roots have hardly any access to water or nutrients because there's so little substrate. That explains why watering doesn't fix it: the plant loses water faster than the cramped roots can supply it. Your soil isn't the problem; the crowding is.\n\n**Two other possibilities to rule out:**\n- **Root rot from overwatering.** If the soil stays soggy, smells sour, or the stem bases are soft or brown, the roots are rotting. Healthy roots are white and firm; rotten ones are brown, mushy, and may fall apart when you touch them.\n- **Dry root ball.** If the soil is dry and pulling away from the pot edge, the plant is thirsty. Lift the pot: a light pot means it needs water.\n\n**Quick check:** Slide the plant out of the pot and look at the roots. A tight tangle of white roots means crowding. Brown, mushy roots mean rot. A dry, shrunken ball means underwatering.\n\n**Fix:**\n1. **Unpot and divide.** Gently pull the roots apart with some stems attached and repot them in individual four- to six-inch containers filled with soil. Use pots with drainage holes.\n2. **Trim any rotten roots** with clean scissors, then water each new pot thoroughly until it drains. Then wait until the top inch is dry before watering again.\n3. **Provide steady conditions.** Keep the plants in bright light, away from cold glass at night and heating vents. Aim for roughly 65\u201385\u00b0F.\n4. **Pinch off any flower spikes** and remove badly yellowed or blackened leaves so the plant puts energy into new growth.\n\n**Salvageable?** Probably yes, if the stems are still firm and green at the base. Recovery from crowding or underwatering can take a week or two. If the roots are mostly brown and mushy, the plant is much harder to save, so start cuttings from healthy stems and root them in water.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 35941,
+ "output_tokens": 2512,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "store bought basil wilting after watering root bound overwatering fix",
+   "results": [
+    {
+     "url": "https://spiderfarmer.eu/blog/basil-plant-wilting/",
+     "title": "How to Save a Wilting and Drooping Basil Plant?"
+    },
+    {
+     "url": "https://plantidentifierfree.app/blog/basil-drooping-wilting",
+     "title": "Basil Plant Drooping and Wilting: Causes & Fixes"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/basil-plant-wilting",
+     "title": "Basil Plant Wilting: Causes, Fixes & Prevention Guide - LifeTips"
+    },
+    {
+     "url": "https://www.tomsguide.com/home/outdoors/why-is-my-basil-wilting",
+     "title": "Why is my basil wilting? 5 reasons why, and how to treat it"
+    },
+    {
+     "url": "https://gardenerspath.com/plants/herbs/wilting-basil/",
+     "title": "9 Reasons Your Basil Plants Are Wilting and Drooping"
+    },
+    {
+     "url": "https://www.gardenerbasics.com/blog/basil-leaves-wilting",
+     "title": "7 Reasons For Your Basil Leaves Wilting And Solutions To Fix It"
+    },
+    {
+     "url": "https://homemaking.com/maka/why-basil-plant-keeps-wilting-fix-it/",
+     "title": "Why Basil Plant Keeps Wilting & How to Fix It Fast"
+    },
+    {
+     "url": "https://gardenstack.be/en/blog/basil-plant-dying-problems",
+     "title": "Why Is My Basil Dying? 9 Problems and How to Save It"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

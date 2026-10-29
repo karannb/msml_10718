@@ -1,0 +1,103 @@
+{
+ "thread_id": "1e73qwo",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1e73qwo_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Every spider plant that I get ends up like this, central leaves turn black and the plant dies, even though it has enough water and light\n\nI don't over or under water it, it has enough sun this time, I don't get it, it's supposed to be an easy plant and the ones I get always die like that\n\nIt has direct sunlight from the south of France directly into its plant face from 9am to 3pm\n\n50cm from the window and on a shelf yes, like 40 cm from the ground\n\nMaybe once a week\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 58%, healthy 42%, fungal_bacterial 0%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: sun scorch from the window.** Your plant gets direct sun from 9am to 3pm, and south-facing glare is the stress you describe most. Spider plants should avoid direct sunlight, especially from south-facing windows, as it can scorch the leaves. The photo fits: several leaves have dark, dried tips and the striped margins look a little washed out. The soil doesn't look soggy, so this isn't a case for watering less.\n\n**Other possibilities:**\n- **Tap water minerals or salts (likely, and it can coexist with sun damage).** Spider plants are unusually sensitive to fluoride, chlorine, and boron, and rainwater or distilled water is the best choice. Check for a white crust on the soil or pot rim, which points to fertilizer salts.\n- **Underwatering in terracotta.** Terracotta dries fast in hot sun, so a weekly schedule may be too little in summer. Push a finger 2\u20133 cm into the soil. If it's dry, the plant is thirsty. Crown rot would show as a soft, dark base at soil level, a sour smell, or soil that stays wet for days. Only then should you cut back.\n\n**Fix, in order:**\n1. **Move it out of direct sun.** Put it 1\u20132 m back from the south window, or behind a sheer curtain. The one thing they will not tolerate is direct afternoon sun, which scorches leaves and bleaches stripes.\n2. **Change the water.** Use rainwater, distilled water, or tap water left out for 24 hours (this removes chlorine but not fluoride). Flush the pot with plenty of that water every 2\u20133 months.\n3. **Water by the finger test, not the calendar.** Water thoroughly until it runs out the bottom, then empty the saucer. Feed only monthly in spring and summer at half strength.\n4. **Trim the damage.** Cut brown tips at an angle with sharp scissors. Damaged tissue won't recover, but new growth should come in clean. If the centre rots, pull out healthy plantlets and root them in water.\n\nThe classifier's \"watering\" hint is weak and not supported by what I can see. The most useful thing you can do now is get the plant out of the afternoon sun and switch water sources.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 52149,
+ "output_tokens": 2708,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "spider plant central leaves turning black causes",
+   "results": [
+    {
+     "url": "https://www.gardenerreport.com/why-are-my-spider-plant-leaves-turning-black/",
+     "title": "Why Are My Spider Plant Leaves Turning Black?"
+    },
+    {
+     "url": "https://www.epicgardening.com/spider-plant-brown-tips/",
+     "title": "Why Your Spider Plant Has Brown Tips (and How to Fix it)"
+    },
+    {
+     "url": "https://scienceinsights.org/why-is-my-spider-plant-turning-black/",
+     "title": "Why Is My Spider Plant Turning Black? - ScienceInsights"
+    },
+    {
+     "url": "https://biologyinsights.com/spider-plant-turning-black-heres-what-to-do/",
+     "title": "Spider Plant Turning Black? Here\u2019s What to Do - Biology Insights"
+    },
+    {
+     "url": "https://cafeplanta.com/a/blog/why-are-spider-plant-leaves-turning-black",
+     "title": "Why Are Spider Plant Leaves Turning Black?"
+    },
+    {
+     "url": "https://plantelio.com/spider-plant-leaves-turning-black/",
+     "title": "Spider Plant Leaves Turning Black: Causes and How to Fix It - Plantelio"
+    },
+    {
+     "url": "https://a-z-animals.com/blog/spider-plant-leaves-brown-or-yellow-spots-and-how-to-fix/",
+     "title": "Spider Plant Leaves: Brown or Yellow Spots and How to Fix - A-Z Animals"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/reverse-variegated-spider-plant-leaves-turning-black",
+     "title": "Why Are My Reverse Variegated Spider Plant's Leaves Turning Black?"
+    },
+    {
+     "url": "https://plantscraze.com/spider-plant-problems/",
+     "title": "12 Spider Plant Problems and Their Solutions - Plants Craze"
+    },
+    {
+     "url": "https://www.modandmint.com/spider-plant-common-problems/",
+     "title": "Spider Plant Problems: Brown Tips, Pale Yellow Leaves? Let's Fix it!"
+    }
+   ]
+  },
+  {
+   "query": "spider plant direct sun scorch brown tips watering",
+   "results": [
+    {
+     "url": "https://www.almanac.com/plant/spider-plants",
+     "title": "Spider Plant Care Guide"
+    },
+    {
+     "url": "https://www.epicgardening.com/spider-plant-brown-tips/",
+     "title": "Why Your Spider Plant Has Brown Tips (and How to Fix it)"
+    },
+    {
+     "url": "https://www.littleflowercottage.com/9-reasons-your-spider-plant-has-brown-tips-and-how-to-fix-them/",
+     "title": "9 Reasons Your Spider Plant Has Brown Tips (And How to Fix Them) - Little Flower Cottage"
+    },
+    {
+     "url": "https://balajinursery.org/why-is-my-spider-plant-turning-brown/",
+     "title": "Why is my spider plant turning brown? - Balaji Nursery"
+    },
+    {
+     "url": "https://www.hortipower.com/blogs/news/ultimate-spider-plant-care-guide-expert-tips-and-benefits-of-grow-lights",
+     "title": "Ultimate Spider Plant Care Guide: Expert Tips and Benefits of Grow Lig"
+    },
+    {
+     "url": "https://www.getgrowli.app/blog/spider-plant-care",
+     "title": "Spider plant care \u2014 water, brown tips, and spiderettes"
+    },
+    {
+     "url": "https://plantfix.org/guides/spider-plant-brown-tips",
+     "title": "Spider Plant Brown Tips: The Tap-Water Cause and the Fix"
+    },
+    {
+     "url": "https://planthouseandgarden.com/spider-plant-brown-tips/",
+     "title": "Spider Plant Brown Tips: 8 Real Causes + Easy Fixes That Work"
+    },
+    {
+     "url": "https://houseplantauthority.com/brown-tips-spider-plants/",
+     "title": "Exactly How to Fix Brown Tips on Spider Plants for Healthy Growth - Houseplant Authority"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

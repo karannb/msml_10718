@@ -1,0 +1,115 @@
+{
+ "thread_id": "15bu4a2",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/15bu4a2_01.jpg",
+  "data/reddit/resolved/images/15bu4a2_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Moonlight Philodendron Diagnoses\n\nI purchased this (I believe) moonlight Philodendron about a month or two ago. I noticed a brown spot upon purchasing but figured it was nothing. Today, I lost a leaf and others are turning brown as well. The plant is still growing new leaves and there are several healthy leaves. My central ac broke in my home so humidity is high and temp has been suitable in here for plant life. I only water when the soil feels dry and not on a scheduled basis. I reported it as soon as I got it.\n\nI did not! I'm still kinda new to this...\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 62%, fungal_bacterial 27%, other 11%, healthy 0%, pest 0%\nPhoto 2: watering 89%, healthy 7%, fungal_bacterial 3%, other 1%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: bacterial leaf spot, made worse by wet leaves and high humidity.** The large yellow leaf has brown patches, and the glossy leaf in the second photo is beaded with water. Bacterial leaf spot starts as tiny translucent spots along the edges of the leaves, which later turn reddish-brown and develop a yellow halo. The bacteria need moisture to move and reproduce, so your broken AC and any water sitting on the leaves favor it.\n\n**Other possibilities:**\n\n- **Root rot from overwatering.** Widespread yellowing and a dense store-bought mix can keep roots wet longer than you expect, even when the top feels dry. Lift the pot. Rotten roots look brown, smushy, and may smell bad. Healthy roots are firm and pale.\n- **Sun scorch or physical damage.** Check whether the worst patches face a window. The brown streaks along the veins on the yellow leaf look more like scrapes or old damage than disease.\n\nI don't see webbing, bumps, or stippling, but check the leaf undersides for spider mites or scale before ruling out pests.\n\n**What to do:**\n\n1. **Remove the worst leaves** at the base with clean, disinfected shears. Don't compost them.\n2. **Keep foliage dry.** Water only at soil level and avoid misting. Note that overhead watering, high humidity, and splashing water will encourage the spread.\n3. **Check the soil before watering again.** Push a finger about two inches down. Only hold off watering if the soil stays wet. Otherwise water thoroughly and let it drain fully.\n4. **Improve airflow.** Run a fan near the plant, since improving air circulation around the plant can also help. If spots keep spreading after that, a copper-based spray can help, applied after removing infected material.\n\nIf the roots are mushy, trim the rotten parts and repot in fresh, chunky aroid mix. A few yellow lower leaves on an otherwise healthy plant can also be normal aging.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 57576,
+ "output_tokens": 3175,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "Philodendron Moonlight yellowing brown leaf spots care",
+   "results": [
+    {
+     "url": "https://www.gardenia.net/plant/philodendron-moonlight",
+     "title": "Philodendron 'Moonlight' - Plant Care 101"
+    },
+    {
+     "url": "https://www.heyrooted.com/blogs/plant-care/philodendron-leaves-turning-yellow",
+     "title": "Philodendron Leaves Turning Yellow: Reasons Behind It and How to Fix It"
+    },
+    {
+     "url": "https://greg.app/brown-spots-on-philodendron-moonlight-leaves/",
+     "title": "Why Are There Brown Spots on My Philodendron 'Moonlight'?"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/philodendron-moonlight-problems",
+     "title": "19 Common Problems With Philodendron Moonlights"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/philodendron-moonlight-leaves-turning-yellow",
+     "title": "Why are the Leaves on my Philodendron Moonlight Turning Yellow?"
+    },
+    {
+     "url": "https://botanapp.com/plant/philodendron-moonlight",
+     "title": "How to Care for Philodendron (Philodendron 'Moonlight')"
+    },
+    {
+     "url": "https://greg.app/philodendron-moonlight-yellow-leaves/",
+     "title": "Why Are My Philodendron 'moonlight' Leaves Turning Yellow? \ud83d\udfe1"
+    },
+    {
+     "url": "https://plantication.com/philodendron-yellow-leaves/",
+     "title": "Easy tips for dealing with yellow philodendron leaves - Plantication"
+    },
+    {
+     "url": "https://www.getgrowli.app/plant-care/philodendron-moonlight",
+     "title": "Philodendron 'Moonlight' (Moonlight Philodendron) care guide"
+    }
+   ]
+  },
+  {
+   "query": "philodendron bacterial leaf spot yellow halo overwatering root rot",
+   "results": [
+    {
+     "url": "https://plantaddicts.com/common-philodendron-problems/",
+     "title": "Common Philodendron Problems"
+    },
+    {
+     "url": "https://philodendrontalk.com/black-spots-leaves/",
+     "title": "Black Spots on Your Philodendron? Here's the Easy Fixes"
+    },
+    {
+     "url": "https://gardenerspath.com/plants/houseplants/philodendron-brown-leaves/",
+     "title": "11 Common Reasons Why Philodendron Leaves Turn Brown"
+    },
+    {
+     "url": "https://www.epicgardening.com/philodendron-diseases/",
+     "title": "9 Philodendron Diseases to Watch for This Season"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/philodendron/yellow-leaves-9/",
+     "title": "Why Your Philodendron Leaves Are Turning Yellow \u2014 7 Causes, Each With a Different Fix - Blooming Expert"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/philodendron-diseases",
+     "title": "Common Philodendron Diseases (And How To Treat Them)"
+    },
+    {
+     "url": "https://readytodiy.com/philodendron-has-brown-yellow-or-black-spots-0051/",
+     "title": "Philodendron Has Brown, Yellow or Black Spots? - Ready To DIY"
+    },
+    {
+     "url": "https://homeguides.sfgate.com/philodendron-diseases-33309.html",
+     "title": "Philodendron Diseases"
+    },
+    {
+     "url": "https://gardenforindoor.com/philodendron-bacterial-leaf-spot/",
+     "title": "4 Ways To Treat Philodendron Bacterial Leaf Spot Disease - Garden For Indoor"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/heartleaf-philodendron-diseases",
+     "title": "Common Heartleaf Philodendron Diseases (And How To Treat Them)"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": [
+  {
+   "url": "https://plantaddicts.com/common-philodendron-problems/",
+   "title": "Common Philodendron Problems",
+   "title_similarity": 0.67
+  },
+  {
+   "url": "https://homeguides.sfgate.com/philodendron-diseases-33309.html",
+   "title": "Philodendron Diseases",
+   "title_similarity": 0.72
+  }
+ ]
+}

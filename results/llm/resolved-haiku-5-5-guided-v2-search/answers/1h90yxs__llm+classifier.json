@@ -1,0 +1,65 @@
+{
+ "thread_id": "1h90yxs",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1h90yxs_01.jpg",
+  "data/reddit/resolved/images/1h90yxs_02.jpg",
+  "data/reddit/resolved/images/1h90yxs_03.jpg",
+  "data/reddit/resolved/images/1h90yxs_04.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Is there any saving her?\n\nThis is a sad day. I literally started crying. I know it\u2019s just a plant but I\u2019ve had her for so long and she grew taller than I am. Anyone think I can save it? Maybe give it a good trim and more growth might pop up? This is my fault and I should\u2019ve repotted her a long time ago. \ud83d\ude1e\ud83d\ude2b\n\nAt the end of the long vines is what looks like new growth but of course it\u2019s all wilted and weak looking so not sure if that new growth would even make it\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 49%, watering 49%, fungal_bacterial 1%, other 1%, pest 0%\nPhoto 2: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 3: watering 64%, healthy 35%, other 0%, fungal_bacterial 0%, pest 0%\nPhoto 4: watering 99%, other 1%, healthy 0%, fungal_bacterial 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: a root-bound plant that is drying out faster than its roots can drink, plus leggy growth from too little light.** The yellow, crispy, wilting leaves and the dry-looking soil in the close-up point to thirst rather than soggy roots. Yellowing foliage in root-bound plants comes from overcrowded roots that cannot absorb water and nutrients well enough. You also said you haven't repotted in a long time, and the bare, long stems suggest it has been stretching for light.\n\n**Other possibilities:**\n- **Overwatering or root rot** is the main alternative, especially if the decorative pot holds water. Soil that is still damp two days after watering and soft, black stems at the soil line would point here. Check by pushing a finger into the soil and feeling the stem bases.\n- **Low light** explains the leggy vines and older-leaf yellowing, but probably isn't the main problem alone.\n\n**Quick check:** Lift the pot. If it feels unexpectedly light, the soil is dry. Then slide the plant out and look at the roots. Circling, packed roots mean root-bound. Firm roots with soft brown, mushy sections mean rot.\n\n**Fix:**\n1. **Unpot and inspect.** If the roots are packed, repot into a pot just one size up with fresh, well-draining houseplant potting mix. Gently squeeze and tease the roots apart before repotting so they can spread. Use a pot with drainage holes, not a sealed decorative pot.\n2. **Water thoroughly.** Water until it runs freely out of the drainage hole, then let the pot drain completely. Afterward, water only when the top inch or two of soil is dry.\n3. **Trim.** Remove fully crispy, yellow leaves and any mushy stems. Keep stems that are still green and firm.\n4. **Light and recovery.** Place it in bright, indirect light and skip fertilizer for about a month while it recovers.\n\n**Is she savable?** Yes, probably. Firm green stem sections with a node can also be cut and rooted in water as backup. Don't worry about the new growth at the tips; if the stems stay firm, it may recover once the roots are sorted. Give it a few weeks before judging.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 46263,
+ "output_tokens": 3239,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "root bound houseplant yellowing leaves bare stems repotting watering",
+   "results": [
+    {
+     "url": "https://www.homesandgardens.com/gardens/root-bound-houseplants",
+     "title": "What Are Root-Bound Houseplants? Discover How to Fix Them"
+    },
+    {
+     "url": "https://leavesandsoul.com/blogs/news/what-is-rootbound",
+     "title": "What Is Rootbound and How Do You Fix It?"
+    },
+    {
+     "url": "https://hardyhouseplants.com/root-bound-plants-how-to-identify-and-fix-the-problem/",
+     "title": "Root Bound Plants: How to Spot and Save Them - Hardy House Plants"
+    },
+    {
+     "url": "https://www.masterclass.com/articles/root-bound-plant-guide",
+     "title": "Root-Bound Plant Guide: How to Fix a Root-Bound Plant - 2026 - MasterClass"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/repotting-shock-signs-and-recovery",
+     "title": "Repotting Shock: Signs You Damaged Your Plant \u2014 and How to Recover"
+    },
+    {
+     "url": "https://www.justanswer.com/landscaping/f3mkm-plant-turning-yellow-tips-dry-repotted.html",
+     "title": "Why Are My Plant's Leaves Turning Yellow? Expert Answers & Solutions"
+    },
+    {
+     "url": "https://www.thesill.com/blogs/care-miscellaneous/why-plant-leaves-turn-yellow",
+     "title": "The Sill"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/why-are-my-plants-leaves-turning-yellow",
+     "title": "Yellow Leaves on Houseplants \u2014 10 Causes and How to Fix Each"
+    },
+    {
+     "url": "https://www.leafscan.app/problems/leaf-yellowing-after-repotting",
+     "title": "Leaves Turning Yellow After Repotting \u00b7 Leaf Scan"
+    },
+    {
+     "url": "https://seedtherapy.com/blogs/news/rootbound-rescue-how-to-save-your-plants-from-a-tangled-mess",
+     "title": "Rootbound Rescue: How to Save Your Plants from a Tangled Mess"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

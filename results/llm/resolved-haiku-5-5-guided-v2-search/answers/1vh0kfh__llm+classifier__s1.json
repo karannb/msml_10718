@@ -1,0 +1,62 @@
+{
+ "thread_id": "1vh0kfh",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1vh0kfh_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Hi\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 88%, watering 12%, other 0%, fungal_bacterial 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "This looks like a cannabis plant under a grow light in a mesh pot. Most of the canopy is still vigorous and green, so I'd treat this as a mild problem, not an emergency. I can't see the yellowing clearly enough to be sure, and your post has no details beyond the photo.\n\n**Most likely cause: a nutrient problem, probably pH lockout or a mild nitrogen shortage.** Some mid-canopy leaves are yellowing at the edges and between the veins. Where the yellow sits is the key clue. Yellowing on older, lower leaves usually points to a macronutrient deficiency, while yellowing on new growth at the top usually points to a micronutrient deficiency. If the newest leaves are yellow while the older ones look fine, check pH first, since the most common cause is pH being out of range, which prevents absorption of nutrients that are already present.\n\n**Other possibilities:**\n- **Light stress:** If the top leaves nearest the lamp look bleached or crispy, the light is too close. Raise it.\n- **Overwatering:** If the soil stays wet for days and the leaves look heavy or droopy, cut back on frequency. Check by pushing a finger 2\u20133 inches into the soil before watering.\n\n**Fix, in order:**\n1. **Test pH of your water and runoff.** Aim for 6.0 to 7.0 in soil. Correct pH before adding more nutrients.\n2. **If pH is fine and the lower leaves are fading,** feed a nitrogen-rich veg nutrient at label strength. Don't overfeed. Overfeeding can cause dark, glossy leaves with curling tips.\n3. **Check light distance** and raise the fixture if the top leaves look bleached.\n4. **Let the top inch of soil dry** between waterings.\n\nReply with your pot size, medium, feeding schedule, pH readings, and light distance, and I can narrow this down.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 32140,
+ "output_tokens": 2209,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "cannabis leaves yellowing causes nitrogen deficiency overwatering light stress",
+   "results": [
+    {
+     "url": "https://www.cannabizcredit.com/blog/cannabis-leaf-yellowing-chart",
+     "title": "Cannabis Leaf Yellowing Chart \u2014 Cannabiz Credit Association"
+    },
+    {
+     "url": "https://www.floraflex.com/blogs/floraflex-media/understanding-cannabis-leaves-turning-yellow-causes-and-solutions",
+     "title": "Understanding Cannabis Leaves Turning Yellow: Causes and Solutions"
+    },
+    {
+     "url": "https://www.royalqueenseeds.com/us/blog-yellow-cannabis-leaves-n523",
+     "title": "The causes and solutions for yellow cannabis leaves - RQS USA - RQS Blog"
+    },
+    {
+     "url": "https://trianglehemp.com/why-your-cannabis-leaves-are-turning-yellow-and-what-to-do-about-it/",
+     "title": "Why Your Cannabis Leaves Are Turning Yellow (and What to Do)"
+    },
+    {
+     "url": "https://www.growgreentrees.com/blog/yellow-cannabis-leaves",
+     "title": "3 Common Causes/Solutions for Yellow Cannabis Leaves in 2023"
+    },
+    {
+     "url": "https://www.zamnesia.com/us/grow-weed/564-cannabis-yellow-leaves-diagnose-treat",
+     "title": "Cannabis yellow leaves? Diagnose & treat now"
+    },
+    {
+     "url": "https://marijuanapackaging.com/blogs/questions/why-are-my-cannabis-leaves-turning-yellow-causes-and-solutions",
+     "title": "Why Are My Cannabis Leaves Turning Yellow? Causes and Solutions"
+    },
+    {
+     "url": "https://homegrow.app/troubleshoot/yellow-leaves",
+     "title": "Yellow Leaves on Cannabis Plants \u2014 Causes and Fixes"
+    },
+    {
+     "url": "https://cannoptikum.com/en/blog/factors-in-cannabis-cultivation/yellow-leaves-on-cannabis",
+     "title": "Yellow leaves in cannabis"
+    },
+    {
+     "url": "https://www.azarius.com/wiki/cultivation/cannabis/cannabis-leaf-problems-yellowing-curling",
+     "title": "Cannabis Leaf Problems Yellowing Curling: Diagnostic Guide"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

@@ -1,0 +1,110 @@
+{
+ "thread_id": "1oadqs1",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1oadqs1_01.jpg",
+  "data/reddit/resolved/images/1oadqs1_02.jpg",
+  "data/reddit/resolved/images/1oadqs1_03.jpg",
+  "data/reddit/resolved/images/1oadqs1_04.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: PLEASE help me save this alocasia i got from a plant swap\n\nmoved it inside to avoid any further sun damage, but i'm not sure why else it's suffering \ud83d\ude2d the soil is pretty fine, but i don't have any chunkier alternative right now so i was thinking of putting it in a hydro setup or in sphagnum moss temporarily. i water my plants outside whenever they start looking droopy (using a watering can to fully saturate the soil), but this guy has not perked up since. the pot does have drainage, it has a built in tray.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: fungal_bacterial 67%, healthy 22%, watering 10%, other 1%, pest 0%\nPhoto 2: healthy 64%, fungal_bacterial 24%, other 9%, watering 3%, pest 0%\nPhoto 3: watering 81%, fungal_bacterial 11%, healthy 7%, other 1%, pest 0%\nPhoto 4: watering 68%, healthy 16%, fungal_bacterial 15%, other 1%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: sun scorch plus underwatering.** The bronzed, papery tan patches on the leaves in photos 3 and 4 look like sun damage, and the leaves are dry at the edges. Alocasia leaves are large and thin, so they release moisture quickly and don't tolerate prolonged dryness well. Waiting for droop means the plant has been running dry. The soil in photo 1 looks dark, so it may still be damp at the surface.\n\n**Quick check:** Push a finger 2 inches down. If it's bone dry and the soil has pulled away from the pot wall, underwatering is confirmed. If the mix feels extremely dry several inches below the surface and pulls away from the sides of the pot, underwatering is often the cause.\n\n**Other possibilities:**\n- **Root rot from the tray:** A built-in tray can hold water and keep the roots wet. Lift the pot. If it's heavy, the stem base is soft, or the roots are brown and mushy or smell, this is the problem. Then trim the rotten roots and repot.\n- **Spider mites:** The small specks and stippling on photos 2 and 4 could be mites. Check the leaf undersides for fine webbing.\n\n**Fix:**\n1. **Move it to bright, indirect light,** away from midday sun and heat vents. Existing damage won't reverse, but new leaves should come in clean.\n2. **Water by the soil, not the droop.** Water thoroughly once the top inch is dry, until water runs out the drainage holes. Be sure to water the alocasia until the water comes out of the drainage holes in the bottom of the pot. Empty the tray within 20\u201330 minutes so the roots aren't sitting in it.\n3. **Skip hydro and sphagnum for now.** Sphagnum moss is not the ideal choice for Alocasia houseplants as it retains too much moisture, which can lead to root rot and other fungal diseases. A hydro switch on a stressed plant is risky too. Instead, mix roughly one part perlite or bark into your current soil. If you do repot, pick a pot about 2\u20133 cm wider with drainage holes.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 64969,
+ "output_tokens": 3622,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "alocasia leaves crispy brown edges sunburn underwatering care",
+   "results": [
+    {
+     "url": "https://succulentsbox.com/blogs/blog/brown-and-yellow-alocasia-leaves-causes-and-how-to-fix",
+     "title": "Brown and Yellow Alocasia Leaves: Causes and How to Fix - Succulents Box"
+    },
+    {
+     "url": "https://www.potandleaf.com/what-is-wrong-with-my-alocasia",
+     "title": "What Is Wrong with My Alocasia? Causes & Fixes"
+    },
+    {
+     "url": "https://gardenforindoor.com/alocasia-turning-brown/",
+     "title": "Why Is My Alocasia Turning Brown (13 Causes And Treatment) - Garden For Indoor"
+    },
+    {
+     "url": "https://plantwateringguide.com/tropical-houseplants-guides/alocasia-watering",
+     "title": "Alocasia Watering \u2014 How Often, How Much and Signs to Watch"
+    },
+    {
+     "url": "https://gardenswhisper.com/alocasia-leaves-turning-brown/",
+     "title": "Alocasia Leaves Turning Brown? (11 Causes and Solutions)"
+    },
+    {
+     "url": "https://xanhxanhurbanforest.com/4-reasons-alocasia-leaves-turn-brown/",
+     "title": "Discover 4 Common Reasons Why Alocasia Leaves Turn Brown\u00a0 - Xanh Xanh Urban Forest"
+    },
+    {
+     "url": "https://bouqs.com/blog/alocasia-plant-care/",
+     "title": "Alocasia Plant Care Guide: Water, Light & More"
+    },
+    {
+     "url": "https://greg.app/brown-spots-on-alocasia-frydek-leaves/",
+     "title": "\ud83d\udd0d What to Do About Brown Spots on Your Alocasia 'Frydek'"
+    },
+    {
+     "url": "https://patgarden.com/why-are-my-alocasia-leaves-turning-brown/",
+     "title": "Why Are My Alocasia Leaves Turning Brown? - Pat Garden"
+    },
+    {
+     "url": "https://greg.app/brown-spots-on-alocasia-polly-plant-leaves/",
+     "title": "Why Are There Brown Spots On My Alocasia Polly Plant?"
+    }
+   ]
+  },
+  {
+   "query": "alocasia repotting soil mix perlite drainage root rot",
+   "results": [
+    {
+     "url": "https://www.epicgardening.com/repot-alocasia-plants/",
+     "title": "How and When to Repot Alocasia Plants"
+    },
+    {
+     "url": "https://www.getgrowli.app/repotting/alocasia",
+     "title": "When & how to repot alocasia"
+    },
+    {
+     "url": "https://houseplantalley.com/alocasia-soil-mix-recipe/",
+     "title": "Best DIY Alocasia Soil Mix Recipe (Boosts Growth)"
+    },
+    {
+     "url": "https://www.getgrowli.app/soil/alocasia",
+     "title": "Best Soil for Alocasia? Chunky aroid mix"
+    },
+    {
+     "url": "https://growtropicals.com/blogs/houseplant-care-a-z/alocasia-houseplant-care-guide",
+     "title": "Alocasia Care Guide: Light, Water & Soil"
+    },
+    {
+     "url": "https://simplifyplants.com/what-kind-of-soil-does-alocasia-need/",
+     "title": "Ideal Soil Mix For Alocasia? (Potting Mix Recipe+How To) \u00bb Simplify Plants"
+    },
+    {
+     "url": "https://microveggy.com/alocasia-soil-mix/",
+     "title": "The [3] Best Alocasia Soil Mix to Make or Buy Ready Made"
+    },
+    {
+     "url": "https://nicolaslawn.com/perfecting-your-alocasia-potting-mix-tips-for-thriving-plants/",
+     "title": "Perfecting Your Alocasia Potting Mix: Tips for Thriving Plants"
+    },
+    {
+     "url": "https://alocasiaplant.com/problems/alocasia-root-rot-fix/",
+     "title": "Alocasia Root Rot: How I Saved Mine (Real Steps & Fast Diagnosis)"
+    },
+    {
+     "url": "https://www.potandleaf.com/what-is-wrong-with-my-alocasia",
+     "title": "What Is Wrong with My Alocasia? Causes & Fixes"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

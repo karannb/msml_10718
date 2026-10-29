@@ -3,10 +3,13 @@ input: thread $t$: photos $x_1, \dots, x_m$, title and the poster's text (column
 if `option` = llm+classifier:
     $p(y \mid x_j)$ for each photo, from the trained head `classifier`   // $y$ in the 5 labels
 prompt = post text, [the 5 labels, a warning that the classifier is often wrong, $p(y \mid x_j)$ per photo], "What is wrong with my plant?"
+if `search`:
+    `model` may run up to 3 web searches, results from Reddit and its mirrors excluded   // queries and result URLs saved
 answer = `model`(photos, prompt)
 
 == Grading
 input: answer, thread's confirmed problem, commenters' advice, poster's outcome
 `grader` returns diagnosis $\in$ {correct, partial, wrong}, advice $\in$ {yes, partial, no}, harmful $\in$ {true, false}   // blind to `option`
 $s_t$ = 1, 0.5, 0 for correct, partial, wrong; $a_t$ = 1, 0.5, 0 for yes, partial, no
+with `samples` answers per thread, $s_t$ and $a_t$ are averaged over them
 diag_score $= \frac{1}{n} \sum_t s_t$, advice_score $= \frac{1}{n} \sum_t a_t$   // $n$ = `n_threads`

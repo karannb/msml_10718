@@ -1,0 +1,107 @@
+{
+ "thread_id": "ynr7g4",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/ynr7g4_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: help my baby is drooping after being left in the sun for 2 weeks while i was on vaca she is my heart plz help\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 51%, watering 29%, other 18%, fungal_bacterial 1%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: underwatering, made worse by sun.** Fittonia wilts dramatically when its soil dries out, and its thin leaves hold little water. Two weeks unattended in a sunny spot probably dried the pot out. The scorched-looking brown patches on the top leaves point to sun damage, and the dry air around them adds to the stress. Check the soil before you water to confirm. Stick a finger about an inch down. If it's dry and the pot feels light, that settles it. If it's wet, don't add water. Look at the roots instead, since rot needs a different fix.\n\n**Other possibilities:**\n- **Root rot from overwatering.** This is unlikely after two weeks away, but if the soil is soggy, the stems are soft or black, or the roots are brown and mushy, the roots need attention. Overwatering leaves plants drooping uniformly without crispness, and they may yellow at the margins before collapsing.\n- **Low humidity.** Crispy leaf edges suggest this. Browning from dry air is common, but it usually shows up along the edges rather than in patches.\n\n**Fix:**\n1. **Rehydrate now.** If the soil is dry, set the pot in a tray or basin of room-temperature water for 20 to 30 minutes, then drain it. If the potting mix has gone completely dry for a long time, and water runs straight through, it will take more work. In that case, repeat the soak. Most plants perk up within hours to a day.\n2. **Move it out of direct sun.** Put it in bright, indirect light, such as a few feet back from an east or north window, or behind a sheer curtain. Direct sun scorches these leaves.\n3. **Keep the soil evenly moist, not soggy.** Water when the top layer starts to dry, and empty any water left in the saucer. Don't let it dry out completely again.\n4. **Trim only the crispy leaves,** after the plant recovers. Leave the rest alone while it recovers.\n\nGive it 1 to 2 days. If it stays limp with soft stems, check the roots. Also loosen the blue string tied around the stems so it doesn't cut into them.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 46609,
+ "output_tokens": 1902,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "fittonia nerve plant drooping underwatering recovery",
+   "results": [
+    {
+     "url": "https://www.homesandgardens.com/gardens/why-is-my-fittonia-drooping",
+     "title": "Why is my fittonia drooping? Plant experts reveal the cause"
+    },
+    {
+     "url": "https://ecofamilylife.com/garden/how-to-save-a-drooping-fittonia-nerve-plant/",
+     "title": "How to save a drooping fittonia (Nerve plant)"
+    },
+    {
+     "url": "https://www.pixiesgardens.com/blogs/article/why-is-my-fittonia-drooping",
+     "title": "Why Is My Fittonia Drooping? 9 Causes and Easy Fixes"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/fittonia-flop",
+     "title": "Why Does Fittonia Flop? Causes & Fixes for Wilting Nerve Plants"
+    },
+    {
+     "url": "https://whyfarmit.com/nerve-plant-drooping/",
+     "title": "Why Is My Nerve Plant Drooping? Common Reasons & Solutions"
+    },
+    {
+     "url": "https://www.pixiesgardens.com/blogs/article/fittonia-plant-care-guide",
+     "title": "Fittonia Plant Care: Complete Nerve Plant Growing Guide"
+    },
+    {
+     "url": "https://houseplanthelp.com/drooping-nerve-plant/",
+     "title": "How to Save a Drooping Nerve Plant (Fittonia) in 4 Steps"
+    },
+    {
+     "url": "https://plantscraze.com/fittonia-limp-and-droopy/",
+     "title": "Fittonia Limp and Droopy [7 Causes, Solutions and Prevention!]"
+    },
+    {
+     "url": "https://getplanta.com/discover/fittonia-care-nerve-plant-hydration",
+     "title": "Fittonia Care: Keeping Your Nerve Plant Happy & Hydrated"
+    },
+    {
+     "url": "https://greg.app/nerve-plant-leaves-falling-over/",
+     "title": "Why Are My Nerve Plant Leaves Falling Over?"
+    }
+   ]
+  },
+  {
+   "query": "fittonia direct sun scorch leaves care",
+   "results": [
+    {
+     "url": "https://www.patchplants.com/pages/plant-care/complete-guide-to-fittonia-care/",
+     "title": "Complete guide to fittonia care"
+    },
+    {
+     "url": "https://www.rhs.org.uk/plants/fittonia/how-to-grow-fittonia",
+     "title": "How to grow fittonia / RHS Growing Guide"
+    },
+    {
+     "url": "https://www.pixiesgardens.com/blogs/article/fittonia-plant-care-guide",
+     "title": "Fittonia Plant Care: Complete Nerve Plant Growing Guide"
+    },
+    {
+     "url": "https://www.gardendesign.com/houseplants/nerve-plant.html",
+     "title": "Nerve Plant: How to Grow & Care for Fittonia"
+    },
+    {
+     "url": "https://www.gardenia.net/plant/fittonia-albivenis-nerve-plant-grow-and-care-tips",
+     "title": "Nerve Plant (Fittonia albivenis): All You Need To Know"
+    },
+    {
+     "url": "https://www.rhs.org.uk/plants/fittonia",
+     "title": "Fittonia / RHS Plant Guide"
+    },
+    {
+     "url": "https://growtropicals.com/blogs/houseplant-care-a-z/fittonia-care-guide",
+     "title": "Fittonia Care Guide"
+    },
+    {
+     "url": "https://getplanta.com/discover/fittonia-care-nerve-plant-hydration",
+     "title": "Fittonia Care: Keeping Your Nerve Plant Happy & Hydrated"
+    },
+    {
+     "url": "https://succulentsbox.com/blogs/blog/how-to-care-for-nerve-plant-fittonia",
+     "title": "How to care for Nerve plant Fittonia - Succulents Box"
+    },
+    {
+     "url": "https://greenleafguide.com/how-to-adjust-your-fittonias-light-exposure-throughout-the-seasons/",
+     "title": "How to Adjust Your Fittonia\u2019s Light Exposure Throughout the Seasons"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

@@ -1,0 +1,58 @@
+{
+ "thread_id": "xv9lfg",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/xv9lfg_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Is this new vine stuck or am I just too impatient?\n\nI took some cuttings from this scindapsus a while ago (they are doing great). Now the mother plant is forming a new vine from the last node before I cut it, but the tip seems to be stuck. Do I need to do something or just wait?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: fungal_bacterial 58%, healthy 27%, watering 13%, other 2%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: this is normal new growth still emerging, not a disease.** The pale, tightly wrapped tip is a new leaf inside its protective sheath. Some plants, especially aroids like Philodendrons and Alocasias, grow their leaves from protective layers called cataphylls. Your silver pothos (*Scindapsus pictus*) is an aroid, so this is expected. The classifier's \"fungal_bacterial\" reading is wrong here. The white flecks are the plant's normal variegation, and I see no spots, rot, or mushy tissue.\n\n**Other possibilities:**\n- **Low humidity drying the sheath.** This is the most common reason a leaf sticks. The protective sheath dries out before the leaf can open and physically welds itself closed. If the sheath tip looks dry or papery, humidity is the likely cause.\n- **Thrips.** If new leaves emerge distorted, stuck together, or streaked with silvery scarring, check for thrips. Look inside the newest growth with a lens. The leaves in your photo look clean, so this seems unlikely.\n\n**What to do:**\n1. **Wait first.** Depending on the species and environment, it can take anywhere from a few days to two weeks for a leaf to fully open.\n2. **Raise humidity while you wait.** Group the plant with others, place it near a humidifier, or mist the sheath gently. Spray water repeatedly on the stuck new leaf and surrounding sheath to allow it to fully absorb water and soften.\n3. **Only intervene if it's clearly stuck after a week or two.** A cotton bud dipped in a little water can help loosen the cataphyll safely. Never forcefully pull a stuck new leaf.\n4. **Keep conditions steady.** Bright indirect light, warmth, and consistent moisture in the cuttings and mother plant help new leaves expand. Consistent watering, warmth above about 18C, and better humidity through grouping, a pebble tray, or a humidifier are the usual fixes.\n\nIf the leaf opens normally in the next couple of weeks, nothing needs fixing.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 23168,
+ "output_tokens": 1824,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "pothos new leaf stuck unfurling sheath how to help",
+   "results": [
+    {
+     "url": "https://plnts.com/en/blog/plant-leaves-not-opening-or-unfurling-the-cause-and-solution",
+     "title": "Plant leaves not opening or unfurling: the cause & solution!"
+    },
+    {
+     "url": "https://www.forwardplant.com/articleinfo/186",
+     "title": "How to prevent and treat the phenomenon of new leaves getting stuck on foliage plants?"
+    },
+    {
+     "url": "https://www.tiktok.com/@reenasplants/video/7205262545966402859?lang=en",
+     "title": "\ud83c\udf3fEASILY RELEASE A STUCK LEAF"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/new-growth-problems-pale-small-deformed-leaves",
+     "title": "My Plant's New Growth Looks Wrong: Diagnosing Pale, Small, or Deformed New Leaves"
+    },
+    {
+     "url": "https://plantscraze.com/stuck-leaf/",
+     "title": "Is Your Plant's Leaf Stuck? [3+ Causes & Quick Fix]"
+    },
+    {
+     "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/why-wont-my-houseplant-new-leaf-unfurl",
+     "title": "Why won't my houseplant's new leaf unfurl?"
+    },
+    {
+     "url": "https://blog.planteka.co/en/2022/03/30/how-to-help-a-new-stuck-leaf-unfurl/",
+     "title": "How to help a new stuck leaf unfurl?"
+    },
+    {
+     "url": "https://www.tiktok.com/@plantsbymelissa/video/7193346810759597358?lang=en",
+     "title": "How to Help a Monstera Leaf Unfurl When It Gets Stuck"
+    },
+    {
+     "url": "https://www.forwardplant.com/faqinfo/684",
+     "title": "How to use humidity to help a stuck new plant leaf unfurl"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

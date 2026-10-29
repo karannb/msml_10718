@@ -1,0 +1,101 @@
+{
+ "thread_id": "18r51de",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/18r51de_01.jpg",
+  "data/reddit/resolved/images/18r51de_02.jpg",
+  "data/reddit/resolved/images/18r51de_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Croton has wilting leaves after repotting\n\nI have repotted my Croton 10 days ago after noticing, that the soil it was in wasn\u2019t really absorbing any water and bottom leaves drying out and dropping every week or so.\n\nIt was doing fine, but I noticed yesterday, that leaves started to wilt and I am unsure what to do.\n\nThe soil I used this time is 1:1:1 potting soil (fertilized), leca and pine barks.\n\nWhat I noticed is, that the soil is quite wet (s. Last photo, watering indicator is fully blue) even though I watered last when I repotted the plant (10 days ago).\n\nNo, it was in the soil i bought it in before, which clearly wasn\u2019t taking in any water and the plant was losing a bottom leave every 1-2 weeks.\n\nI have humidifiers at home, humidity is about 50% usually\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 76%, watering 23%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 84%, healthy 16%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 3: watering 98%, healthy 2%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: overwatering and waterlogged soil, which the repot has made worse.** Ten days after one watering, the indicator still reads fully wet, and you describe the soil as wet. Dropping bottom leaves and wilting while the soil stays wet fits overwatering, not thirst. Soil that stays wet or soggy five to seven days after watering is a classic sign, and soil that stays wet for over a week points to poor drainage or chronic overwatering. The classifier's \"watering\" label agrees, though it's a weak hint.\n\n**Other possibilities:**\n- **Transplant shock.** Repotting is itself a form of relocation stress, and some leaf loss can follow. The new growth in your second photo looks healthy, which supports this. Still, don't assume it's only shock while the soil is this wet.\n- **Underwatering** is unlikely. Your soil is wet, and the old soil's poor absorption doesn't explain soggy soil now.\n\n**Quick check:** Push a finger 1\u20132 inches into the soil, lift the pot, and look at the roots. Healthy roots are white or light tan. Brown, mushy, or foul-smelling roots indicate rot.\n\n**Fix:**\n1. **Stop watering now.** Wait until the top 1\u20132 inches are dry before watering again.\n2. **Empty the decorative pot.** Lift the plant out of the lace cachepot so water can drain, and pour off anything that collects in the tray.\n3. **If roots are rotten,** unpot, cut away the brown or mushy parts, and repot in fresh mix. Use less dense potting soil and more pine bark or leca so water drains faster.\n4. **Keep conditions steady:** bright indirect light, warmth, and your ~50% humidity. Avoid moving it again.\n\nAlso look closely at the whitish fuzz on the stem in your third photo. If it's cottony and moves, it may be mealybugs, which need a separate treatment.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 55674,
+ "output_tokens": 2683,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "croton leaves dropping overwatering root rot wet soil",
+   "results": [
+    {
+     "url": "https://www.gardeningknowhow.com/houseplants/croton/croton-dropping-leaves.htm",
+     "title": "Leaf Drop On Croton: Reasons For Croton Plant Dropping Leaves"
+    },
+    {
+     "url": "https://plantaddicts.com/common-croton-problems/",
+     "title": "Common Croton Problems"
+    },
+    {
+     "url": "https://www.glowrium.com/blogs/news/plant-care-how-to-save-a-dying-croton-plant",
+     "title": "How to Save a Dying Croton Plant: Yellow Leaves, Leaf Drop & Light Pro"
+    },
+    {
+     "url": "https://www.aqualogi.com/croton-leaves-dropping/",
+     "title": "Croton Leaves Dropping: The Cause-and-Cure Map for Every Leaf-Drop Pattern"
+    },
+    {
+     "url": "https://gardenforindoor.com/croton-leaves-drooping/",
+     "title": "Why Are My Croton Leaves Drooping? (And How To Fix It) - Garden For Indoor"
+    },
+    {
+     "url": "https://leaflogic.app/articles/croton-plant-losing-leaves-here-s-how-to-fix-it",
+     "title": "Croton Plant Losing Leaves? Here's How to Fix It"
+    },
+    {
+     "url": "https://homeguides.sfgate.com/care-croton-leaves-falling-off-46410.html",
+     "title": "How to Care for a Croton With the Leaves Falling Off"
+    },
+    {
+     "url": "https://greatgardenplans.com/why-is-my-garden-croton-drooping/",
+     "title": "Why Is My Garden Croton Drooping? Unraveling the Mystery of Croton Care - GreatGardenPlans"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/indoor-plants/croton/problems-67/",
+     "title": "Croton Problems Solved: Why Leaves Drop, Colors Fade, and Spider Mites Strike \u2014 and What to Fix First - Blooming Expert"
+    },
+    {
+     "url": "https://greg.app/croton-leaves-dropping/",
+     "title": "\ud83c\udf43 Why Your Croton Leaves Are Dropping"
+    }
+   ]
+  },
+  {
+   "query": "croton care watering when soil dries out",
+   "results": [
+    {
+     "url": "https://bababerry.co/blogs/self-watering/how-often-to-water-a-croton",
+     "title": "How Often to Water a Croton (Research-Backed 2026)"
+    },
+    {
+     "url": "https://www.patchplants.com/pages/plant-care/complete-guide-to-croton-care/",
+     "title": "Complete guide to croton care"
+    },
+    {
+     "url": "https://foliacollective.com/croton-plant-care/",
+     "title": "Croton Plant Care: Light, Water, Soil & Common Issues"
+    },
+    {
+     "url": "https://hort.extension.wisc.edu/articles/croton-codiaeum-variegatum/",
+     "title": "Croton, Codiaeum variegatum"
+    },
+    {
+     "url": "https://www.leonandgeorge.com/pages/care-croton-petra",
+     "title": "Croton Petra Care Guide: Keep Its Colors Vivid by L\u00e9on & George"
+    },
+    {
+     "url": "https://houseplant101.com/plants/croton/",
+     "title": "Complete Guide To Croton Care and Growth"
+    },
+    {
+     "url": "https://bloomscape.com/plant-care-guide/croton/",
+     "title": "Croton Care Guide (Codiaeum variegatum)"
+    },
+    {
+     "url": "https://www.healthyhouseplants.com/indoor-houseplants/croton-plant-care-guide-growing-tips-for-vibrant-foliage/",
+     "title": "Croton Plant Care Guide: Growing Tips for Vibrant Foliage \ud83c\udf1f - Healthy Houseplants"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}
