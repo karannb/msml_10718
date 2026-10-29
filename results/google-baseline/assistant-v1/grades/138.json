@@ -1,0 +1,151 @@
+{
+  "reference_action": "Borderline mixed pest/sun-stress case: owner reports improvement after alcohol wiping, soap/alcohol washing, horticultural-oil wiping, insecticidal soap and systemic granules. Neem retreatment is planned; no single product is causally validated. Count comparable pest removal/oil/soap/systemic treatment, not inspection alone.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Identifies possible pests and instructs inspections, but no pest-removal or treatment action.",
+      "evidence": [
+        "138-source-01.txt"
+      ],
+      "url": "https://myplantin.com/plant-problems"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Diagnostic-tool entry instructions only; no actual pest treatment on opened page.",
+      "evidence": [
+        "138-source-02.txt"
+      ],
+      "url": "https://ipm.ucanr.edu/home-and-landscape/plant-problem-diagnostic-tool/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Static guide suggests isolation/investigation and photo diagnosis; no confirmed pest-removal treatment. AI diagnosis was not invoked.",
+      "evidence": [
+        "138-source-03.txt"
+      ],
+      "url": "https://plantdoctor.app/tools/plant-disease-photo-check"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Diagnostic process and referral, without concrete pest treatment.",
+      "evidence": [
+        "video-audit-KgpnMNxIEYY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=KgpnMNxIEYY"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Plant-pathology interview covers fungal/bacterial/viral diagnostics and disease treatments; insecticide mention concerns unsuccessful undiagnosed lawn spraying, not a pest-removal recommendation.",
+      "evidence": [
+        "video-audit-tiuGdqAlWF4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=tiuGdqAlWF4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Identify plant species",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Finger-test soil",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect both leaf sides and search for pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect stems and roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Review recent care changes",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Send photo for expert treatment plan if unsure",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Pests and light stress are among generic causes; actual treatment is deferred to another service."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Inspect the leaves, top and bottom” encourages evidence gathering before treatment. There is no risky chemical instruction, although indiscriminate root inspection could cause unnecessary disturbance."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Aphids, mealybugs, scale, spider mites, and thrips” includes plausible pests and recent-location changes are mentioned. It does not identify this visible infestation or give its remedy."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The one-to-two-inch finger check and leaf inspection are concrete. Species identification, root assessment and referral add work without an actionable treatment plan."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 138,
+  "thread_id": "1gj7tyl",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 138,
+    "thread_id": "1gj7tyl",
+    "selected_rank": 1,
+    "source_url": "https://myplantin.com/plant-problems",
+    "spans": [
+      {
+        "file": "138-source-01.txt",
+        "start_line": 46,
+        "end_line": 90,
+        "sha256": "ad9de55222c59f12edcd1cae2faab247af33caa26a756c120dd0ef31329067a4",
+        "text": "      - text: Most plant problems come from watering, light, or pests, not disease. Yellow leaves and wet soil usually mean overwatering, brown crispy tips mean underwatering or dry air, and holes or sticky leaves point to pests. For a fast answer, snap a photo with PlantIn’s\n      - link \"plant disease identifier\":\n        - /url: https://myplantin.com/plant-disease-identifier\n      - text: to see what’s wrong with your plant and how to fix it.\n    - heading \"What Are the Most Common Plant Problems?\" [level=3]\n    - paragraph: \"The most common plant problems fall into four groups: watering mistakes, light and temperature stress, pests, and diseases. Most of them come from care conditions, not infection, so start by checking how you water and where the plant sits.\"\n    - list:\n      - strong: \"Watering problems:\"\n      - text: Overwatering causes yellow, soft leaves, wet soil, and root rot, while underwatering causes drooping, dry, crispy leaves. See how to\n      - link \"tell overwatering from underwatering\":\n        - /url: https://myplantin.com/blog/overwatered-vs-underwatered-plants\n      - text: .\n      - strong: \"Light and temperature stress:\"\n      - text: Too little light makes plants pale and leggy; harsh sun scorches leaves brown; cold drafts and frost turn leaves dark and mushy.\n      - strong: \"Pests:\"\n      - text: Aphids, mealybugs, scale, spider mites, and thrips cause holes, sticky leaves, webbing, or speckled foliage.\n      - strong: \"Diseases:\"\n      - text: Fungal and bacterial diseases show up as powdery white coating, dark leaf spots, rot at the base, or sudden wilting.\n    - paragraph: The sooner you notice a change in your plant’s leaves, stems, or growth, the easier the problem is to fix.\n    - heading \"How to Diagnose Plant Problems\" [level=3]\n    - paragraph: \"To diagnose plant problems, identify the plant, check the soil, and inspect the leaves, stems, and roots for clues. Follow these steps:\"\n    - list:\n      - strong: Identify your plant.\n      - text: Each species has different needs, so a symptom that’s normal for one plant can be a warning sign for another. If you’re not sure what you have,\n      - link \"identify your plant from a photo\":\n        - /url: https://myplantin.com/plant-identifier\n      - text: .\n      - strong: Check the soil.\n      - text: Push a finger 1–2 inches into the soil. Wet, sour-smelling soil points to overwatering; dry soil pulling away from the pot points to underwatering.\n      - strong: Inspect the leaves, top and bottom.\n      - text: Look for yellowing, brown edges, spots, holes, white powder, or sticky residue. Many pests hide on leaf undersides.\n      - strong: Look for the culprit.\n      - text: Search for insects, eggs, webbing, or droppings. If you find a bug you don’t recognize,\n      - link \"identify it with our pest identifier\":\n        - /url: https://myplantin.com/insect-pest-and-bug-identifier\n      - text: .\n      - strong: Check stems and roots.\n      - text: Soft, dark stems or brown, mushy roots usually mean rot. Healthy roots are firm and white or light tan.\n      - strong: Think about recent changes.\n      - text: A new spot, repotting, a change of season, or new fertilizer can all trigger sudden symptoms.\n    - paragraph:\n      - text: Still not sure what’s wrong with your plant? Browse the list of common plant diseases and pests below, or send a photo to\n      - link \"Ask the Botanist\":\n        - /url: https://myplantin.com/ask-the-botanist\n      - text: and get a treatment plan from a PlantIn expert."
+      }
+    ],
+    "advice": "      - text: Most plant problems come from watering, light, or pests, not disease. Yellow leaves and wet soil usually mean overwatering, brown crispy tips mean underwatering or dry air, and holes or sticky leaves point to pests. For a fast answer, snap a photo with PlantIn’s\n      - link \"plant disease identifier\":\n        - /url: https://myplantin.com/plant-disease-identifier\n      - text: to see what’s wrong with your plant and how to fix it.\n    - heading \"What Are the Most Common Plant Problems?\" [level=3]\n    - paragraph: \"The most common plant problems fall into four groups: watering mistakes, light and temperature stress, pests, and diseases. Most of them come from care conditions, not infection, so start by checking how you water and where the plant sits.\"\n    - list:\n      - strong: \"Watering problems:\"\n      - text: Overwatering causes yellow, soft leaves, wet soil, and root rot, while underwatering causes drooping, dry, crispy leaves. See how to\n      - link \"tell overwatering from underwatering\":\n        - /url: https://myplantin.com/blog/overwatered-vs-underwatered-plants\n      - text: .\n      - strong: \"Light and temperature stress:\"\n      - text: Too little light makes plants pale and leggy; harsh sun scorches leaves brown; cold drafts and frost turn leaves dark and mushy.\n      - strong: \"Pests:\"\n      - text: Aphids, mealybugs, scale, spider mites, and thrips cause holes, sticky leaves, webbing, or speckled foliage.\n      - strong: \"Diseases:\"\n      - text: Fungal and bacterial diseases show up as powdery white coating, dark leaf spots, rot at the base, or sudden wilting.\n    - paragraph: The sooner you notice a change in your plant’s leaves, stems, or growth, the easier the problem is to fix.\n    - heading \"How to Diagnose Plant Problems\" [level=3]\n    - paragraph: \"To diagnose plant problems, identify the plant, check the soil, and inspect the leaves, stems, and roots for clues. Follow these steps:\"\n    - list:\n      - strong: Identify your plant.\n      - text: Each species has different needs, so a symptom that’s normal for one plant can be a warning sign for another. If you’re not sure what you have,\n      - link \"identify your plant from a photo\":\n        - /url: https://myplantin.com/plant-identifier\n      - text: .\n      - strong: Check the soil.\n      - text: Push a finger 1–2 inches into the soil. Wet, sour-smelling soil points to overwatering; dry soil pulling away from the pot points to underwatering.\n      - strong: Inspect the leaves, top and bottom.\n      - text: Look for yellowing, brown edges, spots, holes, white powder, or sticky residue. Many pests hide on leaf undersides.\n      - strong: Look for the culprit.\n      - text: Search for insects, eggs, webbing, or droppings. If you find a bug you don’t recognize,\n      - link \"identify it with our pest identifier\":\n        - /url: https://myplantin.com/insect-pest-and-bug-identifier\n      - text: .\n      - strong: Check stems and roots.\n      - text: Soft, dark stems or brown, mushy roots usually mean rot. Healthy roots are firm and white or light tan.\n      - strong: Think about recent changes.\n      - text: A new spot, repotting, a change of season, or new fertilizer can all trigger sudden symptoms.\n    - paragraph:\n      - text: Still not sure what’s wrong with your plant? Browse the list of common plant diseases and pests below, or send a photo to\n      - link \"Ask the Botanist\":\n        - /url: https://myplantin.com/ask-the-botanist\n      - text: and get a treatment plan from a PlantIn expert.",
+    "reason": "First accessible general plant-troubleshooting instructions, including soil, leaf and root inspections; disease listings excluded as navigation.",
+    "frozen_at": "2026-10-29T05:57:52.416612+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:58:46.433545+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

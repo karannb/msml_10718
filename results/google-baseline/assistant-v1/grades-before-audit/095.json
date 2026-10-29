@@ -1,0 +1,137 @@
+{
+  "reference_action": "OP reports pesticide dust residue persisted despite plain hosing/wiping. Validated fix: gently wipe with one-third lemon juice/two-thirds water, then hose off remaining lemon juice. Plain washing already tried is not a matching new fix; mite treatment is a different target.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Washing/pruning and neem for active mites, no dilute-acid dust cleaning; hosing/wiping were already tried.",
+      "evidence": [
+        "095-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/475121420323637/posts/1358357165333387/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Daily/weekly cleaning with soap, alcohol and pesticides targets mites, not the validated residue-removal method.",
+      "evidence": [
+        "095-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/alocasia/comments/1wirt27/can_i_get_rid_of_spider_mites_if_i_clean_the/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Reassurance that nonmoving white specks are dust and inspect movement; no removal method.",
+      "evidence": [
+        "095-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/634613514670686/posts/1547637646701597/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Neem/soap/alcohol mite control and rinsing, not lemon/acid residue cleaning.",
+      "evidence": [
+        "095-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/13vx489/spiderweb_looking_film_over_my_plant_should_i/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Short opened without accessible spoken/captioned treatment instructions.",
+      "evidence": [
+        "095-source-05.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/5FIj7Y53loQ"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Cut off severely infested leaves and stems if present",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Hose and hand-wash leaves including undersides",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Improve growing-area airflow",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Let leaves dry then apply pesticide or neem periodically",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "Addresses active mites rather than dust residue, and repeats already unsuccessful washing. Conditional severe-infestation pruning is not a blanket instruction to remove healthy leaves, so harm is not assumed, but additional sprays have avoidable risk."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "Pruning is limited to “severely infested” parts and the answer says “let it dry” before spraying. Nevertheless, periodic neem or unspecified pesticides without checking whether mites remain adds avoidable exposure to leaves already coated with treatment residue."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“Alocasias can be quite prone to spider mites” addresses the previous infestation rather than the present question. Neither the failed plain-water cleaning nor persistent pesticide dust is addressed."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Bathroom hosing and hand cleaning are straightforward. “Good airflow” and neem “from time to time” lack a method, dilution or schedule, so the full prescription is not clearly executable."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 95,
+  "thread_id": "13046q5",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 95,
+    "thread_id": "13046q5",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/475121420323637/posts/1358357165333387/",
+    "spans": [
+      {
+        "file": "095-source-01.txt",
+        "start_line": 52,
+        "end_line": 73,
+        "sha256": "b23496ed019dfa7757afd1bc628bca0dbc4cb19bd6736c69cd51c0b9912f7247",
+        "text": "        - generic: Alocasias can be quite prone to spider mites. I would cut off leaves and stems that’s severely infested and bring the whole pot of plant into bathroom and hose down the whole plant, especially the underside of leaves. Just use hands and wash them off when hosing.\n        - generic: Ensure your growing area has good airflow\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/475121420323637/posts/1358357165333387/?comment_id=1358367081999062&__cft__[0]=AZgpmgrDiV_OSgupniO68wryet3yf5kp5tncB5vSflF2R32SJfg840ZolVt3p1dSo6gO-R3DFA52wepoWFCiMd9qKf_r0taI6pOVoJLyUXNxOHWlV2G1ApmdmpSZwNkBndyADddY6py7joC1QQVYTB2Pda6TfLqhUMUwT-1Kt9HLlnYVSaWK7e4&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Jackie Goh a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jackie Goh\":\n          - generic: Jackie Goh\n        - generic: Alocasia are infamously prone to mites. Wipe or shower it, let it dry then use pesticides/neem oil. It is not a permanent solution, but will at least will be prolonged before it happens again. If u keep Alocasia, regular showering then is needed\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/475121420323637/posts/1358357165333387/?comment_id=1358372401998530&__cft__[0]=AZgpmgrDiV_OSgupniO68wryet3yf5kp5tncB5vSflF2R32SJfg840ZolVt3p1dSo6gO-R3DFA52wepoWFCiMd9qKf_r0taI6pOVoJLyUXNxOHWlV2G1ApmdmpSZwNkBndyADddY6py7joC1QQVYTB2Pda6TfLqhUMUwT-1Kt9HLlnYVSaWK7e4&__tn__=R]-R\n      - article \"Comment by Travis Ng a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Travis Ng\":\n          - generic: Travis Ng\n        - generic: just accept the fact that it’s long term and it’s really hard to eradicate them fully… put on neem oil from time to time and you should be able to contain it"
+      }
+    ],
+    "advice": "        - generic: Alocasias can be quite prone to spider mites. I would cut off leaves and stems that’s severely infested and bring the whole pot of plant into bathroom and hose down the whole plant, especially the underside of leaves. Just use hands and wash them off when hosing.\n        - generic: Ensure your growing area has good airflow\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/475121420323637/posts/1358357165333387/?comment_id=1358367081999062&__cft__[0]=AZgpmgrDiV_OSgupniO68wryet3yf5kp5tncB5vSflF2R32SJfg840ZolVt3p1dSo6gO-R3DFA52wepoWFCiMd9qKf_r0taI6pOVoJLyUXNxOHWlV2G1ApmdmpSZwNkBndyADddY6py7joC1QQVYTB2Pda6TfLqhUMUwT-1Kt9HLlnYVSaWK7e4&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Jackie Goh a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jackie Goh\":\n          - generic: Jackie Goh\n        - generic: Alocasia are infamously prone to mites. Wipe or shower it, let it dry then use pesticides/neem oil. It is not a permanent solution, but will at least will be prolonged before it happens again. If u keep Alocasia, regular showering then is needed\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/475121420323637/posts/1358357165333387/?comment_id=1358372401998530&__cft__[0]=AZgpmgrDiV_OSgupniO68wryet3yf5kp5tncB5vSflF2R32SJfg840ZolVt3p1dSo6gO-R3DFA52wepoWFCiMd9qKf_r0taI6pOVoJLyUXNxOHWlV2G1ApmdmpSZwNkBndyADddY6py7joC1QQVYTB2Pda6TfLqhUMUwT-1Kt9HLlnYVSaWK7e4&__tn__=R]-R\n      - article \"Comment by Travis Ng a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Travis Ng\":\n          - generic: Travis Ng\n        - generic: just accept the fact that it’s long term and it’s really hard to eradicate them fully… put on neem oil from time to time and you should be able to contain it",
+    "reason": "First source supplies Alocasia washing and treatment advice; preserve failure to distinguish residue from active mites before reference.",
+    "frozen_at": "2026-10-29T05:17:02.875380+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:17:50.596220+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

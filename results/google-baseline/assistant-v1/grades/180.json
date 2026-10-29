@@ -1,0 +1,144 @@
+{
+  "reference_action": "OP says the air was the issue: moved plant to a more humid place and it was much better (translated from Bosnian/Croatian/Serbian).",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Mentions dry air as cause but recommends leaf retention/trimming, not raising humidity.",
+      "evidence": [
+        "180-source-01.txt"
+      ],
+      "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/what-should-i-do-with-damaged-leaves-cut-them-off-or-leave-them"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Damaged-leaf diagnosis/retention discussion without humidity intervention.",
+      "evidence": [
+        "video-audit-2mH3otTf49I-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=2mH3otTf49I"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Prioritizes water quality; humidity/misting are described as failed past attempts, not recommendations.",
+      "evidence": [
+        "video-audit-5akp_0WAClg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=5akp_0WAClg"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explains low humidity and explicitly recommends moving away from heating/AC drafts around 9:40–10:07; partial more-suitable-air-location overlap.",
+      "evidence": [
+        "180-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=CPDGQ3M_QgQ"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Brown-tip control explicitly raises humidity using misting or damp-gravel tray.",
+      "evidence": [
+        "180-source-05.txt"
+      ],
+      "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Trim brown tips if cosmetically desired",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove dead or spreading diseased leaves",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to better ventilation if disease",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clean snips between plants",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Dispose diseased leaves in waste",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Names low humidity but only supplies damage-management and conditional disease actions. It omits the environmental change that helped."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Green portions…still functioning” appropriately discourages stripping useful leaves. Clean tools and conditional removal reduce damage, though this does not address the cause."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Dry air is a plausible cause listed for brown tips. The main content focuses on cutting decisions rather than solving the case’s humidity problem."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Clean scissors and selective trimming are ordinary tasks. Differentiating active lesions from cosmetic damage needs some judgment, but the thresholds are explicit."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 180,
+  "thread_id": "1028vjv",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 180,
+    "thread_id": "1028vjv",
+    "selected_rank": 1,
+    "source_url": "https://growtropicals.com/blogs/houseplant-tips-tricks/what-should-i-do-with-damaged-leaves-cut-them-off-or-leave-them",
+    "spans": [
+      {
+        "file": "180-source-01.txt",
+        "start_line": 59,
+        "end_line": 73,
+        "sha256": "f221fc08c6e854bbf3f4222c196bbd64e2901c7f3adbc3cadbdd0b193c31ca6b",
+        "text": "    - paragraph: \"Whether to remove damaged leaves depends on the extent of the damage, the species, and what caused it. Minor cosmetic damage (small brown tips, a few brown edge spots) is generally best left in place: the green portions of the leaf are still functioning, still photosynthesising, and removing the leaf removes useful plant capacity. Leaves that are more than 50% brown or yellow, leaves that have become mushy or are clearly dead, leaves that were damaged by disease (particularly fungal or bacterial lesions that are spreading), and leaves that are aesthetically very distracting are reasonable candidates for removal.\"\n    - paragraph: The guiding principle is that a living, partially-damaged leaf still contributes to the plant; a dead leaf does not, and a diseased leaf may actively harm other parts of the plant if left in place.\n    - heading \"When to Leave Damaged Leaves\" [level=2]\n    - paragraph: Brown tips are the most common form of leaf damage, typically caused by low humidity or occasional underwatering. The green body of a leaf with brown tips is still fully functional. Removing it eliminates photosynthetic capacity without benefit. If the brown tips are a cosmetic concern, you can trim them with clean scissors, cutting just within the brown area to leave a small brown border (cutting into the green area causes a new brown edge to form at the cut). This maintains the leaf's contribution to the plant while improving its appearance.\n    - paragraph: Minor spots from physical damage (contact with a cold window, a brief pest encounter that has been treated) are similarly best left if the majority of the leaf is healthy. The spots will not spread or worsen once the cause has been addressed.\n    - heading \"When to Remove Damaged Leaves\" [level=2]\n    - paragraph: Fully yellow leaves that are no longer green, fully brown leaves, and leaves that are more than half dead or necrotic should be removed. They are no longer contributing to photosynthesis and are using some plant resources in decomposition. Removing them keeps the plant tidy and redirects resources to healthy growth.\n    - paragraph:\n      - text: Leaves with fungal lesions that are actively spreading (soft, wet brown patches expanding across the leaf, often with a yellow halo) should be removed promptly and the plant moved to better ventilation. Leaving diseased leaves in contact with healthy foliage can spread the infection. See our guide on\n      - link \"what yellow halos on leaves indicate\":\n        - /url: /blogs/houseplant-tips-tricks/why-do-my-leaves-have-yellow-halos-around-brown-spots\n      - text: for identifying fungal and bacterial leaf disease.\n    - heading \"How to Remove Leaves Without Harming the Plant\" [level=2]\n    - paragraph: Use clean, sharp scissors or secateurs. Cut the leaf stalk (petiole) cleanly close to the main stem, leaving a short stub of 1 to 2 cm rather than cutting flush with the stem. A stub protects the node and reduces the risk of the cut opening up the stem to rot. Do not pull or tear leaves from the stem, which can cause stem damage and is more likely to introduce infection at the torn point.\n    - paragraph: Clean your snips between plants (particularly if removing diseased leaves) with rubbing alcohol to avoid transmitting any pathogens between plants. Dispose of diseased leaves in general waste rather than compost."
+      }
+    ],
+    "advice": "    - paragraph: \"Whether to remove damaged leaves depends on the extent of the damage, the species, and what caused it. Minor cosmetic damage (small brown tips, a few brown edge spots) is generally best left in place: the green portions of the leaf are still functioning, still photosynthesising, and removing the leaf removes useful plant capacity. Leaves that are more than 50% brown or yellow, leaves that have become mushy or are clearly dead, leaves that were damaged by disease (particularly fungal or bacterial lesions that are spreading), and leaves that are aesthetically very distracting are reasonable candidates for removal.\"\n    - paragraph: The guiding principle is that a living, partially-damaged leaf still contributes to the plant; a dead leaf does not, and a diseased leaf may actively harm other parts of the plant if left in place.\n    - heading \"When to Leave Damaged Leaves\" [level=2]\n    - paragraph: Brown tips are the most common form of leaf damage, typically caused by low humidity or occasional underwatering. The green body of a leaf with brown tips is still fully functional. Removing it eliminates photosynthetic capacity without benefit. If the brown tips are a cosmetic concern, you can trim them with clean scissors, cutting just within the brown area to leave a small brown border (cutting into the green area causes a new brown edge to form at the cut). This maintains the leaf's contribution to the plant while improving its appearance.\n    - paragraph: Minor spots from physical damage (contact with a cold window, a brief pest encounter that has been treated) are similarly best left if the majority of the leaf is healthy. The spots will not spread or worsen once the cause has been addressed.\n    - heading \"When to Remove Damaged Leaves\" [level=2]\n    - paragraph: Fully yellow leaves that are no longer green, fully brown leaves, and leaves that are more than half dead or necrotic should be removed. They are no longer contributing to photosynthesis and are using some plant resources in decomposition. Removing them keeps the plant tidy and redirects resources to healthy growth.\n    - paragraph:\n      - text: Leaves with fungal lesions that are actively spreading (soft, wet brown patches expanding across the leaf, often with a yellow halo) should be removed promptly and the plant moved to better ventilation. Leaving diseased leaves in contact with healthy foliage can spread the infection. See our guide on\n      - link \"what yellow halos on leaves indicate\":\n        - /url: /blogs/houseplant-tips-tricks/why-do-my-leaves-have-yellow-halos-around-brown-spots\n      - text: for identifying fungal and bacterial leaf disease.\n    - heading \"How to Remove Leaves Without Harming the Plant\" [level=2]\n    - paragraph: Use clean, sharp scissors or secateurs. Cut the leaf stalk (petiole) cleanly close to the main stem, leaving a short stub of 1 to 2 cm rather than cutting flush with the stem. A stub protects the node and reduces the risk of the cut opening up the stem to rot. Do not pull or tear leaves from the stem, which can cause stem damage and is more likely to introduce infection at the torn point.\n    - paragraph: Clean your snips between plants (particularly if removing diseased leaves) with rubbing alcohol to avoid transmitting any pathogens between plants. Dispose of diseased leaves in general waste rather than compost.",
+    "reason": "First relevant readable damaged-leaf care article, including retention and removal caveats.",
+    "frozen_at": "2026-10-29T06:33:16.152241+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:34:05.606572+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

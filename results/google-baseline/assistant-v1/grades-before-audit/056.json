@@ -1,0 +1,151 @@
+{
+  "reference_action": "Borderline healthy/normal flower senescence: reassurance, pinch spent flowers, suitable outdoor shade/mild sun. OP reports a new bloom but does not explicitly confirm performing deadheading; retain dataset borderline flag.",
+  "sources": [
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicit pruning of spent flowers matches the reference deadheading advice. This is a borderline action-validation case because OP only reports a new bloom.",
+      "evidence": [
+        "056-source-02.txt"
+      ],
+      "url": "https://plantsnap.com/plant-care/primula-elatior-elatior"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Recommends partial-shade outdoor garden placement, overlapping the reference reassurance that it can stay outside. Does not explain normal senescence or deadheading.",
+      "evidence": [
+        "056-source-03.txt"
+      ],
+      "url": "https://plants.ces.ncsu.edu/plants/primula-elatior/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Identification/distribution discussion, no care action or reassurance about senescing flowers.",
+      "evidence": [
+        "056-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1711082002523894/posts/3300144416950970/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Dictionary definition/examples, not actionable care or senescence reassurance.",
+      "evidence": [
+        "056-source-05.txt"
+      ],
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/oxlip"
+    },
+    {
+      "rank": 6,
+      "action_hit": "miss",
+      "reason": "Wildflower identification/conservation page, no care intervention or normal flower-aging reassurance.",
+      "evidence": [
+        "056-source-06.txt"
+      ],
+      "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/oxlip/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Position in partial/full shade",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity using tray or humidifier",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Apply balanced fertilizer monthly in season",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      },
+      {
+        "action": "Prune spent flowers/yellowing leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water to maintain moist not waterlogged soil",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place in cooler 10–21 C location",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Normal-care framing avoids diagnosing disease and includes deadheading. It does not explicitly explain that aging blooms are normal, and the routine has more actions than the capacity threshold."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Moist but not waterlogged” and pruning only spent flowers/yellowing leaves avoid aggressive rescue. The once-weekly watering suggestion needs environmental adjustment, but is subordinated to moisture condition."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Prune spent flowers” directly matches the relevant advice and cool shade suits the plant. It never explicitly reassures the user that old flowers naturally die, and adds generic humidity/fertilizer care."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Deadheading and a cooler shaded location are straightforward. Fertilizer dilution is missing and an optional humidifier adds expense to an otherwise simple problem."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 56,
+  "thread_id": "1ao6rfb",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 56,
+    "thread_id": "1ao6rfb",
+    "selected_rank": 2,
+    "source_url": "https://plantsnap.com/plant-care/primula-elatior-elatior",
+    "spans": [
+      {
+        "file": "056-source-02.txt",
+        "start_line": 38,
+        "end_line": 62,
+        "sha256": "3d0b0ad7bc4314c0744c90f026bdc87db3d7ef513bf4618075ba2979db772a99",
+        "text": "- heading \"Plant Care Instructions\" [level=2]\n- heading \"Outdoor Size Range\" [level=3]\n- paragraph: 12-18 inches (30-45 cm)\n- heading \"Light Requirements\" [level=3]\n- paragraph: Oxlips prefer partial shade to full shade.\n- heading \"Humidity Needs\" [level=3]\n- paragraph: Oxlips prefer a moderate to high level of humidity. Consider using a humidifier or placing a tray of water near the plant to increase humidity levels.\n- heading \"Fertilizing Schedule\" [level=3]\n- paragraph: Fertilize with a balanced, water-soluble fertilizer once a month during the growing season.\n- heading \"Pruning Guidelines\" [level=3]\n- paragraph: Prune spent flowers and yellowing leaves to encourage new growth.\n- heading \"Common Pests and Diseases\" [level=3]\n- paragraph: Oxlips are susceptible to slugs and snails. They may also be affected by powdery mildew.\n- heading \"Indoor Size Range\" [level=3]\n- paragraph: 6-8 inches (15-20 cm)\n- heading \"Watering Schedule\" [level=3]\n- paragraph: Keep the soil consistently moist but not waterlogged. Watering once a week should suffice.\n- heading \"Temperature Range\" [level=3]\n- paragraph: Oxlips prefer cooler temperatures ranging from 50-70°F (10-21°C).\n- heading \"Growing Season\" [level=3]\n- paragraph: Spring\n- heading \"Growing Difficulty Level\" [level=3]\n- paragraph: Moderate\n- heading \"USDA Hardiness Zones\" [level=3]\n- paragraph: 4-8"
+      }
+    ],
+    "advice": "- heading \"Plant Care Instructions\" [level=2]\n- heading \"Outdoor Size Range\" [level=3]\n- paragraph: 12-18 inches (30-45 cm)\n- heading \"Light Requirements\" [level=3]\n- paragraph: Oxlips prefer partial shade to full shade.\n- heading \"Humidity Needs\" [level=3]\n- paragraph: Oxlips prefer a moderate to high level of humidity. Consider using a humidifier or placing a tray of water near the plant to increase humidity levels.\n- heading \"Fertilizing Schedule\" [level=3]\n- paragraph: Fertilize with a balanced, water-soluble fertilizer once a month during the growing season.\n- heading \"Pruning Guidelines\" [level=3]\n- paragraph: Prune spent flowers and yellowing leaves to encourage new growth.\n- heading \"Common Pests and Diseases\" [level=3]\n- paragraph: Oxlips are susceptible to slugs and snails. They may also be affected by powdery mildew.\n- heading \"Indoor Size Range\" [level=3]\n- paragraph: 6-8 inches (15-20 cm)\n- heading \"Watering Schedule\" [level=3]\n- paragraph: Keep the soil consistently moist but not waterlogged. Watering once a week should suffice.\n- heading \"Temperature Range\" [level=3]\n- paragraph: Oxlips prefer cooler temperatures ranging from 50-70°F (10-21°C).\n- heading \"Growing Season\" [level=3]\n- paragraph: Spring\n- heading \"Growing Difficulty Level\" [level=3]\n- paragraph: Moderate\n- heading \"USDA Hardiness Zones\" [level=3]\n- paragraph: 4-8",
+    "reason": "First retained nonexcluded result with substantive species care; frozen before reference.",
+    "frozen_at": "2026-10-29T04:46:23.680760+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:47:16.862052+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

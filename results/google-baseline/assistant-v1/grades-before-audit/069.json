@@ -1,0 +1,137 @@
+{
+  "reference_action": "OP added a climbing pole and became more mindful of overwatering, reporting improvement. Both are credited actions; fertilizer was suggested but not confirmed followed.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Check watering habits, growth and pests but no direction to reduce excess watering or add support. Merely mentioning watering is insufficient.",
+      "evidence": [
+        "069-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/27135158419453712/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Chopstick moisture check, partial drying and empty saucer explicitly avoid excess watering; no pole.",
+      "evidence": [
+        "video-audit-CbwZmezuJqg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=CbwZmezuJqg"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Support/trellis and soil-dryness-based watering recover both credited actions.",
+      "evidence": [
+        "video-audit--ZUnPtovKus-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=-ZUnPtovKus&themeRefresh=1"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicitly reduce overwatering and allow drying matches one credited action; unnecessary root surgery and excessive complete drying are extras.",
+      "evidence": [
+        "069-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/1hilcdj/birkin_philodendron_leaf_tips_are_brown_but_not/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "If soil wet, wait until top inches dry before watering matches overwatering avoidance; no pole.",
+      "evidence": [
+        "069-source-05.txt"
+      ],
+      "url": "https://www.heyrooted.com/blogs/plant-care/philodendron-leaves-turning-yellow?srsltid=AYCX9vIjxA4gVcyYAVKauvViv0svN1BsBe1zQllmCI8b9UsHxMYDTWSS"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Take photo of whole plant for further assessment",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check watering habits",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Inspect new growth for small, deformed or stuck leaves",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for spider mites and other pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Watering and normal leaf aging are possibilities but the reply only requests checks; it supplies neither a drying threshold/reduction nor climbing support."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "“Check for any pest” is a non-destructive inspection. The response acknowledges uncertainty and does not prescribe chemicals, cutting or increased watering."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Stress related” after a grow-light change is relevant to the timing, while watering and natural older-leaf loss overlap the reference possibilities. It does not resolve the cause or give either validated corrective action."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Photographing the plant, examining new growth and checking pests are straightforward. “Check your watering habits” lacks an objective criterion, so the assessment cannot itself lead to a clear adjustment."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 69,
+  "thread_id": "t7qa4k",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 69,
+    "thread_id": "t7qa4k",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1842823149113921/posts/27135158419453712/",
+    "spans": [
+      {
+        "file": "069-source-01.txt",
+        "start_line": 48,
+        "end_line": 83,
+        "sha256": "28999e010f54f7ffbeadba6f4f8e9ec994d2fbd49285309bce828f6bdd1979cb",
+        "text": "        - text: Most relevant\n      - article \"Comment by Sammi McKay 21 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sammi McKay\":\n          - generic: Sammi McKay\n        - generic: It’s usually a combination of improper watering, incorrect light. But could also be a your plant dropping a lower leaf naturally.\n        - generic: Can you take a photo of the whole plant?\n        - list:\n          - link \"21w\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/27135158419453712/?comment_id=27136693505966870&__cft__[0]=AZiXMadHxDZFUxe4WA6jrXydWREX7JZ1NlkpsecvwX63OMPcSwubwfW2-gB0tRlkiR_4wWoWanrwFD12JxiWqyxj3LepUEywk-riV7C4YFZjN7ukaEM9Ej6G9VX4YvYYF8LH7yCZY_FE-wtJZ2_w72lqOvecIE9f6AqsM6y4LIXXY1bscmunem15yoqmi94&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Kyndall Norris 21 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kyndall Norris\":\n          - generic: Kyndall Norris\n        - generic: If it’s the whole leaf, I would check your watering habits. If it’s the edges, it could be a humidity issue or drafts. I found that as my PPP matured, her water needs changed. Since you mentioned recently putting her under a grow light, it could very well be stress related. I would pay attention to new growth. Is she pushing out small leaves, are they deformed, or getting stuck?\n        - list:\n          - link \"21w\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/27135158419453712/?comment_id=27137040219265532&__cft__[0]=AZiXMadHxDZFUxe4WA6jrXydWREX7JZ1NlkpsecvwX63OMPcSwubwfW2-gB0tRlkiR_4wWoWanrwFD12JxiWqyxj3LepUEywk-riV7C4YFZjN7ukaEM9Ej6G9VX4YvYYF8LH7yCZY_FE-wtJZ2_w72lqOvecIE9f6AqsM6y4LIXXY1bscmunem15yoqmi94&__tn__=R]-R\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by April Estepp 21 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"April Estepp\":\n          - generic: April Estepp\n        - generic: Check for any pest like spider mites. They suck the nutrients out of a leave and can cause them also to do that.\n        - list:\n          - link \"21w\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/27135158419453712/?comment_id=27166156913020529&__cft__[0]=AZiXMadHxDZFUxe4WA6jrXydWREX7JZ1NlkpsecvwX63OMPcSwubwfW2-gB0tRlkiR_4wWoWanrwFD12JxiWqyxj3LepUEywk-riV7C4YFZjN7ukaEM9Ej6G9VX4YvYYF8LH7yCZY_FE-wtJZ2_w72lqOvecIE9f6AqsM6y4LIXXY1bscmunem15yoqmi94&__tn__=R]-R\n      - button \"View more comments\":"
+      }
+    ],
+    "advice": "        - text: Most relevant\n      - article \"Comment by Sammi McKay 21 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sammi McKay\":\n          - generic: Sammi McKay\n        - generic: It’s usually a combination of improper watering, incorrect light. But could also be a your plant dropping a lower leaf naturally.\n        - generic: Can you take a photo of the whole plant?\n        - list:\n          - link \"21w\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/27135158419453712/?comment_id=27136693505966870&__cft__[0]=AZiXMadHxDZFUxe4WA6jrXydWREX7JZ1NlkpsecvwX63OMPcSwubwfW2-gB0tRlkiR_4wWoWanrwFD12JxiWqyxj3LepUEywk-riV7C4YFZjN7ukaEM9Ej6G9VX4YvYYF8LH7yCZY_FE-wtJZ2_w72lqOvecIE9f6AqsM6y4LIXXY1bscmunem15yoqmi94&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Kyndall Norris 21 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kyndall Norris\":\n          - generic: Kyndall Norris\n        - generic: If it’s the whole leaf, I would check your watering habits. If it’s the edges, it could be a humidity issue or drafts. I found that as my PPP matured, her water needs changed. Since you mentioned recently putting her under a grow light, it could very well be stress related. I would pay attention to new growth. Is she pushing out small leaves, are they deformed, or getting stuck?\n        - list:\n          - link \"21w\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/27135158419453712/?comment_id=27137040219265532&__cft__[0]=AZiXMadHxDZFUxe4WA6jrXydWREX7JZ1NlkpsecvwX63OMPcSwubwfW2-gB0tRlkiR_4wWoWanrwFD12JxiWqyxj3LepUEywk-riV7C4YFZjN7ukaEM9Ej6G9VX4YvYYF8LH7yCZY_FE-wtJZ2_w72lqOvecIE9f6AqsM6y4LIXXY1bscmunem15yoqmi94&__tn__=R]-R\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by April Estepp 21 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"April Estepp\":\n          - generic: April Estepp\n        - generic: Check for any pest like spider mites. They suck the nutrients out of a leave and can cause them also to do that.\n        - list:\n          - link \"21w\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/27135158419453712/?comment_id=27166156913020529&__cft__[0]=AZiXMadHxDZFUxe4WA6jrXydWREX7JZ1NlkpsecvwX63OMPcSwubwfW2-gB0tRlkiR_4wWoWanrwFD12JxiWqyxj3LepUEywk-riV7C4YFZjN7ukaEM9Ej6G9VX4YvYYF8LH7yCZY_FE-wtJZ2_w72lqOvecIE9f6AqsM6y4LIXXY1bscmunem15yoqmi94&__tn__=R]-R\n      - button \"View more comments\":",
+    "reason": "First accessible discussion matching leaf decline after stronger light; all visible advice retained, excluding generated Meta title.",
+    "frozen_at": "2026-10-29T04:55:12.280846+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:55:58.900611+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

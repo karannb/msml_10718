@@ -1,0 +1,179 @@
+{
+  "reference_action": "Neglected Crinum/spider lily: tropical mix with sand/perlite, more light and warmth, optional warm-season outdoors. OP later reports bloom; specific performed changes are not enumerated.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient.",
+      "evidence": [
+        "video-audit-mBUGLQwzoTE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=mBUGLQwzoTE"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Chunky aroid mix partially matches a draining tropical substrate, though moisture diagnosis is wrong.",
+      "evidence": [
+        "165-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/28463225610005547/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "5:44 compost/perlite and 7:53 brighter/warmer location or grow lamp match.",
+      "evidence": [
+        "video-audit-buG1Ua3yonI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=buG1Ua3yonI"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Repot dry damaged roots in fresh houseplant mix/perlite; partial substrate match.",
+      "evidence": [
+        "165-source-04.txt"
+      ],
+      "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/how-do-i-revive-a-dried-out-houseplant"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Sunny-window relocation explicitly prescribed.",
+      "evidence": [
+        "165-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/4646813445563499/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Remove plant and inspect roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak corm in peroxide solution",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": true,
+        "elapsed_minutes_original_estimate": 30,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "action": "Transfer to LECA semi-hydro",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Maintain small water reservoir",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Move to bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Light overlaps but main procedure is Alocasia-corm hydro rescue, with unspecified peroxide stock and reservoir depth. No warmth or suitable soil guidance for Crinum. Audit: incidental care overlap does not supply the confirmed action; advice agreement is no."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Five drops of hydrogen peroxide” omits stock strength and semi-hydro setup details. Root disturbance and a constant reservoir introduce avoidable risk to this dry, otherwise viable bulb plant."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The selected rescue demonstrates Alocasia rather than identifying Crinum. “Bright spot with indirect light” is relevant, but the main intervention is unsupported by the case."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The video gives a thirty-minute soak, but LECA preparation and reservoir depth are vague. Applying a small-corm demonstration to a heavy plant requires substantial adaptation."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "reference_quality": {
+    "issue": "recovery_without_explicit_action_confirmation",
+    "detail": "Bloom confirms improvement, but follow-up does not enumerate performed care changes. Hits compare associated reference advice."
+  },
+  "query_index": 165,
+  "thread_id": "1jrrl0j",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 165,
+    "thread_id": "1jrrl0j",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=mBUGLQwzoTE",
+    "spans": [
+      {
+        "file": "video-audit-mBUGLQwzoTE-transcript.txt",
+        "start_line": 9,
+        "end_line": 21,
+        "sha256": "88f82a3cb988b27a72c43f53be3e3c9b9fec6f3a4f207d044ac225f6ddcb78da",
+        "text": "[0:19] I need to check the roots… that’s the only way to know if it can be saved.\n[0:36] It’s still alive… I can feel it.\n[0:42] Which means there’s a chance—let’s bring it back.\n[0:57] This method has never failed me…\n[1:05] Just 5 drops of hydrogen peroxide per 7 oz of water — it disinfects and oxygenates at the same time while the corm soaks.\n[1:13] Now it just needs 30 minutes…\n[1:18] This method has already helped me save a Spider Plant — just look at how well it’s doing now.\n[1:31] And this little Anthurium… it grew beautiful new leaves and strong roots almost from nothing.\n[1:43] Why this method?\n[1:46] LECA retains moisture while still allowing air to reach the roots—this means less rot and much easier watering control.\n[2:05] This is called semi-hydroponics.\n[2:16] Now I just need to keep a small water level at the bottom at all times.\n[2:28] I place it in a bright spot with indirect light… and now all that’s left is to be patient and watch it recover."
+      }
+    ],
+    "advice": "[0:19] I need to check the roots… that’s the only way to know if it can be saved.\n[0:36] It’s still alive… I can feel it.\n[0:42] Which means there’s a chance—let’s bring it back.\n[0:57] This method has never failed me…\n[1:05] Just 5 drops of hydrogen peroxide per 7 oz of water — it disinfects and oxygenates at the same time while the corm soaks.\n[1:13] Now it just needs 30 minutes…\n[1:18] This method has already helped me save a Spider Plant — just look at how well it’s doing now.\n[1:31] And this little Anthurium… it grew beautiful new leaves and strong roots almost from nothing.\n[1:43] Why this method?\n[1:46] LECA retains moisture while still allowing air to reach the roots—this means less rot and much easier watering control.\n[2:05] This is called semi-hydroponics.\n[2:16] Now I just need to keep a small water level at the bottom at all times.\n[2:28] I place it in a bright spot with indirect light… and now all that’s left is to be patient and watch it recover.",
+    "reason": "First accessible dying-plant rescue procedure, despite different plant; retain peroxide soak, LECA reservoir and light.",
+    "frozen_at": "2026-10-29T06:18:30.126610+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.235437+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.234702+00:00",
+    "changes": [
+      {
+        "query_index": 165,
+        "rank": 1,
+        "field": "source_action_hit",
+        "before": "hit",
+        "after": "miss",
+        "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+      },
+      {
+        "query_index": 165,
+        "field": "advice",
+        "before": "partial",
+        "after": "no",
+        "reason": "Same central-action standard as source audit."
+      },
+      {
+        "query_index": 165,
+        "action_index": 1,
+        "field": "minutes",
+        "before": 30,
+        "after": 5,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ]
+  }
+}

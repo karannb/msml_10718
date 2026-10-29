@@ -1,0 +1,244 @@
+{
+  "reference_action": "Healthy pepper is not mature enough to set fruit: give it time. OP explicitly confirms that waiting advice was right when fruit appeared; hand-pollination in the broader summary is not independently confirmed by this outcome.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "The slow-variety section says some chillies need 120–150 days and to give a large-fruited/superhot plant four months rather than expecting six-week fruit. That supplies patience for maturation, buried among many unnecessary interventions.",
+      "evidence": [
+        "020-source-01.txt"
+      ],
+      "url": "https://indoorgarden.ee/indoor-gardening-blog/indoor-herbs-and-plants/why-is-my-chilli-plant-not-growing-common-causes-and-simple-fixes/?srsltid=AYCX9vI4S_tdYc__IYxzdiiZ54t3X4Yv-Pn8zEclaV-wg2Et-_jscWfs"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Erin explicitly says peppers take a long time, it is still early and they should be fine. This matches the validated patience/reassurance; other comments recommending heat are unrelated.",
+      "evidence": [
+        "020-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/chicagogardens/posts/3482392448581529/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Nitrogen, pests, mistaken plant identity and aggressive pruning/root chopping do not match waiting for a healthy young pepper to mature.",
+      "evidence": [
+        "020-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/gardening/comments/dokayc/pepper_plants_overgrown_but_no_peppers/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "The guide prescribes altered feeding, light, water, pruning, early flower removal and pollination; it does not recommend leaving this healthy young plant to mature without treatment.",
+      "evidence": [
+        "video-audit-Yoyx-6DmQZo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Yoyx-6DmQZo"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "The guide attributes lack of fruit to care mistakes and prescribes planting/watering/soil/pollination changes rather than the validated wait.",
+      "evidence": [
+        "video-audit-G5Db4BJw52A-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=G5Db4BJw52A"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": true,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check daily light duration",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Install LED panel and 14-hour timer",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 60,
+        "unclear": false
+      },
+      {
+        "action": "Tape thermometer to sill and check night temperatures",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move pot 40 cm off cold sill",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Install heated seed-starting base if unable to move",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Check compost 3 cm deep before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check drainage holes and saucer standing water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water only when soil check is dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Tip out plant to inspect circling roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot progressively to next size",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Feed weekly half strength then full strength at flowering if depleted",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Measure hydroponic EC",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Add hydroponic nutrients to target EC",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 18,
+        "unclear": false
+      },
+      {
+        "action": "Gradually lower new grow light from 40 cm in 5 cm increments",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Choose early cayenne seeds next season",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 4,
+        "unclear": false
+      },
+      {
+        "action": "Provide 100 W light for slow varieties",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 60,
+        "unclear": false
+      },
+      {
+        "action": "Move small seedlings to individual 9 cm pots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Install hydroponic smart garden as alternative",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 100,
+        "unclear": false
+      }
+    ],
+    "reason": "Normal slow maturation is present but buried beneath a primary stalled-growth diagnosis and many unnecessary fixes; moisture and feeding safeguards prevent a clear harmful grade."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“If you only fix one thing, fix this one” pushes extra lighting despite no demonstrated growth stall. Moisture checks and feeding only after other conditions are right are safeguards, but blanket growth guarantees and heating/hydroponic alternatives are unnecessary for this healthy plant."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The article explicitly says a plant “growing but dropping its flowers” is a different problem, yet that is this case. Its slow-variety paragraph overlaps waiting for maturity, while most of the answer addresses stalled vegetative growth."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The soil depth and lamp distances are concrete, and “give it ... 4 months” is simple. The complete answer nevertheless proposes LEDs, heating, EC measurement and hydroponic systems that add considerable cost and setup."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Start with light and warmth"
+    ]
+  },
+  "query_index": 20,
+  "thread_id": "1lic91x",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 20,
+    "thread_id": "1lic91x",
+    "selected_rank": 1,
+    "source_url": "https://indoorgarden.ee/indoor-gardening-blog/indoor-herbs-and-plants/why-is-my-chilli-plant-not-growing-common-causes-and-simple-fixes/?srsltid=AYCX9vI4S_tdYc__IYxzdiiZ54t3X4Yv-Pn8zEclaV-wg2Et-_jscWfs",
+    "spans": [
+      {
+        "file": "020-source-01.txt",
+        "start_line": 53,
+        "end_line": 54,
+        "sha256": "5b8ac65be1cedc69d5d858f5f6768c9c111316829d5e631f53925531d0068863",
+        "text": "      - strong: \"A chilli plant not growing is almost always reacting to one of 7 conditions: light under 12 hours a day, nights below 15 °C, wet roots, a pot that is too small or too large, wrong feeding, transplant shock or a slow variety. Six of the seven can be fixed in about 10 minutes.\"\n    - paragraph: A chilli plant not growing usually fits one of seven patterns gardeners report repeatedly, each with its own quick check and fix. Below are the seven causes in the order worth checking, with a typical timeline for recovery once each is corrected."
+      },
+      {
+        "file": "020-source-01.txt",
+        "start_line": 90,
+        "end_line": 209,
+        "sha256": "5b8ac65be1cedc69d5d858f5f6768c9c111316829d5e631f53925531d0068863",
+        "text": "      - text: Light is the first thing to check, because it explains most stalled chilli plants reported in Estonia and across Northern Europe. A chilli needs 12 to 14 hours of light a day to grow at a normal pace, and a windowsill in February gives about 8 hours of weak light at best.\n      - link \"University of Minnesota Extension\":\n        - /url: https://extension.umn.edu/planting-and-growing-guides/lighting-indoor-plants\n      - text: notes that plants in low light grow more slowly and use less water, which is why a dark spot leads straight to the overwatering problem in cause 3.\n    - paragraph:\n      - text: Moving a stalled plant under an LED panel at around 30 cm distance, on a 14-hour timer, typically produces visible new growth within 7 to 10 days. If you only fix one thing, fix this one. A 100 W full-spectrum panel runs at roughly 0,10 € a day in Estonia at 14 hours, and our\n      - link \"free indoor gardening tools\":\n        - /url: /free-indoor-gardening-tools/\n        - emphasis: free indoor gardening tools\n      - text: help you work out light and nutrient settings for your setup.\n    - 'heading \"Cause 2: nights below 15 °C\" [level=2]'\n    - paragraph:\n      - text: Cold is the second most common reason, and the sneakiest, because the plant does not look damaged. The\n      - link \"RHS\":\n        - /url: https://www.rhs.org.uk/vegetables/chilli-pepper/grow-your-own\n      - text: says chillies cope with 12 °C at night but grow better above 15 °C, and growth commonly pauses around 13 °C. A windowsill above a radiator that is switched off at night can drop 6 to 8 °C below the room temperature.\n    - paragraph: \"Taping a thermometer to the sill for a few nights is the easiest way to check: readings near 12 °C explain a stalled plant. Moving the pot about 40 cm into the room, off the sill, is usually enough to bring night temperatures into the high teens, and growth commonly restarts within a week. That is the 10-minute fix. If you cannot move the plant, a heated seed starter base keeps the root zone at 20 to 25 °C regardless of the window.\"\n    - figure:\n      - img \"Indoor chilli plant on a windowsill, used to illustrate stalled growth from cold temperatures\"\n    - 'heading \"Cause 3: overwatering and wet roots\" [level=2]'\n    - paragraph: Overwatering means the compost never dries between waterings, so the roots sit without oxygen. When a chilli stops growing, most people water more, which makes it worse. In low light a chilli uses maybe a third of the water it uses under a grow light, so the same watering routine that worked in June drowns the plant in November.\n    - paragraph: \"Pushing a finger 3 cm into the compost is the simplest check: water only when it comes out dry. For a stalled plant, that often means stretching the interval from every 2 days to every 6. Check that the pot has drainage holes and no standing water in the saucer. Root recovery is slower than the light fix — expect 2 to 3 weeks before new growth appears. A hydroponic system avoids this problem altogether, since the reservoir keeps the root zone at a constant level.\"\n    - 'heading \"Cause 4: the pot is too small or too large\" [level=2]'\n    - paragraph: \"Pot size affects growth in both directions. A chilli in a 7 cm pot for more than 4 weeks becomes root-bound and stops. A 5 cm seedling moved straight into a 5 L pot sits in cold, wet compost for weeks and also stops. The RHS sequence works: seed tray, then a 9 cm pot, then a 13 cm pot when roots show at the bottom, then a final 22 cm pot (about 5 L).\"\n    - paragraph: Tipping a stalled plant out of its pot often shows roots circling the base — a clear sign it is time to move up one size. Growers typically see new growth within about 8 days of repotting from a 9 cm to a 13 cm pot. Do not skip sizes. Twice the diameter is roughly four times the volume, and that is too much wet compost for a small root ball.\n    - figure:\n      - img \"Young chilli seedlings growing in the pods of a LetPot smart garden\"\n    - 'heading \"Cause 5: feeding at the wrong strength\" [level=2]'\n    - paragraph: Feeding is a fix only when the other four conditions are already right. A chilli in dim, cold, wet compost does not need more fertiliser, it needs less water and more light. But a plant that has been in the same compost for 8 weeks or longer, with pale lower leaves and good light, is usually hungry. Fresh compost feeds a chilli for about 6 weeks, after that you feed weekly at half strength until flowering, then full strength.\n    - paragraph:\n      - text: \"In a hydroponic system, checking EC with a meter is the fastest way to confirm this: a reading near 0,6 mS/cm after a plain-water top-up is well below the 1,8 to 2,2 mS/cm chillies want in the vegetative stage. Adding nutrients to bring the solution back into that range typically shows a visible growth response within a week. If you are not sure what EC means, our guide to\"\n      - link \"EC in hydroponics and how much nutrient to add\":\n        - /url: /indoor-gardening-blog/indoor-plant-care/what-is-ec-in-hydroponics-and-how-much-nutrient-solution-should-you-add/\n        - emphasis: EC in hydroponics and how much nutrient to add\n      - text: explains it in plain language.\n    - 'heading \"Cause 6: transplant shock\" [level=2]'\n    - paragraph: Transplant shock is a growth pause of 7 to 14 days after repotting, moving the plant to a new room, or a sudden jump in light. It looks alarming but needs no fix except patience. The mistake is to react with extra water or feed, which turns a pause into cause 3 or cause 5.\n    - paragraph: After repotting, keeping the plant at the same light distance and temperature, and watering only when the top 3 cm is dry, usually lets growth resume within about 9 to 10 days. If you move a chilli from a window to a grow light, start the lamp at 40 cm and lower it 5 cm every 3 days to avoid scorched leaves.\n    - 'heading \"Cause 7: a slow variety, or the wrong season\" [level=2]'\n    - paragraph: Some chillies are simply slow. Habanero types and other Capsicum chinense can take 120 to 150 days from sowing to first ripe fruit, while a cayenne type such as Ardito H is ready in around 90 days. Growth also slows naturally from October to February at our latitude even under good conditions, and that is normal rather than a problem. If you sowed in autumn without a grow light, the plant is waiting for spring.\n    - paragraph:\n      - text: A cayenne-type hybrid rated 30 000 to 50 000 SHU is a reasonable choice here, since it stays under 60 cm and fruits early. If your plant is a large-fruited or superhot variety, give it a 100 W light and 4 months rather than expecting results in 6 weeks. Our\n      - link \"chilli pepper seeds\":\n        - /url: /product-category/seeds-for-indoor-garden-and-hydroponics/seeds-chilli-peppers/\n        - emphasis: chilli pepper seeds\n      - text: list the days to harvest for each variety.\n    - 'heading \"Which fix to try first: a 10-minute decision table\" [level=2]'\n    - table:\n      - rowgroup:\n        - row \"Symptom Most likely cause 10-minute fix What to use\":\n          - columnheader \"Symptom\"\n          - columnheader \"Most likely cause\"\n          - columnheader \"10-minute fix\"\n          - columnheader \"What to use\"\n      - rowgroup:\n        - row \"Pale, stretched stem, tiny new leaves Light under 12 h/day Move under a grow light, 14 h timer Grow light (see category link below)\":\n          - cell \"Pale, stretched stem, tiny new leaves\"\n          - cell \"Light under 12 h/day\"\n          - cell \"Move under a grow light, 14 h timer\"\n          - cell \"Grow light (see category link below)\"\n        - row \"Healthy-looking but frozen for weeks Nights below 15 °C Move 40 cm off the sill, check with a thermometer Thermometer, or EC meter with temperature readout, €69.00\":\n          - cell \"Healthy-looking but frozen for weeks\"\n          - cell \"Nights below 15 °C\"\n          - cell \"Move 40 cm off the sill, check with a thermometer\"\n          - cell \"Thermometer, or EC meter with temperature readout, €69.00\"\n        - row \"Compost damp for days, lower leaves yellow Overwatering Stop watering until top 3 cm is dry Your finger\":\n          - cell \"Compost damp for days, lower leaves yellow\"\n          - cell \"Overwatering\"\n          - cell \"Stop watering until top 3 cm is dry\"\n          - cell \"Your finger\"\n        - row \"Roots circling, dries out daily Pot too small Repot one size up Next-size pot\":\n          - cell \"Roots circling, dries out daily\"\n          - cell \"Pot too small\"\n          - cell \"Repot one size up\"\n          - cell \"Next-size pot\"\n        - row \"Good light, pale lower leaves after 8 weeks Hungry Feed to EC 1,8 to 2,2 mS/cm LetPot nutrients, €17.99\":\n          - cell \"Good light, pale lower leaves after 8 weeks\"\n          - cell \"Hungry\"\n          - cell \"Feed to EC 1,8 to 2,2 mS/cm\"\n          - cell \"LetPot nutrients, €17.99\"\n        - row \"Stopped right after repotting Transplant shock Wait 10 days, change nothing Patience\":\n          - cell \"Stopped right after repotting\"\n          - cell \"Transplant shock\"\n          - cell \"Wait 10 days, change nothing\"\n          - cell \"Patience\"\n        - row \"Everything correct, still slow Slow variety or winter Choose an early cayenne type next time Ardito H seeds, €2.49\":\n          - cell \"Everything correct, still slow\"\n          - cell \"Slow variety or winter\"\n          - cell \"Choose an early cayenne type next time\"\n          - cell \"Ardito H seeds, €2.49\"\n    - paragraph:\n      - text: The order matters because the causes chain together. Weak light means slow water use, slow water use means wet compost, wet compost means weak roots. Fix light and temperature first, then watering, and only then think about feeding. If your plant is growing but dropping its flowers, that is a different problem and is covered in\n      - link \"chilli flowers falling off\":\n        - /url: /indoor-gardening-blog/indoor-plant-care/why-are-my-chilli-flowers-falling-off-common-causes-and-what-to-do/\n        - emphasis: chilli flowers falling off\n      - text: .\n    - heading \"Frequently asked questions\" [level=2]\n    - heading \"How long does a chilli plant take to start growing again after a fix?\" [level=3]\n    - paragraph: Light fixes typically show new leaves in 7 to 9 days, temperature fixes in about a week, and watering fixes in 2 to 3 weeks, since the roots need time to recover first.\n    - heading \"How many hours of light does an indoor chilli need?\" [level=3]\n    - paragraph: 12 to 14 hours a day. Below 8 hours the plant will hold but not grow. Keep a dark period of at least 8 hours, a 24-hour light schedule does not help.\n    - heading \"What temperature stops chilli plants growing?\" [level=3]\n    - paragraph: Growth slows sharply below 15 °C at night and stops around 12 °C. Above 30 °C fruit set drops. The comfortable range is 18 to 26 °C.\n    - heading \"Should I fertilise a chilli plant that is not growing?\" [level=3]\n    - paragraph: Only if light, temperature and watering are already right and the plant has been in the same compost for more than 6 weeks. Otherwise feeding adds salt stress to a plant that cannot use it.\n    - heading \"Can I grow chillies in a smart garden all year?\" [level=3]\n    - paragraph: Yes. A 12-pod hydroponic garden with its own LED gives 14 hours of light and 20 to 24 °C water regardless of the season, which removes causes 1, 2 and 3 at once. Growers commonly report plants reaching 30 to 35 cm within 10 weeks even in winter months.\n    - heading \"Why is my chilli seedling not growing after germination?\" [level=3]\n    - paragraph: Seedlings stall for the same reasons as mature plants, but light is usually the culprit. Keep seedlings 10 to 15 cm under a lamp at 16 to 18 °C and move them to their own 9 cm pot once they reach 2 to 3 cm tall.\n    - heading \"If you want to fix this today\" [level=2]\n    - paragraph:\n      - text: Start with light and warmth, because they solve most cases in under two weeks. If you would rather remove the guesswork entirely, a\n      - link \"smart garden\":\n        - /url: /product-category/smart-gardens/\n        - emphasis: smart garden\n      - text: gives your chilli 14 hours of LED and warm roots automatically, and a bottle of\n      - link \"LetPot hydroponic nutrients\":\n        - /url: /product/letpot-hydroponics-nutrients-liquid-plant-food/\n        - emphasis: LetPot hydroponic nutrients\n      - text: covers feeding for about 6 months. Both ship from our Tallinn warehouse across the EU."
+      }
+    ],
+    "advice": "      - strong: \"A chilli plant not growing is almost always reacting to one of 7 conditions: light under 12 hours a day, nights below 15 °C, wet roots, a pot that is too small or too large, wrong feeding, transplant shock or a slow variety. Six of the seven can be fixed in about 10 minutes.\"\n    - paragraph: A chilli plant not growing usually fits one of seven patterns gardeners report repeatedly, each with its own quick check and fix. Below are the seven causes in the order worth checking, with a typical timeline for recovery once each is corrected.\n\n      - text: Light is the first thing to check, because it explains most stalled chilli plants reported in Estonia and across Northern Europe. A chilli needs 12 to 14 hours of light a day to grow at a normal pace, and a windowsill in February gives about 8 hours of weak light at best.\n      - link \"University of Minnesota Extension\":\n        - /url: https://extension.umn.edu/planting-and-growing-guides/lighting-indoor-plants\n      - text: notes that plants in low light grow more slowly and use less water, which is why a dark spot leads straight to the overwatering problem in cause 3.\n    - paragraph:\n      - text: Moving a stalled plant under an LED panel at around 30 cm distance, on a 14-hour timer, typically produces visible new growth within 7 to 10 days. If you only fix one thing, fix this one. A 100 W full-spectrum panel runs at roughly 0,10 € a day in Estonia at 14 hours, and our\n      - link \"free indoor gardening tools\":\n        - /url: /free-indoor-gardening-tools/\n        - emphasis: free indoor gardening tools\n      - text: help you work out light and nutrient settings for your setup.\n    - 'heading \"Cause 2: nights below 15 °C\" [level=2]'\n    - paragraph:\n      - text: Cold is the second most common reason, and the sneakiest, because the plant does not look damaged. The\n      - link \"RHS\":\n        - /url: https://www.rhs.org.uk/vegetables/chilli-pepper/grow-your-own\n      - text: says chillies cope with 12 °C at night but grow better above 15 °C, and growth commonly pauses around 13 °C. A windowsill above a radiator that is switched off at night can drop 6 to 8 °C below the room temperature.\n    - paragraph: \"Taping a thermometer to the sill for a few nights is the easiest way to check: readings near 12 °C explain a stalled plant. Moving the pot about 40 cm into the room, off the sill, is usually enough to bring night temperatures into the high teens, and growth commonly restarts within a week. That is the 10-minute fix. If you cannot move the plant, a heated seed starter base keeps the root zone at 20 to 25 °C regardless of the window.\"\n    - figure:\n      - img \"Indoor chilli plant on a windowsill, used to illustrate stalled growth from cold temperatures\"\n    - 'heading \"Cause 3: overwatering and wet roots\" [level=2]'\n    - paragraph: Overwatering means the compost never dries between waterings, so the roots sit without oxygen. When a chilli stops growing, most people water more, which makes it worse. In low light a chilli uses maybe a third of the water it uses under a grow light, so the same watering routine that worked in June drowns the plant in November.\n    - paragraph: \"Pushing a finger 3 cm into the compost is the simplest check: water only when it comes out dry. For a stalled plant, that often means stretching the interval from every 2 days to every 6. Check that the pot has drainage holes and no standing water in the saucer. Root recovery is slower than the light fix — expect 2 to 3 weeks before new growth appears. A hydroponic system avoids this problem altogether, since the reservoir keeps the root zone at a constant level.\"\n    - 'heading \"Cause 4: the pot is too small or too large\" [level=2]'\n    - paragraph: \"Pot size affects growth in both directions. A chilli in a 7 cm pot for more than 4 weeks becomes root-bound and stops. A 5 cm seedling moved straight into a 5 L pot sits in cold, wet compost for weeks and also stops. The RHS sequence works: seed tray, then a 9 cm pot, then a 13 cm pot when roots show at the bottom, then a final 22 cm pot (about 5 L).\"\n    - paragraph: Tipping a stalled plant out of its pot often shows roots circling the base — a clear sign it is time to move up one size. Growers typically see new growth within about 8 days of repotting from a 9 cm to a 13 cm pot. Do not skip sizes. Twice the diameter is roughly four times the volume, and that is too much wet compost for a small root ball.\n    - figure:\n      - img \"Young chilli seedlings growing in the pods of a LetPot smart garden\"\n    - 'heading \"Cause 5: feeding at the wrong strength\" [level=2]'\n    - paragraph: Feeding is a fix only when the other four conditions are already right. A chilli in dim, cold, wet compost does not need more fertiliser, it needs less water and more light. But a plant that has been in the same compost for 8 weeks or longer, with pale lower leaves and good light, is usually hungry. Fresh compost feeds a chilli for about 6 weeks, after that you feed weekly at half strength until flowering, then full strength.\n    - paragraph:\n      - text: \"In a hydroponic system, checking EC with a meter is the fastest way to confirm this: a reading near 0,6 mS/cm after a plain-water top-up is well below the 1,8 to 2,2 mS/cm chillies want in the vegetative stage. Adding nutrients to bring the solution back into that range typically shows a visible growth response within a week. If you are not sure what EC means, our guide to\"\n      - link \"EC in hydroponics and how much nutrient to add\":\n        - /url: /indoor-gardening-blog/indoor-plant-care/what-is-ec-in-hydroponics-and-how-much-nutrient-solution-should-you-add/\n        - emphasis: EC in hydroponics and how much nutrient to add\n      - text: explains it in plain language.\n    - 'heading \"Cause 6: transplant shock\" [level=2]'\n    - paragraph: Transplant shock is a growth pause of 7 to 14 days after repotting, moving the plant to a new room, or a sudden jump in light. It looks alarming but needs no fix except patience. The mistake is to react with extra water or feed, which turns a pause into cause 3 or cause 5.\n    - paragraph: After repotting, keeping the plant at the same light distance and temperature, and watering only when the top 3 cm is dry, usually lets growth resume within about 9 to 10 days. If you move a chilli from a window to a grow light, start the lamp at 40 cm and lower it 5 cm every 3 days to avoid scorched leaves.\n    - 'heading \"Cause 7: a slow variety, or the wrong season\" [level=2]'\n    - paragraph: Some chillies are simply slow. Habanero types and other Capsicum chinense can take 120 to 150 days from sowing to first ripe fruit, while a cayenne type such as Ardito H is ready in around 90 days. Growth also slows naturally from October to February at our latitude even under good conditions, and that is normal rather than a problem. If you sowed in autumn without a grow light, the plant is waiting for spring.\n    - paragraph:\n      - text: A cayenne-type hybrid rated 30 000 to 50 000 SHU is a reasonable choice here, since it stays under 60 cm and fruits early. If your plant is a large-fruited or superhot variety, give it a 100 W light and 4 months rather than expecting results in 6 weeks. Our\n      - link \"chilli pepper seeds\":\n        - /url: /product-category/seeds-for-indoor-garden-and-hydroponics/seeds-chilli-peppers/\n        - emphasis: chilli pepper seeds\n      - text: list the days to harvest for each variety.\n    - 'heading \"Which fix to try first: a 10-minute decision table\" [level=2]'\n    - table:\n      - rowgroup:\n        - row \"Symptom Most likely cause 10-minute fix What to use\":\n          - columnheader \"Symptom\"\n          - columnheader \"Most likely cause\"\n          - columnheader \"10-minute fix\"\n          - columnheader \"What to use\"\n      - rowgroup:\n        - row \"Pale, stretched stem, tiny new leaves Light under 12 h/day Move under a grow light, 14 h timer Grow light (see category link below)\":\n          - cell \"Pale, stretched stem, tiny new leaves\"\n          - cell \"Light under 12 h/day\"\n          - cell \"Move under a grow light, 14 h timer\"\n          - cell \"Grow light (see category link below)\"\n        - row \"Healthy-looking but frozen for weeks Nights below 15 °C Move 40 cm off the sill, check with a thermometer Thermometer, or EC meter with temperature readout, €69.00\":\n          - cell \"Healthy-looking but frozen for weeks\"\n          - cell \"Nights below 15 °C\"\n          - cell \"Move 40 cm off the sill, check with a thermometer\"\n          - cell \"Thermometer, or EC meter with temperature readout, €69.00\"\n        - row \"Compost damp for days, lower leaves yellow Overwatering Stop watering until top 3 cm is dry Your finger\":\n          - cell \"Compost damp for days, lower leaves yellow\"\n          - cell \"Overwatering\"\n          - cell \"Stop watering until top 3 cm is dry\"\n          - cell \"Your finger\"\n        - row \"Roots circling, dries out daily Pot too small Repot one size up Next-size pot\":\n          - cell \"Roots circling, dries out daily\"\n          - cell \"Pot too small\"\n          - cell \"Repot one size up\"\n          - cell \"Next-size pot\"\n        - row \"Good light, pale lower leaves after 8 weeks Hungry Feed to EC 1,8 to 2,2 mS/cm LetPot nutrients, €17.99\":\n          - cell \"Good light, pale lower leaves after 8 weeks\"\n          - cell \"Hungry\"\n          - cell \"Feed to EC 1,8 to 2,2 mS/cm\"\n          - cell \"LetPot nutrients, €17.99\"\n        - row \"Stopped right after repotting Transplant shock Wait 10 days, change nothing Patience\":\n          - cell \"Stopped right after repotting\"\n          - cell \"Transplant shock\"\n          - cell \"Wait 10 days, change nothing\"\n          - cell \"Patience\"\n        - row \"Everything correct, still slow Slow variety or winter Choose an early cayenne type next time Ardito H seeds, €2.49\":\n          - cell \"Everything correct, still slow\"\n          - cell \"Slow variety or winter\"\n          - cell \"Choose an early cayenne type next time\"\n          - cell \"Ardito H seeds, €2.49\"\n    - paragraph:\n      - text: The order matters because the causes chain together. Weak light means slow water use, slow water use means wet compost, wet compost means weak roots. Fix light and temperature first, then watering, and only then think about feeding. If your plant is growing but dropping its flowers, that is a different problem and is covered in\n      - link \"chilli flowers falling off\":\n        - /url: /indoor-gardening-blog/indoor-plant-care/why-are-my-chilli-flowers-falling-off-common-causes-and-what-to-do/\n        - emphasis: chilli flowers falling off\n      - text: .\n    - heading \"Frequently asked questions\" [level=2]\n    - heading \"How long does a chilli plant take to start growing again after a fix?\" [level=3]\n    - paragraph: Light fixes typically show new leaves in 7 to 9 days, temperature fixes in about a week, and watering fixes in 2 to 3 weeks, since the roots need time to recover first.\n    - heading \"How many hours of light does an indoor chilli need?\" [level=3]\n    - paragraph: 12 to 14 hours a day. Below 8 hours the plant will hold but not grow. Keep a dark period of at least 8 hours, a 24-hour light schedule does not help.\n    - heading \"What temperature stops chilli plants growing?\" [level=3]\n    - paragraph: Growth slows sharply below 15 °C at night and stops around 12 °C. Above 30 °C fruit set drops. The comfortable range is 18 to 26 °C.\n    - heading \"Should I fertilise a chilli plant that is not growing?\" [level=3]\n    - paragraph: Only if light, temperature and watering are already right and the plant has been in the same compost for more than 6 weeks. Otherwise feeding adds salt stress to a plant that cannot use it.\n    - heading \"Can I grow chillies in a smart garden all year?\" [level=3]\n    - paragraph: Yes. A 12-pod hydroponic garden with its own LED gives 14 hours of light and 20 to 24 °C water regardless of the season, which removes causes 1, 2 and 3 at once. Growers commonly report plants reaching 30 to 35 cm within 10 weeks even in winter months.\n    - heading \"Why is my chilli seedling not growing after germination?\" [level=3]\n    - paragraph: Seedlings stall for the same reasons as mature plants, but light is usually the culprit. Keep seedlings 10 to 15 cm under a lamp at 16 to 18 °C and move them to their own 9 cm pot once they reach 2 to 3 cm tall.\n    - heading \"If you want to fix this today\" [level=2]\n    - paragraph:\n      - text: Start with light and warmth, because they solve most cases in under two weeks. If you would rather remove the guesswork entirely, a\n      - link \"smart garden\":\n        - /url: /product-category/smart-gardens/\n        - emphasis: smart garden\n      - text: gives your chilli 14 hours of LED and warm roots automatically, and a bottle of\n      - link \"LetPot hydroponic nutrients\":\n        - /url: /product/letpot-hydroponics-nutrients-liquid-plant-food/\n        - emphasis: LetPot hydroponic nutrients\n      - text: covers feeding for about 6 months. Both ship from our Tallinn warehouse across the EU.",
+    "reason": "First usable source; complete stalled-growth guide including its explicit distinction that flower drop is a different issue. No reference-based selection of a better answer.",
+    "frozen_at": "2026-10-29T04:20:46.955889+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:21:52.446888+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

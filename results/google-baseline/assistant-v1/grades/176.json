@@ -1,0 +1,130 @@
+{
+  "reference_action": "OP later reports both cuttings thriving after advice to let them adjust with minimal intervention and monitor moisture in the oversized pot. No confirmed repotting.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Potting instructions and ordinary watering caution; no post-transplant shock reassurance or leave-established-cuttings-alone instruction. Rooting-in-water patience concerns a different stage.",
+      "evidence": [
+        "176-source-01.txt"
+      ],
+      "url": "https://tobebright.com/beginners-guide-to-plant-propagation-part-one/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "After potting, leave in indirect light until new growth and gradually space waterings while avoiding soaking; partial adjustment/moisture-management overlap.",
+      "evidence": [
+        "176-source-02.txt"
+      ],
+      "url": "https://www.skh.com/blog/plant-propagation-techniques/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Rooting/potting demonstration, not post-transplant observation or moisture monitoring.",
+      "evidence": [
+        "video-audit-sE30WKZIklc-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=sE30WKZIklc"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Do not rearrange freshly stuck unrooted cuttings precedes humidity dome/heating; not advice for recently transplanted rooted cuttings.",
+      "evidence": [
+        "video-audit-WHiv1OvXGcI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=WHiv1OvXGcI"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Propagation, moist soil and shade while new roots form; no reassurance for already-rooted post-transplant shock or oversized-pot monitoring.",
+      "evidence": [
+        "video-audit-_taBmwyRSyc-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=_taBmwyRSyc"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Choose root-sized draining pot or drill drainage",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Repot with soil and pebble layers",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Water according to mature plant needs",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Pre-planting guide does not diagnose immediate transplant droop or advise minimal intervention. It contains a size/moisture caution but no reason to disturb these already planted cuttings."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Several pebbles” to draw water down is misleading and another repot adds disturbance. Drainage and avoiding drowning are useful safeguards."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Explains initial potting rather than adjustment after potting. It does not identify transplant shock or address how to monitor this oversized pot."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Potting materials are ordinary, but drilling and rebuilding layers add effort. “Water it normally” leaves a novice to infer the needed schedule."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 176,
+  "thread_id": "ssu71z",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 176,
+    "thread_id": "ssu71z",
+    "selected_rank": 1,
+    "source_url": "https://tobebright.com/beginners-guide-to-plant-propagation-part-one/",
+    "spans": [
+      {
+        "file": "176-source-01.txt",
+        "start_line": 162,
+        "end_line": 178,
+        "sha256": "9d9361b5eb40cb85dbd3aafd8b403a1aee173a609345731603db62c031605e72",
+        "text": "    - heading \"WHEN IT’S TIME TO POT\" [level=2]:\n      - strong: WHEN IT’S TIME TO POT\n    - separator\n    - heading \"When your cutting has roots 4-6″ in length, it’s time to move it to soil! This is a big deal when your cutting gets to this stage because it will ultimately determine if you’ve been successful at propagating once in the soil.\" [level=6]\n    - heading \"To help ensure the best transition from water to pot, here’s what to do:\" [level=6]:\n      - emphasis: \"To help ensure the best transition from water to pot, here’s what to do:\"\n    - paragraph: ..\n    - heading \"Find The Perfect Pot\" [level=4]\n    - paragraph: \"Finding the perfect pot for your cutting is so important when it comes to the success & longevity of your cutting. I’m definitely guilty of purchasing pots solely based on the look of them, without having a plant in mind for them. It’s ok to do that from time-to-time, but there are a few things you should make sure the chosen pot for your cutting has before placing:\"\n    - paragraph: – Pot should have a draining hole; if not, drill one in & place on a catch tray for excess water\n    - paragraph: – Pot should be 2″ bigger than the diameter of the cutting’s roots in a bundle; allows for best growth above & below the soil\n    - paragraph\n    - heading \"Use The Right Soil\" [level=4]\n    - paragraph: Like pots, not all soil is created equal. Depending on the type of cutting you’ve propagated, its soil has to be reflective of its needs (like a Cactus vs green leaf Monstera.) For anything that’s not a cactus or succulent, strive for an organic perlite soil that’s 20% natural and 80% potting mix. I personally have used Epsoma Organic for all my greeny plants (mature & cutting) and they’ve adapted tremendously to it, as well as have grown exponentially since.\n    - paragraph: \"When adding soil to the pot, do it in layers: bottom layer 2-3″ soil, add several pebbles in the center to help draw water down towards roots, another 2″ soil layer, then suspend the roots in center of pot by holding in one hand and using the other to surround the rest of the plant with soil until completely covered.\"\n    - heading \"Water It Normally\" [level=4]\n    - paragraph: However the mature/mother plant or variety likes its water is the same way/amount you should provide for your cutting. There’s no special treatment or small, gradual increments you need to hold it to; just water it as you would if it were a normal-sized plant. Of course, don’t drown it and keep the size of the pot in mind; and when in doubt, do less and add more later should the plant seem thirstier."
+      }
+    ],
+    "advice": "    - heading \"WHEN IT’S TIME TO POT\" [level=2]:\n      - strong: WHEN IT’S TIME TO POT\n    - separator\n    - heading \"When your cutting has roots 4-6″ in length, it’s time to move it to soil! This is a big deal when your cutting gets to this stage because it will ultimately determine if you’ve been successful at propagating once in the soil.\" [level=6]\n    - heading \"To help ensure the best transition from water to pot, here’s what to do:\" [level=6]:\n      - emphasis: \"To help ensure the best transition from water to pot, here’s what to do:\"\n    - paragraph: ..\n    - heading \"Find The Perfect Pot\" [level=4]\n    - paragraph: \"Finding the perfect pot for your cutting is so important when it comes to the success & longevity of your cutting. I’m definitely guilty of purchasing pots solely based on the look of them, without having a plant in mind for them. It’s ok to do that from time-to-time, but there are a few things you should make sure the chosen pot for your cutting has before placing:\"\n    - paragraph: – Pot should have a draining hole; if not, drill one in & place on a catch tray for excess water\n    - paragraph: – Pot should be 2″ bigger than the diameter of the cutting’s roots in a bundle; allows for best growth above & below the soil\n    - paragraph\n    - heading \"Use The Right Soil\" [level=4]\n    - paragraph: Like pots, not all soil is created equal. Depending on the type of cutting you’ve propagated, its soil has to be reflective of its needs (like a Cactus vs green leaf Monstera.) For anything that’s not a cactus or succulent, strive for an organic perlite soil that’s 20% natural and 80% potting mix. I personally have used Epsoma Organic for all my greeny plants (mature & cutting) and they’ve adapted tremendously to it, as well as have grown exponentially since.\n    - paragraph: \"When adding soil to the pot, do it in layers: bottom layer 2-3″ soil, add several pebbles in the center to help draw water down towards roots, another 2″ soil layer, then suspend the roots in center of pot by holding in one hand and using the other to surround the rest of the plant with soil until completely covered.\"\n    - heading \"Water It Normally\" [level=4]\n    - paragraph: However the mature/mother plant or variety likes its water is the same way/amount you should provide for your cutting. There’s no special treatment or small, gradual increments you need to hold it to; just water it as you would if it were a normal-sized plant. Of course, don’t drown it and keep the size of the pot in mind; and when in doubt, do less and add more later should the plant seem thirstier.",
+    "reason": "First accessible guide; select full water-to-pot transition section relevant to already rooted, newly planted cuttings.",
+    "frozen_at": "2026-10-29T06:31:06.731475+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:32:00.886777+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

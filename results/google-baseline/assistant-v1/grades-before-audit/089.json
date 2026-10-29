@@ -1,0 +1,137 @@
+{
+  "reference_action": "OP under-watered Steven after moving him outside to semi-shade. Advice was water and take back indoors; OP confirms doing so and improvement after two weeks indoors. Watering and sheltered indoor recovery are the validated bundle.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Water when dry and move to shade/morning-only sun overlaps the watering and reduced-exposure actions. Partial match: not explicitly indoors, with competing overwatering diagnosis and constant-feed suggestion.",
+      "evidence": [
+        "089-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/696217890434068/posts/27381935171435644/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Leaf symptom catalogue discusses water minerals, heat/light adjustment and moisture consistency without explicit indoor relocation or drought rehydration instruction. Naming possible causes alone is not an action hit.",
+      "evidence": [
+        "video-audit-5akp_0WAClg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=5akp_0WAClg"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Transplant recovery section explicitly recommends deep watering and shade cloth. This recovers watering plus shelter from sun, though outdoor transplant framing does not explicitly return this houseplant inside.",
+      "evidence": [
+        "video-audit-jm85Yf4X0vA-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=jm85Yf4X0vA"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Comment explicitly recommends a full bottom soak and draining. Watering action match only: other comments concern a different wet-soil problem, and the one-month ignore instruction is not validated.",
+      "evidence": [
+        "089-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/IndoorGarden/comments/1kib9tg/why_are_the_leaves_browning_im_giving_it_water/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Opened TikTok has only description saying brown tips can be natural; no accessible full spoken instructions. Cannot infer an action from the title or unrelated suggested videos.",
+      "evidence": [
+        "089-source-05.txt"
+      ],
+      "url": "https://www.tiktok.com/@tannertheplanter/video/7345832258659454238?lang=en"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil moisture",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water base when dry/as needed",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Apply constant liquid feed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": true
+      },
+      {
+        "action": "Move to shade or morning-only sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Shade and dry-soil watering overlap the rescue, but overwatering and frequency advice compete, indoor recovery is absent, and constant feeding is unspecified. Soil checking guards against blindly withholding needed water."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Check the soil” and “Water when dry” are useful safeguards. However, “constant liquid feed” lacks dilution and is an unnecessary addition for a drought-stressed plant, while the three-times-weekly limit could mislead without the as-needed caveat."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The answer recognizes thirsty plants and recommends “shade all afternoon,” both relevant to outdoor stress. It also foregrounds too much water despite the stated neglect and never recommends returning indoors."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Relocation and watering at the base are simple. The conflict between “only water 3X a week” and watering when dry, plus an unspecified feed strength, prevents a single clear low-risk routine."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 89,
+  "thread_id": "1g16j0w",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 89,
+    "thread_id": "1g16j0w",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/696217890434068/posts/27381935171435644/",
+    "spans": [
+      {
+        "file": "089-source-01.txt",
+        "start_line": 63,
+        "end_line": 88,
+        "sha256": "ec3e5546cd48a696843d8f73d05a4b85eeb38546bc9216280a72bc1d7093308a",
+        "text": "        - generic: Are you watering foliage in the sun? Remember that the signs of overwatering are similar to underwatering. The chlorotic leaves make me think too much water. Check the soil and only water 3X a week as needed and use a constant liquid feed.\n        - list:\n          - link \"16w\":\n            - /url: https://www.facebook.com/groups/696217890434068/posts/27381935171435644/?comment_id=27382414554721039&__cft__[0]=AZiMnZcJ_jWSE87smLbi3wnQq7_dJLkN-ESTc7b_jmSCn1xuYLsSzv9iyr37ty2Lt4ggLaioT8F2NrMhPRaQ5W5VG00ohROEN-4fcNVb3zR9_wanJZjBRYT9jjZOjTS79ciBJMQMZBM2AwCgvHRPo0Hp6c1301IrEFFoBDmJxx4sJKEV0ZimSXB1Hl3wv3A1F_e4qA&__tn__=R]-R\n        - button \"9 reactions; see who reacted to this\":\n          - generic: \"9\"\n      - article \"Comment by SkilledAsparagus6994 16 weeks ago\":\n        - link:\n          - /url: \"#\"\n          - button:\n            - link:\n              - /url: \"#\"\n        - button \"SkilledAsparagus6994\":\n          - generic: SkilledAsparagus6994\n        - generic: In addition to what Jeff Hodgson said do not water the leaves. Water the base of the plant\n        - list:\n          - link \"16w\":\n            - /url: https://www.facebook.com/groups/696217890434068/posts/27381935171435644/?comment_id=27382512391377922&__cft__[0]=AZiMnZcJ_jWSE87smLbi3wnQq7_dJLkN-ESTc7b_jmSCn1xuYLsSzv9iyr37ty2Lt4ggLaioT8F2NrMhPRaQ5W5VG00ohROEN-4fcNVb3zR9_wanJZjBRYT9jjZOjTS79ciBJMQMZBM2AwCgvHRPo0Hp6c1301IrEFFoBDmJxx4sJKEV0ZimSXB1Hl3wv3A1F_e4qA&__tn__=R]-R\n        - button \"6 reactions; see who reacted to this\":\n          - generic: \"6\"\n      - article \"Comment by Brandi Starzinger 16 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Brandi Starzinger\":\n          - generic: Brandi Starzinger\n        - generic: They need shade or some morning sun with shade all afternoon. Water when dry, they can be thirsty."
+      }
+    ],
+    "advice": "        - generic: Are you watering foliage in the sun? Remember that the signs of overwatering are similar to underwatering. The chlorotic leaves make me think too much water. Check the soil and only water 3X a week as needed and use a constant liquid feed.\n        - list:\n          - link \"16w\":\n            - /url: https://www.facebook.com/groups/696217890434068/posts/27381935171435644/?comment_id=27382414554721039&__cft__[0]=AZiMnZcJ_jWSE87smLbi3wnQq7_dJLkN-ESTc7b_jmSCn1xuYLsSzv9iyr37ty2Lt4ggLaioT8F2NrMhPRaQ5W5VG00ohROEN-4fcNVb3zR9_wanJZjBRYT9jjZOjTS79ciBJMQMZBM2AwCgvHRPo0Hp6c1301IrEFFoBDmJxx4sJKEV0ZimSXB1Hl3wv3A1F_e4qA&__tn__=R]-R\n        - button \"9 reactions; see who reacted to this\":\n          - generic: \"9\"\n      - article \"Comment by SkilledAsparagus6994 16 weeks ago\":\n        - link:\n          - /url: \"#\"\n          - button:\n            - link:\n              - /url: \"#\"\n        - button \"SkilledAsparagus6994\":\n          - generic: SkilledAsparagus6994\n        - generic: In addition to what Jeff Hodgson said do not water the leaves. Water the base of the plant\n        - list:\n          - link \"16w\":\n            - /url: https://www.facebook.com/groups/696217890434068/posts/27381935171435644/?comment_id=27382512391377922&__cft__[0]=AZiMnZcJ_jWSE87smLbi3wnQq7_dJLkN-ESTc7b_jmSCn1xuYLsSzv9iyr37ty2Lt4ggLaioT8F2NrMhPRaQ5W5VG00ohROEN-4fcNVb3zR9_wanJZjBRYT9jjZOjTS79ciBJMQMZBM2AwCgvHRPo0Hp6c1301IrEFFoBDmJxx4sJKEV0ZimSXB1Hl3wv3A1F_e4qA&__tn__=R]-R\n        - button \"6 reactions; see who reacted to this\":\n          - generic: \"6\"\n      - article \"Comment by Brandi Starzinger 16 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Brandi Starzinger\":\n          - generic: Brandi Starzinger\n        - generic: They need shade or some morning sun with shade all afternoon. Water when dry, they can be thirsty.",
+    "reason": "First source gives actual watering, feeding and shade instructions for browned plants; retain all competing causes before reference. AI-generated title is not advice.",
+    "frozen_at": "2026-10-29T05:10:53.259884+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:14:41.607505+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

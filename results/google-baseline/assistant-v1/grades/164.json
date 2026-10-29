@@ -1,0 +1,169 @@
+{
+  "reference_action": "Neglected Crinum/spider lily: tropical mix with sand/perlite, more light and warmth, optional warm-season outdoors. OP later reports bloom; specific performed changes are not enumerated.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient.",
+      "evidence": [
+        "164-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/123250067720449/posts/4294080280637386/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Potting mix/perlite and sunniest location at 7:36 directly overlap.",
+      "evidence": [
+        "video-audit-WKBxv3AbODM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=WKBxv3AbODM"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "4:52 draining mix/perlite and 5:30 more light/grow lamp overlap despite ponytail focus.",
+      "evidence": [
+        "video-audit--xtLHDkMciE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=-xtLHDkMciE"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Crown removal for sunburnt Dracaena; mention of light affecting speed does not prescribe the needed brighter warm care.",
+      "evidence": [
+        "video-audit-2UHP7dY3Y4U-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=2UHP7dY3Y4U"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Rehoming caption lacks readable care instructions.",
+      "evidence": [
+        "164-source-05.txt"
+      ],
+      "url": "https://www.tiktok.com/@thewoodenpalate/video/7548997482647194894"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot in succulent or regular soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Move to bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut trunk and root in water",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Water about every ten days",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Flood repeatedly and rinse leaves twice yearly",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Misidentifies bulb plant as Dracaena and recommends trunk-cutting/rerooting. Brighter light overlaps, but destructive propagation is not appropriate for the pictured Crinum. Audit: incidental care overlap does not supply the confirmed action; advice agreement is no."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Highly recommend cutting and rooting in water” transfers a woody-cane procedure to a bulb plant. That could damage viable growth rather than provide the light and warmth it needs."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The ID discussion resembles the question but reaches the wrong conclusion. Some light/soil care overlaps while the central rescue procedure and calendar watering are poorly matched."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Materials are common, but there is no applicable trunk to cut as described. Conflicting regular versus succulent soil and lifting a 25-pound pot complicate implementation."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "reference_quality": {
+    "issue": "recovery_without_explicit_action_confirmation",
+    "detail": "Bloom confirms improvement, but follow-up does not enumerate performed care changes. Hits compare associated reference advice."
+  },
+  "query_index": 164,
+  "thread_id": "1jrrl0j",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 164,
+    "thread_id": "1jrrl0j",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/123250067720449/posts/4294080280637386/",
+    "spans": [
+      {
+        "file": "164-source-01.txt",
+        "start_line": 54,
+        "end_line": 77,
+        "sha256": "b8d20e3ce9a88c16abcef39137b55a2abdba2db8cfdf155dd4eae2d45b6edda3",
+        "text": "          - generic: Eva Eldridge\n        - generic: Dracaeha. Pony tail palms have bulbs at the base and narrower leaves/fronds.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/123250067720449/posts/4294080280637386/?comment_id=4294355813943166&__cft__[0]=AZirlpJRDAUFGWtCjBPOIOursV1yVFN2kQheBRCZm6C1HOPXbUO2-MJuNCzbBViUhWAo4WC8X8Ef1v9_iEhwN2TkCj17nGwKFlpC_So8_gDFiHpCv0-c_oRJ5LbkBwcGKIIE4Uo9zF72oj4GnamKzsQ8Mn3ShVV7nsaYeN7o3ncISm73gW5ColGStMjS&__tn__=R]-R\n        - button \"10 reactions; see who reacted to this\":\n          - generic: \"10\"\n      - article \"Comment by Barbara R. Underwood 5 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Barbara R. Underwood\":\n          - generic: Barbara R. Underwood\n        - generic: They like succulent soil and not too much hot, direct sun. I have one that is 50 years old and needs repotting. I cut it off years ago when it got leggy and it grew 5 limbs and is beaitiful.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/123250067720449/posts/4294080280637386/?comment_id=4294457803932967&__cft__[0]=AZirlpJRDAUFGWtCjBPOIOursV1yVFN2kQheBRCZm6C1HOPXbUO2-MJuNCzbBViUhWAo4WC8X8Ef1v9_iEhwN2TkCj17nGwKFlpC_So8_gDFiHpCv0-c_oRJ5LbkBwcGKIIE4Uo9zF72oj4GnamKzsQ8Mn3ShVV7nsaYeN7o3ncISm73gW5ColGStMjS&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Shannon McGarry 5 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Shannon McGarry\":\n          - generic: Shannon McGarry\n        - generic: These root in water. You can cut off the trunk, put in a vase of water and it will root. I started with 2 and have had many babies and given away more than I can count. Just an FYI, the leaves will make cats sick. Won't kill then unless they eat a bunch, but they will make a cat sick. This particular one is a red leaf edge dracaena also called a Madagascar dragon tree. They use regular soil/potting mix. They like bright light, but not direct light. I water my large one every 10 days or so, my littles more often. Twice a year I put in the bath tub and flood them multiple times and rinse off the leaves. Hardy guys. Since this one was stressed out so much, I would highly recommend cutting and rooting in water. I'm currently rooting two that had similar situation to yours. To much sun, heat and no soil."
+      }
+    ],
+    "advice": "          - generic: Eva Eldridge\n        - generic: Dracaeha. Pony tail palms have bulbs at the base and narrower leaves/fronds.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/123250067720449/posts/4294080280637386/?comment_id=4294355813943166&__cft__[0]=AZirlpJRDAUFGWtCjBPOIOursV1yVFN2kQheBRCZm6C1HOPXbUO2-MJuNCzbBViUhWAo4WC8X8Ef1v9_iEhwN2TkCj17nGwKFlpC_So8_gDFiHpCv0-c_oRJ5LbkBwcGKIIE4Uo9zF72oj4GnamKzsQ8Mn3ShVV7nsaYeN7o3ncISm73gW5ColGStMjS&__tn__=R]-R\n        - button \"10 reactions; see who reacted to this\":\n          - generic: \"10\"\n      - article \"Comment by Barbara R. Underwood 5 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Barbara R. Underwood\":\n          - generic: Barbara R. Underwood\n        - generic: They like succulent soil and not too much hot, direct sun. I have one that is 50 years old and needs repotting. I cut it off years ago when it got leggy and it grew 5 limbs and is beaitiful.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/123250067720449/posts/4294080280637386/?comment_id=4294457803932967&__cft__[0]=AZirlpJRDAUFGWtCjBPOIOursV1yVFN2kQheBRCZm6C1HOPXbUO2-MJuNCzbBViUhWAo4WC8X8Ef1v9_iEhwN2TkCj17nGwKFlpC_So8_gDFiHpCv0-c_oRJ5LbkBwcGKIIE4Uo9zF72oj4GnamKzsQ8Mn3ShVV7nsaYeN7o3ncISm73gW5ColGStMjS&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Shannon McGarry 5 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Shannon McGarry\":\n          - generic: Shannon McGarry\n        - generic: These root in water. You can cut off the trunk, put in a vase of water and it will root. I started with 2 and have had many babies and given away more than I can count. Just an FYI, the leaves will make cats sick. Won't kill then unless they eat a bunch, but they will make a cat sick. This particular one is a red leaf edge dracaena also called a Madagascar dragon tree. They use regular soil/potting mix. They like bright light, but not direct light. I water my large one every 10 days or so, my littles more often. Twice a year I put in the bath tub and flood them multiple times and rinse off the leaves. Hardy guys. Since this one was stressed out so much, I would highly recommend cutting and rooting in water. I'm currently rooting two that had similar situation to yours. To much sun, heat and no soil.",
+    "reason": "First relevant rescue/ID discussion for Dracaena versus ponytail; retain watering, soil and propagation alternatives.",
+    "frozen_at": "2026-10-29T06:18:30.125666+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.234104+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.233283+00:00",
+    "changes": [
+      {
+        "query_index": 164,
+        "rank": 1,
+        "field": "source_action_hit",
+        "before": "hit",
+        "after": "miss",
+        "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+      },
+      {
+        "query_index": 164,
+        "field": "advice",
+        "before": "partial",
+        "after": "no",
+        "reason": "Same central-action standard as source audit."
+      }
+    ]
+  }
+}

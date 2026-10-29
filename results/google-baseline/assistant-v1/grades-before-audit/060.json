@@ -1,0 +1,144 @@
+{
+  "reference_action": "Underwatered small pot in hot room; OP bottom-watered and plant perked up. Thorough rehydration/soak is central, not humidity restoration or repotting alone.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Wait for repot shock, pest/root checks and more frequent watering for terracotta; no thorough rehydration/soak instruction.",
+      "evidence": [
+        "060-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/qzt5rw/syngonium_drooping_ever_since_repotting_help/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicitly saturate soil until water drains out, linked to thirsty drooping and delayed recovery, functionally recovers thorough rehydration though from top rather than bottom.",
+      "evidence": [
+        "060-source-02.txt"
+      ],
+      "url": "https://planethouseplant.com/10-reasons-your-syngonium-drooping/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Fortnightly watering/misting/feed schedule, not thorough rescue rehydration.",
+      "evidence": [
+        "060-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/3597505730494281/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit water through drainage and empty saucer, with drooping attributed to underwatering, recovers thorough hydration.",
+      "evidence": [
+        "060-source-04.txt"
+      ],
+      "url": "https://houseplantshop.com/blogs/plant-care/syngonium-arrowhead-plant-care"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Overwatering prevention and potential upsizing, no actual rehydration/soak remedy.",
+      "evidence": [
+        "060-source-05.txt"
+      ],
+      "url": "https://plantproper.com/blogs/care/why-is-my-syngonium-turning-yellow?srsltid=AYCX9vJTboXLRVItGg_WwmGPmckebMFpys3JMNqki_oYZnmuJ8VQv04b"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Prune dead tissue after recovery",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for thrips",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect roots if no thrips",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water more often in terracotta",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Drying in terracotta is mentioned but the main answer is transplant shock and waiting. Water-frequency adjustment only partly addresses the problem and omits the successful thorough rewetting."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Don’t touch it for a while” may delay rehydration, though another comment recommends more frequent watering in terracotta. Root checks are proposed before concluding overwatering, and pruning is limited to dead tissue after recovery."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The discussion is about persistent drooping immediately after a repot. The supplied case instead has sudden thirst in a hot small pot; its successful soak is absent."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Pest and root checks are ordinary tasks. “More often” and waiting “a while” lack thresholds, leaving conflicting interpretations unresolved."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 60,
+  "thread_id": "17qmeas",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 60,
+    "thread_id": "17qmeas",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/houseplants/comments/qzt5rw/syngonium_drooping_ever_since_repotting_help/",
+    "spans": [
+      {
+        "file": "060-source-01.txt",
+        "start_line": 165,
+        "end_line": 231,
+        "sha256": "b0ba074d6acb7b3d26fd9c593f1be66d47979bbf10a538a9a56dddb6c8ab92fd",
+        "text": "      - paragraph: Mine always droop after. Don’t touch it for a while, it may drop some leaves, don’t prune them. It’ll eventually stand back up, then prune anything that’s died from the shock. Also make sure you don’t overwater it that soils looks a wee bit drenched!\n      - 'article \"Comment thread level 1: Reply from boxofsauce 5 years ago\"':\n        - generic \"boxofsauce's profile --- avatar boxofsauce's profile 5y ago\":\n          - link \"boxofsauce's profile --- avatar\":\n            - /url: https://www.reddit.com/user/boxofsauce/\n            - img \"u/boxofsauce avatar\"\n          - link \"boxofsauce's profile\":\n            - /url: https://www.reddit.com/user/boxofsauce/\n            - generic: boxofsauce\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"5y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/hloaxp7/\n            - time: 5y ago\n        - paragraph: It’s been over a month so I felt like it’s been quite awhile for it to not perk back up yet.. but I will keep waiting. I also just watered it so that’s why it looks so wet. It sits in a huge eastern window below a vent so it will dry out fairly quick\n    - article \"Comment from DaniOhReally_ 5 years ago\":\n      - generic \"DaniOhReally_'s profile --- avatar DaniOhReally_'s profile 5y ago\":\n        - link \"DaniOhReally_'s profile --- avatar\":\n          - /url: https://www.reddit.com/user/DaniOhReally_/\n        - link \"DaniOhReally_'s profile\":\n          - /url: https://www.reddit.com/user/DaniOhReally_/\n          - generic: DaniOhReally_\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/hloajq7/\n          - time: 5y ago\n      - paragraph: I might say this out of trauma, but the crispy brown yet unfurled leaves make me think it’s thrips. Maybe check for those. If it’s not thrips, maybe you accidentally overwatered the plant. You could check the roots to make sure. It’s difficult to see in the picture but if your pot is made out of terracotta, you need to water your plant more often because terracotta absorbs water. I hope my tips are somewhat useful. Good luck with your Syngonium!\n      - 'article \"Comment thread level 1: Reply from boxofsauce 5 years ago\"':\n        - generic \"boxofsauce's profile --- avatar boxofsauce's profile 5y ago\":\n          - link \"boxofsauce's profile --- avatar\":\n            - /url: https://www.reddit.com/user/boxofsauce/\n            - img \"u/boxofsauce avatar\"\n          - link \"boxofsauce's profile\":\n            - /url: https://www.reddit.com/user/boxofsauce/\n            - generic: boxofsauce\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"5y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/hlob7c4/\n            - time: 5y ago\n        - paragraph: It is terracotta and no sign of pests, thankfully!\n      - 'article \"Comment thread level 1: Reply from chai_latte_boba-kun 2 years ago\"':\n        - generic \"chai_latte_boba-kun's profile --- avatar chai_latte_boba-kun's profile 2y ago\":\n          - link \"chai_latte_boba-kun's profile --- avatar\":\n            - /url: https://www.reddit.com/user/chai_latte_boba-kun/\n            - img \"u/chai_latte_boba-kun avatar\"\n          - link \"chai_latte_boba-kun's profile\":\n            - /url: https://www.reddit.com/user/chai_latte_boba-kun/\n            - generic: chai_latte_boba-kun\n          - generic: •\n          - link \"2y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/mddj3wq/\n            - time: 2y ago\n        - paragraph: Kinda late at commenting, but what is thrips? I just repotted mine but prior to doing that I had some normal and brown unfurled leaves. The normal ones have been like that a long while.\n    - article \"Comment from Forgottengoldfishes 5 years ago\":\n      - generic \"Forgottengoldfishes's profile --- avatar Forgottengoldfishes's profile 5y ago\":\n        - link \"Forgottengoldfishes's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Forgottengoldfishes/\n          - img \"u/Forgottengoldfishes avatar\"\n        - link \"Forgottengoldfishes's profile\":\n          - /url: https://www.reddit.com/user/Forgottengoldfishes/\n          - generic: Forgottengoldfishes\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/hlohdow/\n          - time: 5y ago\n      - paragraph: For the most part I believe the roots experience some trauma/die back when you re-pot. This makes it harder for them to support the vegetative growth established before the re-potting. Some lost leaves, some droopiness then back to growing again."
+      },
+      {
+        "file": "060-source-01.txt",
+        "start_line": 304,
+        "end_line": 304,
+        "sha256": "b0ba074d6acb7b3d26fd9c593f1be66d47979bbf10a538a9a56dddb6c8ab92fd",
+        "text": "          - paragraph: It actually came back a little after two weeks. I lost a few leaves but for the most part, she is completely fine."
+      }
+    ],
+    "advice": "      - paragraph: Mine always droop after. Don’t touch it for a while, it may drop some leaves, don’t prune them. It’ll eventually stand back up, then prune anything that’s died from the shock. Also make sure you don’t overwater it that soils looks a wee bit drenched!\n      - 'article \"Comment thread level 1: Reply from boxofsauce 5 years ago\"':\n        - generic \"boxofsauce's profile --- avatar boxofsauce's profile 5y ago\":\n          - link \"boxofsauce's profile --- avatar\":\n            - /url: https://www.reddit.com/user/boxofsauce/\n            - img \"u/boxofsauce avatar\"\n          - link \"boxofsauce's profile\":\n            - /url: https://www.reddit.com/user/boxofsauce/\n            - generic: boxofsauce\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"5y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/hloaxp7/\n            - time: 5y ago\n        - paragraph: It’s been over a month so I felt like it’s been quite awhile for it to not perk back up yet.. but I will keep waiting. I also just watered it so that’s why it looks so wet. It sits in a huge eastern window below a vent so it will dry out fairly quick\n    - article \"Comment from DaniOhReally_ 5 years ago\":\n      - generic \"DaniOhReally_'s profile --- avatar DaniOhReally_'s profile 5y ago\":\n        - link \"DaniOhReally_'s profile --- avatar\":\n          - /url: https://www.reddit.com/user/DaniOhReally_/\n        - link \"DaniOhReally_'s profile\":\n          - /url: https://www.reddit.com/user/DaniOhReally_/\n          - generic: DaniOhReally_\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/hloajq7/\n          - time: 5y ago\n      - paragraph: I might say this out of trauma, but the crispy brown yet unfurled leaves make me think it’s thrips. Maybe check for those. If it’s not thrips, maybe you accidentally overwatered the plant. You could check the roots to make sure. It’s difficult to see in the picture but if your pot is made out of terracotta, you need to water your plant more often because terracotta absorbs water. I hope my tips are somewhat useful. Good luck with your Syngonium!\n      - 'article \"Comment thread level 1: Reply from boxofsauce 5 years ago\"':\n        - generic \"boxofsauce's profile --- avatar boxofsauce's profile 5y ago\":\n          - link \"boxofsauce's profile --- avatar\":\n            - /url: https://www.reddit.com/user/boxofsauce/\n            - img \"u/boxofsauce avatar\"\n          - link \"boxofsauce's profile\":\n            - /url: https://www.reddit.com/user/boxofsauce/\n            - generic: boxofsauce\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"5y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/hlob7c4/\n            - time: 5y ago\n        - paragraph: It is terracotta and no sign of pests, thankfully!\n      - 'article \"Comment thread level 1: Reply from chai_latte_boba-kun 2 years ago\"':\n        - generic \"chai_latte_boba-kun's profile --- avatar chai_latte_boba-kun's profile 2y ago\":\n          - link \"chai_latte_boba-kun's profile --- avatar\":\n            - /url: https://www.reddit.com/user/chai_latte_boba-kun/\n            - img \"u/chai_latte_boba-kun avatar\"\n          - link \"chai_latte_boba-kun's profile\":\n            - /url: https://www.reddit.com/user/chai_latte_boba-kun/\n            - generic: chai_latte_boba-kun\n          - generic: •\n          - link \"2y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/mddj3wq/\n            - time: 2y ago\n        - paragraph: Kinda late at commenting, but what is thrips? I just repotted mine but prior to doing that I had some normal and brown unfurled leaves. The normal ones have been like that a long while.\n    - article \"Comment from Forgottengoldfishes 5 years ago\":\n      - generic \"Forgottengoldfishes's profile --- avatar Forgottengoldfishes's profile 5y ago\":\n        - link \"Forgottengoldfishes's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Forgottengoldfishes/\n          - img \"u/Forgottengoldfishes avatar\"\n        - link \"Forgottengoldfishes's profile\":\n          - /url: https://www.reddit.com/user/Forgottengoldfishes/\n          - generic: Forgottengoldfishes\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/qzt5rw/comment/hlohdow/\n          - time: 5y ago\n      - paragraph: For the most part I believe the roots experience some trauma/die back when you re-pot. This makes it harder for them to support the vegetative growth established before the re-potting. Some lost leaves, some droopiness then back to growing again.\n\n          - paragraph: It actually came back a little after two weeks. I lost a few leaves but for the most part, she is completely fine.",
+    "reason": "First retained advice thread, including conflicting shock/pest/watering explanations.",
+    "frozen_at": "2026-10-29T04:48:17.191283+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:49:01.456546+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

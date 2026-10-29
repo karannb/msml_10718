@@ -1,0 +1,130 @@
+{
+  "reference_action": "OP moved Tradescantia zebrina onto patio and laid vines on soil; nodes rooted and plant improved. Pruning and watering changes are not explicitly confirmed.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Later visible replies explicitly lay stems into pot and move closer to window/add grow light.",
+      "evidence": [
+        "189-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/2010749303199891/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Drought/humidity/heat/root/pest differential without layering or increased light.",
+      "evidence": [
+        "189-source-02.txt"
+      ],
+      "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/why-do-houseplant-leaves-curl"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Chinese Evergreen moisture/humidity care; no increased light or node layering recommendation.",
+      "evidence": [
+        "189-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1jqu2xp/what_are_these_curled_up_leaves_trying_to_tell_me/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Curling guide reduces harsh light and treats water/pests/humidity; opposite lighting direction.",
+      "evidence": [
+        "video-audit-jqtG-Ei6TQ0-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=jqtG-Ei6TQ0"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient.",
+      "evidence": [
+        "189-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/61557156101588/videos/tradescantia/4152056378341179/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check top couple inches before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Selected first reply addresses possible excess moisture but not confirmed light/layering actions. Later comments supply retrieval hit separately."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Wait until…first couple of inches…dry” is cautious moisture guidance. It avoids aggressive treatment, though light and bare-vine concerns remain unaddressed."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Overwatering is a possible contributing issue in the reference summary. The reply misses the actual demonstrated improvement from patio light and rooted nodes."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "One concrete finger-check threshold is easy and free. There is no required purchase or complicated intervention."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 189,
+  "thread_id": "14m83n3",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 189,
+    "thread_id": "14m83n3",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/2010749303199891/",
+    "spans": [
+      {
+        "file": "189-source-01.txt",
+        "start_line": 64,
+        "end_line": 64,
+        "sha256": "c30ca386062e4500c5c7acc035ab83283f74c6e21b8bf3bb1d4151956f990bf4",
+        "text": "        - generic: Maybe it’s too damp? They like to dry out a bit between waterings, I wait until about the first couple of inches of soil are dry before watering again."
+      }
+    ],
+    "advice": "        - generic: Maybe it’s too damp? They like to dry out a bit between waterings, I wait until about the first couple of inches of soil are dry before watering again.",
+    "reason": "First substantive reply on curled/drooping leaves with moisture threshold.",
+    "frozen_at": "2026-10-29T06:37:49.421209+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.236635+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.235777+00:00",
+    "changes": [
+      {
+        "query_index": 189,
+        "rank": 5,
+        "field": "source_action_hit",
+        "before": "hit",
+        "after": "miss",
+        "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+      }
+    ]
+  }
+}

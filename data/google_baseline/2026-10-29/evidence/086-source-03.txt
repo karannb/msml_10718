@@ -1,0 +1,51 @@
+- banner:
+  - button "Guide":
+  - link "YouTube Home":
+    - /url: /
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - search:
+    - combobox "Search" [expanded]
+    - button "Search":
+  - button "Search with your voice":
+  - tooltip "tooltip"
+  - button "Settings":
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fshorts%252FjsIDa1OtxAY%253FthemeRefresh%253D1&hl=en&ec=65620
+    - generic: Sign in
+- navigation:
+  - link "Home":
+    - /url: /
+    - generic: Home
+  - link "Shorts":
+    - /url: /shorts/
+    - generic: Shorts
+  - link "Subscriptions":
+    - /url: /feed/subscriptions
+    - generic: Subscriptions
+  - link "You":
+    - /url: /feed/you
+    - generic: You
+- main:
+  - generic "YouTube Video Player" [active]:
+    - button "Play":
+  - button "Go to channel @youcandoitgardening"
+  - link "@youcandoitgardening":
+    - /url: /@youcandoitgardening/shorts
+  - button "Subscribe":
+    - generic: Subscribe
+  - link "How To Divide Plants Right Out Of The Pot"
+  - button "You Can Do It (12\" Version) · One Way (ft. Al Hudson)":
+    - generic: You Can Do It (12" Version) · One Way (ft. Al Hudson)
+  - button "like this video along with 232 other people":
+  - generic: "232"
+  - button "View 14 comments":
+  - generic: "14"
+  - button "Share":
+  - generic: Share
+  - button "Remix" [disabled]:
+  - generic: Remix
+  - button "See more videos using this sound"
+  - button "Next video":
+  - tooltip "tooltip"
+- text: •

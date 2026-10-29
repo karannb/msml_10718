@@ -1,0 +1,172 @@
+{
+  "reference_action": "OP added a climbing pole and became more mindful of overwatering, reporting improvement. Both are credited actions; fertilizer was suggested but not confirmed followed.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Explicitly check drying of top third before watering and never water wet soil; matches avoiding overwatering, but no pole.",
+      "evidence": [
+        "068-source-01.txt"
+      ],
+      "url": "https://www.plantsforallseasons.co.uk/blogs/philodendron-care/philodendron-problems-to-look-out-for-and-how-to-solve-them"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Dry-top watering and empty excess water match overwatering avoidance; no pole.",
+      "evidence": [
+        "068-source-02.txt"
+      ],
+      "url": "https://www.livelyroot.com/blogs/plant-care/philodendron-leaves-turning-yellow-or-brown?srsltid=AYCX9vLhT3ptAV4pWiZmdviEOGBfk-0HZ2Kn5XBcYn76wbLhb45Y3d6j"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit moss pole or trellis for climbing types plus soil checking before watering recover both credited actions; complete drying is excessive extra advice.",
+      "evidence": [
+        "068-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=hE9s4OjqVrU"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Climbing support and soil-based watering rather than droop recover both credited actions.",
+      "evidence": [
+        "video-audit--ZUnPtovKus-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=-ZUnPtovKus"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicit support/moss pole benefits for climbers and drying before watering recover the credited actions, amid unrelated pest discussion.",
+      "evidence": [
+        "video-audit-7-Q1-xj73KY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=7-Q1-xj73KY"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Apply diluted fertilizer monthly, less in colder months",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Check top third dryness and water lightly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check pot drainage",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Make additional drainage holes or place on saucer",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Repot into better-draining soil if severe",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move to sunnier position",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Install grow light if needed",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Move away from cold drafts",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cover with gardening fleece if relocation impossible",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "Overwatering and a dry-soil safeguard are included among several causes, but climbing support is absent and extra sun is poorly matched to the recent browning after moving to stronger light."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Never water when the soil is already wet” protects against further overwatering. “As much sun as possible” lacks acclimation guidance despite recent light-related damage, and putting a pot on a saucer does not itself create drainage."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The watering safeguard matches one credited action. The guide omits the pole and does not distinguish the recent light change from its general low-light branch."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The top-third drying check is usable and routine relocation is simple. Multiple conditional purchases and ambiguous drainage advice make the full plan substantially more involved."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 68,
+  "thread_id": "t7qa4k",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 68,
+    "thread_id": "t7qa4k",
+    "selected_rank": 1,
+    "source_url": "https://www.plantsforallseasons.co.uk/blogs/philodendron-care/philodendron-problems-to-look-out-for-and-how-to-solve-them",
+    "spans": [
+      {
+        "file": "068-source-01.txt",
+        "start_line": 58,
+        "end_line": 81,
+        "sha256": "eb95bae0dcc90fe6143f1fbba5af258ee287eef8a2d8cc0107dbe2c0414152b1",
+        "text": "    - heading \"Common Issues\" [level=2]\n    - paragraph: The Philodendron is a plant that will quickly tell you when something is wrong. Dropping leaves are often the first sign that there is an issue with the plant, and whilst it can be a symptom of a few issues, each problem can be diagnosed by looking at other areas of the plant. Once you have diagnosed the problem and worked to rectify it, your Philodendron will quickly be back into good health.\n    - heading \"Drooping leaves can be a sign of:\" [level=3]\n    - paragraph:\n      - strong: Too much fertiliser\n      - text: \"- All plants benefit from regular feedings of fertiliser during the growing season, but feeding your Philodendron too much can cause some issues.\"\n    - paragraph: A lot of houseplant owners can get overeager when feeding their plants which can lead to a buildup of chemicals in the soil. When this happens you can cause damage to the delicate root system. Once the leaves begin to wilt you will notice your Philodendron stop growing, followed by a browning of the leaf tips.\n    - paragraph: A Philodendron only needs to be fertilised once a month in the spring and summer. As the months turn colder you should start spacing out the applications of fertiliser to once every six weeks since the plant will begin to go dormant. Make sure you dilute any fertiliser you use, and if you have over fertilised your philodendron you should stop immediately and wait a few waterings to let any chemicals wash out of the soil.\n    - paragraph:\n      - strong: Under watering\n      - text: \"- The Philodendron is a tropical plant that needs a good amount of watering. Your Philodendron will be somewhat drought tolerant, but it’s not a succulent and the soil needs to be kept moist. The signs of an under watered Philodendron begin with drooping leaves that slowly turn yellow, with brown edges. You will also notice the leaves becoming courser and more papery as they dry.\"\n    - paragraph: When watering a Philodendron, do so lightly. leave the top third of soil to dry out between waterings. The watering requirements of your plant will change throughout the year so make sure to always stick to the soil rule and never water when the soil is already wet.\n    - paragraph:\n      - strong: Overwatering\n      - text: \"- Both under watering and overwatering your Philodendron can cause issues. Whilst a Philodendron does have aerial roots, it gets most of its moisture and nutrition from the roots in the soil. If you overwater your plant you risk suffocating the roots. This can lead to root rot and eventually the death of your plant. An overwatered plant will have yellowing, drooping leaves, and you will find that the soil is oversaturated with water. A surefire way to tell if your Philodendron is overwatered is to look for edema on the leaves, these are water filled blisters that appear on the surface of the leaf.\"\n    - paragraph: Fixing an overwatered Philodendron is easy. First, you should check that your plant's container is well-draining. To do this, make extra drainage holes in the pot or by placing it on a saucer. In extreme cases, you may need to repot your plant in a better draining soil.\n    - paragraph:\n      - strong: Lack of light\n      - text: \"- Many plants can grow in shadier positions, but the Philodendron is not one of these. A Philodendron needs bright, indirect light to grow at its best, and if it doesn't get enough light you will quickly see its growth begin to slow. Some varieties like the Heart Leaf Philodendrons are more adaptable to darker conditions, but in general you should give the plant as much sun as possible. You can tell if a Philodendron isn’t getting enough sun by looking at its growth. If the stems are growing, but the leaves aren't, it's a sign that the plant is searching for more light, leading to the leggy growth.\"\n    - paragraph: The easiest way to fix a Philodendron that isn’t getting enough light is to simply move it to a sunnier position. If that doesn’t work you could also consider getting a grow light for your plant if your space is naturally shaded or for the winter months.\n    - paragraph:\n      - strong: Cold temperatures\n      - text: \"- Temperature control is one of the main aspects of Philodendron care. Average room temperature should be fine for your plant, but you need to make sure that there are no cold draughts in the room. If the temperature drops below 12 celsius the plant will begin to shed it’s smaller leaves whilst the bigger ones droop.\"\n    - paragraph: The best way to solve this problem is to move the plant away from any cold draughts and to make sure that it is not near any open windows in the winter. If your Philodendron is in an office, keep it away from air conditioning vents. If these are not possible you may be able to protect the plant with a layer of gardening fleece, but it is not guaranteed."
+      }
+    ],
+    "advice": "    - heading \"Common Issues\" [level=2]\n    - paragraph: The Philodendron is a plant that will quickly tell you when something is wrong. Dropping leaves are often the first sign that there is an issue with the plant, and whilst it can be a symptom of a few issues, each problem can be diagnosed by looking at other areas of the plant. Once you have diagnosed the problem and worked to rectify it, your Philodendron will quickly be back into good health.\n    - heading \"Drooping leaves can be a sign of:\" [level=3]\n    - paragraph:\n      - strong: Too much fertiliser\n      - text: \"- All plants benefit from regular feedings of fertiliser during the growing season, but feeding your Philodendron too much can cause some issues.\"\n    - paragraph: A lot of houseplant owners can get overeager when feeding their plants which can lead to a buildup of chemicals in the soil. When this happens you can cause damage to the delicate root system. Once the leaves begin to wilt you will notice your Philodendron stop growing, followed by a browning of the leaf tips.\n    - paragraph: A Philodendron only needs to be fertilised once a month in the spring and summer. As the months turn colder you should start spacing out the applications of fertiliser to once every six weeks since the plant will begin to go dormant. Make sure you dilute any fertiliser you use, and if you have over fertilised your philodendron you should stop immediately and wait a few waterings to let any chemicals wash out of the soil.\n    - paragraph:\n      - strong: Under watering\n      - text: \"- The Philodendron is a tropical plant that needs a good amount of watering. Your Philodendron will be somewhat drought tolerant, but it’s not a succulent and the soil needs to be kept moist. The signs of an under watered Philodendron begin with drooping leaves that slowly turn yellow, with brown edges. You will also notice the leaves becoming courser and more papery as they dry.\"\n    - paragraph: When watering a Philodendron, do so lightly. leave the top third of soil to dry out between waterings. The watering requirements of your plant will change throughout the year so make sure to always stick to the soil rule and never water when the soil is already wet.\n    - paragraph:\n      - strong: Overwatering\n      - text: \"- Both under watering and overwatering your Philodendron can cause issues. Whilst a Philodendron does have aerial roots, it gets most of its moisture and nutrition from the roots in the soil. If you overwater your plant you risk suffocating the roots. This can lead to root rot and eventually the death of your plant. An overwatered plant will have yellowing, drooping leaves, and you will find that the soil is oversaturated with water. A surefire way to tell if your Philodendron is overwatered is to look for edema on the leaves, these are water filled blisters that appear on the surface of the leaf.\"\n    - paragraph: Fixing an overwatered Philodendron is easy. First, you should check that your plant's container is well-draining. To do this, make extra drainage holes in the pot or by placing it on a saucer. In extreme cases, you may need to repot your plant in a better draining soil.\n    - paragraph:\n      - strong: Lack of light\n      - text: \"- Many plants can grow in shadier positions, but the Philodendron is not one of these. A Philodendron needs bright, indirect light to grow at its best, and if it doesn't get enough light you will quickly see its growth begin to slow. Some varieties like the Heart Leaf Philodendrons are more adaptable to darker conditions, but in general you should give the plant as much sun as possible. You can tell if a Philodendron isn’t getting enough sun by looking at its growth. If the stems are growing, but the leaves aren't, it's a sign that the plant is searching for more light, leading to the leggy growth.\"\n    - paragraph: The easiest way to fix a Philodendron that isn’t getting enough light is to simply move it to a sunnier position. If that doesn’t work you could also consider getting a grow light for your plant if your space is naturally shaded or for the winter months.\n    - paragraph:\n      - strong: Cold temperatures\n      - text: \"- Temperature control is one of the main aspects of Philodendron care. Average room temperature should be fine for your plant, but you need to make sure that there are no cold draughts in the room. If the temperature drops below 12 celsius the plant will begin to shed it’s smaller leaves whilst the bigger ones droop.\"\n    - paragraph: The best way to solve this problem is to move the plant away from any cold draughts and to make sure that it is not near any open windows in the winter. If your Philodendron is in an office, keep it away from air conditioning vents. If these are not possible you may be able to protect the plant with a layer of gardening fleece, but it is not guaranteed.",
+    "reason": "First accessible philodendron symptom guide; preserve all diagnostic branches and treatment advice.",
+    "frozen_at": "2026-10-29T04:55:12.279537+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:55:58.898002+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

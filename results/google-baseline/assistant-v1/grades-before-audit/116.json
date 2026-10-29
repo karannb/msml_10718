@@ -1,0 +1,165 @@
+{
+  "reference_action": "Thirsty drooping peace lily; advice to water, followed by OP reporting it back to normal. Watering is confirmed; soil replacement is not required.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "unresolved",
+      "reason": "Question-only rescue post; no readable treatment.",
+      "evidence": [
+        "116-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1732060157100583/posts/4113686728937902/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Repeated dry-soil checks and increased watering for thirsty houseplants match central remedy; root inspection/water conversion are extras.",
+      "evidence": [
+        "video-audit-k5_xmZgRDts-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=k5_xmZgRDts"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit thorough drink with runoff and gradual rehydration of very dry soil. Creator Made with AI label retained; not Google AI overview.",
+      "evidence": [
+        "video-audit-Jf9VS7i2r88-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Jf9VS7i2r88"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Promotional video caption promises rescues but contains no readable method.",
+      "evidence": [
+        "116-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/DerekGardens/videos/we-all-have-that-one-unhappy-plant-sometimes-a-few-simple-changes-can-make-all-t/1633390895466210/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Dry Cebu blue section explicitly calls for more regular water and showering the dry moss setup; partial water-action match with substantial unrelated chopping/repotting.",
+      "evidence": [
+        "video-audit-vkJwzseewdk-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=vkJwzseewdk&themeRefresh=1"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil moisture with finger",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water dry soil more adequately",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check leaf flexibility",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot and inspect roots; return if healthy",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Fill self-watering reservoir for relevant plant",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Place plants on shelves to catch light",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": true
+      },
+      {
+        "action": "Remove volunteer seedlings",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move damaged roots into plain-water cup as alternative",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Underwatering is primary diagnosis and water is central treatment, matching outcome. Full collection-wide alternatives are retained, making this much broader than the simple peace-lily remedy."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“If it feels dry” provides a moisture check before watering. The later water-cup conversion and “reservoir is always full” apply to other plants and lack guidance for this novice peace-lily owner, adding avoidable risk."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“They just need water” identifies the successful central action. However, this is a tour of several different species and includes root inspection and conversion alternatives without identifying the pictured peace lily."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Finger checks and watering use ordinary supplies and are easy to follow. The collection-wide shelving, reservoir and water-cup suggestions require the reader to decide which steps apply, increasing effort and ambiguity."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 116,
+  "thread_id": "v4cj16",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 116,
+    "thread_id": "v4cj16",
+    "selected_rank": 2,
+    "source_url": "https://www.youtube.com/watch?v=k5_xmZgRDts",
+    "spans": [
+      {
+        "file": "video-audit-k5_xmZgRDts-transcript.txt",
+        "start_line": 6,
+        "end_line": 123,
+        "sha256": "a17b9486cad740eaf1b224b8f60a2013f04b6ee17503d8c40bf7638fe26204d0",
+        "text": "[0:00] so over the past year I've given my neighbor a bunch of plants and she\n[0:03] called me and said that they were on The Struggle Bus and she needed some help so\n[0:07] we're about to go help her out you're on video you're okay with\n[0:12] that hi hey your personal plan consultant neighbor here come let me get\n[0:17] my boots out of the way enter enter what are you talking about everything looks\n[0:22] good I thought I was going to come here to a crime scene no it's a crime scene\n[0:26] it is it is all right walk me around okay okay come let me put the light on\n[0:30] this it's lighting we have struggle all right let's see what we can\n[0:36] see this was recently repotted but this is the soil that I left here during the\n[0:40] fumigation mhm and I didn't know if it was still good or not they're sagging\n[0:46] this also repotted this repotted not happy this repotted a long time ago not\n[0:52] happy I think it's root Rod but yeah your most difficult plants\n[0:57] seem to be doing very well cuz a lot of people can't grow this like that so so\n[1:02] proud of your Bonia maack your thank you these ones too these are really happy\n[1:06] they have a third Leaf also very impressive fourth little baby coming\n[1:10] okay let's check her out look at the little baby oh I don't know I think\n[1:17] that that is a dying\n[1:22] baby okay um edit that up okay so okay too struggling but this\n[1:29] one was has recently transplanted a well as well and he looks like he's trying to\n[1:34] figure something out I see a little bit of green on there TR at the base right\n[1:38] but then it's like dying\n[1:42] here and need's water more water yeah actually all of these plates\n[1:49] yeah this all needs water that's probably what the issue is the other one\n[1:53] was root right well for now I mean obviously\n[1:57] don't drench them in water but the all the soil is dry like the soil is\n[2:02] completely dry so I've been watering them like every few days just whenever I\n[2:07] mean literally just just like stick your finger down here and if it feels dry all\n[2:13] the way down or like past like your knuckle like that then give it some more\n[2:20] water but yeah he definitely this is a a thirsty\n[2:27] guy did I give him to you as a corn like a um or no I didn't tell you but you\n[2:33] gave them to me as corns and then it got fully moldy and not good and I just kind\n[2:37] of like had it on the side I was like you know what whatever I was throwing it\n[2:40] away and I was like let me open it up because it was like fuzzy inside I\n[2:44] opened it up and there was three what like growing fully growing so he's grown\n[2:49] from a corn this is one from the corn this is one from the corn and then the\n[2:54] third one might have not made it I don't know wow no that's hella impressive yeah\n[2:58] look at little corn still attached yeah okay yeah so that's your head of AA\n[3:03] that's a dragon's breath and then this is a Chantry area I'm so proud of you\n[3:07] what are you talking about no the struggle is still real it's like I can\n[3:12] feel it in my body and then look at you have two new leaves on this mon on that\n[3:17] one and then this one got new leaves too this one I feel like keen's just you\n[3:23] know what he probably not even need more water which one\n[3:26] else oh my goodness yeah and then this one has another one\n[3:31] and another one coming a baby came out there and then a\n[3:35] second baby's popping oh my oh wow I completely forgot I gave you one of\n[3:39] these yeah they're really happy hell yeah oh my\n[3:45] goodness I really did think I was going to come in here to like a crime scene\n[3:49] and your uh latapia is still alive it is it's struggling here this one is like\n[3:55] getting some yellow that's too much water right or\n[3:58] too much sun this looks like not enough water actually oh really what did I just\n[4:03] knock over oh no hold on he's a little floppy should I add hold on hold on cuz\n[4:08] these guys were strong it was mostly that one yeah you can add he's\n[4:12] completely dry but they don't need as much water but like yeah his problem is\n[4:16] dryness and yeah okay okay this just opened today oh my God that's the plaman\n[4:22] that's so cute so for this one if you fold this and it folds really easily\n[4:28] that means it needs needs water yeah cuz it's not it's going to be hard\n[4:32] I was here it's hard it doesn't want to fold but then here it does so okay where\n[4:38] right here the top ones let me see they're still bendy still bendy mhm\n[4:46] they're just more rigid than the others cuz they're new leaves I\n[4:50] think okay and and this one is what do you\n[4:56] think what's going on with this one it might be dry right now but I was\n[5:01] watering watering it honestly that one you might just want to flip over and\n[5:06] just take take it out to see what the roots look like okay we'll do it water\n[5:11] and if the roots look fine just put it back in oh and then you also with this\n[5:15] with this macula you want to make sure that that self that Reservoir is always\n[5:19] full cuz that plant likes water I tend to water this one more than yeah but\n[5:24] yeah okay and this is all the way up so when it goes down cuz yeah the Bonia ver\n[5:27] Moses they are easy to uh to brown tips on I I've been wanting forever to like\n[5:33] add shelves up here and just layer up yeah that would be an excellent idea\n[5:38] actually just get all the sunlight catching everybody and then I can add\n[5:42] more plant make more room and this corner\n[5:45] too oh yeah like corner shelves will look really cute right there right there\n[5:49] right yeah I need to do it I've just been so busy all the time but I'm going\n[5:53] to do it oh look Don is living this is the Bonia Don Miller just recently\n[5:58] transplanted she's kind of struggling this was like\n[6:03] they're struggling for sure yeah but they look fine just make sure that they\n[6:07] get you know enough water this is I think this is um weed no it's uh those\n[6:12] gourds that have the scrubs on them yes the loofah seeds got scattered\n[6:18] on the floor and then I threw them into this thing that spilled into the soil\n[6:21] and then now there I think that's what's happening I think they're's one here\n[6:26] there's two here and there's one more I was going to wait till they're a bit\n[6:29] bigger and then take them out and then seed them but like so that they don't\n[6:32] kill the plant next to it you know not seed them but grow them yeah um what was\n[6:37] I about to say yeah so just water that and then where's the other one like this\n[6:41] one this probably needs more the white thing is really D other than that you're\n[6:46] doing an excellent job this is the one that really made me sad we're going to\n[6:51] try you have like three of them though but I understand also struggling like\n[6:56] this one is even worse oh no yeah you got you need to keep them watered just a\n[7:01] little bit more the cuz those plants probably shouldn't even completely dry\n[7:06] out they should half the way yeah just put some more water in it see they're\n[7:10] suffering from no water I feel so embarrassed that's okay it's all un\n[7:14] film no but the fun most people overwater not underwater underwatering\n[7:19] is why you probably still have plants overwatering is way worse so you're\n[7:23] saying I'm neglecting and yes yes I think we talk yeah you are you were\n[7:27] neglecting it's better than over loving yes for the plant okay let's inspect the\n[7:33] roots of this one real quick oh look you made that yeah oh my God I want\n[7:39] to put her with my plant she's an artist she's a she's a plant\n[7:44] face oh wow yeah there's leaves like pressed in that is so\n[7:49] nice I like it thank you all right um just flip it yeah just yeah just flip it\n[7:56] and you don't even have to put it on there just flip it and hold it in if\n[7:58] follow of your hand like that yes and just let it fall into\n[8:03] the palm of your\n[8:06] hands he is I see him now very dry you can really see in\n[8:11] here oh girl he was dry yeah that's your problem there no\n[8:17] water I was watering him so much okay this heat is tripping me out mhm and\n[8:24] those roots don't look the best so he might rot drop him in water just plain\n[8:28] water like in a cup of if you want or you can take your chances\n[8:32] and just moisten the soil and it may I think I'm going to put in a cup and see\n[8:36] if like this one was almost dead and then I put it back in a cup and now\n[8:41] she's oh cool with almost yeah do that that looks good yeah it'll make it you\n[8:48] seem to have a knack for plants we're sitting them in water forever all right\n[8:53] so what have we learn PL what water all all the time\n[9:01] plant need water needs water I tried I thought water now what\n[9:09] what' you say I'm so embarrassed I'm really embarrassed because I haven't\n[9:14] watered my plants enough again your plants are doing just fine they really\n[9:19] are they're fine they're good they just need water they just need water but\n[9:22] they're going to be okay that's the best part that's the best part they going to\n[9:25] be okay"
+      }
+    ],
+    "advice": "[0:00] so over the past year I've given my neighbor a bunch of plants and she\n[0:03] called me and said that they were on The Struggle Bus and she needed some help so\n[0:07] we're about to go help her out you're on video you're okay with\n[0:12] that hi hey your personal plan consultant neighbor here come let me get\n[0:17] my boots out of the way enter enter what are you talking about everything looks\n[0:22] good I thought I was going to come here to a crime scene no it's a crime scene\n[0:26] it is it is all right walk me around okay okay come let me put the light on\n[0:30] this it's lighting we have struggle all right let's see what we can\n[0:36] see this was recently repotted but this is the soil that I left here during the\n[0:40] fumigation mhm and I didn't know if it was still good or not they're sagging\n[0:46] this also repotted this repotted not happy this repotted a long time ago not\n[0:52] happy I think it's root Rod but yeah your most difficult plants\n[0:57] seem to be doing very well cuz a lot of people can't grow this like that so so\n[1:02] proud of your Bonia maack your thank you these ones too these are really happy\n[1:06] they have a third Leaf also very impressive fourth little baby coming\n[1:10] okay let's check her out look at the little baby oh I don't know I think\n[1:17] that that is a dying\n[1:22] baby okay um edit that up okay so okay too struggling but this\n[1:29] one was has recently transplanted a well as well and he looks like he's trying to\n[1:34] figure something out I see a little bit of green on there TR at the base right\n[1:38] but then it's like dying\n[1:42] here and need's water more water yeah actually all of these plates\n[1:49] yeah this all needs water that's probably what the issue is the other one\n[1:53] was root right well for now I mean obviously\n[1:57] don't drench them in water but the all the soil is dry like the soil is\n[2:02] completely dry so I've been watering them like every few days just whenever I\n[2:07] mean literally just just like stick your finger down here and if it feels dry all\n[2:13] the way down or like past like your knuckle like that then give it some more\n[2:20] water but yeah he definitely this is a a thirsty\n[2:27] guy did I give him to you as a corn like a um or no I didn't tell you but you\n[2:33] gave them to me as corns and then it got fully moldy and not good and I just kind\n[2:37] of like had it on the side I was like you know what whatever I was throwing it\n[2:40] away and I was like let me open it up because it was like fuzzy inside I\n[2:44] opened it up and there was three what like growing fully growing so he's grown\n[2:49] from a corn this is one from the corn this is one from the corn and then the\n[2:54] third one might have not made it I don't know wow no that's hella impressive yeah\n[2:58] look at little corn still attached yeah okay yeah so that's your head of AA\n[3:03] that's a dragon's breath and then this is a Chantry area I'm so proud of you\n[3:07] what are you talking about no the struggle is still real it's like I can\n[3:12] feel it in my body and then look at you have two new leaves on this mon on that\n[3:17] one and then this one got new leaves too this one I feel like keen's just you\n[3:23] know what he probably not even need more water which one\n[3:26] else oh my goodness yeah and then this one has another one\n[3:31] and another one coming a baby came out there and then a\n[3:35] second baby's popping oh my oh wow I completely forgot I gave you one of\n[3:39] these yeah they're really happy hell yeah oh my\n[3:45] goodness I really did think I was going to come in here to like a crime scene\n[3:49] and your uh latapia is still alive it is it's struggling here this one is like\n[3:55] getting some yellow that's too much water right or\n[3:58] too much sun this looks like not enough water actually oh really what did I just\n[4:03] knock over oh no hold on he's a little floppy should I add hold on hold on cuz\n[4:08] these guys were strong it was mostly that one yeah you can add he's\n[4:12] completely dry but they don't need as much water but like yeah his problem is\n[4:16] dryness and yeah okay okay this just opened today oh my God that's the plaman\n[4:22] that's so cute so for this one if you fold this and it folds really easily\n[4:28] that means it needs needs water yeah cuz it's not it's going to be hard\n[4:32] I was here it's hard it doesn't want to fold but then here it does so okay where\n[4:38] right here the top ones let me see they're still bendy still bendy mhm\n[4:46] they're just more rigid than the others cuz they're new leaves I\n[4:50] think okay and and this one is what do you\n[4:56] think what's going on with this one it might be dry right now but I was\n[5:01] watering watering it honestly that one you might just want to flip over and\n[5:06] just take take it out to see what the roots look like okay we'll do it water\n[5:11] and if the roots look fine just put it back in oh and then you also with this\n[5:15] with this macula you want to make sure that that self that Reservoir is always\n[5:19] full cuz that plant likes water I tend to water this one more than yeah but\n[5:24] yeah okay and this is all the way up so when it goes down cuz yeah the Bonia ver\n[5:27] Moses they are easy to uh to brown tips on I I've been wanting forever to like\n[5:33] add shelves up here and just layer up yeah that would be an excellent idea\n[5:38] actually just get all the sunlight catching everybody and then I can add\n[5:42] more plant make more room and this corner\n[5:45] too oh yeah like corner shelves will look really cute right there right there\n[5:49] right yeah I need to do it I've just been so busy all the time but I'm going\n[5:53] to do it oh look Don is living this is the Bonia Don Miller just recently\n[5:58] transplanted she's kind of struggling this was like\n[6:03] they're struggling for sure yeah but they look fine just make sure that they\n[6:07] get you know enough water this is I think this is um weed no it's uh those\n[6:12] gourds that have the scrubs on them yes the loofah seeds got scattered\n[6:18] on the floor and then I threw them into this thing that spilled into the soil\n[6:21] and then now there I think that's what's happening I think they're's one here\n[6:26] there's two here and there's one more I was going to wait till they're a bit\n[6:29] bigger and then take them out and then seed them but like so that they don't\n[6:32] kill the plant next to it you know not seed them but grow them yeah um what was\n[6:37] I about to say yeah so just water that and then where's the other one like this\n[6:41] one this probably needs more the white thing is really D other than that you're\n[6:46] doing an excellent job this is the one that really made me sad we're going to\n[6:51] try you have like three of them though but I understand also struggling like\n[6:56] this one is even worse oh no yeah you got you need to keep them watered just a\n[7:01] little bit more the cuz those plants probably shouldn't even completely dry\n[7:06] out they should half the way yeah just put some more water in it see they're\n[7:10] suffering from no water I feel so embarrassed that's okay it's all un\n[7:14] film no but the fun most people overwater not underwater underwatering\n[7:19] is why you probably still have plants overwatering is way worse so you're\n[7:23] saying I'm neglecting and yes yes I think we talk yeah you are you were\n[7:27] neglecting it's better than over loving yes for the plant okay let's inspect the\n[7:33] roots of this one real quick oh look you made that yeah oh my God I want\n[7:39] to put her with my plant she's an artist she's a she's a plant\n[7:44] face oh wow yeah there's leaves like pressed in that is so\n[7:49] nice I like it thank you all right um just flip it yeah just yeah just flip it\n[7:56] and you don't even have to put it on there just flip it and hold it in if\n[7:58] follow of your hand like that yes and just let it fall into\n[8:03] the palm of your\n[8:06] hands he is I see him now very dry you can really see in\n[8:11] here oh girl he was dry yeah that's your problem there no\n[8:17] water I was watering him so much okay this heat is tripping me out mhm and\n[8:24] those roots don't look the best so he might rot drop him in water just plain\n[8:28] water like in a cup of if you want or you can take your chances\n[8:32] and just moisten the soil and it may I think I'm going to put in a cup and see\n[8:36] if like this one was almost dead and then I put it back in a cup and now\n[8:41] she's oh cool with almost yeah do that that looks good yeah it'll make it you\n[8:48] seem to have a knack for plants we're sitting them in water forever all right\n[8:53] so what have we learn PL what water all all the time\n[9:01] plant need water needs water I tried I thought water now what\n[9:09] what' you say I'm so embarrassed I'm really embarrassed because I haven't\n[9:14] watered my plants enough again your plants are doing just fine they really\n[9:19] are they're fine they're good they just need water they just need water but\n[9:22] they're going to be okay that's the best part that's the best part they going to\n[9:25] be okay",
+    "reason": "First accessible rescue advice after rank-one question-only page; retain full plant-by-plant checks and alternatives before reference.",
+    "frozen_at": "2026-10-29T05:35:17.467729+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:36:23.317299+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

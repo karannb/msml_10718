@@ -1,0 +1,118 @@
+{
+  "reference_action": "Give a good soak and trim dead/yellow leaves; OP explicitly reports improvement after soak and trim. Repotting appears in the summary but is not the stated recovery action.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "“A little water at a time” does not give the thorough soak and trim OP validated, and attributes damage to burn rather than dehydration.",
+      "evidence": [
+        "012-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/3502171880027667/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "unresolved",
+      "reason": "TikTok caption has no self-contained care advice and no accessible video transcript was captured.",
+      "evidence": [
+        "012-source-02.txt"
+      ],
+      "url": "https://www.tiktok.com/@tannertheplanter/video/7648270705871572254"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "The second rescue has healthy roots and dry soil (23:16–24:40), trims dead foliage and gives a soak (40:13–40:36), reproducing the validated soak/trim actions. Peroxide and other extras are not endorsed by this hit judgment.",
+      "evidence": [
+        "video-audit-MYbwCX69Mu8-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=MYbwCX69Mu8"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Removing all soil, peroxide soak and a month of water culture is not the same immediate soil-plant rehydration and trim.",
+      "evidence": [
+        "video-audit-M2XjFmgCj9s-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=M2XjFmgCj9s"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Peroxide, root trimming and LECA conversion are a different intervention; ordinary thorough watering and dead-leaf trim are absent.",
+      "evidence": [
+        "video-audit-zJ3ubWp3y8g-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=zJ3ubWp3y8g"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Give a little water at a time",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "The burn diagnosis is wrong and the limited watering instruction overlaps hydration but does not specify the successful soak or trim."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Just a bit burnt” misidentifies the problem, and “a little water at a time” may under-deliver water to a severely dehydrated root ball. It does at least direct watering, so likely worsening is not established, but the missing quantity/saturation safeguard is material."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "“Burnt” does not match the confirmed dehydration and healthy roots. Watering overlaps one useful action, but neither a good soak nor trimming damaged leaves is described."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The instruction needs only ordinary water. However, “a little” and “at a time” leave both amount and frequency undefined."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "just give it a little water at a time"
+    ]
+  },
+  "query_index": 12,
+  "thread_id": "sasfin",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 12,
+    "thread_id": "sasfin",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/plantylife/posts/3502171880027667/",
+    "spans": [
+      {
+        "file": "012-source-01.txt",
+        "start_line": 43,
+        "end_line": 57,
+        "sha256": "6c33627c810d749fe87452ada2d5ae7a689a2655377a54c0cd9ec1ce4a45533b",
+        "text": "      - article \"Comment by Timothy Storms 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Timothy Storms\":\n          - generic: Timothy Storms\n        - generic: it's just a bit burnt easy to save just give it a little water at a time\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3502171880027667/?comment_id=3502184133359775&__cft__[0]=AZhNskEUDAtOoz4XyBIDXum79mcpaVEed94u4yFi5DDImZk5m_4q_j5tGF4cQ3qOfiNrh2YujpBklVlkuXTkNPrjxCOFuseLC0HkTZz6299dfEgKywL5B3M5-1U7kKIvgoVwiT_6KZkmYDv6WICWB3Pi5dhSqmtlYmhkrpA6U0JePVP7FPJzM9aWhoI3hcpyKzg9&__tn__=R]-R\n      - article \"Comment by Jocelyn McCord 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jocelyn McCord\":\n          - generic: Jocelyn McCord\n        - generic: The plant, or the friendship?"
+      }
+    ],
+    "advice": "      - article \"Comment by Timothy Storms 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Timothy Storms\":\n          - generic: Timothy Storms\n        - generic: it's just a bit burnt easy to save just give it a little water at a time\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3502171880027667/?comment_id=3502184133359775&__cft__[0]=AZhNskEUDAtOoz4XyBIDXum79mcpaVEed94u4yFi5DDImZk5m_4q_j5tGF4cQ3qOfiNrh2YujpBklVlkuXTkNPrjxCOFuseLC0HkTZz6299dfEgKywL5B3M5-1U7kKIvgoVwiT_6KZkmYDv6WICWB3Pi5dhSqmtlYmhkrpA6U0JePVP7FPJzM9aWhoI3hcpyKzg9&__tn__=R]-R\n      - article \"Comment by Jocelyn McCord 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jocelyn McCord\":\n          - generic: Jocelyn McCord\n        - generic: The plant, or the friendship?",
+    "reason": "First result offers explicit rescue/watering advice; retain its burn diagnosis and vague quantity without improvement.",
+    "frozen_at": "2026-10-29T04:12:33.981963+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:13:37.190977+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

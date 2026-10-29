@@ -1,0 +1,158 @@
+{
+  "reference_action": "Indoor shelf conditions/insufficient light: move outside initially shaded to acclimate; extend watering interval indoors. OP explicitly reports vigorous new growth after moving outside.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Place in bright light at an unshaded window and shade from direct outdoor sun supplies improved light conditions with burn protection. Exact outdoor relocation is not explicitly prescribed.",
+      "evidence": [
+        "033-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/welcometotansy/videos/the-ultimate-spider-plant-care-guide-%EF%B8%8F-lightplace-them-in-bright-light-near-an-u/1770795260899513/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Cutting brown tissue or reassurance supplies no increased-light relocation.",
+      "evidence": [
+        "033-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1862829750845415/posts/2353858571742528/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicitly recommends more sun for wider leaves, matching increased-light action, despite conflicting water and light suggestions elsewhere.",
+      "evidence": [
+        "033-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/1kzwwc8/cant_tell_if_my_spider_plant_is_getting_too_much/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Same care guide as rank 1: unshaded bright window and outdoor sun protection overlap improved light, not an exact outdoor-move instruction.",
+      "evidence": [
+        "033-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/welcometotansy/videos/the-ultimate-spider-plant-care-guide-%EF%B8%8F-lightplace-them-in-bright-light-near-an-u/1770795260899513/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "For plants far from windows, recommends brighter sky-view position or a grow light for at least 12 hours. This reproduces light increase, though not the specific outdoor move.",
+      "evidence": [
+        "video-audit-gHMQuiW7-Hk-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=gHMQuiW7-Hk"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move to bright unshaded window or shade from direct outdoor sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check dryness and water when dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use distilled, rain or reverse-osmosis water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Cut rooted offsets and plant in damp soil or water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Mix two parts potting soil and one part perlite",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Repot in container with drainage holes",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Feed half-strength balanced fertilizer monthly in spring and summer",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The first light instruction would improve shaded-shelf conditions, and watering less often supports the reference. The guide remains broad and includes propagation/feeding tasks irrelevant to rescue."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Keep them out of direct sun outdoors” protects against abrupt sun exposure, and drainage holes protect roots. “Water only when completely dry” is a blunt rule, but the guidance does not prescribe a clearly harmful intervention in this case."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Bright light near an (unshaded)” window overlaps the needed light correction. The guide does not diagnose central blackening or the shelf problem and spends much of its answer on brown tips, offsets and feeding."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "A 2:1 soil recipe and half-strength monthly feeding are concrete. Moving to an unshaded window is simple, although the complete guide requires repotting supplies and several unnecessary tasks."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 33,
+  "thread_id": "1e73qwo",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 33,
+    "thread_id": "1e73qwo",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/welcometotansy/videos/the-ultimate-spider-plant-care-guide-%EF%B8%8F-lightplace-them-in-bright-light-near-an-u/1770795260899513/",
+    "spans": [
+      {
+        "file": "033-source-01.txt",
+        "start_line": 71,
+        "end_line": 90,
+        "sha256": "881c01d38e09e55005062e6fa7427584dfa4c12c540d3105ea6996e1b7c52511",
+        "text": "- text: THE ULTIMATE SPIDER PLANT CARE GUIDE\n- img \"🪴\"\n- img \"☀️\"\n- text: LIGHT\n- generic: Place them in bright light near an (unshaded) east, south or west window. Keep them out of direct sun outdoors to avoid scorched leaves.\n- img \"💧\"\n- text: WATER AND TAP WATER WARNING\n- generic: Water only when completely dry. Spider plants are extremely sensitive to fluoride, chlorine, and salts in tap water, which cause brown leaf tips. Use distilled water, rainwater, or reverse osmosis to keep the foliage happy.\n- img \"👶\"\n- text: BABIES AND BLOOMS\n- generic: To trigger spiderettes, keep the plant slightly root-bound in bright light. Once the offset plantlets form tiny roots at their bases, snip them off and put them directly into damp soil or water to root.\n- img \"🪴\"\n- text: SOIL AND POTTING\n- generic: Plant in a light, fast-draining mix of 2 parts standard potting soil and 1 part perlite. Spider plants have thick, fleshy tubered roots that store water, so use a pot with drainage holes to prevent root rot.\n- img \"🌡️\"\n- text: TEMP AND HUMIDITY\n- generic: They thrive in standard home temperatures between 60°F and 80°F. Average indoor humidity works fine, but higher humidity prevents the leaf tips from drying out.\n- img \"🧪\"\n- text: FEEDING\n- generic: Feed LIGHTLY once a month during spring and summer with an organic balanced houseplant fertilizer diluted to half strength. Avoid over-fertilizing, as excess salts will burn the root tips and cause brown leaf margins."
+      }
+    ],
+    "advice": "- text: THE ULTIMATE SPIDER PLANT CARE GUIDE\n- img \"🪴\"\n- img \"☀️\"\n- text: LIGHT\n- generic: Place them in bright light near an (unshaded) east, south or west window. Keep them out of direct sun outdoors to avoid scorched leaves.\n- img \"💧\"\n- text: WATER AND TAP WATER WARNING\n- generic: Water only when completely dry. Spider plants are extremely sensitive to fluoride, chlorine, and salts in tap water, which cause brown leaf tips. Use distilled water, rainwater, or reverse osmosis to keep the foliage happy.\n- img \"👶\"\n- text: BABIES AND BLOOMS\n- generic: To trigger spiderettes, keep the plant slightly root-bound in bright light. Once the offset plantlets form tiny roots at their bases, snip them off and put them directly into damp soil or water to root.\n- img \"🪴\"\n- text: SOIL AND POTTING\n- generic: Plant in a light, fast-draining mix of 2 parts standard potting soil and 1 part perlite. Spider plants have thick, fleshy tubered roots that store water, so use a pot with drainage holes to prevent root rot.\n- img \"🌡️\"\n- text: TEMP AND HUMIDITY\n- generic: They thrive in standard home temperatures between 60°F and 80°F. Average indoor humidity works fine, but higher humidity prevents the leaf tips from drying out.\n- img \"🧪\"\n- text: FEEDING\n- generic: Feed LIGHTLY once a month during spring and summer with an organic balanced houseplant fertilizer diluted to half strength. Avoid over-fertilizing, as excess salts will burn the root tips and cause brown leaf margins.",
+    "reason": "Self-contained written care guide from first result, excluding unrelated videos and comments.",
+    "frozen_at": "2026-10-29T04:31:07.566073+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:32:08.041319+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

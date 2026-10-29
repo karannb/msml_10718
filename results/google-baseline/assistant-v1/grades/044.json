@@ -1,0 +1,212 @@
+{
+  "reference_action": "Dense wet medium/overwatering; repot into a chunkier draining mix and reduce watering, then allow recovery. OP reports new leaves after repotting from overwatering and time.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "unresolved",
+      "reason": "A failed rescue anecdote without an actionable successful remedy is visible; no usable advice recovered.",
+      "evidence": [
+        "044-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/634613514670686/posts/1649252276540133/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Removes old wet medium and repots in coco/pine bark in a ventilated draining pot. This recovers the medium change despite unneeded chemical and rice-water steps; creator labels video Made With AI.",
+      "evidence": [
+        "video-audit-6OQv4SWx_YI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=6OQv4SWx_YI&themeRefresh=1"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Discusses Caladium dormancy and root rescue in fluval/water, not the validated chunky soil and reduced watering remedy.",
+      "evidence": [
+        "044-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/alocasia/comments/10pl6po/how_to_revive_alocasia/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Caption proposes leca/moss conversion; it does not prescribe the validated soil repotting or reduced watering.",
+      "evidence": [
+        "044-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/634613514670686/posts/1611935560271805/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Check roots, remove dead/rotten tissue and repot, then water only when 75% dry overlaps repotting and reduced watering. Chunky recipe is missing, so this is an incomplete match.",
+      "evidence": [
+        "044-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/25029212193381689/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Unpot and remove most old medium",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prepare methylene-blue solution and soak roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true,
+        "elapsed_minutes_original_estimate": 15,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "action": "Rest roots after soaking",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Soak coco and squeeze dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false,
+        "elapsed_minutes_original_estimate": 15,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "action": "Mix coco with pine bark",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Repot in ventilated draining pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Wait before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix B1 tablet in water and apply",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      },
+      {
+        "action": "Move to diffuse light and ventilation",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prepare rice water, strain, dilute and apply after 15 days",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Provide nutrients weekly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      }
+    ],
+    "reason": "The core medium replacement and drainage remedy is present. Chemical and rice-water additions are unsupported and ambiguous, but the dilute drop instruction alone does not establish likely serious damage."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The draining mix and removal of wet medium are sensible, but “one drop of methylene blue” omits stock concentration. B1 and rice-water additions are unnecessary; the warning about starch attracting fungi/insects partly mitigates that risk."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Replacing moist medium with coco and pine bark addresses the fine wet soil in this case. The additional chemical, B1 and rice-water rescue claims lack case-specific justification and obscure a simpler repotting remedy."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The video gives several quantities and a visible sequence, but it requires chemicals, tablets and multiple timed treatments. Unspecified product strengths and weekly “nutrients” require interpretation."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 44,
+  "thread_id": "1oadqs1",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 44,
+    "thread_id": "1oadqs1",
+    "selected_rank": 2,
+    "source_url": "https://www.youtube.com/watch?v=6OQv4SWx_YI&themeRefresh=1",
+    "spans": [
+      {
+        "file": "video-audit-6OQv4SWx_YI-transcript.txt",
+        "start_line": 6,
+        "end_line": 70,
+        "sha256": "b7787b359baf58d888eacc81a5e33d1ad98ece5df43459ac8a8513b9bc8f025d",
+        "text": "[0:00] After just 2 months, this Alocasia has completely transformed!\n[0:09] But when I first bought it, one of its leaves was already turning yellow and gradually wilting.\n[0:19] The old growing medium was no longer suitable for the plant to grow steadily.\n[0:28] Therefore, today I will show you how to replace the growing medium\n[0:33] medium and help the plant quickly adapt to its new environment.\n[0:40] Along with proper care and nutrition for the plant. Please watch until the end of the video to see the process I followed.\n[1:03] This is the plant when I first bought it. The plant was still green and healthy,\n[1:09] but one leaf had started turning yellow and gradually wilting.\n[1:20] To help the plant stabilize and grow better, I decided to replace\n[1:25] most of the old growing medium with new growing medium.\n[1:38] First, I gently removed the plant from the pot.\n[1:45] This is the growing medium the plant was grown in from an industrial growing environment.\n[1:55] The growing medium had retained moisture and surrounded the root system for a long time.\n[2:09] I will remove most of the old growing medium to allow the root system to come\n[2:13] into contact with the new growing medium.\n[2:25] However, I still kept a small amount of the old growing medium around the roots instead of removing it completely.\n[2:38] This helps the plant adapt more easily to the new environment and avoid transplant shock.\n[2:49] After finishing the treatment, I will prepare a solution to soak the root system.\n[3:01] I prepare 200 ml of clean water. Then, I add one drop of methylene blue to the water.\n[3:15] I stir well to dissolve the solution. And soak the roots of the plant.\n[3:24] Methylene blue helps disinfect and protect the cut areas, limiting bacterial growth.\n[3:37] Soak for about 15 minutes.\n[3:48] After 15 minutes, I remove the plant from the solution. I let the plant rest for a while before replanting it.\n[4:02] Now, I will prepare the new growing medium for the plant.\n[4:13] This time, I chose coconut coir crumbs as one of the main components of the growing medium.\n[4:30] Before using it, I soak the coconut coir crumbs in water so they can absorb moisture and expand evenly.\n[4:42] Soaking also helps reduce some of the salts and soluble substances remaining in the coconut coir..\n[5:05] After 15 minutes, I take the coconut coir out of the water. I squeeze it thoroughly by hand to remove excess water.\n[5:20] This helps reduce the excess moisture in the coconut coir,\n[5:24] preventing the growingmedium from becoming too waterlogged after planting.\n[5:37] At the same time, the coconut coir still retains enough moisture to help the roots adapt to the new growing medium.\n[5:59] To improve the aeration of the growing medium, I will combine the coconut coir crumbs with pine bark.\n[6:16] I mix them together evenly.\n[6:22] Coconut coir crumbs help retain some moisture, while pine bark creates\n[6:27] additional spaces to improve the aeration of the growing medium.\n[6:34] Which country are you watching this video from? Please leave a comment below and let me know.\n[6:46] It’s wonderful that we can connect with each other from all around the world.\n[6:56] Next, I prepare a pot with plenty of drainage and ventilation holes.\n[7:09] Then, I gently place the plant in the center of the pot.\n[7:18] I adjust the position of the plant so that it stands firmly and the roots are distributed relatively evenly.\n[7:29] Next, I slowly spread the growing medium around the root system.\n[7:39] After replacing the growing medium, I do not water the plant immediately but let it rest for a few days to adapt.\n[7:58] After a few days, when the plant has had time to stabilize, I begin preparing the first watering solution.\n[8:11] I prepare 1/2 liter of clean water. Then, I add one vitamin B1 tablet.\n[8:26] Stir well until the B1 dissolves completely, then use it to water the plant.\n[8:40] Vitamin B1 participates in the plant's metabolic processes.\n[8:52] During the period after repotting, I use B1 as a way to help the plant adapt to the new environment.\n[9:07] I water slowly and distribute the water evenly around the root system instead of concentrating it in one spot.\n[9:23] After watering, I place the plant in a cool, well-ventilated area with diffused light so that it can adapt better.\n[9:48] After about 15 days, when the plant has begun to stabilize, I move on to the stage of providing light nutrition for the plant.\n[10:01] I prepare 1/2 liter of clean water. Then, I add three tablespoons of white rice.\n[10:15] I stir well so that the ingredients mix into the water. After stirring, I strain out the rice water.\n[10:30] Rice water may contain small amounts of starch, protein, vitamins, and some minerals dissolved from the rice grains.\n[10:45] These substances may add a small amount of organic matter to the growing medium.\n[10:55] But the nutrient content is not high and cannot completely replace fertilizer.\n[11:06] However, it is best to use fresh rice water, dilute it, and avoid watering too frequently.\n[11:16] If used too much, excess starch can make the growing medium\n[11:22] more likely to develop an odor and attract fungi or insects.\n[11:28] After watering, I continue to place the plant in a place with diffused light.\n[11:34] I maintain regular care and provide nutrients every week.\n[11:48] And this is the result I achieved after 2 months of care\n[11:52] The Alocasia has grown significantly larger compared to when I first bought it.\n[12:00] The plant has also grown taller, and its foliage has become fuller.\n[12:08] The plant has adapted well to the new growing medium and continues to grow steadily.\n[12:15] I hope this process gives you another way to consider repotting and caring for Alocasia at home."
+      }
+    ],
+    "advice": "[0:00] After just 2 months, this Alocasia has completely transformed!\n[0:09] But when I first bought it, one of its leaves was already turning yellow and gradually wilting.\n[0:19] The old growing medium was no longer suitable for the plant to grow steadily.\n[0:28] Therefore, today I will show you how to replace the growing medium\n[0:33] medium and help the plant quickly adapt to its new environment.\n[0:40] Along with proper care and nutrition for the plant. Please watch until the end of the video to see the process I followed.\n[1:03] This is the plant when I first bought it. The plant was still green and healthy,\n[1:09] but one leaf had started turning yellow and gradually wilting.\n[1:20] To help the plant stabilize and grow better, I decided to replace\n[1:25] most of the old growing medium with new growing medium.\n[1:38] First, I gently removed the plant from the pot.\n[1:45] This is the growing medium the plant was grown in from an industrial growing environment.\n[1:55] The growing medium had retained moisture and surrounded the root system for a long time.\n[2:09] I will remove most of the old growing medium to allow the root system to come\n[2:13] into contact with the new growing medium.\n[2:25] However, I still kept a small amount of the old growing medium around the roots instead of removing it completely.\n[2:38] This helps the plant adapt more easily to the new environment and avoid transplant shock.\n[2:49] After finishing the treatment, I will prepare a solution to soak the root system.\n[3:01] I prepare 200 ml of clean water. Then, I add one drop of methylene blue to the water.\n[3:15] I stir well to dissolve the solution. And soak the roots of the plant.\n[3:24] Methylene blue helps disinfect and protect the cut areas, limiting bacterial growth.\n[3:37] Soak for about 15 minutes.\n[3:48] After 15 minutes, I remove the plant from the solution. I let the plant rest for a while before replanting it.\n[4:02] Now, I will prepare the new growing medium for the plant.\n[4:13] This time, I chose coconut coir crumbs as one of the main components of the growing medium.\n[4:30] Before using it, I soak the coconut coir crumbs in water so they can absorb moisture and expand evenly.\n[4:42] Soaking also helps reduce some of the salts and soluble substances remaining in the coconut coir..\n[5:05] After 15 minutes, I take the coconut coir out of the water. I squeeze it thoroughly by hand to remove excess water.\n[5:20] This helps reduce the excess moisture in the coconut coir,\n[5:24] preventing the growingmedium from becoming too waterlogged after planting.\n[5:37] At the same time, the coconut coir still retains enough moisture to help the roots adapt to the new growing medium.\n[5:59] To improve the aeration of the growing medium, I will combine the coconut coir crumbs with pine bark.\n[6:16] I mix them together evenly.\n[6:22] Coconut coir crumbs help retain some moisture, while pine bark creates\n[6:27] additional spaces to improve the aeration of the growing medium.\n[6:34] Which country are you watching this video from? Please leave a comment below and let me know.\n[6:46] It’s wonderful that we can connect with each other from all around the world.\n[6:56] Next, I prepare a pot with plenty of drainage and ventilation holes.\n[7:09] Then, I gently place the plant in the center of the pot.\n[7:18] I adjust the position of the plant so that it stands firmly and the roots are distributed relatively evenly.\n[7:29] Next, I slowly spread the growing medium around the root system.\n[7:39] After replacing the growing medium, I do not water the plant immediately but let it rest for a few days to adapt.\n[7:58] After a few days, when the plant has had time to stabilize, I begin preparing the first watering solution.\n[8:11] I prepare 1/2 liter of clean water. Then, I add one vitamin B1 tablet.\n[8:26] Stir well until the B1 dissolves completely, then use it to water the plant.\n[8:40] Vitamin B1 participates in the plant's metabolic processes.\n[8:52] During the period after repotting, I use B1 as a way to help the plant adapt to the new environment.\n[9:07] I water slowly and distribute the water evenly around the root system instead of concentrating it in one spot.\n[9:23] After watering, I place the plant in a cool, well-ventilated area with diffused light so that it can adapt better.\n[9:48] After about 15 days, when the plant has begun to stabilize, I move on to the stage of providing light nutrition for the plant.\n[10:01] I prepare 1/2 liter of clean water. Then, I add three tablespoons of white rice.\n[10:15] I stir well so that the ingredients mix into the water. After stirring, I strain out the rice water.\n[10:30] Rice water may contain small amounts of starch, protein, vitamins, and some minerals dissolved from the rice grains.\n[10:45] These substances may add a small amount of organic matter to the growing medium.\n[10:55] But the nutrient content is not high and cannot completely replace fertilizer.\n[11:06] However, it is best to use fresh rice water, dilute it, and avoid watering too frequently.\n[11:16] If used too much, excess starch can make the growing medium\n[11:22] more likely to develop an odor and attract fungi or insects.\n[11:28] After watering, I continue to place the plant in a place with diffused light.\n[11:34] I maintain regular care and provide nutrients every week.\n[11:48] And this is the result I achieved after 2 months of care\n[11:52] The Alocasia has grown significantly larger compared to when I first bought it.\n[12:00] The plant has also grown taller, and its foliage has become fuller.\n[12:08] The plant has adapted well to the new growing medium and continues to grow steadily.\n[12:15] I hope this process gives you another way to consider repotting and caring for Alocasia at home.",
+    "reason": "Rank 1 gives unsuccessful anecdote without usable instructions. First usable source is ordinary YouTube video labeled Made with AI, retained as not a Google AI summary and disclosed.",
+    "frozen_at": "2026-10-29T04:38:53.428042+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.257418+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.256680+00:00",
+    "changes": [
+      {
+        "query_index": 44,
+        "action_index": 1,
+        "field": "minutes",
+        "before": 15,
+        "after": 5,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "query_index": 44,
+        "action_index": 3,
+        "field": "minutes",
+        "before": 15,
+        "after": 5,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ]
+  }
+}

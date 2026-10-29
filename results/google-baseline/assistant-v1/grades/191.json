@@ -1,0 +1,151 @@
+{
+  "reference_action": "OP treated palm spider mites with rubbing alcohol/water for a week and then purchased spray; reported no more visible mites and planned repeat treatment.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Mite-specific contact wash with oil/soap, both leaf surfaces and repeat monitoring, is a partial functional match to confirmed contact spraying.",
+      "evidence": [
+        "191-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/oeglce/neanthe_bella_palm_has_small_white_spots_on/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Mite recognition and routine rinsing, without the confirmed chemical/contact-treatment course in the captured article.",
+      "evidence": [
+        "191-source-02.txt"
+      ],
+      "url": "https://www.joyusgarden.com/neanthe-bella-palm-care-tips-for-this-table-top-palm/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Visible replies inspect for webbing and rub residue; no treatment recommendation.",
+      "evidence": [
+        "191-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/7977950092267832/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Diagnostic checks and monitoring; refers to a separate mite guide but does not provide the treatment on this page.",
+      "evidence": [
+        "191-source-04.txt"
+      ],
+      "url": "https://plantcarebasics.com/why-my-parlor-palm-turning-pale-yellow-white-speckles/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Specifies insecticidal sprays or superior horticultural oil against spider mites.",
+      "evidence": [
+        "191-source-05.txt"
+      ],
+      "url": "https://www.gardeningknowhow.com/houseplants/parlor-palm/parlor-palm-problems.htm"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Quarantine plant",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash hands and change clothes after handling",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash both leaf surfaces with soap/oil mixture",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Rinse treated foliage thoroughly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Monitor for recurring mites",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Correct pest and contact-treatment mechanism match the confirmed fix; rinsing reduces injury risk, but formulation is vague and five distinct tasks exceed capacity."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The answer says “rinse well” and mentions sunburn, which reduce risk. A “touch of Dawn” and “few drops” of oil leave concentration uncertain and may injure sensitive foliage."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "Names spider mites and targets both leaf surfaces, with isolation and monitoring. The contact-treatment mechanism agrees with the OP outcome, although it is not the exact alcohol/product regimen."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Most steps use accessible materials and have clear purposes. The unspecified oil/soap dilution requires judgment and the complete answer involves several separate tasks."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 191,
+  "thread_id": "14s9zub",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 191,
+    "thread_id": "14s9zub",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/plantclinic/comments/oeglce/neanthe_bella_palm_has_small_white_spots_on/",
+    "spans": [
+      {
+        "file": "191-source-01.txt",
+        "start_line": 100,
+        "end_line": 100,
+        "sha256": "4d54c7a66061a4677362978e20b451a5157e0c2d4658f097317df1e48fef7bda",
+        "text": "      - paragraph: You have spider mites!! They like to hide under the leaves and suck the chlorophyll from your plant. You may find webbing and tiny mites- if so, you need to quarantine that palm (and wash your hands/change your clothes) before handling your other plants, because they WILL infest everywhere. After you move that plant off to the side you should start by thoroughly washing each fronds front and back with water, a touch of dawn dish soap, and a few drops of ultrafine oil. Make sure to rinse well afterwards so the leaves don't burn in the sun."
+      },
+      {
+        "file": "191-source-01.txt",
+        "start_line": 121,
+        "end_line": 121,
+        "sha256": "4d54c7a66061a4677362978e20b451a5157e0c2d4658f097317df1e48fef7bda",
+        "text": "          - paragraph: You're welcome! Spider mites are a nightmare to deal with once they become problematic like this. In the future make sure to check leaves and stem regularly for signs of pests so you can take care of them before they get out of hand 👍"
+      }
+    ],
+    "advice": "      - paragraph: You have spider mites!! They like to hide under the leaves and suck the chlorophyll from your plant. You may find webbing and tiny mites- if so, you need to quarantine that palm (and wash your hands/change your clothes) before handling your other plants, because they WILL infest everywhere. After you move that plant off to the side you should start by thoroughly washing each fronds front and back with water, a touch of dawn dish soap, and a few drops of ultrafine oil. Make sure to rinse well afterwards so the leaves don't burn in the sun.\n\n          - paragraph: You're welcome! Spider mites are a nightmare to deal with once they become problematic like this. In the future make sure to check leaves and stem regularly for signs of pests so you can take care of them before they get out of hand 👍",
+    "reason": "First substantive diagnosis/treatment reply plus same-author monitoring follow-up.",
+    "frozen_at": "2026-10-29T06:38:40.889834+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:45:11.357612+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "reference_action": "Underwatering despite apparently moist surface soil; OP watered with substantially more water and Thanksgiving cactus segments began lifting. Central action is thorough rehydration, with future watering based on plant/soil condition rather than a fixed calendar.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Cut back, inspect roots and divide or up-pot; no thorough watering instruction.",
+      "evidence": [
+        "078-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/1885726095702213/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Rooting an uprooted plant in a cup is a propagation rescue, not thorough watering of these established plants. AI-generated title was not used.",
+      "evidence": [
+        "078-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/3865962583648593/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit hour-long rehydration soak and subsequent moisture-based watering match the hydration action, though this example involves already bare-root prayer-plant remains and unnecessary repotting for the target.",
+      "evidence": [
+        "078-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/gardening/comments/s79v5j/can_i_revive_my_plant/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Remove dead leaves and wait for the watering already done; does not direct the additional substantial watering that this OP needed.",
+      "evidence": [
+        "078-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/q6bbzb/plant_rescue/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Peroxide corm soak and LECA conversion are not watering the existing rooted plants thoroughly.",
+      "evidence": [
+        "video-audit-mBUGLQwzoTE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=mBUGLQwzoTE"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Pull brown crunchy foliage",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant out of unspecified location",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Cut all foliage back",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Divide plant",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move into larger pot",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "No dehydration diagnosis or watering remedy; cutting everything back before checking roots needlessly removes viable foliage from thirsty plants."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Cut it all back” precedes root inspection and has no dead-tissue qualification. Applied to these living but dehydrated plants, it would remove recoverable growth without fixing the water deficit."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The brief comments give no diagnosis and do not address dry winter air, watering quantity or the Thanksgiving cactus. “Either divide it or put into a larger pot” supplies no criterion relevant to the actual cause."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Root inspection and pruning are understandable tasks. However, “get it out of the” is truncated, and choosing division versus a bigger pot is left unexplained."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 78,
+  "thread_id": "1rtbx4n",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 78,
+    "thread_id": "1rtbx4n",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/1885726095702213/",
+    "spans": [
+      {
+        "file": "078-source-01.txt",
+        "start_line": 55,
+        "end_line": 69,
+        "sha256": "2935768ef793c6e25a9055b31a023fb29f0c92fb1966e4fdb8cb25d4100e518c",
+        "text": "          - generic: Elaine Duffy\n        - text: Pull the brown crunchy stuff and get it out of the\n        - img \"🌞\"\n        - img \"😊\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1885726095702213/?comment_id=1887092455565577&__cft__[0]=AZicDTJn-3VxhMOou7wTRHoMR1yXyi-n339NKY9ufwZNSorgTVXNC9GAAF9GMYpPYqXj4ZTxYt-43GygFOX4m3J1PBiGZNK-Sw2wiLzZOc3U3Xz9A1SIzgwTWU0UUkDXJdbJRuUTxnFN87I9HFXcmqhycTVenBdO8DFMJM8m1wMmo6XUp_ur9zfd8SdG&__tn__=R]-R\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Michelle Scheuerlein a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Michelle Scheuerlein\":\n          - generic: Michelle Scheuerlein\n        - generic: Cut it all back and then check the roots, either divide it or put into a larger pot"
+      }
+    ],
+    "advice": "          - generic: Elaine Duffy\n        - text: Pull the brown crunchy stuff and get it out of the\n        - img \"🌞\"\n        - img \"😊\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1885726095702213/?comment_id=1887092455565577&__cft__[0]=AZicDTJn-3VxhMOou7wTRHoMR1yXyi-n339NKY9ufwZNSorgTVXNC9GAAF9GMYpPYqXj4ZTxYt-43GygFOX4m3J1PBiGZNK-Sw2wiLzZOc3U3Xz9A1SIzgwTWU0UUkDXJdbJRuUTxnFN87I9HFXcmqhycTVenBdO8DFMJM8m1wMmo6XUp_ur9zfd8SdG&__tn__=R]-R\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Michelle Scheuerlein a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Michelle Scheuerlein\":\n          - generic: Michelle Scheuerlein\n        - generic: Cut it all back and then check the roots, either divide it or put into a larger pot",
+    "reason": "First retained result contains actionable rescue advice: trim, inspect roots, divide or up-pot. Preserve the truncated first comment as incomplete, without supplying its missing words.",
+    "frozen_at": "2026-10-29T05:04:24.910207+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:05:25.270707+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "reference_action": "Underwatered small pot in hot room; OP bottom-watered and plant perked up. Thorough rehydration/soak is central, not humidity restoration or repotting alone.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Hose thoroughly until water runs through after drying gives equivalent full rehydration, although no bottom-soak duration.",
+      "evidence": [
+        "061-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/9135861929835204/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Waiting/pest/root checks and generic frequency change, no actual thorough rewetting instruction.",
+      "evidence": [
+        "061-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/qzt5rw/syngonium_drooping_ever_since_repotting_help/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Saturate soil until runoff, explicitly for dehydration drooping, recovers thorough rehydration.",
+      "evidence": [
+        "061-source-03.txt"
+      ],
+      "url": "https://planethouseplant.com/10-reasons-your-syngonium-drooping/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Thorough soak until absorbed, sit 30–60 minutes then drain explicitly matches rehydration and bottom-soak mechanism. Repotting context is extra.",
+      "evidence": [
+        "video-audit-NSY18zz7kKI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=NSY18zz7kKI"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Repot shock reassurance and limited watering/top-inch drying, no thorough rehydration.",
+      "evidence": [
+        "061-source-05.txt"
+      ],
+      "url": "https://garden.org/thread/view/108316/Syngonium-droopy-leaves/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Place in sunny/south window",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Allow drying between watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Hose thoroughly until runoff",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Cold/repot shock is the stated diagnosis rather than thirst, but the actionable thorough watering would rehydrate this dry plant. No pot/soil drying threshold is provided."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Until water running through” implies drainage and avoids a standing-water recommendation. Letting it “dry between watering” has no limit for this small hot pot, and south-window sun has no acclimation caveat."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The deep watering instruction matches the successful action. “Cold and potentially repot shock” conflicts with the hot-room history, and comments contradict each other about winter dormancy."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Taking the pot to the sink and watering to runoff is clear and uses ordinary equipment. The drying threshold is vague, but the immediate hydration step is executable."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 61,
+  "thread_id": "17qmeas",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 61,
+    "thread_id": "17qmeas",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/199630400125113/posts/9135861929835204/",
+    "spans": [
+      {
+        "file": "061-source-01.txt",
+        "start_line": 70,
+        "end_line": 98,
+        "sha256": "ab3b8c882574c7b7baf3be525a779577ddf1ee9e306dbe1daca863328635d098",
+        "text": "        - generic: I keep mine in a south facing window and let dry between watering, then take them to the sink and hose down leaves and all until water running through. They seem to love it.\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=1270668040667973&set=p.1270668040667973&type=3&__cft__[0]=AZgcWP3OCm3s57WqaA4XiRyrxQ5e6ibG1EOCzDE_A1jd5du1PkY2OdGlpe465soYM5w3tvqyU3ZYLwRQsQfI3aJoM1Va03ojR8wJ7_x_6HQf_mEpTiP9tCvVl2TP-oXKvz_6H9fOSDl-fSMNZ8DzKHvUca0stvXs6TPCNu_h-s69NDvgpsLs5HN6QVt9D3pxIhc5&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/9135861929835204/?comment_id=9135930189828378&__cft__[0]=AZgcWP3OCm3s57WqaA4XiRyrxQ5e6ibG1EOCzDE_A1jd5du1PkY2OdGlpe465soYM5w3tvqyU3ZYLwRQsQfI3aJoM1Va03ojR8wJ7_x_6HQf_mEpTiP9tCvVl2TP-oXKvz_6H9fOSDl-fSMNZ8DzKHvUca0stvXs6TPCNu_h-s69NDvgpsLs5HN6QVt9D3pxIhc5&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Joanna Matuszak a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Joanna Matuszak\":\n          - generic: Joanna Matuszak\n        - generic: Cold and potentially repot shock. They shouldn’t be repotted in their dormancy period. But it might bounce back\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/9135861929835204/?comment_id=9136028149818582&__cft__[0]=AZgcWP3OCm3s57WqaA4XiRyrxQ5e6ibG1EOCzDE_A1jd5du1PkY2OdGlpe465soYM5w3tvqyU3ZYLwRQsQfI3aJoM1Va03ojR8wJ7_x_6HQf_mEpTiP9tCvVl2TP-oXKvz_6H9fOSDl-fSMNZ8DzKHvUca0stvXs6TPCNu_h-s69NDvgpsLs5HN6QVt9D3pxIhc5&__tn__=R]-R\n      - button \"View all 3 replies\":\n        - generic: View all 3 replies\n      - article \"Comment by Scott Gold a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Scott Gold\":\n          - generic: Scott Gold\n        - generic: Question about repotting. Did you remove the soil or leave the rootball intact?\n        - generic: I have repotted thousands of plants in the winter time, repotting should not be a problem if done correctly. They do not go dormant. In sunny window your Syngonium Polypodium should keep actively growing."
+      }
+    ],
+    "advice": "        - generic: I keep mine in a south facing window and let dry between watering, then take them to the sink and hose down leaves and all until water running through. They seem to love it.\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=1270668040667973&set=p.1270668040667973&type=3&__cft__[0]=AZgcWP3OCm3s57WqaA4XiRyrxQ5e6ibG1EOCzDE_A1jd5du1PkY2OdGlpe465soYM5w3tvqyU3ZYLwRQsQfI3aJoM1Va03ojR8wJ7_x_6HQf_mEpTiP9tCvVl2TP-oXKvz_6H9fOSDl-fSMNZ8DzKHvUca0stvXs6TPCNu_h-s69NDvgpsLs5HN6QVt9D3pxIhc5&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/9135861929835204/?comment_id=9135930189828378&__cft__[0]=AZgcWP3OCm3s57WqaA4XiRyrxQ5e6ibG1EOCzDE_A1jd5du1PkY2OdGlpe465soYM5w3tvqyU3ZYLwRQsQfI3aJoM1Va03ojR8wJ7_x_6HQf_mEpTiP9tCvVl2TP-oXKvz_6H9fOSDl-fSMNZ8DzKHvUca0stvXs6TPCNu_h-s69NDvgpsLs5HN6QVt9D3pxIhc5&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Joanna Matuszak a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Joanna Matuszak\":\n          - generic: Joanna Matuszak\n        - generic: Cold and potentially repot shock. They shouldn’t be repotted in their dormancy period. But it might bounce back\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/9135861929835204/?comment_id=9136028149818582&__cft__[0]=AZgcWP3OCm3s57WqaA4XiRyrxQ5e6ibG1EOCzDE_A1jd5du1PkY2OdGlpe465soYM5w3tvqyU3ZYLwRQsQfI3aJoM1Va03ojR8wJ7_x_6HQf_mEpTiP9tCvVl2TP-oXKvz_6H9fOSDl-fSMNZ8DzKHvUca0stvXs6TPCNu_h-s69NDvgpsLs5HN6QVt9D3pxIhc5&__tn__=R]-R\n      - button \"View all 3 replies\":\n        - generic: View all 3 replies\n      - article \"Comment by Scott Gold a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Scott Gold\":\n          - generic: Scott Gold\n        - generic: Question about repotting. Did you remove the soil or leave the rootball intact?\n        - generic: I have repotted thousands of plants in the winter time, repotting should not be a problem if done correctly. They do not go dormant. In sunny window your Syngonium Polypodium should keep actively growing.",
+    "reason": "First retained advice thread, all visible substantive comments.",
+    "frozen_at": "2026-10-29T04:48:17.192948+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:49:01.460240+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

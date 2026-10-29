@@ -1,0 +1,158 @@
+{
+  "reference_action": "Keep wilted transplanted basil seedlings in a glass of water to recover and grow roots; OP reports revival after four hours in water.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Dividing, repotting, watering soil and morning sun are ordinary basil maintenance, not keeping damaged seedlings in a glass of water to recover.",
+      "evidence": [
+        "video-audit-yY5QcjOfCFY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=yY5QcjOfCFY"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Repot and water through drainage, then rest in indirect light; no water-culture recovery of the uprooted seedlings.",
+      "evidence": [
+        "video-audit-HiOhR-4GXYQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=HiOhR-4GXYQ"
+    },
+    {
+      "rank": 3,
+      "action_hit": "unresolved",
+      "reason": "Visible Facebook caption and two comments do not reveal the video instructions. Unrelated recipe/reel text is excluded.",
+      "evidence": [
+        "016-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/100030897806948/videos/comment-sauver-ton-basilic-du-commerce-jardinage-permaculture-basilic-basil-astu/1975238146476160/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Short video title is visible but no usable transcript or self-contained remedy was captured.",
+      "evidence": [
+        "016-source-04.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/OqFjYFhObgQ?themeRefresh=1"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Shade, humidity bag with ventilation and transplant precautions do not reproduce the validated glass-of-water recovery.",
+      "evidence": [
+        "016-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/Garten/comments/132ur1w/basilikum_geht_nach_umtopfen_ein/?tl=fr"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Divide crowded basil into individual plants",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot two or three plants in a large pot at root depth",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Firm soil lightly",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water all potting medium",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to morning or early afternoon sun",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Harvest strong stems above second or third branching when mature",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove flowers as they appear",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "General crowded-store-basil care misses acute transplant shock and the validated recovery in water. Gentle planting and watering are not inherently harmful, but additional repotting is unnecessary."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The guide says to water the whole medium and keep it “mouillé mais pas trempé,” giving an excess-water precaution. Yet it recommends more division and repotting for already shocked seedlings without a recovery-stage safeguard."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "“Deux ou trois pieds maximum” addresses crowding rather than the immediate collapse after transplanting. It never recommends the glass of water that revived the seedlings."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Root-depth planting, two or three plants per pot, and cutting above a branch are concrete instructions using common supplies. The full repotting sequence is more work than the successful remedy but remains understandable."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 16,
+  "thread_id": "1l7tndu",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 16,
+    "thread_id": "1l7tndu",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=yY5QcjOfCFY",
+    "spans": [
+      {
+        "file": "video-audit-yY5QcjOfCFY-transcript.txt",
+        "start_line": 6,
+        "end_line": 79,
+        "sha256": "0f4f5e57aa5de2bce382a3727ec63e524a38f37392fea552d437d13d60f4aeb8",
+        "text": "[0:00] tuachètes ça et puis quelques semaines plus tard, il est complètement mort. Tu\n[0:03] le jettes, tu passes à autre chose et tuen rachètes. Moi, je vais t'apprendre\n[0:06] à le garder déjà toute une saison. Bon, ça, je précise hein, c'est un basilic\n[0:10] grec donc il a de petites feuilles. C'est pas en l'achetant juste comme ça\n[0:13] que tu vas pouvoir le récolter, le tenir toute une saison et cetera. Il y a plein\n[0:17] d'autres étapes. Vous êtes très nombreux à me dire \"Ouais, mais comment ça\n[0:21] s'entretient ? Le mien, il crève tout le temps. Comment on le taille aussi ?\" Ça,\n[0:24] c'est une question qui revient très souvent. J'ai beaucoup beaucoup\n[0:27] d'astuces pour vous aujourd'hui pour vous aider à entretenir cette magnifique\n[0:31] petite plante aromatique. Chaque tige que tu vois individuellement comme ceci,\n[0:36] c'est un futur buisson. Ces branchesl elles vont te donner des vrais buissons\n[0:41] sur lesquels tu vas pouvoir cuillir plusieurs fois sans épuiser tes pieds et\n[0:45] cetera. Sur cette petite mote et bien il y a 1 2 3 4 5 6 7. Il y a sep pieds\n[0:52] basilic. Qu'est-ce qu'on fait en premier quand on a une plante dans un petit pot\n[0:55] ? C'est de la rampoter. On va remplir notre pot. J'ai pris un pot grand. Un\n[1:00] pot comme ça. Je vais mettre à peu près deux ou trois pieds maximum parce que\n[1:04] ton basilic pour l'instant c'est un petit nain mais il va devenir super\n[1:09] grand, super large et les racines, elles vont coloniser tout le pot. J'en ai déjà\n[1:14] séparé un. Donc comme tu peux le voir, une tige avec ses racines. Fais un trou\n[1:19] de la profondeur des racines. Et là, tu vas revenir mettre la terre autour. Je\n[1:23] viens de chaque côté ramètre à peine de terre. Je viens avec mes doigts en\n[1:26] pince. Un petit coup net et ça tient. Il y a pas besoin de faire plus. On va\n[1:31] arroser l'ensemble du terreau comme je fais à chaque fois que je repique des\n[1:34] plantes. Chez nous les maréchés et les horticulteurs, il un dicton c'est que le\n[1:39] basilicien avoir le cul mouillé mais pas trempé. Donc les souscoupes sous les\n[1:46] peaux, ça t'oublie direct parce que ça aussi hein, ça le fait mourir.\n[1:49] Maintenant, il te reste plus qu'à les mettre au soleil plutôt du matin tout\n[1:54] début d'après-midi, pas en plein cagnard toute la journée. Ça va détester ça.\n[1:58] C'est vachement fragile comme plan. Souvent, on me dit \"Ouais, c'est quoi la\n[2:01] différence entre les deux Bon, tout à l'heure, je vous parlais de celui-ci, le\n[2:04] basilic grec, qui est beaucoup plus résistant à la sécheresse. Moi, je le\n[2:08] trouve aussi est plus productif, moins fragile. Il peut supporter du plein\n[2:12] soleil, il va être plus tolérant que l'oubli d'arrosage ou trop d'arrosage.\n[2:16] Pour moi, c'est mon chouchou. Je l'ai découvert en parti en voyage en Crête et\n[2:20] depuis je ne jure que par ça. Et en plus, je le trouve plus parfumé, plus\n[2:23] poivré. Et quand on coupe un basilic, on va prélever seulement sur les branches\n[2:27] les plus fortes. On va éviter d'aller prélever sur des petites branches comme\n[2:31] ça en formation. On va vraiment attendre que le basilic est quand même bien\n[2:34] grandisse. On va pas prélever toutes les semaines quand ils sont à ce stade. Là,\n[2:38] on peut prélever deux trois têtes. Mais si tu commences à le prélever toutes les\n[2:41] semaines, c'est clair que la semaine prochaine ou la semaine d'après, bah tu\n[2:43] en es là et puis tu as plus rien et ton basilic, bah c'est fini. Tu me cueilles\n[2:46] pas feuille par feuille comme ça ? Non non. Si tu fais ça, ta tige, elle va\n[2:52] devenir complètement nue. Faut savoir que les feuilles comme ça, c'est des\n[2:56] panneaux solaires. C'est ça qui emmagazine l'énergie de ta plante. Si tu\n[3:00] lui enlèves ça sur les basiliques, c'est mortel, hein. Quand on part du bas, on\n[3:04] voit les feuilles principales et puis à l'ine tige, on voit des nouvelles\n[3:08] ramifications qui partent sur les côtés. Un peu comme les gourmands sur les\n[3:12] tomates. Quand tu prélèves ton basilic, à chaque nouvelle feuille, tu as cette\n[3:16] petite ramification qui apparaît. Tu vas couper juste au-dessus de la\n[3:20] ramification. Tu coupes à peu près à la deuxème ou trè ramification suivant le\n[3:26] stade de ta plante. Les deux ramifications ici, elles vont repousser\n[3:29] comme ça. Elles vont te refaire à nouveau des ramifications et c'est comme\n[3:32] ça qu'un basilic va buissonner. Qu'est-ce qu'on fait quand on a un\n[3:36] basilic qui monte en fleur ? La plupart des gens, ils disent \"Oh bah non, bah il\n[3:40] est monté en fleur, mais je peux plus le consommer.\" Du coup, hop, poubelle.\n[3:46] C'est pas grave si ton basilic il est monté en fleur. S'il est monté en fleur,\n[3:49] ça peut dire plusieurs choses. Soit qu'il a stressé, soit qu'il a eu trop\n[3:52] d'eau, pas assez d'eau ou alors simplement que tu ne l'as pas assez\n[3:55] souvent taillé. Sache une chose, c'est que les fleurs se mangent tout comme les\n[3:59] feuilles de le prélever de la même manière. Moi, je te conseille de les\n[4:02] enlever les fleurs à chaque fois qu'elles se présentent parce que du coup\n[4:05] la fleur va se transformer en graines. Ça demande beaucoup d'énergie à ton\n[4:09] plan. Nous ce qu'on veut plutôt c'est des feuilles, on est d'accord. Monter en\n[4:12] fleurs, c'est très bien mais plutôt en fin de saison si tu veux faire des\n[4:15] graines. Moi maintenant je vais aller manger ça. Je vais aller les mettre sur\n[4:19] mes pizzas, mes salades et cetera. Applique bien tous mes conseils. Tu\n[4:23] verras que cette année, ce sera différent pour tes basilic et pour ta\n[4:27] petite joie et ta fierté personnelle. dis-moi dans les commentaires si ces\n[4:30] astuces elles ont marché pour toi et puis bah si tu as des questions, tu\n[4:35] viens sur Insta, tu me poses tes question en message privé et puis bah\n[4:38] moi je t'y réponds en personne dès que je le peux. Le mois de mai est passé, je\n[4:42] devrais commencer à avoir un peu plus de temps pour pouvoir répondre à tous les\n[4:46] messages privés qui sont en attente depuis quelques semaines déjà. Salut."
+      }
+    ],
+    "advice": "[0:00] tuachètes ça et puis quelques semaines plus tard, il est complètement mort. Tu\n[0:03] le jettes, tu passes à autre chose et tuen rachètes. Moi, je vais t'apprendre\n[0:06] à le garder déjà toute une saison. Bon, ça, je précise hein, c'est un basilic\n[0:10] grec donc il a de petites feuilles. C'est pas en l'achetant juste comme ça\n[0:13] que tu vas pouvoir le récolter, le tenir toute une saison et cetera. Il y a plein\n[0:17] d'autres étapes. Vous êtes très nombreux à me dire \"Ouais, mais comment ça\n[0:21] s'entretient ? Le mien, il crève tout le temps. Comment on le taille aussi ?\" Ça,\n[0:24] c'est une question qui revient très souvent. J'ai beaucoup beaucoup\n[0:27] d'astuces pour vous aujourd'hui pour vous aider à entretenir cette magnifique\n[0:31] petite plante aromatique. Chaque tige que tu vois individuellement comme ceci,\n[0:36] c'est un futur buisson. Ces branchesl elles vont te donner des vrais buissons\n[0:41] sur lesquels tu vas pouvoir cuillir plusieurs fois sans épuiser tes pieds et\n[0:45] cetera. Sur cette petite mote et bien il y a 1 2 3 4 5 6 7. Il y a sep pieds\n[0:52] basilic. Qu'est-ce qu'on fait en premier quand on a une plante dans un petit pot\n[0:55] ? C'est de la rampoter. On va remplir notre pot. J'ai pris un pot grand. Un\n[1:00] pot comme ça. Je vais mettre à peu près deux ou trois pieds maximum parce que\n[1:04] ton basilic pour l'instant c'est un petit nain mais il va devenir super\n[1:09] grand, super large et les racines, elles vont coloniser tout le pot. J'en ai déjà\n[1:14] séparé un. Donc comme tu peux le voir, une tige avec ses racines. Fais un trou\n[1:19] de la profondeur des racines. Et là, tu vas revenir mettre la terre autour. Je\n[1:23] viens de chaque côté ramètre à peine de terre. Je viens avec mes doigts en\n[1:26] pince. Un petit coup net et ça tient. Il y a pas besoin de faire plus. On va\n[1:31] arroser l'ensemble du terreau comme je fais à chaque fois que je repique des\n[1:34] plantes. Chez nous les maréchés et les horticulteurs, il un dicton c'est que le\n[1:39] basilicien avoir le cul mouillé mais pas trempé. Donc les souscoupes sous les\n[1:46] peaux, ça t'oublie direct parce que ça aussi hein, ça le fait mourir.\n[1:49] Maintenant, il te reste plus qu'à les mettre au soleil plutôt du matin tout\n[1:54] début d'après-midi, pas en plein cagnard toute la journée. Ça va détester ça.\n[1:58] C'est vachement fragile comme plan. Souvent, on me dit \"Ouais, c'est quoi la\n[2:01] différence entre les deux Bon, tout à l'heure, je vous parlais de celui-ci, le\n[2:04] basilic grec, qui est beaucoup plus résistant à la sécheresse. Moi, je le\n[2:08] trouve aussi est plus productif, moins fragile. Il peut supporter du plein\n[2:12] soleil, il va être plus tolérant que l'oubli d'arrosage ou trop d'arrosage.\n[2:16] Pour moi, c'est mon chouchou. Je l'ai découvert en parti en voyage en Crête et\n[2:20] depuis je ne jure que par ça. Et en plus, je le trouve plus parfumé, plus\n[2:23] poivré. Et quand on coupe un basilic, on va prélever seulement sur les branches\n[2:27] les plus fortes. On va éviter d'aller prélever sur des petites branches comme\n[2:31] ça en formation. On va vraiment attendre que le basilic est quand même bien\n[2:34] grandisse. On va pas prélever toutes les semaines quand ils sont à ce stade. Là,\n[2:38] on peut prélever deux trois têtes. Mais si tu commences à le prélever toutes les\n[2:41] semaines, c'est clair que la semaine prochaine ou la semaine d'après, bah tu\n[2:43] en es là et puis tu as plus rien et ton basilic, bah c'est fini. Tu me cueilles\n[2:46] pas feuille par feuille comme ça ? Non non. Si tu fais ça, ta tige, elle va\n[2:52] devenir complètement nue. Faut savoir que les feuilles comme ça, c'est des\n[2:56] panneaux solaires. C'est ça qui emmagazine l'énergie de ta plante. Si tu\n[3:00] lui enlèves ça sur les basiliques, c'est mortel, hein. Quand on part du bas, on\n[3:04] voit les feuilles principales et puis à l'ine tige, on voit des nouvelles\n[3:08] ramifications qui partent sur les côtés. Un peu comme les gourmands sur les\n[3:12] tomates. Quand tu prélèves ton basilic, à chaque nouvelle feuille, tu as cette\n[3:16] petite ramification qui apparaît. Tu vas couper juste au-dessus de la\n[3:20] ramification. Tu coupes à peu près à la deuxème ou trè ramification suivant le\n[3:26] stade de ta plante. Les deux ramifications ici, elles vont repousser\n[3:29] comme ça. Elles vont te refaire à nouveau des ramifications et c'est comme\n[3:32] ça qu'un basilic va buissonner. Qu'est-ce qu'on fait quand on a un\n[3:36] basilic qui monte en fleur ? La plupart des gens, ils disent \"Oh bah non, bah il\n[3:40] est monté en fleur, mais je peux plus le consommer.\" Du coup, hop, poubelle.\n[3:46] C'est pas grave si ton basilic il est monté en fleur. S'il est monté en fleur,\n[3:49] ça peut dire plusieurs choses. Soit qu'il a stressé, soit qu'il a eu trop\n[3:52] d'eau, pas assez d'eau ou alors simplement que tu ne l'as pas assez\n[3:55] souvent taillé. Sache une chose, c'est que les fleurs se mangent tout comme les\n[3:59] feuilles de le prélever de la même manière. Moi, je te conseille de les\n[4:02] enlever les fleurs à chaque fois qu'elles se présentent parce que du coup\n[4:05] la fleur va se transformer en graines. Ça demande beaucoup d'énergie à ton\n[4:09] plan. Nous ce qu'on veut plutôt c'est des feuilles, on est d'accord. Monter en\n[4:12] fleurs, c'est très bien mais plutôt en fin de saison si tu veux faire des\n[4:15] graines. Moi maintenant je vais aller manger ça. Je vais aller les mettre sur\n[4:19] mes pizzas, mes salades et cetera. Applique bien tous mes conseils. Tu\n[4:23] verras que cette année, ce sera différent pour tes basilic et pour ta\n[4:27] petite joie et ta fierté personnelle. dis-moi dans les commentaires si ces\n[4:30] astuces elles ont marché pour toi et puis bah si tu as des questions, tu\n[4:35] viens sur Insta, tu me poses tes question en message privé et puis bah\n[4:38] moi je t'y réponds en personne dès que je le peux. Le mois de mai est passé, je\n[4:42] devrais commencer à avoir un peu plus de temps pour pouvoir répondre à tous les\n[4:46] messages privés qui sont en attente depuis quelques semaines déjà. Salut.",
+    "reason": "First usable ordinary result; complete French basil-care transcript, including transplant, watering, light and pruning advice.",
+    "frozen_at": "2026-10-29T04:18:10.932008+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:19:02.848479+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

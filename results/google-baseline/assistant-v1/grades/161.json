@@ -1,0 +1,130 @@
+{
+  "reference_action": "Succulents overwatered with tiny frequent sips after moving to lower light: thoroughly soak only after full drying/wrinkling, increase light and raise plants above shading pot rims. OP confirms recovery.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Repot separately and provide a little sip, preserving the very watering pattern the reference corrects.",
+      "evidence": [
+        "161-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/607282233527736/posts/920826665506623/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Deep watering only after bone-dry mix explicitly replaces shallow sips; gradual light adjustment also supplied.",
+      "evidence": [
+        "161-source-02.txt"
+      ],
+      "url": "https://veryplants.com/blogs/news/why-are-my-succulents-leaves-falling-off?srsltid=AYCX9vJiLd74JHG_ERgS9rUg9asZtXVKCaud7nA6UtRXKhgqSr5UnFAy"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "0:29–0:46 let soil dry completely and soak/drain; 4:13 brighter window.",
+      "evidence": [
+        "video-audit-dYmtn0c_krs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=dYmtn0c_krs"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Gradual more sunlight and root drying before gritty repot.",
+      "evidence": [
+        "161-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/succulents/comments/ptxgb1/succulent_loses_seemingly_healthy_leaves_when/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Explains overwatering and dryness but treatment is heat shade or rot removal, not full-dry/soak regime or brighter light.",
+      "evidence": [
+        "video-audit-gyrFugm6Um4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=gyrFugm6Um4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move small succulent to its own small pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 6,
+        "unclear": false
+      },
+      {
+        "action": "Water with a little sip after repotting",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Separate large companion succulents into individual pots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      }
+    ],
+    "reason": "Misattributes trouble to competition and repeats sip watering rather than correcting frequency and light. This is ineffective but not necessarily actively harmful absent quantities."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Looks like might need a little sip” is poorly matched to repeated tiny watering. Separation itself may be safe, but failing to correct moisture and light can prolong stress."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Succulents are the correct group, but competition and never-watering address a different case. It ignores the explicit lower light and frequent watering history."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Separate pots are obtainable. Pot sizes, mix and the size/timing of the “sip” are insufficiently specified, and several plants require work."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 161,
+  "thread_id": "1is3mey",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 161,
+    "thread_id": "1is3mey",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/607282233527736/posts/920826665506623/",
+    "spans": [
+      {
+        "file": "161-source-01.txt",
+        "start_line": 72,
+        "end_line": 82,
+        "sha256": "2335426f249c5e8760eb880544c0d7c2bfa7609162b4e453eb684283718d809f",
+        "text": "          - generic: Hoku Hokulani Martinez\n        - generic: Mine I moved by itself in a small pot not too much bigger that it's head. And did way better. Looks like might need a little sip but do that after repotting.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/607282233527736/posts/920826665506623/?comment_id=920842508838372&__cft__[0]=AZgFBwswLDBjcNX2kaObv4RtSA73kOYzWv0Mwrsu_uNrwQW51OMdhuqNTT7zswmk_eI9Yh3vAt_tV7vB4nWh4NQO4TvXmdwl7q6mtNm1fioz8_mjxjPKuY4PGQOW_tDCPS8uxMaZkhYbOdmUzVX8-LRPRBROiRHfqH3LCEcnE8YLJ68aRtqJ-_djylmQ0po&__tn__=R]-R\n      - article \"Comment by Hailey Mischka 5 years ago\" [active]:\n        - link:\n          - /url: \"#\"\n        - button \"Hailey Mischka\":\n          - generic: Hailey Mischka\n        - text: it looks like they’re all competing for water, flapjacks and rainbow elephant bushes get huge and love lots of water. i recommend repotting those two in their own separate pot. Also keep in mind succulents DO need water, that’s how their leaves get big…"
+      }
+    ],
+    "advice": "          - generic: Hoku Hokulani Martinez\n        - generic: Mine I moved by itself in a small pot not too much bigger that it's head. And did way better. Looks like might need a little sip but do that after repotting.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/607282233527736/posts/920826665506623/?comment_id=920842508838372&__cft__[0]=AZgFBwswLDBjcNX2kaObv4RtSA73kOYzWv0Mwrsu_uNrwQW51OMdhuqNTT7zswmk_eI9Yh3vAt_tV7vB4nWh4NQO4TvXmdwl7q6mtNm1fioz8_mjxjPKuY4PGQOW_tDCPS8uxMaZkhYbOdmUzVX8-LRPRBROiRHfqH3LCEcnE8YLJ68aRtqJ-_djylmQ0po&__tn__=R]-R\n      - article \"Comment by Hailey Mischka 5 years ago\" [active]:\n        - link:\n          - /url: \"#\"\n        - button \"Hailey Mischka\":\n          - generic: Hailey Mischka\n        - text: it looks like they’re all competing for water, flapjacks and rainbow elephant bushes get huge and love lots of water. i recommend repotting those two in their own separate pot. Also keep in mind succulents DO need water, that’s how their leaves get big…",
+    "reason": "First substantive advice for shrinking succulents; both visible small-pot and separation recommendations.",
+    "frozen_at": "2026-10-29T06:16:28.479296+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:17:27.961134+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "reference_action": "Constriction at money-tree trunk base: find and cut off rubber band/strapping. OP confirms improvement after four days.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Watering, light and fertilizer advice never checks or removes constricting trunk band.",
+      "evidence": [
+        "036-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/109rk0z/all_of_my_plants_are_sad_and_droopy_what_gives/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Six causes cover water, light, age, pot size and temperature; no band inspection/removal.",
+      "evidence": [
+        "036-source-02.txt"
+      ],
+      "url": "https://www.patchplants.com/pages/plant-care/six-reasons-your-plant-might-be-wilting/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Discusses water/heat/mechanical leaf damage/salts, not trunk constriction or cutting a band.",
+      "evidence": [
+        "036-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=YBEUiG1amCQ"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Watering, mulch and shade recommendations do not remove the band.",
+      "evidence": [
+        "036-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=RMuD0p5CYnE"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Heat, wind, pressure and soil-moisture checks omit the constricting band and its removal.",
+      "evidence": [
+        "036-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=On7_JGLnScs"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Water thoroughly through drainage holes",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bottom-soak for a few hours as alternative",
+        "minutes": 180,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": true
+      },
+      {
+        "action": "Change to freely draining medium",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Add liquid fertilizer at each watering",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Install grow light with timer",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Transfer plant to water culture as alternative",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Check for pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Dominant thirst diagnosis misses the band. Prolonged soaking and fertilizer without resolving impaired transport can worsen root stress and delay the simple validated remedy."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Sit in water for a few hours” and fertilizer “with each water” are recommended without resolving the obstruction or specifying dilution. Later soil checks temper some risk, but the dominant soak-first advice and water-culture alternative could worsen the situation."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“You probably don’t water them enough” explains another Reddit case, not this money tree’s constriction. No comment checks the trunk base or removes the band that OP confirmed was present."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Watering until runoff is clear, but “humidify” and fertilizer with each watering lack method or dose. Grow lights, changing medium and moving to water culture expand a simple task into a broad and partly ambiguous care plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 36,
+  "thread_id": "152ww03",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 36,
+    "thread_id": "152ww03",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/houseplants/comments/109rk0z/all_of_my_plants_are_sad_and_droopy_what_gives/",
+    "spans": [
+      {
+        "file": "036-source-01.txt",
+        "start_line": 145,
+        "end_line": 184,
+        "sha256": "7528b8ab095bdd0ddc7050032f2cc7c541d84fbdaec325f998df14d951fe87a1",
+        "text": "      - paragraph: Are they thirsty?\n      - 'article \"Comment thread level 1: Reply from Nefarious-Botany 4 years ago\"':\n        - generic \"Nefarious-Botany's profile --- avatar Nefarious-Botany's profile 4y ago\":\n          - link \"Nefarious-Botany's profile --- avatar\":\n            - /url: https://www.reddit.com/user/Nefarious-Botany/\n          - link \"Nefarious-Botany's profile\":\n            - /url: https://www.reddit.com/user/Nefarious-Botany/\n            - generic: Nefarious-Botany\n          - generic: •\n          - link \"4y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j401gf4/\n            - time: 4y ago\n        - paragraph: Yes they are soak em\n        - 'article \"Comment thread level 2: Reply from [deleted] 4 years ago\"':\n          - generic \"[deleted] 4y ago\":\n            - generic: \"[deleted]\"\n            - generic \"Comment distinguished as the original poster\": OP\n            - generic: •\n            - link \"4y ago\":\n              - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4025ny/\n              - time: 4y ago\n          - paragraph: I just gave them all some water, fingers crossed this works! Winter months are weird because I’ve never had an issue in the past.\n          - button \"20 more replies\":\n            - generic: \"20\"\n            - text: more replies\n        - button \"1 more reply\":\n          - generic: \"1\"\n          - text: more reply\n    - article \"Comment from mcglash 4 years ago\":\n      - generic \"mcglash's profile --- avatar mcglash's profile 4y ago\":\n        - link \"mcglash's profile --- avatar\":\n          - /url: https://www.reddit.com/user/mcglash/\n        - link \"mcglash's profile\":\n          - /url: https://www.reddit.com/user/mcglash/\n          - generic: mcglash\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4020ch/\n          - time: 4y ago\n      - paragraph: Either over or under watering."
+      },
+      {
+        "file": "036-source-01.txt",
+        "start_line": 259,
+        "end_line": 340,
+        "sha256": "7528b8ab095bdd0ddc7050032f2cc7c541d84fbdaec325f998df14d951fe87a1",
+        "text": "      - paragraph: Drown those hoes and humidify!\n      - 'article \"Comment thread level 1: Reply from [deleted] 4 years ago\"':\n        - generic \"[deleted] 4y ago\":\n          - generic: \"[deleted]\"\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"4y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j43zi8r/\n            - time: 4y ago\n        - paragraph: The hoes have been soaked, now they’re perky (don’t hate me)\n      - button \"1 more reply\":\n        - generic: \"1\"\n        - text: more reply\n    - article \"Comment from tllrrrrr 4 years ago\":\n      - generic \"tllrrrrr's profile --- avatar tllrrrrr's profile 4y ago\":\n        - link \"tllrrrrr's profile --- avatar\":\n          - /url: https://www.reddit.com/user/tllrrrrr/\n        - link \"tllrrrrr's profile\":\n          - /url: https://www.reddit.com/user/tllrrrrr/\n          - generic: tllrrrrr\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j40kv27/\n          - time: 4y ago\n      - paragraph: You probably don't water them enough, which is surprisingly a really, really common mistake I see plant people make. Water them so that it comes out from the bottom of the pot. You can water them under the faucet and make sure they get a good soak. These guys look so thirsty you can even let them sit in water for a few hours and let them drink.\n      - 'article \"Comment thread level 1: Reply from CassidyJane523 4 years ago\"':\n        - generic \"CassidyJane523's profile --- avatar CassidyJane523's profile 4y ago\":\n          - link \"CassidyJane523's profile --- avatar\":\n            - /url: https://www.reddit.com/user/CassidyJane523/\n          - link \"CassidyJane523's profile\":\n            - /url: https://www.reddit.com/user/CassidyJane523/\n            - generic: CassidyJane523\n          - generic: •\n          - link \"4y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j417msl/\n            - time: 4y ago\n        - paragraph:\n          - text: exactly\n          - superscript: \"!!\"\n      - button \"1 more reply\":\n        - generic: \"1\"\n        - text: more reply\n    - article \"Comment from Alberocksss 4 years ago\":\n      - generic \"Alberocksss's profile --- avatar Alberocksss's profile 4y ago\":\n        - link \"Alberocksss's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Alberocksss/\n          - img \"u/Alberocksss avatar\"\n        - link \"Alberocksss's profile\":\n          - /url: https://www.reddit.com/user/Alberocksss/\n          - generic: Alberocksss\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j40a765/\n          - time: 4y ago\n      - paragraph: They look thirsty! And they might also need a tan.\n    - article \"Comment from froggo_in_the_swamp 4 years ago\":\n      - generic \"froggo_in_the_swamp's profile --- avatar froggo_in_the_swamp's profile 4y ago\":\n        - link \"froggo_in_the_swamp's profile --- avatar\":\n          - /url: https://www.reddit.com/user/froggo_in_the_swamp/\n        - link \"froggo_in_the_swamp's profile\":\n          - /url: https://www.reddit.com/user/froggo_in_the_swamp/\n          - generic: froggo_in_the_swamp\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j40p9hc/\n          - time: 4y ago\n      - paragraph: Either you drowned them or their pots turned into small deserts\n      - 'article \"Comment thread level 1: Reply from Upper_Possession_181 4 years ago\"':\n        - generic \"Upper_Possession_181's profile --- avatar Upper_Possession_181's profile 4y ago Edited 4y ago\":\n          - link \"Upper_Possession_181's profile --- avatar\":\n            - /url: https://www.reddit.com/user/Upper_Possession_181/\n          - link \"Upper_Possession_181's profile\":\n            - /url: https://www.reddit.com/user/Upper_Possession_181/\n            - generic: Upper_Possession_181\n          - generic: •\n          - link \"4y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4307xx/\n            - time: 4y ago\n          - generic: •\n          - text: Edited\n          - time: 4y ago\n        - paragraph: If one uses a free flowing media it reduces the risk of rot."
+      },
+      {
+        "file": "036-source-01.txt",
+        "start_line": 380,
+        "end_line": 404,
+        "sha256": "7528b8ab095bdd0ddc7050032f2cc7c541d84fbdaec325f998df14d951fe87a1",
+        "text": "      - paragraph: The soil looks ashy. Are they getting watered or just misted with the spray bottle?\n    - article \"Comment from ExternalStress 4 years ago\":\n      - generic \"ExternalStress's profile --- avatar ExternalStress's profile 4y ago\":\n        - link \"ExternalStress's profile --- avatar\":\n          - /url: https://www.reddit.com/user/ExternalStress/\n        - link \"ExternalStress's profile\":\n          - /url: https://www.reddit.com/user/ExternalStress/\n          - generic: ExternalStress\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j40451t/\n          - time: 4y ago\n      - paragraph: Maybe cold and/or thirsty\n    - article \"Comment from Troiswallofhair 4 years ago\":\n      - generic \"Troiswallofhair's profile --- avatar Troiswallofhair's profile 4y ago\":\n        - link \"Troiswallofhair's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Troiswallofhair/\n        - link \"Troiswallofhair's profile\":\n          - /url: https://www.reddit.com/user/Troiswallofhair/\n          - generic: Troiswallofhair\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j413jf7/\n          - time: 4y ago\n      - paragraph: They are thirsty but also add some liquid plant fertilizer with each water."
+      },
+      {
+        "file": "036-source-01.txt",
+        "start_line": 445,
+        "end_line": 493,
+        "sha256": "7528b8ab095bdd0ddc7050032f2cc7c541d84fbdaec325f998df14d951fe87a1",
+        "text": "      - paragraph: Hm, definitely looks like they need some water. I’d suggest bottom watering :)\n    - article \"Comment from Marshmorrell2125 4 years ago\":\n      - generic \"Marshmorrell2125's profile --- avatar Marshmorrell2125's profile 4y ago\":\n        - link \"Marshmorrell2125's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Marshmorrell2125/\n        - link \"Marshmorrell2125's profile\":\n          - /url: https://www.reddit.com/user/Marshmorrell2125/\n          - generic: Marshmorrell2125\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j443nkc/\n          - time: 4y ago\n      - paragraph: What is the lighting situation? I’ve set up a few grow lights and am always shocked at how big of a difference it makes. I use some grow bulbs in desk lamps (with a timer) and then I got some small grow lights on stakes from Amazon that I put directly in the pot. So much easier to use and helpful than I realized!\n    - article \"Comment from yslgods 4 years ago\":\n      - generic \"yslgods's profile --- avatar yslgods's profile 4y ago\":\n        - link \"yslgods's profile --- avatar\":\n          - /url: https://www.reddit.com/user/yslgods/\n        - link \"yslgods's profile\":\n          - /url: https://www.reddit.com/user/yslgods/\n          - generic: yslgods\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4448v3/\n          - time: 4y ago\n      - paragraph: They look under watered\n    - article \"Comment from Simple_Y_Clean 4 years ago\":\n      - generic \"Simple_Y_Clean's profile --- avatar Simple_Y_Clean's profile 4y ago\":\n        - link \"Simple_Y_Clean's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Simple_Y_Clean/\n        - link \"Simple_Y_Clean's profile\":\n          - /url: https://www.reddit.com/user/Simple_Y_Clean/\n          - generic: Simple_Y_Clean\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j42k6ax/\n          - time: 4y ago\n      - paragraph: Water! Water! Water! I had mines on dirt but they weren't happy at all. I put them directly on water and they are thriving :)\n    - article \"Comment from 2L84AGOODname 4 years ago\":\n      - generic \"2L84AGOODname's profile --- avatar 2L84AGOODname's profile 4y ago\":\n        - link \"2L84AGOODname's profile --- avatar\":\n          - /url: https://www.reddit.com/user/2L84AGOODname/\n        - link \"2L84AGOODname's profile\":\n          - /url: https://www.reddit.com/user/2L84AGOODname/\n          - generic: 2L84AGOODname\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4021e0/\n          - time: 4y ago\n      - paragraph: Too cold? Thirsty? Have you checked for pests? What’s going on with your soil moisture, could be rot?"
+      }
+    ],
+    "advice": "      - paragraph: Are they thirsty?\n      - 'article \"Comment thread level 1: Reply from Nefarious-Botany 4 years ago\"':\n        - generic \"Nefarious-Botany's profile --- avatar Nefarious-Botany's profile 4y ago\":\n          - link \"Nefarious-Botany's profile --- avatar\":\n            - /url: https://www.reddit.com/user/Nefarious-Botany/\n          - link \"Nefarious-Botany's profile\":\n            - /url: https://www.reddit.com/user/Nefarious-Botany/\n            - generic: Nefarious-Botany\n          - generic: •\n          - link \"4y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j401gf4/\n            - time: 4y ago\n        - paragraph: Yes they are soak em\n        - 'article \"Comment thread level 2: Reply from [deleted] 4 years ago\"':\n          - generic \"[deleted] 4y ago\":\n            - generic: \"[deleted]\"\n            - generic \"Comment distinguished as the original poster\": OP\n            - generic: •\n            - link \"4y ago\":\n              - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4025ny/\n              - time: 4y ago\n          - paragraph: I just gave them all some water, fingers crossed this works! Winter months are weird because I’ve never had an issue in the past.\n          - button \"20 more replies\":\n            - generic: \"20\"\n            - text: more replies\n        - button \"1 more reply\":\n          - generic: \"1\"\n          - text: more reply\n    - article \"Comment from mcglash 4 years ago\":\n      - generic \"mcglash's profile --- avatar mcglash's profile 4y ago\":\n        - link \"mcglash's profile --- avatar\":\n          - /url: https://www.reddit.com/user/mcglash/\n        - link \"mcglash's profile\":\n          - /url: https://www.reddit.com/user/mcglash/\n          - generic: mcglash\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4020ch/\n          - time: 4y ago\n      - paragraph: Either over or under watering.\n\n      - paragraph: Drown those hoes and humidify!\n      - 'article \"Comment thread level 1: Reply from [deleted] 4 years ago\"':\n        - generic \"[deleted] 4y ago\":\n          - generic: \"[deleted]\"\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"4y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j43zi8r/\n            - time: 4y ago\n        - paragraph: The hoes have been soaked, now they’re perky (don’t hate me)\n      - button \"1 more reply\":\n        - generic: \"1\"\n        - text: more reply\n    - article \"Comment from tllrrrrr 4 years ago\":\n      - generic \"tllrrrrr's profile --- avatar tllrrrrr's profile 4y ago\":\n        - link \"tllrrrrr's profile --- avatar\":\n          - /url: https://www.reddit.com/user/tllrrrrr/\n        - link \"tllrrrrr's profile\":\n          - /url: https://www.reddit.com/user/tllrrrrr/\n          - generic: tllrrrrr\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j40kv27/\n          - time: 4y ago\n      - paragraph: You probably don't water them enough, which is surprisingly a really, really common mistake I see plant people make. Water them so that it comes out from the bottom of the pot. You can water them under the faucet and make sure they get a good soak. These guys look so thirsty you can even let them sit in water for a few hours and let them drink.\n      - 'article \"Comment thread level 1: Reply from CassidyJane523 4 years ago\"':\n        - generic \"CassidyJane523's profile --- avatar CassidyJane523's profile 4y ago\":\n          - link \"CassidyJane523's profile --- avatar\":\n            - /url: https://www.reddit.com/user/CassidyJane523/\n          - link \"CassidyJane523's profile\":\n            - /url: https://www.reddit.com/user/CassidyJane523/\n            - generic: CassidyJane523\n          - generic: •\n          - link \"4y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j417msl/\n            - time: 4y ago\n        - paragraph:\n          - text: exactly\n          - superscript: \"!!\"\n      - button \"1 more reply\":\n        - generic: \"1\"\n        - text: more reply\n    - article \"Comment from Alberocksss 4 years ago\":\n      - generic \"Alberocksss's profile --- avatar Alberocksss's profile 4y ago\":\n        - link \"Alberocksss's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Alberocksss/\n          - img \"u/Alberocksss avatar\"\n        - link \"Alberocksss's profile\":\n          - /url: https://www.reddit.com/user/Alberocksss/\n          - generic: Alberocksss\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j40a765/\n          - time: 4y ago\n      - paragraph: They look thirsty! And they might also need a tan.\n    - article \"Comment from froggo_in_the_swamp 4 years ago\":\n      - generic \"froggo_in_the_swamp's profile --- avatar froggo_in_the_swamp's profile 4y ago\":\n        - link \"froggo_in_the_swamp's profile --- avatar\":\n          - /url: https://www.reddit.com/user/froggo_in_the_swamp/\n        - link \"froggo_in_the_swamp's profile\":\n          - /url: https://www.reddit.com/user/froggo_in_the_swamp/\n          - generic: froggo_in_the_swamp\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j40p9hc/\n          - time: 4y ago\n      - paragraph: Either you drowned them or their pots turned into small deserts\n      - 'article \"Comment thread level 1: Reply from Upper_Possession_181 4 years ago\"':\n        - generic \"Upper_Possession_181's profile --- avatar Upper_Possession_181's profile 4y ago Edited 4y ago\":\n          - link \"Upper_Possession_181's profile --- avatar\":\n            - /url: https://www.reddit.com/user/Upper_Possession_181/\n          - link \"Upper_Possession_181's profile\":\n            - /url: https://www.reddit.com/user/Upper_Possession_181/\n            - generic: Upper_Possession_181\n          - generic: •\n          - link \"4y ago\":\n            - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4307xx/\n            - time: 4y ago\n          - generic: •\n          - text: Edited\n          - time: 4y ago\n        - paragraph: If one uses a free flowing media it reduces the risk of rot.\n\n      - paragraph: The soil looks ashy. Are they getting watered or just misted with the spray bottle?\n    - article \"Comment from ExternalStress 4 years ago\":\n      - generic \"ExternalStress's profile --- avatar ExternalStress's profile 4y ago\":\n        - link \"ExternalStress's profile --- avatar\":\n          - /url: https://www.reddit.com/user/ExternalStress/\n        - link \"ExternalStress's profile\":\n          - /url: https://www.reddit.com/user/ExternalStress/\n          - generic: ExternalStress\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j40451t/\n          - time: 4y ago\n      - paragraph: Maybe cold and/or thirsty\n    - article \"Comment from Troiswallofhair 4 years ago\":\n      - generic \"Troiswallofhair's profile --- avatar Troiswallofhair's profile 4y ago\":\n        - link \"Troiswallofhair's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Troiswallofhair/\n        - link \"Troiswallofhair's profile\":\n          - /url: https://www.reddit.com/user/Troiswallofhair/\n          - generic: Troiswallofhair\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j413jf7/\n          - time: 4y ago\n      - paragraph: They are thirsty but also add some liquid plant fertilizer with each water.\n\n      - paragraph: Hm, definitely looks like they need some water. I’d suggest bottom watering :)\n    - article \"Comment from Marshmorrell2125 4 years ago\":\n      - generic \"Marshmorrell2125's profile --- avatar Marshmorrell2125's profile 4y ago\":\n        - link \"Marshmorrell2125's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Marshmorrell2125/\n        - link \"Marshmorrell2125's profile\":\n          - /url: https://www.reddit.com/user/Marshmorrell2125/\n          - generic: Marshmorrell2125\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j443nkc/\n          - time: 4y ago\n      - paragraph: What is the lighting situation? I’ve set up a few grow lights and am always shocked at how big of a difference it makes. I use some grow bulbs in desk lamps (with a timer) and then I got some small grow lights on stakes from Amazon that I put directly in the pot. So much easier to use and helpful than I realized!\n    - article \"Comment from yslgods 4 years ago\":\n      - generic \"yslgods's profile --- avatar yslgods's profile 4y ago\":\n        - link \"yslgods's profile --- avatar\":\n          - /url: https://www.reddit.com/user/yslgods/\n        - link \"yslgods's profile\":\n          - /url: https://www.reddit.com/user/yslgods/\n          - generic: yslgods\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4448v3/\n          - time: 4y ago\n      - paragraph: They look under watered\n    - article \"Comment from Simple_Y_Clean 4 years ago\":\n      - generic \"Simple_Y_Clean's profile --- avatar Simple_Y_Clean's profile 4y ago\":\n        - link \"Simple_Y_Clean's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Simple_Y_Clean/\n        - link \"Simple_Y_Clean's profile\":\n          - /url: https://www.reddit.com/user/Simple_Y_Clean/\n          - generic: Simple_Y_Clean\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j42k6ax/\n          - time: 4y ago\n      - paragraph: Water! Water! Water! I had mines on dirt but they weren't happy at all. I put them directly on water and they are thriving :)\n    - article \"Comment from 2L84AGOODname 4 years ago\":\n      - generic \"2L84AGOODname's profile --- avatar 2L84AGOODname's profile 4y ago\":\n        - link \"2L84AGOODname's profile --- avatar\":\n          - /url: https://www.reddit.com/user/2L84AGOODname/\n        - link \"2L84AGOODname's profile\":\n          - /url: https://www.reddit.com/user/2L84AGOODname/\n          - generic: 2L84AGOODname\n        - generic: •\n        - link \"4y ago\":\n          - /url: https://www.reddit.com/r/houseplants/comments/109rk0z/comment/j4021e0/\n          - time: 4y ago\n      - paragraph: Too cold? Thirsty? Have you checked for pests? What’s going on with your soil moisture, could be rot?",
+    "reason": "First usable discussion: retained watering, light, fertilizer, soil and checks; original-question outcome not used for selection.",
+    "frozen_at": "2026-10-29T04:33:36.762907+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:34:20.990348+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

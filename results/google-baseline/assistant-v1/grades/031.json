@@ -1,0 +1,179 @@
+{
+  "reference_action": "Underwatering with unsuitable soil/pot: repot into fresh soil and a pot with drainage holes, then bottom-soak in a larger bucket overnight. OP reports it coming back to life.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Specifies drainage holes and a fresh draining mix, reproducing the pot/soil repair portion, followed by watering when dry. Missing deep bottom-soak remains material.",
+      "evidence": [
+        "031-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/293167321514107/posts/1897283897769100/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Repotting into a gritty mix, a large drain hole, and watering when thirsty overlap the validated pot/soil repair; bottom soaking is absent.",
+      "evidence": [
+        "031-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/succulents/comments/hbe1h6/im_new_to_succulents_i_just_wanted_to_share_my/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Overwatering/insufficient sun diagnosis and summer pruning do not provide the deep rehydration and pot repair remedy. Only readable post/comments are support; video itself not transcribed.",
+      "evidence": [
+        "031-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/blueacregarden/videos/if-your-sedum-is-floppy-and-droopy-this-year-you-probably-made-one-of-two-mistak/2631402563984925/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Readable post attributes droop to insufficient sun, excessive water/fertilizer, without the validated rehydration or drainage repair.",
+      "evidence": [
+        "031-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/blueacregarden/videos/the-most-common-reason-your-sedum-is-floppyleggydroopysad-is-not-enough-sunlight/664456066696469/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Readable caption attributes the problem to too little sun or too much water, not the validated pot repair and deep rehydration.",
+      "evidence": [
+        "031-source-05.txt"
+      ],
+      "url": "https://www.tiktok.com/@blueacregarden/video/7683116568896671007"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Install clip-on grow light",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Move near south or east window",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Test soil with wooden skewer",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 1,
+        "unclear": false
+      },
+      {
+        "action": "Water when skewer is dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use pot with drainage holes",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Use dehumidifier or AC if humid",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Move to stable warm location in winter",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix potting soil, coarse sand and perlite 3:2:1",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Apply half-strength fertilizer monthly in growing season",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Group succulents",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Drainage, fresh mix and dry-soil watering address part of the cause, but there is no deep bottom soaking and the care plan contains many unrelated tasks."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Drainage holes” and a skewer test safeguard watering. Half-strength seasonal fertilizer is qualified, though humidity advice is internally inconsistent and unnecessary for the immediate rescue."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Dry” skewer followed by watering and a 3:2:1 mix address moisture management. The guide does not recognize the quarter-cup pattern or explain the validated bottom soak, and adds generic light, humidity and feeding advice."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The soil ratio and half-strength fertilizer instructions are concrete. A grow light and optional “dehumidifier or AC” add expense, and the long care list obscures the immediate intervention."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 31,
+  "thread_id": "zgocj4",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 31,
+    "thread_id": "zgocj4",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/293167321514107/posts/1897283897769100/",
+    "spans": [
+      {
+        "file": "031-source-01.txt",
+        "start_line": 27,
+        "end_line": 72,
+        "sha256": "117892631f27a1183f5c8da9ac1dbc4d180d7f98ff68c90be5b6a6760ac9e4ca",
+        "text": "        - strong: \"Garden Hack: Keep Your Tokyo Sun Sedum Thriving Indoors!\"\n        - img \"🌿\"\n      - text: Looking to brighten up your indoor space with Sedum japonicum 'Tokyo Sun'? Here's a simple\n      - strong: Indoor Care Routine Hack\n      - text: \"to keep those golden leaves glowing and healthy:\"\n      - heading \"💡 Lighting Hack:\" [level=4]:\n        - img \"💡\"\n        - strong: \"Lighting Hack:\"\n      - text: If your home lacks bright natural light, no worries! Use an affordable\n      - strong: clip-on grow light\n      - text: near a south- or east-facing window. This keeps the plant vibrant even in darker corners.\n      - heading \"💧 Watering Hack:\" [level=4]:\n        - img \"💧\"\n        - strong: \"Watering Hack:\"\n      - list:\n        - strong: \"Tip:\"\n        - text: Stick a wooden skewer or chopstick into the soil to check moisture. If it comes out dry, it's time to water!\n        - generic: Always use pots with drainage holes to prevent soggy roots.\n      - heading \"🌬️ Humidity Hack:\" [level=4]:\n        - img \"🌬️\"\n        - strong: \"Humidity Hack:\"\n      - generic: Sedum loves dry air, so avoid placing it in bathrooms. If you’re in a humid climate, pop a small dehumidifier nearby or keep it in an air-conditioned room.\n      - heading \"🌡️ Temperature Hack:\" [level=4]:\n        - img \"🌡️\"\n        - strong: \"Temperature Hack:\"\n      - generic: Keep the plant cozy by avoiding drafty windows in winter. Move it closer to the center of the room to maintain a stable temperature (60–75°F).\n      - heading \"🌱 Soil & Potting Hack:\" [level=4]:\n        - img \"🌱\"\n        - strong: \"Soil & Potting Hack:\"\n      - text: Mix your own\n      - strong: budget-friendly cactus soil\n      - text: \"by combining:\"\n      - list:\n        - generic: 3 parts potting soil\n        - generic: 2 parts coarse sand\n        - text: 1 part perlite\n        - text: This ensures excellent drainage and happy roots!\n      - heading \"🌟 Fertilization Hack:\" [level=4]:\n        - img \"🌟\"\n        - strong: \"Fertilization Hack:\"\n      - text: In spring and summer, dilute regular succulent fertilizer to\n      - strong: half-strength\n      - text: . Feed it once a month for that extra glow—but skip feeding in winter to let it rest.\n      - img \"💡\"\n      - strong: \"Pro Tip:\"\n      - text: Group your succulents together for a trendy indoor garden vibe, and they’ll help each other maintain optimal humidity!"
+      }
+    ],
+    "advice": "        - strong: \"Garden Hack: Keep Your Tokyo Sun Sedum Thriving Indoors!\"\n        - img \"🌿\"\n      - text: Looking to brighten up your indoor space with Sedum japonicum 'Tokyo Sun'? Here's a simple\n      - strong: Indoor Care Routine Hack\n      - text: \"to keep those golden leaves glowing and healthy:\"\n      - heading \"💡 Lighting Hack:\" [level=4]:\n        - img \"💡\"\n        - strong: \"Lighting Hack:\"\n      - text: If your home lacks bright natural light, no worries! Use an affordable\n      - strong: clip-on grow light\n      - text: near a south- or east-facing window. This keeps the plant vibrant even in darker corners.\n      - heading \"💧 Watering Hack:\" [level=4]:\n        - img \"💧\"\n        - strong: \"Watering Hack:\"\n      - list:\n        - strong: \"Tip:\"\n        - text: Stick a wooden skewer or chopstick into the soil to check moisture. If it comes out dry, it's time to water!\n        - generic: Always use pots with drainage holes to prevent soggy roots.\n      - heading \"🌬️ Humidity Hack:\" [level=4]:\n        - img \"🌬️\"\n        - strong: \"Humidity Hack:\"\n      - generic: Sedum loves dry air, so avoid placing it in bathrooms. If you’re in a humid climate, pop a small dehumidifier nearby or keep it in an air-conditioned room.\n      - heading \"🌡️ Temperature Hack:\" [level=4]:\n        - img \"🌡️\"\n        - strong: \"Temperature Hack:\"\n      - generic: Keep the plant cozy by avoiding drafty windows in winter. Move it closer to the center of the room to maintain a stable temperature (60–75°F).\n      - heading \"🌱 Soil & Potting Hack:\" [level=4]:\n        - img \"🌱\"\n        - strong: \"Soil & Potting Hack:\"\n      - text: Mix your own\n      - strong: budget-friendly cactus soil\n      - text: \"by combining:\"\n      - list:\n        - generic: 3 parts potting soil\n        - generic: 2 parts coarse sand\n        - text: 1 part perlite\n        - text: This ensures excellent drainage and happy roots!\n      - heading \"🌟 Fertilization Hack:\" [level=4]:\n        - img \"🌟\"\n        - strong: \"Fertilization Hack:\"\n      - text: In spring and summer, dilute regular succulent fertilizer to\n      - strong: half-strength\n      - text: . Feed it once a month for that extra glow—but skip feeding in winter to let it rest.\n      - img \"💡\"\n      - strong: \"Pro Tip:\"\n      - text: Group your succulents together for a trendy indoor garden vibe, and they’ll help each other maintain optimal humidity!",
+    "reason": "First readable result contains self-contained succulent care advice; frozen before reference inspection.",
+    "frozen_at": "2026-10-29T04:29:58.988711+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:30:59.251859+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

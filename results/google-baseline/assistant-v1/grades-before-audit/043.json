@@ -1,0 +1,130 @@
+{
+  "reference_action": "Insufficient light caused stretching and loss of purple/pink color; farina is normal. Return to window plus overhead grow light, avoid touching/spraying farina. OP reports pink-purple returning with more light.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Explicitly increase sunlight or add a good grow light to stop etiolation, directly matching the validated light change. Claim that only chopping restores purple is contradicted by OP recovery and not endorsed.",
+      "evidence": [
+        "043-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/succulentsandpropagation/posts/1068208617728548/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicitly says put it somewhere brighter and explains green color indicates insufficient light.",
+      "evidence": [
+        "043-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/succulents/comments/tjcd2b/why_is_my_succulent_changing_colors_the_purple/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explains indoor yellowing in sun-loving succulents and recommends outdoor light/sun; overlaps increased exposure, though color/farina not explained.",
+      "evidence": [
+        "video-audit-24CMlNUqdzU-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=24CMlNUqdzU"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "For etiolation explicitly move to south/east window or grow light; also says ease low-light plant into brighter spot.",
+      "evidence": [
+        "video-audit-dYmtn0c_krs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=dYmtn0c_krs"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicitly links leggy growth/color loss to low light and prescribes bright window or grow light.",
+      "evidence": [
+        "video-audit-ka3h6ii9nF0-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ka3h6ii9nF0"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Increase sunlight exposure or position under grow light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off head if severe stretching or to restore purple",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Propagate cut top",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      }
+    ],
+    "reason": "Correct low-light diagnosis and direct light remedy would fix the problem, but one comment insists chopping is the only way to restore purple, causing unnecessary removal despite a noninvasive fix."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“The only way to get it back to purple is to headchop it” directs unnecessary irreversible cutting. Another comment limits chopping to severe etiolation, but the unqualified color claim undermines that safeguard and omits propagation instructions."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Etiolating, stretching for light” and a grow light match the reference. The claim that green leaves stay green even with correct light conflicts with OP’s reported color recovery, and farina is not explained."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Adding light is easy because the user already owns a grow light. “Chop the head and prop it” lacks cutting, callusing and rooting instructions, and no answer specifies the requested grow-light duration."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 43,
+  "thread_id": "1ct2vhg",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 43,
+    "thread_id": "1ct2vhg",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/succulentsandpropagation/posts/1068208617728548/",
+    "spans": [
+      {
+        "file": "043-source-01.txt",
+        "start_line": 53,
+        "end_line": 81,
+        "sha256": "69cb251f0a87a4db47d1dc04455788681ebf4dde4996d9237ba1e0f790861514",
+        "text": "          - generic: Kristen Dunn\n        - generic: It's beginning to show signs of it reaching for more light. You need to either give it a grow light or more sun light exposure otherwise it will continue to stretch (etiolate) and become more deformed looking and its growth will be affected. It if gets too bad the only fix is to chop the head and prop it. Right now it's still an easy fix.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/succulentsandpropagation/posts/1068208617728548/?comment_id=1068279407721469&__cft__[0]=AZh5c5rxEWd0E42EmWaEGGGQn8Rkggq3us17WElnSi0wP10kpBwETuqdY14Tdd7QIENq0NOl1MwAknjYfoygZaI5q0-dk0oYanaiwH9AzcmzFq3_yNb2yitF__lCuJAYWAHoHswEFQan2anVjk3K1novWEwDJhXtAEq-h7rQfCXZW7lb5IHjVQgMQRC5BiiS&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Mary Wolff 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Mary Wolff\":\n          - generic: Mary Wolff\n        - text: The purple color is from receiving the right amount of light. The green is how long it hasn't received the right amount of light. The only way to get it back to purple is to headchop it. Even if you have it in the right light now it will stay green. I …\n        - button \"See more\"\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/succulentsandpropagation/posts/1068208617728548/?comment_id=1068384597710950&__cft__[0]=AZh5c5rxEWd0E42EmWaEGGGQn8Rkggq3us17WElnSi0wP10kpBwETuqdY14Tdd7QIENq0NOl1MwAknjYfoygZaI5q0-dk0oYanaiwH9AzcmzFq3_yNb2yitF__lCuJAYWAHoHswEFQan2anVjk3K1novWEwDJhXtAEq-h7rQfCXZW7lb5IHjVQgMQRC5BiiS&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 5 replies\":\n        - generic: View all 5 replies\n      - article \"Comment by Laura Seffer 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Laura Seffer\":\n          - generic: Laura Seffer\n        - generic: This is an echeveria PVN (Perle Von Nernburg). It is etiolating, stretching for light. Echeverias especially need a ton of light. When kept indoors they need a good grow light."
+      }
+    ],
+    "advice": "          - generic: Kristen Dunn\n        - generic: It's beginning to show signs of it reaching for more light. You need to either give it a grow light or more sun light exposure otherwise it will continue to stretch (etiolate) and become more deformed looking and its growth will be affected. It if gets too bad the only fix is to chop the head and prop it. Right now it's still an easy fix.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/succulentsandpropagation/posts/1068208617728548/?comment_id=1068279407721469&__cft__[0]=AZh5c5rxEWd0E42EmWaEGGGQn8Rkggq3us17WElnSi0wP10kpBwETuqdY14Tdd7QIENq0NOl1MwAknjYfoygZaI5q0-dk0oYanaiwH9AzcmzFq3_yNb2yitF__lCuJAYWAHoHswEFQan2anVjk3K1novWEwDJhXtAEq-h7rQfCXZW7lb5IHjVQgMQRC5BiiS&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Mary Wolff 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Mary Wolff\":\n          - generic: Mary Wolff\n        - text: The purple color is from receiving the right amount of light. The green is how long it hasn't received the right amount of light. The only way to get it back to purple is to headchop it. Even if you have it in the right light now it will stay green. I …\n        - button \"See more\"\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/succulentsandpropagation/posts/1068208617728548/?comment_id=1068384597710950&__cft__[0]=AZh5c5rxEWd0E42EmWaEGGGQn8Rkggq3us17WElnSi0wP10kpBwETuqdY14Tdd7QIENq0NOl1MwAknjYfoygZaI5q0-dk0oYanaiwH9AzcmzFq3_yNb2yitF__lCuJAYWAHoHswEFQan2anVjk3K1novWEwDJhXtAEq-h7rQfCXZW7lb5IHjVQgMQRC5BiiS&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 5 replies\":\n        - generic: View all 5 replies\n      - article \"Comment by Laura Seffer 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Laura Seffer\":\n          - generic: Laura Seffer\n        - generic: This is an echeveria PVN (Perle Von Nernburg). It is etiolating, stretching for light. Echeverias especially need a ton of light. When kept indoors they need a good grow light.",
+    "reason": "First usable comments recommend light and head chopping; retained contradictory color claim.",
+    "frozen_at": "2026-10-29T04:37:37.673178+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:38:36.968040+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

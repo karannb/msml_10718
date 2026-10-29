@@ -1,0 +1,108 @@
+{
+  "reference_action": "Overwatering; OP reports a new leaf after days of not watering. Let soil dry before watering is the central validated action; drainage and root aeration are supporting advice.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Reassurance that new variegated leaves harden white; no reduction of watering.",
+      "evidence": [
+        "049-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/634613514670686/posts/1592047292260632/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "unresolved",
+      "reason": "Caption promises diagnosis, but no actual remedy or transcript recovered.",
+      "evidence": [
+        "049-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/thesucculentsbox/videos/why-your-alocasia-leaves-are-turning-yellow-quick-plant-care-tips-to-diagnose-ov/2482529618826071/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Pesticide, fungal investigation and post-alcohol light avoidance; no reduced watering.",
+      "evidence": [
+        "049-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/634613514670686/posts/1555255639273131/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Video promises repair but only introductory captions and a disease comment are visible; no repair advice.",
+      "evidence": [
+        "049-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/WestCoastGardensBC/videos/alocasia-yellow-leaves/1110164227645706/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Wait until 25–50% dry and drain saucer, explicitly linked to overwatering, overlaps successful withholding water.",
+      "evidence": [
+        "048-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=iXhN9gkGiiQ"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [],
+    "reason": "Normal variegation reassurance does not address overwatering and would leave the harmful watering pattern unchanged. Waiting for color hardening is not the validated withholding-water instruction."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“No worries” treats yellowing as normal without checking wet roots or watering. Applied to this case it delays the needed reduction in watering and risks continued root stress."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“Newest leaf. Yellowy normal” answers a variegation question, not the supplied yellow-damage/overwatering case. No care correction is supplied."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "“It takes time to harden off” is a simple wait-and-observe instruction. It requires no supplies, spending or technical procedure, despite being wrong for this case."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 49,
+  "thread_id": "1ahvd93",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 49,
+    "thread_id": "1ahvd93",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/634613514670686/posts/1592047292260632/",
+    "spans": [
+      {
+        "file": "049-source-01.txt",
+        "start_line": 63,
+        "end_line": 88,
+        "sha256": "105af4f83059f977b1a6df0a01c89072ccc7613aad49557f38ac8fb9c44ac48c",
+        "text": "        - generic: It takes time to harden off and will turn white like the others no worries\n        - list:\n          - link \"10w\":\n            - /url: https://www.facebook.com/groups/634613514670686/posts/1592047292260632/?comment_id=1592047978927230&__cft__[0]=AZjNop78tYX56J1f8Izf5PbB1-K_S_H2xHjr-WPxxAsdRh9nPDf97kuJwM15hWGBOi09b5XH1guZvg1sNg2zGeUDqPaepkQXESHba_4N5lvquX7gM54pErgBAB63kHEIvd9F3YCvNqTBuVz3FjkxAb6O_did_B8Nuw6tir5EerMau2FRTT79sJBEnCrbng&__tn__=R]-R\n        - button \"13 reactions; see who reacted to this\":\n          - generic: \"13\"\n      - article \"Comment by Ania Bartoszewicz 10 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Ania Bartoszewicz\":\n          - generic: Ania Bartoszewicz\n        - generic: Newest leaf. Yellowy normal\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=10175112909265501&set=p.10175112909265501&type=3&__cft__[0]=AZjNop78tYX56J1f8Izf5PbB1-K_S_H2xHjr-WPxxAsdRh9nPDf97kuJwM15hWGBOi09b5XH1guZvg1sNg2zGeUDqPaepkQXESHba_4N5lvquX7gM54pErgBAB63kHEIvd9F3YCvNqTBuVz3FjkxAb6O_did_B8Nuw6tir5EerMau2FRTT79sJBEnCrbng&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"10w\":\n            - /url: https://www.facebook.com/groups/634613514670686/posts/1592047292260632/?comment_id=1592048925593802&__cft__[0]=AZjNop78tYX56J1f8Izf5PbB1-K_S_H2xHjr-WPxxAsdRh9nPDf97kuJwM15hWGBOi09b5XH1guZvg1sNg2zGeUDqPaepkQXESHba_4N5lvquX7gM54pErgBAB63kHEIvd9F3YCvNqTBuVz3FjkxAb6O_did_B8Nuw6tir5EerMau2FRTT79sJBEnCrbng&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Tatiana Dos Anjos 10 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Tatiana Dos Anjos\":\n          - generic: Tatiana Dos Anjos\n        - generic: Mines were all high var white & she gave me this very bright lemon lime leaf which I love too lol - never turned white and it’s been months."
+      }
+    ],
+    "advice": "        - generic: It takes time to harden off and will turn white like the others no worries\n        - list:\n          - link \"10w\":\n            - /url: https://www.facebook.com/groups/634613514670686/posts/1592047292260632/?comment_id=1592047978927230&__cft__[0]=AZjNop78tYX56J1f8Izf5PbB1-K_S_H2xHjr-WPxxAsdRh9nPDf97kuJwM15hWGBOi09b5XH1guZvg1sNg2zGeUDqPaepkQXESHba_4N5lvquX7gM54pErgBAB63kHEIvd9F3YCvNqTBuVz3FjkxAb6O_did_B8Nuw6tir5EerMau2FRTT79sJBEnCrbng&__tn__=R]-R\n        - button \"13 reactions; see who reacted to this\":\n          - generic: \"13\"\n      - article \"Comment by Ania Bartoszewicz 10 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Ania Bartoszewicz\":\n          - generic: Ania Bartoszewicz\n        - generic: Newest leaf. Yellowy normal\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=10175112909265501&set=p.10175112909265501&type=3&__cft__[0]=AZjNop78tYX56J1f8Izf5PbB1-K_S_H2xHjr-WPxxAsdRh9nPDf97kuJwM15hWGBOi09b5XH1guZvg1sNg2zGeUDqPaepkQXESHba_4N5lvquX7gM54pErgBAB63kHEIvd9F3YCvNqTBuVz3FjkxAb6O_did_B8Nuw6tir5EerMau2FRTT79sJBEnCrbng&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"10w\":\n            - /url: https://www.facebook.com/groups/634613514670686/posts/1592047292260632/?comment_id=1592048925593802&__cft__[0]=AZjNop78tYX56J1f8Izf5PbB1-K_S_H2xHjr-WPxxAsdRh9nPDf97kuJwM15hWGBOi09b5XH1guZvg1sNg2zGeUDqPaepkQXESHba_4N5lvquX7gM54pErgBAB63kHEIvd9F3YCvNqTBuVz3FjkxAb6O_did_B8Nuw6tir5EerMau2FRTT79sJBEnCrbng&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Tatiana Dos Anjos 10 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Tatiana Dos Anjos\":\n          - generic: Tatiana Dos Anjos\n        - generic: Mines were all high var white & she gave me this very bright lemon lime leaf which I love too lol - never turned white and it’s been months.",
+    "reason": "First retained result offers actionable reassurance/waiting rather than treatment; freeze visible comments.",
+    "frozen_at": "2026-10-29T04:43:04.471361+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:43:44.424486+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

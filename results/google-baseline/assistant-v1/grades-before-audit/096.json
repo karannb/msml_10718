@@ -1,0 +1,108 @@
+{
+  "reference_action": "OP confirms regular misting and healthier appearance after advice to increase humidity for tearing during leaf development. Reference also mentions chewing pests, but supplied outcome does not confirm finding/treating pests; comparison is to humidity intervention. Reported improvement does not establish misting as sustained humidity control.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Names humidity among possible causes but gives no humidity-increasing action; reassures tears are normal wind adaptation.",
+      "evidence": [
+        "096-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/7325805377482310/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Explains retaining/trimming damaged leaves and mentions dry air as cause, but no explicit increase-humidity action.",
+      "evidence": [
+        "096-source-02.txt"
+      ],
+      "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/what-should-i-do-with-damaged-leaves-cut-them-off-or-leave-them"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Visible reply suggests defect during leaf emergence; no humidity instruction.",
+      "evidence": [
+        "096-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/1f1h98u/what_makes_a_plants_leaf_to_tear/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Brown margins section explicitly recommends regular misting or damp-gravel tray for dry air; directly recovers the reported intervention.",
+      "evidence": [
+        "096-source-04.txt"
+      ],
+      "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Short opened with title only, no accessible instruction.",
+      "evidence": [
+        "096-source-05.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/0LsT2C1mBoQ"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [],
+    "reason": "Low humidity appears in differential, but tearing is dismissed as normal and no actionable humidity change is supplied. No intervention to cause immediate harm; omitted care reduces usefulness."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The answer offers no chemical or destructive intervention and admits “Not sure about the browning.” Reassurance may delay useful humidity assessment, but the supplied outcome does not establish severe ongoing injury from waiting."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "It attributes torn leaves to normal wind adaptation without identifying the question plants. “Lack of humidity” appears in a generic list for brown edges, not as the leaf-development explanation or a care instruction."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "“Torn leaves are normal” asks for no additional task, supply or cost. This is easy to follow as reassurance even though its relevance is poor; feasibility does not substitute for accuracy."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 96,
+  "thread_id": "1bgt7ji",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 96,
+    "thread_id": "1bgt7ji",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1842823149113921/posts/7325805377482310/",
+    "spans": [
+      {
+        "file": "096-source-01.txt",
+        "start_line": 54,
+        "end_line": 55,
+        "sha256": "f79c778b4db243e409929e9a871694b2d9c40c67c3e8ee6b9cfec6fa8b638172",
+        "text": "        - generic: Not sure about the browning but the torn leaves are normal for this plant as it is a way to reduce damage from wind (in natural setting)\n        - text: Browning edges can be a number of things from inconsistent watering, chlorinated water, too much fertilizer, lack of humidity etc"
+      }
+    ],
+    "advice": "        - generic: Not sure about the browning but the torn leaves are normal for this plant as it is a way to reduce damage from wind (in natural setting)\n        - text: Browning edges can be a number of things from inconsistent watering, chlorinated water, too much fertilizer, lack of humidity etc",
+    "reason": "First result supplies explicit reassurance about torn leaves, eligible even without intervention; preserve uncertain brown-edge causes before reference.",
+    "frozen_at": "2026-10-29T05:18:00.207364+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:18:44.913036+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

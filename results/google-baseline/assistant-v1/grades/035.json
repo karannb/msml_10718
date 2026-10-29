@@ -1,0 +1,144 @@
+{
+  "reference_action": "Post-repotting low light with wet soil: increase light using the grow lamp within plant tolerance. OP explicitly says lamp helped and leaves straightened. Drying top inch and chunkier mix are supporting advice.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Moist soil, warmth, humidity, self-watering pots and waiting do not supply increased light or the lamp that OP validated.",
+      "evidence": [
+        "035-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1732060157100583/posts/3563419677297946/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "For drooping recommends reducing water and soil checks, but light advice is about reducing excessive exposure. It does not recover the needed increase in this case.",
+      "evidence": [
+        "video-audit-TUm5vq4eB2I-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=TUm5vq4eB2I"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicitly explains low light leaves soil wet and says move to a brighter area to improve uptake. Directly overlaps the validated increase in light.",
+      "evidence": [
+        "video-audit-Oo56mfgHCWo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Oo56mfgHCWo"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Bottom watering, repotting and fertilizer for a drying/rootbound plant do not provide the lamp or more light.",
+      "evidence": [
+        "035-source-04.txt"
+      ],
+      "url": "https://www.instagram.com/reel/Cr3RB9srPFK/?hl=en"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicitly gives calatheas plenty of bright light with some soft sun, improving the distant-window condition; lacks a specific post-repot lamp instruction.",
+      "evidence": [
+        "video-audit-ZSmxhWprsoc-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ZSmxhWprsoc&themeRefresh=1"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Maintain moist soil by watering as needed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Maintain warm conditions",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Raise humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": true
+      },
+      {
+        "action": "Use self-watering pot at next repot",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Allow acclimation and monitor recovery",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Acknowledges repot/acclimation stress but misses low light and the lamp remedy. Moisture/humidity advice lacks safeguards for the already-wet soil, though definite likely damage is not established."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Constant moist soil” and self-watering pots omit a check against persistent saturation in this already-wet case. Waiting and avoiding another immediate repot are protective, but the missing light correction can prolong the problem."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "“Needs time to adjust” recognizes stress but gives no low-light explanation or light intervention. Humidity and warmth are generic care points rather than the action that straightened OP’s leaves."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“Warm and high humidity” gives no target or practical method. Waiting is simple, while switching to a self-watering pot introduces expense and a further repot without explaining how to manage the reservoir."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 35,
+  "thread_id": "1ogfkfi",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 35,
+    "thread_id": "1ogfkfi",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1732060157100583/posts/3563419677297946/",
+    "spans": [
+      {
+        "file": "035-source-01.txt",
+        "start_line": 64,
+        "end_line": 89,
+        "sha256": "048569898189daeb3626ee2226f36354b69c5f9fa1e951063976ccd44537de98",
+        "text": "          - generic: Marika Plants\n        - generic: These guys can be temperamental. They typically like constant moist soil, warm and high humidity\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/3563419677297946/?comment_id=3563533673953213&__cft__[0]=AZilIAkGqZVkNyiXGCrWg1nAFGxNV6vVjEjI-o_B4Xbw1mE1omdvpg0LzCJLDl6AsKbpOayFk8myU5mdPgnDQAwgo-2uXBel9fLxRoindKozYTu9bQEr5ZwtMC_nHv6mC0y-UqbI2zRVsNLDJNl0w1i8rFa059BxmmQwnZ-It3A-aIpHMRcVE8FtpxCTTvAe&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Sharon Jakaus a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sharon Jakaus\":\n          - generic: Sharon Jakaus\n        - generic: Your brave, mine I let stay in its pots till they need repotting. We are in winter here takes a long time for new plants to acclimate here, even in the summer to tell the truth, it shocks them enough just moving in here lol. But I've found mine like self watering pots when I do repot.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/3563419677297946/?comment_id=3563618467278067&__cft__[0]=AZilIAkGqZVkNyiXGCrWg1nAFGxNV6vVjEjI-o_B4Xbw1mE1omdvpg0LzCJLDl6AsKbpOayFk8myU5mdPgnDQAwgo-2uXBel9fLxRoindKozYTu9bQEr5ZwtMC_nHv6mC0y-UqbI2zRVsNLDJNl0w1i8rFa059BxmmQwnZ-It3A-aIpHMRcVE8FtpxCTTvAe&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Sylvia Ledesma Warner a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sylvia Ledesma Warner\":\n          - generic: Sylvia Ledesma Warner\n        - generic: If it was fine when you bought it, there was no need to repot. When bringing a new plant home it needs time to adjust to its new environment. The shock of bringing it to a new environment is all the shock it should go through. It should hopefully bounce back."
+      }
+    ],
+    "advice": "          - generic: Marika Plants\n        - generic: These guys can be temperamental. They typically like constant moist soil, warm and high humidity\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/3563419677297946/?comment_id=3563533673953213&__cft__[0]=AZilIAkGqZVkNyiXGCrWg1nAFGxNV6vVjEjI-o_B4Xbw1mE1omdvpg0LzCJLDl6AsKbpOayFk8myU5mdPgnDQAwgo-2uXBel9fLxRoindKozYTu9bQEr5ZwtMC_nHv6mC0y-UqbI2zRVsNLDJNl0w1i8rFa059BxmmQwnZ-It3A-aIpHMRcVE8FtpxCTTvAe&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Sharon Jakaus a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sharon Jakaus\":\n          - generic: Sharon Jakaus\n        - generic: Your brave, mine I let stay in its pots till they need repotting. We are in winter here takes a long time for new plants to acclimate here, even in the summer to tell the truth, it shocks them enough just moving in here lol. But I've found mine like self watering pots when I do repot.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/3563419677297946/?comment_id=3563618467278067&__cft__[0]=AZilIAkGqZVkNyiXGCrWg1nAFGxNV6vVjEjI-o_B4Xbw1mE1omdvpg0LzCJLDl6AsKbpOayFk8myU5mdPgnDQAwgo-2uXBel9fLxRoindKozYTu9bQEr5ZwtMC_nHv6mC0y-UqbI2zRVsNLDJNl0w1i8rFa059BxmmQwnZ-It3A-aIpHMRcVE8FtpxCTTvAe&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Sylvia Ledesma Warner a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sylvia Ledesma Warner\":\n          - generic: Sylvia Ledesma Warner\n        - generic: If it was fine when you bought it, there was no need to repot. When bringing a new plant home it needs time to adjust to its new environment. The shock of bringing it to a new environment is all the shock it should go through. It should hopefully bounce back.",
+    "reason": "First readable discussion gives moisture, humidity and acclimation advice.",
+    "frozen_at": "2026-10-29T04:32:18.762360+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:33:17.963970+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

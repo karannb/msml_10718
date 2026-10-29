@@ -1,0 +1,158 @@
+{
+  "reference_action": "Bird of paradise old lower leaves: trim leaves touching floor. OP cut three leaves from one stem/four from another and reports improved appearance; repotting only suggested, not confirmed.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Four-D rule explicitly removes damaged/dying foliage; partial trim match without BOP cut location.",
+      "evidence": [
+        "166-source-01.txt"
+      ],
+      "url": "https://joegardener.com/podcast/138-why-pruning-matters-principles-recommendations-and-tips-from-the-pruners-bible/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Discusses pruning growing tips for branching and discourages removing photosynthetic leaves; no lower damaged-leaf trim.",
+      "evidence": [
+        "166-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1cewvzz/which_plants_benefit_from_pruning/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Later commenter explicitly removed oldest Monstera leaves and recommends pruning; partial leaf-trim match amid mostly propagation discussion.",
+      "evidence": [
+        "166-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1em4nuw/can_somebody_give_me_the_courage_to_prune_my/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Winter Portulacaria care/light; no lower-leaf trim.",
+      "evidence": [
+        "166-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/592927857940381/posts/1674235066476316/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Chop climbing vine for height and propagate, not remove old lower leaves.",
+      "evidence": [
+        "166-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantlivings/posts/1391391285891269/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Observe plant growth and decide pruning goal",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove dead dying damaged or diseased growth",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Prune up to one-third for shape when appropriate",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Select and prune resulting new shoots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Apply fertilizer following label after pruning",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "General damaged-growth rule overlaps, but woody-plant branching and renovation principles do not explain BOP lower-leaf attachment."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Cut back nearly to the soil surface” and universal regrowth reassurance are overbroad for this request. The one-third limit helps, but a novice could remove healthy foliage unnecessarily."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Dead/damaged pruning is relevant. Most principles concern woody branching and flowering schedules rather than which BOP leaves to remove."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The “four D’s” provide a useful starting rule. Where to cut a BOP petiole remains unspecified and seasonal observation/aftercare add work."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 166,
+  "thread_id": "1f43bt8",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 166,
+    "thread_id": "1f43bt8",
+    "selected_rank": 1,
+    "source_url": "https://joegardener.com/podcast/138-why-pruning-matters-principles-recommendations-and-tips-from-the-pruners-bible/",
+    "spans": [
+      {
+        "file": "166-source-01.txt",
+        "start_line": 83,
+        "end_line": 122,
+        "sha256": "c6b5bd6fa6013cc14cb2b95b9aa9f625c5b965828b32d021114fa35f955b9bd0",
+        "text": "    - heading \"Why Prune?\" [level=3]\n    - paragraph:\n      - text: As gardeners, what we most want to see is growth. That’s why pruning can often feel counter-intuitive. We see growth as a sign of success and health, so why would we ever want to cut it off? I also hear from lots of gardeners who are worried about killing a plant by pruning, but the truth is that pruning encourages\n      - strong: more\n      - text: growth and\n      - strong: improves\n      - text: plant health.\n    - paragraph: A cut to a branch causes a chemical response, triggering a plant to develop new foliage and branching. Pruning also improves overall plant health as we manage its structure and size. Just as importantly, it’s how we can guide a plant to do more of what we want it to do.\n    - heading \"Basic Pruning Guidelines\" [level=3]\n    - paragraph: Steve’s most basic rule for pruning can be applied even when you have no idea what type of plant you are dealing with. If it flowers between Christmas and late summer, the plant should be pruned right after flowering is finished. Any species which flowers between late summer and Christmas should be pruned the following spring.\n    - paragraph: Cold winter temperatures can take a natural toll on areas of any plant. A cut made before late summer still allows the plant time (before winter sets in) to grow and set new flower buds for the following year. The sooner after bloom you can prune, the longer the plant will have to develop new growth. A late-blooming plant won’t have time to develop new flower buds before winter.\n    - paragraph:\n      - text: As with all things, there are a few exceptions to that timing.\n      - link \"Hydrangea\":\n        - /url: https://joegardener.com/podcast/hydrangeas-pruning-color-proper-care/\n      - text: and clematis are examples of plants which are more particular about pruning schedules.\n    - paragraph: Oftentimes, you’ll hear advice that the best or only time to prune is in early spring, before any growth emerges. That’s an effective strategy (particularly for non-flowering shrubs), but it’s also helpful to feel free to prune during those post-bloom periods – when you can actually see how the branches look together while in full foliage.\n    - paragraph\n    - img \"pruning in late winter\"\n    - paragraph: \"Late winter/early spring is traditionally considered the best time to prune most plants, but it is more difficult to envision the end result when branches are bare. (photo: Christopher Bradley)\"\n    - paragraph: Steve is often sought for his advice on pruning, but the best tip he ever received was to pause and observe the plant. It will often give you clues on where to make the cuts.\n    - paragraph: Even if you don’t know what species a plant is, observing the clues a plant will provide you can guide your pruning in the right direction. If you’re unsure how to get started, spend a year observing what the plant does – how it grows, when it blooms, etc.\n    - paragraph: For example, most flowering shrubs only bloom on the same wood once. In other words – once a branch has flowered, it’s not likely it will bloom on that branch in future seasons. So, a branch with spent flowers is a good candidate for removal to make room for more branches to develop which will eventually bloom.\n    - paragraph:\n      - text: What if you make a\n      - link \"pruning mistake\":\n        - /url: https://joegardener.com/video/the-3-biggest-mistakes-when-it-comes-to-pruning/\n      - text: \"? Fortunately, plants are very forgiving and will almost always bounce back within a couple of years. In fact, the worst mistake you can make is to let a plant go too long without pruning. Eventually, that plant will grow out of control, and overgrowth encourages disease or pest infestation.\"\n    - paragraph: \"There are a few cuts you should make at any time of the year and regardless of your goal for the plant. The four D’s should always be a priority for removal:\"\n    - list:\n      - listitem: Dead\n      - listitem: Dying\n      - listitem: Damaged\n      - listitem: Diseased\n    - paragraph: If your plant has an area that is dead, dying damaged or diseased; remove that area as soon as you can. During regular pruning, remove those areas first too. Then, take a step back to view what you are left with and think about your goals for the plant.\n    - paragraph: Pruning really is part science and part art. So before you make the first cut, spend that time in observation. Then, decide what your goal for that plant is. Do you want more growth? Do you want to encourage fruit? What would you like it to look like once it’s mature? The goal you set will guide you to make the best cuts.\n    - paragraph: To quote Steve, “It’s not so much knowing how or where to cut but what you are trying to achieve.” I love that advice. So instead of worrying that the cut you make will do harm, look at pruning from a different perspective. Pruning is an important part of the gardening experience.\n    - paragraph\n    - img \"pruning the four Ds\"\n    - paragraph: \"When you notice dead, dying, diseased, or damaged areas on your plants; those should be pruned out as soon as possible to protect the plant’s health. (photo: Christopher Bradley)\""
+      },
+      {
+        "file": "166-source-01.txt",
+        "start_line": 189,
+        "end_line": 196,
+        "sha256": "c6b5bd6fa6013cc14cb2b95b9aa9f625c5b965828b32d021114fa35f955b9bd0",
+        "text": "    - paragraph: This is when pruning fear can really set in, but plants are very forgiving and usually very determined to survive. A healthy plant can be cut back nearly to the soil surface, and it will grow back. In fact, it will send up so many shoots that they can become a problem all their own.\n    - paragraph:\n      - text: Whenever possible, the best approach is to cut back no more than one-third of the plant overall. That is particularly true for\n      - link \"trees\":\n        - /url: https://www.youtube.com/watch?v=c6Dn25qxTCA\n      - text: . Sometimes, it’s necessary to take more drastic measures, but in either case, remember that significant cuts will result in significant re-growth. Steve recommends that you have a plan in mind for managing the new growth that comes.\n    - paragraph: As new shoots develop, the real pruning work begins. It’s important to observe the new growth and select which shoots should be allowed to mature and which should be pruned out. Don’t be afraid to apply tough love here. Many gardeners miss the important step of managing the new growth. That inadvertently creates a cycle of harsh pruning, followed by overgrowth which requires harsh pruning down the road.\n    - paragraph: Remedial pruning shouldn’t be a regular part of your gardening experience. Don’t be afraid to be aggressive with your pruning cuts. Just be sure to follow up to train and maintain the new growth which comes."
+      },
+      {
+        "file": "166-source-01.txt",
+        "start_line": 221,
+        "end_line": 229,
+        "sha256": "c6b5bd6fa6013cc14cb2b95b9aa9f625c5b965828b32d021114fa35f955b9bd0",
+        "text": "    - paragraph: One good tip to bear in mind is that one of the best times to feed a plant is after a pruning session. After all, it’s the leaves that produce so much of the energy a plant needs to grow. So when you remove some of that energy-production, give the plant a little something back. Just don’t overdo it.\n    - paragraph:\n      - text: Always follow fertilizer application instructions carefully. I recommend organic nutrients, and I’ve shared\n      - link \"podcasts\":\n        - /url: https://joegardener.com/podcast/fertilizer-basics/\n      - text: and\n      - link \"blog posts\":\n        - /url: https://joegardener.com/the-numbers-on-fertilizer-labels-what-they-mean/\n      - text: on why all that matters. I hope you’ll check those out."
+      }
+    ],
+    "advice": "    - heading \"Why Prune?\" [level=3]\n    - paragraph:\n      - text: As gardeners, what we most want to see is growth. That’s why pruning can often feel counter-intuitive. We see growth as a sign of success and health, so why would we ever want to cut it off? I also hear from lots of gardeners who are worried about killing a plant by pruning, but the truth is that pruning encourages\n      - strong: more\n      - text: growth and\n      - strong: improves\n      - text: plant health.\n    - paragraph: A cut to a branch causes a chemical response, triggering a plant to develop new foliage and branching. Pruning also improves overall plant health as we manage its structure and size. Just as importantly, it’s how we can guide a plant to do more of what we want it to do.\n    - heading \"Basic Pruning Guidelines\" [level=3]\n    - paragraph: Steve’s most basic rule for pruning can be applied even when you have no idea what type of plant you are dealing with. If it flowers between Christmas and late summer, the plant should be pruned right after flowering is finished. Any species which flowers between late summer and Christmas should be pruned the following spring.\n    - paragraph: Cold winter temperatures can take a natural toll on areas of any plant. A cut made before late summer still allows the plant time (before winter sets in) to grow and set new flower buds for the following year. The sooner after bloom you can prune, the longer the plant will have to develop new growth. A late-blooming plant won’t have time to develop new flower buds before winter.\n    - paragraph:\n      - text: As with all things, there are a few exceptions to that timing.\n      - link \"Hydrangea\":\n        - /url: https://joegardener.com/podcast/hydrangeas-pruning-color-proper-care/\n      - text: and clematis are examples of plants which are more particular about pruning schedules.\n    - paragraph: Oftentimes, you’ll hear advice that the best or only time to prune is in early spring, before any growth emerges. That’s an effective strategy (particularly for non-flowering shrubs), but it’s also helpful to feel free to prune during those post-bloom periods – when you can actually see how the branches look together while in full foliage.\n    - paragraph\n    - img \"pruning in late winter\"\n    - paragraph: \"Late winter/early spring is traditionally considered the best time to prune most plants, but it is more difficult to envision the end result when branches are bare. (photo: Christopher Bradley)\"\n    - paragraph: Steve is often sought for his advice on pruning, but the best tip he ever received was to pause and observe the plant. It will often give you clues on where to make the cuts.\n    - paragraph: Even if you don’t know what species a plant is, observing the clues a plant will provide you can guide your pruning in the right direction. If you’re unsure how to get started, spend a year observing what the plant does – how it grows, when it blooms, etc.\n    - paragraph: For example, most flowering shrubs only bloom on the same wood once. In other words – once a branch has flowered, it’s not likely it will bloom on that branch in future seasons. So, a branch with spent flowers is a good candidate for removal to make room for more branches to develop which will eventually bloom.\n    - paragraph:\n      - text: What if you make a\n      - link \"pruning mistake\":\n        - /url: https://joegardener.com/video/the-3-biggest-mistakes-when-it-comes-to-pruning/\n      - text: \"? Fortunately, plants are very forgiving and will almost always bounce back within a couple of years. In fact, the worst mistake you can make is to let a plant go too long without pruning. Eventually, that plant will grow out of control, and overgrowth encourages disease or pest infestation.\"\n    - paragraph: \"There are a few cuts you should make at any time of the year and regardless of your goal for the plant. The four D’s should always be a priority for removal:\"\n    - list:\n      - listitem: Dead\n      - listitem: Dying\n      - listitem: Damaged\n      - listitem: Diseased\n    - paragraph: If your plant has an area that is dead, dying damaged or diseased; remove that area as soon as you can. During regular pruning, remove those areas first too. Then, take a step back to view what you are left with and think about your goals for the plant.\n    - paragraph: Pruning really is part science and part art. So before you make the first cut, spend that time in observation. Then, decide what your goal for that plant is. Do you want more growth? Do you want to encourage fruit? What would you like it to look like once it’s mature? The goal you set will guide you to make the best cuts.\n    - paragraph: To quote Steve, “It’s not so much knowing how or where to cut but what you are trying to achieve.” I love that advice. So instead of worrying that the cut you make will do harm, look at pruning from a different perspective. Pruning is an important part of the gardening experience.\n    - paragraph\n    - img \"pruning the four Ds\"\n    - paragraph: \"When you notice dead, dying, diseased, or damaged areas on your plants; those should be pruned out as soon as possible to protect the plant’s health. (photo: Christopher Bradley)\"\n\n    - paragraph: This is when pruning fear can really set in, but plants are very forgiving and usually very determined to survive. A healthy plant can be cut back nearly to the soil surface, and it will grow back. In fact, it will send up so many shoots that they can become a problem all their own.\n    - paragraph:\n      - text: Whenever possible, the best approach is to cut back no more than one-third of the plant overall. That is particularly true for\n      - link \"trees\":\n        - /url: https://www.youtube.com/watch?v=c6Dn25qxTCA\n      - text: . Sometimes, it’s necessary to take more drastic measures, but in either case, remember that significant cuts will result in significant re-growth. Steve recommends that you have a plan in mind for managing the new growth that comes.\n    - paragraph: As new shoots develop, the real pruning work begins. It’s important to observe the new growth and select which shoots should be allowed to mature and which should be pruned out. Don’t be afraid to apply tough love here. Many gardeners miss the important step of managing the new growth. That inadvertently creates a cycle of harsh pruning, followed by overgrowth which requires harsh pruning down the road.\n    - paragraph: Remedial pruning shouldn’t be a regular part of your gardening experience. Don’t be afraid to be aggressive with your pruning cuts. Just be sure to follow up to train and maintain the new growth which comes.\n\n    - paragraph: One good tip to bear in mind is that one of the best times to feed a plant is after a pruning session. After all, it’s the leaves that produce so much of the energy a plant needs to grow. So when you remove some of that energy-production, give the plant a little something back. Just don’t overdo it.\n    - paragraph:\n      - text: Always follow fertilizer application instructions carefully. I recommend organic nutrients, and I’ve shared\n      - link \"podcasts\":\n        - /url: https://joegardener.com/podcast/fertilizer-basics/\n      - text: and\n      - link \"blog posts\":\n        - /url: https://joegardener.com/the-numbers-on-fertilizer-labels-what-they-mean/\n      - text: on why all that matters. I hope you’ll check those out.",
+    "reason": "First accessible pruning guide; general pruning, dead-leaf removal, extent limits and aftercare applicable to question; exclude orchard-specific methods.",
+    "frozen_at": "2026-10-29T06:19:56.050196+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:20:42.120238+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

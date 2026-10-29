@@ -1,0 +1,144 @@
+{
+  "reference_action": "Broken piece is red Maranta with a node, not Calathea; OP confirmed roots after water propagation. Weekly water changes were advised.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Broken Coleus stems rooted in water then potted; transferable water-propagation action, species and mother-pruning extras differ.",
+      "evidence": [
+        "video-audit-u2tAoB96nXI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=u2tAoB96nXI"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Replies explicitly put broken stem in water until roots. Tradescantia context, partial equivalent action.",
+      "evidence": [
+        "185-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/plants/comments/1gd9v25/i_accidentally_snapped_off_this_little_branch_is/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit put whole detached leaf cluster in water until roots, then plant.",
+      "evidence": [
+        "185-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/393923344897048/posts/1124112888544753/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Video caption lacks method.",
+      "evidence": [
+        "185-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/flowerlovers.in/videos/repotting-my-calathea-plant-without-damaging-its-roots-calathea-repottingplants/1837285614132594/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Human answers to this question address planting remaining roots. Water-rooting answer belongs to a separately labeled related question, not target discussion; bot answer excluded.",
+      "evidence": [
+        "185-source-05.txt"
+      ],
+      "url": "https://www.quora.com/Hi-today-I-was-trying-to-replant-my-plant-but-accidentally-broke-many-of-its-root-only-one-root-remaining-what-should-I-do-know-is-the-plant-dead-or-what"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Cut back broken mother stems to growth points",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim other stems for symmetry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prepare and water-root broken pieces",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Move mother to bright east-facing window",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot rooted pieces",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      }
+    ],
+    "reason": "Demonstrates the central water-rooting fix but for Coleus and with unnecessary extensive mother pruning. Omits Maranta identification and weekly water changes."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Cut it right back” and symmetry pruning are excessive for a single broken Maranta branch. Water propagation itself is appropriate, but the demonstration lacks Maranta-specific cautions."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "Directly handles snapped stems by water propagation and retains growth points. Plant identity and weekly water maintenance are missing, so it is not fully tailored."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Water rooting is simple, but the complete selected method adds several cuts, relocation and eventual potting. These exceed the rubric’s action and per-task limits."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 185,
+  "thread_id": "122wdhd",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 185,
+    "thread_id": "122wdhd",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=u2tAoB96nXI",
+    "spans": [
+      {
+        "file": "video-audit-u2tAoB96nXI-transcript.txt",
+        "start_line": 19,
+        "end_line": 65,
+        "sha256": "6ac95e37a5287adefaa5bd716d01211143ec8c70633d4908d52f8f61474cdb1d",
+        "text": "[1:28] bit of damage but they always grow back like I say this plant isn't dead it's\n[1:33] just injured I don't know we're going to try and figure it out together I think\n[1:37] the first step is to cut it right back and hopefully new stems will grow and\n[1:42] we'll see if we can propagate these stem pieces so we absolutely went to town on\n[1:46] this bad boy cuz there is some extensive damage so there's this bit that's\n[1:51] clearly Hanging On by a thread we'll need to sort that out and there's this\n[1:54] piece here which is this piece here so that's just comes straight up off so\n[2:00] that's not good looks like the leaves are wilting as well so I'm not sure\n[2:04] we'll be able to rescue that to be honest so the first thing to do is to\n[2:08] sort out this bit that is hanging on by a thread I'm going to have to cut\n[2:12] back right in there and tidy this end piece up so hopefully a new stem will\n[2:21] grow out of there got another little stem piece here I'll just tidy up ping\n[2:27] that off at the base there and then we have this looks like that's been chopped\n[2:31] in half and there's a little growth point just at the base here so I'm just\n[2:36] going to chop this back to that point which leaves me with a very lopsided\n[2:42] plant there's two well there's one stem growing here with two offshoots there's\n[2:47] a mini growth here there should be it's missing half a plant basically so to\n[2:53] even it up I think I have to cut these back and then just wait for entirely New\n[2:58] Growth to come through so so where should I cut this back I'm going to cut\n[3:02] it back right there and on this one I'm going to cut it back right there so it's\n[3:08] fairly even and this longer piece in the middle looks quite awkward so I'm going\n[3:12] to cut it back to that node so what do we do with all these cuttings that we've\n[3:18] taken off the plant well we propagate them and we turn them into brand new\n[3:22] plants so you could say it's a blessing in disguise because I get lots of new\n[3:27] colus plants so let's prep these up up [Music]\n[4:06] doesn't look like much at the moment does it but thankfully the colus is a\n[4:11] very fast grower and it doesn't mind being cut back in this fashion I've done\n[4:15] it before not quite as drastic as this though it does like lots of light so I'm\n[4:19] going to put it in my nice bright spot down there in front of my east facing\n[4:23] window to lap up the Sun and hopefully new stems will start to shoot out and\n[4:27] I'll show you the progress of this at the end of the video\n[4:32] good luck my little\n[4:38] [Music] angels the great thing about the chus\n[4:48] plant is that they are dead easy to propagate so the chus mother that we\n[4:53] have over there I'll show you in a sec has successfully grown babies so all of\n[4:59] the these cuting I think have good roots so nice root tissue on there nice\n[5:05] and beige exactly what you want to see nice and healthy that one as well that\n[5:11] one could do with some extra light I think must have been hidden in the glass\n[5:15] cuz the leaves aren't as vibrant red but nice healthy roots that should still\n[5:20] grow so that's two cuting this one's nice healthy\n[5:26] roots and some new growth at the top it looks like these are like new leaves\n[5:30] coming out of the top so they will continue to grow in water cuting they\n[5:35] will start sending out new leaves and new\n[5:38] stems so you don't have to put them into soil you can just leave them to grow in\n[5:42] water if you wanted to so I've got lots of brand new colus plants so every cloud\n[5:48] has a silver lining so all that's left to do is to pop these on into soil into\n[5:53] their own pot and then I'll show you the mupp plant"
+      }
+    ],
+    "advice": "[1:28] bit of damage but they always grow back like I say this plant isn't dead it's\n[1:33] just injured I don't know we're going to try and figure it out together I think\n[1:37] the first step is to cut it right back and hopefully new stems will grow and\n[1:42] we'll see if we can propagate these stem pieces so we absolutely went to town on\n[1:46] this bad boy cuz there is some extensive damage so there's this bit that's\n[1:51] clearly Hanging On by a thread we'll need to sort that out and there's this\n[1:54] piece here which is this piece here so that's just comes straight up off so\n[2:00] that's not good looks like the leaves are wilting as well so I'm not sure\n[2:04] we'll be able to rescue that to be honest so the first thing to do is to\n[2:08] sort out this bit that is hanging on by a thread I'm going to have to cut\n[2:12] back right in there and tidy this end piece up so hopefully a new stem will\n[2:21] grow out of there got another little stem piece here I'll just tidy up ping\n[2:27] that off at the base there and then we have this looks like that's been chopped\n[2:31] in half and there's a little growth point just at the base here so I'm just\n[2:36] going to chop this back to that point which leaves me with a very lopsided\n[2:42] plant there's two well there's one stem growing here with two offshoots there's\n[2:47] a mini growth here there should be it's missing half a plant basically so to\n[2:53] even it up I think I have to cut these back and then just wait for entirely New\n[2:58] Growth to come through so so where should I cut this back I'm going to cut\n[3:02] it back right there and on this one I'm going to cut it back right there so it's\n[3:08] fairly even and this longer piece in the middle looks quite awkward so I'm going\n[3:12] to cut it back to that node so what do we do with all these cuttings that we've\n[3:18] taken off the plant well we propagate them and we turn them into brand new\n[3:22] plants so you could say it's a blessing in disguise because I get lots of new\n[3:27] colus plants so let's prep these up up [Music]\n[4:06] doesn't look like much at the moment does it but thankfully the colus is a\n[4:11] very fast grower and it doesn't mind being cut back in this fashion I've done\n[4:15] it before not quite as drastic as this though it does like lots of light so I'm\n[4:19] going to put it in my nice bright spot down there in front of my east facing\n[4:23] window to lap up the Sun and hopefully new stems will start to shoot out and\n[4:27] I'll show you the progress of this at the end of the video\n[4:32] good luck my little\n[4:38] [Music] angels the great thing about the chus\n[4:48] plant is that they are dead easy to propagate so the chus mother that we\n[4:53] have over there I'll show you in a sec has successfully grown babies so all of\n[4:59] the these cuting I think have good roots so nice root tissue on there nice\n[5:05] and beige exactly what you want to see nice and healthy that one as well that\n[5:11] one could do with some extra light I think must have been hidden in the glass\n[5:15] cuz the leaves aren't as vibrant red but nice healthy roots that should still\n[5:20] grow so that's two cuting this one's nice healthy\n[5:26] roots and some new growth at the top it looks like these are like new leaves\n[5:30] coming out of the top so they will continue to grow in water cuting they\n[5:35] will start sending out new leaves and new\n[5:38] stems so you don't have to put them into soil you can just leave them to grow in\n[5:42] water if you wanted to so I've got lots of brand new colus plants so every cloud\n[5:48] has a silver lining so all that's left to do is to pop these on into soil into\n[5:53] their own pot and then I'll show you the mupp plant",
+    "reason": "First accessible broken-stem rescue demonstration includes cut-back and water propagation, before reference.",
+    "frozen_at": "2026-10-29T06:35:13.428433+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:36:11.371297+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

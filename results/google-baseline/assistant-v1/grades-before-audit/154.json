@@ -1,0 +1,137 @@
+{
+  "reference_action": "Etiolated succulent: behead and repot top, increase window light and propagate leaves; OP reports many new succulents after following advice.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Explicit gradual light increase plus chop and prop.",
+      "evidence": [
+        "154-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/succulents/comments/1cr0q0b/what_should_i_do_about_succulents_growing/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Increase light and cut/replant stems, with leaf propagation option.",
+      "evidence": [
+        "154-source-02.txt"
+      ],
+      "url": "https://www.joyusgarden.com/succulent-plants-growing-long-stems/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Explains etiolation but recommends shade-tolerant species and general growth care; no corrective beheading or explicit move to brighter light for this plant.",
+      "evidence": [
+        "video-audit-MYCo9qI2nf8-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=MYCo9qI2nf8"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "0:59–1:12 move stretched plants to brighter south window; partial light-action match.",
+      "evidence": [
+        "video-audit-awGWgvH_3hM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=awGWgvH_3hM"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Diagnostic comparisons and sunburn warning; no corrective propagation or explicit light-increase procedure.",
+      "evidence": [
+        "video-audit-0fdG2wooSl4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=0fdG2wooSl4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Gradually move to brighter natural light",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Install grow light if needed",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Chop and propagate after growth improves",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Read beginner soil/care guide",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Matches main diagnosis and remedies, but chop/prop is an unexplained linked phrase for a novice and supplemental lamp may exceed cost limit."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Gradually increase” light avoids sudden sunburn and waits for improvement before cutting. Propagation details are left to a link, limiting safe execution by this novice."
+    },
+    "specificity_accuracy": {
+      "score": 5,
+      "reason": "“Etiolation” and stretching for light directly explain the question. Brighter light plus chop/prop matches the validated intervention."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Moving the plant is simple. “Chop and prop” and a broad beginner-guide referral leave cutting, callusing and rooting details unspecified in the selected answer."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 154,
+  "thread_id": "1dk4hky",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 154,
+    "thread_id": "1dk4hky",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/succulents/comments/1cr0q0b/what_should_i_do_about_succulents_growing/",
+    "spans": [
+      {
+        "file": "154-source-01.txt",
+        "start_line": 151,
+        "end_line": 168,
+        "sha256": "54675c1ed7bf6053c115547d6aa7d223530bf25f259c2dc4f99393fb75fd6e2e",
+        "text": "      - paragraph:\n        - text: In the first pic, the plant grew tall because it has not been receiving enough light. This is called\n        - link \"etiolation\":\n          - /url: /search/?q=succulent+etiolation&cId=b6129df5-dc1a-438f-982a-d4a524abae07&iId=4039773e-c92d-4103-a762-a9c941234d41\n          - text: etiolation\n        - text: \"- it stretches reaching for light and its leaves turn down to increase their surface area. The topmost (newest) growth looks more compact...Has it been receiving more light recently? If so, that will help the new growth remain healthier. If not, gradually increase to more natural light or add a grow light if needed. Once it's doing better, you can\"\n        - link \"chop and prop\":\n          - /url: /search/?q=succulent+chop+and+prop&cId=7027459c-93ba-4ebc-89f4-e57f8d0066bc&iId=5d891787-8d06-4092-9bba-2839d785eb27\n          - text: chop and prop\n        - text: if you want.\n      - paragraph: Second plant, the growth is a flower stalk.\n      - paragraph:\n        - text: As for IDs, it is harder to provide accurate ones when the plant isn't displaying proper growth or stress coloring, but Pic one is probably a graptopelum of some sort (the tall plant) and a\n        - link \"calico kitten crassula\":\n          - /url: /search/?q=calico+kitten+crassula+care&cId=2590b125-fd98-433c-a802-cad64c23c14b&iId=d53458b5-75ab-4417-b526-d51c186d57ef\n          - text: calico kitten crassula\n        - text: . Pic 2 looks like a pachyphytum variety.\n      - paragraph: Also I would advise you to read the Beginner Basics guide on the wiki for advice about proper soil (needs to be gritty - yours looks to organic) and other basic care needs."
+      }
+    ],
+    "advice": "      - paragraph:\n        - text: In the first pic, the plant grew tall because it has not been receiving enough light. This is called\n        - link \"etiolation\":\n          - /url: /search/?q=succulent+etiolation&cId=b6129df5-dc1a-438f-982a-d4a524abae07&iId=4039773e-c92d-4103-a762-a9c941234d41\n          - text: etiolation\n        - text: \"- it stretches reaching for light and its leaves turn down to increase their surface area. The topmost (newest) growth looks more compact...Has it been receiving more light recently? If so, that will help the new growth remain healthier. If not, gradually increase to more natural light or add a grow light if needed. Once it's doing better, you can\"\n        - link \"chop and prop\":\n          - /url: /search/?q=succulent+chop+and+prop&cId=7027459c-93ba-4ebc-89f4-e57f8d0066bc&iId=5d891787-8d06-4092-9bba-2839d785eb27\n          - text: chop and prop\n        - text: if you want.\n      - paragraph: Second plant, the growth is a flower stalk.\n      - paragraph:\n        - text: As for IDs, it is harder to provide accurate ones when the plant isn't displaying proper growth or stress coloring, but Pic one is probably a graptopelum of some sort (the tall plant) and a\n        - link \"calico kitten crassula\":\n          - /url: /search/?q=calico+kitten+crassula+care&cId=2590b125-fd98-433c-a802-cad64c23c14b&iId=d53458b5-75ab-4417-b526-d51c186d57ef\n          - text: calico kitten crassula\n        - text: . Pic 2 looks like a pachyphytum variety.\n      - paragraph: Also I would advise you to read the Beginner Basics guide on the wiki for advice about proper soil (needs to be gritty - yours looks to organic) and other basic care needs.",
+    "reason": "First substantive answer to matching tall succulent question; includes light acclimation, optional chop/prop and soil caution.",
+    "frozen_at": "2026-10-29T06:12:50.375074+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:13:56.219937+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

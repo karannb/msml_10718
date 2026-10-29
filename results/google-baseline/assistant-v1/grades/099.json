@@ -1,0 +1,158 @@
+{
+  "reference_action": "OP reports failed loosely tied garbage-bag attempt followed by uncurled leaves after a few days in large ziplock bags. Target is increased, maintained humidity via clear enclosure with periodic airing. Humidifier advice is functional partial overlap; a humidity diagnosis alone is not a hit. Predefined borderline flag retained.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Audit: grouping plants does not establish the sustained high-humidity enclosure that succeeded after a loose bag failed. The reply also disputes humidity need; weak thematic overlap is insufficient.",
+      "evidence": [
+        "099-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/2290969958511156/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Humidifier toward 60% gives functional humidity intervention without enclosure.",
+      "evidence": [
+        "video-audit-7rjMz-3zOiY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=7rjMz-3zOiY"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Names low humidity but explicit actions are fertilizer change, soil check, shaded/warmer location and root-rot repotting. No explicit humidity-raising method in transcript.",
+      "evidence": [
+        "video-audit-ygbolgHSzFg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ygbolgHSzFg&themeRefresh=1"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Watering and lighting, without humidity intervention.",
+      "evidence": [
+        "111-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=njQrWbhFIt8"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Final visible comment explicitly clear plastic bag or indoor greenhouse to increase humidity. Direct enclosure match, though no airing schedule or sealed-fit instruction.",
+      "evidence": [
+        "099-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/calatheas/comments/1wlq0ez/whys_she_being_dramatic_now_quite_a_few_stems_are/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Provide bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use rain or distilled water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Group near other plants for humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep soil moist",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Inspect for pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Humidity diagnosis and grouping overlap, but weaker method and direct disagreement about humidity omit the sustained enclosure that worked. Conflicting wet/dry diagnosis leaves watering unclear."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Check for pests” avoids an immediate unverified pesticide treatment. However, keeping soil moist without a moisture threshold and grouping plants before that check can add avoidable moisture or pest-spread risk."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "One comment identifies humidity and another recommends grouping plants as an “echo system.” The answer also claims humidity is unnecessary and alternates between under- and overwatering, without the reference enclosure method."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Grouping and changing water source are easy. Conflicting humidity claims and “stay moist” without a test or threshold make the complete answer ambiguous, with five distinct tasks."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 99,
+  "thread_id": "1u3kg0t",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 99,
+    "thread_id": "1u3kg0t",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/2290969958511156/",
+    "spans": [
+      {
+        "file": "099-source-01.txt",
+        "start_line": 55,
+        "end_line": 81,
+        "sha256": "d55524355da730dff3f621a9d5fdb6be383c0c08e7765fd925b4cb1a3c5e3296",
+        "text": "        - generic: Potentially not enough light, it needs bright indirect light. I have 8 different calatheas and use only rain water. I dont reallt use humidifiers and mine are all healthy. But if you group it near other plants its like a little echo system\n        - list:\n          - link \"1w\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/2290969958511156/?comment_id=2291395691801916&__cft__[0]=AZiLt67UEwqb57u2AVlrCrmQXN-WonOQt79YDIha7-7VH2KDjJfm8UdwYIpZUs74-Pu3LrNLN6vNx72-tcLXA6DX6RQMdBw4YiuXAHVrhl6_jhebueAKro37rBM4IITVskkjj2ptaFq727J4EAXwLmDzDleiWfKaw2XL3EcpnnFd0KV5q3X114SYKKBjBrYt1Shv&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Michelle Bennington a week ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Michelle Bennington\":\n          - generic: Michelle Bennington\n        - generic: Humidity, needs distilled or rainwater only, and likely under watering caused the leaves to curl like this, they like to stay moist\n        - list:\n          - link \"1w\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/2290969958511156/?comment_id=2291452031796282&__cft__[0]=AZiLt67UEwqb57u2AVlrCrmQXN-WonOQt79YDIha7-7VH2KDjJfm8UdwYIpZUs74-Pu3LrNLN6vNx72-tcLXA6DX6RQMdBw4YiuXAHVrhl6_jhebueAKro37rBM4IITVskkjj2ptaFq727J4EAXwLmDzDleiWfKaw2XL3EcpnnFd0KV5q3X114SYKKBjBrYt1Shv&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Sherry Bora a week ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sherry Bora\":\n          - generic: Sherry Bora\n        - generic: Your Goeppertia looks overwatered. I would also check for pests, these are a spidermite magnet. They do not require high humidity."
+      }
+    ],
+    "advice": "        - generic: Potentially not enough light, it needs bright indirect light. I have 8 different calatheas and use only rain water. I dont reallt use humidifiers and mine are all healthy. But if you group it near other plants its like a little echo system\n        - list:\n          - link \"1w\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/2290969958511156/?comment_id=2291395691801916&__cft__[0]=AZiLt67UEwqb57u2AVlrCrmQXN-WonOQt79YDIha7-7VH2KDjJfm8UdwYIpZUs74-Pu3LrNLN6vNx72-tcLXA6DX6RQMdBw4YiuXAHVrhl6_jhebueAKro37rBM4IITVskkjj2ptaFq727J4EAXwLmDzDleiWfKaw2XL3EcpnnFd0KV5q3X114SYKKBjBrYt1Shv&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Michelle Bennington a week ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Michelle Bennington\":\n          - generic: Michelle Bennington\n        - generic: Humidity, needs distilled or rainwater only, and likely under watering caused the leaves to curl like this, they like to stay moist\n        - list:\n          - link \"1w\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/2290969958511156/?comment_id=2291452031796282&__cft__[0]=AZiLt67UEwqb57u2AVlrCrmQXN-WonOQt79YDIha7-7VH2KDjJfm8UdwYIpZUs74-Pu3LrNLN6vNx72-tcLXA6DX6RQMdBw4YiuXAHVrhl6_jhebueAKro37rBM4IITVskkjj2ptaFq727J4EAXwLmDzDleiWfKaw2XL3EcpnnFd0KV5q3X114SYKKBjBrYt1Shv&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Sherry Bora a week ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sherry Bora\":\n          - generic: Sherry Bora\n        - generic: Your Goeppertia looks overwatered. I would also check for pests, these are a spidermite magnet. They do not require high humidity.",
+    "reason": "First source directly addresses persistent curling after watering; retain all competing light, moisture, humidity and pest advice before reference.",
+    "frozen_at": "2026-10-29T05:18:49.992317+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.241336+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.240438+00:00",
+    "changes": [
+      {
+        "query_index": 99,
+        "rank": 1,
+        "field": "source_action_hit",
+        "before": "hit",
+        "after": "miss",
+        "reason": "Audit: grouping plants does not establish the sustained high-humidity enclosure that succeeded after a loose bag failed. The reply also disputes humidity need; weak thematic overlap is insufficient."
+      }
+    ]
+  }
+}

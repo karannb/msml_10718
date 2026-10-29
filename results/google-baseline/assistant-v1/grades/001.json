@@ -1,0 +1,181 @@
+{
+  "reference_action": "Repeated insecticide treatment for thrips; OP credits Celaflor after several life cycles. Low light is a secondary reference problem.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Explicit thrips treatment with systemic/spinosad and repeated applications leads to the insecticide action OP validated. Low light is not addressed.",
+      "evidence": [
+        "001-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1440965016689851/posts/1764240964362253/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "The discussion recommends quarantine and repeated chemical pest spraying/Provanto, including an outdoor or ventilated application precaution; this supplies the validated pest-control action despite conflicting comments.",
+      "evidence": [
+        "001-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/Monstera/comments/17kymg6/monstera_adansonii_leaf_problem_just_bought_this/?rdt=33236"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Thrips inspection and a homemade neem wipe/drench overlap pest care but do not establish the sustained effective insecticide treatment credited in the outcome. “Build resistance” through neem watering is not the reference fix.",
+      "evidence": [
+        "001-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/Monstera/comments/1ggtja0/do_you_see_any_signs_of_thripspests/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "At 2:34–2:48 the video mentions neem or insecticidal soap for irregular holes, buried among generic diagnoses. It gives no repeat treatment for the observed thrips and patchy new leaves.",
+      "evidence": [
+        "video-audit-vuYpdXETiJo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=vuYpdXETiJo&vl=en"
+    },
+    {
+      "rank": 6,
+      "action_hit": "hit",
+      "reason": "At 2:44–3:06 the video directs isolation and consistent insecticide treatment until pests are eliminated over weeks, matching the successful repeated-treatment action; brighter light is also discussed.",
+      "evidence": [
+        "video-audit-sC9iWhd5CJg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=sC9iWhd5CJg"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Isolate affected and nearby plants",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray spinosad outdoors out of direct sun, repeating weekly",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Bring treated plant inside after drying",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply a systemic soil pesticide, repeating at 6–8 weeks",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Inspect for new thrips and damage to decide when to stop spraying",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternative: apply neem oil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Alternative: apply horticultural oil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Alternative: apply insecticidal soap",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Alternative: apply pyrethrin, alternating with soap in the Canada option",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": true
+      },
+      {
+        "action": "Alternative: hang predatory-mite sachets, optionally with systemic soil treatment",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Once two healthy leaves grow, remove one worst-damaged leaf; repeat",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The main pest diagnosis and repeated insecticide advice match the confirmed recovery; low light is omitted, while compatibility and dosage caveats remain insufficient."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Spinosad should be sprayed outdoors out of direct sun” supplies a useful precaution. However, “the systemic will not hurt the mites” and preventive continuation are broad claims without product-specific compatibility, label-dose or household exposure guidance; these leave safety caveats unresolved rather than proving an incompatible combination here."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "“Even a mild infestation can cause extensive damage” and the yellow/brown patches fit this case’s few visible thrips and continuing leaf damage. The repeated spray/systemic advice matches the outcome, although the secondary low-light issue is omitted and the long product list is not tailored to the owner’s exact treatment."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“Repeated about once a week” provides a workable schedule, and EU product examples suit the Portugal context. Choosing among spray, systemic and mite alternatives, treating every plant, and lacking product doses adds expense and ambiguity."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 1,
+  "thread_id": "16w508b",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 1,
+    "thread_id": "16w508b",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1440965016689851/posts/1764240964362253/",
+    "evidence_file": "001-source-01.txt",
+    "start_line": 55,
+    "end_line": 114,
+    "advice": "          - generic: Thorn Stumpwater\n        - generic: This is a thrips infestation. You'll need to treat it as well as all your other plants (even the succulent) as they're highly contagious.\n        - img \"🪳\"\n        - img \"🪳\"\n        - img \"🪳\"\n        - text: \"THRIPS INFO:\"\n        - img \"💡\"\n        - text: Thrips are sap-eating pests that use their rasping mouthparts to scrape the leaf surface and make it \"bleed\". Their feeding damage causes silvery/light brown dry patches, sometimes with lighter \"scribbly\" lines or patches from where they've marched along to feed. Even a mild infestation can cause extensive damage and decline of a plant. On aroids they tend to cause a yellow/brown/orangeish \"rash\" especially under the leaves. Especially in the dry patches, you may also see tiny black dots about the size of this dot (.) which are thrips frass (poo). The signs of thrips are often more obvious under the leaf than on top.\n        - img \"🔎\"\n        - text: They're very tiny and elusive and tend to be slow-moving, easy to mistake for dust or debris - the insects are about as big as this dash (-) is on your screen. The larvae look a bit like a tiny white, yellowish, or cream-coloured grain of rice, while the adults are a skinny, long insect that resembles a miniature earwig, and come in shades of brown to black.\n        - generic: 🛈 They can come in on other plants, your clothes if you brush past an infested plant outside, on the fur of pets that come in and out, and the adults can fly short distances (though you won't see them buzzing around your plants).\n        - img \"❗\"\n        - text: They're also particularly hard to eradicate, and *very* contagious. Isolate any plants that have signs of thrips, as well as any plants that were nearby (as they probably have thrips now too). To be safe, it's usually best to treat every plant in the house.\n        - img \"🪳\"\n        - img \"🪳\"\n        - img \"🪳\"\n        - text: \"THRIPS TREATMENT:\"\n        - img \"🔫\"\n        - text: \"The most effective pesticide treatment against thrips is a combination of a spinosad spray and a systemic to treat the soil. Spinosad should be sprayed outdoors out of direct sun, but you can bring the plant inside once it's dried. Common spinosad products include:\"\n        - generic: • Captain Jack's Dead Bug Brew (US)\n        - generic: • Monterey Garden Insect Spray (US/UK)\n        - generic: • Edialux Conserve Garden (EU)\n        - generic: • Yates Success Ultra Insect Control (AU)\n        - img \"🛡️\"\n        - text: \"When possible, use spinosad in combination with a systemic, which will be taken up by the plant and make it toxic to sap-sucking insects. Systemic products you may be able to find include:\"\n        - generic: • Bonide Systemic Houseplant Granules (US)\n        - generic: • Bug Clear Ultra (UK)\n        - generic: • KB-Multisect (EU)\n        - generic: • Substral Duo-Stick (EU)\n        - generic: • Edialux For-Insect (EU)\n        - generic: • Vithal Basinsect (EU)\n        - generic: • Bayer Duo-Stick (EU)\n        - generic: • Searle's Conguard Garden and Lawn Insecticide (AU)\n        - img \"⚠️\"\n        - text: Other pesticides (neem oil, horticultural oil, insecticidal soap, pyrethrin) may be effective against thrips but the combination of spinosad+systemic works better than many other options.\n        - img \"🇨🇦\"\n        - text: \"CANADA: As you cannot get spinosad, systemics, or horticultural neem, your best bet is Doktor Doom pyrethrin products alternating with insecticidal soap, or predatory mites. You may be able to find non-horticultural neem online.\"\n        - img \"🔁\"\n        - text: Any sprayed-on treatment will need to be repeated about once a week till you stop seeing any new signs of thrips damage or thrips themselves. Systemic treatments usually last 6-8 weeks and can be continued preventatively.\n        - img \"🌱\"\n        - text: For a non-pesticide option, you can also use Amblyseius swirskii, Neoseiulus cucumeris, Amblyseius andersoni, or Amblydromalus limonicus predatory mites, which come in a little sachet like a teabag - hang some bags from your plants, and the helpful mites do the rest. They are so tiny they're like dust, and just die off once their job is done. You can get them from Koppert in Canada/US, Nature's Good Guys in the US, or Insect Heroes or Biogroei in the Netherlands.\n        - img \"🤝\"\n        - text: You can combine predatory mites with a systemic applied to the soil. The systemic will not hurt the mites (any exposure to it actually makes them more fertile!). This is my preferred treatment method and what I do for my own plants.\n        - img \"🛑\"\n        - text: Do not repot for thrips. While some species spend a brief period of their life in the soil, it's not a stage where they're feeding on your plants, and it's not all species that even do that. Treating the plant without repotting is very effective if you do it right, and replacing the soil is a *lot* of stress on an already-struggling plant.\n        - img \"🚫\"\n        - text: Thrips lay eggs in the leaves and spread quickly. Do not cut off affected leaves immediately, as *all* leaves are infested on a plant with thrips, even if you don't see them there. Just treat, and if the damage bothers you, wait till 2 healthy new leaves grow, then remove the worst-damaged old leaf. Repeat this 2-in-1-out until the plant is back to beautiful.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1440965016689851/posts/1764240964362253/?comment_id=1764873550965661&__cft__[0]=AZiu0SVvoIgAXNl1-7wUfYECrph47imJiqWPjRWHyN-gpdTmw_LP0G6H85ttwfk1oP5r9H3f8-Qs2k3HDmMBSbApyNM4_7mlBMkg20BX8tgRSdHSdVrTorGdsTYf9v6v9hvOP1kFG8Be57yTuGrfcad8I575YVk9FPjytOFK93ODK8Lr6j9HKEqI7Q8xkw&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Mariola Tobiasz a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Mariola Tobiasz\":\n          - generic: Mariola Tobiasz\n        - generic: Szkodniki",
+    "reason": "Highest-ranked source discusses the same yellow/brown spotting and new-leaf damage, with complete thrips-treatment instructions in the visible primary comment. Hidden replies remain an access limitation.",
+    "frozen_at": "2026-10-29T03:56:17.836154+00:00",
+    "raw_sha256": "ca76ac8bde0941f49977d513f0ca50dad0542f8d0191f10475e8badbf8b28c99",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:02:47.127533+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

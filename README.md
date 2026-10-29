@@ -138,3 +138,13 @@ Sonnet 5.5 is report baseline B, run through the API.
 - **Diagnosis matches reference:** the judge's "yes" (vs partial or no). **Generic phrases:** advice that could apply to any plant.
 
 Brackets: 95% Wilson interval. Paired by thread (McNemar), only Haiku vs Sonnet differs on safe & useful (p = 0.035). Feasibility ignores the 4-short-action capacity rule (375 of 379 over-capacity answers score 4 or 5), so safe & useful is not Solved; see [eval_methodology.md](eval_methodology.md).
+
+## Google Search baseline (frozen evidence and independent grading)
+
+The [Google baseline guide](data/google_baseline/README.md) contains 192 frozen
+queries, raw source text/transcripts, selected answers and the completed
+[assistant evaluation report](results/google-baseline/assistant-v1/REPORT.html).
+`eval_google.py` can regrade the same evidence with an Anthropic API key, using
+the existing rubrics and separate resumable Claude result directories. Assistant
+and Claude grades are distinct conditions; no Claude Google-baseline run has been
+performed yet. See the guide for commands, contamination flags and limitations.

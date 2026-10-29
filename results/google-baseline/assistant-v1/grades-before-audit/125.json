@@ -1,0 +1,165 @@
+{
+  "reference_action": "Owner explicitly reports watering plus fertilizing, after which azaleas turned green and survived. Waiting and heat protection are prior advice, not independently confirmed interventions; water or fertilizer is a partial central-action match.",
+  "sources": [
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Spring fertilization and deep watering explicitly retrieve both confirmed actions, alongside explanation of normal winter color.",
+      "evidence": [
+        "125-source-02.txt"
+      ],
+      "url": "https://encoreazalea.com/blogs/plant-care/do-encore-azaleas-lose-their-leaves?srsltid=AYCX9vKWkC9tExJMCzxRbX0cDLNTffM3mC821Ctd0DqEnIcyTj_4rSFg"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Late-winter/after-spring-flowering fertilizer retrieves feeding component; also explains purple foliage greening in warmth.",
+      "evidence": [
+        "video-audit-NSONxnimjCY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=NSONxnimjCY"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Readable body tells user to provide enough water to newly planted azalea; partial watering match. Closed accordion contents not assumed.",
+      "evidence": [
+        "125-source-04.txt"
+      ],
+      "url": "https://www.provenwinnerscolorchoice.com/reblooming-azaleas-guide/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Explains seasonal color and future winter protection/late-fall soaking; generic proper watering mention does not specify current recovery watering or feeding.",
+      "evidence": [
+        "125-source-05.txt"
+      ],
+      "url": "https://www.rhododendron.org/protection.htm"
+    },
+    {
+      "rank": 6,
+      "action_hit": "hit",
+      "reason": "Water first season and maintain moist soil, plus spring fertilizer from next year, retrieve OP recovery routine.",
+      "evidence": [
+        "125-source-06.txt"
+      ],
+      "url": "https://help.provenwinnersdirect.com/s/article/Reblooming-Azalea-Growing-Guide-from-Proven-Winners"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Apply annual fertilizer after spring flowering",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Water deeply with drainage",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil acidity and drainage if stress signs persist",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Provide morning sun and afternoon shade in hot climate",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Inspect pests, roots and nutrition if abnormal stress signs occur",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply 2–3 inches mulch",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Check variety hardiness before planting",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Provide wind protection in colder exposed sites",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      }
+    ],
+    "reason": "Directly recognizes normal cold-season reddish/bronze foliage and recommends the reported deep water and spring feeding. Many conditional care tasks and undefined fertilizer/soil adjustments exceed the strict capacity criterion, despite correct main advice."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Water deeply but avoid waterlogging” and stress-triggered inspections limit unnecessary treatment. Fertilizer dosing and handling established roots during soil changes are unspecified, but the advice does not demand destructive intervention."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "“Purples and bronzes in cool weather are normal” directly addresses the winter color concern. Deep watering and spring fertilization overlap the owner’s reported recovery, although generic alternatives extend beyond the case."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The article gives mulch depth and seasonal feeding timing with ordinary gardening tasks. Fertilizer quantity, soil modification and protection details are incomplete, and the collection of conditional tasks is broader than a simple recovery plan."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 125,
+  "thread_id": "1jwevyi",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 125,
+    "thread_id": "1jwevyi",
+    "selected_rank": 2,
+    "source_url": "https://encoreazalea.com/blogs/plant-care/do-encore-azaleas-lose-their-leaves?srsltid=AYCX9vKWkC9tExJMCzxRbX0cDLNTffM3mC821Ctd0DqEnIcyTj_4rSFg",
+    "spans": [
+      {
+        "file": "125-source-02.txt",
+        "start_line": 55,
+        "end_line": 143,
+        "sha256": "9b24f5008d1f61b46d85cd083656c4fb0c27471671dcc3e13f6594cdec1ec18f",
+        "text": "  - paragraph: Encore Azaleas are loved for their repeat blooms, but their foliage is part of the show, too. As an evergreen azalea, Encore keeps its leaves throughout the year, giving your garden structure and color even when the flowers are not in bloom. Still, many gardeners notice their azalea leaves turning red, purple, bronze, or burgundy at certain times of year. The good news? In many cases, this color change is completely normal!\n  - paragraph:\n    - text: Ready to add that lasting color to your own garden?\n    - strong:\n      - link \"Explore Encore Azalea varieties\":\n        - /url: https://encoreazalea.com/collections/all\n    - text: or use our\n    - link \"Garden Center Locator\":\n      - /url: https://encoreazalea.com/pages/garden-center-locator\n      - strong: Garden Center Locator\n    - text: tool to find a retailer near you.\n  - heading \"Winter Foliage\" [level=2]\n  - paragraph:\n    - text: Most Encores have medium- to dark-green foliage all year. On occasion, you will see Encore Azaleas with less green foliage – some of the white flowering varieties have lighter green foliage. Fall and winter foliage on some\n    - text: varieties – check out\n    - link \"Autumn Amethyst®\":\n      - /url: https://encoreazalea.com/products/autumn-amethyst?srsltid=AfmBOopFFRkjzlI2pXM0DQqB38lZ7WPDkkRSSBz5ygiDU6lh0nZupNaD\n      - strong: Autumn Amethyst®\n    - text: \",\"\n    - link \"Autumn Princess®\":\n      - /url: https://encoreazalea.com/products/autumn-princess?srsltid=AfmBOorH6-hqPPv4_YArBN6909nq6bAeAV-YdHdfG1o3jcTrMXoIbAzJ\n      - strong: Autumn Princess®\n    - text: \", and\"\n    - link \"Autumn Sundance®\":\n      - /url: https://encoreazalea.com/products/autumn-sundance?srsltid=AfmBOor7U9C8iFdcnjdPtBCBfZ2kkWFlkUwwkiLmzXyo_-EPmGBi1zbw\n      - strong: Autumn Sundance®\n    - strong: \",\"\n    - text: for example – have purple-to-bronzy tinges as cooler temperatures and shorter day lengths\n    - text: set in. This foliage color change enhances the look of your Encores in the winter landscape and is typical for an evergreen azalea.\n  - heading \"Is Leaf Drop Normal on an Evergreen Azalea Bush?\" [level=2]\n  - paragraph: As with all types of evergreen plants, Encore Azaleas drop a small amount of foliage in the late winter and early spring as new foliage emerges. Because an evergreen azalea bush holds leaves longer, this light shedding is normal and not a sign of decline.\n  - paragraph: You may also see some natural defoliation of lower-growing foliage at other times of the year – this would be attributable to drought or excess moisture stress, low soil fertility (lack of fertilizer), and shading from the upper canopy. When stress is present, you might also notice azalea leaves turning red beyond the usual cool-season tinting. If you see azalea leaves turning red in warm weather or wilting, consider adjusting water and checking soil conditions, as even an evergreen azalea can react to environmental factors.\n  - heading \"How to Keep Evergreen Azalea Foliage Healthy\" [level=2]\n  - paragraph\n  - paragraph:\n    - text: Annual fertilization in the spring after flowering (\n    - strong:\n      - link \"using an azalea food such as Espoma Azalea Tone\":\n        - /url: https://www.plantsbymail.com/products/espoma-organic-azalea-tone\n    - text: \") helps with foliage color. Also, having your azaleas growing in the recommended acid soil helps foliage color and vigor. Good cultural practices keep an evergreen azalea looking its best: plant your evergreen azalea bush in well-drained, acidic soil; water deeply but avoid waterlogging; and provide morning sun with afternoon shade in hotter climates. These steps support steady color and reduce stress-related issues on an evergreen azalea.\"\n  - paragraph: If you admire the seasonal tints, remember that purples and bronzes in cool weather are normal for this group and add winter interest to an evergreen azalea landscape. However, if discoloration appears alongside other problems—such as leaf drop outside the usual late-winter flush, stunted growth, or spotting—inspect for pests, root issues, or nutritional imbalances. Mulching and avoiding overwatering are simple ways to protect roots on an evergreen azalea bush and keep the canopy full.\n  - heading \"Cold Tolerance and Planting Zones\" [level=3]\n  - paragraph:\n    - text: \"Evergreen azaleas, including many Encore varieties, are generally suitable for USDA Zones 6–9, with some performing into Zone 10 in mild coastal sites. In colder regions, site selection and winter protection become more important. Among evergreen azaleas known for better cold tolerance, several Encore selections stand out:\"\n    - strong:\n      - link \"Autumn Amethyst®\":\n        - /url: https://encoreazalea.com/products/autumn-amethyst?srsltid=AfmBOoosmgSpNlpRB9zK2EOhb_MhrsPv7r-pyqstxYuBftX1u0KH7v4y\n    - text: \",\"\n    - strong:\n      - link \"Autumn Royalty®\":\n        - /url: https://encoreazalea.com/products/autumn-royalty?srsltid=AfmBOoqZmr0ceD_ZOZNsbmaR0_wz5shubEhnDicyNEKZD306GMGX2KsL\n    - text: \",\"\n    - strong:\n      - link \"Autumn Embers®\":\n        - /url: https://encoreazalea.com/products/autumn-embers?srsltid=AfmBOoqAfN3fpdUmeFraeKr_PujyhARXyKAazRiiuMXrWyUI1tcHCb3c\n    - text: \", and\"\n    - strong:\n      - link \"Autumn Carnation®\":\n        - /url: https://encoreazalea.com/products/autumn-carnation?srsltid=AfmBOop2zeiVWl8rjfRJU36-QnioulZPz66AH-lLc_5wVDNxdSh0mLmJ\n    - text: are commonly grown through Zone 6 and are favored in cooler climates for their reliable foliage retention and bloom performance.\n  - paragraph:\n    - text: If you garden at the colder edge of suitability (upper Zone 6 or exposed locations),\n    - strong:\n      - link \"choose the more cold-tolerant varieties\":\n        - /url: https://encoreazalea.com/blogs/plant-care/26-cold-hardy-encore-azaleas?srsltid=AfmBOopzbRX8JnFTD2C-wUyfTUmiz3xm2xVLypVfErkrADX2yB4dI-_0\n    - text: such as the ones listed above, plant in a protected spot with morning sun and afternoon shade, and apply 2–3 inches of mulch to buffer root temperatures. In areas consistently colder than Zone 6, consider wind protection and avoid late-season fertilization that can spur tender growth before frost. With these practices, the right evergreen azalea varieties can hold foliage well and overwinter successfully in many temperate landscapes.\n  - heading \"Evergreen Azalea FAQs\" [level=2]\n  - paragraph:\n    - strong:\n      - emphasis: Which evergreen azalea varieties tolerate cold climates best?\n  - paragraph:\n    - text: Some evergreen azalea varieties are better suited for colder climates than others. For Encore Azaleas,\n    - strong:\n      - link \"cold-hardy options.\":\n        - /url: https://encoreazalea.com/blogs/plant-care/26-cold-hardy-encore-azaleas?srsltid=AfmBOopzbRX8JnFTD2C-wUyfTUmiz3xm2xVLypVfErkrADX2yB4dI-_0\n    - text: These varieties are often good choices for gardeners in cooler regions who still want the year-round foliage of an evergreen azalea bush.\n  - paragraph: If you live near the colder edge of your planting zone, choose a protected planting site, add mulch around the root zone, and avoid late-season fertilizing. These steps can help reduce winter stress and support healthier foliage in spring.\n  - paragraph:\n    - emphasis:\n      - strong: What USDA zones are suitable for planting evergreen azaleas?\n  - paragraph:\n    - text: Many evergreen azaleas grow well in USDA Zones 6–10, though exact hardiness depends on the specific variety. Many Encore Azalea varieties are suitable for Zones 6b–10, while select varieties can grow in\n    - strong:\n      - link \"Zone 6a\":\n        - /url: https://encoreazalea.com/blogs/plant-care/26-cold-hardy-encore-azaleas?srsltid=AfmBOopzbRX8JnFTD2C-wUyfTUmiz3xm2xVLypVfErkrADX2yB4dI-_0\n    - text: with the right site conditions and winter protection.\n  - paragraph: Before planting, check the hardiness range for your specific variety. In colder zones, plant your evergreen azalea bush where it has some protection from harsh winter wind, and apply mulch to help insulate the roots.\n  - paragraph: If your azalea leaves are turning red, bronze, or purple in fall or winter, it is often a normal seasonal change. Many evergreen azalea varieties develop richer foliage tones as temperatures cool, adding extra color and interest to the garden when other plants may be bare.\n  - paragraph: If the color change happens during warm weather or appears along with wilting, heavy leaf drop, or other signs of stress, take a closer look at water, drainage, soil conditions, and sunlight. With the right care and the right variety for your zone, an evergreen azalea bush can provide beautiful foliage, seasonal color, and repeat blooms year after year."
+      }
+    ],
+    "advice": "  - paragraph: Encore Azaleas are loved for their repeat blooms, but their foliage is part of the show, too. As an evergreen azalea, Encore keeps its leaves throughout the year, giving your garden structure and color even when the flowers are not in bloom. Still, many gardeners notice their azalea leaves turning red, purple, bronze, or burgundy at certain times of year. The good news? In many cases, this color change is completely normal!\n  - paragraph:\n    - text: Ready to add that lasting color to your own garden?\n    - strong:\n      - link \"Explore Encore Azalea varieties\":\n        - /url: https://encoreazalea.com/collections/all\n    - text: or use our\n    - link \"Garden Center Locator\":\n      - /url: https://encoreazalea.com/pages/garden-center-locator\n      - strong: Garden Center Locator\n    - text: tool to find a retailer near you.\n  - heading \"Winter Foliage\" [level=2]\n  - paragraph:\n    - text: Most Encores have medium- to dark-green foliage all year. On occasion, you will see Encore Azaleas with less green foliage – some of the white flowering varieties have lighter green foliage. Fall and winter foliage on some\n    - text: varieties – check out\n    - link \"Autumn Amethyst®\":\n      - /url: https://encoreazalea.com/products/autumn-amethyst?srsltid=AfmBOopFFRkjzlI2pXM0DQqB38lZ7WPDkkRSSBz5ygiDU6lh0nZupNaD\n      - strong: Autumn Amethyst®\n    - text: \",\"\n    - link \"Autumn Princess®\":\n      - /url: https://encoreazalea.com/products/autumn-princess?srsltid=AfmBOorH6-hqPPv4_YArBN6909nq6bAeAV-YdHdfG1o3jcTrMXoIbAzJ\n      - strong: Autumn Princess®\n    - text: \", and\"\n    - link \"Autumn Sundance®\":\n      - /url: https://encoreazalea.com/products/autumn-sundance?srsltid=AfmBOor7U9C8iFdcnjdPtBCBfZ2kkWFlkUwwkiLmzXyo_-EPmGBi1zbw\n      - strong: Autumn Sundance®\n    - strong: \",\"\n    - text: for example – have purple-to-bronzy tinges as cooler temperatures and shorter day lengths\n    - text: set in. This foliage color change enhances the look of your Encores in the winter landscape and is typical for an evergreen azalea.\n  - heading \"Is Leaf Drop Normal on an Evergreen Azalea Bush?\" [level=2]\n  - paragraph: As with all types of evergreen plants, Encore Azaleas drop a small amount of foliage in the late winter and early spring as new foliage emerges. Because an evergreen azalea bush holds leaves longer, this light shedding is normal and not a sign of decline.\n  - paragraph: You may also see some natural defoliation of lower-growing foliage at other times of the year – this would be attributable to drought or excess moisture stress, low soil fertility (lack of fertilizer), and shading from the upper canopy. When stress is present, you might also notice azalea leaves turning red beyond the usual cool-season tinting. If you see azalea leaves turning red in warm weather or wilting, consider adjusting water and checking soil conditions, as even an evergreen azalea can react to environmental factors.\n  - heading \"How to Keep Evergreen Azalea Foliage Healthy\" [level=2]\n  - paragraph\n  - paragraph:\n    - text: Annual fertilization in the spring after flowering (\n    - strong:\n      - link \"using an azalea food such as Espoma Azalea Tone\":\n        - /url: https://www.plantsbymail.com/products/espoma-organic-azalea-tone\n    - text: \") helps with foliage color. Also, having your azaleas growing in the recommended acid soil helps foliage color and vigor. Good cultural practices keep an evergreen azalea looking its best: plant your evergreen azalea bush in well-drained, acidic soil; water deeply but avoid waterlogging; and provide morning sun with afternoon shade in hotter climates. These steps support steady color and reduce stress-related issues on an evergreen azalea.\"\n  - paragraph: If you admire the seasonal tints, remember that purples and bronzes in cool weather are normal for this group and add winter interest to an evergreen azalea landscape. However, if discoloration appears alongside other problems—such as leaf drop outside the usual late-winter flush, stunted growth, or spotting—inspect for pests, root issues, or nutritional imbalances. Mulching and avoiding overwatering are simple ways to protect roots on an evergreen azalea bush and keep the canopy full.\n  - heading \"Cold Tolerance and Planting Zones\" [level=3]\n  - paragraph:\n    - text: \"Evergreen azaleas, including many Encore varieties, are generally suitable for USDA Zones 6–9, with some performing into Zone 10 in mild coastal sites. In colder regions, site selection and winter protection become more important. Among evergreen azaleas known for better cold tolerance, several Encore selections stand out:\"\n    - strong:\n      - link \"Autumn Amethyst®\":\n        - /url: https://encoreazalea.com/products/autumn-amethyst?srsltid=AfmBOoosmgSpNlpRB9zK2EOhb_MhrsPv7r-pyqstxYuBftX1u0KH7v4y\n    - text: \",\"\n    - strong:\n      - link \"Autumn Royalty®\":\n        - /url: https://encoreazalea.com/products/autumn-royalty?srsltid=AfmBOoqZmr0ceD_ZOZNsbmaR0_wz5shubEhnDicyNEKZD306GMGX2KsL\n    - text: \",\"\n    - strong:\n      - link \"Autumn Embers®\":\n        - /url: https://encoreazalea.com/products/autumn-embers?srsltid=AfmBOoqAfN3fpdUmeFraeKr_PujyhARXyKAazRiiuMXrWyUI1tcHCb3c\n    - text: \", and\"\n    - strong:\n      - link \"Autumn Carnation®\":\n        - /url: https://encoreazalea.com/products/autumn-carnation?srsltid=AfmBOop2zeiVWl8rjfRJU36-QnioulZPz66AH-lLc_5wVDNxdSh0mLmJ\n    - text: are commonly grown through Zone 6 and are favored in cooler climates for their reliable foliage retention and bloom performance.\n  - paragraph:\n    - text: If you garden at the colder edge of suitability (upper Zone 6 or exposed locations),\n    - strong:\n      - link \"choose the more cold-tolerant varieties\":\n        - /url: https://encoreazalea.com/blogs/plant-care/26-cold-hardy-encore-azaleas?srsltid=AfmBOopzbRX8JnFTD2C-wUyfTUmiz3xm2xVLypVfErkrADX2yB4dI-_0\n    - text: such as the ones listed above, plant in a protected spot with morning sun and afternoon shade, and apply 2–3 inches of mulch to buffer root temperatures. In areas consistently colder than Zone 6, consider wind protection and avoid late-season fertilization that can spur tender growth before frost. With these practices, the right evergreen azalea varieties can hold foliage well and overwinter successfully in many temperate landscapes.\n  - heading \"Evergreen Azalea FAQs\" [level=2]\n  - paragraph:\n    - strong:\n      - emphasis: Which evergreen azalea varieties tolerate cold climates best?\n  - paragraph:\n    - text: Some evergreen azalea varieties are better suited for colder climates than others. For Encore Azaleas,\n    - strong:\n      - link \"cold-hardy options.\":\n        - /url: https://encoreazalea.com/blogs/plant-care/26-cold-hardy-encore-azaleas?srsltid=AfmBOopzbRX8JnFTD2C-wUyfTUmiz3xm2xVLypVfErkrADX2yB4dI-_0\n    - text: These varieties are often good choices for gardeners in cooler regions who still want the year-round foliage of an evergreen azalea bush.\n  - paragraph: If you live near the colder edge of your planting zone, choose a protected planting site, add mulch around the root zone, and avoid late-season fertilizing. These steps can help reduce winter stress and support healthier foliage in spring.\n  - paragraph:\n    - emphasis:\n      - strong: What USDA zones are suitable for planting evergreen azaleas?\n  - paragraph:\n    - text: Many evergreen azaleas grow well in USDA Zones 6–10, though exact hardiness depends on the specific variety. Many Encore Azalea varieties are suitable for Zones 6b–10, while select varieties can grow in\n    - strong:\n      - link \"Zone 6a\":\n        - /url: https://encoreazalea.com/blogs/plant-care/26-cold-hardy-encore-azaleas?srsltid=AfmBOopzbRX8JnFTD2C-wUyfTUmiz3xm2xVLypVfErkrADX2yB4dI-_0\n    - text: with the right site conditions and winter protection.\n  - paragraph: Before planting, check the hardiness range for your specific variety. In colder zones, plant your evergreen azalea bush where it has some protection from harsh winter wind, and apply mulch to help insulate the roots.\n  - paragraph: If your azalea leaves are turning red, bronze, or purple in fall or winter, it is often a normal seasonal change. Many evergreen azalea varieties develop richer foliage tones as temperatures cool, adding extra color and interest to the garden when other plants may be bare.\n  - paragraph: If the color change happens during warm weather or appears along with wilting, heavy leaf drop, or other signs of stress, take a closer look at water, drainage, soil conditions, and sunlight. With the right care and the right variety for your zone, an evergreen azalea bush can provide beautiful foliage, seasonal color, and repeat blooms year after year.",
+    "reason": "Highest eligible result: directly explains red winter foliage and includes conditional stress checks and care.",
+    "frozen_at": "2026-10-29T05:45:25.239796+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:46:31.553451+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

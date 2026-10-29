@@ -1,0 +1,235 @@
+{
+  "reference_action": "Underwatered store basil: soak pot in water for 20 minutes, keep warm and water regularly. OP confirms a 20-minute bath plus removing some plants caused recovery within hours.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Predominant complete drying, feeding and replacement advice does not provide the thorough soak that revived this basil. Bigger pots and pruning alone are insufficient.",
+      "evidence": [
+        "024-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/gardening/comments/hijow/how_can_i_revive_my_basil_plant/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "The video identifies drought stress and explicitly gives a good soak from above, drains excess and keeps compost from fully drying. This reproduces central rehydration although repot/feed/prune extras exceed the reference.",
+      "evidence": [
+        "video-audit-1thqpIwkFqI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=1thqpIwkFqI"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "The first method separates clumps and puts the planted pot back to soak until the new medium is moist. Soaking and reducing crowding overlap both OP-reported actions, though substantial root disturbance is an extra.",
+      "evidence": [
+        "video-audit-uDbNDh1u-7g-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=uDbNDh1u-7g"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Short video lacks captured advice/transcript; linking a related long video does not establish the short’s content.",
+      "evidence": [
+        "024-source-04.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/kHnw5RGH4go"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Video shell contains no verifiable remedy or transcript.",
+      "evidence": [
+        "024-source-05.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/ih9X1iT5jDk"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Wait 3–4 days and let soil dry completely between waterings",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feed fish emulsion",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Check balcony sun exposure",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Transplant into bigger pot or ground",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Buy replacement basil or raise from seed",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Tie branches down",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Top above nodes after six inches tall",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Separate or pull back branches",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pinch stems to bend branches",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove undergrowth until stem is woody",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add moisture-retaining granules",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Use worm castings as alternative",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Protect from cold wind",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Remove dead or withered leaves and stems",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Overwatering/death framing and complete drying conflict with the successful soak; replacement and aggressive training may sacrifice or further stress a recoverable plant."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“The soil has to completely dry” would worsen the confirmed drought problem. “It’s dead, get another” could discard a plant that recovered within hours, while branch pinching and fertilizer add stress without addressing thirst."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The main diagnosis is “too damp,” opposite the validated underwatering. No visible comment gives the successful thorough bath, and much of the discussion is about training mature basil."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "A larger pot and dead-leaf removal are ordinary tasks. Fish emulsion and granules lack dosage, while contradictory rescue-versus-replace instructions and complex branch training make the overall answer ambiguous."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 24,
+  "thread_id": "1h8hroj",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 24,
+    "thread_id": "1h8hroj",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/gardening/comments/hijow/how_can_i_revive_my_basil_plant/",
+    "spans": [
+      {
+        "file": "024-source-01.txt",
+        "start_line": 187,
+        "end_line": 193,
+        "sha256": "6ba5e2766367dd682635891d430b1ec4275b087ec98417029fc7c80ef005ea67",
+        "text": "          - text: How often are you watering it? It looks like it is too damp. Give it a good 3-4 days between watering, the soil has to completely dry our or else your roots will get mushy (just like the\n          - link \"brown basil leaves\":\n            - /url: /search/?q=basil+brown+leaves&cId=7f5e69c7-dcb6-41aa-bd97-cc2831ea01bb&iId=eb5bf54b-137d-4c4a-8093-2591125a84ba\n            - text: brown basil leaves\n          - text: look up top).\n        - paragraph:\n          - text: \"Some other good tips:\""
+      },
+      {
+        "file": "024-source-01.txt",
+        "start_line": 225,
+        "end_line": 251,
+        "sha256": "6ba5e2766367dd682635891d430b1ec4275b087ec98417029fc7c80ef005ea67",
+        "text": "        - paragraph: Feed it! Get some fish emulsion.\n      - 'article \"Comment thread level 1: Reply from flaxeater 16 years ago\"':\n        - generic \"flaxeater's profile --- avatar flaxeater's profile 16y ago\":\n          - link \"flaxeater's profile --- avatar\":\n            - /url: https://www.reddit.com/user/flaxeater/\n            - img \"u/flaxeater avatar\"\n          - link \"flaxeater's profile\":\n            - /url: https://www.reddit.com/user/flaxeater/\n            - generic: flaxeater\n          - generic: •\n          - link \"16y ago\":\n            - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vq7i6/\n            - time: 16y ago\n        - paragraph: Does your balcony have south exposure?\n    - article \"Comment from egeverything 16 years ago\":\n      - generic \"egeverything's profile --- avatar egeverything's profile 16y ago\":\n        - link \"egeverything's profile --- avatar\":\n          - /url: https://www.reddit.com/user/egeverything/\n          - img \"u/egeverything avatar\"\n        - link \"egeverything's profile\":\n          - /url: https://www.reddit.com/user/egeverything/\n          - generic: egeverything\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1voqd4/\n          - time: 16y ago\n      - paragraph: I would transplant it into a bigger pot or the ground, the roots might be rootbound, the pot its in looks pretty shallow."
+      },
+      {
+        "file": "024-source-01.txt",
+        "start_line": 277,
+        "end_line": 302,
+        "sha256": "6ba5e2766367dd682635891d430b1ec4275b087ec98417029fc7c80ef005ea67",
+        "text": "          - paragraph: Do you live near an Ikea? They have some amazing, cheap pots.\n        - 'article \"Comment thread level 2: Reply from Jyxtrant 16 years ago\"':\n          - generic \"Jyxtrant's profile --- avatar Jyxtrant's profile 16y ago\":\n            - link \"Jyxtrant's profile --- avatar\":\n              - /url: https://www.reddit.com/user/Jyxtrant/\n            - link \"Jyxtrant's profile\":\n              - /url: https://www.reddit.com/user/Jyxtrant/\n              - generic: Jyxtrant\n            - generic: •\n            - link \"16y ago\":\n              - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vrmot/\n              - time: 16y ago\n          - paragraph: Do you live near an Ikea? They have some amazing, cheap pots.\n    - article \"Comment from stevenfong 16 years ago\":\n      - generic \"stevenfong's profile --- avatar stevenfong's profile 16y ago\":\n        - link \"stevenfong's profile --- avatar\":\n          - /url: https://www.reddit.com/user/stevenfong/\n          - img \"u/stevenfong avatar\"\n        - link \"stevenfong's profile\":\n          - /url: https://www.reddit.com/user/stevenfong/\n          - generic: stevenfong\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vpb6f/\n          - time: 16y ago\n      - paragraph: Buy a new one, it'll set you back $2."
+      },
+      {
+        "file": "024-source-01.txt",
+        "start_line": 361,
+        "end_line": 420,
+        "sha256": "6ba5e2766367dd682635891d430b1ec4275b087ec98417029fc7c80ef005ea67",
+        "text": "        - text: It's dead, get another. Basil grows fast, my first basil grew to 5 ft before i refined my\n        - link \"topping/supercropping methods\":\n          - /url: /search/?q=basil+topping+supercropping+methods&cId=a6c50fc7-cc4e-4f05-a5e8-62ff66251161&iId=a17089a0-00d6-45ad-8b65-20413f162d95\n          - text: topping/supercropping methods\n        - text: .\n      - 'article \"Comment thread level 1: Reply from [deleted] 16 years ago\"':\n        - generic \"[deleted] 16y ago\":\n          - generic: \"[deleted]\"\n          - generic: •\n          - time: 16y ago\n        - paragraph: Comment deleted by user\n        - 'article \"Comment thread level 2: Reply from cheeeeeese 16 years ago\"':\n          - generic \"cheeeeeese's profile --- avatar cheeeeeese's profile 16y ago\":\n            - link \"cheeeeeese's profile --- avatar\":\n              - /url: https://www.reddit.com/user/cheeeeeese/\n            - link \"cheeeeeese's profile\":\n              - /url: https://www.reddit.com/user/cheeeeeese/\n              - generic: cheeeeeese\n            - generic: •\n            - link \"16y ago\":\n              - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vuqq8/\n              - time: 16y ago\n          - paragraph: \"Tie branches down/not up, cut tops just above nodes (below newest growth) to entice multiple branches (start after plant is at least 6 inches), separate/pull back branches to minimize overcrowding and potential habitats for pests (give leaves growing room), pinch stems to bend branches, and most importantly keep under growth minimal until you have a hearty/woody stem. Most of all this requires a 6\\\" plant. But it is not really suggested for plants that are actively flowering (unless you're rearranging budsites and clearing undergrowth). I learned from cannabis, and brought this knowledge to the kitchen garden with excellent results. Best (gardening) advice i ever had was this: \\\"let em get thirsty\\\" -- most herbs like lots of oxygen in the root zone.\"\n    - article \"Comment from knitbyahenshop 16 years ago\":\n      - generic \"knitbyahenshop's profile --- avatar knitbyahenshop's profile 16y ago\":\n        - link \"knitbyahenshop's profile --- avatar\":\n          - /url: https://www.reddit.com/user/knitbyahenshop/\n        - link \"knitbyahenshop's profile\":\n          - /url: https://www.reddit.com/user/knitbyahenshop/\n          - generic: knitbyahenshop\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vpkaw/\n          - time: 16y ago\n      - paragraph:\n        - text: A bigger pot, less watering AND some of this soil moist stuff\n        - link \"http://www.soilmoist.com/\":\n          - /url: http://www.soilmoist.com/\n        - text: . The granules holds on to the water really well and release it as the plant needs it. Did wonders for my basil. In my experience basil needs more water than some plants, but as others said, overwatering potted basil makes roots mushy.\n      - 'article \"Comment thread level 1: Reply from boba79 16 years ago\"':\n        - generic \"boba79's profile --- avatar boba79's profile 16y ago\":\n          - link \"boba79's profile --- avatar\":\n            - /url: https://www.reddit.com/user/boba79/\n          - link \"boba79's profile\":\n            - /url: https://www.reddit.com/user/boba79/\n            - generic: boba79\n          - generic: •\n          - link \"16y ago\":\n            - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vq1q7/\n            - time: 16y ago\n        - paragraph: This is just poor advise. Soilmoist is a chemical (\"When the potting system dries, the polymer will release its water to the plant.\") and you'd have to believe part of those polymers would end up in your basil. Why risk it?\n        - paragraph: If you want to retain water better, use worm castings which contain high levels of microbes. Microbes naturally retain water as well, and they help break down organic materials (safe) that can be ingested by your plants.\n    - article \"Comment from [deleted] 16 years ago\":\n      - generic \"[deleted] 16y ago\":\n        - generic: \"[deleted]\"\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vpyk2/\n          - time: 16y ago\n      - paragraph: Just get another one. You might be overwatering it (can't tell) but if it was as you said, half dead, it might have had some sickness. If you're feeling ambitious, you could even try raise some from seed."
+      },
+      {
+        "file": "024-source-01.txt",
+        "start_line": 488,
+        "end_line": 496,
+        "sha256": "6ba5e2766367dd682635891d430b1ec4275b087ec98417029fc7c80ef005ea67",
+        "text": "      - paragraph: I have heard that basil really dislikes cold winds. If it's on a balcony you might need to protect it from the wind\n    - article \"Comment from [deleted] 16 years ago\":\n      - generic \"[deleted] 16y ago\":\n        - generic: \"[deleted]\"\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1wg1p4/\n          - time: 16y ago\n      - paragraph: A lot of great advice so far. Also, pinching off brown/yellow/dead/withered leaves and stems at the base without disturbing the root (just a clean twist off) will encourage the plant to put it's energy into boosting the healthy leaves and creating new ones, rather than trying to revive the dead and dying ones."
+      }
+    ],
+    "advice": "          - text: How often are you watering it? It looks like it is too damp. Give it a good 3-4 days between watering, the soil has to completely dry our or else your roots will get mushy (just like the\n          - link \"brown basil leaves\":\n            - /url: /search/?q=basil+brown+leaves&cId=7f5e69c7-dcb6-41aa-bd97-cc2831ea01bb&iId=eb5bf54b-137d-4c4a-8093-2591125a84ba\n            - text: brown basil leaves\n          - text: look up top).\n        - paragraph:\n          - text: \"Some other good tips:\"\n\n        - paragraph: Feed it! Get some fish emulsion.\n      - 'article \"Comment thread level 1: Reply from flaxeater 16 years ago\"':\n        - generic \"flaxeater's profile --- avatar flaxeater's profile 16y ago\":\n          - link \"flaxeater's profile --- avatar\":\n            - /url: https://www.reddit.com/user/flaxeater/\n            - img \"u/flaxeater avatar\"\n          - link \"flaxeater's profile\":\n            - /url: https://www.reddit.com/user/flaxeater/\n            - generic: flaxeater\n          - generic: •\n          - link \"16y ago\":\n            - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vq7i6/\n            - time: 16y ago\n        - paragraph: Does your balcony have south exposure?\n    - article \"Comment from egeverything 16 years ago\":\n      - generic \"egeverything's profile --- avatar egeverything's profile 16y ago\":\n        - link \"egeverything's profile --- avatar\":\n          - /url: https://www.reddit.com/user/egeverything/\n          - img \"u/egeverything avatar\"\n        - link \"egeverything's profile\":\n          - /url: https://www.reddit.com/user/egeverything/\n          - generic: egeverything\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1voqd4/\n          - time: 16y ago\n      - paragraph: I would transplant it into a bigger pot or the ground, the roots might be rootbound, the pot its in looks pretty shallow.\n\n          - paragraph: Do you live near an Ikea? They have some amazing, cheap pots.\n        - 'article \"Comment thread level 2: Reply from Jyxtrant 16 years ago\"':\n          - generic \"Jyxtrant's profile --- avatar Jyxtrant's profile 16y ago\":\n            - link \"Jyxtrant's profile --- avatar\":\n              - /url: https://www.reddit.com/user/Jyxtrant/\n            - link \"Jyxtrant's profile\":\n              - /url: https://www.reddit.com/user/Jyxtrant/\n              - generic: Jyxtrant\n            - generic: •\n            - link \"16y ago\":\n              - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vrmot/\n              - time: 16y ago\n          - paragraph: Do you live near an Ikea? They have some amazing, cheap pots.\n    - article \"Comment from stevenfong 16 years ago\":\n      - generic \"stevenfong's profile --- avatar stevenfong's profile 16y ago\":\n        - link \"stevenfong's profile --- avatar\":\n          - /url: https://www.reddit.com/user/stevenfong/\n          - img \"u/stevenfong avatar\"\n        - link \"stevenfong's profile\":\n          - /url: https://www.reddit.com/user/stevenfong/\n          - generic: stevenfong\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vpb6f/\n          - time: 16y ago\n      - paragraph: Buy a new one, it'll set you back $2.\n\n        - text: It's dead, get another. Basil grows fast, my first basil grew to 5 ft before i refined my\n        - link \"topping/supercropping methods\":\n          - /url: /search/?q=basil+topping+supercropping+methods&cId=a6c50fc7-cc4e-4f05-a5e8-62ff66251161&iId=a17089a0-00d6-45ad-8b65-20413f162d95\n          - text: topping/supercropping methods\n        - text: .\n      - 'article \"Comment thread level 1: Reply from [deleted] 16 years ago\"':\n        - generic \"[deleted] 16y ago\":\n          - generic: \"[deleted]\"\n          - generic: •\n          - time: 16y ago\n        - paragraph: Comment deleted by user\n        - 'article \"Comment thread level 2: Reply from cheeeeeese 16 years ago\"':\n          - generic \"cheeeeeese's profile --- avatar cheeeeeese's profile 16y ago\":\n            - link \"cheeeeeese's profile --- avatar\":\n              - /url: https://www.reddit.com/user/cheeeeeese/\n            - link \"cheeeeeese's profile\":\n              - /url: https://www.reddit.com/user/cheeeeeese/\n              - generic: cheeeeeese\n            - generic: •\n            - link \"16y ago\":\n              - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vuqq8/\n              - time: 16y ago\n          - paragraph: \"Tie branches down/not up, cut tops just above nodes (below newest growth) to entice multiple branches (start after plant is at least 6 inches), separate/pull back branches to minimize overcrowding and potential habitats for pests (give leaves growing room), pinch stems to bend branches, and most importantly keep under growth minimal until you have a hearty/woody stem. Most of all this requires a 6\\\" plant. But it is not really suggested for plants that are actively flowering (unless you're rearranging budsites and clearing undergrowth). I learned from cannabis, and brought this knowledge to the kitchen garden with excellent results. Best (gardening) advice i ever had was this: \\\"let em get thirsty\\\" -- most herbs like lots of oxygen in the root zone.\"\n    - article \"Comment from knitbyahenshop 16 years ago\":\n      - generic \"knitbyahenshop's profile --- avatar knitbyahenshop's profile 16y ago\":\n        - link \"knitbyahenshop's profile --- avatar\":\n          - /url: https://www.reddit.com/user/knitbyahenshop/\n        - link \"knitbyahenshop's profile\":\n          - /url: https://www.reddit.com/user/knitbyahenshop/\n          - generic: knitbyahenshop\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vpkaw/\n          - time: 16y ago\n      - paragraph:\n        - text: A bigger pot, less watering AND some of this soil moist stuff\n        - link \"http://www.soilmoist.com/\":\n          - /url: http://www.soilmoist.com/\n        - text: . The granules holds on to the water really well and release it as the plant needs it. Did wonders for my basil. In my experience basil needs more water than some plants, but as others said, overwatering potted basil makes roots mushy.\n      - 'article \"Comment thread level 1: Reply from boba79 16 years ago\"':\n        - generic \"boba79's profile --- avatar boba79's profile 16y ago\":\n          - link \"boba79's profile --- avatar\":\n            - /url: https://www.reddit.com/user/boba79/\n          - link \"boba79's profile\":\n            - /url: https://www.reddit.com/user/boba79/\n            - generic: boba79\n          - generic: •\n          - link \"16y ago\":\n            - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vq1q7/\n            - time: 16y ago\n        - paragraph: This is just poor advise. Soilmoist is a chemical (\"When the potting system dries, the polymer will release its water to the plant.\") and you'd have to believe part of those polymers would end up in your basil. Why risk it?\n        - paragraph: If you want to retain water better, use worm castings which contain high levels of microbes. Microbes naturally retain water as well, and they help break down organic materials (safe) that can be ingested by your plants.\n    - article \"Comment from [deleted] 16 years ago\":\n      - generic \"[deleted] 16y ago\":\n        - generic: \"[deleted]\"\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1vpyk2/\n          - time: 16y ago\n      - paragraph: Just get another one. You might be overwatering it (can't tell) but if it was as you said, half dead, it might have had some sickness. If you're feeling ambitious, you could even try raise some from seed.\n\n      - paragraph: I have heard that basil really dislikes cold winds. If it's on a balcony you might need to protect it from the wind\n    - article \"Comment from [deleted] 16 years ago\":\n      - generic \"[deleted] 16y ago\":\n        - generic: \"[deleted]\"\n        - generic: •\n        - link \"16y ago\":\n          - /url: https://www.reddit.com/r/gardening/comments/hijow/comment/c1wg1p4/\n          - time: 16y ago\n      - paragraph: A lot of great advice so far. Also, pinching off brown/yellow/dead/withered leaves and stems at the base without disturbing the root (just a clean twist off) will encourage the plant to put it's energy into boosting the healthy leaves and creating new ones, rather than trying to revive the dead and dying ones.",
+    "reason": "First usable result; all visible care recommendations including conflicting replacement and rehabilitation advice.",
+    "frozen_at": "2026-10-29T04:23:31.149762+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:24:39.657159+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

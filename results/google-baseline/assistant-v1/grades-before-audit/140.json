@@ -1,0 +1,132 @@
+{
+  "reference_action": "Owner specifically confirms replacing the under-pot tray improved the plant, believing water had run straight through. Count tray/reservoir or bottom-soaking that permits uptake; repot, rotation and brighter location were advice/history, not newly confirmed recovery actions.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Conflicting dry/more-water and soil/light advice does not provide water-retaining tray or soaking method.",
+      "evidence": [
+        "140-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/450960551657512/posts/27987113194282210/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicit bottom watering then draining provides uptake equivalent to the tray; other root-rot advice is extra and may be unsuitable.",
+      "evidence": [
+        "140-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/18vy720/all_of_my_plants_are_dying_dropping_their_leaves/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "unresolved",
+      "reason": "Short title without readable instructions.",
+      "evidence": [
+        "140-source-03.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/goE6sKG6GUg"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Light/root-zone/soil troubleshooting with no tray or soaking instruction.",
+      "evidence": [
+        "140-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=rnLxMtYZwRk"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Root soak is for untangling during repot of soggy Monstera, not uptake rescue; no water tray.",
+      "evidence": [
+        "video-audit-6HAOXCl2RY4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=6HAOXCl2RY4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move gradually into brighter light",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Replace soil with described airy mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Increase watering",
+        "minutes": 4,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Some moisture/light alternatives overlap the dataset diagnosis, but no tray/uptake method matches the owner’s confirmed change. Contradictory dry-versus-more-water comments prevent a coherent plan."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Needs more water” conflicts with “Probably got overwatered.” Gradual light acclimation and aerated soil are safeguards, but greenhouse daily watering could be misapplied indoors."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The source discusses declining established plants and moisture/light conditions. It assumes a snake plant and misses the specific problem of water running through without adequate uptake."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "A gradual move and explicit soil components are useful. “More water, better soil” leaves the essential watering method and amount undefined, and contradictory directions require interpretation."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Needs more water, better soil.. more light"
+    ]
+  },
+  "query_index": 140,
+  "thread_id": "1vyhi1u",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 140,
+    "thread_id": "1vyhi1u",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/450960551657512/posts/27987113194282210/",
+    "spans": [
+      {
+        "file": "140-source-01.txt",
+        "start_line": 53,
+        "end_line": 84,
+        "sha256": "f2ec27b010f8ea4ef5978148f045fed94d730e67f841d6127f867a6eec959e20",
+        "text": "        - generic: Looks like a Sansevieria. Probably got overwatered. They like to go dry. It can be tricky with the low indoor light of summer and higher humidity.\n        - list:\n          - link \"10w\":\n            - /url: https://www.facebook.com/groups/450960551657512/posts/27987113194282210/?comment_id=27991201397206723&__cft__[0]=AZhoB0EJBFfjgdben1uaV00cJjrncED9C0Ei8n27ftN9AS00LzylS57cpspU889fV-e76QOaqkDIE-_yRy3pbqsg5hhWHpZeLBm0qne14c4NaBdzLX75HKQMxQybI3KBHsWC0W5Vbjg9UPCpRMjnAB8-FgpkeQ39RP32QhA34v0t7jHR9aK2ZpMmTjy-bio&__tn__=R]-R\n      - button \"Thomas B Wright replied 1 Reply\":\n        - generic: Thomas B Wright replied\n        - generic: ·\n        - generic: 1 Reply\n      - article \"Comment by Steve Hawkins 10 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Steve Hawkins\":\n          - generic: Steve Hawkins\n        - generic: Hi! Steve at Specialty Tropicals here; looks like a Snake Plant (Dracaena, formerly Sansavieria) called ‘Emerald Star’ from what I can tell.\n        - generic: It would normally be deep-green, but the form of the leaves and the prominent midrib make me think that’s what it is.\n        - generic: Looks like it needs bright light (part-day full sun is good for these, but I’d ease this one into it, since it doesn’t look healthy right now.\n        - generic: What’s the soil mix look like? They grow best in a mix that’s chunky, holding moisture, but also letting the roots breathe. Ours are grown in a mix of 75% peat-substitute (a treated wood fiber that takes the place of peat moss) and the other 25% consists of coarse sand, fir bark, and chunky perlite. They actually like a fair bit of moisture, but they need a potting medium that drains and allows air circulation, to prevent root rot.\n        - generic: In our production greenhouses, they get watered daily and get near-full sun, and they’re very happy with that.\n        - generic: Best of luck with it—they’re beautiful plants!\n        - list:\n          - link \"10w\":\n            - /url: https://www.facebook.com/groups/450960551657512/posts/27987113194282210/?comment_id=27993047627022100&__cft__[0]=AZhoB0EJBFfjgdben1uaV00cJjrncED9C0Ei8n27ftN9AS00LzylS57cpspU889fV-e76QOaqkDIE-_yRy3pbqsg5hhWHpZeLBm0qne14c4NaBdzLX75HKQMxQybI3KBHsWC0W5Vbjg9UPCpRMjnAB8-FgpkeQ39RP32QhA34v0t7jHR9aK2ZpMmTjy-bio&__tn__=R]-R\n      - button \"Steve Hawkins replied 4 Replies\":\n        - generic: Steve Hawkins replied\n        - generic: ·\n        - generic: 4 Replies\n      - article \"Comment by Veda Anama 10 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Veda Anama\":\n          - generic: Veda Anama\n        - generic: Needs more water, better soil.. more light"
+      }
+    ],
+    "advice": "        - generic: Looks like a Sansevieria. Probably got overwatered. They like to go dry. It can be tricky with the low indoor light of summer and higher humidity.\n        - list:\n          - link \"10w\":\n            - /url: https://www.facebook.com/groups/450960551657512/posts/27987113194282210/?comment_id=27991201397206723&__cft__[0]=AZhoB0EJBFfjgdben1uaV00cJjrncED9C0Ei8n27ftN9AS00LzylS57cpspU889fV-e76QOaqkDIE-_yRy3pbqsg5hhWHpZeLBm0qne14c4NaBdzLX75HKQMxQybI3KBHsWC0W5Vbjg9UPCpRMjnAB8-FgpkeQ39RP32QhA34v0t7jHR9aK2ZpMmTjy-bio&__tn__=R]-R\n      - button \"Thomas B Wright replied 1 Reply\":\n        - generic: Thomas B Wright replied\n        - generic: ·\n        - generic: 1 Reply\n      - article \"Comment by Steve Hawkins 10 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Steve Hawkins\":\n          - generic: Steve Hawkins\n        - generic: Hi! Steve at Specialty Tropicals here; looks like a Snake Plant (Dracaena, formerly Sansavieria) called ‘Emerald Star’ from what I can tell.\n        - generic: It would normally be deep-green, but the form of the leaves and the prominent midrib make me think that’s what it is.\n        - generic: Looks like it needs bright light (part-day full sun is good for these, but I’d ease this one into it, since it doesn’t look healthy right now.\n        - generic: What’s the soil mix look like? They grow best in a mix that’s chunky, holding moisture, but also letting the roots breathe. Ours are grown in a mix of 75% peat-substitute (a treated wood fiber that takes the place of peat moss) and the other 25% consists of coarse sand, fir bark, and chunky perlite. They actually like a fair bit of moisture, but they need a potting medium that drains and allows air circulation, to prevent root rot.\n        - generic: In our production greenhouses, they get watered daily and get near-full sun, and they’re very happy with that.\n        - generic: Best of luck with it—they’re beautiful plants!\n        - list:\n          - link \"10w\":\n            - /url: https://www.facebook.com/groups/450960551657512/posts/27987113194282210/?comment_id=27993047627022100&__cft__[0]=AZhoB0EJBFfjgdben1uaV00cJjrncED9C0Ei8n27ftN9AS00LzylS57cpspU889fV-e76QOaqkDIE-_yRy3pbqsg5hhWHpZeLBm0qne14c4NaBdzLX75HKQMxQybI3KBHsWC0W5Vbjg9UPCpRMjnAB8-FgpkeQ39RP32QhA34v0t7jHR9aK2ZpMmTjy-bio&__tn__=R]-R\n      - button \"Steve Hawkins replied 4 Replies\":\n        - generic: Steve Hawkins replied\n        - generic: ·\n        - generic: 4 Replies\n      - article \"Comment by Veda Anama 10 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Veda Anama\":\n          - generic: Veda Anama\n        - generic: Needs more water, better soil.. more light",
+    "reason": "First accessible general decline advice; retain contrasting moisture advice and gradual-light safeguards.",
+    "frozen_at": "2026-10-29T05:58:54.306444+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:59:52.067851+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

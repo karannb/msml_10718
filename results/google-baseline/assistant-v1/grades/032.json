@@ -1,0 +1,151 @@
+{
+  "reference_action": "Indoor shelf conditions/insufficient light: move outside initially shaded to acclimate; extend watering interval indoors. OP explicitly reports vigorous new growth after moving outside.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Root pruning, repotting and drying between waters do not supply the increased-light/outdoor move actually validated by OP. Reduced watering alone is only supporting reference advice.",
+      "evidence": [
+        "032-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1862829750845415/posts/2211602469301473/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Water-stress/drainage and larger-pot advice lacks the validated light/location change. The other OP occasionally placing it outside describes unsuccessful existing care, not a recommended remedy.",
+      "evidence": [
+        "032-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/byucgf/why_are_the_leaves_blackening_in_this_spider_plant/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicitly move somewhere brighter if soil takes too long to dry, or use a grow light when home lacks light, reproduces increased light. Outdoor relocation is not specified.",
+      "evidence": [
+        "video-audit-wiJ_PFgCQ2c-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=wiJ_PFgCQ2c"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Water/humidity checks and moving away from intense sun do not recommend increasing light to correct this case.",
+      "evidence": [
+        "video-audit-LwWt4rV3_bE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=LwWt4rV3_bE"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Supplement with grow light when natural light is absent or move closer to window, supplying increased light; outdoor move itself absent and many unrelated remedies included.",
+      "evidence": [
+        "video-audit-5rfLdXgxYOo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=5rfLdXgxYOo"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Unpot plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Allow substantial drying before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim black leaf ends",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Asserts root rot and instructs root trimming without confirming rot. It misses the validated light correction and could damage healthy roots while delaying the fix."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Rinse and trim roots” follows an unqualified root-rot diagnosis without checking which roots are rotten. This creates an avoidable risk of cutting healthy roots and delays the location change supported by the outcome."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“Root rot” is not the reference cause, and no comment addresses the shaded shelf or outdoor move. Drying between waterings overlaps supporting advice but not the action OP confirmed worked."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“Pull it all out, rinse and trim roots, repot” is understandable but does not specify what to cut or which soil/pot to use. “Be careful on your watering” and “pretty dry” leave important execution details open."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 32,
+  "thread_id": "1e73qwo",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 32,
+    "thread_id": "1e73qwo",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1862829750845415/posts/2211602469301473/",
+    "spans": [
+      {
+        "file": "032-source-01.txt",
+        "start_line": 55,
+        "end_line": 83,
+        "sha256": "e1389444905deb26f190148c0ee66df62acdbd83e2f007730462f7ec231ffb59",
+        "text": "          - generic: Rita Thomas\n        - text: Root rot. Pull it all out, rinse and trim roots, repot.\n        - img \"☮️\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1862829750845415/posts/2211602469301473/?comment_id=2213576595770727&__cft__[0]=AZh-I_MzYWF4P0tdiAumO9GK_ana5V_LBPIU3cJBwcWba42wUZWY9UGzMCyKHkt7BJOlJrlpXR2QRwt_YknvIVLFtiFFYgPpqdrDPfhqSifCyilU6CD1gxGL-h2rRqowflQOa44-iwUGSjO-6KoHUtJbFcaofziOWuATv21BHp2RYiMR6-WGrxRbLD_vq7yY&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - button \"View all 7 replies\":\n        - generic: View all 7 replies\n      - article \"Comment by Amy Copeland Simmons a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Amy Copeland Simmons\":\n          - generic: Amy Copeland Simmons\n        - generic: Over watered? How often do you water it and how much? I let mine get pretty dry before I water it.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1862829750845415/posts/2211602469301473/?comment_id=2213547962440257&__cft__[0]=AZh-I_MzYWF4P0tdiAumO9GK_ana5V_LBPIU3cJBwcWba42wUZWY9UGzMCyKHkt7BJOlJrlpXR2QRwt_YknvIVLFtiFFYgPpqdrDPfhqSifCyilU6CD1gxGL-h2rRqowflQOa44-iwUGSjO-6KoHUtJbFcaofziOWuATv21BHp2RYiMR6-WGrxRbLD_vq7yY&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Kathy Mieczkowski a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kathy Mieczkowski\":\n          - generic: Kathy Mieczkowski\n        - generic: Trim the ends where there is black. And repot. Be careful on your watering."
+      }
+    ],
+    "advice": "          - generic: Rita Thomas\n        - text: Root rot. Pull it all out, rinse and trim roots, repot.\n        - img \"☮️\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1862829750845415/posts/2211602469301473/?comment_id=2213576595770727&__cft__[0]=AZh-I_MzYWF4P0tdiAumO9GK_ana5V_LBPIU3cJBwcWba42wUZWY9UGzMCyKHkt7BJOlJrlpXR2QRwt_YknvIVLFtiFFYgPpqdrDPfhqSifCyilU6CD1gxGL-h2rRqowflQOa44-iwUGSjO-6KoHUtJbFcaofziOWuATv21BHp2RYiMR6-WGrxRbLD_vq7yY&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - button \"View all 7 replies\":\n        - generic: View all 7 replies\n      - article \"Comment by Amy Copeland Simmons a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Amy Copeland Simmons\":\n          - generic: Amy Copeland Simmons\n        - generic: Over watered? How often do you water it and how much? I let mine get pretty dry before I water it.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/1862829750845415/posts/2211602469301473/?comment_id=2213547962440257&__cft__[0]=AZh-I_MzYWF4P0tdiAumO9GK_ana5V_LBPIU3cJBwcWba42wUZWY9UGzMCyKHkt7BJOlJrlpXR2QRwt_YknvIVLFtiFFYgPpqdrDPfhqSifCyilU6CD1gxGL-h2rRqowflQOa44-iwUGSjO-6KoHUtJbFcaofziOWuATv21BHp2RYiMR6-WGrxRbLD_vq7yY&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Kathy Mieczkowski a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kathy Mieczkowski\":\n          - generic: Kathy Mieczkowski\n        - generic: Trim the ends where there is black. And repot. Be careful on your watering.",
+    "reason": "First readable advice, excluding Meta-generated title.",
+    "frozen_at": "2026-10-29T04:31:07.564475+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:32:08.039540+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

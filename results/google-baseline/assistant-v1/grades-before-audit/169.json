@@ -1,0 +1,165 @@
+{
+  "reference_action": "Kalanchoe remains limp despite resumed watering; OP confirms one-hour pot soak made leaves firmer. Flower removal in summary is not the confirmed action.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Water-when-dry, light/pruning/repot alternatives omit thorough soak despite existing routine failing.",
+      "evidence": [
+        "169-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/413plantswap/posts/6025410350857008/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Owner in retrieved thread explicitly gave good soak and reports firmer leaves; directly actionable matching result.",
+      "evidence": [
+        "169-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/succulents/comments/vc4kzk/my_kalancho%C3%ABs_leaves_have_become_pale_and_soft/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Bloom-trigger darkness and dry intervals; no soaking remedy.",
+      "evidence": [
+        "video-audit-yVEF2V6caTo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=yVEF2V6caTo"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Wilting FAQ says if too dry water deeply; partial deep-rehydration match, not timed hour soak.",
+      "evidence": [
+        "169-source-04.txt"
+      ],
+      "url": "https://planetdesert.com/blogs/news/kalanchoe-plant-care-varieties?srsltid=AYCX9vJ2a-jpfkl7g2yTkyoJKerM9UuL3cEYAT7hhC0x52RqfweSlfKe"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Care list explicitly water deeply after mostly drying; partial thorough-watering match.",
+      "evidence": [
+        "169-source-05.txt"
+      ],
+      "url": "https://www.thespruce.com/growing-kalanchoe-plants-1902982"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Remove soft leaves if discolored",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Provide bright light with some direct sun",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check dryness and water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize monthly from March",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": true
+      },
+      {
+        "action": "Trim leggy growth",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Put cuttings in water optionally",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into larger pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Alternatively divide plant",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "Correct plant but general care repeats existing watering rather than rehydrating soil fully. Repot/division alternatives distract from confirmed easy remedy."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Repot into large pot…or split” is unnecessary before checking water absorption. Routine fertilizing lacks dose guidance, though watering only when dry is sensible."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Kalanchoe care is relevant, including soft leaves and light. It does not explain why a month of resumed watering has failed."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Basic light and watering are easy. Several pruning, propagation and repotting alternatives leave the owner with many tasks and no clear priority."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 169,
+  "thread_id": "1de6ote",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 169,
+    "thread_id": "1de6ote",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/413plantswap/posts/6025410350857008/",
+    "spans": [
+      {
+        "file": "169-source-01.txt",
+        "start_line": 54,
+        "end_line": 82,
+        "sha256": "e6f4c568a0561d6b9e0009557699b3d305278df127865fbf97bb7e6d5598893f",
+        "text": "          - generic: Kait Wood\n        - generic: Get rid of the soft leaves if they start to change color. She likes bright indirect light but also likes a little direct sun. Water when dry. She's a really easy plant in my opinion, as long as she gets what she needs. I also fertilize monthly starting march.\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/413plantswap/posts/6025410350857008/?comment_id=6025429594188417&__cft__[0]=AZgjI_M-puSbsJjnGiFWbn1DwU2CTpyjhNz-q3vHa70AjSMC8gT09gQkLyTE-hCtFH0WjyOsRHUPkIpiHmIjqJXE_hTLcF8pUyQOVS4qFjXn4cpetZw7nYsFRfnjPc9svrwUD8DisQcjVQVSeDluKlzimnJuqWyG_rrxpQj_hoa4qWHgPPmOMKypw1Bc&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"Melanie Klein replied 3 Replies\":\n        - generic: Melanie Klein replied\n        - generic: ·\n        - generic: 3 Replies\n      - article \"Comment by Caroline Moore 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Caroline Moore\":\n          - generic: Caroline Moore\n        - text: If it’s leggy, trim it back. You can put the cuttings in water if you want to make more plants.\n        - img \"🙂\"\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/413plantswap/posts/6025410350857008/?comment_id=6026137890784254&__cft__[0]=AZgjI_M-puSbsJjnGiFWbn1DwU2CTpyjhNz-q3vHa70AjSMC8gT09gQkLyTE-hCtFH0WjyOsRHUPkIpiHmIjqJXE_hTLcF8pUyQOVS4qFjXn4cpetZw7nYsFRfnjPc9svrwUD8DisQcjVQVSeDluKlzimnJuqWyG_rrxpQj_hoa4qWHgPPmOMKypw1Bc&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Jane Jacobus 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jane Jacobus\":\n          - generic: Jane Jacobus\n        - generic: You might want to repot into large pot with fresh soil or split it into 2 plants. It's quite large. The roots may be becoming root bound."
+      }
+    ],
+    "advice": "          - generic: Kait Wood\n        - generic: Get rid of the soft leaves if they start to change color. She likes bright indirect light but also likes a little direct sun. Water when dry. She's a really easy plant in my opinion, as long as she gets what she needs. I also fertilize monthly starting march.\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/413plantswap/posts/6025410350857008/?comment_id=6025429594188417&__cft__[0]=AZgjI_M-puSbsJjnGiFWbn1DwU2CTpyjhNz-q3vHa70AjSMC8gT09gQkLyTE-hCtFH0WjyOsRHUPkIpiHmIjqJXE_hTLcF8pUyQOVS4qFjXn4cpetZw7nYsFRfnjPc9svrwUD8DisQcjVQVSeDluKlzimnJuqWyG_rrxpQj_hoa4qWHgPPmOMKypw1Bc&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"Melanie Klein replied 3 Replies\":\n        - generic: Melanie Klein replied\n        - generic: ·\n        - generic: 3 Replies\n      - article \"Comment by Caroline Moore 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Caroline Moore\":\n          - generic: Caroline Moore\n        - text: If it’s leggy, trim it back. You can put the cuttings in water if you want to make more plants.\n        - img \"🙂\"\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/413plantswap/posts/6025410350857008/?comment_id=6026137890784254&__cft__[0]=AZgjI_M-puSbsJjnGiFWbn1DwU2CTpyjhNz-q3vHa70AjSMC8gT09gQkLyTE-hCtFH0WjyOsRHUPkIpiHmIjqJXE_hTLcF8pUyQOVS4qFjXn4cpetZw7nYsFRfnjPc9svrwUD8DisQcjVQVSeDluKlzimnJuqWyG_rrxpQj_hoa4qWHgPPmOMKypw1Bc&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Jane Jacobus 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jane Jacobus\":\n          - generic: Jane Jacobus\n        - generic: You might want to repot into large pot with fresh soil or split it into 2 plants. It's quite large. The roots may be becoming root bound.",
+    "reason": "First relevant Kalanchoe advice; retain all visible watering/light/pruning and repot options.",
+    "frozen_at": "2026-10-29T06:20:54.221986+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:22:05.620581+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

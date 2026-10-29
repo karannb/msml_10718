@@ -1,0 +1,123 @@
+{
+  "reference_action": "Underwatered furry feather: OP soaked bottom inch overnight and reported leaves uncurling, but stems still down; watering is confirmed partial recovery, not repair of broken stems.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Direct dry-soil watering instruction with moist-not-wet caveat would lead to rehydration; humidity tray is an extra not confirmed by this OP.",
+      "evidence": [
+        "103-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/393923344897048/posts/2004179770538056/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Distilled water/misting and environmental explanations do not explicitly direct rehydration of dry rootball.",
+      "evidence": [
+        "103-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/lh6i46/i_got_this_calathea_vittata_last_week_and_it/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Underwatering possibility and instruction to maintain moist soil would lead to watering the stated dry soil; partial match without soaking technique, amid competing explanations.",
+      "evidence": [
+        "103-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/2290969958511156/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit bottom-watering to let plant soak up water matches confirmed remedy.",
+      "evidence": [
+        "103-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/jvxl8d/help_new_calathea_leaves_keep_furling_even_near/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Check dry soil, water thoroughly and give a good drink; thread also reports next-morning recovery. Same central rehydration action, not the evaluated original thread.",
+      "evidence": [
+        "103-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/es23tf/does_anyone_have_any_idea_why_my_calathea_leaves/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water dry soil until moist, not wet",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place humidity tray with rocks underneath pot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      }
+    ],
+    "reason": "Dryness diagnosis and watering match confirmed leaf recovery; extra humidity tray does not explain or fix the remaining stem damage."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Moist not wet” limits the watering instruction, which fits the reported dry top soil. The rock tray adds no demonstrated benefit here, but the answer does not prescribe a damaging treatment."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "“She’s getting dry. Water her” identifies the problem and central confirmed action. It omits the bottom-soak method and does not address persistent stem droop, so it does not earn a fully tailored score."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Watering and a “tray of rocks in water” are short, concrete household tasks. The moisture endpoint is given, though neither drainage nor tray water level is specified in detail."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 103,
+  "thread_id": "11p3i4r",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 103,
+    "thread_id": "11p3i4r",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/393923344897048/posts/2004179770538056/",
+    "spans": [
+      {
+        "file": "103-source-01.txt",
+        "start_line": 55,
+        "end_line": 79,
+        "sha256": "339c345ba822ae3eccf5f89a16191d105075b636bd44bd80d83a4aaeacf12843",
+        "text": "        - generic: She's getting dry. Water her.\n        - generic: Calathea are notorious drama queens, you're seeing it in action.\n        - generic: Any slight change to the environment will get a physical reaction. Curling leaves, a heavy droop etc.....all part of the fun.\n        - list:\n          - link \"2w\":\n            - /url: https://www.facebook.com/groups/393923344897048/posts/2004179770538056/?comment_id=2004470230509010&__cft__[0]=AZiKxKtatenaW9bwDTU86djpah0BRymOizF-KsqUOiuR1UIPEryoK1wxRMK1ujJDkRCQPwfV2iffhdqP_XQorbKCNlHcLUvhhS7QM__1i9y7ByVKsAtYF4q48NTniqfHoV3W_LzHKd_mzV24UZgrkEbtcL_QPqGPWUCqbvN3yP5ofmO43x2Rbx3Ta9NDmutP&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Denise Widgery 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Denise Widgery\":\n          - generic: Denise Widgery\n        - generic: Needs more humidity. Put a tray of rocks in water underneath the pot for more humidity.\n        - list:\n          - link \"2w\":\n            - /url: https://www.facebook.com/groups/393923344897048/posts/2004179770538056/?comment_id=2004495777173122&__cft__[0]=AZiKxKtatenaW9bwDTU86djpah0BRymOizF-KsqUOiuR1UIPEryoK1wxRMK1ujJDkRCQPwfV2iffhdqP_XQorbKCNlHcLUvhhS7QM__1i9y7ByVKsAtYF4q48NTniqfHoV3W_LzHKd_mzV24UZgrkEbtcL_QPqGPWUCqbvN3yP5ofmO43x2Rbx3Ta9NDmutP&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Liselotte Gadving 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Liselotte Gadving\":\n          - generic: Liselotte Gadving\n        - generic: It has to stay moist not wet"
+      }
+    ],
+    "advice": "        - generic: She's getting dry. Water her.\n        - generic: Calathea are notorious drama queens, you're seeing it in action.\n        - generic: Any slight change to the environment will get a physical reaction. Curling leaves, a heavy droop etc.....all part of the fun.\n        - list:\n          - link \"2w\":\n            - /url: https://www.facebook.com/groups/393923344897048/posts/2004179770538056/?comment_id=2004470230509010&__cft__[0]=AZiKxKtatenaW9bwDTU86djpah0BRymOizF-KsqUOiuR1UIPEryoK1wxRMK1ujJDkRCQPwfV2iffhdqP_XQorbKCNlHcLUvhhS7QM__1i9y7ByVKsAtYF4q48NTniqfHoV3W_LzHKd_mzV24UZgrkEbtcL_QPqGPWUCqbvN3yP5ofmO43x2Rbx3Ta9NDmutP&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Denise Widgery 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Denise Widgery\":\n          - generic: Denise Widgery\n        - generic: Needs more humidity. Put a tray of rocks in water underneath the pot for more humidity.\n        - list:\n          - link \"2w\":\n            - /url: https://www.facebook.com/groups/393923344897048/posts/2004179770538056/?comment_id=2004495777173122&__cft__[0]=AZiKxKtatenaW9bwDTU86djpah0BRymOizF-KsqUOiuR1UIPEryoK1wxRMK1ujJDkRCQPwfV2iffhdqP_XQorbKCNlHcLUvhhS7QM__1i9y7ByVKsAtYF4q48NTniqfHoV3W_LzHKd_mzV24UZgrkEbtcL_QPqGPWUCqbvN3yP5ofmO43x2Rbx3Ta9NDmutP&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Liselotte Gadving 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Liselotte Gadving\":\n          - generic: Liselotte Gadving\n        - generic: It has to stay moist not wet",
+    "reason": "First source supplies curl recovery advice; retain watering, humidity tray and moist-not-wet caveat before reference.",
+    "frozen_at": "2026-10-29T05:21:04.921782+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:24:44.135720+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": true,
+  "safe_and_useful": true,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

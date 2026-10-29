@@ -1,0 +1,179 @@
+{
+  "reference_action": "Insufficient light; OP explicitly reported improvement after increasing light exposure.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Grow-bulb recommendation explicitly supplies additional light, although the thread also promotes extensive watering and soil changes and disputes bulbs being essential.",
+      "evidence": [
+        "080-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/stop_giving_bad_advice_about_palm_care/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Outdoor fungal, cold/wind and space problems; no instruction to increase indoor light.",
+      "evidence": [
+        "video-audit-6AHnGz29AXQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=6AHnGz29AXQ"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit move from low light to a bright ventilated place increases exposure, albeit framed as drying an overwatered plant and accompanied by questionable fungicide advice.",
+      "evidence": [
+        "video-audit-BS4WRba4KWI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=BS4WRba4KWI"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Insufficient light is named among possible causes, but the solution section covers soil, watering, humidity, pruning and feeding without a light-increase instruction.",
+      "evidence": [
+        "video-audit-JL76eiHfkF4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=JL76eiHfkF4"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Smaller pot, chunky soil and frequent through-watering; no increased-light action. AI-generated title excluded.",
+      "evidence": [
+        "080-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/8515025808585489/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Add grow bulb",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Repot in loose bark charcoal perlite mix with ample drainage",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Run ample water through pot frequently",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Monitor new spear and frond condition",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect for spider mites",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse roots and separate crowded palms",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use self-watering pot as alternative",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      }
+    ],
+    "reason": "Low light and supplemental lighting are present, but mixed with frequent watering, medium replacement and palm-specific alternatives; drainage safeguards limit watering harm."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Ample drainage” and a loose mix qualify the frequent watering recommendation. Nevertheless, “tons of water” is vague, and saying webbing is probably too late may discourage timely mite treatment."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The observation that palms “will struggle” in lower light matches the confirmed problem. However, the discussion emphasizes watering and several palm species, without diagnosing this newly acquired yellowing plant."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The bark/charcoal/perlite ingredients are concrete, but “very very frequently” leaves watering frequency unresolved. A grow bulb, possible self-watering pot and an hour-long root separation example expand the work substantially."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 80,
+  "thread_id": "1ezx3bf",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 80,
+    "thread_id": "1ezx3bf",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/stop_giving_bad_advice_about_palm_care/",
+    "spans": [
+      {
+        "file": "080-source-01.txt",
+        "start_line": 122,
+        "end_line": 139,
+        "sha256": "1b192e91e9ba70f820594a1db2a8588f1a0c63e0508f46f4637a389b2d5c41fe",
+        "text": "      - paragraph: Grow bulbs are essential for a palm to thrive, but not the reason your palm died. They can still “survive” on lower lighting, but they will struggle. And if your light is lacking, your mix won’t dry out fast enough and the water will turn stagnant.\n      - figure:\n        - link \"Comment Image\":\n          - /url: https://preview.redd.it/stop-giving-bad-advice-about-palm-care-v0-x80knag1ydxg1.jpeg?width=4032&format=pjpg&auto=webp&s=fb49a015ba9ab6756cea434169dbe2bac1512990\n          - img \"Comment Image\"\n      - 'article \"Comment thread level 1: Reply from BroadExplanation5631 6 months ago\"':\n        - generic \"BroadExplanation5631's profile --- avatar BroadExplanation5631's profile 6mo ago\":\n          - link \"BroadExplanation5631's profile --- avatar\":\n            - /url: https://www.reddit.com/user/BroadExplanation5631/\n            - img \"u/BroadExplanation5631 avatar\"\n          - link \"BroadExplanation5631's profile\":\n            - /url: https://www.reddit.com/user/BroadExplanation5631/\n            - generic: BroadExplanation5631\n          - generic: •\n          - link \"6mo ago\":\n            - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oifm2hn/\n            - time: 6mo ago\n        - paragraph: Grow lights are definitely not essential. All my palms are thriving and I refuse to use grow lights. This Kentia was a small 15cm supermarket pot when I bought it and in just 2 years it’s more than quadrupled in size."
+      },
+      {
+        "file": "080-source-01.txt",
+        "start_line": 195,
+        "end_line": 226,
+        "sha256": "1b192e91e9ba70f820594a1db2a8588f1a0c63e0508f46f4637a389b2d5c41fe",
+        "text": "      - paragraph: Loose mix, ample drainage, TONS of water passing through them very frequently 🙏🏻🥹❤️\n      - figure:\n        - link \"Comment Image\":\n          - /url: https://preview.redd.it/stop-giving-bad-advice-about-palm-care-v0-5qn5wewmxdxg1.jpeg?width=3024&format=pjpg&auto=webp&s=566b5146d879d74144a0bffc5f3c9a397b903b46\n          - img \"Comment Image\"\n      - 'article \"Comment thread level 1: Reply from KettaiX 6 months ago\"':\n        - generic \"KettaiX's profile --- avatar KettaiX's profile 6mo ago\":\n          - link \"KettaiX's profile --- avatar\":\n            - /url: https://www.reddit.com/user/KettaiX/\n          - link \"KettaiX's profile\":\n            - /url: https://www.reddit.com/user/KettaiX/\n            - generic: KettaiX\n          - generic: •\n          - link \"6mo ago\":\n            - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oi94p7h/\n            - time: 6mo ago\n        - paragraph: When you say tons of water, how much and at what frequency?\n        - 'article \"Comment thread level 2: Reply from Sufficient_Turn_9209 6 months ago\"':\n          - generic \"Sufficient_Turn_9209's profile --- avatar Sufficient_Turn_9209's profile 6mo ago Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter\":\n            - link \"Sufficient_Turn_9209's profile --- avatar\":\n              - /url: https://www.reddit.com/user/Sufficient_Turn_9209/\n              - img \"u/Sufficient_Turn_9209 avatar\"\n            - link \"Sufficient_Turn_9209's profile\":\n              - /url: https://www.reddit.com/user/Sufficient_Turn_9209/\n              - generic: Sufficient_Turn_9209\n            - generic: •\n            - link \"6mo ago\":\n              - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oi96r74/\n              - time: 6mo ago\n            - img \"Profile Badge for the Achievement Top 1% Commenter\"\n            - text: Top 1% Commenter\n          - paragraph: He probably means a very fast wet dry cycle. Enough water to thoroughly wet the media, but make sure it's a media that will dry quickly so you can water again and repeat."
+      },
+      {
+        "file": "080-source-01.txt",
+        "start_line": 348,
+        "end_line": 398,
+        "sha256": "1b192e91e9ba70f820594a1db2a8588f1a0c63e0508f46f4637a389b2d5c41fe",
+        "text": "          - text: Loose mix, ample drainage,\n          - link \"grow bulbs\":\n            - /url: /search/?q=palm+grow+bulbs&cId=8e632447-0a18-4ea4-8c2b-7e9429b44cfd&iId=4841b5bf-4bc9-45e3-93e7-d033e7b2af0c\n            - text: grow bulbs\n          - text: \", and tons of water passing through them very very frequently 🥹❤️🙏🏻\"\n        - figure:\n          - link \"Comment Image\":\n            - /url: https://preview.redd.it/stop-giving-bad-advice-about-palm-care-v0-lppuga6aydxg1.jpeg?width=4032&format=pjpg&auto=webp&s=5ea10719d36e0afd6f444423ae6ca24991bfdd29\n            - img \"Comment Image\"\n    - article \"Comment from Additional_Network_8 6 months ago\":\n      - generic \"Additional_Network_8's profile --- avatar Additional_Network_8's profile 6mo ago\":\n        - link \"Additional_Network_8's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Additional_Network_8/\n          - img \"u/Additional_Network_8 avatar\"\n        - link \"Additional_Network_8's profile\":\n          - /url: https://www.reddit.com/user/Additional_Network_8/\n          - generic: Additional_Network_8\n        - generic: •\n        - link \"6mo ago\":\n          - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oi8ucsi/\n          - time: 6mo ago\n      - paragraph: Wanna share any good tips? I have a small parlor (i think) palm I’ve had for about a year but it’s been mostly dormant.\n      - 'article \"Comment thread level 1: Reply from Philly_G_J 6 months ago\"':\n        - generic \"Philly_G_J's profile --- avatar Philly_G_J's profile 6mo ago Profile Badge for the Achievement Top 1% Poster Top 1% Poster\":\n          - link \"Philly_G_J's profile --- avatar\":\n            - /url: https://www.reddit.com/user/Philly_G_J/\n            - img \"u/Philly_G_J avatar\"\n          - link \"Philly_G_J's profile\":\n            - /url: https://www.reddit.com/user/Philly_G_J/\n            - generic: Philly_G_J\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"6mo ago\":\n            - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oi8yagd/\n            - time: 6mo ago\n          - img \"Profile Badge for the Achievement Top 1% Poster\"\n          - text: Top 1% Poster\n        - paragraph:\n          - text: Ok so your\n          - link \"Chamaedorea elegans\":\n            - /url: /search/?q=Chamaedorea+elegans+care&cId=1632bcfe-369b-46cf-8031-cfbba6b956c6&iId=2ac1a342-4eca-44c9-8820-3c3d70445e5a\n            - text: Chamaedorea elegans\n          - text: is endemic to Central American jungle understory shade and as such will scorch in direct. 👍🏻 It likes to be rootbound, and also likes to be moist 24/7. How do I accomplish this without rotting the roots you are thinking to yourself. Answer is in the extremely loose mix (I use\n          - link \"bark/charcoal/perlite\":\n            - /url: /search/?q=palm+potting+mix+bark+charcoal+perlite&cId=d58007ac-7740-4a99-9f8a-e26c9de835ac&iId=9bd9caef-0729-4939-93b8-0c9e49a8c611\n            - text: bark/charcoal/perlite\n          - text: only) your Chamaey should be in 👍🏻🥰🌴 Water runs right through the container almost immediately, I can drown and drain them all daily if I want without any overwatering fears. Because water is running out, I know much needed O2 is getting to those roots while my mix is only holding as much moisture as it can and my palm is not sitting in rotting stagnant water. It’s an extremely slow grower taking up to 20 years to get a trunk around 4 feet tall. Health of the palm will always be measured by the spears opening into fronds and their condition. Don’t judge the health by the condition of the old existing outside fronds as they die naturally. Highly susceptible to\n          - link \"spider mites\":\n            - /url: /search/?q=palm+spider+mites&cId=b9368d6b-149b-4b8e-b26d-d343c9fbaab9&iId=39d9bbd6-a180-47bc-8e47-6c85c1f7cb69\n            - text: spider mites\n          - text: so look for white dots on mottled leaves, they will leave significant damage before the infestation gets too severe. If you see webbing, it’s probably too late. Good luck! 💚🌴"
+      },
+      {
+        "file": "080-source-01.txt",
+        "start_line": 579,
+        "end_line": 579,
+        "sha256": "1b192e91e9ba70f820594a1db2a8588f1a0c63e0508f46f4637a389b2d5c41fe",
+        "text": "      - paragraph: \"I bought a majesty palm marked down to 7 bucks from 25 at my local walmart. It was 4 plants in one, severely root bound, earwigs living in the soil. I sat outside with the hose for an hour rinsing away the old soil untangling them. 2 are separated to be given to my aunt and bsf. The other 2 i combined in one pot for me. The 2 im giving away are in self watering and living their best lives beside my plant shelf where they get ambient grow light from it (they wont live here long) and mine is thriving underneath an E facing window. New growth too. (: Self watering seems to be a good tool for plants that like to stay on the moist side ime. Im hoping to find a self watering pot big enough for the one im keeping i just didnt have one sadly so its manual watering for that one.\""
+      }
+    ],
+    "advice": "      - paragraph: Grow bulbs are essential for a palm to thrive, but not the reason your palm died. They can still “survive” on lower lighting, but they will struggle. And if your light is lacking, your mix won’t dry out fast enough and the water will turn stagnant.\n      - figure:\n        - link \"Comment Image\":\n          - /url: https://preview.redd.it/stop-giving-bad-advice-about-palm-care-v0-x80knag1ydxg1.jpeg?width=4032&format=pjpg&auto=webp&s=fb49a015ba9ab6756cea434169dbe2bac1512990\n          - img \"Comment Image\"\n      - 'article \"Comment thread level 1: Reply from BroadExplanation5631 6 months ago\"':\n        - generic \"BroadExplanation5631's profile --- avatar BroadExplanation5631's profile 6mo ago\":\n          - link \"BroadExplanation5631's profile --- avatar\":\n            - /url: https://www.reddit.com/user/BroadExplanation5631/\n            - img \"u/BroadExplanation5631 avatar\"\n          - link \"BroadExplanation5631's profile\":\n            - /url: https://www.reddit.com/user/BroadExplanation5631/\n            - generic: BroadExplanation5631\n          - generic: •\n          - link \"6mo ago\":\n            - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oifm2hn/\n            - time: 6mo ago\n        - paragraph: Grow lights are definitely not essential. All my palms are thriving and I refuse to use grow lights. This Kentia was a small 15cm supermarket pot when I bought it and in just 2 years it’s more than quadrupled in size.\n\n      - paragraph: Loose mix, ample drainage, TONS of water passing through them very frequently 🙏🏻🥹❤️\n      - figure:\n        - link \"Comment Image\":\n          - /url: https://preview.redd.it/stop-giving-bad-advice-about-palm-care-v0-5qn5wewmxdxg1.jpeg?width=3024&format=pjpg&auto=webp&s=566b5146d879d74144a0bffc5f3c9a397b903b46\n          - img \"Comment Image\"\n      - 'article \"Comment thread level 1: Reply from KettaiX 6 months ago\"':\n        - generic \"KettaiX's profile --- avatar KettaiX's profile 6mo ago\":\n          - link \"KettaiX's profile --- avatar\":\n            - /url: https://www.reddit.com/user/KettaiX/\n          - link \"KettaiX's profile\":\n            - /url: https://www.reddit.com/user/KettaiX/\n            - generic: KettaiX\n          - generic: •\n          - link \"6mo ago\":\n            - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oi94p7h/\n            - time: 6mo ago\n        - paragraph: When you say tons of water, how much and at what frequency?\n        - 'article \"Comment thread level 2: Reply from Sufficient_Turn_9209 6 months ago\"':\n          - generic \"Sufficient_Turn_9209's profile --- avatar Sufficient_Turn_9209's profile 6mo ago Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter\":\n            - link \"Sufficient_Turn_9209's profile --- avatar\":\n              - /url: https://www.reddit.com/user/Sufficient_Turn_9209/\n              - img \"u/Sufficient_Turn_9209 avatar\"\n            - link \"Sufficient_Turn_9209's profile\":\n              - /url: https://www.reddit.com/user/Sufficient_Turn_9209/\n              - generic: Sufficient_Turn_9209\n            - generic: •\n            - link \"6mo ago\":\n              - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oi96r74/\n              - time: 6mo ago\n            - img \"Profile Badge for the Achievement Top 1% Commenter\"\n            - text: Top 1% Commenter\n          - paragraph: He probably means a very fast wet dry cycle. Enough water to thoroughly wet the media, but make sure it's a media that will dry quickly so you can water again and repeat.\n\n          - text: Loose mix, ample drainage,\n          - link \"grow bulbs\":\n            - /url: /search/?q=palm+grow+bulbs&cId=8e632447-0a18-4ea4-8c2b-7e9429b44cfd&iId=4841b5bf-4bc9-45e3-93e7-d033e7b2af0c\n            - text: grow bulbs\n          - text: \", and tons of water passing through them very very frequently 🥹❤️🙏🏻\"\n        - figure:\n          - link \"Comment Image\":\n            - /url: https://preview.redd.it/stop-giving-bad-advice-about-palm-care-v0-lppuga6aydxg1.jpeg?width=4032&format=pjpg&auto=webp&s=5ea10719d36e0afd6f444423ae6ca24991bfdd29\n            - img \"Comment Image\"\n    - article \"Comment from Additional_Network_8 6 months ago\":\n      - generic \"Additional_Network_8's profile --- avatar Additional_Network_8's profile 6mo ago\":\n        - link \"Additional_Network_8's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Additional_Network_8/\n          - img \"u/Additional_Network_8 avatar\"\n        - link \"Additional_Network_8's profile\":\n          - /url: https://www.reddit.com/user/Additional_Network_8/\n          - generic: Additional_Network_8\n        - generic: •\n        - link \"6mo ago\":\n          - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oi8ucsi/\n          - time: 6mo ago\n      - paragraph: Wanna share any good tips? I have a small parlor (i think) palm I’ve had for about a year but it’s been mostly dormant.\n      - 'article \"Comment thread level 1: Reply from Philly_G_J 6 months ago\"':\n        - generic \"Philly_G_J's profile --- avatar Philly_G_J's profile 6mo ago Profile Badge for the Achievement Top 1% Poster Top 1% Poster\":\n          - link \"Philly_G_J's profile --- avatar\":\n            - /url: https://www.reddit.com/user/Philly_G_J/\n            - img \"u/Philly_G_J avatar\"\n          - link \"Philly_G_J's profile\":\n            - /url: https://www.reddit.com/user/Philly_G_J/\n            - generic: Philly_G_J\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"6mo ago\":\n            - /url: https://www.reddit.com/r/IndoorPlants/comments/1svhd8c/comment/oi8yagd/\n            - time: 6mo ago\n          - img \"Profile Badge for the Achievement Top 1% Poster\"\n          - text: Top 1% Poster\n        - paragraph:\n          - text: Ok so your\n          - link \"Chamaedorea elegans\":\n            - /url: /search/?q=Chamaedorea+elegans+care&cId=1632bcfe-369b-46cf-8031-cfbba6b956c6&iId=2ac1a342-4eca-44c9-8820-3c3d70445e5a\n            - text: Chamaedorea elegans\n          - text: is endemic to Central American jungle understory shade and as such will scorch in direct. 👍🏻 It likes to be rootbound, and also likes to be moist 24/7. How do I accomplish this without rotting the roots you are thinking to yourself. Answer is in the extremely loose mix (I use\n          - link \"bark/charcoal/perlite\":\n            - /url: /search/?q=palm+potting+mix+bark+charcoal+perlite&cId=d58007ac-7740-4a99-9f8a-e26c9de835ac&iId=9bd9caef-0729-4939-93b8-0c9e49a8c611\n            - text: bark/charcoal/perlite\n          - text: only) your Chamaey should be in 👍🏻🥰🌴 Water runs right through the container almost immediately, I can drown and drain them all daily if I want without any overwatering fears. Because water is running out, I know much needed O2 is getting to those roots while my mix is only holding as much moisture as it can and my palm is not sitting in rotting stagnant water. It’s an extremely slow grower taking up to 20 years to get a trunk around 4 feet tall. Health of the palm will always be measured by the spears opening into fronds and their condition. Don’t judge the health by the condition of the old existing outside fronds as they die naturally. Highly susceptible to\n          - link \"spider mites\":\n            - /url: /search/?q=palm+spider+mites&cId=b9368d6b-149b-4b8e-b26d-d343c9fbaab9&iId=39d9bbd6-a180-47bc-8e47-6c85c1f7cb69\n            - text: spider mites\n          - text: so look for white dots on mottled leaves, they will leave significant damage before the infestation gets too severe. If you see webbing, it’s probably too late. Good luck! 💚🌴\n\n      - paragraph: \"I bought a majesty palm marked down to 7 bucks from 25 at my local walmart. It was 4 plants in one, severely root bound, earwigs living in the soil. I sat outside with the hose for an hour rinsing away the old soil untangling them. 2 are separated to be given to my aunt and bsf. The other 2 i combined in one pot for me. The 2 im giving away are in self watering and living their best lives beside my plant shelf where they get ambient grow light from it (they wont live here long) and mine is thriving underneath an E facing window. New growth too. (: Self watering seems to be a good tool for plants that like to stay on the moist side ime. Im hoping to find a self watering pot big enough for the one im keeping i just didnt have one sadly so its manual watering for that one.\"",
+    "reason": "First source includes substantive palm watering, medium, light and pest-monitoring advice. Retain disagreement over grow bulbs and the self-watering alternative before reference inspection.",
+    "frozen_at": "2026-10-29T05:05:34.109786+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:06:23.206058+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

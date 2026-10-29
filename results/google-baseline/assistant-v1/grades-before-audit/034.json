@@ -1,0 +1,144 @@
+{
+  "reference_action": "Post-repotting low light with wet soil: increase light using the grow lamp within plant tolerance. OP explicitly says lamp helped and leaves straightened. Drying top inch and chunkier mix are supporting advice.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "One comment specifically suggests a plant light above the plant and another diagnoses insufficient light after repotting. This recovers the lamp intervention despite conflicting caution elsewhere.",
+      "evidence": [
+        "034-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/4366668676911312/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicitly place recovering plant in bright indirect light, which increases exposure from a distant-window placement; no lamp specified. Also checks moisture before adding water.",
+      "evidence": [
+        "video-audit-GrpKKQb0Kuw-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=GrpKKQb0Kuw"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Root-handling, fungi product and watering instructions do not supply the validated light increase.",
+      "evidence": [
+        "video-audit-XiZ9CF_Luu4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=XiZ9CF_Luu4"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Move to shade, protect from wind and water continually is different from the lamp remedy for already-wet indoor calathea.",
+      "evidence": [
+        "video-audit-a_WvgnlTnxs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=a_WvgnlTnxs"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicitly says give more light after repot and suggests a grow light; directly matches lamp remedy. Sweeping claims that light negates poor potting are extra, not endorsed.",
+      "evidence": [
+        "video-audit-I8oicTiEQlA-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=I8oicTiEQlA"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Wait and monitor recovery for two to three weeks",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check whether water is needed",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water if needed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Put plant light overhead",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Determine appropriate light conditions before placement",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Low light and repot stress are identified, and a lamp is suggested, but it is buried among waiting advice and a warning against putting the plant under a light."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Check and see if she needs water” avoids blindly watering already wet soil. The warning about full sun is protective, though the contradictory lamp advice can delay the effective intervention."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "“Shock from repotting plus not enough light” and “plant light over the top” match the cause and validated action. The philodendron identification is wrong for this calathea and the waiting-first response dilutes the useful advice."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The user already has a plant lamp, making placement easy, though the source itself does not know that. “Don’t jam it under a light” versus “try a plant light” leaves the reader to choose between contradictory recommendations without distance or duration guidance."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 34,
+  "thread_id": "1ogfkfi",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 34,
+    "thread_id": "1ogfkfi",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/plantylife/posts/4366668676911312/",
+    "spans": [
+      {
+        "file": "034-source-01.txt",
+        "start_line": 49,
+        "end_line": 72,
+        "sha256": "c35667e98ebd71aba42687db5f2786f1400fc88c1db6e9114c181ab3dbdb20fd",
+        "text": "          - generic: Alison Smith\n        - generic: Transplant shock. It’ll pass! Give it about 2-3 weeks. But first of all , it looks like a philodendron which doesn’t like full sun, so don’t jam it under a light until you know what are the good growing conditions.\n        - list:\n          - link \"38w\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4366668676911312/?comment_id=4366851956892984&__cft__[0]=AZginCy6k7OnatZwjMQwdp45SLzg7xkHahuAfWmWVUp2x5wXMqXR1-f5POeepeTsyxjUjsAIDbTVvR6i9zNOp3pvmwg69R_ZU1MppcYK0odzvQqduEzLyj3rMpNBOx0zAFbKZOjqXLDAY3FRGDxD6rmdszO1nuw0HpnVXIGEH4UeYjjasHzbZtCzT-h6qw&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Tonya Poole-Stille 38 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Tonya Poole-Stille\":\n          - generic: Tonya Poole-Stille\n        - generic: check and see if she needs water and maybe try a plant light over the top of her.\n        - list:\n          - link \"38w\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4366668676911312/?comment_id=4366716750239838&__cft__[0]=AZginCy6k7OnatZwjMQwdp45SLzg7xkHahuAfWmWVUp2x5wXMqXR1-f5POeepeTsyxjUjsAIDbTVvR6i9zNOp3pvmwg69R_ZU1MppcYK0odzvQqduEzLyj3rMpNBOx0zAFbKZOjqXLDAY3FRGDxD6rmdszO1nuw0HpnVXIGEH4UeYjjasHzbZtCzT-h6qw&__tn__=R]-R\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Jill Murtiff 38 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jill Murtiff\":\n          - generic: Jill Murtiff\n        - generic: Looks like shock from repotting plus not enough light."
+      }
+    ],
+    "advice": "          - generic: Alison Smith\n        - generic: Transplant shock. It’ll pass! Give it about 2-3 weeks. But first of all , it looks like a philodendron which doesn’t like full sun, so don’t jam it under a light until you know what are the good growing conditions.\n        - list:\n          - link \"38w\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4366668676911312/?comment_id=4366851956892984&__cft__[0]=AZginCy6k7OnatZwjMQwdp45SLzg7xkHahuAfWmWVUp2x5wXMqXR1-f5POeepeTsyxjUjsAIDbTVvR6i9zNOp3pvmwg69R_ZU1MppcYK0odzvQqduEzLyj3rMpNBOx0zAFbKZOjqXLDAY3FRGDxD6rmdszO1nuw0HpnVXIGEH4UeYjjasHzbZtCzT-h6qw&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Tonya Poole-Stille 38 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Tonya Poole-Stille\":\n          - generic: Tonya Poole-Stille\n        - generic: check and see if she needs water and maybe try a plant light over the top of her.\n        - list:\n          - link \"38w\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4366668676911312/?comment_id=4366716750239838&__cft__[0]=AZginCy6k7OnatZwjMQwdp45SLzg7xkHahuAfWmWVUp2x5wXMqXR1-f5POeepeTsyxjUjsAIDbTVvR6i9zNOp3pvmwg69R_ZU1MppcYK0odzvQqduEzLyj3rMpNBOx0zAFbKZOjqXLDAY3FRGDxD6rmdszO1nuw0HpnVXIGEH4UeYjjasHzbZtCzT-h6qw&__tn__=R]-R\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Jill Murtiff 38 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jill Murtiff\":\n          - generic: Jill Murtiff\n        - generic: Looks like shock from repotting plus not enough light.",
+    "reason": "First readable discussion gives transplant-shock and light advice; Meta title excluded.",
+    "frozen_at": "2026-10-29T04:32:18.761377+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:33:17.962333+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

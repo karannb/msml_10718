@@ -1,0 +1,116 @@
+{
+  "reference_action": "Mealybugs on gotu kola; owner confirms 70% alcohol spraying removed them without damage and plant produced babies. Alcohol contact treatment is core; soap/neem alone is a different unconfirmed remedy.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Planthopper reassurance and optional water rinse, no alcohol.",
+      "evidence": [
+        "video-audit-gVg_W1O8wwY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=gVg_W1O8wwY"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Alcohol/soap/water spray is a partial equivalent alcohol contact treatment.",
+      "evidence": [
+        "video-audit-XyDeXz4yQcw-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=XyDeXz4yQcw"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Direct 70% alcohol or diluted spray, plus testing and shade.",
+      "evidence": [
+        "video-audit-SDSeTHg4QVs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=SDSeTHg4QVs&themeRefresh=1"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Comment explicitly recommends daily alcohol q-tip removal; partial local-contact equivalent.",
+      "evidence": [
+        "147-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/LSUAgCenter/posts/a-white-cottony-buildup-on-your-plants-could-mean-youre-dealing-with-mealy-bugs-/1425894142901937/"
+    },
+    {
+      "rank": 6,
+      "action_hit": "hit",
+      "reason": "Rubbing-alcohol swab/cloth removal with spot-test and monitoring; same contact remedy.",
+      "evidence": [
+        "147-source-06.txt"
+      ],
+      "url": "https://hort.extension.wisc.edu/articles/mealybugs-2/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Rinse affected stems with watering can or hose if desired",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Misidentifying mealybugs as largely harmless planthoppers and recommending no treatment can allow spread; optional water rinse does not retrieve the confirmed alcohol remedy."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Rest assured you’re not dealing with mealybugs here” followed by “just let them be” would delay control of this actual mealybug infestation. A water rinse is physically low-risk but optional and framed as cosmetic."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The demonstration diagnoses planthopper nymphs, a different insect from the reference. Its reassurance does not apply to the gotu-kola mealybugs."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "“Take a watering [pail] and just gently pour water” is a clear, low-cost optional action. The advice is easy to follow even though it is inappropriate to the case."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 147,
+  "thread_id": "1r706mp",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 147,
+    "thread_id": "1r706mp",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=gVg_W1O8wwY",
+    "spans": [
+      {
+        "file": "video-audit-gVg_W1O8wwY-transcript.txt",
+        "start_line": 6,
+        "end_line": 27,
+        "sha256": "9dec56e1c9f9caeb30b4bf9245ae03d8d2856bef02ee2ac4b58e6d4c4ff08f95",
+        "text": "[0:00] If you've been gardening for a while, you may have seen white fuzz on your\n[0:03] stems like this. So, what is this white fuzz? And is it something that I should\n[0:08] be nervous about? Well, the good news is that this white fuzz, it's not meie bug.\n[0:13] So, if you've been growing plants a while and you've heard of meie bugs and\n[0:16] you know how bad they can be for your plants, rest assured you're not dealing\n[0:21] with meie bugs here. But what these are, these are called plant hoppers. And if\n[0:26] you take a really good close look, you can see there is an adult plant hopper,\n[0:30] but then all of this white fuzzy stuff is hiding little nymphs. Now, you can\n[0:35] see as I touch it, they all move. Those are little baby plant hoppers that are\n[0:40] just getting growing. And they produce this waxy white fuzz that protects them\n[0:45] as they mature. Now, while these plant hoppers are sucking pests, they do suck\n[0:51] a little bit of the juice out of the stems, but it's minimal. They're not\n[0:54] going to cause a ton of damage to your plants. So, you really don't have to\n[0:58] worry about doing any sort of care or techniques to get rid of them.\n[1:02] Definitely don't need to apply any pesticides for them. They're going to\n[1:06] eventually go away as the season progresses. But if you do have some\n[1:10] areas of your garden that are really full of them or you have a couple stems\n[1:14] that you just don't like, you can take a watering pale and just gently pour water\n[1:19] over a stem to remove them. or if you have a lot, take a hose and just spray\n[1:24] it down and that'll definitely help remove them for the from the stems. But\n[1:27] don't worry, they're not going to do a lot of damage. Just let them be. Let\n[1:31] mother nature do her thing. [Music]"
+      }
+    ],
+    "advice": "[0:00] If you've been gardening for a while, you may have seen white fuzz on your\n[0:03] stems like this. So, what is this white fuzz? And is it something that I should\n[0:08] be nervous about? Well, the good news is that this white fuzz, it's not meie bug.\n[0:13] So, if you've been growing plants a while and you've heard of meie bugs and\n[0:16] you know how bad they can be for your plants, rest assured you're not dealing\n[0:21] with meie bugs here. But what these are, these are called plant hoppers. And if\n[0:26] you take a really good close look, you can see there is an adult plant hopper,\n[0:30] but then all of this white fuzzy stuff is hiding little nymphs. Now, you can\n[0:35] see as I touch it, they all move. Those are little baby plant hoppers that are\n[0:40] just getting growing. And they produce this waxy white fuzz that protects them\n[0:45] as they mature. Now, while these plant hoppers are sucking pests, they do suck\n[0:51] a little bit of the juice out of the stems, but it's minimal. They're not\n[0:54] going to cause a ton of damage to your plants. So, you really don't have to\n[0:58] worry about doing any sort of care or techniques to get rid of them.\n[1:02] Definitely don't need to apply any pesticides for them. They're going to\n[1:06] eventually go away as the season progresses. But if you do have some\n[1:10] areas of your garden that are really full of them or you have a couple stems\n[1:14] that you just don't like, you can take a watering pale and just gently pour water\n[1:19] over a stem to remove them. or if you have a lot, take a hose and just spray\n[1:24] it down and that'll definitely help remove them for the from the stems. But\n[1:27] don't worry, they're not going to do a lot of damage. Just let them be. Let\n[1:31] mother nature do her thing. [Music]",
+    "reason": "First accessible fuzzy-insect reassurance and optional water-removal instructions.",
+    "frozen_at": "2026-10-29T06:02:21.858014+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:03:13.917316+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "reference_action": "Overgrown woody basil: remove old stalk, focus on smaller shoots and prune just above Y-shaped side shoots; OP confirms pruning plus moving outside caused vigorous growth.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Cut a quarter inch above the retained leaf set, repeating for branching; directly supplies the validated above-side-shoot pruning.",
+      "evidence": [
+        "video-audit-PrLWG_w2GHg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=PrLWG_w2GHg"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Find paired leaves/node, snip above them and repeat once new branches grow; direct match to pruning above side shoots.",
+      "evidence": [
+        "027-source-02-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=c05E5GBDRsY"
+    },
+    {
+      "rank": 3,
+      "action_hit": "unresolved",
+      "reason": "Short has no captured transcript or specific cutting instruction.",
+      "evidence": [
+        "027-source-03.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/yCYKM_f6HrY"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "The pruning section specifies cutting a quarter inch above the retained leaf set to force branching, matching the central action. Pest sprays elsewhere are unrelated extras.",
+      "evidence": [
+        "video-audit-YV-uhYWiqOU-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=YV-uhYWiqOU"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "“Pinch the tops to get more growth” directs the central shoot-tip pruning, though node placement and old-stalk removal are not specified. The water-rooting comment concerns propagation, not verified recovery.",
+      "evidence": [
+        "027-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/ASKNTVG/posts/1528949681248787/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check plant height and leaf sets before pruning",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prune stems a quarter inch above retained leaf set",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove flowering tips when bolting",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check growth every one to two weeks and repeat pruning",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Correct pruning-to-branching advice matches the validated action and retains a leaf set without harmful treatment."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The instruction leaves “a quarter of an inch” above the last leaf set and requires two or three sets before starting. These limits preserve regrowth points and introduce no meaningful chemical or handling risk."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "Pruning above the last leaf set to “keep branching out” matches the validated side-shoot method. Old woody-stalk removal and outside placement are omitted, so the answer is a close central-action match rather than fully case-specific."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "Six-inch height, two or three leaf sets, quarter-inch cut position and one-to-two-week checks make the steps easy to follow. Ordinary scissors or pinching suffice without purchases or complex equipment."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 27,
+  "thread_id": "14m3jl5",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 27,
+    "thread_id": "14m3jl5",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=PrLWG_w2GHg",
+    "spans": [
+      {
+        "file": "video-audit-PrLWG_w2GHg-transcript.txt",
+        "start_line": 6,
+        "end_line": 27,
+        "sha256": "1e87f96afcd9d0b262d3e27146488d098be25c838a4a4d872a00c9ec3d3c59f4",
+        "text": "[0:04] hello everyone this is Jack and welcome to the two-minute tip video segment\n[0:08] where I share gardening tips with you in a two minute straightforward video and\n[0:12] in this video I'll be sharing three tips with you on how to prune basil if you do\n[0:17] not prune basil plants basil plants will just grow tall and they will both\n[0:20] producing seeds and that's what we do not need so the reason behind pruning\n[0:24] basil is to grit push your plants that produces a lot of basil basil grows in\n[0:28] sets of leaves which is a very important piece of information to know while\n[0:32] cronic basil basil plant produces two sets of leaves and too little of use\n[0:37] right next to the leaves every one to two inches tip number one you can prune\n[0:42] the basil plant and the plant is about six inches tall and it has at least two\n[0:46] to three sets of leaves tip number two to prune a basil stem cut the stem down\n[0:51] to the last set of leaves leave about quarter of an inch of a stem above the\n[0:55] last set of leaves you can see where I cut the last stem now I'm going to cut\n[1:00] this stem back to the last set of leaves as soon as the basil stem gets up to six\n[1:04] inches tall cut the stem back to the last set of leaves this will force the\n[1:09] basil plant to keep branching out tip number three whenever you see your basil\n[1:13] plants bolting which means is trying to create flowers and then seeds just snip\n[1:18] off the top of the plant this process is called deadheading after pruning you can\n[1:23] enjoy the basil leaves in your cooking it is also possible to grow another\n[1:27] basil plant from the cuttings of basil stems and that's it that's how you prune\n[1:32] basil check your basil plants every one to two weeks and cut every single stem\n[1:36] to the last set of leaves and that will produce a much bushier plant I really"
+      }
+    ],
+    "advice": "[0:04] hello everyone this is Jack and welcome to the two-minute tip video segment\n[0:08] where I share gardening tips with you in a two minute straightforward video and\n[0:12] in this video I'll be sharing three tips with you on how to prune basil if you do\n[0:17] not prune basil plants basil plants will just grow tall and they will both\n[0:20] producing seeds and that's what we do not need so the reason behind pruning\n[0:24] basil is to grit push your plants that produces a lot of basil basil grows in\n[0:28] sets of leaves which is a very important piece of information to know while\n[0:32] cronic basil basil plant produces two sets of leaves and too little of use\n[0:37] right next to the leaves every one to two inches tip number one you can prune\n[0:42] the basil plant and the plant is about six inches tall and it has at least two\n[0:46] to three sets of leaves tip number two to prune a basil stem cut the stem down\n[0:51] to the last set of leaves leave about quarter of an inch of a stem above the\n[0:55] last set of leaves you can see where I cut the last stem now I'm going to cut\n[1:00] this stem back to the last set of leaves as soon as the basil stem gets up to six\n[1:04] inches tall cut the stem back to the last set of leaves this will force the\n[1:09] basil plant to keep branching out tip number three whenever you see your basil\n[1:13] plants bolting which means is trying to create flowers and then seeds just snip\n[1:18] off the top of the plant this process is called deadheading after pruning you can\n[1:23] enjoy the basil leaves in your cooking it is also possible to grow another\n[1:27] basil plant from the cuttings of basil stems and that's it that's how you prune\n[1:32] basil check your basil plants every one to two weeks and cut every single stem\n[1:36] to the last set of leaves and that will produce a much bushier plant I really",
+    "reason": "First usable result; complete concise pruning advice.",
+    "frozen_at": "2026-10-29T04:24:58.390037+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:25:53.717627+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": true,
+  "safe_and_useful": true,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

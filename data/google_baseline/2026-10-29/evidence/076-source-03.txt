@@ -1,0 +1,398 @@
+- banner:
+  - link "Home":
+    - /url: /
+    - generic: Home
+  - list:
+    - search:
+      - generic: Conduct a search
+      - combobox "Conduct a search"
+      - generic: When autocomplete results are available, use up and down arrows to review and enter to select.
+      - button "Submit":
+        - generic: Submit
+    - link "Become a member":
+      - /url: /join
+      - generic: Become a member
+  - navigation "nav":
+    - menubar: 
+    - menubar:
+      - menuitem "Get involved"
+      - menuitem "Gardening"
+      - menuitem "Shows"
+      - menuitem "Gardens"
+      - menuitem "Learn"
+      - menuitem "Science"
+      - menuitem "Shop"
+    - menubar:
+      - menuitem "About"
+      - menuitem "My RHS "
+    - text:  
+- complementary "Promotional banner":
+  - paragraph: Join the RHS
+  - paragraph: Become an RHS Member today and save 25% on your first year
+  - link "Get offer":
+    - /url: /join
+    - generic: Get offer
+  - button "Close notification":
+- navigation "Breadcrumb":
+  - list:
+    - link "RHS Home":
+      - /url: /
+    - link "Gardening Advice":
+      - /url: /advice
+- heading "How to help a poorly houseplant" [level=1]
+- generic: RHS Advice Guide
+- generic: It’s not always easy to know why a houseplant is struggling, so it can be hard to know how to help it. Here we’ll guide you through the most common symptoms of a poorly houseplant so you can take action to get it thriving again
+- separator
+- paragraph: By The RHS Advice Team
+- separator
+- article:
+  - complementary:
+    - navigation "Article sections":
+      - list "Table of contents":
+        - link "Quick facts":
+          - /url: "#quick-facts"
+          - generic: Quick facts
+        - link "Getting started":
+          - /url: "#getting-started"
+          - generic: Getting started
+        - link "Spot a poorly houseplant":
+          - /url: "#how-to-spot-a-poorly-houseplant"
+          - generic: Spot a poorly houseplant
+        - link "Helping your poorly plant":
+          - /url: "#helping-your-poorly-plant"
+          - generic: Helping your poorly plant
+    - img "Grow"
+    - img "RHS Logo"
+    - heading "Grow" [level=2]:
+      - link "Grow":
+        - /url: https://rhsgrow.onelink.me/430N/advbnrstatjun26
+    - paragraph: The new app packed with trusted gardening know-how
+    - link "Download app":
+      - /url: https://rhsgrow.onelink.me/430N/advbnrstatjun26
+      - generic: Download app
+  - main:
+    - img "Misting regularly helps prevent problems with low air humidity, such as crispy leaf tips"
+    - heading "Quick facts" [level=2]
+    - paragraph: Healthy houseplants rely on the right conditions rather than routine treatments
+    - generic: "1"
+    - paragraph: Wilting, yellowing, browning and leaf drop are common signs of poor health
+    - generic: "2"
+    - paragraph: Problems often arise in winter due to overwatering, poor light or dry air
+    - generic: "3"
+    - paragraph: Many houseplants will recover quickly once their growing conditions are improved
+    - generic: "4"
+    - 'complementary "Promotional banner: RHS Members go free"':
+      - img "RHS Members go free"
+      - heading "RHS Members go free" [level=2]:
+        - link "RHS Members go free":
+          - /url: /join
+      - paragraph: Join now and save 25%
+      - link "Get Offer":
+        - /url: /join
+        - generic: Get Offer
+    - heading "Getting started" [level=2]
+    - paragraph: Plants don’t naturally live indoors and houseplants are simply tender, often tropical, plants that we grow inside. Yet our homes can be quite challenging environments for them, with dry air, limited natural light and often irregular watering. So, it’s no wonder that most of us will have had a poorly houseplant at one time or another.
+    - paragraph: Before buying a houseplant, find out the growing conditions it needs and consider if you have a suitable space for it. Also, only buy from reputable suppliers.
+    - paragraph:
+      - text: In the vast majority of cases, problems with our
+      - link "houseplants":
+        - /url: /plants/types/houseplants
+      - text: can be resolved by simply tweaking the growing environment and the care we give them. To do this, it’s important to understand why a plant isn’t thriving by taking a closer look.
+      - strong: "What you’ll need to give your plant a health check:"
+    - list:
+      - listitem: Gloves
+      - listitem: Secateurs
+      - listitem: Hand lens or magnifying glass
+      - text: "For reference: the plant’s label,"
+      - link "RHS Find a Plant":
+        - /url: /plants/search-form
+      - text: or a good houseplant book
+    - heading "Top Tip" [level=3]
+    - paragraph: If you have a large collection of houseplants, it’s a good idea to separate a poorly one from the rest, until you have identified and resolved the problem.
+    - heading "How to spot a poorly houseplant" [level=2]
+    - paragraph: "Work out what’s wrong with your plant in ten easy steps:"
+    - figure "Low light levels have led to leggy growth on this Syngonium":
+      - img "Image"
+      - text: Low light levels have led to leggy growth on this
+      - emphasis: Syngonium
+    - list:
+      - strong: Check there’s enough light
+      - text: Weak, spindly growth, pale leaves and poor flowering are all signs that a plant isn’t getting
+      - link "enough light":
+        - /url: /advice/understanding-plants/how-plants-use-light-to-grow
+      - text: . You might also see lower leaves turning yellow and falling.
+      - button "Definition of Variegated": Variegated
+      - text: plants kept in a shady spot might
+      - link "revert":
+        - /url: /problems/reversion
+      - text: to green.
+      - text: Bear in mind that over winter, when sunlight is weaker, many houseplants benefit from being moved closer to south- or west-facing windows. Wiping dust off leaves allows more sunlight to reach the leaf surface.
+    - figure "Leaf scorch on the leaves of a rubber plant (Ficus elastica) caused by too much direct sunlight":
+      - img "Image"
+      - text: Leaf scorch on the leaves of a rubber plant (
+      - emphasis: Ficus elastica)
+      - text: caused by too much direct sunlight
+    - list:
+      - strong: Check for too much light
+      - text: Strong, direct sunlight, such as from a south-facing window in summer, can cause brown scorched patches on leaves and give them a washed-out appearance.
+      - text: Shrivelled leaves on
+      - link "shade-loving plants":
+        - /url: /plants/types/houseplants/houseplants-for-shady-rooms
+      - text: are also a sign that the position is too sunny. On variegated leaves, sun scorch is more likely on the paler sections of leaf.
+    - figure "Wilting and yellowing are common signs of underwatering":
+      - img "Image"
+      - generic: Wilting and yellowing are common signs of underwatering
+    - list:
+      - strong: Check there’s enough water
+      - text: Wilted leaves, brown and crispy leaf edges and flowers that fade or fall quickly are all signs that a plant isn’t getting
+      - link "enough water":
+        - /url: /advice/understanding-plants/how-plants-absorb-water
+      - text: . Unlike with overwatering (below), older leaves at the base of a dry plant will often yellow and fall first.
+      - text: Insert your finger into the growing medium to check how moist it is a few centimetres down. If it is very dry, water your plant. Rather than watering regularly at set intervals, it is good practice to check the moisture levels and only water when necessary.
+    - figure "This succulent has suffered stem rot and complete collapse due to overwatering":
+      - img "Image"
+      - generic: This succulent has suffered stem rot and complete collapse due to overwatering
+    - list:
+      - strong: Check for too much water
+      - text: Overwatering can also cause wilting, and it’s easy to mistake this for a lack of water and drown a plant, especially over winter when growth slows. Lift your plant out of its pot to see if water has collected in the base, tipping away any excess. Choosing a peat-free
+      - button "Definition of Compost": compost
+      - text: ", or mixing your own, to match your plant’s needs will help avoid issues caused by watering. For example, a peat-free cacti and succulent mix will contain sand and/or grit to improve drainage."
+      - text: Other signs of overwatering include old and new leaves yellowing and dropping at the same time, browning in the middle of leaves, mouldy patches on leaves and flowers, stem rot and dark, mushy roots. Regular overwatering can lead to
+      - link "oedema":
+        - /url: /problems/oedema
+      - text: and whole plant collapse.
+    - figure "Low temperatures have blackened the new shoots of this Impatiens":
+      - img "Image"
+      - text: Low temperatures have blackened the new shoots of this
+      - emphasis: Impatiens
+    - list:
+      - strong: Check the temperature
+      - text: Consult the plant’s label,
+      - link "RHS Find a Plant":
+        - /url: /plants/search-form
+      - text: or a good houseplant book to check the specific temperature requirements of your plant, and consider if that’s what it’s getting.
+      - text: Leaves wilting, rolling, bleaching and going crispy suggest a plant is suffering from heat stress – common in very hot rooms like conservatories in mid-summer. Blackened leaves, leaf droop and whole plant collapse are symptoms of cold damage – commonly seen in unheated rooms, like porches, over winter.
+    - figure "Brown leaf tips and edges are a classic sign of low air humidity":
+      - img "Image"
+      - generic: Brown leaf tips and edges are a classic sign of low air humidity
+    - list:
+      - strong:
+        - text: Check
+        - button "Definition of Humidity": humidity
+      - text: Low air humidity (dry air) is a common cause of problems on foliage houseplants, especially over winter when the heating is on. You might see shrivelled, crispy leaves with brown tips and edges, plus early dropping of leaves, buds and flowers. Kitchens and bathrooms generally have higher humidity than other rooms. Humidity levels around a plant can be increased by grouping plants together or placing them on trays of damp pebbles.
+      - link "Grey mould":
+        - /url: /disease/grey-mould
+      - text: on leaves and flowers, and stem rots on
+      - link "cacti and succulents":
+        - /url: /plants/types/cacti-succulents
+      - text: ", are signs the air is too moist, which is common in bathrooms."
+    - figure "The yellowing of these hydrangea leaves indicates a nutrient deficiency":
+      - img "Image"
+      - generic: The yellowing of these hydrangea leaves indicates a nutrient deficiency
+    - list:
+      - strong: Check for nutrient deficiencies
+      - text: Houseplants are often grown in the same pot for years and will quickly use up all the
+      - button "Definition of Nutrients": nutrients
+      - text: in their peat-free compost. If growth seems lacklustre and flowering is poor, your plant may benefit from being repotted into fresh peat-free compost. Growth can also be given a boost by applying a suitable organic, liquid feed during the
+      - button "Definition of Growing season": growing season
+      - text: . Watering with tap water if you live in a hard water area can lead to nutrient deficiencies. When possible, water with room-temperature rainwater.
+      - text: See our
+      - link "guide to nutrient deficiencies":
+        - /url: /prevention-protection/nutrient-deficiencies
+      - text: for more help.
+    - figure "Mealybugs are commonly found on houseplants":
+      - img "Image"
+      - generic: Mealybugs are commonly found on houseplants
+    - list:
+      - strong: Check for insects
+      - text: Visible to the naked eye but more easily seen with a hand lens or magnifying glass,
+      - button "Definition of Sap": sap
+      - text: "-sucking insects can affect a plant’s appearance and vigour. Small numbers are usually easy to pick or wipe off, so check plants regularly, especially newly bought plants. RHS advice pages on"
+      - link "mealybugs":
+        - /url: /biodiversity/mealybug
+      - text: ","
+      - link "scale":
+        - /url: /biodiversity/scale-insects
+      - text: ","
+      - link "glasshouse thrips":
+        - /url: /biodiversity/glasshouse-thrips
+      - text: and
+      - link "glasshouse red spider mite":
+        - /url: /biodiversity/glasshouse-red-spider-mite
+      - text: contain information on managing these insects, including biological controls.
+    - figure "This cyclamen has been infected by grey mould (Botrytis cinerea)":
+      - img "Image"
+      - text: This cyclamen has been infected by grey mould (
+      - emphasis: Botrytis cinerea
+      - text: )
+    - list:
+      - strong: Check for disease
+      - text: Houseplants can suffer from various diseases that affect their leaves, especially where
+      - button "Definition of Ventilation": ventilation
+      - text: is poor. A fuzzy, grey-brown covering on stems, leaves or flowers suggests
+      - link "grey mould":
+        - /url: /disease/grey-mould
+      - text: is the problem. A white dusting on leaves suggests
+      - link "powdery mildew":
+        - /url: /disease/powdery-mildews
+      - text: ", and dark spots with yellow margins suggests a fungal leaf spot. Improving ventilation, spacing and growing conditions will help avoid and control many fungal diseases. Using fungicides on houseplants is not recommended. Houseplants can also suffer from"
+      - link "viruses":
+        - /url: /disease/plant-viruses
+      - text: .
+    - figure "Calcium deposits on the leaves of this Calathea":
+      - img "Image"
+      - text: Calcium deposits on the leaves of this
+      - emphasis: Calathea
+    - list:
+      - strong: Consider the growing environment
+      - text: Plants kept near direct sources of heat, like radiators, often suffer scorched leaves, while draughts can cause leaf yellowing and dry leaf edges. If curtains are drawn on cold nights, plants on windowsills can suffer due to cold air being trapped between the window and curtain.
+      - text: Pale spots are commonly caused by cleaning products and aerosols landing on leaves, while overhead watering with (hard) tap water can leave noticeable calcium deposits.
+    - heading "Helping your poorly plant" [level=2]
+    - paragraph:
+      - text: Once you have identified the problem, make adjustments to your care regime.
+      - text: This might include increasing or decreasing watering, moving your plant to a sunnier, shadier, warmer or cooler spot, increasing
+      - button "Definition of Humidity": humidity
+      - text: ", repotting, feeding or treating a pest or disease problem. Sometimes it takes a combination of these to see a positive change. See our"
+      - link "guide to growing houseplants":
+        - /url: /plants/types/houseplants/growing-guide
+      - text: for further advice.
+      - text: Cut off any mouldy, shrivelled, completely brown or completely yellow leaves with secateurs, as these won’t recover. Retain leaves that are predominantly green until the plant has produced a fresh flush of leaves, or you could delay recovery.
+    - paragraph:
+      - text: Healthy houseplants rely on the right conditions rather than routine treatments, so focus on providing sufficient light, correct watering and suitable peat-free
+      - button "Definition of Compost": compost
+      - text: before adding feeds or controls. Our
+      - link "Houseplant 101 video series":
+        - /url: /plants/types/houseplants/houseplant-101
+      - text: is a great place to get practical guidance on caring for your houseplants.
+    - paragraph:
+      - text: The RHS doesn’t support the use of
+      - button "Definition of Pesticides": pesticides
+      - text: . Pest and disease issues can be avoided by good cultivation methods and suitable plant selection. If control measures are needed, non-chemical and biological controls should be used.
+  - heading "You may also like" [level=2]
+  - list:
+    - 'link "Read article: How plants absorb water, Category: Advice"':
+      - /url: /advice/understanding-plants/how-plants-absorb-water
+      - img "How plants absorb water"
+      - generic: "Category:"
+      - text: Advice
+      - heading "How plants absorb water" [level=3]
+      - generic: Water is as vital to plants as it is to us. Here you can learn more about their amazing ability to absorb water, what happens when there is too much or too little, and how we as gardeners can help to quench their thirst.
+    - 'link "Read article: Choosing the best houseplants, Category: Advice"':
+      - /url: /plants/types/houseplants/choosing-the-best
+      - img "Choosing the best houseplants"
+      - generic: "Category:"
+      - text: Advice
+      - heading "Choosing the best houseplants" [level=3]
+      - generic: Houseplants bring joy to even the dullest day with tropical flowers and lush leaves, not to mention the health benefits of cleaning the air. Here we explain how to select the right houseplant for the right location so they thrive in your home
+    - 'link "Read article: How plants use light to grow, Category: Advice"':
+      - /url: /advice/understanding-plants/how-plants-use-light-to-grow
+      - img "How plants use light to grow"
+      - generic: "Category:"
+      - text: Advice
+      - heading "How plants use light to grow" [level=3]
+      - generic: Feeling the sun on your face is one of life’s simple pleasures, but for plants, catching rays is vital for survival. Here you can find out how plants use light to fuel their growth, how they’re adapted to different light levels, and how you can make sure your plants are getting the right amount.
+    - 'link "Read article: How plants absorb nutrients, Category: Advice"':
+      - /url: /advice/understanding-plants/how-plants-absorb-nutrients
+      - img "How plants absorb nutrients"
+      - generic: "Category:"
+      - text: Advice
+      - heading "How plants absorb nutrients" [level=3]
+      - generic: Plants, like us, need a varied diet to stay happy and healthy. Here we explain what’s on the menu for your garden plants, how they use what they’re ‘eating’ and how we can make sure they get their fill.
+    - 'link "Read article: Leaf damage on houseplants, Category: Advice"':
+      - /url: /prevention-protection/leaf-damage-on-houseplants
+      - img "Leaf damage on houseplants"
+      - generic: "Category:"
+      - text: Advice
+      - heading "Leaf damage on houseplants" [level=3]
+      - generic: Older leaves on healthy houseplants will naturally turn brown and die back over time as the plant matures, which is no cause for concern. But if most of the foliage on the houseplant changes colour in part or whole there may be a cultural problem, often rectified by paying more attention to watering, feeding or moving the plant to a more suitable position indoors. Plants that are unsuited to the conditions are unlikely to survive let alone thrive in the long term. However many house plants are short-lived by nature indoors, poinsettia and cyclamen for example, and will often need to be regularly replaced.
+    - 'link "Read article: Houseplants: to support human health, Category: Advice"':
+      - /url: /plants/types/houseplants/for-human-health
+      - 'img "Houseplants: to support human health"'
+      - generic: "Category:"
+      - text: Advice
+      - 'heading "Houseplants: to support human health" [level=3]'
+      - generic: As well as looking good, houseplants support human health in homes, offices, school and hospitals. Research suggests that the greatest benefits of indoor plants are through wellbeing and productivity improvement. There is discussion around their influence on indoor air quality. Detail on the number of plants required is being researched
+    - 'link "Read article: Houseplants: holiday care, Category: Advice"':
+      - /url: /plants/types/houseplants/holiday-care
+      - 'img "Houseplants: holiday care"'
+      - generic: "Category:"
+      - text: Advice
+      - 'heading "Houseplants: holiday care" [level=3]'
+      - generic: Most houseplants will tolerate a few days' absence without suffering, but absences of more than a week call for some creative measures to provide valuable moisture in the right quantity
+  - heading "Win a £250 RHS voucher to spend on your garden" [level=2]
+  - paragraph: Sign up to RHS emails for gardening tips, inspiration, days out and offers and you’ll be entered into our £250 prize draw
+  - paragraph
+  - textbox:
+    - /placeholder: forename
+  - textbox:
+    - /placeholder: surname
+  - textbox:
+    - /placeholder: postcode
+  - textbox:
+    - /placeholder: Your email
+  - paragraph:
+    - text: "Privacy Notice: All prize draw entries are subject to our prize draw"
+    - link "T&Cs":
+      - /url: https://www.rhs.org.uk/membership/membership-terms-conditions/love-gardening-voucher-competition-t-and-cs
+    - text: . Emails may contain info about our charitable work, online ads and content funded by outside parties. View our
+    - link "privacy policy":
+      - /url: https://www.rhs.org.uk/privacy
+    - text: .
+  - button "Sign up"
+- contentinfo:
+  - heading "Join the RHS" [level=3]
+  - link "Become an RHS Member today and save 25% on your first year":
+    - /url: /join
+    - text: Become an RHS Member today
+    - strong: and save 25% on your first year
+  - link "Join now":
+    - /url: /join
+    - generic: Join now
+  - list:
+    - link "Follow the RHS on Instagram":
+      - /url: https://www.instagram.com/The_RHS/
+    - link "Follow the RHS on YouTube":
+      - /url: https://www.youtube.com/@The_RHS
+    - link "Follow the RHS on TikTok":
+      - /url: https://www.tiktok.com/@the_rhs
+    - link "Follow the RHS on Threads":
+      - /url: https://www.threads.com/@the_rhs
+    - link "Follow the RHS on Facebook":
+      - /url: https://www.facebook.com/rhshome
+    - link "Follow the RHS on Pinterest":
+      - /url: https://www.pinterest.co.uk/rhshome/
+  - list:
+    - link "Support us":
+      - /url: /about-us/support-us
+    - link "Contact us":
+      - /url: /about-us/contact-us
+    - link "Privacy":
+      - /url: /privacy
+    - link "Cookies":
+      - /url: /privacy/cookies
+    - button "Cookie Preferences"
+    - link "Policies":
+      - /url: /about-us/what-we-do/policies
+    - link "Modern slavery statement":
+      - /url: /about-us/what-we-do/policies/modern-slavery-statement
+    - link "Careers":
+      - /url: /about-us/careers
+    - link "Refer a friend":
+      - /url: /membership/refer-a-friend
+    - link "Advertise with us":
+      - /url: /about-us/commercial-opportunities/advertising
+    - link "Media centre":
+      - /url: /press
+    - link "Listen to RHS podcasts":
+      - /url: /podcast
+  - complementary "Advertisement"
+  - paragraph: © The Royal Horticultural Society 2026
+  - paragraph: RHS Registered Charity no. 222879 / SC038262
+- button "Feedback":
+  - iframe [id="usabilla_live_button_container_iframe133439524"]
+- dialog "Cookies on the RHS website":
+  - heading "Cookies on the RHS website" [level=2]
+  - generic: We use cookies to ensure our site works securely, continually make improvements and give you the best online experience. Help improve the RHS website by accepting cookies.
+  - button "Cookie Settings, Opens the preference center dialog": Cookie Settings
+  - button "Reject All"
+  - button "I Accept"

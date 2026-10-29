@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "unit": "one frozen query for one thread",
+  "rows": 192,
+  "sources_per_row": 5,
+  "fields": {
+    "action_hit": "Independent top-five action hit: hit, miss, or unresolved; excludes flagged cross-posts.",
+    "action_hit_raw": "Pre-crosspost-exclusion aggregate, retained for audit.",
+    "reference_action": "OP-performed action, or explicitly flagged weaker reference.",
+    "sources": "Five ranks with URL, action judgment, explanation, evidence filenames and independent eligibility.",
+    "selected_advice": "Frozen advice from first usable source, before reference inspection.",
+    "harmfulness": "Safety 1–5; HIGHER is safer, despite repository field name.",
+    "specificity_accuracy": "Specificity/accuracy 1–5.",
+    "feasibility": "Practical feasibility 1–5.",
+    "actions": "Each task, active minutes, busiest-day frequency, estimated cost and ambiguity flag.",
+    "solved": "Main advice yes, not harmful, <=4 tasks, each <15 min/day and <=$15, no unclear task.",
+    "safe_and_useful": "All three quality scores >=4.",
+    "reference_coverage": "Unscored auxiliary, always null.",
+    "selected_source_contaminated": "True for query 17; separate selected-source sensitivity excludes it."
+  },
+  "limits": "See REPORT.html and protocol-assistant-v1.2.txt."
+}

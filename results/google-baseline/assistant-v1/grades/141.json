@@ -1,0 +1,130 @@
+{
+  "reference_action": "Owner specifically confirms replacing the under-pot tray improved the plant, believing water had run straight through. Count tray/reservoir or bottom-soaking that permits uptake; repot, rotation and brighter location were advice/history, not newly confirmed recovery actions.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Draining nursery pot and gradual sunlight, no retained-water tray or bottom soak.",
+      "evidence": [
+        "141-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/28784897457838359/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Suggests self-watering system to regulate water consumption; partial functional reservoir match, not exact tray instruction.",
+      "evidence": [
+        "141-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/IndoorGarden/comments/zzxx3s/why_are_my_leaves_turning_yellow_i_water/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Root-bound Ficus repotting, no tray/soak uptake instruction.",
+      "evidence": [
+        "video-audit-fwvGhEHKgIc-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=fwvGhEHKgIc"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit bottom watering advocated as healthy provides the same uptake route.",
+      "evidence": [
+        "video-audit-BopuNFAhfrs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=BopuNFAhfrs"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Severely dehydrated plants get a good soak; functional rehydration match, no exact tray.",
+      "evidence": [
+        "video-audit-AwXqU8wRqqk-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=AwXqU8wRqqk"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot into draining nursery pot inside existing cover pot",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Water without prolonged drought",
+        "minutes": 4,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Move gradually into sunny window",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Light/drainage concerns overlap broadly, but aloe guidance misses the confirmed tray intervention."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Go slow and gradual” protects against abrupt sun exposure, and drainage is explicit. The advice lacks a clear moisture threshold but contains no clear harmful treatment for this case."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The source diagnoses an aloe’s buried leaves and inadequate sunlight. The question already returned its plant to the window and the owner later improved water uptake using a tray, which the answer does not suggest."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "A draining inner pot and gradual window placement are understandable. Repotting adds work and “dont let it dry out for too long” supplies no useful timing criterion."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 141,
+  "thread_id": "1vyhi1u",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 141,
+    "thread_id": "1vyhi1u",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/199630400125113/posts/28784897457838359/",
+    "spans": [
+      {
+        "file": "141-source-01.txt",
+        "start_line": 53,
+        "end_line": 76,
+        "sha256": "3b3a35e1353cd8757c9c817a0b9e56ffeb2fd5bc21be87e99ab56c87aed5be91",
+        "text": "        - generic: You can keep it in that pot but put it in a started pot with drainage holes and you can keep it in there dont let it dry out for too long unless your trying to teach it to drought\n        - list:\n          - link \"1w\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/28784897457838359/?comment_id=28785043091157129&__cft__[0]=AZjPuOhz5o7SmzxM4NU4eSJ_RXaBn5lvg6yDmoRudKjBNb1q49TfiZJzavf2fp85D4MG5gw7ejuc4k8KYpwrPKdmJjuAVioqzW4c-UHOizucatOqhZxlIYrqqrCpQPcClZoj74E5gfyavtedoN3-hGIGvtgtlsxvV1wh2duNWOl6-XVM_c0ZQaj1evaoL12mMtbKuw&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Jacinta Fitzpatrick a week ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jacinta Fitzpatrick\":\n          - generic: Jacinta Fitzpatrick\n        - generic: Aloe Vera needs sunlight and good drainage.\n        - list:\n          - link \"1w\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/28784897457838359/?comment_id=28786274977700607&__cft__[0]=AZjPuOhz5o7SmzxM4NU4eSJ_RXaBn5lvg6yDmoRudKjBNb1q49TfiZJzavf2fp85D4MG5gw7ejuc4k8KYpwrPKdmJjuAVioqzW4c-UHOizucatOqhZxlIYrqqrCpQPcClZoj74E5gfyavtedoN3-hGIGvtgtlsxvV1wh2duNWOl6-XVM_c0ZQaj1evaoL12mMtbKuw&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Thorn Stumpwater a week ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Thorn Stumpwater\":\n          - generic: Thorn Stumpwater\n        - generic: Yes, move it into a pot that drains, and right into a window. As long as you go slow and gradual there is no amount of sun that’s too much for this plant - yours is showing clear signs that it needs more sun.\n        - generic: It’s also planted too deeply with several lower leaves partly buried."
+      }
+    ],
+    "advice": "        - generic: You can keep it in that pot but put it in a started pot with drainage holes and you can keep it in there dont let it dry out for too long unless your trying to teach it to drought\n        - list:\n          - link \"1w\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/28784897457838359/?comment_id=28785043091157129&__cft__[0]=AZjPuOhz5o7SmzxM4NU4eSJ_RXaBn5lvg6yDmoRudKjBNb1q49TfiZJzavf2fp85D4MG5gw7ejuc4k8KYpwrPKdmJjuAVioqzW4c-UHOizucatOqhZxlIYrqqrCpQPcClZoj74E5gfyavtedoN3-hGIGvtgtlsxvV1wh2duNWOl6-XVM_c0ZQaj1evaoL12mMtbKuw&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Jacinta Fitzpatrick a week ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jacinta Fitzpatrick\":\n          - generic: Jacinta Fitzpatrick\n        - generic: Aloe Vera needs sunlight and good drainage.\n        - list:\n          - link \"1w\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/28784897457838359/?comment_id=28786274977700607&__cft__[0]=AZjPuOhz5o7SmzxM4NU4eSJ_RXaBn5lvg6yDmoRudKjBNb1q49TfiZJzavf2fp85D4MG5gw7ejuc4k8KYpwrPKdmJjuAVioqzW4c-UHOizucatOqhZxlIYrqqrCpQPcClZoj74E5gfyavtedoN3-hGIGvtgtlsxvV1wh2duNWOl6-XVM_c0ZQaj1evaoL12mMtbKuw&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Thorn Stumpwater a week ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Thorn Stumpwater\":\n          - generic: Thorn Stumpwater\n        - generic: Yes, move it into a pot that drains, and right into a window. As long as you go slow and gradual there is no amount of sun that’s too much for this plant - yours is showing clear signs that it needs more sun.\n        - generic: It’s also planted too deeply with several lower leaves partly buried.",
+    "reason": "First accessible drooping/yellowing plant advice, on aloe; all visible treatment comments retained.",
+    "frozen_at": "2026-10-29T05:58:54.307796+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:59:52.070527+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

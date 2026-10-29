@@ -1,0 +1,165 @@
+{
+  "reference_action": "Root-crowded Bird of Paradise repotted to more space and thriving. Central action is larger-pot repot; one-size-up was advice, while division was not confirmed.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Inspect root-bound plant and repot 1–2 inches wider, with fresh soil; directly matches enlargement.",
+      "evidence": [
+        "132-source-01.txt"
+      ],
+      "url": "https://spokaneplantfarm.com/blogs/news/what-are-the-signs-my-plant-is-ready-for-a-bigger-pot?srsltid=AYCX9vLxGl73aT9D_DaUJUF6i5DLxR7HVxsjunXJntoLcVv30ls3RSEZ"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Wait until roots fill container then transfer to bigger containers, partial general match despite herb-seedling context and division alternatives.",
+      "evidence": [
+        "132-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/plants/comments/w7uejj/when_should_i_move_them_into_a_bigger_pot_first/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit roots-out-drainage trigger for slightly larger pot, 2–3 inches up.",
+      "evidence": [
+        "video-audit-cuyXr77RrmM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=cuyXr77RrmM"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Short title only, no recoverable advice.",
+      "evidence": [
+        "132-source-04.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/XAW6WrcPR70"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Root-bound inspection and transfer 6-inch to 8-inch pot directly retrieve larger-pot repot.",
+      "evidence": [
+        "video-audit-fQU6wZuZmJg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=fQU6wZuZmJg"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Remove plant and inspect root density/health",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prepare larger pot and fresh soil",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Add charcoal layer if pot lacks drainage",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Sanitize shears and trim mushy roots if present",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Gently loosen outer roots if needed",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Set plant at same height and backfill",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water after repotting",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place in suitable light",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Root-bound diagnosis and modest up-pot directly match; charcoal as substitute for actual drainage is a harmful alternative despite otherwise useful steps."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The article permits a “non-draining” pot with a half-inch charcoal layer, which does not provide an outlet for excess water. That alternative can create persistent waterlogging even though modest sizing and gentle root handling are sound safeguards."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "Roots emerging from drainage holes and tightly coiled roots directly address the question. The explicit 1–2-inch increase and same-depth backfill retrieve the successful larger-pot fix, though it is not species-specific."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The numbered steps and pot dimensions make the main repot understandable. “Desired soil mixture” and “suitable light” remain vague, and multiple checks/conditional tasks exceed the strict capacity limit."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 132,
+  "thread_id": "1fwtqrl",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 132,
+    "thread_id": "1fwtqrl",
+    "selected_rank": 1,
+    "source_url": "https://spokaneplantfarm.com/blogs/news/what-are-the-signs-my-plant-is-ready-for-a-bigger-pot?srsltid=AYCX9vLxGl73aT9D_DaUJUF6i5DLxR7HVxsjunXJntoLcVv30ls3RSEZ",
+    "spans": [
+      {
+        "file": "132-source-01.txt",
+        "start_line": 75,
+        "end_line": 120,
+        "sha256": "27b57e41feb6b78278777be492be9e68fef3a7f06a6e7811d65bed25522b6cbb",
+        "text": "  - heading \"What are the Signs My Plant is Ready for a Bigger Pot?\" [level=1]\n  - paragraph: A good indication that your plant is ready for a bigger pot is if it has grown quite a bit since its last transplant and needs watering much more frequently. In some cases, your plant may even begin to show signs of underwatering (leaves browning, soil pulling away from the edge of the pot, etc.). You may also begin to see roots emerging from drainage holes. If any of these are occurring, it is a good idea to inspect the root system by gently removing the plant from its pot. The roots should be a healthy white or yellow color; they will be tightly coiled around the length of the pot if it is ready to be moved up. This is what is known as being root-bound.\n  - paragraph:\n    - emphasis: \"Fig.1: This plant is NOT yet ready for a bigger pot.\"\n  - paragraph\n  - paragraph:\n    - emphasis: \"Fig.2: This plant is root-bound and ready for a larger pot.\"\n  - paragraph\n  - paragraph: \"When to Wait:\"\n  - paragraph:\n    - generic: Keep in mind that once you give\n    - text: your\n    - generic: plant space to stretch out, it is going to focus on re-establishing its root system. Due to this, you will likely not see any new foliage growth for a bit. This is also the reason why you want to wait to re-pot anything with blooms; the plant will redirect its energy from above the soil to below, abandoning any flowers it was producing. Another instance in which you would want to wait to up-pot is if your plant is new to you. Changing environments adds stress to plants, so it is best to wait two to four weeks to allow your plant time to adjust to its new home before adding any additional stressors.\n  - paragraph:\n    - generic: \"Finding the Right Pot:\"\n  - paragraph: You only want to increase your pot size by one or two inches in diameter and about one inch in depth from its current container. Moving up any more than this creates a scenario where the root system is too small to absorb the water you give the plant in an adequate amount of time, leaving the roots to soak and suffocate. One may think that giving the plant less water would remedy this, but unfortunately, you put the plant in a situation where the water sits out of reach from the roots.\n  - paragraph\n  - paragraph:\n    - emphasis: \"Fig.3: This demonstrates a correct pot increase from a four-inch diameter pot to a six-inch diameter pot.\"\n  - paragraph:\n    - emphasis\n    - text: The material you choose for your pot is up to you, however, we recommend keeping your plant in a plastic grower’s pot and then setting that into ceramic pottery. Grower’s pots are great for keeping your plant in because they have wonderful drainage and allow for better access to check root health. If you do wish to plant directly into a ceramic or decorative plastic pot, it is best to choose one with drainage holes. Alternatively, you can line the bottom with a half-inch layer of grower’s charcoal, an antibacterial soil additive that will absorb excess moisture. Others prefer to plant in terracotta pots which are often inexpensive and help to naturally wick away moisture from the soil.\n  - paragraph:\n    - generic: We suggest using Uni-Gro Premium Charcoal. We have this product for purchase in our retail store. You can also find similar charcoal products in a nursery or gardening center near you.\n  - paragraph\n  - paragraph:\n    - generic: \"Repotting Steps:\"\n  - paragraph:\n    - generic: \"Step 1: Gather the materials you will need:\"\n  - list:\n    - listitem: Your properly sized pot,\n    - listitem: Your desired soil mixture,\n    - listitem: Sterilized shears, and, if applicable,\n    - listitem: Grower’s charcoal.\n  - paragraph:\n    - emphasis: \"Fig.4: This figure demonstrates how to add potting soil to your new container.\"\n  - paragraph:\n    - generic: \"Step 2: Add a half-inch layer of fresh potting soil to the bottom of your new container. (Note: If your container is non-draining you will want to add the half-inch layer of grower’s charcoal before this step). [Fig.4]\"\n  - paragraph:\n    - generic: \"Step 3: Take this opportunity to snip off any unhealthy, dark, and mushy roots using your sterilized shears. You may also choose to gently massage the end of the roots to loosen them up. It is usually not necessary to break up the roots completely.\"\n  - paragraph:\n    - generic: \"Step 4: Place your plant into its new container. Use one hand to steady the plant while you use the other to fill the soil around the roots to the level in which the plant was previously buried. You will want to leave about a half-inch clearance between the top of the soil and the lip of the pot to allow for soil expansion during watering. [Fig.5]\"\n  - paragraph\n  - paragraph:\n    - emphasis: \"Fig.5: This demonstrates a correct pot increase from a four-inch diameter pot to a six-inch diameter pot\"\n  - paragraph: \"Step 5: Gently water your plant and place it in an area with suitable light. [Fig. 6]\""
+      }
+    ],
+    "advice": "  - heading \"What are the Signs My Plant is Ready for a Bigger Pot?\" [level=1]\n  - paragraph: A good indication that your plant is ready for a bigger pot is if it has grown quite a bit since its last transplant and needs watering much more frequently. In some cases, your plant may even begin to show signs of underwatering (leaves browning, soil pulling away from the edge of the pot, etc.). You may also begin to see roots emerging from drainage holes. If any of these are occurring, it is a good idea to inspect the root system by gently removing the plant from its pot. The roots should be a healthy white or yellow color; they will be tightly coiled around the length of the pot if it is ready to be moved up. This is what is known as being root-bound.\n  - paragraph:\n    - emphasis: \"Fig.1: This plant is NOT yet ready for a bigger pot.\"\n  - paragraph\n  - paragraph:\n    - emphasis: \"Fig.2: This plant is root-bound and ready for a larger pot.\"\n  - paragraph\n  - paragraph: \"When to Wait:\"\n  - paragraph:\n    - generic: Keep in mind that once you give\n    - text: your\n    - generic: plant space to stretch out, it is going to focus on re-establishing its root system. Due to this, you will likely not see any new foliage growth for a bit. This is also the reason why you want to wait to re-pot anything with blooms; the plant will redirect its energy from above the soil to below, abandoning any flowers it was producing. Another instance in which you would want to wait to up-pot is if your plant is new to you. Changing environments adds stress to plants, so it is best to wait two to four weeks to allow your plant time to adjust to its new home before adding any additional stressors.\n  - paragraph:\n    - generic: \"Finding the Right Pot:\"\n  - paragraph: You only want to increase your pot size by one or two inches in diameter and about one inch in depth from its current container. Moving up any more than this creates a scenario where the root system is too small to absorb the water you give the plant in an adequate amount of time, leaving the roots to soak and suffocate. One may think that giving the plant less water would remedy this, but unfortunately, you put the plant in a situation where the water sits out of reach from the roots.\n  - paragraph\n  - paragraph:\n    - emphasis: \"Fig.3: This demonstrates a correct pot increase from a four-inch diameter pot to a six-inch diameter pot.\"\n  - paragraph:\n    - emphasis\n    - text: The material you choose for your pot is up to you, however, we recommend keeping your plant in a plastic grower’s pot and then setting that into ceramic pottery. Grower’s pots are great for keeping your plant in because they have wonderful drainage and allow for better access to check root health. If you do wish to plant directly into a ceramic or decorative plastic pot, it is best to choose one with drainage holes. Alternatively, you can line the bottom with a half-inch layer of grower’s charcoal, an antibacterial soil additive that will absorb excess moisture. Others prefer to plant in terracotta pots which are often inexpensive and help to naturally wick away moisture from the soil.\n  - paragraph:\n    - generic: We suggest using Uni-Gro Premium Charcoal. We have this product for purchase in our retail store. You can also find similar charcoal products in a nursery or gardening center near you.\n  - paragraph\n  - paragraph:\n    - generic: \"Repotting Steps:\"\n  - paragraph:\n    - generic: \"Step 1: Gather the materials you will need:\"\n  - list:\n    - listitem: Your properly sized pot,\n    - listitem: Your desired soil mixture,\n    - listitem: Sterilized shears, and, if applicable,\n    - listitem: Grower’s charcoal.\n  - paragraph:\n    - emphasis: \"Fig.4: This figure demonstrates how to add potting soil to your new container.\"\n  - paragraph:\n    - generic: \"Step 2: Add a half-inch layer of fresh potting soil to the bottom of your new container. (Note: If your container is non-draining you will want to add the half-inch layer of grower’s charcoal before this step). [Fig.4]\"\n  - paragraph:\n    - generic: \"Step 3: Take this opportunity to snip off any unhealthy, dark, and mushy roots using your sterilized shears. You may also choose to gently massage the end of the roots to loosen them up. It is usually not necessary to break up the roots completely.\"\n  - paragraph:\n    - generic: \"Step 4: Place your plant into its new container. Use one hand to steady the plant while you use the other to fill the soil around the roots to the level in which the plant was previously buried. You will want to leave about a half-inch clearance between the top of the soil and the lip of the pot to allow for soil expansion during watering. [Fig.5]\"\n  - paragraph\n  - paragraph:\n    - emphasis: \"Fig.5: This demonstrates a correct pot increase from a four-inch diameter pot to a six-inch diameter pot\"\n  - paragraph: \"Step 5: Gently water your plant and place it in an area with suitable light. [Fig. 6]\"",
+    "reason": "First accessible relevant repot decision and procedure, including no-drainage charcoal alternative.",
+    "frozen_at": "2026-10-29T05:50:24.692188+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:51:48.628343+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

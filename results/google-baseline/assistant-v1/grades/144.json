@@ -1,0 +1,137 @@
+{
+  "reference_action": "Borderline otherwise-healthy plant with one damaged lower leaf; owner reports larger growth and carefully removing the worsening leaf. Count local damaged-leaf removal, not an unconfirmed watering/light change.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Symptom chart and diagnostic checks; no damaged-lower-leaf removal instruction.",
+      "evidence": [
+        "144-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/o78mnv/a_guide_to_common_houseplant_problems/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "A couple of yellow leaves are usually not serious and can be pinched off; also advises removal of dead foliage.",
+      "evidence": [
+        "144-source-02.txt"
+      ],
+      "url": "https://www.bhg.com/gardening/houseplants/care/how-to-fix-common-houseplant-problems/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "15:11–15:41 explains natural aging and cutting brown leaf off with clean scissors.",
+      "evidence": [
+        "144-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ELR2JF8pi0s"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Video unavailable without substantive instructions.",
+      "evidence": [
+        "video-audit-BTU4U0c8xyM.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=BTU4U0c8xyM"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Removal advice is for thrips-infested new leaves or rotten roots/stems, not isolated non-pest lower-leaf damage.",
+      "evidence": [
+        "video-audit-H6cUT7NHlKQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=H6cUT7NHlKQ"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect closely for pests",
+        "minutes": 4,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil and review watering habits",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Sun stress is among chart alternatives, but healthy-plant reassurance and simple damaged-leaf removal are absent. Checks alone do not constitute overtreatment."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Check the soil and think about your watering habits” promotes assessment rather than a drastic intervention. The list lacks normal-aging context, but the retained instructions are low-risk checks."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The long symptom chart includes brown scorch patches but several contradictory causes share signs. It cannot resolve one damaged leaf on an otherwise thriving plant and offers no confirmed trimming action."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Checking for bugs is easy and concrete. The overlapping chart gives a novice little help distinguishing causes or deciding whether any treatment is needed."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 144,
+  "thread_id": "1kbiakb",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 144,
+    "thread_id": "1kbiakb",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/plantclinic/comments/o78mnv/a_guide_to_common_houseplant_problems/",
+    "spans": [
+      {
+        "file": "144-source-01.txt",
+        "start_line": 44,
+        "end_line": 128,
+        "sha256": "5df72106d1f0b5656643cf9973d088fefe8925a39cd0b319716190741b08dd6f",
+        "text": "  - paragraph:\n    - strong: \"Too Little Water:\"\n  - list:\n    - paragraph: Leaves limp and wilted (look sad)\n    - paragraph: Little to no growth\n    - paragraph: Lower leaves curled, yellow and wilted\n    - paragraph: Leaf edges brown and dry\n    - paragraph: Flowers fall or fade quick\n    - paragraph: Oldest leaves fall first\n  - paragraph:\n    - strong: \"Too Much Water:\"\n  - list:\n    - paragraph: Limp leaves (may feel mushy and brown quickly)\n    - paragraph: Soft, rotten areas\n    - paragraph: Poor growth\n    - paragraph: Flowers moldy\n    - paragraph: Leaves curled, yellow and wilted\n    - paragraph: Leaf tips brown (could also signify low humidity)\n    - paragraph: Both young and old leaves fall at same time\n    - paragraph: Roots brown and mushy\n    - paragraph: Soil smells acidic\n  - paragraph:\n    - strong: \"Too Little Light:\"\n  - list:\n    - paragraph: Leaves smaller and paler than normal\n    - paragraph: Blooms poor or absent in flowering types\n    - paragraph: Lower leaves turn yellow, then dry up and fall\n    - paragraph: No growth at all\n    - paragraph: Spindly growth w/ abnormally long spaces between leaves\n    - paragraph: Variegated leaves turn all-green\n    - paragraph: Leaf bleaching\n  - paragraph:\n    - strong: \"Too Much Light:\"\n  - list:\n    - paragraph: Brown or grey scorch patches\n    - paragraph: Leaves wilt at midday\n    - paragraph: Leaves have ‘washed-out’ appearance\n    - paragraph: Leaves of ‘sun shy’ varieties shriveled and dead\n  - paragraph:\n    - strong: \"Too Little Humidity:\"\n  - list:\n    - paragraph: Leaf tips brown and shriveled\n    - paragraph: Leaf edges turn yellow; wilting may occur\n    - paragraph: Buds and flowers shrivel and fall\n    - paragraph: Leaves fall if plant is very sensitive to dry air\n  - paragraph:\n    - strong: \"Too Much Humidity:\"\n  - list:\n    - paragraph: Patches of grey mold on leaves\n    - paragraph: Patches of rot on leaves or stems (Cacti and succulents very sensitive)\n    - paragraph: Flowers covered with grey mold\n  - paragraph:\n    - strong: \"Too Little Fertilizer:\"\n  - list:\n    - paragraph: Slow growth\n    - paragraph: Little resistance to pests and diseases\n    - paragraph: Leaves pale\n    - paragraph: ‘Washed-out’ appearance\n    - paragraph: Yellow spotting may be present\n    - paragraph: Flowers absent it small and poorly colored\n    - paragraph: Stems weak\n    - paragraph: Early drooping of lower leaves\n  - paragraph:\n    - strong: \"Too Much Fertilizer:\"\n  - list:\n    - paragraph: Leaves wilted\n    - paragraph: Summer- growth stunted\n    - paragraph: Winter- growth lanky and weak\n    - paragraph: Crisp, brown spots\n    - paragraph: Scorched edges\n    - paragraph: Leaf bleaching\n    - paragraph: White crust on surface of compost and clay pot in a soft-water area\n  - paragraph:\n    - strong: \"Temperature Wrong:\"\n  - list:\n    - paragraph: Leaf curl, followed by browning and leaf fall (too cold)\n    - paragraph: Lower leaves wilt; edges turn brown. Bottom leaves fall (too warm)\n    - paragraph: Flowers short-lived (too warm)\n    - paragraph: Spindly growth in good light in winter or early spring (too warm)\n    - paragraph: Leaf fall after rapid yellowing (sudden temp. change)\n  - paragraph:\n    - link \"Here is a link to “Common Houseplant Pests”\":\n      - /url: https://www.reddit.com/r/plantclinic/comments/o7xz98/common_houseplant_pests/?utm_source=share&utm_medium=ios_app&utm_name=iossmf\n  - paragraph: If interested, I typed up this info from the book “The House Plant Expert,” by D.G. Hessayon. It has a lot of valuable information in it!\n  - paragraph: \"*I’ll edit as things get added to the comment section\""
+      },
+      {
+        "file": "144-source-01.txt",
+        "start_line": 248,
+        "end_line": 248,
+        "sha256": "5df72106d1f0b5656643cf9973d088fefe8925a39cd0b319716190741b08dd6f",
+        "text": "      - paragraph: Remember to check for bugs guys! We all once thought we were immune in the beginning; but it’s part of owning plants and nothing to be ashamed of. Many of these issues may also arise from pests so get up close and really inspect. Happy planting <3"
+      },
+      {
+        "file": "144-source-01.txt",
+        "start_line": 366,
+        "end_line": 366,
+        "sha256": "5df72106d1f0b5656643cf9973d088fefe8925a39cd0b319716190741b08dd6f",
+        "text": "        - paragraph: Haha I know, there’s a lot of overlapping info! At least with under vs over-watering, you can check the soil and think about your watering habits."
+      }
+    ],
+    "advice": "  - paragraph:\n    - strong: \"Too Little Water:\"\n  - list:\n    - paragraph: Leaves limp and wilted (look sad)\n    - paragraph: Little to no growth\n    - paragraph: Lower leaves curled, yellow and wilted\n    - paragraph: Leaf edges brown and dry\n    - paragraph: Flowers fall or fade quick\n    - paragraph: Oldest leaves fall first\n  - paragraph:\n    - strong: \"Too Much Water:\"\n  - list:\n    - paragraph: Limp leaves (may feel mushy and brown quickly)\n    - paragraph: Soft, rotten areas\n    - paragraph: Poor growth\n    - paragraph: Flowers moldy\n    - paragraph: Leaves curled, yellow and wilted\n    - paragraph: Leaf tips brown (could also signify low humidity)\n    - paragraph: Both young and old leaves fall at same time\n    - paragraph: Roots brown and mushy\n    - paragraph: Soil smells acidic\n  - paragraph:\n    - strong: \"Too Little Light:\"\n  - list:\n    - paragraph: Leaves smaller and paler than normal\n    - paragraph: Blooms poor or absent in flowering types\n    - paragraph: Lower leaves turn yellow, then dry up and fall\n    - paragraph: No growth at all\n    - paragraph: Spindly growth w/ abnormally long spaces between leaves\n    - paragraph: Variegated leaves turn all-green\n    - paragraph: Leaf bleaching\n  - paragraph:\n    - strong: \"Too Much Light:\"\n  - list:\n    - paragraph: Brown or grey scorch patches\n    - paragraph: Leaves wilt at midday\n    - paragraph: Leaves have ‘washed-out’ appearance\n    - paragraph: Leaves of ‘sun shy’ varieties shriveled and dead\n  - paragraph:\n    - strong: \"Too Little Humidity:\"\n  - list:\n    - paragraph: Leaf tips brown and shriveled\n    - paragraph: Leaf edges turn yellow; wilting may occur\n    - paragraph: Buds and flowers shrivel and fall\n    - paragraph: Leaves fall if plant is very sensitive to dry air\n  - paragraph:\n    - strong: \"Too Much Humidity:\"\n  - list:\n    - paragraph: Patches of grey mold on leaves\n    - paragraph: Patches of rot on leaves or stems (Cacti and succulents very sensitive)\n    - paragraph: Flowers covered with grey mold\n  - paragraph:\n    - strong: \"Too Little Fertilizer:\"\n  - list:\n    - paragraph: Slow growth\n    - paragraph: Little resistance to pests and diseases\n    - paragraph: Leaves pale\n    - paragraph: ‘Washed-out’ appearance\n    - paragraph: Yellow spotting may be present\n    - paragraph: Flowers absent it small and poorly colored\n    - paragraph: Stems weak\n    - paragraph: Early drooping of lower leaves\n  - paragraph:\n    - strong: \"Too Much Fertilizer:\"\n  - list:\n    - paragraph: Leaves wilted\n    - paragraph: Summer- growth stunted\n    - paragraph: Winter- growth lanky and weak\n    - paragraph: Crisp, brown spots\n    - paragraph: Scorched edges\n    - paragraph: Leaf bleaching\n    - paragraph: White crust on surface of compost and clay pot in a soft-water area\n  - paragraph:\n    - strong: \"Temperature Wrong:\"\n  - list:\n    - paragraph: Leaf curl, followed by browning and leaf fall (too cold)\n    - paragraph: Lower leaves wilt; edges turn brown. Bottom leaves fall (too warm)\n    - paragraph: Flowers short-lived (too warm)\n    - paragraph: Spindly growth in good light in winter or early spring (too warm)\n    - paragraph: Leaf fall after rapid yellowing (sudden temp. change)\n  - paragraph:\n    - link \"Here is a link to “Common Houseplant Pests”\":\n      - /url: https://www.reddit.com/r/plantclinic/comments/o7xz98/common_houseplant_pests/?utm_source=share&utm_medium=ios_app&utm_name=iossmf\n  - paragraph: If interested, I typed up this info from the book “The House Plant Expert,” by D.G. Hessayon. It has a lot of valuable information in it!\n  - paragraph: \"*I’ll edit as things get added to the comment section\"\n\n      - paragraph: Remember to check for bugs guys! We all once thought we were immune in the beginning; but it’s part of owning plants and nothing to be ashamed of. Many of these issues may also arise from pests so get up close and really inspect. Happy planting <3\n\n        - paragraph: Haha I know, there’s a lot of overlapping info! At least with under vs over-watering, you can check the soil and think about your watering habits.",
+    "reason": "General symptom guide and directly explanatory pest/soil checking comments; unrelated later users’ outdoor disease and mold cases excluded.",
+    "frozen_at": "2026-10-29T06:01:01.131633+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:01:57.497792+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

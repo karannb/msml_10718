@@ -1,0 +1,143 @@
+{
+  "reference_action": "Owner confirms daily hose watering, 2–3 minutes per shrub, followed by new green growth and some blooms. Core fix is increased/frequent watering during extreme heat; shade and no extra feeding support it.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Water roots good retrieves rehydration partially, but daily frequency missing and hard-prune advice adds risk.",
+      "evidence": [
+        "142-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1200014865187056/posts/1603820254806513/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Daily or twice-daily watering explicitly matches; this is the same owner’s cross-post and must be flagged as leakage.",
+      "evidence": [
+        "142-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/gardening/comments/1mivxrl/can_someone_telling_me_why_my_azaleas_are_dying_i/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Deep slow watering whenever root zone dry, with more frequent hot-weather checks, matches increased hydration.",
+      "evidence": [
+        "142-source-03.txt"
+      ],
+      "url": "https://encoreazalea.com/blogs/plant-care/4-ways-to-help-encore-azaleas-beat-july-heat?srsltid=AYCX9vIImKTT4t862EFZ_79Ieqb0GkDOC0cfgrcF84Vzww6zcwBZlegM"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit daily hot-weather deep watering.",
+      "evidence": [
+        "142-source-04.txt"
+      ],
+      "url": "https://simplytrees.com/blogs/plant-care-guides/azalea-care-during-summer-heat-expert-tips?srsltid=AYCX9vIuOWWYHypbbHGfjS8m6gGNeHGXxIi2mFtEwACbgPGLsHCGDUNF"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Generic irrigation recommends once/twice weekly rather than daily, opposite the crucial frequency increase in this already alternate-day-watered case.",
+      "evidence": [
+        "142-source-05.txt"
+      ],
+      "url": "https://www.lsuagcenter.com/portals/communications/news/news_archive/2015/august/headline_news/treat-drought-heatstressed-plants-carefully"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Check root survival",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Relocate shrub into full shade",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Cut shrub to ground",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water roots thoroughly",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Heat and water advice are relevant, but confirmed daily watering is underspecified and cutting all foliage from a drought-stressed shrub could worsen recovery."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Cut it back to the ground” removes remaining photosynthetic foliage during severe heat stress without a dead-wood check. Moving established shrubs into full shade can also disturb stressed roots."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The source concerns azaleas in 100-degree heat, with watering and shade suggestions. It fails to specify increased frequency and overstates inability to tolerate the region’s heat."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“Water roots good” leaves frequency and amount undefined. Ground-level pruning is clear but relocation may be a substantial job for four planted shrubs."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "retrieval_leakage": {
+    "rank": 2,
+    "type": "same_owner_crosspost",
+    "evidence": "142-source-02.txt",
+    "reason": "Abe2025 same azalea photos/context, heat and alternate-day watering; near-identical cross-post title. Independent hits remain ranks 1,3,4."
+  },
+  "query_index": 142,
+  "thread_id": "1miw57p",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 142,
+    "thread_id": "1miw57p",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1200014865187056/posts/1603820254806513/",
+    "spans": [
+      {
+        "file": "142-source-01.txt",
+        "start_line": 54,
+        "end_line": 76,
+        "sha256": "46bad9647e8bb39202e17d9e52a658e36658df2f691c723fbe50d194914f33d0",
+        "text": "        - generic: If the roots are still alive, I would put it in full shade. They really don't like the heat, at all.\n        - list:\n          - link \"9w\":\n            - /url: https://www.facebook.com/groups/1200014865187056/posts/1603820254806513/?comment_id=1603869774801561&__cft__[0]=AZjlGAAF1EHlkx2lCUwqUe3rXeYSxr9llHlMqZO1Iy9EkwW6IV9xokFPBRvKzPByP67CRiKzOgHQdTnT9WLxwLz-j4XKRMqXs7lNw_c5GyEEzdj_Awy7CZRUUgo3grvuPXii2yT2hxySyHslC6n-tq12wfm2f0_9bes2M9OVo2VIyexAC_eCD-8htNL09g&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Sara Smith 9 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sara Smith\":\n          - generic: Sara Smith\n        - generic: Cut it back to the ground and see if any green shoots are left. Water roots good\n        - list:\n          - link \"9w\":\n            - /url: https://www.facebook.com/groups/1200014865187056/posts/1603820254806513/?comment_id=1603876438134228&__cft__[0]=AZjlGAAF1EHlkx2lCUwqUe3rXeYSxr9llHlMqZO1Iy9EkwW6IV9xokFPBRvKzPByP67CRiKzOgHQdTnT9WLxwLz-j4XKRMqXs7lNw_c5GyEEzdj_Awy7CZRUUgo3grvuPXii2yT2hxySyHslC6n-tq12wfm2f0_9bes2M9OVo2VIyexAC_eCD-8htNL09g&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Chloe Reid 9 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chloe Reid\":\n          - generic: Chloe Reid\n        - generic: I put mine in the ground in full 100% shade early spring & even with time to acclimate they still bit the dust. I love azaleas but I just don’t think they can handle our heat."
+      }
+    ],
+    "advice": "        - generic: If the roots are still alive, I would put it in full shade. They really don't like the heat, at all.\n        - list:\n          - link \"9w\":\n            - /url: https://www.facebook.com/groups/1200014865187056/posts/1603820254806513/?comment_id=1603869774801561&__cft__[0]=AZjlGAAF1EHlkx2lCUwqUe3rXeYSxr9llHlMqZO1Iy9EkwW6IV9xokFPBRvKzPByP67CRiKzOgHQdTnT9WLxwLz-j4XKRMqXs7lNw_c5GyEEzdj_Awy7CZRUUgo3grvuPXii2yT2hxySyHslC6n-tq12wfm2f0_9bes2M9OVo2VIyexAC_eCD-8htNL09g&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Sara Smith 9 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sara Smith\":\n          - generic: Sara Smith\n        - generic: Cut it back to the ground and see if any green shoots are left. Water roots good\n        - list:\n          - link \"9w\":\n            - /url: https://www.facebook.com/groups/1200014865187056/posts/1603820254806513/?comment_id=1603876438134228&__cft__[0]=AZjlGAAF1EHlkx2lCUwqUe3rXeYSxr9llHlMqZO1Iy9EkwW6IV9xokFPBRvKzPByP67CRiKzOgHQdTnT9WLxwLz-j4XKRMqXs7lNw_c5GyEEzdj_Awy7CZRUUgo3grvuPXii2yT2hxySyHslC6n-tq12wfm2f0_9bes2M9OVo2VIyexAC_eCD-8htNL09g&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Chloe Reid 9 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chloe Reid\":\n          - generic: Chloe Reid\n        - generic: I put mine in the ground in full 100% shade early spring & even with time to acclimate they still bit the dust. I love azaleas but I just don’t think they can handle our heat.",
+    "reason": "First accessible azalea heat-stress recommendations, full shade and hard pruning with watering.",
+    "frozen_at": "2026-10-29T06:00:09.575686+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:00:50.620046+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

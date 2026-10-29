@@ -1,0 +1,151 @@
+{
+  "reference_action": "Insufficient light; OP explicitly reported improvement after increasing light exposure.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Acclimation, airflow, overwatering questions, spray-down and store return; no explicit light increase. Moving out of a corner is justified for circulation, not a brighter destination.",
+      "evidence": [
+        "081-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/754578791256738/posts/6088662454514985/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "unresolved",
+      "reason": "Short title alone supplies no treatment; substantive video content unavailable.",
+      "evidence": [
+        "081-source-02.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/8V_Sk_9PBlw"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Bright indirect exposure and an explicit grow-light fallback directly increase light. Other care recommendations and unsupported quantitative claims remain separate quality concerns.",
+      "evidence": [
+        "081-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=9g123DzDaM8"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Place in a bright indirect spot all day to support photosynthesis; this would increase exposure for the light-starved target.",
+      "evidence": [
+        "video-audit-vKyR1gzDaNo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=vKyR1gzDaNo"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicit get it under a grow light instruction despite competing watering and other comments.",
+      "evidence": [
+        "081-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/plants/comments/r3qv43/not_sure_why_my_palm_plant_is_getting_brown_on/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move out of close corner for airflow",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check planting depth",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Review watering schedule and method",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray down newly purchased plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Check water type and fertilizer exposure",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Return plant to store for replacement",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Advice emphasizes transplant adjustment and possible overwatering rather than low light; none of the visible comments gives the validated lighting fix."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The questions about watering and planting depth avoid a definite unsupported treatment. However, “spray down every plant” leaves the substance unspecified, and returning it substitutes replacement for identifying the correctable cause."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The source concerns a newly purchased palm, but its recent repotting is a different trigger. “Probably overwatering” does not match the confirmed lack of light and no brighter placement is specified."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Moving the plant and reviewing watering are easy. The unspecified spray and “take the plant back to the store” depend on product choice and return eligibility, making the overall plan less clear and practical."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 81,
+  "thread_id": "1ezx3bf",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 81,
+    "thread_id": "1ezx3bf",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/754578791256738/posts/6088662454514985/",
+    "spans": [
+      {
+        "file": "081-source-01.txt",
+        "start_line": 55,
+        "end_line": 78,
+        "sha256": "5e24b6be7888b54369013653ca63acb0debd645d22f89629205c598d7e637bb8",
+        "text": "          - generic: Nancy Gibbs\n        - generic: You should never repot a plant until it gets used to your home!!!!! It's too close in a corner! Not enough circulation . Did you set it deeper in soil than it was! It can take a month for a new plant to get used to new conditions ! It's beautiful! Good luck with it!\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/754578791256738/posts/6088662454514985/?comment_id=6088901967824367&__cft__[0]=AZiJPV4r_cYocEMzLQ-frNX2RLN-lopovZ2qd-NsS6FIQBEQ9_yzdPeZ8B9rEX7Ow6EvljfwJS36rgQ3zcJcFgItZ9ZXtXB3E3qB5yB95qHGM7oo372Vub8C9ucxnaM15nSGQM3dKojJtKScLrT_0hv7SUPtRK9yU3-9BmiP1PFRhkvN2IWeDnnXMsioYA&__tn__=R]-R\n        - button \"4 reactions; see who reacted to this\":\n          - generic: \"4\"\n      - article \"Comment by Molly Lynne Simonson 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Molly Lynne Simonson\":\n          - generic: Molly Lynne Simonson\n        - generic: That quickly? You are probably overwatering it. What’s your watering schedule and method like?\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/754578791256738/posts/6088662454514985/?comment_id=6088794324501798&__cft__[0]=AZiJPV4r_cYocEMzLQ-frNX2RLN-lopovZ2qd-NsS6FIQBEQ9_yzdPeZ8B9rEX7Ow6EvljfwJS36rgQ3zcJcFgItZ9ZXtXB3E3qB5yB95qHGM7oo372Vub8C9ucxnaM15nSGQM3dKojJtKScLrT_0hv7SUPtRK9yU3-9BmiP1PFRhkvN2IWeDnnXMsioYA&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Dawn Marie Kujak 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Dawn Marie Kujak\":\n          - generic: Dawn Marie Kujak\n        - generic: Personally, I spray down every plant I buy from anywhere because you just don’t ever know what they are carrying. Also, the type of water you’re using is important and sometimes fertilizer burns plants. ￼ good luck. ￼ I would just take the plant back to the store and get a new one. ￼ There are so many places that don’t know how to take care of plants and throw them all out anyways."
+      }
+    ],
+    "advice": "          - generic: Nancy Gibbs\n        - generic: You should never repot a plant until it gets used to your home!!!!! It's too close in a corner! Not enough circulation . Did you set it deeper in soil than it was! It can take a month for a new plant to get used to new conditions ! It's beautiful! Good luck with it!\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/754578791256738/posts/6088662454514985/?comment_id=6088901967824367&__cft__[0]=AZiJPV4r_cYocEMzLQ-frNX2RLN-lopovZ2qd-NsS6FIQBEQ9_yzdPeZ8B9rEX7Ow6EvljfwJS36rgQ3zcJcFgItZ9ZXtXB3E3qB5yB95qHGM7oo372Vub8C9ucxnaM15nSGQM3dKojJtKScLrT_0hv7SUPtRK9yU3-9BmiP1PFRhkvN2IWeDnnXMsioYA&__tn__=R]-R\n        - button \"4 reactions; see who reacted to this\":\n          - generic: \"4\"\n      - article \"Comment by Molly Lynne Simonson 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Molly Lynne Simonson\":\n          - generic: Molly Lynne Simonson\n        - generic: That quickly? You are probably overwatering it. What’s your watering schedule and method like?\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/754578791256738/posts/6088662454514985/?comment_id=6088794324501798&__cft__[0]=AZiJPV4r_cYocEMzLQ-frNX2RLN-lopovZ2qd-NsS6FIQBEQ9_yzdPeZ8B9rEX7Ow6EvljfwJS36rgQ3zcJcFgItZ9ZXtXB3E3qB5yB95qHGM7oo372Vub8C9ucxnaM15nSGQM3dKojJtKScLrT_0hv7SUPtRK9yU3-9BmiP1PFRhkvN2IWeDnnXMsioYA&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Dawn Marie Kujak 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Dawn Marie Kujak\":\n          - generic: Dawn Marie Kujak\n        - generic: Personally, I spray down every plant I buy from anywhere because you just don’t ever know what they are carrying. Also, the type of water you’re using is important and sometimes fertilizer burns plants. ￼ good luck. ￼ I would just take the plant back to the store and get a new one. ￼ There are so many places that don’t know how to take care of plants and throw them all out anyways.",
+    "reason": "First retained page offers acclimation, watering review, washing and return-to-store alternatives. Retain all visible advice without using the AI-generated page title.",
+    "frozen_at": "2026-10-29T05:05:34.111236+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:06:23.207605+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

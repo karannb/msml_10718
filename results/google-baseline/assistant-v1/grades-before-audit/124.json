@@ -1,0 +1,144 @@
+{
+  "reference_action": "Owner explicitly reports watering plus fertilizing, after which azaleas turned green and survived. Waiting and heat protection are prior advice, not independently confirmed interventions; water or fertilizer is a partial central-action match.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Wait for growth before pruning and water before next winter freeze; omits current spring watering/fertilizing that OP actually performed.",
+      "evidence": [
+        "124-source-01.txt"
+      ],
+      "url": "https://encoreazalea.com/blogs/plant-care/how-to-care-for-winter-damaged-azaleas?srsltid=AYCX9vIYEXiUWXoNuS0BXl09BnfYEHaZ0Vs4WqgCNvKEc9k5sehj44LP"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Patience and delayed pruning only, not confirmed watering/fertilizer.",
+      "evidence": [
+        "124-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/yardenercom/videos/your-encore-azaleas-look-brown-and-dry-and-youre-not-sure-if-theyre-dead-or-just/1762950651377630/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Spring fertilizer and maintain adequate moisture including dry early spring retrieve both reported actions.",
+      "evidence": [
+        "video-audit-Et0HcPNlwww-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Et0HcPNlwww"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit slow-release nitrogen plant food and time retrieve fertilizer component, without watering.",
+      "evidence": [
+        "124-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=R33w4vpKooU"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Check buds and wait, prune after flowering; no watering or fertilizer instruction.",
+      "evidence": [
+        "124-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/EncoreAzalea/videos/no-blooms-yet-dont-panic-encore-azaleas-often-bloom-even-better-as-they-mature-a/1643111680016815/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check new growth to distinguish living and dead stems",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prune only dead/split stems after growth or flowering",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Replace dead plants with hardier variety if necessary",
+        "minutes": 25,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Apply 3–4 inches of mulch in fall",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Water before freezing if rainfall scarce",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Correctly treats winter damage as potentially recoverable and avoids premature pruning. Main advice is patience and future winter prevention; it does not retrieve the current watering/fertilizer recovery routine."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Wait until new growth emerges” protects living tissues from premature removal. Conditional dead-stem pruning and watering only when rain is scarce are cautious, though mulch placement away from stems is not specified."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Winter-stressed reblooming azaleas are directly addressed. The article emphasizes brown/black damaged foliage rather than normal reddish winter coloration and omits the current watering/fertilizer actions reported by this owner."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Living buds and lateral branches provide a concrete pruning endpoint. Conditional replacement and broad seasonal care add substantial work, while current recovery instructions remain limited."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 124,
+  "thread_id": "1jwevyi",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 124,
+    "thread_id": "1jwevyi",
+    "selected_rank": 1,
+    "source_url": "https://encoreazalea.com/blogs/plant-care/how-to-care-for-winter-damaged-azaleas?srsltid=AYCX9vIYEXiUWXoNuS0BXl09BnfYEHaZ0Vs4WqgCNvKEc9k5sehj44LP",
+    "spans": [
+      {
+        "file": "124-source-01.txt",
+        "start_line": 41,
+        "end_line": 64,
+        "sha256": "3ca03d81e95e61bfe921bc9a67c99b54a13ed826ae55ad44bb8a502bc4186d1f",
+        "text": "  - heading \"How to Care for Winter-Damaged Azaleas\" [level=1]\n  - generic: Before you reach for the pruners, give azaleas a chance to recover naturally from winter damage.\n  - generic: Tags\n  - list:\n    - link \"Care Tips\":\n      - /url: /blogs/plant-care/tagged/care-tips\n    - link \"winter\":\n      - /url: /blogs/plant-care/tagged/winter\n  - generic: Share\n  - list:\n    - listitem \"Share on Facebook\":\n    - listitem \"Pin on Pinterest\":\n    - listitem \"Tweet on Twitter\":\n    - listitem \"Share by e-mail\":\n  - img \"Discolored leaves from freezing temps on azalea leaves\"\n  - text: By Kim Toscano Gardeners across the country experienced extreme cold temperatures this past winter leaving many azaleas damaged. Visible impacts include brown or blackened foliage, defoliation, and brown colored flower buds. Time will tell the severity of the damage, which may vary plant to plant across the landscape.\n  - heading \"When to Prune Winter Damage\" [level=3]\n  - text: While you may be eager to remove cold-damaged foliage right away, the best course of action is to wait until new growth emerges. Only then can we determine the extent of the damage. By pruning too early, we risk cutting out plant tissues that are still living and will recover on their own. In many cases, azaleas will shed the damaged foliage and leaf out in with fresh growth. Once we see buds begin to open or new foliage emerge, we can then differentiate between living and dead tissue. Winter-damaged plants may be slow in leafing out, so be patient. Plants with more severe damage may die back partially, with new foliage and stems emerging from the lower portion of the plant. Cut back dead stems to a living bud or lateral branch and remove any branches that are split lengthwise along the stem. It may take a couple of years of shaping to regain a strong form.\n  - heading \"Green azalea bud and brown leaves due to ice and freezing temps\" [level=3]:\n    - img \"Green azalea bud and brown leaves due to ice and freezing temps\"\n  - heading \"Stop and Wait for the Flowers\" [level=3]\n  - text: Another reason to delay pruning is to avoid cutting off healthy flower buds. This is why we traditionally wait until the end of the spring flowering season to prune azaleas. On cold-damaged plants, some flower buds are obviously dead – shriveled and dry, they fall off the plant at the slightest touch. Others may be discolored but still plump. These are likely to open. Don’t worry if your plants fail to flower this spring. Encore Azaleas produce flower buds on the new growth throughout summer. Prune out dead tissue and enjoy the summer and autumn blooms that are sure to follow.\n  - heading \"Cold-Hardy Varieties\" [level=3]\n  - text: Severely damaged plants may die back completely to the ground. Azalea roots are fairly shallow, and plants may not recover if roots were exposed to prolonged periods of cold. If you are replacing cold-damaged plants in the garden, consider a hardier variety of Encore Azalea. Many varieties are hardy to USDA Zone 6, where average minimum winter temperatures dip to -10 degrees Fahrenheit. These include both dwarf and intermediate-sized plants in all hues. Mulching azaleas in fall provides roots with an extra layer of protection. Layer three to four inches of pine straw or bark around the base of plants, extending beyond the leaf canopy. As cold weather approaches make sure plants have sufficient moisture. Water plants before freezing weather if rainfall has been scarce, as moist soil provides better insulation. These simple steps can help protect azaleas from the next big freeze."
+      }
+    ],
+    "advice": "  - heading \"How to Care for Winter-Damaged Azaleas\" [level=1]\n  - generic: Before you reach for the pruners, give azaleas a chance to recover naturally from winter damage.\n  - generic: Tags\n  - list:\n    - link \"Care Tips\":\n      - /url: /blogs/plant-care/tagged/care-tips\n    - link \"winter\":\n      - /url: /blogs/plant-care/tagged/winter\n  - generic: Share\n  - list:\n    - listitem \"Share on Facebook\":\n    - listitem \"Pin on Pinterest\":\n    - listitem \"Tweet on Twitter\":\n    - listitem \"Share by e-mail\":\n  - img \"Discolored leaves from freezing temps on azalea leaves\"\n  - text: By Kim Toscano Gardeners across the country experienced extreme cold temperatures this past winter leaving many azaleas damaged. Visible impacts include brown or blackened foliage, defoliation, and brown colored flower buds. Time will tell the severity of the damage, which may vary plant to plant across the landscape.\n  - heading \"When to Prune Winter Damage\" [level=3]\n  - text: While you may be eager to remove cold-damaged foliage right away, the best course of action is to wait until new growth emerges. Only then can we determine the extent of the damage. By pruning too early, we risk cutting out plant tissues that are still living and will recover on their own. In many cases, azaleas will shed the damaged foliage and leaf out in with fresh growth. Once we see buds begin to open or new foliage emerge, we can then differentiate between living and dead tissue. Winter-damaged plants may be slow in leafing out, so be patient. Plants with more severe damage may die back partially, with new foliage and stems emerging from the lower portion of the plant. Cut back dead stems to a living bud or lateral branch and remove any branches that are split lengthwise along the stem. It may take a couple of years of shaping to regain a strong form.\n  - heading \"Green azalea bud and brown leaves due to ice and freezing temps\" [level=3]:\n    - img \"Green azalea bud and brown leaves due to ice and freezing temps\"\n  - heading \"Stop and Wait for the Flowers\" [level=3]\n  - text: Another reason to delay pruning is to avoid cutting off healthy flower buds. This is why we traditionally wait until the end of the spring flowering season to prune azaleas. On cold-damaged plants, some flower buds are obviously dead – shriveled and dry, they fall off the plant at the slightest touch. Others may be discolored but still plump. These are likely to open. Don’t worry if your plants fail to flower this spring. Encore Azaleas produce flower buds on the new growth throughout summer. Prune out dead tissue and enjoy the summer and autumn blooms that are sure to follow.\n  - heading \"Cold-Hardy Varieties\" [level=3]\n  - text: Severely damaged plants may die back completely to the ground. Azalea roots are fairly shallow, and plants may not recover if roots were exposed to prolonged periods of cold. If you are replacing cold-damaged plants in the garden, consider a hardier variety of Encore Azalea. Many varieties are hardy to USDA Zone 6, where average minimum winter temperatures dip to -10 degrees Fahrenheit. These include both dwarf and intermediate-sized plants in all hues. Mulching azaleas in fall provides roots with an extra layer of protection. Layer three to four inches of pine straw or bark around the base of plants, extending beyond the leaf canopy. As cold weather approaches make sure plants have sufficient moisture. Water plants before freezing weather if rainfall has been scarce, as moist soil provides better insulation. These simple steps can help protect azaleas from the next big freeze.",
+    "reason": "Highest-ranked accessible relevant winter-damage advice; retain delayed pruning and conditional prevention/replacement.",
+    "frozen_at": "2026-10-29T05:45:25.238868+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:46:31.551926+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

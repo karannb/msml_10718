@@ -1,0 +1,153 @@
+{
+  "reference_action": "OP under-watered Steven after moving him outside to semi-shade. Advice was water and take back indoors; OP confirms doing so and improvement after two weeks indoors. Watering and sheltered indoor recovery are the validated bundle.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Shipping-damaged Alocasia corm reassurance, plug removal and humidity omit watering and indoor recovery.",
+      "evidence": [
+        "088-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/pha.plant.hoarders/posts/1164752579254377/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Anthurium root-rot rescue with lemon bath and homemade feeds, including withholding water initially; no direct drought rehydration or explicit indoor return.",
+      "evidence": [
+        "video-audit-Baa6HHZIxMQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Baa6HHZIxMQ"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Audit: indoor-window aftercare for a broken/chemically treated plant does not direct returning an outdoor drought-stressed plant indoors or restoring its water. Incidental location overlap is not enough.",
+      "evidence": [
+        "video-audit-u2tAoB96nXI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=u2tAoB96nXI"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "At 3:27 water severely underwatered plant slowly and deeply; at 4:38 move recovering plant to indirect light near a window. Both central actions are available, among many extra tasks. Creator labels video Made with AI; this is the video transcript, not a Google AI summary.",
+      "evidence": [
+        "video-audit-Zw1hccM-x4U-transcript.txt",
+        "video-audit-Zw1hccM-x4U.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Zw1hccM-x4U"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Audit: indoor-window aftercare for a broken/chemically treated plant does not direct returning an outdoor drought-stressed plant indoors or restoring its water. Incidental location overlap is not enough.",
+      "evidence": [
+        "video-audit-C3g544stdx4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=C3g544stdx4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect corm for rot/health",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove casing around propagation plugs if present",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Provide high humidity",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Different shipping/corm context supplies neither drought watering nor returning the plant indoors. Unnecessary root disturbance is possible but no explicit likely major harm; humidity method is unspecified."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Take the casing around the plugs off” may unnecessarily disturb a stressed plant without evidence it has such a plug. The advice is not overtly destructive, but lacks a moisture check and can delay the needed rehydration."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The answer assumes Alocasia shipping damage and healthy “corms.” It does not address the stated outdoor exposure and admitted insufficient watering."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Plug removal is an ordinary manual task if plugs exist. “High humidity would help” gives no method or target, so the full advice is not a clear executable plan for this plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 88,
+  "thread_id": "1g16j0w",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 88,
+    "thread_id": "1g16j0w",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/pha.plant.hoarders/posts/1164752579254377/",
+    "spans": [
+      {
+        "file": "088-source-01.txt",
+        "start_line": 67,
+        "end_line": 89,
+        "sha256": "f60559bf2ed55745550b1d9c500692e0b6c402aa12c988e7f52490ad4c85a015",
+        "text": "        - generic: If the alocasias have health corms still and not rotted they will bounce back! i’ve literally had an alocasia down to 1 stick and because the corm was healthy it bounced back! just takes sometime.\n        - list:\n          - link \"6d\":\n            - /url: https://www.facebook.com/groups/pha.plant.hoarders/posts/1164752579254377/?comment_id=1164832755913026&__cft__[0]=AZgrcj4tM_mx8ooFvpS9ZxEz4GsJwbcwHNQDyNrE_cDcObcJoKVTNeLnOHwRQD9RfYEovLTOw0n7X9H7d6eDPrZkOBf5LilKyKeKPHozgRnyhH9f-plCSsdYdW9W-GY4eVpugk-L0yltiJVwm7mBLbko6FG6oKe5UqqV9isdr_Qix9GnQMhCQ4yID-zqN1NO&__tn__=R]-R\n        - button \"4 reactions; see who reacted to this\":\n          - generic: \"4\"\n      - article \"Comment by Taylor Midkiff 6 days ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Taylor Midkiff\":\n          - generic: Taylor Midkiff\n        - generic: i’m also going to be honest i always take the casing around the plugs off. i’ve never not had issues with keeping my plants in plugs tbh. ESPECIALLY alocasias.\n        - list:\n          - link \"6d\":\n            - /url: https://www.facebook.com/groups/pha.plant.hoarders/posts/1164752579254377/?comment_id=1164834055912896&__cft__[0]=AZgrcj4tM_mx8ooFvpS9ZxEz4GsJwbcwHNQDyNrE_cDcObcJoKVTNeLnOHwRQD9RfYEovLTOw0n7X9H7d6eDPrZkOBf5LilKyKeKPHozgRnyhH9f-plCSsdYdW9W-GY4eVpugk-L0yltiJVwm7mBLbko6FG6oKe5UqqV9isdr_Qix9GnQMhCQ4yID-zqN1NO&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Jennifer Cross 5 days ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jennifer Cross\":\n          - generic: Jennifer Cross\n        - generic: Hate to say it but I would love to know who sent you that mess so they can be avoided. Agree with other posters about getting them out of the plugs, as well as that if they aren't completely rotted they might be saved with substantial time and effort. High humidity would help their recovery if you can manage it."
+      }
+    ],
+    "advice": "        - generic: If the alocasias have health corms still and not rotted they will bounce back! i’ve literally had an alocasia down to 1 stick and because the corm was healthy it bounced back! just takes sometime.\n        - list:\n          - link \"6d\":\n            - /url: https://www.facebook.com/groups/pha.plant.hoarders/posts/1164752579254377/?comment_id=1164832755913026&__cft__[0]=AZgrcj4tM_mx8ooFvpS9ZxEz4GsJwbcwHNQDyNrE_cDcObcJoKVTNeLnOHwRQD9RfYEovLTOw0n7X9H7d6eDPrZkOBf5LilKyKeKPHozgRnyhH9f-plCSsdYdW9W-GY4eVpugk-L0yltiJVwm7mBLbko6FG6oKe5UqqV9isdr_Qix9GnQMhCQ4yID-zqN1NO&__tn__=R]-R\n        - button \"4 reactions; see who reacted to this\":\n          - generic: \"4\"\n      - article \"Comment by Taylor Midkiff 6 days ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Taylor Midkiff\":\n          - generic: Taylor Midkiff\n        - generic: i’m also going to be honest i always take the casing around the plugs off. i’ve never not had issues with keeping my plants in plugs tbh. ESPECIALLY alocasias.\n        - list:\n          - link \"6d\":\n            - /url: https://www.facebook.com/groups/pha.plant.hoarders/posts/1164752579254377/?comment_id=1164834055912896&__cft__[0]=AZgrcj4tM_mx8ooFvpS9ZxEz4GsJwbcwHNQDyNrE_cDcObcJoKVTNeLnOHwRQD9RfYEovLTOw0n7X9H7d6eDPrZkOBf5LilKyKeKPHozgRnyhH9f-plCSsdYdW9W-GY4eVpugk-L0yltiJVwm7mBLbko6FG6oKe5UqqV9isdr_Qix9GnQMhCQ4yID-zqN1NO&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Jennifer Cross 5 days ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Jennifer Cross\":\n          - generic: Jennifer Cross\n        - generic: Hate to say it but I would love to know who sent you that mess so they can be avoided. Agree with other posters about getting them out of the plugs, as well as that if they aren't completely rotted they might be saved with substantial time and effort. High humidity would help their recovery if you can manage it.",
+    "reason": "First accessible result contains rescue advice for damaged plants; keep its different shipping/plug/corm context visible rather than silently improving retrieval.",
+    "frozen_at": "2026-10-29T05:10:53.258630+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.238143+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.236899+00:00",
+    "changes": [
+      {
+        "query_index": 88,
+        "rank": 3,
+        "field": "source_action_hit",
+        "before": "hit",
+        "after": "miss",
+        "reason": "Audit: indoor-window aftercare for a broken/chemically treated plant does not direct returning an outdoor drought-stressed plant indoors or restoring its water. Incidental location overlap is not enough."
+      },
+      {
+        "query_index": 88,
+        "rank": 5,
+        "field": "source_action_hit",
+        "before": "hit",
+        "after": "miss",
+        "reason": "Audit: indoor-window aftercare for a broken/chemically treated plant does not direct returning an outdoor drought-stressed plant indoors or restoring its water. Incidental location overlap is not enough."
+      }
+    ]
+  }
+}

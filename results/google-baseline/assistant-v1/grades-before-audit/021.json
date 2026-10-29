@@ -1,0 +1,137 @@
+{
+  "reference_action": "Healthy pepper is not mature enough to set fruit: give it time. OP explicitly confirms that waiting advice was right when fruit appeared; hand-pollination in the broader summary is not independently confirmed by this outcome.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Shade covers and reduced watering treat heat/overwatering, not normal immaturity or waiting.",
+      "evidence": [
+        "021-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1735299856646674/posts/3540948452748463/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Patience is tied to recovery after heat waves with shade/mulch/watering changes; it does not identify normal maturation or advise leaving a healthy young plant alone.",
+      "evidence": [
+        "video-audit-Fh1dBqO3CYg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Fh1dBqO3CYg"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Misting and hand-pollination differ from the specifically validated waiting/maturation advice. Pollination is in the reference summary but not established as OP’s successful action.",
+      "evidence": [
+        "video-audit-XBvR-D1Z_1c-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=XBvR-D1Z_1c"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "At 8:11–8:54 it explicitly identifies a plant being too young, says not to rush treatment, and advises watching healthy growth and giving it more time. This directly reproduces the validated remedy. Ordinary creator video labeled Made with AI, not Google AI Overview.",
+      "evidence": [
+        "video-audit-N9xQGYBIdUw-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=N9xQGYBIdUw&themeRefresh=1"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Changing fertilizer to a bloom formula and adjusting environment/pollination is not the validated waiting for maturity.",
+      "evidence": [
+        "video-audit-u-KE5SYjFhE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=u-KE5SYjFhE"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": true,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Build cloth or plastic shade cover on frame",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": true
+      },
+      {
+        "action": "Move out of afternoon sun",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Skip a day between morning waterings",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Use pest covers during heat wave",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      }
+    ],
+    "reason": "The selected comments diagnose heat stress or overwatering instead of normal immaturity, adding unnecessary changes; clear worsening is not established."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Cloth or plastic on a frame” gives no ventilation safeguard, and skipping watering days lacks a soil check. These are missing caveats for an already afternoon-shaded pepper, but the evidence does not establish likely serious worsening."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“Get them out of the afternoon sun” does not fit a plant already shaded after morning. None of the visible comments identifies immaturity or supplies the successful reassurance to wait."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The cover needs a “frame of some sort” without installation details, and the heat explanation is truncated. Morning watering is easy, but its frequency and the suitability of plastic versus cloth remain ambiguous."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 21,
+  "thread_id": "1lic91x",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 21,
+    "thread_id": "1lic91x",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1735299856646674/posts/3540948452748463/",
+    "spans": [
+      {
+        "file": "021-source-01.txt",
+        "start_line": 51,
+        "end_line": 75,
+        "sha256": "c5f882c2286e9fc30985cf115d67bf4d4fdc17f8790663ee83e93bbf54e11fc9",
+        "text": "          - generic: Dan Nelson\n        - generic: Clotche = covering above with piece of cloth or plastic on a frame of some sort. Get them out of the afternoon sun.\n        - text: Heat stress is caused by not allowing the plant, especially peppers, to transfer heat into the soil. If this is repeatedly happening, y…\n        - button \"See more\"\n        - list:\n          - link \"16w\":\n            - /url: https://www.facebook.com/groups/1735299856646674/posts/3540948452748463/?comment_id=3541332902710018&__cft__[0]=AZh7akl16_jZatySWM2tO6_ZtAX2L0mIfiE2hmxsbfyV3N2Vinw8Sfah8J7xWEKgQzBvaiH5wh6SvqGV2i67p55V6zjN45LP7YofCkhcxsQOK7xEih-5-Z5e4y4D0sEwdN-IMwbxFVb6jtSL-xXxk4s-ABDf2bfKazw5vecqa5kb0RFAAEBFBDLCIjTVMQ&__tn__=R]-R\n      - article \"Comment by Tee Payne 16 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Tee Payne\":\n          - generic: Tee Payne\n        - generic: When this was happening to me... I found out I was over watering. I would skip a day in-between to water in the morning... Now I'm seeing peppers\n        - list:\n          - link \"16w\":\n            - /url: https://www.facebook.com/groups/1735299856646674/posts/3540948452748463/?comment_id=3541116872731621&__cft__[0]=AZh7akl16_jZatySWM2tO6_ZtAX2L0mIfiE2hmxsbfyV3N2Vinw8Sfah8J7xWEKgQzBvaiH5wh6SvqGV2i67p55V6zjN45LP7YofCkhcxsQOK7xEih-5-Z5e4y4D0sEwdN-IMwbxFVb6jtSL-xXxk4s-ABDf2bfKazw5vecqa5kb0RFAAEBFBDLCIjTVMQ&__tn__=R]-R\n      - article \"Comment by Bhappy546 16 weeks ago\":\n        - link:\n          - /url: \"#\"\n          - button:\n            - link:\n              - /url: \"#\"\n        - button \"Bhappy546\":\n          - generic: Bhappy546\n        - generic: I covered mine for first time during heat wave and it worked. I used pest covers."
+      }
+    ],
+    "advice": "          - generic: Dan Nelson\n        - generic: Clotche = covering above with piece of cloth or plastic on a frame of some sort. Get them out of the afternoon sun.\n        - text: Heat stress is caused by not allowing the plant, especially peppers, to transfer heat into the soil. If this is repeatedly happening, y…\n        - button \"See more\"\n        - list:\n          - link \"16w\":\n            - /url: https://www.facebook.com/groups/1735299856646674/posts/3540948452748463/?comment_id=3541332902710018&__cft__[0]=AZh7akl16_jZatySWM2tO6_ZtAX2L0mIfiE2hmxsbfyV3N2Vinw8Sfah8J7xWEKgQzBvaiH5wh6SvqGV2i67p55V6zjN45LP7YofCkhcxsQOK7xEih-5-Z5e4y4D0sEwdN-IMwbxFVb6jtSL-xXxk4s-ABDf2bfKazw5vecqa5kb0RFAAEBFBDLCIjTVMQ&__tn__=R]-R\n      - article \"Comment by Tee Payne 16 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Tee Payne\":\n          - generic: Tee Payne\n        - generic: When this was happening to me... I found out I was over watering. I would skip a day in-between to water in the morning... Now I'm seeing peppers\n        - list:\n          - link \"16w\":\n            - /url: https://www.facebook.com/groups/1735299856646674/posts/3540948452748463/?comment_id=3541116872731621&__cft__[0]=AZh7akl16_jZatySWM2tO6_ZtAX2L0mIfiE2hmxsbfyV3N2Vinw8Sfah8J7xWEKgQzBvaiH5wh6SvqGV2i67p55V6zjN45LP7YofCkhcxsQOK7xEih-5-Z5e4y4D0sEwdN-IMwbxFVb6jtSL-xXxk4s-ABDf2bfKazw5vecqa5kb0RFAAEBFBDLCIjTVMQ&__tn__=R]-R\n      - article \"Comment by Bhappy546 16 weeks ago\":\n        - link:\n          - /url: \"#\"\n          - button:\n            - link:\n              - /url: \"#\"\n        - button \"Bhappy546\":\n          - generic: Bhappy546\n        - generic: I covered mine for first time during heat wave and it worked. I used pest covers.",
+    "reason": "First usable source; all three visible advice comments retained, including incomplete heat-stress explanation.",
+    "frozen_at": "2026-10-29T04:20:46.956877+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:21:52.448216+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "reference_action": "OP says the air was the issue: moved plant to a more humid place and it was much better (translated from Bosnian/Croatian/Serbian).",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Later replies explicitly recommend higher humidity, moving away from vents, humidifier/grouping/trays. Selected first reply does not.",
+      "evidence": [
+        "181-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/IndoorPlants/comments/use5qz/please_help_the_leaves_of_our_indoor_palm_are_all/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Names low humidity as possible cause but actionable replies address water/light only.",
+      "evidence": [
+        "181-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/393923344897048/posts/1845723559717012/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "At 5:08–6:08 move away from dry airflow into humid grouped-plant position.",
+      "evidence": [
+        "video-audit-vKyR1gzDaNo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=vKyR1gzDaNo"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "At 5:29–5:53 humidifier, grouping or move to humid place explicitly recommended.",
+      "evidence": [
+        "video-audit-JL76eiHfkF4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=JL76eiHfkF4"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "States humidity requirement and seasonal explanation but actual remedial instruction is filtered water; no explicit humid-location/humidity-raising action.",
+      "evidence": [
+        "video-audit-56Dlts68o3c-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=56Dlts68o3c"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Replace with parlor palm or Dracaena",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      }
+    ],
+    "reason": "First reply dismisses suitability indoors and recommends replacing plant. It neither identifies dry air nor corrects humidity."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Fish out of water” may lead to giving up on a recoverable plant. No directly toxic treatment, but replacement sidesteps a fixable environmental issue."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Broad claim about Majesty palms substitutes for the actual dry-air problem. It ignores the possible improvement demonstrated by the reference."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Buying another plant is simple but costs money and may exceed the budget. It does not help retain or recover the original plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 181,
+  "thread_id": "1028vjv",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 181,
+    "thread_id": "1028vjv",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/IndoorPlants/comments/use5qz/please_help_the_leaves_of_our_indoor_palm_are_all/",
+    "spans": [
+      {
+        "file": "181-source-01.txt",
+        "start_line": 137,
+        "end_line": 141,
+        "sha256": "f07415e2fc28a3f12b75063c893a19e913c28dbe1a66e0780ff56debc684661e",
+        "text": "        - text: Hi! I am not a plant expert but I never could keep a\n        - link \"majesty palm\":\n          - /url: /search/?q=majesty+palm+indoor+care&cId=20a2741b-9b4b-40f6-ba14-3294b20cdd3b&iId=64460685-dc5a-41a9-b5f9-9e0e26eaaffb\n          - text: majesty palm\n        - text: alive. I’ve heard they aren’t exactly suitable for indoors but mostly outdoor in Florida like areas. I don’t think it’s anything your doing wrong. The plant indoors is just a fish out of water."
+      },
+      {
+        "file": "181-source-01.txt",
+        "start_line": 167,
+        "end_line": 167,
+        "sha256": "f07415e2fc28a3f12b75063c893a19e913c28dbe1a66e0780ff56debc684661e",
+        "text": "          - paragraph: Very sad! But their cheap and big that’s why they sell. I’d suggest a parlor palm or a dracaena marginata that would fit into your current pot."
+      }
+    ],
+    "advice": "        - text: Hi! I am not a plant expert but I never could keep a\n        - link \"majesty palm\":\n          - /url: /search/?q=majesty+palm+indoor+care&cId=20a2741b-9b4b-40f6-ba14-3294b20cdd3b&iId=64460685-dc5a-41a9-b5f9-9e0e26eaaffb\n          - text: majesty palm\n        - text: alive. I’ve heard they aren’t exactly suitable for indoors but mostly outdoor in Florida like areas. I don’t think it’s anything your doing wrong. The plant indoors is just a fish out of water.\n\n          - paragraph: Very sad! But their cheap and big that’s why they sell. I’d suggest a parlor palm or a dracaena marginata that would fit into your current pot.",
+    "reason": "First substantive reply and its same-author follow-up recommends replacement; frozen before reference.",
+    "frozen_at": "2026-10-29T06:33:16.154541+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:34:05.608462+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

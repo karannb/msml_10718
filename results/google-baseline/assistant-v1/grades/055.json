@@ -1,0 +1,137 @@
+{
+  "reference_action": "A mealybug: dab the individual with alcohol and thoroughly inspect for more. OP removed it and checked the plant with no additional bugs found.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Flowering/leggy growth discussion and pruning, not mealybug removal/inspection.",
+      "evidence": [
+        "055-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/dqixdz/my_polka_dot_plant_has_really_small_leaves_and/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Mealybugs mentioned with organic pesticide, but no individual alcohol removal or full inspection; pest label alone is not the validated action.",
+      "evidence": [
+        "055-source-02.txt"
+      ],
+      "url": "https://plantify.co.za/pages/polka-dot-plant-care-instructions?srsltid=AYCX9vKMJ9Q5IuCWBGDpLQCHLYbAlKWRGpORrDY-C71jZnF69H7Jg9Zg"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Light, potting and watering guide, no pest intervention.",
+      "evidence": [
+        "video-audit-iXYaDiNFPoM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=iXYaDiNFPoM"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "General care/pruning/propagation, no mealybug action.",
+      "evidence": [
+        "video-audit-A7l7tkzaqss-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=A7l7tkzaqss"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Video lists a pest chapter but no actual advice or transcript recovered.",
+      "evidence": [
+        "video-audit-yZC_ky1cZec.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=yZC_ky1cZec"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Pinch flowering stalks/top leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Propagate backup cuttings",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      },
+      {
+        "action": "Cut back nearly to soil at season end",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim lengthy stems",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Flowering reassurance and potentially severe cutback fail to address the actual insect. Leaving the pest untreated while pruning otherwise viable plant tissue could worsen the problem."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Cut back nearly everything to about an inch above the soil” is unnecessary for an isolated mealybug. No comment instructs pest removal or inspection, so the actionable pest problem remains untreated."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The discussion concerns “tiny purple flowers” and small leaves, not the insect in this case. It does not identify mealybugs or give the validated treatment."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Pinching stalks is simple, but “propagate some just in case” lacks rooting instructions. The alternatives vary from light pinching to near-total cutback without resolving which applies."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 55,
+  "thread_id": "1fl1x06",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 55,
+    "thread_id": "1fl1x06",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/plantclinic/comments/dqixdz/my_polka_dot_plant_has_really_small_leaves_and/",
+    "spans": [
+      {
+        "file": "055-source-01.txt",
+        "start_line": 71,
+        "end_line": 211,
+        "sha256": "5440db2ded86e0c1bddfcb0011bd5728ccaf0582934f8284fab28a1419769d6b",
+        "text": "      - paragraph: flowering usually means a happy plant.\n      - button \"Upvote\" [disabled]:\n        - generic: Upvote\n      - generic: \"102\"\n      - button \"Downvote\" [disabled]:\n        - generic: Downvote\n      - button \"Share\":\n        - generic: Share\n      - button \"Open user actions\":\n      - 'article \"Comment thread level 1: Reply from nevertotwice 7 years ago\"':\n        - generic \"nevertotwice's profile --- avatar nevertotwice's profile 7y ago\":\n          - link \"nevertotwice's profile --- avatar\":\n            - /url: https://www.reddit.com/user/nevertotwice/\n            - img \"u/nevertotwice avatar\"\n          - link \"nevertotwice's profile\":\n            - /url: https://www.reddit.com/user/nevertotwice/\n            - generic: nevertotwice\n          - generic: •\n          - link \"7y ago\":\n            - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f67qkvt/\n            - time: 7y ago\n        - paragraph: Yes but usually with polka dot plants it also means the end of their life cycle\n        - button \"Upvote\" [disabled]:\n          - generic: Upvote\n        - generic: \"2\"\n        - button \"Downvote\" [disabled]:\n          - generic: Downvote\n        - button \"Share\":\n          - generic: Share\n        - button \"Open user actions\":\n      - 'article \"Comment thread level 1: Reply from [deleted] 7 years ago\"':\n        - generic \"[deleted] 7y ago\":\n          - generic: \"[deleted]\"\n          - generic: •\n          - time: 7y ago\n    - article \"Comment from skimn 7 years ago\":\n      - generic \"skimn's profile --- avatar skimn's profile 7y ago\":\n        - link \"skimn's profile --- avatar\":\n          - /url: https://www.reddit.com/user/skimn/\n        - link \"skimn's profile\":\n          - /url: https://www.reddit.com/user/skimn/\n          - generic: skimn\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f670saf/\n          - time: 7y ago\n      - paragraph: Mine hasn’t flowered yet but I’ve definitely heard to trim them to prolong their lives. The flowers aren’t all that impressive anyway so they’ll put more energy into foliage if they don’t have them. I think you should propagate some just in case.\n      - 'article \"Comment thread level 1: Reply from [deleted] 7 years ago\"':\n        - generic \"[deleted] 7y ago\":\n          - generic: \"[deleted]\"\n          - generic: •\n          - time: 7y ago\n    - article \"Comment from virgosjc 7 years ago\":\n      - generic \"virgosjc's profile --- avatar virgosjc's profile 7y ago\":\n        - link \"virgosjc's profile --- avatar\":\n          - /url: https://www.reddit.com/user/virgosjc/\n        - link \"virgosjc's profile\":\n          - /url: https://www.reddit.com/user/virgosjc/\n          - generic: virgosjc\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f65ers6/\n          - time: 7y ago\n      - paragraph: after the flowers happen i usually pinch back the flowered bits + the top couple leaves and then my plant gets a lot fuller and thicker\n    - article \"Comment from blue_eyed_sunrise 7 years ago\":\n      - generic \"blue_eyed_sunrise's profile --- avatar blue_eyed_sunrise's profile 7y ago\":\n        - link \"blue_eyed_sunrise's profile --- avatar\":\n          - /url: https://www.reddit.com/user/blue_eyed_sunrise/\n        - link \"blue_eyed_sunrise's profile\":\n          - /url: https://www.reddit.com/user/blue_eyed_sunrise/\n          - generic: blue_eyed_sunrise\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f65hdcf/\n          - time: 7y ago\n      - paragraph: I regularly trim mine back every year at the end of the season after or while it’s flowering - literally cut back nearly everything to about an inch above the soil, leaving only the smallest new leaves that pop up at the base as summer ends (just before I bring it inside for winter). I’ve been doing this for going on 5 years now and my plant comes back fuller and fuller every year. Yours is small enough you can just pinch off the flowering stalks when they start to get spindly.\n    - article \"Comment from [deleted] 7 years ago\":\n      - generic \"[deleted] 7y ago\":\n        - generic: \"[deleted]\"\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f67bo1x/\n          - time: 7y ago\n      - paragraph: I believe this is typical of this plant. Mine recently bloomed and now the stalks look like they will die back soon, however at the centre of the plant there are new stalks and plants coming up. They new growth is dense and already has big leaves so it will fill back in and the old stalks will die back. This is my theory anyway!\n    - article \"Comment from TheBee3sKneess 7 years ago\":\n      - generic \"TheBee3sKneess's profile --- avatar TheBee3sKneess's profile 7y ago\":\n        - link \"TheBee3sKneess's profile --- avatar\":\n          - /url: https://www.reddit.com/user/TheBee3sKneess/\n        - link \"TheBee3sKneess's profile\":\n          - /url: https://www.reddit.com/user/TheBee3sKneess/\n          - generic: TheBee3sKneess\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f66elwc/\n          - time: 7y ago\n      - paragraph: I've been taking care of my polka dot for awhile now. This is all normal, however I do suggest you start trimming the lengthy guys. Itll lead to some leggyness which also looks like your plant telling you to water it.\n    - article \"Comment from mydoglixu 7 years ago\":\n      - generic \"mydoglixu's profile --- avatar mydoglixu's profile 7y ago\":\n        - link \"mydoglixu's profile --- avatar\":\n          - /url: https://www.reddit.com/user/mydoglixu/\n        - link \"mydoglixu's profile\":\n          - /url: https://www.reddit.com/user/mydoglixu/\n          - generic: mydoglixu\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f67rdux/\n          - time: 7y ago\n      - paragraph: I recently cut mine all the way down to the bottom of the stem and then it came back all leafy and lovely.\n    - article \"Comment from beautydeficient 7 years ago\":\n      - generic \"beautydeficient's profile --- avatar beautydeficient's profile 7y ago\":\n        - link \"beautydeficient's profile --- avatar\":\n          - /url: https://www.reddit.com/user/beautydeficient/\n        - link \"beautydeficient's profile\":\n          - /url: https://www.reddit.com/user/beautydeficient/\n          - generic: beautydeficient\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f66upwa/\n          - time: 7y ago\n      - paragraph: My polka dot plant ended up dying after flowering, but I didn't know to trim it whatsoever. I'm not an expert but I would probably do what others have suggested and trim it to get rid of the blooming spots.\n    - article \"Comment from [deleted] 7 years ago\":\n      - generic \"[deleted] 7y ago\":\n        - generic: \"[deleted]\"\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f68k5ti/\n          - time: 7y ago\n      - paragraph: The same happened to mine and she is totally fine\n    - article \"Comment from TampicaBrown 7 years ago\":\n      - generic \"TampicaBrown's profile --- avatar TampicaBrown's profile 7y ago\":\n        - link \"TampicaBrown's profile --- avatar\":\n          - /url: https://www.reddit.com/user/TampicaBrown/\n          - img \"u/TampicaBrown avatar\"\n        - link \"TampicaBrown's profile\":\n          - /url: https://www.reddit.com/user/TampicaBrown/\n          - generic: TampicaBrown\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f69klzj/\n          - time: 7y ago\n      - paragraph: sometimes this happens when a plant outgrows its pot and becomes potbound."
+      }
+    ],
+    "advice": "      - paragraph: flowering usually means a happy plant.\n      - button \"Upvote\" [disabled]:\n        - generic: Upvote\n      - generic: \"102\"\n      - button \"Downvote\" [disabled]:\n        - generic: Downvote\n      - button \"Share\":\n        - generic: Share\n      - button \"Open user actions\":\n      - 'article \"Comment thread level 1: Reply from nevertotwice 7 years ago\"':\n        - generic \"nevertotwice's profile --- avatar nevertotwice's profile 7y ago\":\n          - link \"nevertotwice's profile --- avatar\":\n            - /url: https://www.reddit.com/user/nevertotwice/\n            - img \"u/nevertotwice avatar\"\n          - link \"nevertotwice's profile\":\n            - /url: https://www.reddit.com/user/nevertotwice/\n            - generic: nevertotwice\n          - generic: •\n          - link \"7y ago\":\n            - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f67qkvt/\n            - time: 7y ago\n        - paragraph: Yes but usually with polka dot plants it also means the end of their life cycle\n        - button \"Upvote\" [disabled]:\n          - generic: Upvote\n        - generic: \"2\"\n        - button \"Downvote\" [disabled]:\n          - generic: Downvote\n        - button \"Share\":\n          - generic: Share\n        - button \"Open user actions\":\n      - 'article \"Comment thread level 1: Reply from [deleted] 7 years ago\"':\n        - generic \"[deleted] 7y ago\":\n          - generic: \"[deleted]\"\n          - generic: •\n          - time: 7y ago\n    - article \"Comment from skimn 7 years ago\":\n      - generic \"skimn's profile --- avatar skimn's profile 7y ago\":\n        - link \"skimn's profile --- avatar\":\n          - /url: https://www.reddit.com/user/skimn/\n        - link \"skimn's profile\":\n          - /url: https://www.reddit.com/user/skimn/\n          - generic: skimn\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f670saf/\n          - time: 7y ago\n      - paragraph: Mine hasn’t flowered yet but I’ve definitely heard to trim them to prolong their lives. The flowers aren’t all that impressive anyway so they’ll put more energy into foliage if they don’t have them. I think you should propagate some just in case.\n      - 'article \"Comment thread level 1: Reply from [deleted] 7 years ago\"':\n        - generic \"[deleted] 7y ago\":\n          - generic: \"[deleted]\"\n          - generic: •\n          - time: 7y ago\n    - article \"Comment from virgosjc 7 years ago\":\n      - generic \"virgosjc's profile --- avatar virgosjc's profile 7y ago\":\n        - link \"virgosjc's profile --- avatar\":\n          - /url: https://www.reddit.com/user/virgosjc/\n        - link \"virgosjc's profile\":\n          - /url: https://www.reddit.com/user/virgosjc/\n          - generic: virgosjc\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f65ers6/\n          - time: 7y ago\n      - paragraph: after the flowers happen i usually pinch back the flowered bits + the top couple leaves and then my plant gets a lot fuller and thicker\n    - article \"Comment from blue_eyed_sunrise 7 years ago\":\n      - generic \"blue_eyed_sunrise's profile --- avatar blue_eyed_sunrise's profile 7y ago\":\n        - link \"blue_eyed_sunrise's profile --- avatar\":\n          - /url: https://www.reddit.com/user/blue_eyed_sunrise/\n        - link \"blue_eyed_sunrise's profile\":\n          - /url: https://www.reddit.com/user/blue_eyed_sunrise/\n          - generic: blue_eyed_sunrise\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f65hdcf/\n          - time: 7y ago\n      - paragraph: I regularly trim mine back every year at the end of the season after or while it’s flowering - literally cut back nearly everything to about an inch above the soil, leaving only the smallest new leaves that pop up at the base as summer ends (just before I bring it inside for winter). I’ve been doing this for going on 5 years now and my plant comes back fuller and fuller every year. Yours is small enough you can just pinch off the flowering stalks when they start to get spindly.\n    - article \"Comment from [deleted] 7 years ago\":\n      - generic \"[deleted] 7y ago\":\n        - generic: \"[deleted]\"\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f67bo1x/\n          - time: 7y ago\n      - paragraph: I believe this is typical of this plant. Mine recently bloomed and now the stalks look like they will die back soon, however at the centre of the plant there are new stalks and plants coming up. They new growth is dense and already has big leaves so it will fill back in and the old stalks will die back. This is my theory anyway!\n    - article \"Comment from TheBee3sKneess 7 years ago\":\n      - generic \"TheBee3sKneess's profile --- avatar TheBee3sKneess's profile 7y ago\":\n        - link \"TheBee3sKneess's profile --- avatar\":\n          - /url: https://www.reddit.com/user/TheBee3sKneess/\n        - link \"TheBee3sKneess's profile\":\n          - /url: https://www.reddit.com/user/TheBee3sKneess/\n          - generic: TheBee3sKneess\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f66elwc/\n          - time: 7y ago\n      - paragraph: I've been taking care of my polka dot for awhile now. This is all normal, however I do suggest you start trimming the lengthy guys. Itll lead to some leggyness which also looks like your plant telling you to water it.\n    - article \"Comment from mydoglixu 7 years ago\":\n      - generic \"mydoglixu's profile --- avatar mydoglixu's profile 7y ago\":\n        - link \"mydoglixu's profile --- avatar\":\n          - /url: https://www.reddit.com/user/mydoglixu/\n        - link \"mydoglixu's profile\":\n          - /url: https://www.reddit.com/user/mydoglixu/\n          - generic: mydoglixu\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f67rdux/\n          - time: 7y ago\n      - paragraph: I recently cut mine all the way down to the bottom of the stem and then it came back all leafy and lovely.\n    - article \"Comment from beautydeficient 7 years ago\":\n      - generic \"beautydeficient's profile --- avatar beautydeficient's profile 7y ago\":\n        - link \"beautydeficient's profile --- avatar\":\n          - /url: https://www.reddit.com/user/beautydeficient/\n        - link \"beautydeficient's profile\":\n          - /url: https://www.reddit.com/user/beautydeficient/\n          - generic: beautydeficient\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f66upwa/\n          - time: 7y ago\n      - paragraph: My polka dot plant ended up dying after flowering, but I didn't know to trim it whatsoever. I'm not an expert but I would probably do what others have suggested and trim it to get rid of the blooming spots.\n    - article \"Comment from [deleted] 7 years ago\":\n      - generic \"[deleted] 7y ago\":\n        - generic: \"[deleted]\"\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f68k5ti/\n          - time: 7y ago\n      - paragraph: The same happened to mine and she is totally fine\n    - article \"Comment from TampicaBrown 7 years ago\":\n      - generic \"TampicaBrown's profile --- avatar TampicaBrown's profile 7y ago\":\n        - link \"TampicaBrown's profile --- avatar\":\n          - /url: https://www.reddit.com/user/TampicaBrown/\n          - img \"u/TampicaBrown avatar\"\n        - link \"TampicaBrown's profile\":\n          - /url: https://www.reddit.com/user/TampicaBrown/\n          - generic: TampicaBrown\n        - generic: •\n        - link \"7y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/dqixdz/comment/f69klzj/\n          - time: 7y ago\n      - paragraph: sometimes this happens when a plant outgrows its pot and becomes potbound.",
+    "reason": "First retained advice thread; all visible substantive comments frozen before reference.",
+    "frozen_at": "2026-10-29T04:45:34.956856+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:46:10.619746+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

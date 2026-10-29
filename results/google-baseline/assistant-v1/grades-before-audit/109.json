@@ -1,0 +1,137 @@
+{
+  "reference_action": "Healthy immature Monstera albo leaf: wait for unfurling and maturation with existing reasonable grow-light distance. OP subsequently reports half-green leaf; no treatment required.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Leaves should not be cut, but central recommendation is much more/closer light for a green reverted plant; no wait-for-unfurling instruction. Avoid-cutting alone does not establish the requested recovery plan.",
+      "evidence": [
+        "109-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/754578791256738/posts/25694798413474764/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "First response says cutting may not help and describes leaving growth to produce green with filtered light. Partial nonintervention match only; competing severe-albinism/cutting advice and no same-leaf maturation explanation.",
+      "evidence": [
+        "109-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/kd4r1g/not_sure_what_to_do_about_my_albo_cutting_pushing/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicitly wait until this leaf unfurls; green visible in rolled leaf and no intervention needed. Direct match.",
+      "evidence": [
+        "109-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/Aroids/comments/1abc2kc/monstera_albo_grown_from_cutting_throwing_all/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Demonstrates cutting and propagation of multiple white leaves; no recommendation to let evaluated first leaf unfurl.",
+      "evidence": [
+        "video-audit-5lBMFhPAmTo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=5lBMFhPAmTo"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicit leave new white leaf for now and prioritize rooting/stability, plus another reply leave it as long as possible. Partial waiting match despite premature trimming/silica extras.",
+      "evidence": [
+        "109-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/856030549713079/posts/1165619615420836/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": true,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Use strong grow light within one foot above plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": true
+      },
+      {
+        "action": "Set light to 12–16 hours daily",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively relocate for much more natural light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Water plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Mistakes normal immature pale leaf for insufficient-light/etiolation problem; increased lighting is unnecessary and no maturation reassurance given, though specified intensity is insufficient to establish likely damage."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Cutting leaves off is almost never helpful” protects against unnecessary leaf removal. However, moving a strong light closer and extending exposure without measuring intensity lacks a burn safeguard for this already illuminated healthy cutting."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“Your plant’s leaves are full green” describes the opposite of the user’s emerging white leaf. The severe-etiolation diagnosis and light-based variegation explanation fail to identify normal immature growth."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“Within one foot” and “12–16 hrs/day” give clear placement and timing. But “must be strong” provides no intensity target, while “some water” lacks a moisture condition, leaving important choices unspecified."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 109,
+  "thread_id": "150yflh",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 109,
+    "thread_id": "150yflh",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/754578791256738/posts/25694798413474764/",
+    "spans": [
+      {
+        "file": "109-source-01.txt",
+        "start_line": 61,
+        "end_line": 87,
+        "sha256": "53c664b8235c042fefe6ba1faec359a2c7b896bb9d8cf7385e5beaab600a98d4",
+        "text": "        - generic: Leaves are little solar factories for plants with the green chlorophyll converting light to sugars. Cutting leaves off is almost never helpful. Variegated leaves have less green to feed the plant, so those need even more light. Your plant's leaves are full green because with the low light, it needs to maximize chlorophyll. The big spaces and smaller new leaves also show low light. If you use lights, they must be strong, and within one foot directly over your plant. USB types are too weak. Leave them on 12-16 hrs/day. If using natural light, here's a good guide to placement.\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=10235406718643007&set=p.10235406718643007&type=3&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"39w\":\n            - /url: https://www.facebook.com/groups/754578791256738/posts/25694798413474764/?comment_id=25697155299905742&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Jorik Swier 39 weeks ago\":\n        - link:\n          - /url: https://www.facebook.com/jorik.swier?comment_id=Y29tbWVudDoyNTY5NDc5ODQxMzQ3NDc2NF8yNTY5NDk1NDc1MzQ1OTEzMA%3D%3D&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n        - link \"Jorik Swier\":\n          - /url: https://www.facebook.com/jorik.swier?comment_id=Y29tbWVudDoyNTY5NDc5ODQxMzQ3NDc2NF8yNTY5NDk1NDc1MzQ1OTEzMA%3D%3D&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n          - generic: Jorik Swier\n        - generic: It's severely etiolated. It needs LOADS more light.\n        - list:\n          - link \"39w\":\n            - /url: https://www.facebook.com/groups/754578791256738/posts/25694798413474764/?comment_id=25694954753459130&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Katarina Stenman 39 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Katarina Stenman\":\n          - generic: Katarina Stenman\n        - generic: Light light light. And some water."
+      }
+    ],
+    "advice": "        - generic: Leaves are little solar factories for plants with the green chlorophyll converting light to sugars. Cutting leaves off is almost never helpful. Variegated leaves have less green to feed the plant, so those need even more light. Your plant's leaves are full green because with the low light, it needs to maximize chlorophyll. The big spaces and smaller new leaves also show low light. If you use lights, they must be strong, and within one foot directly over your plant. USB types are too weak. Leave them on 12-16 hrs/day. If using natural light, here's a good guide to placement.\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=10235406718643007&set=p.10235406718643007&type=3&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"39w\":\n            - /url: https://www.facebook.com/groups/754578791256738/posts/25694798413474764/?comment_id=25697155299905742&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Jorik Swier 39 weeks ago\":\n        - link:\n          - /url: https://www.facebook.com/jorik.swier?comment_id=Y29tbWVudDoyNTY5NDc5ODQxMzQ3NDc2NF8yNTY5NDk1NDc1MzQ1OTEzMA%3D%3D&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n        - link \"Jorik Swier\":\n          - /url: https://www.facebook.com/jorik.swier?comment_id=Y29tbWVudDoyNTY5NDc5ODQxMzQ3NDc2NF8yNTY5NDk1NDc1MzQ1OTEzMA%3D%3D&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n          - generic: Jorik Swier\n        - generic: It's severely etiolated. It needs LOADS more light.\n        - list:\n          - link \"39w\":\n            - /url: https://www.facebook.com/groups/754578791256738/posts/25694798413474764/?comment_id=25694954753459130&__cft__[0]=AZhDZa9LLmBrnN6zS7mxIMHPiZZbpAfmHzPQs8ysP_GJTpyxa8WLUMQ_g-0V588noftLiS86PXVsZdatGo9juA5T82y0Q_pKFNgHSUkcQgg__WB2xLFtUJkl6-ZzUFT_a4RBMZgOLqTrhkye-KKD2nG8Mi0lI7o56gCBePthC11_QuRZTIbK0EztkY4NTTYCyw&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Katarina Stenman 39 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Katarina Stenman\":\n          - generic: Katarina Stenman\n        - generic: Light light light. And some water.",
+    "reason": "First result has Monstera albo variegation and lighting advice; retain all visible recommendations before reference.",
+    "frozen_at": "2026-10-29T05:27:16.919008+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:28:18.848339+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

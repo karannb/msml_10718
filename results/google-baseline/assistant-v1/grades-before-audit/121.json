@@ -1,0 +1,145 @@
+{
+  "reference_action": "Live original-thread audit expanded later OP reply: washed in shower and wiped EACH leaf with paper towel and neem oil. This, not the isolated Bonide systemic answer or all community alternatives, is the confirmed remedy.",
+  "reference_quality": {
+    "issue": "Dataset answer is Bonide systemic, but later OP explicitly names shower plus neem leaf-wiping as successful approach.",
+    "resolution": "Use confirmed OP clarification for action matching; retain original dataset unchanged.",
+    "evidence": [
+      "120-reference-audit.txt",
+      "120-reference-expanded.txt"
+    ]
+  },
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Hose rinse followed by evening neem matches wash-plus-oil, partially omitting individual leaf wiping.",
+      "evidence": [
+        "121-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/838691471003309/posts/1292890235583428/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Spray and thoroughly wipe all leaf/stem surfaces including crevices, plus neem alternative; physical removal matches despite different spray mixture.",
+      "evidence": [
+        "video-audit-bqCBIP9TmcY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=bqCBIP9TmcY"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Wipe leaves then shower undersides thoroughly; follow contact treatment including neem, directly retrieving physical-removal sequence.",
+      "evidence": [
+        "video-audit-c6dnv6lqSE8-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=c6dnv6lqSE8"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "DIY soap/alcohol, DE and predators; water wash only to address spray injury, not mite removal, and mist prevention is not shower/leaf wiping.",
+      "evidence": [
+        "video-audit-iRYvw9vRguk-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=iRYvw9vRguk"
+    },
+    {
+      "rank": 6,
+      "action_hit": "unresolved",
+      "reason": "Site body blocked by request verification; no readable advice.",
+      "evidence": [
+        "121-source-06.txt"
+      ],
+      "url": "https://www.melindamyers.com/audio-video/melindas-garden-moment-audio-tips/problems-pests-weeds/eco-friendly-spider-mite-control"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Hose rinse foliage",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Provide sufficient indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Rotate pot every few weeks",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Mite diagnosis and wash-plus-neem routine are relevant, but omits each-leaf wipe and repeats hosing/neem already done without a more complete treatment schedule. Evening neem is continuation, not additional counted task."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Later tonight” avoids applying oil in hot midday sun, and the hose rinse is a reasonable mechanical-removal step. Dilution and repeat intervals remain unspecified, but there is no strong likely-harm instruction."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Good rinse with the hose” overlaps the owner’s later shower treatment. It omits individual leaf wiping and does not explain how to improve the rinse/neem routine the owner had already tried."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Rinsing outside and spraying later that evening are concrete steps with supplies already available to the user. Follow-up frequency and the indirect-light amount are less specific, but the principal routine is straightforward."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 121,
+  "thread_id": "v4fond",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 121,
+    "thread_id": "v4fond",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/838691471003309/posts/1292890235583428/",
+    "spans": [
+      {
+        "file": "121-source-01.txt",
+        "start_line": 30,
+        "end_line": 30,
+        "sha256": "7b75b7d60c2c095f39c0c1e73cdee7ad5a9b261b4a8a3a8880224760d6a31f47",
+        "text": "      - generic: For anyone dealing with spider mites on their money tree, here's my approach. I take my money tree outside and give it a good rinse with the hose to wash away any eggs or baby spiders that have been munching on the leaves. Later tonight, I'll spray it with neem oil. This has been my routine because, for some reason, money trees seem to attract spiders no matter how much I tidy up around the house."
+      },
+      {
+        "file": "121-source-01.txt",
+        "start_line": 58,
+        "end_line": 69,
+        "sha256": "7b75b7d60c2c095f39c0c1e73cdee7ad5a9b261b4a8a3a8880224760d6a31f47",
+        "text": "        - generic: Emily Bolton Thanks a lot! I'm confident your money tree will thrive. Just make sure it gets enough indirect sunlight, and don't overwater it.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/838691471003309/posts/1292890235583428/?comment_id=1292988372240281&reply_comment_id=1292996242239494&__cft__[0]=AZjzvHB-Qi4QRIXEx5fCPUFq3GwpE8rk6YgqUjjsGiMEibnY_FJamkiuP_8BhiTBkSuNyDccIufYL5BKALi_o6KV6_R8gbhRbNT4euiCiYGGUyJ7tNBgdRp7lMp-pdzA7j3tBVH2-bGPa2Za1RnsfORdypiBqSoX0Udu5D7XmFK0LOk0J3S6WBzqvZ074C3sDFL9&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Faris McDiarmid Speed a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Faris McDiarmid Speed\":\n          - generic: Faris McDiarmid Speed\n        - text: Emily Bolton rotating is crucial to over all growth and fullness every few weeks also."
+      }
+    ],
+    "advice": "      - generic: For anyone dealing with spider mites on their money tree, here's my approach. I take my money tree outside and give it a good rinse with the hose to wash away any eggs or baby spiders that have been munching on the leaves. Later tonight, I'll spray it with neem oil. This has been my routine because, for some reason, money trees seem to attract spiders no matter how much I tidy up around the house.\n\n        - generic: Emily Bolton Thanks a lot! I'm confident your money tree will thrive. Just make sure it gets enough indirect sunlight, and don't overwater it.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/838691471003309/posts/1292890235583428/?comment_id=1292988372240281&reply_comment_id=1292996242239494&__cft__[0]=AZjzvHB-Qi4QRIXEx5fCPUFq3GwpE8rk6YgqUjjsGiMEibnY_FJamkiuP_8BhiTBkSuNyDccIufYL5BKALi_o6KV6_R8gbhRbNT4euiCiYGGUyJ7tNBgdRp7lMp-pdzA7j3tBVH2-bGPa2Za1RnsfORdypiBqSoX0Udu5D7XmFK0LOk0J3S6WBzqvZ074C3sDFL9&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Faris McDiarmid Speed a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Faris McDiarmid Speed\":\n          - generic: Faris McDiarmid Speed\n        - text: Emily Bolton rotating is crucial to over all growth and fullness every few weeks also.",
+    "reason": "First visible rinse/neem routine plus light and rotation recommendations, excluding Meta AI heading.",
+    "frozen_at": "2026-10-29T05:37:57.222824+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:39:46.808246+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

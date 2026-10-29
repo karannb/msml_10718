@@ -1,0 +1,132 @@
+{
+  "reference_action": "Allow recovery after repotting and stop placement beside a cold window; OP reports improvement and explicitly stopped the cold-window placement.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "“In shock” and waiting overlap recovery advice, but the comments mainly advise watering/humidity and omit stopping cold-window exposure. Partial overlap is insufficient for the validated combined fix.",
+      "evidence": [
+        "003-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/addictedtogardening/posts/2813469415504434/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "The video moves plants away from excessive heat/sun, not cold exposure; it lacks advice about recovering after repotting.",
+      "evidence": [
+        "051-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=lGgD3sF3CJY"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Heat, wind, watering, pests and nutrients are discussed; no cold-window relocation or repotting recovery is supplied.",
+      "evidence": [
+        "video-audit-2l_0hUh2-VE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=2l_0hUh2-VE"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "The cold-draft section at 2:44–3:08 explicitly advises keeping plants away from windows, matching the placement change.",
+      "evidence": [
+        "video-audit-jqtG-Ei6TQ0-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=jqtG-Ei6TQ0"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Gradual acclimation is mentioned but the practical fixes target heat/dryness and root rot rather than the cold-window placement.",
+      "evidence": [
+        "003-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Ptk1nCJzRAU"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Increase humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Bottom-water as needed with distilled or rain water for 10–30 minutes",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Drain the soaking vessel and allow plant to drain for another 20–30 minutes",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Repotting shock and recovery time are recognized, but the main watering/humidity advice omits cold-window avoidance; warnings against overwatering limit harm."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Be careful not to overwater it or else the roots will rot” and “as needed” protect the watering advice. The recommendation to drain and allow recovery also reduces risk, although another comment assumes more water is needed without a soil check."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“It’s in shock” and “they are very vulnerable when you first split them” fit the recent division and repotting. The answer misses the cold-window placement that the poster changed and mixes the correct recovery explanation with an assumed watering issue."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“Bottom soak for about 10 to 30 minutes” followed by “another 20 to 30 minutes” draining is concrete but time-consuming. “Give it lots of humidity” is not operationally specified, and distilled/rain water adds a small sourcing burden."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Give it lots of humidity too"
+    ]
+  },
+  "query_index": 3,
+  "thread_id": "1pf44oh",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 3,
+    "thread_id": "1pf44oh",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/addictedtogardening/posts/2813469415504434/",
+    "spans": [
+      {
+        "file": "003-source-01.txt",
+        "start_line": 50,
+        "end_line": 78,
+        "sha256": "02c5c5e28d35c5c0b7829ed3ae0e0738a4fda33968b33b3f8f2bca40d5cee68e",
+        "text": "      - article \"Comment by Deedee Walsh 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Deedee Walsh\":\n          - generic: Deedee Walsh\n        - generic: Water stress, either from overwatering or underwatering. If the root is not damaged and you recently split it, I'd say it needs watering. Underwatering can cause the plant to conserve moisture by curling its leaves.\n        - generic: Give it lots of humidity too.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/addictedtogardening/posts/2813469415504434/?comment_id=2813487682169274&__cft__[0]=AZhG4whbxQsPMjk7X3hErGM26GFuh1F9kFlS_dAtfcvyO4x7n7Rn2DtLSQtiBPBvzE6VUNpHPWG0kwV8mQpsyqntuKjk3HqzcsxWG4bAAy2NNY2hoQJgvlrCo2wIlwmzX2qGFyEVD8NhrqChVpiDuQZCSaaUitcZ2ikNv4TC1KRnO7byd0GSMO5olQ4P&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Len Patino 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Len Patino\":\n          - generic: Len Patino\n        - generic: It’s in shock. It will recover as long as you don’t fuss with it. Bottom water the plant as needed with distilled or rain water. Be careful not to overwater it or else the roots will rot. They are very vulnerable when you first split them and will need recover time.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/addictedtogardening/posts/2813469415504434/?comment_id=2813488075502568&__cft__[0]=AZhG4whbxQsPMjk7X3hErGM26GFuh1F9kFlS_dAtfcvyO4x7n7Rn2DtLSQtiBPBvzE6VUNpHPWG0kwV8mQpsyqntuKjk3HqzcsxWG4bAAy2NNY2hoQJgvlrCo2wIlwmzX2qGFyEVD8NhrqChVpiDuQZCSaaUitcZ2ikNv4TC1KRnO7byd0GSMO5olQ4P&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Andrea Barlow Blankenship 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Andrea Barlow Blankenship\":\n          - generic: Andrea Barlow Blankenship\n        - generic: I would give it a bottom soak for about 10 to 30 minutes depending on how fast it takes to get wet enough. It is definitely in shock it needs time but will die if under watered. Be sure to drain whatever you use to soak the plant and then let the plant drain out for another 20 to 30 minutes before putting it back into it's catch. Wait a week before doing anything else with it."
+      }
+    ],
+    "advice": "      - article \"Comment by Deedee Walsh 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Deedee Walsh\":\n          - generic: Deedee Walsh\n        - generic: Water stress, either from overwatering or underwatering. If the root is not damaged and you recently split it, I'd say it needs watering. Underwatering can cause the plant to conserve moisture by curling its leaves.\n        - generic: Give it lots of humidity too.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/addictedtogardening/posts/2813469415504434/?comment_id=2813487682169274&__cft__[0]=AZhG4whbxQsPMjk7X3hErGM26GFuh1F9kFlS_dAtfcvyO4x7n7Rn2DtLSQtiBPBvzE6VUNpHPWG0kwV8mQpsyqntuKjk3HqzcsxWG4bAAy2NNY2hoQJgvlrCo2wIlwmzX2qGFyEVD8NhrqChVpiDuQZCSaaUitcZ2ikNv4TC1KRnO7byd0GSMO5olQ4P&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Len Patino 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Len Patino\":\n          - generic: Len Patino\n        - generic: It’s in shock. It will recover as long as you don’t fuss with it. Bottom water the plant as needed with distilled or rain water. Be careful not to overwater it or else the roots will rot. They are very vulnerable when you first split them and will need recover time.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/addictedtogardening/posts/2813469415504434/?comment_id=2813488075502568&__cft__[0]=AZhG4whbxQsPMjk7X3hErGM26GFuh1F9kFlS_dAtfcvyO4x7n7Rn2DtLSQtiBPBvzE6VUNpHPWG0kwV8mQpsyqntuKjk3HqzcsxWG4bAAy2NNY2hoQJgvlrCo2wIlwmzX2qGFyEVD8NhrqChVpiDuQZCSaaUitcZ2ikNv4TC1KRnO7byd0GSMO5olQ4P&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Andrea Barlow Blankenship 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Andrea Barlow Blankenship\":\n          - generic: Andrea Barlow Blankenship\n        - generic: I would give it a bottom soak for about 10 to 30 minutes depending on how fast it takes to get wet enough. It is definitely in shock it needs time but will die if under watered. Be sure to drain whatever you use to soak the plant and then let the plant drain out for another 20 to 30 minutes before putting it back into it's catch. Wait a week before doing anything else with it.",
+    "reason": "First result has three self-contained comments on leaf curling after splitting/repotting. Retain their differing watering recommendations and safeguards; additional comments are inaccessible.",
+    "frozen_at": "2026-10-29T04:03:09.732432+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:04:35.778584+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

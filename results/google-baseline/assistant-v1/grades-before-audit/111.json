@@ -1,0 +1,151 @@
+{
+  "reference_action": "Curling from moisture stress; OP sprayed collected rainwater and reports near-immediate return to normal after prior watering was insufficient. Direct confirmed action is spraying; moisture replenishment is only a partial functional match, not proof of a specific root or humidity cause.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Moist-not-wet soil, soak and humidity suggestion retrieve broad moisture intervention; partial match, not explicit spray.",
+      "evidence": [
+        "111-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/4314265555484958/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Bottom soak and humidifier/tray for curling retrieve moisture restoration; partial method match, and source cautions against splashing leaves.",
+      "evidence": [
+        "video-audit-7rjMz-3zOiY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=7rjMz-3zOiY"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Thorough soak for thirsty curled Calathea is a functional moisture match, but not proof that root watering is equivalent to OP spray.",
+      "evidence": [
+        "111-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=njQrWbhFIt8"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Caption explicitly recommends misting/humidifier/tray for humidity-related curl and water when topsoil slightly dry. Direct spray action present.",
+      "evidence": [
+        "111-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/sanguinegreenbreathe/videos/-calathea-leaves-curling-heres-why-and-how-to-fix-it-leaf-curling-is-your-calath/1477396467046017/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Names low humidity/underwatering but actual curl plan is less sun, root inspection/rot removal, substrate replacement and warmth. No explicit mist/humidity increase; soil check alone is not a moisture intervention.",
+      "evidence": [
+        "video-audit-ygbolgHSzFg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ygbolgHSzFg&themeRefresh=1"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Soak in sink for one to two hours after soil dries",
+        "minutes": 125,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Observe recovery over two to three weeks",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If unimproved unpot and inspect roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot one size smaller with fresh soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Use distilled water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "General moisture/humidity advice overlaps reference but lacks spray method and adds drying, downsizing and rot investigation without case evidence; guarded watering not labeled harmful."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Keeping the soil moist but not too much” limits saturation risk. But waiting for drying and then long soaking conflicts with the other moisture instruction, and automatic downsizing after a delay is not justified by the available case."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Humidy” and moist soil acknowledge moisture stress. They are not developed into a tailored spray/humidity remedy, while pot-size and water-quality explanations compete despite the owner already using filtered water."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The sink soak has a duration and root inspection has a follow-up interval. However “humidy” specifies no method, fresh soil no recipe, and the several remedies demand interpretation and substantial elapsed soaking time."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 111,
+  "thread_id": "xoco0g",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 111,
+    "thread_id": "xoco0g",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/plantylife/posts/4314265555484958/",
+    "spans": [
+      {
+        "file": "111-source-01.txt",
+        "start_line": 58,
+        "end_line": 82,
+        "sha256": "bbc195103abb958aa3a2e3858d91a0bb4cb0ffcb9138a7f30bb08d5b7cac13f3",
+        "text": "        - generic: The try waiting for it to dry out, then when you water put it in the sink and let it absorb what it needs within an hour or 2. If you don’t see improvement in 2-3 wks then take it out of the pot check the roots and yes the pot might be to large size down one size and repot with fresh soil.\n        - list:\n          - link \"46w\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4314265555484958/?comment_id=4314726768772170&__cft__[0]=AZhmX6jPeuhEbvSElpw82C2owyTfp-iqbDRmDy5143Mvvk0DIjBh20uUKg_xCe_TQDa5kamabYUQ-ETFlEDnzvuZqd6MMSG6mp4_XNJBs5bfpCLPI5Lf3QbTaSU6Oq7tArGd9S42fLuD6ozYLgpB9rOg5zpg-IDdRU4cqvg2pBh1FGHAXi87ym44wA2FpiG1qLdG&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Sean Henderson 46 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sean Henderson\":\n          - generic: Sean Henderson\n        - generic: I use distilled water, keeping the soil moist but not too much. They definitely do not rock with tap water\n        - list:\n          - link \"46w\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4314265555484958/?comment_id=4314277878817059&__cft__[0]=AZhmX6jPeuhEbvSElpw82C2owyTfp-iqbDRmDy5143Mvvk0DIjBh20uUKg_xCe_TQDa5kamabYUQ-ETFlEDnzvuZqd6MMSG6mp4_XNJBs5bfpCLPI5Lf3QbTaSU6Oq7tArGd9S42fLuD6ozYLgpB9rOg5zpg-IDdRU4cqvg2pBh1FGHAXi87ym44wA2FpiG1qLdG&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by An DeJong 46 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"An DeJong\":\n          - generic: An DeJong\n        - generic: 1 humidy\n        - generic: 2 smaller pot\n        - text: 3 moist soil not to dry or wet …"
+      }
+    ],
+    "advice": "        - generic: The try waiting for it to dry out, then when you water put it in the sink and let it absorb what it needs within an hour or 2. If you don’t see improvement in 2-3 wks then take it out of the pot check the roots and yes the pot might be to large size down one size and repot with fresh soil.\n        - list:\n          - link \"46w\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4314265555484958/?comment_id=4314726768772170&__cft__[0]=AZhmX6jPeuhEbvSElpw82C2owyTfp-iqbDRmDy5143Mvvk0DIjBh20uUKg_xCe_TQDa5kamabYUQ-ETFlEDnzvuZqd6MMSG6mp4_XNJBs5bfpCLPI5Lf3QbTaSU6Oq7tArGd9S42fLuD6ozYLgpB9rOg5zpg-IDdRU4cqvg2pBh1FGHAXi87ym44wA2FpiG1qLdG&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Sean Henderson 46 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sean Henderson\":\n          - generic: Sean Henderson\n        - generic: I use distilled water, keeping the soil moist but not too much. They definitely do not rock with tap water\n        - list:\n          - link \"46w\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4314265555484958/?comment_id=4314277878817059&__cft__[0]=AZhmX6jPeuhEbvSElpw82C2owyTfp-iqbDRmDy5143Mvvk0DIjBh20uUKg_xCe_TQDa5kamabYUQ-ETFlEDnzvuZqd6MMSG6mp4_XNJBs5bfpCLPI5Lf3QbTaSU6Oq7tArGd9S42fLuD6ozYLgpB9rOg5zpg-IDdRU4cqvg2pBh1FGHAXi87ym44wA2FpiG1qLdG&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by An DeJong 46 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"An DeJong\":\n          - generic: An DeJong\n        - generic: 1 humidy\n        - generic: 2 smaller pot\n        - text: 3 moist soil not to dry or wet …",
+    "reason": "First result offers curl rescue; retain soaking, roots, repot, water quality and humidity advice including truncated final comment.",
+    "frozen_at": "2026-10-29T05:28:37.358035+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:29:33.949142+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "reference_action": "Banana transplant shock after pup separation; dataset advice is trim dead growth and maintain watering. Owner subsequently reports a new unfurling leaf. Outcome confirms recovery but does not explicitly enumerate which advice was followed; action attribution is weaker than an explicit performed-treatment report.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Acclimation reassurance, root/pest inspection and preventive peroxide for next division; no dead-growth trim.",
+      "evidence": [
+        "151-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/zonepushers/posts/10169830099835727/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Shock reassurance and root/pest/light care; no dead-foliage removal.",
+      "evidence": [
+        "151-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/n6xs60/what_the_heck_is_happening_to_my_banana_plant/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "8:37 suggests pruning back one-third after transplant to reduce root load; partial equivalent.",
+      "evidence": [
+        "video-audit--oDfGGxT4-Y-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=-oDfGGxT4-Y"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit trim of drooping banana leaves after transplant plus moisture checks.",
+      "evidence": [
+        "151-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=VJELoi9UtBw"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Scissors remove lower leaves and shorten others to support root recovery; same transplant-related trimming action though preventative.",
+      "evidence": [
+        "video-audit-NganYt6XXNs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=NganYt6XXNs"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect leaf undersides for pests with magnification",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Apply insecticide/miticide if pests confirmed",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Inspect roots for rot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray cut corm with 3% peroxide on next division",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Set corm aside to dry/callus before planting",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Allow recovery and monitor growth",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Correctly explains root loss and transplant shock but omits trimming and gives unrelated next-division preparation."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Spray it with an insecticide or miticide if needed” is appropriately conditional but lacks product/dose guidance. Undiluted 3% peroxide and prolonged drying of a fresh corm add avoidable risk if treated as current rescue instructions."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "“Shock from transplanting” after a pup cut with few roots closely matches the trigger and need for recovery. The main explanation is strong even though the dataset’s trimming action is absent."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Waiting for roots to recover is simple. A suggested dissection microscope, unspecified pesticide and partly truncated root advice complicate the alternatives."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "reference_quality": {
+    "issue": "recovery_without_explicit_action_confirmation",
+    "detail": "Outcome says new leaf unfurling but does not explicitly say trimming was performed; matches are against associated dataset advice."
+  },
+  "query_index": 151,
+  "thread_id": "1vcrs67",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 151,
+    "thread_id": "1vcrs67",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/zonepushers/posts/10169830099835727/",
+    "spans": [
+      {
+        "file": "151-source-01.txt",
+        "start_line": 59,
+        "end_line": 86,
+        "sha256": "fe4fe930d83687a87cbcd3f4dd5811e0432b3f5d205d390162e535a0d652b4ac",
+        "text": "        - generic: If the cut bulb has no roots or very few, it will need time to develop roots before it can focus on growth. The minimal development and browning could be attributed to shock from transplanting, which may require some time for the plant to acclimate to its new environment, whether indoors or outdoors.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/zonepushers/posts/10169830099835727/?comment_id=10169832003030727&__cft__[0]=AZiIuHF7El3AO-H07Mp7WvvirE4e6F9mmkDy6akkeh7xfqpg-fHWcunuLQyxSvXenMQFoilTcNXZnDmfmgXob46R6QUPuE01J824NTELl-dFOOVbfjI4og90QPo9D0WmgFODijrS8t0R6HagZ2s7n7zkJSPe6L2y8OpSLwnIa3VwkFBe5Tp37w2bo6-XE70&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Calin A. Radulescu 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Calin A. Radulescu\":\n          - generic: Calin A. Radulescu\n        - text: Look under the leaf for signs of insects or mites, with a magnifying glass or better yet, with a dissection microscope. Spray it with an insecticide or miticide if needed. Then look at the roots for signs of rot. Healthy ones should look like spaghetti…\n        - button \"See more\"\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/zonepushers/posts/10169830099835727/?comment_id=10169830189660727&__cft__[0]=AZiIuHF7El3AO-H07Mp7WvvirE4e6F9mmkDy6akkeh7xfqpg-fHWcunuLQyxSvXenMQFoilTcNXZnDmfmgXob46R6QUPuE01J824NTELl-dFOOVbfjI4og90QPo9D0WmgFODijrS8t0R6HagZ2s7n7zkJSPe6L2y8OpSLwnIa3VwkFBe5Tp37w2bo6-XE70&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Sophie Hernandez 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sophie Hernandez\":\n          - generic: Sophie Hernandez\n        - generic: Just advise if you didn’t do so already, the next time you cut pup from the mother plant try to make sure to disinfect the Corum with 3% hydrogen peroxide spray then allow it to dry for a day or two prior to planting so it can have chance to form a protective callus / scab over the cut part of the corum.￼"
+      }
+    ],
+    "advice": "        - generic: If the cut bulb has no roots or very few, it will need time to develop roots before it can focus on growth. The minimal development and browning could be attributed to shock from transplanting, which may require some time for the plant to acclimate to its new environment, whether indoors or outdoors.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/zonepushers/posts/10169830099835727/?comment_id=10169832003030727&__cft__[0]=AZiIuHF7El3AO-H07Mp7WvvirE4e6F9mmkDy6akkeh7xfqpg-fHWcunuLQyxSvXenMQFoilTcNXZnDmfmgXob46R6QUPuE01J824NTELl-dFOOVbfjI4og90QPo9D0WmgFODijrS8t0R6HagZ2s7n7zkJSPe6L2y8OpSLwnIa3VwkFBe5Tp37w2bo6-XE70&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Calin A. Radulescu 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Calin A. Radulescu\":\n          - generic: Calin A. Radulescu\n        - text: Look under the leaf for signs of insects or mites, with a magnifying glass or better yet, with a dissection microscope. Spray it with an insecticide or miticide if needed. Then look at the roots for signs of rot. Healthy ones should look like spaghetti…\n        - button \"See more\"\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/zonepushers/posts/10169830099835727/?comment_id=10169830189660727&__cft__[0]=AZiIuHF7El3AO-H07Mp7WvvirE4e6F9mmkDy6akkeh7xfqpg-fHWcunuLQyxSvXenMQFoilTcNXZnDmfmgXob46R6QUPuE01J824NTELl-dFOOVbfjI4og90QPo9D0WmgFODijrS8t0R6HagZ2s7n7zkJSPe6L2y8OpSLwnIa3VwkFBe5Tp37w2bo6-XE70&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Sophie Hernandez 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sophie Hernandez\":\n          - generic: Sophie Hernandez\n        - generic: Just advise if you didn’t do so already, the next time you cut pup from the mother plant try to make sure to disinfect the Corum with 3% hydrogen peroxide spray then allow it to dry for a day or two prior to planting so it can have chance to form a protective callus / scab over the cut part of the corum.￼",
+    "reason": "First accessible banana division shock advice; retain diagnostic/treatment alternatives and preventive corm instruction.",
+    "frozen_at": "2026-10-29T06:04:33.442384+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:05:27.578773+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "reference_action": "Owner brushed a little water onto stuck new leaf tip and it released. Match local wetting/humidity-assisted release, not generic post-pruning growth, rooting or watering cuttings.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Air-layering/moving old grape vine is unrelated to releasing new leaf.",
+      "evidence": [
+        "128-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/zone6bgarden/posts/8398398590189183/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Growth-shaping pruning advice has no wetting or stuck-leaf release.",
+      "evidence": [
+        "128-source-03.txt"
+      ],
+      "url": "https://www.bbg.org/article/pruning_plants_that_ascend"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Invasive vine eradication, not unsticking new leaf.",
+      "evidence": [
+        "128-source-04.txt"
+      ],
+      "url": "https://gardeningsolutions.ifas.ufl.edu/care/weeds-and-invasive-plants/removing-problematic-vines/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Covered rooting box for detached wilted stem does not recommend humidity/wetting for attached new shoot release.",
+      "evidence": [
+        "128-source-05.txt"
+      ],
+      "url": "https://gardening.stackexchange.com/questions/49127/will-vine-survive-after-this"
+    },
+    {
+      "rank": 6,
+      "action_hit": "miss",
+      "reason": "Trim/propagate leggy vines and feed; no leaf-release remedy.",
+      "evidence": [
+        "128-source-06.txt"
+      ],
+      "url": "https://www.wildinteriors.com/wild-interiors-blog/blog/leggyvines"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Remove dead, damaged, diseased or unproductive stems",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Remove tangled and errant stems",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Train remaining growth onto support",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      },
+      {
+        "action": "Head back spindly or single stems to encourage growth",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim damaged bare roots when planting",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pinch new shoot ends to balance growth",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Deadhead and remove unwanted suckers",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "General vine-pruning article addresses shaping and controlling growth rather than stuck new tip. No moisture-release action; conditional pruning would not solve the issue, though the article does not explicitly instruct removal of this healthy tip."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Heading back stems encourages new growth” could prompt unnecessary cutting when this new tip only needs release. General clean-cut and healthy-bud guidance mitigates damage, but there is no safeguard addressing delicate stuck leaves."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The article concerns vigorous climbing vines, pruning schedules and supports. It never identifies humidity-related leaf sticking or the successful local wetting step."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Basic pruning to a lateral bud is understandable with ordinary tools. Multiple conditional cuts and growth-direction choices leave an inexperienced Scindapsus owner without a clear applicable action."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 128,
+  "thread_id": "xv9lfg",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 128,
+    "thread_id": "xv9lfg",
+    "selected_rank": 3,
+    "source_url": "https://www.bbg.org/article/pruning_plants_that_ascend",
+    "spans": [
+      {
+        "file": "128-source-03.txt",
+        "start_line": 32,
+        "end_line": 63,
+        "sha256": "c7c62c4961f857595636b14fdbff6b478266a7c6fef7cd851f9972f67239ee3d",
+        "text": "  - paragraph: Vines are plants with long, long stems that make their way up in the world by clinging to or twining around a support. As long as there is something sturdy to mount, true vines can do it alone, or with minimal help. There are a handful of other plants that we call vines—Bougainvillea and climbing roses (Rosa) are two popular examples—that neither cling nor twine and can't ascend without help. Since they also want to be head and shoulders above their fellows, you must tie them to or drape them over a support.\n  - paragraph: As with other woody plants, the time and energy you'll spend pruning vines has much to do with the plant you select and the spot in which you place it. You'll save yourself a good deal of anguish if you pick a vine that can live comfortably in the space you have. Old wisterias can produce primary stems the size of tree trunks and have been known to pry off drainpipes and gutters. Even my tropical wax plant (Hoya carnosa)—which hangs indoors and receives far less light than it needs—has managed to creep under the molding of the window, emerge on the other side, and now threatens to escape to the outdoors through a tiny tear in the screen.\n  - paragraph:\n    - strong:\n      - text: \"More: Read about Japanese-made shears, loppers, and other gardening blades in\"\n      - link \"A Japanese Tool Kit for Any Garden\":\n        - /url: /gardening/article/japanese_garden_tools\n      - text: .\n  - paragraph: How vines grow affects how much pruning they may need. Among the most intrepid are species that climb by using aerial rootlets and species like Virginia creeper (Parthenocissus quinquefolia) that have holdfasts, little suction cups that grab onto walls and other surfaces. Also exuberant (and sometimes invasive) are many vines that twine, such as Wisteria, bittersweet (Celastrus scandens), and honeysuckles (Lonicera). Somewhat less rampant are the vines that ascend by using tendrils, such as Clematis, grape (Vitis), and passionflower (Passiflora). But only somewhat.\n  - paragraph: Unlike many shrubs and trees that do well without ever being thinned or cut back, even vines grown in sizable settings may require regular pruning to keep them healthy, productive, attractive, and under control. Many vines just don't know when to quit—or in which direction to grow. They must be taken in hand early on or they will be collapsing trellises, pulling down fences, and obscuring windows and doors.\n  - paragraph: \"Once vines have developed adequate roots, most just keep on growing above ground. To keep a vigorous climber healthy, you must do the following:\"\n  - list:\n    - listitem: Remove any dead, damaged, diseased, or unproductive stems.\n    - listitem: Remove overly tangled stems.\n    - listitem: Remove errant stems, especially those growing away from the support.\n    - listitem: Direct its growth.\n    - listitem: Limit its growth.\n  - paragraph: \"Reducing a vine's mass not only ensures that your fence won't collapse, it also allows light and air to reach the plant's interior. Don't forget, though, that pruning doesn't just reduce mass: It can increase it. Heading back stems encourages new growth.\"\n  - heading \"Vine-Pruning Primer\" [level=2]\n  - paragraph: If you've purchased a container-grown vine—standard nursery fare these days—no pruning is mandatory at planting time, especially with evergreen vines. But heading back, which will encourage new growth, may be a good idea if your plant has long, spindly shoots with few leaves or only a single stem. Bare-root plants should be headed back by no more than a quarter before they are planted to allow the vine to balance its growth below and above ground. Be sure to cut out any damaged or dead roots and stems, or stems that have minds of their own and appear determined to grow into the neighbor's yard rather than up your trellis.\n  - paragraph: Vines in their first or second year tend to sprout and elongate stems more than produce leaves and flowers. Pinching back shoot ends helps balance their growth. Also, woody vines tend to flower more generously on shoots that are horizontal rather than vertical, so keep that in mind as you direct and shape your climbers. Twining vines especially grow from upper buds and tend to lose their lower leaves. They may need severe heading back to promote foliage near the ground. If you want a compact vine, head back stems throughout the growing season; if you want a vine to ramble, keep your pruning shears in their scabbard.\n  - paragraph: The guidelines for pruning mature vines are similar to those for pruning deciduous shrubs. Species grown for their foliage can be pruned throughout the garden season, but early spring before leaves appear puts the least stress on the plant. Vines that flower in summer and fall on the current year's growth, such as honeysuckles (Lonicera), should be pruned in late winter or early spring. That schedule gives the plant time to produce new shoots and flowers. Prune vines that flower early in the garden season on shoots produced the previous year—jasmines (Jasminum) and Wisteria are two—immediately after their flowers fade. Most hardy vines fall into this category.\n  - paragraph: Except...like all general rules, there are exceptions, the most important of which concerns vines that produce ornamental or edible fruits. Even if postflowering pruning is called for, wait until spring, or the fruit crop will be lost.\n  - paragraph: \"When you prune, be sure to do the following:\"\n  - list:\n    - listitem: Cut to healthy wood if removing dead, diseased, or damaged growth.\n    - listitem: Cut back to a lateral shoot or bud.\n    - listitem: Cut to a bud or stem that is pointing in the direction you want the vine to go.\n    - listitem: Cut cleanly and don't leave a stub, which is an invitation to bugs and diseases.\n  - paragraph: Pruning mature vines can be difficult, because their long stems become tangled. Don't be tempted to yank. Instead, prune one stem section at a time until you've cut out all you want to remove.\n  - heading \"A Vine-by-Vine Guide to Pruning\" [level=2]\n  - paragraph: \"Some vines don't have to be pruned every year, but all vines need basic care: Remove dead, damaged, and diseased stems; stems that are tangled or head in the wrong direction; stems that are weak or unproductive; unwanted suckers; and spent flowers. Beyond those cuts, the general goal when pruning vines is to keep them healthy, vigorous, and productive, and to help them follow their natural inclinations at the same time they fulfill your needs.\""
+      }
+    ],
+    "advice": "  - paragraph: Vines are plants with long, long stems that make their way up in the world by clinging to or twining around a support. As long as there is something sturdy to mount, true vines can do it alone, or with minimal help. There are a handful of other plants that we call vines—Bougainvillea and climbing roses (Rosa) are two popular examples—that neither cling nor twine and can't ascend without help. Since they also want to be head and shoulders above their fellows, you must tie them to or drape them over a support.\n  - paragraph: As with other woody plants, the time and energy you'll spend pruning vines has much to do with the plant you select and the spot in which you place it. You'll save yourself a good deal of anguish if you pick a vine that can live comfortably in the space you have. Old wisterias can produce primary stems the size of tree trunks and have been known to pry off drainpipes and gutters. Even my tropical wax plant (Hoya carnosa)—which hangs indoors and receives far less light than it needs—has managed to creep under the molding of the window, emerge on the other side, and now threatens to escape to the outdoors through a tiny tear in the screen.\n  - paragraph:\n    - strong:\n      - text: \"More: Read about Japanese-made shears, loppers, and other gardening blades in\"\n      - link \"A Japanese Tool Kit for Any Garden\":\n        - /url: /gardening/article/japanese_garden_tools\n      - text: .\n  - paragraph: How vines grow affects how much pruning they may need. Among the most intrepid are species that climb by using aerial rootlets and species like Virginia creeper (Parthenocissus quinquefolia) that have holdfasts, little suction cups that grab onto walls and other surfaces. Also exuberant (and sometimes invasive) are many vines that twine, such as Wisteria, bittersweet (Celastrus scandens), and honeysuckles (Lonicera). Somewhat less rampant are the vines that ascend by using tendrils, such as Clematis, grape (Vitis), and passionflower (Passiflora). But only somewhat.\n  - paragraph: Unlike many shrubs and trees that do well without ever being thinned or cut back, even vines grown in sizable settings may require regular pruning to keep them healthy, productive, attractive, and under control. Many vines just don't know when to quit—or in which direction to grow. They must be taken in hand early on or they will be collapsing trellises, pulling down fences, and obscuring windows and doors.\n  - paragraph: \"Once vines have developed adequate roots, most just keep on growing above ground. To keep a vigorous climber healthy, you must do the following:\"\n  - list:\n    - listitem: Remove any dead, damaged, diseased, or unproductive stems.\n    - listitem: Remove overly tangled stems.\n    - listitem: Remove errant stems, especially those growing away from the support.\n    - listitem: Direct its growth.\n    - listitem: Limit its growth.\n  - paragraph: \"Reducing a vine's mass not only ensures that your fence won't collapse, it also allows light and air to reach the plant's interior. Don't forget, though, that pruning doesn't just reduce mass: It can increase it. Heading back stems encourages new growth.\"\n  - heading \"Vine-Pruning Primer\" [level=2]\n  - paragraph: If you've purchased a container-grown vine—standard nursery fare these days—no pruning is mandatory at planting time, especially with evergreen vines. But heading back, which will encourage new growth, may be a good idea if your plant has long, spindly shoots with few leaves or only a single stem. Bare-root plants should be headed back by no more than a quarter before they are planted to allow the vine to balance its growth below and above ground. Be sure to cut out any damaged or dead roots and stems, or stems that have minds of their own and appear determined to grow into the neighbor's yard rather than up your trellis.\n  - paragraph: Vines in their first or second year tend to sprout and elongate stems more than produce leaves and flowers. Pinching back shoot ends helps balance their growth. Also, woody vines tend to flower more generously on shoots that are horizontal rather than vertical, so keep that in mind as you direct and shape your climbers. Twining vines especially grow from upper buds and tend to lose their lower leaves. They may need severe heading back to promote foliage near the ground. If you want a compact vine, head back stems throughout the growing season; if you want a vine to ramble, keep your pruning shears in their scabbard.\n  - paragraph: The guidelines for pruning mature vines are similar to those for pruning deciduous shrubs. Species grown for their foliage can be pruned throughout the garden season, but early spring before leaves appear puts the least stress on the plant. Vines that flower in summer and fall on the current year's growth, such as honeysuckles (Lonicera), should be pruned in late winter or early spring. That schedule gives the plant time to produce new shoots and flowers. Prune vines that flower early in the garden season on shoots produced the previous year—jasmines (Jasminum) and Wisteria are two—immediately after their flowers fade. Most hardy vines fall into this category.\n  - paragraph: Except...like all general rules, there are exceptions, the most important of which concerns vines that produce ornamental or edible fruits. Even if postflowering pruning is called for, wait until spring, or the fruit crop will be lost.\n  - paragraph: \"When you prune, be sure to do the following:\"\n  - list:\n    - listitem: Cut to healthy wood if removing dead, diseased, or damaged growth.\n    - listitem: Cut back to a lateral shoot or bud.\n    - listitem: Cut to a bud or stem that is pointing in the direction you want the vine to go.\n    - listitem: Cut cleanly and don't leave a stub, which is an invitation to bugs and diseases.\n  - paragraph: Pruning mature vines can be difficult, because their long stems become tangled. Don't be tempted to yank. Instead, prune one stem section at a time until you've cut out all you want to remove.\n  - heading \"A Vine-by-Vine Guide to Pruning\" [level=2]\n  - paragraph: \"Some vines don't have to be pruned every year, but all vines need basic care: Remove dead, damaged, and diseased stems; stems that are tangled or head in the wrong direction; stems that are weak or unproductive; unwanted suckers; and spent flowers. Beyond those cuts, the general goal when pruning vines is to keep them healthy, vigorous, and productive, and to help them follow their natural inclinations at the same time they fulfill your needs.\"",
+    "reason": "Rank 1 concerns physically moving an established grape root, not new shoot growth. Rank 3 is first accessible growth/pruning guidance; retain general advice, excluding clearly species-specific outdoor-vine instructions.",
+    "frozen_at": "2026-10-29T05:48:14.786864+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:48:52.698661+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

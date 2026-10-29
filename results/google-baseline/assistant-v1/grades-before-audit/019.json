@@ -1,0 +1,188 @@
+{
+  "reference_action": "Overwatered ZZ: inspect roots, repot into chunky soil and water substantially less often; OP confirms repotting and reduced watering with new growth.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "The leading advice diagnoses lack of water and urges more regular watering plus a larger pot; this does not reproduce the validated reduction in watering. Root inspection alone is incomplete, while other comments reassure about normal leaf loss.",
+      "evidence": [
+        "019-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/18umg8x/is_it_time_to_water_my_zz_plant_why_are_the_tips/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicitly cut watering, inspect soft rhizomes, remove rot and repot into dry free-draining compost with a one-week watering pause.",
+      "evidence": [
+        "019-source-02.txt"
+      ],
+      "url": "https://growtropicals.com/blogs/houseplant-tips-tricks/why-is-my-zz-plant-turning-yellow"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Visible comments advise backing off watering until very dry and give monthly/six-week examples. That matches the central validated reduction, though repotting is absent and one follow-up is truncated.",
+      "evidence": [
+        "019-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/23940770398892546/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Stop watering, let pot dry completely and if needed trim rotten roots and repot in fresh dry succulent soil. Later growth hacks and yellow-leaf removal are conflicting extras, not endorsed by this hit.",
+      "evidence": [
+        "video-audit-U8rA25PB1GY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=U8rA25PB1GY"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Overwatering diagnosis, approximately monthly watering, better light and replacing wet medium with faster-draining soil closely match the validated actions.",
+      "evidence": [
+        "video-audit-AZgYQdNr3EY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=AZgYQdNr3EY"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Unpot and inspect every root and rhizome",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wipe dusty leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clip dead roots or rhizome material",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot firm rhizomes into fresh soil and a pot two inches larger",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Water more regularly with at least monthly examples",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Watch recommended plant-care creator",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Monitor yellowing and inspect roots if it accelerates",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Buy and use moisture meter",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      }
+    ],
+    "reason": "The main dehydration diagnosis and call for more regular watering conflict with confirmed overwatering; a larger pot and reassurance can prolong the problem despite useful root inspection."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“You shouldn’t go 2 months without watering any plant” frames insufficient watering as the issue and encourages watering without a clear moisture trigger. A pot “2 inches bigger” can retain more wet soil, while the normal-growth reassurance may delay this overwatered plant’s fix."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The answer addresses another owner’s bone-dry plant after two months without water, unlike this two-week watering case. It misses the required reduction and includes an inaccurate claim that snake plants lack rhizomes."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Checking “every root and every rhizome” and clipping dead tissue are understandable but invasive tasks. Conflicting watering anecdotes and “do what works for you” leave the owner without a clear routine."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Do what works for you"
+    ]
+  },
+  "query_index": 19,
+  "thread_id": "1i4yr4b",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 19,
+    "thread_id": "1i4yr4b",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/plantclinic/comments/18umg8x/is_it_time_to_water_my_zz_plant_why_are_the_tips/",
+    "spans": [
+      {
+        "file": "019-source-01.txt",
+        "start_line": 99,
+        "end_line": 110,
+        "sha256": "7f1f40713796332b89fa5f547ea897a3aa58badad091d72da7129e36ec073cee",
+        "text": "      - paragraph: Hiya~!\n      - paragraph:\n        - text: So, ZZ plants require more care than people think they do :) I have 4 different cultivators of ZZ and they each require slightly different care. You shouldn't go 2 months without watering\n        - emphasis: any\n        - text: plant, including a ZZ. It may be a rhizome plant, but it still needs some love and care.\n      - paragraph: I would recommend you take the entire plant out of its soil and check every root and every rhizome. It is very possible that some of your roots have completely dried up because of the lack of water. You should also take care to wipe the leaves down from time to time. Already it's not getting enough light because of your location, however, you are downright nelecting your plant.\n      - paragraph:\n        - text: Check your toots, check your\n        - link \"rhizome\":\n          - /url: /search/?q=ZZ+plant+rhizome+health&cId=4cfc0f77-dd94-44c1-963a-09a2468252a4&iId=68623d2c-6132-4a7a-bed8-9c0dab3b8955\n          - text: rhizome\n        - text: s. Clip anything that seems to be dead and not coming back. I your rhizomes are still firm and full, then you should be just fine putting it into some fresh soil and a new pot. I would go about 2 inches bigger than what you have there."
+      },
+      {
+        "file": "019-source-01.txt",
+        "start_line": 147,
+        "end_line": 161,
+        "sha256": "7f1f40713796332b89fa5f547ea897a3aa58badad091d72da7129e36ec073cee",
+        "text": "          - paragraph: The main reason why you want to be careful with ZZs is because of the rhizomes. They can drown in soil that's too soggy. The rhizomes will become mushy like boiled potatoes and they will smell to high heaven - like sulfuric shit tbvh lol. Take it from uh...several years of owning ZZs hahaha!\n          - paragraph: I highly disagree with ZZs being okay with lack of water for 3 months. Even my largest ZZ, stomach high (im 5'8\") required water at least once a month. Never trust \"hard to kill plants\" as being genuinely hard to kill. That is very untrue.\n          - paragraph:\n            - text: So, snake plants and ZZ plants are two very, very different types of plants. Their roots are almost polar opposites. Snakes don't have rhizomes and their roots are\n            - emphasis: very\n            - text: short in comparison to their size. They don't require frequent watering, however if you want to avoid yellowing leaves, water them at least once or twice a month.\n          - paragraph: I recognize the conflicting information online, HOWEVER!!!! You cannot follow every bit of advice you see. You have to keep in mind that everyone lives in different geographic/weather zones. Everyone recieves different types of lighting, uses different types of water ect.\n          - paragraph: Personal example - I use tap water. Lol. Straight up. I don't buy filtered or special water for any of my plants. I am a soil free household and I use leca instead with a 1:1 feeding ratio. I have over 100 plants in different places in my apartment and I rotate them frequently. I'm doing all the things people might tell you to avoid.\n          - paragraph: I don't care to pay attention to north, south, east, west windows. I don't see a reason why I need to be bothered about that, personally lol.\n          - paragraph: Do what works for you. It may take time, plant deaths, and a lot of patience with yourself until you're confident enough to not need the internet to tell you how to care for your own plants. What one may do for their plant might not work for your plant, even if they're the same exact plant. There will always be a lot of factors in place.\n          - paragraph:\n            - text: I really enjoyed watching Amanda\n            - link \"https://www.youtube.com/@Planterina\":\n              - /url: https://www.youtube.com/@Planterina\n            - text: Highly recommend. She's a wonderful plant parent/seller and I got a lot of information from her when I was really getting started. But now, I don't watch her very much haha. Mostly because her tips will conflict with my plants lifestyle."
+      },
+      {
+        "file": "019-source-01.txt",
+        "start_line": 178,
+        "end_line": 194,
+        "sha256": "7f1f40713796332b89fa5f547ea897a3aa58badad091d72da7129e36ec073cee",
+        "text": "        - paragraph: Many desert plants can go more than two months without water. A few even should go without water longer than that during winter or dormancy\n        - 'article \"Comment thread level 2: Reply from Celestial_Velvet 3 years ago\"':\n          - generic \"Celestial_Velvet's profile --- avatar Celestial_Velvet's profile 3y ago\":\n            - link \"Celestial_Velvet's profile --- avatar\":\n              - /url: https://www.reddit.com/user/Celestial_Velvet/\n            - link \"Celestial_Velvet's profile\":\n              - /url: https://www.reddit.com/user/Celestial_Velvet/\n              - generic: Celestial_Velvet\n            - generic: •\n            - link \"3y ago\":\n              - /url: https://www.reddit.com/r/plantclinic/comments/18umg8x/comment/kflgqp7/\n              - time: 3y ago\n          - paragraph: All of that is dependant upon where you live. People refuse to get very specific about plant care when they're trying to help other people which only leads to more confusion.\n          - paragraph:\n            - text: I live in LA for example, I water my desert plants once a month sometimes twice depending on the weather. I\n            - emphasis: never\n            - text: go more than a month without watering my desert plants. Just because they CAN survive like that doesn't mean they have to."
+      },
+      {
+        "file": "019-source-01.txt",
+        "start_line": 237,
+        "end_line": 283,
+        "sha256": "7f1f40713796332b89fa5f547ea897a3aa58badad091d72da7129e36ec073cee",
+        "text": "        - text: Whenever my ZZs grow new shoots, they get some\n        - link \"yellowing older leaves\":\n          - /url: /search/?q=ZZ+plant+yellowing+older+leaves&cId=e23e57d8-1473-43fc-a3e3-70c248299f70&iId=8bfc1db4-a1c7-4ebc-a2ea-35c744a34ff7\n          - text: yellowing older leaves\n        - text: . I wouldn’t worry too much about it, but if it keeps happening and rapidly, check your roots.\n      - 'article \"Comment thread level 1: Reply from comicswereamistake 3 years ago\"':\n        - generic \"comicswereamistake's profile --- avatar comicswereamistake's profile 3y ago\":\n          - link \"comicswereamistake's profile --- avatar\":\n            - /url: https://www.reddit.com/user/comicswereamistake/\n          - link \"comicswereamistake's profile\":\n            - /url: https://www.reddit.com/user/comicswereamistake/\n            - generic: comicswereamistake\n          - generic: •\n          - link \"3y ago\":\n            - /url: https://www.reddit.com/r/plantclinic/comments/18umg8x/comment/kfp9jwo/\n            - time: 3y ago\n        - paragraph:\n          - text: Same. Our zz tends to sacrifice old stalks entirely for\n          - link \"new growth\":\n            - /url: /search/?q=ZZ+plant+new+growth&cId=5c6c9622-6a2c-4cd6-9adb-1cd845d1df33&iId=ec035280-89e3-4e40-beaa-4833d7269260\n            - text: new growth\n          - text: .\n        - 'article \"Comment thread level 2: Reply from BogeyLowenstein 3 years ago\"':\n          - generic \"BogeyLowenstein's profile --- avatar BogeyLowenstein's profile Cake icon 3y ago\":\n            - link \"BogeyLowenstein's profile --- avatar\":\n              - /url: https://www.reddit.com/user/BogeyLowenstein/\n            - link \"BogeyLowenstein's profile\":\n              - /url: https://www.reddit.com/user/BogeyLowenstein/\n              - generic: BogeyLowenstein\n            - img \"Cake icon\"\n            - generic: •\n            - link \"3y ago\":\n              - /url: https://www.reddit.com/r/plantclinic/comments/18umg8x/comment/kfpbnzv/\n              - time: 3y ago\n          - paragraph: Exactly. If it wasn’t ZZ growing season (fall/winter), I’d have a bit of a worry but it’s pretty normal for plants to do this when growing new leaves, focusing energy there.\n    - article \"Comment from awellplannedcrudite 3 years ago\":\n      - generic \"awellplannedcrudite's profile --- avatar awellplannedcrudite's profile 3y ago\":\n        - link \"awellplannedcrudite's profile --- avatar\":\n          - /url: https://www.reddit.com/user/awellplannedcrudite/\n        - link \"awellplannedcrudite's profile\":\n          - /url: https://www.reddit.com/user/awellplannedcrudite/\n          - generic: awellplannedcrudite\n        - generic: •\n        - link \"3y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/18umg8x/comment/kfp7o89/\n          - time: 3y ago\n      - paragraph: If you haven’t heard of them, I’d recommend getting a moisture meter. They take a lot of guess work out of watering, especially if you’re newer to plant care. Many people online will reference what level of dry or moist they let their meter get to when giving plant care tips. After awhile you learn what your plant needs too!"
+      }
+    ],
+    "advice": "      - paragraph: Hiya~!\n      - paragraph:\n        - text: So, ZZ plants require more care than people think they do :) I have 4 different cultivators of ZZ and they each require slightly different care. You shouldn't go 2 months without watering\n        - emphasis: any\n        - text: plant, including a ZZ. It may be a rhizome plant, but it still needs some love and care.\n      - paragraph: I would recommend you take the entire plant out of its soil and check every root and every rhizome. It is very possible that some of your roots have completely dried up because of the lack of water. You should also take care to wipe the leaves down from time to time. Already it's not getting enough light because of your location, however, you are downright nelecting your plant.\n      - paragraph:\n        - text: Check your toots, check your\n        - link \"rhizome\":\n          - /url: /search/?q=ZZ+plant+rhizome+health&cId=4cfc0f77-dd94-44c1-963a-09a2468252a4&iId=68623d2c-6132-4a7a-bed8-9c0dab3b8955\n          - text: rhizome\n        - text: s. Clip anything that seems to be dead and not coming back. I your rhizomes are still firm and full, then you should be just fine putting it into some fresh soil and a new pot. I would go about 2 inches bigger than what you have there.\n\n          - paragraph: The main reason why you want to be careful with ZZs is because of the rhizomes. They can drown in soil that's too soggy. The rhizomes will become mushy like boiled potatoes and they will smell to high heaven - like sulfuric shit tbvh lol. Take it from uh...several years of owning ZZs hahaha!\n          - paragraph: I highly disagree with ZZs being okay with lack of water for 3 months. Even my largest ZZ, stomach high (im 5'8\") required water at least once a month. Never trust \"hard to kill plants\" as being genuinely hard to kill. That is very untrue.\n          - paragraph:\n            - text: So, snake plants and ZZ plants are two very, very different types of plants. Their roots are almost polar opposites. Snakes don't have rhizomes and their roots are\n            - emphasis: very\n            - text: short in comparison to their size. They don't require frequent watering, however if you want to avoid yellowing leaves, water them at least once or twice a month.\n          - paragraph: I recognize the conflicting information online, HOWEVER!!!! You cannot follow every bit of advice you see. You have to keep in mind that everyone lives in different geographic/weather zones. Everyone recieves different types of lighting, uses different types of water ect.\n          - paragraph: Personal example - I use tap water. Lol. Straight up. I don't buy filtered or special water for any of my plants. I am a soil free household and I use leca instead with a 1:1 feeding ratio. I have over 100 plants in different places in my apartment and I rotate them frequently. I'm doing all the things people might tell you to avoid.\n          - paragraph: I don't care to pay attention to north, south, east, west windows. I don't see a reason why I need to be bothered about that, personally lol.\n          - paragraph: Do what works for you. It may take time, plant deaths, and a lot of patience with yourself until you're confident enough to not need the internet to tell you how to care for your own plants. What one may do for their plant might not work for your plant, even if they're the same exact plant. There will always be a lot of factors in place.\n          - paragraph:\n            - text: I really enjoyed watching Amanda\n            - link \"https://www.youtube.com/@Planterina\":\n              - /url: https://www.youtube.com/@Planterina\n            - text: Highly recommend. She's a wonderful plant parent/seller and I got a lot of information from her when I was really getting started. But now, I don't watch her very much haha. Mostly because her tips will conflict with my plants lifestyle.\n\n        - paragraph: Many desert plants can go more than two months without water. A few even should go without water longer than that during winter or dormancy\n        - 'article \"Comment thread level 2: Reply from Celestial_Velvet 3 years ago\"':\n          - generic \"Celestial_Velvet's profile --- avatar Celestial_Velvet's profile 3y ago\":\n            - link \"Celestial_Velvet's profile --- avatar\":\n              - /url: https://www.reddit.com/user/Celestial_Velvet/\n            - link \"Celestial_Velvet's profile\":\n              - /url: https://www.reddit.com/user/Celestial_Velvet/\n              - generic: Celestial_Velvet\n            - generic: •\n            - link \"3y ago\":\n              - /url: https://www.reddit.com/r/plantclinic/comments/18umg8x/comment/kflgqp7/\n              - time: 3y ago\n          - paragraph: All of that is dependant upon where you live. People refuse to get very specific about plant care when they're trying to help other people which only leads to more confusion.\n          - paragraph:\n            - text: I live in LA for example, I water my desert plants once a month sometimes twice depending on the weather. I\n            - emphasis: never\n            - text: go more than a month without watering my desert plants. Just because they CAN survive like that doesn't mean they have to.\n\n        - text: Whenever my ZZs grow new shoots, they get some\n        - link \"yellowing older leaves\":\n          - /url: /search/?q=ZZ+plant+yellowing+older+leaves&cId=e23e57d8-1473-43fc-a3e3-70c248299f70&iId=8bfc1db4-a1c7-4ebc-a2ea-35c744a34ff7\n          - text: yellowing older leaves\n        - text: . I wouldn’t worry too much about it, but if it keeps happening and rapidly, check your roots.\n      - 'article \"Comment thread level 1: Reply from comicswereamistake 3 years ago\"':\n        - generic \"comicswereamistake's profile --- avatar comicswereamistake's profile 3y ago\":\n          - link \"comicswereamistake's profile --- avatar\":\n            - /url: https://www.reddit.com/user/comicswereamistake/\n          - link \"comicswereamistake's profile\":\n            - /url: https://www.reddit.com/user/comicswereamistake/\n            - generic: comicswereamistake\n          - generic: •\n          - link \"3y ago\":\n            - /url: https://www.reddit.com/r/plantclinic/comments/18umg8x/comment/kfp9jwo/\n            - time: 3y ago\n        - paragraph:\n          - text: Same. Our zz tends to sacrifice old stalks entirely for\n          - link \"new growth\":\n            - /url: /search/?q=ZZ+plant+new+growth&cId=5c6c9622-6a2c-4cd6-9adb-1cd845d1df33&iId=ec035280-89e3-4e40-beaa-4833d7269260\n            - text: new growth\n          - text: .\n        - 'article \"Comment thread level 2: Reply from BogeyLowenstein 3 years ago\"':\n          - generic \"BogeyLowenstein's profile --- avatar BogeyLowenstein's profile Cake icon 3y ago\":\n            - link \"BogeyLowenstein's profile --- avatar\":\n              - /url: https://www.reddit.com/user/BogeyLowenstein/\n            - link \"BogeyLowenstein's profile\":\n              - /url: https://www.reddit.com/user/BogeyLowenstein/\n              - generic: BogeyLowenstein\n            - img \"Cake icon\"\n            - generic: •\n            - link \"3y ago\":\n              - /url: https://www.reddit.com/r/plantclinic/comments/18umg8x/comment/kfpbnzv/\n              - time: 3y ago\n          - paragraph: Exactly. If it wasn’t ZZ growing season (fall/winter), I’d have a bit of a worry but it’s pretty normal for plants to do this when growing new leaves, focusing energy there.\n    - article \"Comment from awellplannedcrudite 3 years ago\":\n      - generic \"awellplannedcrudite's profile --- avatar awellplannedcrudite's profile 3y ago\":\n        - link \"awellplannedcrudite's profile --- avatar\":\n          - /url: https://www.reddit.com/user/awellplannedcrudite/\n        - link \"awellplannedcrudite's profile\":\n          - /url: https://www.reddit.com/user/awellplannedcrudite/\n          - generic: awellplannedcrudite\n        - generic: •\n        - link \"3y ago\":\n          - /url: https://www.reddit.com/r/plantclinic/comments/18umg8x/comment/kfp7o89/\n          - time: 3y ago\n      - paragraph: If you haven’t heard of them, I’d recommend getting a moisture meter. They take a lot of guess work out of watering, especially if you’re newer to plant care. Many people online will reference what level of dry or moist they let their meter get to when giving plant care tips. After awhile you learn what your plant needs too!",
+    "reason": "First usable result, visible advice comments and follow-ups retained including conflicting watering and normal-aging claims.",
+    "frozen_at": "2026-10-29T04:19:14.819131+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:20:30.482229+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

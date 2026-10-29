@@ -1,0 +1,278 @@
+- banner:
+  - button "Guide":
+  - link "YouTube Home":
+    - /url: /
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - search:
+    - combobox "Search" [expanded]
+    - button "Search":
+  - button "Search with your voice":
+  - tooltip "tooltip"
+  - button "Settings":
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D-HYJnYaGzao%2526themeRefresh%253D1&hl=en&ec=65620
+    - generic: Sign in
+- main:
+  - complementary:
+    - generic "YouTube Video Player" [active]:
+      - button "Play":
+      - slider "Seek slider" [disabled]
+      - slider "Click or scroll the panel for the precise seeking." [disabled]
+      - button "Play (k)":
+      - button "Mute (m)":
+      - slider "Volume"
+      - button "0 Minutes 0 Seconds of 0 Minutes 10 Seconds": 0:00 / 0:10
+      - button "Subtitles/closed captions unavailable":
+      - button "Settings":
+      - button "Theater mode (t)":
+      - button "Full screen (f)":
+  - heading "How to treat brown spots on plants ?" [level=1]
+  - link "Backyard":
+    - /url: /@GreenBackyard
+    - img "Backyard"
+  - generic "Backyard":
+    - link "Backyard":
+      - /url: /@GreenBackyard
+  - generic "33.7 thousand subscribers": 33.7K subscribers
+  - button "Subscribe to Backyard.":
+    - generic: Subscribe
+  - button "like this video along with 152 other people":
+    - generic: "152"
+  - button "Dislike this video":
+  - button "Share":
+    - generic: Share
+  - button "Save to playlist":
+    - generic: Save
+  - button "More actions":
+  - text: 17K views 2 years ago
+  - link "#plants":
+    - /url: /hashtag/plants
+  - link "#houseplants":
+    - /url: /hashtag/houseplants
+  - link "#gardening":
+    - /url: /hashtag/gardening
+  - tooltip "tooltip"
+  - generic: In this video we will find out the reasons for the brown spots on the leaves and learn how to fix it and prevent this problem from coming back.
+  - generic: …
+  - button "...more"
+  - text: •
+  - heading "Comments" [level=2]:
+    - generic: Comments
+  - link "Reminder calls? Forget about it.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=ClYfpTq_iauT3GK2T7L4PqIDTqQj9gMq3iQGK39HaiRawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAb-fx-0DqAMEyAMKqgTbAk_QojD3hPV2sMLRzYlsrSPOles9SjHhrjBao7Aq0dpfMpuJXEKT0rb1z_81gpkVTC7Ba1nwrUeyKFzJug0JVbe-mLxVdGQlXXTZKnfD66AYbxz5PodfYFAT3Xe9x4tEXKKhONB7p5ChI4jhXHG-cfZkVVLoEMrBd0w2jsroT23Ha6dZA25_QyzU_HVTkrDf6976SSgdNJg5ki9xlU9hO1uVUgaJC4Hurb4_6QvayPrEzJjwGJyVBQlEM3LbWnsEqiRgRL1oyaPzvK1mLAzzXDxzZNdAbzddlFE7wdn5ItFTA8srg7LwnrcEOGNhZLPIxU6e_fzFxImSTyIJrF4m0mDwGFnKPQtYUymQpLc7TnWLkTOMnwoLjd9Ey7dFUZaD2Xxea2M2jIQc8JLH5-iRN-H17av7_hju-xzeoCKC2fdok-eUucHR-Vk4Q51jdXym4YnKiyXBfef3j4omiAWzucjEWJIFCQgTaAJ4r9S_E6AGboAHqeC4EpAHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKwCAzSCC4IgEEQARheMgKCAjoPgGOAwICAgICAgAKqgIAYSNmg0jVQFFi4q9j7lt6XA2AB8ggfY2EteXQtaG9zdC1wdWItODIxODcxMjAzMzk1NzI4N5oJX2h0dHBzOi8vd3d3LmF0aGVuYWhlYWx0aC5jb20vbGFuZGluZy9zbWFsbC1tZWRpY2FsLXByYWN0aWNlcy9haS1uYXRpdmUtcGF0aWVudC1lbmdhZ2VtZW50LXRvb2xzsQm0jHxwnCqEVcgJAMgJigKhC_mQt8N_-GA_ugs-CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgLYAQaAAgGIAga6Awl2aWF0bHphYWHQCxLgCwHSDAIQAdoMJgoLEJCimKWjv6TsqwESAgEDGg0Ys7nIxFggzc60vM0FQAFKAhAfmg0BEqoNAlVTyA0B0g3dBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L3NlYXJjaGFkcy9saW5rL2NsaWNrP2xpZD01ODcwMDAwOTA1MTM3NzI1NyZkc19hX2NpZD00MDg4ODg3OSZkc19hX2NhaWQ9MjM3NjYxMTM0NTkmZHNfYV9hZ2lkPTE5MjU5NDkxMzEwMSZkc19hX2ZpaWQ9JmRzX2FfbGlkPSZkc19hX2V4dGlkPSYmZHNfZV9hZGlkPTgxMDEzMTIxOTc0OCZkc19lX21hdGNodHlwZT1jb250ZW50JmRzX2VfZGV2aWNlPWMmZHNfZV9uZXR3b3JrPXl0aWYmJmRzX3VybF92PTImZHNfZGVzdF91cmw9aHR0cHM6Ly93d3cuYXRoZW5haGVhbHRoLmNvbS9sYW5kaW5nL3NtYWxsLW1lZGljYWwtcHJhY3RpY2VzL2FpLW5hdGl2ZS1wYXRpZW50LWVuZ2FnZW1lbnQtdG9vbHM_dXRtX21lZGl1bT1kc3AmdXRtX3NvdXJjZT1nbGEmdXRtX2NvbnRlbnQ9c3RhX2lubl9zZ3AyJnV0bV9jYW1wYWlnbj1hLWNvbl9jdWFfYWxsJnV0bV9zYWxlc2ZvcmNlPTcwMVZ0MDAwMDFINHdXcUlBSiZjcV9zcmM9Z29vZ2xlX2FkcyZjcV9jbXA9MjM3NjYxMTM0NTkmY3FfY29uPTE5MjU5NDkxMzEwMSZjcV90ZXJtPSZjcV9tZWQ9JmNxX3BsYWM9eW91dHViZS5jb20mY3FfbmV0PXl0aWYmY3FfcGx0PWdwJmdjbHNyYz1hdy5kcyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NjYxMTM0NTkmZ2JyYWlkPTBBQUFBQUQyeHo3OXRQSjNhb2hOM1BsSEtOOTdFcEc2eVQmZ2JyYWlkPTBBQUFBQUQyeHo3OXRQSjNhb2hOM1BsSEtOOTdFcEc2eVS4E____________wGIFAKwFAHAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXyVhvqgKfrxW6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMI5NbY-5belwMVrQnbAR0owDSFEAEYASAAEgKB5PD_BwE&num=1&cid=CAASqwHkaCRczf-40xL32yUt8kvpyoxXppJtbt8o24k3aDbR0z9W7OFYKtVD8GwNVqJgVfcDfGtAoLbzOHJkxotI3dZZu0ce1oB8hkVP3XBsjwxBdQqDdJHBckwq4ihLTl9a2QBGJKyg8kWtct6CoJAWRLWnc2iMRaId2iGxc94VNnXyxCdqmj33GPu12N-zrNepcirX5tV_KFYnPO6jOqzL2kN61pTh9fJDAkol_j4&sig=AOD64_3WSMB_iACT66jBBNBC9mv9SHNVXA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "More patients seen with less admin burden. AI handles the scheduling heavy lifting.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=ClYfpTq_iauT3GK2T7L4PqIDTqQj9gMq3iQGK39HaiRawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAb-fx-0DqAMEyAMKqgTbAk_QojD3hPV2sMLRzYlsrSPOles9SjHhrjBao7Aq0dpfMpuJXEKT0rb1z_81gpkVTC7Ba1nwrUeyKFzJug0JVbe-mLxVdGQlXXTZKnfD66AYbxz5PodfYFAT3Xe9x4tEXKKhONB7p5ChI4jhXHG-cfZkVVLoEMrBd0w2jsroT23Ha6dZA25_QyzU_HVTkrDf6976SSgdNJg5ki9xlU9hO1uVUgaJC4Hurb4_6QvayPrEzJjwGJyVBQlEM3LbWnsEqiRgRL1oyaPzvK1mLAzzXDxzZNdAbzddlFE7wdn5ItFTA8srg7LwnrcEOGNhZLPIxU6e_fzFxImSTyIJrF4m0mDwGFnKPQtYUymQpLc7TnWLkTOMnwoLjd9Ey7dFUZaD2Xxea2M2jIQc8JLH5-iRN-H17av7_hju-xzeoCKC2fdok-eUucHR-Vk4Q51jdXym4YnKiyXBfef3j4omiAWzucjEWJIFCQgTaAJ4r9S_E6AGboAHqeC4EpAHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKwCAzSCC4IgEEQARheMgKCAjoPgGOAwICAgICAgAKqgIAYSNmg0jVQFFi4q9j7lt6XA2AB8ggfY2EteXQtaG9zdC1wdWItODIxODcxMjAzMzk1NzI4N5oJX2h0dHBzOi8vd3d3LmF0aGVuYWhlYWx0aC5jb20vbGFuZGluZy9zbWFsbC1tZWRpY2FsLXByYWN0aWNlcy9haS1uYXRpdmUtcGF0aWVudC1lbmdhZ2VtZW50LXRvb2xzsQm0jHxwnCqEVcgJAMgJigKhC_mQt8N_-GA_ugs-CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgLYAQaAAgGIAga6Awl2aWF0bHphYWHQCxLgCwHSDAIQAdoMJgoLEJCimKWjv6TsqwESAgEDGg0Ys7nIxFggzc60vM0FQAFKAhAfmg0BEqoNAlVTyA0B0g3dBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L3NlYXJjaGFkcy9saW5rL2NsaWNrP2xpZD01ODcwMDAwOTA1MTM3NzI1NyZkc19hX2NpZD00MDg4ODg3OSZkc19hX2NhaWQ9MjM3NjYxMTM0NTkmZHNfYV9hZ2lkPTE5MjU5NDkxMzEwMSZkc19hX2ZpaWQ9JmRzX2FfbGlkPSZkc19hX2V4dGlkPSYmZHNfZV9hZGlkPTgxMDEzMTIxOTc0OCZkc19lX21hdGNodHlwZT1jb250ZW50JmRzX2VfZGV2aWNlPWMmZHNfZV9uZXR3b3JrPXl0aWYmJmRzX3VybF92PTImZHNfZGVzdF91cmw9aHR0cHM6Ly93d3cuYXRoZW5haGVhbHRoLmNvbS9sYW5kaW5nL3NtYWxsLW1lZGljYWwtcHJhY3RpY2VzL2FpLW5hdGl2ZS1wYXRpZW50LWVuZ2FnZW1lbnQtdG9vbHM_dXRtX21lZGl1bT1kc3AmdXRtX3NvdXJjZT1nbGEmdXRtX2NvbnRlbnQ9c3RhX2lubl9zZ3AyJnV0bV9jYW1wYWlnbj1hLWNvbl9jdWFfYWxsJnV0bV9zYWxlc2ZvcmNlPTcwMVZ0MDAwMDFINHdXcUlBSiZjcV9zcmM9Z29vZ2xlX2FkcyZjcV9jbXA9MjM3NjYxMTM0NTkmY3FfY29uPTE5MjU5NDkxMzEwMSZjcV90ZXJtPSZjcV9tZWQ9JmNxX3BsYWM9eW91dHViZS5jb20mY3FfbmV0PXl0aWYmY3FfcGx0PWdwJmdjbHNyYz1hdy5kcyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NjYxMTM0NTkmZ2JyYWlkPTBBQUFBQUQyeHo3OXRQSjNhb2hOM1BsSEtOOTdFcEc2eVQmZ2JyYWlkPTBBQUFBQUQyeHo3OXRQSjNhb2hOM1BsSEtOOTdFcEc2eVS4E____________wGIFAKwFAHAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXyVhvqgKfrxW6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMI5NbY-5belwMVrQnbAR0owDSFEAEYASAAEgKB5PD_BwE&num=1&cid=CAASqwHkaCRczf-40xL32yUt8kvpyoxXppJtbt8o24k3aDbR0z9W7OFYKtVD8GwNVqJgVfcDfGtAoLbzOHJkxotI3dZZu0ce1oB8hkVP3XBsjwxBdQqDdJHBckwq4ihLTl9a2QBGJKyg8kWtct6CoJAWRLWnc2iMRaId2iGxc94VNnXyxCdqmj33GPu12N-zrNepcirX5tV_KFYnPO6jOqzL2kN61pTh9fJDAkol_j4&sig=AOD64_3WSMB_iACT66jBBNBC9mv9SHNVXA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - generic: Sponsored
+  - text: ·
+  - generic: athenahealth®
+  - button "My Ad Center":
+  - link "Learn more":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=ClYfpTq_iauT3GK2T7L4PqIDTqQj9gMq3iQGK39HaiRawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAb-fx-0DqAMEyAMKqgTbAk_QojD3hPV2sMLRzYlsrSPOles9SjHhrjBao7Aq0dpfMpuJXEKT0rb1z_81gpkVTC7Ba1nwrUeyKFzJug0JVbe-mLxVdGQlXXTZKnfD66AYbxz5PodfYFAT3Xe9x4tEXKKhONB7p5ChI4jhXHG-cfZkVVLoEMrBd0w2jsroT23Ha6dZA25_QyzU_HVTkrDf6976SSgdNJg5ki9xlU9hO1uVUgaJC4Hurb4_6QvayPrEzJjwGJyVBQlEM3LbWnsEqiRgRL1oyaPzvK1mLAzzXDxzZNdAbzddlFE7wdn5ItFTA8srg7LwnrcEOGNhZLPIxU6e_fzFxImSTyIJrF4m0mDwGFnKPQtYUymQpLc7TnWLkTOMnwoLjd9Ey7dFUZaD2Xxea2M2jIQc8JLH5-iRN-H17av7_hju-xzeoCKC2fdok-eUucHR-Vk4Q51jdXym4YnKiyXBfef3j4omiAWzucjEWJIFCQgTaAJ4r9S_E6AGboAHqeC4EpAHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKwCAzSCC4IgEEQARheMgKCAjoPgGOAwICAgICAgAKqgIAYSNmg0jVQFFi4q9j7lt6XA2AB8ggfY2EteXQtaG9zdC1wdWItODIxODcxMjAzMzk1NzI4N5oJX2h0dHBzOi8vd3d3LmF0aGVuYWhlYWx0aC5jb20vbGFuZGluZy9zbWFsbC1tZWRpY2FsLXByYWN0aWNlcy9haS1uYXRpdmUtcGF0aWVudC1lbmdhZ2VtZW50LXRvb2xzsQm0jHxwnCqEVcgJAMgJigKhC_mQt8N_-GA_ugs-CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgLYAQaAAgGIAga6Awl2aWF0bHphYWHQCxLgCwHSDAIQAdoMJgoLEJCimKWjv6TsqwESAgEDGg0Ys7nIxFggzc60vM0FQAFKAhAfmg0BEqoNAlVTyA0B0g3dBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L3NlYXJjaGFkcy9saW5rL2NsaWNrP2xpZD01ODcwMDAwOTA1MTM3NzI1NyZkc19hX2NpZD00MDg4ODg3OSZkc19hX2NhaWQ9MjM3NjYxMTM0NTkmZHNfYV9hZ2lkPTE5MjU5NDkxMzEwMSZkc19hX2ZpaWQ9JmRzX2FfbGlkPSZkc19hX2V4dGlkPSYmZHNfZV9hZGlkPTgxMDEzMTIxOTc0OCZkc19lX21hdGNodHlwZT1jb250ZW50JmRzX2VfZGV2aWNlPWMmZHNfZV9uZXR3b3JrPXl0aWYmJmRzX3VybF92PTImZHNfZGVzdF91cmw9aHR0cHM6Ly93d3cuYXRoZW5haGVhbHRoLmNvbS9sYW5kaW5nL3NtYWxsLW1lZGljYWwtcHJhY3RpY2VzL2FpLW5hdGl2ZS1wYXRpZW50LWVuZ2FnZW1lbnQtdG9vbHM_dXRtX21lZGl1bT1kc3AmdXRtX3NvdXJjZT1nbGEmdXRtX2NvbnRlbnQ9c3RhX2lubl9zZ3AyJnV0bV9jYW1wYWlnbj1hLWNvbl9jdWFfYWxsJnV0bV9zYWxlc2ZvcmNlPTcwMVZ0MDAwMDFINHdXcUlBSiZjcV9zcmM9Z29vZ2xlX2FkcyZjcV9jbXA9MjM3NjYxMTM0NTkmY3FfY29uPTE5MjU5NDkxMzEwMSZjcV90ZXJtPSZjcV9tZWQ9JmNxX3BsYWM9eW91dHViZS5jb20mY3FfbmV0PXl0aWYmY3FfcGx0PWdwJmdjbHNyYz1hdy5kcyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NjYxMTM0NTkmZ2JyYWlkPTBBQUFBQUQyeHo3OXRQSjNhb2hOM1BsSEtOOTdFcEc2eVQmZ2JyYWlkPTBBQUFBQUQyeHo3OXRQSjNhb2hOM1BsSEtOOTdFcEc2eVS4E____________wGIFAKwFAHAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXyVhvqgKfrxW6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMI5NbY-5belwMVrQnbAR0owDSFEAEYASAAEgKB5PD_BwE&num=1&cid=CAASqwHkaCRczf-40xL32yUt8kvpyoxXppJtbt8o24k3aDbR0z9W7OFYKtVD8GwNVqJgVfcDfGtAoLbzOHJkxotI3dZZu0ce1oB8hkVP3XBsjwxBdQqDdJHBckwq4ihLTl9a2QBGJKyg8kWtct6CoJAWRLWnc2iMRaId2iGxc94VNnXyxCdqmj33GPu12N-zrNepcirX5tV_KFYnPO6jOqzL2kN61pTh9fJDAkol_j4&sig=AOD64_3WSMB_iACT66jBBNBC9mv9SHNVXA&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+    - generic: Learn more
+  - link:
+    - /url: /watch?v=wLBy2C6Kluk&pp=ugUEEgJlbg%3D%3D
+  - heading "Every Brown Tip Explained (Why Your Plant Has Brown Crispy Edges)" [level=3]:
+    - link "Every Brown Tip Explained (Why Your Plant Has Brown Crispy Edges) 9 minutes, 16 seconds":
+      - /url: /watch?v=wLBy2C6Kluk&pp=ugUEEgJlbg%3D%3D
+      - text: Every Brown Tip Explained (Why Your Plant Has Brown Crispy Edges)
+  - generic: Rooted.
+  - generic "410 thousand views": 410K
+  - generic "4 months ago": 4mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=Us0kJbs5DPs&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+  - heading "5 Reasons your MONEY TREE Leaves Turn Brown & Fall Off" [level=3]:
+    - link "5 Reasons your MONEY TREE Leaves Turn Brown & Fall Off 6 minutes, 38 seconds":
+      - /url: /watch?v=Us0kJbs5DPs&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+      - text: 5 Reasons your MONEY TREE Leaves Turn Brown & Fall Off
+  - generic: Plant Vibrations with Devin Wallien
+  - generic "Verified":
+  - generic "19 thousand views": 19K
+  - generic "10 months ago": 10mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=R_dtVbFdv-w
+  - 'heading "Master the Language of Houseplant Leaves: Learn What They''re Trying To Tell You" [level=3]':
+    - 'link "Master the Language of Houseplant Leaves: Learn What They''re Trying To Tell You 56 minutes"':
+      - /url: /watch?v=R_dtVbFdv-w
+      - text: "Master the Language of Houseplant Leaves: Learn What They're Trying To Tell You"
+  - generic: Aloha Plant Life
+  - generic "118 thousand views": 118K
+  - generic "3 years ago": 3y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=PJDLK7Tc8q0
+  - heading "How To Kill Spider Mites On Houseplants" [level=3]:
+    - link "How To Kill Spider Mites On Houseplants 19 minutes":
+      - /url: /watch?v=PJDLK7Tc8q0
+      - text: How To Kill Spider Mites On Houseplants
+  - generic: Heart Shaped Leaves
+  - generic "340 thousand views": 340K
+  - generic "6 years ago": 6y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=qYu2FA2xvGg&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Fungus Gnats on Houseplants How to Get Rid of Them in 3 Easy Steps 🏡" [level=3]:
+    - link "Fungus Gnats on Houseplants How to Get Rid of Them in 3 Easy Steps 🏡 10 minutes, 29 seconds":
+      - /url: /watch?v=qYu2FA2xvGg&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Fungus Gnats on Houseplants How to Get Rid of Them in 3 Easy Steps 🏡
+  - generic: The Urban Leaf
+  - generic "410 views": "410"
+  - generic "13 days ago": 13d ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=ywApti8EFAo&pp=ugUEEgJlbg%3D%3D
+  - heading "Every plant leaf problem explained" [level=3]:
+    - link "Every plant leaf problem explained 13 minutes, 14 seconds":
+      - /url: /watch?v=ywApti8EFAo&pp=ugUEEgJlbg%3D%3D
+      - text: Every plant leaf problem explained
+  - generic: Rooted.
+  - generic "657 thousand views": 657K
+  - generic "7 months ago": 7mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=F2mlQ5V5ztY&pp=ugUEEgJlbg%3D%3D
+  - heading "How to Treat Scale on Houseplants" [level=3]:
+    - link "How to Treat Scale on Houseplants 6 minutes, 25 seconds":
+      - /url: /watch?v=F2mlQ5V5ztY&pp=ugUEEgJlbg%3D%3D
+      - text: How to Treat Scale on Houseplants
+  - generic: Healthy Houseplants
+  - generic "4.1 thousand views": 4.1K
+  - generic "3 years ago": 3y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=TJVutGDwqdo&pp=ugUEEgJlbg%3D%3D
+  - heading "20 Indoor Plants That Thrive In Only Water" [level=3]:
+    - link "20 Indoor Plants That Thrive In Only Water 39 minutes":
+      - /url: /watch?v=TJVutGDwqdo&pp=ugUEEgJlbg%3D%3D
+      - text: 20 Indoor Plants That Thrive In Only Water
+  - generic: Homestead Roots
+  - generic "Verified":
+  - generic "957 thousand views": 957K
+  - generic "8 months ago": 8mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=M2XjFmgCj9s&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "How to Revive Any Dying Plant With This Simple Trick (Works Every Time!) 🌱" [level=3]:
+    - link "How to Revive Any Dying Plant With This Simple Trick (Works Every Time!) 🌱 4 minutes, 49 seconds":
+      - /url: /watch?v=M2XjFmgCj9s&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: How to Revive Any Dying Plant With This Simple Trick (Works Every Time!) 🌱
+  - generic: All About Plants
+  - generic "2.7 million views": 2.7M
+  - generic "1 year ago": 1y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=j1nHBtsDRQA&pp=ugUEEgJlbg%3D%3D
+  - heading "4 PROVEN Ways To Stop Killing Your Calathea Plants - Prayer Plants Care Tips" [level=3]:
+    - link "4 PROVEN Ways To Stop Killing Your Calathea Plants - Prayer Plants Care Tips 6 minutes, 6 seconds":
+      - /url: /watch?v=j1nHBtsDRQA&pp=ugUEEgJlbg%3D%3D
+      - text: 4 PROVEN Ways To Stop Killing Your Calathea Plants - Prayer Plants Care Tips
+  - generic: Plantalogy
+  - generic "Verified":
+  - generic "2.7 thousand views": 2.7K
+  - generic "1 month ago": 1mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=jRBoqO7CyXk&pp=ugUEEgJlbg%3D%3D
+  - heading "Place 1 piece under the orchid! Suddenly grows 100 branches and blooms all year round" [level=3]:
+    - link "Place 1 piece under the orchid! Suddenly grows 100 branches and blooms all year round 18 minutes":
+      - /url: /watch?v=jRBoqO7CyXk&pp=ugUEEgJlbg%3D%3D
+      - text: Place 1 piece under the orchid! Suddenly grows 100 branches and blooms all year round
+  - generic: Wonder Garden
+  - generic "Verified":
+  - generic "3.6 million views": 3.6M
+  - generic "10 months ago": 10mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=ej-NJjEJJ6U&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "KILLING SPIDER MITES & APHIDS DEAD. www.liquidirt.com for how to keep plants healthy." [level=3]:
+    - link "KILLING SPIDER MITES & APHIDS DEAD. www.liquidirt.com for how to keep plants healthy. 25 minutes":
+      - /url: /watch?v=ej-NJjEJJ6U&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: KILLING SPIDER MITES & APHIDS DEAD. www.liquidirt.com for how to keep plants healthy.
+  - generic: Liqui-Dirt LLC
+  - generic "1.8 million views": 1.8M
+  - generic "6 years ago": 6y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=i5_O8zoCoag&pp=ugUEEgJlbg%3D%3D
+  - heading "7 Most Dangerous Plants You Should Never Buy from Nurseries ( Plus Safer alternatives)" [level=3]:
+    - link "7 Most Dangerous Plants You Should Never Buy from Nurseries ( Plus Safer alternatives) 19 minutes":
+      - /url: /watch?v=i5_O8zoCoag&pp=ugUEEgJlbg%3D%3D
+      - text: 7 Most Dangerous Plants You Should Never Buy from Nurseries ( Plus Safer alternatives)
+  - generic: Golden Seniors Living
+  - generic "Verified":
+  - generic "1.3 million views": 1.3M
+  - generic "1 year ago": 1y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=iLQmbiYJCNw
+  - 'heading "Philodendron: Bacterial Leaf Spot | How To Treat It & Save Your Plant" [level=3]':
+    - 'link "Philodendron: Bacterial Leaf Spot | How To Treat It & Save Your Plant 6 minutes, 46 seconds"':
+      - /url: /watch?v=iLQmbiYJCNw
+      - text: "Philodendron: Bacterial Leaf Spot | How To Treat It & Save Your Plant"
+  - generic: Basie Plants
+  - generic "53 thousand views": 53K
+  - generic "6 years ago": 6y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=EgnZJJqUZC0
+  - heading "Why are my Pothos leaves turning YELLOW? | 7 Ways to save a yellowing pothos!" [level=3]:
+    - link "Why are my Pothos leaves turning YELLOW? | 7 Ways to save a yellowing pothos! 10 minutes, 44 seconds":
+      - /url: /watch?v=EgnZJJqUZC0
+      - text: Why are my Pothos leaves turning YELLOW? | 7 Ways to save a yellowing pothos!
+  - generic: Housewarmin
+  - generic "18 thousand views": 18K
+  - generic "1 year ago": 1y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=A6-nEsX7RhI&pp=ugUEEgJlbg%3D%3D
+  - heading "The Mystery Of Why The Snake Plant Blooms" [level=3]:
+    - link "The Mystery Of Why The Snake Plant Blooms 20 minutes":
+      - /url: /watch?v=A6-nEsX7RhI&pp=ugUEEgJlbg%3D%3D
+      - text: The Mystery Of Why The Snake Plant Blooms
+  - generic: Plantelier
+  - generic "2.5 million views": 2.5M
+  - generic "7 months ago": 7mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=mSzJ03lmBjw&pp=ugUHEgVlbi1BVQ%3D%3D
+  - heading "How to grow a MASSIVE Golden Pothos in just 12 months" [level=3]:
+    - link "How to grow a MASSIVE Golden Pothos in just 12 months 47 minutes":
+      - /url: /watch?v=mSzJ03lmBjw&pp=ugUHEgVlbi1BVQ%3D%3D
+      - text: How to grow a MASSIVE Golden Pothos in just 12 months
+  - generic: Sydney Plant Guy
+  - generic "Verified":
+  - generic "333 thousand views": 333K
+  - generic "3 weeks ago": 3w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=1TcrUV8QFuk
+  - heading "How to Get Rid of Mealybugs FAST Without Hurting Your Plants" [level=3]:
+    - link "How to Get Rid of Mealybugs FAST Without Hurting Your Plants 12 minutes, 36 seconds":
+      - /url: /watch?v=1TcrUV8QFuk
+      - text: How to Get Rid of Mealybugs FAST Without Hurting Your Plants
+  - generic: Garrett Plants
+  - generic "20 thousand views": 20K
+  - generic "3 months ago": 3mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=9dn23_4QLhU&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "15 HOUSEPLANTS THAT THRIVE IN JUST WATER (NO SOIL NEEDED!)" [level=3]:
+    - link "15 HOUSEPLANTS THAT THRIVE IN JUST WATER (NO SOIL NEEDED!) 30 minutes":
+      - /url: /watch?v=9dn23_4QLhU&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: 15 HOUSEPLANTS THAT THRIVE IN JUST WATER (NO SOIL NEEDED!)
+  - generic: Evergreen Wisdom
+  - generic "77 thousand views": 77K
+  - generic "1 month ago": 1mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=4fSI_F4opvU&pp=ugUEEgJlbg%3D%3D
+  - heading "Identifying Different Causes of Leaf Spots | Indoor Houseplant Care Tips | Ep 126" [level=3]:
+    - link "Identifying Different Causes of Leaf Spots | Indoor Houseplant Care Tips | Ep 126 10 minutes, 18 seconds":
+      - /url: /watch?v=4fSI_F4opvU&pp=ugUEEgJlbg%3D%3D
+      - text: Identifying Different Causes of Leaf Spots | Indoor Houseplant Care Tips | Ep 126
+  - generic: Legends Of Monstera
+  - generic "98 thousand views": 98K
+  - generic "5 years ago": 5y ago
+  - button "More actions":

@@ -1,0 +1,108 @@
+{
+  "reference_action": "Broken piece is red Maranta with a node, not Calathea; OP confirmed roots after water propagation. Weekly water changes were advised.",
+  "sources": [
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Reassures rooted Calathea mother after rhizome removal; no water propagation of broken node.",
+      "evidence": [
+        "184-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/3267572293487628/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Root-bound Calathea repotting, no broken-stem rooting.",
+      "evidence": [
+        "video-audit-FZQ1-0lkcRg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=FZQ1-0lkcRg"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Repotting video caption without readable method.",
+      "evidence": [
+        "184-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/flowerlovers.in/videos/repotting-my-calathea-plant-without-damaging-its-roots-calathea-repottingplants/1837285614132594/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Neil Smith answer offers submerged cutting in water with rooting hormone; partial water-rooting match, hormone extra.",
+      "evidence": [
+        "184-source-05.txt"
+      ],
+      "url": "https://www.quora.com/I-accidentally-broke-off-the-entirety-of-my-plants-roots-and-now-its-on-its-deathbed-How-can-I-regrow-its-roots"
+    },
+    {
+      "rank": 6,
+      "action_hit": "miss",
+      "reason": "Calathea root division with existing roots/seeds, not node water propagation.",
+      "evidence": [
+        "184-source-06.txt"
+      ],
+      "url": "https://plantura.garden/uk/houseplants/calathea/calathea-overview"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [],
+    "reason": "Reassurance is conditional on intact roots and applies to a different injury. It gives no salvage action for detached Maranta piece."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“As long as…roots are still intact” avoids a guaranteed claim but may leave the detached cutting untreated. No damaging action is directly recommended."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Discusses removed Calathea rhizomes and a rooted mother plant. It misses the node-bearing Maranta cutting that can root in water."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "The reassurance adds no work or purchases. This ease does not make it an effective salvage answer."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 184,
+  "thread_id": "122wdhd",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 184,
+    "thread_id": "122wdhd",
+    "selected_rank": 2,
+    "source_url": "https://www.facebook.com/groups/plantylife/posts/3267572293487628/",
+    "spans": [
+      {
+        "file": "184-source-02.txt",
+        "start_line": 53,
+        "end_line": 53,
+        "sha256": "6c5def10c08e5b1496a02e775b98789fe2b3c65a0318fea1541c68fbb61a8ba3",
+        "text": "        - generic: As long as a good portion of the roots are still intact it should be fine and grow more"
+      }
+    ],
+    "advice": "        - generic: As long as a good portion of the roots are still intact it should be fine and grow more",
+    "reason": "First retained conventional result offers reassurance after Calathea root damage.",
+    "frozen_at": "2026-10-29T06:35:13.427241+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:36:11.369328+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

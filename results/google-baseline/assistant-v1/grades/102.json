@@ -1,0 +1,209 @@
+{
+  "reference_action": "Underwatered furry feather: OP soaked bottom inch overnight and reported leaves uncurling, but stems still down; watering is confirmed partial recovery, not repair of broken stems.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Explicit top-watering followed by bottom soak and drainage would rehydrate dry soil; shorter soak than OP, and humidity/temperature extras not validated.",
+      "evidence": [
+        "video-audit-bWhDu37UJKY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=bWhDu37UJKY"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Curling from insufficient water addressed with 30-minute bottom soak and drain; central rehydration match.",
+      "evidence": [
+        "video-audit-TUm5vq4eB2I-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=TUm5vq4eB2I&themeRefresh=1"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Water when top two inches start drying and maintain moist soil; would lead to watering in the stated dry-soil case, though no overnight soak.",
+      "evidence": [
+        "video-audit-cJxPbW8lk40-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=cJxPbW8lk40"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Comments recommend bottom watering when drooping and draining; other comments describe drenching dry soil. Same central action, with unrelated leaf-cleaning advice.",
+      "evidence": [
+        "102-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1mzjrd4/feeling_overwhelmed/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Only question and unsuccessful humidity/misting history visible; no answer accessible. Cannot infer recovery advice.",
+      "evidence": [
+        "102-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/6953589354729150/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Group with tropical plants",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Run existing humidifier during day",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to warm draft-free indirect-light location",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil to second knuckle before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Top-water, bottom-soak 10–15 minutes, then drain",
+        "minutes": 7,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false,
+        "elapsed_minutes_original_estimate": 20,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "action": "Obtain distilled, filtered or rain water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively stand tap water in container for two to three days",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to humid bathroom if edges brown",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Set up humidity tray",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Mist leaves if no humidifier",
+        "minutes": 2,
+        "per_day": 2,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clean leaves weekly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect leaves for bugs",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Moisture checks and soaking include the fix, but broad care and overwatering/cold explanation of droop obscure the dry-soil diagnosis; moisture guard prevents harmful automatic watering."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Always check the soil” and draining after the soak guard against waterlogging. The broad routine and twice-daily misting are unnecessary here, but no likely serious worsening follows the guarded watering advice."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The “bottom watering” method addresses the dry substrate and confirmed leaf response. However, the droop section primarily blames overwatering or cold and does not distinguish the damaged stems, so the case diagnosis is incomplete."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "A finger-depth check and 10–15-minute soak are concrete. The full answer also adds location, humidity, water preparation and weekly leaf tasks, making the complete regimen much more involved than this case needs."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 102,
+  "thread_id": "11p3i4r",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 102,
+    "thread_id": "11p3i4r",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=bWhDu37UJKY",
+    "spans": [
+      {
+        "file": "video-audit-bWhDu37UJKY-transcript.txt",
+        "start_line": 24,
+        "end_line": 78,
+        "sha256": "f658075548e21b08851bf237eba2691d35dad751ecac8e74fce8ae440e1d5a86",
+        "text": "[1:40] location is very important with this plant this is a rainforest plants so she\n[1:45] will need lots of humidity just like other colors yes what I do now is\n[1:51] actually I put her with many other plans are tropical plants and also with\n[1:56] other colors here that I have in our house and to keep humidity levels up I\n[2:00] actually put this colors here with other colors yes very close to a humidifier\n[2:05] throughout the day especially in the winter when the air in our homes becomes\n[2:09] more dry in terms of temperature this plant actually likes to be in a warm\n[2:15] room so I will recommend that you keep her in a room between 16 to 20 degrees\n[2:19] Celsius and avoid rooms with cold rusts in terms of sunlight avoid direct\n[2:25] sunlight at all the costs this will actually burn the leaves so put her in a\n[2:30] room with partial shade and indirect sunlight water is also very important\n[2:38] with this plan first of all I found that this plan needs lots of water of course\n[2:43] you don't want to overwater her so I will recommend that you always check the\n[2:47] soil we're actually watering this colors here\n[2:49] twice a week so I take on Saturday and then on Wednesdays and the way that I\n[2:54] check is I put my finger inside the soil until the second knuckle and I just make\n[2:58] sure that it is not very wet you just want to make sure that you keep the soil\n[3:02] moist all time the way that I make sure that I don't overwater my plant it's\n[3:08] actually with the bottom watering message so what I do is I actually water\n[3:12] my plants from the top and then I let it be in the water for about 10 to 15\n[3:16] minutes after that I lift my plant up and I let the water drain down that way\n[3:22] I make sure that the soil is moist but not wet another very important factor\n[3:27] about water with this plant is that calathea are very sensitive to the\n[3:31] chemicals that come in tap water so make sure to water your plan with distilled\n[3:36] filter or rain water related to this one technique that we have learned from\n[3:41] John's grandmother is that you put some water in a bucket or a container and you\n[3:46] let it stand for a couple of days two or three days should be enough this water\n[3:51] will then be ready to what are your colors yes but of course if you have any\n[3:54] questions about this technique just let me know down below\n[3:57] and I will make sure to reply some common problems with this plant include\n[4:03] droopy leaves this can be because of two options the first one is that your over\n[4:08] watering your plants so make sure to check the soil and cut down on water the\n[4:13] second one is that it may be too cold for your plant or she may be exposed to\n[4:18] cold rats if this is the case try to increase temperatures around your plant\n[4:22] or move her to a warmer room a second common problem is actually when you see\n[4:27] the lift tips or the edges of your leads browning and I can tell you\n[4:31] unfortunately my kallithea suffer this problem I can actually show\n[4:35] you some of the leaf as you can see some of them are actually brown on the edges\n[4:40] over here this actually happens because the air around your plant may be too dry\n[4:47] for her to keep humidity levels up you can move her to a bathroom where the\n[4:51] humidity levels are really high you can also put her with other colors yes or\n[4:56] other tropical plants as they actually help each other with humidity levels you\n[5:00] can also use a humidity tray to increase humidity around her and of course what I\n[5:05] do because she needs a lot of humidity is putting her clothes to a humidifier\n[5:10] and other colors yes if you don't have a humidifier I'll recommend that you put\n[5:14] your plant in actually made a tea tray and also miss the leaves twice a day so\n[5:18] you can keep humidity levels up the third and last common problem that I can\n[5:22] share with you is when you lose color on the leads so you have faded or scorched\n[5:27] leaves this is most likely because your plant is getting lots of sunlight\n[5:32] remember this plant prefers shaded rooms and in direct sunlight so make sure that\n[5:37] your an exposure to direct sunlight for an extra tip make sure that every\n[5:44] week you just clean the leaf and check for bugs and dust I can tell you\n[5:49] cleaning the leaves of my plant every week has helped me keep her healthy and\n[5:53] actually I see that she can't breathe also she looks way more beautiful\n[5:57] because she's clean okay my friends these are some of the tips that I can"
+      }
+    ],
+    "advice": "[1:40] location is very important with this plant this is a rainforest plants so she\n[1:45] will need lots of humidity just like other colors yes what I do now is\n[1:51] actually I put her with many other plans are tropical plants and also with\n[1:56] other colors here that I have in our house and to keep humidity levels up I\n[2:00] actually put this colors here with other colors yes very close to a humidifier\n[2:05] throughout the day especially in the winter when the air in our homes becomes\n[2:09] more dry in terms of temperature this plant actually likes to be in a warm\n[2:15] room so I will recommend that you keep her in a room between 16 to 20 degrees\n[2:19] Celsius and avoid rooms with cold rusts in terms of sunlight avoid direct\n[2:25] sunlight at all the costs this will actually burn the leaves so put her in a\n[2:30] room with partial shade and indirect sunlight water is also very important\n[2:38] with this plan first of all I found that this plan needs lots of water of course\n[2:43] you don't want to overwater her so I will recommend that you always check the\n[2:47] soil we're actually watering this colors here\n[2:49] twice a week so I take on Saturday and then on Wednesdays and the way that I\n[2:54] check is I put my finger inside the soil until the second knuckle and I just make\n[2:58] sure that it is not very wet you just want to make sure that you keep the soil\n[3:02] moist all time the way that I make sure that I don't overwater my plant it's\n[3:08] actually with the bottom watering message so what I do is I actually water\n[3:12] my plants from the top and then I let it be in the water for about 10 to 15\n[3:16] minutes after that I lift my plant up and I let the water drain down that way\n[3:22] I make sure that the soil is moist but not wet another very important factor\n[3:27] about water with this plant is that calathea are very sensitive to the\n[3:31] chemicals that come in tap water so make sure to water your plan with distilled\n[3:36] filter or rain water related to this one technique that we have learned from\n[3:41] John's grandmother is that you put some water in a bucket or a container and you\n[3:46] let it stand for a couple of days two or three days should be enough this water\n[3:51] will then be ready to what are your colors yes but of course if you have any\n[3:54] questions about this technique just let me know down below\n[3:57] and I will make sure to reply some common problems with this plant include\n[4:03] droopy leaves this can be because of two options the first one is that your over\n[4:08] watering your plants so make sure to check the soil and cut down on water the\n[4:13] second one is that it may be too cold for your plant or she may be exposed to\n[4:18] cold rats if this is the case try to increase temperatures around your plant\n[4:22] or move her to a warmer room a second common problem is actually when you see\n[4:27] the lift tips or the edges of your leads browning and I can tell you\n[4:31] unfortunately my kallithea suffer this problem I can actually show\n[4:35] you some of the leaf as you can see some of them are actually brown on the edges\n[4:40] over here this actually happens because the air around your plant may be too dry\n[4:47] for her to keep humidity levels up you can move her to a bathroom where the\n[4:51] humidity levels are really high you can also put her with other colors yes or\n[4:56] other tropical plants as they actually help each other with humidity levels you\n[5:00] can also use a humidity tray to increase humidity around her and of course what I\n[5:05] do because she needs a lot of humidity is putting her clothes to a humidifier\n[5:10] and other colors yes if you don't have a humidifier I'll recommend that you put\n[5:14] your plant in actually made a tea tray and also miss the leaves twice a day so\n[5:18] you can keep humidity levels up the third and last common problem that I can\n[5:22] share with you is when you lose color on the leads so you have faded or scorched\n[5:27] leaves this is most likely because your plant is getting lots of sunlight\n[5:32] remember this plant prefers shaded rooms and in direct sunlight so make sure that\n[5:37] your an exposure to direct sunlight for an extra tip make sure that every\n[5:44] week you just clean the leaf and check for bugs and dust I can tell you\n[5:49] cleaning the leaves of my plant every week has helped me keep her healthy and\n[5:53] actually I see that she can't breathe also she looks way more beautiful\n[5:57] because she's clean okay my friends these are some of the tips that I can",
+    "reason": "First result is species-specific care with drooping remedies; retain all care steps and alternatives before reference.",
+    "frozen_at": "2026-10-29T05:21:04.920616+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.271490+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.270451+00:00",
+    "changes": [
+      {
+        "query_index": 102,
+        "action_index": 4,
+        "field": "minutes",
+        "before": 20,
+        "after": 7,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ]
+  }
+}

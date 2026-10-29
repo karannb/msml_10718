@@ -1,0 +1,144 @@
+{
+  "reference_action": "OP reports pesticide dust residue persisted despite plain hosing/wiping. Validated fix: gently wipe with one-third lemon juice/two-thirds water, then hose off remaining lemon juice. Plain washing already tried is not a matching new fix; mite treatment is a different target.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Oil-treatment burn prevention, wiping neem and alternative insecticidal soap do not provide the acid-assisted dust-residue removal.",
+      "evidence": [
+        "094-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1732060157100583/posts/2854294218210499/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Extensive mite-control regimens include alcohol/soap wiping and rinse, but no lemon/dilute-acid cleaning for persistent dust residue. Different treatment goal, not validated remedy.",
+      "evidence": [
+        "094-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/alocasia/comments/1kt6w76/the_alocasia_i_just_got_24_hours_ago_has_mites/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Alocasia care and Captain Jacks spray for mites, no residue-cleaning solution.",
+      "evidence": [
+        "094-source-03.txt"
+      ],
+      "url": "https://thehappyplanter.substack.com/p/the-ultimate-alocasia-care-guide-1158948"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Opened TikTok discovery page provides spray-treatment description but no full video instructions. Visible advice does not match; unavailable underlying content cannot support definitive miss.",
+      "evidence": [
+        "094-source-04.txt"
+      ],
+      "url": "https://www.tiktok.com/discover/captain-jack-dead-bug-spray-alocasia?lang=en"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Full care transcript including rinse/soap mite treatment at 19:11 onward, no acid-based removal of dust that survives plain rinsing.",
+      "evidence": [
+        "video-audit-7X0XA4qlLY4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=7X0XA4qlLY4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Keep oil-treated plant away from light until dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply Captain Jacks pest treatment",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Repot newly acquired plants",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Wipe neem oil off leaves",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use insecticidal soap as alternative",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "Confuses neem oil burn/active mite treatment with persistent garden-dust residue. Additional pesticide is unnecessary, but source includes light and wiping safeguards and no definite severe damage is established."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Keeping them away from light until they dry” supplies a useful oil-treatment precaution. Additional unspecified pesticides and repotting are unnecessary for the stated residue problem and lack application instructions."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The discussion is about neem-treated leaves that burned, while this owner used garden dust and wants residue removed. “Wipe off” repeats an already unsuccessful basic action and omits the validated cleaning approach."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Wiping and temporary relocation are easy. “Insecticidal soap takes them out” gives no application details and the vague Captain Jacks recommendation fails to distinguish the product formulations."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 94,
+  "thread_id": "13046q5",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 94,
+    "thread_id": "13046q5",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1732060157100583/posts/2854294218210499/",
+    "spans": [
+      {
+        "file": "094-source-01.txt",
+        "start_line": 51,
+        "end_line": 77,
+        "sha256": "ef5ed8afb0711ff0e08081b5c7b77ce872602f4ef1e6700e945913caf41cc1f9",
+        "text": "        - generic: Are you spraying and then keeping them away from light until they dry? Spraying anything oil-based & then keeping it under light right away, before it dries, will cause the leaves to burn.\n        - list:\n          - link \"4y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/2854294218210499/?comment_id=2854303268209594&__cft__[0]=AZhjVVyKe66vbzsixL85N0_47Z1uXm9DNUlS7ud4C2rr8BxxVP_wwX6DWIdLnEKpBy8uvBa0kgEpRUHohxq8oTmd001H2yBAJL1A6M23EY1jpx8bG5skiUdnjkYO7NvYwOWk_Rk9LqvnfMhK497NwFY2FgaBoADL3XqEa_Z2-SB3ANcPhShOfGJIg0EsP5Ck&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Denise Aukes 4 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Denise Aukes\":\n          - generic: Denise Aukes\n        - generic: I use captain jacks...I had them on my 3 smaller fiddles...took care of them..I treat my new plants with c.j when o bring home and repot..\n        - generic: Never hurt them.\n        - generic: Reg. Neem oil isn't good for leaves...supposed to treat but wipe off..\n        - generic: The one had mites..I treated all 3\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=5352943751464907&set=p.5352943751464907&type=3&__cft__[0]=AZhjVVyKe66vbzsixL85N0_47Z1uXm9DNUlS7ud4C2rr8BxxVP_wwX6DWIdLnEKpBy8uvBa0kgEpRUHohxq8oTmd001H2yBAJL1A6M23EY1jpx8bG5skiUdnjkYO7NvYwOWk_Rk9LqvnfMhK497NwFY2FgaBoADL3XqEa_Z2-SB3ANcPhShOfGJIg0EsP5Ck&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"4y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/2854294218210499/?comment_id=2854298088210112&__cft__[0]=AZhjVVyKe66vbzsixL85N0_47Z1uXm9DNUlS7ud4C2rr8BxxVP_wwX6DWIdLnEKpBy8uvBa0kgEpRUHohxq8oTmd001H2yBAJL1A6M23EY1jpx8bG5skiUdnjkYO7NvYwOWk_Rk9LqvnfMhK497NwFY2FgaBoADL3XqEa_Z2-SB3ANcPhShOfGJIg0EsP5Ck&__tn__=R]-R\n      - article \"Comment by Haleigh Smith 4 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Haleigh Smith\":\n          - generic: Haleigh Smith\n        - generic: Insecticidal soap takes them out for me no issues"
+      }
+    ],
+    "advice": "        - generic: Are you spraying and then keeping them away from light until they dry? Spraying anything oil-based & then keeping it under light right away, before it dries, will cause the leaves to burn.\n        - list:\n          - link \"4y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/2854294218210499/?comment_id=2854303268209594&__cft__[0]=AZhjVVyKe66vbzsixL85N0_47Z1uXm9DNUlS7ud4C2rr8BxxVP_wwX6DWIdLnEKpBy8uvBa0kgEpRUHohxq8oTmd001H2yBAJL1A6M23EY1jpx8bG5skiUdnjkYO7NvYwOWk_Rk9LqvnfMhK497NwFY2FgaBoADL3XqEa_Z2-SB3ANcPhShOfGJIg0EsP5Ck&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Denise Aukes 4 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Denise Aukes\":\n          - generic: Denise Aukes\n        - generic: I use captain jacks...I had them on my 3 smaller fiddles...took care of them..I treat my new plants with c.j when o bring home and repot..\n        - generic: Never hurt them.\n        - generic: Reg. Neem oil isn't good for leaves...supposed to treat but wipe off..\n        - generic: The one had mites..I treated all 3\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=5352943751464907&set=p.5352943751464907&type=3&__cft__[0]=AZhjVVyKe66vbzsixL85N0_47Z1uXm9DNUlS7ud4C2rr8BxxVP_wwX6DWIdLnEKpBy8uvBa0kgEpRUHohxq8oTmd001H2yBAJL1A6M23EY1jpx8bG5skiUdnjkYO7NvYwOWk_Rk9LqvnfMhK497NwFY2FgaBoADL3XqEa_Z2-SB3ANcPhShOfGJIg0EsP5Ck&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"4y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/2854294218210499/?comment_id=2854298088210112&__cft__[0]=AZhjVVyKe66vbzsixL85N0_47Z1uXm9DNUlS7ud4C2rr8BxxVP_wwX6DWIdLnEKpBy8uvBa0kgEpRUHohxq8oTmd001H2yBAJL1A6M23EY1jpx8bG5skiUdnjkYO7NvYwOWk_Rk9LqvnfMhK497NwFY2FgaBoADL3XqEa_Z2-SB3ANcPhShOfGJIg0EsP5Ck&__tn__=R]-R\n      - article \"Comment by Haleigh Smith 4 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Haleigh Smith\":\n          - generic: Haleigh Smith\n        - generic: Insecticidal soap takes them out for me no issues",
+    "reason": "First accessible source offers Alocasia pesticide application and wiping advice; preserve neem-versus-dust mismatch and all comments before reference.",
+    "frozen_at": "2026-10-29T05:17:02.873866+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:17:50.593529+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

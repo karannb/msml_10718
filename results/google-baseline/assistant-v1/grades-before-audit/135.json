@@ -1,0 +1,174 @@
+{
+  "reference_action": "Healthy plant with normal oldest-leaf yellowing; owner added trellis and reports doing amazing. No repot needed. Count trellis/support action, not merely generic yellow-leaf diagnosis or transplant-shock treatment.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Transplant shock differential and humidity/moisture care do not retrieve trellising.",
+      "evidence": [
+        "135-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/IndoorGarden/comments/17ta0q0/yellowingdying_leaves_after_repotting/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Up-pot or root-prune, water/feed; no trellis.",
+      "evidence": [
+        "135-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/addictedtogardening/posts/3804687806382585/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "unresolved",
+      "reason": "Short title without substantive instructions.",
+      "evidence": [
+        "135-source-03.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/WSEdXmUG5pQ"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Root-preserving repot/shock-prevention and rooting product guidance, no support action.",
+      "evidence": [
+        "video-audit-XiZ9CF_Luu4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=XiZ9CF_Luu4"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Chop, root and replant for fullness, not trellis.",
+      "evidence": [
+        "135-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/blackwomenwholoveplants/posts/1227953308418306/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": true,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Unpot and inspect roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check moisture and adjust watering",
+        "minutes": 4,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add sphagnum top dressing",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Return to original pot/new soil if substantial roots lost",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Flush fertilizer if added at repot",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move out of direct sunlight",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Trim dead roots if possible without healthy-root damage",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Assumes repot-related problem rather than normal aging, missing trellis. Conditional moisture/root-loss checks reduce harm despite unnecessary troubleshooting for a healthy plant."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“You may as well take it out” adds disturbance to a recently repotted plant without clear need. Later conditional root-loss checks and caution against damaging healthy roots provide safeguards, but normal aging is omitted."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Repotting and damaged roots resemble the question history. The answer still misses the reference’s healthy status and trailing-vine support, instead treating substantial transplant stress as likely."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Moisture checks and original-pot downsizing are reasonably concrete. “Best possible conditions” and increased humidity lack an exact method, and multiple conditional interventions exceed a simple care task."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Give the plant the best possible conditions"
+    ]
+  },
+  "query_index": 135,
+  "thread_id": "1vd0t8d",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 135,
+    "thread_id": "1vd0t8d",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/IndoorGarden/comments/17ta0q0/yellowingdying_leaves_after_repotting/",
+    "spans": [
+      {
+        "file": "135-source-01.txt",
+        "start_line": 124,
+        "end_line": 176,
+        "sha256": "c2462313ec436b6fd7b3478df9cf7ff43a9a375f4fae1beeca64ffb8ff4778c4",
+        "text": "      - paragraph: Did you disturb the roots, or did you slip it into the new pot with more soil?\n      - 'article \"Comment thread level 1: Reply from YouAccomplished8342 3 years ago\"':\n        - generic \"YouAccomplished8342's profile --- avatar YouAccomplished8342's profile 3y ago\":\n          - link \"YouAccomplished8342's profile --- avatar\":\n            - /url: https://www.reddit.com/user/YouAccomplished8342/\n          - link \"YouAccomplished8342's profile\":\n            - /url: https://www.reddit.com/user/YouAccomplished8342/\n            - generic: YouAccomplished8342\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"3y ago\":\n            - /url: https://www.reddit.com/r/IndoorGarden/comments/17ta0q0/comment/k8vulh3/\n            - time: 3y ago\n        - paragraph: I disturbed the roots to get the old husk out. Is this why???\n        - 'article \"Comment thread level 2: Reply from nicoleauroux 3 years ago\"':\n          - generic \"nicoleauroux's profile --- avatar nicoleauroux's profile 3y ago\":\n            - link \"nicoleauroux's profile --- avatar\":\n              - /url: https://www.reddit.com/user/nicoleauroux/\n            - link \"nicoleauroux's profile\":\n              - /url: https://www.reddit.com/user/nicoleauroux/\n              - generic: nicoleauroux\n            - generic: •\n            - link \"3y ago\":\n              - /url: https://www.reddit.com/r/IndoorGarden/comments/17ta0q0/comment/k8vvksd/\n              - time: 3y ago\n          - paragraph: I'm not sure, sometimes it's hard to tell if the plant is having trouble taking up water or if it's getting too much. You may as well take it out and have it look at the roots. It is a really chunky potting mix. I don't know if that's an issue or not.\n    - article \"Comment from Dramatic-Warning-166 3 years ago\":\n      - generic \"Dramatic-Warning-166's profile --- avatar Dramatic-Warning-166's profile 3y ago Edited 3y ago\":\n        - link \"Dramatic-Warning-166's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Dramatic-Warning-166/\n          - img \"u/Dramatic-Warning-166 avatar\"\n        - link \"Dramatic-Warning-166's profile\":\n          - /url: https://www.reddit.com/user/Dramatic-Warning-166/\n          - generic: Dramatic-Warning-166\n        - generic: •\n        - link \"3y ago\":\n          - /url: https://www.reddit.com/r/IndoorGarden/comments/17ta0q0/comment/k905cng/\n          - time: 3y ago\n        - generic: •\n        - text: Edited\n        - time: 3y ago\n      - paragraph: \"It is quite likely that there was something done not quite right during the repotting process. Here’s a few possibilities:\"\n      - list:\n        - paragraph: The plant was over watered or under-watered after repotting. It’s always best to check the soil and water accordingly, rather than water on a fixed schedule. If the plant is in a bigger pot now it will take longer to dry out, so will require less water. The shock of transplanting (e.g. damaged roots) may also be affecting how quickly the plant can take up water. On the other hand, if you switched from coco to bark, perhaps the plant is drying out much faster than before. Again, check the soil and try to achieve a consistent level of moisture, not sogginess, at all times.\n        - paragraph: A lot of roots were damaged. It’s normal to loose a few roots when you repot, but if you lost a lot this could cause poor plant health. As long as you give the plant good conditions it will bounce back, possibly after loosing a few leaves.\n        - paragraph: Plants go through varying degrees of transplant shock. It may take a few weeks for the plant to acclimatize to new conditions, such as new soil.\n        - paragraph: It’s best to wait a couple of weeks before feeding a repotted plant. If you fertilized on the day of repotting, this could have added to its transplant shock.\n      - paragraph: \"What to do:\"\n      - list:\n        - paragraph: Check carefully to determine the best watering regime. In the short term it will likely require less water than before. Adding a top dressing of sphagnum moss can help maintain optimal soil moisture, especially with anthuriums.\n        - paragraph: If you lost a lot of roots during the repot, honestly it may be best to put back into the original pot, with new soil. If you lost roots the plant won’t be able to take up additional water from a larger pot and could develop root rot.\n        - paragraph: If you fertilized, don’t fertilize again until the plant is healthy. And flush old fertilizer out of the soil, so it doesn’t cause more damage.\n        - paragraph: Give the plant the best possible conditions until it can recover. This means no direct sunlight and increased humidity."
+      },
+      {
+        "file": "135-source-01.txt",
+        "start_line": 216,
+        "end_line": 216,
+        "sha256": "c2462313ec436b6fd7b3478df9cf7ff43a9a375f4fae1beeca64ffb8ff4778c4",
+        "text": "          - paragraph: Most plants should have plump white or light brown roots. If the roots are dark brown / black, crispy, mushy they’re dead. It’s best to cut dead roots back to where they are living as leaving them in the soil can make the problem worse. However, if removing dead roots means damaging healthy ones it may not be worthwhile. Roots will almost always die from the tips. You might see a root that has black tips, but then transitions into healthy roots nearer the trunk. Dead roots can occur from both over watering and under watering. Root rot - usually from over watering - is a problem, but if it is addressed it does not need to be fatal for the plant. I’ve recovered plants that have lost most of their roots to rot. Plants can recover naturally from dead roots / root rot. But if convenient, it is best to remove dead / rotten roots. There are some exceptions to my first point above about black roots. For example, I have ferns that have black, wirey roots."
+      }
+    ],
+    "advice": "      - paragraph: Did you disturb the roots, or did you slip it into the new pot with more soil?\n      - 'article \"Comment thread level 1: Reply from YouAccomplished8342 3 years ago\"':\n        - generic \"YouAccomplished8342's profile --- avatar YouAccomplished8342's profile 3y ago\":\n          - link \"YouAccomplished8342's profile --- avatar\":\n            - /url: https://www.reddit.com/user/YouAccomplished8342/\n          - link \"YouAccomplished8342's profile\":\n            - /url: https://www.reddit.com/user/YouAccomplished8342/\n            - generic: YouAccomplished8342\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"3y ago\":\n            - /url: https://www.reddit.com/r/IndoorGarden/comments/17ta0q0/comment/k8vulh3/\n            - time: 3y ago\n        - paragraph: I disturbed the roots to get the old husk out. Is this why???\n        - 'article \"Comment thread level 2: Reply from nicoleauroux 3 years ago\"':\n          - generic \"nicoleauroux's profile --- avatar nicoleauroux's profile 3y ago\":\n            - link \"nicoleauroux's profile --- avatar\":\n              - /url: https://www.reddit.com/user/nicoleauroux/\n            - link \"nicoleauroux's profile\":\n              - /url: https://www.reddit.com/user/nicoleauroux/\n              - generic: nicoleauroux\n            - generic: •\n            - link \"3y ago\":\n              - /url: https://www.reddit.com/r/IndoorGarden/comments/17ta0q0/comment/k8vvksd/\n              - time: 3y ago\n          - paragraph: I'm not sure, sometimes it's hard to tell if the plant is having trouble taking up water or if it's getting too much. You may as well take it out and have it look at the roots. It is a really chunky potting mix. I don't know if that's an issue or not.\n    - article \"Comment from Dramatic-Warning-166 3 years ago\":\n      - generic \"Dramatic-Warning-166's profile --- avatar Dramatic-Warning-166's profile 3y ago Edited 3y ago\":\n        - link \"Dramatic-Warning-166's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Dramatic-Warning-166/\n          - img \"u/Dramatic-Warning-166 avatar\"\n        - link \"Dramatic-Warning-166's profile\":\n          - /url: https://www.reddit.com/user/Dramatic-Warning-166/\n          - generic: Dramatic-Warning-166\n        - generic: •\n        - link \"3y ago\":\n          - /url: https://www.reddit.com/r/IndoorGarden/comments/17ta0q0/comment/k905cng/\n          - time: 3y ago\n        - generic: •\n        - text: Edited\n        - time: 3y ago\n      - paragraph: \"It is quite likely that there was something done not quite right during the repotting process. Here’s a few possibilities:\"\n      - list:\n        - paragraph: The plant was over watered or under-watered after repotting. It’s always best to check the soil and water accordingly, rather than water on a fixed schedule. If the plant is in a bigger pot now it will take longer to dry out, so will require less water. The shock of transplanting (e.g. damaged roots) may also be affecting how quickly the plant can take up water. On the other hand, if you switched from coco to bark, perhaps the plant is drying out much faster than before. Again, check the soil and try to achieve a consistent level of moisture, not sogginess, at all times.\n        - paragraph: A lot of roots were damaged. It’s normal to loose a few roots when you repot, but if you lost a lot this could cause poor plant health. As long as you give the plant good conditions it will bounce back, possibly after loosing a few leaves.\n        - paragraph: Plants go through varying degrees of transplant shock. It may take a few weeks for the plant to acclimatize to new conditions, such as new soil.\n        - paragraph: It’s best to wait a couple of weeks before feeding a repotted plant. If you fertilized on the day of repotting, this could have added to its transplant shock.\n      - paragraph: \"What to do:\"\n      - list:\n        - paragraph: Check carefully to determine the best watering regime. In the short term it will likely require less water than before. Adding a top dressing of sphagnum moss can help maintain optimal soil moisture, especially with anthuriums.\n        - paragraph: If you lost a lot of roots during the repot, honestly it may be best to put back into the original pot, with new soil. If you lost roots the plant won’t be able to take up additional water from a larger pot and could develop root rot.\n        - paragraph: If you fertilized, don’t fertilize again until the plant is healthy. And flush old fertilizer out of the soil, so it doesn’t cause more damage.\n        - paragraph: Give the plant the best possible conditions until it can recover. This means no direct sunlight and increased humidity.\n\n          - paragraph: Most plants should have plump white or light brown roots. If the roots are dark brown / black, crispy, mushy they’re dead. It’s best to cut dead roots back to where they are living as leaving them in the soil can make the problem worse. However, if removing dead roots means damaging healthy ones it may not be worthwhile. Roots will almost always die from the tips. You might see a root that has black tips, but then transitions into healthy roots nearer the trunk. Dead roots can occur from both over watering and under watering. Root rot - usually from over watering - is a problem, but if it is addressed it does not need to be fatal for the plant. I’ve recovered plants that have lost most of their roots to rot. Plants can recover naturally from dead roots / root rot. But if convenient, it is best to remove dead / rotten roots. There are some exceptions to my first point above about black roots. For example, I have ferns that have black, wirey roots.",
+    "reason": "First accessible relevant post-repot response, including conditional downsizing and moisture/humidity care.",
+    "frozen_at": "2026-10-29T05:52:00.489461+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:52:50.785944+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

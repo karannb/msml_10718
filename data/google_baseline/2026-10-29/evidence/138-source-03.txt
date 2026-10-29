@@ -1,0 +1,278 @@
+- region "Notifications (F8)":
+  - list
+- region "Notifications alt+T"
+- banner:
+  - link "Plant Doctor home":
+    - /url: /
+    - generic: Plant Doctor
+  - navigation:
+    - link "About":
+      - /url: /#about
+    - link "How It Works":
+      - /url: /#how-it-works
+    - link "Guides":
+      - /url: /guides
+    - link "Tools":
+      - /url: /tools
+    - link "Trust":
+      - /url: /trust
+    - link "FAQ":
+      - /url: /#faq
+  - link "Download App":
+    - /url: /#download-app
+- main:
+  - link "All plant tools":
+    - /url: /tools
+    - text: All plant tools
+  - text: Free AI plant disease identifier
+  - link "Jump to plant analysis":
+    - /url: "#plant-analysis"
+  - heading "Diagnose a Sick Plant From a Photo Online" [level=1]
+  - paragraph: Upload plant photos to compare likely diseases, pests, watering stress, and root problems. Get visible evidence, confidence-scored possibilities, and practical next steps.
+  - paragraph: Diagnose in the mobile app
+  - paragraph: Install Plant Doctor to analyze plant photos and care details.
+  - link "Get Plant Doctor app":
+    - /url: "#plant-analysis"
+    - text: Get Plant Doctor app
+  - list "Tool benefits":
+    - text: Local photo preview
+    - text: Upload 1 to 5 photos
+    - text: Continue in the app
+    - text: Confidence-scored possibilities
+  - generic: Local photo preview
+  - heading "Upload photos and analyze your plant" [level=2]
+  - paragraph: Add up to five photos. The analysis compares visible evidence with your care context and explains uncertainty instead of relying on one guess.
+  - paragraph: Your photo and care details stay in this browser. Submit opens the App Store or Google Play on mobile, or shows a QR code on other devices. Add photos again in the app; they are not transferred.
+  - generic: Add plant photos
+  - generic: Whole plant, close-up symptoms, leaf underside, stems, and soil help most.
+  - generic: 0/5 photos selected
+  - button "Take a photo":
+    - text: Take a photo
+  - button "Choose photos":
+    - text: Choose photos
+  - paragraph: JPG, PNG, WebP, HEIC, or HEIF. Bright, unfiltered photos make comparison easier.
+  - generic: Optional care context
+  - group "Add a care context prompt":
+    - button "Watering"
+    - button "Light"
+    - button "Repotting"
+    - button "Symptoms timing"
+  - textbox "Optional care context":
+    - /placeholder: "Example: watered twice this week, east window, yellowing started on lower leaves..."
+  - paragraph: Include recent watering, light, repotting, fertilizer, or when symptoms started.
+  - generic: 0/1200
+  - button "Analyze Plant" [disabled]:
+    - text: Analyze Plant
+  - button "Reset" [disabled]:
+    - text: Reset
+  - paragraph: Add a photo to enable analysis.
+  - paragraph:
+    - text: By clicking Analyze Plant, you agree to our
+    - link "Terms of Service":
+      - /url: /terms
+    - text: and acknowledge our
+    - link "Privacy Policy":
+      - /url: /privacy
+    - text: .
+  - paragraph: Results support plant care decisions, but they cannot confirm every disease from photos alone.
+  - region "How Plant Doctor diagnosis works":
+    - heading "How Plant Doctor diagnosis works" [level=2]
+    - paragraph: Better photos and useful care context help separate lookalike symptoms before you change treatment.
+    - list:
+      - generic: "1"
+      - heading "Photograph the whole plant" [level=3]
+      - paragraph: Start with one context photo, then add close-ups of the worst symptoms, leaf undersides, stems, soil, and drainage.
+      - generic: "2"
+      - heading "Add recent care context" [level=3]
+      - paragraph: Mention watering, light, repotting, fertilizer, temperature changes, and when the symptoms started.
+      - generic: "3"
+      - heading "Compare likely causes" [level=3]
+      - paragraph: Review visible evidence, confidence-scored possibilities, treatment steps, and follow-up photos that could reduce uncertainty.
+  - heading "Photo and context checklist" [level=2]
+  - paragraph: Check each item before uploading. Missing evidence can make several causes look equally likely.
+  - checkbox "Photograph the entire plant in natural light."
+  - generic: Photograph the entire plant in natural light.
+  - checkbox "Take close-ups of the worst affected leaves, including both sides."
+  - generic: Take close-ups of the worst affected leaves, including both sides.
+  - checkbox "Capture stems, soil surface, pot drainage, and any visible pests."
+  - generic: Capture stems, soil surface, pot drainage, and any visible pests.
+  - checkbox "Note recent watering, repotting, fertilizer, light changes, and temperature stress."
+  - generic: Note recent watering, repotting, fertilizer, light changes, and temperature stress.
+  - heading "What this tool checks" [level=2]
+  - list:
+    - generic: Whole-plant shape and overall decline pattern.
+    - generic: "Close-up symptom texture: spots, powder, lesions, crisping, webbing, or residue."
+    - generic: Soil, drainage, pot size, and recent care context.
+  - heading "How to interpret it" [level=2]
+  - paragraph: If the checklist reveals missing context, take those photos before scanning. Better inputs help separate lookalikes such as bacterial leaf spots, fungal spots, pest feeding, mechanical damage, and watering stress.
+  - heading "Important note" [level=2]
+  - paragraph: Do not rely on one close-up alone. Many plant problems look similar unless the full plant and care context are visible.
+  - region "See how photo evidence changes the diagnosis":
+    - text: Example symptom patterns
+    - heading "See how photo evidence changes the diagnosis" [level=2]
+    - paragraph: These educational examples show what the tool compares. They are not user diagnoses, and a photograph alone cannot confirm every disease or root problem.
+    - article:
+      - img "Monstera with yellow lower leaves ready for an online plant health diagnosis"
+      - heading "Yellow lower leaves on a Monstera" [level=3]
+      - paragraph: Yellowing low on the plant can fit normal leaf aging, watering stress, root trouble, or pests. One photo rarely separates them.
+      - heading "Evidence to compare" [level=4]
+      - list:
+        - text: Which leaves yellowed first
+        - text: Whether the soil stays wet
+        - text: Leaf underside and stem-joint clues
+      - paragraph: "Useful next photo: Upload the full plant, the yellow leaves, the soil surface, and a leaf underside before changing the watering routine."
+      - link "Compare Monstera yellow leaf causes":
+        - /url: /guides/monstera-yellow-leaves-root-rot-watering-stress-thrips
+        - text: Compare Monstera yellow leaf causes
+    - article:
+      - img "Close-up inspection of a leaf for spider mite stippling and fine webbing"
+      - heading "Fine stippling and possible spider mites" [level=3]
+      - paragraph: Tiny pale dots, dull leaves, and fine webbing can point toward spider mites, but residue and other pests can look similar in a single image.
+      - heading "Evidence to compare" [level=4]
+      - list:
+        - text: Stippling across the leaf surface
+        - text: Fine webbing near veins or stems
+        - text: Moving specks on the leaf underside
+      - paragraph: "Useful next photo: Add a sharp underside photo and a wider photo showing how far the symptoms have spread. Isolate the plant while you investigate."
+      - link "Check the spider mite photo guide":
+        - /url: /guides/diagnose-treat-spider-mites-fiddle-leaf-fig
+        - text: Check the spider mite photo guide
+    - article:
+      - img "Monstera root ball being inspected after persistent yellow leaves and wet soil"
+      - heading "Root stress after persistent yellowing" [level=3]
+      - paragraph: Wet soil, yellow leaves, soft stems, and an unhealthy smell can raise concern about root stress. Healthy pale roots and damaged dark roots need different next steps.
+      - heading "Evidence to compare" [level=4]
+      - list:
+        - text: Soil moisture and drainage
+        - text: Root color and firmness
+        - text: Soft stems or sour-smelling soil
+      - paragraph: "Useful next photo: Photograph roots only when the visible symptoms and soil conditions justify disturbing the plant. Include the pot and drainage setup."
+      - link "Review the root rot rescue protocol":
+        - /url: /guides/rescue-root-rot-repotting-protocol
+        - text: Review the root rot rescue protocol
+  - heading "Related resources" [level=2]
+  - link "AI Plant Diagnosis Photo Guide":
+    - /url: https://plantdoctor.app/guides/ai-plant-diagnosis-photo-guide
+  - link "Plant Doctor Mobile App Diagnosis":
+    - /url: /diagnose-sick-plant-from-photo
+  - link "AI Diagnosis Safety":
+    - /url: /ai-safety
+  - region "Online plant diagnosis questions":
+    - heading "Online plant diagnosis questions" [level=2]
+    - paragraph: What to upload, what the results mean, and when to get another opinion.
+    - generic "How do I diagnose plant problems with pictures?":
+      - text: How do I diagnose plant problems with pictures?
+      - generic: +
+    - generic "Is the online plant diagnosis free?":
+      - text: Is the online plant diagnosis free?
+      - generic: +
+    - generic "Can the tool identify pests and watering problems?":
+      - text: Can the tool identify pests and watering problems?
+      - generic: +
+    - generic "What photos give the best diagnosis?":
+      - text: What photos give the best diagnosis?
+      - generic: +
+    - generic "How should I interpret confidence scores?":
+      - text: How should I interpret confidence scores?
+      - generic: +
+    - generic "When should I ask a plant expert?":
+      - text: When should I ask a plant expert?
+      - generic: +
+  - heading "Use the result as decision support" [level=2]
+  - paragraph: Plant symptoms overlap. Review alternatives, start with lower-risk steps, and seek expert help for valuable, edible, or quickly declining plants.
+  - region "Ready to check your plant?":
+    - heading "Ready to check your plant?" [level=2]
+    - paragraph: Install the Plant Doctor app to get a photo diagnosis and decide what to inspect next.
+    - link "Get Plant Doctor app":
+      - /url: "#plant-analysis"
+      - text: Get Plant Doctor app
+  - link "App Store":
+    - /url: https://apps.apple.com/us/app/plant-doctor-ai-identifier/id6748545235?pt=127966997&ct=website_tool_plant-di_f80be394
+    - text: App Store
+  - link "Google Play":
+    - /url: https://play.google.com/store/apps/details?id=ai.moruk.plantdoctor&referrer=utm_source%3Dplantdoctor.app%26utm_medium%3Downed_web%26utm_campaign%3Dwebsite_tool_plant-disease-photo-check%26utm_content%3Dwebsite_tool_detail_plant-disease-photo-check
+    - text: Google Play
+  - link "Read Safety Guidance":
+    - /url: /ai-safety
+    - text: Read Safety Guidance
+- contentinfo:
+  - generic: Plant Doctor
+  - paragraph: The first AI plant diagnostician designed for differential diagnosis and actionable treatment plans. Built with empathy for anxious plant parents.
+  - paragraph: Download Plant Doctor
+  - link "Download Plant Doctor on the App Store":
+    - /url: https://apps.apple.com/us/app/plant-doctor-ai-identifier/id6748545235?pt=127966997&ct=website_footer
+  - link "Get Plant Doctor on Google Play":
+    - /url: https://play.google.com/store/apps/details?id=ai.moruk.plantdoctor&referrer=utm_source%3Dplantdoctor.app%26utm_medium%3Downed_web%26utm_campaign%3Dwebsite_footer%26utm_content%3Dwebsite_footer
+  - heading "Product" [level=2]
+  - link "How It Works":
+    - /url: /#how-it-works
+  - link "Guides":
+    - /url: /guides
+  - link "Tools":
+    - /url: /tools
+  - link "Disease Identifier":
+    - /url: /plant-disease-identifier-app
+  - link "Photo Diagnosis":
+    - /url: /diagnose-sick-plant-from-photo
+  - link "Pest Identifier":
+    - /url: /plant-pest-identifier-app
+  - link "Trust Center":
+    - /url: /trust
+  - link "Methodology":
+    - /url: /methodology
+  - link "Changelog":
+    - /url: /changelog
+  - link "Community":
+    - /url: /community
+  - link "Care Plans":
+    - /url: /care-plan
+  - link "About":
+    - /url: /about
+  - link "FAQ":
+    - /url: /#faq
+  - link "Support":
+    - /url: /support
+  - link "Contact":
+    - /url: /contact
+  - heading "Legal" [level=2]
+  - link "Privacy Policy":
+    - /url: /privacy
+  - link "Terms of Service":
+    - /url: /terms
+  - link "App EULA":
+    - /url: /eula
+  - link "Apple Standard EULA":
+    - /url: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+  - link "Cookie Policy":
+    - /url: /cookies
+  - button "Cookie settings"
+  - link "GDPR Rights":
+    - /url: /gdpr
+  - link "CCPA Rights":
+    - /url: /ccpa
+  - link "AI Safety":
+    - /url: /ai-safety
+  - link "Editorial Policy":
+    - /url: /editorial-policy
+  - link "A Moruk LLC product":
+    - /url: https://moruk.co
+  - navigation "More Moruk products":
+    - link "Bird Identifier":
+      - /url: https://birdlens.app
+    - link "Coin Identifier":
+      - /url: https://coinlens.app
+    - link "Stone Identifier":
+      - /url: https://stonelens.app
+    - link "Rizzman":
+      - /url: https://rizzman.ai
+  - generic: © 2026 Plant Doctor. Built with care for your plants' wellbeing.
+  - generic: Made with
+  - generic: for plant parents everywhere
+- complementary "Analytics cookie choices":
+  - paragraph:
+    - text: Using Plant Doctor accepts essential request logging. Optional analytics and full session recordings help improve Plant Doctor. See our
+    - link "Cookie Policy":
+      - /url: /cookies
+    - text: .
+  - button "Reject optionals"
+  - button "Accept all"

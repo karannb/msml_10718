@@ -1,0 +1,151 @@
+{
+  "reference_action": "Peace lily drought after three-week absence, already soaked and dead leaves trimmed six hours before question. Follow-up says improving with nearby humidifier. Confirmed next-step bundle is allow recovery after soak plus humidifier; not new root surgery or hydroponic conversion.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Removes all soil and converts to water with aloe before waiting. That is not let an already-soaked plant recover or add humidifier.",
+      "evidence": [
+        "video-audit-VHLRttcKOLc-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=VHLRttcKOLc"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Patience comes after full substrate replacement and root cleanup; no recommendation to wait without that new intervention or increase humidity.",
+      "evidence": [
+        "065-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=duxN8oHIw8A"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Rot surgery, smaller-pot repot and mycorrhiza, followed by brighter light; no matching drought recovery/humidifier recommendation.",
+      "evidence": [
+        "video-audit-3IcFLwiByJY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=3IcFLwiByJY"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Short opens but no transcript/action text accessible.",
+      "evidence": [
+        "112-source-04.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/NCBeH0JnjM8"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Main expert answer explicitly wait before drastic action and leave merely drooping leaves to straighten; later replies reinforce leave-alone recovery. Waiting portion matches, humidifier absent.",
+      "evidence": [
+        "112-source-05.txt"
+      ],
+      "url": "https://www.flowershopnetwork.com/blog/sad-peace-lily/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Unpot and inspect moisture and roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak and wash all soil from roots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove dead leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place bare-root plant in half-filled filtered-water container",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add aloe vera gel to water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      },
+      {
+        "action": "Monitor recovery over following days",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Recognizes drought/hydrophobic medium but prescribes unneeded water conversion and aloe instead of recovery time/humidity after existing soak; disturbance risk present without evidence of likely major worsening."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The source checks whether soil is dry before proceeding, which avoids blind repeat watering. Washing all roots and adding unspecified “aloe vera gel” introduce avoidable disturbance and uncertainty for an already-soaked plant."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Hydrophobic soil explains the creator’s repeated drooping, but the evaluated plant has a clear three-week dry history and only six hours since treatment. The water-conversion rescue does not address waiting for that soak or the dry winter air."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Unpotting, washing and placing roots in a container are demonstrated. The aloe quantity and long-term water-management details are missing, and complete soil removal adds a substantial task beyond ordinary watering."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 112,
+  "thread_id": "zflzsi",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 112,
+    "thread_id": "zflzsi",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=VHLRttcKOLc",
+    "spans": [
+      {
+        "file": "video-audit-VHLRttcKOLc-transcript.txt",
+        "start_line": 6,
+        "end_line": 44,
+        "sha256": "aea076770de99ac733047e091a4cf6829e12182d018cf807712e0a2b9d4b92ec",
+        "text": "[0:00] I bought this piece Lily from Nursery two days ago it was fine the day I took\n[0:04] it home next day it started wilting and I watered it and the leaves pered up\n[0:09] after I watered and they were nice and green but today once again it started\n[0:13] drooping seems like if I don't do anything it might die really soon so I\n[0:17] decided to check the roots and see if I can find the cause and save this plant\n[0:22] if you look at the leaves they don't feel that soft like when a plant is\n[0:26] overwatered and the leaf that is turning yellow and brown is also kind of crisp\n[0:32] doesn't feel mushy or soft and if we look at the soil it looks dry from the\n[0:37] top PES often die from too much water their Roots rot if we pour more water\n[0:42] than they need and that's the reason I don't want to water this plant again if\n[0:47] it's already having too much water adding more water is going to kill the\n[0:51] plant maybe the soil is still soggy at the bottom or if it wants more water why\n[0:57] did it fail to recover when I watered it let's take this plant out of the pot and\n[1:02] see what's going on by tapping the sides of the pot and loosening the soil I'm\n[1:07] going to take this out but this feels really hard soil feels so dry and it's\n[1:12] compacted and it's hard to even take it out from the pot carefully with patience\n[1:18] I'm going to remove soil from the sides and take this out so it's out of the pot\n[1:24] finally and soil looks super hard it feels like it become hydrophobic\n[1:30] hydrophobic soil is soil that repels water instead of absorbing it water\n[1:35] tends to run off the surface rather than penetrating into the soil which can make\n[1:40] it hard for plants to get the moisture they need and this is what happened with\n[1:45] this one when I watered it it didn't soak the water properly I'm going to\n[1:49] remove all the soil from its roots by soaking the soil into the water because\n[1:53] it's hard and washing all the soil from The Roots so after cleaning the roots\n[1:58] this is what we have now there is a dead leaf I will remove it from the bottom\n[2:03] and I'm going to keep this plant into the water as we know peace leaves can\n[2:07] grow into the water into a container half filled with filtered water I will\n[2:13] place the plant into it and after that I will add some aloe vera gel into the\n[2:19] water it helps to heal the wounds and supports root growth I often use it when\n[2:23] I propagate cuting and it works now I will wait for the plant to se some\n[2:28] recovery signs let's see what happens after a few hours so after 3 hours this\n[2:33] is how the plant is looking and I'm happy to see that leaves are holding\n[2:39] back their shape again looks like it's trying to get back I will monitor the\n[2:45] progress let's see what happens next so this is the day three of saving the\n[2:50] plant and as you can see the bottom leaves are turning brown so I removed\n[2:55] them all the other leaves looking fine and this is today on the day five\n[3:00] it looks good now I'm pretty sure now this plant has survived it looks good\n[3:06] leaves are nice and firm and green I will keep that in water until I feel\n[3:11] it's completely fine so that's it I hope you learned something from this video"
+      }
+    ],
+    "advice": "[0:00] I bought this piece Lily from Nursery two days ago it was fine the day I took\n[0:04] it home next day it started wilting and I watered it and the leaves pered up\n[0:09] after I watered and they were nice and green but today once again it started\n[0:13] drooping seems like if I don't do anything it might die really soon so I\n[0:17] decided to check the roots and see if I can find the cause and save this plant\n[0:22] if you look at the leaves they don't feel that soft like when a plant is\n[0:26] overwatered and the leaf that is turning yellow and brown is also kind of crisp\n[0:32] doesn't feel mushy or soft and if we look at the soil it looks dry from the\n[0:37] top PES often die from too much water their Roots rot if we pour more water\n[0:42] than they need and that's the reason I don't want to water this plant again if\n[0:47] it's already having too much water adding more water is going to kill the\n[0:51] plant maybe the soil is still soggy at the bottom or if it wants more water why\n[0:57] did it fail to recover when I watered it let's take this plant out of the pot and\n[1:02] see what's going on by tapping the sides of the pot and loosening the soil I'm\n[1:07] going to take this out but this feels really hard soil feels so dry and it's\n[1:12] compacted and it's hard to even take it out from the pot carefully with patience\n[1:18] I'm going to remove soil from the sides and take this out so it's out of the pot\n[1:24] finally and soil looks super hard it feels like it become hydrophobic\n[1:30] hydrophobic soil is soil that repels water instead of absorbing it water\n[1:35] tends to run off the surface rather than penetrating into the soil which can make\n[1:40] it hard for plants to get the moisture they need and this is what happened with\n[1:45] this one when I watered it it didn't soak the water properly I'm going to\n[1:49] remove all the soil from its roots by soaking the soil into the water because\n[1:53] it's hard and washing all the soil from The Roots so after cleaning the roots\n[1:58] this is what we have now there is a dead leaf I will remove it from the bottom\n[2:03] and I'm going to keep this plant into the water as we know peace leaves can\n[2:07] grow into the water into a container half filled with filtered water I will\n[2:13] place the plant into it and after that I will add some aloe vera gel into the\n[2:19] water it helps to heal the wounds and supports root growth I often use it when\n[2:23] I propagate cuting and it works now I will wait for the plant to se some\n[2:28] recovery signs let's see what happens after a few hours so after 3 hours this\n[2:33] is how the plant is looking and I'm happy to see that leaves are holding\n[2:39] back their shape again looks like it's trying to get back I will monitor the\n[2:45] progress let's see what happens next so this is the day three of saving the\n[2:50] plant and as you can see the bottom leaves are turning brown so I removed\n[2:55] them all the other leaves looking fine and this is today on the day five\n[3:00] it looks good now I'm pretty sure now this plant has survived it looks good\n[3:06] leaves are nice and firm and green I will keep that in water until I feel\n[3:11] it's completely fine so that's it I hope you learned something from this video",
+    "reason": "First result provides wilting peace lily recovery; retain complete hydrophobic-soil, washing and water-conversion regimen.",
+    "frozen_at": "2026-10-29T05:29:59.127490+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:31:03.317783+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "reference_action": "Insufficient light caused stretching and loss of purple/pink color; farina is normal. Return to window plus overhead grow light, avoid touching/spraying farina. OP reports pink-purple returning with more light.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Self-contained article focuses on watering/rot and only links to a separate stretching article; no actual light-increase instruction in captured page.",
+      "evidence": [
+        "042-source-01.txt"
+      ],
+      "url": "https://www.succulentsandsunshine.com/help-my-succulent-is-dying/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "unresolved",
+      "reason": "Site returned a block page with no article content.",
+      "evidence": [
+        "042-source-02.txt"
+      ],
+      "url": "https://mcdonaldgardencenter.com/reviving-a-struggling-succulent-signs-solutions-and-secrets-to-success/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Mentions one plant needs more light but explicitly proceeds with chop-and-prop despite inability to provide it; no corrective increase is executed or clearly instructed.",
+      "evidence": [
+        "video-audit-F976ZBqrqmM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=F976ZBqrqmM"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicitly moves rescued echeveria into dappled light then gradually full sun, overlapping validated increased exposure. Extensive chopping/washing are extra and can damage farina.",
+      "evidence": [
+        "video-audit-20TZKyQllLg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=20TZKyQllLg"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Says stretching means not enough light and prescribes plenty of light, brightest window or grow light; description connects stronger light with leaf color.",
+      "evidence": [
+        "video-audit-fBzzVjd8GgU.txt",
+        "video-audit-fBzzVjd8GgU-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=fBzzVjd8GgU"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Record watering dates",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect leaf and stem texture/color",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove easily detached dead lower leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase watering if most leaves are dry/crispy",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil dryness and reduce watering if soggy",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Switch to better soil and draining pot if overwatered",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Cut off top and trim black rot if present",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Dry cutting for three to five days",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false,
+        "elapsed_minutes_original_estimate": 4320,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "action": "Plant cutting in fresh soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Uproot rotting plant from shared arrangement",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak soil thoroughly for dehydration",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Try water therapy for dehydration",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true,
+        "elapsed_minutes_original_estimate": 30,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ],
+    "reason": "Watering/rot framework omits light and normal farina, so it does not fix the confirmed problem. Invasive steps are conditioned on signs such as black rot, preventing a clear harmful recommendation for this case."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Only pull off” easily detached dead leaves and restrict surgery to black or mushy tissue are useful safeguards. The article does not explain farina, but it does not prescribe spraying or treating it as fungus."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The page frames the problem as “over or under watered” and supplies no self-contained light remedy. It does not explain green color, stretching, or normal protective farina from this question."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Watering logs and checking for mushy tissue are understandable. Several alternative rescue procedures and “water therapy” behind a link require more interpretation and time than a focused lighting adjustment."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 42,
+  "thread_id": "1ct2vhg",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 42,
+    "thread_id": "1ct2vhg",
+    "selected_rank": 1,
+    "source_url": "https://www.succulentsandsunshine.com/help-my-succulent-is-dying/",
+    "spans": [
+      {
+        "file": "042-source-01.txt",
+        "start_line": 85,
+        "end_line": 278,
+        "sha256": "913b0cdabbe6ddb374096bc0bde6d9001280626359d33280a2eca5e594d1d8d8",
+        "text": "    - heading \"Keep track of watering…\" [level=2]\n    - paragraph: Almost always when someone tells me their succulent is struggling I ask when they watered last.\n    - text: ···\n    - iframe [id=\"goog_1141791319\"]:\n      - button:\n      - button:\n      - iframe\n    - button \"Unmute ad\":\n      - img \"Unmute Ad\"\n    - iframe [id=\"google_ads_iframe_/1030006,22434726644/succulentsandsunshine/content_1\"] [name=\"google_ads_iframe_/1030006,22434726644/succulentsandsunshine/content_1\"]:\n      - button:\n    - img \"Ad Info\"\n    - paragraph: Usually they don't know the answer!\n    - generic: My Latest Videos\n    - iframe [id=\"goog_34957260\"]\n    - button \"Unmute ad\":\n      - img \"Unmute Ad\"\n    - button \"Pause ad\"\n    - generic: Advertisement\n    - progressbar \"Ad progress\"\n    - paragraph: I totally get it. Keeping track of watering can be a pain. But it will absolutely help you keep your succulents alive longer.\n    - paragraph:\n      - text: While you can use anything to record your watering dates (pen and paper, spreadsheet, notes on your phone) I have found that using the\n      - link \"Cheerful Plants app\":\n        - /url: https://cheerfulplants.onelink.me/r6RL/dying\n      - text: (available on iOS and Android) has been the easiest way for me to track my group of succulents, now numbering over 300!\n    - paragraph: Inside the app you can record all kinds of things about your succulents — names, watering, repotting, treating for bugs, photos, etc.\n    - figure:\n      - img \"plant details\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n    - paragraph:\n      - text: I highly recommend downloading the\n      - link \"Cheerful Plants app\":\n        - /url: https://cheerfulplants.onelink.me/r6RL/dying\n      - text: (available on iOS and Android) and recording each time you water. And if not on the app, record it another way so you have helpful information so you can better diagnose what's happening with your succulents.\n    - generic: ···\n    - paragraph: And now… let's get to the diagnosing!\n    - heading \"Dried out, dying leaves\" [level=2]\n    - paragraph: First of all, it's important to keep in mind that dying leaves are a natural part of every plant's life — and succulents are no exception. This doesn't always mean that your succulent is dying, or that you're doing anything wrong.\n    - paragraph: If the bottom leaves of your succulent are dried up, it is likely still healthy, but may need to be watered a tiny bit more frequently.\n    - paragraph: However, as your plant grows, it creates new leaves, while the older ones die. So, if you're seeing a few dry, crispy leaves at the bottom of the plant–and only at the bottom– there's no need to worry. This is totally normal!\n    - paragraph: On the other hand, if most of your succulents leaves are drying up, take that as a sign it wants to be watered a little more often.\n    - paragraph: If the dry leaves start to get unsightly, just gently pull them away from the base of the plant and throw them away. When you remove the leaves, keep your plant potted so you don't disturb the roots.\n    - generic: ···\n    - paragraph: Only pull off the leaves that come off easily, or are totally dead. Here, I pulled the plant out of the pot to better show you what dead leaves on a healthy plant look like.\n    - figure \"Echeveria imbricata\":\n      - img \"echeveria imbricata dried out leaves no roots under watered\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Echeveria imbricata\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/echeveria-imbricata-blue-rose/\n    - heading \"Over-watering\" [level=2]\n    - paragraph:\n      - text: While dead leaves at the bottom of your succulent are perfectly healthy, dead leaves on the upper parts of new growth are a sign of a problem–usually over- or under-watering.\n      - link \"Soil\":\n        - /url: https://www.succulentsandsunshine.com/well-draining-soil-for-succulent-container-gardens/\n      - text: can also cause problems for succulents, as I explain in this article.\n    - generic: ···\n    - paragraph: If your plant's leaves are starting to look yellow and transparent, and feel soggy or mushy to the touch, it's likely suffered from overwatering.\n    - figure \"Echeveria secunda\":\n      - img \"severely over watered echeveria yellow translucent leaves dying\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Echeveria secunda\":\n        - /url: https://mountaincrestgardens.com/echeveria-secunda/?aff=2&subid=dying\n    - paragraph: An early sign of over-watering is that leaves will start to fall off with just a slight bump. If you start to notice your succulent has a black stem or mush spots on the stem or leaves, the over-watering is getting severe, and it may be difficult to save your succulent.\n    - generic: ···\n    - paragraph:\n      - text: Here's a\n      - link \"Donkey's Tail\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/sedum-morganianum-burrito/\n      - text: succulent, in which the middle plant has been severely over-watered, and has completely rotted as a result. You can see the black stems and mushy leaves in the center.\n    - figure \"Sedum morganianum\":\n      - img \"over watered rotting sedum morganianum black stem mushy dying\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Sedum morganianum\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/sedum-morganianum-burrito/\n    - paragraph:\n      - text: Some succulents are more sensitive to over-watering than others.\n      - link \"Echeverias\":\n        - /url: https://www.succulentsandsunshine.com/succulent-genus/echeveria/\n      - text: seem to be one of the most sensitive. After just two or three days with too much water, these beautiful rosettes will be on a fast track to rot.\n    - generic: ···\n    - paragraph: \"See how I diagnose what's wrong with my succulents in this video:\"\n    - figure:\n      - iframe:\n        - link \"▶\":\n          - /url: https://www.youtube.com/embed/Wjc0kQne7p8?autoplay=1\n          - generic: ▶\n    - heading \"How to save an over-watered succulent with a black stem\" [level=2]\n    - paragraph:\n      - text: The best way to avoid over-watering is to make sure your soil is completely dried out before watering again. As I've said in a lot of my\n      - link \"other articles\":\n        - /url: https://www.succulentsandsunshine.com/blog/\n      - text: \", most succulents can easily go three days (and sometimes even a week or more) without water–so\"\n      - strong: when it doubt, wait before watering.\n    - generic: ···\n    - paragraph:\n      - text: As soon as you notice the symptoms of over-watering on one of your plants, start by cutting back on your watering schedule. You may also need to switch to a better\n      - link \"soil mixture\":\n        - /url: https://www.succulentsandsunshine.com/well-draining-soil-for-succulent-container-gardens/\n      - text: and be sure you're using a pot with a drainage hole.\n    - paragraph:\n      - text: If your succulent has a black stem or black spots, you'll need to do a little surgery to save your plant. This is much easier than it sounds! Just cut off the top of your plant, trim away any black spots, give the cutting three to five days to dry out, then\n      - link \"propagate\":\n        - /url: https://www.succulentsandsunshine.com/how-to-propagate-succulents-from-leaves-and-cuttings/\n      - text: it in new soil.\n    - paragraph: On the cuttings below, you can see how I cut off every part of the stem that was soggy or blackened.\n    - figure \"Sedum morganianum\":\n      - img \"cuttings overwatered sedum morganianum burrito dying\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Sedum morganianum\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/sedum-morganianum-burrito/\n    - paragraph: While it's unlikely that the original plant will survive, it's worth waiting to see! Leave the bottom section as-is, and don't water it until the soil is dry (all the way to the bottom of the pot). If you're lucky, a few days of drying-out time will allow the plant to recover from the over-watering, and it may start to put off new growth.\n    - generic: ···\n    - paragraph: If the rotting succulent was in an arrangement with other succulents, you don't want to risk problems to the other succulents. In this case, I recommend uprooting and removing the rotting succulent.\n    - heading \"Under-watering\" [level=2]\n    - paragraph:\n      - text: While over-watering succulents is the most common problem, many succulents are also sensitive to under-watering. I've found that\n      - link \"Portulacaria afra\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/portulacaria-afra-elephant-bush/\n      - text: and\n      - link \"Senecio haworthii\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/senecio-haworthii-cocoon-plant/\n      - text: like to be watered more frequently than other succulents.\n    - paragraph:\n      - text: If your plant's upper leaves are starting to wrinkle and get dry and crispy, then it's probably time to give your succulents a little more water. Take a look at this\n      - link \"Mesembryanthemum lehmanni\":\n        - /url: https://click.linksynergy.com/deeplink?id=FJK7v3xd86Y&mid=54027&murl=https%3A%2F%2Fwww.etsy.com%2Flisting%2F230662582%2F4-succulent-mesembrianthemum-lehmanni%3Fref%3Dshop_home_active_18&u1=dying_mesem\n      - text: \", which was actually never watered.\"\n    - paragraph:\n      - text: I planted it in this cute\n      - link \"concrete planter\":\n        - /url: https://click.linksynergy.com/deeplink?id=FJK7v3xd86Y&mid=54027&murl=https%3A%2F%2Fwww.etsy.com%2Flisting%2F216488005%2Fconcrete-geometric-original-mini-cube%3Fref%3Dshop_home_active_6&u1=dying_concrete\n      - text: \", which didn't have a drainage hole, so I didn't water when I first planted it–and then completely forgot about it!\"\n    - figure \"Corpuscularia lehmannii \\\"Ice Plant\\\" // Click here to buy concrete planter from Concrete Magnetic Mesembryanthemum lehmanni\":\n      - img \"corpuscularia mesembryanthemum lehmannii very under watered dying concrete pot\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Corpuscularia lehmannii \\\"Ice Plant\\\"\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/corpuscularia-lehmannii-ice-plant\n      - text: // Click here to buy concrete planter from\n      - link \"Concrete Magnetic\":\n        - /url: https://click.linksynergy.com/deeplink?id=FJK7v3xd86Y&mid=54027&murl=https%3A%2F%2Fwww.etsy.com%2Fshop%2Fconcretegeometric&u1=dying_concretemagnetic\n      - link \"Mesembryanthemum lehmanni\":\n        - /url: https://click.linksynergy.com/deeplink?id=FJK7v3xd86Y&mid=54027&murl=https%3A%2F%2Fwww.etsy.com%2Flisting%2F230662582%2F4-succulent-mesembrianthemum-lehmanni%3Fref%3Dshop_home_active_18&u1=dying_mesem\n    - paragraph: With a little more frequent watering, this succulent will look good as new in a week or two.\n    - generic: ···\n    - heading \"How to save an under-watered succulent\" [level=2]\n    - paragraph: For the most part, it's much easier to revive an under-watered succulent than an over-watered one. If yours are just starting to wrinkle, they'll probably perk up pretty quickly after one or two watering cycles. However, if they've almost completely shriveled up, I'm sorry to tell you that they're probably too far gone to recover.\n    - paragraph:\n      - text: To help them recover best from under watering, make sure you soak the soil really well when you water. Make sure you check out my post on\n      - link \"how to water succulents\":\n        - /url: https://www.succulentsandsunshine.com/how-to-water-succulent-plants/\n      - text: to do this the right way.\n    - paragraph:\n      - text: If you're feeling adventurous, and maybe a bit desperate, you can also try\n      - link \"water therapy\":\n        - /url: https://www.succulentsandsunshine.com/water-therapy-for-succulents/\n      - text: . This is ONLY for under watered succulents though.\n    - paragraph:\n      - text: And don't forget to\n      - link \"download the free cheat sheet\":\n        - /url: \"#cb7b27d9f8\"\n      - text: \",\"\n      - emphasis: Five Things Your Succulent Is Telling You\n      - text: . It covers five common things you might notice about your succulents and what they actually mean.\n    - paragraph: I hope that by understanding these signs and symptoms of watering problems, you'll be able to save your succulent before it's too late.\n    - generic: ···\n    - heading \"Other problems\" [level=2]\n    - paragraph:\n      - text: \"While over or under watering tends to be the most common problem new succulent growers face, there are a few more issues you may run into. These may include:\"\n      - link \"stretching out\":\n        - /url: https://www.succulentsandsunshine.com/stretched-out-succulents/\n      - text: \",\"\n      - link \"bug infestations\":\n        - /url: https://www.succulentsandsunshine.com/kill-mealybugs-on-succulents/\n      - text: \", internal infections, and more.\"\n    - paragraph: I get asked this question a lot – why are the bottom leaves of my succulent dying? This video will help you understand what is normal for succulents, and what is not.\n    - figure:\n      - iframe:\n        - link \"▶\":\n          - /url: https://www.youtube.com/embed/Wjc0kQne7p8?autoplay=1\n          - generic: ▶\n    - paragraph:\n      - text: You can also look at my page with\n      - link \"common succulent problems\":\n        - /url: https://www.succulentsandsunshine.com/category/common-problems/\n      - text: to continue self-diagnosing your succulent. Just make sure you get a diagnosis as soon as possible so you have a better chance of helping your succulent recover.\n    - generic: ···\n    - paragraph: As you pay close attention to your succulents you'll be able to see early signs of problems which will make it much easier to save your succulent before things get too out of hand."
+      }
+    ],
+    "advice": "    - heading \"Keep track of watering…\" [level=2]\n    - paragraph: Almost always when someone tells me their succulent is struggling I ask when they watered last.\n    - text: ···\n    - iframe [id=\"goog_1141791319\"]:\n      - button:\n      - button:\n      - iframe\n    - button \"Unmute ad\":\n      - img \"Unmute Ad\"\n    - iframe [id=\"google_ads_iframe_/1030006,22434726644/succulentsandsunshine/content_1\"] [name=\"google_ads_iframe_/1030006,22434726644/succulentsandsunshine/content_1\"]:\n      - button:\n    - img \"Ad Info\"\n    - paragraph: Usually they don't know the answer!\n    - generic: My Latest Videos\n    - iframe [id=\"goog_34957260\"]\n    - button \"Unmute ad\":\n      - img \"Unmute Ad\"\n    - button \"Pause ad\"\n    - generic: Advertisement\n    - progressbar \"Ad progress\"\n    - paragraph: I totally get it. Keeping track of watering can be a pain. But it will absolutely help you keep your succulents alive longer.\n    - paragraph:\n      - text: While you can use anything to record your watering dates (pen and paper, spreadsheet, notes on your phone) I have found that using the\n      - link \"Cheerful Plants app\":\n        - /url: https://cheerfulplants.onelink.me/r6RL/dying\n      - text: (available on iOS and Android) has been the easiest way for me to track my group of succulents, now numbering over 300!\n    - paragraph: Inside the app you can record all kinds of things about your succulents — names, watering, repotting, treating for bugs, photos, etc.\n    - figure:\n      - img \"plant details\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n    - paragraph:\n      - text: I highly recommend downloading the\n      - link \"Cheerful Plants app\":\n        - /url: https://cheerfulplants.onelink.me/r6RL/dying\n      - text: (available on iOS and Android) and recording each time you water. And if not on the app, record it another way so you have helpful information so you can better diagnose what's happening with your succulents.\n    - generic: ···\n    - paragraph: And now… let's get to the diagnosing!\n    - heading \"Dried out, dying leaves\" [level=2]\n    - paragraph: First of all, it's important to keep in mind that dying leaves are a natural part of every plant's life — and succulents are no exception. This doesn't always mean that your succulent is dying, or that you're doing anything wrong.\n    - paragraph: If the bottom leaves of your succulent are dried up, it is likely still healthy, but may need to be watered a tiny bit more frequently.\n    - paragraph: However, as your plant grows, it creates new leaves, while the older ones die. So, if you're seeing a few dry, crispy leaves at the bottom of the plant–and only at the bottom– there's no need to worry. This is totally normal!\n    - paragraph: On the other hand, if most of your succulents leaves are drying up, take that as a sign it wants to be watered a little more often.\n    - paragraph: If the dry leaves start to get unsightly, just gently pull them away from the base of the plant and throw them away. When you remove the leaves, keep your plant potted so you don't disturb the roots.\n    - generic: ···\n    - paragraph: Only pull off the leaves that come off easily, or are totally dead. Here, I pulled the plant out of the pot to better show you what dead leaves on a healthy plant look like.\n    - figure \"Echeveria imbricata\":\n      - img \"echeveria imbricata dried out leaves no roots under watered\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Echeveria imbricata\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/echeveria-imbricata-blue-rose/\n    - heading \"Over-watering\" [level=2]\n    - paragraph:\n      - text: While dead leaves at the bottom of your succulent are perfectly healthy, dead leaves on the upper parts of new growth are a sign of a problem–usually over- or under-watering.\n      - link \"Soil\":\n        - /url: https://www.succulentsandsunshine.com/well-draining-soil-for-succulent-container-gardens/\n      - text: can also cause problems for succulents, as I explain in this article.\n    - generic: ···\n    - paragraph: If your plant's leaves are starting to look yellow and transparent, and feel soggy or mushy to the touch, it's likely suffered from overwatering.\n    - figure \"Echeveria secunda\":\n      - img \"severely over watered echeveria yellow translucent leaves dying\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Echeveria secunda\":\n        - /url: https://mountaincrestgardens.com/echeveria-secunda/?aff=2&subid=dying\n    - paragraph: An early sign of over-watering is that leaves will start to fall off with just a slight bump. If you start to notice your succulent has a black stem or mush spots on the stem or leaves, the over-watering is getting severe, and it may be difficult to save your succulent.\n    - generic: ···\n    - paragraph:\n      - text: Here's a\n      - link \"Donkey's Tail\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/sedum-morganianum-burrito/\n      - text: succulent, in which the middle plant has been severely over-watered, and has completely rotted as a result. You can see the black stems and mushy leaves in the center.\n    - figure \"Sedum morganianum\":\n      - img \"over watered rotting sedum morganianum black stem mushy dying\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Sedum morganianum\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/sedum-morganianum-burrito/\n    - paragraph:\n      - text: Some succulents are more sensitive to over-watering than others.\n      - link \"Echeverias\":\n        - /url: https://www.succulentsandsunshine.com/succulent-genus/echeveria/\n      - text: seem to be one of the most sensitive. After just two or three days with too much water, these beautiful rosettes will be on a fast track to rot.\n    - generic: ···\n    - paragraph: \"See how I diagnose what's wrong with my succulents in this video:\"\n    - figure:\n      - iframe:\n        - link \"▶\":\n          - /url: https://www.youtube.com/embed/Wjc0kQne7p8?autoplay=1\n          - generic: ▶\n    - heading \"How to save an over-watered succulent with a black stem\" [level=2]\n    - paragraph:\n      - text: The best way to avoid over-watering is to make sure your soil is completely dried out before watering again. As I've said in a lot of my\n      - link \"other articles\":\n        - /url: https://www.succulentsandsunshine.com/blog/\n      - text: \", most succulents can easily go three days (and sometimes even a week or more) without water–so\"\n      - strong: when it doubt, wait before watering.\n    - generic: ···\n    - paragraph:\n      - text: As soon as you notice the symptoms of over-watering on one of your plants, start by cutting back on your watering schedule. You may also need to switch to a better\n      - link \"soil mixture\":\n        - /url: https://www.succulentsandsunshine.com/well-draining-soil-for-succulent-container-gardens/\n      - text: and be sure you're using a pot with a drainage hole.\n    - paragraph:\n      - text: If your succulent has a black stem or black spots, you'll need to do a little surgery to save your plant. This is much easier than it sounds! Just cut off the top of your plant, trim away any black spots, give the cutting three to five days to dry out, then\n      - link \"propagate\":\n        - /url: https://www.succulentsandsunshine.com/how-to-propagate-succulents-from-leaves-and-cuttings/\n      - text: it in new soil.\n    - paragraph: On the cuttings below, you can see how I cut off every part of the stem that was soggy or blackened.\n    - figure \"Sedum morganianum\":\n      - img \"cuttings overwatered sedum morganianum burrito dying\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Sedum morganianum\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/sedum-morganianum-burrito/\n    - paragraph: While it's unlikely that the original plant will survive, it's worth waiting to see! Leave the bottom section as-is, and don't water it until the soil is dry (all the way to the bottom of the pot). If you're lucky, a few days of drying-out time will allow the plant to recover from the over-watering, and it may start to put off new growth.\n    - generic: ···\n    - paragraph: If the rotting succulent was in an arrangement with other succulents, you don't want to risk problems to the other succulents. In this case, I recommend uprooting and removing the rotting succulent.\n    - heading \"Under-watering\" [level=2]\n    - paragraph:\n      - text: While over-watering succulents is the most common problem, many succulents are also sensitive to under-watering. I've found that\n      - link \"Portulacaria afra\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/portulacaria-afra-elephant-bush/\n      - text: and\n      - link \"Senecio haworthii\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/senecio-haworthii-cocoon-plant/\n      - text: like to be watered more frequently than other succulents.\n    - paragraph:\n      - text: If your plant's upper leaves are starting to wrinkle and get dry and crispy, then it's probably time to give your succulents a little more water. Take a look at this\n      - link \"Mesembryanthemum lehmanni\":\n        - /url: https://click.linksynergy.com/deeplink?id=FJK7v3xd86Y&mid=54027&murl=https%3A%2F%2Fwww.etsy.com%2Flisting%2F230662582%2F4-succulent-mesembrianthemum-lehmanni%3Fref%3Dshop_home_active_18&u1=dying_mesem\n      - text: \", which was actually never watered.\"\n    - paragraph:\n      - text: I planted it in this cute\n      - link \"concrete planter\":\n        - /url: https://click.linksynergy.com/deeplink?id=FJK7v3xd86Y&mid=54027&murl=https%3A%2F%2Fwww.etsy.com%2Flisting%2F216488005%2Fconcrete-geometric-original-mini-cube%3Fref%3Dshop_home_active_6&u1=dying_concrete\n      - text: \", which didn't have a drainage hole, so I didn't water when I first planted it–and then completely forgot about it!\"\n    - figure \"Corpuscularia lehmannii \\\"Ice Plant\\\" // Click here to buy concrete planter from Concrete Magnetic Mesembryanthemum lehmanni\":\n      - img \"corpuscularia mesembryanthemum lehmannii very under watered dying concrete pot\"\n      - generic \"Share on Pinterest\":\n        - text: Pin\n      - link \"Corpuscularia lehmannii \\\"Ice Plant\\\"\":\n        - /url: https://www.succulentsandsunshine.com/types-of-succulents/corpuscularia-lehmannii-ice-plant\n      - text: // Click here to buy concrete planter from\n      - link \"Concrete Magnetic\":\n        - /url: https://click.linksynergy.com/deeplink?id=FJK7v3xd86Y&mid=54027&murl=https%3A%2F%2Fwww.etsy.com%2Fshop%2Fconcretegeometric&u1=dying_concretemagnetic\n      - link \"Mesembryanthemum lehmanni\":\n        - /url: https://click.linksynergy.com/deeplink?id=FJK7v3xd86Y&mid=54027&murl=https%3A%2F%2Fwww.etsy.com%2Flisting%2F230662582%2F4-succulent-mesembrianthemum-lehmanni%3Fref%3Dshop_home_active_18&u1=dying_mesem\n    - paragraph: With a little more frequent watering, this succulent will look good as new in a week or two.\n    - generic: ···\n    - heading \"How to save an under-watered succulent\" [level=2]\n    - paragraph: For the most part, it's much easier to revive an under-watered succulent than an over-watered one. If yours are just starting to wrinkle, they'll probably perk up pretty quickly after one or two watering cycles. However, if they've almost completely shriveled up, I'm sorry to tell you that they're probably too far gone to recover.\n    - paragraph:\n      - text: To help them recover best from under watering, make sure you soak the soil really well when you water. Make sure you check out my post on\n      - link \"how to water succulents\":\n        - /url: https://www.succulentsandsunshine.com/how-to-water-succulent-plants/\n      - text: to do this the right way.\n    - paragraph:\n      - text: If you're feeling adventurous, and maybe a bit desperate, you can also try\n      - link \"water therapy\":\n        - /url: https://www.succulentsandsunshine.com/water-therapy-for-succulents/\n      - text: . This is ONLY for under watered succulents though.\n    - paragraph:\n      - text: And don't forget to\n      - link \"download the free cheat sheet\":\n        - /url: \"#cb7b27d9f8\"\n      - text: \",\"\n      - emphasis: Five Things Your Succulent Is Telling You\n      - text: . It covers five common things you might notice about your succulents and what they actually mean.\n    - paragraph: I hope that by understanding these signs and symptoms of watering problems, you'll be able to save your succulent before it's too late.\n    - generic: ···\n    - heading \"Other problems\" [level=2]\n    - paragraph:\n      - text: \"While over or under watering tends to be the most common problem new succulent growers face, there are a few more issues you may run into. These may include:\"\n      - link \"stretching out\":\n        - /url: https://www.succulentsandsunshine.com/stretched-out-succulents/\n      - text: \",\"\n      - link \"bug infestations\":\n        - /url: https://www.succulentsandsunshine.com/kill-mealybugs-on-succulents/\n      - text: \", internal infections, and more.\"\n    - paragraph: I get asked this question a lot – why are the bottom leaves of my succulent dying? This video will help you understand what is normal for succulents, and what is not.\n    - figure:\n      - iframe:\n        - link \"▶\":\n          - /url: https://www.youtube.com/embed/Wjc0kQne7p8?autoplay=1\n          - generic: ▶\n    - paragraph:\n      - text: You can also look at my page with\n      - link \"common succulent problems\":\n        - /url: https://www.succulentsandsunshine.com/category/common-problems/\n      - text: to continue self-diagnosing your succulent. Just make sure you get a diagnosis as soon as possible so you have a better chance of helping your succulent recover.\n    - generic: ···\n    - paragraph: As you pay close attention to your succulents you'll be able to see early signs of problems which will make it much easier to save your succulent before things get too out of hand.",
+    "reason": "First usable article retained self-contained diagnostic and treatment sections before target reference.",
+    "frozen_at": "2026-10-29T04:37:37.671938+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.256143+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.255237+00:00",
+    "changes": [
+      {
+        "query_index": 42,
+        "action_index": 7,
+        "field": "minutes",
+        "before": 4320,
+        "after": 3,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "query_index": 42,
+        "action_index": 11,
+        "field": "minutes",
+        "before": 30,
+        "after": 5,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ]
+  }
+}

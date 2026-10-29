@@ -1,0 +1,144 @@
+{
+  "reference_action": "Fungal leaf spots; OP reports recovery after a commercial fungicide every two weeks per label. Switching from kitchen vinegar to a plant fungicide is the validated action; pruning alone was suggested but not credited with recovery.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Continues kitchen vinegar rather than the validated commercial fungicide treatment.",
+      "evidence": [
+        "066-source-01.txt"
+      ],
+      "url": "https://www.southernliving.com/apple-cider-vinegar-in-garden-12133269"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicitly recommends labeled horticultural fungicide rather than kitchen vinegar, with application interval and plant-use directions. Copper is not required because OP only specified fungicide.",
+      "evidence": [
+        "066-source-02-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=7G2JHPAhmGM"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Homemade vinegar or cornmeal treatments, not the validated labeled fungicide.",
+      "evidence": [
+        "066-source-03.txt"
+      ],
+      "url": "https://www.centraltexasgardener.org/resource/homemade-fertilizers-and-fungicides/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Homemade vinegar mixtures rather than commercial fungicide.",
+      "evidence": [
+        "066-source-04.txt"
+      ],
+      "url": "https://www.doityourself.com/stry/how-to-make-a-plant-fungus-fighter-with-vinegar"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Vinegar spray recipes, not switching to labeled plant fungicide.",
+      "evidence": [
+        "066-source-05.txt"
+      ],
+      "url": "https://www.marthastewart.com/using-apple-cider-vinegar-in-garden-11768872"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Clean tools with vinegar, scrub, rinse and dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak stubborn tool grime in equal vinegar and water",
+        "minutes": 240,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix one to two tablespoons vinegar per gallon and spray",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Fungal disease is addressed but the recommendation continues vinegar instead of the commercial fungicide credited with recovery. Dilution warnings reduce burn risk but no application interval or escalation rule is supplied."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Highly diluted and used with caution” and explicit foliage-burn warnings limit the risk. The confident home-fungicide claim can nevertheless delay the effective labeled treatment and lacks a patch test or response-monitoring plan."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "It directly addresses apple cider vinegar for fungal problems but recommends the action the successful advice replaced. It offers no case-specific diagnostic check or commercial fungicide alternative."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“1 to 2 tablespoons” per gallon is simple to mix with ordinary supplies. Spray frequency is missing, while the optional four-hour tool soak adds elapsed time."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 66,
+  "thread_id": "tvs7hf",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 66,
+    "thread_id": "tvs7hf",
+    "selected_rank": 1,
+    "source_url": "https://www.southernliving.com/apple-cider-vinegar-in-garden-12133269",
+    "spans": [
+      {
+        "file": "066-source-01.txt",
+        "start_line": 80,
+        "end_line": 80,
+        "sha256": "93253cd4c3fd4f2f2e7825790db5158bf2286f0d5a7c477e2e9cd275160bfe09",
+        "text": "      - text: When it comes to home gardening, natural solutions are an easy answer to avoiding harsh chemicals. Apple cider vinegar is strong enough to control weeds, but it should be used with care. A little spritz on your vegetable plants could burn the leaves or worse. That same effect is good for treating weeds though because the vinegar dries out the part of the plant growing above ground. Keep in mind that vinegar only kills the part of the plant that it touches, so the roots may continue to grow and new weeds can pop up. Vinegar is best for"
+      },
+      {
+        "file": "066-source-01.txt",
+        "start_line": 89,
+        "end_line": 102,
+        "sha256": "93253cd4c3fd4f2f2e7825790db5158bf2286f0d5a7c477e2e9cd275160bfe09",
+        "text": "    - heading \"Clean And Sanitize Garden Tools\" [level=2]\n    - paragraph:\n      - text: Keep garden tools sanitized between uses by wiping them down with apple cider vinegar. It cuts through grime, mineral deposits, and rust, and it can be used to sanitize tools by spraying them with apple cider vinegar between cuts to prevent spreading diseases from one plant to another. To clean dirt and rust, spray the tools directly with apple cider vinegar, then scrub with a brush and rinse. For stubborn grime or\n      - link \"heavy rust\":\n        - /url: https://www.southernliving.com/how-to-clean-rust-off-a-cast-iron-pan-11856490\n      - text: \", soak the tools in a mixture of equal parts vinegar and water for four hours to overnight. Scrub the loosened dirt or rust away, rinse, and dry.\"\n    - heading \"Prevent And Treat Fungal Diseases\" [level=2]\n    - paragraph:\n      - text: Diluted apple cider vinegar can keep\n      - link \"powdery mildew\":\n        - /url: https://www.southernliving.com/how-to-protect-plants-from-powdery-mildew-11986686\n      - text: \", blight, black spot, and other fungal diseases from developing. The acetic acid it contains gives it natural antimicrobial properties that make it effective as a fungicide, but it should be highly diluted and used with caution to avoid burning foliage.\"\n      - generic: \"[ 1 ]\"\n      - text: Mix 1 to 2 tablespoons of apple cider vinegar with a gallon of water to make a spray to treat affected plants or prevent fungal disease."
+      },
+      {
+        "file": "066-source-01.txt",
+        "start_line": 126,
+        "end_line": 126,
+        "sha256": "93253cd4c3fd4f2f2e7825790db5158bf2286f0d5a7c477e2e9cd275160bfe09",
+        "text": "      - text: for plants like blueberries, azaleas, and gardenias to thrive. Too much can kill helpful bacteria or sterilize your soil, so use it sparingly. Also, avoid spraying vinegar directly on plants because it can burn the foliage, stunt growth, or kill beneficial insects. To adjust soil pH, add a tablespoon to a gallon of water, and water the plant at its base to avoid direct contact with foliage. For a long-term fix, amend the soil with organic material like sphagnum peat moss or use acidic fertilizer instead."
+      }
+    ],
+    "advice": "      - text: When it comes to home gardening, natural solutions are an easy answer to avoiding harsh chemicals. Apple cider vinegar is strong enough to control weeds, but it should be used with care. A little spritz on your vegetable plants could burn the leaves or worse. That same effect is good for treating weeds though because the vinegar dries out the part of the plant growing above ground. Keep in mind that vinegar only kills the part of the plant that it touches, so the roots may continue to grow and new weeds can pop up. Vinegar is best for\n\n    - heading \"Clean And Sanitize Garden Tools\" [level=2]\n    - paragraph:\n      - text: Keep garden tools sanitized between uses by wiping them down with apple cider vinegar. It cuts through grime, mineral deposits, and rust, and it can be used to sanitize tools by spraying them with apple cider vinegar between cuts to prevent spreading diseases from one plant to another. To clean dirt and rust, spray the tools directly with apple cider vinegar, then scrub with a brush and rinse. For stubborn grime or\n      - link \"heavy rust\":\n        - /url: https://www.southernliving.com/how-to-clean-rust-off-a-cast-iron-pan-11856490\n      - text: \", soak the tools in a mixture of equal parts vinegar and water for four hours to overnight. Scrub the loosened dirt or rust away, rinse, and dry.\"\n    - heading \"Prevent And Treat Fungal Diseases\" [level=2]\n    - paragraph:\n      - text: Diluted apple cider vinegar can keep\n      - link \"powdery mildew\":\n        - /url: https://www.southernliving.com/how-to-protect-plants-from-powdery-mildew-11986686\n      - text: \", blight, black spot, and other fungal diseases from developing. The acetic acid it contains gives it natural antimicrobial properties that make it effective as a fungicide, but it should be highly diluted and used with caution to avoid burning foliage.\"\n      - generic: \"[ 1 ]\"\n      - text: Mix 1 to 2 tablespoons of apple cider vinegar with a gallon of water to make a spray to treat affected plants or prevent fungal disease.\n\n      - text: for plants like blueberries, azaleas, and gardenias to thrive. Too much can kill helpful bacteria or sterilize your soil, so use it sparingly. Also, avoid spraying vinegar directly on plants because it can burn the foliage, stunt growth, or kill beneficial insects. To adjust soil pH, add a tablespoon to a gallon of water, and water the plant at its base to avoid direct contact with foliage. For a long-term fix, amend the soil with organic material like sphagnum peat moss or use acidic fertilizer instead.",
+    "reason": "First accessible page addressing apple-cider vinegar for fungal disease; retain relevant fungicide, tool hygiene and burn warnings, not unrelated weed or animal control tasks.",
+    "frozen_at": "2026-10-29T04:54:13.283859+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:54:59.128007+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

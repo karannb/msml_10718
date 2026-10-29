@@ -1,0 +1,242 @@
+{
+  "reference_action": "Suspected retained packed nursery medium/root stress. OP cut bad leaves and repotted, then reported abundant healthy growth; both are observed interventions, not separate causal proofs.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Remove damaged leaves and repot root-rot cases in fresh draining soil overlaps the validated pruning/repot bundle. Does not specifically identify retained nursery plug.",
+      "evidence": [
+        "052-source-01.txt"
+      ],
+      "url": "https://www.gardenia.net/plant/philodendron-moonlight"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Recommends chunky aerated mix for wet-soil browning, overlapping corrective substrate change; no pruning and fungicide suggestion is extra.",
+      "evidence": [
+        "052-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/7281127781950070/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Recommends repotting into light airy fast-draining substrate and removing damaged/broken leaves; overlaps bundle though framed as routine care.",
+      "evidence": [
+        "video-audit-bJEveHuDuVg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=bJEveHuDuVg"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Short title alone; no substantive care instructions recovered.",
+      "evidence": [
+        "052-source-04.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/Y6Mnf1vgMnc"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicit chunky soil/perlite/orchid-bark recipe improves root aeration, matching the medium change; no specific nursery plug explanation.",
+      "evidence": [
+        "video-audit-hSZFAELVlrU-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=hSZFAELVlrU"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move to bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use draining organic substrate",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check top inch and water when dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check pot drainage",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Protect from cold drafts",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Raise humidity using humidifier, misting or pebble tray",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": true
+      },
+      {
+        "action": "Apply half-strength fertilizer every 4–6 weeks in season",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Prune yellow/damaged leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot if rootbound or on 2–3 year cycle",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Inspect for pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash mites/aphids off",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply insecticidal soap or neem if indicated",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Remove mealybugs with alcohol swab",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Scrape scale",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Reduce watering for root rot",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim severely affected roots before fresh-soil repot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Improve air circulation for leaf spot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Apply fungicide/bactericide for severe leaf spot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "Broad troubleshooting includes root/medium issues and both validated actions. It lacks the specific retained-plug check and has many unnecessary care branches, but no clear harmful treatment is mandatory."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Prune any yellow or damaged leaves” overlaps the reference, while root surgery is conditioned on rot. Routine misting conflicts with later advice to avoid wetting spotted leaves, and chemical treatment details are sparse."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Repot ... fresh, well-draining soil” and damaged-leaf removal recover the reported intervention. The page is a generic species guide and never identifies the retained nursery medium or weighs the already-high humidity."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Watering and fertilizer thresholds are clear. The many alternative pest/disease treatments, repotting and humidity devices create substantial effort and some unspecified product choices."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 52,
+  "thread_id": "15bu4a2",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 52,
+    "thread_id": "15bu4a2",
+    "selected_rank": 1,
+    "source_url": "https://www.gardenia.net/plant/philodendron-moonlight",
+    "spans": [
+      {
+        "file": "052-source-01.txt",
+        "start_line": 198,
+        "end_line": 219,
+        "sha256": "d2821742851b3890df14ae62a66de85f0f56786e270c516999da51c10bbf21ea",
+        "text": "- heading \"Moonlight Philodendron Care\" [level=2]\n- paragraph:\n  - strong: Light\n  - text: \": Prefers bright, indirect light. Too much direct sunlight can fade the vibrant leaf colors, while insufficient light can lead to leggy growth. A spot near a window with a sheer curtain is ideal.\"\n- paragraph:\n  - strong: Soil\n  - text: \": Thrives in well-draining, rich, organic soil. A mix of peat moss, perlite, and vermiculite provides the perfect balance for moisture retention and drainage.\"\n- paragraph:\n  - strong: Water\n  - text: \": Water when the top inch of soil feels dry. Moonlight Philodendron enjoys consistent moisture but is prone to root rot in overly wet conditions. Ensure the pot has good drainage.\"\n- paragraph:\n  - strong: Temperature and Humidity\n  - text: \": Prefers warm temperatures between 65°F (18°C) and 85°F (29°C). Protect it from cold drafts and sudden temperature drops to avoid stress. Prefers higher humidity levels, around 60-80%. Use a humidifier, mist the plant regularly, or place it on a pebble tray with water to increase ambient humidity, mimicking its tropical habitat.\"\n- paragraph:\n  - strong: Fertilization\n  - text: \": Fertilize every 4-6 weeks during the growing season (spring and summer) with a balanced, liquid fertilizer diluted to half the recommended strength. Reduce fertilization in fall and winter.\"\n- paragraph:\n  - strong: Pruning\n  - text: \": Prune any yellow or damaged leaves to encourage healthy growth. Pruning can also help maintain the plant’s shape and promote fuller growth.\"\n- paragraph:\n  - strong: Repotting\n  - text: \": Repot every 2-3 years or when the plant becomes root-bound. Choose a pot only slightly larger than the previous one to prevent excess soil moisture.\""
+      },
+      {
+        "file": "052-source-01.txt",
+        "start_line": 255,
+        "end_line": 320,
+        "sha256": "d2821742851b3890df14ae62a66de85f0f56786e270c516999da51c10bbf21ea",
+        "text": "- paragraph: Philodendrons can encounter pests, diseases, and other common problems, especially when grown indoors.\n- heading \"Pests\" [level=3]\n- paragraph:\n  - link \"Spider Mites\":\n    - /url: https://www.gardenia.net/pest/spider-mites\n    - strong: Spider Mites\n  - text: \": These tiny pests can be identified by the fine webs they weave on the plant. They cause yellowing or speckled leaves. Increase humidity around the plant and wash it with a strong stream of water. For severe infestations, use insecticidal soap or neem oil.\"\n- paragraph:\n  - strong:\n    - link \"Mealybugs\":\n      - /url: https://www.gardenia.net/pest/mealybugs\n    - text: \":\"\n  - text: These white, cottony pests tend to cluster in leaf axils and under leaves, sucking sap and weakening the plant. Remove with alcohol-dipped cotton swabs or apply\n  - link \"neem oil\":\n    - /url: https://www.gardenia.net/guide/neem-oil-for-plants-how-to-use-this-organic-insecticide\n    - strong: neem oil\n  - text: .\n- paragraph:\n  - strong:\n    - link \"Aphids\":\n      - /url: https://www.gardenia.net/pest/aphids\n    - text: \":\"\n  - text: Small, soft-bodied insects that can be green, black, brown, or pink, aphids typically feed in groups on the undersides of leaves. Combat them with a gentle spray of water,\n  - link \"neem oil\":\n    - /url: https://www.gardenia.net/guide/neem-oil-for-plants-how-to-use-this-organic-insecticide\n    - strong: neem oil\n  - text: \", or insecticidal soap to protect the plant’s health and appearance.\"\n- paragraph:\n  - strong:\n    - link \"Scale insects\":\n      - /url: https://www.gardenia.net/pest/scale-insects\n    - text: \":\"\n  - text: Hard or soft-bodied insects that attach themselves to the stems or leaves, causing yellowing and growth stunting. Scrape off with a fingernail or use a cotton swab dipped in rubbing alcohol. Insecticidal soap or\n  - link \"neem oil\":\n    - /url: https://www.gardenia.net/guide/neem-oil-for-plants-how-to-use-this-organic-insecticide\n    - strong: neem oil\n  - text: may also be used.\n- heading \"Diseases\" [level=3]:\n  - generic: Diseases\n- paragraph:\n  - strong:\n    - link \"Root rot\":\n      - /url: https://www.gardenia.net/disease/root-rot\n    - text: \":\"\n  - text: Overwatering is the primary cause, leading to brown, mushy roots and yellowing leaves. Reduce watering, improve drainage, and repot the plant into fresh, well-draining soil. Severely affected roots should be trimmed before repotting.\n- paragraph:\n  - link \"Leaf spot\":\n    - /url: https://www.gardenia.net/disease/leaf-spot-diseases\n    - strong: Leaf spot\n  - text: \": Fungal or bacterial infections can cause dark or black spots on leaves, often with a yellow halo. Increase air circulation, avoid wetting leaves when watering, and remove affected leaves. Fungicides or bactericides may be necessary in severe cases.\"\n- heading \"Common Problems\" [level=3]\n- paragraph:\n  - strong: Yellowing Leaves\n  - text: \": Often a sign of overwatering or poor drainage. Ensure the plant is in well-draining soil and adjust your watering schedule to allow the soil to dry slightly between waterings.\"\n- paragraph:\n  - strong: Brown Leaf Tips\n  - text: \": Can indicate low humidity, especially in dry indoor environments. Increase humidity around the plant with a humidifier, pebble tray, or by misting the leaves regularly.\"\n- paragraph:\n  - strong: Leaf Scorch\n  - text: \": Direct sunlight can cause the leaves to scorch, leading to brown patches or fading of the vibrant leaf colors. Position the plant in a location where it receives bright, indirect light.\"\n- paragraph:\n  - strong: Drooping Leaves\n  - text: \": This can be a sign of both underwatering and overwatering. Check the soil moisture to determine the cause and adjust your watering accordingly.\"\n- paragraph:\n  - strong: Slow Growth or Lack of Color\n  - text: \": Insufficient light can lead to less vibrant leaf coloration and slow growth. Ensure your philodendron is receiving enough indirect light to maintain its rich hues and promote healthy growth.\""
+      }
+    ],
+    "advice": "- heading \"Moonlight Philodendron Care\" [level=2]\n- paragraph:\n  - strong: Light\n  - text: \": Prefers bright, indirect light. Too much direct sunlight can fade the vibrant leaf colors, while insufficient light can lead to leggy growth. A spot near a window with a sheer curtain is ideal.\"\n- paragraph:\n  - strong: Soil\n  - text: \": Thrives in well-draining, rich, organic soil. A mix of peat moss, perlite, and vermiculite provides the perfect balance for moisture retention and drainage.\"\n- paragraph:\n  - strong: Water\n  - text: \": Water when the top inch of soil feels dry. Moonlight Philodendron enjoys consistent moisture but is prone to root rot in overly wet conditions. Ensure the pot has good drainage.\"\n- paragraph:\n  - strong: Temperature and Humidity\n  - text: \": Prefers warm temperatures between 65°F (18°C) and 85°F (29°C). Protect it from cold drafts and sudden temperature drops to avoid stress. Prefers higher humidity levels, around 60-80%. Use a humidifier, mist the plant regularly, or place it on a pebble tray with water to increase ambient humidity, mimicking its tropical habitat.\"\n- paragraph:\n  - strong: Fertilization\n  - text: \": Fertilize every 4-6 weeks during the growing season (spring and summer) with a balanced, liquid fertilizer diluted to half the recommended strength. Reduce fertilization in fall and winter.\"\n- paragraph:\n  - strong: Pruning\n  - text: \": Prune any yellow or damaged leaves to encourage healthy growth. Pruning can also help maintain the plant’s shape and promote fuller growth.\"\n- paragraph:\n  - strong: Repotting\n  - text: \": Repot every 2-3 years or when the plant becomes root-bound. Choose a pot only slightly larger than the previous one to prevent excess soil moisture.\"\n\n- paragraph: Philodendrons can encounter pests, diseases, and other common problems, especially when grown indoors.\n- heading \"Pests\" [level=3]\n- paragraph:\n  - link \"Spider Mites\":\n    - /url: https://www.gardenia.net/pest/spider-mites\n    - strong: Spider Mites\n  - text: \": These tiny pests can be identified by the fine webs they weave on the plant. They cause yellowing or speckled leaves. Increase humidity around the plant and wash it with a strong stream of water. For severe infestations, use insecticidal soap or neem oil.\"\n- paragraph:\n  - strong:\n    - link \"Mealybugs\":\n      - /url: https://www.gardenia.net/pest/mealybugs\n    - text: \":\"\n  - text: These white, cottony pests tend to cluster in leaf axils and under leaves, sucking sap and weakening the plant. Remove with alcohol-dipped cotton swabs or apply\n  - link \"neem oil\":\n    - /url: https://www.gardenia.net/guide/neem-oil-for-plants-how-to-use-this-organic-insecticide\n    - strong: neem oil\n  - text: .\n- paragraph:\n  - strong:\n    - link \"Aphids\":\n      - /url: https://www.gardenia.net/pest/aphids\n    - text: \":\"\n  - text: Small, soft-bodied insects that can be green, black, brown, or pink, aphids typically feed in groups on the undersides of leaves. Combat them with a gentle spray of water,\n  - link \"neem oil\":\n    - /url: https://www.gardenia.net/guide/neem-oil-for-plants-how-to-use-this-organic-insecticide\n    - strong: neem oil\n  - text: \", or insecticidal soap to protect the plant’s health and appearance.\"\n- paragraph:\n  - strong:\n    - link \"Scale insects\":\n      - /url: https://www.gardenia.net/pest/scale-insects\n    - text: \":\"\n  - text: Hard or soft-bodied insects that attach themselves to the stems or leaves, causing yellowing and growth stunting. Scrape off with a fingernail or use a cotton swab dipped in rubbing alcohol. Insecticidal soap or\n  - link \"neem oil\":\n    - /url: https://www.gardenia.net/guide/neem-oil-for-plants-how-to-use-this-organic-insecticide\n    - strong: neem oil\n  - text: may also be used.\n- heading \"Diseases\" [level=3]:\n  - generic: Diseases\n- paragraph:\n  - strong:\n    - link \"Root rot\":\n      - /url: https://www.gardenia.net/disease/root-rot\n    - text: \":\"\n  - text: Overwatering is the primary cause, leading to brown, mushy roots and yellowing leaves. Reduce watering, improve drainage, and repot the plant into fresh, well-draining soil. Severely affected roots should be trimmed before repotting.\n- paragraph:\n  - link \"Leaf spot\":\n    - /url: https://www.gardenia.net/disease/leaf-spot-diseases\n    - strong: Leaf spot\n  - text: \": Fungal or bacterial infections can cause dark or black spots on leaves, often with a yellow halo. Increase air circulation, avoid wetting leaves when watering, and remove affected leaves. Fungicides or bactericides may be necessary in severe cases.\"\n- heading \"Common Problems\" [level=3]\n- paragraph:\n  - strong: Yellowing Leaves\n  - text: \": Often a sign of overwatering or poor drainage. Ensure the plant is in well-draining soil and adjust your watering schedule to allow the soil to dry slightly between waterings.\"\n- paragraph:\n  - strong: Brown Leaf Tips\n  - text: \": Can indicate low humidity, especially in dry indoor environments. Increase humidity around the plant with a humidifier, pebble tray, or by misting the leaves regularly.\"\n- paragraph:\n  - strong: Leaf Scorch\n  - text: \": Direct sunlight can cause the leaves to scorch, leading to brown patches or fading of the vibrant leaf colors. Position the plant in a location where it receives bright, indirect light.\"\n- paragraph:\n  - strong: Drooping Leaves\n  - text: \": This can be a sign of both underwatering and overwatering. Check the soil moisture to determine the cause and adjust your watering accordingly.\"\n- paragraph:\n  - strong: Slow Growth or Lack of Color\n  - text: \": Insufficient light can lead to less vibrant leaf coloration and slow growth. Ensure your philodendron is receiving enough indirect light to maintain its rich hues and promote healthy growth.\"",
+    "reason": "First retained result; care and troubleshooting constitute the answer, excluding unrelated propagation tutorial and product metadata.",
+    "frozen_at": "2026-10-29T04:44:31.133016+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:45:21.918101+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

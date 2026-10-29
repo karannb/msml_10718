@@ -1,0 +1,116 @@
+{
+  "reference_action": "Give a good soak and trim dead/yellow leaves; OP explicitly reports improvement after soak and trim. Repotting appears in the summary but is not the stated recovery action.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "“Dry dry dry chunky soil” and overwatering claims direct the opposite of rehydrating a thirsty peace lily.",
+      "evidence": [
+        "013-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/2184420799166073/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Accessible caption and comments focus on letting soil dry for early root rot or removing rotten roots, not the validated dehydration fix.",
+      "evidence": [
+        "013-source-02.txt"
+      ],
+      "url": "https://www.instagram.com/reel/DbR1b0VM24q/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Overwatering/root rot and repotting are the recommendations, not soaking and trimming the dehydrated plant.",
+      "evidence": [
+        "013-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/9392764014144993/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Advice for a rubber plant is to dry it almost completely and add light/chunkier soil; no immediate thorough watering/trim fix is supplied.",
+      "evidence": [
+        "013-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/IndoorPlants/comments/1aqxww5/why_are_the_leaves_turning_brown_on_the_edges/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "First comment explicitly says water thoroughly until drainage, and another recommends deep watering when dry. This supplies the central rehydration action even though the diagnosis, species and long dry intervals do not fit this peace lily; dead-leaf trimming is not covered.",
+      "evidence": [
+        "013-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/12apz63/why_are_all_leaves_on_my_plant_developing_this/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Use very dry chunky soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      }
+    ],
+    "reason": "Diagnosing overwatering and prescribing very dry soil for a confirmed dehydrated peace lily would delay its needed soak."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“This plant likes dry dry dry chunky soil” would prolong dehydration in the actual peace lily. The anecdote about not watering for two weeks reinforces the opposite of the action that revived it."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“Overwatering it looks like” contradicts the confirmed dehydration. None of the three visible comments recommends the validated soak or trimming."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Obtaining chunky soil is feasible at ordinary garden stores. “Dry dry dry” and a two-week anecdote give no clear moisture target or safe watering trigger for this plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 13,
+  "thread_id": "sasfin",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 13,
+    "thread_id": "sasfin",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/2184420799166073/",
+    "spans": [
+      {
+        "file": "013-source-01.txt",
+        "start_line": 55,
+        "end_line": 79,
+        "sha256": "0ac8a635c6ccfbdfaa1932ba6c637d77227e3c3cb980491a52ee41bc9b775f25",
+        "text": "      - article \"Comment by Emily Drewry 17 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Emily Drewry\":\n          - generic: Emily Drewry\n        - generic: I'm not an expert but I have this one and I haven't watered it for 2 weeks since I got it. I don't think it likes to be water logged at all.\n        - list:\n          - link \"17w\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/2184420799166073/?comment_id=2185230105751809&__cft__[0]=AZilzpunoufUmogEF4NFVGP8ZOdFRIgPRpiQDQ2l99Qsf1AtqZHwB2vcjTx4QCVJm8Mgwbz3AWdXx-HjCw8urYkD6SmX_b6DTbsDwz3GVFnfaXeV_sxWriNNOv4nMypOzYnOFhkFUk5Ite_UxlrMiEuomKLEHqjoub9xOfvewMpblRsMp1RZOda2Up29dJg&__tn__=R]-R\n      - article \"Comment by Drew Beisly 17 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Drew Beisly\":\n          - generic: Drew Beisly\n        - img \"Verified account\"\n        - generic: Overwatering it looks like\n        - list:\n          - link \"17w\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/2184420799166073/?comment_id=2185268012414685&__cft__[0]=AZilzpunoufUmogEF4NFVGP8ZOdFRIgPRpiQDQ2l99Qsf1AtqZHwB2vcjTx4QCVJm8Mgwbz3AWdXx-HjCw8urYkD6SmX_b6DTbsDwz3GVFnfaXeV_sxWriNNOv4nMypOzYnOFhkFUk5Ite_UxlrMiEuomKLEHqjoub9xOfvewMpblRsMp1RZOda2Up29dJg&__tn__=R]-R\n      - article \"Comment by Kristi Kristi 17 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kristi Kristi\":\n          - generic: Kristi Kristi\n        - generic: This plant likes dry dry dry chunky soil"
+      }
+    ],
+    "advice": "      - article \"Comment by Emily Drewry 17 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Emily Drewry\":\n          - generic: Emily Drewry\n        - generic: I'm not an expert but I have this one and I haven't watered it for 2 weeks since I got it. I don't think it likes to be water logged at all.\n        - list:\n          - link \"17w\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/2184420799166073/?comment_id=2185230105751809&__cft__[0]=AZilzpunoufUmogEF4NFVGP8ZOdFRIgPRpiQDQ2l99Qsf1AtqZHwB2vcjTx4QCVJm8Mgwbz3AWdXx-HjCw8urYkD6SmX_b6DTbsDwz3GVFnfaXeV_sxWriNNOv4nMypOzYnOFhkFUk5Ite_UxlrMiEuomKLEHqjoub9xOfvewMpblRsMp1RZOda2Up29dJg&__tn__=R]-R\n      - article \"Comment by Drew Beisly 17 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Drew Beisly\":\n          - generic: Drew Beisly\n        - img \"Verified account\"\n        - generic: Overwatering it looks like\n        - list:\n          - link \"17w\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/2184420799166073/?comment_id=2185268012414685&__cft__[0]=AZilzpunoufUmogEF4NFVGP8ZOdFRIgPRpiQDQ2l99Qsf1AtqZHwB2vcjTx4QCVJm8Mgwbz3AWdXx-HjCw8urYkD6SmX_b6DTbsDwz3GVFnfaXeV_sxWriNNOv4nMypOzYnOFhkFUk5Ite_UxlrMiEuomKLEHqjoub9xOfvewMpblRsMp1RZOda2Up29dJg&__tn__=R]-R\n      - article \"Comment by Kristi Kristi 17 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kristi Kristi\":\n          - generic: Kristi Kristi\n        - generic: This plant likes dry dry dry chunky soil",
+    "reason": "First result directly discusses browning edges with firm non-smelly roots and has three readable advice comments; preserve their dry-soil interpretation.",
+    "frozen_at": "2026-10-29T04:12:33.983280+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:13:37.194073+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

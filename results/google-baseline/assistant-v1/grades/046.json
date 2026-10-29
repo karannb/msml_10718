@@ -1,0 +1,130 @@
+{
+  "reference_action": "Post-repot drooping with low light; OP explicitly recovered after more sun/grow light. Light increase is the validated central action, not another repot or watering alone.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Substantive description addresses watering and root oxygen but never recommends more light; unavailable transcript not inferred.",
+      "evidence": [
+        "video-audit-qhD5BoJH9yA.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=qhD5BoJH9yA"
+    },
+    {
+      "rank": 2,
+      "action_hit": "unresolved",
+      "reason": "Description lists causes but no remedy; transcript unavailable.",
+      "evidence": [
+        "video-audit-OvC-lfIAtO0.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=OvC-lfIAtO0"
+    },
+    {
+      "rank": 3,
+      "action_hit": "unresolved",
+      "reason": "Description promises reasons and fixes without providing them; transcript unavailable.",
+      "evidence": [
+        "video-audit-CLWVg1BIo14.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=CLWVg1BIo14&vl=en&themeRefresh=1"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Repots a rootbound plant and lists water, cold, humidity and fertilizer causes; no light-increase remedy.",
+      "evidence": [
+        "video-audit-6BoQnmWCnVI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=6BoQnmWCnVI"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Bright-light instruction and a directly-in-front-of-window recovery anecdote would lead to the validated light increase. Water-at-drooping instruction is an unsafe extra for this wet-soil case.",
+      "evidence": [
+        "046-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/7159131284174955/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check top soil dryness before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water thoroughly when dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively bottom water to saturate evenly",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Watering/root oxygen explanation does not identify transplant/low-light issue or the validated increase in light. It cautions against adding water to wet soil, so no clear likely harm."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Water whenever the top 1-2 inches” dries and the explicit warning against adding water at every sign of trouble safeguard this wet plant. No chemical or invasive treatment is prescribed."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The description explains why oversaturation can cause drooping, relevant to the wet soil. It omits the recent repotting and low-light mechanism, and the confirmed light remedy."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Checking the top inch and watering thoroughly are ordinary, actionable tasks. Bottom watering lacks a time limit, but is offered as an alternative rather than a mandatory complex procedure."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 46,
+  "thread_id": "18r51de",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 46,
+    "thread_id": "18r51de",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=qhD5BoJH9yA",
+    "spans": [
+      {
+        "file": "video-audit-qhD5BoJH9yA.txt",
+        "start_line": 84,
+        "end_line": 84,
+        "sha256": "1a3bd439c24b360fc995918798dfebe817c88c3e087671ec834792fdb89f5c80",
+        "text": "  - text: Croton plants need consistent moisture, and lack of water is a the most common reason for drooping leaves. If the water evaporates from the soil faster than it is replenished, the plant’s roots cannot absorb enough moisture. This is especially common in hot, dry environments or if the plant is placed near a heat source like a radiator.The soil becomes dry and hard, and the plant’s leaves may start to wilt or droop due to a lack of moisture. If you forgot to water, thats not a big deal. Water thouroughly your plant will do fine. but it may loose some leaves. OR you can try bottom watering for even saturation. You should water your plant whenever the top 1-2 inches of the top soil dries out. in the winters let the top soil dry out about 30%. We kill our houseplants with too much care like whenever we see something going wrong with plant, our first move is- I should give it more water. That's the biggest mistake in plant parenting. See, Roots need oxygen to function properly. When soil is oversaturated with water, air pockets in the soil get filled with water, reducing the amount of oxygen available to the roots. As the roots are deprived of oxygen, they become unable to absorb water and nutrients effectively, leading to weak and droopy leaves. The plant may also become stunted in growth. The plant may look wilted or droopy, and the lower leaves often turn yellow.Roots become mushy, black, or brown, and the plant may begin to die."
+      }
+    ],
+    "advice": "  - text: Croton plants need consistent moisture, and lack of water is a the most common reason for drooping leaves. If the water evaporates from the soil faster than it is replenished, the plant’s roots cannot absorb enough moisture. This is especially common in hot, dry environments or if the plant is placed near a heat source like a radiator.The soil becomes dry and hard, and the plant’s leaves may start to wilt or droop due to a lack of moisture. If you forgot to water, thats not a big deal. Water thouroughly your plant will do fine. but it may loose some leaves. OR you can try bottom watering for even saturation. You should water your plant whenever the top 1-2 inches of the top soil dries out. in the winters let the top soil dry out about 30%. We kill our houseplants with too much care like whenever we see something going wrong with plant, our first move is- I should give it more water. That's the biggest mistake in plant parenting. See, Roots need oxygen to function properly. When soil is oversaturated with water, air pockets in the soil get filled with water, reducing the amount of oxygen available to the roots. As the roots are deprived of oxygen, they become unable to absorb water and nutrients effectively, leading to weak and droopy leaves. The plant may also become stunted in growth. The plant may look wilted or droopy, and the lower leaves often turn yellow.Roots become mushy, black, or brown, and the plant may begin to die.",
+    "reason": "First retained result has a self-contained description with watering and oxygen-starvation advice, although transcript unavailable.",
+    "frozen_at": "2026-10-29T04:42:19.469246+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:42:58.122028+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

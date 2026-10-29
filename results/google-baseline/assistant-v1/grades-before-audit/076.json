@@ -1,0 +1,214 @@
+{
+  "reference_action": "Confirmed thrips; pruning and pyrethrum sprays gave temporary relief, but OP credited sustained healthy growth after applying systemic granules per directions to all plants. General pruning or another unspecified spray alone does not establish this escalation.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "General pest rinsing and registered houseplant sprays; no systemic soil treatment. Thrips are not identified in the symptom rows.",
+      "evidence": [
+        "076-source-01.txt"
+      ],
+      "url": "https://extension.umd.edu/resource/diagnose-indoor-plant-problems/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "General watering, light, humidity and pest checks do not recommend the systemic treatment credited with recovery.",
+      "evidence": [
+        "076-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/o78mnv/a_guide_to_common_houseplant_problems/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Physical pest removal and biological controls, with an explicit policy against pesticide recommendations; no systemic granules.",
+      "evidence": [
+        "076-source-03.txt"
+      ],
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Diagnostic and environmental guidance does not supply the successful systemic pest treatment.",
+      "evidence": [
+        "076-source-04.txt"
+      ],
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "General houseplant symptom guide focuses on environmental and root problems; no systemic thrips treatment.",
+      "evidence": [
+        "076-source-05.txt"
+      ],
+      "url": "https://www.plantsforallseasons.co.uk/blogs/houseplant-tips-tricks/8-common-houseplant-problems-and-how-to-fix-them"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Rinse plant pests off",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply registered houseplant pest spray",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Discard severely damaged or virus/cyclamen-mite affected plants",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot and examine diseased roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut rotten portions",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Replant healthy sections in fresh mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Take and root cuttings in sterile mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Flush salts with three pot volumes of water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Gradually acclimate to increased light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove spotted leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Improve airflow",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Protect from temperatures below fifty Fahrenheit",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for chewing pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Handpick chewing pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Many diagnoses are offered, but the actual thrips diagnosis and systemic escalation are absent. Conditional treatments retain their qualifications; the table is not an instruction to perform every treatment indiscriminately."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The warning that damaged plants “can be injured by insecticidal sprays” is useful. However, selecting a spray and deciding whether damage warrants disposal require diagnosis the table does not resolve for this case."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The chart addresses leaf spots and distorted new growth but omits thrips from the relevant pest lists. “Use a registered houseplant spray” repeats a broad approach already giving this user only temporary relief."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Rinsing and inspecting are simple, but “registered houseplant spray” lacks a named product or application schedule. Many conditional alternatives, including repotting and propagation, leave substantial diagnostic work to the user."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 76,
+  "thread_id": "1bkmced",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 76,
+    "thread_id": "1bkmced",
+    "selected_rank": 1,
+    "source_url": "https://extension.umd.edu/resource/diagnose-indoor-plant-problems/",
+    "spans": [
+      {
+        "file": "076-source-01.txt",
+        "start_line": 119,
+        "end_line": 250,
+        "sha256": "247838a73f0cfa137a3af88bffc3441cd43b15eed5835c7baf1c7534e205dd6e",
+        "text": "      - 'row \"Leaf yellowing, foliage fades, yellows browns or wilts Aphids: small soft-bodied insects found on leaves, stems and flower buds. Spider mites: minute pests that feed on lower leaf surfaces, webbing may be visible. Mealybugs: white cottony insects. Whiteflies: adults are tiny white insects that fly from the plants when disturbed. Immature stages found on lower leaf surfaces. Brown soft scale and hemispherical scale: raised black or brown bumps on leaves and stems. Regularly rinse plants with water to keep down pest problems. Use a registered houseplant spray to control pests. Plants damaged by heavy insect or mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\"':\n        - cell \"Leaf yellowing, foliage fades, yellows browns or wilts\"\n        - 'cell \"Aphids: small soft-bodied insects found on leaves, stems and flower buds. Spider mites: minute pests that feed on lower leaf surfaces, webbing may be visible. Mealybugs: white cottony insects. Whiteflies: adults are tiny white insects that fly from the plants when disturbed. Immature stages found on lower leaf surfaces. Brown soft scale and hemispherical scale: raised black or brown bumps on leaves and stems.\"':\n          - paragraph:\n            - link \"Aphids\":\n              - /url: /resource/aphids-indoor-plants\n              - strong: Aphids\n            - text: \": small soft-bodied insects found on leaves, stems and flower buds.\"\n            - link \"Spider mites\":\n              - /url: /resource/mites-home-gardens\n              - strong: Spider mites\n            - text: \": minute pests that feed on lower leaf surfaces, webbing may be visible.\"\n            - link \"Mealybugs\":\n              - /url: /resource/mealybugs-indoor-plants\n              - strong: Mealybugs\n            - text: \": white cottony insects.\"\n            - link \"Whiteflies\":\n              - /url: /resource/whiteflies-indoor-plants\n              - strong: Whiteflies\n            - text: \": adults are tiny white insects that fly from the plants when disturbed. Immature stages found on lower leaf surfaces.\"\n            - link \"Brown soft scale and hemispherical scale\":\n              - /url: /resource/scale-insects-indoor-plants\n              - strong: Brown soft scale and hemispherical scale\n            - text: \": raised black or brown bumps on leaves and stems.\"\n          - paragraph\n        - cell \"Regularly rinse plants with water to keep down pest problems. Use a registered houseplant spray to control pests. Plants damaged by heavy insect or mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\":\n          - paragraph: Regularly rinse plants with water to keep down pest problems. Use a registered houseplant spray to control pests. Plants damaged by heavy insect or mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\n          - paragraph\n          - paragraph\n          - paragraph\n          - paragraph\n      - 'row \"Leaf yellowing, foliage fades, yellows browns or wilts Root rots: discolored and softened roots. Remove diseased plants from their pots, cut out portions (rotten), and replant remaining healthy sections. Take cuttings and root them in sterile potting mix.\"':\n        - cell \"Leaf yellowing, foliage fades, yellows browns or wilts\"\n        - 'cell \"Root rots: discolored and softened roots.\"':\n          - paragraph:\n            - link \"Root rots\":\n              - /url: /resource/root-rots-indoor-plants\n              - strong: Root rots\n            - text: \": discolored and softened roots.\"\n          - paragraph\n        - cell \"Remove diseased plants from their pots, cut out portions (rotten), and replant remaining healthy sections. Take cuttings and root them in sterile potting mix.\":\n          - paragraph: Remove diseased plants from their pots, cut out portions (rotten), and replant remaining healthy sections. Take cuttings and root them in sterile potting mix.\n      - row \"Leaf yellowing, foliage fades, yellows browns or wilts High soluble salts. Leach soil at least three times with pot volume of fresh water.\":\n        - cell \"Leaf yellowing, foliage fades, yellows browns or wilts\"\n        - cell \"High soluble salts.\":\n          - paragraph:\n            - link \"High soluble salts.\":\n              - /url: /resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants\n              - strong: High soluble salts.\n        - cell \"Leach soil at least three times with pot volume of fresh water.\":\n          - paragraph: Leach soil at least three times with pot volume of fresh water.\n      - row \"Bleached or whitened leaves Excessive light or sunburn. Acclimate plants slowly to higher light intensities, especially when moving them outdoors in the summer.\":\n        - cell \"Bleached or whitened leaves\"\n        - cell \"Excessive light or sunburn.\":\n          - link \"Excessive light or sunburn.\":\n            - /url: /resource/excess-light-indoor-plants\n            - strong: Excessive light or sunburn.\n        - cell \"Acclimate plants slowly to higher light intensities, especially when moving them outdoors in the summer.\"\n      - 'row \"Fine stippling (numerous tiny dots caused by spider mite feeding) Spider mites: minute pests that feed on lower leaf surfaces, webbing may be visible. Regularly rinse plants with water to keep down spider mite problems. Use a registered houseplant spray to control mites. Plants damaged by heavy mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\"':\n        - cell \"Fine stippling (numerous tiny dots caused by spider mite feeding)\":\n          - text: Fine stippling\n          - text: (numerous tiny dots caused by spider mite feeding)\n        - 'cell \"Spider mites: minute pests that feed on lower leaf surfaces, webbing may be visible.\"':\n          - link \"Spider mites:\":\n            - /url: /resource/mites-home-gardens\n            - strong: Spider mites\n            - text: \":\"\n          - text: minute pests that feed on lower leaf surfaces, webbing may be visible.\n        - cell \"Regularly rinse plants with water to keep down spider mite problems. Use a registered houseplant spray to control mites. Plants damaged by heavy mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\":\n          - text: Regularly rinse plants with water to keep down spider mite problems.\n          - text: Use a registered houseplant spray to control mites. Plants damaged by heavy mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\n      - row \"Leaf spots and leaf blotches Water spots, sunburn, various fungi, bacteria. Do not splash water onto plants with fuzzy leaves such as African violets. Remove spotted leaves and improve air circulation to reduce leaf diseases.\":\n        - cell \"Leaf spots and leaf blotches\"\n        - cell \"Water spots, sunburn, various fungi, bacteria.\":\n          - strong:\n            - text: Water spots,\n            - link \"sunburn\":\n              - /url: /resource/excess-light-indoor-plants\n            - text: \",\"\n            - link \"various fungi\":\n              - /url: /resource/fungal-leaf-spots-indoor-plants\n            - text: \",\"\n            - link \"bacteria\":\n              - /url: /resource/bacterial-leaf-spots-indoor-plants\n            - text: .\n        - cell \"Do not splash water onto plants with fuzzy leaves such as African violets. Remove spotted leaves and improve air circulation to reduce leaf diseases.\"\n      - 'row \"Leaf or shoot blackening Cold Injury: symptoms may continue for up to a week after exposure. Protect plants from temperatures below 50° F.\"':\n        - cell \"Leaf or shoot blackening\"\n        - 'cell \"Cold Injury: symptoms may continue for up to a week after exposure.\"':\n          - strong: Cold Injury\n          - text: \": symptoms may continue for up to a week after exposure.\"\n        - cell \"Protect plants from temperatures below 50° F.\"\n      - 'row \"Leaf scorch Abiotic stresses (not related to disease or insects) such as over-fertilization, high soluble salts, lack of water: scorching symptoms can occur along leaf margins or between veins. Leach excessive fertilizer from potting mix by flushing with water or repot with fresh potting media.\"':\n        - cell \"Leaf scorch\"\n        - 'cell \"Abiotic stresses (not related to disease or insects) such as over-fertilization, high soluble salts, lack of water: scorching symptoms can occur along leaf margins or between veins.\"':\n          - strong:\n            - text: Abiotic stresses (not related to disease or insects) such as\n            - link \"over-fertilization, high soluble salts\":\n              - /url: /resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants\n            - text: \",\"\n            - link \"lack of water\":\n              - /url: /resource/drought-stress-indoor-plants\n          - text: \": scorching symptoms can occur along leaf margins or between veins.\"\n        - cell \"Leach excessive fertilizer from potting mix by flushing with water or repot with fresh potting media.\"\n      - 'row \"Stunted, twisted and distorted plant growth Aphids: small soft-bodied sucking insects. Cyclamen mites: predominately a pest of flowering plants. New growth is affected first. Viruses: foliage appears mottled green and yellow. Plants may be stunted. Aphids can be controlled with a stream of water or with a registered insecticide. Plants infested with cyclamen mites or infected with viruses should be discarded.\"':\n        - cell \"Stunted, twisted and distorted plant growth\"\n        - 'cell \"Aphids: small soft-bodied sucking insects. Cyclamen mites: predominately a pest of flowering plants. New growth is affected first. Viruses: foliage appears mottled green and yellow. Plants may be stunted.\"':\n          - link \"Aphids\":\n            - /url: /resource/aphids-indoor-plants\n            - strong: Aphids\n          - text: \": small soft-bodied sucking insects.\"\n          - strong:\n            - link \"Cyclamen mites\":\n              - /url: /resource/mites-home-gardens\n            - text: \":\"\n          - text: predominately a pest of flowering plants. New growth is affected first.\n          - strong:\n            - link \"Viruses\":\n              - /url: /resource/viruses-indoor-plants\n            - text: \":\"\n          - text: foliage appears mottled green and yellow. Plants may be stunted.\n        - cell \"Aphids can be controlled with a stream of water or with a registered insecticide. Plants infested with cyclamen mites or infected with viruses should be discarded.\":\n          - text: Aphids can be controlled with a stream of water or with a registered insecticide.\n          - text: Plants infested with cyclamen mites or infected with viruses should be discarded.\n      - 'row \"Leaf mottling Viruses: foliage appears mottled green and yellow. Plants may be stunted. No effective treatment, discard infected plants.\"':\n        - cell \"Leaf mottling\"\n        - 'cell \"Viruses: foliage appears mottled green and yellow. Plants may be stunted.\"':\n          - link \"Viruses\":\n            - /url: /resource/viruses-indoor-plants\n            - strong: Viruses\n          - text: \": foliage appears mottled green and yellow. Plants may be stunted.\"\n        - cell \"No effective treatment, discard infected plants.\""
+      },
+      {
+        "file": "076-source-01.txt",
+        "start_line": 275,
+        "end_line": 280,
+        "sha256": "247838a73f0cfa137a3af88bffc3441cd43b15eed5835c7baf1c7534e205dd6e",
+        "text": "      - row \"Leaves eaten or chewed Check plants that have been outside for the summer for pests such as caterpillars, leaf-feeding beetles, weevils, grasshoppers, crickets, slugs, and earwigs. Handpick pests and repot plants before moving plants inside.\":\n        - cell \"Leaves eaten or chewed\"\n        - cell \"Check plants that have been outside for the summer for pests such as caterpillars, leaf-feeding beetles, weevils, grasshoppers, crickets, slugs, and earwigs.\":\n          - text: Check plants that have been outside for the summer for pests such as\n          - strong: caterpillars, leaf-feeding beetles, weevils, grasshoppers, crickets, slugs, and earwigs.\n        - cell \"Handpick pests and repot plants before moving plants inside.\""
+      }
+    ],
+    "advice": "      - 'row \"Leaf yellowing, foliage fades, yellows browns or wilts Aphids: small soft-bodied insects found on leaves, stems and flower buds. Spider mites: minute pests that feed on lower leaf surfaces, webbing may be visible. Mealybugs: white cottony insects. Whiteflies: adults are tiny white insects that fly from the plants when disturbed. Immature stages found on lower leaf surfaces. Brown soft scale and hemispherical scale: raised black or brown bumps on leaves and stems. Regularly rinse plants with water to keep down pest problems. Use a registered houseplant spray to control pests. Plants damaged by heavy insect or mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\"':\n        - cell \"Leaf yellowing, foliage fades, yellows browns or wilts\"\n        - 'cell \"Aphids: small soft-bodied insects found on leaves, stems and flower buds. Spider mites: minute pests that feed on lower leaf surfaces, webbing may be visible. Mealybugs: white cottony insects. Whiteflies: adults are tiny white insects that fly from the plants when disturbed. Immature stages found on lower leaf surfaces. Brown soft scale and hemispherical scale: raised black or brown bumps on leaves and stems.\"':\n          - paragraph:\n            - link \"Aphids\":\n              - /url: /resource/aphids-indoor-plants\n              - strong: Aphids\n            - text: \": small soft-bodied insects found on leaves, stems and flower buds.\"\n            - link \"Spider mites\":\n              - /url: /resource/mites-home-gardens\n              - strong: Spider mites\n            - text: \": minute pests that feed on lower leaf surfaces, webbing may be visible.\"\n            - link \"Mealybugs\":\n              - /url: /resource/mealybugs-indoor-plants\n              - strong: Mealybugs\n            - text: \": white cottony insects.\"\n            - link \"Whiteflies\":\n              - /url: /resource/whiteflies-indoor-plants\n              - strong: Whiteflies\n            - text: \": adults are tiny white insects that fly from the plants when disturbed. Immature stages found on lower leaf surfaces.\"\n            - link \"Brown soft scale and hemispherical scale\":\n              - /url: /resource/scale-insects-indoor-plants\n              - strong: Brown soft scale and hemispherical scale\n            - text: \": raised black or brown bumps on leaves and stems.\"\n          - paragraph\n        - cell \"Regularly rinse plants with water to keep down pest problems. Use a registered houseplant spray to control pests. Plants damaged by heavy insect or mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\":\n          - paragraph: Regularly rinse plants with water to keep down pest problems. Use a registered houseplant spray to control pests. Plants damaged by heavy insect or mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\n          - paragraph\n          - paragraph\n          - paragraph\n          - paragraph\n      - 'row \"Leaf yellowing, foliage fades, yellows browns or wilts Root rots: discolored and softened roots. Remove diseased plants from their pots, cut out portions (rotten), and replant remaining healthy sections. Take cuttings and root them in sterile potting mix.\"':\n        - cell \"Leaf yellowing, foliage fades, yellows browns or wilts\"\n        - 'cell \"Root rots: discolored and softened roots.\"':\n          - paragraph:\n            - link \"Root rots\":\n              - /url: /resource/root-rots-indoor-plants\n              - strong: Root rots\n            - text: \": discolored and softened roots.\"\n          - paragraph\n        - cell \"Remove diseased plants from their pots, cut out portions (rotten), and replant remaining healthy sections. Take cuttings and root them in sterile potting mix.\":\n          - paragraph: Remove diseased plants from their pots, cut out portions (rotten), and replant remaining healthy sections. Take cuttings and root them in sterile potting mix.\n      - row \"Leaf yellowing, foliage fades, yellows browns or wilts High soluble salts. Leach soil at least three times with pot volume of fresh water.\":\n        - cell \"Leaf yellowing, foliage fades, yellows browns or wilts\"\n        - cell \"High soluble salts.\":\n          - paragraph:\n            - link \"High soluble salts.\":\n              - /url: /resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants\n              - strong: High soluble salts.\n        - cell \"Leach soil at least three times with pot volume of fresh water.\":\n          - paragraph: Leach soil at least three times with pot volume of fresh water.\n      - row \"Bleached or whitened leaves Excessive light or sunburn. Acclimate plants slowly to higher light intensities, especially when moving them outdoors in the summer.\":\n        - cell \"Bleached or whitened leaves\"\n        - cell \"Excessive light or sunburn.\":\n          - link \"Excessive light or sunburn.\":\n            - /url: /resource/excess-light-indoor-plants\n            - strong: Excessive light or sunburn.\n        - cell \"Acclimate plants slowly to higher light intensities, especially when moving them outdoors in the summer.\"\n      - 'row \"Fine stippling (numerous tiny dots caused by spider mite feeding) Spider mites: minute pests that feed on lower leaf surfaces, webbing may be visible. Regularly rinse plants with water to keep down spider mite problems. Use a registered houseplant spray to control mites. Plants damaged by heavy mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\"':\n        - cell \"Fine stippling (numerous tiny dots caused by spider mite feeding)\":\n          - text: Fine stippling\n          - text: (numerous tiny dots caused by spider mite feeding)\n        - 'cell \"Spider mites: minute pests that feed on lower leaf surfaces, webbing may be visible.\"':\n          - link \"Spider mites:\":\n            - /url: /resource/mites-home-gardens\n            - strong: Spider mites\n            - text: \":\"\n          - text: minute pests that feed on lower leaf surfaces, webbing may be visible.\n        - cell \"Regularly rinse plants with water to keep down spider mite problems. Use a registered houseplant spray to control mites. Plants damaged by heavy mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\":\n          - text: Regularly rinse plants with water to keep down spider mite problems.\n          - text: Use a registered houseplant spray to control mites. Plants damaged by heavy mite feeding can be injured by insecticidal sprays. Severely damaged plants should be discarded.\n      - row \"Leaf spots and leaf blotches Water spots, sunburn, various fungi, bacteria. Do not splash water onto plants with fuzzy leaves such as African violets. Remove spotted leaves and improve air circulation to reduce leaf diseases.\":\n        - cell \"Leaf spots and leaf blotches\"\n        - cell \"Water spots, sunburn, various fungi, bacteria.\":\n          - strong:\n            - text: Water spots,\n            - link \"sunburn\":\n              - /url: /resource/excess-light-indoor-plants\n            - text: \",\"\n            - link \"various fungi\":\n              - /url: /resource/fungal-leaf-spots-indoor-plants\n            - text: \",\"\n            - link \"bacteria\":\n              - /url: /resource/bacterial-leaf-spots-indoor-plants\n            - text: .\n        - cell \"Do not splash water onto plants with fuzzy leaves such as African violets. Remove spotted leaves and improve air circulation to reduce leaf diseases.\"\n      - 'row \"Leaf or shoot blackening Cold Injury: symptoms may continue for up to a week after exposure. Protect plants from temperatures below 50° F.\"':\n        - cell \"Leaf or shoot blackening\"\n        - 'cell \"Cold Injury: symptoms may continue for up to a week after exposure.\"':\n          - strong: Cold Injury\n          - text: \": symptoms may continue for up to a week after exposure.\"\n        - cell \"Protect plants from temperatures below 50° F.\"\n      - 'row \"Leaf scorch Abiotic stresses (not related to disease or insects) such as over-fertilization, high soluble salts, lack of water: scorching symptoms can occur along leaf margins or between veins. Leach excessive fertilizer from potting mix by flushing with water or repot with fresh potting media.\"':\n        - cell \"Leaf scorch\"\n        - 'cell \"Abiotic stresses (not related to disease or insects) such as over-fertilization, high soluble salts, lack of water: scorching symptoms can occur along leaf margins or between veins.\"':\n          - strong:\n            - text: Abiotic stresses (not related to disease or insects) such as\n            - link \"over-fertilization, high soluble salts\":\n              - /url: /resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants\n            - text: \",\"\n            - link \"lack of water\":\n              - /url: /resource/drought-stress-indoor-plants\n          - text: \": scorching symptoms can occur along leaf margins or between veins.\"\n        - cell \"Leach excessive fertilizer from potting mix by flushing with water or repot with fresh potting media.\"\n      - 'row \"Stunted, twisted and distorted plant growth Aphids: small soft-bodied sucking insects. Cyclamen mites: predominately a pest of flowering plants. New growth is affected first. Viruses: foliage appears mottled green and yellow. Plants may be stunted. Aphids can be controlled with a stream of water or with a registered insecticide. Plants infested with cyclamen mites or infected with viruses should be discarded.\"':\n        - cell \"Stunted, twisted and distorted plant growth\"\n        - 'cell \"Aphids: small soft-bodied sucking insects. Cyclamen mites: predominately a pest of flowering plants. New growth is affected first. Viruses: foliage appears mottled green and yellow. Plants may be stunted.\"':\n          - link \"Aphids\":\n            - /url: /resource/aphids-indoor-plants\n            - strong: Aphids\n          - text: \": small soft-bodied sucking insects.\"\n          - strong:\n            - link \"Cyclamen mites\":\n              - /url: /resource/mites-home-gardens\n            - text: \":\"\n          - text: predominately a pest of flowering plants. New growth is affected first.\n          - strong:\n            - link \"Viruses\":\n              - /url: /resource/viruses-indoor-plants\n            - text: \":\"\n          - text: foliage appears mottled green and yellow. Plants may be stunted.\n        - cell \"Aphids can be controlled with a stream of water or with a registered insecticide. Plants infested with cyclamen mites or infected with viruses should be discarded.\":\n          - text: Aphids can be controlled with a stream of water or with a registered insecticide.\n          - text: Plants infested with cyclamen mites or infected with viruses should be discarded.\n      - 'row \"Leaf mottling Viruses: foliage appears mottled green and yellow. Plants may be stunted. No effective treatment, discard infected plants.\"':\n        - cell \"Leaf mottling\"\n        - 'cell \"Viruses: foliage appears mottled green and yellow. Plants may be stunted.\"':\n          - link \"Viruses\":\n            - /url: /resource/viruses-indoor-plants\n            - strong: Viruses\n          - text: \": foliage appears mottled green and yellow. Plants may be stunted.\"\n        - cell \"No effective treatment, discard infected plants.\"\n\n      - row \"Leaves eaten or chewed Check plants that have been outside for the summer for pests such as caterpillars, leaf-feeding beetles, weevils, grasshoppers, crickets, slugs, and earwigs. Handpick pests and repot plants before moving plants inside.\":\n        - cell \"Leaves eaten or chewed\"\n        - cell \"Check plants that have been outside for the summer for pests such as caterpillars, leaf-feeding beetles, weevils, grasshoppers, crickets, slugs, and earwigs.\":\n          - text: Check plants that have been outside for the summer for pests such as\n          - strong: caterpillars, leaf-feeding beetles, weevils, grasshoppers, crickets, slugs, and earwigs.\n        - cell \"Handpick pests and repot plants before moving plants inside.\"",
+    "reason": "First accessible diagnostic table; retain all leaf discoloration, spotting, new-growth distortion and chewing rows, including treatment warnings. Exclude unrelated flowering/flying-insect symptoms.",
+    "frozen_at": "2026-10-29T05:00:02.278788+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:03:51.683866+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

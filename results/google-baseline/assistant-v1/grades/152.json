@@ -1,0 +1,186 @@
+{
+  "reference_action": "Aphids suggested in reference; OP confirms neem oil spray applied until dripping wet worked.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Main guide uses hosing, crushing, traps and predators. Comment about trying neem tomorrow is not verified treatment guidance for the pictured foliage infestation.",
+      "evidence": [
+        "152-source-01.txt"
+      ],
+      "url": "https://homesteadbrooklyn.com/all/2017/1/17/common-insects-pests-on-houseplants"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Aphids controls row explicitly lists neem/oil among contact controls.",
+      "evidence": [
+        "152-source-02.txt"
+      ],
+      "url": "https://www.gardeners.com/blogs/insect-pest-control-articles/plant-pest-photo-gallery-5288"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "5:09 and 6:39 prescribe neem after washing, repeated for weeks; action matches despite different insect sections.",
+      "evidence": [
+        "video-audit-PpoTRHnytMo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=PpoTRHnytMo"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "5:12–5:32 recommends neem/horticultural oil over top and bottom surfaces, then rinsing and repeat applications.",
+      "evidence": [
+        "video-audit-9TY615c8xfg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=9TY615c8xfg"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "21–31 minute treatment discussion includes neem/horticultural sprays after hosing and drying, with dilution/application guidance.",
+      "evidence": [
+        "152-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=l7ueDssU_kY"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Install yellow sticky traps",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 6,
+        "unclear": false
+      },
+      {
+        "action": "Hose foliage in short bursts",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Release beneficial predators",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Inspect new plants",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clean pots and use fresh soil when potting",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Apply diatomaceous earth for excessive soil millipedes",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Apply nematodes as alternative soil-pest control",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Capture and release visible soil millipedes",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Isolate plant",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect isolated leaves and stems daily",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Photo-led whitefly section was frozen before reference. Hosing may reduce insects but it does not provide the validated neem action."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Short bursts of water” and traps are low-risk controls. Beneficial insects are preferable to indiscriminate chemicals, although the general soil-pest section gives limited dust-handling cautions."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "White insects under leaves reasonably motivate the selected section, but the reference identifies aphids and validates neem. The general prevention list adds unrelated soil-pest work."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Traps and hosing are straightforward. “Introducing a beneficial insect” and alternatives such as nematodes require purchases and more management than a simple household treatment."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 152,
+  "thread_id": "1gq3j1p",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 152,
+    "thread_id": "1gq3j1p",
+    "selected_rank": 1,
+    "source_url": "https://homesteadbrooklyn.com/all/2017/1/17/common-insects-pests-on-houseplants",
+    "spans": [
+      {
+        "file": "152-source-01.txt",
+        "start_line": 129,
+        "end_line": 145,
+        "sha256": "e66a11cff95c113c72a673dd40a1f92cd3fa3565d3886982ef130a7a6b7d19e1",
+        "text": "    - figure \"Whiteflies (Trialeurodes vaporariorum) closely resemble tiny white moths, but they are closely related to aphids and scales. Like aphids, they produce honeydew from sucking plant juices, which can then attract sooty mold, which can further harm plants.\":\n      - img \"Whiteflies (Trialeurodes vaporariorum) closely resemble tiny white moths, but they are closely related to aphids and scales. Like aphids, they produce honeydew from sucking plant juices, which can then attract sooty mold, which can further harm plan…\"\n      - paragraph:\n        - text: Whiteflies (\n        - emphasis: Trialeurodes vaporariorum\n        - text: ) closely resemble tiny white moths, but they are closely related to aphids and scales. Like aphids, they produce honeydew from sucking plant juices, which can then attract sooty mold, which can further harm plants.\n    - paragraph:\n      - strong:\n        - text: Common whitefly (\n        - emphasis: Trialeurodes vaporariorum\n        - text: )\n      - text: At first whiteflies, which are more closely related to aphids and scale, can be mistaken for little white moths or even mealybugs. Unlike their fellow pesky counterparts, they will easily take flight if you disturb them. I first noticed whiteflies in my home when I started growing potatoes indoors (I mean seriously, potatoes indoors brought every pest imaginable!). Whiteflies are more or less generalists when it comes to plants. I noticed that they first were congregated in small numbers on potatoes, but they soon started to alight on my elephant ear plants, which were nearby.\n    - paragraph: Adults will lay eggs while they are eating (efficient little beasts, aren't they?). Eggs will hatch in less than a week and then their nymphs, similarly to scale, will crawl a short distance, plant themselves, and suck the plant until they go into a resting stage at about the 3 week point. In about four, maybe five weeks, they begin to emerge as adults and the process repeats. As indicated, both the nymphs and adults of the whitefly use their mouthparts to suck juices from plants, which can cause leaves to yellow and fall off prematurely. Additionally, whiteflies, like aphids, exude honeydew, which becomes an attractant for sooty mold. If you allow whiteflies to multiply, then they can attack your plant enough to weaken it.\n    - paragraph:\n      - text: Whiteflies are attracted to the color yellow, so the best way to catch them is by having yellow sticky traps, blasting the leaves with short bursts of water from a hose, and also introducing a beneficial insect, like a green lacewing, ladybird beetle, or whitefly parasite (\n      - emphasis: Encarsia formosa\n      - text: ). All three techniques are highly recommended, in that order."
+      },
+      {
+        "file": "152-source-01.txt",
+        "start_line": 202,
+        "end_line": 223,
+        "sha256": "e66a11cff95c113c72a673dd40a1f92cd3fa3565d3886982ef130a7a6b7d19e1",
+        "text": "        - text: When you first bring home a houseplant, you may want to take a few precautions to make sure that it has no pests that will spread to your other plants. Pictured here, an\n        - emphasis: Alocasia reginula.\n    - heading \"Best ways to prevent houseplant pest infestation\" [level=2]\n    - paragraph: There are a number of best practices that you can do to reduce or eliminate the potential for pest infestation in the home. They are by no means \"no-fail\" solutions, as many plant pests can easily go undetected by the eye, but they are typically sufficient and proactive approaches to help ensure your plants stay healthy.\n    - list:\n      - paragraph:\n        - strong: Inspect a plant before you buy it.\n        - text: There have been a number of occasions where I noticed insects on a plant. If you can and do identify insects, you should tell the plant shop owner or greenhouse owner so that they can quarantine the plant and ensure it doesn't get sold to anyone else.\n      - paragraph:\n        - strong: Use clean pots and potting soil.\n        - text: \"If you're bringing home a new plant and are putting it in a new pot, make sure that pot was cleaned thoroughly with a diluted soap or bleach solution to ensure there were no disease-carrying agents. Same goes for soil: I typically always get new soil for my plants because there is no telling if there are any leftover eggs overwintering in the soil from previous pests.\"\n      - paragraph:\n        - strong: Remove any potential pests from the actual soil ball of the plant.\n        - text: Sometimes the plant you bought will have some interesting Arthropods\n        - emphasis: within\n        - text: its own soil. I've often seeing pillbugs (called roly-polys), sowbugs, and millipedes, all which prefer damp, dark, moist environments. These generally won't harm plants, as they largely eat decaying organic material, but in the case of millipedes, they may eat bulbs and tubers. A long while ago, I bought a plant from the flower district in Manhattan and it was infested with millipedes. A natural way to reduce millipede population, if you think it is a problem, is spreading Diatomaceous earth on the soil, which are fossilized diatoms that actually cut the millipedes, or by using nematodes, which over time, breed and replicate within the millipede, eventually killing it. I would say that if you have a few millipedes in your soil, no biggie, but if you see them, you can capture them and set them loose outside.\n      - paragraph:\n        - strong: Isolate your plant from other plants for a few days to a couple weeks.\n        - text: If you want to be extra careful, be sure to isolate your plant for a few days from your other plants, inspecting its leaves and stems everyday. If you think everything checks out, then move it into your intended space.\n      - paragraph:\n        - strong: Don't let other plant's leaves touch the leaves of your new plant.\n        - text: This one is the hardest to do—particularly in my home—if not next to impossible. However, some pests, like scale, can't spread unless they have a \"bridge\" to get across to the next leaf. 🌿"
+      }
+    ],
+    "advice": "    - figure \"Whiteflies (Trialeurodes vaporariorum) closely resemble tiny white moths, but they are closely related to aphids and scales. Like aphids, they produce honeydew from sucking plant juices, which can then attract sooty mold, which can further harm plants.\":\n      - img \"Whiteflies (Trialeurodes vaporariorum) closely resemble tiny white moths, but they are closely related to aphids and scales. Like aphids, they produce honeydew from sucking plant juices, which can then attract sooty mold, which can further harm plan…\"\n      - paragraph:\n        - text: Whiteflies (\n        - emphasis: Trialeurodes vaporariorum\n        - text: ) closely resemble tiny white moths, but they are closely related to aphids and scales. Like aphids, they produce honeydew from sucking plant juices, which can then attract sooty mold, which can further harm plants.\n    - paragraph:\n      - strong:\n        - text: Common whitefly (\n        - emphasis: Trialeurodes vaporariorum\n        - text: )\n      - text: At first whiteflies, which are more closely related to aphids and scale, can be mistaken for little white moths or even mealybugs. Unlike their fellow pesky counterparts, they will easily take flight if you disturb them. I first noticed whiteflies in my home when I started growing potatoes indoors (I mean seriously, potatoes indoors brought every pest imaginable!). Whiteflies are more or less generalists when it comes to plants. I noticed that they first were congregated in small numbers on potatoes, but they soon started to alight on my elephant ear plants, which were nearby.\n    - paragraph: Adults will lay eggs while they are eating (efficient little beasts, aren't they?). Eggs will hatch in less than a week and then their nymphs, similarly to scale, will crawl a short distance, plant themselves, and suck the plant until they go into a resting stage at about the 3 week point. In about four, maybe five weeks, they begin to emerge as adults and the process repeats. As indicated, both the nymphs and adults of the whitefly use their mouthparts to suck juices from plants, which can cause leaves to yellow and fall off prematurely. Additionally, whiteflies, like aphids, exude honeydew, which becomes an attractant for sooty mold. If you allow whiteflies to multiply, then they can attack your plant enough to weaken it.\n    - paragraph:\n      - text: Whiteflies are attracted to the color yellow, so the best way to catch them is by having yellow sticky traps, blasting the leaves with short bursts of water from a hose, and also introducing a beneficial insect, like a green lacewing, ladybird beetle, or whitefly parasite (\n      - emphasis: Encarsia formosa\n      - text: ). All three techniques are highly recommended, in that order.\n\n        - text: When you first bring home a houseplant, you may want to take a few precautions to make sure that it has no pests that will spread to your other plants. Pictured here, an\n        - emphasis: Alocasia reginula.\n    - heading \"Best ways to prevent houseplant pest infestation\" [level=2]\n    - paragraph: There are a number of best practices that you can do to reduce or eliminate the potential for pest infestation in the home. They are by no means \"no-fail\" solutions, as many plant pests can easily go undetected by the eye, but they are typically sufficient and proactive approaches to help ensure your plants stay healthy.\n    - list:\n      - paragraph:\n        - strong: Inspect a plant before you buy it.\n        - text: There have been a number of occasions where I noticed insects on a plant. If you can and do identify insects, you should tell the plant shop owner or greenhouse owner so that they can quarantine the plant and ensure it doesn't get sold to anyone else.\n      - paragraph:\n        - strong: Use clean pots and potting soil.\n        - text: \"If you're bringing home a new plant and are putting it in a new pot, make sure that pot was cleaned thoroughly with a diluted soap or bleach solution to ensure there were no disease-carrying agents. Same goes for soil: I typically always get new soil for my plants because there is no telling if there are any leftover eggs overwintering in the soil from previous pests.\"\n      - paragraph:\n        - strong: Remove any potential pests from the actual soil ball of the plant.\n        - text: Sometimes the plant you bought will have some interesting Arthropods\n        - emphasis: within\n        - text: its own soil. I've often seeing pillbugs (called roly-polys), sowbugs, and millipedes, all which prefer damp, dark, moist environments. These generally won't harm plants, as they largely eat decaying organic material, but in the case of millipedes, they may eat bulbs and tubers. A long while ago, I bought a plant from the flower district in Manhattan and it was infested with millipedes. A natural way to reduce millipede population, if you think it is a problem, is spreading Diatomaceous earth on the soil, which are fossilized diatoms that actually cut the millipedes, or by using nematodes, which over time, breed and replicate within the millipede, eventually killing it. I would say that if you have a few millipedes in your soil, no biggie, but if you see them, you can capture them and set them loose outside.\n      - paragraph:\n        - strong: Isolate your plant from other plants for a few days to a couple weeks.\n        - text: If you want to be extra careful, be sure to isolate your plant for a few days from your other plants, inspecting its leaves and stems everyday. If you think everything checks out, then move it into your intended space.\n      - paragraph:\n        - strong: Don't let other plant's leaves touch the leaves of your new plant.\n        - text: This one is the hardest to do—particularly in my home—if not next to impossible. However, some pests, like scale, can't spread unless they have a \"bridge\" to get across to the next leaf. 🌿",
+    "reason": "Question photo shows tiny white winged insects on tomato undersides. Select visually matching whitefly section and general prevention; no outcome reference used.",
+    "frozen_at": "2026-10-29T06:06:14.353860+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:12:42.318248+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

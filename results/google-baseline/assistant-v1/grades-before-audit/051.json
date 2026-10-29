@@ -1,0 +1,116 @@
+{
+  "reference_action": "Goeppertia rufibarba stressed by direct sun; OP reports improvement after moving it out of sun. Reduce direct exposure while retaining bright indirect light.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Mentions heat and moisture but never directs moving out of sun. A cause mention alone does not recover the action.",
+      "evidence": [
+        "051-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/8554748691279867/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicitly filter harsh sun or move to bright indirect light, matching the validated shade move.",
+      "evidence": [
+        "051-source-02.txt"
+      ],
+      "url": "https://leavesandsoul.com/blogs/news/why-you-should-never-ignore-leaf-curl-and-what-it-s-telling-you"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Too much light/heat section directly says move to bright indirect light and diffuse midday sun.",
+      "evidence": [
+        "video-audit-jqtG-Ei6TQ0-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=jqtG-Ei6TQ0"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "At 4:27 directs moving farther from window into bright indirect light to relieve intense-sun curling.",
+      "evidence": [
+        "051-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=lGgD3sF3CJY"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicit shade-net move away from hot sun matches the light reduction; misting and other branches are extras.",
+      "evidence": [
+        "video-audit-2l_0hUh2-VE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=2l_0hUh2-VE"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Keep soil moist",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Heat stress is mentioned, but the only operational advice is moisture maintenance; it does not give the successful removal from direct sun."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Like to stay moist” is not a waterlogging instruction, but lacks drainage or moisture-check safeguards. The comment leaves the harmful direct exposure unaddressed."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "“If it’s too hot she’ll curl” is a plausible adjacent explanation. It neither identifies the plant nor prescribes the reference light reduction."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The suggestion is short and needs no special equipment. “Stay moist” supplies no threshold or watering method, and heat correction is not explained."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 51,
+  "thread_id": "1njfxkm",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 51,
+    "thread_id": "1njfxkm",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/199630400125113/posts/8554748691279867/",
+    "spans": [
+      {
+        "file": "051-source-01.txt",
+        "start_line": 56,
+        "end_line": 56,
+        "sha256": "b92dfe1e73a5b4cb62d34869af5f9c7e825a1ec3e3963a2645fc001568380900",
+        "text": "        - generic: Those like to stay moist so if it’s to hot she’ll curl"
+      }
+    ],
+    "advice": "        - generic: Those like to stay moist so if it’s to hot she’ll curl",
+    "reason": "First retained comment supplies moisture/heat advice, frozen without outcome.",
+    "frozen_at": "2026-10-29T04:43:49.519554+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:44:22.960523+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

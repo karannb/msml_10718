@@ -1,0 +1,205 @@
+{
+  "reference_action": "OP reports dumping whole plant in mostly alcohol: bugs gone, but mushy brown tissue. Count explicit thorough alcohol saturation as a partial functional match; ordinary repeat sprays already failed, and wiping/pruning were suggested but not explicitly confirmed as performed.",
+  "reference_quality": {
+    "issue": "Reported pest clearance accompanied by plant injury; adopted heavy alcohol exposure differs from advice to wipe/mist and avoid puddles.",
+    "resolution": "Separate action retrieval from safety. Saturation counts partial coverage match, not endorsement of immersion or proof of full recovery.",
+    "outcome_quote": "I dumped the whole thing in mostly alcohol. She's got some mushy brown bits but the bugs are gone!"
+  },
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Repeated spray and local wiping/dabbing, with thin-leaf cautions, do not specify whole-plant saturation beyond the alcohol sprays already tried.",
+      "evidence": [
+        "122-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/succulents/comments/tgq4le/why_did_no_one_tell_me_how_well_rubbing_alcohol/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "unresolved",
+      "reason": "Short video has no readable substantive instructions.",
+      "evidence": [
+        "122-source-02.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/DTtD-Ah7d4c"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Demonstrates full-strength 70% alcohol saturation of foliage, a partial match to intensive whole-plant alcohol coverage. Explicitly shields roots and warns about thin/new leaves, so not an immersion recommendation.",
+      "evidence": [
+        "video-audit-kGlztiKCdzA-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=kGlztiKCdzA"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Question/promotion and anecdotal comments do not recover actual video instructions.",
+      "evidence": [
+        "122-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/ThePlantandThePour/videos/should-you-spray-your-plants-with-rubbing-alcohol-to-deal-with-pests-this-is-a-h/1905906950002528/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Discusses alcohol contact killing and missed pests, but gives no concrete saturation or immersion procedure beyond failed sprays.",
+      "evidence": [
+        "122-source-05.txt"
+      ],
+      "url": "https://www.instagram.com/reel/DZ8CX-HJAXu/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Test one leaf before treating entire plant",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray alcohol repeatedly every 3–5 days",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep treated plant out of sun",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect new plants before repotting",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Buy glycerin-free 70% alcohol if needed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Remove armored scale with alcohol cotton swab and spray underneath",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply diatomaceous earth as alternative",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Brush alcohol-water-soap mixture into crevices",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Rinse foliage after alcohol",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Dry rosettes with air duster",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      }
+    ],
+    "reason": "Broad soft-bodied-pest advice overlaps alcohol treatment but does not diagnose the different pest or explain why prior sprays failed. Local wiping and repeated spraying are incomplete relative to confirmed intensive coverage; test-leaf and thin-leaf warnings mitigate harm."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Always do a test leaf 24 hrs before a full spray” and warnings for delicate tropicals are useful safeguards. Conflicting neat/diluted alcohol suggestions and an undosed dish-soap mixture still leave material uncertainty for an already repeatedly treated Syngonium."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The discussion addresses alcohol-sensitive soft-bodied pests and crevices. It neither identifies the new pest nor distinguishes this case from the already unsuccessful alcohol sprays, so the core advice is only partially applicable."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“Every 3–5 days for about 3 weeks to a month” supplies a practical interval. Multiple alternative treatments and unspecified soap/DE dosing complicate execution despite ordinary supplies."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 122,
+  "thread_id": "1iv05sy",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 122,
+    "thread_id": "1iv05sy",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/succulents/comments/tgq4le/why_did_no_one_tell_me_how_well_rubbing_alcohol/",
+    "spans": [
+      {
+        "file": "122-source-01.txt",
+        "start_line": 47,
+        "end_line": 47,
+        "sha256": "cf2ce161e64fb504b1f9a6ba90206356761f8b79547505f5ce3ec31a1bb85f0e",
+        "text": "  - paragraph: I’ve only sprayed my string of pearls that was infested with a TON of aphids and spider mites three times in the last few days with rubbing alcohol, and now they’re all gone?? The webs and damage are still there obviously, but I haven’t seen any actual bugs all day"
+      },
+      {
+        "file": "122-source-01.txt",
+        "start_line": 116,
+        "end_line": 174,
+        "sha256": "cf2ce161e64fb504b1f9a6ba90206356761f8b79547505f5ce3ec31a1bb85f0e",
+        "text": "      - paragraph: well, your plants can also burn if left in the sun with alcohol on their leaves\n      - 'article \"Comment thread level 1: Reply from rosemaryfrog 5 years ago\"':\n        - generic \"rosemaryfrog's profile --- avatar rosemaryfrog's profile 5y ago\":\n          - link \"rosemaryfrog's profile --- avatar\":\n            - /url: https://www.reddit.com/user/rosemaryfrog/\n          - link \"rosemaryfrog's profile\":\n            - /url: https://www.reddit.com/user/rosemaryfrog/\n            - generic: rosemaryfrog\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"5y ago\":\n            - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i13ni5q/\n            - time: 5y ago\n        - paragraph: Yeah, I haven’t left it outside yet because I’m afraid of that happening lol- but I’ll try putting it out once it’s fully healed\n      - 'article \"Comment thread level 1: Reply from pterofactyl 5 years ago\"':\n        - generic \"pterofactyl's profile --- avatar pterofactyl's profile 5y ago\":\n          - link \"pterofactyl's profile --- avatar\":\n            - /url: https://www.reddit.com/user/pterofactyl/\n            - img \"u/pterofactyl avatar\"\n          - link \"pterofactyl's profile\":\n            - /url: https://www.reddit.com/user/pterofactyl/\n            - generic: pterofactyl\n          - generic: •\n          - link \"5y ago\":\n            - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i14d9pn/\n            - time: 5y ago\n        - paragraph: It evaporates quite quickly, no? On leaves that rely on waxy coatings, sure. But the alcohol shouldn’t stick around long enough to “burn” the leaf\n        - 'article \"Comment thread level 2: Reply from ChillingEating527 5 years ago\"':\n          - generic \"ChillingEating527's profile --- avatar ChillingEating527's profile 5y ago\":\n            - link \"ChillingEating527's profile --- avatar\":\n              - /url: https://www.reddit.com/user/ChillingEating527/\n            - link \"ChillingEating527's profile\":\n              - /url: https://www.reddit.com/user/ChillingEating527/\n              - generic: ChillingEating527\n            - generic: •\n            - link \"5y ago\":\n              - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i14eygw/\n              - time: 5y ago\n          - paragraph: I thought so too, but my Echeverias got burnt afterward so idk anymore lol\n          - button \"3 more replies\":\n            - generic: \"3\"\n            - text: more replies\n    - article \"Comment from _forward_slash_s 5 years ago\":\n      - generic \"_forward_slash_s's profile --- avatar _forward_slash_s's profile 5y ago\":\n        - link \"_forward_slash_s's profile --- avatar\":\n          - /url: https://www.reddit.com/user/_forward_slash_s/\n        - link \"_forward_slash_s's profile\":\n          - /url: https://www.reddit.com/user/_forward_slash_s/\n          - generic: _forward_slash_s\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i13p9gh/\n          - time: 5y ago\n      - paragraph:\n        - text: Rubbing alcohol also works really well on\n        - link \"mealybugs\":\n          - /url: /search/?q=mealybugs+succulents+rubbing+alcohol&cId=2460a7b2-cac1-489a-85e6-1ec82def2f91&iId=a795d241-f312-4ced-9175-1b3b31a2cfb1\n          - text: mealybugs\n        - text: . Anytime I bring a new plant home, I spray it with rubbing alcohol and inspect it prior to repotting it."
+      },
+      {
+        "file": "122-source-01.txt",
+        "start_line": 202,
+        "end_line": 202,
+        "sha256": "cf2ce161e64fb504b1f9a6ba90206356761f8b79547505f5ce3ec31a1bb85f0e",
+        "text": "          - paragraph: I don’t dilute it at all. Just buy 70% isopropyl alcohol from the store and use that. I know it may seem as though you have to dilute it with the mention of 70%, but that’s not the case. Everything I’ve read says to use 70% and not 90%."
+      },
+      {
+        "file": "122-source-01.txt",
+        "start_line": 339,
+        "end_line": 445,
+        "sha256": "cf2ce161e64fb504b1f9a6ba90206356761f8b79547505f5ce3ec31a1bb85f0e",
+        "text": "        - paragraph: I've got some 70% rubbing alcohol that also contains glycerin. Anybody know if this might be an issue? A quick Google shows it has a high boiling point so it probably doesn't evaporate off with the alcohol at a high rate...\n        - 'article \"Comment thread level 2: Reply from _forward_slash_s 5 years ago\"':\n          - generic \"_forward_slash_s's profile --- avatar _forward_slash_s's profile 5y ago\":\n            - link \"_forward_slash_s's profile --- avatar\":\n              - /url: https://www.reddit.com/user/_forward_slash_s/\n            - link \"_forward_slash_s's profile\":\n              - /url: https://www.reddit.com/user/_forward_slash_s/\n              - generic: _forward_slash_s\n            - generic: •\n            - link \"5y ago\":\n              - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i159ccx/\n              - time: 5y ago\n          - paragraph: I don’t have experience with that, but you could always test it on a leaf of a few succulents (because some succulents are more sensitive than others) to see if that does anything.\n          - paragraph: Or, just to be safe, it may be worth buying a new bottle without glycerin. You can get a 32-oz bottle of 70% isopropyl alcohol at Target for under $3.\n          - button \"1 more reply\":\n            - generic: \"1\"\n            - text: more reply\n        - 'article \"Comment thread level 2: Reply from Adept_Guava_9390 5 years ago\"':\n          - generic \"Adept_Guava_9390's profile --- avatar Adept_Guava_9390's profile 5y ago\":\n            - link \"Adept_Guava_9390's profile --- avatar\":\n              - /url: https://www.reddit.com/user/Adept_Guava_9390/\n              - img \"u/Adept_Guava_9390 avatar\"\n            - link \"Adept_Guava_9390's profile\":\n              - /url: https://www.reddit.com/user/Adept_Guava_9390/\n              - generic: Adept_Guava_9390\n            - generic: •\n            - link \"5y ago\":\n              - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i16h6zd/\n              - time: 5y ago\n          - paragraph: I agree with others that it would be best to just invest in a new bottle without glycerin. I don’t have personal experience with this, but my mind is going into overdrive envisioning your plants loving the hit of sugar for a couple of days and then a swarm of new pests being drawn to this poor plant and establishing a new home there.\n          - paragraph: But maybe just my overactive imagination…\n    - article \"Comment from somedumbkid1 5 years ago\":\n      - generic \"somedumbkid1's profile --- avatar somedumbkid1's profile 5y ago\":\n        - link \"somedumbkid1's profile --- avatar\":\n          - /url: https://www.reddit.com/user/somedumbkid1/\n        - link \"somedumbkid1's profile\":\n          - /url: https://www.reddit.com/user/somedumbkid1/\n          - generic: somedumbkid1\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i147i88/\n          - time: 5y ago\n      - paragraph:\n        - text: It works really well. Typically it takes more than one appplication. If you do it every 3-5 days for about 3 weeks to a month it\n        - emphasis: can\n        - text: knock out most soft-bodied pests. Doesn't work quite as well on\n        - link \"armored scale\":\n          - /url: /search/?q=armored+scale+plant+pest+rubbing+alcohol&cId=92f95d8c-34c9-4fae-a001-c7aa52cd21a9&iId=756404fd-3f8a-4aea-8056-d46d7a7003a9\n          - text: armored scale\n        - text: . But manual removal of the mother scale with a qtip soaked in rubbing alcohol followed by a quick spray of where the scale was as well as a spray of the underside of the scale does the trick pretty well. Scale carries their babies between their belly and the leaf in case you were wondering why you gotta do the spraying after you get the little bugger.\n      - paragraph: I typically dilute to half and half or evem 1/3 alcohol to water bc I want the alcohol to last longer lol.\n    - article \"Comment from TBDID 5 years ago\":\n      - generic \"TBDID's profile --- avatar TBDID's profile 5y ago\":\n        - link \"TBDID's profile --- avatar\":\n          - /url: https://www.reddit.com/user/TBDID/\n          - img \"u/TBDID avatar\"\n        - link \"TBDID's profile\":\n          - /url: https://www.reddit.com/user/TBDID/\n          - generic: TBDID\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i14h0cv/\n          - time: 5y ago\n      - paragraph: It's awesome, but always do a test leaf 24 hrs before a full spray!\n      - paragraph:\n        - link \"String of pearls\":\n          - /url: /search/?q=String+of+pearls+plant+care+rubbing+alcohol&cId=b4e41b7a-bd64-4f43-99fe-d584e25710a8&iId=ceb84a0a-5097-442f-9800-0187ed6d4cde\n          - text: String of pearls\n        - text: is very hardy so it's fine, but things with finer, thinner leaves can react badly and die off if sprayed with isopropyl alcohol, especially things like ferns and delicate tropicals.\n    - article \"Comment from NeroBoBero 5 years ago\":\n      - generic \"NeroBoBero's profile --- avatar NeroBoBero's profile 5y ago\":\n        - link \"NeroBoBero's profile --- avatar\":\n          - /url: https://www.reddit.com/user/NeroBoBero/\n          - img \"u/NeroBoBero avatar\"\n        - link \"NeroBoBero's profile\":\n          - /url: https://www.reddit.com/user/NeroBoBero/\n          - generic: NeroBoBero\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i13thbf/\n          - time: 5y ago\n      - paragraph: Alcohol can also leave spots on waxy succulent leaves.\n    - article \"Comment from R0amingGn0me 5 years ago\":\n      - generic \"R0amingGn0me's profile --- avatar R0amingGn0me's profile 5y ago\":\n        - link \"R0amingGn0me's profile --- avatar\":\n          - /url: https://www.reddit.com/user/R0amingGn0me/\n        - link \"R0amingGn0me's profile\":\n          - /url: https://www.reddit.com/user/R0amingGn0me/\n          - generic: R0amingGn0me\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i160x91/\n          - time: 5y ago\n      - paragraph: Food grade Diatomaceous earth works for those suckers too. Just be aware that the DE will also kill things like lady bugs.\n      - paragraph: I also use a spray bottle with a mix of water, rubbing alcohol and a couple drops of dawn dish soap and then get a small paint brush with that mixture on it to wipe between the crevices that I can't reach or need a little extra help.\n    - article \"Comment from ReganRocksYourSuccs 5 years ago\":\n      - generic \"ReganRocksYourSuccs's profile --- avatar ReganRocksYourSuccs's profile 5y ago\":\n        - link \"ReganRocksYourSuccs's profile --- avatar\":\n          - /url: https://www.reddit.com/user/ReganRocksYourSuccs/\n        - link \"ReganRocksYourSuccs's profile\":\n          - /url: https://www.reddit.com/user/ReganRocksYourSuccs/\n          - generic: ReganRocksYourSuccs\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i16sbbq/\n          - time: 5y ago\n      - paragraph: This is all I really use for pests. Spray with clean water after, I’ve got my two trusty labeled bottles and a computer duster spray thing to help dry them off/clear the rosettes out after haha"
+      }
+    ],
+    "advice": "  - paragraph: I’ve only sprayed my string of pearls that was infested with a TON of aphids and spider mites three times in the last few days with rubbing alcohol, and now they’re all gone?? The webs and damage are still there obviously, but I haven’t seen any actual bugs all day\n\n      - paragraph: well, your plants can also burn if left in the sun with alcohol on their leaves\n      - 'article \"Comment thread level 1: Reply from rosemaryfrog 5 years ago\"':\n        - generic \"rosemaryfrog's profile --- avatar rosemaryfrog's profile 5y ago\":\n          - link \"rosemaryfrog's profile --- avatar\":\n            - /url: https://www.reddit.com/user/rosemaryfrog/\n          - link \"rosemaryfrog's profile\":\n            - /url: https://www.reddit.com/user/rosemaryfrog/\n            - generic: rosemaryfrog\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"5y ago\":\n            - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i13ni5q/\n            - time: 5y ago\n        - paragraph: Yeah, I haven’t left it outside yet because I’m afraid of that happening lol- but I’ll try putting it out once it’s fully healed\n      - 'article \"Comment thread level 1: Reply from pterofactyl 5 years ago\"':\n        - generic \"pterofactyl's profile --- avatar pterofactyl's profile 5y ago\":\n          - link \"pterofactyl's profile --- avatar\":\n            - /url: https://www.reddit.com/user/pterofactyl/\n            - img \"u/pterofactyl avatar\"\n          - link \"pterofactyl's profile\":\n            - /url: https://www.reddit.com/user/pterofactyl/\n            - generic: pterofactyl\n          - generic: •\n          - link \"5y ago\":\n            - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i14d9pn/\n            - time: 5y ago\n        - paragraph: It evaporates quite quickly, no? On leaves that rely on waxy coatings, sure. But the alcohol shouldn’t stick around long enough to “burn” the leaf\n        - 'article \"Comment thread level 2: Reply from ChillingEating527 5 years ago\"':\n          - generic \"ChillingEating527's profile --- avatar ChillingEating527's profile 5y ago\":\n            - link \"ChillingEating527's profile --- avatar\":\n              - /url: https://www.reddit.com/user/ChillingEating527/\n            - link \"ChillingEating527's profile\":\n              - /url: https://www.reddit.com/user/ChillingEating527/\n              - generic: ChillingEating527\n            - generic: •\n            - link \"5y ago\":\n              - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i14eygw/\n              - time: 5y ago\n          - paragraph: I thought so too, but my Echeverias got burnt afterward so idk anymore lol\n          - button \"3 more replies\":\n            - generic: \"3\"\n            - text: more replies\n    - article \"Comment from _forward_slash_s 5 years ago\":\n      - generic \"_forward_slash_s's profile --- avatar _forward_slash_s's profile 5y ago\":\n        - link \"_forward_slash_s's profile --- avatar\":\n          - /url: https://www.reddit.com/user/_forward_slash_s/\n        - link \"_forward_slash_s's profile\":\n          - /url: https://www.reddit.com/user/_forward_slash_s/\n          - generic: _forward_slash_s\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i13p9gh/\n          - time: 5y ago\n      - paragraph:\n        - text: Rubbing alcohol also works really well on\n        - link \"mealybugs\":\n          - /url: /search/?q=mealybugs+succulents+rubbing+alcohol&cId=2460a7b2-cac1-489a-85e6-1ec82def2f91&iId=a795d241-f312-4ced-9175-1b3b31a2cfb1\n          - text: mealybugs\n        - text: . Anytime I bring a new plant home, I spray it with rubbing alcohol and inspect it prior to repotting it.\n\n          - paragraph: I don’t dilute it at all. Just buy 70% isopropyl alcohol from the store and use that. I know it may seem as though you have to dilute it with the mention of 70%, but that’s not the case. Everything I’ve read says to use 70% and not 90%.\n\n        - paragraph: I've got some 70% rubbing alcohol that also contains glycerin. Anybody know if this might be an issue? A quick Google shows it has a high boiling point so it probably doesn't evaporate off with the alcohol at a high rate...\n        - 'article \"Comment thread level 2: Reply from _forward_slash_s 5 years ago\"':\n          - generic \"_forward_slash_s's profile --- avatar _forward_slash_s's profile 5y ago\":\n            - link \"_forward_slash_s's profile --- avatar\":\n              - /url: https://www.reddit.com/user/_forward_slash_s/\n            - link \"_forward_slash_s's profile\":\n              - /url: https://www.reddit.com/user/_forward_slash_s/\n              - generic: _forward_slash_s\n            - generic: •\n            - link \"5y ago\":\n              - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i159ccx/\n              - time: 5y ago\n          - paragraph: I don’t have experience with that, but you could always test it on a leaf of a few succulents (because some succulents are more sensitive than others) to see if that does anything.\n          - paragraph: Or, just to be safe, it may be worth buying a new bottle without glycerin. You can get a 32-oz bottle of 70% isopropyl alcohol at Target for under $3.\n          - button \"1 more reply\":\n            - generic: \"1\"\n            - text: more reply\n        - 'article \"Comment thread level 2: Reply from Adept_Guava_9390 5 years ago\"':\n          - generic \"Adept_Guava_9390's profile --- avatar Adept_Guava_9390's profile 5y ago\":\n            - link \"Adept_Guava_9390's profile --- avatar\":\n              - /url: https://www.reddit.com/user/Adept_Guava_9390/\n              - img \"u/Adept_Guava_9390 avatar\"\n            - link \"Adept_Guava_9390's profile\":\n              - /url: https://www.reddit.com/user/Adept_Guava_9390/\n              - generic: Adept_Guava_9390\n            - generic: •\n            - link \"5y ago\":\n              - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i16h6zd/\n              - time: 5y ago\n          - paragraph: I agree with others that it would be best to just invest in a new bottle without glycerin. I don’t have personal experience with this, but my mind is going into overdrive envisioning your plants loving the hit of sugar for a couple of days and then a swarm of new pests being drawn to this poor plant and establishing a new home there.\n          - paragraph: But maybe just my overactive imagination…\n    - article \"Comment from somedumbkid1 5 years ago\":\n      - generic \"somedumbkid1's profile --- avatar somedumbkid1's profile 5y ago\":\n        - link \"somedumbkid1's profile --- avatar\":\n          - /url: https://www.reddit.com/user/somedumbkid1/\n        - link \"somedumbkid1's profile\":\n          - /url: https://www.reddit.com/user/somedumbkid1/\n          - generic: somedumbkid1\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i147i88/\n          - time: 5y ago\n      - paragraph:\n        - text: It works really well. Typically it takes more than one appplication. If you do it every 3-5 days for about 3 weeks to a month it\n        - emphasis: can\n        - text: knock out most soft-bodied pests. Doesn't work quite as well on\n        - link \"armored scale\":\n          - /url: /search/?q=armored+scale+plant+pest+rubbing+alcohol&cId=92f95d8c-34c9-4fae-a001-c7aa52cd21a9&iId=756404fd-3f8a-4aea-8056-d46d7a7003a9\n          - text: armored scale\n        - text: . But manual removal of the mother scale with a qtip soaked in rubbing alcohol followed by a quick spray of where the scale was as well as a spray of the underside of the scale does the trick pretty well. Scale carries their babies between their belly and the leaf in case you were wondering why you gotta do the spraying after you get the little bugger.\n      - paragraph: I typically dilute to half and half or evem 1/3 alcohol to water bc I want the alcohol to last longer lol.\n    - article \"Comment from TBDID 5 years ago\":\n      - generic \"TBDID's profile --- avatar TBDID's profile 5y ago\":\n        - link \"TBDID's profile --- avatar\":\n          - /url: https://www.reddit.com/user/TBDID/\n          - img \"u/TBDID avatar\"\n        - link \"TBDID's profile\":\n          - /url: https://www.reddit.com/user/TBDID/\n          - generic: TBDID\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i14h0cv/\n          - time: 5y ago\n      - paragraph: It's awesome, but always do a test leaf 24 hrs before a full spray!\n      - paragraph:\n        - link \"String of pearls\":\n          - /url: /search/?q=String+of+pearls+plant+care+rubbing+alcohol&cId=b4e41b7a-bd64-4f43-99fe-d584e25710a8&iId=ceb84a0a-5097-442f-9800-0187ed6d4cde\n          - text: String of pearls\n        - text: is very hardy so it's fine, but things with finer, thinner leaves can react badly and die off if sprayed with isopropyl alcohol, especially things like ferns and delicate tropicals.\n    - article \"Comment from NeroBoBero 5 years ago\":\n      - generic \"NeroBoBero's profile --- avatar NeroBoBero's profile 5y ago\":\n        - link \"NeroBoBero's profile --- avatar\":\n          - /url: https://www.reddit.com/user/NeroBoBero/\n          - img \"u/NeroBoBero avatar\"\n        - link \"NeroBoBero's profile\":\n          - /url: https://www.reddit.com/user/NeroBoBero/\n          - generic: NeroBoBero\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i13thbf/\n          - time: 5y ago\n      - paragraph: Alcohol can also leave spots on waxy succulent leaves.\n    - article \"Comment from R0amingGn0me 5 years ago\":\n      - generic \"R0amingGn0me's profile --- avatar R0amingGn0me's profile 5y ago\":\n        - link \"R0amingGn0me's profile --- avatar\":\n          - /url: https://www.reddit.com/user/R0amingGn0me/\n        - link \"R0amingGn0me's profile\":\n          - /url: https://www.reddit.com/user/R0amingGn0me/\n          - generic: R0amingGn0me\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i160x91/\n          - time: 5y ago\n      - paragraph: Food grade Diatomaceous earth works for those suckers too. Just be aware that the DE will also kill things like lady bugs.\n      - paragraph: I also use a spray bottle with a mix of water, rubbing alcohol and a couple drops of dawn dish soap and then get a small paint brush with that mixture on it to wipe between the crevices that I can't reach or need a little extra help.\n    - article \"Comment from ReganRocksYourSuccs 5 years ago\":\n      - generic \"ReganRocksYourSuccs's profile --- avatar ReganRocksYourSuccs's profile 5y ago\":\n        - link \"ReganRocksYourSuccs's profile --- avatar\":\n          - /url: https://www.reddit.com/user/ReganRocksYourSuccs/\n        - link \"ReganRocksYourSuccs's profile\":\n          - /url: https://www.reddit.com/user/ReganRocksYourSuccs/\n          - generic: ReganRocksYourSuccs\n        - generic: •\n        - link \"5y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/tgq4le/comment/i16sbbq/\n          - time: 5y ago\n      - paragraph: This is all I really use for pests. Spray with clean water after, I’ve got my two trusty labeled bottles and a computer duster spray thing to help dry them off/clear the rosettes out after haha",
+    "reason": "First accessible alcohol pest-treatment thread; retain relevant alcohol/scale removal alternatives and warnings, excluding off-topic flying-gnat/fruit-fly/home advice.",
+    "frozen_at": "2026-10-29T05:40:00.616715+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:45:11.740605+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

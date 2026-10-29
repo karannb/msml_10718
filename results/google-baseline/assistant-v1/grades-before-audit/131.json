@@ -1,0 +1,179 @@
+{
+  "reference_action": "OP explicitly repotted in LESS-draining soil and reported improvement. Fertilizing and removing Kalanchoe were suggested, not confirmed; do not count them alone as successful-action retrieval.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Explicitly avoids moisture-retentive potting soil and recommends gritty mix. Larger plastic pot is a different retention mechanism; pulling companions is unconfirmed.",
+      "evidence": [
+        "131-source-01.txt"
+      ],
+      "url": "https://www.instructables.com/How-to-Care-for-Mother-of-Thousands-or-Millions/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Sun acclimation and container size/neglect only; no less-draining soil.",
+      "evidence": [
+        "131-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1621131898400259/posts/2483632535483520/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Succulent mix and optional peat/perlite for separate plantlets do not recommend less-draining repot for established stressed plants.",
+      "evidence": [
+        "131-source-03.txt"
+      ],
+      "url": "https://planetdesert.com/blogs/news/mother-of-thousands-plants-care?srsltid=AYCX9vJuSQihwF68tvhkAb-WRtd3PNWes57wNFHhkJvn84aS0fBJETGV"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Regular potting soil with optional 25% perlite retrieves a more retentive substrate alternative to cactus soil plus perlite, albeit for the wrong plant (Mother of Thousands). Partial action match, not correct diagnosis.",
+      "evidence": [
+        "video-audit-nhbdvgLrofY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=nhbdvgLrofY"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Separate/remove babies and succulent-care discussion; no replacement with less-draining soil.",
+      "evidence": [
+        "131-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/succulents/comments/1d6qtw6/care_tips_for_a_mother_of_thousands/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot into gritty quick-draining succulent mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check pot weight and water to runoff only after complete drying",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Provide strong outdoor or south-window light",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place away from pets, children and livestock",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Chop and replant top if overly tall",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pinch dead or damaged leaves",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move crowded plants to larger plastic pot",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Pull unwanted plantlets and bag promptly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Focuses on companion Kalanchoe rather than Talinum and recommends avoiding retentive soil, the opposite of the confirmed successful change. Bigger plastic container is not the documented substrate correction; further drying can worsen actual stress."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Avoid regular potting soil” and “dry out completely” reinforce the overly dry substrate regime responsible for this Talinum problem. Toxicity/containment cautions are useful for the companion plant but do not make that transferred care safe for the main plant."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The guide is about Mother of Thousands, which the question identifies as a stowaway. It fails to diagnose the Jewels of Opar and reverses the confirmed substrate change."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Pot weight and runoff are clear watering cues, and the article gives concrete pot-size examples. Many optional care/removal/propagation tasks are irrelevant to the main recovery question and exceed the simple-task budget."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 131,
+  "thread_id": "1vzdc7p",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 131,
+    "thread_id": "1vzdc7p",
+    "selected_rank": 1,
+    "source_url": "https://www.instructables.com/How-to-Care-for-Mother-of-Thousands-or-Millions/",
+    "spans": [
+      {
+        "file": "131-source-01.txt",
+        "start_line": 83,
+        "end_line": 152,
+        "sha256": "55606d6dbe9cb1188fb0c7caee12c152f957536f9c2370decca2d5e0200afa21",
+        "text": "      - paragraph: Mother of Thousands and Mother of Millions are very similar plants and often confused for one another, so I figure it's best to offer care for both in the same instructable. These plants can be found under the Kalanchoe AND Bryophyllum name, though I tend to refer to them as Kalanchoes because I knew them that way first.\n      - paragraph: The plants I'm covering in this instructable are Kalanchoe daigremontiana (wide leaves with toothy looking edges) and Kalanchoe delagoense (tube shaped leaves), though there are loads of other Kalachoe/Bryophyllum types that can be cared for in the same way.\n      - paragraph: \"Important to note: Mother of Thousands plants are typically considered a weed and are very invasive where they grow outside easily. If you do choose to grow this plant, you may want to keep it in a container so it doesn't take over your whole garden. :)\"\n      - paragraph: Keep on reading to learn how to care for your Mother of Thousands and Millions plants!\n      - 'heading \"Step 1: What Type of Soil Should I Use for Mother of Thousands?\" [level=2]'\n      - link \"What Type of Soil Should I Use for Mother of Thousands?\":\n        - /url: https://content.instructables.com/F9T/SIOY/JNKLAXLW/F9TSIOYJNKLAXLW.jpg\n        - img \"What Type of Soil Should I Use for Mother of Thousands?\"\n      - paragraph:\n        - text: Mother of Thousands love a quick draining, gritty soil. I'm currently using\n        - link \"Black Gold cactus mix\":\n          - /url: http://a.co/d/aCLOJV0\n        - text: for my cacti and succulents - it contains pumice, perlite and sand which allows it to dry out quicker. I like this mix because I don't have to amend it with extra pumice, sand or rocks. :)\n      - paragraph: Make sure to avoid regular potting soil or mixes with loads of humus, loam or peat moss as these hold in moisture for much longer.\n      - 'heading \"Step 2: How Should I Water My Mother of Thousands?\" [level=2]'\n      - link \"How Should I Water My Mother of Thousands?\":\n        - /url: https://content.instructables.com/FQD/29D1/JNKLAZUA/FQD29D1JNKLAZUA.jpg\n        - img \"How Should I Water My Mother of Thousands?\"\n      - paragraph: Like all other succulents, Mother of Thousands love to dry out completely between waterings.\n      - paragraph: These plants are not as great as other about showing you that they need water, so I decide when they should be watered by the weight of the pot. If the pot feels heavy, there's still water in the soil. If the pot is super light, it's time to water!\n      - paragraph: I always water my Mother of Thousands until water runoff is achieved. This lets you know every part of the soil is wet and the plant will be able to drink the most efficiently. Once it's watered, I put the pot back on a dry saucer and set it in the windowsill until it dries out completely again.\n      - paragraph:\n        - text: For more information on watering, please read my \"\n        - link \"How and When to Water Your Houseplants\":\n          - /url: https://www.instructables.com/id/How-and-When-to-Water-Your-Houseplants/\n        - text: \"\\\" instructable. It will answer all your questions!\"\n      - 'heading \"Step 3: How Much Light Does a Mother of Thousands Need?\" [level=2]'\n      - link \"How Much Light Does a Mother of Thousands Need?\":\n        - /url: https://content.instructables.com/F0P/YA28/JNKLB02D/F0PYA28JNKLB02D.jpg\n        - img \"How Much Light Does a Mother of Thousands Need?\"\n      - paragraph: ALL OF IT. These plants do best outside in warm climates. They thrive in hot, bright conditions. Because I live in northern Colorado, I keep mine inside in an east facing window.\n      - paragraph: Your best bet is to keep this plant in containers outside or in a southern window. East and west windows are next best for light. Northern facing windows won't offer enough light.\n      - paragraph: If your Mother of Thousands plant doesn't get enough light, it can become quite \"leggy\" - this essentially means the plant grows tall and spindly, with large space between leaves. It's not the end of the world, but a leggy plant is not the healthiest, meaning it will produce less pups and is not likely to bloom.\n      - 'heading \"Step 4: Is Mother of Thousands Poisonous or Toxic?\" [level=2]'\n      - link \"Is Mother of Thousands Poisonous or Toxic?\":\n        - /url: https://content.instructables.com/F5X/PGRV/JNKLB274/F5XPGRVJNKLB274.jpg\n        - img \"Is Mother of Thousands Poisonous or Toxic?\"\n      - paragraph: YES. Toxic allllll the way. Every single part of Mother of Thousands is toxic, even the tiny pups the leaves produce.\n      - paragraph: If you grow this plant, make sure it's in a place that is out of reach of pets and children. I always, always keep mine in a high windowsill away from my pets. If grown outside, make sure it's not in an area where livestock can get to it either - there are many cases of serious sickness in herds due to this plant.\n      - paragraph: If ingested, this plant can cause vomiting, diarrhea, and heart palpitations. I have also heard it can be fatal to pets and children, but have not seen a source to confirm that.\n      - paragraph: Regardless, be careful and don't put it in your mouth. ;)\n      - 'heading \"Step 5: How to Propagate Mother of Thousands\" [level=2]'\n      - link \"How to Propagate Mother of Thousands\":\n        - /url: https://content.instructables.com/FCX/J7D5/JNKLAURA/FCXJ7D5JNKLAURA.jpg\n        - img \"How to Propagate Mother of Thousands\"\n      - link \"How to Propagate Mother of Thousands\":\n        - /url: https://content.instructables.com/FUV/UPGV/JNKLAUTQ/FUVUPGVJNKLAUTQ.jpg\n        - img \"How to Propagate Mother of Thousands\"\n      - paragraph: \"Both the best and worst thing about this plant: it produces tons of babies. Unlike most succulents, the babies do not form at the base of the plant. Instead, small \\\"plantlets\\\" form along the edges of the leaves.\"\n      - paragraph: These plantlets grow roots and fall off the mother plant into the soil, creating an unending supply of Mother of Thousands plants. (Hence why MoT is considered invasive and is even restricted in some areas.)\n      - paragraph:\n        - text: If your Mother of Thousands plant gets too tall, you can chop off the top and plant that in soil to restart the plant. I'm planning to do that to my biggest Kalanchoe daigremontiana when I repot. Check out \"\n        - link \"How to Take and Grow Succulents From Cuttings\":\n          - /url: https://www.instructables.com/id/How-to-Take-Grow-Succulents-From-Cuttings/\n        - text: \"\\\" to learn how that process works.\"\n      - 'heading \"Step 6: Other Care Tips for Mother of Thousands\" [level=2]'\n      - link \"Other Care Tips for Mother of Thousands\":\n        - /url: https://content.instructables.com/FNB/2E8M/JNKLB37X/FNB2E8MJNKLB37X.jpg\n        - img \"Other Care Tips for Mother of Thousands\"\n      - paragraph:\n        - strong: Pinch off Dead and Damaged Leaves\n      - paragraph: In my experience, Mother of Thousands is very quick to self-prune when left without water for too long or if a leaf is damaged. Might as well help it along and pinch off those dead (or soon to be dead!) leaves! Only healthy leaves produce plantlets, so there's no reason to keep around sickly ones.\n      - paragraph:\n        - strong: Choosing the Right Pot for Your Plant\n      - paragraph: When I only had one of each of the Mother of Thousands plants, I kept them together in a four inch terra cotta pot. As the plants grew and produced babies, I repotted them into a six inch plastic pot so they'd have a little more water for longer. (I noticed they were getting thirsty very quickly with lots of them in one terra cotta pot!)\n      - paragraph:\n        - text: Check out my instructable \"\n        - link \"How to Choose the Right Planter or Pot for Your Plant\":\n          - /url: https://www.instructables.com/id/How-to-Choose-the-Right-Pot-or-Planter-for-a-Plant/\n        - text: \"\\\" for more information.\""
+      },
+      {
+        "file": "131-source-01.txt",
+        "start_line": 243,
+        "end_line": 247,
+        "sha256": "55606d6dbe9cb1188fb0c7caee12c152f957536f9c2370decca2d5e0200afa21",
+        "text": "      - text: EXTREMELY invasive!!\n      - text: I picked a tiny sample from a friends succulent garden and now a year later, I literally have thousands of these plants. I began pulling them up and throwing them away and anytime I let a leaf get away, within just a few months, there are dozens of baby’s sprouting. They are so bad that Anytime I pick them now, I immediately put them in a plastic bag. They even started growing in the cracks of the sidewalk where I keep my garbage cans.\n      - text: If germs could be spread through this plant, we would all be in serious trouble!\n      - text: These days, When someone offers me a plant sample, I look it up first!!!\n      - text: Hope this helps someone! Wish I had seen a post like this a year ago!"
+      },
+      {
+        "file": "131-source-01.txt",
+        "start_line": 260,
+        "end_line": 260,
+        "sha256": "55606d6dbe9cb1188fb0c7caee12c152f957536f9c2370decca2d5e0200afa21",
+        "text": "    - paragraph: Consider a larger pot.... they grow to the size of the pot!"
+      }
+    ],
+    "advice": "      - paragraph: Mother of Thousands and Mother of Millions are very similar plants and often confused for one another, so I figure it's best to offer care for both in the same instructable. These plants can be found under the Kalanchoe AND Bryophyllum name, though I tend to refer to them as Kalanchoes because I knew them that way first.\n      - paragraph: The plants I'm covering in this instructable are Kalanchoe daigremontiana (wide leaves with toothy looking edges) and Kalanchoe delagoense (tube shaped leaves), though there are loads of other Kalachoe/Bryophyllum types that can be cared for in the same way.\n      - paragraph: \"Important to note: Mother of Thousands plants are typically considered a weed and are very invasive where they grow outside easily. If you do choose to grow this plant, you may want to keep it in a container so it doesn't take over your whole garden. :)\"\n      - paragraph: Keep on reading to learn how to care for your Mother of Thousands and Millions plants!\n      - 'heading \"Step 1: What Type of Soil Should I Use for Mother of Thousands?\" [level=2]'\n      - link \"What Type of Soil Should I Use for Mother of Thousands?\":\n        - /url: https://content.instructables.com/F9T/SIOY/JNKLAXLW/F9TSIOYJNKLAXLW.jpg\n        - img \"What Type of Soil Should I Use for Mother of Thousands?\"\n      - paragraph:\n        - text: Mother of Thousands love a quick draining, gritty soil. I'm currently using\n        - link \"Black Gold cactus mix\":\n          - /url: http://a.co/d/aCLOJV0\n        - text: for my cacti and succulents - it contains pumice, perlite and sand which allows it to dry out quicker. I like this mix because I don't have to amend it with extra pumice, sand or rocks. :)\n      - paragraph: Make sure to avoid regular potting soil or mixes with loads of humus, loam or peat moss as these hold in moisture for much longer.\n      - 'heading \"Step 2: How Should I Water My Mother of Thousands?\" [level=2]'\n      - link \"How Should I Water My Mother of Thousands?\":\n        - /url: https://content.instructables.com/FQD/29D1/JNKLAZUA/FQD29D1JNKLAZUA.jpg\n        - img \"How Should I Water My Mother of Thousands?\"\n      - paragraph: Like all other succulents, Mother of Thousands love to dry out completely between waterings.\n      - paragraph: These plants are not as great as other about showing you that they need water, so I decide when they should be watered by the weight of the pot. If the pot feels heavy, there's still water in the soil. If the pot is super light, it's time to water!\n      - paragraph: I always water my Mother of Thousands until water runoff is achieved. This lets you know every part of the soil is wet and the plant will be able to drink the most efficiently. Once it's watered, I put the pot back on a dry saucer and set it in the windowsill until it dries out completely again.\n      - paragraph:\n        - text: For more information on watering, please read my \"\n        - link \"How and When to Water Your Houseplants\":\n          - /url: https://www.instructables.com/id/How-and-When-to-Water-Your-Houseplants/\n        - text: \"\\\" instructable. It will answer all your questions!\"\n      - 'heading \"Step 3: How Much Light Does a Mother of Thousands Need?\" [level=2]'\n      - link \"How Much Light Does a Mother of Thousands Need?\":\n        - /url: https://content.instructables.com/F0P/YA28/JNKLB02D/F0PYA28JNKLB02D.jpg\n        - img \"How Much Light Does a Mother of Thousands Need?\"\n      - paragraph: ALL OF IT. These plants do best outside in warm climates. They thrive in hot, bright conditions. Because I live in northern Colorado, I keep mine inside in an east facing window.\n      - paragraph: Your best bet is to keep this plant in containers outside or in a southern window. East and west windows are next best for light. Northern facing windows won't offer enough light.\n      - paragraph: If your Mother of Thousands plant doesn't get enough light, it can become quite \"leggy\" - this essentially means the plant grows tall and spindly, with large space between leaves. It's not the end of the world, but a leggy plant is not the healthiest, meaning it will produce less pups and is not likely to bloom.\n      - 'heading \"Step 4: Is Mother of Thousands Poisonous or Toxic?\" [level=2]'\n      - link \"Is Mother of Thousands Poisonous or Toxic?\":\n        - /url: https://content.instructables.com/F5X/PGRV/JNKLB274/F5XPGRVJNKLB274.jpg\n        - img \"Is Mother of Thousands Poisonous or Toxic?\"\n      - paragraph: YES. Toxic allllll the way. Every single part of Mother of Thousands is toxic, even the tiny pups the leaves produce.\n      - paragraph: If you grow this plant, make sure it's in a place that is out of reach of pets and children. I always, always keep mine in a high windowsill away from my pets. If grown outside, make sure it's not in an area where livestock can get to it either - there are many cases of serious sickness in herds due to this plant.\n      - paragraph: If ingested, this plant can cause vomiting, diarrhea, and heart palpitations. I have also heard it can be fatal to pets and children, but have not seen a source to confirm that.\n      - paragraph: Regardless, be careful and don't put it in your mouth. ;)\n      - 'heading \"Step 5: How to Propagate Mother of Thousands\" [level=2]'\n      - link \"How to Propagate Mother of Thousands\":\n        - /url: https://content.instructables.com/FCX/J7D5/JNKLAURA/FCXJ7D5JNKLAURA.jpg\n        - img \"How to Propagate Mother of Thousands\"\n      - link \"How to Propagate Mother of Thousands\":\n        - /url: https://content.instructables.com/FUV/UPGV/JNKLAUTQ/FUVUPGVJNKLAUTQ.jpg\n        - img \"How to Propagate Mother of Thousands\"\n      - paragraph: \"Both the best and worst thing about this plant: it produces tons of babies. Unlike most succulents, the babies do not form at the base of the plant. Instead, small \\\"plantlets\\\" form along the edges of the leaves.\"\n      - paragraph: These plantlets grow roots and fall off the mother plant into the soil, creating an unending supply of Mother of Thousands plants. (Hence why MoT is considered invasive and is even restricted in some areas.)\n      - paragraph:\n        - text: If your Mother of Thousands plant gets too tall, you can chop off the top and plant that in soil to restart the plant. I'm planning to do that to my biggest Kalanchoe daigremontiana when I repot. Check out \"\n        - link \"How to Take and Grow Succulents From Cuttings\":\n          - /url: https://www.instructables.com/id/How-to-Take-Grow-Succulents-From-Cuttings/\n        - text: \"\\\" to learn how that process works.\"\n      - 'heading \"Step 6: Other Care Tips for Mother of Thousands\" [level=2]'\n      - link \"Other Care Tips for Mother of Thousands\":\n        - /url: https://content.instructables.com/FNB/2E8M/JNKLB37X/FNB2E8MJNKLB37X.jpg\n        - img \"Other Care Tips for Mother of Thousands\"\n      - paragraph:\n        - strong: Pinch off Dead and Damaged Leaves\n      - paragraph: In my experience, Mother of Thousands is very quick to self-prune when left without water for too long or if a leaf is damaged. Might as well help it along and pinch off those dead (or soon to be dead!) leaves! Only healthy leaves produce plantlets, so there's no reason to keep around sickly ones.\n      - paragraph:\n        - strong: Choosing the Right Pot for Your Plant\n      - paragraph: When I only had one of each of the Mother of Thousands plants, I kept them together in a four inch terra cotta pot. As the plants grew and produced babies, I repotted them into a six inch plastic pot so they'd have a little more water for longer. (I noticed they were getting thirsty very quickly with lots of them in one terra cotta pot!)\n      - paragraph:\n        - text: Check out my instructable \"\n        - link \"How to Choose the Right Planter or Pot for Your Plant\":\n          - /url: https://www.instructables.com/id/How-to-Choose-the-Right-Pot-or-Planter-for-a-Plant/\n        - text: \"\\\" for more information.\"\n\n      - text: EXTREMELY invasive!!\n      - text: I picked a tiny sample from a friends succulent garden and now a year later, I literally have thousands of these plants. I began pulling them up and throwing them away and anytime I let a leaf get away, within just a few months, there are dozens of baby’s sprouting. They are so bad that Anytime I pick them now, I immediately put them in a plastic bag. They even started growing in the cracks of the sidewalk where I keep my garbage cans.\n      - text: If germs could be spread through this plant, we would all be in serious trouble!\n      - text: These days, When someone offers me a plant sample, I look it up first!!!\n      - text: Hope this helps someone! Wish I had seen a post like this a year ago!\n\n    - paragraph: Consider a larger pot.... they grow to the size of the pot!",
+    "reason": "First accessible plant-care result; covers companion Mother of Thousands, container size and removal/containment comment. Retain full substantive care and relevant comments.",
+    "frozen_at": "2026-10-29T05:49:05.549400+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:50:05.464477+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "reference_action": "Struggling Monstera: repot with root room and draining soil, more light, reposition coir pole/ties to support stem not petiole. OP later reports new shoot.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Later comments explicitly increase window light and change to aroid soil; initial pole answer alone misses existing tie placement.",
+      "evidence": [
+        "159-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/kv26c0/my_monstera_is_looking_really_droopy_and_floppy/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Adds coconut husk chunks for drainage and corrects buried stem; partial soil-action match.",
+      "evidence": [
+        "159-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/26654843417510451/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "0:53–1:41 brighter window and 2:17 drainage guidance; partial light match.",
+      "evidence": [
+        "video-audit-IivqGuytYds-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=IivqGuytYds"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Video recovery did not yield readable instructions.",
+      "evidence": [
+        "video-audit-E2R9hOVYGQs.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=E2R9hOVYGQs"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "2:09 relocate out of dark corner; 2:54 repot in larger draining pot with perlite/bark.",
+      "evidence": [
+        "159-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=gxI3oQR4F7g"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Make coir-covered wooden support",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Tie plant to support",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Supports climbing but plant already has coir pole. Does not identify petiole tie error, specify stem attachment, or give light/repot remedy."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Tie the plant to the stake” omits which part to attach. In this photo the petiole is already tied, so the answer could perpetuate restrictive support."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "“Get it a moss pole” overlooks the pole already present. Support is relevant, but the actionable distinction between stem and leaf stalk and the other recovery needs are missing."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Coco coir, wooden stake and twine are ordinary materials with a clear assembly description. Placement on the plant is underspecified, though construction itself is easy."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 159,
+  "thread_id": "1khq8et",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 159,
+    "thread_id": "1khq8et",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/plantclinic/comments/kv26c0/my_monstera_is_looking_really_droopy_and_floppy/",
+    "spans": [
+      {
+        "file": "159-source-01.txt",
+        "start_line": 135,
+        "end_line": 140,
+        "sha256": "31b5eff8ce87cad1bd4149c13b05bff624e3a13a2df84efbae2d63c2e265cf20",
+        "text": "      - paragraph:\n        - text: Get it a\n        - link \"moss pole\":\n          - /url: /search/?q=monstera+moss+pole&cId=ec70a2e5-228c-4a6a-ab1a-1e16aaa4cec0&iId=41f56210-4d64-4f86-b3e6-7204fcbc792f\n          - text: moss pole\n        - text: \"! They are much happier with a more secure place to attach too. They can be DIY’d fairly easily as well. I like to wrap coco coir around a wooden stake and then use twine to secure the two together and to tie the plant to the stake, for example.\""
+      }
+    ],
+    "advice": "      - paragraph:\n        - text: Get it a\n        - link \"moss pole\":\n          - /url: /search/?q=monstera+moss+pole&cId=ec70a2e5-228c-4a6a-ab1a-1e16aaa4cec0&iId=41f56210-4d64-4f86-b3e6-7204fcbc792f\n          - text: moss pole\n        - text: \"! They are much happier with a more secure place to attach too. They can be DIY’d fairly easily as well. I like to wrap coco coir around a wooden stake and then use twine to secure the two together and to tie the plant to the stake, for example.\"",
+    "reason": "First substantive drooping-Monstera answer recommends support; preserve this imperfect answer rather than selecting a later better one.",
+    "frozen_at": "2026-10-29T06:15:13.917752+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:16:07.761032+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

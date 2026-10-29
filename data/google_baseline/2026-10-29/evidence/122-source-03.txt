@@ -1,0 +1,115 @@
+- banner:
+  - button "Guide":
+  - link "YouTube Home":
+    - /url: /
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - search:
+    - combobox "Search" [expanded]
+    - button "Search":
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DkGlztiKCdzA%2526vl%253Den%2526themeRefresh%253D1&hl=en&ec=65620
+    - generic: Sign in
+- main:
+  - complementary:
+    - generic "YouTube Video Player" [active]:
+      - button "Play":
+      - slider "Seek slider" [disabled]
+      - slider "Click or scroll the panel for the precise seeking." [disabled]
+      - button "Play (k)":
+      - button "Mute (m)":
+      - slider "Volume"
+      - button "0 Minutes 0 Seconds of 0 Minutes 10 Seconds": 0:00 / 0:10
+      - button "Subtitles/closed captions unavailable":
+      - button "Settings":
+      - button "Theater mode (t)":
+      - button "Full screen (f)":
+  - heading "I Tested Full Strength Alcohol So You Don't Have To" [level=1]
+  - link "Techplant":
+    - /url: /@TechplantChannel
+    - img "Techplant"
+  - generic "Techplant":
+    - link "Techplant":
+      - /url: /@TechplantChannel
+  - generic "242 thousand subscribers": 242K subscribers
+  - button "Subscribe to Techplant.":
+    - generic: Subscribe
+  - button "like this video along with 591 other people":
+    - generic: "591"
+  - button "Dislike this video"
+  - button "Share":
+    - generic: Share
+  - button "Save to playlist":
+    - generic: Save
+  - button "More actions"
+  - generic: 13K views 1 year ago
+  - tooltip "tooltip"
+  - generic: Rubbing alcohol works for plant pests, but how strong should it be. I test out rubbing alcohol on my plants to see if it damages them.
+  - generic: …
+  - button "...more"
+  - text: •
+  - link "The Grounding Co":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_2ZNo7HiaqOmLqSIrr4Pw8uSCeWZqrOKAdqe1sXnE2QQASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYnYtaoqqQLyOW1Wj6ynPqgDBMgDCqoEqgNP0NIf7WwlBlgpgZeQOXH3OkMs85rgEC71LRrgT5wy57qsh2hovYjqIAZO9Zgjjg4Jrbio3y7A11nXtaatvSrPuOQtUqTVvcdehlNMPDct_eRnR2QOEAXGCfOBiSEvc6AwxYcWaECxDlfhRyW9N4_bSA9r64GZlI3F_d3tsQrmNypZRVBqVjc055t6WZXhGpdzfBhVpOhotl3n5LSfL_Rf1iKo6hrggI_jnaKZw04AwoF4rL0zKhXtF6A646viY_wFYFEI0iKuZIfzIwHJvH1x1OTzMAcRlxs9K-95q-LimHozEZxWCrkavbkoAewXwWCCf4BsFTrIDOeqUlvjrZNghUEBTD1e8U5pvLLKwSSBwvlP7CaawtVT89h6CIWV9SYf5zPb1x0Z_PA7n867bXyCUgSilrubYmLcWX1AM5bTPjQeCiMHTHKIdjJjV2XYN8vPGtsyC2RSrcEMmsOiKm1J1LFaC57T5tFfIVeuVAVuqdccN2NSpSr56xZl00w90_JJ0MN5tlxhNnfzJxl6pG2Zok3avE8uPFCk4TVqZeGCFctbSzVI1ouwabOIBY7v3pRTkgUKCBNoAnjs3qK8BaAGpAGAB4mQhooFkAcEqAfq7rECqAelz7ECqAfnnbECqAfonbECqAf507ECqAfJ2rECqAep4LECqAeo0huoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHvOqxAqgH_K-xAqgHvtmxAqgHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxArAIDNIILgiAQRABGF4yAoICOg-AY4DAgICAgICAAqqAgBhI2aDSNVAUWKjYw5iZ3pcDYAHyCB9jYS15dC1ob3N0LXB1Yi0xNjgwNTg4OTkwNzkwNjE2mgk-aHR0cHM6Ly90aGVncm91bmRpbmcuY28vcHJvZHVjdHMvdGhlLXRlcnJhLWdyb3VuZGluZy1iZWQtc2hlZXSxCW7vTM80mxC2yAkAmAsBoQspDkzHjolkeLoLPggBEAUYFiAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIJugMJdmlhdGx6YWFh0AsS0gwCEAHaDCUKChDA1vqVoZ_XngcSAgEDGg0Yju_elFMg_sak04YFQAFKAhAfmg0BEqoNAlVTyA0B0g3MAWh0dHBzOi8vdGhlZ3JvdW5kaW5nLmNvL3Byb2R1Y3RzL3RoZS10ZXJyYS1ncm91bmRpbmctYmVkLXNoZWV0P3R3X3NvdXJjZT1nb29nbGUmdHdfYWRpZD0mdHdfY2FtcGFpZ249MjEwMDMyNTEyMTUmdHdfa3dkaWQ9JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjMyMzY0MDIwNiZnYnJhaWQ9MEFBQUFBcVZOYkFuSDBEb29IQnlEUjdUNkZBcllTc05SObAOzOLElhi4E____________wGIFASwFAHAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXaaJA3W45lhW6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMI44PEmJnelwMVJITLAR3DpSQBEAEYASAAEgKyV_D_BwE&num=1&cid=CAASqwHkaFt0C2RBTvN_e4acB3KPCbhmst8rDvwzOi-TCZ5NxAyqyopodWnlgSXPAJV60fksmkVbbPzeNWbNW2ZeKZLVU2yJQ0UpGvII8f9Xb2e0S0L-BfaUKdqnFzxiwQ5BpRO9GSDoWmI0m0CkkW1TFhZnOH8lX8sG4pLIMC_i24YXQG_2Cfcur68oQ4CHBnDGDrG3bMClha_NDwYj3gosLWf6jbpkMi5NvcvOUsc&sig=AOD64_2vMIdGJtn23pEVwJlDV5d_oUN7qw&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Experience deeper, more restorative sleep with our innovative grounding bed sheets":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_2ZNo7HiaqOmLqSIrr4Pw8uSCeWZqrOKAdqe1sXnE2QQASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYnYtaoqqQLyOW1Wj6ynPqgDBMgDCqoEqgNP0NIf7WwlBlgpgZeQOXH3OkMs85rgEC71LRrgT5wy57qsh2hovYjqIAZO9Zgjjg4Jrbio3y7A11nXtaatvSrPuOQtUqTVvcdehlNMPDct_eRnR2QOEAXGCfOBiSEvc6AwxYcWaECxDlfhRyW9N4_bSA9r64GZlI3F_d3tsQrmNypZRVBqVjc055t6WZXhGpdzfBhVpOhotl3n5LSfL_Rf1iKo6hrggI_jnaKZw04AwoF4rL0zKhXtF6A646viY_wFYFEI0iKuZIfzIwHJvH1x1OTzMAcRlxs9K-95q-LimHozEZxWCrkavbkoAewXwWCCf4BsFTrIDOeqUlvjrZNghUEBTD1e8U5pvLLKwSSBwvlP7CaawtVT89h6CIWV9SYf5zPb1x0Z_PA7n867bXyCUgSilrubYmLcWX1AM5bTPjQeCiMHTHKIdjJjV2XYN8vPGtsyC2RSrcEMmsOiKm1J1LFaC57T5tFfIVeuVAVuqdccN2NSpSr56xZl00w90_JJ0MN5tlxhNnfzJxl6pG2Zok3avE8uPFCk4TVqZeGCFctbSzVI1ouwabOIBY7v3pRTkgUKCBNoAnjs3qK8BaAGpAGAB4mQhooFkAcEqAfq7rECqAelz7ECqAfnnbECqAfonbECqAf507ECqAfJ2rECqAep4LECqAeo0huoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHvOqxAqgH_K-xAqgHvtmxAqgHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxArAIDNIILgiAQRABGF4yAoICOg-AY4DAgICAgICAAqqAgBhI2aDSNVAUWKjYw5iZ3pcDYAHyCB9jYS15dC1ob3N0LXB1Yi0xNjgwNTg4OTkwNzkwNjE2mgk-aHR0cHM6Ly90aGVncm91bmRpbmcuY28vcHJvZHVjdHMvdGhlLXRlcnJhLWdyb3VuZGluZy1iZWQtc2hlZXSxCW7vTM80mxC2yAkAmAsBoQspDkzHjolkeLoLPggBEAUYFiAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIJugMJdmlhdGx6YWFh0AsS0gwCEAHaDCUKChDA1vqVoZ_XngcSAgEDGg0Yju_elFMg_sak04YFQAFKAhAfmg0BEqoNAlVTyA0B0g3MAWh0dHBzOi8vdGhlZ3JvdW5kaW5nLmNvL3Byb2R1Y3RzL3RoZS10ZXJyYS1ncm91bmRpbmctYmVkLXNoZWV0P3R3X3NvdXJjZT1nb29nbGUmdHdfYWRpZD0mdHdfY2FtcGFpZ249MjEwMDMyNTEyMTUmdHdfa3dkaWQ9JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjMyMzY0MDIwNiZnYnJhaWQ9MEFBQUFBcVZOYkFuSDBEb29IQnlEUjdUNkZBcllTc05SObAOzOLElhi4E____________wGIFASwFAHAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXaaJA3W45lhW6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMI44PEmJnelwMVJITLAR3DpSQBEAEYASAAEgKyV_D_BwE&num=1&cid=CAASqwHkaFt0C2RBTvN_e4acB3KPCbhmst8rDvwzOi-TCZ5NxAyqyopodWnlgSXPAJV60fksmkVbbPzeNWbNW2ZeKZLVU2yJQ0UpGvII8f9Xb2e0S0L-BfaUKdqnFzxiwQ5BpRO9GSDoWmI0m0CkkW1TFhZnOH8lX8sG4pLIMC_i24YXQG_2Cfcur68oQ4CHBnDGDrG3bMClha_NDwYj3gosLWf6jbpkMi5NvcvOUsc&sig=AOD64_2vMIdGJtn23pEVwJlDV5d_oUN7qw&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - generic: Sponsored
+  - text: ·
+  - generic: The Grounding Co
+  - button "My Ad Center"
+  - link "Shop now":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_2ZNo7HiaqOmLqSIrr4Pw8uSCeWZqrOKAdqe1sXnE2QQASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYnYtaoqqQLyOW1Wj6ynPqgDBMgDCqoEqgNP0NIf7WwlBlgpgZeQOXH3OkMs85rgEC71LRrgT5wy57qsh2hovYjqIAZO9Zgjjg4Jrbio3y7A11nXtaatvSrPuOQtUqTVvcdehlNMPDct_eRnR2QOEAXGCfOBiSEvc6AwxYcWaECxDlfhRyW9N4_bSA9r64GZlI3F_d3tsQrmNypZRVBqVjc055t6WZXhGpdzfBhVpOhotl3n5LSfL_Rf1iKo6hrggI_jnaKZw04AwoF4rL0zKhXtF6A646viY_wFYFEI0iKuZIfzIwHJvH1x1OTzMAcRlxs9K-95q-LimHozEZxWCrkavbkoAewXwWCCf4BsFTrIDOeqUlvjrZNghUEBTD1e8U5pvLLKwSSBwvlP7CaawtVT89h6CIWV9SYf5zPb1x0Z_PA7n867bXyCUgSilrubYmLcWX1AM5bTPjQeCiMHTHKIdjJjV2XYN8vPGtsyC2RSrcEMmsOiKm1J1LFaC57T5tFfIVeuVAVuqdccN2NSpSr56xZl00w90_JJ0MN5tlxhNnfzJxl6pG2Zok3avE8uPFCk4TVqZeGCFctbSzVI1ouwabOIBY7v3pRTkgUKCBNoAnjs3qK8BaAGpAGAB4mQhooFkAcEqAfq7rECqAelz7ECqAfnnbECqAfonbECqAf507ECqAfJ2rECqAep4LECqAeo0huoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHvOqxAqgH_K-xAqgHvtmxAqgHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxArAIDNIILgiAQRABGF4yAoICOg-AY4DAgICAgICAAqqAgBhI2aDSNVAUWKjYw5iZ3pcDYAHyCB9jYS15dC1ob3N0LXB1Yi0xNjgwNTg4OTkwNzkwNjE2mgk-aHR0cHM6Ly90aGVncm91bmRpbmcuY28vcHJvZHVjdHMvdGhlLXRlcnJhLWdyb3VuZGluZy1iZWQtc2hlZXSxCW7vTM80mxC2yAkAmAsBoQspDkzHjolkeLoLPggBEAUYFiAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIJugMJdmlhdGx6YWFh0AsS0gwCEAHaDCUKChDA1vqVoZ_XngcSAgEDGg0Yju_elFMg_sak04YFQAFKAhAfmg0BEqoNAlVTyA0B0g3MAWh0dHBzOi8vdGhlZ3JvdW5kaW5nLmNvL3Byb2R1Y3RzL3RoZS10ZXJyYS1ncm91bmRpbmctYmVkLXNoZWV0P3R3X3NvdXJjZT1nb29nbGUmdHdfYWRpZD0mdHdfY2FtcGFpZ249MjEwMDMyNTEyMTUmdHdfa3dkaWQ9JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjMyMzY0MDIwNiZnYnJhaWQ9MEFBQUFBcVZOYkFuSDBEb29IQnlEUjdUNkZBcllTc05SObAOzOLElhi4E____________wGIFASwFAHAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXaaJA3W45lhW6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMI44PEmJnelwMVJITLAR3DpSQBEAEYASAAEgKyV_D_BwE&num=1&cid=CAASqwHkaFt0C2RBTvN_e4acB3KPCbhmst8rDvwzOi-TCZ5NxAyqyopodWnlgSXPAJV60fksmkVbbPzeNWbNW2ZeKZLVU2yJQ0UpGvII8f9Xb2e0S0L-BfaUKdqnFzxiwQ5BpRO9GSDoWmI0m0CkkW1TFhZnOH8lX8sG4pLIMC_i24YXQG_2Cfcur68oQ4CHBnDGDrG3bMClha_NDwYj3gosLWf6jbpkMi5NvcvOUsc&sig=AOD64_2vMIdGJtn23pEVwJlDV5d_oUN7qw&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+    - generic: Shop now
+  - link:
+    - /url: /watch?v=WjKOX4BlcHA
+  - heading "Is 70% Alcohol Safe for Houseplants? Full Test + Real Results ✅" [level=3]:
+    - link "Is 70% Alcohol Safe for Houseplants? Full Test + Real Results ✅ 9 minutes, 21 seconds":
+      - /url: /watch?v=WjKOX4BlcHA
+      - text: Is 70% Alcohol Safe for Houseplants? Full Test + Real Results ✅
+  - generic: Plant House & Garden
+  - generic "5 thousand views": 5K
+  - generic "10 months ago": 10mo ago
+  - button "More actions"
+  - link:
+    - /url: /watch?v=IlRFc6LNU7M&pp=0gcJCSsMAYcqIYzv
+  - heading "Why I Might Give Up on Wood Planks for My Plants" [level=3]:
+    - link "Why I Might Give Up on Wood Planks for My Plants 11 minutes, 52 seconds":
+      - /url: /watch?v=IlRFc6LNU7M&pp=0gcJCSsMAYcqIYzv
+      - text: Why I Might Give Up on Wood Planks for My Plants
+  - generic: Everything Plants
+  - generic "5.3 thousand views": 5.3K
+  - generic "3 months ago": 3mo ago
+  - button "More actions"
+  - link:
+    - /url: /watch?v=VenPl6rjeIs&pp=ugUEEgJlbg%3D%3D
+  - heading "5 Semi-hydro mistakes killing your plants (Fix these ASAP)" [level=3]:
+    - link "5 Semi-hydro mistakes killing your plants (Fix these ASAP) 10 minutes, 49 seconds":
+      - /url: /watch?v=VenPl6rjeIs&pp=ugUEEgJlbg%3D%3D
+      - text: 5 Semi-hydro mistakes killing your plants (Fix these ASAP)
+  - generic: Lupita Rios
+  - generic "3 thousand views": 3K
+  - generic "5 months ago": 5mo ago
+  - button "More actions"
+  - link:
+    - /url: /watch?v=25Lk50h_nbM
+  - 'heading "Pet Store Owner: 3 Land Plants That Clean Your Tank Better Than Any Filter I Ever Sold" [level=3]':
+    - 'link "Pet Store Owner: 3 Land Plants That Clean Your Tank Better Than Any Filter I Ever Sold 15 minutes"':
+      - /url: /watch?v=25Lk50h_nbM
+      - text: "Pet Store Owner: 3 Land Plants That Clean Your Tank Better Than Any Filter I Ever Sold"
+  - generic: 김삼중
+  - generic: and 4 more
+  - generic "1.1 thousand views": 1.1K
+  - generic "2 weeks ago": 2w ago
+  - button "More actions"
+  - link:
+    - /url: /watch?v=7HfRB4yE_WI&pp=ugUEEgJlbg%3D%3D
+  - heading "Why Is My Spider Plant Turning Brown?" [level=3]:
+    - link "Why Is My Spider Plant Turning Brown? 3 minutes, 54 seconds":
+      - /url: /watch?v=7HfRB4yE_WI&pp=ugUEEgJlbg%3D%3D
+      - text: Why Is My Spider Plant Turning Brown?
+  - generic: Growory | Plant Care & Growth
+  - generic "399 views": "399"
+  - generic "13 days ago": 13d ago
+  - button "More actions"

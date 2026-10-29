@@ -1,0 +1,146 @@
+{
+  "reference_action": "Dehydration; OP had just watered and improved over subsequent updates. Central plan is rehydrate and allow time to respond, rather than immediate pest treatment or repotting.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Bowl soak, thorough watering, drain and allow acclimation directly match rehydration and time to recover.",
+      "evidence": [
+        "075-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/7237767652977984/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicit good soak with runoff and moisture check matches rehydration, although competing humidity/light advice also appears.",
+      "evidence": [
+        "075-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1bviou3/my_prayer_plant_was_doing_really_well_and_now_its/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Rainwater, heater avoidance and humidifier, without actual thorough hydration or post-watering recovery monitoring; naming underwatering alone is not enough.",
+      "evidence": [
+        "video-audit-KhqCi30oR9U-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=KhqCi30oR9U"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Water dehydrated curled leaves and observe unfurling matches the recovery plan.",
+      "evidence": [
+        "video-audit-mocR2SN-RCM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=mocR2SN-RCM"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Restore consistent soil moisture and give corrective changes time; matches observing recovery after the watering already performed, without a rescue-soak instruction.",
+      "evidence": [
+        "video-audit-H-QF40xV3-4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=H-QF40xV3-4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Thoroughly bottom water in bowl then drain",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true,
+        "elapsed_minutes_original_estimate": 15,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "action": "Maintain damp soil with distilled or rainwater",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Increase ambient humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Thirst is the main diagnosis and soak/drain/allow-recovery advice matches the credited improvement; duration and humidity method are unspecified."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Let it drain” prevents prolonged standing water. However, the source assumes thirst without checking moisture, so repeating the soak immediately after the user already watered is unnecessary and the damp-soil instruction needs a saturation limit."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "Thirst and a thorough soak match the confirmed cause and successful action. “Let it ... acclimate” allows recovery time, though it does not explicitly acknowledge that this user already watered."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "A bowl, water and drainage are ordinary household steps. Humidity is an optional but vaguely specified extra, and the soak has no measurable endpoint."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 75,
+  "thread_id": "1i6yq01",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 75,
+    "thread_id": "1i6yq01",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/199630400125113/posts/7237767652977984/",
+    "spans": [
+      {
+        "file": "075-source-01.txt",
+        "start_line": 48,
+        "end_line": 77,
+        "sha256": "4e2c903aa5a3ee2f6424ccbbb53f5719a6e90b41d087ecaceb5952af337e8ec0",
+        "text": "        - text: Most relevant\n      - article \"Comment by Grace Montgomery 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Grace Montgomery\":\n          - generic: Grace Montgomery\n        - generic: No. They do that when they're thirsty and trying to conserve water. I would place it in a bowl of water and thoroughly water and then let it drain and acclimate. I just did this with my Ctenanthe Burle Marxii that I forgot to water and now theres new growth!\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/7237767652977984/?comment_id=7238144779606938&__cft__[0]=AZjYxf8XfF8is6AWWS72qkHd1xW696brbnzmZySUnG8LExWbhyumNEAPpkH-2Z_DaHpouNkV5MyqpcwadNmUv__TJve2YyuiW_2YpKOuA-x90k2_ova7_BX4mQAttmxqK4fMO2V4OGREh8Xo97Ci_nbpybueMAra-71Lb6PDgZJYutlbIgjpd_ckRvLp&__tn__=R]-R\n      - article \"Comment by Julie Stevens 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Julie Stevens\":\n          - generic: Julie Stevens\n        - generic: That curling isn't a normal part of a marantas movements. It's thirsty, keep the soil more damp, try distilled or rainwater if you can, and add some overall humidity. The leaves raise up and down daily, but not curling unless thirsty (at least not with any of my marantas)\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/7237767652977984/?comment_id=7238440579577358&__cft__[0]=AZjYxf8XfF8is6AWWS72qkHd1xW696brbnzmZySUnG8LExWbhyumNEAPpkH-2Z_DaHpouNkV5MyqpcwadNmUv__TJve2YyuiW_2YpKOuA-x90k2_ova7_BX4mQAttmxqK4fMO2V4OGREh8Xo97Ci_nbpybueMAra-71Lb6PDgZJYutlbIgjpd_ckRvLp&__tn__=R]-R\n      - article \"Comment by Deborah D. Mattox Miller 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Deborah D. Mattox Miller\":\n          - generic: Deborah D. Mattox Miller\n        - generic: This baby is in need of water badly!\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/7237767652977984/?comment_id=7248771545210928&__cft__[0]=AZjYxf8XfF8is6AWWS72qkHd1xW696brbnzmZySUnG8LExWbhyumNEAPpkH-2Z_DaHpouNkV5MyqpcwadNmUv__TJve2YyuiW_2YpKOuA-x90k2_ova7_BX4mQAttmxqK4fMO2V4OGREh8Xo97Ci_nbpybueMAra-71Lb6PDgZJYutlbIgjpd_ckRvLp&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\""
+      }
+    ],
+    "advice": "        - text: Most relevant\n      - article \"Comment by Grace Montgomery 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Grace Montgomery\":\n          - generic: Grace Montgomery\n        - generic: No. They do that when they're thirsty and trying to conserve water. I would place it in a bowl of water and thoroughly water and then let it drain and acclimate. I just did this with my Ctenanthe Burle Marxii that I forgot to water and now theres new growth!\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/7237767652977984/?comment_id=7238144779606938&__cft__[0]=AZjYxf8XfF8is6AWWS72qkHd1xW696brbnzmZySUnG8LExWbhyumNEAPpkH-2Z_DaHpouNkV5MyqpcwadNmUv__TJve2YyuiW_2YpKOuA-x90k2_ova7_BX4mQAttmxqK4fMO2V4OGREh8Xo97Ci_nbpybueMAra-71Lb6PDgZJYutlbIgjpd_ckRvLp&__tn__=R]-R\n      - article \"Comment by Julie Stevens 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Julie Stevens\":\n          - generic: Julie Stevens\n        - generic: That curling isn't a normal part of a marantas movements. It's thirsty, keep the soil more damp, try distilled or rainwater if you can, and add some overall humidity. The leaves raise up and down daily, but not curling unless thirsty (at least not with any of my marantas)\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/7237767652977984/?comment_id=7238440579577358&__cft__[0]=AZjYxf8XfF8is6AWWS72qkHd1xW696brbnzmZySUnG8LExWbhyumNEAPpkH-2Z_DaHpouNkV5MyqpcwadNmUv__TJve2YyuiW_2YpKOuA-x90k2_ova7_BX4mQAttmxqK4fMO2V4OGREh8Xo97Ci_nbpybueMAra-71Lb6PDgZJYutlbIgjpd_ckRvLp&__tn__=R]-R\n      - article \"Comment by Deborah D. Mattox Miller 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Deborah D. Mattox Miller\":\n          - generic: Deborah D. Mattox Miller\n        - generic: This baby is in need of water badly!\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/7237767652977984/?comment_id=7248771545210928&__cft__[0]=AZjYxf8XfF8is6AWWS72qkHd1xW696brbnzmZySUnG8LExWbhyumNEAPpkH-2Z_DaHpouNkV5MyqpcwadNmUv__TJve2YyuiW_2YpKOuA-x90k2_ova7_BX4mQAttmxqK4fMO2V4OGREh8Xo97Ci_nbpybueMAra-71Lb6PDgZJYutlbIgjpd_ckRvLp&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"",
+    "reason": "First accessible curling-leaf discussion with self-contained rehydration advice; all visible treatment comments retained.",
+    "frozen_at": "2026-10-29T04:58:39.748674+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.264159+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.263082+00:00",
+    "changes": [
+      {
+        "query_index": 75,
+        "action_index": 0,
+        "field": "minutes",
+        "before": 15,
+        "after": 5,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ]
+  }
+}

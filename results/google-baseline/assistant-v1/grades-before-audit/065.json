@@ -1,0 +1,186 @@
+{
+  "reference_action": "Root rot confirmed by OP; remove mushy rot and soil, transfer to water vase to regrow roots. Cleanup and water recovery are central; generic watering prevention alone is insufficient.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Repot after cleaning roots in root-rot cases recovers the central cleanup action, although it omits water propagation and recovery monitoring.",
+      "evidence": [
+        "065-source-01.txt"
+      ],
+      "url": "https://www.livelyroot.com/blogs/plant-care/troubleshooting-peace-lily-leaves-problems?srsltid=AYCX9vJkS03JEYXQqqIbNavN3eAt5W2Xwy2uguV9jJ-1b6yYrYKHQm1x"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Shade, thirsty droop and watering to drainage do not treat established root rot.",
+      "evidence": [
+        "065-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/393923344897048/posts/1547420032880701/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Checks roots and mentions rot but the offered treatment is a soak/fertilizer pause, not rot removal or water recovery.",
+      "evidence": [
+        "065-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/ycga0o/whats_wrong_with_my_peace_lily_its_been_drooping/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit removal of rotten dark roots and replacement of wet soil recovers central rot cleanup, though soil recovery differs from the water vase.",
+      "evidence": [
+        "065-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=duxN8oHIw8A"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Generic soil, watering and repotting prevent sogginess but no rot cleanup or water rooting.",
+      "evidence": [
+        "065-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=kQRcHN4dXcM"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Remove yellow, brown or damaged foliage and old blooms",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check moisture and allow drying before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Clean roots and repot for rot or crowding",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Feed balanced fertilizer seasonally",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move to indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water with purified water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Maintain specified temperature and humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Treat insect infestations with insecticide",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Divide overcrowded plant",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rotate plant",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bring indoors in winter",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Root rot is one of several causes and root cleaning is briefly recommended. It omits water recovery, and advice ranges from maintaining moist topsoil to letting the soil dry completely, so the complete answer only partly supplies a coherent recovery regimen."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Repot after cleaning the roots in the case of root rot” is a useful safeguard. However, “allow the soil to dry completely” conflicts with maintaining moisture, and routine feeding is not qualified for the damaged root system."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The guide names root rot and includes root cleanup, but offers a broad set of alternative causes without prioritizing the sparse, dying plant. Water propagation and weekly replacement of water are absent."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Pruning and moving the pot are simple. The competing watering rules, generic insecticide instruction and many conditional interventions make the overall plan difficult to execute consistently."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 65,
+  "thread_id": "103kexv",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 65,
+    "thread_id": "103kexv",
+    "selected_rank": 1,
+    "source_url": "https://www.livelyroot.com/blogs/plant-care/troubleshooting-peace-lily-leaves-problems?srsltid=AYCX9vJkS03JEYXQqqIbNavN3eAt5W2Xwy2uguV9jJ-1b6yYrYKHQm1x",
+    "spans": [
+      {
+        "file": "065-source-01.txt",
+        "start_line": 105,
+        "end_line": 256,
+        "sha256": "20294527462f66a7cbe0aa2c08b4911334c457eb3e30896fb5f4182571f5c0fb",
+        "text": "    - generic: \"Peace Lily Yellow Leaves: Causes & Solutions\"\n  - img \"Peace Lily Leaves Turning Yellow\"\n  - paragraph:\n    - text: Peace lilies are generally pretty\n    - link \"easy-to-care-for plants\":\n      - /url: https://www.livelyroot.com/collections/easy-going\n    - text: \". But why are the leaves turning pale? Here are the top causes of your peace lily leaves turning yellow:\"\n  - list:\n    - listitem: Inappropriate watering routine - Overwatering, which leads to root rot, as well as underwatering, can both cause yellowing leaves on peace lilies.\n    - listitem: Poor water quality - Tap water contains chemicals, such as fluoride and chlorine, which may affect the soil pH levels and trigger yellowing leaves.\n    - listitem: Mineral deficiency - Your peace lily may suffer from discolored leaves, due to depleted soil or a poor fertilizing routine, especially if you're growing it permanently in water.\n    - text: Temperature and humidity problems - Peace lilies grow best in a temperature range of\n    - link \"65F-85F\":\n      - /url: https://hgic.clemson.edu/factsheet/peace-lily/\n    - text: \", with a humidity level of 50%-60%. In the wrong conditions, the plant can exhibit yellowing leaves.\"\n    - listitem: Sunlight issues - Overexposure to sunlight can scorch your peace lily’s leaves.\n    - listitem: Root-bound plant - If the peace lily becomes pot-bound, it won’t absorb moisture and nutrients properly from the soil, which will cause yellowing leaves.\n    - text: Transplant shock - After\n    - link \"repotting your peace lily\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/how-to-repot-a-peace-lily\n    - text: \", it needs time to adjust to its new pot. Transplant shock can result in wilting, yellow leaves.\"\n    - listitem: Age - Older, lower leaves naturally turn yellow before falling off.\n  - link \"Peace Lily The plant in this article Peace Lily from $45.00 ✎ Personalizable Buy Now\":\n    - /url: /products/peace-lily\n    - img \"Peace Lily\"\n    - generic: The plant in this article\n    - generic: Peace Lily\n    - generic: from $45.00\n    - generic: from $45.00\n    - generic: ✎ Personalizable\n    - link \"Buy Now\":\n      - /url: https://www.livelyroot.com/products/peace-lily\n  - button \"Add to wishlist\":\n  - heading \"How Do I Fix Yellow Leaves on My Peace Lily?\" [level=3]\n  - paragraph:\n    - link \"Pruning your peace lily’s\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/how-to-prune-peace-lily\n    - text: damaged, yellow leaves is your first course of action to fix the issue. Then, it’s vital to understand the true cause behind the problem so that you can prevent it from happening again. Leave the plant to properly dry between waterings if you think the soil is waterlogged. Repot your peace lily if you suspect root rot or it’s outgrown its planter. Feed your beloved\n    - link \"indoor plant\":\n      - /url: https://www.livelyroot.com/collections/indoor-plants\n    - text: once every two months to avoid overfertilization. Last but not least, do not expose the peace lily to bright, direct light to prevent burnt leaves.\n  - img \"Plant in a pot in an outdoor setting next to some furniture\"\n  - heading \"Find Your Plant Match\" [level=3]\n  - generic: Get a Personalized Plant Recommendation\n  - link \"Take the Quiz >\":\n    - /url: /pages/plant-quiz\n  - heading \"Why Are My Peace Lily Leaves Turning Brown?\" [level=2]\n  - img \"Browning Leaves on a Peace Lily\"\n  - text: \"Source:\"\n  - link \"Reddit\":\n    - /url: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Frjigjn0jyta21.jpg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D32068353a78d5d10b50bb1739c5732c6e12bdbc8\n  - paragraph:\n    - text: If you notice that your peace lily leaves and even\n    - link \"blooms are turning brown\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/peace-lily-flowers-turning-brown-or-green\n    - text: . When the foliage starts to yellow, it usually turns brown before gradually dying and falling off. This could be due to the natural process of aging.\n  - paragraph: However, your green and healthy peace lily’s leaves may develop brown spots and blemishes sometimes. So, there could be other reasons behind the browning leaves on your peace lily, which are fairly similar to those causing yellow leaves.\n  - paragraph:\n    - text: From poor soil drainage, root rot, or underwatering to excess sunlight,\n    - link \"pests and diseases\":\n      - /url: https://mrec.ifas.ufl.edu/foliage/resrpts/rh_96_5.htm\n    - text: \", or temperature fluctuations, your peace lily can quickly start looking worse for wear. Worry not, but take action as soon as possible.\"\n  - heading \"What to Do When a Peace Lily Turns Brown?\" [level=3]\n  - paragraph: \"If you notice browning of the leaves, you should carefully remove these from the plant. In addition, proper care can prevent peace lily leaves from going brown. Here's a quick recap:\"\n  - list:\n    - listitem: \"Watering: Water the plant once a week with purified water and ensure the top 1”-2” of the soil is moist.\"\n    - text: Light\n    - text: \": Avoid placing your peace lily in direct sunlight or in a\"\n    - link \"low-light\":\n      - /url: https://www.livelyroot.com/collections/low-light\n    - text: spot for prolonged periods.\n    - listitem: \"Repotting: Repot your plant once every two years, unless the brown leaves are caused by root rot.\"\n    - listitem: \"Temperature/Humidity: Maintain 65F-85F temperature and 50%-60% humidity.\"\n    - listitem: \"Treat against pests: Aphids, fungus gnats, mealybugs, spider mites, and bacterial infections should be addressed in a timely manner.\"\n    - listitem: \"Nutrients: Feed your plant seasonally with a balanced fertilizer every 6-8 weeks in the warmer months.\"\n  - 'heading \"Peace Lily Leaves Curling: 7 Reasons and Solutions\" [level=2]'\n  - paragraph: \"Seeing your peace lily leaves curling can be a little frustrating. Let's see how different factors affect the plant and cause the leaves to curl. The most common reasons are:\"\n  - list:\n    - text: \"Overexposure to light: You need to meet your\"\n    - link \"peace lily’s light requirements\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/peace-lily-light-requirements\n    - text: and not place it in direct sunlight to avoid curling leaves due to moisture loss.\n    - generic: \"Temperature fluctuations: As mentioned above, extreme heat induces moisture loss leading to the leaf curling inward. Severe cold also triggers leaf cur, as well.\"\n    - generic: \"Low humidity: Plants curl their leaves inward to preserve moisture for longer when humidity is low.\"\n    - generic: \"Nutrient issues: Overfeeding the plant with nutrient-rich fertilizers can burn the roots and prevent nutrient absorption. Similarly, a lack of nutrients in the soil can cause the leaves to deform and start curling down, especially at the tips.\"\n    - generic: \"Overcrowding: The leaves of an overcrowded peace lily plant may start to curl, due to poor nutrients and moisture absorption, as the pot has become too small.\"\n    - generic: \"Watering routine: Tap water and underwatering can also cause curling leaves on your peace lily.\"\n    - listitem: \"Pests: Pests may eat at the plant leaves or inject toxins, causing them to curl or appear distorted.\"\n  - heading \"How Do I Fix Curled Leaves on My Peace Lily?\" [level=3]\n  - paragraph: \"The good news is that curling may be reversed, unlike the yellowing or browning of the leaves. Follow these basic plant care steps to revive your peace lily’s leaves:\"\n  - heading \"Get 15% Off Your First Plant\" [level=3]\n  - paragraph:\n    - generic: Sign up for our newsletter and we'll send a code for 15% off – and a few tips for new plant parents, straight from our growers.\n  - generic: Email\n  - textbox \"Email Email Email\":\n    - /placeholder: Email\n  - button \"Claim 15% off\"\n  - paragraph:\n    - generic: No spam. Unsubscribe anytime.\n  - alert\n  - list:\n    - listitem: Keep the plant in a spot that receives filtered, indirect light, or in partial shade.\n    - listitem: Provide consistent temperature and humidity within the recommended range and level.\n    - listitem: Don’t overfeed your peace lily, and refrain from fertilizing it in the winter.\n    - text: Divide an overcrowded plant - the perfect way to\n    - link \"propagate a peace lily\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/how-to-propagate-peace-lily\n    - text: \", or repot it into a bigger container.\"\n    - link \"Water your peace lily\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/how-often-to-water-peace-lily\n    - text: once a week to every ten days with purified water and allow the soil to dry completely.\n    - listitem: Use an insecticide against insect infestations to remedy curling leaves.\n  - link \"Close-up of Petra Croton showing dense overlapping dark green leaves with bright yellow and red vein markings from an overhead angle against a white background The plant in this article Petra Croton from $43.00 Buy Now\":\n    - /url: /products/croton-petra\n    - img \"Close-up of Petra Croton showing dense overlapping dark green leaves with bright yellow and red vein markings from an overhead angle against a white background\"\n    - generic: The plant in this article\n    - generic: Petra Croton\n    - generic: from $43.00\n    - generic: from $43.00\n    - link \"Buy Now\":\n      - /url: https://www.livelyroot.com/products/croton-petra\n  - button \"Add to wishlist\":\n  - 'heading \"Peace Lily Drooping Leaves: The Most Common Causes\" [level=2]'\n  - img \"Peace Lily Drooping Leaves\"\n  - paragraph: If you find your peace lily leaves drooping, it could be due to extreme heat, lack of moisture in the air and excess direct sunlight; underwatering or overwatering (and root rot); transplant shock or pot-bound roots; cold temperature, and more.\n  - paragraph: Again, it’s not hard to fix the problem and revive your beautiful peace lily.\n  - heading \"How Do You Revive a Droopy Peace Lily?\" [level=3]\n  - paragraph: \"You can revive the droopy, wilting leaves of a peace lily and rejuvenate the plant with proper care. Make sure to follow our helpful tips:\"\n  - list:\n    - listitem: Ensure that the top soil layers are neither dry nor overly wet. For that, water the plant no more than once a week with purified water.\n    - text: Your peace lily should receive indirect or\n    - link \"dappled sunlight\":\n      - /url: https://www.thespruce.com/what-is-full-sun-partial-shade-1402372\n    - text: . You can rotate it occasionally so that all parts receive sunlight uniformly.\n    - listitem: Give the plant a balanced houseplant fertilizer in the growing season only.\n    - text: Do not allow for the plant to become root-bound or overcrowded. Devide it into smaller plants that you can give away to friends\n    - link \"as gifts\":\n      - /url: https://www.livelyroot.com/collections/plants-as-gifts\n    - text: \", or repot it into a bigger pot.\"\n    - text: Bring your peace lily indoors in the winter, if it was kept\n    - link \"on the porch\":\n      - /url: https://www.livelyroot.com/collections/porch\n    - text: during the summer months.\n  - 'heading \"Peace Lily Leaves: Care and Prevention Tips\" [level=2]'\n  - paragraph: \"Even though peace lily plants are fairly easy-going and low-maintenance, they may develop visible problems. These naturally show in the leaves, as they become yellow, brown, droopy, and bent. All these leaf issues have some common causes that can be easily prevented by applying proper care. Follow the tips below to ensure that your peace lily looks healthy and vibrant:\"\n  - list:\n    - listitem: \"Soil: Peace lilies grow best in aerated, well-draining soil with some moisture retention capacity.\"\n    - listitem: \"Fertilizer: A regular diluted NPK fertilizer with an equal balance of nitrogen, phosphorus, and potassium works best.\"\n    - listitem: \"Pot size: The pot diameter should be about 2” larger than the plant’s diameter. A pot too large can cause waterlogging, while a small pot will cause overcrowding.\"\n    - listitem: \"Watering: Peace lilies should be watered when the top layer of the soil feels dry. Poor tap water quality may affect the plant’s health.\"\n    - listitem: \"Sunlight: Place the peace lily in indirect sunlight. Rotate the plant every few months.\"\n    - listitem: \"Pest and disease prevention: Remove old and damaged leaves and blooms. Repot after cleaning the roots in the case of root rot. Watch out for insect issues and act accordingly.\""
+      }
+    ],
+    "advice": "    - generic: \"Peace Lily Yellow Leaves: Causes & Solutions\"\n  - img \"Peace Lily Leaves Turning Yellow\"\n  - paragraph:\n    - text: Peace lilies are generally pretty\n    - link \"easy-to-care-for plants\":\n      - /url: https://www.livelyroot.com/collections/easy-going\n    - text: \". But why are the leaves turning pale? Here are the top causes of your peace lily leaves turning yellow:\"\n  - list:\n    - listitem: Inappropriate watering routine - Overwatering, which leads to root rot, as well as underwatering, can both cause yellowing leaves on peace lilies.\n    - listitem: Poor water quality - Tap water contains chemicals, such as fluoride and chlorine, which may affect the soil pH levels and trigger yellowing leaves.\n    - listitem: Mineral deficiency - Your peace lily may suffer from discolored leaves, due to depleted soil or a poor fertilizing routine, especially if you're growing it permanently in water.\n    - text: Temperature and humidity problems - Peace lilies grow best in a temperature range of\n    - link \"65F-85F\":\n      - /url: https://hgic.clemson.edu/factsheet/peace-lily/\n    - text: \", with a humidity level of 50%-60%. In the wrong conditions, the plant can exhibit yellowing leaves.\"\n    - listitem: Sunlight issues - Overexposure to sunlight can scorch your peace lily’s leaves.\n    - listitem: Root-bound plant - If the peace lily becomes pot-bound, it won’t absorb moisture and nutrients properly from the soil, which will cause yellowing leaves.\n    - text: Transplant shock - After\n    - link \"repotting your peace lily\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/how-to-repot-a-peace-lily\n    - text: \", it needs time to adjust to its new pot. Transplant shock can result in wilting, yellow leaves.\"\n    - listitem: Age - Older, lower leaves naturally turn yellow before falling off.\n  - link \"Peace Lily The plant in this article Peace Lily from $45.00 ✎ Personalizable Buy Now\":\n    - /url: /products/peace-lily\n    - img \"Peace Lily\"\n    - generic: The plant in this article\n    - generic: Peace Lily\n    - generic: from $45.00\n    - generic: from $45.00\n    - generic: ✎ Personalizable\n    - link \"Buy Now\":\n      - /url: https://www.livelyroot.com/products/peace-lily\n  - button \"Add to wishlist\":\n  - heading \"How Do I Fix Yellow Leaves on My Peace Lily?\" [level=3]\n  - paragraph:\n    - link \"Pruning your peace lily’s\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/how-to-prune-peace-lily\n    - text: damaged, yellow leaves is your first course of action to fix the issue. Then, it’s vital to understand the true cause behind the problem so that you can prevent it from happening again. Leave the plant to properly dry between waterings if you think the soil is waterlogged. Repot your peace lily if you suspect root rot or it’s outgrown its planter. Feed your beloved\n    - link \"indoor plant\":\n      - /url: https://www.livelyroot.com/collections/indoor-plants\n    - text: once every two months to avoid overfertilization. Last but not least, do not expose the peace lily to bright, direct light to prevent burnt leaves.\n  - img \"Plant in a pot in an outdoor setting next to some furniture\"\n  - heading \"Find Your Plant Match\" [level=3]\n  - generic: Get a Personalized Plant Recommendation\n  - link \"Take the Quiz >\":\n    - /url: /pages/plant-quiz\n  - heading \"Why Are My Peace Lily Leaves Turning Brown?\" [level=2]\n  - img \"Browning Leaves on a Peace Lily\"\n  - text: \"Source:\"\n  - link \"Reddit\":\n    - /url: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Frjigjn0jyta21.jpg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D32068353a78d5d10b50bb1739c5732c6e12bdbc8\n  - paragraph:\n    - text: If you notice that your peace lily leaves and even\n    - link \"blooms are turning brown\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/peace-lily-flowers-turning-brown-or-green\n    - text: . When the foliage starts to yellow, it usually turns brown before gradually dying and falling off. This could be due to the natural process of aging.\n  - paragraph: However, your green and healthy peace lily’s leaves may develop brown spots and blemishes sometimes. So, there could be other reasons behind the browning leaves on your peace lily, which are fairly similar to those causing yellow leaves.\n  - paragraph:\n    - text: From poor soil drainage, root rot, or underwatering to excess sunlight,\n    - link \"pests and diseases\":\n      - /url: https://mrec.ifas.ufl.edu/foliage/resrpts/rh_96_5.htm\n    - text: \", or temperature fluctuations, your peace lily can quickly start looking worse for wear. Worry not, but take action as soon as possible.\"\n  - heading \"What to Do When a Peace Lily Turns Brown?\" [level=3]\n  - paragraph: \"If you notice browning of the leaves, you should carefully remove these from the plant. In addition, proper care can prevent peace lily leaves from going brown. Here's a quick recap:\"\n  - list:\n    - listitem: \"Watering: Water the plant once a week with purified water and ensure the top 1”-2” of the soil is moist.\"\n    - text: Light\n    - text: \": Avoid placing your peace lily in direct sunlight or in a\"\n    - link \"low-light\":\n      - /url: https://www.livelyroot.com/collections/low-light\n    - text: spot for prolonged periods.\n    - listitem: \"Repotting: Repot your plant once every two years, unless the brown leaves are caused by root rot.\"\n    - listitem: \"Temperature/Humidity: Maintain 65F-85F temperature and 50%-60% humidity.\"\n    - listitem: \"Treat against pests: Aphids, fungus gnats, mealybugs, spider mites, and bacterial infections should be addressed in a timely manner.\"\n    - listitem: \"Nutrients: Feed your plant seasonally with a balanced fertilizer every 6-8 weeks in the warmer months.\"\n  - 'heading \"Peace Lily Leaves Curling: 7 Reasons and Solutions\" [level=2]'\n  - paragraph: \"Seeing your peace lily leaves curling can be a little frustrating. Let's see how different factors affect the plant and cause the leaves to curl. The most common reasons are:\"\n  - list:\n    - text: \"Overexposure to light: You need to meet your\"\n    - link \"peace lily’s light requirements\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/peace-lily-light-requirements\n    - text: and not place it in direct sunlight to avoid curling leaves due to moisture loss.\n    - generic: \"Temperature fluctuations: As mentioned above, extreme heat induces moisture loss leading to the leaf curling inward. Severe cold also triggers leaf cur, as well.\"\n    - generic: \"Low humidity: Plants curl their leaves inward to preserve moisture for longer when humidity is low.\"\n    - generic: \"Nutrient issues: Overfeeding the plant with nutrient-rich fertilizers can burn the roots and prevent nutrient absorption. Similarly, a lack of nutrients in the soil can cause the leaves to deform and start curling down, especially at the tips.\"\n    - generic: \"Overcrowding: The leaves of an overcrowded peace lily plant may start to curl, due to poor nutrients and moisture absorption, as the pot has become too small.\"\n    - generic: \"Watering routine: Tap water and underwatering can also cause curling leaves on your peace lily.\"\n    - listitem: \"Pests: Pests may eat at the plant leaves or inject toxins, causing them to curl or appear distorted.\"\n  - heading \"How Do I Fix Curled Leaves on My Peace Lily?\" [level=3]\n  - paragraph: \"The good news is that curling may be reversed, unlike the yellowing or browning of the leaves. Follow these basic plant care steps to revive your peace lily’s leaves:\"\n  - heading \"Get 15% Off Your First Plant\" [level=3]\n  - paragraph:\n    - generic: Sign up for our newsletter and we'll send a code for 15% off – and a few tips for new plant parents, straight from our growers.\n  - generic: Email\n  - textbox \"Email Email Email\":\n    - /placeholder: Email\n  - button \"Claim 15% off\"\n  - paragraph:\n    - generic: No spam. Unsubscribe anytime.\n  - alert\n  - list:\n    - listitem: Keep the plant in a spot that receives filtered, indirect light, or in partial shade.\n    - listitem: Provide consistent temperature and humidity within the recommended range and level.\n    - listitem: Don’t overfeed your peace lily, and refrain from fertilizing it in the winter.\n    - text: Divide an overcrowded plant - the perfect way to\n    - link \"propagate a peace lily\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/how-to-propagate-peace-lily\n    - text: \", or repot it into a bigger container.\"\n    - link \"Water your peace lily\":\n      - /url: https://www.livelyroot.com/blogs/plant-care/how-often-to-water-peace-lily\n    - text: once a week to every ten days with purified water and allow the soil to dry completely.\n    - listitem: Use an insecticide against insect infestations to remedy curling leaves.\n  - link \"Close-up of Petra Croton showing dense overlapping dark green leaves with bright yellow and red vein markings from an overhead angle against a white background The plant in this article Petra Croton from $43.00 Buy Now\":\n    - /url: /products/croton-petra\n    - img \"Close-up of Petra Croton showing dense overlapping dark green leaves with bright yellow and red vein markings from an overhead angle against a white background\"\n    - generic: The plant in this article\n    - generic: Petra Croton\n    - generic: from $43.00\n    - generic: from $43.00\n    - link \"Buy Now\":\n      - /url: https://www.livelyroot.com/products/croton-petra\n  - button \"Add to wishlist\":\n  - 'heading \"Peace Lily Drooping Leaves: The Most Common Causes\" [level=2]'\n  - img \"Peace Lily Drooping Leaves\"\n  - paragraph: If you find your peace lily leaves drooping, it could be due to extreme heat, lack of moisture in the air and excess direct sunlight; underwatering or overwatering (and root rot); transplant shock or pot-bound roots; cold temperature, and more.\n  - paragraph: Again, it’s not hard to fix the problem and revive your beautiful peace lily.\n  - heading \"How Do You Revive a Droopy Peace Lily?\" [level=3]\n  - paragraph: \"You can revive the droopy, wilting leaves of a peace lily and rejuvenate the plant with proper care. Make sure to follow our helpful tips:\"\n  - list:\n    - listitem: Ensure that the top soil layers are neither dry nor overly wet. For that, water the plant no more than once a week with purified water.\n    - text: Your peace lily should receive indirect or\n    - link \"dappled sunlight\":\n      - /url: https://www.thespruce.com/what-is-full-sun-partial-shade-1402372\n    - text: . You can rotate it occasionally so that all parts receive sunlight uniformly.\n    - listitem: Give the plant a balanced houseplant fertilizer in the growing season only.\n    - text: Do not allow for the plant to become root-bound or overcrowded. Devide it into smaller plants that you can give away to friends\n    - link \"as gifts\":\n      - /url: https://www.livelyroot.com/collections/plants-as-gifts\n    - text: \", or repot it into a bigger pot.\"\n    - text: Bring your peace lily indoors in the winter, if it was kept\n    - link \"on the porch\":\n      - /url: https://www.livelyroot.com/collections/porch\n    - text: during the summer months.\n  - 'heading \"Peace Lily Leaves: Care and Prevention Tips\" [level=2]'\n  - paragraph: \"Even though peace lily plants are fairly easy-going and low-maintenance, they may develop visible problems. These naturally show in the leaves, as they become yellow, brown, droopy, and bent. All these leaf issues have some common causes that can be easily prevented by applying proper care. Follow the tips below to ensure that your peace lily looks healthy and vibrant:\"\n  - list:\n    - listitem: \"Soil: Peace lilies grow best in aerated, well-draining soil with some moisture retention capacity.\"\n    - listitem: \"Fertilizer: A regular diluted NPK fertilizer with an equal balance of nitrogen, phosphorus, and potassium works best.\"\n    - listitem: \"Pot size: The pot diameter should be about 2” larger than the plant’s diameter. A pot too large can cause waterlogging, while a small pot will cause overcrowding.\"\n    - listitem: \"Watering: Peace lilies should be watered when the top layer of the soil feels dry. Poor tap water quality may affect the plant’s health.\"\n    - listitem: \"Sunlight: Place the peace lily in indirect sunlight. Rotate the plant every few months.\"\n    - listitem: \"Pest and disease prevention: Remove old and damaged leaves and blooms. Repot after cleaning the roots in the case of root rot. Watch out for insect issues and act accordingly.\"",
+    "reason": "First accessible relevant leaf-problem guide; retain full troubleshooting and preventive advice, including conflicting watering rules.",
+    "frozen_at": "2026-10-29T04:53:00.611959+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:54:00.778010+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

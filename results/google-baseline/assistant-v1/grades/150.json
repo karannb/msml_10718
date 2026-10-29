@@ -1,0 +1,148 @@
+{
+  "reference_action": "Banana transplant shock after pup separation; dataset advice is trim dead growth and maintain watering. Owner subsequently reports a new unfurling leaf. Outcome confirms recovery but does not explicitly enumerate which advice was followed; action attribution is weaker than an explicit performed-treatment report.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Cuts damaged/bent banana growth to allow regrowth; partial match though storm damage rather than transplant shock.",
+      "evidence": [
+        "150-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/127197321932/posts/10158637239171933/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Transplant-shock banana advice includes removing failing leaves and continued watering.",
+      "evidence": [
+        "150-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/gardening/comments/1urth3o/will_this_banana_plant_survive/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "3:13–3:22 explicitly cuts frost-damaged leaf while preserving emerging green growth.",
+      "evidence": [
+        "video-audit-9Mek7QPaIEc-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=9Mek7QPaIEc"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Aquatic banana plant leaf propagation, different plant and action.",
+      "evidence": [
+        "150-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/PlantedTank/comments/1l6xb8l/is_my_banana_plant_dead_or_dying/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Removes dead/rotting banana growth until healthy tissue, allowing a new leaf; partial match with more aggressive rot surgery.",
+      "evidence": [
+        "video-audit-6CnljQdkCEM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=6CnljQdkCEM"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Assess flower position before cutting",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Cut below damaged bend",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Monitor central new growth",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove entire spike if flower was severed",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Shred fallen material and return as mulch",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": true
+      }
+    ],
+    "reason": "Damaged-growth removal overlaps, but storm-broken flowering stems are not transplant shock, and advice may cut more than dead foliage."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Cut off below the bent part” is directed at storm damage, not a limp recently transplanted plant. Flower-position caveats limit some harm, but removing an entire spike may be excessive here."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The correct genus and ability to regrow from damaged tops are relevant. It misses the pup-separation trigger and appropriate ongoing moisture care."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The cutting location is concrete where a stem is bent. Locating an internal flower and obtaining a leaf shredder add difficulty unrelated to this potted plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "reference_quality": {
+    "issue": "recovery_without_explicit_action_confirmation",
+    "detail": "Outcome says new leaf unfurling but does not explicitly say trimming was performed; matches are against associated dataset advice."
+  },
+  "query_index": 150,
+  "thread_id": "1vcrs67",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 150,
+    "thread_id": "1vcrs67",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/127197321932/posts/10158637239171933/",
+    "spans": [
+      {
+        "file": "150-source-01.txt",
+        "start_line": 58,
+        "end_line": 81,
+        "sha256": "c2d94c914978defa1c2c5ff43f3f2465425bc0b9b50a82898fb1d43f55663de0",
+        "text": "        - generic: It depends on where the flower is. The flower moves up the stem as it each spike ages. As long as you don't cut the flower of it will regrow so just cut right at the bend, then, if leaves come out of the center, your good. If a solid piece pushes out of the center, the flower was cut and the whole leaf spike should be removed. If fruit is still connected, leave any leaf spike that's laying down as the fruit will still finish.\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/127197321932/posts/10158637239171933/?comment_id=10158638353181933&__cft__[0]=AZi_vtYV0blNdxZuY69k5uMS1X22duLswV5H0f-bqK6xNq554nb0sIK-tBtJ7uwhS61gptqApGNG8ezYmVVLl5e5biKLgPEokWFwT3l446bn54QjFGMYaouIU_qsdWTqmsAg8csClizwItCkJSok4cxNU91iWbugBjwOjPhN2TZNukoWdG-o5paO2fD1c-s&__tn__=R]-R\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Theresa Peltier 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Theresa Peltier\":\n          - generic: Theresa Peltier\n        - text: Yes . Just cut off below the bent part and it will grow back beautifully . If the banana flower was coming out you won’t get any bananas but most of those should bounce back fine\n        - img \"😊\"\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/127197321932/posts/10158637239171933/?comment_id=10158637248291933&__cft__[0]=AZi_vtYV0blNdxZuY69k5uMS1X22duLswV5H0f-bqK6xNq554nb0sIK-tBtJ7uwhS61gptqApGNG8ezYmVVLl5e5biKLgPEokWFwT3l446bn54QjFGMYaouIU_qsdWTqmsAg8csClizwItCkJSok4cxNU91iWbugBjwOjPhN2TZNukoWdG-o5paO2fD1c-s&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Robert Akau 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Robert Akau\":\n          - generic: Robert Akau\n        - generic: Bring in a leaf shredder to grind up the fallen plants, then toss the ground up material back into the trees."
+      }
+    ],
+    "advice": "        - generic: It depends on where the flower is. The flower moves up the stem as it each spike ages. As long as you don't cut the flower of it will regrow so just cut right at the bend, then, if leaves come out of the center, your good. If a solid piece pushes out of the center, the flower was cut and the whole leaf spike should be removed. If fruit is still connected, leave any leaf spike that's laying down as the fruit will still finish.\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/127197321932/posts/10158637239171933/?comment_id=10158638353181933&__cft__[0]=AZi_vtYV0blNdxZuY69k5uMS1X22duLswV5H0f-bqK6xNq554nb0sIK-tBtJ7uwhS61gptqApGNG8ezYmVVLl5e5biKLgPEokWFwT3l446bn54QjFGMYaouIU_qsdWTqmsAg8csClizwItCkJSok4cxNU91iWbugBjwOjPhN2TZNukoWdG-o5paO2fD1c-s&__tn__=R]-R\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Theresa Peltier 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Theresa Peltier\":\n          - generic: Theresa Peltier\n        - text: Yes . Just cut off below the bent part and it will grow back beautifully . If the banana flower was coming out you won’t get any bananas but most of those should bounce back fine\n        - img \"😊\"\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/127197321932/posts/10158637239171933/?comment_id=10158637248291933&__cft__[0]=AZi_vtYV0blNdxZuY69k5uMS1X22duLswV5H0f-bqK6xNq554nb0sIK-tBtJ7uwhS61gptqApGNG8ezYmVVLl5e5biKLgPEokWFwT3l446bn54QjFGMYaouIU_qsdWTqmsAg8csClizwItCkJSok4cxNU91iWbugBjwOjPhN2TZNukoWdG-o5paO2fD1c-s&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Robert Akau 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Robert Akau\":\n          - generic: Robert Akau\n        - generic: Bring in a leaf shredder to grind up the fallen plants, then toss the ground up material back into the trees.",
+    "reason": "First accessible banana damage recovery, including bend-level cut, flower caveat and debris shredding.",
+    "frozen_at": "2026-10-29T06:04:33.441244+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:05:27.576994+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

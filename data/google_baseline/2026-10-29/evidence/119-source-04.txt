@@ -1,0 +1,277 @@
+- banner:
+  - button "Guide":
+  - link "YouTube Home":
+    - /url: /
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - search:
+    - combobox "Search" [expanded]
+    - button "Search":
+  - button "Search with your voice":
+  - tooltip "tooltip"
+  - button "Settings":
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DXR4IIpOxE2Y&hl=en&ec=65620
+    - generic: Sign in
+- main:
+  - complementary:
+    - generic "YouTube Video Player" [active]:
+      - button "Play":
+      - slider "Seek slider" [disabled]
+      - button "Play (k)":
+      - button "Mute (m)":
+      - slider "Volume"
+      - button "0 Minutes 0 Seconds of 0 Minutes 51 Seconds": 0:00 / 0:51
+      - button "Autoplay is on"
+      - button "Subtitles/closed captions unavailable":
+      - button "Settings":
+      - button "Theater mode (t)":
+      - button "Full screen (f)":
+  - heading "You Put Your Bonsai in a Bigger Pot—So Why Is the Trunk Still Thin?" [level=1]
+  - link "Daniel Mori-Bonsai Season By Season":
+    - /url: /@DanielMori-BonsaiSeasonBySeaso
+    - img "Daniel Mori-Bonsai Season By Season"
+  - generic "Daniel Mori-Bonsai Season By Season":
+    - link "Daniel Mori-Bonsai Season By Season":
+      - /url: /@DanielMori-BonsaiSeasonBySeaso
+  - generic "419 subscribers"
+  - button "Subscribe to Daniel Mori-Bonsai Season By Season.":
+    - generic: Subscribe
+  - button "like this video along with 138 other people":
+    - generic: "138"
+  - button "Dislike this video":
+  - button "Share":
+    - generic: Share
+  - button "Save to playlist":
+    - generic: Save
+  - button "More actions":
+  - text: 7.8K views 13 days ago
+  - link "#Bonsai":
+    - /url: /hashtag/bonsai
+  - link "#BonsaiDevelopment":
+    - /url: /hashtag/bonsaidevelopment
+  - link "#BonsaiCare":
+    - /url: /hashtag/bonsaicare
+  - tooltip "tooltip"
+  - generic: I explain why putting a young bonsai in a larger pot does not automatically create a thicker trunk—and what actually drives trunk development over time. If you want to grow a powerful bonsai instead of simply keeping a small tree tidy, this video will help you see the process differently.
+  - generic: …
+  - button "...more"
+  - text: •
+  - heading "Comments" [level=2]:
+    - generic: Comments
+  - link "Industrial Power Plants 335kW+":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cdmy_WrHiauvLJt2T7L4Ps-7smAiwsZ6gigGP5MKHwRawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAce7x7ACqQI7merVNrWyPqgDBMgDCqoElQNP0DBEdzAhBWG0CbJ6W9c1Qilvod3wPa1u6zwjV98gqJ7r4uiurSdRd86KrnDPEXQjHW4LQtpROVFZsWB5Yy-YL89BSj1TRaLA28nU6HUCwCWG5rHMgTGwGZDlCzC4kiN52gmUOTAiwqsTvzljz_YohNVRrm5pmNEHJmI2pBIPA6platWTEWTsr5yMe5LOK0UAbzbnIOCwno9E6xyU0CeNeW-uiNk35fyjHoEBmqoDncLadTcqSARDKiMwXOWIDveeCa35dzQ5h12koLByoxbuehJtgl8nxxN5kLvh5mmz4WWauEpInUHgoMO4P9KcC7yAU2x0DwRRZ4AjFR2BG4fK5HatxS8CCcOU2DDbRJG9YSDKjhmyE5XaLc1VMMbWV8C8bPu2Kpzvs59Y8_v5X_Ywmi6_u_b9sA0VFUTSvj5KCktqmc_0p8ZkFqYaXJxc2FP0iDGON5fbwlpVdZD2ZMtCBVegKFVC0c53NQdmLfzL4aBYFvT7jJJ0gaLIIHrwKknun8tMemq8P2PyWptTj_uumezpbzGIBfGP3N9akgUKCBNoAniojNztAaAGboAHocS4zwGQBwSoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAe86rECqAf8r7ECqAe-2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECsAgM0gguCIBBEAEYXjICggI6D4BjgMCAgICAgIACqoCAGEjZoNI1UBRYuLfU9ZjelwNgAfIIH2NhLXl0LWhvc3QtcHViLTE0NDM5OTMzMzg3Mzk5MjeaCUNodHRwczovL3d3dy5qZW5iYWNoZXIudXMvZW4vb3VyLXNvbHV0aW9ucy9vbi1zaXRlLXBvd2VyLWdlbmVyYXRpb24vsQm5XXMKDzIIrMgJAMgJigKYCwGhCyNUBi9ehHFRugs-CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgLYAQGAAgGIAgW6Awl2aWF0bHphYWHQCxLSDAIQAdoMJQoKEIC-ra-EmbWlPhICAQMaDRjxj9zfWiC18KKE4gVAAUoCEB-aDQESqg0CVVPIDQHSDd8CaHR0cHM6Ly93d3cuamVuYmFjaGVyLnVzL2VuL291ci1zb2x1dGlvbnMvb24tc2l0ZS1wb3dlci1nZW5lcmF0aW9uLz91dG1fY2FtcGFpZ249TkFNLURlbUdlbi1PbnNpdGUmdXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1jcGMmdXRtX3Rlcm09JnV0bV9jb250ZW50PWFkZ3JvdXAtMTk4MTE0MzI2NTgxX19jcmVhdGl2ZS04MjgyMTkzMjEwOTFfX25ldHdvcmsteXRpZl9fcGxhY2VtZW50LXlvdXR1YmUuY29tX19hZHBvc2l0aW9uLV9fbWF0Y2h0eXBlLV9fZGV2aWNlLWMmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MzU5OTI5ODQxJmdicmFpZD0wQUFBQUFDWVIzY2ZEQ2pCR005OW0wa2pIQ1dlR015Z0lDuBP___________8BsBQBwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF_qZTs5tAQC1uhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMI6-DU9ZjelwMV3QnbAR0zNxuDEAEYASAAEgLFqPD_BwE&num=1&cid=CAASqwHkaMWQ-_LhbaaTwX3Ce2I4USySTwgHcxrsTr_S76rV6jM51PZj6MjunVUHHRAJD9UKVXAD5-BsTh1NrtKopWCkb25OCGQdXOpSeMDBOpKZubus1-QQA46CUO1cZejZICe0QihRZXq4vAOEEhSAb39WK93FmoJw-0grt7IGN5CIkeHEDcK1GTiDQ60NPR2mK0rNxmP5N6JO1H69vdkNCw3_2KKBEZA3iwP69yA&sig=AOD64_3AVJ5UCXWCI-NWaWYXgDV9BRlesA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - 'link "Natural Gas Power Plants. Wide applications range: from 335kW up to 200MW and more."':
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cdmy_WrHiauvLJt2T7L4Ps-7smAiwsZ6gigGP5MKHwRawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAce7x7ACqQI7merVNrWyPqgDBMgDCqoElQNP0DBEdzAhBWG0CbJ6W9c1Qilvod3wPa1u6zwjV98gqJ7r4uiurSdRd86KrnDPEXQjHW4LQtpROVFZsWB5Yy-YL89BSj1TRaLA28nU6HUCwCWG5rHMgTGwGZDlCzC4kiN52gmUOTAiwqsTvzljz_YohNVRrm5pmNEHJmI2pBIPA6platWTEWTsr5yMe5LOK0UAbzbnIOCwno9E6xyU0CeNeW-uiNk35fyjHoEBmqoDncLadTcqSARDKiMwXOWIDveeCa35dzQ5h12koLByoxbuehJtgl8nxxN5kLvh5mmz4WWauEpInUHgoMO4P9KcC7yAU2x0DwRRZ4AjFR2BG4fK5HatxS8CCcOU2DDbRJG9YSDKjhmyE5XaLc1VMMbWV8C8bPu2Kpzvs59Y8_v5X_Ywmi6_u_b9sA0VFUTSvj5KCktqmc_0p8ZkFqYaXJxc2FP0iDGON5fbwlpVdZD2ZMtCBVegKFVC0c53NQdmLfzL4aBYFvT7jJJ0gaLIIHrwKknun8tMemq8P2PyWptTj_uumezpbzGIBfGP3N9akgUKCBNoAniojNztAaAGboAHocS4zwGQBwSoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAe86rECqAf8r7ECqAe-2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECsAgM0gguCIBBEAEYXjICggI6D4BjgMCAgICAgIACqoCAGEjZoNI1UBRYuLfU9ZjelwNgAfIIH2NhLXl0LWhvc3QtcHViLTE0NDM5OTMzMzg3Mzk5MjeaCUNodHRwczovL3d3dy5qZW5iYWNoZXIudXMvZW4vb3VyLXNvbHV0aW9ucy9vbi1zaXRlLXBvd2VyLWdlbmVyYXRpb24vsQm5XXMKDzIIrMgJAMgJigKYCwGhCyNUBi9ehHFRugs-CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgLYAQGAAgGIAgW6Awl2aWF0bHphYWHQCxLSDAIQAdoMJQoKEIC-ra-EmbWlPhICAQMaDRjxj9zfWiC18KKE4gVAAUoCEB-aDQESqg0CVVPIDQHSDd8CaHR0cHM6Ly93d3cuamVuYmFjaGVyLnVzL2VuL291ci1zb2x1dGlvbnMvb24tc2l0ZS1wb3dlci1nZW5lcmF0aW9uLz91dG1fY2FtcGFpZ249TkFNLURlbUdlbi1PbnNpdGUmdXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1jcGMmdXRtX3Rlcm09JnV0bV9jb250ZW50PWFkZ3JvdXAtMTk4MTE0MzI2NTgxX19jcmVhdGl2ZS04MjgyMTkzMjEwOTFfX25ldHdvcmsteXRpZl9fcGxhY2VtZW50LXlvdXR1YmUuY29tX19hZHBvc2l0aW9uLV9fbWF0Y2h0eXBlLV9fZGV2aWNlLWMmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MzU5OTI5ODQxJmdicmFpZD0wQUFBQUFDWVIzY2ZEQ2pCR005OW0wa2pIQ1dlR015Z0lDuBP___________8BsBQBwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF_qZTs5tAQC1uhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMI6-DU9ZjelwMV3QnbAR0zNxuDEAEYASAAEgLFqPD_BwE&num=1&cid=CAASqwHkaMWQ-_LhbaaTwX3Ce2I4USySTwgHcxrsTr_S76rV6jM51PZj6MjunVUHHRAJD9UKVXAD5-BsTh1NrtKopWCkb25OCGQdXOpSeMDBOpKZubus1-QQA46CUO1cZejZICe0QihRZXq4vAOEEhSAb39WK93FmoJw-0grt7IGN5CIkeHEDcK1GTiDQ60NPR2mK0rNxmP5N6JO1H69vdkNCw3_2KKBEZA3iwP69yA&sig=AOD64_3AVJ5UCXWCI-NWaWYXgDV9BRlesA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - generic: Sponsored
+  - text: ·
+  - generic: Jenbacher
+  - button "My Ad Center":
+  - link "Learn more":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cdmy_WrHiauvLJt2T7L4Ps-7smAiwsZ6gigGP5MKHwRawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAce7x7ACqQI7merVNrWyPqgDBMgDCqoElQNP0DBEdzAhBWG0CbJ6W9c1Qilvod3wPa1u6zwjV98gqJ7r4uiurSdRd86KrnDPEXQjHW4LQtpROVFZsWB5Yy-YL89BSj1TRaLA28nU6HUCwCWG5rHMgTGwGZDlCzC4kiN52gmUOTAiwqsTvzljz_YohNVRrm5pmNEHJmI2pBIPA6platWTEWTsr5yMe5LOK0UAbzbnIOCwno9E6xyU0CeNeW-uiNk35fyjHoEBmqoDncLadTcqSARDKiMwXOWIDveeCa35dzQ5h12koLByoxbuehJtgl8nxxN5kLvh5mmz4WWauEpInUHgoMO4P9KcC7yAU2x0DwRRZ4AjFR2BG4fK5HatxS8CCcOU2DDbRJG9YSDKjhmyE5XaLc1VMMbWV8C8bPu2Kpzvs59Y8_v5X_Ywmi6_u_b9sA0VFUTSvj5KCktqmc_0p8ZkFqYaXJxc2FP0iDGON5fbwlpVdZD2ZMtCBVegKFVC0c53NQdmLfzL4aBYFvT7jJJ0gaLIIHrwKknun8tMemq8P2PyWptTj_uumezpbzGIBfGP3N9akgUKCBNoAniojNztAaAGboAHocS4zwGQBwSoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAe86rECqAf8r7ECqAe-2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECsAgM0gguCIBBEAEYXjICggI6D4BjgMCAgICAgIACqoCAGEjZoNI1UBRYuLfU9ZjelwNgAfIIH2NhLXl0LWhvc3QtcHViLTE0NDM5OTMzMzg3Mzk5MjeaCUNodHRwczovL3d3dy5qZW5iYWNoZXIudXMvZW4vb3VyLXNvbHV0aW9ucy9vbi1zaXRlLXBvd2VyLWdlbmVyYXRpb24vsQm5XXMKDzIIrMgJAMgJigKYCwGhCyNUBi9ehHFRugs-CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgLYAQGAAgGIAgW6Awl2aWF0bHphYWHQCxLSDAIQAdoMJQoKEIC-ra-EmbWlPhICAQMaDRjxj9zfWiC18KKE4gVAAUoCEB-aDQESqg0CVVPIDQHSDd8CaHR0cHM6Ly93d3cuamVuYmFjaGVyLnVzL2VuL291ci1zb2x1dGlvbnMvb24tc2l0ZS1wb3dlci1nZW5lcmF0aW9uLz91dG1fY2FtcGFpZ249TkFNLURlbUdlbi1PbnNpdGUmdXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1jcGMmdXRtX3Rlcm09JnV0bV9jb250ZW50PWFkZ3JvdXAtMTk4MTE0MzI2NTgxX19jcmVhdGl2ZS04MjgyMTkzMjEwOTFfX25ldHdvcmsteXRpZl9fcGxhY2VtZW50LXlvdXR1YmUuY29tX19hZHBvc2l0aW9uLV9fbWF0Y2h0eXBlLV9fZGV2aWNlLWMmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MzU5OTI5ODQxJmdicmFpZD0wQUFBQUFDWVIzY2ZEQ2pCR005OW0wa2pIQ1dlR015Z0lDuBP___________8BsBQBwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF_qZTs5tAQC1uhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMI6-DU9ZjelwMV3QnbAR0zNxuDEAEYASAAEgLFqPD_BwE&num=1&cid=CAASqwHkaMWQ-_LhbaaTwX3Ce2I4USySTwgHcxrsTr_S76rV6jM51PZj6MjunVUHHRAJD9UKVXAD5-BsTh1NrtKopWCkb25OCGQdXOpSeMDBOpKZubus1-QQA46CUO1cZejZICe0QihRZXq4vAOEEhSAb39WK93FmoJw-0grt7IGN5CIkeHEDcK1GTiDQ60NPR2mK0rNxmP5N6JO1H69vdkNCw3_2KKBEZA3iwP69yA&sig=AOD64_3AVJ5UCXWCI-NWaWYXgDV9BRlesA&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+    - generic: Learn more
+  - link:
+    - /url: /watch?v=njU-jNLkykc
+  - heading "You May Be Using the Wrong Bonsai Soil—Development, Training, and Refinement Explained" [level=3]:
+    - link "You May Be Using the Wrong Bonsai Soil—Development, Training, and Refinement Explained 11 minutes, 17 seconds":
+      - /url: /watch?v=njU-jNLkykc
+      - text: You May Be Using the Wrong Bonsai Soil—Development, Training, and Refinement Explained
+  - generic: Daniel Mori-Bonsai Season By Season
+  - generic "2.5 thousand views": 2.5K
+  - generic "2 weeks ago": 2w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=PO24Lx-ZChA&pp=ugUEEgJlbg%3D%3D
+  - heading "What 6 years of Bonsai work can do | Japanese maple progression" [level=3]:
+    - link "What 6 years of Bonsai work can do | Japanese maple progression 33 minutes":
+      - /url: /watch?v=PO24Lx-ZChA&pp=ugUEEgJlbg%3D%3D
+      - text: What 6 years of Bonsai work can do | Japanese maple progression
+  - generic: Bonsai Empire
+  - generic "Verified":
+  - generic "68 thousand views": 68K
+  - generic "12 days ago": 12d ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=L9v76KvJomw
+  - heading "Ants Keep Climbing Your Bonsai—Follow Them Before You Spray" [level=3]:
+    - link "Ants Keep Climbing Your Bonsai—Follow Them Before You Spray 12 minutes, 43 seconds":
+      - /url: /watch?v=L9v76KvJomw
+      - text: Ants Keep Climbing Your Bonsai—Follow Them Before You Spray
+  - generic: Daniel Mori-Bonsai Season By Season
+  - generic "47 views": "47"
+  - generic "6 hours ago": 6h ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=X4lcWNeBGME
+  - heading "The Japanese Tree Technique That Makes Roots Look Ancient and Powerful" [level=3]:
+    - link "The Japanese Tree Technique That Makes Roots Look Ancient and Powerful 26 minutes":
+      - /url: /watch?v=X4lcWNeBGME
+      - text: The Japanese Tree Technique That Makes Roots Look Ancient and Powerful
+  - generic: The Japanese Garden
+  - generic "3 thousand views": 3K
+  - generic "4 weeks ago": 4w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=r3XMn30caFk
+  - heading "Why Your Bonsai Has No Buds Near the Trunk—And How to Encourage Them" [level=3]:
+    - link "Why Your Bonsai Has No Buds Near the Trunk—And How to Encourage Them 16 minutes":
+      - /url: /watch?v=r3XMn30caFk
+      - text: Why Your Bonsai Has No Buds Near the Trunk—And How to Encourage Them
+  - generic: Daniel Mori-Bonsai Season By Season
+  - generic "2.5 thousand views": 2.5K
+  - generic "2 weeks ago": 2w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=NrmTID39lEY&pp=ugUHEgVlbi1HQtIHCQkrDAGHKiGM7w%3D%3D
+  - 'heading "The Biggest Bonsai Mistake: Cutting When You Should Grow" [level=3]':
+    - 'link "The Biggest Bonsai Mistake: Cutting When You Should Grow 13 minutes, 23 seconds"':
+      - /url: /watch?v=NrmTID39lEY&pp=ugUHEgVlbi1HQtIHCQkrDAGHKiGM7w%3D%3D
+      - text: "The Biggest Bonsai Mistake: Cutting When You Should Grow"
+  - generic: Jason Hanrahan - The Bonsai Garden
+  - generic "12 thousand views": 12K
+  - generic "3 months ago": 3mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=a1Gtf3DqNpY
+  - heading "Bonsai Bench Tour~! 🌳 How Many Bonsai Do We Have ?!" [level=3]:
+    - link "Bonsai Bench Tour~! 🌳 How Many Bonsai Do We Have ?! 18 minutes":
+      - /url: /watch?v=a1Gtf3DqNpY
+      - text: Bonsai Bench Tour~! 🌳 How Many Bonsai Do We Have ?!
+  - generic: Little trees, Big dreams ~ A Bonsai Journey
+  - generic "2.9 thousand views": 2.9K
+  - generic "1 day ago": 1d ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=AwtwP1ijUng
+  - heading "Make the same mistake over and over again to create a beautiful bonsai" [level=3]:
+    - link "Make the same mistake over and over again to create a beautiful bonsai 13 minutes, 38 seconds":
+      - /url: /watch?v=AwtwP1ijUng
+      - text: Make the same mistake over and over again to create a beautiful bonsai
+  - generic: 【盆栽しんし】Bonsai shinshi
+  - generic "1.6 million views": 1.6M
+  - generic "1 year ago": 1y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=wjUgCDrqht4&pp=ugUEEgJlbg%3D%3D
+  - heading "Working On My FrankenFicus, Part 1, The Bonsai Zone, Oct 2026" [level=3]:
+    - link "Working On My FrankenFicus, Part 1, The Bonsai Zone, Oct 2026 43 minutes":
+      - /url: /watch?v=wjUgCDrqht4&pp=ugUEEgJlbg%3D%3D
+      - text: Working On My FrankenFicus, Part 1, The Bonsai Zone, Oct 2026
+  - generic: Nigel Saunders, The Bonsai Zone
+  - generic "Verified":
+  - generic "9.4 thousand views": 9.4K
+  - generic "4 days ago": 4d ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=UonxO_8hVFM&pp=ugUHEgVlbi1HQg%3D%3D
+  - heading "How to Make Mame Bonsai – Tiny Trees That Actually Thrive" [level=3]:
+    - link "How to Make Mame Bonsai – Tiny Trees That Actually Thrive 37 minutes":
+      - /url: /watch?v=UonxO_8hVFM&pp=ugUHEgVlbi1HQg%3D%3D
+      - text: How to Make Mame Bonsai – Tiny Trees That Actually Thrive
+  - generic: Jason Hanrahan - The Bonsai Garden
+  - generic "60 thousand views": 60K
+  - generic "3 weeks ago": 3w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=WK36Ex_DkBw&pp=0gcJCSsMAYcqIYzv
+  - 'heading "Ficus Bonsai Autumn Care: What I Do Every Year" [level=3]':
+    - 'link "Ficus Bonsai Autumn Care: What I Do Every Year 25 minutes"':
+      - /url: /watch?v=WK36Ex_DkBw&pp=0gcJCSsMAYcqIYzv
+      - text: "Ficus Bonsai Autumn Care: What I Do Every Year"
+  - generic: Xavier's Bonsai Retreat
+  - generic "7.1 thousand views": 7.1K
+  - generic "11 days ago": 11d ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=PxvszfQ7b0w&pp=ugUEEgJlbg%3D%3D
+  - heading "Styling A Problem Oak Bonsai Tree" [level=3]:
+    - link "Styling A Problem Oak Bonsai Tree 20 minutes":
+      - /url: /watch?v=PxvszfQ7b0w&pp=ugUEEgJlbg%3D%3D
+      - text: Styling A Problem Oak Bonsai Tree
+  - generic: Notion Bonsai
+  - generic "Verified":
+  - generic "34 thousand views": 34K
+  - generic "2 years ago": 2y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=fi_z1fF5MeM&pp=ugUEEgJlbg%3D%3D
+  - heading "Ficus Benjamina - Bush to Bonsai 2.7" [level=3]:
+    - link "Ficus Benjamina - Bush to Bonsai 2.7 17 minutes":
+      - /url: /watch?v=fi_z1fF5MeM&pp=ugUEEgJlbg%3D%3D
+      - text: Ficus Benjamina - Bush to Bonsai 2.7
+  - generic: Bonsai Boise
+  - generic "83 thousand views": 83K
+  - generic "3 weeks ago": 3w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=EYa8QCJu62Y
+  - heading "How to Make a Bonsai Tree for Under $1" [level=3]:
+    - link "How to Make a Bonsai Tree for Under $1 19 minutes":
+      - /url: /watch?v=EYa8QCJu62Y
+      - text: How to Make a Bonsai Tree for Under $1
+  - generic: Uncle Chen’s Garden
+  - generic: and 2 more
+  - generic "1.2 thousand views": 1.2K
+  - generic "8 days ago": 8d ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=IuMXbm4oT5s
+  - heading "Evergreen Bonsai - Zero Waste Life" [level=3]:
+    - link "Evergreen Bonsai - Zero Waste Life 15 minutes":
+      - /url: /watch?v=IuMXbm4oT5s
+      - text: Evergreen Bonsai - Zero Waste Life
+  - generic: NHK WORLD-JAPAN
+  - generic "27 thousand views": 27K
+  - generic "2 weeks ago": 2w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=0077Fz8QBeo&pp=ugUEEgJlbg%3D%3D
+  - heading "Bonsai Hints and Tips at Autumn" [level=3]:
+    - link "Bonsai Hints and Tips at Autumn 19 minutes":
+      - /url: /watch?v=0077Fz8QBeo&pp=ugUEEgJlbg%3D%3D
+      - text: Bonsai Hints and Tips at Autumn
+  - generic: Herons Bonsai
+  - generic "Verified":
+  - generic "12 thousand views": 12K
+  - generic "18 hours ago": 18h ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=GAvR-ukrAjQ&pp=0gcJCSsMAYcqIYzv
+  - heading "Why Your Bonsai Keeps Growing Shoots at the Base—And When to Leave Them" [level=3]:
+    - link "Why Your Bonsai Keeps Growing Shoots at the Base—And When to Leave Them 11 minutes, 14 seconds":
+      - /url: /watch?v=GAvR-ukrAjQ&pp=0gcJCSsMAYcqIYzv
+      - text: Why Your Bonsai Keeps Growing Shoots at the Base—And When to Leave Them
+  - generic: Daniel Mori-Bonsai Season By Season
+  - generic "1 thousand views": 1K
+  - generic "3 weeks ago": 3w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=Qtj43LouJrA&pp=ugUEEgJlbg%3D%3D
+  - heading "Two Black Pines (Yamadori literati) - Arkefthos Bonsai" [level=3]:
+    - link "Two Black Pines (Yamadori literati) - Arkefthos Bonsai 11 minutes, 25 seconds":
+      - /url: /watch?v=Qtj43LouJrA&pp=ugUEEgJlbg%3D%3D
+      - text: Two Black Pines (Yamadori literati) - Arkefthos Bonsai
+  - generic: Arkefthos Bonsai
+  - generic "6 thousand views": 6K
+  - generic "3 days ago": 3d ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=pua424osubg
+  - heading "Why Akadama Is The Ultimate Bonsai Soil (And The Science Behind It)" [level=3]:
+    - link "Why Akadama Is The Ultimate Bonsai Soil (And The Science Behind It) 28 minutes":
+      - /url: /watch?v=pua424osubg
+      - text: Why Akadama Is The Ultimate Bonsai Soil (And The Science Behind It)
+  - generic: RootBound
+  - generic "1.9 thousand views": 1.9K
+  - generic "3 weeks ago": 3w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=UGgDKj8xzUI
+  - 'heading "Bonsai Wiring Mistakes Americans Make: Stop Scarring Your Tree (Japanese Method Explained)" [level=3]':
+    - 'link "Bonsai Wiring Mistakes Americans Make: Stop Scarring Your Tree (Japanese Method Explained) 27 minutes"':
+      - /url: /watch?v=UGgDKj8xzUI
+      - text: "Bonsai Wiring Mistakes Americans Make: Stop Scarring Your Tree (Japanese Method Explained)"
+  - generic: The Japanese Garden
+  - generic "2 thousand views": 2K
+  - generic "6 days ago": 6d ago
+  - button "More actions":

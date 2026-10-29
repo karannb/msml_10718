@@ -1,0 +1,153 @@
+{
+  "reference_action": "Suspected retained packed nursery medium/root stress. OP cut bad leaves and repotted, then reported abundant healthy growth; both are observed interventions, not separate causal proofs.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Airflow, humidity reduction, fungicide and crop rotation omit both removal of damaged leaves and corrective repotting.",
+      "evidence": [
+        "053-source-01.txt"
+      ],
+      "url": "https://www.picturethisai.com/disease/Philodendron--Moonlight--Spots.html"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicitly trims brown-spotted leaves and offers fresh-soil repot, overlapping both validated actions although its differential includes fertilizer/fungal causes.",
+      "evidence": [
+        "video-audit-8hHmpyNzqS8-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=8hHmpyNzqS8"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicitly trim yellowing/affected leaves and refresh draining soil; partial overlap with the pruning/repot bundle, not evidence of correct nursery-plug diagnosis.",
+      "evidence": [
+        "video-audit--ZUnPtovKus-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=-ZUnPtovKus"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Watering/light/humidity/nutrient/pest treatments do not give the validated pruning or repotting remedy.",
+      "evidence": [
+        "video-audit-CbwZmezuJqg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=CbwZmezuJqg"
+    },
+    {
+      "rank": 6,
+      "action_hit": "unresolved",
+      "reason": "Caption promises a demonstration but no substantive remedy or transcript recovered.",
+      "evidence": [
+        "053-source-06.txt"
+      ],
+      "url": "https://www.instagram.com/reel/Da5YYVqB6cy/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Thin and space plants to improve airflow",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Reduce moisture through proper watering",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Apply suitable fungicide per label",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Inspect regularly",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rotate plant species in same area",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Isolate affected plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Pathogen framing misses the retained medium/root-stress explanation and pruning/repot outcome. Label-following reduces chemical misuse risk, but unneeded treatment and crop rotation are poorly targeted."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Follow instructions on labels for safety” is a useful safeguard. The recommendation to begin fungicide treatment immediately is unsupported by the supplied evidence and risks unnecessary treatment."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "Calling spots a “common plant disease” assumes a pathogen without diagnosis. Crop rotation is poorly applicable to one indoor pot, and the actual repot/pruning remedy is absent."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Isolation and spacing are simple. “Suitable fungicides” and “proper watering” are unspecified, and crop rotation does not translate into a clear action for this houseplant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "proper watering practices"
+    ]
+  },
+  "query_index": 53,
+  "thread_id": "15bu4a2",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 53,
+    "thread_id": "15bu4a2",
+    "selected_rank": 1,
+    "source_url": "https://www.picturethisai.com/disease/Philodendron--Moonlight--Spots.html",
+    "spans": [
+      {
+        "file": "053-source-01.txt",
+        "start_line": 27,
+        "end_line": 78,
+        "sha256": "f73b64f82c85e7958ff8064d561e59cc3023ffe98173dbeb99fd784d7a4845e3",
+        "text": "- generic: Spots is a common plant disease that can severely affect the health of Moonlight philodendron. It causes discolored, often round, areas on the plant's foliage, leading to weakened growth and potentially death of the plant if left untreated.\n- paragraph: Symptom Analysis\n- generic: Symptoms show as round or irregular, sometimes raised, spots on leaves, often with a darker outer ring. If left untreated, these spots can enlarge, leading to leaf drop and stalled growth.\n- generic: Plant disease auto-diagnose & prevention\n- generic: AI-powered plant doctor helps you diagnose plant problems in seconds.\n- generic: Download the App for Free\n- paragraph: What Causes Spots Disease on Moonlight philodendron?\n- generic: Pathogens\n- generic: Spots is primarily caused by a variety of fungal and bacterial pathogens which can easily infect Moonlight philodendron under favorable conditions.\n- generic: Environmental factors\n- generic: Poorly drained soils, high humidity, and overcrowded planting can contribute to the development and spread of spots disease.\n- generic: Optimize plant health with ideal lighting\n- generic: Find the best spots for them to optimize their health, simply using your phone.\n- generic: Download the App for Free\n- paragraph: How to Treat Spots Disease on Moonlight philodendron?\n- generic: Non pesticide\n- strong: Improve air circulation\n- text: \": Thinning the plants and keeping sufficient space between them can reduce the risks of disease spread.\"\n- strong: Reduce humidity\n- text: \": Proper watering practices can reduce the moisture levels, making the environment less conducive for the pathogens.\"\n- generic: Pesticide\n- strong: Apply Fungicides\n- text: \": Application of suitable fungicides can effectively control and treat the spots disease. Follow instructions on labels for safety.\"\n- paragraph: How to Prevent Spots on Moonlight philodendron?\n- generic: Regular inspections\n- generic: Regularly checking Moonlight philodendron can help detect any signs of disease early on and allow for immediate action.\n- generic: Implement crop rotation\n- generic: Rotation of different species in the same area can help disrupt the life cycle of the pathogens causing spots.\n- generic: Get tips and tricks for your plants\n- generic: Keep your plants happy and healthy with our guide to watering, lighting, feeding and more!\n- generic: Download the App for Free\n- paragraph: When is Spots Most Active Period on Moonlight philodendron?\n- generic: Spots disease is most active during warm, humid weather conditions as moisture facilitates the growth and spread of the pathogens.\n- paragraph: Infectivity\n- generic: Highly\n- generic: The disease is highly infectious as it can easily spread between plants via wind, rain, and tools.\n- paragraph: Lethality\n- generic: Moderately\n- generic: Spots disease is moderately lethal to Moonlight philodendron, as it can lead to leaf drop and stalled growth, but is typically not fatal if treated early.\n- paragraph: FAQs on Moonlight Philodendron\n- generic: What should I do if I find spots on my Moonlight philodendron?\n- generic: If you detect spots diseases on your Moonlight philodendron, it's crucial to isolate the infected plant and start treatment immediately. This may involve applying fungicides and improving watering practices.\n- generic: What color are the spots typically?\n- generic: Spots can appear as different colors - brown, black, yellow or even grey, depending on the type of pathogen causing the disease.\n- generic: Other than spots, are there other symptoms of this disease?\n- generic: Leaf drop and stunted growth can also be observed in Moonlight philodendron affected by spots disease. It's important to check regularly for these signs.\n- generic: Can spots disease kill my Moonlight philodendron?\n- generic: If left untreated, spots disease can potentially weaken or kill your Moonlight philodendron. However, with early detection and proper treatment, the plants have a high survival rate.\n- generic: What helps prevent spots disease in Moonlight philodendron?\n- generic: Proper plant care practices like optimal watering, good air circulation, and crop rotation can significantly help in preventing spots disease.\n- generic: Can spots disease spread from one Moonlight philodendron to another?\n- generic: Yes, spots disease can easily spread from one Moonlight philodendron to another through wind, rain splashes, or even gardening tools. Therefore, it's important to handle infected plants with care."
+      }
+    ],
+    "advice": "- generic: Spots is a common plant disease that can severely affect the health of Moonlight philodendron. It causes discolored, often round, areas on the plant's foliage, leading to weakened growth and potentially death of the plant if left untreated.\n- paragraph: Symptom Analysis\n- generic: Symptoms show as round or irregular, sometimes raised, spots on leaves, often with a darker outer ring. If left untreated, these spots can enlarge, leading to leaf drop and stalled growth.\n- generic: Plant disease auto-diagnose & prevention\n- generic: AI-powered plant doctor helps you diagnose plant problems in seconds.\n- generic: Download the App for Free\n- paragraph: What Causes Spots Disease on Moonlight philodendron?\n- generic: Pathogens\n- generic: Spots is primarily caused by a variety of fungal and bacterial pathogens which can easily infect Moonlight philodendron under favorable conditions.\n- generic: Environmental factors\n- generic: Poorly drained soils, high humidity, and overcrowded planting can contribute to the development and spread of spots disease.\n- generic: Optimize plant health with ideal lighting\n- generic: Find the best spots for them to optimize their health, simply using your phone.\n- generic: Download the App for Free\n- paragraph: How to Treat Spots Disease on Moonlight philodendron?\n- generic: Non pesticide\n- strong: Improve air circulation\n- text: \": Thinning the plants and keeping sufficient space between them can reduce the risks of disease spread.\"\n- strong: Reduce humidity\n- text: \": Proper watering practices can reduce the moisture levels, making the environment less conducive for the pathogens.\"\n- generic: Pesticide\n- strong: Apply Fungicides\n- text: \": Application of suitable fungicides can effectively control and treat the spots disease. Follow instructions on labels for safety.\"\n- paragraph: How to Prevent Spots on Moonlight philodendron?\n- generic: Regular inspections\n- generic: Regularly checking Moonlight philodendron can help detect any signs of disease early on and allow for immediate action.\n- generic: Implement crop rotation\n- generic: Rotation of different species in the same area can help disrupt the life cycle of the pathogens causing spots.\n- generic: Get tips and tricks for your plants\n- generic: Keep your plants happy and healthy with our guide to watering, lighting, feeding and more!\n- generic: Download the App for Free\n- paragraph: When is Spots Most Active Period on Moonlight philodendron?\n- generic: Spots disease is most active during warm, humid weather conditions as moisture facilitates the growth and spread of the pathogens.\n- paragraph: Infectivity\n- generic: Highly\n- generic: The disease is highly infectious as it can easily spread between plants via wind, rain, and tools.\n- paragraph: Lethality\n- generic: Moderately\n- generic: Spots disease is moderately lethal to Moonlight philodendron, as it can lead to leaf drop and stalled growth, but is typically not fatal if treated early.\n- paragraph: FAQs on Moonlight Philodendron\n- generic: What should I do if I find spots on my Moonlight philodendron?\n- generic: If you detect spots diseases on your Moonlight philodendron, it's crucial to isolate the infected plant and start treatment immediately. This may involve applying fungicides and improving watering practices.\n- generic: What color are the spots typically?\n- generic: Spots can appear as different colors - brown, black, yellow or even grey, depending on the type of pathogen causing the disease.\n- generic: Other than spots, are there other symptoms of this disease?\n- generic: Leaf drop and stunted growth can also be observed in Moonlight philodendron affected by spots disease. It's important to check regularly for these signs.\n- generic: Can spots disease kill my Moonlight philodendron?\n- generic: If left untreated, spots disease can potentially weaken or kill your Moonlight philodendron. However, with early detection and proper treatment, the plants have a high survival rate.\n- generic: What helps prevent spots disease in Moonlight philodendron?\n- generic: Proper plant care practices like optimal watering, good air circulation, and crop rotation can significantly help in preventing spots disease.\n- generic: Can spots disease spread from one Moonlight philodendron to another?\n- generic: Yes, spots disease can easily spread from one Moonlight philodendron to another through wind, rain splashes, or even gardening tools. Therefore, it's important to handle infected plants with care.",
+    "reason": "First retained result, full disease explanation/treatment/FAQ, excluding unrelated disease-link previews.",
+    "frozen_at": "2026-10-29T04:44:31.134152+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:45:21.920478+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

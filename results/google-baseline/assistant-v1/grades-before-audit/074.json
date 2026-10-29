@@ -1,0 +1,144 @@
+{
+  "reference_action": "Dehydration; OP had just watered and improved over subsequent updates. Central plan is rehydrate and allow time to respond, rather than immediate pest treatment or repotting.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Bottom watering is an explicit hydration action, though no soak extent or recovery interval is given; pest and pot changes are unrelated extras.",
+      "evidence": [
+        "074-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/2756178501283719/posts/4571841049717446/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicit long soak to rehydrate hydrophobic soil matches rehydration, though accompanied by drastic chop-and-propagate alternatives.",
+      "evidence": [
+        "074-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/185fpfa/why_did_my_prayer_plant_die_suddenly/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Watering to restore consistent moisture and giving changes time to show a response supports the already-watered plant recovery plan; no thorough rescue soak specified.",
+      "evidence": [
+        "video-audit-H-QF40xV3-4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=H-QF40xV3-4"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Water dehydrated curled leaves and watch them unfurl matches hydration followed by response monitoring.",
+      "evidence": [
+        "video-audit-mocR2SN-RCM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=mocR2SN-RCM"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Only fragmentary video captions and unrelated leaf-cleaning comment available; no complete hydration or waiting instruction can be established.",
+      "evidence": [
+        "074-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/thesucculentsbox/videos/maranta-red-looking-a-little-dull-heres-what-you-should-do-to-make-it-shine-agai/1657055785189297/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repeat pest treatment for suspected mites",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Remove yellow or clearly infested leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bottom water with rainwater",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Use a small pot",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Raise humidity over sixty percent",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Mites and natural draping dominate rather than dehydration; bottom watering overlaps recovery but the immediate wait-and-observe plan is missing and pest-treatment text is truncated."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Clearly infested” qualifies some leaf removal, and bottom watering can restore moisture. Repeated unspecified pest treatment and repotting are unnecessary for this thirsty, recently watered plant, while the truncated comment limits safety assessment."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The source discusses a new plant with webs and recent neem treatment, unlike this established plant that missed watering. Hydration is mentioned, but mites, natural draping and high humidity dominate."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Bottom watering is familiar, but “humidity ... over 60%” lacks a method. Repeated pest treatment is incomplete in the visible text, and several additional tasks complicate a simple recovery."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 74,
+  "thread_id": "1i6yq01",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 74,
+    "thread_id": "1i6yq01",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/2756178501283719/posts/4571841049717446/",
+    "spans": [
+      {
+        "file": "074-source-01.txt",
+        "start_line": 55,
+        "end_line": 99,
+        "sha256": "be88a892a0fefdeeea969d8cb7e7b46dc869a36639d43af9d90fb80b4533e458",
+        "text": "        - text: Most relevant\n      - article \"Comment by Chris Moss 19 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chris Moss\":\n          - generic: Chris Moss\n        - generic: Said it before, ill say it again....\n        - generic: Owning a prayer plant (maranta fascinator) is like owning a petulant teenager. One day it loves you and its spot, the amount of food, light water then one day, nah. I'm not happy, I will wilt and look pathetic until you move me, feed me, water me...... then 2 days later she starts again. I have a love hate relationship with mine. I'm sure shes just trying to wind me up most of the time.....\n        - list:\n          - link \"19w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4571841049717446/?comment_id=4571909466377271&__cft__[0]=AZhvlMNhwLXtxAse-9ZFQ1Mm5P-sf457QvSQxGCxFglq13H9Z70eM54Skg7apqpmqfoDUuQ7qhUR4Dnt6nHIPDhZ3ar6QZjNF6d9WL2-him0j3NxHJ-JnIdPaVaSB_OP0pUgURMNGIetL5bdHMBCPlYCy6yU75wfQqaX2CcVivOumPZBjxnIxct7Sae_J0Ib&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - button \"View all 5 replies\":\n        - generic: View all 5 replies\n      - article \"Comment by Samantha Jones 19 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Samantha Jones\":\n          - generic: Samantha Jones\n        - text: Its likely spider mites,they are a nightmare and neem wont work because it needs repeated treatment to eradicate them. The soil ends up getting wet constantly so root rot sets in. It will take time to recoverbitcut off all yellow and clearly infested l…\n        - button \"See more\"\n        - list:\n          - link \"19w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4571841049717446/?comment_id=4571868463048038&__cft__[0]=AZhvlMNhwLXtxAse-9ZFQ1Mm5P-sf457QvSQxGCxFglq13H9Z70eM54Skg7apqpmqfoDUuQ7qhUR4Dnt6nHIPDhZ3ar6QZjNF6d9WL2-him0j3NxHJ-JnIdPaVaSB_OP0pUgURMNGIetL5bdHMBCPlYCy6yU75wfQqaX2CcVivOumPZBjxnIxct7Sae_J0Ib&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Sarah Jackson 19 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sarah Jackson\":\n          - generic: Sarah Jackson\n        - generic: Pretty sure this is one from the maranta family which do flop and drape not grow upwards. Not the exact one but I have seen the one you have. Water with rainwater and from the bottom not the top. Small ish pot they don’t like space. And humidity is an absolute must. I keep mine over 60% for this one. Each “prayer plant” I find has different humidity needs but this one is one of the less fussy ones I’ve found.\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=122282074718157346&set=p.122282074718157346&type=3&__cft__[0]=AZhvlMNhwLXtxAse-9ZFQ1Mm5P-sf457QvSQxGCxFglq13H9Z70eM54Skg7apqpmqfoDUuQ7qhUR4Dnt6nHIPDhZ3ar6QZjNF6d9WL2-him0j3NxHJ-JnIdPaVaSB_OP0pUgURMNGIetL5bdHMBCPlYCy6yU75wfQqaX2CcVivOumPZBjxnIxct7Sae_J0Ib&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"19w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4571841049717446/?comment_id=4571957723039112&__cft__[0]=AZhvlMNhwLXtxAse-9ZFQ1Mm5P-sf457QvSQxGCxFglq13H9Z70eM54Skg7apqpmqfoDUuQ7qhUR4Dnt6nHIPDhZ3ar6QZjNF6d9WL2-him0j3NxHJ-JnIdPaVaSB_OP0pUgURMNGIetL5bdHMBCPlYCy6yU75wfQqaX2CcVivOumPZBjxnIxct7Sae_J0Ib&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 10 replies\":\n        - generic: View all 10 replies"
+      }
+    ],
+    "advice": "        - text: Most relevant\n      - article \"Comment by Chris Moss 19 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chris Moss\":\n          - generic: Chris Moss\n        - generic: Said it before, ill say it again....\n        - generic: Owning a prayer plant (maranta fascinator) is like owning a petulant teenager. One day it loves you and its spot, the amount of food, light water then one day, nah. I'm not happy, I will wilt and look pathetic until you move me, feed me, water me...... then 2 days later she starts again. I have a love hate relationship with mine. I'm sure shes just trying to wind me up most of the time.....\n        - list:\n          - link \"19w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4571841049717446/?comment_id=4571909466377271&__cft__[0]=AZhvlMNhwLXtxAse-9ZFQ1Mm5P-sf457QvSQxGCxFglq13H9Z70eM54Skg7apqpmqfoDUuQ7qhUR4Dnt6nHIPDhZ3ar6QZjNF6d9WL2-him0j3NxHJ-JnIdPaVaSB_OP0pUgURMNGIetL5bdHMBCPlYCy6yU75wfQqaX2CcVivOumPZBjxnIxct7Sae_J0Ib&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - button \"View all 5 replies\":\n        - generic: View all 5 replies\n      - article \"Comment by Samantha Jones 19 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Samantha Jones\":\n          - generic: Samantha Jones\n        - text: Its likely spider mites,they are a nightmare and neem wont work because it needs repeated treatment to eradicate them. The soil ends up getting wet constantly so root rot sets in. It will take time to recoverbitcut off all yellow and clearly infested l…\n        - button \"See more\"\n        - list:\n          - link \"19w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4571841049717446/?comment_id=4571868463048038&__cft__[0]=AZhvlMNhwLXtxAse-9ZFQ1Mm5P-sf457QvSQxGCxFglq13H9Z70eM54Skg7apqpmqfoDUuQ7qhUR4Dnt6nHIPDhZ3ar6QZjNF6d9WL2-him0j3NxHJ-JnIdPaVaSB_OP0pUgURMNGIetL5bdHMBCPlYCy6yU75wfQqaX2CcVivOumPZBjxnIxct7Sae_J0Ib&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Sarah Jackson 19 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sarah Jackson\":\n          - generic: Sarah Jackson\n        - generic: Pretty sure this is one from the maranta family which do flop and drape not grow upwards. Not the exact one but I have seen the one you have. Water with rainwater and from the bottom not the top. Small ish pot they don’t like space. And humidity is an absolute must. I keep mine over 60% for this one. Each “prayer plant” I find has different humidity needs but this one is one of the less fussy ones I’ve found.\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=122282074718157346&set=p.122282074718157346&type=3&__cft__[0]=AZhvlMNhwLXtxAse-9ZFQ1Mm5P-sf457QvSQxGCxFglq13H9Z70eM54Skg7apqpmqfoDUuQ7qhUR4Dnt6nHIPDhZ3ar6QZjNF6d9WL2-him0j3NxHJ-JnIdPaVaSB_OP0pUgURMNGIetL5bdHMBCPlYCy6yU75wfQqaX2CcVivOumPZBjxnIxct7Sae_J0Ib&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"19w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4571841049717446/?comment_id=4571957723039112&__cft__[0]=AZhvlMNhwLXtxAse-9ZFQ1Mm5P-sf457QvSQxGCxFglq13H9Z70eM54Skg7apqpmqfoDUuQ7qhUR4Dnt6nHIPDhZ3ar6QZjNF6d9WL2-him0j3NxHJ-JnIdPaVaSB_OP0pUgURMNGIetL5bdHMBCPlYCy6yU75wfQqaX2CcVivOumPZBjxnIxct7Sae_J0Ib&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - button \"View all 10 replies\":\n        - generic: View all 10 replies",
+    "reason": "First accessible maranta floppy/curling discussion; visible care comments retained, with truncated pest comment explicitly incomplete and unrelated later posts excluded.",
+    "frozen_at": "2026-10-29T04:58:39.747002+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:59:41.293738+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

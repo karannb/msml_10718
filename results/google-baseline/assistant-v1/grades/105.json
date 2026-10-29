@@ -1,0 +1,158 @@
+{
+  "reference_action": "Dry rootbound Dracaena recovered after 24-hour soak. OP planned later repot, so confirmed remedy is rehydration, not completed repot or propagation.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Mentions drought for leaf tips but responds to wrinkled soft trunk with cutting, rot removal and repotting; no intact-root rehydration.",
+      "evidence": [
+        "video-audit-0owi6rc98TA-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=0owi6rc98TA"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Rot rescue by pruning, drier soil and withholding water. Brief watered-aloe anecdote is a different plant, not Dracaena remedy.",
+      "evidence": [
+        "105-source-02-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=CD8jR5jKzzs"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "At 3:37–4:04 explicitly water Dracaena marginata more when underwatered; partial central-action match despite dominant rot/repot focus and no prolonged soak.",
+      "evidence": [
+        "video-audit-7ZPeHJl8tLY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=7ZPeHJl8tLY"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Finger-check and water when nearly dry would prompt watering of the reported super-dry roots. Partial match only: no intensive soak and dominant overwatering framing.",
+      "evidence": [
+        "video-audit-hh0yR3m9uP4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=hh0yR3m9uP4"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Cut above rot, propagate, and let soil dry; not rehydrate intact drought-stressed plant.",
+      "evidence": [
+        "105-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/7442625092467004/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Trim dry leaf tips",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into fresh loose soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Inspect trunk and cut bark to check internal color",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off rotten upper stem or branches",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot and inspect roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim rotted roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut and remove leaves from green stem section and replant",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 6,
+        "unclear": false
+      }
+    ],
+    "reason": "Underwatering appears only for leaf tips; wrinkled trunk is treated as rot, and cutting a still-healthy dehydrated plant would damage it without supplying the confirmed soak."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The trunk instruction says “If green, cut and remove leaves” and replant. Applied to this intact plant that recovered with water, it needlessly sacrifices tissue; checking color does not safeguard against that unnecessary cutting of green tissue."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The video does discuss a “shriveled, dry, and wrinkled” trunk, but directs a rot-rescue procedure. Its brief drought explanation concerns leaf tips and never connects the stated dry roots to rehydration."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The green-versus-yellow inspection and loose-soil repot are concrete. However, multiple cutting and repotting tasks require interpreting healthy tissue and an incompletely specified replanting method, beyond a simple low-effort remedy."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 105,
+  "thread_id": "1vxtrkw",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 105,
+    "thread_id": "1vxtrkw",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=0owi6rc98TA",
+    "spans": [
+      {
+        "file": "video-audit-0owi6rc98TA-transcript.txt",
+        "start_line": 6,
+        "end_line": 35,
+        "sha256": "b302921a8e93ad02a7f3305f12d15e3c42c1e561cf0c02742908c757e99343f1",
+        "text": "[0:00] The dragon blood tree is a popular plant. Its leaf tips often dry out and\n[0:03] turn yellow. And when the branches near the base have only a few dry tips, this\n[0:05] usually indicates underwatering or drought stress. Simply trim off those\n[0:08] dry tips to keep it healthy. This results in large areas of black or gray\n[0:12] white dry tips on the leaves. No matter how you water or care for it, the core\n[0:15] problem lies in the soil's poor arration. Compact. Poorly draining soil\n[0:18] suffocates the roots. The best way to help your plant is to repot it. With\n[0:21] fresh, loose, and breathable soil. If root suffocation is causing widespread\n[0:25] dry tips, then you don't intervene. The situation will only get worse. This is a\n[0:28] serious sign of advanced root rot. There are several reasons why leaves may show\n[0:32] these symptoms which I've explained in previous videos. If your dragon blood\n[0:34] tree has been growing for a long time and shows this root rot is likely the\n[0:38] cause. If it's a newly bought or repotted plant, the damage may have\n[0:40] happened during repotting. Water can get trapped in the leaf crevices and without\n[0:43] airflow. It may cause localized rot over time, but this kind of rot rarely covers\n[0:46] large areas. If your plant is already in poor condition, here's how to save.\n[0:50] Inspect the trunk carefully. If the top is rotting, use a knife to carefully cut\n[0:53] under the bark and check whether the inside is green or yellow. If green, the\n[0:56] stem is still alive underneath. Cut away all the rotten parts above the healthy\n[0:59] green section, allowing new shoots to grow from the healthy tissue. If all the\n[1:02] upper branches are rotten, make a similar cut on the main stem to check if\n[1:04] it's green or yellow inside. If green, remove all yellow rotten sections,\n[1:08] encouraging new side shoots to develop. To do this properly, you must take the\n[1:11] plant out of the soil. Trim away all rotted roots and repot it fresh. If you\n[1:15] only cut the top without treating the roots, the stem will gradually shrivel\n[1:18] and soften from the wound downward. Many growers find that while their leaves\n[1:20] look fine, the trunk is shriveled, dry, and wrinkled. Use the same cutting\n[1:24] method to check the trunk's interior color. Check whether the trunk is rotted\n[1:26] by its color inside. If green, cut and remove leaves. Then replant the healthy\n[1:30] part. If your clumping shuffler looks untidy, do the leaf loss. Follow these"
+      }
+    ],
+    "advice": "[0:00] The dragon blood tree is a popular plant. Its leaf tips often dry out and\n[0:03] turn yellow. And when the branches near the base have only a few dry tips, this\n[0:05] usually indicates underwatering or drought stress. Simply trim off those\n[0:08] dry tips to keep it healthy. This results in large areas of black or gray\n[0:12] white dry tips on the leaves. No matter how you water or care for it, the core\n[0:15] problem lies in the soil's poor arration. Compact. Poorly draining soil\n[0:18] suffocates the roots. The best way to help your plant is to repot it. With\n[0:21] fresh, loose, and breathable soil. If root suffocation is causing widespread\n[0:25] dry tips, then you don't intervene. The situation will only get worse. This is a\n[0:28] serious sign of advanced root rot. There are several reasons why leaves may show\n[0:32] these symptoms which I've explained in previous videos. If your dragon blood\n[0:34] tree has been growing for a long time and shows this root rot is likely the\n[0:38] cause. If it's a newly bought or repotted plant, the damage may have\n[0:40] happened during repotting. Water can get trapped in the leaf crevices and without\n[0:43] airflow. It may cause localized rot over time, but this kind of rot rarely covers\n[0:46] large areas. If your plant is already in poor condition, here's how to save.\n[0:50] Inspect the trunk carefully. If the top is rotting, use a knife to carefully cut\n[0:53] under the bark and check whether the inside is green or yellow. If green, the\n[0:56] stem is still alive underneath. Cut away all the rotten parts above the healthy\n[0:59] green section, allowing new shoots to grow from the healthy tissue. If all the\n[1:02] upper branches are rotten, make a similar cut on the main stem to check if\n[1:04] it's green or yellow inside. If green, remove all yellow rotten sections,\n[1:08] encouraging new side shoots to develop. To do this properly, you must take the\n[1:11] plant out of the soil. Trim away all rotted roots and repot it fresh. If you\n[1:15] only cut the top without treating the roots, the stem will gradually shrivel\n[1:18] and soften from the wound downward. Many growers find that while their leaves\n[1:20] look fine, the trunk is shriveled, dry, and wrinkled. Use the same cutting\n[1:24] method to check the trunk's interior color. Check whether the trunk is rotted\n[1:26] by its color inside. If green, cut and remove leaves. Then replant the healthy\n[1:30] part. If your clumping shuffler looks untidy, do the leaf loss. Follow these",
+    "reason": "First result addresses soft wrinkled Dracaena trunk; retain full diagnosis, inspection and rescue instructions. Subsequent Schefflera division and healthy-tree side-shoot enhancement are separate topics.",
+    "frozen_at": "2026-10-29T05:24:44.217748+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:25:45.843690+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

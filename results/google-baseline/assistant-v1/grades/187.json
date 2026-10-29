@@ -1,0 +1,207 @@
+{
+  "reference_action": "OP cut dark rotted area and repotted in cactus soil, then reported healthy plant/no flying bugs. Central rescue is remove rot and dry succulent substrate, not gnat treatment alone.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Moisture/drainage and gnat management; no removal of existing rotted stem or propagation.",
+      "evidence": [
+        "187-source-01.txt"
+      ],
+      "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/#gsc.tab=0"
+    },
+    {
+      "rank": 2,
+      "action_hit": "unresolved",
+      "reason": "Short instructions unreadable.",
+      "evidence": [
+        "187-source-02.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/wI7Tkat_Clk"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Dry surface, traps, soil cap/topsoil replacement; no central rot excision.",
+      "evidence": [
+        "video-audit-2gWDOamQdFQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=2gWDOamQdFQ"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Gnat prevention and peroxide/biological treatments; no rot removal.",
+      "evidence": [
+        "video-audit-_3BAW3x3574-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=_3BAW3x3574"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Gnat controls, not rotted succulent salvage.",
+      "evidence": [
+        "video-audit-cID9bSlepPU-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=cID9bSlepPU"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect adults, larvae and pot moisture",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Improve mix drainage with perlite/sand",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Remove standing water and debris",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repair leaks/screens if needed",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": true
+      },
+      {
+        "action": "Discard severely infested plants if chosen",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prepare/solarize unpasteurized soil if chosen",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Store potting soil sealed",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Set yellow traps",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Place and replace raw potato traps",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Apply Bti drench per label",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Apply nematodes if chosen",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Apply predatory mites if chosen",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Apply labeled pyrethrin alternative outdoors",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Return treated plant indoors after waiting",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Correct damp-media/gnat relationship and some relevant drainage prevention. Does not address the already black rotting stem or propagate healthy tissue; many conditional guide options exceed capacity."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Do not aerially fog indoors” and label/outdoor-treatment directions provide substantial safeguards. The guide avoids indiscriminate pesticide use, although it leaves the rot problem untreated."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Accurately covers fungus gnats and wet media, but the owner’s main concern and successful fix were stem rot. Drainage prevention alone is incomplete rescue advice."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Basic dry-down and traps are accessible. Full guide includes soil solarization, biological agents and structural repairs that require interpretation, time and supplies."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 187,
+  "thread_id": "14e713v",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 187,
+    "thread_id": "14e713v",
+    "selected_rank": 1,
+    "source_url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/#gsc.tab=0",
+    "spans": [
+      {
+        "file": "187-source-01.txt",
+        "start_line": 77,
+        "end_line": 187,
+        "sha256": "3942350601dae3d94a64ddcfd3d27aa0089577ce20a6b539a6607611985a7466",
+        "text": "  - heading \"Damage\" [level=2]\n  - paragraph: Adult fungus gnats don’t damage plants or bite people; their presence is primarily considered a nuisance. Larvae, however, when present in large numbers, can damage roots and stunt plant growth, particularly in seedlings and young plants. Significant root damage and even plant death have been observed in interior plantscapes and in houseplants when high populations were associated with moist, organically-rich soil. Thus, a houseplant that is wilting may not indicate a lack of water, but rather root damage by fungus gnat larvae or (more commonly) other causes of unhealthy roots. However, too much or too little water, root decay fungi, and improper soil conditions (e.g., poor drainage, or waterlogging) are much more common causes of wilted plants.\n  - paragraph: Serious fungus gnat damage is more common in greenhouses, nurseries, and sod farms. Although larvae also feed on plant roots outdoors, they don’t usually cause serious damage.\n  - heading \"Life Cycle\" [level=2]\n  - paragraph:\n    - text: Fungus gnats develop through\n    - link \"four stages\":\n      - /url: /PMG/PESTNOTES/pni7448-2c.html\n    - text: —egg, larva (with four larval stages or instars), pupa, and adult. The tiny eggs and oblong pupae occur in damp organic media where females lay eggs and larvae feed. At 75ºF, eggs hatch in about 3 days, the larvae take approximately 10 days to develop into pupae, and about 4 days later the adults emerge. A generation of fungus gnats (from female to female) can be produced in about 17 days depending upon temperature. The warmer it is, the faster they will develop and the more generations will be produced in a year.\n  - paragraph: Fungus gnats have many overlapping generations each year. Outdoors, they are most common during winter and spring in interior areas of California, when water is more available and cooler temperatures prevail. They can occur during any time of the year in moist coastal regions and indoors.\n  - 'img \"Fungus gnat larvae on underside of fallen leaf on container plant media surface (3x) in UC Davis greenhouse Credit: Jack Kelly Clark, UC IPM\"'\n  - generic: \"Fungus gnat larvae. Credit: Jack Kelly Clark, UC IPM\"\n  - heading \"Management\" [level=2]\n  - paragraph: Most of the fungus gnat’s life is spent as a larva and pupa in organic matter or soil, so the most effective control methods target these immature stages rather than attempting to directly control the mobile, short-lived adults. Physical and cultural management tactics—primarily the reductions of excess moisture and organic debris—are key to reducing fungus gnat problems. Commercially-available and naturally-occurring biological control agents can also control this pest. Insecticides are considered an important control option in some commercial plant production but generally aren’t recommended for fungus gnat management in and around the home.\n  - heading \"Monitoring\" [level=3]\n  - paragraph:\n    - text: Visual inspection for adults usually is adequate for determining whether a problem exists. You will see adults resting on plants, soil, windows, or walls, or you might see them in flight. Besides looking for adults, check plant pots for excessively moist conditions and organic debris where larvae feed.\n    - link \"Yellow sticky traps\":\n      - /url: /PMG/S/S-FL-SCEN-MO.030.html\n    - text: can be used to trap adults. Chunks of raw potato placed in pots with the cut sides down (not the peels) are sometimes used to monitor for larvae.\n  - 'img \"Adult fungus gnat caught in yellow sticky trap (7.5x), UC Davis Credit: Jack Kelly Clark, UC IPM\"'\n  - generic: \"Fungus gnat adult caught in a yellow sticky trap. Credit: Jack Kelly Clark, UC IPM\"\n  - heading \"Water and Soil Management\" [level=3]\n  - paragraph: Because fungus gnats thrive in moist conditions, especially where there is an abundance of decaying vegetation and fungi, avoid overwatering and provide good drainage. Allow the surface of container soil to dry between waterings. Clean up standing water, and eliminate any plumbing or irrigation system leaks. Moist and decomposing grass clippings, compost, organic fertilizers, and mulches are also favorite breeding spots. Avoid using incompletely-composted organic matter in potting media unless it is pasteurized first, because it will often be infested with fungus gnats. Improve the drainage of the potting mix (e.g., increase the proportion of perlite or sand in the mix). Minimize organic debris around buildings and crops. Avoid fertilizing with excessive amounts of manure, blood meal, or similar organic materials. Screen and caulk leaky windows and doors to help prevent pests from coming indoors.\n  - paragraph: If you have infested plants, don’t move them to new areas where flies can emerge to infest other pots. In some cases you may wish to toss out severely infested plants.\n  - paragraph: \"Purchase and use only pasteurized container mix or potting mix. Commercial growers often treat potting soil with heat or steam before using it; this will kill flies and the algae and microorganisms they feed on. Home gardeners can solarize soil:\"\n  - list:\n    - listitem: Moisten it.\n    - listitem: Place it in a bag of transparent plastic or black plastic.\n    - listitem: Make the pile no deeper than about 8 inches.\n    - listitem: Place the bagged soil on a slightly elevated surface, such as a pallet in a sunny location, for about 4 to 6 weeks.\n  - paragraph:\n    - text: See the\n    - emphasis:\n      - text: \"Pest Note:\"\n      - link \"Soil Solarization\":\n        - /url: /PMG/PESTNOTES/pn74145.html\n    - text: for details. Store pasteurized potting soil off the ground and in closed containers to prevent it from becoming infested before use.\n  - heading \"Trapping\" [level=3]\n  - paragraph: In home situations where fungus gnat adults are a nuisance, it may be possible to reduce the problem by using sticky traps available at retail nursery and garden centers. Yellow sticky traps can be cut into smaller squares, attached to wooden skewers or sticks and placed in pots to trap adults. Also, raw potato chunks placed in the soil are very attractive to fungus gnat larvae. These may be used not only to check pots for larvae but also to trap them away from plant roots. After a few days in a pot, remove infested chunks, dispose of them, and replace with fresh ones.\n  - heading \"Biological Control\" [level=3]\n  - paragraph:\n    - text: Three commercially available biological control agents can be purchased to control fungus gnats in pots or container media. These include\n    - link \"Steinernema nematodes\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=65\n      - emphasis: Steinernema\n      - text: nematodes\n    - text: \",\"\n    - emphasis: Hypoaspis\n    - text: predatory mites, and the biological insecticide\n    - link \"Bacillus thuringiensis subspecies israelensis\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=94\n      - emphasis: Bacillus thuringiensis\n      - text: subspecies\n      - emphasis: israelensis\n    - text: (Bti). Several Bti products (Mosquito Bits, Gnatrol) are readily available in retail nurseries and garden centers, so these products may be the most convenient for home gardeners to use. Bti does not reproduce or persist indoors, so infestations in potting media might require repeated applications at about five-day intervals to provide control. Nematodes and\n    - emphasis: Hypoaspis\n    - text: mites must be mail-ordered and are live and perishable products, requiring immediate application. Nematodes can provide relatively long-term control of fungus gnat larvae, and they can be self-reproducing after several inoculative applications to establish their populations.\n    - emphasis: Steinernema feltiae\n    - text: is more effective against fungus gnats than other commercially available nematode species. Mix Bti or nematodes with water, and apply as a soil drench, or spray onto media using a hand-pump spray bottle or other spray equipment, following label directions.\n  - paragraph:\n    - text: Several natural enemies help to manage fungus gnat populations in outdoor systems, such as landscapes and gardens, and indoors in greenhouses and conservatories, including the predatory hunter flies,\n    - emphasis: Coenosia\n    - text: spp. These flies catch and consume adult fungus gnats in mid-air, and prey on fungus gnat larvae in soil while developing as larvae themselves. Conserve these and other natural enemies by avoiding broad-spectrum insecticide applications.\n  - heading \"Commercially Available Biological Pesticides and Natural Enemies for Controlling Fungus Gnat Larvae.\" [level=4]\n  - paragraph:\n    - emphasis: Bacillus thuringiensis\n    - text: subspecies\n    - emphasis: israelensis\n    - text: (Bti) (Gnatrol) is a naturally occurring, spore-forming bacterium produced commercially by fermentation. Bti applied at labeled rates provides temporary control and is toxic only to fly larvae, such as mosquitoes, black flies, and fungus gnats. Repeat applications commonly are needed for long-term control. This Bt is a different subspecies from that applied to foliage to control caterpillars. Bt labeled for caterpillars is not effective against fly larvae.\n  - paragraph:\n    - emphasis: Hypoaspis (=Geolaelaps\n    - text: or\n    - emphasis: Stratiolaelaps)\n    - text: mite is a light-brownish predaceous mite adapted to feeding in the upper layers of moist soil. Preys on fungus gnat larvae and pupae, thrips pupae, springtails, and other tiny invertebrates. Commercial mites commonly are shipped in a shaker-type container used to apply them. Recommended rates in commercial nurseries are about 1/2 to several dozen mites per container or square foot of media. Make applications before pests become abundant.\n    - emphasis: Hypoaspis\n    - text: probably won’t perform very well in individual houseplants and probably isn’t a good choice for use in homes.\n  - paragraph:\n    - emphasis: Steinernema feltiae\n    - text: is a nematode that is effective when temperatures are between 60° to 90°F and conditions are moist. You can apply it as a soil drench and to media using conventional spray equipment. Nematodes reproduce and actively search for hosts, so under moist conditions they can provide season-long control after several initial applications to establish populations.\n  - paragraph: These materials are essentially nontoxic to people and are compatible for application in combination. Bt is available from many well-stocked nurseries and garden supply stores. Predaceous mites, Bti, and nematodes, are commercially available through mail order from special suppliers.\n  - heading \"Chemical Control\" [level=3]\n  - paragraph:\n    - text: Insecticides are rarely warranted to control these flies in and around homes. However, if you do apply an insecticide for fungus gnats, consider using Bti or\n    - emphasis: Steinernema feltiae\n    - text: nematodes to control the larvae; see the section Biological Control for more information.\n  - paragraph:\n    - text: If Bti or nematodes aren’t available and high populations are intolerable,\n    - link \"pyrethrins\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=53\n    - text: or a pyrethroid insecticide may provide temporary, fast-acting control. Spray the surface of potting soil and plant parts where adults typically rest. Do not aerially fog indoors or attempt to spray adult gnats in flight. Be sure the product is labeled for your particular use (e.g., for \"house plants\") and read and follow the product's directions.\n  - paragraph:\n    - text: Pyrethrins have low toxicity to people and pets and are the active ingredients in the botanical pyrethrum, which is derived from flowers of certain chrysanthemums. Many products include a petroleum-derived synergist (piperonyl butoxide, or PBO) to increase pyrethrum effectiveness. Pyrethroids (e.g.,\n    - link \"bifenthrin\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=101\n    - text: \",\"\n    - link \"permethrin\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=47\n    - text: ) are synthesized from petroleum to be chemically similar to pyrethrins; they often are more effective and persistent but are more toxic to beneficial insects. When using these products on houseplants or interiorscape containers, if possible move plants outdoors for treatment as a precaution, and wait about a day after applying the chemical before bringing them back inside.\n  - paragraph:\n    - text: For information on managing fungus gnats in commercial flower, nursery or greenhouse operations, see the\n    - emphasis: \"UC IPM Pest Management Guidelines:\"\n    - link \"Floriculture and Ornamental Nurseries\":\n      - /url: /PMG/selectnewpest.floriculture.html\n      - emphasis: Floriculture and Ornamental Nurseries\n    - text: and the book\n    - link \"Integrated Pest Management for Floriculture and Nurseries\":\n      - /url: /IPMPROJECT/ADS/manual_floriculture.html\n      - emphasis: Integrated Pest Management for Floriculture and Nurseries\n    - text: .\n  - generic: The pesticide information on this page may become out of date as products and active ingredients change or become unavailable. Some of the pesticides listed are only available for use by licensed pesticide applicators. No endorsements of named products are intended, nor is criticism implied of products not mentioned."
+      }
+    ],
+    "advice": "  - heading \"Damage\" [level=2]\n  - paragraph: Adult fungus gnats don’t damage plants or bite people; their presence is primarily considered a nuisance. Larvae, however, when present in large numbers, can damage roots and stunt plant growth, particularly in seedlings and young plants. Significant root damage and even plant death have been observed in interior plantscapes and in houseplants when high populations were associated with moist, organically-rich soil. Thus, a houseplant that is wilting may not indicate a lack of water, but rather root damage by fungus gnat larvae or (more commonly) other causes of unhealthy roots. However, too much or too little water, root decay fungi, and improper soil conditions (e.g., poor drainage, or waterlogging) are much more common causes of wilted plants.\n  - paragraph: Serious fungus gnat damage is more common in greenhouses, nurseries, and sod farms. Although larvae also feed on plant roots outdoors, they don’t usually cause serious damage.\n  - heading \"Life Cycle\" [level=2]\n  - paragraph:\n    - text: Fungus gnats develop through\n    - link \"four stages\":\n      - /url: /PMG/PESTNOTES/pni7448-2c.html\n    - text: —egg, larva (with four larval stages or instars), pupa, and adult. The tiny eggs and oblong pupae occur in damp organic media where females lay eggs and larvae feed. At 75ºF, eggs hatch in about 3 days, the larvae take approximately 10 days to develop into pupae, and about 4 days later the adults emerge. A generation of fungus gnats (from female to female) can be produced in about 17 days depending upon temperature. The warmer it is, the faster they will develop and the more generations will be produced in a year.\n  - paragraph: Fungus gnats have many overlapping generations each year. Outdoors, they are most common during winter and spring in interior areas of California, when water is more available and cooler temperatures prevail. They can occur during any time of the year in moist coastal regions and indoors.\n  - 'img \"Fungus gnat larvae on underside of fallen leaf on container plant media surface (3x) in UC Davis greenhouse Credit: Jack Kelly Clark, UC IPM\"'\n  - generic: \"Fungus gnat larvae. Credit: Jack Kelly Clark, UC IPM\"\n  - heading \"Management\" [level=2]\n  - paragraph: Most of the fungus gnat’s life is spent as a larva and pupa in organic matter or soil, so the most effective control methods target these immature stages rather than attempting to directly control the mobile, short-lived adults. Physical and cultural management tactics—primarily the reductions of excess moisture and organic debris—are key to reducing fungus gnat problems. Commercially-available and naturally-occurring biological control agents can also control this pest. Insecticides are considered an important control option in some commercial plant production but generally aren’t recommended for fungus gnat management in and around the home.\n  - heading \"Monitoring\" [level=3]\n  - paragraph:\n    - text: Visual inspection for adults usually is adequate for determining whether a problem exists. You will see adults resting on plants, soil, windows, or walls, or you might see them in flight. Besides looking for adults, check plant pots for excessively moist conditions and organic debris where larvae feed.\n    - link \"Yellow sticky traps\":\n      - /url: /PMG/S/S-FL-SCEN-MO.030.html\n    - text: can be used to trap adults. Chunks of raw potato placed in pots with the cut sides down (not the peels) are sometimes used to monitor for larvae.\n  - 'img \"Adult fungus gnat caught in yellow sticky trap (7.5x), UC Davis Credit: Jack Kelly Clark, UC IPM\"'\n  - generic: \"Fungus gnat adult caught in a yellow sticky trap. Credit: Jack Kelly Clark, UC IPM\"\n  - heading \"Water and Soil Management\" [level=3]\n  - paragraph: Because fungus gnats thrive in moist conditions, especially where there is an abundance of decaying vegetation and fungi, avoid overwatering and provide good drainage. Allow the surface of container soil to dry between waterings. Clean up standing water, and eliminate any plumbing or irrigation system leaks. Moist and decomposing grass clippings, compost, organic fertilizers, and mulches are also favorite breeding spots. Avoid using incompletely-composted organic matter in potting media unless it is pasteurized first, because it will often be infested with fungus gnats. Improve the drainage of the potting mix (e.g., increase the proportion of perlite or sand in the mix). Minimize organic debris around buildings and crops. Avoid fertilizing with excessive amounts of manure, blood meal, or similar organic materials. Screen and caulk leaky windows and doors to help prevent pests from coming indoors.\n  - paragraph: If you have infested plants, don’t move them to new areas where flies can emerge to infest other pots. In some cases you may wish to toss out severely infested plants.\n  - paragraph: \"Purchase and use only pasteurized container mix or potting mix. Commercial growers often treat potting soil with heat or steam before using it; this will kill flies and the algae and microorganisms they feed on. Home gardeners can solarize soil:\"\n  - list:\n    - listitem: Moisten it.\n    - listitem: Place it in a bag of transparent plastic or black plastic.\n    - listitem: Make the pile no deeper than about 8 inches.\n    - listitem: Place the bagged soil on a slightly elevated surface, such as a pallet in a sunny location, for about 4 to 6 weeks.\n  - paragraph:\n    - text: See the\n    - emphasis:\n      - text: \"Pest Note:\"\n      - link \"Soil Solarization\":\n        - /url: /PMG/PESTNOTES/pn74145.html\n    - text: for details. Store pasteurized potting soil off the ground and in closed containers to prevent it from becoming infested before use.\n  - heading \"Trapping\" [level=3]\n  - paragraph: In home situations where fungus gnat adults are a nuisance, it may be possible to reduce the problem by using sticky traps available at retail nursery and garden centers. Yellow sticky traps can be cut into smaller squares, attached to wooden skewers or sticks and placed in pots to trap adults. Also, raw potato chunks placed in the soil are very attractive to fungus gnat larvae. These may be used not only to check pots for larvae but also to trap them away from plant roots. After a few days in a pot, remove infested chunks, dispose of them, and replace with fresh ones.\n  - heading \"Biological Control\" [level=3]\n  - paragraph:\n    - text: Three commercially available biological control agents can be purchased to control fungus gnats in pots or container media. These include\n    - link \"Steinernema nematodes\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=65\n      - emphasis: Steinernema\n      - text: nematodes\n    - text: \",\"\n    - emphasis: Hypoaspis\n    - text: predatory mites, and the biological insecticide\n    - link \"Bacillus thuringiensis subspecies israelensis\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=94\n      - emphasis: Bacillus thuringiensis\n      - text: subspecies\n      - emphasis: israelensis\n    - text: (Bti). Several Bti products (Mosquito Bits, Gnatrol) are readily available in retail nurseries and garden centers, so these products may be the most convenient for home gardeners to use. Bti does not reproduce or persist indoors, so infestations in potting media might require repeated applications at about five-day intervals to provide control. Nematodes and\n    - emphasis: Hypoaspis\n    - text: mites must be mail-ordered and are live and perishable products, requiring immediate application. Nematodes can provide relatively long-term control of fungus gnat larvae, and they can be self-reproducing after several inoculative applications to establish their populations.\n    - emphasis: Steinernema feltiae\n    - text: is more effective against fungus gnats than other commercially available nematode species. Mix Bti or nematodes with water, and apply as a soil drench, or spray onto media using a hand-pump spray bottle or other spray equipment, following label directions.\n  - paragraph:\n    - text: Several natural enemies help to manage fungus gnat populations in outdoor systems, such as landscapes and gardens, and indoors in greenhouses and conservatories, including the predatory hunter flies,\n    - emphasis: Coenosia\n    - text: spp. These flies catch and consume adult fungus gnats in mid-air, and prey on fungus gnat larvae in soil while developing as larvae themselves. Conserve these and other natural enemies by avoiding broad-spectrum insecticide applications.\n  - heading \"Commercially Available Biological Pesticides and Natural Enemies for Controlling Fungus Gnat Larvae.\" [level=4]\n  - paragraph:\n    - emphasis: Bacillus thuringiensis\n    - text: subspecies\n    - emphasis: israelensis\n    - text: (Bti) (Gnatrol) is a naturally occurring, spore-forming bacterium produced commercially by fermentation. Bti applied at labeled rates provides temporary control and is toxic only to fly larvae, such as mosquitoes, black flies, and fungus gnats. Repeat applications commonly are needed for long-term control. This Bt is a different subspecies from that applied to foliage to control caterpillars. Bt labeled for caterpillars is not effective against fly larvae.\n  - paragraph:\n    - emphasis: Hypoaspis (=Geolaelaps\n    - text: or\n    - emphasis: Stratiolaelaps)\n    - text: mite is a light-brownish predaceous mite adapted to feeding in the upper layers of moist soil. Preys on fungus gnat larvae and pupae, thrips pupae, springtails, and other tiny invertebrates. Commercial mites commonly are shipped in a shaker-type container used to apply them. Recommended rates in commercial nurseries are about 1/2 to several dozen mites per container or square foot of media. Make applications before pests become abundant.\n    - emphasis: Hypoaspis\n    - text: probably won’t perform very well in individual houseplants and probably isn’t a good choice for use in homes.\n  - paragraph:\n    - emphasis: Steinernema feltiae\n    - text: is a nematode that is effective when temperatures are between 60° to 90°F and conditions are moist. You can apply it as a soil drench and to media using conventional spray equipment. Nematodes reproduce and actively search for hosts, so under moist conditions they can provide season-long control after several initial applications to establish populations.\n  - paragraph: These materials are essentially nontoxic to people and are compatible for application in combination. Bt is available from many well-stocked nurseries and garden supply stores. Predaceous mites, Bti, and nematodes, are commercially available through mail order from special suppliers.\n  - heading \"Chemical Control\" [level=3]\n  - paragraph:\n    - text: Insecticides are rarely warranted to control these flies in and around homes. However, if you do apply an insecticide for fungus gnats, consider using Bti or\n    - emphasis: Steinernema feltiae\n    - text: nematodes to control the larvae; see the section Biological Control for more information.\n  - paragraph:\n    - text: If Bti or nematodes aren’t available and high populations are intolerable,\n    - link \"pyrethrins\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=53\n    - text: or a pyrethroid insecticide may provide temporary, fast-acting control. Spray the surface of potting soil and plant parts where adults typically rest. Do not aerially fog indoors or attempt to spray adult gnats in flight. Be sure the product is labeled for your particular use (e.g., for \"house plants\") and read and follow the product's directions.\n  - paragraph:\n    - text: Pyrethrins have low toxicity to people and pets and are the active ingredients in the botanical pyrethrum, which is derived from flowers of certain chrysanthemums. Many products include a petroleum-derived synergist (piperonyl butoxide, or PBO) to increase pyrethrum effectiveness. Pyrethroids (e.g.,\n    - link \"bifenthrin\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=101\n    - text: \",\"\n    - link \"permethrin\":\n      - /url: /home-and-landscape/pesticide-active-ingredients-database/active-ingredient-details/?uaiKey=47\n    - text: ) are synthesized from petroleum to be chemically similar to pyrethrins; they often are more effective and persistent but are more toxic to beneficial insects. When using these products on houseplants or interiorscape containers, if possible move plants outdoors for treatment as a precaution, and wait about a day after applying the chemical before bringing them back inside.\n  - paragraph:\n    - text: For information on managing fungus gnats in commercial flower, nursery or greenhouse operations, see the\n    - emphasis: \"UC IPM Pest Management Guidelines:\"\n    - link \"Floriculture and Ornamental Nurseries\":\n      - /url: /PMG/selectnewpest.floriculture.html\n      - emphasis: Floriculture and Ornamental Nurseries\n    - text: and the book\n    - link \"Integrated Pest Management for Floriculture and Nurseries\":\n      - /url: /IPMPROJECT/ADS/manual_floriculture.html\n      - emphasis: Integrated Pest Management for Floriculture and Nurseries\n    - text: .\n  - generic: The pesticide information on this page may become out of date as products and active ingredients change or become unavailable. Some of the pesticides listed are only available for use by licensed pesticide applicators. No endorsements of named products are intended, nor is criticism implied of products not mentioned.",
+    "reason": "First accessible relevant fungus-gnat management guide, including complete home management alternatives and pesticide cautions.",
+    "frozen_at": "2026-10-29T06:36:25.624534+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:37:28.329750+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

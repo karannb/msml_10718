@@ -1,0 +1,182 @@
+{
+  "reference_action": "Replace water fully rather than topping off, rinse/trim affected roots, provide adequate container space and diluted water-soluble nutrients; OP reports new shoot and fresh roots.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Advice treats a soil-grown Dracaena/lucky bamboo/dumb cane and prescribes smaller pot, pruning and light. It does not supply water replacement and hydroponic nutrients.",
+      "evidence": [
+        "004-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/1701969460744545/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Commercial plant replacement and grow lighting are discussed; no hydroponic water/root-care fix appears in the accessible discussion.",
+      "evidence": [
+        "004-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/IndoorGarden/comments/1byzv0x/how_do_businesses_keep_plants_so_healthy_in_low/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Rehabilitation after seven weeks without watering uses soil watering and fertilizer sticks; it does not address changing stagnant water for a water-grown cutting.",
+      "evidence": [
+        "004-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=71ifAqFNFAA"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Separating a mixed soil planter and species-specific watering does not address the hydroponic fix.",
+      "evidence": [
+        "004-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1732060157100583/posts/3228790077427576/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Visible advice concerns soil drainage, insects and dehydration, not water-grown roots; a final advice comment is cut off and the remainder is unverified.",
+      "evidence": [
+        "004-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/2127269170698043/posts/7163261793765397/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Transfer to a smaller pot filled with soil, optionally cactus/succulent soil after a week",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Cut the stem to about six inches",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to bright indirect light",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water when top inch of soil is dry",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Trim growing tip to about three leaves",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Propagate tip in water or leca",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Add propagated tip back into the pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Stake the plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Remove dead foliage",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The advice assumes a different soil-grown plant and would prompt unnecessary drastic pruning/transfer while missing the water-change and nutrient fix."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Cut the stem to about 6 inches” and transfer to a “slightly smaller pot” are poorly suited to the struggling water-grown cutting and its already crowded roots. Applying those instructions could remove healthy tissue and delay the required water/root care."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“This Dracaena has lived its entire life with insufficient lighting” describes another plant. The conflicting Dracaena, dumb cane and lucky-bamboo guesses do not diagnose stagnant hydroponic water or missing nutrients."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Stem lengths and “water when top inch of soil is dry” are concrete for a soil plant. For this bottle-grown cutting the instructions require a new soil setup, propagation and ambiguous “extra humidity,” making them difficult to apply reliably."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Some extra humidity wouldn’t hurt",
+      "give it some brighter light"
+    ]
+  },
+  "query_index": 4,
+  "thread_id": "1e712vo",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 4,
+    "thread_id": "1e712vo",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/1701969460744545/",
+    "spans": [
+      {
+        "file": "004-source-01.txt",
+        "start_line": 52,
+        "end_line": 81,
+        "sha256": "484bfca58409b720bc1c246ce0db37d3f136cf5b60dfb29c94c5187138762173",
+        "text": "      - article \"Comment by Gladglori Glad a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Gladglori Glad\":\n          - generic: Gladglori Glad\n        - generic: This Dracaena has lived its entire life with insufficient lighting. If it were mine to rehab, I would transfer to a slightly smaller pot entirely full of soil, cut the stem to about 6”, and give it some brighter light (not direct sun, but very bright) and water when top inch of soil is dry. Some extra humidity wouldn’t hurt. You can trim the growing tip to about 3 leaves and propagate in water or leca, then add back to the pot. The stem in the pot should grow a new side stem/leaves, though not necessarily fast. This google image shows a similar plant, so you have a goal! Good luck with the rescue!\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=10237931961784651&set=p.10237931961784651&type=3&__cft__[0]=AZgg83ygh_xOmmtHhfOBzpjXEM0Oas7806r1jYEA4WQjosRDrQaSeUYfI7l1rVJ7FbRng7y1ff47gl-jkBp7K8M9iaC3LwA_Fs-LbNKcTvhZdC4jYRgpL2YZDFV8qmuEB3-_rCceMjLIMB9NbpDmxDzAruRkLxjSYwmWRUZ2nVnCYqmQDOB12EWrVE3J&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1701969460744545/?comment_id=1701983980743093&__cft__[0]=AZgg83ygh_xOmmtHhfOBzpjXEM0Oas7806r1jYEA4WQjosRDrQaSeUYfI7l1rVJ7FbRng7y1ff47gl-jkBp7K8M9iaC3LwA_Fs-LbNKcTvhZdC4jYRgpL2YZDFV8qmuEB3-_rCceMjLIMB9NbpDmxDzAruRkLxjSYwmWRUZ2nVnCYqmQDOB12EWrVE3J&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Crystal Pheasant Smithmyer a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Crystal Pheasant Smithmyer\":\n          - generic: Crystal Pheasant Smithmyer\n        - text: I agree that this plant needs staking, and to have the dead foliage removed. The stalk looks very much like a plant that I have called ￼Dumb Cane. This common name comes from the fact that it secretes a substance that if touched or ingested can make yo…\n        - button \"See more\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1701969460744545/?comment_id=1701978260743665&__cft__[0]=AZgg83ygh_xOmmtHhfOBzpjXEM0Oas7806r1jYEA4WQjosRDrQaSeUYfI7l1rVJ7FbRng7y1ff47gl-jkBp7K8M9iaC3LwA_Fs-LbNKcTvhZdC4jYRgpL2YZDFV8qmuEB3-_rCceMjLIMB9NbpDmxDzAruRkLxjSYwmWRUZ2nVnCYqmQDOB12EWrVE3J&__tn__=R]-R\n      - article \"Comment by Ann Virginia a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Ann Virginia\":\n          - generic: Ann Virginia\n        - generic: it looks like my lucky bamboo. I thought it was a corn plant at first but looking at it more It might be lucky bamboo. I would stake it, clean off the dead leaves. sit it indirect light and if they take it home wait a week or so before repotting with fresh soil. cactus/succulent soil is what I use for my dumb cane and lucky bamboo."
+      }
+    ],
+    "advice": "      - article \"Comment by Gladglori Glad a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Gladglori Glad\":\n          - generic: Gladglori Glad\n        - generic: This Dracaena has lived its entire life with insufficient lighting. If it were mine to rehab, I would transfer to a slightly smaller pot entirely full of soil, cut the stem to about 6”, and give it some brighter light (not direct sun, but very bright) and water when top inch of soil is dry. Some extra humidity wouldn’t hurt. You can trim the growing tip to about 3 leaves and propagate in water or leca, then add back to the pot. The stem in the pot should grow a new side stem/leaves, though not necessarily fast. This google image shows a similar plant, so you have a goal! Good luck with the rescue!\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=10237931961784651&set=p.10237931961784651&type=3&__cft__[0]=AZgg83ygh_xOmmtHhfOBzpjXEM0Oas7806r1jYEA4WQjosRDrQaSeUYfI7l1rVJ7FbRng7y1ff47gl-jkBp7K8M9iaC3LwA_Fs-LbNKcTvhZdC4jYRgpL2YZDFV8qmuEB3-_rCceMjLIMB9NbpDmxDzAruRkLxjSYwmWRUZ2nVnCYqmQDOB12EWrVE3J&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1701969460744545/?comment_id=1701983980743093&__cft__[0]=AZgg83ygh_xOmmtHhfOBzpjXEM0Oas7806r1jYEA4WQjosRDrQaSeUYfI7l1rVJ7FbRng7y1ff47gl-jkBp7K8M9iaC3LwA_Fs-LbNKcTvhZdC4jYRgpL2YZDFV8qmuEB3-_rCceMjLIMB9NbpDmxDzAruRkLxjSYwmWRUZ2nVnCYqmQDOB12EWrVE3J&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Crystal Pheasant Smithmyer a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Crystal Pheasant Smithmyer\":\n          - generic: Crystal Pheasant Smithmyer\n        - text: I agree that this plant needs staking, and to have the dead foliage removed. The stalk looks very much like a plant that I have called ￼Dumb Cane. This common name comes from the fact that it secretes a substance that if touched or ingested can make yo…\n        - button \"See more\"\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1701969460744545/?comment_id=1701978260743665&__cft__[0]=AZgg83ygh_xOmmtHhfOBzpjXEM0Oas7806r1jYEA4WQjosRDrQaSeUYfI7l1rVJ7FbRng7y1ff47gl-jkBp7K8M9iaC3LwA_Fs-LbNKcTvhZdC4jYRgpL2YZDFV8qmuEB3-_rCceMjLIMB9NbpDmxDzAruRkLxjSYwmWRUZ2nVnCYqmQDOB12EWrVE3J&__tn__=R]-R\n      - article \"Comment by Ann Virginia a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Ann Virginia\":\n          - generic: Ann Virginia\n        - generic: it looks like my lucky bamboo. I thought it was a corn plant at first but looking at it more It might be lucky bamboo. I would stake it, clean off the dead leaves. sit it indirect light and if they take it home wait a week or so before repotting with fresh soil. cactus/succulent soil is what I use for my dumb cane and lucky bamboo.",
+    "reason": "Highest-ranked page offers explicit dying-office-plant rescue advice. Species guesses conflict and one toxicity comment is truncated; preserve that limitation and all readable instructions.",
+    "frozen_at": "2026-10-29T04:04:56.991876+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:06:14.086164+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

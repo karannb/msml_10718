@@ -1,0 +1,1074 @@
+{
+  "updated_at": "2026-10-29T06:52:22.374635+00:00",
+  "collection_complete": true,
+  "evaluation_complete": true,
+  "completed_core_evaluations": 192,
+  "pending": 0,
+  "threads": 96,
+  "queries": 192,
+  "source_positions": 960,
+  "grader": "assistant_in_conversation",
+  "groups": {
+    "all_96": {
+      "title_paraphrase": {
+        "n": 96,
+        "hits": 76,
+        "misses": 11,
+        "unresolved": 9,
+        "verified_hit_rate": {
+          "count": 76,
+          "denominator": 96,
+          "rate": 0.7916666666666666,
+          "wilson95": [
+            0.7,
+            0.8609
+          ]
+        },
+        "possible_hit_rate_upper_bound": 0.8854166666666666,
+        "complete_case_hit_rate": {
+          "count": 76,
+          "denominator": 87,
+          "rate": 0.8735632183908046,
+          "wilson95": [
+            0.7876,
+            0.9279
+          ]
+        },
+        "raw_hits_before_crosspost_exclusion": 76,
+        "safe_and_useful": {
+          "count": 1,
+          "denominator": 96,
+          "rate": 0.010416666666666666,
+          "wilson95": [
+            0.0018,
+            0.0567
+          ]
+        },
+        "severe_harm": {
+          "count": 20,
+          "denominator": 96,
+          "rate": 0.20833333333333334,
+          "wilson95": [
+            0.1391,
+            0.3
+          ]
+        },
+        "harmful": {
+          "count": 20,
+          "denominator": 96,
+          "rate": 0.20833333333333334,
+          "wilson95": [
+            0.1391,
+            0.3
+          ]
+        },
+        "solved": {
+          "count": 0,
+          "denominator": 96,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.0385
+          ]
+        },
+        "within_capacity": {
+          "count": 9,
+          "denominator": 96,
+          "rate": 0.09375,
+          "wilson95": [
+            0.0501,
+            0.1687
+          ]
+        },
+        "false_alarm": {
+          "count": 4,
+          "denominator": 96,
+          "rate": 0.041666666666666664,
+          "wilson95": [
+            0.0163,
+            0.1023
+          ]
+        },
+        "solved_elapsed_time_sensitivity": {
+          "count": 0,
+          "denominator": 96,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.0385
+          ]
+        },
+        "mean_scores": {
+          "harmfulness": 3.0416666666666665,
+          "specificity_accuracy": 2.3854166666666665,
+          "feasibility": 3.1145833333333335
+        },
+        "diagnosis_counts": {
+          "wrong": 37,
+          "partial": 43,
+          "correct": 15,
+          "None": 1
+        },
+        "advice_counts": {
+          "no": 51,
+          "yes": 15,
+          "partial": 30
+        },
+        "mean_action_count": 7.677083333333333,
+        "selected_source_contamination": 0
+      },
+      "symptoms_context": {
+        "n": 96,
+        "hits": 80,
+        "misses": 6,
+        "unresolved": 10,
+        "verified_hit_rate": {
+          "count": 80,
+          "denominator": 96,
+          "rate": 0.8333333333333334,
+          "wilson95": [
+            0.7463,
+            0.8947
+          ]
+        },
+        "possible_hit_rate_upper_bound": 0.9375,
+        "complete_case_hit_rate": {
+          "count": 80,
+          "denominator": 86,
+          "rate": 0.9302325581395349,
+          "wilson95": [
+            0.856,
+            0.9676
+          ]
+        },
+        "raw_hits_before_crosspost_exclusion": 81,
+        "safe_and_useful": {
+          "count": 6,
+          "denominator": 96,
+          "rate": 0.0625,
+          "wilson95": [
+            0.029,
+            0.1297
+          ]
+        },
+        "severe_harm": {
+          "count": 14,
+          "denominator": 96,
+          "rate": 0.14583333333333334,
+          "wilson95": [
+            0.0889,
+            0.23
+          ]
+        },
+        "harmful": {
+          "count": 14,
+          "denominator": 96,
+          "rate": 0.14583333333333334,
+          "wilson95": [
+            0.0889,
+            0.23
+          ]
+        },
+        "solved": {
+          "count": 4,
+          "denominator": 96,
+          "rate": 0.041666666666666664,
+          "wilson95": [
+            0.0163,
+            0.1023
+          ]
+        },
+        "within_capacity": {
+          "count": 12,
+          "denominator": 96,
+          "rate": 0.125,
+          "wilson95": [
+            0.073,
+            0.2059
+          ]
+        },
+        "false_alarm": {
+          "count": 6,
+          "denominator": 96,
+          "rate": 0.0625,
+          "wilson95": [
+            0.029,
+            0.1297
+          ]
+        },
+        "solved_elapsed_time_sensitivity": {
+          "count": 4,
+          "denominator": 96,
+          "rate": 0.041666666666666664,
+          "wilson95": [
+            0.0163,
+            0.1023
+          ]
+        },
+        "mean_scores": {
+          "harmfulness": 3.1354166666666665,
+          "specificity_accuracy": 2.7291666666666665,
+          "feasibility": 3.2916666666666665
+        },
+        "diagnosis_counts": {
+          "partial": 47,
+          "correct": 19,
+          "wrong": 29,
+          "None": 1
+        },
+        "advice_counts": {
+          "yes": 30,
+          "partial": 25,
+          "no": 41
+        },
+        "mean_action_count": 6.53125,
+        "selected_source_contamination": 1
+      }
+    },
+    "sensitivity_91": {
+      "title_paraphrase": {
+        "n": 91,
+        "hits": 72,
+        "misses": 10,
+        "unresolved": 9,
+        "verified_hit_rate": {
+          "count": 72,
+          "denominator": 91,
+          "rate": 0.7912087912087912,
+          "wilson95": [
+            0.6968,
+            0.8621
+          ]
+        },
+        "possible_hit_rate_upper_bound": 0.8901098901098901,
+        "complete_case_hit_rate": {
+          "count": 72,
+          "denominator": 82,
+          "rate": 0.8780487804878049,
+          "wilson95": [
+            0.7899,
+            0.9324
+          ]
+        },
+        "raw_hits_before_crosspost_exclusion": 72,
+        "safe_and_useful": {
+          "count": 1,
+          "denominator": 91,
+          "rate": 0.01098901098901099,
+          "wilson95": [
+            0.0019,
+            0.0597
+          ]
+        },
+        "severe_harm": {
+          "count": 20,
+          "denominator": 91,
+          "rate": 0.21978021978021978,
+          "wilson95": [
+            0.147,
+            0.3152
+          ]
+        },
+        "harmful": {
+          "count": 20,
+          "denominator": 91,
+          "rate": 0.21978021978021978,
+          "wilson95": [
+            0.147,
+            0.3152
+          ]
+        },
+        "solved": {
+          "count": 0,
+          "denominator": 91,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.0405
+          ]
+        },
+        "within_capacity": {
+          "count": 8,
+          "denominator": 91,
+          "rate": 0.08791208791208792,
+          "wilson95": [
+            0.0452,
+            0.164
+          ]
+        },
+        "false_alarm": {
+          "count": 4,
+          "denominator": 91,
+          "rate": 0.04395604395604396,
+          "wilson95": [
+            0.0172,
+            0.1076
+          ]
+        },
+        "solved_elapsed_time_sensitivity": {
+          "count": 0,
+          "denominator": 91,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.0405
+          ]
+        },
+        "mean_scores": {
+          "harmfulness": 3.0,
+          "specificity_accuracy": 2.3516483516483517,
+          "feasibility": 3.120879120879121
+        },
+        "diagnosis_counts": {
+          "wrong": 37,
+          "partial": 38,
+          "correct": 15,
+          "None": 1
+        },
+        "advice_counts": {
+          "no": 48,
+          "yes": 13,
+          "partial": 30
+        },
+        "mean_action_count": 7.824175824175824,
+        "selected_source_contamination": 0
+      },
+      "symptoms_context": {
+        "n": 91,
+        "hits": 76,
+        "misses": 5,
+        "unresolved": 10,
+        "verified_hit_rate": {
+          "count": 76,
+          "denominator": 91,
+          "rate": 0.8351648351648352,
+          "wilson95": [
+            0.7457,
+            0.8975
+          ]
+        },
+        "possible_hit_rate_upper_bound": 0.945054945054945,
+        "complete_case_hit_rate": {
+          "count": 76,
+          "denominator": 81,
+          "rate": 0.9382716049382716,
+          "wilson95": [
+            0.8635,
+            0.9733
+          ]
+        },
+        "raw_hits_before_crosspost_exclusion": 77,
+        "safe_and_useful": {
+          "count": 6,
+          "denominator": 91,
+          "rate": 0.06593406593406594,
+          "wilson95": [
+            0.0306,
+            0.1365
+          ]
+        },
+        "severe_harm": {
+          "count": 14,
+          "denominator": 91,
+          "rate": 0.15384615384615385,
+          "wilson95": [
+            0.0939,
+            0.2418
+          ]
+        },
+        "harmful": {
+          "count": 14,
+          "denominator": 91,
+          "rate": 0.15384615384615385,
+          "wilson95": [
+            0.0939,
+            0.2418
+          ]
+        },
+        "solved": {
+          "count": 4,
+          "denominator": 91,
+          "rate": 0.04395604395604396,
+          "wilson95": [
+            0.0172,
+            0.1076
+          ]
+        },
+        "within_capacity": {
+          "count": 12,
+          "denominator": 91,
+          "rate": 0.13186813186813187,
+          "wilson95": [
+            0.0771,
+            0.2165
+          ]
+        },
+        "false_alarm": {
+          "count": 4,
+          "denominator": 91,
+          "rate": 0.04395604395604396,
+          "wilson95": [
+            0.0172,
+            0.1076
+          ]
+        },
+        "solved_elapsed_time_sensitivity": {
+          "count": 4,
+          "denominator": 91,
+          "rate": 0.04395604395604396,
+          "wilson95": [
+            0.0172,
+            0.1076
+          ]
+        },
+        "mean_scores": {
+          "harmfulness": 3.142857142857143,
+          "specificity_accuracy": 2.7472527472527473,
+          "feasibility": 3.3076923076923075
+        },
+        "diagnosis_counts": {
+          "partial": 43,
+          "correct": 19,
+          "wrong": 28,
+          "None": 1
+        },
+        "advice_counts": {
+          "yes": 30,
+          "partial": 22,
+          "no": 39
+        },
+        "mean_action_count": 6.516483516483516,
+        "selected_source_contamination": 1
+      }
+    }
+  },
+  "paired_tests": {
+    "all_96": {
+      "action_hit": {
+        "pairs": 79,
+        "excluded_pairs": 17,
+        "only_this_correct": 2,
+        "only_baseline_correct": 5,
+        "p": 0.453,
+        "direction": "this=title; baseline=context"
+      },
+      "safe_and_useful": {
+        "pairs": 96,
+        "excluded_pairs": 0,
+        "only_this_correct": 0,
+        "only_baseline_correct": 5,
+        "p": 0.0625,
+        "direction": "this=title; baseline=context"
+      },
+      "solved": {
+        "pairs": 96,
+        "excluded_pairs": 0,
+        "only_this_correct": 0,
+        "only_baseline_correct": 4,
+        "p": 0.125,
+        "direction": "this=title; baseline=context"
+      },
+      "severe_harm": {
+        "pairs": 96,
+        "excluded_pairs": 0,
+        "only_this_correct": 16,
+        "only_baseline_correct": 10,
+        "p": 0.327,
+        "direction": "this=title; baseline=context"
+      }
+    },
+    "sensitivity_91": {
+      "action_hit": {
+        "pairs": 74,
+        "excluded_pairs": 17,
+        "only_this_correct": 1,
+        "only_baseline_correct": 4,
+        "p": 0.375,
+        "direction": "this=title; baseline=context"
+      },
+      "safe_and_useful": {
+        "pairs": 91,
+        "excluded_pairs": 0,
+        "only_this_correct": 0,
+        "only_baseline_correct": 5,
+        "p": 0.0625,
+        "direction": "this=title; baseline=context"
+      },
+      "solved": {
+        "pairs": 91,
+        "excluded_pairs": 0,
+        "only_this_correct": 0,
+        "only_baseline_correct": 4,
+        "p": 0.125,
+        "direction": "this=title; baseline=context"
+      },
+      "severe_harm": {
+        "pairs": 91,
+        "excluded_pairs": 0,
+        "only_this_correct": 16,
+        "only_baseline_correct": 10,
+        "p": 0.327,
+        "direction": "this=title; baseline=context"
+      }
+    }
+  },
+  "selected_source_excluding_contamination": {
+    "title_paraphrase": {
+      "n": 96,
+      "hits": 76,
+      "misses": 11,
+      "unresolved": 9,
+      "verified_hit_rate": {
+        "count": 76,
+        "denominator": 96,
+        "rate": 0.7916666666666666,
+        "wilson95": [
+          0.7,
+          0.8609
+        ]
+      },
+      "possible_hit_rate_upper_bound": 0.8854166666666666,
+      "complete_case_hit_rate": {
+        "count": 76,
+        "denominator": 87,
+        "rate": 0.8735632183908046,
+        "wilson95": [
+          0.7876,
+          0.9279
+        ]
+      },
+      "raw_hits_before_crosspost_exclusion": 76,
+      "safe_and_useful": {
+        "count": 1,
+        "denominator": 96,
+        "rate": 0.010416666666666666,
+        "wilson95": [
+          0.0018,
+          0.0567
+        ]
+      },
+      "severe_harm": {
+        "count": 20,
+        "denominator": 96,
+        "rate": 0.20833333333333334,
+        "wilson95": [
+          0.1391,
+          0.3
+        ]
+      },
+      "harmful": {
+        "count": 20,
+        "denominator": 96,
+        "rate": 0.20833333333333334,
+        "wilson95": [
+          0.1391,
+          0.3
+        ]
+      },
+      "solved": {
+        "count": 0,
+        "denominator": 96,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0385
+        ]
+      },
+      "within_capacity": {
+        "count": 9,
+        "denominator": 96,
+        "rate": 0.09375,
+        "wilson95": [
+          0.0501,
+          0.1687
+        ]
+      },
+      "false_alarm": {
+        "count": 4,
+        "denominator": 96,
+        "rate": 0.041666666666666664,
+        "wilson95": [
+          0.0163,
+          0.1023
+        ]
+      },
+      "solved_elapsed_time_sensitivity": {
+        "count": 0,
+        "denominator": 96,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0385
+        ]
+      },
+      "mean_scores": {
+        "harmfulness": 3.0416666666666665,
+        "specificity_accuracy": 2.3854166666666665,
+        "feasibility": 3.1145833333333335
+      },
+      "diagnosis_counts": {
+        "wrong": 37,
+        "partial": 43,
+        "correct": 15,
+        "None": 1
+      },
+      "advice_counts": {
+        "no": 51,
+        "yes": 15,
+        "partial": 30
+      },
+      "mean_action_count": 7.677083333333333,
+      "selected_source_contamination": 0
+    },
+    "symptoms_context": {
+      "n": 95,
+      "hits": 80,
+      "misses": 6,
+      "unresolved": 9,
+      "verified_hit_rate": {
+        "count": 80,
+        "denominator": 95,
+        "rate": 0.8421052631578947,
+        "wilson95": [
+          0.7557,
+          0.9019
+        ]
+      },
+      "possible_hit_rate_upper_bound": 0.9368421052631579,
+      "complete_case_hit_rate": {
+        "count": 80,
+        "denominator": 86,
+        "rate": 0.9302325581395349,
+        "wilson95": [
+          0.856,
+          0.9676
+        ]
+      },
+      "raw_hits_before_crosspost_exclusion": 80,
+      "safe_and_useful": {
+        "count": 6,
+        "denominator": 95,
+        "rate": 0.06315789473684211,
+        "wilson95": [
+          0.0293,
+          0.131
+        ]
+      },
+      "severe_harm": {
+        "count": 14,
+        "denominator": 95,
+        "rate": 0.14736842105263157,
+        "wilson95": [
+          0.0899,
+          0.2323
+        ]
+      },
+      "harmful": {
+        "count": 14,
+        "denominator": 95,
+        "rate": 0.14736842105263157,
+        "wilson95": [
+          0.0899,
+          0.2323
+        ]
+      },
+      "solved": {
+        "count": 4,
+        "denominator": 95,
+        "rate": 0.042105263157894736,
+        "wilson95": [
+          0.0165,
+          0.1033
+        ]
+      },
+      "within_capacity": {
+        "count": 12,
+        "denominator": 95,
+        "rate": 0.12631578947368421,
+        "wilson95": [
+          0.0738,
+          0.2079
+        ]
+      },
+      "false_alarm": {
+        "count": 6,
+        "denominator": 95,
+        "rate": 0.06315789473684211,
+        "wilson95": [
+          0.0293,
+          0.131
+        ]
+      },
+      "solved_elapsed_time_sensitivity": {
+        "count": 4,
+        "denominator": 95,
+        "rate": 0.042105263157894736,
+        "wilson95": [
+          0.0165,
+          0.1033
+        ]
+      },
+      "mean_scores": {
+        "harmfulness": 3.136842105263158,
+        "specificity_accuracy": 2.7263157894736842,
+        "feasibility": 3.2842105263157895
+      },
+      "diagnosis_counts": {
+        "partial": 46,
+        "correct": 19,
+        "wrong": 29,
+        "None": 1
+      },
+      "advice_counts": {
+        "yes": 30,
+        "partial": 24,
+        "no": 41
+      },
+      "mean_action_count": 6.578947368421052,
+      "selected_source_contamination": 0
+    }
+  },
+  "reference_certainty_sensitivity_93": {
+    "title_paraphrase": {
+      "n": 93,
+      "hits": 74,
+      "misses": 11,
+      "unresolved": 8,
+      "verified_hit_rate": {
+        "count": 74,
+        "denominator": 93,
+        "rate": 0.7956989247311828,
+        "wilson95": [
+          0.7028,
+          0.8651
+        ]
+      },
+      "possible_hit_rate_upper_bound": 0.8817204301075269,
+      "complete_case_hit_rate": {
+        "count": 74,
+        "denominator": 85,
+        "rate": 0.8705882352941177,
+        "wilson95": [
+          0.783,
+          0.9262
+        ]
+      },
+      "raw_hits_before_crosspost_exclusion": 74,
+      "safe_and_useful": {
+        "count": 1,
+        "denominator": 93,
+        "rate": 0.010752688172043012,
+        "wilson95": [
+          0.0019,
+          0.0584
+        ]
+      },
+      "severe_harm": {
+        "count": 19,
+        "denominator": 93,
+        "rate": 0.20430107526881722,
+        "wilson95": [
+          0.1349,
+          0.2972
+        ]
+      },
+      "harmful": {
+        "count": 19,
+        "denominator": 93,
+        "rate": 0.20430107526881722,
+        "wilson95": [
+          0.1349,
+          0.2972
+        ]
+      },
+      "solved": {
+        "count": 0,
+        "denominator": 93,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0397
+        ]
+      },
+      "within_capacity": {
+        "count": 9,
+        "denominator": 93,
+        "rate": 0.0967741935483871,
+        "wilson95": [
+          0.0518,
+          0.1738
+        ]
+      },
+      "false_alarm": {
+        "count": 4,
+        "denominator": 93,
+        "rate": 0.043010752688172046,
+        "wilson95": [
+          0.0169,
+          0.1054
+        ]
+      },
+      "solved_elapsed_time_sensitivity": {
+        "count": 0,
+        "denominator": 93,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0397
+        ]
+      },
+      "mean_scores": {
+        "harmfulness": 3.043010752688172,
+        "specificity_accuracy": 2.3763440860215055,
+        "feasibility": 3.118279569892473
+      },
+      "diagnosis_counts": {
+        "wrong": 35,
+        "partial": 43,
+        "correct": 15
+      },
+      "advice_counts": {
+        "no": 49,
+        "yes": 15,
+        "partial": 29
+      },
+      "mean_action_count": 7.741935483870968,
+      "selected_source_contamination": 0
+    },
+    "symptoms_context": {
+      "n": 93,
+      "hits": 78,
+      "misses": 5,
+      "unresolved": 10,
+      "verified_hit_rate": {
+        "count": 78,
+        "denominator": 93,
+        "rate": 0.8387096774193549,
+        "wilson95": [
+          0.7508,
+          0.8998
+        ]
+      },
+      "possible_hit_rate_upper_bound": 0.946236559139785,
+      "complete_case_hit_rate": {
+        "count": 78,
+        "denominator": 83,
+        "rate": 0.9397590361445783,
+        "wilson95": [
+          0.8666,
+          0.974
+        ]
+      },
+      "raw_hits_before_crosspost_exclusion": 79,
+      "safe_and_useful": {
+        "count": 6,
+        "denominator": 93,
+        "rate": 0.06451612903225806,
+        "wilson95": [
+          0.0299,
+          0.1337
+        ]
+      },
+      "severe_harm": {
+        "count": 14,
+        "denominator": 93,
+        "rate": 0.15053763440860216,
+        "wilson95": [
+          0.0918,
+          0.237
+        ]
+      },
+      "harmful": {
+        "count": 14,
+        "denominator": 93,
+        "rate": 0.15053763440860216,
+        "wilson95": [
+          0.0918,
+          0.237
+        ]
+      },
+      "solved": {
+        "count": 4,
+        "denominator": 93,
+        "rate": 0.043010752688172046,
+        "wilson95": [
+          0.0169,
+          0.1054
+        ]
+      },
+      "within_capacity": {
+        "count": 11,
+        "denominator": 93,
+        "rate": 0.11827956989247312,
+        "wilson95": [
+          0.0673,
+          0.1995
+        ]
+      },
+      "false_alarm": {
+        "count": 6,
+        "denominator": 93,
+        "rate": 0.06451612903225806,
+        "wilson95": [
+          0.0299,
+          0.1337
+        ]
+      },
+      "solved_elapsed_time_sensitivity": {
+        "count": 4,
+        "denominator": 93,
+        "rate": 0.043010752688172046,
+        "wilson95": [
+          0.0169,
+          0.1054
+        ]
+      },
+      "mean_scores": {
+        "harmfulness": 3.129032258064516,
+        "specificity_accuracy": 2.7311827956989245,
+        "feasibility": 3.2795698924731185
+      },
+      "diagnosis_counts": {
+        "partial": 47,
+        "correct": 18,
+        "wrong": 28
+      },
+      "advice_counts": {
+        "yes": 30,
+        "partial": 25,
+        "no": 38
+      },
+      "mean_action_count": 6.580645161290323,
+      "selected_source_contamination": 1
+    }
+  },
+  "source_verdict_counts": {
+    "miss": 456,
+    "unresolved": 89,
+    "hit": 415
+  },
+  "unique_source_urls": 814,
+  "reference_flags": [
+    {
+      "query_index": 86,
+      "thread_id": "1wc6ru0",
+      "flag": {
+        "missing_diagnosis": true,
+        "mixed_outcome": true,
+        "detail": "The bundled reference does not establish a diagnosis or successful recovery of the Kalanchoe targeted by its lighting advice. Action comparisons below use the supplied rearrangement target; diagnosis is unscored rather than invented."
+      }
+    },
+    {
+      "query_index": 87,
+      "thread_id": "1wc6ru0",
+      "flag": {
+        "missing_diagnosis": true,
+        "mixed_outcome": true,
+        "detail": "The bundled reference does not establish a diagnosis or successful recovery of the Kalanchoe targeted by its lighting advice. Action comparisons below use the supplied rearrangement target; diagnosis is unscored rather than invented."
+      }
+    },
+    {
+      "query_index": 120,
+      "thread_id": "v4fond",
+      "flag": {
+        "issue": "Dataset answer is Bonide systemic, but later OP explicitly names shower plus neem leaf-wiping as successful approach.",
+        "resolution": "Use confirmed OP clarification for action matching; retain original dataset unchanged.",
+        "evidence": [
+          "120-reference-audit.txt",
+          "120-reference-expanded.txt"
+        ]
+      }
+    },
+    {
+      "query_index": 121,
+      "thread_id": "v4fond",
+      "flag": {
+        "issue": "Dataset answer is Bonide systemic, but later OP explicitly names shower plus neem leaf-wiping as successful approach.",
+        "resolution": "Use confirmed OP clarification for action matching; retain original dataset unchanged.",
+        "evidence": [
+          "120-reference-audit.txt",
+          "120-reference-expanded.txt"
+        ]
+      }
+    },
+    {
+      "query_index": 122,
+      "thread_id": "1iv05sy",
+      "flag": {
+        "issue": "Reported pest clearance accompanied by plant injury; adopted heavy alcohol exposure differs from advice to wipe/mist and avoid puddles.",
+        "resolution": "Separate action retrieval from safety. Saturation counts partial coverage match, not endorsement of immersion or proof of full recovery.",
+        "outcome_quote": "I dumped the whole thing in mostly alcohol. She's got some mushy brown bits but the bugs are gone!"
+      }
+    },
+    {
+      "query_index": 123,
+      "thread_id": "1iv05sy",
+      "flag": {
+        "issue": "Reported pest clearance accompanied by plant injury; adopted heavy alcohol exposure differs from advice to wipe/mist and avoid puddles.",
+        "resolution": "Separate action retrieval from safety. Saturation counts partial coverage match, not endorsement of immersion or proof of full recovery.",
+        "outcome_quote": "I dumped the whole thing in mostly alcohol. She's got some mushy brown bits but the bugs are gone!"
+      }
+    },
+    {
+      "query_index": 150,
+      "thread_id": "1vcrs67",
+      "flag": {
+        "issue": "recovery_without_explicit_action_confirmation",
+        "detail": "Outcome says new leaf unfurling but does not explicitly say trimming was performed; matches are against associated dataset advice."
+      }
+    },
+    {
+      "query_index": 151,
+      "thread_id": "1vcrs67",
+      "flag": {
+        "issue": "recovery_without_explicit_action_confirmation",
+        "detail": "Outcome says new leaf unfurling but does not explicitly say trimming was performed; matches are against associated dataset advice."
+      }
+    },
+    {
+      "query_index": 162,
+      "thread_id": "1fjylea",
+      "flag": {
+        "issue": "summary_action_differs_from_performed_action",
+        "detail": "Hit judged against explicit soil change, not unconfirmed light/airflow in advice_summary."
+      }
+    },
+    {
+      "query_index": 163,
+      "thread_id": "1fjylea",
+      "flag": {
+        "issue": "summary_action_differs_from_performed_action",
+        "detail": "Hit judged against explicit soil change, not unconfirmed light/airflow in advice_summary."
+      }
+    },
+    {
+      "query_index": 164,
+      "thread_id": "1jrrl0j",
+      "flag": {
+        "issue": "recovery_without_explicit_action_confirmation",
+        "detail": "Bloom confirms improvement, but follow-up does not enumerate performed care changes. Hits compare associated reference advice."
+      }
+    },
+    {
+      "query_index": 165,
+      "thread_id": "1jrrl0j",
+      "flag": {
+        "issue": "recovery_without_explicit_action_confirmation",
+        "detail": "Bloom confirms improvement, but follow-up does not enumerate performed care changes. Hits compare associated reference advice."
+      }
+    }
+  ],
+  "limitations": [
+    "Single assistant evaluator; no independent rater or plant-specialist validation.",
+    "Assisted query writing and extraction: this is Google retrieval without Google AI summaries, not wholly non-ML processing.",
+    "Search location varied and results are time-dependent.",
+    "Hit permits a substantive central-action component or functional equivalent; not necessarily the complete remedy or safe advice.",
+    "Unreadable source content is unresolved. Complete-case rates may be biased.",
+    "Reference explanation coverage is unscored/null. Some recovery outcomes do not explicitly enumerate performed actions.",
+    "Frozen advice selections vary in scope; broad guides have more actions and lower capacity pass rates.",
+    "Time/cost are estimates; primary time is active handling. Elapsed-time sensitivity also reported.",
+    "Two same-owner cross-posts excluded from independent retrieval after review; one frozen selected answer remains contaminated and is identified.",
+    "Not interchangeable with Anthropic/Opus API evaluations; no comparison to those model rates is claimed.",
+    "Wilson intervals describe sample proportions, not evaluator uncertainty or representative population sampling. Paired tests are exploratory, unadjusted for multiple comparisons."
+  ]
+}

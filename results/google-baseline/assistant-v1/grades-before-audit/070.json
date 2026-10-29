@@ -1,0 +1,137 @@
+{
+  "reference_action": "Healthy newly purchased burros tail; OP reports thriving without burns after advice to put it outside. Match outdoor sunlight placement, not an invented diagnosis; the outcome does not establish a universal safe full-sun dose or acclimation schedule.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Explicit outdoor sun/max sun and weather-permitting outdoor placement match the action; indoor window alternatives also present.",
+      "evidence": [
+        "070-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/succulents/comments/1d3scwh/light_requirements_for_burros_tailsedum_burrito/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Mixed climate comments favor filtered/shaded placement and misting, without a clear recommendation to move this plant outside into sunlight.",
+      "evidence": [
+        "070-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/succulentsandpropagation/posts/946919033190841/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Main article describes growing outdoors in morning sun, recovering the outdoor sunlight action with stronger hot-sun protection. No immediate all-day exposure claim.",
+      "evidence": [
+        "070-source-03.txt"
+      ],
+      "url": "https://www.joyusgarden.com/burros-tail-care/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit introduction to full sun, with reduction if burning, recovers the sunlight transition but adds gradual acclimation rather than immediate exposure.",
+      "evidence": [
+        "video-audit-zaSIF2ILxq4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=zaSIF2ILxq4"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Recommends an indoor south-facing sill; direct-light discussion does not recommend the validated move outside.",
+      "evidence": [
+        "video-audit-z9gMg06jxc0-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=z9gMg06jxc0"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Place outside in sun if weather and space permit",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place at unobstructed south-facing window as indoor alternative",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add supplemental grow light if window insufficient",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Open window in mild morning and late afternoon",
+        "minutes": 1,
+        "per_day": 2,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The discussion treats this as a light-placement question and includes the successful outdoor move; conflicting window claims and absent acclimation instructions reduce usefulness, while weather suitability is acknowledged."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Weather and outdoor space permitting” limits the outdoor option. However, “max sun possible” has no acclimation or hot-sun safeguard for this greenhouse-grown plant; the favorable Reddit outcome does not establish general safety."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Outdoor placement matches the credited action and window filtering is discussed concretely. The thread concerns established light requirements and never answers how to acclimate a newly purchased plant."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Moving the pot or opening a window is easy. Supplemental lighting is an optional purchase and choosing among contradictory window reports requires observation."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 70,
+  "thread_id": "vrloag",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 70,
+    "thread_id": "vrloag",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/succulents/comments/1d3scwh/light_requirements_for_burros_tailsedum_burrito/",
+    "spans": [
+      {
+        "file": "070-source-01.txt",
+        "start_line": 111,
+        "end_line": 175,
+        "sha256": "2c0b7c77c6c50bb23189ede9244498d6f88860c4303c424857d0c6065f31a32f",
+        "text": "      - generic \"Queef-on-Command's profile --- avatar Queef-on-Command's profile 2y ago\":\n        - link \"Queef-on-Command's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Queef-on-Command/\n        - link \"Queef-on-Command's profile\":\n          - /url: https://www.reddit.com/user/Queef-on-Command/\n          - generic: Queef-on-Command\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l69wa9x/\n          - time: 2y ago\n      - paragraph: Mine gets all day outdoor sun/ max sun possible. I would say a window alone is not sufficient and it would need to be supplemented if grown indoors. The spacing between the leaves would stretch.\n    - article \"Comment from Al115 2 years ago\":\n      - generic \"Al115's profile --- avatar Al115's profile 2y ago Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter\":\n        - link \"Al115's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Al115/\n        - link \"Al115's profile\":\n          - /url: https://www.reddit.com/user/Al115/\n          - generic: Al115\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l6c1u1f/\n          - time: 2y ago\n        - img \"Profile Badge for the Achievement Top 1% Commenter\"\n        - text: Top 1% Commenter\n      - paragraph: Unfortunately, not all windows are created equally, and things like tints, screens, and even the specific type of glass used filter light to an extent. So, it's impossible to say if that placement will provide enough light.\n      - paragraph: That being said, a lot of people do fine with burro's tale in unobstructed south-facing windows. Weather and outdoor space permitting, you could also keep it outside.\n      - paragraph: For reference, I keep my burro's tail under my Barrina T5 lights. Though, I did just recently move it outside, but my balcony faces north, so I am almost certainly going to see etiolation...a few of my succulents did amazingly and surprisingly well outdoors last summer on my balcony, though.\n    - article \"Comment from Rookie__human 2 years ago\":\n      - generic \"Rookie__human's profile --- avatar Rookie__human's profile 2y ago\":\n        - link \"Rookie__human's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Rookie__human/\n        - link \"Rookie__human's profile\":\n          - /url: https://www.reddit.com/user/Rookie__human/\n          - generic: Rookie__human\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l69irt3/\n          - time: 2y ago\n      - paragraph: Mine seems happy in a southwest facing window, but would probably like a little bit more light too\n    - article \"Comment from greyhoundsaplenty 2 years ago\":\n      - generic \"greyhoundsaplenty's profile --- avatar greyhoundsaplenty's profile 2y ago\":\n        - link \"greyhoundsaplenty's profile --- avatar\":\n          - /url: https://www.reddit.com/user/greyhoundsaplenty/\n          - img \"u/greyhoundsaplenty avatar\"\n        - link \"greyhoundsaplenty's profile\":\n          - /url: https://www.reddit.com/user/greyhoundsaplenty/\n          - generic: greyhoundsaplenty\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l6a1msn/\n          - time: 2y ago\n      - paragraph: It all depends. My grandmother had a monster burro's tail in a south facing window with no supplemental light and the thing was insanely beautiful. I live in the same zip code, but mine need supplemental light.\n    - article \"Comment from ava_sims 2 years ago\":\n      - generic \"ava_sims's profile --- avatar ava_sims's profile 2y ago\":\n        - link \"ava_sims's profile --- avatar\":\n          - /url: https://www.reddit.com/user/ava_sims/\n          - img \"u/ava_sims avatar\"\n        - link \"ava_sims's profile\":\n          - /url: https://www.reddit.com/user/ava_sims/\n          - generic: ava_sims\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l6kk0xs/\n          - time: 2y ago\n      - paragraph: If your window has a screen on the outside and if it's not too hot I would say open the window since it allows better sunlight in without any tint and fresh air which from my Knowledge is good for both you and the plant :) I keep mine in the window and in the mornings and late afternoon I open the window has helped it alot"
+      }
+    ],
+    "advice": "      - generic \"Queef-on-Command's profile --- avatar Queef-on-Command's profile 2y ago\":\n        - link \"Queef-on-Command's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Queef-on-Command/\n        - link \"Queef-on-Command's profile\":\n          - /url: https://www.reddit.com/user/Queef-on-Command/\n          - generic: Queef-on-Command\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l69wa9x/\n          - time: 2y ago\n      - paragraph: Mine gets all day outdoor sun/ max sun possible. I would say a window alone is not sufficient and it would need to be supplemented if grown indoors. The spacing between the leaves would stretch.\n    - article \"Comment from Al115 2 years ago\":\n      - generic \"Al115's profile --- avatar Al115's profile 2y ago Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter\":\n        - link \"Al115's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Al115/\n        - link \"Al115's profile\":\n          - /url: https://www.reddit.com/user/Al115/\n          - generic: Al115\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l6c1u1f/\n          - time: 2y ago\n        - img \"Profile Badge for the Achievement Top 1% Commenter\"\n        - text: Top 1% Commenter\n      - paragraph: Unfortunately, not all windows are created equally, and things like tints, screens, and even the specific type of glass used filter light to an extent. So, it's impossible to say if that placement will provide enough light.\n      - paragraph: That being said, a lot of people do fine with burro's tale in unobstructed south-facing windows. Weather and outdoor space permitting, you could also keep it outside.\n      - paragraph: For reference, I keep my burro's tail under my Barrina T5 lights. Though, I did just recently move it outside, but my balcony faces north, so I am almost certainly going to see etiolation...a few of my succulents did amazingly and surprisingly well outdoors last summer on my balcony, though.\n    - article \"Comment from Rookie__human 2 years ago\":\n      - generic \"Rookie__human's profile --- avatar Rookie__human's profile 2y ago\":\n        - link \"Rookie__human's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Rookie__human/\n        - link \"Rookie__human's profile\":\n          - /url: https://www.reddit.com/user/Rookie__human/\n          - generic: Rookie__human\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l69irt3/\n          - time: 2y ago\n      - paragraph: Mine seems happy in a southwest facing window, but would probably like a little bit more light too\n    - article \"Comment from greyhoundsaplenty 2 years ago\":\n      - generic \"greyhoundsaplenty's profile --- avatar greyhoundsaplenty's profile 2y ago\":\n        - link \"greyhoundsaplenty's profile --- avatar\":\n          - /url: https://www.reddit.com/user/greyhoundsaplenty/\n          - img \"u/greyhoundsaplenty avatar\"\n        - link \"greyhoundsaplenty's profile\":\n          - /url: https://www.reddit.com/user/greyhoundsaplenty/\n          - generic: greyhoundsaplenty\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l6a1msn/\n          - time: 2y ago\n      - paragraph: It all depends. My grandmother had a monster burro's tail in a south facing window with no supplemental light and the thing was insanely beautiful. I live in the same zip code, but mine need supplemental light.\n    - article \"Comment from ava_sims 2 years ago\":\n      - generic \"ava_sims's profile --- avatar ava_sims's profile 2y ago\":\n        - link \"ava_sims's profile --- avatar\":\n          - /url: https://www.reddit.com/user/ava_sims/\n          - img \"u/ava_sims avatar\"\n        - link \"ava_sims's profile\":\n          - /url: https://www.reddit.com/user/ava_sims/\n          - generic: ava_sims\n        - generic: •\n        - link \"2y ago\":\n          - /url: https://www.reddit.com/r/succulents/comments/1d3scwh/comment/l6kk0xs/\n          - time: 2y ago\n      - paragraph: If your window has a screen on the outside and if it's not too hot I would say open the window since it allows better sunlight in without any tint and fresh air which from my Knowledge is good for both you and the plant :) I keep mine in the window and in the mornings and late afternoon I open the window has helped it alot",
+    "reason": "First accessible light-placement advice for burros tail; retain differing recommendations and caveats.",
+    "frozen_at": "2026-10-29T04:56:17.842275+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:57:18.299482+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

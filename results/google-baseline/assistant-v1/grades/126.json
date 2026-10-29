@@ -1,0 +1,137 @@
+{
+  "reference_action": "OP switched from fast-drying terracotta to plastic and added a small mound of soil; plant perked up. Confirmed container/soil change improves moisture retention. More water was suggested but not explicitly reported as the adopted change.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Generic large gritty pots and future up-potting do not specify plastic/retention change; emphasizes drying and neglect.",
+      "evidence": [
+        "126-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/112548652731756/posts/807334389919842/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Dry/neglect/in-ground advice omits plastic container or added moisture-retaining soil.",
+      "evidence": [
+        "126-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/gardening/comments/yy668h/why_does_my_rosemary_look_so_sad_ive_killed/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Explicit terracotta and coarse fast-draining mix oppose container change. Mounded gritty soil is for draining heavy ground, not retaining moisture around this potted root ball.",
+      "evidence": [
+        "video-audit-Vots2wv4SSM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Vots2wv4SSM"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Fast drainage, dry upper soil and other care omit plastic or retaining more root-zone moisture.",
+      "evidence": [
+        "video-audit-ZMDlTg9aoN4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ZMDlTg9aoN4"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Explicitly says unglazed terracotta, not plastic; contrary to confirmed pot change.",
+      "evidence": [
+        "126-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=XC_kVLENpEY"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot into large draining pot with gritty soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Check soil 2 inches down and soak when dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to full sun with temporary shade on extreme hot days",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot on as root ball grows",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      }
+    ],
+    "reason": "Accepts overwatering/neglect framing and omits the successful moisture-retaining plastic change. Grittier soil plus neglect can worsen drying in this hot terracotta setup; measured watering is a mitigating component."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Neglect is the best thing” and blanket tolerance of extreme cold/heat are risky for a small potted rosemary already drying in heat. Grittier soil without recognizing rapid terracotta drying can worsen the actual problem, despite the separate two-inch watering check."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "“Use large well draining pots” is generic rosemary advice. It misses the documented drying extremes and successful switch to plastic, reinforcing the user’s incorrect overwatering assumption."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "A two-inch soil check and soaking are concrete. “Large” and “gritty” leave pot dimensions and substrate proportions unspecified, and repeated repotting adds work without a case-specific trigger."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 126,
+  "thread_id": "1o3aiun",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 126,
+    "thread_id": "1o3aiun",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/112548652731756/posts/807334389919842/",
+    "spans": [
+      {
+        "file": "126-source-01.txt",
+        "start_line": 53,
+        "end_line": 75,
+        "sha256": "b43214d825211ed893b1da933382a70c0b8caf03b9f4b88a9785207225acb5a5",
+        "text": "        - generic: Use large well draining pots with gritty soil. Allow the soil to dry out down to 2 inches before watering then give it a soak. The plant will do best in full sun however on extreme hot days move it into a shade area so it will not burn. As your plant grows pot it on to allow room for the root ball.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/112548652731756/posts/807334389919842/?comment_id=807338516586096&__cft__[0]=AZhTHJuEZQ235kFjW1OFsb5hIWIkFTd5xAfH-bGhktCHAPcmfhA9oKA485X-cRu7cVDgMZZ_PujFHYjhZzcro9elVxTjbaKzo34L9v9dO6dH-Y6QIhP4qPS-yc3h4hjrfc_KtYkHyHxTXwQCMxB2NM000Isk4bW5JTMFuTGH5Q8Jw-VumI9rEBfRQdU&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Dana Huntley 5 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Dana Huntley\":\n          - generic: Dana Huntley\n        - generic: Both Rosemary and Lavender are very specific as to their needs. Sun, not too rich of soil, and good drainage.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/112548652731756/posts/807334389919842/?comment_id=807350106584937&__cft__[0]=AZhTHJuEZQ235kFjW1OFsb5hIWIkFTd5xAfH-bGhktCHAPcmfhA9oKA485X-cRu7cVDgMZZ_PujFHYjhZzcro9elVxTjbaKzo34L9v9dO6dH-Y6QIhP4qPS-yc3h4hjrfc_KtYkHyHxTXwQCMxB2NM000Isk4bW5JTMFuTGH5Q8Jw-VumI9rEBfRQdU&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Linda Grant 5 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Linda Grant\":\n          - generic: Linda Grant\n        - generic: Neglect is the best thing for Rosemary and lavender. They can tolerate extreme cold and heat but not overwatering. You can grow inside but do not overwater"
+      }
+    ],
+    "advice": "        - generic: Use large well draining pots with gritty soil. Allow the soil to dry out down to 2 inches before watering then give it a soak. The plant will do best in full sun however on extreme hot days move it into a shade area so it will not burn. As your plant grows pot it on to allow room for the root ball.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/112548652731756/posts/807334389919842/?comment_id=807338516586096&__cft__[0]=AZhTHJuEZQ235kFjW1OFsb5hIWIkFTd5xAfH-bGhktCHAPcmfhA9oKA485X-cRu7cVDgMZZ_PujFHYjhZzcro9elVxTjbaKzo34L9v9dO6dH-Y6QIhP4qPS-yc3h4hjrfc_KtYkHyHxTXwQCMxB2NM000Isk4bW5JTMFuTGH5Q8Jw-VumI9rEBfRQdU&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Dana Huntley 5 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Dana Huntley\":\n          - generic: Dana Huntley\n        - generic: Both Rosemary and Lavender are very specific as to their needs. Sun, not too rich of soil, and good drainage.\n        - list:\n          - link \"5y\":\n            - /url: https://www.facebook.com/groups/112548652731756/posts/807334389919842/?comment_id=807350106584937&__cft__[0]=AZhTHJuEZQ235kFjW1OFsb5hIWIkFTd5xAfH-bGhktCHAPcmfhA9oKA485X-cRu7cVDgMZZ_PujFHYjhZzcro9elVxTjbaKzo34L9v9dO6dH-Y6QIhP4qPS-yc3h4hjrfc_KtYkHyHxTXwQCMxB2NM000Isk4bW5JTMFuTGH5Q8Jw-VumI9rEBfRQdU&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Linda Grant 5 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Linda Grant\":\n          - generic: Linda Grant\n        - generic: Neglect is the best thing for Rosemary and lavender. They can tolerate extreme cold and heat but not overwatering. You can grow inside but do not overwater",
+    "reason": "First accessible advice; preserve drainage, watering, sun, pot size and cold tolerance claim.",
+    "frozen_at": "2026-10-29T05:46:40.112661+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:47:43.306544+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "reference_action": "Soil mould associated with wet substrate; OP explicitly changed soil and reports plant well. Dataset advice_summary adds light/airflow, but performed action in outcome is soil replacement.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Later comment removes top two inches and adds fresh soil; partial replacement with peroxide extra, not first reassurance answer.",
+      "evidence": [
+        "163-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/xjnyxj/white_fuzzy_mold_growing_on_top_of_soil/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicit complete soil replacement option.",
+      "evidence": [
+        "163-source-02.txt"
+      ],
+      "url": "https://www.thespruce.com/mold-on-houseplant-soil-5496610"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Mix mould into existing soil and add airflow; no replacement.",
+      "evidence": [
+        "video-audit-_v7Ar_oXVTg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=_v7Ar_oXVTg"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Scrape mould and reduce watering, preserving existing soil.",
+      "evidence": [
+        "video-audit-uaRtzuuYYdE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=uaRtzuuYYdE"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Use draining potting mix if existing soil remains wet for days; partial substrate-change match.",
+      "evidence": [
+        "163-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/61587055866731/videos/white-mold-on-potting-soil-dont-panic-that-white-fuzzy-layer-is-usually-saprophy/1049626551365393/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check topsoil dryness before next watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Appropriate reassurance and drying topsoil, but omits the actual OP-confirmed soil change."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "“As long as it isn’t growing on the plant itself” limits the reassurance appropriately. Letting the surface dry avoids unnecessary chemicals and reduces persistent wetness."
+    },
+    "specificity_accuracy": {
+      "score": 5,
+      "reason": "Directly identifies persistent moist topsoil and explains slower evaporation. The reassurance matches the reference diagnosis even though the performed intervention differs."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "“Let the top layer…dry out” is one simple, free adjustment. No specialist materials or complicated procedure is required."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "reference_quality": {
+    "issue": "summary_action_differs_from_performed_action",
+    "detail": "Hit judged against explicit soil change, not unconfirmed light/airflow in advice_summary."
+  },
+  "query_index": 163,
+  "thread_id": "1fjylea",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 163,
+    "thread_id": "1fjylea",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/plantclinic/comments/xjnyxj/white_fuzzy_mold_growing_on_top_of_soil/",
+    "spans": [
+      {
+        "file": "163-source-01.txt",
+        "start_line": 107,
+        "end_line": 116,
+        "sha256": "a53e729f5a65d1066ce67433b008ffca1ef240939fc96fad2b750ba599b13b05",
+        "text": "      - paragraph:\n        - text: This is something that happens when the top soil is staying moist for a while. Since we are approaching winter (unless you live in the\n        - link \"Southern Hemisphere\":\n          - /url: /search/?q=Southern+Hemisphere+plant+care+winter&cId=a3e9c57d-043c-41ff-a127-736eaca39572&iId=d2dad9b2-ed71-44b8-a5c4-1014b52fa789\n          - text: Southern Hemisphere\n        - text: ), the evaporation of water in the soil will slow down significantly and fungus can grow on the surface. As long as it isn’t growing on the plant itself, everything will be fine. Just make sure you let the top layer of your soil dry out to avoid\n        - link \"root rot\":\n          - /url: /search/?q=plant+root+rot&cId=8470f65a-8d50-4a11-b6f1-9704dac802cf&iId=de494fdb-058f-4f10-92dd-773b8a21da99\n          - text: root rot\n        - text: ."
+      }
+    ],
+    "advice": "      - paragraph:\n        - text: This is something that happens when the top soil is staying moist for a while. Since we are approaching winter (unless you live in the\n        - link \"Southern Hemisphere\":\n          - /url: /search/?q=Southern+Hemisphere+plant+care+winter&cId=a3e9c57d-043c-41ff-a127-736eaca39572&iId=d2dad9b2-ed71-44b8-a5c4-1014b52fa789\n          - text: Southern Hemisphere\n        - text: ), the evaporation of water in the soil will slow down significantly and fungus can grow on the surface. As long as it isn’t growing on the plant itself, everything will be fine. Just make sure you let the top layer of your soil dry out to avoid\n        - link \"root rot\":\n          - /url: /search/?q=plant+root+rot&cId=8470f65a-8d50-4a11-b6f1-9704dac802cf&iId=de494fdb-058f-4f10-92dd-773b8a21da99\n          - text: root rot\n        - text: .",
+    "reason": "First substantive answer reassures and advises drying soil top.",
+    "frozen_at": "2026-10-29T06:17:35.043915+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:18:21.017091+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": true,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

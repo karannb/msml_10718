@@ -1,0 +1,200 @@
+{
+  "reference_action": "OP switched from fast-drying terracotta to plastic and added a small mound of soil; plant perked up. Confirmed container/soil change improves moisture retention. More water was suggested but not explicitly reported as the adopted change.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "No plastic container or soil-retention change; focuses on fast drainage and other causes.",
+      "evidence": [
+        "video-audit-ZMDlTg9aoN4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ZMDlTg9aoN4"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Diagnoses dry versus wet root zone and deep-waters when dry, but does not retrieve the OP-confirmed plastic-plus-added-soil change.",
+      "evidence": [
+        "video-audit-XfO5rPxKD2o-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=XfO5rPxKD2o"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Terracotta/gritty mix and bone-dry root claim oppose confirmed retention fix.",
+      "evidence": [
+        "video-audit-z80rnbSWU_4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=z80rnbSWU_4&themeRefresh=1"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Ground planting, withholding water and hard cutback do not retrieve plastic pot/added soil.",
+      "evidence": [
+        "127-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/rvagardeningclub/posts/6819177198145632/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Some recognize prior drying, but actual advice is discard, prune or leave alone; no successful container change.",
+      "evidence": [
+        "127-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/gardening/comments/1q2720g/why_is_my_rosemary_plant_browning/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot in fast-draining mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Check upper 2 inches before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Provide 4+ hours direct light or 12-hour grow light",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Maintain humidity 40–50%",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Move away from heat and improve air movement",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Feed diluted organic fertilizer every 6–8 weeks",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Flush soil every few weeks",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check pH and add lime/bone/oyster meal if acidic",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Prune crowded stems",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray neem weekly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Acclimate indoor/outdoor moves over a week",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Maintain temperature 15–27 C",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Move to summer afternoon shade in hot subtropical conditions",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Overwatering-first differential omits actual rapid substrate drying and container solution. Soil check and heat protection reduce immediate harm, but many unsupported extra treatments and unspecified doses make this an inaccurate, burdensome answer."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Water only when the top 2 in ... are completely dry” is a safeguard against automatic withholding. Weekly neem and repeated fertilizer/flush/lime suggestions lack adequate diagnosis and dosing, creating avoidable risks for a stressed plant."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The video presents six generic reasons, led by overwatering, without identifying the moisture-retention problem or recommending plastic. Heat avoidance has some relevance but does not recover the confirmed solution."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Light duration, watering depth and acclimation period are measurable. Many simultaneous tasks, vague humidity control and unspecified neem/fertilizer strengths make the overall routine difficult to apply reliably."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 127,
+  "thread_id": "1o3aiun",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 127,
+    "thread_id": "1o3aiun",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=ZMDlTg9aoN4",
+    "spans": [
+      {
+        "file": "video-audit-ZMDlTg9aoN4-transcript.txt",
+        "start_line": 6,
+        "end_line": 55,
+        "sha256": "fbc2a3c14846e755038f7f62d0d23165bc10b7173f4637cc6de8bdde48872f88",
+        "text": "[0:00] Have you noticed your rosemary plant developing brown tips and losing [music]\n[0:04] leaves? Don't worry. This one is the most common problems rosemary growers\n[0:10] face. [music] And in today's video, I will share six proven reasons why this\n[0:15] happens and exactly [music] how you can fix each one based on real\n[0:20] experience from rosemary cultivation. Let's [music] dive in. The number one\n[0:25] reason rosemary leaves turn brown and fall off is overwatering. Rosemary\n[0:31] [music] comes from the rocky hillsides of Mediterranean where the roots get\n[0:36] plenty of air and dry quickly after rain. When your potting soil stays wet\n[0:42] for too long, the roots suffocate. This leads to root [music] rot, usually\n[0:47] caused by fungi like phytothora or pythium. To fix this, use a fast\n[0:53] draining mix. I have a detailed video on rosemary potting soil mix. You can try\n[0:59] that out. Link in the description box and I button. Also, when you are\n[1:04] watering the plant, water only when the top 2 in of soil are completely dry.\n[1:14] Rosemary needs a good amount of sunlight. If it's not getting at least 4\n[1:20] to 5 hours of direct sunlight, [music] the plant cannot photosynthesize enough\n[1:25] energy. As a result, old leaves die off fast, [music]\n[1:29] turning brown at the tips before dropping. Keep your rosemary plant where\n[1:35] it will receive at least 4 hours of direct sunlight. Or if you are growing\n[1:40] it indoors, use a full spectrum growite for at least 12 hours a day.\n[1:49] Sometimes brown tips appear even when watering is perfect [music] and that's\n[1:55] because of dry air. Heaters or hot sun near walls can dry out the leaf ages\n[2:01] faster than the roots can replace [music] moisture. This leads to leaf\n[2:06] deep burn, a form of dehydration stress. Maintain humidity around 40 to 50% and\n[2:13] keep your rosemary away from heat sources. Good air movement helps the\n[2:18] plant cool itself [music] naturally. Rosemary doesn't need heavy feeding. Too\n[2:25] much fertilizer creates salt buildup in the soil. Pulling water out of the roots\n[2:31] and you will see burn brown leaf tips. Feed lightly [music] every six to eight\n[2:37] weeks using a diluted organic fertilizers like fish emulsion, compost\n[2:42] tea and flush the soil with clean water every few weeks that will leech out the\n[2:49] excess salt from the soil. Also, rosemary prefers a slightly alkaline\n[2:54] soil pH between 6.5 to 7.5. If it's too acidic, [music]\n[3:00] add a pinch of garden lime or start using slightly alkaline soil amendments\n[3:06] like bone meal or oyster meal. When your rosemary sits in stagnant\n[3:12] [music] air, humidity stays trapped between the leaves. That is when fungi\n[3:18] [music] like powdery mildew appear, blocking the leaves breathing pores and\n[3:23] causing [music] brown spots or yellowing. To prevent\n[3:27] this, prune crowded [music] stems to improve air flow and spray with neem oil\n[3:33] solution once [music] a week. This keeps your rosemary's foliage clean, green,\n[3:38] and disease-free. [music] Rosemary hates sudden changes.\n[3:45] Moving it from outdoor sunlight to a dim indoor corner or exposing it to cold\n[3:51] drafts [music] can shock the plant leading to browning and leaf drop. When\n[3:56] you move rosemary indoors or outdoors, [music] do it gradually over a week and\n[4:02] try to keep the temperature between 15 to 27° C.\n[4:08] Now I belong to a subtropical zone. [music] So in summers I need to move the\n[4:13] plant to a partly shaded place to protect it from the afternoon scorching\n[4:18] sun. If you are also from a subtropical zone, buy a rosemary plant in fall or\n[4:25] winter because in such climatic zones, [music] early fall is the perfect\n[4:30] temperature to add a rosemary plant [music] and acclimate to our garden\n[4:35] environment as well as protect it in midsummer when temperature increases\n[4:41] above 37° C. So that's all. If you found this video helpful, don't forget to"
+      }
+    ],
+    "advice": "[0:00] Have you noticed your rosemary plant developing brown tips and losing [music]\n[0:04] leaves? Don't worry. This one is the most common problems rosemary growers\n[0:10] face. [music] And in today's video, I will share six proven reasons why this\n[0:15] happens and exactly [music] how you can fix each one based on real\n[0:20] experience from rosemary cultivation. Let's [music] dive in. The number one\n[0:25] reason rosemary leaves turn brown and fall off is overwatering. Rosemary\n[0:31] [music] comes from the rocky hillsides of Mediterranean where the roots get\n[0:36] plenty of air and dry quickly after rain. When your potting soil stays wet\n[0:42] for too long, the roots suffocate. This leads to root [music] rot, usually\n[0:47] caused by fungi like phytothora or pythium. To fix this, use a fast\n[0:53] draining mix. I have a detailed video on rosemary potting soil mix. You can try\n[0:59] that out. Link in the description box and I button. Also, when you are\n[1:04] watering the plant, water only when the top 2 in of soil are completely dry.\n[1:14] Rosemary needs a good amount of sunlight. If it's not getting at least 4\n[1:20] to 5 hours of direct sunlight, [music] the plant cannot photosynthesize enough\n[1:25] energy. As a result, old leaves die off fast, [music]\n[1:29] turning brown at the tips before dropping. Keep your rosemary plant where\n[1:35] it will receive at least 4 hours of direct sunlight. Or if you are growing\n[1:40] it indoors, use a full spectrum growite for at least 12 hours a day.\n[1:49] Sometimes brown tips appear even when watering is perfect [music] and that's\n[1:55] because of dry air. Heaters or hot sun near walls can dry out the leaf ages\n[2:01] faster than the roots can replace [music] moisture. This leads to leaf\n[2:06] deep burn, a form of dehydration stress. Maintain humidity around 40 to 50% and\n[2:13] keep your rosemary away from heat sources. Good air movement helps the\n[2:18] plant cool itself [music] naturally. Rosemary doesn't need heavy feeding. Too\n[2:25] much fertilizer creates salt buildup in the soil. Pulling water out of the roots\n[2:31] and you will see burn brown leaf tips. Feed lightly [music] every six to eight\n[2:37] weeks using a diluted organic fertilizers like fish emulsion, compost\n[2:42] tea and flush the soil with clean water every few weeks that will leech out the\n[2:49] excess salt from the soil. Also, rosemary prefers a slightly alkaline\n[2:54] soil pH between 6.5 to 7.5. If it's too acidic, [music]\n[3:00] add a pinch of garden lime or start using slightly alkaline soil amendments\n[3:06] like bone meal or oyster meal. When your rosemary sits in stagnant\n[3:12] [music] air, humidity stays trapped between the leaves. That is when fungi\n[3:18] [music] like powdery mildew appear, blocking the leaves breathing pores and\n[3:23] causing [music] brown spots or yellowing. To prevent\n[3:27] this, prune crowded [music] stems to improve air flow and spray with neem oil\n[3:33] solution once [music] a week. This keeps your rosemary's foliage clean, green,\n[3:38] and disease-free. [music] Rosemary hates sudden changes.\n[3:45] Moving it from outdoor sunlight to a dim indoor corner or exposing it to cold\n[3:51] drafts [music] can shock the plant leading to browning and leaf drop. When\n[3:56] you move rosemary indoors or outdoors, [music] do it gradually over a week and\n[4:02] try to keep the temperature between 15 to 27° C.\n[4:08] Now I belong to a subtropical zone. [music] So in summers I need to move the\n[4:13] plant to a partly shaded place to protect it from the afternoon scorching\n[4:18] sun. If you are also from a subtropical zone, buy a rosemary plant in fall or\n[4:25] winter because in such climatic zones, [music] early fall is the perfect\n[4:30] temperature to add a rosemary plant [music] and acclimate to our garden\n[4:35] environment as well as protect it in midsummer when temperature increases\n[4:41] above 37° C. So that's all. If you found this video helpful, don't forget to",
+    "reason": "First accessible relevant video; full six-cause advice retained including feed, flush, lime and neem.",
+    "frozen_at": "2026-10-29T05:46:40.114079+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:47:43.308361+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

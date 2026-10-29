@@ -1,0 +1,130 @@
+{
+  "reference_action": "OP cut dark rotted area and repotted in cactus soil, then reported healthy plant/no flying bugs. Central rescue is remove rot and dry succulent substrate, not gnat treatment alone.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "unresolved",
+      "reason": "Consent-only capture; article body unavailable.",
+      "evidence": [
+        "186-source-01.txt"
+      ],
+      "url": "https://www.gardensillustrated.com/plants/house-plants/rescue-house-plant-how"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Later reply removes rot and repots smaller; partial rot-removal match. Selected first reply does not advise removing affected tissue.",
+      "evidence": [
+        "186-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1732060157100583/posts/3987717451534831/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "At 11:14–11:44 describes cutting rotted plant back to rooted chunk and restarting in aerated medium. Partial removal-to-healthy-tissue overlap, wrong tropical/humid growing context.",
+      "evidence": [
+        "video-audit-MYbwCX69Mu8-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=MYbwCX69Mu8"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Alocasia peroxide/LECA hydro rescue does not provide dry-soil succulent chop-and-propagate fix.",
+      "evidence": [
+        "video-audit-mBUGLQwzoTE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=mBUGLQwzoTE"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Water-culture Schefflera rescue; unsuccessful top cutting, no remove-rot/dry cactus-soil regimen.",
+      "evidence": [
+        "video-audit-M2XjFmgCj9s-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=M2XjFmgCj9s"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Remove soil and inspect roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place in water with air stone",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Disinfect roots in 1% sodium permanganate bath",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "Recognizes possible rot but promotes water culture and a strong oxidizer without safety/plant-specific instructions. Omits removing dark rotted tissue and dry succulent rooting."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 1,
+      "reason": "“1% Sodium Permanganate bath” is a hazardous oxidizer recommendation without handling or tissue-safety precautions. Water-culture conversion also conflicts with this wet-rotted succulent’s needed dry rescue."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Root inspection is relevant, but the proposed treatment ignores succulent identity, rotted-stem removal and cactus mix. It substitutes generic tropical rescue."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Air stone equipment and sodium permanganate are specialized supplies. Preparation and handling are unclear, despite a stated five-minute bath."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 186,
+  "thread_id": "14e713v",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 186,
+    "thread_id": "14e713v",
+    "selected_rank": 2,
+    "source_url": "https://www.facebook.com/groups/1732060157100583/posts/3987717451534831/",
+    "spans": [
+      {
+        "file": "186-source-02.txt",
+        "start_line": 61,
+        "end_line": 62,
+        "sha256": "923d2fa0957ece57ba6327301a776db2632c37457c5f32e14041d71b49a06090",
+        "text": "        - generic: If it’s a rescue, I would definitely remove it from that soil try to put it in water with air stone in it( if you have one)\n        - generic: Check the roots for rot, I use 1% Sodium Permanganate bath to disinfect the roots for 5 minutes."
+      }
+    ],
+    "advice": "        - generic: If it’s a rescue, I would definitely remove it from that soil try to put it in water with air stone in it( if you have one)\n        - generic: Check the roots for rot, I use 1% Sodium Permanganate bath to disinfect the roots for 5 minutes.",
+    "reason": "First readable advice after rank1 consent-only capture; retain complete root-disinfection suggestion.",
+    "frozen_at": "2026-10-29T06:36:25.623274+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:37:28.327188+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

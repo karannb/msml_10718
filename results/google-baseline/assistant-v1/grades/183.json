@@ -1,0 +1,146 @@
+{
+  "reference_action": "Peace lily wilted after missed watering; OP confirms it lifted after watering. Central action is thorough root-ball hydration, not bare-root rescue.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Moisture-gated deep soaking, 15–30 minutes, supplies partial hydration match despite outdoor heat framing and unsuitable universal weekly limit.",
+      "evidence": [
+        "183-source-01.txt"
+      ],
+      "url": "https://www.gardenstylesanantonio.com/garden-articles/plants-wilting-wait-to-water/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "First reply says dry soil needs thorough drink; later reply and OP confirm heavier water restores wilt.",
+      "evidence": [
+        "183-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/p1qd73/how_can_i_save_her_shes_been_wilting_and_idk_why/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Dehydration branch recommends watering when dry; partial match, not tailored peace-lily diagnosis.",
+      "evidence": [
+        "036-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=YBEUiG1amCQ"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "At 11:28 dry soil means water; partial action overlap despite dominant heat-wilt discussion.",
+      "evidence": [
+        "036-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=On7_JGLnScs"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Video transcript unavailable after audit retry.",
+      "evidence": [
+        "video-audit-yPvfgP2PhUA.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=yPvfgP2PhUA"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check moisture 2–3 inches deep",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Observe whether wilt recovers when heat falls",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Deep-soak if soil dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false,
+        "elapsed_minutes_original_estimate": 30,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ],
+    "reason": "Includes hydration but centers outdoor heat wilting and restricts irrigation frequency. Moisture safeguard helps, but not a tailored answer to missed watering and initial poor absorption."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“No more than once a week” is landscape-specific and may delay a thirsty container plant’s care. Checking moisture before withholding water mitigates this risk."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Deep watering overlaps with the confirmed remedy. Texas landscape heat and 4–15-inch roots do not match this indoor peace lily."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Soil checks are simple and the soak has a duration. Landscape irrigation guidance and linked rules require translation for a small indoor pot."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 183,
+  "thread_id": "12ad680",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 183,
+    "thread_id": "12ad680",
+    "selected_rank": 1,
+    "source_url": "https://www.gardenstylesanantonio.com/garden-articles/plants-wilting-wait-to-water/",
+    "spans": [
+      {
+        "file": "183-source-01.txt",
+        "start_line": 56,
+        "end_line": 95,
+        "sha256": "e4f50ec9300aae6f3f156f8cb53245331775919a49ae52d0187b381463725f4e",
+        "text": "  - heading \"It’s normal for plants to droop in the afternoon, especially in the brutal heat of summer. Before you water, check the soil moisture at least two inches deep.\" [level=3]\n  - paragraph: The Texas summer heat is on and triple-digit temperatures seem endless. While we can escape the heat in our air-conditioned homes, our plants are forced to deal with the brutal conditions.\n  - paragraph: Certain plants, especially native ones, fare well during the summer and don’t show signs of heat stress because they’re adapted to our dry, hot climate. But many plants we select for our yards are not well-adapted to our scorching hot summers. These plants may fade, wilt or even die from the extreme heat. Contrary to popular belief, giving a wilting plant extra water isn’t the answer.\n  - paragraph:\n    - text: Many plants will wilt in the heat even when the soil has adequate moisture. The wilting process is caused by plants losing moisture through their leaves. This natural process called\n    - link \"transpiration\":\n      - /url: https://www.usgs.gov/special-topic/water-science-school/science/evapotranspiration-and-water-cycle?qt-science_center_objects=0#qt-science_center_objects\n    - text: is the movement of water from the roots throughout the entire plant and its leaves. (\n    - link \"Try this fun experiment to see transpiration in action\":\n      - /url: http://www.reachoutmichigan.org/funexperiments/quick/transpiration.html\n      - text: Try this\n      - strong: fun experiment\n      - text: to see transpiration in action\n    - text: .)\n  - paragraph:\n    - text: When environmental conditions cause a plant to lose more moisture from its leaves than the roots can supply, the plant wilts. This could be due to sunlight, wind or heat\n    - emphasis: .\n  - paragraph:\n    - text: Check the soil moisture with your finger or a screwdriver before adding more water. In our hot climate, heat and wind will pull moisture out of the top 1 inch of soil within hours. Because of this, you should check 2 to 3 inches deep near plants before giving them any more water.\n    - strong: If you see moisture at this depth, do not provide extra water.\n  - paragraph: Plants with adequate moisture may wilt in the peak of daytime and revive without assistance as the plants regain the ability to absorb moisture. If you start adding extra water to an already moist area, you may end up drowning your plants, starving their roots of oxygen and killing them.\n  - paragraph:\n    - text: To reduce heat stress on landscape plants, change how you water them. When I visit SAWS customers for an\n    - link \"irrigation consultation\":\n      - /url: https://www.gardenstylesanantonio.com/watersaver-irrigation-consultation/\n    - text: \", I often find their irrigation system set to run three or four days a week, and sometimes with multiple start times. Very few plants need this much water.\"\n  - paragraph:\n    - text: Instead, you want to encourage plants to grow a healthy root system 4 to 15 inches below the soil line where most of the roots are found. To achieve that, water new plants with the\n    - link \"3-2-1 water method\":\n      - /url: https://www.gardenstylesanantonio.com/garden-resources1/establishing-plants/\n    - text: . Established plants should be watered deeply, no more than once a week, and larger plants even less frequently.\n  - paragraph: Watering by hand or sprinkler system for five minutes, several times a week will only soak in about one inch into the soil. You’ll end up with wet soil and dry roots, leading to plant disease or mortality.\n  - paragraph: Take those same five minutes from your several times a week and lump them all together for a once-a-week deep soaking of 15-30 minutes.\n  - paragraph:\n    - text: To know exactly how much water different plants need, based on irrigation head types, use our\n    - link \"basic irrigation schedule recommendations\":\n      - /url: https://www.gardenstylesanantonio.com/garden-tips-blog/how-to-set-your-irrigation-controller/\n    - text: .\n  - paragraph\n  - paragraph: Your plants will grow stronger, handle the heat better and you save water — and money."
+      }
+    ],
+    "advice": "  - heading \"It’s normal for plants to droop in the afternoon, especially in the brutal heat of summer. Before you water, check the soil moisture at least two inches deep.\" [level=3]\n  - paragraph: The Texas summer heat is on and triple-digit temperatures seem endless. While we can escape the heat in our air-conditioned homes, our plants are forced to deal with the brutal conditions.\n  - paragraph: Certain plants, especially native ones, fare well during the summer and don’t show signs of heat stress because they’re adapted to our dry, hot climate. But many plants we select for our yards are not well-adapted to our scorching hot summers. These plants may fade, wilt or even die from the extreme heat. Contrary to popular belief, giving a wilting plant extra water isn’t the answer.\n  - paragraph:\n    - text: Many plants will wilt in the heat even when the soil has adequate moisture. The wilting process is caused by plants losing moisture through their leaves. This natural process called\n    - link \"transpiration\":\n      - /url: https://www.usgs.gov/special-topic/water-science-school/science/evapotranspiration-and-water-cycle?qt-science_center_objects=0#qt-science_center_objects\n    - text: is the movement of water from the roots throughout the entire plant and its leaves. (\n    - link \"Try this fun experiment to see transpiration in action\":\n      - /url: http://www.reachoutmichigan.org/funexperiments/quick/transpiration.html\n      - text: Try this\n      - strong: fun experiment\n      - text: to see transpiration in action\n    - text: .)\n  - paragraph:\n    - text: When environmental conditions cause a plant to lose more moisture from its leaves than the roots can supply, the plant wilts. This could be due to sunlight, wind or heat\n    - emphasis: .\n  - paragraph:\n    - text: Check the soil moisture with your finger or a screwdriver before adding more water. In our hot climate, heat and wind will pull moisture out of the top 1 inch of soil within hours. Because of this, you should check 2 to 3 inches deep near plants before giving them any more water.\n    - strong: If you see moisture at this depth, do not provide extra water.\n  - paragraph: Plants with adequate moisture may wilt in the peak of daytime and revive without assistance as the plants regain the ability to absorb moisture. If you start adding extra water to an already moist area, you may end up drowning your plants, starving their roots of oxygen and killing them.\n  - paragraph:\n    - text: To reduce heat stress on landscape plants, change how you water them. When I visit SAWS customers for an\n    - link \"irrigation consultation\":\n      - /url: https://www.gardenstylesanantonio.com/watersaver-irrigation-consultation/\n    - text: \", I often find their irrigation system set to run three or four days a week, and sometimes with multiple start times. Very few plants need this much water.\"\n  - paragraph:\n    - text: Instead, you want to encourage plants to grow a healthy root system 4 to 15 inches below the soil line where most of the roots are found. To achieve that, water new plants with the\n    - link \"3-2-1 water method\":\n      - /url: https://www.gardenstylesanantonio.com/garden-resources1/establishing-plants/\n    - text: . Established plants should be watered deeply, no more than once a week, and larger plants even less frequently.\n  - paragraph: Watering by hand or sprinkler system for five minutes, several times a week will only soak in about one inch into the soil. You’ll end up with wet soil and dry roots, leading to plant disease or mortality.\n  - paragraph: Take those same five minutes from your several times a week and lump them all together for a once-a-week deep soaking of 15-30 minutes.\n  - paragraph:\n    - text: To know exactly how much water different plants need, based on irrigation head types, use our\n    - link \"basic irrigation schedule recommendations\":\n      - /url: https://www.gardenstylesanantonio.com/garden-tips-blog/how-to-set-your-irrigation-controller/\n    - text: .\n  - paragraph\n  - paragraph: Your plants will grow stronger, handle the heat better and you save water — and money.",
+    "reason": "First accessible wilting guidance, including soil checks and irrigation caveats.",
+    "frozen_at": "2026-10-29T06:34:16.187889+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.278910+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.278077+00:00",
+    "changes": [
+      {
+        "query_index": 183,
+        "action_index": 2,
+        "field": "minutes",
+        "before": 30,
+        "after": 5,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ]
+  }
+}

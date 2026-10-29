@@ -1,0 +1,186 @@
+{
+  "reference_action": "Post-repot drooping with low light; OP explicitly recovered after more sun/grow light. Light increase is the validated central action, not another repot or watering alone.",
+  "sources": [
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicitly place in bright indirect light, overlapping the validated light intervention, although the main emphasis is root rot and conflicting dry/water advice.",
+      "evidence": [
+        "047-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1732060157100583/posts/3171912566448661/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Peroxide/rooting solution after soil-to-LECA transition, no light intervention.",
+      "evidence": [
+        "video-audit-LpjS-XRnwLY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=LpjS-XRnwLY"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Only a list of possible causes, with no recoverable actual remedy or transcript.",
+      "evidence": [
+        "video-audit-OvC-lfIAtO0.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=OvC-lfIAtO0"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Usable description discusses watering and oxygen, no light intervention.",
+      "evidence": [
+        "video-audit-qhD5BoJH9yA.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=qhD5BoJH9yA"
+    },
+    {
+      "rank": 6,
+      "action_hit": "hit",
+      "reason": "Explicit bright light/direct winter sun remedy and repot shock explanation match the validated light increase.",
+      "evidence": [
+        "010-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=hcxVOsBZNu4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil sogginess",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Smell base for rot",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot and inspect roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse roots if rot confirmed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Sterilize shears and prune rotten roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Discard old soil and wash container",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in fresh airy mix with drainage",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Prune some top foliage after root loss",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to protected bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check if potting on is needed",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Water when bone dry, according to conflicting final comment",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Primary root-rot diagnosis is not the validated issue. Bright light is present but buried; invasive steps are conditional on observed rotten roots, while the bone-dry comment introduces contradictory and potentially unhelpful care."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The main comment says “If you check the roots and find they are rotting,” which prevents automatic surgery. The conflicting “once she’s bone dry” advice and canopy pruning introduce avoidable stress for a recovering croton."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Wet-soil root suffocation is a plausible differential, and bright indirect light overlaps recovery. It does not address transplant shock or recognize more light as the central successful change."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Root inspection and treatment steps are explained clearly. Multiple comments offer contradictory watering rules, and the repair sequence involves numerous tasks and another repot."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 47,
+  "thread_id": "18r51de",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 47,
+    "thread_id": "18r51de",
+    "selected_rank": 2,
+    "source_url": "https://www.facebook.com/groups/1732060157100583/posts/3171912566448661/",
+    "spans": [
+      {
+        "file": "047-source-02.txt",
+        "start_line": 53,
+        "end_line": 87,
+        "sha256": "51d870aadb49e25e4db3e189767586a4000dde45d218cf2cb46969318c292bcb",
+        "text": "        - generic: Wilting manifests itself if a plant is dry but I’m wondering if the soil is wet & wilting. It does see to me if your plant was dry you’d just water it and it would stand erect again. I’m wondering it its roots have rotted?\n        - generic: Your Croton plant (Codiaeum variegatum), showing drooping, limp leaves which can indeed indicate that the root system is suffocating or damaged roots.\n        - generic: When a plant wilts despite the soil being wet or recently watered, the roots are failing to function. Overwatering fills the air pockets in the soil, starving the roots of oxygen and encouraging fungal pathogens to rot them away. Since rotten roots can no longer absorb water, the top of the plant dehydrates and wilts, mimicking the appearance of underwatering.\n        - generic: \"To confirm root rot and potentially save your plant, look for these key symptoms and take immediate action:\"\n        - img \"⚠️\"\n        - text: How to Confirm Root Rot\n        - generic: \"* Soil Check: If the soil feels dense, soggy, or remains wet for many days without drying out, it is a primary environment for rot.\"\n        - generic: \"* Foul Odor: Sniff the base of the plant. Healthy soil smells earthy, but rotting roots produce a distinct sour, marshy, or sulfur-like smell.\"\n        - generic: \"* Visual Inspection: Gently slide the plant out of its pot. Healthy croton roots should be firm and light tan or cream-colored. If they are brown, black, slimy, and easily fall apart when touched, root rot is active.\"\n        - img \"🛠️\"\n        - text: Emergency Steps to Save the Plant\n        - generic: \"If you check the roots and find they are rotting, follow this extraction and treatment process:\"\n        - generic: \"1. Prune the Dead Roots: Carefully rinse the soil away from the roots with lukewarm water. Use sterilized shears to cut off all mushy, dark roots, leaving only the firm, healthy sections behind.\"\n        - generic: \"2. Repot in Fresh Soil: Discard the old, contaminated soil. Clean the container thoroughly with soap and water if you plan to reuse it. Replant the croton in fresh, well-draining soil mix (such as a standard potting mix amended with plenty of perlite or orchid bark to ensure proper aeration). Ensure the pot has functional drainage holes.\"\n        - generic: \"3. Trim Top Growth: Prune back some of the top foliage. Since you have reduced the root mass, the remaining roots cannot support a heavy canopy. Cutting back a few leaves helps balance the plant and reduces overall stress.\"\n        - generic: \"4. Hold off on Fertilizer: Do not fertilize a recovering plant. The delicate, remaining roots can easily burn from the nutrients while trying to heal.\"\n        - generic: Moving the plant indoors is a good idea to protect it from harsh direct sunlight, wind, and temperature fluctuations while it recovers, but make sure to place it in a spot that still receives bright, indirect light.\n        - list:\n          - link \"5w\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/3171912566448661/?comment_id=4135215696785005&__cft__[0]=AZjMF72zVjfGR1m36_1k1XUU5hPTahn206nYt3zFhy56pf_2TArJEsL09fdyk5Bo1Qx6e5LkF71NftbaWiJz55QWHWssnkZ3PivsZBubbdN7hHVQ--WN6nFRA26BGFnG9d3nzmplSaayAjfEL-BZxYueImvZwXIxIig_RNaPDUfH3EDaU93n0q3hLL80iw&__tn__=R]-R\n      - article \"Comment by Sharon Smith 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sharon Smith\":\n          - generic: Sharon Smith\n        - generic: When the leaves on mine droop it needs watering. Have checked if it needs potting on too?\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/3171912566448661/?comment_id=3171913823115202&__cft__[0]=AZjMF72zVjfGR1m36_1k1XUU5hPTahn206nYt3zFhy56pf_2TArJEsL09fdyk5Bo1Qx6e5LkF71NftbaWiJz55QWHWssnkZ3PivsZBubbdN7hHVQ--WN6nFRA26BGFnG9d3nzmplSaayAjfEL-BZxYueImvZwXIxIig_RNaPDUfH3EDaU93n0q3hLL80iw&__tn__=R]-R\n      - article \"Comment by Dakota Dickinson 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Dakota Dickinson\":\n          - generic: Dakota Dickinson\n        - generic: She’s thirsty! And they like bright indirect light. I only water mine once she’s bone dry!"
+      }
+    ],
+    "advice": "        - generic: Wilting manifests itself if a plant is dry but I’m wondering if the soil is wet & wilting. It does see to me if your plant was dry you’d just water it and it would stand erect again. I’m wondering it its roots have rotted?\n        - generic: Your Croton plant (Codiaeum variegatum), showing drooping, limp leaves which can indeed indicate that the root system is suffocating or damaged roots.\n        - generic: When a plant wilts despite the soil being wet or recently watered, the roots are failing to function. Overwatering fills the air pockets in the soil, starving the roots of oxygen and encouraging fungal pathogens to rot them away. Since rotten roots can no longer absorb water, the top of the plant dehydrates and wilts, mimicking the appearance of underwatering.\n        - generic: \"To confirm root rot and potentially save your plant, look for these key symptoms and take immediate action:\"\n        - img \"⚠️\"\n        - text: How to Confirm Root Rot\n        - generic: \"* Soil Check: If the soil feels dense, soggy, or remains wet for many days without drying out, it is a primary environment for rot.\"\n        - generic: \"* Foul Odor: Sniff the base of the plant. Healthy soil smells earthy, but rotting roots produce a distinct sour, marshy, or sulfur-like smell.\"\n        - generic: \"* Visual Inspection: Gently slide the plant out of its pot. Healthy croton roots should be firm and light tan or cream-colored. If they are brown, black, slimy, and easily fall apart when touched, root rot is active.\"\n        - img \"🛠️\"\n        - text: Emergency Steps to Save the Plant\n        - generic: \"If you check the roots and find they are rotting, follow this extraction and treatment process:\"\n        - generic: \"1. Prune the Dead Roots: Carefully rinse the soil away from the roots with lukewarm water. Use sterilized shears to cut off all mushy, dark roots, leaving only the firm, healthy sections behind.\"\n        - generic: \"2. Repot in Fresh Soil: Discard the old, contaminated soil. Clean the container thoroughly with soap and water if you plan to reuse it. Replant the croton in fresh, well-draining soil mix (such as a standard potting mix amended with plenty of perlite or orchid bark to ensure proper aeration). Ensure the pot has functional drainage holes.\"\n        - generic: \"3. Trim Top Growth: Prune back some of the top foliage. Since you have reduced the root mass, the remaining roots cannot support a heavy canopy. Cutting back a few leaves helps balance the plant and reduces overall stress.\"\n        - generic: \"4. Hold off on Fertilizer: Do not fertilize a recovering plant. The delicate, remaining roots can easily burn from the nutrients while trying to heal.\"\n        - generic: Moving the plant indoors is a good idea to protect it from harsh direct sunlight, wind, and temperature fluctuations while it recovers, but make sure to place it in a spot that still receives bright, indirect light.\n        - list:\n          - link \"5w\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/3171912566448661/?comment_id=4135215696785005&__cft__[0]=AZjMF72zVjfGR1m36_1k1XUU5hPTahn206nYt3zFhy56pf_2TArJEsL09fdyk5Bo1Qx6e5LkF71NftbaWiJz55QWHWssnkZ3PivsZBubbdN7hHVQ--WN6nFRA26BGFnG9d3nzmplSaayAjfEL-BZxYueImvZwXIxIig_RNaPDUfH3EDaU93n0q3hLL80iw&__tn__=R]-R\n      - article \"Comment by Sharon Smith 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Sharon Smith\":\n          - generic: Sharon Smith\n        - generic: When the leaves on mine droop it needs watering. Have checked if it needs potting on too?\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/1732060157100583/posts/3171912566448661/?comment_id=3171913823115202&__cft__[0]=AZjMF72zVjfGR1m36_1k1XUU5hPTahn206nYt3zFhy56pf_2TArJEsL09fdyk5Bo1Qx6e5LkF71NftbaWiJz55QWHWssnkZ3PivsZBubbdN7hHVQ--WN6nFRA26BGFnG9d3nzmplSaayAjfEL-BZxYueImvZwXIxIig_RNaPDUfH3EDaU93n0q3hLL80iw&__tn__=R]-R\n      - article \"Comment by Dakota Dickinson 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Dakota Dickinson\":\n          - generic: Dakota Dickinson\n        - generic: She’s thirsty! And they like bright indirect light. I only water mine once she’s bone dry!",
+    "reason": "First retained nonexcluded result with substantive advice; freeze all visible comments, including conflicting watering suggestions.",
+    "frozen_at": "2026-10-29T04:42:19.471248+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:42:58.123407+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

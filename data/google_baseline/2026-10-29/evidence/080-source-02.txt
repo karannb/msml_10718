@@ -1,0 +1,276 @@
+- banner:
+  - button "Guide":
+  - link "YouTube Home":
+    - /url: /
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - search:
+    - combobox "Search" [expanded]
+    - button "Search":
+  - button "Search with your voice":
+  - tooltip "tooltip"
+  - button "Settings":
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D6AHnGz29AXQ%2526themeRefresh%253D1&hl=en&ec=65620
+    - generic: Sign in
+- main:
+  - complementary:
+    - generic "YouTube Video Player" [active]:
+      - button "Play":
+      - slider "Seek slider" [disabled]
+      - slider "Click or scroll the panel for the precise seeking." [disabled]
+      - button "Play (k)":
+      - button "Mute (m)":
+      - slider "Volume"
+      - button "0 Minutes 0 Seconds of 0 Minutes 10 Seconds": 0:00 / 0:10
+      - button "Subtitles/closed captions unavailable":
+      - button "Settings":
+      - button "Theater mode (t)":
+      - button "Full screen (f)":
+  - heading "Five Common Palm Tree Problems - Treatment and Recovery" [level=1]
+  - link "Walking Talking Gardeners":
+    - /url: /@walkingtalkinggardeners
+    - img "Walking Talking Gardeners"
+  - generic "Walking Talking Gardeners":
+    - link "Walking Talking Gardeners":
+      - /url: /@walkingtalkinggardeners
+  - generic "33.2 thousand subscribers": 33.2K subscribers
+  - button "Subscribe to Walking Talking Gardeners.":
+    - generic: Subscribe
+  - button "like this video along with 282 other people":
+    - generic: "282"
+  - button "Dislike this video":
+  - button "Share":
+    - generic: Share
+  - button "Save to playlist":
+    - generic: Save
+  - button "More actions":
+  - text: 45K views 2 years ago
+  - link "#PalmTreeCare":
+    - /url: /hashtag/palmtreecare
+  - link "#GardeningTips":
+    - /url: /hashtag/gardeningtips
+  - link "#PalmRescue":
+    - /url: /hashtag/palmrescue
+  - tooltip "tooltip"
+  - generic: Are your Palm Trees turning brown, losing spears, or just not growing? 🌴🆘 Palm trees add that perfect tropical vibe to any garden, but they can be incredibly frustrating when things go wrong! In this video, S
+  - generic: …
+  - button "...more"
+  - text: •
+  - heading "Comments" [level=2]:
+    - generic: Comments
+  - link "Microwave Egg Poacher":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CnADqua3iapmJKPyT7L4P2_-zyQOdy8HDigG-sNSmlhawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdmxlJ5BqAMEyAMKqgTnAk_QWW4Npud84BxdGO1GCxJfLSOpcyMFDqWjd0h-MNjrD1Sgp_Z0zCNMPEBoLp4GFvoFqJ-9UjMVhQcqKBiuQFWQbS2VOrtrJrg0rrimLKsT1JP0nnn0DA-WPgXgfLzFTLhYuap-KdPK2lQPXJWo0Tl15N0t00ToP6C9LL1_FmPx4bI07nujsHBKAZKQTwClfp4wCl7uexYlPOD3bZ7M674gns7XMZj6R60KnQX-k-0vpLHvzjkJ3SJYIGi7ypw0AThaMUW_Ma9T42l_I7pHZlI_ysXIJilO_IoSC2ntP33GeAKzQQgMA3QWnLF9hBh0H5-IKVBAskMyZB4UKWpz5in07ZFq5ue7o0j3kFt88m2MNpcSyLU5HeXGB7sbnLHSgPWTesIl59K08eMfkqjwHjPgGUK1VtJxTPyVB6hoNXbBdsX6j2hfCi02DLbGto1Za7TbjVS7VPODWOuH1jpXOgiAK1z8zlzCiAWN26-kWpIFCggTaAJ4hpbEmBygBqQBgAfZ6eT9G5AHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKwCAzSCC4IgEEQARheMgKCAjoPgGOAwICAgICAgAKqgIAYSNmg0jVQFFi4nti6ld6XA2AB8ggfY2EteXQtaG9zdC1wdWItNzM1NTkzNjA4NjQ0NzEwOJoJOmh0dHBzOi8vd3d3LmF2ZXJ5YXJkLmNvbS9mdW5uZWwvbmV3cy1taWNyb3dhdmUtZWdnLXBvYWNoZXKxCXbFEL0pz_STyAkAmAsBoQs53vO1bu7cVLoLPggBEAUYFiAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIJugMJdmlhdGx6YWFh0AsS0gwCEAHaDCYKCxCQr-OJ2ZmMsZwBEgIBAxoNGI3br6RaIOGRsOjmBUABSgIQH5oNARKqDQJVU8gNAdIN1QFodHRwczovL3d3dy5hdmVyeWFyZC5jb20vZnVubmVsL25ld3MtbWljcm93YXZlLWVnZy1wb2FjaGVyP3V0bV9zb3VyY2U9eCZ1dG1fbWVkaXVtPTI0MjI5ODMxODUxJnV0bV9jYW1wYWlnbj0mdXRtX2NvbnRlbnQ9Njc0NjE4ODM1NyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQyMzU0NzAyMjEmZ2JyYWlkPTBBQUFBQkJQRkdObGwySWxfMXZBc3ZXS2Y0YjZ4bDBtX1GwDsXU6pAZuBP___________8BsBQBwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF7_vouVRe9dLuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMI2cnYupXelwMV_AnbAR3b_yw5EAEYASAAEgLsPPD_BwE&num=1&cid=CAASqwHkaFxdQvH_3-JSAll6_RqHSyDmUTWsxdVCrND6yZLAv9IyWbcDIM3JDTq8mBtVzdaZCRk42yW-4S04cfgnxdkOnro6l8bTo0AJU-6n3MLXtcvr3J8ONT6t0c13Sh6jDo1hruvUjUQ37AIZtZgQmJJus_yhjG1PQOzwQFzjczS2MXRjg3nDOWyWIs9gOTCq0Mj1UwhahQiE40gd_-pYPX7LHfJjiDV4kJUqFVw&sig=AOD64_3yN3NWeHX0f5FRtHrDnljNH2vXgA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Get 50% off Averyard today — shop risk-free with our 90-day refund guarantee.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CnADqua3iapmJKPyT7L4P2_-zyQOdy8HDigG-sNSmlhawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdmxlJ5BqAMEyAMKqgTnAk_QWW4Npud84BxdGO1GCxJfLSOpcyMFDqWjd0h-MNjrD1Sgp_Z0zCNMPEBoLp4GFvoFqJ-9UjMVhQcqKBiuQFWQbS2VOrtrJrg0rrimLKsT1JP0nnn0DA-WPgXgfLzFTLhYuap-KdPK2lQPXJWo0Tl15N0t00ToP6C9LL1_FmPx4bI07nujsHBKAZKQTwClfp4wCl7uexYlPOD3bZ7M674gns7XMZj6R60KnQX-k-0vpLHvzjkJ3SJYIGi7ypw0AThaMUW_Ma9T42l_I7pHZlI_ysXIJilO_IoSC2ntP33GeAKzQQgMA3QWnLF9hBh0H5-IKVBAskMyZB4UKWpz5in07ZFq5ue7o0j3kFt88m2MNpcSyLU5HeXGB7sbnLHSgPWTesIl59K08eMfkqjwHjPgGUK1VtJxTPyVB6hoNXbBdsX6j2hfCi02DLbGto1Za7TbjVS7VPODWOuH1jpXOgiAK1z8zlzCiAWN26-kWpIFCggTaAJ4hpbEmBygBqQBgAfZ6eT9G5AHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKwCAzSCC4IgEEQARheMgKCAjoPgGOAwICAgICAgAKqgIAYSNmg0jVQFFi4nti6ld6XA2AB8ggfY2EteXQtaG9zdC1wdWItNzM1NTkzNjA4NjQ0NzEwOJoJOmh0dHBzOi8vd3d3LmF2ZXJ5YXJkLmNvbS9mdW5uZWwvbmV3cy1taWNyb3dhdmUtZWdnLXBvYWNoZXKxCXbFEL0pz_STyAkAmAsBoQs53vO1bu7cVLoLPggBEAUYFiAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIJugMJdmlhdGx6YWFh0AsS0gwCEAHaDCYKCxCQr-OJ2ZmMsZwBEgIBAxoNGI3br6RaIOGRsOjmBUABSgIQH5oNARKqDQJVU8gNAdIN1QFodHRwczovL3d3dy5hdmVyeWFyZC5jb20vZnVubmVsL25ld3MtbWljcm93YXZlLWVnZy1wb2FjaGVyP3V0bV9zb3VyY2U9eCZ1dG1fbWVkaXVtPTI0MjI5ODMxODUxJnV0bV9jYW1wYWlnbj0mdXRtX2NvbnRlbnQ9Njc0NjE4ODM1NyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQyMzU0NzAyMjEmZ2JyYWlkPTBBQUFBQkJQRkdObGwySWxfMXZBc3ZXS2Y0YjZ4bDBtX1GwDsXU6pAZuBP___________8BsBQBwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF7_vouVRe9dLuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMI2cnYupXelwMV_AnbAR3b_yw5EAEYASAAEgLsPPD_BwE&num=1&cid=CAASqwHkaFxdQvH_3-JSAll6_RqHSyDmUTWsxdVCrND6yZLAv9IyWbcDIM3JDTq8mBtVzdaZCRk42yW-4S04cfgnxdkOnro6l8bTo0AJU-6n3MLXtcvr3J8ONT6t0c13Sh6jDo1hruvUjUQ37AIZtZgQmJJus_yhjG1PQOzwQFzjczS2MXRjg3nDOWyWIs9gOTCq0Mj1UwhahQiE40gd_-pYPX7LHfJjiDV4kJUqFVw&sig=AOD64_3yN3NWeHX0f5FRtHrDnljNH2vXgA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - generic: Sponsored
+  - text: ·
+  - generic: Averyard
+  - button "My Ad Center":
+  - link "Shop now":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CnADqua3iapmJKPyT7L4P2_-zyQOdy8HDigG-sNSmlhawkB8QASAAYMmGhYmIpIQQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdmxlJ5BqAMEyAMKqgTnAk_QWW4Npud84BxdGO1GCxJfLSOpcyMFDqWjd0h-MNjrD1Sgp_Z0zCNMPEBoLp4GFvoFqJ-9UjMVhQcqKBiuQFWQbS2VOrtrJrg0rrimLKsT1JP0nnn0DA-WPgXgfLzFTLhYuap-KdPK2lQPXJWo0Tl15N0t00ToP6C9LL1_FmPx4bI07nujsHBKAZKQTwClfp4wCl7uexYlPOD3bZ7M674gns7XMZj6R60KnQX-k-0vpLHvzjkJ3SJYIGi7ypw0AThaMUW_Ma9T42l_I7pHZlI_ysXIJilO_IoSC2ntP33GeAKzQQgMA3QWnLF9hBh0H5-IKVBAskMyZB4UKWpz5in07ZFq5ue7o0j3kFt88m2MNpcSyLU5HeXGB7sbnLHSgPWTesIl59K08eMfkqjwHjPgGUK1VtJxTPyVB6hoNXbBdsX6j2hfCi02DLbGto1Za7TbjVS7VPODWOuH1jpXOgiAK1z8zlzCiAWN26-kWpIFCggTaAJ4hpbEmBygBqQBgAfZ6eT9G5AHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKwCAzSCC4IgEEQARheMgKCAjoPgGOAwICAgICAgAKqgIAYSNmg0jVQFFi4nti6ld6XA2AB8ggfY2EteXQtaG9zdC1wdWItNzM1NTkzNjA4NjQ0NzEwOJoJOmh0dHBzOi8vd3d3LmF2ZXJ5YXJkLmNvbS9mdW5uZWwvbmV3cy1taWNyb3dhdmUtZWdnLXBvYWNoZXKxCXbFEL0pz_STyAkAmAsBoQs53vO1bu7cVLoLPggBEAUYFiAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIJugMJdmlhdGx6YWFh0AsS0gwCEAHaDCYKCxCQr-OJ2ZmMsZwBEgIBAxoNGI3br6RaIOGRsOjmBUABSgIQH5oNARKqDQJVU8gNAdIN1QFodHRwczovL3d3dy5hdmVyeWFyZC5jb20vZnVubmVsL25ld3MtbWljcm93YXZlLWVnZy1wb2FjaGVyP3V0bV9zb3VyY2U9eCZ1dG1fbWVkaXVtPTI0MjI5ODMxODUxJnV0bV9jYW1wYWlnbj0mdXRtX2NvbnRlbnQ9Njc0NjE4ODM1NyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQyMzU0NzAyMjEmZ2JyYWlkPTBBQUFBQkJQRkdObGwySWxfMXZBc3ZXS2Y0YjZ4bDBtX1GwDsXU6pAZuBP___________8BsBQBwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF7_vouVRe9dLuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMI2cnYupXelwMV_AnbAR3b_yw5EAEYASAAEgLsPPD_BwE&num=1&cid=CAASqwHkaFxdQvH_3-JSAll6_RqHSyDmUTWsxdVCrND6yZLAv9IyWbcDIM3JDTq8mBtVzdaZCRk42yW-4S04cfgnxdkOnro6l8bTo0AJU-6n3MLXtcvr3J8ONT6t0c13Sh6jDo1hruvUjUQ37AIZtZgQmJJus_yhjG1PQOzwQFzjczS2MXRjg3nDOWyWIs9gOTCq0Mj1UwhahQiE40gd_-pYPX7LHfJjiDV4kJUqFVw&sig=AOD64_3yN3NWeHX0f5FRtHrDnljNH2vXgA&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+    - generic: Shop now
+  - link:
+    - /url: /watch?v=nxtn2_FtQkY&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "The Most Dangerous Woman in Science Says We Got the Dinosaur Extinction Totally Wrong" [level=3]:
+    - link "The Most Dangerous Woman in Science Says We Got the Dinosaur Extinction Totally Wrong 43 minutes":
+      - /url: /watch?v=nxtn2_FtQkY&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: The Most Dangerous Woman in Science Says We Got the Dinosaur Extinction Totally Wrong
+  - generic: Today I Learned Science
+  - generic "Verified":
+  - generic "1.2 million views": 1.2M
+  - generic "3 weeks ago": 3w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=zpW_gVjb7T4
+  - heading "Trump Gets Heckled at His Own Rally, Gifts Us a GREAT Moment & Don Jr’s Oligarch Hunting Trip" [level=3]:
+    - link "Trump Gets Heckled at His Own Rally, Gifts Us a GREAT Moment & Don Jr’s Oligarch Hunting Trip 15 minutes":
+      - /url: /watch?v=zpW_gVjb7T4
+      - text: Trump Gets Heckled at His Own Rally, Gifts Us a GREAT Moment & Don Jr’s Oligarch Hunting Trip
+  - generic: Jimmy Kimmel Live
+  - generic "Verified":
+  - generic "3.6 million views": 3.6M
+  - generic "22 hours ago": 22h ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=O1B7yEvJXFA
+  - heading "How to Save Palm Trees After the Florida Freeze (Expert Recovery Plan)" [level=3]:
+    - link "How to Save Palm Trees After the Florida Freeze (Expert Recovery Plan) 11 minutes, 49 seconds":
+      - /url: /watch?v=O1B7yEvJXFA
+      - text: How to Save Palm Trees After the Florida Freeze (Expert Recovery Plan)
+  - generic: Palm Professionals
+  - generic "123 thousand views": 123K
+  - generic "8 months ago": 8mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=BeX-SD08v5Y&pp=ugUEEgJlbg%3D%3D
+  - heading "5 Palm Tree that Will CHANGE Your Garden in 2024!" [level=3]:
+    - link "5 Palm Tree that Will CHANGE Your Garden in 2024! 18 minutes":
+      - /url: /watch?v=BeX-SD08v5Y&pp=ugUEEgJlbg%3D%3D
+      - text: 5 Palm Tree that Will CHANGE Your Garden in 2024!
+  - generic: True Gardener
+  - generic "47 thousand views": 47K
+  - generic "2 years ago": 2y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=tURIDup-bYQ&pp=ugUEEgJlbg%3D%3D
+  - heading "What a Stroke Looks Like the Day Before It Hits — Know This to Protect Yourself" [level=3]:
+    - link "What a Stroke Looks Like the Day Before It Hits — Know This to Protect Yourself 26 minutes":
+      - /url: /watch?v=tURIDup-bYQ&pp=ugUEEgJlbg%3D%3D
+      - text: What a Stroke Looks Like the Day Before It Hits — Know This to Protect Yourself
+  - generic: Dr. William Parker Senior Health
+  - generic "2.8 million views": 2.8M
+  - generic "3 months ago": 3mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=XyciJnlpmgU
+  - heading "Your Fig Tree Needs This In October. Most Gardeners FORGET About It." [level=3]:
+    - link "Your Fig Tree Needs This In October. Most Gardeners FORGET About It. 21 minutes":
+      - /url: /watch?v=XyciJnlpmgU
+      - text: Your Fig Tree Needs This In October. Most Gardeners FORGET About It.
+  - generic: Martha Grows
+  - generic "124 thousand views": 124K
+  - generic "2 weeks ago": 2w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=DcAtQiSuEc8
+  - heading "What Happens When You Don't Cut Your Roses in Fall" [level=3]:
+    - link "What Happens When You Don't Cut Your Roses in Fall 36 minutes":
+      - /url: /watch?v=DcAtQiSuEc8
+      - text: What Happens When You Don't Cut Your Roses in Fall
+  - generic: Gardenomics
+  - generic "506 views": "506"
+  - generic "3 weeks ago": 3w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=7gtooMZol6A
+  - heading "Five Mistakes to Avoid Growing and Planting the Canary Island Date Palm - Phoenix canariensis" [level=3]:
+    - link "Five Mistakes to Avoid Growing and Planting the Canary Island Date Palm - Phoenix canariensis 10 minutes, 49 seconds":
+      - /url: /watch?v=7gtooMZol6A
+      - text: Five Mistakes to Avoid Growing and Planting the Canary Island Date Palm - Phoenix canariensis
+  - generic: Walking Talking Gardeners
+  - generic "14 thousand views": 14K
+  - generic "1 year ago": 1y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=CMFvOgJfkD0&pp=ugUEEgJlbg%3D%3D
+  - heading "Saving Clearance Palm Tree Plants-Palm Tree Winter Care" [level=3]:
+    - link "Saving Clearance Palm Tree Plants-Palm Tree Winter Care 11 minutes, 20 seconds":
+      - /url: /watch?v=CMFvOgJfkD0&pp=ugUEEgJlbg%3D%3D
+      - text: Saving Clearance Palm Tree Plants-Palm Tree Winter Care
+  - generic: The Adhd Gardener
+  - generic "118 thousand views": 118K
+  - generic "5 years ago": 5y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=xZjoPnden3s&pp=ugUEEgJlbg%3D%3D
+  - heading "DO NOT chop down a Honey Locust Tree before watching this!!" [level=3]:
+    - link "DO NOT chop down a Honey Locust Tree before watching this!! 9 minutes, 9 seconds":
+      - /url: /watch?v=xZjoPnden3s&pp=ugUEEgJlbg%3D%3D
+      - text: DO NOT chop down a Honey Locust Tree before watching this!!
+  - generic: The Faithful Farmstead
+  - generic "379 thousand views": 379K
+  - generic "2 years ago": 2y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=wwtBd7vyUKM
+  - heading "9 CHEAP Items at Tractor Supply That Veterans HOARD Before Anyone Else" [level=3]:
+    - link "9 CHEAP Items at Tractor Supply That Veterans HOARD Before Anyone Else 21 minutes":
+      - /url: /watch?v=wwtBd7vyUKM
+      - text: 9 CHEAP Items at Tractor Supply That Veterans HOARD Before Anyone Else
+  - generic: Blackout Fox
+  - generic "6.8 thousand views": 6.8K
+  - generic "1 day ago": 1d ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=jNBRQTwn_k0&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "How I Fertilize Palms and Tropicals // Palm Frizzle and Yellow Leaves" [level=3]:
+    - link "How I Fertilize Palms and Tropicals // Palm Frizzle and Yellow Leaves 17 minutes":
+      - /url: /watch?v=jNBRQTwn_k0&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: How I Fertilize Palms and Tropicals // Palm Frizzle and Yellow Leaves
+  - generic: The Lawn Care Nut
+  - generic "Verified":
+  - generic "23 thousand views": 23K
+  - generic "2 years ago": 2y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=3bLrrgNtkik&pp=ugUEEgJlbg%3D%3D
+  - heading "Don't Kill That Silverfish—It Could Be Warning You About Your Home" [level=3]:
+    - link "Don't Kill That Silverfish—It Could Be Warning You About Your Home 11 minutes, 14 seconds":
+      - /url: /watch?v=3bLrrgNtkik&pp=ugUEEgJlbg%3D%3D
+      - text: Don't Kill That Silverfish—It Could Be Warning You About Your Home
+  - generic: Root Signal
+  - generic "527 thousand views": 527K
+  - generic "3 months ago": 3mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=ApnkKRnVB-I&pp=ugUHEgVlbi1HQg%3D%3D
+  - heading "Mistakes to avoid when planting a palm tree." [level=3]:
+    - link "Mistakes to avoid when planting a palm tree. 19 minutes":
+      - /url: /watch?v=ApnkKRnVB-I&pp=ugUHEgVlbi1HQg%3D%3D
+      - text: Mistakes to avoid when planting a palm tree.
+  - generic: Yorkshire Kris Exotic Gardening
+  - generic "25 thousand views": 25K
+  - generic "3 years ago": 3y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=1xJKnSnAloA
+  - heading "Free Palm Trees?! Grow Your Own From Seed. -Easy-Step-By-Step-Guide" [level=3]:
+    - link "Free Palm Trees?! Grow Your Own From Seed. -Easy-Step-By-Step-Guide 24 minutes":
+      - /url: /watch?v=1xJKnSnAloA
+      - text: Free Palm Trees?! Grow Your Own From Seed. -Easy-Step-By-Step-Guide
+  - generic: New York Tropical Garden
+  - generic "2.7 thousand views": 2.7K
+  - generic "1 year ago": 1y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=w6eAoyQZhL0
+  - heading "Trimming Palm Trees - Various Trimming Patterns" [level=3]:
+    - link "Trimming Palm Trees - Various Trimming Patterns 22 minutes":
+      - /url: /watch?v=w6eAoyQZhL0
+      - text: Trimming Palm Trees - Various Trimming Patterns
+  - generic: How To with Doc
+  - generic "Verified":
+  - generic "38 thousand views": 38K
+  - generic "5 years ago": 5y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=2DylyZKH3Ow&pp=ugUHEgVlbi1VU9IHCQkrDAGHKiGM7w%3D%3D
+  - heading "1 Cup of This Kills Every Weed — But Never Harms Your Grass" [level=3]:
+    - link "1 Cup of This Kills Every Weed — But Never Harms Your Grass 18 minutes":
+      - /url: /watch?v=2DylyZKH3Ow&pp=ugUHEgVlbi1VU9IHCQkrDAGHKiGM7w%3D%3D
+      - text: 1 Cup of This Kills Every Weed — But Never Harms Your Grass
+  - generic: Honest Lawn Care
+  - generic "512 thousand views": 512K
+  - generic "3 months ago": 3mo ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=JRSOnKdpgEI
+  - heading "15 Things a Retired NYPD Detective Teaches Women Living Alone to Keep Burglars Away at Night" [level=3]:
+    - link "15 Things a Retired NYPD Detective Teaches Women Living Alone to Keep Burglars Away at Night 22 minutes":
+      - /url: /watch?v=JRSOnKdpgEI
+      - text: 15 Things a Retired NYPD Detective Teaches Women Living Alone to Keep Burglars Away at Night
+  - generic: Jackie Shaw
+  - generic "288 thousand views": 288K
+  - generic "2 weeks ago": 2w ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=OVsTypEl7mI&pp=ugUHEgVlbi1HQg%3D%3D
+  - heading "Five Mistakes to Avoid Overwintering Tree Ferns - Dicksonia antarctica" [level=3]:
+    - link "Five Mistakes to Avoid Overwintering Tree Ferns - Dicksonia antarctica 21 minutes":
+      - /url: /watch?v=OVsTypEl7mI&pp=ugUHEgVlbi1HQg%3D%3D
+      - text: Five Mistakes to Avoid Overwintering Tree Ferns - Dicksonia antarctica
+  - generic: Walking Talking Gardeners
+  - generic "2 thousand views": 2K
+  - generic "1 year ago": 1y ago
+  - button "More actions":
+  - link:
+    - /url: /watch?v=u8t2MFQYyhw&pp=ugUEEgJlbg%3D%3D
+  - heading "How to skin a Palm Tree (& the tools you'll need)" [level=3]:
+    - link "How to skin a Palm Tree (& the tools you'll need) 15 minutes":
+      - /url: /watch?v=u8t2MFQYyhw&pp=ugUEEgJlbg%3D%3D
+      - text: How to skin a Palm Tree (& the tools you'll need)
+  - generic: Mr. Benitez Himself
+  - generic "275 thousand views": 275K
+  - generic "5 years ago": 5y ago
+  - button "More actions":

@@ -1,0 +1,139 @@
+{
+  "reference_action": "Peace lily sunburn and underwatering after environment change: water well and move inside to bright indirect light. OP reports improvement after a big drink and bringing it inside.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "The peace-lily comment explicitly says drooping means it needs water, supplying the central rehydration action. It does not specify a thorough soak or indoor indirect light, and the fixed two-week interval and repotting extras are not endorsed.",
+      "evidence": [
+        "015-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/2756178501283719/posts/4699093806992169/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Trimming brown edges and listing possible causes does not tell the reader to rehydrate this plant or remove it from burning sun.",
+      "evidence": [
+        "video-audit-qwP1Mc15660-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=qwP1Mc15660"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Humidity measures, salt flushing and possible root-rot treatment do not explicitly prescribe rehydration for drought or relocation for sunburn. A flush for salt accumulation is not evidence of matching this remedy.",
+      "evidence": [
+        "video-audit-JXdX16eMUxo-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=JXdX16eMUxo"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "The guide distinguishes sun scorch and under/overwatering but offers general tailoring and soil checking, not the concrete big drink and indoor indirect-light action.",
+      "evidence": [
+        "180-source-04-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=CPDGQ3M_QgQ&themeRefresh=1"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "A consistent watering rhythm, humidity and salt management leave the immediate drought/sunburn remedy unspecified.",
+      "evidence": [
+        "video-audit-yEkVbc84qTk-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=yEkVbc84qTk"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot into a larger pot with good drainage",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Water drooping lily on suggested two-week interval",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Add sphagnum moss top dressing",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check water and fertilizer used",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Watering a drooping lily overlaps the successful rehydration, but the comments do not identify sunburn or recommend the validated indoor indirect light. Repotting and moss are unnecessary extras."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Every 2 weeks” lacks a soil-moisture safeguard and may leave this thirsty lily dry too long. Repotting and moss add unnecessary disturbance, though watering when drooping points toward needed hydration rather than clearly harmful treatment."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Lilly needs a lot of water” and the drooping cue fit part of the case. The comments mix palm and lily advice, miss sunburn and indoor relocation, and suggest a larger pot without establishing a root-space problem."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Watering is simple, but “a lot” does not define amount and the fixed interval is ambiguous when the plant is already drooping. The additional repotting and moss purchase increase effort without a clear necessity."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "light matters"
+    ]
+  },
+  "query_index": 15,
+  "thread_id": "wjqvwo",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 15,
+    "thread_id": "wjqvwo",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/2756178501283719/posts/4699093806992169/",
+    "spans": [
+      {
+        "file": "015-source-01.txt",
+        "start_line": 50,
+        "end_line": 78,
+        "sha256": "a5148fd9e9062a1b0692dcf57ad4253d2cd3b3b71fd8e1b9cf279bfeae5e6fdf",
+        "text": "      - article \"Comment by Nadine Thompson 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Nadine Thompson\":\n          - generic: Nadine Thompson\n        - generic: The soil looks really dense on the palm. So it could be staying to wet. I would give the peace lily a bigger pot as the pot looks really small for the size of the plant\n        - list:\n          - link \"2w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4699093806992169/?comment_id=4699342320300651&__cft__[0]=AZi7jwfdQVcjE7QV2ozP9DKJ9eQJ0wTlo1tK9GX47kz80NqP-eKJDBOeTkJL_CiHmwhdpklXVjSkB4jGQK5R17n-Dw3RfocnHOEInp89SmNsLc9wx7bnD7NyhV3nTSVVLPhl2NZwBWHK5G4_kwz6Mat1pTRige6n9DIBGNThVn_OAH8jM0yeGH4_hk-SQfKC&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Paul Roberts 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Paul Roberts\":\n          - generic: Paul Roberts\n        - generic: Lillys needs alot of water ( thats whys the leafs are dropping water every 2 weeks . Palor palm could be dry as well..leafs go brown for over water or underwatering..and of course the day light makes a difference\n        - list:\n          - link \"2w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4699093806992169/?comment_id=4699278526973697&__cft__[0]=AZi7jwfdQVcjE7QV2ozP9DKJ9eQJ0wTlo1tK9GX47kz80NqP-eKJDBOeTkJL_CiHmwhdpklXVjSkB4jGQK5R17n-Dw3RfocnHOEInp89SmNsLc9wx7bnD7NyhV3nTSVVLPhl2NZwBWHK5G4_kwz6Mat1pTRige6n9DIBGNThVn_OAH8jM0yeGH4_hk-SQfKC&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Michael Bennett 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Michael Bennett\":\n          - generic: Michael Bennett\n        - generic: I would repot both, making sure they have really good drainage and then top dress with Sphagnum moss.\n        - generic: The brown tips are likely from salt build up. What do you water it with? Have you been feeding it?"
+      }
+    ],
+    "advice": "      - article \"Comment by Nadine Thompson 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Nadine Thompson\":\n          - generic: Nadine Thompson\n        - generic: The soil looks really dense on the palm. So it could be staying to wet. I would give the peace lily a bigger pot as the pot looks really small for the size of the plant\n        - list:\n          - link \"2w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4699093806992169/?comment_id=4699342320300651&__cft__[0]=AZi7jwfdQVcjE7QV2ozP9DKJ9eQJ0wTlo1tK9GX47kz80NqP-eKJDBOeTkJL_CiHmwhdpklXVjSkB4jGQK5R17n-Dw3RfocnHOEInp89SmNsLc9wx7bnD7NyhV3nTSVVLPhl2NZwBWHK5G4_kwz6Mat1pTRige6n9DIBGNThVn_OAH8jM0yeGH4_hk-SQfKC&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - article \"Comment by Paul Roberts 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Paul Roberts\":\n          - generic: Paul Roberts\n        - generic: Lillys needs alot of water ( thats whys the leafs are dropping water every 2 weeks . Palor palm could be dry as well..leafs go brown for over water or underwatering..and of course the day light makes a difference\n        - list:\n          - link \"2w\":\n            - /url: https://www.facebook.com/groups/2756178501283719/posts/4699093806992169/?comment_id=4699278526973697&__cft__[0]=AZi7jwfdQVcjE7QV2ozP9DKJ9eQJ0wTlo1tK9GX47kz80NqP-eKJDBOeTkJL_CiHmwhdpklXVjSkB4jGQK5R17n-Dw3RfocnHOEInp89SmNsLc9wx7bnD7NyhV3nTSVVLPhl2NZwBWHK5G4_kwz6Mat1pTRige6n9DIBGNThVn_OAH8jM0yeGH4_hk-SQfKC&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Michael Bennett 2 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Michael Bennett\":\n          - generic: Michael Bennett\n        - generic: I would repot both, making sure they have really good drainage and then top dress with Sphagnum moss.\n        - generic: The brown tips are likely from salt build up. What do you water it with? Have you been feeding it?",
+    "reason": "First result contains three comments addressing drooping peace lily and a separate palm; preserve attribution and all recommendations rather than only the watering comment.",
+    "frozen_at": "2026-10-29T04:14:00.886532+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:17:54.282447+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

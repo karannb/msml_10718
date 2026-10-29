@@ -1,0 +1,123 @@
+{
+  "reference_action": "OP later reports both cuttings thriving after advice to let them adjust with minimal intervention and monitor moisture in the oversized pot. No confirmed repotting.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Proposes repotting into chunky/very wet soil or LECA; not minimal intervention in the already planted cuttings.",
+      "evidence": [
+        "177-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/393923344897048/posts/827621454860566/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Leaves rooted ivy in place to establish and switches from standing water to normal wet/dry care. Partial observation/moisture overlap, with separate pruning/hardening extras.",
+      "evidence": [
+        "video-audit-yFMX-MnrH20-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=yFMX-MnrH20"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Reassures the owner planted ivy cuttings are fine and need not be separated; partial leave-alone overlap, no shock/pot-size diagnosis.",
+      "evidence": [
+        "177-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/proplifting/comments/1qx769y/too_many_in_one_pot/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicit oversized-pot water-retention/root-rot warning and moisture checks before watering; partial monitoring match, with unsupported feed/hormone extras.",
+      "evidence": [
+        "177-source-04.txt"
+      ],
+      "url": "https://www.instagram.com/reel/DTQizQygVHd/?hl=en"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Initial propagation and moist-not-wet aftercare without shock reassurance or oversized-pot monitoring.",
+      "evidence": [
+        "177-source-05.txt"
+      ],
+      "url": "https://www.thespruce.com/how-to-propagate-ivy-for-success-8550159"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot loosely in chunky well-draining mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Keep soil moist for first weeks",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Recognizes water-to-soil transition but advises a new mix and extra moisture rather than minimal intervention and caution about oversized pot drying."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Keep the soil pretty moist” can compound retention in the already large pot. Airy mix helps, but repeat repotting is unnecessary disturbance."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Relevant ivy transition context, but no transient-shock reassurance or oversized-pot distinction. It assumes substrate replacement is needed."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "A chunky-mix repot is feasible with supplies but takes meaningful effort. Moisture target and return to usual watering remain vague."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 177,
+  "thread_id": "ssu71z",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 177,
+    "thread_id": "ssu71z",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/393923344897048/posts/827621454860566/",
+    "spans": [
+      {
+        "file": "177-source-01.txt",
+        "start_line": 58,
+        "end_line": 58,
+        "sha256": "a15d881ffc2b95b660652b0ea598c4a2a383d0022c9103f12218db102685c0e3",
+        "text": "        - generic: I would put it in a pot that has very well draining chunkie mix soil and do not pack the soil keep it lose and airy also keep the soil pretty moist for the first couple weeks then after that water as usual"
+      }
+    ],
+    "advice": "        - generic: I would put it in a pot that has very well draining chunkie mix soil and do not pack the soil keep it lose and airy also keep the soil pretty moist for the first couple weeks then after that water as usual",
+    "reason": "First readable advice reply addresses ivy water-to-soil transition.",
+    "frozen_at": "2026-10-29T06:31:06.732776+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:32:00.888483+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

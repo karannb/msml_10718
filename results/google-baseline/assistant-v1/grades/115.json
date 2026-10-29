@@ -1,0 +1,137 @@
+{
+  "reference_action": "New leaf caught in sheath; OP sprayed with water and reports it released on its own four hours later. Confirmed intervention is moisture applied to stuck leaf, not manual pulling or light changes.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Explicit spray with water and moist paper towel; spray directly matches OP, while q-tip/pulling extras are not validated.",
+      "evidence": [
+        "115-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/4658820157696161/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Recommends humidifier to loosen stuck leaves while rejecting mist. Partial moisture intervention match only, not identical confirmed spray.",
+      "evidence": [
+        "115-source-02.txt"
+      ],
+      "url": "https://www.instagram.com/reel/Cigq1WRJ8Z7/?hl=en"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Multiple explicit spray/moisten seam and leave alone instructions; also many riskier manual methods, which are not confirmed.",
+      "evidence": [
+        "115-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/philodendron/comments/1hyr8jq/leaf_stuck_should_i_mend_in_or_not/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Warm shower humidity and warm towel retrieve localized moisture softening; partial substitute for confirmed spray and bathroom humidity already present.",
+      "evidence": [
+        "115-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/475121420323637/posts/1295033738332397/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Damp towel around stuck sheath and humidifier/steam instructions match moisture softening; no requirement for mechanical pulling, which is an extra.",
+      "evidence": [
+        "115-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1vmgcn7/new_leaf_stuck/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Spray stuck leaf with water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Push leaf out using wet cotton swab",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant to humid location",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wrap stuck area with wet paper towel",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Direct misting matches successful remedy but wet-swab pushing risks tearing fragile new leaf; reported yanking is explicitly a damage warning, not counted as a separate recommended task."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The first comment includes using a wet q-tip to “push the leaf out” without a resistance safeguard. Later “I’ve broken it twice” illustrates the mechanical risk; the otherwise appropriate spray/towel options do not cancel that risky alternative."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "“Spray with water” matches exactly what the OP did before release, and the wet-towel alternative targets the stuck sheath. The generic humid-location suggestion overlooks that it is already in a humid bathroom, and extra mechanical assistance is unnecessary."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Spray bottle, cotton swab and wet paper towel are ordinary household supplies requiring little setup. The towel duration is unspecified, but the central spray action is easy to execute; technique risk is reflected in safety."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 115,
+  "thread_id": "td0rf5",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 115,
+    "thread_id": "td0rf5",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/plantylife/posts/4658820157696161/",
+    "spans": [
+      {
+        "file": "115-source-01.txt",
+        "start_line": 55,
+        "end_line": 75,
+        "sha256": "3cb97073f7fc1f053121fc8b2f28836646c7ab616f44c7bb4efbb00aff79f3ec",
+        "text": "        - generic: When this happens I usually spray with water. I’ve seen some people take a wet q-tip and push the leaf out. You can also put it somewhere humid to help loosen it up.\n        - list:\n          - link \"1d\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4658820157696161/?comment_id=4658879827690194&__cft__[0]=AZjc18HoeKmDz3oBKZ92jP9mlfv4S-YMHPPQnkq9y9fyglAxuYbmC7ormN_T5jo3d4D2rcfQ4FbCt9BA8H5xDPwBVcRO88ilyWKzTmV3aALuK8ohQeGL5Ezj5je1a-go0mCfiuPyn0oCwd9FNgzbuwCY5KjPStOWPtIQ-q543F4s5wNMLfuGoN2QKJcKiwq9&__tn__=R]-R\n      - article \"Comment by Meredith Myers a day ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Meredith Myers\":\n          - generic: Meredith Myers\n        - generic: Trust Mother Nature to do the things in her own time.\n        - list:\n          - link \"1d\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4658820157696161/?comment_id=4658830731028437&__cft__[0]=AZjc18HoeKmDz3oBKZ92jP9mlfv4S-YMHPPQnkq9y9fyglAxuYbmC7ormN_T5jo3d4D2rcfQ4FbCt9BA8H5xDPwBVcRO88ilyWKzTmV3aALuK8ohQeGL5Ezj5je1a-go0mCfiuPyn0oCwd9FNgzbuwCY5KjPStOWPtIQ-q543F4s5wNMLfuGoN2QKJcKiwq9&__tn__=R]-R\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Donna Danielle Chairez a day ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Donna Danielle Chairez\":\n          - generic: Donna Danielle Chairez\n        - generic: I heard people will wet a paper towel and place it around there to keep it moist and help and have lots of success I yank it out but I’ve broken it twice lol so that’s a price you can gamble w . I need to try the paper towel method . I don’t feel like the spray water works in my opinion for me"
+      }
+    ],
+    "advice": "        - generic: When this happens I usually spray with water. I’ve seen some people take a wet q-tip and push the leaf out. You can also put it somewhere humid to help loosen it up.\n        - list:\n          - link \"1d\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4658820157696161/?comment_id=4658879827690194&__cft__[0]=AZjc18HoeKmDz3oBKZ92jP9mlfv4S-YMHPPQnkq9y9fyglAxuYbmC7ormN_T5jo3d4D2rcfQ4FbCt9BA8H5xDPwBVcRO88ilyWKzTmV3aALuK8ohQeGL5Ezj5je1a-go0mCfiuPyn0oCwd9FNgzbuwCY5KjPStOWPtIQ-q543F4s5wNMLfuGoN2QKJcKiwq9&__tn__=R]-R\n      - article \"Comment by Meredith Myers a day ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Meredith Myers\":\n          - generic: Meredith Myers\n        - generic: Trust Mother Nature to do the things in her own time.\n        - list:\n          - link \"1d\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/4658820157696161/?comment_id=4658830731028437&__cft__[0]=AZjc18HoeKmDz3oBKZ92jP9mlfv4S-YMHPPQnkq9y9fyglAxuYbmC7ormN_T5jo3d4D2rcfQ4FbCt9BA8H5xDPwBVcRO88ilyWKzTmV3aALuK8ohQeGL5Ezj5je1a-go0mCfiuPyn0oCwd9FNgzbuwCY5KjPStOWPtIQ-q543F4s5wNMLfuGoN2QKJcKiwq9&__tn__=R]-R\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Donna Danielle Chairez a day ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Donna Danielle Chairez\":\n          - generic: Donna Danielle Chairez\n        - generic: I heard people will wet a paper towel and place it around there to keep it moist and help and have lots of success I yank it out but I’ve broken it twice lol so that’s a price you can gamble w . I need to try the paper towel method . I don’t feel like the spray water works in my opinion for me",
+    "reason": "First source addresses stuck leaf; retain misting, q-tip, humidity, patience, towel and warning about tearing.",
+    "frozen_at": "2026-10-29T05:31:18.628235+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:32:13.510582+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

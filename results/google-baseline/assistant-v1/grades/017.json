@@ -1,0 +1,143 @@
+{
+  "reference_action": "Keep wilted transplanted basil seedlings in a glass of water to recover and grow roots; OP reports revival after four hours in water.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "The apparent cross-post includes the identical four-hour glass-of-water recovery statement. This is a retrieval hit with probable original-case leakage, not an independently found remedy; the selected advisor comments instead recommend moist soil/shade and preserving the root ball.",
+      "evidence": [
+        "017-source-01.txt"
+      ],
+      "url": "https://www.rustica.fr/forum-jardinage/help-basilic-train-mourir-apres-tentative-repiquage-t38959.html"
+    },
+    {
+      "rank": 2,
+      "action_hit": "unresolved",
+      "reason": "Short video has no captured transcript or self-contained advice.",
+      "evidence": [
+        "017-source-02.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/umqcwMTFn-Q"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "General division/soil repotting and watering do not advise glass-of-water recovery.",
+      "evidence": [
+        "video-audit-yY5QcjOfCFY-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=yY5QcjOfCFY"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Division, potting, partial shade and moderate soil watering are different from keeping the shocked seedlings in water.",
+      "evidence": [
+        "video-audit-HK3JFkQcLrA-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=HK3JFkQcLrA"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "The soil-based repotting and acclimatization sequence does not reproduce water-culture recovery.",
+      "evidence": [
+        "video-audit-HiOhR-4GXYQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=HiOhR-4GXYQ"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot in very moist soil in shade preserving maximum root ball",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Provide photo of remaining plants and describe root-ball handling",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Root-ball preservation addresses transplant injury and moist shade supports recovery, but these selected advisor comments do not prescribe the validated water recovery. The same source later reports this soil retry failed, so no successful independent solution is inferred."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Terreau très humide et à l’ombre” lacks drainage or moisture checks and requests another transplant of already weakened seedlings. Preserving the maximum root ball is protective, but the overall retry has incomplete safeguards."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“Garder le maximum de la motte” recognizes root disturbance and responds to transplant context. It omits the water recovery documented in the reference and elsewhere on this apparent cross-post."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Shade and preserving the root ball are concrete, ordinary gardening steps. Very moist soil is less precise, but the instructions and follow-up photo request are practical."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "leakage": {
+    "suspected": true,
+    "kind": "apparent_original_case_crosspost",
+    "evidence": "017-source-01.txt:124-162",
+    "independent_hit": false
+  },
+  "query_index": 17,
+  "thread_id": "1l7tndu",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 17,
+    "thread_id": "1l7tndu",
+    "selected_rank": 1,
+    "source_url": "https://www.rustica.fr/forum-jardinage/help-basilic-train-mourir-apres-tentative-repiquage-t38959.html",
+    "spans": [
+      {
+        "file": "017-source-01.txt",
+        "start_line": 193,
+        "end_line": 194,
+        "sha256": "7b7cd8b04dab64b2ecc8d5a4e3e174c2f3cbc794662b66a1d94bd94daccf647c",
+        "text": "  - text: bjr\n  - text: à repiquer dans un terreau très humide et à l ombre"
+      },
+      {
+        "file": "017-source-01.txt",
+        "start_line": 327,
+        "end_line": 332,
+        "sha256": "7b7cd8b04dab64b2ecc8d5a4e3e174c2f3cbc794662b66a1d94bd94daccf647c",
+        "text": "  - text: Bonsoir,\n  - text: Mettez la photo du pot des plants encore en place...pour voir!\n  - text: Comment avez-vous palnté les plants ? Avec ou sans motte?\n  - text: Pour un nouveau repiquage garder le maximum de la motte des plants.\n  - text: \"photos:\"\n  - text: Bon courage"
+      },
+      {
+        "file": "017-source-01.txt",
+        "start_line": 405,
+        "end_line": 407,
+        "sha256": "7b7cd8b04dab64b2ecc8d5a4e3e174c2f3cbc794662b66a1d94bd94daccf647c",
+        "text": "  - text: Bonjour,\n  - text: Si vous voulez les replanter , il ne faut pas les arracher mais les sortir avec le maximum de motte comme je l'ai,déjà dit;\n  - text: Bon courage"
+      }
+    ],
+    "advice": "  - text: bjr\n  - text: à repiquer dans un terreau très humide et à l ombre\n\n  - text: Bonsoir,\n  - text: Mettez la photo du pot des plants encore en place...pour voir!\n  - text: Comment avez-vous palnté les plants ? Avec ou sans motte?\n  - text: Pour un nouveau repiquage garder le maximum de la motte des plants.\n  - text: \"photos:\"\n  - text: Bon courage\n\n  - text: Bonjour,\n  - text: Si vous voulez les replanter , il ne faut pas les arracher mais les sortir avec le maximum de motte comme je l'ai,déjà dit;\n  - text: Bon courage",
+    "reason": "First usable result; initial transplant advice and root-ball clarification. Later discussion concerns separate subsequent mite/damping-off problems. Near-verbatim original question appears on this external forum: possible cross-post leakage, not excluded retrospectively.",
+    "frozen_at": "2026-10-29T04:18:10.933569+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:19:02.849851+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

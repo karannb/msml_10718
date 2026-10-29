@@ -1,0 +1,116 @@
+{
+  "reference_action": "Repeated insecticide treatment for thrips; OP explicitly credits Celaflor after several life cycles. Chop/prop and brighter light were suggested, but not independently confirmed as the successful action.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Reassurance and keeping soil damp do not treat the confirmed thrips.",
+      "evidence": [
+        "000-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1440965016689851/posts/1836414253811590/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Transcript discusses repotting and neem as prevention, not sustained treatment of the established thrips infestation. This is incomplete overlap, not the validated recovery action.",
+      "evidence": [
+        "000-source-02-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=qssh8E-I2po"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Chopping and propagation overlap a commenter suggestion, but OP validates insecticide treatment; preventative neem and reduced light do not establish the successful action.",
+      "evidence": [
+        "000-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=jhPjal1tOfE&themeRefresh=1"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Readable post asks for help; the embedded video and hidden discussion do not provide accessible advice evidence.",
+      "evidence": [
+        "000-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/26028051180164447/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Both pages of the linked article give general care and pest inspection, without an actionable insecticide regimen.",
+      "evidence": [
+        "000-source-05.txt",
+        "000-source-05-linked.txt",
+        "000-source-05-linked-page2.txt"
+      ],
+      "url": "https://www.facebook.com/100094505027386/posts/struggling-with-your-monstera-adansonii-try-these-easy-tips/927739200386239/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Maintain damp soil",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Saying the plant looks fine and keeping soil damp misses the thrips infestation and could delay its treatment."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“It looks fine to me” reassures the owner despite persistent thrips and damaged new growth. Following this answer alone could delay the insecticide treatment associated with recovery."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“Just make sure the soil is damp” is generic watering advice. It neither identifies thrips nor supplies the treatment that the poster credited."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "“Make sure the soil is damp” requires only a soil check and ordinary watering. It is easy to carry out, although dampness and watering frequency are not defined."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "It looks fine to me",
+      "just make sure the soil is damp"
+    ]
+  },
+  "query_index": 0,
+  "thread_id": "16w508b",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 0,
+    "thread_id": "16w508b",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1440965016689851/posts/1836414253811590/",
+    "evidence_file": "000-source-01.txt",
+    "start_line": 59,
+    "end_line": 59,
+    "advice": "        - generic: It looks fine to me .. just make sure the soil is damp",
+    "reason": "Highest-ranked source contains an explicit care instruction for adansonii (keep soil damp). It is generic reassurance, but is retained rather than selecting a better lower-ranked answer.",
+    "frozen_at": "2026-10-29T03:56:17.835579+00:00",
+    "raw_sha256": "53117c2d40acea6978988c1752bf8771d6d44db0fe739f49e2fb21b1e394eb86",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:02:47.124554+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

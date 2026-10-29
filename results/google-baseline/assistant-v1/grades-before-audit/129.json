@@ -1,0 +1,123 @@
+{
+  "reference_action": "Owner brushed a little water onto stuck new leaf tip and it released. Match local wetting/humidity-assisted release, not generic post-pruning growth, rooting or watering cuttings.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "New growth from node reassurance plus propagation/coil advice omit stuck-tip wetting.",
+      "evidence": [
+        "129-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/393923344897048/posts/1042993019990074/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Cut between rooted pinned nodes is propagation guidance, not wetting or releasing stuck leaf; no missing demonstration assumed.",
+      "evidence": [
+        "129-source-02.txt"
+      ],
+      "url": "https://www.instagram.com/reel/DYmZhKORu8S/?hl=en"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Explains node activation and propagation; removing old sheath around aerial roots is not water-brushing stuck new leaf.",
+      "evidence": [
+        "video-audit-YXLxeaU6EHA-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=YXLxeaU6EHA"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Pruning wakes growth points but no local wetting/humidity release.",
+      "evidence": [
+        "129-source-04.txt"
+      ],
+      "url": "https://www.instagram.com/reel/DRXJJN8ESPN/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Apical dominance explanation and cut-after-leaf advice do not retrieve release method.",
+      "evidence": [
+        "129-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1eua44f/how_will_pothos_grow_after_pruning_at_a_node/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Propagate cuttings in moss box",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": true
+      },
+      {
+        "action": "Coil long vine in pot",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Correctly explains normal node growth after pruning but does not address why current new growth is stuck. Moss propagation concerns separate cuttings, not an instruction to humidify/wet the attached tip."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“It will sprout new growth from the node above” is reassuring and does not recommend forcing a tender leaf open. Optional propagation/coiling is low risk, although it does not solve the present problem."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Names Scindapsus exotica and describes post-cut node growth. It answers a different question about filling a pot and misses the stuck-tip mechanism and water-brushing remedy."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“Wrap the long string in the pot” is simple. A “moss prop box” is mentioned without construction or moisture instructions and is not useful for the owner’s already-successful cuttings."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 129,
+  "thread_id": "xv9lfg",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 129,
+    "thread_id": "xv9lfg",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/393923344897048/posts/1042993019990074/",
+    "spans": [
+      {
+        "file": "129-source-01.txt",
+        "start_line": 30,
+        "end_line": 57,
+        "sha256": "9ec976f8d18595a1e226a38f3deb75244eb4464e187f4520e04dbcaac1739718",
+        "text": "      - generic: I have a beautiful Scindapsus exotica but its only one branch hanging down. I'd like to fill out the pot. If I snip off the end and propegate will that stem stop growing or will it restart at the node above? I've never propegated a Scindapsus before and I'd like that branch keep growing longer.\n      - button \"5 comments\":\n        - generic: 5 comments\n      - button \"Like\":\n        - generic: Like\n      - button \"Comment\":\n        - generic: Comment\n      - button \"Share\":\n        - generic: Share\n      - button \"Most relevant\":\n        - text: Most relevant\n      - article \"Comment by Raya Godfrey 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Raya Godfrey\":\n          - generic: Raya Godfrey\n        - generic: In my experience with my exotica, wherever is propagated, the stem stops growing, but it will sprout new growth from the node above. They are hard to propagate for me, and I only have success with propagating in a moss prop box.\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/393923344897048/posts/1042993019990074/?comment_id=1043002076655835&__cft__[0]=AZhJmi1rrkaVRt5uX_PcHoyFvlp2WOgXXe4YXmVctT9d2CsEplBFHJcXyJosI4mOZNsbTJaGQsohLh_nGTbY5ekDRci7E8FOb7trzNQBKXJZ-CS-AOvmxeZU7TeGhbRrgPgPZxfcS-4IGyyFxJmMRrVj6TQoMsG2DQlTjUzrAwXTd8z1TtVOjkI&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Ivette Rodriguez-Wynn 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Ivette Rodriguez-Wynn\":\n          - generic: Ivette Rodriguez-Wynn\n        - generic: Wrap the long string in the pot"
+      }
+    ],
+    "advice": "      - generic: I have a beautiful Scindapsus exotica but its only one branch hanging down. I'd like to fill out the pot. If I snip off the end and propegate will that stem stop growing or will it restart at the node above? I've never propegated a Scindapsus before and I'd like that branch keep growing longer.\n      - button \"5 comments\":\n        - generic: 5 comments\n      - button \"Like\":\n        - generic: Like\n      - button \"Comment\":\n        - generic: Comment\n      - button \"Share\":\n        - generic: Share\n      - button \"Most relevant\":\n        - text: Most relevant\n      - article \"Comment by Raya Godfrey 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Raya Godfrey\":\n          - generic: Raya Godfrey\n        - generic: In my experience with my exotica, wherever is propagated, the stem stops growing, but it will sprout new growth from the node above. They are hard to propagate for me, and I only have success with propagating in a moss prop box.\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/393923344897048/posts/1042993019990074/?comment_id=1043002076655835&__cft__[0]=AZhJmi1rrkaVRt5uX_PcHoyFvlp2WOgXXe4YXmVctT9d2CsEplBFHJcXyJosI4mOZNsbTJaGQsohLh_nGTbY5ekDRci7E8FOb7trzNQBKXJZ-CS-AOvmxeZU7TeGhbRrgPgPZxfcS-4IGyyFxJmMRrVj6TQoMsG2DQlTjUzrAwXTd8z1TtVOjkI&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Ivette Rodriguez-Wynn 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Ivette Rodriguez-Wynn\":\n          - generic: Ivette Rodriguez-Wynn\n        - generic: Wrap the long string in the pot",
+    "reason": "First relevant accessible Scindapsus response explains new growth from nodes after cutting, with propagation alternatives.",
+    "frozen_at": "2026-10-29T05:48:14.788207+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:48:52.700270+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

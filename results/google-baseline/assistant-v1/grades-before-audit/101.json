@@ -1,0 +1,137 @@
+{
+  "reference_action": "Immediate post-repot wilting; advice says give time and bright light. OP reports already unwilting about two hours later. Central observed resolution is recovery with time, not proof that added watering, humidity or root products caused improvement.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "One comment reassures just shock but asks for watering/sun, while others prescribe smaller-pot repot and deep drying. No explicit patient recovery without further intervention.",
+      "evidence": [
+        "101-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/blackwomenwholoveplants/posts/953891972491109/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Shock diagnosis and preventive product/potting regimen, not an explicit waiting remedy.",
+      "evidence": [
+        "video-audit-XiZ9CF_Luu4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=XiZ9CF_Luu4"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit be patient after transplant shock; partial retrieval of recovery-time advice amid unvalidated additional interventions.",
+      "evidence": [
+        "video-audit--oDfGGxT4-Y-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=-oDfGGxT4-Y"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Do not dig up shocked plant and give it a day of rest matches waiting/rest portion.",
+      "evidence": [
+        "video-audit-a_WvgnlTnxs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=a_WvgnlTnxs"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Root-rot rescue requires unpotting, cleaning, peroxide and repotting before monitoring. Waiting after that extensive treatment is not equivalent to letting a newly repotted plant recover on its own.",
+      "evidence": [
+        "video-audit-fpCFlLOGLTI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=fpCFlLOGLTI"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot into pot at most two inches wider than root mass",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check deep soil dryness before watering again",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water if not done after repot or once deep soil dries",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Provide some sun while preventing sunburn",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Recognizes shock but buries reassurance under another repot and incompatible watering instructions. Extra repot could prolong stress, although no evidence establishes severe harm; main patience recommendation is not explicit."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The final comment cautions against sunburn and makes initial watering conditional. Nonetheless, “repot in a smaller pot” can repeat the disturbance that caused this case, without evidence the current pot is oversized."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“It’s just shock” matches the immediate onset after root rinsing. The competing pot-size/rot explanation and “dry way down” instruction come from a different plant and do not supply the straightforward time-to-recover answer."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "A two-inch rootball allowance is concrete and the work uses common supplies. The reader must choose between watering now and waiting for deep drying, plus interpret how much sun is safe, making execution ambiguous."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 101,
+  "thread_id": "1ipphor",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 101,
+    "thread_id": "1ipphor",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/blackwomenwholoveplants/posts/953891972491109/",
+    "spans": [
+      {
+        "file": "101-source-01.txt",
+        "start_line": 57,
+        "end_line": 79,
+        "sha256": "512d15712f4758103f285876b8a8d67c82e0f304f2b51899aa8e1580d35c0fe0",
+        "text": "        - generic: The pot is way too big. A pot that size requires a lot of soil which means it takes a long time to dry out. This leaves the roots sitting in wet soil suffocating and rotting. I suggest you repot in a smaller pot. The pot size needs to be based on the size of the root mass and not the size of the foliage. The pot should be no more than 2” bigger than the root mass.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/blackwomenwholoveplants/posts/953891972491109/?comment_id=961352498411723&__cft__[0]=AZg5yGcZ7p8LrwJQpwNLh8ZWWFuNMIA7_vlliQtTNl-Q6Lv4E3k5oaqAKyOXBVJ3JNaQ99eRkvqa9UkvA11B1JACbB1dsdbNfh3Fdog58mSlIAoycW5ZD2TimbBSWmUidtOYaUOdFtxkgtBOmE_3KWf1WEhNg75rHEBC2MfSlMxWyn3LMZJ29e0r_8V62A&__tn__=R]-R\n        - button \"4 reactions; see who reacted to this\":\n          - generic: \"4\"\n      - article \"Comment by Melanie Thomas 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Melanie Thomas\":\n          - generic: Melanie Thomas\n        - generic: Let it dry out and only water again when it's dry way down below the surface. Could be transplant shock, too much water, the soil type, or a combination.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/blackwomenwholoveplants/posts/953891972491109/?comment_id=961319741748332&__cft__[0]=AZg5yGcZ7p8LrwJQpwNLh8ZWWFuNMIA7_vlliQtTNl-Q6Lv4E3k5oaqAKyOXBVJ3JNaQ99eRkvqa9UkvA11B1JACbB1dsdbNfh3Fdog58mSlIAoycW5ZD2TimbBSWmUidtOYaUOdFtxkgtBOmE_3KWf1WEhNg75rHEBC2MfSlMxWyn3LMZJ29e0r_8V62A&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Chrystal Moore-Shanahan 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chrystal Moore-Shanahan\":\n          - generic: Chrystal Moore-Shanahan\n        - generic: It's just shock. Water it if you didn't after you repotted it and make sure it gets some sun, but not too much. You dont want it to get sunburned."
+      }
+    ],
+    "advice": "        - generic: The pot is way too big. A pot that size requires a lot of soil which means it takes a long time to dry out. This leaves the roots sitting in wet soil suffocating and rotting. I suggest you repot in a smaller pot. The pot size needs to be based on the size of the root mass and not the size of the foliage. The pot should be no more than 2” bigger than the root mass.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/blackwomenwholoveplants/posts/953891972491109/?comment_id=961352498411723&__cft__[0]=AZg5yGcZ7p8LrwJQpwNLh8ZWWFuNMIA7_vlliQtTNl-Q6Lv4E3k5oaqAKyOXBVJ3JNaQ99eRkvqa9UkvA11B1JACbB1dsdbNfh3Fdog58mSlIAoycW5ZD2TimbBSWmUidtOYaUOdFtxkgtBOmE_3KWf1WEhNg75rHEBC2MfSlMxWyn3LMZJ29e0r_8V62A&__tn__=R]-R\n        - button \"4 reactions; see who reacted to this\":\n          - generic: \"4\"\n      - article \"Comment by Melanie Thomas 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Melanie Thomas\":\n          - generic: Melanie Thomas\n        - generic: Let it dry out and only water again when it's dry way down below the surface. Could be transplant shock, too much water, the soil type, or a combination.\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/blackwomenwholoveplants/posts/953891972491109/?comment_id=961319741748332&__cft__[0]=AZg5yGcZ7p8LrwJQpwNLh8ZWWFuNMIA7_vlliQtTNl-Q6Lv4E3k5oaqAKyOXBVJ3JNaQ99eRkvqa9UkvA11B1JACbB1dsdbNfh3Fdog58mSlIAoycW5ZD2TimbBSWmUidtOYaUOdFtxkgtBOmE_3KWf1WEhNg75rHEBC2MfSlMxWyn3LMZJ29e0r_8V62A&__tn__=R]-R\n        - button \"3 reactions; see who reacted to this\":\n          - generic: \"3\"\n      - article \"Comment by Chrystal Moore-Shanahan 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chrystal Moore-Shanahan\":\n          - generic: Chrystal Moore-Shanahan\n        - generic: It's just shock. Water it if you didn't after you repotted it and make sure it gets some sun, but not too much. You dont want it to get sunburned.",
+    "reason": "First source directly addresses wilt after repotting; preserve conflicting immediate repot, drying and watering instructions before reference.",
+    "frozen_at": "2026-10-29T05:19:49.696546+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:20:54.903295+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "reference_action": "Croton wilted in very dry soil; watering restored it within three hours. Count rehydration, not light adjustment or a watering question alone.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Suggests sunshine and asks whether over/underwatered; occasional watering of an outdoor yucca is not a wilt-rehydration instruction.",
+      "evidence": [
+        "136-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/7511171605612352/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Top-two-inch dryness check followed by runoff or bottom watering retrieves rehydration, despite different plant.",
+      "evidence": [
+        "136-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1u1yodu/house_plant_looks_unhappy/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit deep watering for bone-dry soil and drooping.",
+      "evidence": [
+        "video-audit-PqZazTsw_Pw-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=PqZazTsw_Pw"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Drooping dry caladium and calathea examples explicitly need a drink.",
+      "evidence": [
+        "video-audit-eRvfTPaaPRk-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=eRvfTPaaPRk"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Root-bound/soggy Monstera repotting, pest care and lighting; root soak is for untangling before repotting, not drought rescue.",
+      "evidence": [
+        "video-audit-6HAOXCl2RY4-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=6HAOXCl2RY4"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move to brighter sunlight",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Check whether overwatering or underwatering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Underwatering appears as an unanswered alternative; the actual recommendation is sunshine, not the confirmed drink."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Suggest sunshine” lacks acclimation or a check that the wilted plant is adequately hydrated. The watering question is cautious, but applying outdoor yucca care to this dry croton could delay rehydration."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "“Are you underwatering or over watering?” includes the correct cause without resolving it. The yucca-specific reassurance and sunlight advice do not explain this croton’s acute thirst."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Moving a plant is easy, but “sunshine” leaves intensity and transition unclear. No concrete watering amount or diagnostic procedure helps the novice act on the question."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 136,
+  "thread_id": "1feerin",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 136,
+    "thread_id": "1feerin",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1842823149113921/posts/7511171605612352/",
+    "spans": [
+      {
+        "file": "136-source-01.txt",
+        "start_line": 56,
+        "end_line": 81,
+        "sha256": "fc10275dbc163d33a9c64d46e1b93aef252149bbd754d78ecb0144aceccc6e5b",
+        "text": "        - generic: Is it getting sunlight and full on bright indirect light? Mine are outside in the ground water it on occasion very hardy plant ok de suggest sunshine\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=7571039196327695&set=p.7571039196327695&type=3&__cft__[0]=AZhB98VbgvJ3EFn0nQCtZqgB330QjU9iSRekS-yTkvDkOvxSopRUWRCLw2WT9PsUk5ZBkA2DN6LTdCqVF8ABnUlw_Qm29cbYE4imM4buPQZog1H_74FrwXcDEe3rLVzF6VBmK0wAhBVuW6c44sW_Ko-3VsUbHjmC3RoJ1Eg2P2PnQcpMHmNnlp9AVS5BNg&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/7511171605612352/?comment_id=7511461942249985&__cft__[0]=AZhB98VbgvJ3EFn0nQCtZqgB330QjU9iSRekS-yTkvDkOvxSopRUWRCLw2WT9PsUk5ZBkA2DN6LTdCqVF8ABnUlw_Qm29cbYE4imM4buPQZog1H_74FrwXcDEe3rLVzF6VBmK0wAhBVuW6c44sW_Ko-3VsUbHjmC3RoJ1Eg2P2PnQcpMHmNnlp9AVS5BNg&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Maddison Curley 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Maddison Curley\":\n          - generic: Maddison Curley\n        - generic: Are you underwatering or over watering?\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/7511171605612352/?comment_id=7511328492263330&__cft__[0]=AZhB98VbgvJ3EFn0nQCtZqgB330QjU9iSRekS-yTkvDkOvxSopRUWRCLw2WT9PsUk5ZBkA2DN6LTdCqVF8ABnUlw_Qm29cbYE4imM4buPQZog1H_74FrwXcDEe3rLVzF6VBmK0wAhBVuW6c44sW_Ko-3VsUbHjmC3RoJ1Eg2P2PnQcpMHmNnlp9AVS5BNg&__tn__=R]-R\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Karen Morse 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Karen Morse\":\n          - generic: Karen Morse\n        - generic: I think this yucca looks fantastic!"
+      }
+    ],
+    "advice": "        - generic: Is it getting sunlight and full on bright indirect light? Mine are outside in the ground water it on occasion very hardy plant ok de suggest sunshine\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=7571039196327695&set=p.7571039196327695&type=3&__cft__[0]=AZhB98VbgvJ3EFn0nQCtZqgB330QjU9iSRekS-yTkvDkOvxSopRUWRCLw2WT9PsUk5ZBkA2DN6LTdCqVF8ABnUlw_Qm29cbYE4imM4buPQZog1H_74FrwXcDEe3rLVzF6VBmK0wAhBVuW6c44sW_Ko-3VsUbHjmC3RoJ1Eg2P2PnQcpMHmNnlp9AVS5BNg&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/7511171605612352/?comment_id=7511461942249985&__cft__[0]=AZhB98VbgvJ3EFn0nQCtZqgB330QjU9iSRekS-yTkvDkOvxSopRUWRCLw2WT9PsUk5ZBkA2DN6LTdCqVF8ABnUlw_Qm29cbYE4imM4buPQZog1H_74FrwXcDEe3rLVzF6VBmK0wAhBVuW6c44sW_Ko-3VsUbHjmC3RoJ1Eg2P2PnQcpMHmNnlp9AVS5BNg&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Maddison Curley 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Maddison Curley\":\n          - generic: Maddison Curley\n        - generic: Are you underwatering or over watering?\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/1842823149113921/posts/7511171605612352/?comment_id=7511328492263330&__cft__[0]=AZhB98VbgvJ3EFn0nQCtZqgB330QjU9iSRekS-yTkvDkOvxSopRUWRCLw2WT9PsUk5ZBkA2DN6LTdCqVF8ABnUlw_Qm29cbYE4imM4buPQZog1H_74FrwXcDEe3rLVzF6VBmK0wAhBVuW6c44sW_Ko-3VsUbHjmC3RoJ1Eg2P2PnQcpMHmNnlp9AVS5BNg&__tn__=R]-R\n      - button \"View all 2 replies\":\n        - generic: View all 2 replies\n      - article \"Comment by Karen Morse 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Karen Morse\":\n          - generic: Karen Morse\n        - generic: I think this yucca looks fantastic!",
+    "reason": "First accessible symptom-related advice, including sunlight, watering question and reassurance for yucca.",
+    "frozen_at": "2026-10-29T05:53:03.432701+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:57:43.321303+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

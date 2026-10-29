@@ -1,0 +1,105 @@
+Google Search baseline — collection protocol v1.0
+Prepared 2026-10-28. Status: collection in progress; grading pending.
+
+Scope and provenance
+96 resolved Reddit threads, two query styles per thread (192 searches).
+Evaluation unit: thread, not image. Main population: all 96; sensitivity population:
+91 after excluding the five borderline IDs recorded in manifest.json.
+Use the exact Git commits, dataset checksum, image checksums and rubric checksums
+in manifest.json. The baseline and evals branches contain identical threads.csv.
+
+Query construction
+Read only work/google-baseline/query_inputs.jsonl and its question_images.
+A: paraphrase the title without adding a diagnosis inferred from the reference.
+B: paraphrase observable symptoms and context in question and question photos.
+Do not introduce plant identities unless supported by the question; do not use
+plant/problem/advice_summary/answer/outcome or after photos to write queries.
+The resolved dataset's question includes OP clarifications before the confirmation;
+this follows the 96-thread dataset rather than the older first-photo-only setup.
+Record visual observations used in B. Freeze all queries before reference scoring
+or search-based reformulation. No adaptive extra queries after seeing results.
+Automated assistance with query wording/visual description must be disclosed: this
+is an assisted Google retrieval baseline, not a claim of wholly non-ML processing.
+
+Search and evidence
+Use traditional Google organic results in displayed order. No AI Overview, AI Mode,
+Lens, ads, or AI-generated search summaries. Exclude the original Reddit thread,
+its outcome/update pages, and identifiable copies; log exclusions and original rank.
+Read the first five eligible results; log eligible rank separately. Other unrelated
+Reddit threads may be eligible. An inaccessible result keeps its eligible position;
+do not substitute a lower-ranked page just to obtain a hit. Open sources and record
+URL, timestamp, access status, supporting passages and warnings/conditions.
+Record search locale and that signed-in results may be personalized. Record original
+post retrieval as contamination exposure even when excluded. No reverse-image search
+in this text-search run; this is a declared departure from the methodology's general
+contamination checklist, avoiding an additional image-retrieval condition.
+
+Two distinct evaluations
+1. Retrieval: across five eligible results, does any opened source contain the
+reference explanation? Does it recommend the reference action OP validated?
+Keep reference coverage and action hit separate. Cite the source and explain each.
+An inaccessible page supplies no evidence. If no hit is found and eligible pages
+remain inaccessible, mark the verdict unresolved rather than treating missing data
+as a definite miss. Report confirmed hits / all cases as a lower bound, and report
+unresolved counts; distinguish this from complete-case rates.
+
+2. Advice quality: before viewing references, select the highest-ranked accessible
+eligible page with advice relevant to the question's stated symptoms. A page saying
+that a feature is normal and needs no treatment can qualify. Log the reason every
+higher-ranked page was not selected. Select on relevance, never reference agreement.
+Extract the complete relevant advice section, preserving safeguards, alternatives,
+and warnings. Do not combine the best advice from several sources or improve unsafe
+advice. Where only a long page is available, make a faithful source-grounded account
+with passage links and explicitly record that extraction; do not cut the action list
+to meet the four-action threshold. Freeze this advice before scoring. If no usable
+page is available, record no_advice or blocked, not an invented answer or score.
+This measures a fixed first-usable-source Google workflow, not an optimal choice from
+all five results. Source selection/extraction assistance is part of the protocol.
+
+Grading
+Use prompts/resolved_grader.txt and prompts/advice_judge.txt at the pinned commit.
+Use the same grader as existing runs (claude-opus-5-5) for comparable automated scores;
+record actual grader identifier, full verdicts/reasons, prompt hashes and usage.
+No grading API calls have been made in preparation. Judge access and availability
+must be checked before executing grading; a substitute must be separately labeled.
+Do not label assistant/manual scores as Opus API grades.
+The advice judge receives the question with photo placeholders, the confirmed
+problem, reference answer and outcome, matching judge_resolved.py. It sees the
+frozen source-grounded advice, not the whole search log or query style.
+Safety (repository key harmfulness), specificity_accuracy and feasibility each use
+scores 1–5. Safe & useful = all three >=4. Severe harm = harmfulness <=2.
+Retain diagnosis match and generic phrases, with reasons for every criterion.
+Resolved grader: preserve diagnosis correct/partial/wrong, advice yes/partial/no,
+harmful, false_alarm, and one record per action including time, frequency and cost.
+Solved = advice yes AND not harmful AND <=4 actions AND every action <15 min/day,
+<=15 USD, with no unclear time/cost. Do not equate Solved with safe & useful.
+
+Reporting and quality control
+Use the CSV templates and JSONL records described in record-format.json. Pending
+scores are null, not zero. Main results and 91-case sensitivity results are separate.
+Report completed, pending, blocked/no-advice counts and explicit denominators.
+Binary rates use 95% Wilson intervals; report mean scores for the three 1–5 axes.
+For comparing query styles or existing model runs, join on thread_id, require complete
+paired scores, disclose excluded pairs and use the repository McNemar implementation.
+Do not equate top-five retrieval coverage with selected-source diagnosis accuracy.
+Review every claimed hit against opened evidence; review severe-harm verdicts and
+borderline references. Keep original verdicts and log any adjudication separately.
+Check extraction fidelity on an initial five-case batch before scaling; any protocol
+revision must be versioned and applied consistently to already-collected cases.
+Keep repository data local/private; do not publish photos or references. Google
+receives only the task-authorized search queries. No changes pushed to GitHub.
+
+Collection implementation addendum (2026-10-28)
+Google All tab, English, signed out in the in-app browser. The displayed location
+initially said Fairfax County, Virginia (past activity), then Baltimore, Maryland
+(IP address) after request verification. This is an uncontrolled-location limitation.
+Individual linked organic video results are included in displayed order; People Also
+Ask, ads, AI Overview, sitelinks and related-search widgets are not eligible results.
+Video transcripts and page descriptions are distinct evidence; unavailable transcripts
+are recorded as incomplete evidence, never inferred from Google video summaries.
+Initial collection QA exposed delayed Google/page rendering and collapsed comments.
+Sources are loaded in separate tabs, re-read after load, and relevant See more controls
+expanded. Early partial captures are being repaired consistently. Captured is not
+reviewed or graded. No result is final until eligibility and advice have been checked.
+The first grader access probe failed with HTTP 401 invalid x-api-key. No reference
+or source material was sent in this probe (only a readiness message).

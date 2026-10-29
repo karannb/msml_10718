@@ -1,0 +1,166 @@
+{
+  "reference_action": "Dehydration: give a little more water. OP confirms dehydration and improvement after watering.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "unresolved",
+      "reason": "Only a question and Gopher speculation are readable; no self-contained remedy.",
+      "evidence": [
+        "038-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/creativegardening1/posts/1816020418882956/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Suggests too-wet soil, seasonal waiting, direct sun and ground planting rather than increased water.",
+      "evidence": [
+        "038-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/my_rue_keeps_dying/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Treats wilting as fungal disease and focuses on drainage, fungicides and sanitation, not rehydration.",
+      "evidence": [
+        "038-source-03.txt"
+      ],
+      "url": "https://www.picturethisai.com/disease/Ruta-graveolens-Wilting.html"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Despite extensive heat/wind reassurance, explicitly says to check soil and water if dry at 11:17–11:28, which would lead to the validated extra watering.",
+      "evidence": [
+        "036-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=On7_JGLnScs"
+    },
+    {
+      "rank": 5,
+      "action_hit": "unresolved",
+      "reason": "Captured transcript has matching video ID but discusses medicinal basil rather than the rue-care title. Content/title mismatch prevents confident verification of the intended source; not scored from title.",
+      "evidence": [
+        "038-source-05.txt",
+        "038-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=IhJctnbL5MY"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Wait until late winter and observe",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Chop dead parts in late winter",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Look up USDA hardiness zone",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move into direct sun or plant outdoors",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Check potting soil and watering frequency",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use unfertilized potting mix",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "Dryer conditions and waiting until winter can delay rehydration of a currently dehydrated plant. More sun without correcting water deficit may worsen wilting."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Let them sit like that until late winter” delays the water the reference says was needed. Moving to direct sun while withholding water can intensify the deficit; another commenter warns about excessive heat but does not restore the needed watering."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“Perhaps too wet soil” and seasonal dieback address a different situation. The discussion never supplies the extra water that improved this rue."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Looking up a zone and cutting dead stems are understandable. Conflicting full-sun versus heat warnings and an outdoor planting recommendation leave a container grower with considerable decisions and work."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 38,
+  "thread_id": "1v3ncl2",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 38,
+    "thread_id": "1v3ncl2",
+    "selected_rank": 2,
+    "source_url": "https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/my_rue_keeps_dying/",
+    "spans": [
+      {
+        "file": "038-source-02.txt",
+        "start_line": 129,
+        "end_line": 154,
+        "sha256": "452a0c9bb87217d2b41a691bbe46a9e8cfdb1b8a8657c0cd9b3743e1c1a31385",
+        "text": "      - paragraph: This is really puzzling. Im in zone 5 and mine are all fully green (almost a dark teal) and we’ve hit 32° albeit not a hard freeze. Im wondering if your issue is the pots? Perhaps too wet soil for this late in the year? Ive stopped watering mine for about a month already now and just letting them die back. If it rains they get watered but the soil is usually dry (mine are in ground). Either way I wouldnt get discouraged they’re a pretty tough plant if you have the room Id just let them sit like that until late winter, chop the dead part and see if they come back in Spring. Good luck!!!\n      - 'article \"Comment thread level 1: Reply from SleepyCheesePuffs 1 year ago\"':\n        - generic \"SleepyCheesePuffs's profile --- avatar SleepyCheesePuffs's profile 1y ago\":\n          - link \"SleepyCheesePuffs's profile --- avatar\":\n            - /url: https://www.reddit.com/user/SleepyCheesePuffs/\n          - link \"SleepyCheesePuffs's profile\":\n            - /url: https://www.reddit.com/user/SleepyCheesePuffs/\n            - generic: SleepyCheesePuffs\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"1y ago\":\n            - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmboqef/\n            - time: 1y ago\n        - paragraph: Thank you. You’re the second person to mention a zone. So now I see I gotta learn what that’s about\n        - 'article \"Comment thread level 2: Reply from TLwisco 1 year ago\"':\n          - generic \"TLwisco's profile --- avatar TLwisco's profile 1y ago\":\n            - link \"TLwisco's profile --- avatar\":\n              - /url: https://www.reddit.com/user/TLwisco/\n            - link \"TLwisco's profile\":\n              - /url: https://www.reddit.com/user/TLwisco/\n              - generic: TLwisco\n            - generic: •\n            - link \"1y ago\":\n              - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmbqzg4/\n              - time: 1y ago\n          - paragraph: You can just Google “USDA zone” and your ZIP code and it will tell you. Might be too hot for em in SoCal?! Jealous of that nice sun you’ve got though!! ;)"
+      },
+      {
+        "file": "038-source-02.txt",
+        "start_line": 192,
+        "end_line": 220,
+        "sha256": "452a0c9bb87217d2b41a691bbe46a9e8cfdb1b8a8657c0cd9b3743e1c1a31385",
+        "text": "      - paragraph: Put it in direct sun, in the ground. Mine is huge, south-facing and comes back every year. Zone 7a.\n      - 'article \"Comment thread level 1: Reply from SleepyCheesePuffs 1 year ago\"':\n        - generic \"SleepyCheesePuffs's profile --- avatar SleepyCheesePuffs's profile 1y ago\":\n          - link \"SleepyCheesePuffs's profile --- avatar\":\n            - /url: https://www.reddit.com/user/SleepyCheesePuffs/\n          - link \"SleepyCheesePuffs's profile\":\n            - /url: https://www.reddit.com/user/SleepyCheesePuffs/\n            - generic: SleepyCheesePuffs\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"1y ago\":\n            - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmbolj5/\n            - time: 1y ago\n        - paragraph: When I tried direct sun, it got TOASTED. I’m brand new to gardening. What’s this 7A stuff about?\n        - 'article \"Comment thread level 2: Reply from prechaman 1 year ago\"':\n          - generic \"prechaman's profile --- avatar prechaman's profile 1y ago\":\n            - link \"prechaman's profile --- avatar\":\n              - /url: https://www.reddit.com/user/prechaman/\n              - img \"u/prechaman avatar\"\n            - link \"prechaman's profile\":\n              - /url: https://www.reddit.com/user/prechaman/\n              - generic: prechaman\n            - generic: •\n            - link \"1y ago\":\n              - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmh1yij/\n              - time: 1y ago\n          - paragraph: Yeah, you can't full sun this in 10b, and I worry those walls are bouncing too much radiative heat around and cooking your plants.\n          - paragraph: Though that would happen more in the summer, not this time of year.\n          - paragraph: What is the soil in those pots, and how often are you watering?"
+      },
+      {
+        "file": "038-source-02.txt",
+        "start_line": 276,
+        "end_line": 327,
+        "sha256": "452a0c9bb87217d2b41a691bbe46a9e8cfdb1b8a8657c0cd9b3743e1c1a31385",
+        "text": "      - paragraph: I’m in 7a with it in the ground. It has thick woody stems at this point so it doesn’t die all the way back but I keep having to cut it back.\n    - article \"Comment from InvestigatorSharp596 1 year ago\":\n      - generic \"InvestigatorSharp596's profile --- avatar InvestigatorSharp596's profile 1y ago\":\n        - link \"InvestigatorSharp596's profile --- avatar\":\n          - /url: https://www.reddit.com/user/InvestigatorSharp596/\n        - link \"InvestigatorSharp596's profile\":\n          - /url: https://www.reddit.com/user/InvestigatorSharp596/\n          - generic: InvestigatorSharp596\n        - generic: •\n        - link \"1y ago\":\n          - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmfithc/\n          - time: 1y ago\n      - paragraph: I’m in south Florida, I have one stinky rue for swallowtails , it has started yellowing and browning for no reason. Maybe it’s the season ?\n    - article \"Comment from Glass-March-176 1 year ago\":\n      - generic \"Glass-March-176's profile --- avatar Glass-March-176's profile 1y ago\":\n        - link \"Glass-March-176's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Glass-March-176/\n          - img \"u/Glass-March-176 avatar\"\n        - link \"Glass-March-176's profile\":\n          - /url: https://www.reddit.com/user/Glass-March-176/\n          - generic: Glass-March-176\n        - generic: •\n        - link \"1y ago\":\n          - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nma6vxq/\n          - time: 1y ago\n      - paragraph: I'm in central MD zone 7 and I've had terrible luck with rue coming back, and even newly planted rue dying by later in summer. I wish it would thrive because I love the texture and color, but I'm going to stick with dill and parsley for swallowtails.\n    - article \"Comment from Background_Award_878 1 year ago\":\n      - generic \"Background_Award_878's profile --- avatar Background_Award_878's profile 1y ago\":\n        - link \"Background_Award_878's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Background_Award_878/\n          - img \"u/Background_Award_878 avatar\"\n        - link \"Background_Award_878's profile\":\n          - /url: https://www.reddit.com/user/Background_Award_878/\n          - generic: Background_Award_878\n        - generic: •\n        - link \"1y ago\":\n          - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmghhmc/\n          - time: 1y ago\n      - paragraph: Like a lot of herbs they enjoy it a bit dry. Also, if you're buying soil with fertilizer added, don't. Use regular potting mix. Putting them in the ground is better.\n    - article \"Comment from BayoLover 1 year ago\":\n      - generic \"BayoLover's profile --- avatar BayoLover's profile 1y ago\":\n        - link \"BayoLover's profile --- avatar\":\n          - /url: https://www.reddit.com/user/BayoLover/\n          - img \"u/BayoLover avatar\"\n        - link \"BayoLover's profile\":\n          - /url: https://www.reddit.com/user/BayoLover/\n          - generic: BayoLover\n        - generic: •\n        - link \"1y ago\":\n          - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nnuny9b/\n          - time: 1y ago\n      - paragraph: How often are you watering it?"
+      }
+    ],
+    "advice": "      - paragraph: This is really puzzling. Im in zone 5 and mine are all fully green (almost a dark teal) and we’ve hit 32° albeit not a hard freeze. Im wondering if your issue is the pots? Perhaps too wet soil for this late in the year? Ive stopped watering mine for about a month already now and just letting them die back. If it rains they get watered but the soil is usually dry (mine are in ground). Either way I wouldnt get discouraged they’re a pretty tough plant if you have the room Id just let them sit like that until late winter, chop the dead part and see if they come back in Spring. Good luck!!!\n      - 'article \"Comment thread level 1: Reply from SleepyCheesePuffs 1 year ago\"':\n        - generic \"SleepyCheesePuffs's profile --- avatar SleepyCheesePuffs's profile 1y ago\":\n          - link \"SleepyCheesePuffs's profile --- avatar\":\n            - /url: https://www.reddit.com/user/SleepyCheesePuffs/\n          - link \"SleepyCheesePuffs's profile\":\n            - /url: https://www.reddit.com/user/SleepyCheesePuffs/\n            - generic: SleepyCheesePuffs\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"1y ago\":\n            - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmboqef/\n            - time: 1y ago\n        - paragraph: Thank you. You’re the second person to mention a zone. So now I see I gotta learn what that’s about\n        - 'article \"Comment thread level 2: Reply from TLwisco 1 year ago\"':\n          - generic \"TLwisco's profile --- avatar TLwisco's profile 1y ago\":\n            - link \"TLwisco's profile --- avatar\":\n              - /url: https://www.reddit.com/user/TLwisco/\n            - link \"TLwisco's profile\":\n              - /url: https://www.reddit.com/user/TLwisco/\n              - generic: TLwisco\n            - generic: •\n            - link \"1y ago\":\n              - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmbqzg4/\n              - time: 1y ago\n          - paragraph: You can just Google “USDA zone” and your ZIP code and it will tell you. Might be too hot for em in SoCal?! Jealous of that nice sun you’ve got though!! ;)\n\n      - paragraph: Put it in direct sun, in the ground. Mine is huge, south-facing and comes back every year. Zone 7a.\n      - 'article \"Comment thread level 1: Reply from SleepyCheesePuffs 1 year ago\"':\n        - generic \"SleepyCheesePuffs's profile --- avatar SleepyCheesePuffs's profile 1y ago\":\n          - link \"SleepyCheesePuffs's profile --- avatar\":\n            - /url: https://www.reddit.com/user/SleepyCheesePuffs/\n          - link \"SleepyCheesePuffs's profile\":\n            - /url: https://www.reddit.com/user/SleepyCheesePuffs/\n            - generic: SleepyCheesePuffs\n          - generic \"Comment distinguished as the original poster\": OP\n          - generic: •\n          - link \"1y ago\":\n            - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmbolj5/\n            - time: 1y ago\n        - paragraph: When I tried direct sun, it got TOASTED. I’m brand new to gardening. What’s this 7A stuff about?\n        - 'article \"Comment thread level 2: Reply from prechaman 1 year ago\"':\n          - generic \"prechaman's profile --- avatar prechaman's profile 1y ago\":\n            - link \"prechaman's profile --- avatar\":\n              - /url: https://www.reddit.com/user/prechaman/\n              - img \"u/prechaman avatar\"\n            - link \"prechaman's profile\":\n              - /url: https://www.reddit.com/user/prechaman/\n              - generic: prechaman\n            - generic: •\n            - link \"1y ago\":\n              - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmh1yij/\n              - time: 1y ago\n          - paragraph: Yeah, you can't full sun this in 10b, and I worry those walls are bouncing too much radiative heat around and cooking your plants.\n          - paragraph: Though that would happen more in the summer, not this time of year.\n          - paragraph: What is the soil in those pots, and how often are you watering?\n\n      - paragraph: I’m in 7a with it in the ground. It has thick woody stems at this point so it doesn’t die all the way back but I keep having to cut it back.\n    - article \"Comment from InvestigatorSharp596 1 year ago\":\n      - generic \"InvestigatorSharp596's profile --- avatar InvestigatorSharp596's profile 1y ago\":\n        - link \"InvestigatorSharp596's profile --- avatar\":\n          - /url: https://www.reddit.com/user/InvestigatorSharp596/\n        - link \"InvestigatorSharp596's profile\":\n          - /url: https://www.reddit.com/user/InvestigatorSharp596/\n          - generic: InvestigatorSharp596\n        - generic: •\n        - link \"1y ago\":\n          - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmfithc/\n          - time: 1y ago\n      - paragraph: I’m in south Florida, I have one stinky rue for swallowtails , it has started yellowing and browning for no reason. Maybe it’s the season ?\n    - article \"Comment from Glass-March-176 1 year ago\":\n      - generic \"Glass-March-176's profile --- avatar Glass-March-176's profile 1y ago\":\n        - link \"Glass-March-176's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Glass-March-176/\n          - img \"u/Glass-March-176 avatar\"\n        - link \"Glass-March-176's profile\":\n          - /url: https://www.reddit.com/user/Glass-March-176/\n          - generic: Glass-March-176\n        - generic: •\n        - link \"1y ago\":\n          - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nma6vxq/\n          - time: 1y ago\n      - paragraph: I'm in central MD zone 7 and I've had terrible luck with rue coming back, and even newly planted rue dying by later in summer. I wish it would thrive because I love the texture and color, but I'm going to stick with dill and parsley for swallowtails.\n    - article \"Comment from Background_Award_878 1 year ago\":\n      - generic \"Background_Award_878's profile --- avatar Background_Award_878's profile 1y ago\":\n        - link \"Background_Award_878's profile --- avatar\":\n          - /url: https://www.reddit.com/user/Background_Award_878/\n          - img \"u/Background_Award_878 avatar\"\n        - link \"Background_Award_878's profile\":\n          - /url: https://www.reddit.com/user/Background_Award_878/\n          - generic: Background_Award_878\n        - generic: •\n        - link \"1y ago\":\n          - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nmghhmc/\n          - time: 1y ago\n      - paragraph: Like a lot of herbs they enjoy it a bit dry. Also, if you're buying soil with fertilizer added, don't. Use regular potting mix. Putting them in the ground is better.\n    - article \"Comment from BayoLover 1 year ago\":\n      - generic \"BayoLover's profile --- avatar BayoLover's profile 1y ago\":\n        - link \"BayoLover's profile --- avatar\":\n          - /url: https://www.reddit.com/user/BayoLover/\n          - img \"u/BayoLover avatar\"\n        - link \"BayoLover's profile\":\n          - /url: https://www.reddit.com/user/BayoLover/\n          - generic: BayoLover\n        - generic: •\n        - link \"1y ago\":\n          - /url: https://www.reddit.com/r/ButterflyGardening/comments/1okabg4/comment/nnuny9b/\n          - time: 1y ago\n      - paragraph: How often are you watering it?",
+    "reason": "Rank 1 only asks Gopher with no actionable remedy; rank 2 first usable discussion includes care instructions.",
+    "frozen_at": "2026-10-29T04:34:44.182594+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:35:53.447148+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

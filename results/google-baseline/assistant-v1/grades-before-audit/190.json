@@ -1,0 +1,130 @@
+{
+  "reference_action": "OP treated palm spider mites with rubbing alcohol/water for a week and then purchased spray; reported no more visible mites and planned repeat treatment.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Identifies mites and recommends rinsing, but no alcohol or acaricidal treatment is supplied in the captured article itself. A linked treatment guide is not evidence of its unread contents.",
+      "evidence": [
+        "190-source-01.txt"
+      ],
+      "url": "https://www.joyusgarden.com/neanthe-bella-palm-care-tips-for-this-table-top-palm/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicit insecticidal soap on upper and lower leaf surfaces, repeated weekly, matches the confirmed contact-spray intervention.",
+      "evidence": [
+        "190-source-03-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=GANjdWv7ac8"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Pest section recommends neem treatment after washing; partial contact-treatment match, despite other unsupported alternatives.",
+      "evidence": [
+        "video-audit-DOU2ANe1as8-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=DOU2ANe1as8"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Recommends thorough repeated neem spraying for mites: same central contact-treatment action class.",
+      "evidence": [
+        "190-source-05-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=9ytLHrRGgl4"
+    },
+    {
+      "rank": 6,
+      "action_hit": "miss",
+      "reason": "Misting prevention and a generic neem product description do not actually instruct treatment of the current infestation.",
+      "evidence": [
+        "190-source-06.txt"
+      ],
+      "url": "https://greeneryunlimited.co/blogs/plant-care/neanthe-bella-palm-care?srsltid=AYCX9vIZB3PjNFYTtuAQDd5uPWSsGWbyC32nWGjtI2712o8Bwh9e2b3T"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect for mites, mealybugs and scale",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse palm in shower or hose outdoors",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Identifies spider mites but selected routine cleaning advice omits the confirmed treatment course; rinsing is not itself harmful."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "A “gentle rinse in the shower” is unlikely to injure this palm. The answer recognizes that severe infestations are difficult, but supplies no treatment safeguards beyond gentle washing."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The speckling and webbing discussion identifies the relevant pest on this species. The captured answer provides routine cleaning rather than a complete response to an active infestation."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Inspection and a gentle rinse need ordinary household equipment. Treatment frequency and escalation for the present infestation remain unspecified."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 190,
+  "thread_id": "14s9zub",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 190,
+    "thread_id": "14s9zub",
+    "selected_rank": 1,
+    "source_url": "https://www.joyusgarden.com/neanthe-bella-palm-care-tips-for-this-table-top-palm/",
+    "spans": [
+      {
+        "file": "190-source-01.txt",
+        "start_line": 215,
+        "end_line": 227,
+        "sha256": "6e606612a1041b9c85ec659b8e4697c1e7160c099fdb9feecb531aa00952d43b",
+        "text": "    - heading \"Pests\" [level=3]:\n      - strong: Pests\n    - paragraph:\n      - text: This plant is susceptible to\n      - link \"spider mites\":\n        - /url: https://www.joyusgarden.com/how-to-get-rid-of-spider-mites-on-indoor-plants/\n      - text: and may develop them, especially during the cooler months when the heat is turned on. We replaced many of these palms in offices because once the infestation becomes severe, it’s difficult to control. Keep an eye out for scale insects –\n      - link \"mealybugs\":\n        - /url: https://www.joyusgarden.com/mealybugs-on-plants/\n      - text: and hard shell\n      - link \"scale\":\n        - /url: https://www.joyusgarden.com/scale-thrips-how-to-control-them/\n      - text: ."
+      },
+      {
+        "file": "190-source-01.txt",
+        "start_line": 254,
+        "end_line": 269,
+        "sha256": "6e606612a1041b9c85ec659b8e4697c1e7160c099fdb9feecb531aa00952d43b",
+        "text": "    - heading \"Why do the leaves on my Neanthe Bella Palm have specks or look dusty and dull?\" [level=4]:\n      - strong: Why do the leaves on my Neanthe Bella Palm have specks or look dusty and dull?\n    - paragraph:\n      - text: Some houseplants are more prone to common pests than others, and this is one of them. Neanthe Bellas are susceptible to\n      - link \"spider mites\":\n        - /url: https://www.joyusgarden.com/how-to-get-rid-of-spider-mites-on-indoor-plants/\n      - text: (tiny sap-suckers) that cause pale specks, dull-looking leaves, and a mottled appearance. If things progress, you may spot fine webbing.\n    - paragraph: Back in my interiorscaping days, I noticed these pests often appeared when the heat kicked on in the fall and winter—like they came out of nowhere!\n    - heading \"How do I clean my Parlor Palm?\" [level=4]:\n      - strong: How do I clean my Parlor Palm?\n    - paragraph: It’s best to give your beautiful indoor palm a gentle rinse in the shower or take it outside for a good hosing. I clean mine once or twice a year—it not only looks good, but clean leaves help the plant breathe and stay healthier.\n    - paragraph:\n      - text: A guide to\n      - link \"cleaning houseplants\":\n        - /url: https://www.joyusgarden.com/cleaning-houseplants/\n      - text: ."
+      }
+    ],
+    "advice": "    - heading \"Pests\" [level=3]:\n      - strong: Pests\n    - paragraph:\n      - text: This plant is susceptible to\n      - link \"spider mites\":\n        - /url: https://www.joyusgarden.com/how-to-get-rid-of-spider-mites-on-indoor-plants/\n      - text: and may develop them, especially during the cooler months when the heat is turned on. We replaced many of these palms in offices because once the infestation becomes severe, it’s difficult to control. Keep an eye out for scale insects –\n      - link \"mealybugs\":\n        - /url: https://www.joyusgarden.com/mealybugs-on-plants/\n      - text: and hard shell\n      - link \"scale\":\n        - /url: https://www.joyusgarden.com/scale-thrips-how-to-control-them/\n      - text: .\n\n    - heading \"Why do the leaves on my Neanthe Bella Palm have specks or look dusty and dull?\" [level=4]:\n      - strong: Why do the leaves on my Neanthe Bella Palm have specks or look dusty and dull?\n    - paragraph:\n      - text: Some houseplants are more prone to common pests than others, and this is one of them. Neanthe Bellas are susceptible to\n      - link \"spider mites\":\n        - /url: https://www.joyusgarden.com/how-to-get-rid-of-spider-mites-on-indoor-plants/\n      - text: (tiny sap-suckers) that cause pale specks, dull-looking leaves, and a mottled appearance. If things progress, you may spot fine webbing.\n    - paragraph: Back in my interiorscaping days, I noticed these pests often appeared when the heat kicked on in the fall and winter—like they came out of nowhere!\n    - heading \"How do I clean my Parlor Palm?\" [level=4]:\n      - strong: How do I clean my Parlor Palm?\n    - paragraph: It’s best to give your beautiful indoor palm a gentle rinse in the shower or take it outside for a good hosing. I clean mine once or twice a year—it not only looks good, but clean leaves help the plant breathe and stay healthier.\n    - paragraph:\n      - text: A guide to\n      - link \"cleaning houseplants\":\n        - /url: https://www.joyusgarden.com/cleaning-houseplants/\n      - text: .",
+    "reason": "First species-care guide; select complete pest and speckled-frond/cleaning sections relevant to pest question, before reference.",
+    "frozen_at": "2026-10-29T06:38:40.888356+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:45:11.355447+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

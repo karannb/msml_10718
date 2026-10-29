@@ -1,0 +1,144 @@
+{
+  "reference_action": "Succulents overwatered with tiny frequent sips after moving to lower light: thoroughly soak only after full drying/wrinkling, increase light and raise plants above shading pot rims. OP confirms recovery.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Fern bottom-watering, humidity and keeping damper do not prescribe full drying or more light for succulents.",
+      "evidence": [
+        "160-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/3068020610109465/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Root/hydro rescue and top-layer-dry watering, no full succulent dry cycle or explicit brighter exposure.",
+      "evidence": [
+        "video-audit-M2XjFmgCj9s-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=M2XjFmgCj9s"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "10:10 and 13:00 explicitly place plant in gentle sunlight; partial light-action match only, with unrelated lemon/root rescue.",
+      "evidence": [
+        "video-audit-Baa6HHZIxMQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Baa6HHZIxMQ"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Cinnamon/rice-water root rescue with moist coir mix, not soak-and-dry or brighter light.",
+      "evidence": [
+        "video-audit-ctN_xAIsAYM-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ctN_xAIsAYM"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "2:28 explicitly places plant in bright indirect location; partial light action only, not the required watering correction and not a succulent-specific light prescription.",
+      "evidence": [
+        "video-audit-mBUGLQwzoTE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=mBUGLQwzoTE"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Remove brown/broken leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot with drainage or in smaller pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize monthly",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": true
+      },
+      {
+        "action": "Bottom water while keeping soil a little damp",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Move to humid bathroom or add humidifier",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      }
+    ],
+    "reason": "Fern care promotes dampness and possible dim humid bathroom, contrary to dry intervals and light for these succulents."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Ferns like to be a little damper” would perpetuate the confirmed excess-moisture problem. Fertilizing a struggling succulent without fixing watering and light also risks delaying recovery."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The answer identifies a fern and does not use the relocation or tiny frequent watering history. It omits both main causal corrections."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Leaf removal and moving location are easy. Bottom-watering duration, fertilizer dose and which pot size to choose remain unclear."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 160,
+  "thread_id": "1is3mey",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 160,
+    "thread_id": "1is3mey",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/plantylife/posts/3068020610109465/",
+    "spans": [
+      {
+        "file": "160-source-01.txt",
+        "start_line": 53,
+        "end_line": 78,
+        "sha256": "ab0e04030a98b918916fd29e49a3e866a8b378f4ddff5283cce603b6512e4614",
+        "text": "          - generic: Jeanette Barr\n        - generic: Looks like a crispy wave fern( aka type of birds nest fern). Remove all the brown and broken leaves. Make sure it's in a pot with drainage. They like to be fertalized once a month. I prefer to bottom water these.\n        - list:\n          - link \"4y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3068020610109465/?comment_id=3068022440109282&__cft__[0]=AZijx64KinTeWpXX30UEqjEzFmQkFKvTw3SlOfnFXoDPFbcO0o_nAXbCyY3uQ7H7TQP_UlDTEtRHTHhEB-KyTf_HtFLy2s-9EdgQp9fO65kTxsVNgnLWXwcceavNJEhQ2ry8ubkutCEh6gwWo1m5BmML38Zbj9SadnKYsxqqzPnDhl4LIVHtXzYtEVe2FA&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Libbie Goodman 4 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Libbie Goodman\":\n          - generic: Libbie Goodman\n        - generic: Birds nest fern- put it in your bathroom for the humidity, unless you have a humidifier for other plants.. I would water when almost dry, Ferns like to be a little damper than other plants, and I would suggest fertilizing regularly!\n        - list:\n          - link \"4y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3068020610109465/?comment_id=3068021453442714&__cft__[0]=AZijx64KinTeWpXX30UEqjEzFmQkFKvTw3SlOfnFXoDPFbcO0o_nAXbCyY3uQ7H7TQP_UlDTEtRHTHhEB-KyTf_HtFLy2s-9EdgQp9fO65kTxsVNgnLWXwcceavNJEhQ2ry8ubkutCEh6gwWo1m5BmML38Zbj9SadnKYsxqqzPnDhl4LIVHtXzYtEVe2FA&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Chelsea Pilcher 4 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chelsea Pilcher\":\n          - generic: Chelsea Pilcher\n        - generic: Looks like a blue star fern. Take all the dead off and repot in a smaller pot. It needs humidity"
+      }
+    ],
+    "advice": "          - generic: Jeanette Barr\n        - generic: Looks like a crispy wave fern( aka type of birds nest fern). Remove all the brown and broken leaves. Make sure it's in a pot with drainage. They like to be fertalized once a month. I prefer to bottom water these.\n        - list:\n          - link \"4y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3068020610109465/?comment_id=3068022440109282&__cft__[0]=AZijx64KinTeWpXX30UEqjEzFmQkFKvTw3SlOfnFXoDPFbcO0o_nAXbCyY3uQ7H7TQP_UlDTEtRHTHhEB-KyTf_HtFLy2s-9EdgQp9fO65kTxsVNgnLWXwcceavNJEhQ2ry8ubkutCEh6gwWo1m5BmML38Zbj9SadnKYsxqqzPnDhl4LIVHtXzYtEVe2FA&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Libbie Goodman 4 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Libbie Goodman\":\n          - generic: Libbie Goodman\n        - generic: Birds nest fern- put it in your bathroom for the humidity, unless you have a humidifier for other plants.. I would water when almost dry, Ferns like to be a little damper than other plants, and I would suggest fertilizing regularly!\n        - list:\n          - link \"4y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3068020610109465/?comment_id=3068021453442714&__cft__[0]=AZijx64KinTeWpXX30UEqjEzFmQkFKvTw3SlOfnFXoDPFbcO0o_nAXbCyY3uQ7H7TQP_UlDTEtRHTHhEB-KyTf_HtFLy2s-9EdgQp9fO65kTxsVNgnLWXwcceavNJEhQ2ry8ubkutCEh6gwWo1m5BmML38Zbj9SadnKYsxqqzPnDhl4LIVHtXzYtEVe2FA&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Chelsea Pilcher 4 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chelsea Pilcher\":\n          - generic: Chelsea Pilcher\n        - generic: Looks like a blue star fern. Take all the dead off and repot in a smaller pot. It needs humidity",
+    "reason": "First readable plant-recovery advice; full visible recommendations retained though fern-specific.",
+    "frozen_at": "2026-10-29T06:16:28.477881+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:17:27.959378+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

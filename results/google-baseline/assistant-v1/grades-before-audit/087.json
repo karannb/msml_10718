@@ -1,0 +1,150 @@
+{
+  "reference_action": "Reference advice is to rearrange the mixed planter so Kalanchoe receives most light. OP says plants were moved, Syngonium and Pilea did well after transfer, but Kalanchoe remained sad. Confirmed-problem field is blank: this is mixed-outcome evidence, not proof of Kalanchoe recovery.",
+  "reference_quality": {
+    "missing_diagnosis": true,
+    "mixed_outcome": true,
+    "detail": "The bundled reference does not establish a diagnosis or successful recovery of the Kalanchoe targeted by its lighting advice. Action comparisons below use the supplied rearrangement target; diagnosis is unscored rather than invented."
+  },
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Opened linked article: leaf-plus-stem cuttings, water rooting and small-pot propagation, not separating the mixed arrangement or prioritizing Kalanchoe light.",
+      "evidence": [
+        "087-source-01.txt",
+        "087-source-01-linked.txt"
+      ],
+      "url": "https://www.facebook.com/OhioTropics/posts/your-pilea-chinese-money-plant-does-not-need-to-produce-pups-for-you-to-make-mor/1673648431429821/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Pilea peperomioides pup division; no arrangement-light advice.",
+      "evidence": [
+        "087-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/9kadtb/guys_is_my_baby_pilea_big_enough_to_separate_from/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Philodendron clump splitting and patio placement without the Kalanchoe light priority.",
+      "evidence": [
+        "video-audit-F_MDjX3hBjU-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=F_MDjX3hBjU"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "General arrangement separation and drainage, without species-specific light allocation.",
+      "evidence": [
+        "video-audit-BKDg6_qPynE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=BKDg6_qPynE"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Pilea pup propagation and return to previous location; not the supplied rearrangement target.",
+      "evidence": [
+        "video-audit-1-bCGzqkxpU-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=1-bCGzqkxpU"
+    }
+  ],
+  "resolved": {
+    "diagnosis": null,
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check pup has four to five leaves or quarter-sized leaves",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use clean sharp knife to sever pup connection",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot rooted pup shallowly in small pot with draining soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Keep soil lightly moist",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Pup-division instructions are guarded and feasible but address a different separation task and omit the supplied lighting target; missing reference diagnosis is not scored."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "“Sharp and clean knife” and preserving an existing root system are sensible safeguards. The advice is explicitly about connected pups, so it should not be read as demanding cuts through unrelated plants in a mixed planter."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The question concerns separating different plants from one planter, whereas this answer assumes a Pilea peperomioides pup attached to its parent. “Sever their connection” therefore addresses the wrong structure and gives no Kalanchoe light guidance."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "The leaf-size threshold, clean knife, small draining pot and lightly moist aftercare are concrete and inexpensive. “Don’t bury it too deep” provides an additional simple planting safeguard."
+    },
+    "diagnosis_matches_reference": null,
+    "generic_phrases": []
+  },
+  "query_index": 87,
+  "thread_id": "1wc6ru0",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 87,
+    "thread_id": "1wc6ru0",
+    "selected_rank": 2,
+    "source_url": "https://www.reddit.com/r/houseplants/comments/9kadtb/guys_is_my_baby_pilea_big_enough_to_separate_from/",
+    "spans": [
+      {
+        "file": "087-source-02.txt",
+        "start_line": 103,
+        "end_line": 114,
+        "sha256": "462b657a4416ac32065661f76304d2dd42ae6c94c276903bba0ac274713c9aa0",
+        "text": "      - paragraph: Yep! A good rule-of-thumb that I learned is, once the pilea pup has about 4-5 leaves on its own - you’re good to go!\n      - paragraph:\n        - text: How to divide for propagation according to\n        - link \"House Plant Central\":\n          - /url: https://houseplantcentral.com/propagating-pilea-peperomioides-propagate-chinese-money-plant/\n      - paragraph:\n        - strong: Propagating From Root Plantlets\n      - paragraph:\n        - emphasis: The easiest way to propagate Pilea peperomioides is by using plantlets that grow from the mother plant’s roots. A healthy, large Pilea that has plenty of pot space should regularly produce these. They pop up from the soil and are ready to use once they have a few leaves of their own.\n      - paragraph:\n        - emphasis: Because root plantlets already have a root system of their own the only thing you have to do is sever their connection to the mother plant’s roots using a sharp and clean knife. Then, just pop them into smaller pots of their own and keep the soil lightly moist. Voila! Brand new Pilea peperomioides babies that you can keep, give away or sell. The move to their own pot might slightly shock the babies but because they already have a root system they usually immediately start growing.\n      - paragraph: Goodluck & happy planting!"
+      },
+      {
+        "file": "087-source-02.txt",
+        "start_line": 140,
+        "end_line": 140,
+        "sha256": "462b657a4416ac32065661f76304d2dd42ae6c94c276903bba0ac274713c9aa0",
+        "text": "          - paragraph: I typically wait until the baby’s leaves are quarter sized. The bigger the baby, the better your chances! I take a clean, sharp knife and cut it under the soil and put it into a tiny pot with well draining soil. Don’t bury it too deep."
+      }
+    ],
+    "advice": "      - paragraph: Yep! A good rule-of-thumb that I learned is, once the pilea pup has about 4-5 leaves on its own - you’re good to go!\n      - paragraph:\n        - text: How to divide for propagation according to\n        - link \"House Plant Central\":\n          - /url: https://houseplantcentral.com/propagating-pilea-peperomioides-propagate-chinese-money-plant/\n      - paragraph:\n        - strong: Propagating From Root Plantlets\n      - paragraph:\n        - emphasis: The easiest way to propagate Pilea peperomioides is by using plantlets that grow from the mother plant’s roots. A healthy, large Pilea that has plenty of pot space should regularly produce these. They pop up from the soil and are ready to use once they have a few leaves of their own.\n      - paragraph:\n        - emphasis: Because root plantlets already have a root system of their own the only thing you have to do is sever their connection to the mother plant’s roots using a sharp and clean knife. Then, just pop them into smaller pots of their own and keep the soil lightly moist. Voila! Brand new Pilea peperomioides babies that you can keep, give away or sell. The move to their own pot might slightly shock the babies but because they already have a root system they usually immediately start growing.\n      - paragraph: Goodluck & happy planting!\n\n          - paragraph: I typically wait until the baby’s leaves are quarter sized. The bigger the baby, the better your chances! I take a clean, sharp knife and cut it under the soil and put it into a tiny pot with well draining soil. Don’t bury it too deep.",
+    "reason": "Rank one and its linked article explain making new plants from leaf cuttings, not separating rooted plants. Rank two gives relevant rooted-Pilea separation instructions, albeit for pups; retain that limitation before reference.",
+    "frozen_at": "2026-10-29T05:09:36.015522+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:10:41.584495+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": true,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

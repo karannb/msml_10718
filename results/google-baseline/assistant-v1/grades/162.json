@@ -1,0 +1,155 @@
+{
+  "reference_action": "Soil mould associated with wet substrate; OP explicitly changed soil and reports plant well. Dataset advice_summary adds light/airflow, but performed action in outcome is soil replacement.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Reworking substrate with bark/perlite or replacing with soilless media provides a partial soil-change match.",
+      "evidence": [
+        "162-source-01.txt"
+      ],
+      "url": "https://www.reddit.com/r/HouseplantsUK/comments/toogkr/advice_needed_how_to_stop_mold_from_growing_in_my/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Explicit replace soil/repot option for wet mouldy substrate.",
+      "evidence": [
+        "162-source-02.txt"
+      ],
+      "url": "https://www.thespruce.com/mold-on-houseplant-soil-5496610"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Later advice switches to chunky draining mix/terracotta; partial soil-change match.",
+      "evidence": [
+        "162-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1ssnwvv/anyone_have_any_tips_of_household_products_to/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Scrape surface and dry with fan; explicitly says no need to discard soil, not replacement.",
+      "evidence": [
+        "162-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/28635965236039682/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicit repot in fresh soil.",
+      "evidence": [
+        "162-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/CalgaryGardening/posts/1586946018696371/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Scrape and dispose mould avoiding inhalation",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Dry compost in sun as appropriate",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Amend potting mix for drainage",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Consider soilless LECA or Pon alternative",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": true
+      },
+      {
+        "action": "Assess and improve light and airflow",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Lightly sprinkle cinnamon optionally",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      }
+    ],
+    "reason": "Correct moisture/airflow explanation and soil-change alternatives, but no clear replacement procedure or plant-specific mixture."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Don’t breathe in any spores” is useful. Drying in sun and optional soilless conversion lack plant-specific acclimation guidance, while cinnamon is offered as untested hearsay."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "“Damp conditions…low airflow” matches the soil-mould problem. Improving drainage is relevant, though the full list is broader than needed."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Scraping is easy. “Varying ratios” of several amendments and LECA/Pon alternatives leave a novice to decide mixture and transition steps."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "reference_quality": {
+    "issue": "summary_action_differs_from_performed_action",
+    "detail": "Hit judged against explicit soil change, not unconfirmed light/airflow in advice_summary."
+  },
+  "query_index": 162,
+  "thread_id": "1fjylea",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 162,
+    "thread_id": "1fjylea",
+    "selected_rank": 1,
+    "source_url": "https://www.reddit.com/r/HouseplantsUK/comments/toogkr/advice_needed_how_to_stop_mold_from_growing_in_my/",
+    "spans": [
+      {
+        "file": "162-source-01.txt",
+        "start_line": 113,
+        "end_line": 141,
+        "sha256": "37aa9daffae6fb05f7dd1328bbb2375becfdbc90e162dbff2e409f10b06dfc23",
+        "text": "      - paragraph: Mold is common issue with damp conditions, especially if light isn’t great and there’s low airflow. You can scrape the mold off (don’t breathe in any spores) and dispose. I find compost bought recently has been much poorer quality and more commonly covered in white mold when you open the bags. It’s not so bad when it’s for the garden, I just leave the bag open and exposed to the sun until it’s dried. But for houseplants it’s annoying. The same trick of drying the compost in the sun help here too obviously, but if the plant is placed in a not well ventilated or lit location and stays moist too long, well, it’s not long before the mold is back.\n      - paragraph: Depending on the plants you’re growing you can look at a few things.\n      - list:\n        - paragraph:\n          - text: Improving drainage in the\n          - link \"potting mix\":\n            - /url: /search/?q=potting+mix+drainage+mold&cId=878797d8-343c-480e-915e-f5827466a3ac&iId=d1af6d1d-ce93-4348-bdd9-f54b51d34695\n            - text: potting mix\n          - text: so it doesn’t stay damp for too long. I don’t have a single houseplant in pure compost (and I’ve had houseplants for 30+ years and my house is full of plants). I mix into the compost varying ratios of orchid bark,\n          - link \"perlite\":\n            - /url: /search/?q=perlite+potting+mix+mold&cId=0167061e-459a-4176-b59f-9495b623bb2c&iId=04a3c800-5d3e-4108-944e-3867fe2e9251\n            - text: perlite\n          - text: \", horticultural grit/sand, use\"\n          - link \"leca\":\n            - /url: /search/?q=leca+plant+mold&cId=84454c3b-a67e-4714-9a6f-00990a946212&iId=fbf3a862-f874-4cc7-929d-ba4ef1ac123d\n            - text: leca\n          - text: and\n          - link \"Pon\":\n            - /url: /search/?q=Pon+plant+mold&cId=bb7cba49-fc9e-4968-ac1f-0f6516cabe11&iId=8a66e445-9a97-4d09-843c-7f37ef7c9591\n            - text: Pon\n          - text: for soil free where possible. No mold anywhere in my 120+ plant pots.\n        - paragraph: as the first paragraph indicates, consider light and air flow, whether adequate\n        - paragraph:\n          - text: I’ve heard a light sprinkling of\n          - link \"cinnamon\":\n            - /url: /search/?q=cinnamon+plant+mold&cId=26844de6-74fe-4e91-949a-913db3a793d7&iId=dfa3e88b-4256-4375-89df-4424b1a686c3\n            - text: cinnamon\n          - text: can help. Not tested myself, but it’s apparently good.\n        - paragraph: don’t overwater!"
+      }
+    ],
+    "advice": "      - paragraph: Mold is common issue with damp conditions, especially if light isn’t great and there’s low airflow. You can scrape the mold off (don’t breathe in any spores) and dispose. I find compost bought recently has been much poorer quality and more commonly covered in white mold when you open the bags. It’s not so bad when it’s for the garden, I just leave the bag open and exposed to the sun until it’s dried. But for houseplants it’s annoying. The same trick of drying the compost in the sun help here too obviously, but if the plant is placed in a not well ventilated or lit location and stays moist too long, well, it’s not long before the mold is back.\n      - paragraph: Depending on the plants you’re growing you can look at a few things.\n      - list:\n        - paragraph:\n          - text: Improving drainage in the\n          - link \"potting mix\":\n            - /url: /search/?q=potting+mix+drainage+mold&cId=878797d8-343c-480e-915e-f5827466a3ac&iId=d1af6d1d-ce93-4348-bdd9-f54b51d34695\n            - text: potting mix\n          - text: so it doesn’t stay damp for too long. I don’t have a single houseplant in pure compost (and I’ve had houseplants for 30+ years and my house is full of plants). I mix into the compost varying ratios of orchid bark,\n          - link \"perlite\":\n            - /url: /search/?q=perlite+potting+mix+mold&cId=0167061e-459a-4176-b59f-9495b623bb2c&iId=04a3c800-5d3e-4108-944e-3867fe2e9251\n            - text: perlite\n          - text: \", horticultural grit/sand, use\"\n          - link \"leca\":\n            - /url: /search/?q=leca+plant+mold&cId=84454c3b-a67e-4714-9a6f-00990a946212&iId=fbf3a862-f874-4cc7-929d-ba4ef1ac123d\n            - text: leca\n          - text: and\n          - link \"Pon\":\n            - /url: /search/?q=Pon+plant+mold&cId=bb7cba49-fc9e-4968-ac1f-0f6516cabe11&iId=8a66e445-9a97-4d09-843c-7f37ef7c9591\n            - text: Pon\n          - text: for soil free where possible. No mold anywhere in my 120+ plant pots.\n        - paragraph: as the first paragraph indicates, consider light and air flow, whether adequate\n        - paragraph:\n          - text: I’ve heard a light sprinkling of\n          - link \"cinnamon\":\n            - /url: /search/?q=cinnamon+plant+mold&cId=26844de6-74fe-4e91-949a-913db3a793d7&iId=dfa3e88b-4256-4375-89df-4424b1a686c3\n            - text: cinnamon\n          - text: can help. Not tested myself, but it’s apparently good.\n        - paragraph: don’t overwater!",
+    "reason": "First substantive soil-mould answer with all drainage/light/cinnamon caveats.",
+    "frozen_at": "2026-10-29T06:17:35.042346+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:18:21.015273+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

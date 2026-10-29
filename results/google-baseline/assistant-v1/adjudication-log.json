@@ -1,0 +1,415 @@
+{
+  "version": "1.2",
+  "post_hoc": true,
+  "original_grades": "results/google-baseline/assistant-v1/grades-before-audit",
+  "changes": [
+    {
+      "query_index": 62,
+      "rank": 4,
+      "field": "source_action_hit",
+      "before": "unresolved",
+      "after": "miss",
+      "reason": "Audit recovered readable article body from the existing capture: human knee injury from an agave thorn, not care of a punctured plant. No matching plant intervention."
+    },
+    {
+      "query_index": 63,
+      "rank": 4,
+      "field": "source_action_hit",
+      "before": "unresolved",
+      "after": "miss",
+      "reason": "Audit recovered readable article body from the existing capture: human knee injury from an agave thorn, not care of a punctured plant. No matching plant intervention."
+    },
+    {
+      "query_index": 34,
+      "rank": 2,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+    },
+    {
+      "query_index": 47,
+      "rank": 2,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+    },
+    {
+      "query_index": 81,
+      "rank": 4,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+    },
+    {
+      "query_index": 160,
+      "rank": 3,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+    },
+    {
+      "query_index": 160,
+      "rank": 5,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+    },
+    {
+      "query_index": 164,
+      "rank": 1,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+    },
+    {
+      "query_index": 165,
+      "rank": 1,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+    },
+    {
+      "query_index": 189,
+      "rank": 5,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic bright/indirect/gentle-light care or protection from harsh sunlight is not an explicit correction of this case’s inadequate light. It does not establish the validated increase/relocation; incidental light wording is insufficient."
+    },
+    {
+      "query_index": 88,
+      "rank": 3,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: indoor-window aftercare for a broken/chemically treated plant does not direct returning an outdoor drought-stressed plant indoors or restoring its water. Incidental location overlap is not enough."
+    },
+    {
+      "query_index": 88,
+      "rank": 5,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: indoor-window aftercare for a broken/chemically treated plant does not direct returning an outdoor drought-stressed plant indoors or restoring its water. Incidental location overlap is not enough."
+    },
+    {
+      "query_index": 97,
+      "rank": 1,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: “may be happier with some humidity” gives no executable humidity intervention; diagnosis or a desired condition alone does not retrieve the confirmed misting action."
+    },
+    {
+      "query_index": 99,
+      "rank": 1,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: grouping plants does not establish the sustained high-humidity enclosure that succeeded after a loose bag failed. The reply also disputes humidity need; weak thematic overlap is insufficient."
+    },
+    {
+      "query_index": 108,
+      "rank": 1,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: generic stop-messing-with-it advice mixed with extra light, water and repotting does not recognize normal leaf maturation or recommend waiting for this leaf to unfurl. Generic nonintervention is insufficient."
+    },
+    {
+      "query_index": 110,
+      "rank": 1,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: root watering, soaking or background humidity changes are not the confirmed foliar spray that worked after prior root watering. No explicit leaf-wetting intervention is recovered here."
+    },
+    {
+      "query_index": 110,
+      "rank": 3,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: root watering, soaking or background humidity changes are not the confirmed foliar spray that worked after prior root watering. No explicit leaf-wetting intervention is recovered here."
+    },
+    {
+      "query_index": 110,
+      "rank": 4,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: root watering, soaking or background humidity changes are not the confirmed foliar spray that worked after prior root watering. No explicit leaf-wetting intervention is recovered here."
+    },
+    {
+      "query_index": 111,
+      "rank": 1,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: root watering, soaking or background humidity changes are not the confirmed foliar spray that worked after prior root watering. No explicit leaf-wetting intervention is recovered here."
+    },
+    {
+      "query_index": 111,
+      "rank": 2,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: root watering, soaking or background humidity changes are not the confirmed foliar spray that worked after prior root watering. No explicit leaf-wetting intervention is recovered here."
+    },
+    {
+      "query_index": 111,
+      "rank": 3,
+      "field": "source_action_hit",
+      "before": "hit",
+      "after": "miss",
+      "reason": "Audit: root watering, soaking or background humidity changes are not the confirmed foliar spray that worked after prior root watering. No explicit leaf-wetting intervention is recovered here."
+    },
+    {
+      "query_index": 108,
+      "field": "advice",
+      "before": "partial",
+      "after": "no",
+      "reason": "Same central-action standard as source audit."
+    },
+    {
+      "query_index": 110,
+      "field": "advice",
+      "before": "partial",
+      "after": "no",
+      "reason": "Same central-action standard as source audit."
+    },
+    {
+      "query_index": 111,
+      "field": "advice",
+      "before": "partial",
+      "after": "no",
+      "reason": "Same central-action standard as source audit."
+    },
+    {
+      "query_index": 164,
+      "field": "advice",
+      "before": "partial",
+      "after": "no",
+      "reason": "Same central-action standard as source audit."
+    },
+    {
+      "query_index": 165,
+      "field": "advice",
+      "before": "partial",
+      "after": "no",
+      "reason": "Same central-action standard as source audit."
+    },
+    {
+      "query_index": 2,
+      "action_index": 2,
+      "field": "minutes",
+      "before": 30,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 3,
+      "action_index": 2,
+      "field": "minutes",
+      "before": 30,
+      "after": 2,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 9,
+      "action_index": 6,
+      "field": "minutes",
+      "before": 45,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 11,
+      "action_index": 0,
+      "field": "minutes",
+      "before": 60,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 14,
+      "action_index": 5,
+      "field": "minutes",
+      "before": 23,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 36,
+      "action_index": 1,
+      "field": "minutes",
+      "before": 180,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 42,
+      "action_index": 7,
+      "field": "minutes",
+      "before": 4320,
+      "after": 3,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 42,
+      "action_index": 11,
+      "field": "minutes",
+      "before": 30,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 44,
+      "action_index": 1,
+      "field": "minutes",
+      "before": 15,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 44,
+      "action_index": 3,
+      "field": "minutes",
+      "before": 15,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 57,
+      "action_index": 2,
+      "field": "minutes",
+      "before": 120,
+      "after": 7,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 66,
+      "action_index": 1,
+      "field": "minutes",
+      "before": 240,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 67,
+      "action_index": 5,
+      "field": "minutes",
+      "before": 20,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 75,
+      "action_index": 0,
+      "field": "minutes",
+      "before": 15,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 91,
+      "action_index": 0,
+      "field": "minutes",
+      "before": 2880,
+      "after": 2,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 98,
+      "action_index": 1,
+      "field": "minutes",
+      "before": 15,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 102,
+      "action_index": 4,
+      "field": "minutes",
+      "before": 20,
+      "after": 7,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 111,
+      "action_index": 0,
+      "field": "minutes",
+      "before": 125,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 118,
+      "action_index": 5,
+      "field": "minutes",
+      "before": 20,
+      "after": 8,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 148,
+      "action_index": 1,
+      "field": "minutes",
+      "before": 30,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 165,
+      "action_index": 1,
+      "field": "minutes",
+      "before": 30,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 168,
+      "action_index": 1,
+      "field": "minutes",
+      "before": 30,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 182,
+      "action_index": 1,
+      "field": "minutes",
+      "before": 30,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 183,
+      "action_index": 2,
+      "field": "minutes",
+      "before": 30,
+      "after": 5,
+      "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+    },
+    {
+      "query_index": 34,
+      "action_index": 3,
+      "field": "cost_usd",
+      "before": 20,
+      "after": 0,
+      "reason": "Question already says a grow lamp is available; moving it adds no purchase."
+    },
+    {
+      "query_index": 142,
+      "field": "leakage",
+      "reason": "Normalize existing retrieval_leakage flag for reporting; independent hits remain."
+    }
+  ]
+}

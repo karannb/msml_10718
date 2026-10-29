@@ -1,0 +1,188 @@
+{
+  "reference_action": "Owner confirms plant looked amazing after trimming long wilted vines. Core is cutting back overgrown strands; repotting and propagation are suggested adjuncts, not independently confirmed.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Root-cleaning/peroxide/water-rooting sequence; speculative top cutting explicitly rotted, no recommended hard vine trim.",
+      "evidence": [
+        "video-audit-M2XjFmgCj9s-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=M2XjFmgCj9s"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Removes damaged leaves and rotten roots, not the overgrown stems/strands central to this recovery.",
+      "evidence": [
+        "video-audit-Baa6HHZIxMQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Baa6HHZIxMQ"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Alocasia corm peroxide/LECA rescue, no vine shortening.",
+      "evidence": [
+        "video-audit-mBUGLQwzoTE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=mBUGLQwzoTE"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Prunes dead or wilted branches to focus growth on surviving plant; partial equivalent of cutting struggling strands, with extensive additional root treatment.",
+      "evidence": [
+        "video-audit-fpCFlLOGLTI-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=fpCFlLOGLTI&themeRefresh=1"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Soak and replant already-denuded prayer plant; no trim instruction.",
+      "evidence": [
+        "148-source-05.txt"
+      ],
+      "url": "https://www.reddit.com/r/gardening/comments/s79v5j/can_i_revive_my_plant/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Remove old soil and wash roots",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prepare dilute peroxide bath and soak roots 30 minutes",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false,
+        "elapsed_minutes_original_estimate": 30,
+        "timing_note": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      },
+      {
+        "action": "Move rooted base to plain-water container",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Try rooting top cutting separately",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place in gentle light",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot recovered plant in peat/perlite mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Add optional LECA layer",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Water with dilute peroxide after repotting",
+        "minutes": 4,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Finger-check topsoil before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Universal root rescue misses the overgrown-vine trim. Low peroxide dilution limits direct chemical risk, but unnecessary root disturbance remains a concern."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“It doesn’t matter what brought the plant to this state” promotes unnecessary root stripping and water conversion. Dilution and shallow planting reduce some risk, but the method is not universally appropriate."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The advice treats a collapsed Schefflera root system with peroxide and water rooting. It does not address the long, exhausted vines or successful hard trim in this case."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "“One teaspoon…one and a half liters” supplies a usable recipe. Multiple transfers, a thirty-minute soak and vague “calm light” make this a substantial rescue project rather than a simple trim."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 148,
+  "thread_id": "1h90yxs",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 148,
+    "thread_id": "1h90yxs",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=M2XjFmgCj9s",
+    "spans": [
+      {
+        "file": "video-audit-M2XjFmgCj9s-transcript.txt",
+        "start_line": 6,
+        "end_line": 49,
+        "sha256": "1e01a576aa305c33b1cbd545c0ccfd562d2a24969b855db35f1773a46429bd3f",
+        "text": "[0:01] Sometimes, even the saddest plants can come back to life.\n[0:06] This is what most people throw away… but not me.\n[0:10] It looked hopeless — but I saw a tiny chance.\n[0:17] It doesn’t matter what brought the plant to this state.\n[0:21] This method works almost every time, no matter the cause.\n[0:26] The key is to act while the plant still has the will to fight.\n[0:31] I gently clean the roots of this little schefflera — also known as the umbrella plant.\n[0:39] Removing all the old soil gives it a fresh start.\n[0:45] Even weak roots can come back to life when nothing holds them back.\n[1:02] This is all that's left.\n[1:04] It looks pitiful, but I believe it can pull through.\n[1:09] I pour in plain room temperature water.\n[1:12] Now I’ll add one simple thing that boosts oxygen and helps the roots recover.\n[1:18] Of course, it’s my trusted helper in plant care — the well-known 3% hydrogen peroxide.\n[1:24] I use it often, and it really works.\n[1:30] One teaspoon of hydrogen peroxide is enough for one and a half liters of water.\n[1:37] I gently place the weakened schefflera into the solution and leave it for about 30 minutes.\n[1:44] A struggling plant just needs a little time to recover and regain its strength.\n[1:51] And then it’s all very simple — I pick a nice-looking container and fill it with plain water.\n[2:01] Although, I feel like doing one more thing.\n[2:09] I want to see if the top part of this schefflera can grow roots too.\n[2:15] Sometimes, all a plant needs is calm light, a bit of water, someone who believes in it — and a little time.\n[2:28] It’s been a month already — and I hardly touched the water.\n[2:32] It turned green, yes…\n[2:34] And still… just look at this.\n[2:38] Do you see it too?\n[2:40] These tiny variegated schefflera leaves — it’s like they were born all over again.\n[2:47] Now that the schefflera has come back to life, it's time to give it a new home.\n[2:52] This pot looks just right.\n[2:57] To help the roots settle in, I’m using a light mix: universal peat-based soil with perlite for better airflow.\n[3:10] I add a bit of medium-sized expanded clay to the bottom — for drainage and lightness.\n[3:16] But honestly, you can do just fine without it.\n[3:23] By the way, the top part I tried to root didn’t make it — it rotted.\n[3:28] That’s why you won’t see it in the rest of this video.\n[3:31] Weak or stressed cuttings rarely grow roots.\n[3:35] It happens — and that’s okay.\n[3:39] Important: Never bury the stem base too deep — it can cause rot before you even notice.\n[3:55] One teaspoon of hydrogen peroxide per liter — and the first watering is ready.\n[4:01] It always gives a good start after repotting.\n[4:17] Right now, the plant needs a careful balance — not too wet, not too dry.\n[4:23] I only water when the top layer of soil feels dry under my finger.\n[4:33] I’ve seen it many times — even a plant that looks nearly gone can come back to life.\n[4:39] Try it yourself.\n[4:40] There might be someone on your windowsill right now… just waiting for a second chance."
+      }
+    ],
+    "advice": "[0:01] Sometimes, even the saddest plants can come back to life.\n[0:06] This is what most people throw away… but not me.\n[0:10] It looked hopeless — but I saw a tiny chance.\n[0:17] It doesn’t matter what brought the plant to this state.\n[0:21] This method works almost every time, no matter the cause.\n[0:26] The key is to act while the plant still has the will to fight.\n[0:31] I gently clean the roots of this little schefflera — also known as the umbrella plant.\n[0:39] Removing all the old soil gives it a fresh start.\n[0:45] Even weak roots can come back to life when nothing holds them back.\n[1:02] This is all that's left.\n[1:04] It looks pitiful, but I believe it can pull through.\n[1:09] I pour in plain room temperature water.\n[1:12] Now I’ll add one simple thing that boosts oxygen and helps the roots recover.\n[1:18] Of course, it’s my trusted helper in plant care — the well-known 3% hydrogen peroxide.\n[1:24] I use it often, and it really works.\n[1:30] One teaspoon of hydrogen peroxide is enough for one and a half liters of water.\n[1:37] I gently place the weakened schefflera into the solution and leave it for about 30 minutes.\n[1:44] A struggling plant just needs a little time to recover and regain its strength.\n[1:51] And then it’s all very simple — I pick a nice-looking container and fill it with plain water.\n[2:01] Although, I feel like doing one more thing.\n[2:09] I want to see if the top part of this schefflera can grow roots too.\n[2:15] Sometimes, all a plant needs is calm light, a bit of water, someone who believes in it — and a little time.\n[2:28] It’s been a month already — and I hardly touched the water.\n[2:32] It turned green, yes…\n[2:34] And still… just look at this.\n[2:38] Do you see it too?\n[2:40] These tiny variegated schefflera leaves — it’s like they were born all over again.\n[2:47] Now that the schefflera has come back to life, it's time to give it a new home.\n[2:52] This pot looks just right.\n[2:57] To help the roots settle in, I’m using a light mix: universal peat-based soil with perlite for better airflow.\n[3:10] I add a bit of medium-sized expanded clay to the bottom — for drainage and lightness.\n[3:16] But honestly, you can do just fine without it.\n[3:23] By the way, the top part I tried to root didn’t make it — it rotted.\n[3:28] That’s why you won’t see it in the rest of this video.\n[3:31] Weak or stressed cuttings rarely grow roots.\n[3:35] It happens — and that’s okay.\n[3:39] Important: Never bury the stem base too deep — it can cause rot before you even notice.\n[3:55] One teaspoon of hydrogen peroxide per liter — and the first watering is ready.\n[4:01] It always gives a good start after repotting.\n[4:17] Right now, the plant needs a careful balance — not too wet, not too dry.\n[4:23] I only water when the top layer of soil feels dry under my finger.\n[4:33] I’ve seen it many times — even a plant that looks nearly gone can come back to life.\n[4:39] Try it yourself.\n[4:40] There might be someone on your windowsill right now… just waiting for a second chance.",
+    "reason": "First accessible general plant rescue, full peroxide/water rooting and repotting sequence including failed top cutting.",
+    "frozen_at": "2026-10-29T06:03:26.084158+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.274610+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.273600+00:00",
+    "changes": [
+      {
+        "query_index": 148,
+        "action_index": 1,
+        "field": "minutes",
+        "before": 30,
+        "after": 5,
+        "reason": "Active handling estimate; passive soak/drain/callus interval excluded from owner labor. Original elapsed estimate preserved."
+      }
+    ]
+  }
+}

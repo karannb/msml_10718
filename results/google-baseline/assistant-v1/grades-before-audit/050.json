@@ -1,0 +1,132 @@
+{
+  "reference_action": "Goeppertia rufibarba stressed by direct sun; OP reports improvement after moving it out of sun. Reduce direct exposure while retaining bright indirect light.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Fortnightly watering/fertilizing and good light do not instruct removing direct sun.",
+      "evidence": [
+        "050-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1732060157100583/posts/3697489050557674/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Advice for a Dracaena is more window light, repotting and complete drying; no directional reduction of direct sun.",
+      "evidence": [
+        "050-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/28512615388374668/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Clear-cut or water-root an undersunned Monstera; no shade remedy.",
+      "evidence": [
+        "050-source-03.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1pb43u0/need_help_reviving_office_plant/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Succulent/palm advice emphasizes acclimating to stronger light, the opposite direction.",
+      "evidence": [
+        "050-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1rgby5g/these_were_dying_at_the_office_how_do_i_make_them/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Root stripping/peroxide/water rooting rescue with vague calm light, not an actual instruction to remove direct sunlight.",
+      "evidence": [
+        "video-audit-M2XjFmgCj9s-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=M2XjFmgCj9s"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Bottom water every two weeks",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Position in good light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Fertilize every two weeks",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      }
+    ],
+    "reason": "Generic schedule does not identify the plant or sun stress and fails to reduce sun. A fixed fortnightly schedule may be inappropriate but existing moisture/light details do not establish likely serious damage from this instruction alone."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Water every two weeks” lacks a soil/pot-weight check, and fertilizer strength is unspecified. This may worsen drought or wetness depending on conditions, though no clearly destructive treatment is proposed."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "“They hold lots of water” does not identify this Goeppertia or explain direct-sun damage. “Good light” does not supply the confirmed move out of sun."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The frequency is easy to follow, but bottom-watering duration, fertilizer strength and “good light” remain undefined. The user would need further instructions to apply the advice reliably."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "good light"
+    ]
+  },
+  "query_index": 50,
+  "thread_id": "1njfxkm",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 50,
+    "thread_id": "1njfxkm",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/1732060157100583/posts/3697489050557674/",
+    "spans": [
+      {
+        "file": "050-source-01.txt",
+        "start_line": 53,
+        "end_line": 53,
+        "sha256": "5b669180c355b3bb33c9306b2aed7257c7fd2cd9c7bbda27858a3306e6695b42",
+        "text": "        - generic: They hold lots of water, I water every two weeks, bottom water like good light! I fertilize every two weeks!"
+      }
+    ],
+    "advice": "        - generic: They hold lots of water, I water every two weeks, bottom water like good light! I fertilize every two weeks!",
+    "reason": "First retained substantive care comment, frozen without target outcome.",
+    "frozen_at": "2026-10-29T04:43:49.518634+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:44:22.959002+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "miss",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

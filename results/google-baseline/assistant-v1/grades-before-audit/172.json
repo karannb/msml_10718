@@ -1,0 +1,172 @@
+{
+  "reference_action": "OP confirmed improved after advice to water more; answer corrected Yucca identification to Dracaena marginata and identified shriveling from underwatering.",
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Squeeze/check stem base",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot if soft",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Sterilize saw and cut healthy top",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Set cutting aside to callus",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in mineral mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move to strongest sunny window",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil to bottom before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Drench only after complete drying",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim dead lower leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Treats the mislabeled Dracaena as desert Yucca, dismisses underwatering, and emphasizes drying/rot rescue. This may prolong the demonstrated dehydration; conditional deep watering does not outweigh opposite-direction guidance."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Almost impossible” to kill by underwatering and the extra-cup warning discourage needed hydration. Strong sun and conditional cutting also risk worsening a stressed, misidentified plant."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Uses the user’s incorrect Yucca label and attributes droop to light or rot. It misses the shriveled-stem dehydration that improved with watering."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Moisture and stem checks are concrete. Sawing, callusing, mineral-mix repotting and multiple care adjustments add work beyond the required simple intervention."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Explicitly dismisses underwatering and requires complete drying; drenching is conditional in the opposite-direction regimen.",
+      "evidence": [
+        "video-audit-85rGHL-gzCc-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=85rGHL-gzCc"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Bottom watering every 7–10 days gives a concrete hydration action, although fixed ounces and wrong Yucca assumptions reduce suitability. Partial action overlap, not diagnostic correctness.",
+      "evidence": [
+        "172-source-02.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1842823149113921/posts/28797466903222847/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Post-repot support/sun/patience and longer watering intervals, not increased hydration.",
+      "evidence": [
+        "172-source-03.txt"
+      ],
+      "url": "https://garden.org/thread/view/144018/HELP-YUCCA-drooping-falling-Is-it-dying-I-just-changed-out-all-of-soil/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Advice explicitly says watering too much and extends intervals to 3–6 weeks. A drench within that reduced-watering regimen is not equivalent to correcting dehydration here.",
+      "evidence": [
+        "172-source-04.txt"
+      ],
+      "url": "https://www.reddit.com/r/plantclinic/comments/by75w5/my_yucca_leaves_are_drooping_is_this_normal_i/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Second answer says give plenty of water in spring/summer; partial hydration overlap despite inappropriate outdoor Yucca context and cutting advice elsewhere.",
+      "evidence": [
+        "172-source-05.txt"
+      ],
+      "url": "https://gardening.stackexchange.com/questions/28947/why-are-the-leaves-and-stems-of-my-yucca-drooping-and-the-plant-looking-sad"
+    }
+  ],
+  "query_index": 172,
+  "thread_id": "s2w0t1",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 172,
+    "thread_id": "s2w0t1",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=85rGHL-gzCc",
+    "spans": [
+      {
+        "file": "video-audit-85rGHL-gzCc-transcript.txt",
+        "start_line": 6,
+        "end_line": 56,
+        "sha256": "3d2a4956fe67cf3397168bbc35d854675b2e5b20806c9e3ee7e6feb1cba0c0e7",
+        "text": "[0:00] The yucca cane is one of the most resilient, architectural, and beautiful\n[0:03] desert giants you can grow in your living room. In our greenhouse, these\n[0:07] trees are legendary because they can thrive on neglect and survive weeks\n[0:11] without a single drop of water. But in a home environment, a silent killer often\n[0:16] strikes. Indoor growers treat them like tropical plants, watering them too often\n[0:21] until the leaves turn yellow or brown, the foliage starts drooping, and the\n[0:25] hard, woody trunk becomes soft, mushy, and hollow. If your yucca is showing any\n[0:30] of these scary symptoms, do not panic. Today, I am going to share the top three\n[0:35] greenhouse secrets we use to diagnose yucca problems instantly, keep trunks\n[0:39] rock solid, and save a rotting tree, even if you think it's completely dead.\n[0:44] Let's start with the most dangerous symptom, a soft, spongy trunk. Because\n[0:48] yucca trees store all their water inside their thick canes, root rot travels\n[0:52] upward from the soil inside the wood, completely invisible from the outside.\n[0:56] To catch this early, you must physically squeeze the bottom of the trunk with\n[1:00] your fingers every single month. If it feels hard like stone, your tree is\n[1:04] safe. But if it feels soft or if the bark is peeling away,\n[1:09] the inside of that cane is already rotting from overwatering. In our\n[1:12] nursery, if we catch a soft trunk, we immediately stop watering and take the\n[1:16] plant out of its pot. If the rot is only at the base, you can actually use a\n[1:20] clean, sterilized saw to cut the top, healthy, hard part of the cane. Let it\n[1:25] dry for 2 days to callus and repot it in fresh soil. It will grow brand new\n[1:29] roots, saving your beloved tree from the trash can.\n[1:32] The second major issue is droopy, floppy leaves. Healthy yucca leaves should\n[1:37] stand stiff and point upward like swords. If your plant's leaves are\n[1:41] bending downward and losing their firmness,\n[1:44] it is a direct sign of light starvation. Yucca plants are native to the hot, arid\n[1:50] deserts of Mexico and the southwestern United States, meaning they are\n[1:53] biologically wired for intense, direct sunlight. When placed in a dim corner of\n[1:58] a living room, their metabolism drops to zero. In a dark room, the plant stops\n[2:02] drinking, which keeps the soil wet for weeks and instantly triggers root rot.\n[2:07] To fix droopy leaves at home, your yucca must be placed right against your\n[2:10] brightest south or west-facing window. Give it the desert light it craves, and\n[2:15] the new growth will emerge stiff and strong. Now, let's decode yellow and\n[2:19] brown leaves. The golden rule of yucca care is very simple. When in doubt, do\n[2:25] not water. It is almost impossible to kill a yucca from underwatering, but one\n[2:29] extra cup of water can destroy it. In our greenhouse, we let the soil dry out\n[2:34] 100% all the way to the bottom of the pot before we even think about watering.\n[2:39] At home, use a long wooden stick or a moisture meter to check the very bottom\n[2:43] of the pot. If there is even a hint of moisture,\n[2:46] walk away. When it is finally bone dry, drench it heavily until water runs out\n[2:51] of the drainage holes. But, remember, your soil mix must be desert-like. We\n[2:56] use 50% regular potting soil mixed with 50% coarse sand, pumice, and perlite. If\n[3:02] your soil retains water like a wet sponge, your yucca is on a countdown to\n[3:06] decay. Here is a bonus greenhouse tip for yellow and brown lower leaves. As a\n[3:11] yucca tree grows taller from the top, it naturally sheds its lowest leaves to\n[3:14] form its woody trunk over time. This is a completely normal aging process. When\n[3:19] these bottom leaves turn yellow or brown, take a clean pair of scissors and\n[3:23] trim them away. But, here is the secret. Do not rip them off forcefully, as this\n[3:28] can tear the delicate bark of the trunk and open up entry wounds for pests. Cut\n[3:32] them clean at the base. This keeps your tree looking neat and prevents any pests\n[3:36] or fungus from hiding inside the dead foliage. Squeeze the bottom of that"
+      }
+    ],
+    "advice": "[0:00] The yucca cane is one of the most resilient, architectural, and beautiful\n[0:03] desert giants you can grow in your living room. In our greenhouse, these\n[0:07] trees are legendary because they can thrive on neglect and survive weeks\n[0:11] without a single drop of water. But in a home environment, a silent killer often\n[0:16] strikes. Indoor growers treat them like tropical plants, watering them too often\n[0:21] until the leaves turn yellow or brown, the foliage starts drooping, and the\n[0:25] hard, woody trunk becomes soft, mushy, and hollow. If your yucca is showing any\n[0:30] of these scary symptoms, do not panic. Today, I am going to share the top three\n[0:35] greenhouse secrets we use to diagnose yucca problems instantly, keep trunks\n[0:39] rock solid, and save a rotting tree, even if you think it's completely dead.\n[0:44] Let's start with the most dangerous symptom, a soft, spongy trunk. Because\n[0:48] yucca trees store all their water inside their thick canes, root rot travels\n[0:52] upward from the soil inside the wood, completely invisible from the outside.\n[0:56] To catch this early, you must physically squeeze the bottom of the trunk with\n[1:00] your fingers every single month. If it feels hard like stone, your tree is\n[1:04] safe. But if it feels soft or if the bark is peeling away,\n[1:09] the inside of that cane is already rotting from overwatering. In our\n[1:12] nursery, if we catch a soft trunk, we immediately stop watering and take the\n[1:16] plant out of its pot. If the rot is only at the base, you can actually use a\n[1:20] clean, sterilized saw to cut the top, healthy, hard part of the cane. Let it\n[1:25] dry for 2 days to callus and repot it in fresh soil. It will grow brand new\n[1:29] roots, saving your beloved tree from the trash can.\n[1:32] The second major issue is droopy, floppy leaves. Healthy yucca leaves should\n[1:37] stand stiff and point upward like swords. If your plant's leaves are\n[1:41] bending downward and losing their firmness,\n[1:44] it is a direct sign of light starvation. Yucca plants are native to the hot, arid\n[1:50] deserts of Mexico and the southwestern United States, meaning they are\n[1:53] biologically wired for intense, direct sunlight. When placed in a dim corner of\n[1:58] a living room, their metabolism drops to zero. In a dark room, the plant stops\n[2:02] drinking, which keeps the soil wet for weeks and instantly triggers root rot.\n[2:07] To fix droopy leaves at home, your yucca must be placed right against your\n[2:10] brightest south or west-facing window. Give it the desert light it craves, and\n[2:15] the new growth will emerge stiff and strong. Now, let's decode yellow and\n[2:19] brown leaves. The golden rule of yucca care is very simple. When in doubt, do\n[2:25] not water. It is almost impossible to kill a yucca from underwatering, but one\n[2:29] extra cup of water can destroy it. In our greenhouse, we let the soil dry out\n[2:34] 100% all the way to the bottom of the pot before we even think about watering.\n[2:39] At home, use a long wooden stick or a moisture meter to check the very bottom\n[2:43] of the pot. If there is even a hint of moisture,\n[2:46] walk away. When it is finally bone dry, drench it heavily until water runs out\n[2:51] of the drainage holes. But, remember, your soil mix must be desert-like. We\n[2:56] use 50% regular potting soil mixed with 50% coarse sand, pumice, and perlite. If\n[3:02] your soil retains water like a wet sponge, your yucca is on a countdown to\n[3:06] decay. Here is a bonus greenhouse tip for yellow and brown lower leaves. As a\n[3:11] yucca tree grows taller from the top, it naturally sheds its lowest leaves to\n[3:14] form its woody trunk over time. This is a completely normal aging process. When\n[3:19] these bottom leaves turn yellow or brown, take a clean pair of scissors and\n[3:23] trim them away. But, here is the secret. Do not rip them off forcefully, as this\n[3:28] can tear the delicate bark of the trunk and open up entry wounds for pests. Cut\n[3:32] them clean at the base. This keeps your tree looking neat and prevents any pests\n[3:36] or fungus from hiding inside the dead foliage. Squeeze the bottom of that",
+    "reason": "First readable yucca-drooping guide; retain full diagnostic, light, watering, rot and pruning alternatives.",
+    "frozen_at": "2026-10-29T06:24:08.411959+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:30:06.093426+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

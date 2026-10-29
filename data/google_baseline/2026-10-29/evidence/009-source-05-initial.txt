@@ -1,0 +1,19 @@
+- generic "YouTube Video Player":
+  - button "Play":
+  - slider "Seek slider" [disabled]
+  - slider "Click or scroll the panel for the precise seeking." [disabled]
+  - button "Play (k)":
+  - button "Mute (m)":
+  - slider "Volume"
+  - button "0 Minutes 0 Seconds of 0 Minutes 15 Seconds": 0:00 / 0:15
+  - button "Subtitles/closed captions unavailable":
+  - button "Settings":
+  - button "Theater mode (t)":
+  - button "Full screen (f)":
+- banner:
+  - button "Guide"
+  - link:
+    - /url: /
+  - search:
+    - combobox [expanded]
+    - button "Search"

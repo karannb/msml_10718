@@ -1,0 +1,130 @@
+{
+  "reference_action": "Borderline otherwise-healthy plant with one damaged lower leaf; owner reports larger growth and carefully removing the worsening leaf. Count local damaged-leaf removal, not an unconfirmed watering/light change.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Move away from direct light and halve watering; no instruction to trim the damaged leaf. The poster’s own removal history is not advice and did not solve their case.",
+      "evidence": [
+        "145-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantylife/posts/3414948812083308/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Gently remove yellowing basal leaves; a few old leaves are normal.",
+      "evidence": [
+        "145-source-02.txt"
+      ],
+      "url": "https://thelittlebotanical.com/how-to-care-for-the-chinese-money-plant/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "5:09–6:11 explicitly recognizes normal old-leaf shedding and snips browning leaves with clean shears.",
+      "evidence": [
+        "video-audit-Us0kJbs5DPs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Us0kJbs5DPs"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Remove brown-spotted affected leaves with clean scissors; same local removal action though with unnecessary disease alternatives.",
+      "evidence": [
+        "video-audit-fJ9Ghjt9tOQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=fJ9Ghjt9tOQ"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Moisture/nutrient/heat/mineral-residue remedies but no leaf removal instruction.",
+      "evidence": [
+        "video-audit-Q1IuF9nr-HU-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Q1IuF9nr-HU"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": true,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move out of direct sun",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Halve watering for winter",
+        "minutes": 4,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Move ten feet from windows",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Sun stress is plausible but advice treats a generally healthy plant as needing multiple routine changes and omits confirmed trimming. The winter adjustment is poorly matched to stated hot months."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Take your watering down to half” is not supported by a soil check and is framed for winter despite the hot-month question. Moving ten feet from windows could reduce light excessively, though no destructive treatment is prescribed."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The source concerns escalating damage across more than twenty Pilea leaves. Its sunlight hypothesis overlaps the reference, but it misses the mild isolated-leaf case and otherwise-healthy status."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Moving the pot is straightforward. Halving an unspecified watering amount and an incomplete “only water when” comment leave the owner without a reliable moisture rule."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 145,
+  "thread_id": "1kbiakb",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 145,
+    "thread_id": "1kbiakb",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/plantylife/posts/3414948812083308/",
+    "spans": [
+      {
+        "file": "145-source-01.txt",
+        "start_line": 66,
+        "end_line": 84,
+        "sha256": "d8d1b2f2f0c895d3d495f4f1b62045e78b50036d6bf8227c9af7b09cdf298ce6",
+        "text": "        - generic: It looks similar to leaf burn. They can be sensitive to direct light. If she is getting any direct light move her, even if she has done great in that spot in the past. Mine was doing great in a morning sun situation then started throwing a fit and burning. I moved to all indirect sun and it helped tremendously.\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3414948812083308/?comment_id=3414999172078272&__cft__[0]=AZhRpakcfIoESWTAiieL_J6noNM7eygBNqynw7olyPoGTd6Hvv4Kt4idhQghbPDIvgKDBg355A3jPskWo7dbDgIzWWhVsn2bP69u20FSqdUjGROihYxCpMYC_SuEA6khwEsTW_YYZEUz98IFt_91Bd9hP_3cTS28Et2LVStdN5iKvPHncqjtyenMDMcfMK9u&__tn__=R]-R\n      - article \"Comment by Serena Schumann 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Serena Schumann\":\n          - generic: Serena Schumann\n        - generic: Brown spots/ leaves are typically a sign of over watering - take your watering down to half what you've been giving them for winter, move them out of direct light ...\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3414948812083308/?comment_id=3415478065363716&__cft__[0]=AZhRpakcfIoESWTAiieL_J6noNM7eygBNqynw7olyPoGTd6Hvv4Kt4idhQghbPDIvgKDBg355A3jPskWo7dbDgIzWWhVsn2bP69u20FSqdUjGROihYxCpMYC_SuEA6khwEsTW_YYZEUz98IFt_91Bd9hP_3cTS28Et2LVStdN5iKvPHncqjtyenMDMcfMK9u&__tn__=R]-R\n      - article \"Comment by Chantel Boes 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chantel Boes\":\n          - generic: Chantel Boes\n        - text: I had mine by a window constantly and some of my leaves would grow very light green and even yellow. I moved it to the corner of the room where she can see the windows but like 10 ft away and it’s been thriving. I also neglect her. I only water when he…"
+      }
+    ],
+    "advice": "        - generic: It looks similar to leaf burn. They can be sensitive to direct light. If she is getting any direct light move her, even if she has done great in that spot in the past. Mine was doing great in a morning sun situation then started throwing a fit and burning. I moved to all indirect sun and it helped tremendously.\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3414948812083308/?comment_id=3414999172078272&__cft__[0]=AZhRpakcfIoESWTAiieL_J6noNM7eygBNqynw7olyPoGTd6Hvv4Kt4idhQghbPDIvgKDBg355A3jPskWo7dbDgIzWWhVsn2bP69u20FSqdUjGROihYxCpMYC_SuEA6khwEsTW_YYZEUz98IFt_91Bd9hP_3cTS28Et2LVStdN5iKvPHncqjtyenMDMcfMK9u&__tn__=R]-R\n      - article \"Comment by Serena Schumann 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Serena Schumann\":\n          - generic: Serena Schumann\n        - generic: Brown spots/ leaves are typically a sign of over watering - take your watering down to half what you've been giving them for winter, move them out of direct light ...\n        - list:\n          - link \"3y\":\n            - /url: https://www.facebook.com/groups/plantylife/posts/3414948812083308/?comment_id=3415478065363716&__cft__[0]=AZhRpakcfIoESWTAiieL_J6noNM7eygBNqynw7olyPoGTd6Hvv4Kt4idhQghbPDIvgKDBg355A3jPskWo7dbDgIzWWhVsn2bP69u20FSqdUjGROihYxCpMYC_SuEA6khwEsTW_YYZEUz98IFt_91Bd9hP_3cTS28Et2LVStdN5iKvPHncqjtyenMDMcfMK9u&__tn__=R]-R\n      - article \"Comment by Chantel Boes 3 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Chantel Boes\":\n          - generic: Chantel Boes\n        - text: I had mine by a window constantly and some of my leaves would grow very light green and even yellow. I moved it to the corner of the room where she can see the windows but like 10 ft away and it’s been thriving. I also neglect her. I only water when he…",
+    "reason": "First accessible money-plant brown-spot advice; retains all visible light/watering recommendations and truncation.",
+    "frozen_at": "2026-10-29T06:01:01.132597+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:01:57.499286+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

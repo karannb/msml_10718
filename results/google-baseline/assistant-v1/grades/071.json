@@ -1,0 +1,145 @@
+{
+  "reference_action": "Healthy newly purchased burros tail; OP reports thriving without burns after advice to put it outside. Match outdoor sunlight placement, not an invented diagnosis; the outcome does not establish a universal safe full-sun dose or acclimation schedule.",
+  "sources": [
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Caption explicitly uses bright light outdoors four to six hours, recovering the outdoor sunlight placement without an acclimation schedule.",
+      "evidence": [
+        "071-source-02.txt"
+      ],
+      "url": "https://www.instagram.com/reel/CujtGkXgPgW/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Recommends filtered outdoor shade/porch and indoor east-window morning sun, not a transition to outdoor sun; relevant safe-care advice but different placement.",
+      "evidence": [
+        "video-audit-XPpybhy_9ng-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=XPpybhy_9ng"
+    },
+    {
+      "rank": 4,
+      "action_hit": "unresolved",
+      "reason": "Caption is generic; recovered Portuguese-labeled automatic transcript is incoherent and cannot support a reliable action judgment.",
+      "evidence": [
+        "video-audit-ytXyKhRQoo0.txt",
+        "video-audit-ytXyKhRQoo0-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ytXyKhRQoo0"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Explicit outdoor morning sun, increasing exposure every few days, recovers outdoor sunlight placement with added acclimation safeguards. Different succulent identification disclosed.",
+      "evidence": [
+        "071-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/1621131898400259/posts/2490940701419370/"
+    },
+    {
+      "rank": 6,
+      "action_hit": "hit",
+      "reason": "Main article grows the plant outdoors in morning sun; matches outdoor sunlight with hot-sun limitations, not unrestricted all-day sun.",
+      "evidence": [
+        "071-source-06.txt"
+      ],
+      "url": "https://www.joyusgarden.com/burros-tail-care/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Place outside in bright light four to six hours",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to south window in fall/winter",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add grow light if indoor leaves keep dropping",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Check dry soil and slightly pinchable leaves before saturating",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use cactus/succulent mix with gravel",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The caption gives outdoor bright light as the main light recommendation, matching the successful placement, but includes extra care tasks and no gradual-acclimation instructions."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Soil is completely dry” with pinchable leaves provides a watering safeguard. “Bright light to full sun” lacks a transition or heat limit for a recently greenhouse-grown plant, although seasonal indoor placement is mentioned."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Four to six hours outdoors is a concrete placement matching the action credited with success. The caption is general care and does not explain how to transition from greenhouse light."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Placement and checking soil/leaves are practical and understandable. Optional grow-light and mix purchases add cost and effort beyond the actual outdoor move."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "query_index": 71,
+  "thread_id": "vrloag",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 71,
+    "thread_id": "vrloag",
+    "selected_rank": 2,
+    "source_url": "https://www.instagram.com/reel/CujtGkXgPgW/",
+    "spans": [
+      {
+        "file": "071-source-02.txt",
+        "start_line": 48,
+        "end_line": 51,
+        "sha256": "271ae485a917a56c019b10cdcfdc67f196c1b897c550a98734bf5d51c0dfdd5f",
+        "text": "  - text: \"The burros tail succulent is holding on tightly! Here’s the trick:\"\n  - text: \"☀️: it’ll do best in bright light to full sun. This one gets bright light outside 4-6 hours a day. During the fall and winter, it sits in my south facing window sill. You may have to add an additional grow light of your have it inside and it’s still drooping leaves with every little touch you give it.\"\n  - text: \"💧watering: during the fall and winter when it’s indoors, I know to water when the soil is completely dry and the leaves (beans) are able to be pinched just a bit. At that point, yes I fully saturate (drown that h*e).\"\n  - text: \"🍂 soil: I use a cactus/succulent potting mix along with added gravel.\""
+      }
+    ],
+    "advice": "  - text: \"The burros tail succulent is holding on tightly! Here’s the trick:\"\n  - text: \"☀️: it’ll do best in bright light to full sun. This one gets bright light outside 4-6 hours a day. During the fall and winter, it sits in my south facing window sill. You may have to add an additional grow light of your have it inside and it’s still drooping leaves with every little touch you give it.\"\n  - text: \"💧watering: during the fall and winter when it’s indoors, I know to water when the soil is completely dry and the leaves (beans) are able to be pinched just a bit. At that point, yes I fully saturate (drown that h*e).\"\n  - text: \"🍂 soil: I use a cactus/succulent potting mix along with added gravel.\"",
+    "reason": "First eligible accessible self-contained caption with light and care advice; no unseen reel content inferred.",
+    "frozen_at": "2026-10-29T04:56:17.843769+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:57:18.302726+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

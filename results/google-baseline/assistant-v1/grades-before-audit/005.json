@@ -1,0 +1,202 @@
+{
+  "reference_action": "Replace water fully rather than topping off, rinse/trim affected roots, provide adequate container space and diluted water-soluble nutrients; OP reports new shoot and fresh roots.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "At 0:22–1:03 water changes, jar/root rinsing and oxygen are explicit; 1:37–2:26 adds fertilizer and trimming rotten roots. These reproduce the main validated care changes despite unsafe extras.",
+      "evidence": [
+        "video-audit-nLx7-HCl01w-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=nLx7-HCl01w"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Root trimming, clean container, full fresh-water replacement every 7–10 days and liquid nutrients are all explicit in the transcript.",
+      "evidence": [
+        "video-audit-FehY0za9Xeg-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=FehY0za9Xeg"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Root oxygen is named but the fix is to dry soil and improve drainage in a potted money tree; matching a diagnosis phrase is not the hydroponic action hit.",
+      "evidence": [
+        "video-audit-GQhH7XPKbKA-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=GQhH7XPKbKA"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Pachira advice discusses soil pots, nutrients and pests, but does not provide the water-change and root-rinsing regimen for this water-grown cutting.",
+      "evidence": [
+        "video-audit-ymRhCJrvwN8-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ymRhCJrvwN8&themeRefresh=1"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Repotting and watering less are soil-plant instructions; the needed full water changes and diluted feeding are absent.",
+      "evidence": [
+        "005-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/275263620298401/posts/1291408035350616/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Replace water every 7–10 days, or about 15 days for an opaque vase, using room-temperature water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse/clean the jar",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash slime from roots under running water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place in bright indirect light",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add one or two drops of liquid fertilizer every 3–4 weeks",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Alternative: add a small iron-nail piece",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 1,
+        "unclear": false
+      },
+      {
+        "action": "Inspect roots for brown/slimy/smelly rot",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim brown or mushy roots and transfer firm roots to clean water/container",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add a pinch of rooting hormone to water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Use glass or ceramic container with room for two or three stems",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move away from AC, fans or cold drafts",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim old yellow leaves",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rotate bottle every ten days",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Water replacement, cleaning and feeding match the recovery action, but the guide lists multiple causes and adds poorly specified nutrient/rooting additives."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Change the water every 7 to 10 days” and “use room temperature water” are sound safeguards for this case. But an “iron nail” as a fertilizer alternative, a “pinch of rooting hormone,” and trimming all brown roots lack adequate justification or dosing safeguards, leaving avoidable treatment risk."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "“When water is not changed regularly, it becomes low in oxygen” directly fits the admitted topping-off behavior. Cleaning roots and adding liquid nutrients match the reference, although the iron-nail alternative is not equivalent balanced nutrition and the generic list includes unrelated causes."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Weekly changes, rinsing and rotating the bottle are practical household tasks. “One or two drops” of unspecified fertilizer and a “pinch” of rooting powder without water volume make the chemical steps ambiguous."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Keep the plant in bright indirect light only"
+    ]
+  },
+  "query_index": 5,
+  "thread_id": "1e712vo",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 5,
+    "thread_id": "1e712vo",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=nLx7-HCl01w",
+    "spans": [
+      {
+        "file": "video-audit-nLx7-HCl01w-transcript.txt",
+        "start_line": 6,
+        "end_line": 50,
+        "sha256": "5066a15cfd8ffcf8c90143a5ae9c891112926c3f78583e5bec39d04c0677da55",
+        "text": "[0:00] Your money plant leaves turn yellow in water when the plant is stressed. And\n[0:04] today I will show you exactly why it happens and how to fix it. Hey everyone,\n[0:09] this is Katie. Welcome back to Backyard. If your money plant growing in water is\n[0:13] suddenly developing yellow leaves, don't worry. This is one of the most common\n[0:17] issues and the good news is it's almost always reversible. Let's break it down\n[0:22] step by step. The real causes and the exact fixes. Dirty or stagnant water.\n[0:28] Most people think money plants can survive in any water. But stagnant,\n[0:32] dirty water is the number one reason for yellowing. When water is not changed\n[0:37] regularly, it becomes low in oxygen, high in bacteria, full of algae buildup,\n[0:43] a breeding ground for fungal infections. All of this stresses the roots and the\n[0:48] leaves turn yellow. And here's the trick. Change the water every 7 to 10\n[0:52] days. If it's in a non-transparent vase, you can change in around 15 days or\n[0:57] more. Rinse the jar properly. Wash the roots under running water to remove\n[1:03] slime. Use room temperature water, not cold or hot. Too much direct sunlight.\n[1:09] Money plants kept in water are even more sensitive to sunlight than soil grown\n[1:14] ones. Direct sun causes leaf burn, water heating up, faster algae growth inside\n[1:21] the bottle. All of this leads to yellow leaves. And here is the fix. Keep the\n[1:26] plant in bright indirect light only. Avoid windows with harsh afternoon sun.\n[1:31] North or east facing window is ideal. Low nutrients in water. So here's\n[1:37] something many people don't know. Water only hydrates the plant. It does not\n[1:41] feed it. Over time the plant becomes nutrient deficient leading to pale\n[1:47] yellow leaves, slow growth, thin stems. And here is the fix. Add one or two\n[1:53] drops of liquid fertilizer once every 3 to four weeks or drop a small piece of\n[1:58] iron nail in the jar. This slowly releases iron which helps keep leaves\n[2:03] green. Root rot inside water. If the roots look brown, slimy, smelly, then\n[2:10] the plant is suffering from root rot. This instantly shows up as yellow droopy\n[2:16] leaves. And here is the fix. Trim off all brown or mushy roots. Keep only wide\n[2:21] firm roots. Sift the plant into fresh water with a clean container. Add a\n[2:26] pinch of rooting hormone powder in water. Wrong container choice. A\n[2:31] surprising reason but very real. Transparent bottles allow light inside\n[2:36] which promotes algae growth and aluminium or rusty metal containers\n[2:41] release toxic salts. And here is the fix. Use glass or ceramic containers. If\n[2:47] using transparent glass, keep it away from direct sunlight, overcrowded stems,\n[2:53] too many cutings in one jar means less oxygen, higher competition, faster water\n[3:00] spillage, and the plant responds by geling. And here's the fix. Keep two to\n[3:05] three stems per medium jar. Give them space to grow. AC or temperature shock.\n[3:11] Money plants don't like sudden temperature changes. Cold AC air\n[3:15] directly hitting the bottle can cool down the water, shock the roots, cause\n[3:20] yellowing. And here's the fix. Keep the plant away from AC vents, fans, or cold\n[3:26] drafts. Final tips to keep money plant green and healthy in water. Follow this\n[3:31] golden routine. Change water weekly. Keep in indirect light. Give mild\n[3:36] nutrients monthly. Clean the bottle regularly. Trim old yellow leaves.\n[3:41] Rotate the bottle every 10 days for even light. Money plants are super easy, but\n[3:47] only if you understand what they need. Fix these small mistakes and your plant\n[3:51] will turn green, thick, and beautiful again. If you like the information, give"
+      }
+    ],
+    "advice": "[0:00] Your money plant leaves turn yellow in water when the plant is stressed. And\n[0:04] today I will show you exactly why it happens and how to fix it. Hey everyone,\n[0:09] this is Katie. Welcome back to Backyard. If your money plant growing in water is\n[0:13] suddenly developing yellow leaves, don't worry. This is one of the most common\n[0:17] issues and the good news is it's almost always reversible. Let's break it down\n[0:22] step by step. The real causes and the exact fixes. Dirty or stagnant water.\n[0:28] Most people think money plants can survive in any water. But stagnant,\n[0:32] dirty water is the number one reason for yellowing. When water is not changed\n[0:37] regularly, it becomes low in oxygen, high in bacteria, full of algae buildup,\n[0:43] a breeding ground for fungal infections. All of this stresses the roots and the\n[0:48] leaves turn yellow. And here's the trick. Change the water every 7 to 10\n[0:52] days. If it's in a non-transparent vase, you can change in around 15 days or\n[0:57] more. Rinse the jar properly. Wash the roots under running water to remove\n[1:03] slime. Use room temperature water, not cold or hot. Too much direct sunlight.\n[1:09] Money plants kept in water are even more sensitive to sunlight than soil grown\n[1:14] ones. Direct sun causes leaf burn, water heating up, faster algae growth inside\n[1:21] the bottle. All of this leads to yellow leaves. And here is the fix. Keep the\n[1:26] plant in bright indirect light only. Avoid windows with harsh afternoon sun.\n[1:31] North or east facing window is ideal. Low nutrients in water. So here's\n[1:37] something many people don't know. Water only hydrates the plant. It does not\n[1:41] feed it. Over time the plant becomes nutrient deficient leading to pale\n[1:47] yellow leaves, slow growth, thin stems. And here is the fix. Add one or two\n[1:53] drops of liquid fertilizer once every 3 to four weeks or drop a small piece of\n[1:58] iron nail in the jar. This slowly releases iron which helps keep leaves\n[2:03] green. Root rot inside water. If the roots look brown, slimy, smelly, then\n[2:10] the plant is suffering from root rot. This instantly shows up as yellow droopy\n[2:16] leaves. And here is the fix. Trim off all brown or mushy roots. Keep only wide\n[2:21] firm roots. Sift the plant into fresh water with a clean container. Add a\n[2:26] pinch of rooting hormone powder in water. Wrong container choice. A\n[2:31] surprising reason but very real. Transparent bottles allow light inside\n[2:36] which promotes algae growth and aluminium or rusty metal containers\n[2:41] release toxic salts. And here is the fix. Use glass or ceramic containers. If\n[2:47] using transparent glass, keep it away from direct sunlight, overcrowded stems,\n[2:53] too many cutings in one jar means less oxygen, higher competition, faster water\n[3:00] spillage, and the plant responds by geling. And here's the fix. Keep two to\n[3:05] three stems per medium jar. Give them space to grow. AC or temperature shock.\n[3:11] Money plants don't like sudden temperature changes. Cold AC air\n[3:15] directly hitting the bottle can cool down the water, shock the roots, cause\n[3:20] yellowing. And here's the fix. Keep the plant away from AC vents, fans, or cold\n[3:26] drafts. Final tips to keep money plant green and healthy in water. Follow this\n[3:31] golden routine. Change water weekly. Keep in indirect light. Give mild\n[3:36] nutrients monthly. Clean the bottle regularly. Trim old yellow leaves.\n[3:41] Rotate the bottle every 10 days for even light. Money plants are super easy, but\n[3:47] only if you understand what they need. Fix these small mistakes and your plant\n[3:51] will turn green, thick, and beautiful again. If you like the information, give",
+    "reason": "First result directly addresses yellowing water-grown money plants. Freeze complete transcript care advice, including iron-nail and rooting-powder suggestions.",
+    "frozen_at": "2026-10-29T04:04:56.992909+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:06:14.087616+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

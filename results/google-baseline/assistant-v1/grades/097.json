@@ -1,0 +1,158 @@
+{
+  "reference_action": "OP confirms regular misting and healthier appearance after advice to increase humidity for tearing during leaf development. Reference also mentions chewing pests, but supplied outcome does not confirm finding/treating pests; comparison is to humidity intervention. Reported improvement does not establish misting as sustained humidity control.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Audit: “may be happier with some humidity” gives no executable humidity intervention; diagnosis or a desired condition alone does not retrieve the confirmed misting action.",
+      "evidence": [
+        "097-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/24758238557170956/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "At 5:47 explicitly place near humidifier and away from heat for dry leaf margins. Matches intended humidity change rather than exact misting method.",
+      "evidence": [
+        "097-source-02-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=4fSI_F4opvU"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "At 2:18 recommends pebble-water tray when air lacks humidity. Partial intended-action match; also warns against misting and gives unrelated fungal treatment.",
+      "evidence": [
+        "video-audit--HYJnYaGzao-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=-HYJnYaGzao"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "At 5:42 grouping, misting regularly and humidity tray explicitly reproduce the humidity/misting action.",
+      "evidence": [
+        "video-audit-gkQA1BELjEw-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=gkQA1BELjEw&themeRefresh=1"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Cosmetic trimming plus cause list; no actionable increase-humidity instruction.",
+      "evidence": [
+        "video-audit-qwP1Mc15660-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=qwP1Mc15660"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Use filtered or distilled water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Inspect beneath plant/root zone for cause",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Increase humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Bottom water to keep surface drier",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Set bowls of apple-cider vinegar, water and dish soap",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": true
+      }
+    ],
+    "reason": "Humidity action matches intended remedy but is buried amid water-mineral claims and gnat treatment for a different post. Method/target and trap ratios are unspecified; root inspection is vague."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The suggestion to “see what’s going on under” encourages checking rather than automatically treating rot. However, adding bottom watering despite prolonged wet soil and using vague humidity advice lacks safeguards against further wetness; serious damage is not established."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "“May be happier with some humidity” overlaps the reference. Exclusive filtered-water claims and gnat remedies are unsupported for this question and do not explain tears during leaf development."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Alternative water and simple bowls are easy to obtain. Humidity method, root-check detail and trap proportions are missing, and bottom watering adds time without a clear endpoint."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 97,
+  "thread_id": "1bgt7ji",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 97,
+    "thread_id": "1bgt7ji",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/199630400125113/posts/24758238557170956/",
+    "spans": [
+      {
+        "file": "097-source-01.txt",
+        "start_line": 58,
+        "end_line": 85,
+        "sha256": "a7218df3eff619f271f470e2d6965a339f17955cd64ae3f02ed0cd9f95f40c74",
+        "text": "        - generic: This plant will only tolerate filtered or distilled water. Gets these spots otherwise\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/24758238557170956/?comment_id=24759322987062513&__cft__[0]=AZh_kOMK7ftRNURBK7KHsu8xf5Zd6T0VbPGFrfVmj3oneYhpgEXyNA3KFpcwd5iQyHFNEGin5E9KWjyDDntuxv2BQXYcHCxtaU25Af67qYesZm8Ava-HUTS6H30gePLW0gJ8z730bZ0yKNZ6rXzRI8lYIwokzSZr3afAaABVsi0bUWWR1BJn63HwU2W553G_&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Stephanie G. Tacci a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Stephanie G. Tacci\":\n          - generic: Stephanie G. Tacci\n        - generic: Crispy edges could be over or under watering. Rust spot can be fungal.\n        - generic: U need to see what’s going on under to see what could be the issue.\n        - generic: Tap water also has a lots mineral that this play dislikes\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/24758238560504289/?comment_id=24758275353833943&__cft__[0]=AZh_kOMK7ftRNURBK7KHsu8xf5Zd6T0VbPGFrfVmj3oneYhpgEXyNA3KFpcwd5iQyHFNEGin5E9KWjyDDntuxv2BQXYcHCxtaU25Af67qYesZm8Ava-HUTS6H30gePLW0gJ8z730bZ0yKNZ6rXzRI8lYIwokzSZr3afAaABVsi0bUWWR1BJn63HwU2W553G_&__tn__=R]-R\n      - article \"Comment by Xavier Juliette a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Xavier Juliette\":\n          - generic: Xavier Juliette\n        - generic: Brown leaves are an indication of low humidity.\n        - generic: It may be happier with some humidity.\n        - generic: The gnats are a nightmare. They’re living in the moist soil at the surface. Bottom feeding would help to keep the top soil dry.\n        - generic: What helped me a ton was placing small bowls with part apple cider vinegar, water and a dawn dish soap around my plants. Drowned those suckers"
+      }
+    ],
+    "advice": "        - generic: This plant will only tolerate filtered or distilled water. Gets these spots otherwise\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/24758238557170956/?comment_id=24759322987062513&__cft__[0]=AZh_kOMK7ftRNURBK7KHsu8xf5Zd6T0VbPGFrfVmj3oneYhpgEXyNA3KFpcwd5iQyHFNEGin5E9KWjyDDntuxv2BQXYcHCxtaU25Af67qYesZm8Ava-HUTS6H30gePLW0gJ8z730bZ0yKNZ6rXzRI8lYIwokzSZr3afAaABVsi0bUWWR1BJn63HwU2W553G_&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Stephanie G. Tacci a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Stephanie G. Tacci\":\n          - generic: Stephanie G. Tacci\n        - generic: Crispy edges could be over or under watering. Rust spot can be fungal.\n        - generic: U need to see what’s going on under to see what could be the issue.\n        - generic: Tap water also has a lots mineral that this play dislikes\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/199630400125113/posts/24758238560504289/?comment_id=24758275353833943&__cft__[0]=AZh_kOMK7ftRNURBK7KHsu8xf5Zd6T0VbPGFrfVmj3oneYhpgEXyNA3KFpcwd5iQyHFNEGin5E9KWjyDDntuxv2BQXYcHCxtaU25Af67qYesZm8Ava-HUTS6H30gePLW0gJ8z730bZ0yKNZ6rXzRI8lYIwokzSZr3afAaABVsi0bUWWR1BJn63HwU2W553G_&__tn__=R]-R\n      - article \"Comment by Xavier Juliette a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Xavier Juliette\":\n          - generic: Xavier Juliette\n        - generic: Brown leaves are an indication of low humidity.\n        - generic: It may be happier with some humidity.\n        - generic: The gnats are a nightmare. They’re living in the moist soil at the surface. Bottom feeding would help to keep the top soil dry.\n        - generic: What helped me a ton was placing small bowls with part apple cider vinegar, water and a dawn dish soap around my plants. Drowned those suckers",
+    "reason": "First result supplies leaf-spot care and root inspection; preserve all visible treatment and gnat advice before reference.",
+    "frozen_at": "2026-10-29T05:18:00.208553+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:47:57.239936+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  },
+  "consistency_audit": {
+    "version": "1.2",
+    "at": "2026-10-29T06:47:57.238912+00:00",
+    "changes": [
+      {
+        "query_index": 97,
+        "rank": 1,
+        "field": "source_action_hit",
+        "before": "hit",
+        "after": "miss",
+        "reason": "Audit: “may be happier with some humidity” gives no executable humidity intervention; diagnosis or a desired condition alone does not retrieve the confirmed misting action."
+      }
+    ]
+  }
+}

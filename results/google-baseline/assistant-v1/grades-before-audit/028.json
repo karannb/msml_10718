@@ -1,0 +1,144 @@
+{
+  "reference_action": "Aphids and their white shed skins: repeatedly rinse plants under sink sprayer, dislodge or squash remaining aphids and monitor. OP reports control after repeated spraying and some damaged-leaf removal.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "The protocol includes washing the entire plant with plain water the next morning and checking leaves/stems, which supplies physical rinsing. Shampoo treatment is unnecessary and not endorsed, and the main pest identification is wrong.",
+      "evidence": [
+        "video-audit-AiCtsKjgtGE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=AiCtsKjgtGE"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Includes physically wiping aphids off with a brush and optional water rinsing, matching mechanical removal. Its alcohol regimen is additional and not endorsed by this hit judgment.",
+      "evidence": [
+        "video-audit-SDSeTHg4QVs-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=SDSeTHg4QVs"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Explicitly includes plain-water treatment of leaf undersides, overlapping the central rinse, though it primarily discusses whiteflies and other controls.",
+      "evidence": [
+        "video-audit-rFvkbfzT7-s-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=rFvkbfzT7-s&themeRefresh=1"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "First method is a jet of water focused under leaves, with soap-free sponge for delicate plants. This directly supplies the validated physical removal despite the whitefly diagnosis and other extras.",
+      "evidence": [
+        "video-audit-4cj-CQLCLM8-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=4cj-CQLCLM8"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Final answer explicitly washes affected herbs separately, and another suggests a water dunk followed by drainage. These overlap physical water removal; predators/vacuum/wasp alternatives are not the validated method.",
+      "evidence": [
+        "028-source-05.txt"
+      ],
+      "url": "https://gardening.stackexchange.com/questions/761/how-do-i-get-rid-of-white-flies-on-my-basil"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Mix 3–4 ml shampoo per litre of water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Spray all leaf surfaces and stems in evening; repeat within a week if needed",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash off with plain water next morning",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect leaves and stems for remaining pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use organic shampoo as alternative",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "Main mealybug diagnosis and shampoo spray differ from the aphid rinse remedy; rinsing overlaps the fix but arbitrary shampoo on edible herbs carries avoidable damage/residue risk."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Any shampoo” and changing concentration with infestation intensity do not establish plant or edible-crop suitability. Evening application and next-morning rinsing reduce exposure, but claims about “edible shampoos” or harmless small quantities are not adequate safeguards."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The answer labels the white bugs mealybugs, whereas the reference identifies aphids and shed skins. Plain-water washing overlaps the validated remedy, but it is secondary to an unnecessary shampoo regimen."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The 3–4 ml per litre recipe, evening spray and next-morning rinse are concrete and use common supplies. Choosing an unspecified “organic” substitute and adjusting concentration add ambiguity, but the mechanical steps are easy to carry out."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 28,
+  "thread_id": "1v34ogp",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 28,
+    "thread_id": "1v34ogp",
+    "selected_rank": 1,
+    "source_url": "https://www.youtube.com/watch?v=AiCtsKjgtGE",
+    "spans": [
+      {
+        "file": "video-audit-AiCtsKjgtGE-transcript.txt",
+        "start_line": 6,
+        "end_line": 65,
+        "sha256": "1cc3976ae01d076c698a60996ae9cd7ff49b4c3714582437ef176aaa31cecfd8",
+        "text": "[0:00] hey guys very recently I did a survey I asked you people if you have ever had a\n[0:05] Milly bug problem are these white bugs that you see on the plants interestingly\n[0:10] about 80% people on Instagram and about 500 people on the YouTube community tab\n[0:17] said that yes they have had a Milly bug problem and they would really like a\n[0:21] solution so today I'm going to talk all about it here I have a tomato plant\n[0:28] which have festered by Milly bugs actually this problem is also common in\n[0:33] hibiscus I had a hibiscus plant which was heavily infected by them but I\n[0:38] treated it and I didn't want to keep it for till the video because it was\n[0:42] turning yellow okay so before I jump onto the solution of what you're\n[0:46] supposed to do I would really like you to understand why these Milly bugs\n[0:52] appear on your plant and what is the basic science behind them it just makes\n[0:57] it easier to understand and to control such problems you know you can always\n[1:01] apply a chemical and deal with them but it is always better to have a little\n[1:05] more understanding of the plant since you were a gardener or you like to keep\n[1:09] plants to know you know what is really going around so I'll try and explain\n[1:14] very quickly see these Milly bugs are they soft bodied insects now if you have\n[1:22] Milly bugs in your garden I'm sure you have also seen ants in your garden and a\n[1:28] lot of people complain that you know I haven't I have treated them with so many\n[1:32] chemicals and nothing is happening interestingly these ands and these Milly\n[1:37] bugs have a very good relationship it's like by Chara they have a mutualistic\n[1:42] relationship what happens these aphids they feed on the stem and leaves of the\n[1:48] plant and get sugar substance basically the plant food out of the plant so now\n[1:53] these Millie bugs will offer this sugar food to the ants and the ants in return\n[1:59] will give them protection so they have this you know mutual understanding as a\n[2:04] result it's very difficult to get rid of these Millie bugs because the ions will\n[2:09] make sure that you know no other insect comes and feeds on them and these Millie\n[2:13] bugs we'll keep giving them food so the\n[2:15] solution that I use is very simple you use shampoo you would need to use about\n[2:22] 3 ml of any shampoo and add this in 1 liter of water for this I would highly\n[2:28] recommend that you use a spring pump all if you don't have something like this\n[2:33] you could also use sprays that come for barber shops you can attach them on a\n[2:39] plastic bottle and they're good enough to use the concentration of the shampoo\n[2:44] in this water could also depend on how intense the problem of infection is I\n[2:49] use about 3/4 ml in 1 liter of water we will just cover this up shake it\n[2:57] properly and pump in the air now you just spray this over your plant spray it\n[3:05] nicely spread under the leaves on the leaves on the stem within 2 3 hours you\n[3:13] would notice that these milla bugs start dying and also the number of ants would\n[3:19] reduce heavily now a tip for using the solution is do this in the evening or at\n[3:25] night the reason is because most of the plant activity that is making its food\n[3:31] or evaporation and everything is happening mostly in the daytime and the\n[3:38] Sun is also intense so if you cover it with this you know shampoo solution all\n[3:42] over it will disturb the plants daily activities and also might kill it so\n[3:49] don't do this in the morning do it in the evening and what you have to do the\n[3:53] other day is before the Sun is up like before 12 o'clock noon use plain water\n[4:00] to wash off all of the solution from your plant so by the time the Sun will\n[4:05] be up your plant will be healthy and once you are done with RO spraying you\n[4:10] can just check the leaves properly both underneath and on the stem you would see\n[4:16] that the Millie bug have reduced a lot on the plant okay even if this once\n[4:22] treatment does not reduce the number of millibars you can do this again\n[4:27] and within a week of time I know a lot of you might be wondering that hey you\n[4:34] know we were all in for organic farming and why are you using chemicals to do\n[4:38] everything completely organic you can use an organic shampoo there are edible\n[4:43] shampoos there are shampoos that do not have chemicals any harsh chemicals you\n[4:47] can use the exact same method with those organic shampoos as well for me I think\n[4:52] this shampoo is fine because I'm using it in a very less amount and I'm not\n[4:58] really you know putting it as water to the plant\n[5:01] it's just sprayed on the leaves and then washed away some of it while you wash it\n[5:07] also goes into the soil but it's very small amount I don't think it will have\n[5:11] a major impact on the plant but if you still want to be absolutely sure you can\n[5:16] go ahead and use organic shampoos and and before you leave for today guys I"
+      }
+    ],
+    "advice": "[0:00] hey guys very recently I did a survey I asked you people if you have ever had a\n[0:05] Milly bug problem are these white bugs that you see on the plants interestingly\n[0:10] about 80% people on Instagram and about 500 people on the YouTube community tab\n[0:17] said that yes they have had a Milly bug problem and they would really like a\n[0:21] solution so today I'm going to talk all about it here I have a tomato plant\n[0:28] which have festered by Milly bugs actually this problem is also common in\n[0:33] hibiscus I had a hibiscus plant which was heavily infected by them but I\n[0:38] treated it and I didn't want to keep it for till the video because it was\n[0:42] turning yellow okay so before I jump onto the solution of what you're\n[0:46] supposed to do I would really like you to understand why these Milly bugs\n[0:52] appear on your plant and what is the basic science behind them it just makes\n[0:57] it easier to understand and to control such problems you know you can always\n[1:01] apply a chemical and deal with them but it is always better to have a little\n[1:05] more understanding of the plant since you were a gardener or you like to keep\n[1:09] plants to know you know what is really going around so I'll try and explain\n[1:14] very quickly see these Milly bugs are they soft bodied insects now if you have\n[1:22] Milly bugs in your garden I'm sure you have also seen ants in your garden and a\n[1:28] lot of people complain that you know I haven't I have treated them with so many\n[1:32] chemicals and nothing is happening interestingly these ands and these Milly\n[1:37] bugs have a very good relationship it's like by Chara they have a mutualistic\n[1:42] relationship what happens these aphids they feed on the stem and leaves of the\n[1:48] plant and get sugar substance basically the plant food out of the plant so now\n[1:53] these Millie bugs will offer this sugar food to the ants and the ants in return\n[1:59] will give them protection so they have this you know mutual understanding as a\n[2:04] result it's very difficult to get rid of these Millie bugs because the ions will\n[2:09] make sure that you know no other insect comes and feeds on them and these Millie\n[2:13] bugs we'll keep giving them food so the\n[2:15] solution that I use is very simple you use shampoo you would need to use about\n[2:22] 3 ml of any shampoo and add this in 1 liter of water for this I would highly\n[2:28] recommend that you use a spring pump all if you don't have something like this\n[2:33] you could also use sprays that come for barber shops you can attach them on a\n[2:39] plastic bottle and they're good enough to use the concentration of the shampoo\n[2:44] in this water could also depend on how intense the problem of infection is I\n[2:49] use about 3/4 ml in 1 liter of water we will just cover this up shake it\n[2:57] properly and pump in the air now you just spray this over your plant spray it\n[3:05] nicely spread under the leaves on the leaves on the stem within 2 3 hours you\n[3:13] would notice that these milla bugs start dying and also the number of ants would\n[3:19] reduce heavily now a tip for using the solution is do this in the evening or at\n[3:25] night the reason is because most of the plant activity that is making its food\n[3:31] or evaporation and everything is happening mostly in the daytime and the\n[3:38] Sun is also intense so if you cover it with this you know shampoo solution all\n[3:42] over it will disturb the plants daily activities and also might kill it so\n[3:49] don't do this in the morning do it in the evening and what you have to do the\n[3:53] other day is before the Sun is up like before 12 o'clock noon use plain water\n[4:00] to wash off all of the solution from your plant so by the time the Sun will\n[4:05] be up your plant will be healthy and once you are done with RO spraying you\n[4:10] can just check the leaves properly both underneath and on the stem you would see\n[4:16] that the Millie bug have reduced a lot on the plant okay even if this once\n[4:22] treatment does not reduce the number of millibars you can do this again\n[4:27] and within a week of time I know a lot of you might be wondering that hey you\n[4:34] know we were all in for organic farming and why are you using chemicals to do\n[4:38] everything completely organic you can use an organic shampoo there are edible\n[4:43] shampoos there are shampoos that do not have chemicals any harsh chemicals you\n[4:47] can use the exact same method with those organic shampoos as well for me I think\n[4:52] this shampoo is fine because I'm using it in a very less amount and I'm not\n[4:58] really you know putting it as water to the plant\n[5:01] it's just sprayed on the leaves and then washed away some of it while you wash it\n[5:07] also goes into the soil but it's very small amount I don't think it will have\n[5:11] a major impact on the plant but if you still want to be absolutely sure you can\n[5:16] go ahead and use organic shampoos and and before you leave for today guys I",
+    "reason": "First usable result; complete mealybug/shampoo treatment transcript.",
+    "frozen_at": "2026-10-29T04:26:03.033089+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:27:26.657837+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

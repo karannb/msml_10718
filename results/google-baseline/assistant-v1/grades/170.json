@@ -1,0 +1,158 @@
+{
+  "reference_action": "Reference labels nutrient deficiency; outcome reports greener new leaves after feeding. Evaluation records action-category agreement only.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Feeding section supplies a fertilizer option; broad action-category overlap, not case-specific diagnosis.",
+      "evidence": [
+        "170-source-01.txt"
+      ],
+      "url": "https://homesteadandchill.com/houseplant-care-101/?srsltid=AYCX9vIvYIKNYW_RFiVao6tzlAXQ1hXp_YYLoTOUcotfT554ho5EBCCf"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "Fertilizing section recommends balanced fertilizer with label precautions.",
+      "evidence": [
+        "170-source-02.txt"
+      ],
+      "url": "https://mahoneysgarden.com/a-beginners-guide-caring-for-houseplants/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "hit",
+      "reason": "Readable commenter recommends balanced fertilizer; broad overlap, not the main article diagnosis.",
+      "evidence": [
+        "170-source-03.txt"
+      ],
+      "url": "https://www.pickuplimes.com/article/houseplant-care-tips-for-beginners-99"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Unsubstantiated rice-water tonic in a root-rot rescue is not established equivalent nutrient replacement.",
+      "evidence": [
+        "video-audit-Baa6HHZIxMQ-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=Baa6HHZIxMQ"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Banana-water anecdote and succulent light/soil care do not establish equivalent feeding for the reference deficiency.",
+      "evidence": [
+        "170-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/groups/199630400125113/posts/25977796565215143/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Follow generic watering routine",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Check substrate moisture",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Distribute water over substrate",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Address surface compaction",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use listed feeding alternative",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "Generic ornamental-houseplant care includes feeding but does not diagnose the pictured chlorosis. Alternatives and schedule remain nonspecific."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“When in doubt, water less” and a shared calendar routine may misdirect a nutrient problem. Label-based dilution helps one feeding option, but other homemade options are inadequately justified."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The feeding section overlaps at a broad level. The answer does not distinguish the visible symptom from routine ornamental-houseplant maintenance."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Basic moisture checks are simple. Multiple linked feeding alternatives leave substantial interpretation and some ingredients require preparation."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 170,
+  "thread_id": "1vh0kfh",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 170,
+    "thread_id": "1vh0kfh",
+    "selected_rank": 1,
+    "source_url": "https://homesteadandchill.com/houseplant-care-101/?srsltid=AYCX9vIvYIKNYW_RFiVao6tzlAXQ1hXp_YYLoTOUcotfT554ho5EBCCf",
+    "spans": [
+      {
+        "file": "170-source-01.txt",
+        "start_line": 456,
+        "end_line": 497,
+        "sha256": "b34d7c7bd5fab6d63cc7b4aba67c47e9750648a0a764d6de09bb1d988d1eae3e",
+        "text": "  - heading \"WATER\" [level=2]: WATER\n  - paragraph:\n    - text: If you are struggling with houseplants, improper watering is a very likely culprit. I’d even venture to bet that\n    - strong: overwatering is the number one killer of all houseplants!\n    - text: Particularly if this practice is combined with a lack of drainage holes in the pot.\n  - heading \"How much should I water my houseplants?\" [level=3]: How much should I water my houseplants?\n  - paragraph: When it comes to watering houseplants, more is not better.\n  - paragraph:\n    - text: The recommendation for many houseplants is to\n    - emphasis: allow the soil to slightly dry between waterings.\n    - text: Maybe not entirely dry, but your plant should certainly not be sitting in wet, soggy soil all of the time. They\n    - strong: breathe\n    - text: through their roots after all!\n  - paragraph:\n    - text: I can’t tell you an exact amount of water to use, since this is going to vary depending on your climate, size of pot, soil type, and so on. A few of our largest pots\n    - strong: may get several cups\n    - text: each time they’re watered (elephant ears), some small and drought-tolerant plants\n    - strong: only get a little splash\n    - text: (cacti and snake plants), while others get something in between. You’ll develop your own groove and learn what your plants like with time.\n  - paragraph: In general, the goal is to provide enough water to dampen the soil for the roots, but not so much that it is pouring out of the drainage hole excessively, or not able to dry a bit between waterings. Which leads us to….\n  - heading \"How often should I water my houseplants?\" [level=3]: How often should I water my houseplants?\n  - paragraph:\n    - text: Again, your schedule may vary slightly from mine, but I do suggest you\n    - strong: get a regular watering routine down\n    - text: . Your plant friends will appreciate a consistent watering application. Plus, developing a routine will help you remember when to water or not! I water all of our potted houseplants once a week on Sunday, and the\n    - link \"air plants\":\n      - /url: https://homesteadandchill.com/air-plant-care-101/\n    - text: usually every other week. Some of our plants could easily go two weeks or more without water, but it is easiest for me to do them all at once than remember individual schedules. Therefore, I simply\n    - emphasis: vary the amount of water\n    - text: given to each plant to meet its needs.\n  - paragraph:\n    - text: If you aren’t sure about the moisture content of your soil, do a little exploring!\n    - strong\n    - text: Poke. Poke. Even if the top layer of soil looks dry, it could be quite damp an inch or two below the surface.\n  - paragraph:\n    - text: When in doubt, water less. But if a plant begins to\n    - strong: wilt\n    - text: \", you’ve let it dry out too much.\"\n  - paragraph:\n    - strong: \"Here is a good example:\"\n    - text: We were recently gone for two weeks on vacation. My mom was house sitting and gave a few of our most thirsty plants a little drink. Yet rather than trying to have her guess and adjust for the rest of them, I told her not to bother watering at all. We watered once before we left and again when we got back, and everyone survived. The plants at my office went for nearly three weeks without water during that time! The fiddle leaf fig there looked quite limp and wilted, but perked right back up after being watered. It didn’t even drop a leaf.\n    - strong: Brown spots or leaf drop on fiddle leaf fig leaves is usually caused by overwatering."
+      },
+      {
+        "file": "170-source-01.txt",
+        "start_line": 517,
+        "end_line": 529,
+        "sha256": "b34d7c7bd5fab6d63cc7b4aba67c47e9750648a0a764d6de09bb1d988d1eae3e",
+        "text": "  - heading \"Other watering tips\" [level=3]: Other watering tips\n  - paragraph:\n    - text: When you water your plants, drizzle water\n    - strong: evenly\n    - text: over the entire top of the soil. Meaning, don’t just dump water right in the center or on one spot all the time. That causes water to rush through that one area, and possibly leave other sections totally dry. Even water distribution encourages healthier root development and better water retention.\n  - paragraph:\n    - text: Also pay attention to how the water is behaving when you apply it to the soil surface. Is it quickly\n    - strong: absorbing?\n    - text: Or does it just sit there, pooling? It is not uncommon for the top of the soil to cake up. Also, the soil may pull away from the sides of the pot. So when you go to water, it may run right off the surface, down the insides of the pot, and out the bottom drainage hole. If you aren’t paying attention, you may think you’re overwatering – but it is actually totally bypassing the soil and roots!\n  - paragraph:\n    - text: To solve this, use a chopstick, pencil, or small stake to\n    - strong: poke holes in the top couple inches of the soil\n    - text: and lightly break it up. The result is increased aeration and pockets for the water to better absorb!"
+      },
+      {
+        "file": "170-source-01.txt",
+        "start_line": 548,
+        "end_line": 569,
+        "sha256": "b34d7c7bd5fab6d63cc7b4aba67c47e9750648a0a764d6de09bb1d988d1eae3e",
+        "text": "  - heading \"FOOD\" [level=2]: FOOD\n  - paragraph:\n    - text: \"I will be the first to admit: I am not good about feeding my houseplants. More attentive plant parents may stick to a monthly fertilizer routine. Me? Our babies are lucky to get fed once or twice per year. It’s okay – they seem to forgive me! I do think they’d probably appreciate a bit more often – like\"\n    - strong: every 3 months or so\n    - text: – something I am trying to get better with.\n  - paragraph: \"To feed our houseplants, we either water them with dilute seaweed extract, an aloe vera soil drench, or homemade actively aerated compost tea (AACT). To read more about these things, check out the following articles:\"\n  - list:\n    - link \"Seaweed (opens in a new tab)\":\n      - /url: https://homesteadandchill.com/feed-seedlings-seaweed-extract/\n      - text: How & Why to Feed Seedlings with Seaweed Extract\n    - link \"How to Grow & Use Aloe Vera - in Your Garden & Beyond (opens in a new tab)\":\n      - /url: https://homesteadandchill.com/how-to-grow-aloe-vera/\n      - text: \"How to Grow & Use Aloe Vera: In the Garden & Beyond\"\n    - link \"Make Actively Aerated Compost Tea to Feed Your Garden (opens in a new tab)\":\n      - /url: https://homesteadandchill.com/actively-aerated-compost-tea/\n      - text: Make Actively Aerated Compost Tea to Feed Your Garden\n  - paragraph:\n    - text: Of all these methods, using seaweed is definitely the most simple and straightforward!\n    - link \"This is the seaweed extract we love and use in our garden. (opens in a new tab)\":\n      - /url: https://www.amazon.com/dp/B000NCUUXM/?cv_ct_id=amzn1.idea.1N9KLPCLJWHG3&cv_ct_pg=storefront&cv_ct_wn=aip-storefront&ref=exp_cov_deannacat3_dp_vv_d\n      - text: This is the seaweed extract we love and use in our garden.\n    - text: Just follow the dilution instructions on the bottle."
+      }
+    ],
+    "advice": "  - heading \"WATER\" [level=2]: WATER\n  - paragraph:\n    - text: If you are struggling with houseplants, improper watering is a very likely culprit. I’d even venture to bet that\n    - strong: overwatering is the number one killer of all houseplants!\n    - text: Particularly if this practice is combined with a lack of drainage holes in the pot.\n  - heading \"How much should I water my houseplants?\" [level=3]: How much should I water my houseplants?\n  - paragraph: When it comes to watering houseplants, more is not better.\n  - paragraph:\n    - text: The recommendation for many houseplants is to\n    - emphasis: allow the soil to slightly dry between waterings.\n    - text: Maybe not entirely dry, but your plant should certainly not be sitting in wet, soggy soil all of the time. They\n    - strong: breathe\n    - text: through their roots after all!\n  - paragraph:\n    - text: I can’t tell you an exact amount of water to use, since this is going to vary depending on your climate, size of pot, soil type, and so on. A few of our largest pots\n    - strong: may get several cups\n    - text: each time they’re watered (elephant ears), some small and drought-tolerant plants\n    - strong: only get a little splash\n    - text: (cacti and snake plants), while others get something in between. You’ll develop your own groove and learn what your plants like with time.\n  - paragraph: In general, the goal is to provide enough water to dampen the soil for the roots, but not so much that it is pouring out of the drainage hole excessively, or not able to dry a bit between waterings. Which leads us to….\n  - heading \"How often should I water my houseplants?\" [level=3]: How often should I water my houseplants?\n  - paragraph:\n    - text: Again, your schedule may vary slightly from mine, but I do suggest you\n    - strong: get a regular watering routine down\n    - text: . Your plant friends will appreciate a consistent watering application. Plus, developing a routine will help you remember when to water or not! I water all of our potted houseplants once a week on Sunday, and the\n    - link \"air plants\":\n      - /url: https://homesteadandchill.com/air-plant-care-101/\n    - text: usually every other week. Some of our plants could easily go two weeks or more without water, but it is easiest for me to do them all at once than remember individual schedules. Therefore, I simply\n    - emphasis: vary the amount of water\n    - text: given to each plant to meet its needs.\n  - paragraph:\n    - text: If you aren’t sure about the moisture content of your soil, do a little exploring!\n    - strong\n    - text: Poke. Poke. Even if the top layer of soil looks dry, it could be quite damp an inch or two below the surface.\n  - paragraph:\n    - text: When in doubt, water less. But if a plant begins to\n    - strong: wilt\n    - text: \", you’ve let it dry out too much.\"\n  - paragraph:\n    - strong: \"Here is a good example:\"\n    - text: We were recently gone for two weeks on vacation. My mom was house sitting and gave a few of our most thirsty plants a little drink. Yet rather than trying to have her guess and adjust for the rest of them, I told her not to bother watering at all. We watered once before we left and again when we got back, and everyone survived. The plants at my office went for nearly three weeks without water during that time! The fiddle leaf fig there looked quite limp and wilted, but perked right back up after being watered. It didn’t even drop a leaf.\n    - strong: Brown spots or leaf drop on fiddle leaf fig leaves is usually caused by overwatering.\n\n  - heading \"Other watering tips\" [level=3]: Other watering tips\n  - paragraph:\n    - text: When you water your plants, drizzle water\n    - strong: evenly\n    - text: over the entire top of the soil. Meaning, don’t just dump water right in the center or on one spot all the time. That causes water to rush through that one area, and possibly leave other sections totally dry. Even water distribution encourages healthier root development and better water retention.\n  - paragraph:\n    - text: Also pay attention to how the water is behaving when you apply it to the soil surface. Is it quickly\n    - strong: absorbing?\n    - text: Or does it just sit there, pooling? It is not uncommon for the top of the soil to cake up. Also, the soil may pull away from the sides of the pot. So when you go to water, it may run right off the surface, down the insides of the pot, and out the bottom drainage hole. If you aren’t paying attention, you may think you’re overwatering – but it is actually totally bypassing the soil and roots!\n  - paragraph:\n    - text: To solve this, use a chopstick, pencil, or small stake to\n    - strong: poke holes in the top couple inches of the soil\n    - text: and lightly break it up. The result is increased aeration and pockets for the water to better absorb!\n\n  - heading \"FOOD\" [level=2]: FOOD\n  - paragraph:\n    - text: \"I will be the first to admit: I am not good about feeding my houseplants. More attentive plant parents may stick to a monthly fertilizer routine. Me? Our babies are lucky to get fed once or twice per year. It’s okay – they seem to forgive me! I do think they’d probably appreciate a bit more often – like\"\n    - strong: every 3 months or so\n    - text: – something I am trying to get better with.\n  - paragraph: \"To feed our houseplants, we either water them with dilute seaweed extract, an aloe vera soil drench, or homemade actively aerated compost tea (AACT). To read more about these things, check out the following articles:\"\n  - list:\n    - link \"Seaweed (opens in a new tab)\":\n      - /url: https://homesteadandchill.com/feed-seedlings-seaweed-extract/\n      - text: How & Why to Feed Seedlings with Seaweed Extract\n    - link \"How to Grow & Use Aloe Vera - in Your Garden & Beyond (opens in a new tab)\":\n      - /url: https://homesteadandchill.com/how-to-grow-aloe-vera/\n      - text: \"How to Grow & Use Aloe Vera: In the Garden & Beyond\"\n    - link \"Make Actively Aerated Compost Tea to Feed Your Garden (opens in a new tab)\":\n      - /url: https://homesteadandchill.com/actively-aerated-compost-tea/\n      - text: Make Actively Aerated Compost Tea to Feed Your Garden\n  - paragraph:\n    - text: Of all these methods, using seaweed is definitely the most simple and straightforward!\n    - link \"This is the seaweed extract we love and use in our garden. (opens in a new tab)\":\n      - /url: https://www.amazon.com/dp/B000NCUUXM/?cv_ct_id=amzn1.idea.1N9KLPCLJWHG3&cv_ct_pg=storefront&cv_ct_wn=aip-storefront&ref=exp_cov_deannacat3_dp_vv_d\n      - text: This is the seaweed extract we love and use in our garden.\n    - text: Just follow the dilution instructions on the bottle.",
+    "reason": "Question photo shows chlorotic/wilting foliage; freeze watering and feeding sections before reference. General plant purchasing/hanging/pet sections are irrelevant.",
+    "frozen_at": "2026-10-29T06:22:41.023245+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:23:54.846415+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

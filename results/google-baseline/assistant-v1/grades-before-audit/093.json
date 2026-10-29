@@ -1,0 +1,166 @@
+{
+  "reference_action": "Advice was to untangle multiple money trees. OP says they cut it that day and noticed the trees separating themselves and growing taller. Releasing ties/constriction is a functional partial match; generic growth care or removing only a dead stem is not.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "miss",
+      "reason": "Pruning, light, conditional repotting, feeding, moisture and patience omit releasing/untangling the multiple trunks.",
+      "evidence": [
+        "093-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/838691471003309/posts/1074931100712677/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "hit",
+      "reason": "At 0:25 explicitly remove tape holding trunks together because it constricts growing trunks; recognizes multiple plants. Direct functional match to cutting the restraint and permitting separation.",
+      "evidence": [
+        "video-audit-OIUBak9sOOE-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=OIUBak9sOOE"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "General care including pruning and repotting, no untangling or removal of bands. Creator Made with AI disclosed in source page; no Google AI content used.",
+      "evidence": [
+        "video-audit-ap-GmJK-dJ8-transcript.txt",
+        "video-audit-ap-GmJK-dJ8.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=ap-GmJK-dJ8"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Position/repot advice for small leaves after moving, without untangling.",
+      "evidence": [
+        "093-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/plantohlicsgardeningideasandmoreindia/posts/2658462564408281/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "At 5:27 explicitly remove constricting rubber band, with same-size repot permitted. Functional release match, though not full manual unbraiding.",
+      "evidence": [
+        "video-audit-rBKbjPzmXSk-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=rBKbjPzmXSk"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Prune one inch above node",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Apply half-strength liquid feed monthly March to October after growth resumes",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Inspect rootball relative to pot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into two-inch-larger clay/nursery pot if rootbound",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Check soil with pencil",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bottom water when pencil comes out clean",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Amend potting soil with perlite and orchid bark",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      }
+    ],
+    "reason": "No diagnosis or fix for constriction. Conditional repotting limits unnecessary work, but rootball threshold is nonsensical as worded and pruning conflicts with goal of taller growth."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Only then” repot and checking soil before water provide safeguards. Unneeded pruning and a confused pot-size threshold can cause avoidable setbacks, but no clear instruction likely to severely damage the plant is established."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The answer focuses on pruning and light, whereas the validated change releases the multiple trees. “Bushier, not taller” correctly challenges the first comment, but the complete answer still never addresses the tangled trunks."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Half-strength monthly feeding and a cut above a node are concrete. The statement “rootball is more than 2” bigger than the pot” is not an interpretable rootbound test, and conflicting pruning advice leaves the owner without a clear plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "query_index": 93,
+  "thread_id": "1wcn3vn",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 93,
+    "thread_id": "1wcn3vn",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/838691471003309/posts/1074931100712677/",
+    "spans": [
+      {
+        "file": "093-source-01.txt",
+        "start_line": 60,
+        "end_line": 86,
+        "sha256": "eea4741e8ba609bea2242a73bec3b770b4b7101314d6b0be1b640bd48e3dcc1c",
+        "text": "        - generic: Pruning and more light stimulate growth. Look on YouTube how to prune money trees. Plus always make the cut 1” above a node. Once it starts growing then fertilize with a liquid fertilizer at half strength once a month March- Oct. These trees do greatly benefit from pruning. If the rootball is more than 2” bigger than the pot and it looks like it might be but some trees hardly have any roots only then do you put in a pot that’s 2” bigger. These trees prefer clay pots or nursery pots. Ceramic aren’t advised\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/838691471003309/posts/1074931100712677/?comment_id=1075235507348903&__cft__[0]=AZgO2fN_v6pENP9zux36b6pzC68S8CQTh_RtW8LV-68zl1Q1HLwhB3g9kx-7J5SoyEl0vKweu86eBC4xQvfBi8e7UWFvLs0GnyyyPoaYPHza0rsybC0diMBniHzS9xPJzUQqT_b462LuquVEeMNNLoXmfXn5FvyTejDzBXdUt0tn_s7EM552iCsANF_S7BY&__tn__=R]-R\n        - button \"6 reactions; see who reacted to this\":\n          - generic: \"6\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Ramona Andrade Briseno 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Ramona Andrade Briseno\":\n          - generic: Ramona Andrade Briseno\n        - generic: Don’t over water . I used to over water all my plants. Now my plants are by a window facing north and they do great . I stick a pencil into the soil and if it comes out clean then I water . I also bottom water so my trunk doesn’t get soggy\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/838691471003309/posts/1074931100712677/?comment_id=1075486533990467&__cft__[0]=AZgO2fN_v6pENP9zux36b6pzC68S8CQTh_RtW8LV-68zl1Q1HLwhB3g9kx-7J5SoyEl0vKweu86eBC4xQvfBi8e7UWFvLs0GnyyyPoaYPHza0rsybC0diMBniHzS9xPJzUQqT_b462LuquVEeMNNLoXmfXn5FvyTejDzBXdUt0tn_s7EM552iCsANF_S7BY&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Donna Rosenberger 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Donna Rosenberger\":\n          - generic: Donna Rosenberger\n        - generic: Fox farm is good soil, I add perlite and orchid bark to mine so it drains better. Your money tree is beautiful and looks very healthy. If you prune it, it will become bushier, not taller. Patience and it will get taller."
+      }
+    ],
+    "advice": "        - generic: Pruning and more light stimulate growth. Look on YouTube how to prune money trees. Plus always make the cut 1” above a node. Once it starts growing then fertilize with a liquid fertilizer at half strength once a month March- Oct. These trees do greatly benefit from pruning. If the rootball is more than 2” bigger than the pot and it looks like it might be but some trees hardly have any roots only then do you put in a pot that’s 2” bigger. These trees prefer clay pots or nursery pots. Ceramic aren’t advised\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/838691471003309/posts/1074931100712677/?comment_id=1075235507348903&__cft__[0]=AZgO2fN_v6pENP9zux36b6pzC68S8CQTh_RtW8LV-68zl1Q1HLwhB3g9kx-7J5SoyEl0vKweu86eBC4xQvfBi8e7UWFvLs0GnyyyPoaYPHza0rsybC0diMBniHzS9xPJzUQqT_b462LuquVEeMNNLoXmfXn5FvyTejDzBXdUt0tn_s7EM552iCsANF_S7BY&__tn__=R]-R\n        - button \"6 reactions; see who reacted to this\":\n          - generic: \"6\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Ramona Andrade Briseno 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Ramona Andrade Briseno\":\n          - generic: Ramona Andrade Briseno\n        - generic: Don’t over water . I used to over water all my plants. Now my plants are by a window facing north and they do great . I stick a pencil into the soil and if it comes out clean then I water . I also bottom water so my trunk doesn’t get soggy\n        - list:\n          - link \"2y\":\n            - /url: https://www.facebook.com/groups/838691471003309/posts/1074931100712677/?comment_id=1075486533990467&__cft__[0]=AZgO2fN_v6pENP9zux36b6pzC68S8CQTh_RtW8LV-68zl1Q1HLwhB3g9kx-7J5SoyEl0vKweu86eBC4xQvfBi8e7UWFvLs0GnyyyPoaYPHza0rsybC0diMBniHzS9xPJzUQqT_b462LuquVEeMNNLoXmfXn5FvyTejDzBXdUt0tn_s7EM552iCsANF_S7BY&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View 1 reply\":\n        - generic: View 1 reply\n      - article \"Comment by Donna Rosenberger 2 years ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Donna Rosenberger\":\n          - generic: Donna Rosenberger\n        - generic: Fox farm is good soil, I add perlite and orchid bark to mine so it drains better. Your money tree is beautiful and looks very healthy. If you prune it, it will become bushier, not taller. Patience and it will get taller.",
+    "reason": "First result directly addresses height with pruning, light, conditional repotting and contradictory reassurance; all three substantive comments retained.",
+    "frozen_at": "2026-10-29T05:16:01.169989+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:16:56.631450+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

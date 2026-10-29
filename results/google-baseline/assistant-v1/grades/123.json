@@ -1,0 +1,142 @@
+{
+  "reference_action": "OP reports dumping whole plant in mostly alcohol: bugs gone, but mushy brown tissue. Count explicit thorough alcohol saturation as a partial functional match; ordinary repeat sprays already failed, and wiping/pruning were suggested but not explicitly confirmed as performed.",
+  "reference_quality": {
+    "issue": "Reported pest clearance accompanied by plant injury; adopted heavy alcohol exposure differs from advice to wipe/mist and avoid puddles.",
+    "resolution": "Separate action retrieval from safety. Saturation counts partial coverage match, not endorsement of immersion or proof of full recovery.",
+    "outcome_quote": "I dumped the whole thing in mostly alcohol. She's got some mushy brown bits but the bugs are gone!"
+  },
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Explicitly says saturate plant with 50:50 water/alcohol, partially retrieving intensive alcohol coverage; does not endorse mostly-alcohol immersion, and systemic is unconfirmed extra.",
+      "evidence": [
+        "123-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/1947397009535121/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Spot alcohol dabbing, wiping, washing and labeled treatments do not retrieve confirmed whole-plant alcohol saturation; wiping was suggested, not explicitly the adopted successful action.",
+      "evidence": [
+        "123-source-02.txt"
+      ],
+      "url": "https://www.gardenia.net/pest/mealybugs"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Physical removal and conditional spot alcohol with label cautions do not recommend intensive saturation or immersion.",
+      "evidence": [
+        "123-source-03.txt"
+      ],
+      "url": "https://foliage-factory.com/blogs/plant-care/mealybugs-identify-and-treat?srsltid=AYCX9vJvnIttMQBtIb3h14N5H8QmwJBHWHRtPgeJKONwguOljU-8G-gM"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Alcohol wipe/fine mist followed by rinse expressly limits exposure and avoids roots; not intensive whole-plant alcohol saturation beyond previously failed sprays.",
+      "evidence": [
+        "123-source-04.txt"
+      ],
+      "url": "https://www.lovethatleaf.co.nz/blogs/plant-care-guides/how-to-get-rid-of-mealybugs-on-indoor-plants?srsltid=AYCX9vKEEyzamO1w41tmpy4BbNhe1lYedww-tGW3qjCNa_U85J621jiG"
+    },
+    {
+      "rank": 5,
+      "action_hit": "hit",
+      "reason": "Spraying everything with 91% alcohol plus wiping retrieves intensive full-foliage exposure as a partial match; severe-leaf removal, neem and systemic are unconfirmed extras. Safety is not implied by hit.",
+      "evidence": [
+        "123-source-05.txt"
+      ],
+      "url": "https://www.instagram.com/reel/DQrfEYGDXAH/?hl=en"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Mix 50:50 alcohol/water and saturate plant, repeat 2–3 times",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix Bonide systemic granules into topsoil",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Make soap/alcohol/peroxide mixture and spray as alternative",
+        "minutes": 8,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Let sprayed plant dry before bright light",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Saturation retrieves intensive alcohol exposure, though concentration and immersion differ. Pest ID is uncertain and broad chemical mixtures/saturation without patch testing risk worsening tissue injury; systemic dose and alternative recipe are unclear."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "“Saturate the plant” gives no patch-test or leaf-sensitivity warning after repeated prior chemical treatments. A second undosed soap/alcohol/peroxide mixture increases the risk of phytotoxicity, consistent with the owner’s reported mushy brown tissue after heavy alcohol exposure."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Full coverage is relevant to contact treatment and overlaps the adopted action. The reply assumes mealybugs without resolving the changed appearance and adds an unconfirmed systemic recommendation."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The 50:50 mixture and 3–4-day repeat interval are executable with common supplies. Starting alcohol strength, systemic dose and the truncated alternative recipe remain unspecified, preventing an unambiguous routine."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 123,
+  "thread_id": "1iv05sy",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 123,
+    "thread_id": "1iv05sy",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/houseplantloversaddicts/posts/1947397009535121/",
+    "spans": [
+      {
+        "file": "123-source-01.txt",
+        "start_line": 60,
+        "end_line": 86,
+        "sha256": "2f968977262148f6a0fb27c63cdaa5a2ca2fe0713d4e76d1a19c55ed4d55129a",
+        "text": "        - generic: Try rubbing alchol instead. I got it once and never again.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1947397009535121/?comment_id=1947398479534974&__cft__[0]=AZjOD4DJVllqPK-j3Dw1_ijdTULPKdp0UsWQIoX6wuS7gxCM3-Ch1ZqvmZvGDz6G4InkfQi7kjP-YcPFDQQBZHvtTnuTVCXGM9JuNrzytkMSc9DUMFXR1hyHDLlAtnRJ2EbxyZBkBvUhfcWmPfH5yYU1qdDagAF-pnN4agwqrIqXW44cVGL8Bw&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Tara J Ihasz a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Tara J Ihasz\":\n          - generic: Tara J Ihasz\n        - generic: Neem did not work for me at all with Mealy’s. Make a concoction of 50-50 water and alcohol. Saturate the plant. You should also get yourself some bonide systemic granules. You’ll mix that in the top layer of soil. It will go into the roots through the stems and make the leaves toxic to anything that feeds off of it. That will last eight weeks. You’ll probably need to spray two or three times with 3 to 4 days in between each time￼.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1947397009535121/?comment_id=1947399359534886&__cft__[0]=AZjOD4DJVllqPK-j3Dw1_ijdTULPKdp0UsWQIoX6wuS7gxCM3-Ch1ZqvmZvGDz6G4InkfQi7kjP-YcPFDQQBZHvtTnuTVCXGM9JuNrzytkMSc9DUMFXR1hyHDLlAtnRJ2EbxyZBkBvUhfcWmPfH5yYU1qdDagAF-pnN4agwqrIqXW44cVGL8Bw&__tn__=R]-R\n        - button \"7 reactions; see who reacted to this\":\n          - generic: \"7\"\n      - button \"View all 5 replies\":\n        - generic: View all 5 replies\n      - article \"Comment by Crystal Christine a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Crystal Christine\":\n          - generic: Crystal Christine\n        - text: I use pepppermint/ and tea tree castille soap, alcohol, peroxide with water and shake it up and spray them down just let them dry before u put under lights or in sunlight.. the creator of liquidirt has a video where he gives recipe but it kills all ba…"
+      }
+    ],
+    "advice": "        - generic: Try rubbing alchol instead. I got it once and never again.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1947397009535121/?comment_id=1947398479534974&__cft__[0]=AZjOD4DJVllqPK-j3Dw1_ijdTULPKdp0UsWQIoX6wuS7gxCM3-Ch1ZqvmZvGDz6G4InkfQi7kjP-YcPFDQQBZHvtTnuTVCXGM9JuNrzytkMSc9DUMFXR1hyHDLlAtnRJ2EbxyZBkBvUhfcWmPfH5yYU1qdDagAF-pnN4agwqrIqXW44cVGL8Bw&__tn__=R]-R\n        - button \"2 reactions; see who reacted to this\":\n          - generic: \"2\"\n      - button \"View all 4 replies\":\n        - generic: View all 4 replies\n      - article \"Comment by Tara J Ihasz a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Tara J Ihasz\":\n          - generic: Tara J Ihasz\n        - generic: Neem did not work for me at all with Mealy’s. Make a concoction of 50-50 water and alcohol. Saturate the plant. You should also get yourself some bonide systemic granules. You’ll mix that in the top layer of soil. It will go into the roots through the stems and make the leaves toxic to anything that feeds off of it. That will last eight weeks. You’ll probably need to spray two or three times with 3 to 4 days in between each time￼.\n        - list:\n          - link \"1y\":\n            - /url: https://www.facebook.com/groups/houseplantloversaddicts/posts/1947397009535121/?comment_id=1947399359534886&__cft__[0]=AZjOD4DJVllqPK-j3Dw1_ijdTULPKdp0UsWQIoX6wuS7gxCM3-Ch1ZqvmZvGDz6G4InkfQi7kjP-YcPFDQQBZHvtTnuTVCXGM9JuNrzytkMSc9DUMFXR1hyHDLlAtnRJ2EbxyZBkBvUhfcWmPfH5yYU1qdDagAF-pnN4agwqrIqXW44cVGL8Bw&__tn__=R]-R\n        - button \"7 reactions; see who reacted to this\":\n          - generic: \"7\"\n      - button \"View all 5 replies\":\n        - generic: View all 5 replies\n      - article \"Comment by Crystal Christine a year ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Crystal Christine\":\n          - generic: Crystal Christine\n        - text: I use pepppermint/ and tea tree castille soap, alcohol, peroxide with water and shake it up and spray them down just let them dry before u put under lights or in sunlight.. the creator of liquidirt has a video where he gives recipe but it kills all ba…",
+    "reason": "First visible mealybug treatment advice; full visible alcohol/systemic recommendations and truncated mixture alternative retained before reference.",
+    "frozen_at": "2026-10-29T05:40:00.618527+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T05:45:11.743000+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": true,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

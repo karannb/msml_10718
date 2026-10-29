@@ -1,0 +1,158 @@
+{
+  "reference_action": "More light advised; OP moved to a sunnier location, repotted into much chunkier mix, found nursery mesh around corms, and reported improvement. Outcome is multi-intervention and does not isolate light versus substrate.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "hit",
+      "reason": "Removing some dense soil and adding chunky material matches the chunkier repot OP actually performed. It misses the concurrent sunnier-location change; causal contribution is not isolated.",
+      "evidence": [
+        "041-source-01.txt"
+      ],
+      "url": "https://www.facebook.com/groups/634613514670686/posts/1515602833238412/"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Main advice explicitly avoids another repot and waits; airy-soil maintenance is not a new chunkier repot and no light increase is offered.",
+      "evidence": [
+        "041-source-02.txt"
+      ],
+      "url": "https://www.reddit.com/r/houseplants/comments/1o3xv4h/update_2_i_changed_out_its_soil_and_the_next_day/"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Warm area with light is nonspecific and does not clearly increase existing bright-indirect exposure; waiting/clipping does not match the reported changes.",
+      "evidence": [
+        "041-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/groups/634613514670686/posts/1615390876592940/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "hit",
+      "reason": "Explicitly change to chunkier 1:1:1 soil/perlite/bark mix, matching one of OP’s actual changes. No increased light is supplied.",
+      "evidence": [
+        "041-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/907604032597135/posts/25718454587752069/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Stable placement plus rooting solution/root-rot preventive omits both increased light and chunkier repot.",
+      "evidence": [
+        "041-source-05.txt"
+      ],
+      "url": "https://www.facebook.com/100087332444992/videos/-my-alocasia-care-tip-%EF%B8%8F-one-of-the-biggest-mistakes-is-fussing-over-your-alocasi/1073537031775748/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Improve air movement around plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Tilt pot slightly onto drip tray",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Gently aerate soil with skinny stake",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Replace half the soil with chunkier ingredients",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Wait two weeks for acclimation before repot",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use clear ventilated orchid pot",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Convert to semi-hydro as alternative",
+        "minutes": 45,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": true
+      }
+    ],
+    "reason": "Chunkier soil matches one outcome intervention, but no light correction is offered and several competing substrate interventions are included. Gentle handling caveat helps limit root disturbance."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Aerate the soil gently” qualifies the stake intervention and waiting for acclimation limits immediate disturbance. Still, additional repotting or “semi hydro” after a recent repot introduces stress without transition instructions."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Adding “a few chunky things” addresses damp substrate and overlaps OP’s second repot. It misses the major light recommendation and does not recognize that roots were reported healthy."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Tilting the pot and gentle aeration are concrete low-effort actions. “Semi hydro” is unexplained, and the partly visible second comment and unspecified chunky ingredients leave important practical details unresolved."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 41,
+  "thread_id": "1rihpr3",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 41,
+    "thread_id": "1rihpr3",
+    "selected_rank": 1,
+    "source_url": "https://www.facebook.com/groups/634613514670686/posts/1515602833238412/",
+    "spans": [
+      {
+        "file": "041-source-01.txt",
+        "start_line": 62,
+        "end_line": 93,
+        "sha256": "30bb8b795402aeeab2be1de0ba6ca1933ecf7d0273d1878d67c3ddcdfe85956b",
+        "text": "          - generic: Amanda Bretz\n        - generic: I am not an expert but have a couple thoughts. 1) make sure you have good air movement to help that soil dry out a little fast. I tip my pot ever so slightly (like just a side onto the drip tray). 2) I wonder if it would be beneficial to take a skinny stake or something and just aerate the soil gently? Just so you get air in there from the top. 3) would you consider repotting one or at least maybe losing half the existing soil and adding a few chunky things to it? Just to see if maybe that might not be as scary as it sounds (my heart would be pumping!!!)\n        - text: Good luck!! Plants bring me so much joy and so much stress.\n        - img \"🙃\"\n        - list:\n          - link \"23w\":\n            - /url: https://www.facebook.com/groups/634613514670686/posts/1515602833238412/?comment_id=1515609043237791&__cft__[0]=AZjmZKgRsb7v3oBzUfo6gN737VDVkuXcGO43OA3NSOrYlIHto0FqpDdwGPY6eKx8NIHJ4-EWfVryv_7yLq8-2Eis7q5Ksz3kFGz8cUqMLqNoKTYtTzpC3qgNT5mB2Z3W_IBuT2V09ANASaxXTCknG_rCglr5Jv1FhTV9R_amHeptG99jym1utsdIfFNU_g&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Kenya Johnson 23 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kenya Johnson\":\n          - generic: Kenya Johnson\n        - text: Well recently got my first Alocasia black velvet. I let it acclimate for about two weeks, then repotted into a chunky tropical soil mix, mixed with regular tropical soil and repotted it into a clear orchid pot with the ventilation holes on the side. Ke…\n        - button \"See more\"\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=122282888930238636&set=p.122282888930238636&type=3&__cft__[0]=AZjmZKgRsb7v3oBzUfo6gN737VDVkuXcGO43OA3NSOrYlIHto0FqpDdwGPY6eKx8NIHJ4-EWfVryv_7yLq8-2Eis7q5Ksz3kFGz8cUqMLqNoKTYtTzpC3qgNT5mB2Z3W_IBuT2V09ANASaxXTCknG_rCglr5Jv1FhTV9R_amHeptG99jym1utsdIfFNU_g&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"23w\":\n            - /url: https://www.facebook.com/groups/634613514670686/posts/1515602833238412/?comment_id=1515611439904218&__cft__[0]=AZjmZKgRsb7v3oBzUfo6gN737VDVkuXcGO43OA3NSOrYlIHto0FqpDdwGPY6eKx8NIHJ4-EWfVryv_7yLq8-2Eis7q5Ksz3kFGz8cUqMLqNoKTYtTzpC3qgNT5mB2Z3W_IBuT2V09ANASaxXTCknG_rCglr5Jv1FhTV9R_amHeptG99jym1utsdIfFNU_g&__tn__=R]-R\n        - button \"8 reactions; see who reacted to this\":\n          - generic: \"8\"\n      - button \"View all 5 replies\":\n        - generic: View all 5 replies\n      - article \"Comment by Kourtney Kitty Naté 23 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kourtney Kitty Naté\":\n          - generic: Kourtney Kitty Naté\n        - generic: Semi hydro"
+      }
+    ],
+    "advice": "          - generic: Amanda Bretz\n        - generic: I am not an expert but have a couple thoughts. 1) make sure you have good air movement to help that soil dry out a little fast. I tip my pot ever so slightly (like just a side onto the drip tray). 2) I wonder if it would be beneficial to take a skinny stake or something and just aerate the soil gently? Just so you get air in there from the top. 3) would you consider repotting one or at least maybe losing half the existing soil and adding a few chunky things to it? Just to see if maybe that might not be as scary as it sounds (my heart would be pumping!!!)\n        - text: Good luck!! Plants bring me so much joy and so much stress.\n        - img \"🙃\"\n        - list:\n          - link \"23w\":\n            - /url: https://www.facebook.com/groups/634613514670686/posts/1515602833238412/?comment_id=1515609043237791&__cft__[0]=AZjmZKgRsb7v3oBzUfo6gN737VDVkuXcGO43OA3NSOrYlIHto0FqpDdwGPY6eKx8NIHJ4-EWfVryv_7yLq8-2Eis7q5Ksz3kFGz8cUqMLqNoKTYtTzpC3qgNT5mB2Z3W_IBuT2V09ANASaxXTCknG_rCglr5Jv1FhTV9R_amHeptG99jym1utsdIfFNU_g&__tn__=R]-R\n        - button \"1 reaction; see who reacted to this\":\n          - generic: \"1\"\n      - article \"Comment by Kenya Johnson 23 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kenya Johnson\":\n          - generic: Kenya Johnson\n        - text: Well recently got my first Alocasia black velvet. I let it acclimate for about two weeks, then repotted into a chunky tropical soil mix, mixed with regular tropical soil and repotted it into a clear orchid pot with the ventilation holes on the side. Ke…\n        - button \"See more\"\n        - link \"No photo description available.\":\n          - /url: https://www.facebook.com/photo.php?fbid=122282888930238636&set=p.122282888930238636&type=3&__cft__[0]=AZjmZKgRsb7v3oBzUfo6gN737VDVkuXcGO43OA3NSOrYlIHto0FqpDdwGPY6eKx8NIHJ4-EWfVryv_7yLq8-2Eis7q5Ksz3kFGz8cUqMLqNoKTYtTzpC3qgNT5mB2Z3W_IBuT2V09ANASaxXTCknG_rCglr5Jv1FhTV9R_amHeptG99jym1utsdIfFNU_g&__tn__=R]-R\n          - img \"No photo description available.\"\n        - list:\n          - link \"23w\":\n            - /url: https://www.facebook.com/groups/634613514670686/posts/1515602833238412/?comment_id=1515611439904218&__cft__[0]=AZjmZKgRsb7v3oBzUfo6gN737VDVkuXcGO43OA3NSOrYlIHto0FqpDdwGPY6eKx8NIHJ4-EWfVryv_7yLq8-2Eis7q5Ksz3kFGz8cUqMLqNoKTYtTzpC3qgNT5mB2Z3W_IBuT2V09ANASaxXTCknG_rCglr5Jv1FhTV9R_amHeptG99jym1utsdIfFNU_g&__tn__=R]-R\n        - button \"8 reactions; see who reacted to this\":\n          - generic: \"8\"\n      - button \"View all 5 replies\":\n        - generic: View all 5 replies\n      - article \"Comment by Kourtney Kitty Naté 23 weeks ago\":\n        - link:\n          - /url: \"#\"\n        - button \"Kourtney Kitty Naté\":\n          - generic: Kourtney Kitty Naté\n        - generic: Semi hydro",
+    "reason": "First readable discussion includes complete aeration/repot advice and a partially visible but actionable second comment.",
+    "frozen_at": "2026-10-29T04:36:14.966547+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T04:37:24.379121+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "hit",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}

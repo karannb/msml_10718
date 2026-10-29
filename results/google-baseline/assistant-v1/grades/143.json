@@ -1,0 +1,123 @@
+{
+  "reference_action": "Owner confirms daily hose watering, 2–3 minutes per shrub, followed by new green growth and some blooms. Core fix is increased/frequent watering during extreme heat; shade and no extra feeding support it.",
+  "sources": [
+    {
+      "rank": 1,
+      "action_hit": "unresolved",
+      "reason": "Short title only; no readable watering answer.",
+      "evidence": [
+        "143-source-01.txt"
+      ],
+      "url": "https://www.youtube.com/shorts/gS1QYju3dcg"
+    },
+    {
+      "rank": 2,
+      "action_hit": "miss",
+      "reason": "Explains too little/much water but actionable instructions are root inspection and gall-leaf removal, without increasing watering.",
+      "evidence": [
+        "143-source-02-transcript.txt"
+      ],
+      "url": "https://www.youtube.com/watch?v=NqSx3pIZGZc&themeRefresh=1"
+    },
+    {
+      "rank": 3,
+      "action_hit": "miss",
+      "reason": "Iron/pH treatment; watering sulfur in is not drought rehydration.",
+      "evidence": [
+        "143-source-03.txt"
+      ],
+      "url": "https://www.facebook.com/yardenercom/videos/if-your-azalea-leaves-are-turning-yellow-but-the-veins-are-staying-green-thats-i/1658046481983488/"
+    },
+    {
+      "rank": 4,
+      "action_hit": "miss",
+      "reason": "Thorough watering paired with every 4–5 days reduces frequency relative to current alternate-day care; does not retrieve daily hydration.",
+      "evidence": [
+        "143-source-04.txt"
+      ],
+      "url": "https://www.facebook.com/groups/zone9gardening/posts/3966084430320156/"
+    },
+    {
+      "rank": 5,
+      "action_hit": "miss",
+      "reason": "Seasonal leaf loss, nutrients and lace-bug treatments, not drought watering.",
+      "evidence": [
+        "143-source-05.txt"
+      ],
+      "url": "https://redeemyourground.com/why-are-my-azalea-leaves-turning-yellow/"
+    }
+  ],
+  "resolved": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect azalea roots for rot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Remove and discard leaf-gall affected leaves if present",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Underwatering is one possibility, but the source does not actually recommend the confirmed frequent watering response."
+  },
+  "quality": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "“Carefully check azalea roots” may disturb drought-stressed shrubs without need. “Roots should be brittle” is an unreliable healthy-root cue, though the answer does not prescribe a hazardous chemical."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Too much sun and inadequate water are recognized causes on the correct plant. Seasonal browning and leaf gall receive attention while the extreme-heat watering adjustment is omitted."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Removing gall leaves by hand is clear but irrelevant here. Root checking lacks a minimally disruptive method, and the main watering differential supplies no next step."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "query_index": 143,
+  "thread_id": "1miw57p",
+  "grader": "assistant_in_conversation",
+  "selected_source": {
+    "query_index": 143,
+    "thread_id": "1miw57p",
+    "selected_rank": 2,
+    "source_url": "https://www.youtube.com/watch?v=NqSx3pIZGZc&themeRefresh=1",
+    "spans": [
+      {
+        "file": "143-source-02-transcript.txt",
+        "start_line": 8,
+        "end_line": 26,
+        "sha256": "d765e17f5f3686b0ee70ca3965de02bde6e04b798859be0d72ad102171563544",
+        "text": "[0:18] azaleas are woody shrubs available in several thousand varieties because of\n[0:22] the range in azaleas from evergreen to deciduous Brown leaves could mean\n[0:27] several things\n[0:30] distressed most azaleas prefer partial shade to full Sun if yours alias\n[0:38] received too much Sun and are not adequately watered they may come\n[0:42] distressed and turn brown azaleas transplanted during the heat of the day\n[0:45] may also become distressed and start to turn brown\n[0:49] [Music] watering plants feta yellowed and brown\n[0:57] may indicate a watering problem too little water will leave the plant\n[1:01] parched and brown too much water can create root rot which drowns the roots\n[1:06] with excess water carefully check azalea roots they should be brittle if the\n[1:10] roots feel mushy the plant is suffering from root rot seasonal change deciduous\n[1:22] azaleas which drop their leaves in the fall will naturally turn brown in the\n[1:26] fall months don t worry leaves will grow back in the spring if the leaves fall\n[1:31] off during the summer it may point to a problem such as a diseased plant disease\n[1:42] Leith Gaul is a fungus that affects us aliens in the spring changing leaves\n[1:46] from green to white and then brown the North Carolina State University notes\n[1:50] that the disease does not harm the plant beyond making it look that remove\n[1:55] affected leaves by hand and discard [Music]"
+      }
+    ],
+    "advice": "[0:18] azaleas are woody shrubs available in several thousand varieties because of\n[0:22] the range in azaleas from evergreen to deciduous Brown leaves could mean\n[0:27] several things\n[0:30] distressed most azaleas prefer partial shade to full Sun if yours alias\n[0:38] received too much Sun and are not adequately watered they may come\n[0:42] distressed and turn brown azaleas transplanted during the heat of the day\n[0:45] may also become distressed and start to turn brown\n[0:49] [Music] watering plants feta yellowed and brown\n[0:57] may indicate a watering problem too little water will leave the plant\n[1:01] parched and brown too much water can create root rot which drowns the roots\n[1:06] with excess water carefully check azalea roots they should be brittle if the\n[1:10] roots feel mushy the plant is suffering from root rot seasonal change deciduous\n[1:22] azaleas which drop their leaves in the fall will naturally turn brown in the\n[1:26] fall months don t worry leaves will grow back in the spring if the leaves fall\n[1:31] off during the summer it may point to a problem such as a diseased plant disease\n[1:42] Leith Gaul is a fungus that affects us aliens in the spring changing leaves\n[1:46] from green to white and then brown the North Carolina State University notes\n[1:50] that the disease does not harm the plant beyond making it look that remove\n[1:55] affected leaves by hand and discard [Music]",
+    "reason": "Rank-one short lacks instructions; first readable advice is azalea brown-leaf differential with root inspection and leaf-gall removal.",
+    "frozen_at": "2026-10-29T06:00:09.576816+00:00",
+    "grader": "assistant_in_conversation",
+    "reference_seen_before_selection": false
+  },
+  "graded_at": "2026-10-29T06:00:50.621308+00:00",
+  "grading_status": "complete",
+  "top5_action_hit": "unresolved",
+  "within_capacity": false,
+  "solved": false,
+  "safe_and_useful": false,
+  "severe_harm": false,
+  "rubric_sha256": {
+    "advice_judge.txt": "5ec0466ee699e33b55f6c54025795683cacfaa213de2739f88aa6602cd13b345",
+    "resolved_grader.txt": "07fccb2b6cb914278c7f3b1e4d8f8fe52bd861e61bd78cc5cd73ae1610c954c0"
+  }
+}
