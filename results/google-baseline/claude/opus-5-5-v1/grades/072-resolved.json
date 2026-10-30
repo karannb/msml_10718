@@ -1,0 +1,70 @@
+{
+  "job_id": "072-resolved",
+  "query_index": 72,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "948d47b258e649d50d7738ee07f1b333413effc41e639c3556408a7c53dea84b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Make the watering schedule more consistent",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Change or fix the soil mixture",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Repot into a smaller pot",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Water when the soil is close to bone dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot and trim mushy, dark roots",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off damaged leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak roots in water with NPK fertilizer",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a scraped comment thread whose main diagnosis is inconsistent watering or soil, with the oversized-pot cause and the smaller-pot fix buried in a side reply; it also suggests avoiding drier terracotta pots and says not to worry because it may just be shock, which could delay the fix."
+  },
+  "input_tokens": 14312,
+  "output_tokens": 983,
+  "graded_at": "2026-10-29T22:37:03.970484+00:00",
+  "status": "graded_pending_review"
+}

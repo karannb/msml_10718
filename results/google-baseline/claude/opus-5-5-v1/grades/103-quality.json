@@ -1,0 +1,33 @@
+{
+  "job_id": "103-quality",
+  "query_index": 103,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "cc1dba86ee1ae61f68251c8785f0c8334b4ba350fa2eff6e4c9466f94723b895",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The core advice, \"She's getting dry. Water her,\" is correct for dry soil and safe. The pebble tray suggestion (\"Put a tray of rocks in water underneath the pot\") is harmless but misdirects attention to humidity. Nothing would damage the plant, person, or pets. The only minor risk is that the humidity advice conflicts with the watering advice and could delay rehydration if followed alone."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is an unprocessed scrape of Facebook comments, with URLs and UI elements, rather than a structured assessment. It has no health label and no time-to-severe estimate. One line, \"She's getting dry. Water her,\" matches the REFERENCE's underwatering diagnosis. It is mixed with \"Needs more humidity,\" which the poster had already tried without success, and with generic \"drama queen\" commentary. It also never mentions the broken or flattened stems from the shower."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "\"Water her\" and a pebble tray are both easy for any home owner. However, the output gives no watering method, such as the bottom-soak that worked for the poster. It offers conflicting directions (water vs. humidity vs. \"stay moist not wet\"), and the scraped markup makes it hard to read. That leaves the owner unsure which step to prioritize."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Calathea are notorious drama queens, you're seeing it in action.",
+      "Any slight change to the environment will get a physical reaction.",
+      "Needs more humidity. Put a tray of rocks in water underneath the pot for more humidity.",
+      "It has to stay moist not wet"
+    ]
+  },
+  "input_tokens": 2699,
+  "output_tokens": 894,
+  "graded_at": "2026-10-30T00:11:16.255136+00:00",
+  "status": "graded_pending_review"
+}

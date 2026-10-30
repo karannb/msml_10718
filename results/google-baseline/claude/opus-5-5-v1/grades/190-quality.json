@@ -1,0 +1,33 @@
+{
+  "job_id": "190-quality",
+  "query_index": 190,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a76455bb8f76adcae6bb6f2803d0f0422eab611bd80cf1b1db4b6976b248e240",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The only actionable step is to 'give your beautiful indoor palm a gentle rinse in the shower or take it outside for a good hosing,' which is safe and mildly helpful against mites. However, it frames this as routine cleaning 'once or twice a year,' not as a treatment. It also gives no repeated control plan, such as the reference's 3–4 weekly sprays. This could delay needed action, although it does warn that 'once the infestation becomes severe, it's difficult to control.'"
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output says Neanthe Bellas are 'susceptible to spider mites' that 'cause pale specks, dull-looking leaves, and a mottled appearance.' This aligns with the reference's confirmed spider mite problem and its note on pale, thin fronds. But it reads as a generic species profile, not a diagnosis of this plant, and never ties itself to the user's photos or fronds. It offers no treatment, misses the repeated insecticide or alcohol spray rounds in the reference, and wrongly calls mealybugs 'scale insects.' The required health label and time-to-severe estimate are also missing."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Rinsing the plant 'in the shower' or 'a good hosing' is easy for any home owner. However, the output gives no concrete pest-control steps, frequency or follow-up, and pushes the user to external links for actual mite treatment. So the steps are simple but incomplete for the real problem."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "gentle rinse in the shower or take it outside for a good hosing",
+      "clean leaves help the plant breathe and stay healthier",
+      "Keep an eye out for scale insects",
+      "I clean mine once or twice a year"
+    ]
+  },
+  "input_tokens": 2791,
+  "output_tokens": 1117,
+  "graded_at": "2026-10-30T00:15:31.854723+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,39 @@
+{
+  "job_id": "076-quality",
+  "query_index": 76,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "9de691475aab58310125e7e76c1edc78190630ad8fff4144f39462aa4f9fffa7",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped extension troubleshooting table, not a tailored answer. Most entries are low-risk, such as \"Regularly rinse plants with water\" and \"Leach soil at least three times.\" However, \"Use a registered houseplant spray to control pests\" repeats the spray approach the user has already tried for months, which the REFERENCE says cannot reach thrips eggs, so it would delay effective treatment. Rows like \"Plants infested with cyclamen mites or infected with viruses should be discarded\" and \"No effective treatment, discard infected plants\" could lead the user to throw out plants that only need a systemic treatment. There are no toxicity or pet warnings for pesticides or for pothos."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "Thrips are never mentioned, so the output gives no diagnosis at all. It lists aphids, spider mites, mealybugs, whiteflies, scale, root rot, salts, sunburn, cold injury, fungi and viruses with no link to the case evidence. That evidence is pothos-only damage, leaves emerging already damaged from the sheath, tiny black specks, and repeated failure of neem and pyrethrin. The \"Leaves eaten or chewed\" row talks about plants that have been outside for the summer, which does not fit an indoor bathroom plant. Nothing matches the REFERENCE's systemic granule recommendation."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps like \"Remove spotted leaves and improve air circulation\" or \"Leach soil\" are easy for a home owner. But the output is an unranked table of a dozen possible causes in raw markup, with no indication of which applies or what to do first. A user cannot get a clear action plan from it. It also leaves out the one practical fix that worked: systemic granules watered into the soil."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Regularly rinse plants with water to keep down pest problems",
+      "Use a registered houseplant spray to control pests",
+      "Severely damaged plants should be discarded",
+      "Leach soil at least three times with pot volume of fresh water",
+      "Remove spotted leaves and improve air circulation to reduce leaf diseases",
+      "Acclimate plants slowly to higher light intensities",
+      "Protect plants from temperatures below 50° F",
+      "Leach excessive fertilizer from potting mix by flushing with water or repot with fresh potting media",
+      "Remove diseased plants from their pots, cut out portions (rotten), and replant remaining healthy sections",
+      "Handpick pests and repot plants before moving plants inside"
+    ]
+  },
+  "input_tokens": 6628,
+  "output_tokens": 1056,
+  "graded_at": "2026-10-29T22:38:39.903556+00:00",
+  "status": "graded_pending_review"
+}

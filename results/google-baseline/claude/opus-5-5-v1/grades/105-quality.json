@@ -1,0 +1,34 @@
+{
+  "job_id": "105-quality",
+  "query_index": 105,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "cea119bfb74a4f42813385c9cda883e4147578dbf5f26d6586fb71d8069d69ed",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output claims a shriveled, soft trunk is a 'serious sign of advanced root rot' and tells the user to 'use a knife to carefully cut under the bark' and 'Cut away all the rotten parts'. The actual problem is underwatering, so cutting a healthy but dehydrated stem would cause needless injury. It also says 'No matter how you water or care for it, the core problem lies in the soil's poor arration', which steers the user away from the real fix: a thorough soak. It omits that Dracaena is toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The case clearly shows 'roots are super dry', no rot, and a rootbound plant. The reference confirms underwatering. The model, a generic video transcript about dragon blood trees, diagnoses 'Compact. Poorly draining soil suffocates the roots' and 'advanced root rot'. Its brief mention of 'underwatering or drought stress' concerns leaf tips, not the stem, and is not acted on. None of the advice cites the user's evidence, and it ends with irrelevant 'clumping shuffler' content."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Steps like 'repot it with fresh, loose, and breathable soil' are doable. The cutting and inspection instructions ('make a similar cut on the main stem to check if it's green or yellow inside') are vague, branch confusingly, and are inappropriate here. The transcript is truncated and rambling, with no clear sequence for this user's situation."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "The best way to help your plant is to repot it",
+      "fresh, loose, and breathable soil",
+      "There are several reasons why leaves may show these symptoms",
+      "Trim away all rotted roots and repot it fresh",
+      "Simply trim off those dry tips to keep it healthy"
+    ]
+  },
+  "input_tokens": 2836,
+  "output_tokens": 629,
+  "graded_at": "2026-10-30T00:11:52.521838+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "045-quality",
+  "query_index": 45,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d974d5a0f653b1cca99055a101f69eb5400e60efc7c474725e912afe6cb53a47",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is scraped Facebook comments rather than a coherent assessment, with no health label or time-to-severe estimate. The comment \"soil looks soggy... Yellowing can be from over watering\" points in the right direction, but \"soak in peroxide bath prior to repotting\" gives no concentration or duration, so roots could be damaged. The competing claim \"It may be because it's flowering\" could delay fixing the real watering problem. There is also no warning that alocasia is toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "One embedded comment matches the reference: \"soil looks soggy, consider switching to a chunky soil... Yellowing can be from over watering\". However, it sits beside an unsupported flowering diagnosis and a generic checklist (\"Check for pests\", \"Consider possible light stress\"). The output never commits to a single diagnosis. It also does not tie its advice to the case evidence: the user saturates the soil whenever the plant droops, the mix is fine and dense, and the pot has a built-in tray."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some steps are home-doable, such as \"Rinse roots when repotting, cut back dead or rotting material\" and switching to a chunkier mix or LECA. But the advice is buried in UI markup, URLs and reaction buttons, and different commenters contradict each other. Key details are missing, including the peroxide dilution and how to adjust watering. The user does not get a clear sequence of steps to follow."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Check for pests",
+      "Consider possible light stress",
+      "Check roots and consider repotting in a less dense mixture"
+    ]
+  },
+  "input_tokens": 2939,
+  "output_tokens": 906,
+  "graded_at": "2026-10-30T00:20:33.985813+00:00",
+  "status": "graded_pending_review"
+}

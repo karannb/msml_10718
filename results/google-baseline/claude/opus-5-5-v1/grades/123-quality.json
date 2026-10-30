@@ -1,0 +1,32 @@
+{
+  "job_id": "123-quality",
+  "query_index": 123,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a6ac2aabca050e6ea968a6ab7fb4a1fb7ae10fd76a657bc62570d6f7ead9b772",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is a scraped fragment of Facebook comments, not a structured answer. It recommends \"bonide systemic granules\" that \"make the leaves toxic to anything that feeds off of it\" with no warning about pets, children, or indoor use. It also suggests mixing \"peppermint/ and tea tree castille soap, alcohol, peroxide with water\" into a spray, which is exactly the kind of product mixing that should be flagged. Telling the user to \"Saturate the plant\" in 50-50 alcohol, repeated two or three times on an already stressed plant, adds a risk of tissue damage with no caveat."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "There is no health label, no time-to-severe estimate, and no identification of the pest. The comments are about mealybugs (\"Neem did not work for me at all with Mealy’s\"), while the reference points to whiteflies or similar bugs on the foliage. \"Try rubbing alchol instead\" ignores that the user says alcohol isn't working. It also misses the reference's key technique: physically wiping bugs off with an alcohol-soaked cloth and cutting off badly infested leaves. The alcohol-based treatment loosely overlaps with the reference, but the output is largely untailored to this case."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The products mentioned (alcohol, castile soap, systemic granules) are easy for a home owner to buy. However, the output is a jumble of web-scrape markup, URLs, and reaction buttons. One recipe is cut off mid-sentence (\"it kills all ba…\"), and the advice contradicts itself (alcohol alone vs. a multi-ingredient spray vs. systemic granules). The user would struggle to pull a clear plan out of it."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Try rubbing alchol instead",
+      "Saturate the plant",
+      "just let them dry before u put under lights or in sunlight"
+    ]
+  },
+  "input_tokens": 3134,
+  "output_tokens": 1036,
+  "graded_at": "2026-10-29T22:38:11.048855+00:00",
+  "status": "graded_pending_review"
+}

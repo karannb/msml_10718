@@ -1,0 +1,84 @@
+{
+  "job_id": "031-resolved",
+  "query_index": 31,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "aefcd8d0406ca99b336d5c645adc0ebe7282a09485b4dbe0540a625790e1d502",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Set up a clip-on grow light near a south- or east-facing window",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture with a wooden skewer or chopstick",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water when the skewer comes out dry",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a pot with drainage holes",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Mix cactus soil from 3 parts potting soil, 2 parts coarse sand and 1 part perlite",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "If in a humid climate, place a small dehumidifier nearby or keep the plant in an air-conditioned room",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "In winter, move the plant away from drafty windows toward the center of the room",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feed half-strength succulent fertilizer monthly in spring and summer",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Group succulents together",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic care guide with no diagnosis of underwatering; it mentions drainage-hole pots and a gritty soil mix among many unrelated tips but says nothing about deep or bottom watering, and none of its suggestions are likely to harm the plant."
+  },
+  "input_tokens": 2504,
+  "output_tokens": 1008,
+  "graded_at": "2026-10-30T00:19:27.361018+00:00",
+  "status": "graded_pending_review"
+}

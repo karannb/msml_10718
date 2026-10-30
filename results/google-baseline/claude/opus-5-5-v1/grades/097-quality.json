@@ -1,0 +1,32 @@
+{
+  "job_id": "097-quality",
+  "query_index": 97,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f3d2b1d293ad6612687a648299bbbff35624fdf5b53c52be46c410c029553c19",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a scraped Facebook comment thread, not structured assistant advice. Its actionable suggestions, \"Bottom feeding would help to keep the top soil dry\" and bowls of \"apple cider vinegar, water and a dawn dish soap\" for gnats, are low-risk. The overconfident claim that \"This plant will only tolerate filtered or distilled water\" could misdirect effort, but it is not dangerous. It does not mention plant toxicity or encourage harmful chemical use."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "One comment, \"Brown leaves are an indication of low humidity. It may be happier with some humidity,\" matches the reference's humidity diagnosis. Nothing addresses why the leaves are torn, which the reference attributes to tears forming during leaf development and to chewing pests. Fungus gnats are mentioned, but they do not chew leaves. The rest is conflicting or generic speculation (\"Crispy edges could be over or under watering. Rust spot can be fungal.\"). There is no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some individual items are doable at home: bottom watering, vinegar traps, and using filtered water. However, the content is raw scraped HTML with URLs and buttons and contradictory comments, not a coherent plan. A user would struggle to work out what to do first. There are no concrete humidity steps such as misting, a pebble tray, or grouping plants."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Crispy edges could be over or under watering",
+      "U need to see what's going on under to see what could be the issue",
+      "Tap water also has a lots mineral that this play dislikes"
+    ]
+  },
+  "input_tokens": 2762,
+  "output_tokens": 964,
+  "graded_at": "2026-10-29T22:37:23.250583+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "056-quality",
+  "query_index": 56,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f065a96890919d6f6894c4cfaa6f6e540137830d92ce4be7d8ba9e230697247c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The generic care sheet carries little risk. \"Prune spent flowers and yellowing leaves to encourage new growth\" happens to be the right action. A fixed schedule like \"Watering once a week should suffice\" could clash with the owner's soil-dry approach, and the humidity push may reinforce unnecessary daily misting, but neither is likely to cause serious harm. The output never says the plant is healthy, so the owner may keep worrying, but no dangerous action is recommended."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a generic oxlip care sheet with no health label, no diagnosis and no time-to-severe estimate. It never addresses the user's concern or states that flowers dying off is normal, as the REFERENCE confirms. \"Prune spent flowers\" partly overlaps with the reference's deadheading advice, and \"partial shade to full shade\" loosely answers the sun question, but none of it is tied to case evidence. Most sections (\"USDA Hardiness Zones\", size ranges) are irrelevant to the question."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Most instructions are easy for a home owner: deadhead, water, keep in partial shade. The humidifier and monthly fertilizing are simple to do. Because nothing is framed around the user's actual problem, it is unclear which steps they should prioritize."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Consider using a humidifier or placing a tray of water near the plant to increase humidity levels",
+      "Fertilize with a balanced, water-soluble fertilizer once a month during the growing season",
+      "Keep the soil consistently moist but not waterlogged. Watering once a week should suffice",
+      "Prune spent flowers and yellowing leaves to encourage new growth"
+    ]
+  },
+  "input_tokens": 2838,
+  "output_tokens": 612,
+  "graded_at": "2026-10-30T00:11:03.679308+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,56 @@
+{
+  "job_id": "176-resolved",
+  "query_index": 176,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "91663d0d648cdf60be00d1efc1349014400167ae3d3f6c2d501b2f8b3cb99e62",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Choose a pot with a drainage hole about 2 inches wider than the root bundle",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If the pot has no drainage hole, drill one and set the pot on a catch tray",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Buy an organic perlite-based potting mix such as Espoma Organic",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Pot the plant in layers: 2-3 inches of soil, pebbles in the center, another 2 inches of soil, then hold the roots centered and fill around them",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Water as the mother plant would be watered, adjusting for pot size and watering less when in doubt",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic guide to potting cuttings that never identifies transplant shock or the oversized-pot overwatering risk and gives no leave-it-alone advice, though its cautious watering note is safeguarded and not harmful."
+  },
+  "input_tokens": 2476,
+  "output_tokens": 947,
+  "graded_at": "2026-10-30T00:11:39.668030+00:00",
+  "status": "graded_pending_review"
+}

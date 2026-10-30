@@ -1,0 +1,31 @@
+{
+  "job_id": "115-quality",
+  "query_index": 115,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f782001ac745908a5e65290140d9c61594d02d793838b34644914312bb137745",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The main advice, \"When this happens I usually spray with water\" and \"wet a paper towel and place it around there,\" is low-risk and matches what worked in the REFERENCE. However, the output repeats \"I yank it out but I've broken it twice lol so that's a price you can gamble w,\" which presents a damaging technique as an option. \"take a wet q-tip and push the leaf out\" could also tear the leaf if done forcefully. The yanking comment carries its own warning, so the risk is minor."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook comment thread with URLs and UI markup, not a structured answer. It has no health label and no time-to-severe estimate. It never explicitly names the problem as a new leaf stuck in the previous leaf's sheath, though the moisture-loosening advice implies it. \"I usually spray with water\" matches the REFERENCE. \"put it somewhere humid\" ignores that the CASE says the plant is already in a humid bathroom. Contradictory remarks like \"I don't feel like the spray water works\" muddy the guidance."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Spraying with water, a wet q-tip and a damp paper towel are all easy household methods. But they are buried among URLs, button labels and conflicting opinions (\"Trust Mother Nature,\" \"I yank it out\"). There are no clear steps, frequency or recommended order. A new plant owner would have to dig out the usable advice themselves."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Trust Mother Nature to do the things in her own time.",
+      "You can also put it somewhere humid to help loosen it up."
+    ]
+  },
+  "input_tokens": 2654,
+  "output_tokens": 872,
+  "graded_at": "2026-10-30T00:15:03.996878+00:00",
+  "status": "graded_pending_review"
+}

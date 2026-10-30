@@ -1,0 +1,32 @@
+{
+  "job_id": "007-quality",
+  "query_index": 7,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "86b26b445095bf4148f50eec60eac9ac0c007e7b4062f9c0ef7aa99a17973e6e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a scraped Reddit thread, not structured advice, but its dominant message is low-risk: \"Water them!\" and \"Give them a big drink of water.\" Some comments could delay action slightly, such as \"it might also be normal. Do they perk back up at night?\" Others conflict with the rest, such as \"Don't put them in direct sun\" and \"the clear containers are cooking the roots.\" There are no chemicals or dangerous steps, so the risk is minor."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Many comments correctly point to dehydration: \"wilting down and losing all structural integrity of the leaf is because it's dehydrated\" and \"They are 99.9% parched right now.\" This matches the REFERENCE's \"a good drink.\" However, the thread is about a different situation: the original poster there was hardening off peppers \"a few hours a day,\" not leaving a plant unattended for two weeks while away. There is no health label, no time-to-severe estimate, and no synthesis, and contradictory theories (sun damage, root heating, normal midday wilting) dilute the correct diagnosis."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Watering is trivially doable. However, the output is raw accessibility-tree markup (\"link\", \"/url:\", \"generic: •\") mixed with conflicting comments, such as \"water a lot more often\" versus \"it might also be normal.\" A user would have to pick the correct step out of noise themselves. No clear, ordered instructions are given."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Don't give too much direct sunlight, water well, and make sure the pots themselves and the soil don't get too warm",
+      "u need to water them more often",
+      "Don't put them in direct sun"
+    ]
+  },
+  "input_tokens": 8716,
+  "output_tokens": 982,
+  "graded_at": "2026-10-29T22:38:01.340708+00:00",
+  "status": "graded_pending_review"
+}

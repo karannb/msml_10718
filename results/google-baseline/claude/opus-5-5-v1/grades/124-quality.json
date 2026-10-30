@@ -1,0 +1,33 @@
+{
+  "job_id": "124-quality",
+  "query_index": 124,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "ba696b80383e3d6002e9ea2c7ce986229cc8c3d6ebe8ef360cb9da12b74e5892",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The output advises waiting before pruning: \"the best course of action is to wait until new growth emerges.\" It also says to \"Cut back dead stems to a living bud.\" Both are safe and align with the reference's patience-based advice. There are no chemicals, dosages or risky actions. Omitting current watering and fertilizing guidance is a gap, not a hazard."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output is a scraped blog article (Kim Toscano, Encore Azaleas) rather than a tailored answer. It has no health label or time-to-severe estimate. It covers winter damage relevant to a reblooming azalea, including \"Don't worry if your plants fail to flower this spring\" and the point that buds form on new growth for summer and autumn blooms, which matches the reference's \"you might [get blooms] by fall.\" However, it describes \"brown or blackened foliage\" rather than the poster's reddish leaves. It never says the remaining green means the plant is alive. It also omits the reference's key actions: keep it watered, fertilize, and protect from heat and sun."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The steps that are present are easy for a home gardener: wait for new growth, then prune dead stems; mulch \"three to four inches of pine straw or bark\" in fall; water before freezes. But the content is buried in webpage clutter (share buttons, tags, image alt text). It gives no clear action plan for the poster's current spring conditions, so the user must work out what applies to them."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "be patient",
+      "Mulching azaleas in fall provides roots with an extra layer of protection",
+      "make sure plants have sufficient moisture",
+      "consider a hardier variety"
+    ]
+  },
+  "input_tokens": 3201,
+  "output_tokens": 1033,
+  "graded_at": "2026-10-29T22:38:29.566694+00:00",
+  "status": "graded_pending_review"
+}

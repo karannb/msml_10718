@@ -1,0 +1,33 @@
+{
+  "job_id": "151-quality",
+  "query_index": 151,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "387b951568ac9de6b056183120a5ec3797917bff8e48a15c734d8d83457dbcfa",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "Most of the content is low risk: \"may require some time for the plant to acclimate\" encourages patience, and the hydrogen peroxide tip is for future pup cuts. However, \"Spray it with an insecticide or miticide if needed\" introduces chemicals with no pest evidence in the case and no safety caveats. \"Then look at the roots for signs of rot\" implies unpotting a freshly transplanted, shocked plant, which could stress it further."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a scraped Facebook thread, not a structured answer, and has no health label or time-to-severe estimate. It does note that \"the browning could be attributed to shock from transplanting\" and mentions root redevelopment after cutting, which partly matches the reference. It never gives the reference's key advice: trim the dead growth and keep it watered, with a realistic hope of new leaves. It also mixes in unrelated pest and rot checks with no basis in the case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The text is fragmented, includes UI elements and URLs, and is cut off mid-advice (\"Healthy ones should look like spaghetti… See more\"). It suggests \"a dissection microscope,\" which a typical home owner won't have. There are no clear, ordered steps that answer the user's question about trimming and recovery."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Look under the leaf for signs of insects or mites",
+      "Spray it with an insecticide or miticide if needed",
+      "look at the roots for signs of rot",
+      "may require some time for the plant to acclimate to its new environment"
+    ]
+  },
+  "input_tokens": 2887,
+  "output_tokens": 935,
+  "graded_at": "2026-10-30T00:11:08.685268+00:00",
+  "status": "graded_pending_review"
+}

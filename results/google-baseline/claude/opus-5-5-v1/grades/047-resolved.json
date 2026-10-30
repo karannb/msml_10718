@@ -1,0 +1,98 @@
+{
+  "job_id": "047-resolved",
+  "query_index": 47,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "7e2808c2cb003a1745ecf58196405824d48f86fcb6d7953193b99aa32f7f1ded",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check whether the soil is dense, soggy, or staying wet",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Smell the base of the plant for a sour or rotting odor",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Slide the plant out of its pot and inspect the roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If roots are rotting, rinse off the soil and cut away mushy roots with sterilized shears",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clean the pot with soap and water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in fresh, well-draining mix amended with perlite or bark, in a pot with drainage holes",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Prune back some top foliage to balance the reduced roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant indoors to a spot with bright, indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water the plant (commenter suggestion)",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check whether it needs potting on to a bigger pot",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water only once the soil is bone dry",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames wet soil but leads with root rot rather than transplant shock and low light, and its bright-light advice is buried behind root surgery that only applies if rot is found, so it is not clearly harmful."
+  },
+  "input_tokens": 3284,
+  "output_tokens": 1262,
+  "graded_at": "2026-10-30T00:21:04.482964+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,30 @@
+{
+  "job_id": "154-quality",
+  "query_index": 154,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "0c67fb3cd4c834a79a01badc4330543119de4a34c951152317f24fd94b7f64e0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The advice to \"gradually increase to more natural light or add a grow light if needed\" correctly avoids sudden sun exposure, which could cause sunburn. \"chop and prop\" and the switch to gritty soil are standard, safe practices. Nothing in the output risks harming the plant or the person."
+    },
+    "specificity_accuracy": {
+      "score": 5,
+      "reason": "The output names the problem as etiolation: \"the plant grew tall because it has not been receiving enough light,\" which matches the REFERENCE. It ties this to visible evidence (\"leaves turn down,\" \"topmost growth looks more compact\") and recommends more light plus chop and prop, in line with the reference's behead, repot and propagate advice. It adds case-specific observations about the flower stalk and the overly organic soil. It omits the reference's specific window-direction suggestion (an East window) and leaf propagation, but the core advice matches."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "\"gradually increase to more natural light or add a grow light\" and \"chop and prop\" can be done at home with easy-to-find supplies. However, \"chop and prop\" is given only as a linked term with no explanation, which leaves a beginner without concrete steps. The pointer to read a \"Beginner Basics guide on the wiki\" also hands off detail rather than providing it."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": [
+      "read the Beginner Basics guide on the wiki for advice about proper soil and other basic care needs"
+    ]
+  },
+  "input_tokens": 2453,
+  "output_tokens": 520,
+  "graded_at": "2026-10-30T00:12:05.131050+00:00",
+  "status": "graded_pending_review"
+}

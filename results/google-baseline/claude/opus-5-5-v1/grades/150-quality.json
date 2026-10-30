@@ -1,0 +1,32 @@
+{
+  "job_id": "150-quality",
+  "query_index": 150,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "6e266b3967dcd617ea0702b8420e43bb085de69d0f21be62a77aee19e4af340a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a scraped Facebook comment thread, apparently about wind-bent banana stalks with flowers and fruit. Its main advice is \"just cut right at the bend\" and \"cut off below the bent part and it will grow back.\" Cutting back a banana pseudostem is generally recoverable from the corm, so this poses little direct danger. However, it does not address transplant shock, gives no watering or aftercare guidance, and suggests a leaf shredder for fallen plants. These are irrelevant omissions rather than harmful instructions."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "No health label, diagnosis or time-to-severe estimate is given. The content discusses flower position, fruit finishing and bent leaf spikes (\"It depends on where the flower is... If fruit is still connected\"), none of which applies to a freshly repotted plant that lost its pups. The reference's diagnosis of transplant shock is never mentioned. Only the general idea of cutting back damaged growth loosely overlaps with the reference's \"trim away the dead stuff and keep it watered,\" and even that comes from an unrelated context."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The text is cluttered with page markup, URLs and buttons (\"View 1 reply\", \"3 reactions\"), so it is hard to read as care instructions. The cutting instructions depend on locating a flower spike, which does not apply to this plant, leaving the owner unsure where to cut. \"Bring in a leaf shredder\" requires equipment most houseplant owners lack and is irrelevant. There are no clear steps for this case."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Just cut off below the bent part and it will grow back beautifully",
+      "most of those should bounce back fine",
+      "Bring in a leaf shredder to grind up the fallen plants"
+    ]
+  },
+  "input_tokens": 2754,
+  "output_tokens": 855,
+  "graded_at": "2026-10-30T00:10:50.164404+00:00",
+  "status": "graded_pending_review"
+}

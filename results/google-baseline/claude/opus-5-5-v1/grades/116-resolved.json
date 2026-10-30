@@ -1,0 +1,77 @@
+{
+  "job_id": "116-resolved",
+  "query_index": 116,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "d0fce1d9d9e0378a6e1e3cfbd7b11b15f82d42cb4a34fef71163dc71cda10607",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the dry plants (don't drench)",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture with finger past the knuckle before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Do the leaf fold test to check if a plant needs water",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot a struggling plant to inspect roots, then repot if fine",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place plant with poor roots in a cup of plain water, or alternatively just moisten its soil",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep the self-watering reservoir full",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove the loofah seedlings once bigger and grow them separately",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add shelves to catch more sunlight",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 50,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer repeatedly identifies dryness/underwatering as the main issue and its main advice is to water more, which matches the fix, with a soil check safeguard so nothing harmful."
+  },
+  "input_tokens": 4624,
+  "output_tokens": 536,
+  "graded_at": "2026-10-30T00:15:09.575796+00:00",
+  "status": "graded_pending_review"
+}

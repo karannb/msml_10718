@@ -1,0 +1,63 @@
+{
+  "job_id": "124-resolved",
+  "query_index": 124,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "ee40036b49fc4eeb27f3a0be4f98b7a1b15a2907520f3ce527d1bfc8edf8d2f4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Wait for new growth, then cut dead stems back to a living bud or lateral branch",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove branches split lengthwise along the stem",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check flower buds to tell dead shriveled buds from plump living ones",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If replacing dead plants, buy a cold-hardier Encore Azalea variety",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Mulch with 3-4 inches of pine straw or bark in fall",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Water before freezing weather if rainfall has been scarce",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer correctly identifies recoverable winter damage and advises patience, but it focuses on pruning and future protection, mentioning watering only before freezes and never fertilizing, so the actual fix is only partly covered; nothing harmful is advised."
+  },
+  "input_tokens": 2783,
+  "output_tokens": 744,
+  "graded_at": "2026-10-29T22:38:18.521889+00:00",
+  "status": "graded_pending_review"
+}

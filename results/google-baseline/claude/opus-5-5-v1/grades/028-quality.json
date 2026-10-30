@@ -1,0 +1,33 @@
+{
+  "job_id": "028-quality",
+  "query_index": 28,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f0f22f91eb5d5b739f0892974b419a8b83502e34b41ec98a3c1cf2e859e26e35",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output says to \"use about 3 ml of any shampoo and add this in 1 liter of water\" and spray it on the plant. On edible basil and mint, 'any shampoo' may carry fragrances, conditioners or other additives that are not food-safe and can burn tender leaves. The instruction to \"use plain water to wash off all of the solution\" the next morning lowers the risk. Still, there is no caveat about edible use or a patch test, and the dosage is inconsistent (\"3/4 ml\" vs \"3 ml\"). This is a moderate risk compared with the reference's plain water rinse."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a generic YouTube transcript about \"Milly bug\" problems on a tomato and a hibiscus. It never addresses the user's basil and mint. The reference confirms aphids, with the white material being molted exoskeletons, whereas the output diagnoses mealybugs. It mentions \"aphids\" only in passing while conflating the two pests. It does not mention the reference's simple fix of rinsing the plants or brushing off and squishing the aphids. Its discussion of ants has no basis in the case."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Shampoo, water and a spray bottle are easy to obtain, and the routine of spraying in the evening and rinsing before noon is doable. However, the instructions are muddled. The concentration shifts between \"3 ml\" and \"3/4 ml\". It recommends a \"spring pump\", and the transcript format is rambling and cuts off mid-sentence. A home owner could follow it, but with some confusion."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "you can always apply a chemical and deal with them",
+      "check the leaves properly both underneath and on the stem",
+      "you can use an organic shampoo",
+      "even if this once treatment does not reduce the number... you can do this again"
+    ]
+  },
+  "input_tokens": 3758,
+  "output_tokens": 1074,
+  "graded_at": "2026-10-30T00:18:46.058185+00:00",
+  "status": "graded_pending_review"
+}

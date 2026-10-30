@@ -1,0 +1,32 @@
+{
+  "job_id": "035-quality",
+  "query_index": 35,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d0f1504f56e9514d1e033bd7e45233638a92ea72ecb7a9a330f7132987e53ecf",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output says calatheas \"typically like constant moist soil, warm and high humidity\" and that \"mine like self watering pots when I do repot.\" In this case the soil is already staying too wet under low light, so both comments push toward more moisture and higher root-rot risk. \"It should hopefully bounce back\" may also delay the real fix, which is more light. There is no direct dangerous instruction, so the risk is moderate."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is not a proper assistant answer. It is scraped Facebook comment markup with no health label and no time-to-severe estimate. It touches on repotting shock (\"The shock of bringing it to a new environment is all the shock it should go through\") but never identifies the key causes in the REFERENCE: low light from being moved away from the window, and soil staying wet. It never suggests using the plant lamp the poster already owns, which is what actually fixed the problem."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The output contains no clear actionable steps, only anecdotes and opinions such as \"If it was fine when you bought it, there was no need to repot,\" which cannot be acted on now. Interface clutter (URLs, buttons, reaction counts) makes it confusing. The only concrete suggestion, a \"self watering pot,\" requires a purchase and is counterproductive here."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "These guys can be temperamental. They typically like constant moist soil, warm and high humidity",
+      "It should hopefully bounce back",
+      "When bringing a new plant home it needs time to adjust to its new environment"
+    ]
+  },
+  "input_tokens": 2948,
+  "output_tokens": 900,
+  "graded_at": "2026-10-30T00:20:50.631593+00:00",
+  "status": "graded_pending_review"
+}

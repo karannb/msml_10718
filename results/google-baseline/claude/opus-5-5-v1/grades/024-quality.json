@@ -1,0 +1,35 @@
+{
+  "job_id": "024-quality",
+  "query_index": 24,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7b6c859e53c954362773a60bcb55d95bb1ef1f4dd3bf5db84edaed29e6b47032",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The main advice, \"It looks like it is too damp. Give it a good 3-4 days between watering, the soil has to completely dry out,\" is the opposite of what the REFERENCE confirms. The plant was underwatered and recovered within hours of a 20-minute soak. Withholding water from a wilting, thirsty basil could kill it. Other suggestions add stress to an already struggling plant: \"Feed it! Get some fish emulsion,\" \"less watering AND some of this soil moist stuff,\" and transplanting. \"It's dead, get another\" could lead the user to discard a salvageable plant."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output diagnoses overwatering (\"too damp,\" \"roots will get mushy\"), but the REFERENCE confirms underwatering, so the diagnosis is wrong. The content is a scraped Reddit thread about a different plant: it mentions a balcony and south exposure, which do not appear in the CASE. It gives no health label or time-to-severe estimate. None of it reflects the soak method in the REFERENCE, and the only overlap is a passing mention of cold."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some individual steps are simple, such as waiting between waterings, buying fish emulsion, or repotting. However, the output is a jumble of conflicting forum comments mixed with page markup, links, and usernames. It variously says to water less, says basil needs more water, and says to throw it away. A typical owner would not get a clear, coherent plan from it."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Feed it! Get some fish emulsion.",
+      "I would transplant it into a bigger pot or the ground",
+      "Buy a new one, it'll set you back $2.",
+      "Just get another one.",
+      "pinching off brown/yellow/dead/withered leaves and stems",
+      "Do you live near an Ikea? They have some amazing, cheap pots."
+    ]
+  },
+  "input_tokens": 5106,
+  "output_tokens": 928,
+  "graded_at": "2026-10-30T00:17:26.938840+00:00",
+  "status": "graded_pending_review"
+}

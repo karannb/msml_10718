@@ -1,0 +1,56 @@
+{
+  "job_id": "141-resolved",
+  "query_index": 141,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "157f9149fef1f5e888abea4ef86653bbcbe46209000e57be47a0126693008158",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot into a pot with drainage holes",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant into a window",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase sun exposure slowly and gradually",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Water so it doesn't dry out for too long",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Replant at a shallower depth so lower leaves aren't buried",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer identifies poor drainage, too little light and not letting it dry out, but misses the root-bound part; its advice (a draining pot, a window, regular watering) matches the fix and nothing in it is harmful."
+  },
+  "input_tokens": 2437,
+  "output_tokens": 770,
+  "graded_at": "2026-10-30T00:15:03.400993+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,105 @@
+{
+  "job_id": "127-resolved",
+  "query_index": 127,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "a871918cfb86c55f0a5bc993896c4689ff619e1924272420345acd8da13d4598",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot into fast-draining potting mix",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Water only when top 2 inches of soil are completely dry (check soil)",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant to spot with at least 4 hours of direct sunlight",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use full-spectrum grow light 12 hours a day if indoors",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Maintain humidity around 40-50% and keep away from heat sources",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Feed lightly every 6-8 weeks with diluted organic fertilizer like fish emulsion or compost tea",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Flush soil with clean water every few weeks",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If soil too acidic, add garden lime or bone meal/oyster meal",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Prune crowded stems to improve airflow",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray with neem oil solution weekly",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Acclimate gradually over a week when moving indoors/outdoors and keep temperature 15-27°C",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant to partial shade in hot subtropical summers",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer names overwatering as the main cause, the opposite of the confirmed underwatering in fast-drying terracotta, and never suggests watering more or switching to plastic pots; its advice to let soil dry further and use faster-draining mix would likely worsen the drying out."
+  },
+  "input_tokens": 3116,
+  "output_tokens": 812,
+  "graded_at": "2026-10-30T00:11:11.410907+00:00",
+  "status": "graded_pending_review"
+}

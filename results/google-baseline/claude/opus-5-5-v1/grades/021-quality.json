@@ -1,0 +1,31 @@
+{
+  "job_id": "021-quality",
+  "query_index": 21,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "eeb342cd77e8720435b15e63d308eefe1532686a4893f419f83e69b08085a79c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is scraped Facebook comments rather than a coherent answer. Its suggestions, \"Get them out of the afternoon sun\" with cloth covers and \"I would skip a day in-between to water,\" are unlikely to seriously harm the plant. However, the plant already gets only morning sun, so further shading could cut light and delay fruiting. Reducing water in hot weather without checking the soil carries minor risk."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The REFERENCE says the plant is simply not mature enough yet and needs time. The output instead points to heat stress (\"Heat stress is caused by not allowing the plant... to transfer heat into the soil\") and overwatering (\"I found out I was over watering\"). Neither matches the reference. The text is also truncated and garbled, with names, URLs and a \"See more\" button, and it never engages with the case evidence such as the healthy leaves."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The content is fragmented, contains UI artifacts and cuts off mid-sentence (\"If this is repeatedly happening, y…\"). Some actions are doable, such as \"I used pest covers\" or a cloth on a frame, but they are anecdotal and not organized into clear steps. A typical user would struggle to extract a coherent plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "I found out I was over watering. I would skip a day in-between to water in the morning",
+      "Get them out of the afternoon sun"
+    ]
+  },
+  "input_tokens": 2652,
+  "output_tokens": 821,
+  "graded_at": "2026-10-30T00:14:57.260561+00:00",
+  "status": "graded_pending_review"
+}

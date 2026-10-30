@@ -1,0 +1,35 @@
+{
+  "job_id": "114-resolved",
+  "query_index": 114,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "463c45da6cbf8c798d7a84a844263765c217a8c15f831b021e2515c4628775b5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Watch u/verde_alcove's video and manually free the stuck leaf from its sheath",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to brighter light so leaves unfurl",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer correctly identifies a new leaf stuck while unfurling, but never suggests misting it (the fix that worked); its main advice to leave it alone is not likely to harm the plant."
+  },
+  "input_tokens": 2322,
+  "output_tokens": 472,
+  "graded_at": "2026-10-30T00:14:35.792959+00:00",
+  "status": "graded_pending_review"
+}

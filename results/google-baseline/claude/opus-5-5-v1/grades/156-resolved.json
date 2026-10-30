@@ -1,0 +1,77 @@
+{
+  "job_id": "156-resolved",
+  "query_index": 156,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "477ba17f3bcc77008e2ca2908a8d19abb872813fb204325bdf4c0ec2762acf53",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Dampen a paper towel with dilute hydrogen peroxide, wrap the seed, seal it in a baggie and keep it somewhere warm",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Check the baggie every few days for root sprouting",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, plant the seed directly about an inch deep and cover the pot with plastic wrap or a baggie",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Remove the plastic covering once the leaves are growing well",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix about 1 part peat to 2 parts potting soil and pot the plant at its original depth",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 18,
+        "unclear": false
+      },
+      {
+        "action": "Place the plant close under a T5 high-output grow light for 14 hours a day",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 60,
+        "unclear": false
+      },
+      {
+        "action": "Feed monthly with acid-loving plant fertilizer diluted to 1/2 or 1/3 strength",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Set the pot on a pebble tray to raise humidity",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      }
+    ],
+    "reason": "This is a generic lychee-growing transcript: it implies planting a sprouted seed but never addresses the dead-looking leaves or confirms the seed is viable, and the planting advice is buried among germination steps for a seed that has already sprouted; its strong close grow light differs from the gentle-light advice but is unlikely to cause serious harm."
+  },
+  "input_tokens": 2697,
+  "output_tokens": 1136,
+  "graded_at": "2026-10-30T00:12:43.525097+00:00",
+  "status": "graded_pending_review"
+}

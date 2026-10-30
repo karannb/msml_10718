@@ -1,0 +1,49 @@
+{
+  "job_id": "101-resolved",
+  "query_index": 101,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "76459957b9d7363e534ce1d4507f9e145414db52269dbfa4dd3ce7b936cbbf00",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot the plant into a smaller pot no more than 2 inches bigger than the root mass",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Let the soil dry out and check that it is dry well below the surface before watering again",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water the plant if it wasn't watered after repotting",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to a spot with some sun but not enough to sunburn it",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The leading comment blames an oversized pot and root rot, with transplant shock only raised in later comments; the correct 'just shock, give it light' advice is buried, and the lead advice to repot again would likely worsen the shock."
+  },
+  "input_tokens": 2467,
+  "output_tokens": 628,
+  "graded_at": "2026-10-29T22:38:28.153785+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,147 @@
+{
+  "job_id": "039-resolved",
+  "query_index": 39,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "f13af7b828ac6251b84b89e64d8471580d3d283a5397c6019c687a04b9be0050",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the rue every week",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rehydrate the underwatered plant by watering slowly and thoroughly with room-temperature water until the soil is moistened",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the soil daily and water if it is dry 2 inches down",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a slower-draining container if it dries out repeatedly",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Trim yellow leaves, no more than one third of the foliage",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mulch to retain soil moisture",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Place in full sun for 6+ hours a day",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use a well-draining mix of garden soil, coarse sand and perlite with compost",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize with balanced fertilizer in spring and fall, watering before and after",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Prune stems back by one third and remove dead wood, wearing gloves",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Repot every 2-3 years in spring into a slightly larger pot with drainage",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Rotate the pot periodically",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Improve soil drainage to manage wilting disease",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Spray Bt or insecticide for caterpillars",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Spray chili extract against caterpillars",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Release beneficial insects such as parasitic wasps",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Hand-pick caterpillars into soapy water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Dust plants with diatomaceous earth",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic rue care page that lists underwatering only as one of several common issues, and the watering fix is buried among many unrelated care steps, though nothing in it is likely to worsen dehydration."
+  },
+  "input_tokens": 10634,
+  "output_tokens": 1498,
+  "graded_at": "2026-10-30T00:18:26.224185+00:00",
+  "status": "graded_pending_review"
+}

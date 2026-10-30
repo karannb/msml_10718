@@ -1,0 +1,28 @@
+{
+  "job_id": "029-quality",
+  "query_index": 29,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "be197ff8449b58a20f473e5cccc5c1fbfc8377eea67a13531b8fa7467754dd48",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The usable advice, \"Aphids, they wash off with your hose\" and \"Squash with fingers\", is safe and matches the reference's rinse-and-squish approach. The suggestion to \"cut up fresh oregano and place on the soil under plants\" is an unproven folk remedy. Decaying plant matter on potting soil could encourage mold or fungus gnats, so it carries a small risk. Nothing here endangers people or pets."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The diagnosis \"Aphids.\" matches the reference, and washing off and squashing are the reference's core remedies. However, the output is a raw scrape of Facebook comment markup, with names, URLs and timestamps, rather than a coherent assessment. It has no health label and no time-to-severe estimate. It does not explain that the white specks are molted exoskeletons, which is the case-specific evidence the user asked about. It also omits the reference's advice to repeat a few times a week and keep monitoring."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "\"Wash off with your hose\" and \"Squash with fingers\" are easy for any home grower, though a sink sprayer suits potted indoor herbs better than a hose. The steps are fragmented across scraped comments, with no frequency, no follow-up and no structure. A user would have to pick the actionable parts out of the URLs and markup."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "input_tokens": 2812,
+  "output_tokens": 813,
+  "graded_at": "2026-10-30T00:18:58.087889+00:00",
+  "status": "graded_pending_review"
+}

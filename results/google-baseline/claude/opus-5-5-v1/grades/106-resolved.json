@@ -1,0 +1,98 @@
+{
+  "job_id": "106-resolved",
+  "query_index": 106,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "e47636d93f0bc4738f442a7409c8b09eed213fa55c545be5a4184840d46d5b65",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot into fresh, airy cactus/orchid-type mix in a small pot",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Wait about a week after moving the plant before repotting",
+        "minutes": 0,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Amend cactus soil with 30-50% extra perlite",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 6,
+        "unclear": false
+      },
+      {
+        "action": "Check the roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil to second knuckle and water when dry, about weekly",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bottom water the plant",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to a bright, draft-free spot out of direct sun, e.g. a north-facing window",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feed with liquid succulent fertilizer when watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Set up a pebble humidity tray",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Take cuttings from greener parts and propagate as backups",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move to a cool basement window before flowering season",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The thread mostly blames overwatering and mentions dehydration only once, but its dominant advice to repot into fresh, airy soil matches the fix the poster says worked, and its watering advice includes soil checks, so it is not harmful."
+  },
+  "input_tokens": 7427,
+  "output_tokens": 1113,
+  "graded_at": "2026-10-30T00:12:03.279597+00:00",
+  "status": "graded_pending_review"
+}

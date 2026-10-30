@@ -1,0 +1,38 @@
+{
+  "job_id": "133-quality",
+  "query_index": 133,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "3007d697ba46393639dcb0fe23ddf1cb461e6bd8252f90f4a18527b0d341e4ea",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "Most of the general care advice is low-risk, such as \"select a pot that is three to five inches wider\" and \"always test the soil before you water.\" However, the demonstration moves a plant from a \"12-inch\" pot to a \"19-inch\" one, which contradicts its own sizing advice and could encourage over-potting, a root-rot risk. It also describes heavy pruning (\"I did cut back a lot of leaves\") without caveats and omits that bird of paradise is mildly toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output is a video transcript about another person's plant (\"Phoebe\"), not a response to this case. It never mentions the user's 27cm pot, the multiple plants sharing the pot, or the user's fear that repotting will stop growth. It does implicitly support the reference: it treats roots \"poking out of the drainage hole\" as a sign of being root-bound and recommends a modestly larger pot (\"three to five inches wider\"), which is close to \"one size larger.\" Much of the remaining content is generic care advice."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The actual repotting steps are missing; the transcript skips them with \"(upbeat music)\" and \"(pot clanking)\". It does not tell the user how to unpot, loosen roots, or handle the multiple plants. It also leans on specific products, including a \"Lechuza self-watering Classico 50 planter,\" a humidifier, and a soil moisture meter. The watering method is clear but not relevant to the question asked."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Bird of paradise needs bright light",
+      "Misting plants daily helps, but it is best to have a humidifier nearby",
+      "feed your plant spring and summer when it's actively growing",
+      "Clean your bird of paradise once every two or three weeks",
+      "Overwatering is number one plant killer",
+      "always test the soil before you water your plants",
+      "make sure that your pot has a drainage hole",
+      "Important not to put your plant next to a radiator or heat or air conditioning unit",
+      "move your plant closer to the light source"
+    ]
+  },
+  "input_tokens": 8391,
+  "output_tokens": 1191,
+  "graded_at": "2026-10-30T00:12:54.376312+00:00",
+  "status": "graded_pending_review"
+}

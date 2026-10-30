@@ -1,0 +1,35 @@
+{
+  "job_id": "082-quality",
+  "query_index": 82,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "489f8842011b6a39b6dc356f1da379dec0c2cb661c4eb74dc040923a08e29dd1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The advice is low-risk: \"repotted it into an aroid poly mix,\" \"err on the side of caution with watering,\" and \"move this closer to the window.\" These would not worsen a wet-soil, low-light problem. Pruning roots with \"sterile pruning shears\" is reasonable. It omits that monstera is toxic to pets and children, which matters during repotting and root handling."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output is a pasted YouTube transcript about the presenter's own plant (\"this is my overwatered monster\"), not an assessment of the user's photos. It gives no health label and no time-to-severe estimate. Its content does overlap with the REFERENCE: dense, poorly draining soil (\"pure peat... not a very good draining potting mix\"), repotting into an aroid mix (\"cocoa coir bark chips pumice perlite\"), and more light (\"move this closer to the window\"). The match looks coincidental and is not tied to evidence in the CASE, and the user's mention of small holes goes unaddressed."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The actions are home-doable: unpot, trim rotten roots, repot in an aroid mix, water only when dry (\"dig my fingers into the soil,\" \"feel the weight of the pot\"), and add light. They are scattered through a rambling spoken transcript with filler and transcription errors (\"paint\" for peat, \"rip rot\"). There is no clear ordered list, so the user must extract the steps themselves."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "make sure that the plants growing in good temperatures",
+      "only water this plant when it needs to be watered",
+      "really dig my fingers into the soil to make sure that the soil has dried out",
+      "re-pot this plant into a terracotta pot",
+      "pot this plant in a smaller pot",
+      "err on the side of caution"
+    ]
+  },
+  "input_tokens": 4771,
+  "output_tokens": 1071,
+  "graded_at": "2026-10-30T00:12:36.659792+00:00",
+  "status": "graded_pending_review"
+}

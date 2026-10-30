@@ -1,0 +1,49 @@
+{
+  "job_id": "027-resolved",
+  "query_index": 27,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "5c1396b7fd39949e3676981a0566a86889ff0c83f04dfe9f0c4166fcae37daaf",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Prune each basil stem back to just above the last set of leaves (leaving ~1/4 inch) once stems reach about six inches",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Snip off the tops of bolting/flowering stems (deadheading)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check basil plants every one to two weeks for stems to cut back",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Optionally root basil cuttings to grow new plants",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer treats the plant as tall, leggy basil that needs regular pruning above leaf sets to bush out, which matches the confirmed fix, and it contains nothing harmful."
+  },
+  "input_tokens": 2139,
+  "output_tokens": 347,
+  "graded_at": "2026-10-30T00:18:18.005073+00:00",
+  "status": "graded_pending_review"
+}

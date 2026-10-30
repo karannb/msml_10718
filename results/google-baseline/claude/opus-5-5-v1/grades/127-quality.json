@@ -1,0 +1,39 @@
+{
+  "job_id": "127-quality",
+  "query_index": 127,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "0773caa6c539d05608f6abe791604b739e72ab670fc77d9c9993f5f135b0bb31",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output names \"overwatering\" as \"the number one reason\" and advises to \"use a fast draining mix\" and \"water only when the top 2 in of soil are completely dry.\" This reinforces the poster's mistaken belief, since the reference confirms the plant was drying out in terracotta. In 90-degree Great Plains heat, drying the plant further could finish it off. It also recommends weekly neem spraying for powdery mildew that the case never mentions, and it never addresses the switch to plastic pots that actually helped."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a generic YouTube transcript listing \"six proven reasons\" for brown rosemary: overwatering, light, humidity, fertilizer/pH, fungus and relocation shock. It never mentions the terracotta pots, the heat or the stems browning from the base. It doesn't answer the poster's questions about succulent soil or plastic pots. Its lead diagnosis is the opposite of the reference (underwatering), and none of its advice draws on case evidence."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps like \"keep your rosemary plant where it will receive at least 4 hours of direct sunlight\" and \"feed lightly every six to eight weeks\" are things a home grower can do. But the output is a scattershot list of six possible causes with no guidance on which one applies. It also defers to another video (\"Link in the description box\") for the soil mix. A novice would not know which actions to take, and some, like adjusting pH with lime or holding humidity at 40–50% outdoors, are vague or impractical here."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "use a fast draining mix",
+      "water only when the top 2 in of soil are completely dry",
+      "Keep your rosemary plant where it will receive at least 4 hours of direct sunlight",
+      "use a full spectrum growlight for at least 12 hours a day",
+      "Maintain humidity around 40 to 50% and keep your rosemary away from heat sources",
+      "Feed lightly every six to eight weeks using a diluted organic fertilizer",
+      "flush the soil with clean water every few weeks",
+      "add a pinch of garden lime",
+      "prune crowded stems to improve air flow and spray with neem oil solution once a week",
+      "When you move rosemary indoors or outdoors, do it gradually over a week"
+    ]
+  },
+  "input_tokens": 3602,
+  "output_tokens": 1034,
+  "graded_at": "2026-10-30T00:11:22.113311+00:00",
+  "status": "graded_pending_review"
+}

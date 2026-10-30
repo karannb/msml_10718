@@ -1,0 +1,49 @@
+{
+  "job_id": "121-resolved",
+  "query_index": 121,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "60732aabb001edc9a5546878fa6c359f2c8a1f3d0089d010727f6b9670aca0ca",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Take the plant outside and rinse the leaves with a hose",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray the plant with neem oil",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Place the plant where it gets enough indirect sunlight",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rotate the plant every few weeks",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer identifies spider mites (though it confuses them with spiders), but it recommends a hose rinse and neem oil rather than the Bonide systemic that fixed the plant, and nothing in it is likely to cause harm."
+  },
+  "input_tokens": 2051,
+  "output_tokens": 688,
+  "graded_at": "2026-10-29T22:37:16.162172+00:00",
+  "status": "graded_pending_review"
+}

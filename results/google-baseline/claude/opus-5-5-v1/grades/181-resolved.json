@@ -1,0 +1,28 @@
+{
+  "job_id": "181-resolved",
+  "query_index": 181,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "44f84810df9d4e78d46a2493fecd3b46854838dcbb9d63e2112cecdd972381d1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Replace the plant with a parlor palm or dracaena marginata",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames the species being unsuited to indoor life rather than low humidity, offers no humidity fix, and its reassurance that nothing is wrong, together with the suggestion to replace the plant, would delay the simple move to more humid air that actually worked."
+  },
+  "input_tokens": 1726,
+  "output_tokens": 185,
+  "graded_at": "2026-10-30T00:13:03.897540+00:00",
+  "status": "graded_pending_review"
+}

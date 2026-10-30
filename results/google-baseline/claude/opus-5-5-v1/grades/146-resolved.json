@@ -1,0 +1,84 @@
+{
+  "job_id": "146-resolved",
+  "query_index": 146,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "5afbb12a1c9b6db78c11b88f17e3d2907af4fa27819d9e98deec729734fc978a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect plant closely under leaves and in crevices for mealybugs (and ants)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spot test 70% isopropyl alcohol on one leaf and check after a day",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Paint 70% isopropyl alcohol onto mealybugs and affected stems/leaves with a small paintbrush or cotton swab",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Remove large mealybugs with tweezers",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix 1:1 isopropyl alcohol and water in a spray bottle and spray whole plant including soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Optionally rinse plant with water after bugs are killed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep plant out of direct sunlight after treatment",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use an air blower to move soil away and expose hidden mealybug nests",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Follow up monthly to check for recurrence and retreat as needed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer identifies mealybugs and centers on applying or spraying 70% isopropyl alcohol while avoiding direct sun afterwards, which matches the fix that worked; it includes no harmful advice."
+  },
+  "input_tokens": 9739,
+  "output_tokens": 658,
+  "graded_at": "2026-10-29T22:37:29.701459+00:00",
+  "status": "graded_pending_review"
+}

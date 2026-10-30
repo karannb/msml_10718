@@ -1,0 +1,112 @@
+{
+  "job_id": "083-resolved",
+  "query_index": 83,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "99fbb4e54e860b3dce0376fcc4b9a16d3612bc5239af2b7716c9834ad0b9c27c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check leaf undersides and stems for pests",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wipe off any insects with a damp cloth and soapy water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply insecticide or a natural pesticide if needed",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Check soil moisture and hold off watering until the top inches dry",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If the soil is dry and leaves are crispy, water gradually",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for drafts and move to a warmer spot if needed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mist the plant regularly if the air is dry",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If sunburned, move to bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the pot's drainage holes for protruding roots",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If pot-bound, repot into a slightly bigger pot",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Feed with half-strength balanced liquid fertilizer in the growing season",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If leggy, relocate to a brighter spot near a window",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add a moss pole for climbing",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      }
+    ],
+    "reason": "The generic article lists overwatering/root rot and low-light legginess among many causes but never identifies dense, poorly draining soil or recommends a chunky mix. Its light and watering tips only partly match the fix, and nothing in it is likely to cause harm."
+  },
+  "input_tokens": 5190,
+  "output_tokens": 1390,
+  "graded_at": "2026-10-30T00:12:48.629563+00:00",
+  "status": "graded_pending_review"
+}

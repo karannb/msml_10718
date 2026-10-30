@@ -1,0 +1,33 @@
+{
+  "job_id": "070-quality",
+  "query_index": 70,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "47a56e51962f899a39ed192e41794f42c47406e8ae4ad457e4403670e69c93fc",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a scraped Reddit thread, not a structured assistant answer, but its content is low-risk. Lines like \"Mine gets all day outdoor sun/ max sun possible\" and \"you could also keep it outside\" broadly match the REFERENCE outcome, where the plant was put outside and did not burn. Burro's tail is non-toxic and no chemicals are recommended. However, it never addresses the user's sunburn concern or mentions gradual exposure, which is a minor missing caveat."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "There is no health label, no time-to-severe estimate and no direct answer to the acclimation question. The comments mostly debate whether window light is enough (\"not all windows are created equally\", \"open the window\"), which is a different question from transitioning a greenhouse plant to full sun. The only overlap with the REFERENCE is the passing suggestion to keep it outside."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The output is raw page markup with usernames, URLs and avatars, giving no clear steps for acclimation. Suggestions like \"open the window\" in mornings and late afternoon, or using \"Barrina T5 lights\", are doable but scattered, contradictory and unrelated to a step-by-step sun transition. A user would struggle to extract a plan."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "a window alone is not sufficient and it would need to be supplemented if grown indoors",
+      "it's impossible to say if that placement will provide enough light",
+      "It all depends",
+      "would probably like a little bit more light too"
+    ]
+  },
+  "input_tokens": 3528,
+  "output_tokens": 908,
+  "graded_at": "2026-10-30T00:15:48.251878+00:00",
+  "status": "graded_pending_review"
+}

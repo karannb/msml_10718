@@ -1,0 +1,36 @@
+{
+  "job_id": "172-quality",
+  "query_index": 172,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a057d6d0ba56cc3a2b9016cc49c494da7926e1305c41376455cb34b288c50fe0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output insists \"When in doubt, do not water. It is almost impossible to kill a yucca from underwatering\" and says to let soil dry \"100% all the way to the bottom of the pot.\" The REFERENCE confirms the plant (actually a Dracaena marginata) was underwatered with a shriveling stem, so this would deepen the real problem and delay the fix. Moving it \"right against your brightest south or west-facing window\" could also scorch a dracaena already described as being in the sun. The saw-cutting advice for rot could lead to needless drastic surgery on a healthy plant."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a generic yucca video transcript that never engages with the case. It attributes drooping to \"light starvation\" even though the user says the plant is \"by the sun,\" and focuses on overwatering and rot even though the user says it's \"not overwatered.\" It misses the actual diagnosis (underwatering, shriveled stem) and the misidentification (dracaena marginata, not yucca). It also never addresses the prior mealybug (\"white fuzzies\") treatment."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual steps are concrete and doable at home: \"squeeze the bottom of the trunk,\" \"use a long wooden stick or a moisture meter,\" and a \"50% regular potting soil mixed with 50% coarse sand, pumice, and perlite\" mix. However, it is a rambling general-purpose script with no clear plan for this plant, and some steps, such as sawing the cane and callusing it, are drastic. The user would struggle to know which steps apply."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "When in doubt, do not water",
+      "Give it the desert light it craves",
+      "your soil mix must be desert-like",
+      "use a long wooden stick or a moisture meter to check the very bottom of the pot",
+      "take a clean pair of scissors and trim them away",
+      "squeeze the bottom of the trunk with your fingers every single month",
+      "repot it in fresh soil"
+    ]
+  },
+  "input_tokens": 3433,
+  "output_tokens": 970,
+  "graded_at": "2026-10-29T22:38:36.342890+00:00",
+  "status": "graded_pending_review"
+}

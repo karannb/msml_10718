@@ -1,0 +1,49 @@
+{
+  "job_id": "062-resolved",
+  "query_index": 62,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "50d96b2f5b1d1a77a2c78adddb71419e84e0c7472d9b55e9ac23abe355e87fd9",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Put on protective clothing, thick gloves and safety glasses",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Cut the hardened spine tips off the agave leaves with bypass pruners, staying above the fleshy tissue",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Clip the curled marginal teeth off the leaf edges with pruners or fingernail clippers, working from tip to base",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove tip and margin spines from new leaves as they emerge",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a scraped guide to removing agave spines that never addresses the minor thorn wound, says nothing about the plant being healthy and omits keeping it dry while it calluses, though its cosmetic trimming is unlikely to harm the plant."
+  },
+  "input_tokens": 2596,
+  "output_tokens": 732,
+  "graded_at": "2026-10-30T00:12:46.421249+00:00",
+  "status": "graded_pending_review"
+}

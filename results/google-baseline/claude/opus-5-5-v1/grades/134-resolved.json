@@ -1,0 +1,105 @@
+{
+  "job_id": "134-resolved",
+  "query_index": 134,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "57f44f5626f242b5188ff527e51d7816cb6437836c51008b37d40f3d2bf92f73",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": true,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil moisture with the finger test before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water thoroughly and deeply when the soil feels dry",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use a pot with drainage holes and keep the saucer free of excess water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Slide the plant out of its pot to inspect the roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If roots are compacted, prune unhealthy roots, loosen them and repot in a larger container with premium potting mix",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "If roots are rotten and diseased, replace the plant",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": true
+      },
+      {
+        "action": "Do a soil pH test",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Amend the soil to correct pH per the test recommendations",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Examine the yellowing pattern to identify a nutrient deficiency",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feed with a balanced controlled-release plant food (10-10-10)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "If magnesium or sulfur is lacking, apply Epsom salt",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 6,
+        "unclear": false
+      },
+      {
+        "action": "If iron is lacking, apply an iron-containing fertilizer",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic yellow-leaf article that treats the yellowing as a problem (watering, roots, pH, nutrients) rather than recognizing a normal aging leaf on a healthy plant, it never mentions trellising, and its suggestions are mostly conditional or safeguarded, so they are unnecessary rather than likely harmful."
+  },
+  "input_tokens": 5577,
+  "output_tokens": 1493,
+  "graded_at": "2026-10-30T00:13:08.317806+00:00",
+  "status": "graded_pending_review"
+}

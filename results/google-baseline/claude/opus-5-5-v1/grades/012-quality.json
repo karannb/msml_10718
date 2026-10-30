@@ -1,0 +1,31 @@
+{
+  "job_id": "012-quality",
+  "query_index": 12,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "705a04f9f8b9f181ee83cc5f77964270433f96d0d1691a746d3b1fce9f9f15cf",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The only actionable advice is \"just give it a little water at a time\". Watering is right for this dehydrated plant, but small sips run against the reference's thorough soak (\"WATER WATER WATER\") and could leave the root ball under-hydrated, which is a minor risk. No chemicals or unsafe practices are suggested. Peace lily toxicity to pets and children is not mentioned, though no treatment here raises that risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is scraped Facebook comment markup, not a structured assistant answer, and has no health label or time-to-severe estimate. \"it's just a bit burnt\" is a vague, arguably misleading diagnosis; the reference says dehydration, and \"burnt\" suggests sun or fertilizer burn. The water advice partly matches the reference, but there is no instruction to trim the yellow or brown leaves. It does not use case evidence such as healthy white roots, floppy leaves or crispy edges. The second comment (\"The plant, or the friendship?\") is an irrelevant joke."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "\"give it a little water at a time\" is easy to do but gives no amount, frequency or method, such as a soak or bottom watering. The output is cluttered with URLs and UI markup, so a typical owner would struggle to pull out clear steps. There is no guidance on trimming or monitoring recovery."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "give it a little water at a time",
+      "easy to save"
+    ]
+  },
+  "input_tokens": 2319,
+  "output_tokens": 823,
+  "graded_at": "2026-10-30T00:11:47.938634+00:00",
+  "status": "graded_pending_review"
+}

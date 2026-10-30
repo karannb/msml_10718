@@ -1,0 +1,32 @@
+{
+  "job_id": "088-quality",
+  "query_index": 88,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "4ba521f5414441c06b068d02667635cd929c065abe5d34a599a34b6e59916b51",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook thread about a different case. Its main advice, \"i always take the casing around the plugs off\" and \"High humidity would help their recovery,\" is unlikely to damage Steven directly. However, it never says to water him or bring him back inside out of the sun, which are the key corrective actions in the REFERENCE. Its reassurance that plants with healthy corms \"will bounce back\" could also delay the urgent rehydration this plant needs."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output contains no health label, no time-to-severe estimate and no diagnosis of underwatering or sun stress. Comments like \"Hate to say it but I would love to know who sent you that mess\" and the advice about \"getting them out of the plugs\" refer to someone else's shipped alocasia plugs. They have nothing to do with a plant moved outdoors and left underwatered. The output does not match the REFERENCE at all."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The output is raw scraped page markup (links, reaction buttons, commenter names), not structured care advice. The few actionable bits, \"take the casing around the plugs off\" and \"High humidity would help... if you can manage it,\" are vague and do not apply to this situation. The owner would get no clear steps to follow for Steven."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "High humidity would help their recovery if you can manage it",
+      "just takes sometime",
+      "they might be saved with substantial time and effort"
+    ]
+  },
+  "input_tokens": 2749,
+  "output_tokens": 706,
+  "graded_at": "2026-10-30T00:14:34.726905+00:00",
+  "status": "graded_pending_review"
+}

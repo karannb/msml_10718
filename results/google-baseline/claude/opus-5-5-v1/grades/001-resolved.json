@@ -1,0 +1,70 @@
+{
+  "job_id": "001-resolved",
+  "query_index": 1,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "22528e7ff4cce5092035168207dd95fc869da04d6b18b55a26240ac365bb9764",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect plants, especially leaf undersides, for thrips damage, frass and insects",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Isolate the affected plant and any nearby plants",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray spinosad (e.g. Captain Jack's) outdoors out of direct sun, weekly until no new signs, treating all plants",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Apply a systemic insecticide to the soil (e.g. Bonide granules), repeating every 6-8 weeks",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Alternative: hang predatory mite sachets on the plants",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Canada alternative: alternate pyrethrin spray with insecticidal soap weekly",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "After 2 healthy new leaves grow, remove the worst-damaged old leaf and repeat",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer correctly identifies thrips as the main problem (missing low light) and recommends spinosad plus systemic treatment matching the successful fix, with no harmful advice."
+  },
+  "input_tokens": 3848,
+  "output_tokens": 885,
+  "graded_at": "2026-10-29T22:35:26.403746+00:00",
+  "status": "graded_pending_review"
+}

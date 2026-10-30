@@ -1,0 +1,35 @@
+{
+  "job_id": "182-quality",
+  "query_index": 182,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "11a4e72172b2378eea31b554868548cefaa18aa450d5618bf54a03312a860b2c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output tells the user to strip the roots ('Removing all the old soil gives it a fresh start'), soak them in hydrogen peroxide ('One teaspoon of hydrogen peroxide is enough for one and a half liters of water'), keep the plant in plain water for a month, and cut off the top to try rooting it. For a peace lily that only wilted from thirst, this invasive handling adds root damage and transplant stress where a simple watering would fix things. It also claims the method 'works almost every time, no matter the cause', and the dilution itself is low-risk."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output misidentifies the plant ('this little schefflera — also known as the umbrella plant') when the reference says it is a peace lily. It never names the actual problem, underwatering wilt, and even states 'It doesn't matter what brought the plant to this state.' It reads like a generic revival-video transcript with no link to the case (5 days unwatered, already soaked). The reference advice was simply to water thoroughly, drain after 20 minutes and wait for it to perk up."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The steps can be done at home: wash the roots, soak in 'one teaspoon of hydrogen peroxide' solution for 30 minutes, keep in water for a month, then repot in 'peat-based soil with perlite'. However, this takes far more effort and time than needed, and the video-narration format is unclear as actionable instructions. It also never answers the user's actual question about why the plant isn't drinking."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "This method works almost every time, no matter the cause.",
+      "It doesn't matter what brought the plant to this state.",
+      "Sometimes, all a plant needs is calm light, a bit of water, someone who believes in it — and a little time.",
+      "Right now, the plant needs a careful balance — not too wet, not too dry.",
+      "I only water when the top layer of soil feels dry under my finger.",
+      "Removing all the old soil gives it a fresh start."
+    ]
+  },
+  "input_tokens": 2995,
+  "output_tokens": 686,
+  "graded_at": "2026-10-30T00:13:30.112744+00:00",
+  "status": "graded_pending_review"
+}

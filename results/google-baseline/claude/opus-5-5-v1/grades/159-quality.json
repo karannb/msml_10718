@@ -1,0 +1,28 @@
+{
+  "job_id": "159-quality",
+  "query_index": 159,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "9d9bd45f1196ce5353471ef64e95072f4e474b1afd8671c9bf3bb50b41d6ef20",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The output says \"Get it a moss pole! ... wrap coco coir around a wooden stake and then use twine to secure the two together and to tie the plant to the stake.\" Nothing here risks harm to the plant, the person, or pets. There is no chemical use and no watering advice that could worsen a problem. Twine is a gentle tie material."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output correctly picks up on the support and staking problem: \"They are much happier with a more secure place to attach too.\" This matches the reference's emphasis on proper staking. It misses repotting, more light and well-draining soil. It also gives no guidance on positioning nodes against the pole, which the reference stresses. It is partially right but incomplete."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The DIY instructions are concrete and use cheap, common materials: \"wrap coco coir around a wooden stake and then use twine.\" A typical owner could do this within a week. It does not explain how to orient the plant or where to tie it relative to the nodes, which leaves some ambiguity."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": []
+  },
+  "input_tokens": 2045,
+  "output_tokens": 403,
+  "graded_at": "2026-10-30T00:13:43.016086+00:00",
+  "status": "graded_pending_review"
+}

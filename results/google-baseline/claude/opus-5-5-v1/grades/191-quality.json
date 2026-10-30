@@ -1,0 +1,30 @@
+{
+  "job_id": "191-quality",
+  "query_index": 191,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "af6ca7d81f715f219b74c31b50ba017d5d1941ce5374a41a556dfb09cd1a59cf",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The advice to wash \"each fronds front and back with water, a touch of dawn dish soap, and a few drops of ultrafine oil\" and to \"rinse well afterwards\" is generally safe for a parlor palm, and the quarantine advice is sound. Minor risks remain: Dawn is a degreasing detergent rather than an insecticidal soap and can cause leaf damage, and the amounts are vague. Because the output never says repeat treatments are needed, the owner may stop after one wash and let the infestation rebound."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "\"You have spider mites!!\" matches the confirmed diagnosis, and the note that they \"hide under the leaves\" and may leave \"webbing\" is relevant to this pest. However, it does not tie the diagnosis to the case evidence, such as the pale, thin fronds the reference points out. It also omits the reference's key point that 3–4 rounds of treatment about a week apart are needed, as the poster's own repeat spraying reflects."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The steps are concrete and use common household items: \"move that plant off to the side,\" then wash both sides of each frond and rinse. Some ambiguity remains, since \"a touch\" of dish soap and \"a few drops of ultrafine oil\" are not measured amounts. There is also no follow-up schedule telling the owner when or how often to repeat the wash."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": [
+      "In the future make sure to check leaves and stem regularly for signs of pests so you can take care of them before they get out of hand"
+    ]
+  },
+  "input_tokens": 2276,
+  "output_tokens": 838,
+  "graded_at": "2026-10-30T00:15:45.062215+00:00",
+  "status": "graded_pending_review"
+}

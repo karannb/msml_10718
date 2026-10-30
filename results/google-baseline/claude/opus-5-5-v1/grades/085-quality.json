@@ -1,0 +1,32 @@
+{
+  "job_id": "085-quality",
+  "query_index": 85,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "db67e3a6a722bc1a5f34ea5e6a27f4cdea2d5ad5796fefab151e08a4bf865d7a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The advice is pruning ('cut right above that point' at the leaf node), removing flower stalks, and repotting into a larger container with good drainage. None of this risks harm to the plant, the person, or pets. The suggestion of 'at least 5 gallons' is large for an indoor plant but not harmful, and no chemicals are recommended."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output is a generic YouTube transcript about making any basil bushy, not a tailored answer. It has no health label and no time-to-severe estimate. It does match the core of the REFERENCE: prune for bushiness, remove flowers ('this is the point... where you would start to take these flowers off'), and use a bigger pot. However, it never gives the promised fertilizer advice ('I'll show you what to do to boost the fertility' is never followed up). It also ignores the user's question about moving the plant outdoors and never mentions Wild Magic basil or the houseplant context."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The pruning instruction is concrete and doable with ordinary snips: cut just above the node where side shoots form at a 45° angle. Repotting into a larger pot with quality soil is easy to do. The rambling, truncated transcript format makes the steps harder to extract, and it recommends a large 5–7 gallon pot and a specific brand of soil. It also leaves the outdoor-planting question unanswered."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Get the best potting soil that you can afford",
+      "Any plant that you're primarily growing for its leaves, you can use this technique with",
+      "make sure it's at least 5 gallons or so"
+    ]
+  },
+  "input_tokens": 5593,
+  "output_tokens": 1121,
+  "graded_at": "2026-10-30T00:13:50.143712+00:00",
+  "status": "graded_pending_review"
+}

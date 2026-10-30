@@ -1,0 +1,35 @@
+{
+  "job_id": "160-quality",
+  "query_index": 160,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "092c6a29b128d266d0fe5ccd2697af8ae47106eb18483335dde6be1a0011dcc1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is scraped fern-care comments, not advice for this case. Applied to the user's overwatered, light-starved succulents, \"Ferns like to be a little damper than other plants,\" \"put it in your bathroom for the humidity,\" and \"fertalized once a month\" would worsen the problem by adding moisture and moving them to lower light. It never says to reduce watering frequency or increase light."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output identifies the plant as a \"crispy wave fern,\" \"Birds nest fern,\" or \"blue star fern,\" while the reference confirms overwatering and too little light, consistent with the user's frequent sips of water and the move to a dimmer spot. None of the reference advice appears: water thoroughly but infrequently, let the soil dry fully, look for slight leaf wrinkling, and raise the plants in their pots for light. The text is unrelated Facebook UI markup and comments, not a tailored diagnosis."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps such as \"Remove all the brown and broken leaves\" and \"Make sure it's in a pot with drainage\" are doable. However, the output is an incoherent dump of links, buttons, and conflicting commenter opinions, and it has no health label or time-to-severe estimate. A user would struggle to extract a clear plan, and it addresses the wrong plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Remove all the brown and broken leaves",
+      "Make sure it's in a pot with drainage",
+      "They like to be fertalized once a month",
+      "I would suggest fertilizing regularly",
+      "repot in a smaller pot",
+      "It needs humidity"
+    ]
+  },
+  "input_tokens": 2942,
+  "output_tokens": 743,
+  "graded_at": "2026-10-30T00:14:00.775020+00:00",
+  "status": "graded_pending_review"
+}

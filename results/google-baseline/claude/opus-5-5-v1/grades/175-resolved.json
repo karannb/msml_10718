@@ -1,0 +1,63 @@
+{
+  "job_id": "175-resolved",
+  "query_index": 175,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "203340e1413463e2dd256908786f8ba30c0a4d2a5275e8b5b60a9cbb28c1f395",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Spray the whole plant with a thrips insecticide",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Seal the plant hermetically in a transparent plastic bag (or taped plastic sheets) for 5 days",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "After 5 days, open, re-spray with insecticide and reseal for another 5 days",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Make sure soil is half-moist, not freshly watered, before sealing",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the sealed plant daily to see it is doing well",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Test the method on one or two plants first before treating the whole collection",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer correctly identifies thrips but recommends an insecticide-and-sealed-bag humidity method rather than the beneficial predatory mites that solved it; with its safeguards (test small, check daily) it is not clearly harmful."
+  },
+  "input_tokens": 2862,
+  "output_tokens": 696,
+  "graded_at": "2026-10-30T00:11:16.144584+00:00",
+  "status": "graded_pending_review"
+}

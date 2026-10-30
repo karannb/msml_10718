@@ -1,0 +1,70 @@
+{
+  "job_id": "131-resolved",
+  "query_index": 131,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "713fefc7087be18167e899569da4f1e7560f155d65a80465a743e1435693ad25",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot into a quick-draining gritty cactus mix (e.g. Black Gold cactus mix)",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check pot weight to decide when to water, then water until runoff and return to a dry saucer",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant to a south-facing window or outdoors in bright light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place plant out of reach of pets and children",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pinch off dead and damaged leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If too tall, cut off the top and replant it in soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move into a larger pot",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic Mother of Thousands care guide that never identifies nutrient depletion or the Kalanchoe stowaways as the problem, and it recommends a fast-draining gritty mix while avoiding regular potting soil, the opposite of the less-draining repot that fixed the plant."
+  },
+  "input_tokens": 4814,
+  "output_tokens": 857,
+  "graded_at": "2026-10-30T00:12:05.736369+00:00",
+  "status": "graded_pending_review"
+}

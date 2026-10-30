@@ -1,0 +1,42 @@
+{
+  "job_id": "023-resolved",
+  "query_index": 23,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "25073adc0ed412c08bb4ecc2b1f1d61a49e1320fcaea1ac572b00101e4217610",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Let the soil dry out more between waterings",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If browning continues, unpot the plant and cut off dead roots",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in a monstera/aroid soil mix",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames overwatering rather than cold damage from transport. It never suggests cutting the plant back to about 1 cm above the soil or using a glass jar for humidity, though drying out loosely matches the 'don't water' tip. Its repotting advice is not clearly damaging."
+  },
+  "input_tokens": 9277,
+  "output_tokens": 829,
+  "graded_at": "2026-10-30T00:15:30.597478+00:00",
+  "status": "graded_pending_review"
+}

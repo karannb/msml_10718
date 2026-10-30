@@ -1,0 +1,34 @@
+{
+  "job_id": "069-quality",
+  "query_index": 69,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d7afe233bbca527febfb5b1f8bf327a38a13fe8d3c6d599b0551ab34afc2903a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a scraped Facebook thread, not assistant advice. It recommends nothing risky: no chemicals, no extra watering, only \"check your watering habits\" and \"Check for any pest like spider mites.\" The main risk is confusion and delay. It references a grow light (\"Since you mentioned recently putting her under a grow light\") that is not in the case, and it never commits to the likely overwatering cause."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "It touches on the reference's points in a hedged list: \"improper watering, incorrect light. But could also be a your plant dropping a lower leaf naturally.\" It never identifies overwatering as the likely cause and gives no specific remedy. It omits the pole and fertilizing advice. It adds irrelevant material, including a PPP and grow-light comment apparently from another post, plus generic humidity, draft and pest checks not tied to the case evidence. There is no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "There are no concrete steps, only open questions and things to check: \"Can you take a photo of the whole plant?\" and \"I would pay attention to new growth.\" The page-scrape formatting (URLs, buttons, reaction counts) makes the output hard to use. A home owner would not know what to change this week."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "It's usually a combination of improper watering, incorrect light",
+      "I would check your watering habits",
+      "it could be a humidity issue or drafts",
+      "Check for any pest like spider mites",
+      "I would pay attention to new growth"
+    ]
+  },
+  "input_tokens": 3216,
+  "output_tokens": 773,
+  "graded_at": "2026-10-30T00:15:31.969987+00:00",
+  "status": "graded_pending_review"
+}

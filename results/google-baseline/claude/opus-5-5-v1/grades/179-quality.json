@@ -1,0 +1,30 @@
+{
+  "job_id": "179-quality",
+  "query_index": 179,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "0369bb8e0281219821e6c802e6a4db21b25e7c12e8ca51895c88cb2477a3a8ec",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The advice to \"use decorative pots made out of ceramic... heavy enough to sustain the whole weight of the Orchid\" and to place rocks \"at the bottom of the pot or on one side\" carries essentially no risk to the plant, person, or pets. It recommends no chemicals and no watering changes. A note about keeping drainage when nesting the pot in a cachepot would help, but its absence is not a meaningful hazard."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The core advice matches the REFERENCE: a heavy ceramic outer pot (\"slip it into a pot\") and rocks as counterweight, which is what the poster ended up doing. However, the output is an unedited video transcript about phalaenopsis leaning toward window light. It frames the cause as light-driven lean rather than the case's actual situation, a freshly repotted orchid that is top-heavy with flowers. Much of it, such as rotating toward light, twisted leaves, and overhead lighting in nurseries, is tangential, and it never engages with the user's photos or three-day-old repot. It also lacks the required health label and time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Putting the pot inside a heavier ceramic pot or adding rocks is easy for any home owner. However, the steps are buried in rambling transcript text. Key guidance is deferred to an external link (\"I do have a video on how to properly use them\"). It also gives no concrete instructions such as which side to weight or how to size the outer pot."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "if you can provide some light from above directly from above you'll probably have a straighter phenopsis"
+    ]
+  },
+  "input_tokens": 3335,
+  "output_tokens": 927,
+  "graded_at": "2026-10-30T00:12:44.340890+00:00",
+  "status": "graded_pending_review"
+}

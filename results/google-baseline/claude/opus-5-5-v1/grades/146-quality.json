@@ -1,0 +1,33 @@
+{
+  "job_id": "146-quality",
+  "query_index": 146,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c44081ae4bbb1151144573c2509cee912e3b2a7e84037db3892d770f5392fa53",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The core advice, \"I use 70% isopropyl alcohol,\" a spot test (\"leave it for a day and check that leaf\"), and \"don't leave the plant in direct sunlight\" after treatment, matches the reference and is low risk. Minor issues: it never warns that alcohol is flammable or should be kept from pets and children. It doesn't note that gotu kola is often eaten, so treated leaves should be rinsed before harvest. Its claims that alcohol \"will also help with\" powdery mildew and that spraying soil does \"no harm\" are unsupported but unlikely to cause serious damage."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The diagnosis is correct (\"MealyBugs... white and fuzzy... like a tiny bit of cotton\"), and the main treatment matches the reference: 70% alcohol plus limiting direct sun afterward. However, the output is a generic mealybug video transcript about string of turtles and succulents. It never addresses the user's gotu kola, the small number of bugs, or the planned repot. It also gives no health label or time-to-severe estimate, and is padded with off-topic material such as ants on aeoniums, aphids and wintergreen alcohol."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The tools are household items: \"70% isopropyl alcohol,\" a paintbrush or cotton swabs, a spray bottle, and \"equal parts isopropyl alcohol and water.\" Each step is doable this week. The steps are buried in a rambling 23-minute transcript, so the user has to extract them, which lowers clarity."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": [
+      "have a look under and around the leaves",
+      "really examine your plant closely",
+      "follow up once a month, take a look at your plant, see if you've had any recurrences",
+      "You always have to kind of be on the lookout"
+    ]
+  },
+  "input_tokens": 10096,
+  "output_tokens": 1263,
+  "graded_at": "2026-10-29T22:37:43.092747+00:00",
+  "status": "graded_pending_review"
+}

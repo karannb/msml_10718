@@ -1,0 +1,112 @@
+{
+  "job_id": "102-resolved",
+  "query_index": 102,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "ff2f75441572d3697da552b4f047a94c3d0507b1684d304aa403477e5dbc7239",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Group the plant with other tropical plants near a humidifier",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Keep the plant in a warm room (16-20°C) away from cold drafts",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place the plant in partial shade with indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture with a finger to the second knuckle before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water twice a week: water from the top, let the pot sit in water 10-15 minutes, then drain",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use distilled, filtered or rain water, or let tap water stand 2-3 days before use",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If leaves droop from overwatering, check the soil and cut down on water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If leaves droop from cold, raise the temperature or move the plant to a warmer room",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If leaf edges brown, move the plant to a bathroom for humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use a humidity tray",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Mist the leaves",
+        "minutes": 2,
+        "per_day": 2,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If leaves fade or scorch, move the plant out of direct sunlight",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clean the leaves and check for bugs and dust weekly",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic calathea care video never identifies underwatering or the broken stems, and it blames droopy leaves on overwatering or cold; its routine of keeping the soil moist and bottom watering partly matches the fix, and the advice to cut water comes with a soil check, so it is not harmful."
+  },
+  "input_tokens": 2999,
+  "output_tokens": 1402,
+  "graded_at": "2026-10-30T00:10:47.474885+00:00",
+  "status": "graded_pending_review"
+}

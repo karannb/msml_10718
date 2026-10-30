@@ -1,0 +1,33 @@
+{
+  "job_id": "100-quality",
+  "query_index": 100,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d36c2fabaf4eb71d4e89e8dadc168659b4b61f310aa53afb21c5b9f1f58f8db0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is mostly benign, but it is not addressed to this plant. 'For each plant, I'm going to use about half a watering can' is advice for in-ground garden tomatoes; applied to a freshly repotted houseplant, it could encourage overwatering. The heavy push for a sponsored product ('Root Max... sponsored today's video') is unnecessary but not dangerous. It frames recovery as 'sulk mode... for a few weeks', which differs from the reference's quick recovery, but this would not prompt harmful action."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The transcript names transplant shock, which matches the reference. However, it never engages with this case: a houseplant whose old soil was rinsed off and which wilted within two hours. Most of the content covers cherry tomatoes, cucumbers in a greenhouse, and peas in raised beds. It never answers the user's actual question ('It'll be okay if I give it time right?'), and it gives no health label or time-to-severe estimate. The reference's simple advice, to give it time and keep it in bright light, is absent, and the indoor section is brief and generic."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Most steps describe how to transplant future plants: digging holes, burying stems deeper, adding string to climb, and sprinkling mycorrhizal powder. They do not help with a plant that has already been repotted. The only actionable item for houseplants is buying a sponsored product ('Root Max helps here as well'). The owner gets no clear steps for this week, such as leaving the plant alone, keeping it in bright indirect light, or not overwatering."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Regular watering and a bit of tidying to keep the air flow up will make a big difference",
+      "maybe it's too cold at night, maybe it's too windy, maybe it's suddenly too hot, or the watering isn't quite right",
+      "It won't fix poor care, but if everything else is right, it removes a major bottleneck",
+      "Root Max helps here as well, speeding up root recovery"
+    ]
+  },
+  "input_tokens": 4567,
+  "output_tokens": 1029,
+  "graded_at": "2026-10-29T22:38:21.337939+00:00",
+  "status": "graded_pending_review"
+}

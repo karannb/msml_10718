@@ -1,0 +1,33 @@
+{
+  "job_id": "003-quality",
+  "query_index": 3,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "23964f55885c73bf53d62aa34e2c7d1e936ea059672a69d8d4611654050776af",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped comment thread, not a structured assessment. It has no health label or time-to-severe estimate. One comment pushes watering (\"I'd say it needs watering\", \"give it a bottom soak for about 10 to 30 minutes\") for a plant that was watered right after repotting, which risks soggy soil and rot in a stressed root system. Another comment warns against this (\"Be careful not to overwater it or else the roots will rot\"). None of the advice addresses the cold-window exposure that was actually harming the plant, so the cause could continue unchecked."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "\"It's in shock\" and \"They are very vulnerable when you first split them\" partly match the reference's repotting-stress diagnosis. However, the output never identifies the plant as a bird of paradise. It never mentions the cold window or the light conditions, which were the second confirmed cause. Much of the content speculates about \"water stress, either from overwatering or underwatering\" and humidity, none of which is supported by the case or the reference. The comments also contradict each other."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The individual steps are doable at home. Examples are the bottom soak for 10–30 minutes, draining for 20–30 minutes, and \"Wait a week before doing anything else.\" However, the advice is contradictory (water more vs. don't overwater), and \"distilled or rain water\" adds unnecessary effort. As a raw comment dump with no unified plan, it is ambiguous what the owner should actually do."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Water stress, either from overwatering or underwatering",
+      "Give it lots of humidity too",
+      "Be careful not to overwater it or else the roots will rot",
+      "It will recover as long as you don't fuss with it"
+    ]
+  },
+  "input_tokens": 3067,
+  "output_tokens": 1021,
+  "graded_at": "2026-10-29T22:36:33.462426+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "147-quality",
+  "query_index": 147,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "af03b1ef936248cbc2c5767a95d2264745c8a6f938a40578810331f9f7a92664",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output says \"rest assured you're not dealing with meie bugs here\" and \"you really don't have to worry about doing any sort of care... Just let them be.\" The reference confirms mealybugs, so this false reassurance would delay treatment and let a damaging pest multiply and spread to the user's other plants. The suggested treatments (watering can, hose) carry little direct risk, but advising no action on a real infestation is a meaningful harm."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output diagnoses \"plant hoppers\" and explicitly denies that the bugs are mealybugs, which contradicts the reference's confirmed mealybug diagnosis and the 70% rubbing alcohol treatment. It reads like a generic outdoor-garden video (\"areas of your garden\", \"take a hose\", \"as the season progresses\") and never addresses the indoor gotu kola, the photos, or the planned repot."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The steps given (\"take a watering pale and just gently pour water over a stem\" or \"take a hose and just spray it down\") are simple, but a hose is impractical for an indoor potted plant. The advice is easy to follow yet ineffective for the actual problem, and it offers no guidance for an indoor setting."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Just let them be. Let mother nature do her thing.",
+      "They're going to eventually go away as the season progresses.",
+      "take a hose and just spray it down"
+    ]
+  },
+  "input_tokens": 2501,
+  "output_tokens": 522,
+  "graded_at": "2026-10-29T22:37:52.259049+00:00",
+  "status": "graded_pending_review"
+}

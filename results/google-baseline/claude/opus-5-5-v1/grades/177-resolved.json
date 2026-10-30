@@ -1,0 +1,35 @@
+{
+  "job_id": "177-resolved",
+  "query_index": 177,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "486857972462868e5e875e92ba880d6b88aecee34503846e426f2dfd63410255",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot the plant into a pot with very well-draining chunky soil mix, kept loose and not packed",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Keep the soil fairly moist for the first couple of weeks after repotting",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer never identifies transplant shock or the oversized pot. Instead of letting the freshly repotted plant settle with little intervention, it calls for another repot. It also says to keep the soil moist, which raises the root-rot risk the thread warned about."
+  },
+  "input_tokens": 1638,
+  "output_tokens": 484,
+  "graded_at": "2026-10-30T00:11:54.696232+00:00",
+  "status": "graded_pending_review"
+}

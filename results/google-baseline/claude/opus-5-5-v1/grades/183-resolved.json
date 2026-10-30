@@ -1,0 +1,63 @@
+{
+  "job_id": "183-resolved",
+  "query_index": 183,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "7fc36434827975928386d5abe2c58bbdd3b116e84abba8fa5f3616f8a8823404",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil moisture 2-3 inches deep with a finger or screwdriver before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water established plants deeply once a week, a 15-30 minute soak",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Reset the irrigation system to run less often",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Water new plants using the 3-2-1 water method",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Consult the basic irrigation schedule recommendations for how much water different plants need",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Try the transpiration experiment",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer blames outdoor heat-stress wilt and says extra water isn't the answer, missing the underwatering diagnosis; the soil check only implies watering when dry, buried in irrigation advice, and that safeguard keeps it from being harmful."
+  },
+  "input_tokens": 2942,
+  "output_tokens": 873,
+  "graded_at": "2026-10-30T00:13:38.111040+00:00",
+  "status": "graded_pending_review"
+}

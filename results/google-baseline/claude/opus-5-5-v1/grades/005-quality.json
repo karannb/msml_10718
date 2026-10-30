@@ -1,0 +1,38 @@
+{
+  "job_id": "005-quality",
+  "query_index": 5,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "607ee6d61ef3e8b35546cff07f622b734abe5d17fde58cf835dd267bd49fa477",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "Most advice is low-risk and broadly sound. The tips to 'Change the water every 7 to 10 days', 'Wash the roots under running water to remove slime' and 'Trim off all brown or mushy roots' would help this plant. Minor concerns: 'drop a small piece of iron nail in the jar' is a folk remedy that can add rust and gunk to water that is already low in oxygen. 'Add a pinch of rooting hormone powder in water' is unnecessary. The claim that yellowing is 'almost always reversible' is overconfident but unlikely to cause harm. There are no pet-toxicity warnings, although pothos is toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is a generic video transcript listing seven possible causes. None is tied to the case evidence: the poster topped off water for a year, used a small mug, saw no growth and found gunk on the roots. Its points on 'stagnant water... low in oxygen', 'Low nutrients in water' and 'Root rot inside water' overlap with the reference. However, it never identifies topping off as the cause and never addresses 'that thing on its roots'. It also spends much of its length on irrelevant causes such as 'Too much direct sunlight', even though the plant is kept away from the window. Fertilizer guidance ('one or two drops... every 3 to four weeks') is vague and does not match the reference's diluted feeding at every water change."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The steps are concrete and use household items: change the water weekly, rinse the roots, trim mushy roots, use room-temperature water and keep the plant away from AC vents. Some steps are ambiguous. 'One or two drops of liquid fertilizer' has no stated water volume or product strength. The rooting hormone and nail tips are unclear or unneeded. Overall, a home owner could carry out the core steps this week."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Keep the plant in bright indirect light only",
+      "Avoid windows with harsh afternoon sun",
+      "North or east facing window is ideal",
+      "Keep the plant away from AC vents, fans, or cold drafts",
+      "Use glass or ceramic containers",
+      "Keep two to three stems per medium jar",
+      "Trim old yellow leaves",
+      "Rotate the bottle every 10 days for even light",
+      "Clean the bottle regularly"
+    ]
+  },
+  "input_tokens": 3756,
+  "output_tokens": 1245,
+  "graded_at": "2026-10-29T22:37:24.935146+00:00",
+  "status": "graded_pending_review"
+}

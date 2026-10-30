@@ -1,0 +1,105 @@
+{
+  "job_id": "068-resolved",
+  "query_index": 68,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "689559d85a667bb775507cf8226a48afcfb23256b1dbcb6aadee61141d522fb1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Fertilise once a month in spring and summer with diluted fertiliser, every six weeks in colder months",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If over-fertilised, stop fertilising and let a few waterings flush the soil",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check that the top third of the soil is dry before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water lightly when the soil is dry",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect leaves for edema and the soil for oversaturation",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check pot drainage and make extra drainage holes",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place the pot on a saucer",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "In extreme cases, repot in better-draining soil",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to a brighter position with indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If the space is shaded or in winter, get a grow light",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant away from cold draughts, open windows and AC vents",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If the plant can't be moved, protect it with gardening fleece",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic care list names overwatering as only one of five possible causes, buries the watering fix among many others, and never mentions natural die-off of older leaves or adding a pole; nothing in it is clearly harmful."
+  },
+  "input_tokens": 3093,
+  "output_tokens": 1226,
+  "graded_at": "2026-10-30T00:15:08.482415+00:00",
+  "status": "graded_pending_review"
+}

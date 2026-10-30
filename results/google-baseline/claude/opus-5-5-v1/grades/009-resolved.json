@@ -1,0 +1,105 @@
+{
+  "job_id": "009-resolved",
+  "query_index": 9,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "f6ce013b7e19b25fe5ff2e673d9d2a510551b7e5d7b593cf80531324ff76f231",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Inspect drooping leaves: yellow and soft means overwatered, curled and brittle means underwatered",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant to a brighter spot (indirect light, or near a sunny window)",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil (top two inches) and let it almost completely dry before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bottom water by soaking pot in tub of distilled/filtered water for 30-45 minutes",
+        "minutes": 40,
+        "per_day": 1,
+        "cost_usd": 1,
+        "unclear": false
+      },
+      {
+        "action": "Empty water from the cachepot about 30 minutes after watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water a little every 2-3 days",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check roots for rot, and repot or divide the plant if there is significant rot",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feel for plastic hydroponic baskets in the soil and remove them, cutting roots free if needed",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a pot one or two sizes larger, removing oversaturated soil and the plastic nursery pot",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Use fresh potting mix or an aroid mix (potting soil plus perlite, pumice or orchid bark)",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Periodically replace old soil with fresh potting mix",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Keep the plant away from heaters, air vents and extreme temperatures",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer mostly blames overwatering and root rot, mentioning underwatering only as a conditional possibility; watering is buried under advice to dry the plant out and repot it into dry soil, which would delay the fix this thirsty plant needed."
+  },
+  "input_tokens": 8520,
+  "output_tokens": 1770,
+  "graded_at": "2026-10-29T22:38:41.053951+00:00",
+  "status": "graded_pending_review"
+}

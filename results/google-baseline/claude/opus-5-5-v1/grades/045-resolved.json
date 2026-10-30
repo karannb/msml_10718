@@ -1,0 +1,84 @@
+{
+  "job_id": "045-resolved",
+  "query_index": 45,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "5018a6ff525963544b19143b102d5c4bcff336b66bfefbb7c31d786e8c63381b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Cut off the flowers/flower stems",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Consider possible light stress and adjust",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Check roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in a less dense, chunky, well-draining mix",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively set up self-watering with pon/leca/perlite mix",
+        "minutes": 45,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Rinse roots when repotting",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut back dead or rotting material",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak roots in a hydrogen peroxide bath before repotting",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      }
+    ],
+    "reason": "Overwatering in dense, soggy soil and repotting into a chunkier mix do appear, but they are buried among competing ideas (flowering, pests, light), and none of the suggestions is likely to harm the plant."
+  },
+  "input_tokens": 2501,
+  "output_tokens": 958,
+  "graded_at": "2026-10-30T00:20:24.015239+00:00",
+  "status": "graded_pending_review"
+}

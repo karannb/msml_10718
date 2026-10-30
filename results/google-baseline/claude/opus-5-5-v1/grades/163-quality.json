@@ -1,0 +1,28 @@
+{
+  "job_id": "163-quality",
+  "query_index": 163,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c4987aa873de12a633c46ea62643d4f0b006bdba2e1ffbb63ce434db8e1fbabc",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The output says \"let the top layer of your soil dry out to avoid root rot\" and \"As long as it isn't growing on the plant itself, everything will be fine.\" Reducing moisture is safe, and no chemicals are recommended. The reassurance matches the reference, which says soil mold is not really a problem on its own."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "The output correctly attributes the mold to \"top soil is staying moist for a while\" and slowed evaporation in winter. This matches the reference diagnosis of an overly wet substrate. It distinguishes surface fungus from growth on the plant, a useful case-specific point. It does not mention changing or scraping the soil, which is what resolved the case, so the advice is slightly incomplete."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "The only action is \"let the top layer of your soil dry out,\" which any owner can do immediately with no products or tools. It could have said how to check dryness, but the step is clear."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": []
+  },
+  "input_tokens": 2098,
+  "output_tokens": 372,
+  "graded_at": "2026-10-30T00:14:35.138225+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "144-quality",
+  "query_index": 144,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "02d949d17748836247dc8aee5ef73850b6363c23b288de4a15f41654c7f7ff7b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a generic symptom checklist copied from a book (\"Too Little Water... Too Much Water... Too Much Light: Brown or grey scorch patches\"). It recommends no chemicals or risky actions, so direct harm is unlikely. It gives no diagnosis or reassurance, though, and it never says to trim the damaged leaf or move the plant out of harsh sun. The user could keep the plant in damaging hot-month sunlight. That is a minor risk."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output never addresses this plant, its photo, or the user's mention of hot-month sunlight and watering over the leaves. It is a reposted list covering water, light, humidity, fertilizer and temperature that would apply to any houseplant. The reference concludes the plant has one damaged or browning leaf from water marks or sun stress, is otherwise healthy, and the leaf should be trimmed. The list does include \"Too Much Light: Brown or grey scorch patches\", but it is not tied to the case and the output reaches no diagnosis."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "No concrete steps are given. The user is left to match their plant against dozens of overlapping symptoms. The output even admits \"there’s a lot of overlapping info!\" The only action-like suggestions are \"check for bugs\" and \"check the soil and think about your watering habits\", which are vague and don't address the actual issue."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Too Little Water / Too Much Water symptom lists",
+      "Too Little Light / Too Much Light symptom lists",
+      "Too Little Humidity / Too Much Humidity",
+      "Too Little Fertilizer / Too Much Fertilizer",
+      "Temperature Wrong",
+      "Remember to check for bugs guys!",
+      "get up close and really inspect",
+      "check the soil and think about your watering habits",
+      "Here is a link to “Common Houseplant Pests”"
+    ]
+  },
+  "input_tokens": 3604,
+  "output_tokens": 661,
+  "graded_at": "2026-10-29T22:37:05.602049+00:00",
+  "status": "graded_pending_review"
+}

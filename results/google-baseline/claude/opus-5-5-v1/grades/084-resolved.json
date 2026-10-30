@@ -1,0 +1,133 @@
+{
+  "job_id": "084-resolved",
+  "query_index": 84,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "16eead1c8ecc286732855212623bc7c4719e3443d70ab3d7be7a25123ce795dc",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Do a soil test before planting",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Work fertilizer or up to one inch of compost into the top six inches of soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Sow seeds 1/8 inch deep or plant transplants after last frost",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Thin seedlings to 3-4 inches, then to about 12 inches apart",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water about 1.5 inches per week, keeping soil consistently moist",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Install a drip irrigation system",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Feed with liquid nitrogen fertilizer such as fish emulsion (weekly for containers)",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Cultivate shallowly to remove weeds",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Lay organic mulch around young plants",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Cover young plants with row cover against pests",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Harvest leaf stems once plant has 6-8 leaves, leaving 2-4 leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Stagger basil plantings every other week",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Plant extra basil to let flower for pollinators",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Watch the linked YouTube video on basil varieties",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prepare a raised bed or amend ground soil with rich organic mix",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 50,
+        "unclear": false
+      },
+      {
+        "action": "Cut back the flowering top portion of the plant, then fertilize and keep moist",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic basil-growing article that never identifies the plant as healthy and just needing bushier growth; cutting back flowers and fertilizing appears only buried and contradicted by a claim that pinching doesn't help, repotting into a bigger pot is absent, and nothing is clearly likely to harm the plant."
+  },
+  "input_tokens": 9796,
+  "output_tokens": 1741,
+  "graded_at": "2026-10-30T00:13:16.801714+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "140-quality",
+  "query_index": 140,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "47bf59b9c1cf8f427f8e219cf5974a09abebe28f44e93004a55fe792a1f5d1f0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output gives contradictory watering advice. The first comment says \"Probably got overwatered. They like to go dry,\" which contradicts the REFERENCE finding that the plant needed more water. Steve's line \"they get watered daily and get near-full sun\" describes greenhouse conditions and could push a home owner toward overwatering in a poorly draining pot. It also omits that snake plants are mildly toxic to pets. None of this is severe, but the risk is real."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Several points match the REFERENCE: \"needs bright light,\" the need for \"a potting medium that drains and allows air circulation,\" \"They actually like a fair bit of moisture,\" and \"Needs more water, better soil.. more light.\" However, the opening overwatering diagnosis conflicts with the REFERENCE. The output never mentions repotting, the root-bound condition, rotating the plant, or the case-specific clues (the removed tray, the move away from the window, the mold found in the soil). It also provides no clear health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The output is a raw scraped comment thread with URLs and UI elements, not a coherent set of steps. Readers get conflicting directions (\"go dry\" versus \"more water\") and a commercial soil recipe (\"75% peat-substitute... coarse sand, fir bark, and chunky perlite\") that is possible but not presented as an action plan. There are no concrete steps on how or when to repot, water, or reposition the plant."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Needs more water, better soil.. more light",
+      "Looks like it needs bright light",
+      "Best of luck with it"
+    ]
+  },
+  "input_tokens": 3142,
+  "output_tokens": 962,
+  "graded_at": "2026-10-30T00:14:55.106561+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,63 @@
+{
+  "job_id": "066-resolved",
+  "query_index": 66,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "a4f05354208758dfefa35fe3b57068aadc17c75f281ea1eb572ba165d29cd271",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Wipe or spray garden tools with apple cider vinegar to sanitize them between cuts",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 4,
+        "unclear": false
+      },
+      {
+        "action": "Spray dirty or rusty tools with apple cider vinegar, scrub with a brush and rinse",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 4,
+        "unclear": false
+      },
+      {
+        "action": "For heavy rust, soak tools in equal parts vinegar and water for 4 hours to overnight, then scrub, rinse and dry",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 4,
+        "unclear": false
+      },
+      {
+        "action": "Mix 1-2 tbsp apple cider vinegar per gallon of water and spray affected plants to treat or prevent fungal disease",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 4,
+        "unclear": false
+      },
+      {
+        "action": "Water the plant at its base with 1 tbsp apple cider vinegar per gallon of water to lower soil pH",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 4,
+        "unclear": false
+      },
+      {
+        "action": "Amend soil with sphagnum peat moss or use acidic fertilizer for a long-term pH fix",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic scraped vinegar article that only mentions fungal diseases in passing, with no specific diagnosis. Its homemade vinegar spray is not the copper fungicide and leaf removal that worked, and it risks burning foliage and delaying effective treatment."
+  },
+  "input_tokens": 2517,
+  "output_tokens": 1364,
+  "graded_at": "2026-10-30T00:14:22.858733+00:00",
+  "status": "graded_pending_review"
+}

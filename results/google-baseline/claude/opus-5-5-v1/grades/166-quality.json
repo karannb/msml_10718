@@ -1,0 +1,36 @@
+{
+  "job_id": "166-quality",
+  "query_index": 166,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "4204bc41d12ca039a46c5016df9626b3b41ba9daf1d3a250c78dade1afc76f42",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output contains general shrub and tree advice that could mislead someone pruning a bird of paradise. It says \"A healthy plant can be cut back nearly to the soil surface, and it will grow back\" and \"Don't be afraid to be aggressive with your pruning cuts,\" which is inappropriate for a bird of paradise that grows from a few stems. Seasonal guidance tied to \"Cold winter temperatures\" and flowering timing is irrelevant indoors and could delay simple leaf removal. Most of the content is benign, such as removing the four D's, so the risk is moderate rather than severe."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped generic gardening article about outdoor flowering shrubs, hydrangea, clematis and trees. It never mentions the bird of paradise, the photo, or the old lower leaves. It provides no health label or time-to-severe estimate. It also omits the reference's specific advice to cut the bottom leaves touching the ground and to repot before the plant outgrows its narrow-topped pot. The \"Dead, Dying, Damaged, Diseased\" list loosely overlaps with removing old leaves, but it is not tied to any evidence from the case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Removing the four D's is something an owner could do, but the output gives no concrete steps for this plant: which leaves to cut, where to cut them, or what tools to use. Instructions like \"spend a year observing what the plant does\" and \"decide what your goal for that plant is\" are vague. The timing rules about flowering between \"Christmas and late summer\" do not map onto a non-blooming indoor plant. The user is left unsure what to do this week."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "The four D's should always be a priority for removal: Dead, Dying, Damaged, Diseased",
+      "pause and observe the plant",
+      "spend a year observing what the plant does",
+      "cut back no more than one-third of the plant overall",
+      "one of the best times to feed a plant is after a pruning session",
+      "Always follow fertilizer application instructions carefully",
+      "decide what your goal for that plant is"
+    ]
+  },
+  "input_tokens": 4348,
+  "output_tokens": 1033,
+  "graded_at": "2026-10-30T00:15:30.022717+00:00",
+  "status": "graded_pending_review"
+}

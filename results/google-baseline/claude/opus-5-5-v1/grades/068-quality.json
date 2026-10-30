@@ -1,0 +1,39 @@
+{
+  "job_id": "068-quality",
+  "query_index": 68,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "8d7278736065c9bcfe85530d115cb1b97bffe9242ea88979426df210d0b06872",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output says \"in general you should give the plant as much sun as possible.\" The user just moved the plant to a sunnier window and the leaves browned, so this risks sun scorch. It also says \"the soil needs to be kept moist\" and gives a long under-watering section, which could push more watering when the reference points to overwatering. The drainage fix is wrong too: \"placing it on a saucer\" does not improve drainage. No severe chemical or pet risk is present, and the fertilizer advice (dilute, stop if overfed) is reasonable."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a generic scraped article (\"Common Issues\", \"Drooping leaves can be a sign of:\") that lists fertilizer, under-watering, overwatering, light and cold without choosing one. It never mentions the case details: two older leaves browning, the move to a brighter window, weekly top watering, regular potting soil. Overwatering appears only as one item among many. There is no health label or time-to-severe estimate, and none of the reference advice appears: older leaves naturally dying off, a moss pole, spring fertilizing."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual tips like \"leave the top third of soil to dry out\" and \"move the plant away from any cold draughts\" are doable. However, the user gets no guidance on which of five problems to address, and some steps are unclear or contradictory: keep soil moist versus let the top third dry, and \"make extra drainage holes... or by placing it on a saucer.\" The user would not know what to actually do this week."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Philodendron needs bright, indirect light",
+      "give the plant as much sun as possible",
+      "consider getting a grow light",
+      "move the plant away from any cold draughts",
+      "fertilised once a month in the spring and summer",
+      "Make sure you dilute any fertiliser you use",
+      "never water when the soil is already wet",
+      "check that your plant's container is well-draining",
+      "repot your plant in a better draining soil",
+      "keep it away from air conditioning vents"
+    ]
+  },
+  "input_tokens": 3511,
+  "output_tokens": 977,
+  "graded_at": "2026-10-30T00:15:18.883317+00:00",
+  "status": "graded_pending_review"
+}

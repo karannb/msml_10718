@@ -1,0 +1,36 @@
+{
+  "job_id": "092-quality",
+  "query_index": 92,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "ca1b50c10cb5c3d504137b9e60cbc7bb61420c3542483f1f65a307eeb6292f48",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is mostly benign care tips, such as \"don't let it sit in water\" and \"make sure it has drainage holes.\" Two points are questionable: \"Most plants are fine drying out between waterings but this guy is not\" and \"Don't be afraid to drench it\" could encourage overwatering in a plant prone to trunk rot. There is no pet-toxicity issue and no chemical misuse, so the risk is minor."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a scraped Reddit thread, not a tailored answer. It gives no health label, no time-to-severe estimate and no answer to the repotting question. Most of it is a generic money tree care guide (\"Water:\", \"Lighting:\", \"Fertilizing:\", \"Rotate for even light\") that ignores the case. One buried comment, \"check to see if there is a tie in the bottom of it... I took it off and it started to thrive,\" plus a follow-up about a rubber band separating the roots, loosely matches the reference: multiple trees bound together that should be untangled or cut free. It never states that the stunting comes from several tangled trunks."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The individual actions are easy for a home owner: remove a tie or rubber band, water when the top feels slightly dry, rotate the plant, prune brown growth, braid young branches. However, the content is disorganized, written in other people's first person (\"I have both a large, 4 ft tall tree\"), and full of irrelevant material and links. The user would struggle to pick out which step addresses their problem."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "ensure it's getting enough light and water",
+      "Make sure you rotate for even light and growth",
+      "Fertilizing: Not necessary but helps to support new growth",
+      "just water when dry and make sure it has drainage holes",
+      "Don't be afraid to drench it but don't let it sit in water",
+      "there is always some growth that turns brown or looks funny. I just cut it off",
+      "Once find a good spot leave it there"
+    ]
+  },
+  "input_tokens": 4539,
+  "output_tokens": 983,
+  "graded_at": "2026-10-30T00:16:01.155780+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,34 @@
+{
+  "job_id": "038-quality",
+  "query_index": 38,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "6e4d16fdd3f7687b73ab33839d677beda8301edc099794638cbbf88440ced896",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output suggests \"Perhaps too wet soil for this late in the year? Ive stopped watering mine for about a month\" and \"they enjoy it a bit dry.\" That pushes the owner toward withholding water from a plant the REFERENCE confirms was dehydrated, which would worsen it. It also says \"Put it in direct sun,\" even though the OP reports direct sun \"TOASTED\" the plant. There is no warning that rue sap is phototoxic to skin or that the plant is toxic to pets, which matters if the owner starts chopping it back."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a raw scraped Reddit thread, not a diagnosis. It contains no health label and no time-to-severe estimate. The main suggestion, \"too wet soil,\" contradicts the confirmed dehydration. The rest is unrelated zone talk (\"Im in zone 5,\" \"Zone 7a\") and anecdotes (\"started yellowing and browning for no reason\"). None of it ties to the user's 2 cm watering routine or matches the REFERENCE's \"may be need little more water.\""
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The comments contradict each other: \"Put it in direct sun\" versus \"you can't full sun this in 10b,\" and \"stopped watering\" versus questions like \"how often are you watering?\" Some are irrelevant to an indoor potted rue, such as \"in the ground\" and \"let them sit like that until late winter.\" The interleaved UI markup and profile links make it unclear what the owner should actually do. There are no concrete, coherent steps."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Put it in direct sun, in the ground",
+      "Like a lot of herbs they enjoy it a bit dry",
+      "Use regular potting mix",
+      "How often are you watering it?",
+      "Either way I wouldnt get discouraged they're a pretty tough plant"
+    ]
+  },
+  "input_tokens": 4647,
+  "output_tokens": 919,
+  "graded_at": "2026-10-30T00:18:13.050501+00:00",
+  "status": "graded_pending_review"
+}

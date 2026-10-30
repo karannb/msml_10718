@@ -1,0 +1,36 @@
+{
+  "job_id": "117-quality",
+  "query_index": 117,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "72ee67246e140b0e67135cbb43ce831fdce9599a4b4cd3d1fdc439cd20cf26e0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output repeatedly discourages watering a wilting plant: \"just because your plants are wilting does not mean you need to water\" and \"95% of the reason... You don't need to do a single thing.\" The plant is a very thirsty indoor peace lily, so this advice could delay the watering it urgently needs and lead to further decline. The brief line \"If it's dry, absolutely water\" is buried and is framed around outdoor garden beds. It also never mentions that peace lilies are toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a transcript of an outdoor vegetable-garden video about wilting from \"heat,\" \"strong wind,\" and \"barometric pressure\" in peppers, cucumbers and pumpkins. None of this applies to an indoor peace lily acquired from a friend. It never identifies the plant or underwatering, which the reference confirms as the problem and which watering fixed. It also gives no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The only concrete instructions are \"Dig in your soil once a week throughout the growing season\" and logging rainfall and watering times. These are aimed at outdoor garden beds and do not give the poster a clear action for this plant this week. A beginner would not come away knowing to simply water the peace lily thoroughly."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "you should not overreact",
+      "learn our soil",
+      "Dig in your soil once a week",
+      "If it's dry, absolutely water",
+      "log that... how frequently you're watering",
+      "overwatering can lead to problems",
+      "not everything needs a solution from you as a gardener"
+    ]
+  },
+  "input_tokens": 7237,
+  "output_tokens": 838,
+  "graded_at": "2026-10-30T00:15:37.512613+00:00",
+  "status": "graded_pending_review"
+}

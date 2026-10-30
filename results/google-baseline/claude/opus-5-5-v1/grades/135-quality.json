@@ -1,0 +1,35 @@
+{
+  "job_id": "135-quality",
+  "query_index": 135,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "b13b62d1ccf36e87d3a6e990db4b4fa909540a0099d5a2f7eabec76e190e3849",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output assumes something went wrong: \"It is quite likely that there was something done not quite right during the repotting process.\" It suggests \"put back into the original pot, with new soil\" and \"take it out and have a look at the roots.\" For a plant the REFERENCE judges healthy and putting out new growth, another repot and root inspection adds needless stress to freshly trimmed roots. The advice to flush fertilizer is also unwarranted, since the user never mentioned fertilizing. These are moderate risks rather than severe harm."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped Reddit thread from a different case. It mentions an \"old husk,\" \"chunky potting mix\" and \"especially with anthuriums,\" none of which appear in this CASE. It gives no health label and no time-to-severe estimate, and it never says the yellow leaf is normal. It frames the plant as suffering transplant shock or root damage, which contradicts the REFERENCE (healthy, old leaf yellowing). It also misses the one concrete recommendation: trellis the vine lying on the floor."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The content is raw web-page markup with usernames, URLs and nested comment threads, so a user would struggle to pull out a clear plan. The steps that can be found are conditional and partly contradictory: \"check carefully to determine the best watering regime\" versus \"put back into the original pot.\" None are tied to this user's situation. Individual actions like checking soil moisture are doable, but the whole is unclear and not actionable as written."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "check the soil and water accordingly, rather than water on a fixed schedule",
+      "Give the plant the best possible conditions until it can recover",
+      "no direct sunlight and increased humidity",
+      "You may as well take it out and have a look at the roots",
+      "Plants go through varying degrees of transplant shock",
+      "Check carefully to determine the best watering regime"
+    ]
+  },
+  "input_tokens": 3988,
+  "output_tokens": 996,
+  "graded_at": "2026-10-30T00:13:34.723980+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,40 @@
+{
+  "job_id": "008-quality",
+  "query_index": 8,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "e106a045889c3693c64857ef93fa2dac9b55f695ef917b131ce1c65349c684f7",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a generic nursery blog post that offers no harmful specific instruction for this aglaonema. It says to \"Slowly water the soil until excess water drains from the bottom of the pot,\" which actually fits the underwatering problem. Minor risks: the \"Repot if needed\" advice and pest treatments (\"isopropyl alcohol\", \"insecticidal soap\") could cause unnecessary stress to a drought-stressed plant. It also omits that aglaonema is toxic to pets, though no treatment here depends on that."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output never engages with the case: no mention of aglaonema, the automatic watering misconfiguration, or the user's question \"Will it survive?\" It gives no health label or time-to-severe estimate. It is an entirely generic checklist (\"Check soil moisture, Assess lighting conditions, Inspect for pests...\") rather than the reference's diagnosis of drought stress that should resolve with a normal watering cycle. It even suggests light is a possible cause, although the user said light is adequate."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual steps like \"Wipe leaves gently with a soft, damp cloth\" and \"Choose a new container that is 1–2 inches wider\" are concrete and doable. However, the user must work through a long multi-cause checklist with no guidance on which applies. The direct, simple fix (water thoroughly and resume a normal schedule) is buried among irrelevant tasks, and parts are promotional (\"bring photos... to your local SummerWinds\")."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Check soil moisture",
+      "Assess lighting conditions",
+      "Inspect for pests",
+      "Check for rootbound roots or poor drainage",
+      "Repot if needed",
+      "Fertilize after new growth appears",
+      "Give the Leaves a Good Cleaning",
+      "Make Sure Your Plant Is Getting Enough Light",
+      "be sure to check the needs of your specific variety",
+      "Reach out to a Trusted Garden Advisor at your local SummerWinds",
+      "With a little patience and proper care, many houseplants can bounce back surprisingly well"
+    ]
+  },
+  "input_tokens": 5724,
+  "output_tokens": 743,
+  "graded_at": "2026-10-29T22:38:23.529502+00:00",
+  "status": "graded_pending_review"
+}

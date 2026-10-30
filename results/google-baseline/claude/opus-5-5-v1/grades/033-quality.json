@@ -1,0 +1,38 @@
+{
+  "job_id": "033-quality",
+  "query_index": 33,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "794e4353242a7a8a99640241da707997308682e5e089e8efd6b896a7a115acd4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The guide is mostly benign. \"Water only when completely dry\" happens to fit the reference's tip to extend time between waterings, and \"Keep them out of direct sun outdoors to avoid scorched leaves\" echoes the reference's caution about sudden direct sun. The main risk is indirect: it never names a cause for the blackening central leaves, which could delay the fix. It also mildly misdirects toward tap-water chemistry (\"extremely sensitive to fluoride, chlorine, and salts\"), which explains brown tips, not a blackening center."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a generic \"ULTIMATE SPIDER PLANT CARE GUIDE\" with no diagnosis and no reference to the case. It ignores the reported black central leaves, the shelf placement 50cm from the window, and the repeated deaths. The reference identifies too little light on the shelf (resolved by moving the plant outside) and possible overwatering. The light section, \"Place them in bright light near an (unshaded) east, south or west window,\" is boilerplate and is not tied to the shelf shading."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual steps like the \"2 parts standard potting soil and 1 part perlite\" mix, monthly half-strength feeding and snipping plantlets are concrete and doable at home. \"Use distilled water, rainwater, or reverse osmosis\" adds ongoing effort and cost. Because nothing addresses the user's actual problem, the owner gets no clear plan for what to change this week to save the plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Place them in bright light near an (unshaded) east, south or west window.",
+      "Water only when completely dry.",
+      "Use distilled water, rainwater, or reverse osmosis to keep the foliage happy.",
+      "Plant in a light, fast-draining mix of 2 parts standard potting soil and 1 part perlite.",
+      "use a pot with drainage holes to prevent root rot",
+      "They thrive in standard home temperatures between 60°F and 80°F.",
+      "higher humidity prevents the leaf tips from drying out",
+      "Feed LIGHTLY once a month during spring and summer with an organic balanced houseplant fertilizer diluted to half strength.",
+      "Avoid over-fertilizing"
+    ]
+  },
+  "input_tokens": 2597,
+  "output_tokens": 1114,
+  "graded_at": "2026-10-30T00:20:18.184674+00:00",
+  "status": "graded_pending_review"
+}

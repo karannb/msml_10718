@@ -1,0 +1,119 @@
+{
+  "job_id": "020-resolved",
+  "query_index": 20,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "9370608268112f4cdb813c26d64e2c8da7d6995647c123fb14022a6f5246c9a8",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": true,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move plant under full-spectrum LED grow light at ~30 cm on a 14-hour timer",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 60,
+        "unclear": false
+      },
+      {
+        "action": "Tape a thermometer to the sill and check night temperatures for a few nights",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move the pot about 40 cm into the room, off the windowsill",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively use a heated seed starter base to keep root zone at 20-25 °C",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Check soil 3 cm deep with finger and water only when dry",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check pot drainage holes and empty standing water from saucer",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Tip plant out of pot to inspect for circling roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If root-bound, repot one size up",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If in same compost 8+ weeks with pale lower leaves, feed weekly at half strength",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "In hydroponics, check EC with a meter",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 75,
+        "unclear": false
+      },
+      {
+        "action": "Add nutrients to bring EC to 1.8-2.2 mS/cm",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "When moving to grow light, start lamp at 40 cm and lower 5 cm every 3 days",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Choose an early cayenne-type variety next time",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Optionally buy a smart garden for automatic light and warm roots",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 150,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer treats a normal immature plant as stalled, mentioning a slow variety and patience only as the last of seven causes while pushing light and other fixes first, but none of its mostly conditional fixes are likely to harm the plant."
+  },
+  "input_tokens": 6279,
+  "output_tokens": 1683,
+  "graded_at": "2026-10-30T00:14:29.404393+00:00",
+  "status": "graded_pending_review"
+}

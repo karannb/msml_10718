@@ -1,0 +1,49 @@
+{
+  "job_id": "150-resolved",
+  "query_index": 150,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "7879b605132829ec0a0d5bdd74a90c14218b7fce9ca7f960e6fc18b8da2ef23e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Cut the damaged stem right at or below the bend",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check whether new leaves or a solid piece emerge from the center",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If a solid piece pushes out of the center, remove the whole leaf spike",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Grind fallen plant material with a leaf shredder and return it around the trees",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 50,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer is scraped banana-plant comments that never identify transplant shock, though cutting off bent growth overlaps partly with trimming dead stuff (without the watering advice), and nothing is likely to harm the plant."
+  },
+  "input_tokens": 2393,
+  "output_tokens": 656,
+  "graded_at": "2026-10-30T00:10:40.563658+00:00",
+  "status": "graded_pending_review"
+}

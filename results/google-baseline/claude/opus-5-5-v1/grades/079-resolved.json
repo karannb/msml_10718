@@ -1,0 +1,154 @@
+{
+  "job_id": "079-resolved",
+  "query_index": 79,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "27f401d1c9b9f2b21640245a259904b28657fdfd862f2d24278cf7143e21f7cc",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Finger-test soil moisture before watering, checking every 2-3 days",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If overwatering is suspected, reduce watering frequency and let soil dry more between waterings",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Make sure the pot has drainage holes",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water slowly and deeply until water drains from the bottom when soil is dry 2 inches down",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bottom water by setting the pot in a tray of water for 20 minutes",
+        "minutes": 22,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant away from direct sun to an east- or west-facing window",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Hang a sheer curtain to filter sunlight if moving is impractical",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Watch segments for firming after relocating",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Buy and use a digital hygrometer to check humidity",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Group plant with other houseplants",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Set up a pebble tray with water under the pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Refill pebble tray every few days",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Run a cool-mist humidifier nearby a few hours a day",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 35,
+        "unclear": false
+      },
+      {
+        "action": "Move plant away from vents, drafts, exterior doors and exterior walls",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place an indoor thermometer near the plant to monitor temperature",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Tip plant out of pot to inspect root ball",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If root-bound, repot into a pot 1-2 inches larger with cactus mix, loosening roots, then water lightly",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize monthly with half-strength balanced liquid fertilizer spring to early fall",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively scratch slow-release granular fertilizer into topsoil every few months",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "Underwatering appears only as cause #2 behind overwatering in a generic 12-item list, so diagnosis and the deep-watering fix are buried; overwatering advice is safeguarded by soil checks, so not harmful."
+  },
+  "input_tokens": 9262,
+  "output_tokens": 1769,
+  "graded_at": "2026-10-30T00:11:26.312418+00:00",
+  "status": "graded_pending_review"
+}

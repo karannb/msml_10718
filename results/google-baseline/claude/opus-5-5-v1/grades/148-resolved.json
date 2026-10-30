@@ -1,0 +1,70 @@
+{
+  "job_id": "148-resolved",
+  "query_index": 148,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "1f53e8d537aeeab499f76538ec17c8838662f038195fd64ddacbd055f2255ed4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Remove the plant from its pot and clean all the old soil off the roots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak the plant in a hydrogen peroxide solution (1 tsp 3% per 1.5 L water) for about 30 minutes",
+        "minutes": 35,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Keep the bare-root plant in a container of plain water for about a month",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off the top part and try to root it in water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into peat-based soil with perlite, optionally with expanded clay at the bottom, without burying the stem too deep",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Give the first watering with a hydrogen peroxide solution (1 tsp per liter)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the topsoil with a finger and water only when it is dry",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer never identifies overgrowth or legginess and says the cause doesn't matter. Its main advice is to bare-root the plant, soak it in peroxide and keep it in water for a month, with only an incidental top cutting, so the hard trim is buried. Stripping the roots and water-culturing a plant that only needed a trim is unnecessary stress that delays the real fix."
+  },
+  "input_tokens": 2740,
+  "output_tokens": 1203,
+  "graded_at": "2026-10-29T22:38:04.914736+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "041-quality",
+  "query_index": 41,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "e172d438ebe36c8463b198eaeba47414a504cd3889862749948fc3de7ca82425",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The suggestions to \"make sure you have good air movement,\" tip the pot, and \"aerate the soil gently\" with a skinny stake carry low risk, though poking the soil could nick the roots or corm. Suggesting \"repotting\" again soon after a recent repot adds some stress. The output never mentions light, the confirmed cause, so following it could delay the real fix. No chemical or toxicity hazards are present."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a scraped Facebook comment thread, not an assistant answer. It has no health label and no time-to-severe estimate. The advice that is present targets damp, slow-drying soil (\"help that soil dry out,\" \"adding a few chunky things\"). That ties to the poster's note that the soil seemed damp, and loosely to the later chunkier repot. However, it completely misses insufficient light, the REFERENCE's confirmed problem, despite the poster's own question \"Maybe not enough light?\" Fragments like \"Semi hydro\" and another user's anecdote add noise."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual tips such as tipping the pot or poking the soil with a stake are doable at home. But the output is cluttered with UI markup, URLs, reaction buttons, and truncated comments (\"See more\"). Steps are hedged (\"I wonder if it would be beneficial\") and unclear. The bare \"Semi hydro\" comment gives no actionable instruction. A user would struggle to extract a clear plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "make sure you have good air movement",
+      "would you consider repotting",
+      "Good luck!!"
+    ]
+  },
+  "input_tokens": 3449,
+  "output_tokens": 984,
+  "graded_at": "2026-10-30T00:19:16.637592+00:00",
+  "status": "graded_pending_review"
+}

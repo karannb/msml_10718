@@ -1,0 +1,30 @@
+{
+  "job_id": "178-quality",
+  "query_index": 178,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7b957588d06045d2e3d8fad4ff7919c42479e037c8f76e93a1abca49cb8cb7d2",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a video transcript for a DIY PVC stake anchor, and following it would mean repotting again (\"we got to get these roots out of the old one\") an orchid that was repotted only three days ago, adding stress. It also calls for PVC solvent glue and drilling (\"drill too hard\") with no safety notes on ventilation or handling. It does not address the actual tipping, so the orchid may keep falling over and get damaged. These are minor risks rather than serious ones."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The transcript is about climbing plants whose stakes loosen in soil (\"so then when we put our steak in they just stand vertically\"). It never addresses a top-heavy orchid in an unstable pot. The REFERENCE's simple fixes (nest the pot in a larger or heavier pot, or add a counterweight such as a rock) never appear. There is no health label, no time-to-severe estimate, and no reference to the orchid, its bark medium, or the poster's photos."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The build requires buying CPVC, cutting it to specific lengths (\"a 4 in a 3 and 1/2 in and a 7 in\"), solvent gluing, using a level, drilling, and zip-tying. That is doable for a handy person but far more effort than needed. Because it is a fragmented transcript, the steps are ambiguous, and the dimensions are tailored to the narrator's pots rather than the user's."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "if you have plants that keep falling over you know give this a try"
+    ]
+  },
+  "input_tokens": 3282,
+  "output_tokens": 1109,
+  "graded_at": "2026-10-30T00:12:26.012026+00:00",
+  "status": "graded_pending_review"
+}

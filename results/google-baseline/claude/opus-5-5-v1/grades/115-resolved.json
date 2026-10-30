@@ -1,0 +1,56 @@
+{
+  "job_id": "115-resolved",
+  "query_index": 115,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "c15ecc35ddb2d879251c39b71b444efc48b014ffff8904b49256e17a17b68b11",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Mist the stuck leaf with a spray bottle of water",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use a wet cotton swab to gently push the new leaf out of the sheath",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant somewhere humid to loosen the sheath",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wrap a wet paper towel around the stuck area to keep it moist",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pull the stuck leaf out by hand (risk of breaking it)",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The comments all address a leaf stuck in its sheath, and the first one leads with spraying water, which matches the fix. The riskier yanking method is presented with its own warning, so the answer is not harmful."
+  },
+  "input_tokens": 2323,
+  "output_tokens": 882,
+  "graded_at": "2026-10-30T00:14:54.414665+00:00",
+  "status": "graded_pending_review"
+}

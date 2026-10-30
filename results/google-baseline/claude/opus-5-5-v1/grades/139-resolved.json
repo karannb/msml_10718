@@ -1,0 +1,49 @@
+{
+  "job_id": "139-resolved",
+  "query_index": 139,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "05688f397c378672b0a6c3d70eb7cb4a86c1cd0b38ce9eabad0b44aa0bd4b358",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Keep the soil consistently damp instead of letting it dry out (if the pot drains well)",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bottom water the plant",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply neem oil to treat the white spots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Add a bit of Epsom salt to the watering water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      }
+    ],
+    "reason": "The scraped comments mention bugs only as one possibility for the white spots, alongside watering and bruising explanations, and neem oil is buried among watering and Epsom salt tips with no isolation or pest follow-up, but nothing is likely to harm the plant."
+  },
+  "input_tokens": 2779,
+  "output_tokens": 589,
+  "graded_at": "2026-10-30T00:14:24.796661+00:00",
+  "status": "graded_pending_review"
+}

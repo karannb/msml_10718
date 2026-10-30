@@ -1,0 +1,33 @@
+{
+  "job_id": "164-quality",
+  "query_index": 164,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d7c8f87c4c72d06e098794cc0ecbeb7ec2e189cc5a80b82c5d296e0910b9d56f",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output (scraped Facebook comments) advises 'You can cut off the trunk, put in a vase of water and it will root... I would highly recommend cutting and rooting in water.' On a Crinum lily, which is a large bulb, this would badly damage or kill the plant. It also advises 'not too much hot, direct sun' and 'bright light, but not direct light,' which contradicts the reference: sunlight is best and warmth is the main challenge in zone 5a. The cat-toxicity warning is a partial safeguard, but it is framed around dracaena."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output confidently misidentifies the plant: 'This particular one is a red leaf edge dracaena also called a Madagascar dragon tree,' and 'Dracaeha.' The reference identifies a Crinum lily (later confirmed as a spider lily when it bloomed). There is no health label or time-to-severe estimate, the output is raw scraped page markup, and it ignores case evidence such as the 25 lb weight suggesting a bulb. It never addresses warmth or root-heating needs."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some steps are concrete and doable, such as 'put in a vase of water' and 'Twice a year I put in the bath tub and flood them.' However, the output is malformed HTML/accessibility-tree text with URLs and reaction buttons. It mixes conflicting commenters ('succulent soil' vs 'regular soil/potting mix') and does not answer the pot-size or grow-light questions clearly."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "They like bright light, but not direct light",
+      "They use regular soil/potting mix",
+      "I water my large one every 10 days or so",
+      "They like succulent soil and not too much hot, direct sun"
+    ]
+  },
+  "input_tokens": 3294,
+  "output_tokens": 887,
+  "graded_at": "2026-10-30T00:14:49.681325+00:00",
+  "status": "graded_pending_review"
+}

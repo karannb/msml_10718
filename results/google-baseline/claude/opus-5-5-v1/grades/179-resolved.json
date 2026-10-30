@@ -1,0 +1,42 @@
+{
+  "job_id": "179-resolved",
+  "query_index": 179,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "93a80682965e5ddb0575cc2cac3890d5131311eeef26f86914653c9f9624cb6e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Place the orchid's pot inside a heavy ceramic decorative pot to keep it from tipping",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "For a small orchid, place rocks at the bottom or on the non-leaning side of the pot as counterweight",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Provide light from directly above to reduce leaning",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer frames the problem mainly as normal leaning toward light, with tipping as a consequence, so the diagnosis is partial; its main fix, a heavy outer pot, matches what worked, and nothing it suggests is harmful."
+  },
+  "input_tokens": 3010,
+  "output_tokens": 751,
+  "graded_at": "2026-10-30T00:12:33.900456+00:00",
+  "status": "graded_pending_review"
+}

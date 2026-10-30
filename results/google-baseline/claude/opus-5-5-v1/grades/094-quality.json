@@ -1,0 +1,31 @@
+{
+  "job_id": "094-quality",
+  "query_index": 94,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "87d90fd3daff3bcb397a9ba1b8f6546e8754e89efbf86007dbe301e0439234c8",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is scraped Facebook comment markup, not a coherent answer. Its advice ('Spraying anything oil-based & then keeping it under light right away... will cause the leaves to burn', 'Insecticidal soap takes them out for me no issues') is broadly safe but misdirected, since the user applied a dust, not an oil spray. Nothing would directly damage the plant or person. However, it never explains how to remove the residue or check whether mites remain."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The confirmed problem is Captain Jack's dust residue on Alocasia leaves. The reference fix is a 1/3 lemon juice to 2/3 water wipe, then rinsing. The output never addresses residue removal and gives no health label or time-to-severe estimate. Instead it offers unrelated anecdotes ('I treat my new plants with c.j when o bring home and repot', 'Reg. Neem oil isn't good for leaves'), along with URLs and UI elements."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "There are no actionable steps for the user's actual problem. The output is raw page markup (links, buttons, reaction counts) mixed with fragmentary comments. A user cannot extract a clear plan for removing the residue."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Insecticidal soap takes them out for me no issues",
+      "Reg. Neem oil isn't good for leaves...supposed to treat but wipe off"
+    ]
+  },
+  "input_tokens": 3031,
+  "output_tokens": 729,
+  "graded_at": "2026-10-30T00:16:34.086092+00:00",
+  "status": "graded_pending_review"
+}

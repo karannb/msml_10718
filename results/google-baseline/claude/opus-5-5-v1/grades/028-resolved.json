@@ -1,0 +1,56 @@
+{
+  "job_id": "028-resolved",
+  "query_index": 28,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "84aae5a54b492fa654d17575890689f87643d8ee2bdeed06c36bf496e625e455",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Mix about 3 ml shampoo into 1 liter of water in a pump sprayer or a spray bottle",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Spray the shampoo solution over and under the leaves and on the stems in the evening, repeating within the week if needed",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse the solution off the plant with plain water the next morning, before noon",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the undersides of leaves and the stems to see whether the bugs have reduced",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Optionally use an organic shampoo instead of a regular one",
+        "minutes": 0,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic mealybug video (aphids come up only in passing), so the diagnosis is wrong; its shampoo spray followed by a plain-water rinse would likely still control aphids and partly matches the rinsing fix; the dilute, rinsed-off spray is not likely to harm the plant."
+  },
+  "input_tokens": 3293,
+  "output_tokens": 1006,
+  "graded_at": "2026-10-30T00:18:35.163823+00:00",
+  "status": "graded_pending_review"
+}

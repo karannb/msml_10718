@@ -1,0 +1,133 @@
+{
+  "job_id": "022-resolved",
+  "query_index": 22,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "ff58ef89acb8d5d6bbc7d739aa0917ff8bb0a098ac22ea90583c8765a72b63b2",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Choose plants hardy for your USDA zone",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Assess property for cold and warm spots and microclimates",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place cold-sensitive plants near southern exposure or sheltering structures",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply a winterizing high-potassium, low-nitrogen fertilizer",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Set up windbreaks such as fences or temporary coverings",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": true
+      },
+      {
+        "action": "Move container plants into a protective structure",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Push outdoor containers together and wrap their bases in plastic, burlap or blankets",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Mulch the soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Cover plants with sheets or blankets reaching the ground without touching foliage",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place a 60-watt bulb or other heat source under the cover in extreme cold",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Remove covers and ventilate during the day or after the cold passes",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water plants before a freeze",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check water needs after a freeze and water to thaw frozen soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wait until late winter or early spring, then prune damaged portions",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Scratch the bark to check the cambium and prune below the discoloration",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut fruit buds in cross section to check for cold damage",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This is a generic outdoor cold-injury article rather than a diagnosis of this plant, so it only partially matches the cold damage. It omits the fix (cutting back near the soil, withholding water, using a humidity jar), and its advice to water after a freeze and delay pruning until spring would likely worsen or delay recovery."
+  },
+  "input_tokens": 5023,
+  "output_tokens": 1583,
+  "graded_at": "2026-10-30T00:15:10.680842+00:00",
+  "status": "graded_pending_review"
+}

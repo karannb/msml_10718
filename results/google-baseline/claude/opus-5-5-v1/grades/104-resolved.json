@@ -1,0 +1,84 @@
+{
+  "job_id": "104-resolved",
+  "query_index": 104,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "8abc8208becec36a0d6b4f53da98e442fbad3de6197fe1c4f5124f85e7c3d410",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Check the roots for damage or rot",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut the stem at the marked point or chop off the top/healthy branch",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot the plant or stump in fresh soil",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Root the cuttings directly in soil, optionally with rooting hormone, keeping the soil moist for a couple of weeks",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, root the cuttings in a glass of water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the rooted cutting into a vase with LECA/clay pebbles",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Air layer the live stem before chopping and repotting",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a heavy mix with pumice, stone and clay for stability",
+        "minutes": 40,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Add fresh soil to the pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      }
+    ],
+    "reason": "The thread mostly blames root rot or death and mentions underwatering only as one commenter's possibility. Repotting appears among many suggestions, but no thorough watering is advised. The dominant chop-and-propagate and root-rot advice would lead to drastic, unnecessary cutting and delay the simple watering fix."
+  },
+  "input_tokens": 9230,
+  "output_tokens": 1098,
+  "graded_at": "2026-10-30T00:11:27.233927+00:00",
+  "status": "graded_pending_review"
+}

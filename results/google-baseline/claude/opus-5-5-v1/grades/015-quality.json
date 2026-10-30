@@ -1,0 +1,33 @@
+{
+  "job_id": "015-quality",
+  "query_index": 15,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "b84a408634c177066cca2f98644f62c4df5ed95527c9f5d6c30c23682548f92f",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook comment thread, not a structured assistant answer. Nadine suggests the soil \"could be staying to wet\" and Michael says to \"repot both.\" A housesitter could hold back water from a plant the reference says is thirsty, or add repotting stress to a sun-damaged plant. Paul's \"Lillys needs alot of water\" partly offsets this, but the advice conflicts. Nothing mentions moving the plant out of direct sun, and there is no pet-toxicity caveat for peace lily."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The reference diagnosis is sunburn plus underwatering after an environment change. Only Paul's comment touches underwatering, and even he hedges: \"leafs go brown for over water or underwatering.\" Sunburn and the environment change are never identified. Instead the thread attributes the problem to dense, wet soil, a small pot and \"salt build up.\" There is no health label or time-to-severe estimate, and the advice mixes in a palm unrelated to the case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Repotting with good drainage and top-dressing with \"Sphagnum moss\" is doable at home. However, the output is an unformatted page dump of contradictory comments with no clear, ordered steps. A housesitter would not know whether to water more or less. The simple correct actions, a thorough watering and a move to bright indirect light, are never stated clearly."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "I would give the peace lily a bigger pot",
+      "leafs go brown for over water or underwatering",
+      "of course the day light makes a difference",
+      "I would repot both, making sure they have really good drainage"
+    ]
+  },
+  "input_tokens": 2741,
+  "output_tokens": 1010,
+  "graded_at": "2026-10-30T00:12:48.433596+00:00",
+  "status": "graded_pending_review"
+}

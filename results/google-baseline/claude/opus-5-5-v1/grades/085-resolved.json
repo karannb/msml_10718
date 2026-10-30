@@ -1,0 +1,63 @@
+{
+  "job_id": "085-resolved",
+  "query_index": 85,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "d30debf50b674ed0cb5a12e1956d37993d68eda162b5eb251ced9064a28e11bb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Thin the pot to a single plant by cutting away extra basil stems",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a container of at least 5 gallons with good drainage and high-quality potting soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 35,
+        "unclear": false
+      },
+      {
+        "action": "If rootbound, gently break up the root ball before potting",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water in after potting: water, let it soak in, then water again",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prune the main stem just above a leaf node to force side shoots, repeating on new growth every few weeks",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off flower stalks as they appear",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer treats the plant as healthy and focuses on getting bushier growth. Its main advice, pruning to remove flowers and repotting into a large container, matches the fix that worked, and nothing it recommends is harmful."
+  },
+  "input_tokens": 5225,
+  "output_tokens": 883,
+  "graded_at": "2026-10-30T00:13:37.896271+00:00",
+  "status": "graded_pending_review"
+}

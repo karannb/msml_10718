@@ -1,0 +1,31 @@
+{
+  "job_id": "119-quality",
+  "query_index": 119,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f0304ad1d91d66f261b4df41d5b8ad494d232177e90846eda7852dbb44dc3b7c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a YouTube transcript about growing Japanese White Pines in the ground versus in pots, not advice for this plant. It does not recommend anything dangerous, but it implies outdoor ground planting (\"let's get this tree into the ground\"), which does not suit a plant kept as a normal houseplant. It also leaves the user's repotting and top-dressing question unanswered, so they might keep adding soil on top, which the reference warns against. Direct harm is low, but it gives no useful safety guidance."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label, diagnosis, or time-to-severe estimate. The content (\"plant one tree in the ground and compare that... with an identical tree growing in a pot\") is about trunk-thickening experiments and does not address the case. The reference says to repot, use normal potting soil, and not add soil on top. The output answers none of the user's questions about repotting versus top-dressing or regular versus bonsai soil."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "There are no actionable steps for the user's situation. Suggestions like planting in a growing bed or using \"shallow air rated baskets\" are aimed at outdoor bonsai development, not at repotting an indoor houseplant. The user explicitly said they found complex bonsai guidance too much, and this output is even less applicable."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "if you can possibly grow your trees in the ground that will definitely help to thicken them up",
+      "be sure to hit that subscribe button"
+    ]
+  },
+  "input_tokens": 3659,
+  "output_tokens": 530,
+  "graded_at": "2026-10-30T00:16:04.269553+00:00",
+  "status": "graded_pending_review"
+}

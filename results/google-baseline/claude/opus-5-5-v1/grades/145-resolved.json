@@ -1,0 +1,42 @@
+{
+  "job_id": "145-resolved",
+  "query_index": 145,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "e24dc6877968d5163d1724f3827060ed430d4091bc5fe2bf49eec89b89b32bcb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check whether the plant gets any direct light",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to a spot with only indirect light, such as about 10 ft from the window",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut watering to about half the usual amount for winter",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The main diagnosis, leaf burn from direct light, matches the confirmed sun stress. Moving the plant out of direct light covers part of the fix, but the answer never says to trim the damaged leaf, which is what the poster did. The overwatering suggestion is a minor, mostly benign diversion."
+  },
+  "input_tokens": 2343,
+  "output_tokens": 630,
+  "graded_at": "2026-10-29T22:37:12.675127+00:00",
+  "status": "graded_pending_review"
+}

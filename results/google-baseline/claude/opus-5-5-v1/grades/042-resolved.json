@@ -1,0 +1,98 @@
+{
+  "job_id": "042-resolved",
+  "query_index": 42,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "64de347d558bfed732aea0478c903951b433980478b70dfd746c1dcae3c06494",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Record watering dates (app, notes or spreadsheet)",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pull off dried bottom leaves if unsightly",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If overwatered, cut back watering and let soil dry fully before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If overwatered, switch to well-draining soil mix",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If overwatered, use a pot with a drainage hole",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "If stem is black, cut off top, trim black spots, dry cutting 3-5 days, then propagate in new soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Leave the rotted bottom section and don't water until soil is dry to see if it regrows",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Uproot and remove rotting succulent from mixed arrangement",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If underwatered, water more often and soak soil thoroughly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Try water therapy for badly underwatered succulent",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Download the free cheat sheet and browse common problems page",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic scraped watering-problems article that never identifies insufficient light, etiolation or colour loss (stretching is only a passing link) and gives no light advice, though its conditional watering steps are unlikely to directly harm the plant."
+  },
+  "input_tokens": 6859,
+  "output_tokens": 1075,
+  "graded_at": "2026-10-30T00:19:27.055634+00:00",
+  "status": "graded_pending_review"
+}

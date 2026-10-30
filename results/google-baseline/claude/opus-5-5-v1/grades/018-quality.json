@@ -1,0 +1,37 @@
+{
+  "job_id": "018-quality",
+  "query_index": 18,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "e5b6023bd2f3953da30ea9a3082052914521dd93d1287d9459ab7ff0c9ef2f0b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output says \"In summer, ZZ takes watering every week or two\" and \"they benefit from regular moisture,\" which may reassure the user that their biweekly schedule is fine; the REFERENCE calls it far too frequent. It does add \"In winter... reduce watering to about once a month\" and describes root rot. It also suggests \"water thoroughly\" right after replanting a possibly rotted plant, offers fertilizer as an alternative cause, and gives no toxicity warning for ZZ sap during root handling."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is a scraped generic ZZ troubleshooting article, with ads, not a response to this case. It has no health label or time-to-severe estimate. It lists sun, under/overwatering, nutrients, pests, temperature and repotting without weighing the user's evidence: biweekly watering, a mushy 'raisin like' yellow stem, and spreading yellow tips. Overwatering and root rot (\"Inspect the rhizomes and cut away any brown, damaged portions\") are mentioned among many possibilities, so it only partly matches the REFERENCE. It never says the current schedule is too frequent or to water only when stems soften."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps such as \"check one inch below the surface,\" \"add perlite or bark mix,\" and cutting brown rhizome are doable at home. However, they are scattered across a long multi-cause article interrupted by ads, with no prioritized plan for this plant. Some advice conflicts: \"move to a smaller vessel\" versus \"one to two times larger\" pot. A typical owner would struggle to know what to do this week."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Too much or too little sunlight and watering issues are the most common causes",
+      "First, check all the primary growing conditions, particularly water, sunlight, and temperature",
+      "scout for pests",
+      "A well-draining potting mix is essential",
+      "Every few years, refresh the potting media by repotting",
+      "Turn the pots periodically for even exposure",
+      "give ZZ an occasional rinse",
+      "Apply a houseplant formula once or twice a year"
+    ]
+  },
+  "input_tokens": 21632,
+  "output_tokens": 1112,
+  "graded_at": "2026-10-30T00:13:51.720457+00:00",
+  "status": "graded_pending_review"
+}

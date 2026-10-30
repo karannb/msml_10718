@@ -1,0 +1,37 @@
+{
+  "job_id": "093-quality",
+  "query_index": 93,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "2b5242271fdf59ab44c3dfc73500f63ba987f566ba11d540c8b3ed9fc8f1e247",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The advice is mostly low-risk. It includes \"fertilize with a liquid fertilizer at half strength once a month March- Oct\" and \"Don't over water... bottom water,\" and money trees are generally considered non-toxic. The pruning advice contradicts itself (\"Pruning... stimulate growth\" versus \"If you prune it, it will become bushier, not taller\"), and recommending pruning without addressing the tangled multiple trees could delay the real fix. That is a minor risk, not serious harm."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The reference identifies stunting caused by multiple money trees tangled in one pot, fixed by separating them. The output never mentions multiple plants or untangling. Instead it offers generic growth tips: \"Pruning and more light stimulate growth,\" fertilizing, conditional repotting (\"If the rootball is more than 2\" bigger than the pot\"), and soil amendments. It also omits the required health label and time-to-severe estimate, and is actually a scraped Facebook comment thread rather than an assessment of this case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps such as half-strength fertilizer, the pencil test for watering, bottom watering, and adding perlite or orchid bark are things a home owner can do. However, the output is cluttered with scraped page markup (URLs, buttons, reaction counts) and gives contradictory pruning guidance. \"Look on YouTube how to prune money trees\" outsources the key step. A user would struggle to extract a clear plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Pruning and more light stimulate growth",
+      "Look on YouTube how to prune money trees",
+      "fertilize with a liquid fertilizer at half strength once a month March- Oct",
+      "put in a pot that's 2\" bigger",
+      "Don't over water",
+      "I stick a pencil into the soil and if it comes out clean then I water",
+      "I add perlite and orchid bark to mine so it drains better",
+      "Patience and it will get taller"
+    ]
+  },
+  "input_tokens": 2908,
+  "output_tokens": 983,
+  "graded_at": "2026-10-30T00:16:21.739368+00:00",
+  "status": "graded_pending_review"
+}

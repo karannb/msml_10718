@@ -1,0 +1,140 @@
+{
+  "job_id": "067-resolved",
+  "query_index": 67,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "d58746d195e99734c55e0313769487772c138d2815b762d197631bb38f312537",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil moisture",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot and inspect roots (and smell the soil)",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim damaged or rotted tissue",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in fresh well-draining soil amended with perlite or bark in a slightly larger pot",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Bottom-soak if the rootball has shrunk",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water when the top 2-4 inches of soil are dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add a humidifier",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Hang a sheer curtain to diffuse direct sun",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Inspect leaves closely for pests with a magnifier",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wipe pests off with isopropyl alcohol on a cotton swab",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray with neem oil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Improve air circulation",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Apply a systemic fungicide if the damage is spreading",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Isolate the plant from other plants",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut heavily damaged leaves at the base of the petiole",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect the plant monthly under bright light",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Fungal spots appear only as one minor pattern (10%) in a generic article that emphasizes overwatering, and the fungicide fix is a buried conditional 'consider' step; the overwatering advice is gated by a soil check, so it is not clearly harmful."
+  },
+  "input_tokens": 6204,
+  "output_tokens": 1772,
+  "graded_at": "2026-10-30T00:14:50.353107+00:00",
+  "status": "graded_pending_review"
+}

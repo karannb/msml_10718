@@ -1,0 +1,35 @@
+{
+  "job_id": "143-quality",
+  "query_index": 143,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a1ba227d1144120b8c22a12d460249b5af31294acde879fd69a58371225c203a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output gives no clear direction. It treats underwatering and overwatering as equally likely: \"too much water can create root rot\" and \"carefully check azalea roots.\" This could lead the user to cut back watering or disturb the roots in 100F heat, when the real problem is drought stress. It also says healthy roots \"should be brittle,\" which is inaccurate. It does not warn against fertilizing a heat-stressed plant. No chemical or toxicity hazards are present."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is a garbled transcript of a generic video about why azaleas brown. It lists many possible causes: sun, \"too little water will leave the plant parched and brown,\" transplanting, root rot, seasonal leaf drop and leaf gall. It never ties any of them to the case details (100F heat, watering every other day, recent feeding). The underwatering cause matches the reference, but it is buried among irrelevant causes. There is no advice to water daily or to hold off on feeding."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "There are almost no actionable steps. The only concrete actions are \"carefully check azalea roots\" and \"remove affected leaves by hand and discard\" (for leaf gall, which does not apply here). There is no watering frequency, amount or schedule. The transcript format with timestamps and \"[Music]\" makes it hard to follow."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Brown leaves could mean several things",
+      "most azaleas prefer partial shade to full Sun",
+      "may indicate a watering problem",
+      "too little water will leave the plant parched and brown too much water can create root rot",
+      "carefully check azalea roots",
+      "it may point to a problem such as a diseased plant"
+    ]
+  },
+  "input_tokens": 2413,
+  "output_tokens": 851,
+  "graded_at": "2026-10-30T00:15:44.676152+00:00",
+  "status": "graded_pending_review"
+}

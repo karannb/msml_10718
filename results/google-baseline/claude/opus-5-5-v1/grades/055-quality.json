@@ -1,0 +1,32 @@
+{
+  "job_id": "055-quality",
+  "query_index": 55,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "cdb1d16e50e663560cbd98ead4294134b027a7de1305f2784e6634305b5a36ef",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is a scraped Reddit thread about polka dot plant flowering, not a response to this case. It treats the situation as normal flowering (\"This is all normal\", \"flowering usually means a happy plant\") and suggests trimming and propagating. Following it would leave the mealybug untreated, allowing the infestation to spread. Pruning itself carries little direct risk, but the false reassurance delays the action the plant needs."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The confirmed problem is a mealybug. The output never mentions pests, mealybugs, rubbing alcohol, or inspecting for more bugs. It discusses flowering, end of life cycle, leggy growth, and being \"potbound,\" none of which match the reference. It also contains no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Steps like \"pinch off the flowering stalks\" or \"cut back nearly everything to about an inch above the soil\" are easy to carry out. However, they do nothing about the actual problem. The output is also an unstructured dump of web page elements with conflicting comments, so a user cannot extract a clear plan from it."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "sometimes this happens when a plant outgrows its pot and becomes potbound",
+      "looks like your plant telling you to water it",
+      "I think you should propagate some just in case"
+    ]
+  },
+  "input_tokens": 4910,
+  "output_tokens": 485,
+  "graded_at": "2026-10-30T00:10:48.586003+00:00",
+  "status": "graded_pending_review"
+}

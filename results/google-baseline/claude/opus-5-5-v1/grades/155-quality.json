@@ -1,0 +1,34 @@
+{
+  "job_id": "155-quality",
+  "query_index": 155,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "9c626e2928e44fd969a50222b4633fad2b1328a862f0b006c3bb7515297d84a1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "Most advice is low-risk: 'move your succulents to a place with more sun exposure, get a grow light or two,' with the caveat that 'too much sunlight... can cause their fleshy leaves to burn.' It also says cuttings 'must heal for at least three to six days' to avoid rot. The opening claim that 'Some succulents naturally grow leggy over time' could lead a beginner to think the stretching is normal and delay moving the plant to better light. Large blocks of embedded ad content (Xfinity) add clutter but no plant harm."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output covers the right fixes from the reference: insufficient light ('The light they're growing in is too low'), cutting back stretched stems, and propagating by 'stem cuttings or by leaf cuttings.' However, it is a scraped generic blog post that never names etiolation or looks at the user's photo. It lists low light only as reason #3, after 'naturally grow leggy,' so it never commits to a diagnosis. It also omits the reference's tip to move the plant to an east window, and it gives no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Some steps are concrete and doable: clean sharp pruners, cut 'straight across the stem above a leaf node,' let the cut ends heal, plant in 'succulent and cactus mix,' and wait 5–7 days before watering. But the steps are buried among ads and personal anecdotes about an outdoor Tucson planter, such as 'I removed the top 10″' of soil and 'Felco hand pruners.' Little of this is adapted to a beginner with a single indoor pot, so it takes effort to pull out actionable steps."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "get a grow light or two",
+      "Use a mix formulated for succulents & cacti",
+      "Mix in compost",
+      "Adjust according to your conditions",
+      "Bright natural indirect sunlight (moderate to high light exposure) is the sweet spot"
+    ]
+  },
+  "input_tokens": 36578,
+  "output_tokens": 1180,
+  "graded_at": "2026-10-30T00:12:32.669062+00:00",
+  "status": "graded_pending_review"
+}

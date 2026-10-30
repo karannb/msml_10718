@@ -1,0 +1,70 @@
+{
+  "job_id": "170-resolved",
+  "query_index": 170,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "6acd916963759a01399b0778666e43cbaf0cd65217e7661284fd6c67bf3c2d0a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Set up a weekly watering routine, letting the soil dry slightly between waterings",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Poke into the soil to check moisture an inch or two down before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Drizzle water evenly over the whole soil surface",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If the soil is caked or water runs off, poke holes in the top couple of inches with a chopstick or pencil",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feed with diluted seaweed extract about every 3 months",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively feed with an aloe vera soil drench",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Alternatively feed with homemade actively aerated compost tea",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": true
+      }
+    ],
+    "reason": "This generic care article blames overwatering and never diagnoses the hunger; feeding is only a buried general-care section, and nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 3813,
+  "output_tokens": 907,
+  "graded_at": "2026-10-29T22:37:45.792210+00:00",
+  "status": "graded_pending_review"
+}

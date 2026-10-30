@@ -1,0 +1,33 @@
+{
+  "job_id": "122-quality",
+  "query_index": 122,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f9a782dde552c4f3abcfa9140d6fef2bf52a6a2116397254373bd0bf6131c0fc",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Reddit thread about a string of pearls, not advice for this syngonium. It recommends undiluted alcohol (\"I don't dilute it at all. Just buy 70% isopropyl alcohol\") and soap mixes. It also notes that \"delicate tropicals\" can react badly, which bears on a syngonium. It never warns the poster against continuing to layer peroxide, neem, insecticide and fungicide. The risk is moderate rather than serious because the reference also endorses alcohol and the thread includes a test-leaf caveat."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label, no time-to-severe estimate and no diagnosis of the poster's pest. The content is about \"my string of pearls that was infested with a TON of aphids and spider mites\" and mentions mealybugs and scale, which belong to a different plant and thread. It never identifies whiteflies or a similar foliage pest on the syngonium. It also never covers the reference's wipe-down, cut-off-bad-leaves and mist approach for this case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual tips are things a home owner could do, such as \"do it every 3-5 days for about 3 weeks\", a test leaf and a 70% isopropyl spray. However, they are buried in disorganized forum markup with links, usernames and contradictory dilution advice (\"I don't dilute it at all\" vs \"half and half or even 1/3 alcohol to water\"). There is no clear, ordered plan for this user to follow."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "always do a test leaf 24 hrs before a full spray",
+      "Anytime I bring a new plant home, I spray it with rubbing alcohol and inspect it",
+      "Spray with clean water after",
+      "Typically it takes more than one application"
+    ]
+  },
+  "input_tokens": 6629,
+  "output_tokens": 931,
+  "graded_at": "2026-10-29T22:37:51.335776+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "189-quality",
+  "query_index": 189,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a99c26d82537f0873cb6fdf86d8777a609be1c095109ab73fe86783e569839ea",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The advice \"I wait until about the first couple of inches of soil are dry before watering again\" is safe for Tradescantia zebrina. It reduces overwatering risk and carries no chemical or toxicity concerns."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "\"Maybe it's too damp?\" partly matches the reference, which confirms overwatering. However, the output misses the main issue of insufficient light causing leggy, pale growth and color loss. It also omits the reference's key remedy of laying the vines on the soil to root at the nodes. The advice is a generic watering rule and cites no case-specific evidence."
+    },
+    "feasibility": {
+      "score": 5,
+      "reason": "\"Wait until about the first couple of inches of soil are dry\" is a clear, simple step that any owner can do with a finger test and no tools."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Maybe it's too damp?",
+      "They like to dry out a bit between waterings",
+      "wait until about the first couple of inches of soil are dry before watering again"
+    ]
+  },
+  "input_tokens": 1866,
+  "output_tokens": 367,
+  "graded_at": "2026-10-30T00:15:13.409652+00:00",
+  "status": "graded_pending_review"
+}

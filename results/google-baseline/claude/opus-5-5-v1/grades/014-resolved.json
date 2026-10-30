@@ -1,0 +1,112 @@
+{
+  "job_id": "014-resolved",
+  "query_index": 14,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "63ddd80bfc5b0a969d4369876e610bfb24552aa39b54fc9d726e4c61174654c1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Cut off all damaged or rotting leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot the plant and check the roots for mold or rot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove all old growing medium",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off soft, rotting roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse the roots thoroughly with water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix 1 tsp lemon juice into 500 ml water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0.5,
+        "unclear": false
+      },
+      {
+        "action": "Soak the roots and stem in the lemon solution for 20 minutes",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prepare a 50/50 mix of coconut husk chips and sand or organic soil, checking it by squeezing",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a new pot, spreading the roots and tapping the pot to settle the medium",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Place in a cool, airy spot for one day without watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Dilute 100 ml coconut water in 300 ml water and pour onto the roots and medium",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to a spot with gentle sunlight",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix 2 tsp rice in 500 ml water and spray onto shoots and medium twice a month",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer treats root rot rather than sunburn and thirst, and its advice to strip all the leaves, bare-root the plant and withhold water would harm a dehydrated, sun-stressed peace lily and delay the simple fix of watering it and moving it into indirect light."
+  },
+  "input_tokens": 4827,
+  "output_tokens": 1308,
+  "graded_at": "2026-10-30T00:12:14.952304+00:00",
+  "status": "graded_pending_review"
+}

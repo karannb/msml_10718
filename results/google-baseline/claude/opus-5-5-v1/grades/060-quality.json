@@ -1,0 +1,32 @@
+{
+  "job_id": "060-quality",
+  "query_index": 60,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d2e14f69099a34bf9a6f83a769802a9cb8741792eba7ab9c2f7bc119d3b6029b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output says \"Don't touch it for a while... It'll eventually stand back up\" and \"make sure you don't overwater it.\" For a plant the REFERENCE confirms was underwatered in a tiny pot in a hot room, waiting and avoiding water delays the one fix that worked (bottom watering), so the wilting could worsen. The thrips and overwatering speculation could also push the user toward unnecessary root disturbance or pest treatment. It is not chemically dangerous, but it steers away from the correct action."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped Reddit thread about a different plant. It covers repot shock (\"the roots experience some trauma/die back when you re-pot\"), thrips (\"crispy brown yet unfurled leaves make me think it's thrips\") and terracotta pots. None of it addresses this case's evidence: the 2.5-3\" pot, the hot room, the user's own suspicion of underwatering, or the healthy root poking out the bottom. It never identifies underwatering, never suggests bottom watering, and gives no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The content is unstructured page markup, with usernames, URLs and replies from other posters mixed in, so there is no coherent plan to follow. The pieces contradict each other: \"don't touch it\" versus \"check the roots\" versus \"water more often because terracotta absorbs water.\" A user could not extract clear, actionable steps for their own plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "make sure you don't overwater it",
+      "You could check the roots to make sure",
+      "Maybe check for those"
+    ]
+  },
+  "input_tokens": 4011,
+  "output_tokens": 783,
+  "graded_at": "2026-10-30T00:12:21.915129+00:00",
+  "status": "graded_pending_review"
+}

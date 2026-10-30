@@ -1,0 +1,49 @@
+{
+  "job_id": "003-resolved",
+  "query_index": 3,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "4ea3516c0d0df65d9f1676ae28f133a682463bbd5a308812f4820ef93d5bfb01",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the plant, since it likely needs water after being split",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Give the plant lots of humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Bottom water as needed using distilled or rain water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Bottom soak for 10–30 minutes, empty the soaking container, then let the pot drain 20–30 minutes before returning it to its saucer",
+        "minutes": 50,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The comments identify shock after splitting, which matches the repotting stress, but they mix it with a water-stress diagnosis and never mention the cold window. The advice to let it recover covers only part of the fix, and the watering suggestions are unlikely to cause real harm."
+  },
+  "input_tokens": 2665,
+  "output_tokens": 813,
+  "graded_at": "2026-10-29T22:36:21.152608+00:00",
+  "status": "graded_pending_review"
+}

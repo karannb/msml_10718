@@ -1,0 +1,147 @@
+{
+  "job_id": "008-resolved",
+  "query_index": 8,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "93dd789dc3050ad08ca224d4516d5adb719158af0af032f7c5cb45b41b6e4664",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil moisture before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Optionally use a moisture meter to gauge soil dryness",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Water slowly and thoroughly until water drains from the pot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Assess lighting conditions",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant closer to a bright window",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively supplement with a grow light",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Wipe leaves with a damp cloth or rinse with lukewarm water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect plant for pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If scale, remove by hand and treat with insecticidal soap or horticultural oil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If spider mites, increase humidity and isolate the plant",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "If mealybugs, spot-treat with alcohol-dipped cotton swab or insecticidal soap for larger infestations",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If aphids, spray off with water or insecticidal soap",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check for rootbound roots or poor drainage",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If rootbound or soil degraded, repot into a pot 1-2 inches wider with fresh potting mix and water thoroughly",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "When repotting, remove dead or mushy roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize after new growth appears",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Watch for signs of recovery between changes",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If unsure, bring photos or the plant to a SummerWinds store",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic care guide lists underwatering only as one of many causes and buries thorough watering among many other steps. It is not harmful, since it starts with checking soil moisture."
+  },
+  "input_tokens": 5347,
+  "output_tokens": 1592,
+  "graded_at": "2026-10-29T22:38:16.004218+00:00",
+  "status": "graded_pending_review"
+}

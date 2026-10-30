@@ -1,0 +1,35 @@
+{
+  "job_id": "176-quality",
+  "query_index": 176,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "fc597523fd0eefda9d35bb8a5d90e06f7ea12c3e49090dce40f4956f8c9b065b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output says to 'add several pebbles in the center to help draw water down towards roots.' This is a debunked practice that can create a perched water table and worsen soggy soil, the very risk in this oversized pot. 'Just water it as you would if it were a normal-sized plant' could also encourage overwatering a small cutting in a big pot. Partial caveats ('keep the size of the pot in mind... when in doubt, do less') limit the risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is a generic blog-style guide on moving water-rooted cuttings to soil. It never mentions the drooping ivy, transplant shock, or SuperThrive. It also gives no health label or time-to-severe estimate. The only tangential overlap with the reference is 'Pot should be 2″ bigger than the diameter of the cutting's roots,' which implies the pot is too big but never says so. It omits the reference's key advice: watch for water issues and root rot from excess soil, and let the plants adjust with minimal intervention."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Steps like 'drill one in & place on a catch tray' and the layering instructions are concrete and doable. However, '20% natural and 80% potting mix' is unclear. The instructions are also aimed at someone who hasn't potted yet, while this user has already potted. Nothing tells the user what to do now about the drooping ivy."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Pot should have a draining hole",
+      "Use The Right Soil",
+      "Water It Normally",
+      "don't drown it",
+      "when in doubt, do less and add more later",
+      "Depending on the type of cutting you've propagated, its soil has to be reflective of its needs"
+    ]
+  },
+  "input_tokens": 2801,
+  "output_tokens": 893,
+  "graded_at": "2026-10-30T00:11:49.671906+00:00",
+  "status": "graded_pending_review"
+}

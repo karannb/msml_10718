@@ -1,0 +1,70 @@
+{
+  "job_id": "174-resolved",
+  "query_index": 174,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "a7ac4635668e1f8b8c24804adb4be8bef32033c2a208b4e01180e310098ae64b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Spray the whole plant thoroughly with a thrips insecticide",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Seal the sprayed plant in a transparent plastic bag for 5 days",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "After 5 days, open the bag, respray the plant and reseal it for another 5 days",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "For large plants, tape pieces of plastic together to enclose them",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check that the soil is moderately moist, not freshly watered, before sealing",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the sealed plant daily to make sure it is doing well",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Test the method on one or two plants before treating the whole collection",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer correctly identifies thrips, but it recommends sealing plants in bags with insecticide rather than the beneficial predatory mites that fixed the problem; its safeguards (daily checks, trial on a few plants) keep it from being clearly harmful."
+  },
+  "input_tokens": 2862,
+  "output_tokens": 779,
+  "graded_at": "2026-10-30T00:10:56.148558+00:00",
+  "status": "graded_pending_review"
+}

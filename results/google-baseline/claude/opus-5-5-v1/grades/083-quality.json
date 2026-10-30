@@ -1,0 +1,41 @@
+{
+  "job_id": "083-quality",
+  "query_index": 83,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d05bc683c49ca1fac76dbb499b44d3931200b578248f6f6b51f923ac7efac8c8",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped generic article, not a case assessment. It covers both overwatering and underwatering (\"your plant needs water. Water it gradually\") and recommends feeding \"with a balanced liquid fertilizer\" and misting, so an owner could water or fertilize a plant whose roots are already sitting in dense, wet soil. It does warn that Monsteras \"should never be left in soggy soil that can cause root rot,\" which limits the risk. It also suggests applying insecticide without evidence of pests and omits any warning that Monstera is toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "No health label, time-to-severe estimate, or case-specific diagnosis is given. The reference's problems (dense, wet, poorly draining soil and insufficient light) appear only incidentally within a list of 12 generic causes, e.g. \"leave off watering until the upper inches of the soil can dry\" and \"relocate your Monstera to a brighter place.\" The key fix from the reference, repotting into a chunky aroid mix (soil, perlite, orchid bark) in a draining pot, is never mentioned. Much of the content, such as the explanation of leaf holes, the plant quiz, and companion plants, is irrelevant to this case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps like \"Check the underside of your plant's pot\" and \"Move your Monstera into a spot with bright but indirect sunlight\" are doable. However, the owner gets no prioritized plan and must work out for themselves which of the many listed problems applies. It also omits the one concrete action that actually helped: repotting into a free-draining mix and pot."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Begin by checking the downsides of your plant's leaves and stems for pests",
+      "apply insecticide or an eco-friendly natural pesticide if necessary",
+      "Check whether your Swiss cheese plant's soil is too moist",
+      "Check whether there are any draughts and move to a warmer or sunnier spot",
+      "mist your Monstera plant regularly",
+      "Move your Monstera into a spot with bright but indirect sunlight",
+      "Find a pot that is slightly bigger",
+      "Use a balanced liquid fertilizer and dilute it to half strength",
+      "first check the soil. Overwatering and underwatering are very common causes",
+      "Then find out if there are any pests on your plant",
+      "feed your plant with a balanced liquid fertilizer during the growing season",
+      "maintaining consistently warm temperature and high humidity"
+    ]
+  },
+  "input_tokens": 5517,
+  "output_tokens": 1170,
+  "graded_at": "2026-10-30T00:13:00.682693+00:00",
+  "status": "graded_pending_review"
+}

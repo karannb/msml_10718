@@ -1,0 +1,33 @@
+{
+  "job_id": "071-quality",
+  "query_index": 71,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "2078335747500303f170874a48fd99fc21fed38c28b24d1cf857ea1300f87d90",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output says the plant 'will do best in bright light to full sun' and 'gets bright light outside 4-6 hours a day,' but never explains how to ease a greenhouse plant into that light. Low risk overall, since the REFERENCE shows the plant was fine placed straight outside. Still, a newly moved greenhouse plant can scorch, so the missing caveat is a small gap. The watering advice ('water when the soil is completely dry' then 'fully saturate') and 'cactus/succulent potting mix along with added gravel' are appropriate for burro's tail."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The user asked specifically how to acclimate a greenhouse-grown burro's tail to sun. The output never addresses acclimation, gradual exposure or sunburn. Instead it gives a general care sheet covering light, watering and soil. Lines like 'it’s still drooping leaves with every little touch you give it' and the winter window-sill routine don't relate to the case. It loosely overlaps with the REFERENCE only in implying the plant tolerates outdoor sun."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The steps given are easy for a home owner to follow: 'water when the soil is completely dry,' 'cactus/succulent potting mix along with added gravel,' and 'south facing window sill.' However, they don't answer the actual question, so the user still has no concrete acclimation plan. 'You may have to add an additional grow light' is also vague and garbled ('of your have it inside')."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "it’ll do best in bright light to full sun",
+      "You may have to add an additional grow light",
+      "water when the soil is completely dry",
+      "I use a cactus/succulent potting mix along with added gravel"
+    ]
+  },
+  "input_tokens": 2040,
+  "output_tokens": 922,
+  "graded_at": "2026-10-30T00:16:07.014443+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,34 @@
+{
+  "job_id": "022-quality",
+  "query_index": 22,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f068fc428dd719a246f29b54f64c6d619d5c47dbcfc198d49ba0d82a0ee1df59",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a pasted extension article on outdoor landscape cold protection, not advice for this indoor Monstera obliqua. Some of it conflicts with the reference if applied here. It says to \"Check the water needs of plants after a freeze... apply water to thaw the soil,\" while the reference says not to water a cold-damaged plant that the owner has already watered. It also says to \"Wait to prune plants until new growth appears in late winter or early spring,\" which could delay the cut the reference recommends now. The light-bulb heat source tip carries a fire-hazard caveat, so the risk is moderate rather than serious."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The article is about cold injury, so it touches the right general topic. It notes that damaged tissue is \"often characterized by plant parts turning brown and mushy.\" However, it gives no health label and no time-to-severe estimate. It does not mention the Monstera, the coat transport, the indoor windowsill setting, or the photo. Most content covers Mississippi hardiness zones, site selection, windbreaks, mulching and fruit buds, none of which applies here. It misses every specific reference action: cut about 1 cm above the soil, withhold water, and cover with a glass jar for humidity."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The steps are designed for outdoor landscape plants and do not fit an indoor baby houseplant. Examples include \"Wrap the bases of the containers in plastic, burlap, or blankets,\" \"Assess your property to determine the location of the coldest and the warmest spots,\" and \"check the cambium layer (layer directly under the bark).\" There is no clear, concrete action plan the owner could follow this week for this plant."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Proper nutrition of plants is critical",
+      "Healthy plants are more resistant to cold injury than plants that are weakened by disease, by insect damage, or by improper care",
+      "Plants can be protected from cold temperatures by proper selection, placement, and care",
+      "Remember to mulch the soil",
+      "The best way to prevent cold injury to plants is to choose plants that tolerate the cold temperatures in your area"
+    ]
+  },
+  "input_tokens": 5423,
+  "output_tokens": 1060,
+  "graded_at": "2026-10-30T00:15:21.249784+00:00",
+  "status": "graded_pending_review"
+}

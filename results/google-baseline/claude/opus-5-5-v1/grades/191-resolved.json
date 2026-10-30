@@ -1,0 +1,63 @@
+{
+  "job_id": "191-resolved",
+  "query_index": 191,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "be41c0cf7b0fa0f4516ebe039c6752763d01665dc1bde509cd6b6e04ba87c380",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect undersides of leaves for webbing and tiny mites",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Quarantine the palm away from other plants if mites are found",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash hands and change clothes before handling other plants",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash each frond front and back with water, dish soap and a few drops of ultrafine oil",
+        "minutes": 40,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Rinse the leaves well afterwards",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Regularly check leaves and stems for signs of pests",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer correctly names spider mites, but its single soap-and-oil wash gives no repeated treatment rounds like the sprays that fixed the plant, so it is incomplete without being harmful."
+  },
+  "input_tokens": 1969,
+  "output_tokens": 434,
+  "graded_at": "2026-10-30T00:15:36.190256+00:00",
+  "status": "graded_pending_review"
+}

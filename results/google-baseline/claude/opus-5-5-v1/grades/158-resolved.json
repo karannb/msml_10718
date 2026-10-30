@@ -1,0 +1,133 @@
+{
+  "job_id": "158-resolved",
+  "query_index": 158,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "33fbf3f2c4d61bbf04924537cdf5a42c2408928bf983fdfd72a629e2b30a9c7f",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Isolate the poorly plant from other houseplants",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check light levels and move closer to a south/west window if too dim",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wipe dust off leaves",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for too much direct sun and move if scorched",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture with finger and water if dry",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Lift plant from pot to check for pooled water and tip away excess",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use or mix a suitable peat-free compost matching plant needs",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check plant's temperature requirements and room temperature",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity by grouping plants or using a damp pebble tray",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Repot into fresh peat-free compost",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Apply organic liquid feed during growing season",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Water with room-temperature rainwater where possible",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Inspect for sap-sucking insects with a hand lens and wipe off",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for disease and improve ventilation and spacing",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Move away from radiators, draughts and curtain-trapped windowsills",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off mouldy, shrivelled or fully brown/yellow leaves",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The generic RHS checklist never diagnoses the poorly supported monstera or mentions staking, though repotting and more light appear buried among many generic checks, and nothing in it is harmful."
+  },
+  "input_tokens": 5427,
+  "output_tokens": 955,
+  "graded_at": "2026-10-30T00:13:23.204665+00:00",
+  "status": "graded_pending_review"
+}

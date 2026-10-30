@@ -1,0 +1,34 @@
+{
+  "job_id": "099-quality",
+  "query_index": 99,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "61d8467107cb04ebc40d5af619bc0e1040197c273ad7b7ac162c377b9044a971",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a raw scrape of Facebook comments with contradictory advice. \"Your Goeppertia looks overwatered\" could lead the owner to withhold water from an underwatered plant, and \"They do not require high humidity\" directly contradicts the confirmed low-humidity cause and could delay the fix. None of the suggestions is dangerous to people or pets, but the conflicting claims risk worsening the plant's condition."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "One comment mentions \"Humidity... likely under watering caused the leaves to curl,\" which partly matches the reference. Other comments blame light (\"Potentially not enough light\"), overwatering, or pests, and one explicitly denies the need for humidity. There is no health label or time-to-severe estimate. Nothing ties the advice to case evidence such as the cold house, and the reference's sealed-bag humidity tent is never mentioned."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The content is unparsed page markup with links and reaction buttons, not actionable steps. Fragments like \"use only rain water\" or \"group it near other plants\" are easy to do, but there is no clear plan. The contradictions (overwatered vs. underwatered, humidity needed vs. not needed) leave the owner unsure what to do."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Potentially not enough light, it needs bright indirect light",
+      "use only rain water",
+      "if you group it near other plants its like a little echo system",
+      "needs distilled or rainwater only",
+      "I would also check for pests"
+    ]
+  },
+  "input_tokens": 2938,
+  "output_tokens": 794,
+  "graded_at": "2026-10-29T22:38:01.223346+00:00",
+  "status": "graded_pending_review"
+}

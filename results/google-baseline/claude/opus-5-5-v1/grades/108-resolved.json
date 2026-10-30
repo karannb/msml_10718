@@ -1,0 +1,112 @@
+{
+  "job_id": "108-resolved",
+  "query_index": 108,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "99cc64f7d7292d88edeb3ba7fe7ff697a6c0ef02831035a21a11f053381e638b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check light at plant eye level (can you see sky) and buy grow lights if not",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively move the plant into sun a couple times a week",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Test your tap water pH",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Let tap water sit before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Switch to clear pots",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Research and mix soil amendments suited to the plant before repotting",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Research native habitat and mimic conditions (moss pole, humidity, warmth)",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Test soil moisture with chopstick or finger before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water thoroughly then let dry somewhat",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Lift pot to judge dryness by weight",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Take a picture to a local nursery / talk to a pro",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Number pots and write simple instructions for a plant sitter",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spend time observing your plants",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a dump of generic beginner tips that never addresses the pale unfurling leaf or says it is normal and will darken, so diagnosis and advice miss, though nothing in it is likely to hurt the plant."
+  },
+  "input_tokens": 7143,
+  "output_tokens": 1372,
+  "graded_at": "2026-10-30T00:12:41.746229+00:00",
+  "status": "graded_pending_review"
+}

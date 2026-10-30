@@ -1,0 +1,63 @@
+{
+  "job_id": "058-resolved",
+  "query_index": 58,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "0b5a06e56dd4e563d10e4a0fab2746acd375cdcedf20384a7b3ae1ef80a28d86",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Cut back on watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add strong grow lights",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Cut the plant back",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Put it in a small container with a little moss or perlite",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Moisten lightly and cover tightly",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant out of direct sunlight",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames constantly wet soil in a self-watering pot and low light rather than dense mix and fertilizer stress, and only hints at the fix with a small container and moss/perlite while omitting an airy bark mix and thorough watering, though nothing is clearly damaging."
+  },
+  "input_tokens": 2741,
+  "output_tokens": 839,
+  "graded_at": "2026-10-30T00:11:36.108355+00:00",
+  "status": "graded_pending_review"
+}

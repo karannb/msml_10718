@@ -1,0 +1,49 @@
+{
+  "job_id": "055-resolved",
+  "query_index": 55,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "0a7329ebd2a2c57876ea0ae396857ffeccd591690f0e0167b26f9b8bbdad6097",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Pinch or trim off the flowering stalks and top couple of leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Propagate some cuttings as a backup",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively cut the plant back to about an inch above the soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check whether the plant is potbound and repot if so",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer is a scraped thread about polka dot plant flowering that never mentions mealybugs or treating them with alcohol, and its reassurance that everything is normal could delay dealing with the pest."
+  },
+  "input_tokens": 4617,
+  "output_tokens": 637,
+  "graded_at": "2026-10-30T00:10:43.091036+00:00",
+  "status": "graded_pending_review"
+}

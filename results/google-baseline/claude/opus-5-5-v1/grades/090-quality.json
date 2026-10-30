@@ -1,0 +1,34 @@
+{
+  "job_id": "090-quality",
+  "query_index": 90,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "92fcbf79294c9fcd30acd4a6e83a39ce490a3d4b8da26027ef52997d82c4b597",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a raw scraped Reddit thread, not a structured assessment. Some advice conflicts with the reference: \"as long as you change the water daily it should grow roots\" and \"also fresh water regularly\" push the poster toward more frequent water changes, the habit the reference says to stop. Other suggestions, such as \"add a couple drops of miracle grow,\" \"Add some liquidirt,\" and \"you should just stick this in soil,\" are low risk but unvetted and contradictory. There is no warning that Monstera sap is irritating and the plant is toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "No health label or time-to-severe estimate is given; the content is UI markup, ads and user comments. Lines like \"Big cuttings take a loooong time sometimes\" and \"You gotta quit messing with it, and give it more time\" partly match the reference's 'be patient' advice. However, the output never says to remove the sphagnum moss, and it actively encourages frequent water changes. The rest is a scattershot of unrelated tips (bubbler, pothos companion, air layering, removing a leaf)."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual tips like \"Throw in a pothos cutting\" or \"Removing the lowest leaf\" are doable at home. But they are buried in page-navigation markup and advertisements, and they contradict each other: stay in water for 3–5 months versus move to soil now, and change water daily versus stop messing with it. A typical owner would not get a clear, ordered plan they could follow this week."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Patience is key",
+      "also fresh water regularly",
+      "It's sitting in bright indirect light",
+      "Honestly, you should just stick this in soil",
+      "Some take longer than others"
+    ]
+  },
+  "input_tokens": 24130,
+  "output_tokens": 950,
+  "graded_at": "2026-10-30T00:15:15.963867+00:00",
+  "status": "graded_pending_review"
+}

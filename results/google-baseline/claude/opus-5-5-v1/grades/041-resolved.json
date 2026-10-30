@@ -1,0 +1,56 @@
+{
+  "job_id": "041-resolved",
+  "query_index": 41,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "e0a298cfde9134cdef8386a87353fac8bccc4968f3b5ddfede649b14aadc30b5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Improve air movement around the plant so the soil dries faster",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Tip the pot slightly on its side on the drip tray to help drainage",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Gently aerate the soil with a skinny stake",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot, or replace about half the existing soil with chunky amendments",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, switch the plant to semi-hydro",
+        "minutes": 45,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer treats the problem as soggy soil and never mentions light, the confirmed cause; its chunky-mix repot matches only part of what the poster did, and none of the advice is likely to harm the plant."
+  },
+  "input_tokens": 2902,
+  "output_tokens": 765,
+  "graded_at": "2026-10-30T00:19:06.050602+00:00",
+  "status": "graded_pending_review"
+}

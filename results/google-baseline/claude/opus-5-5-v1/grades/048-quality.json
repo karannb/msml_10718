@@ -1,0 +1,37 @@
+{
+  "job_id": "048-quality",
+  "query_index": 48,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "3e5013ad2d83a5adb0682542df52966f6aa60c990d4289b9b53207a8190f4bf2",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped blog article, not a direct answer, and it downplays the confirmed cause: 'Q: Are these spots caused by overwatering or root rot? A: Sometimes — but not as often as people think' and 'I only check the roots after that.' This could delay correcting overwatering in a pot without drainage, though 'Letting the soil dry properly instead of keeping it constantly moist' partly offsets this. It also floats fungicide, alcohol wipes and an unspecified 'thrips-specific treatment' without safety caveats, which could lead to unnecessary chemical use."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label, no time-to-severe estimate, and no reference to the user's case: a new Frydek watered every 4 days with yellowing. The article covers generic spot categories (fungal halos, thrips, environmental scars) and actively questions overwatering as an explanation, which contradicts the reference diagnosis. The only overlap is incidental lines like 'Did I water more frequently?' and drying the soil, which are not tied to the user's evidence. Drainage, pot size and a moisture meter are never mentioned."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The steps are buried in a long narrative interleaved with ads and links, with no concrete plan for this user. Advice like 'consistent light, predictable watering, decent airflow' and 'observe at night' is vague. Nothing tells the user to stop watering until the soil is dry, to add drainage, or how to check moisture. A home owner would struggle to extract an actionable fix."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "consistent light",
+      "predictable watering",
+      "decent airflow",
+      "Improving airflow around the plant",
+      "stabilizing overall care usually does",
+      "I adjust airflow and watering first",
+      "What changed recently?",
+      "I check if the spot is spreading"
+    ]
+  },
+  "input_tokens": 11510,
+  "output_tokens": 920,
+  "graded_at": "2026-10-29T22:37:11.238539+00:00",
+  "status": "graded_pending_review"
+}

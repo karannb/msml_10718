@@ -1,0 +1,70 @@
+{
+  "job_id": "032-resolved",
+  "query_index": 32,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "40ce505fb1de18920a2b8e2811a1e8e15f7d923ea087a0f232909a2c0fa257f6",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Unpot the plant and remove all soil from the roots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse the roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim damaged roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in fresh soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check how often and how much you water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Let the soil dry well before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim the blackened ends",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames root rot and overwatering and never mentions the real cause, too little light. Its unneeded root-stripping repot, trimming and watering changes would stress the plant and delay the actual fix of moving it into more light."
+  },
+  "input_tokens": 2479,
+  "output_tokens": 434,
+  "graded_at": "2026-10-30T00:19:45.310153+00:00",
+  "status": "graded_pending_review"
+}

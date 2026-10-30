@@ -1,0 +1,35 @@
+{
+  "job_id": "159-resolved",
+  "query_index": 159,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "d19f5e740de958519f05a9313559d6863436b33e5cbad56f900b0ede99353126",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Get or DIY a moss/coir pole (wrap coco coir around a wooden stake, secure with twine)",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Tie the plant to the pole with twine",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer addresses only the poor support and staking, not the repotting or light needs; its advice covers just part of the fix and is not harmful."
+  },
+  "input_tokens": 1776,
+  "output_tokens": 210,
+  "graded_at": "2026-10-30T00:13:37.896241+00:00",
+  "status": "graded_pending_review"
+}

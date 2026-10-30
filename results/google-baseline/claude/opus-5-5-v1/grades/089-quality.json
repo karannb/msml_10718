@@ -1,0 +1,33 @@
+{
+  "job_id": "089-quality",
+  "query_index": 89,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7482db13c0800a77ff8e6860d98d53957da3f1137f72e8c61f532c3b9d35fb2e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The lead comment says \"The chlorotic leaves make me think too much water\" and recommends \"use a constant liquid feed.\" This could lead the owner to hold back water from a plant that is actually underwatered, and fertilizing a drought- and sun-stressed plant risks root burn. A later comment says \"Water when dry, they can be thirsty\" and recommends shade, which partly offsets the risk, but the guidance contradicts itself."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The main diagnosis is overwatering, which contradicts the confirmed problem (underwatering and sun stress), even though the poster explicitly said he \"didn't water him enough.\" Only the last comment, \"They need shade or some morning sun with shade all afternoon,\" roughly matches the reference. The output never advises bringing the plant back inside, which is the key step in the reference. The output is also raw scraped Facebook markup, not a structured health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual actions are things a home owner can do: \"Water the base of the plant,\" \"only water 3X a week,\" and moving the plant to shade. However, the steps contradict each other (water less for overwatering vs. water when dry because it is thirsty) and are buried in URLs and UI markup, so a typical owner would not know which path to follow."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Check the soil and only water 3X a week as needed",
+      "use a constant liquid feed",
+      "do not water the leaves. Water the base of the plant",
+      "Water when dry"
+    ]
+  },
+  "input_tokens": 2717,
+  "output_tokens": 855,
+  "graded_at": "2026-10-30T00:14:51.474565+00:00",
+  "status": "graded_pending_review"
+}

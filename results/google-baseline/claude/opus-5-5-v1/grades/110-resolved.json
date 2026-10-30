@@ -1,0 +1,70 @@
+{
+  "job_id": "110-resolved",
+  "query_index": 110,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "d27bd61ea0e7a14f092b572ca3388b6cf3427093b54e939e93eabc340ba44bb5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil moisture with a finger or moisture meter before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Water thoroughly when the middle of the soil is still damp, not letting it dry out",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use rainwater for watering",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively treat tap water with aquarium water conditioner",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Place plant in bright indirect light away from harsh midday sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use a heat mat if the plant is in a chilly room in winter",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Repot when roots fill about 70% of the pot, only untangling major knots, using a coconut coir based indoor mix",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      }
+    ],
+    "reason": "The general care transcript notes that calatheas hate drying out and recommends thorough watering and rainwater, which partly matches the underwatering cause and the fix, but it never diagnoses this plant, blames water quality instead and dismisses humidity and misting. Its watering advice would still address the problem, so it is not graded harmful."
+  },
+  "input_tokens": 5029,
+  "output_tokens": 1066,
+  "graded_at": "2026-10-30T00:13:18.296197+00:00",
+  "status": "graded_pending_review"
+}

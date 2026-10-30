@@ -1,0 +1,49 @@
+{
+  "job_id": "109-resolved",
+  "query_index": 109,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "a93b84e1db587af0af73c60ff4a92455550ae54b4bd1c0f19106ae05d94f501f",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": true,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Install strong grow lights within one foot directly over the plant",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Run grow lights 12-16 hours per day",
+        "minutes": 1,
+        "per_day": 2,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively move plant to brighter natural light per placement guide",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Water the plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer diagnoses low light and etiolation and calls for much more light and water, but the plant was healthy (an immature leaf that darkened naturally), so it is a false alarm, and the unneeded light changes and unguarded watering could stress the plant."
+  },
+  "input_tokens": 3358,
+  "output_tokens": 326,
+  "graded_at": "2026-10-30T00:12:57.990292+00:00",
+  "status": "graded_pending_review"
+}

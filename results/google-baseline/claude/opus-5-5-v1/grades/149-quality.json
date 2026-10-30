@@ -1,0 +1,35 @@
+{
+  "job_id": "149-quality",
+  "query_index": 149,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "3b094bffb3291e1dee07b1c99917f854ea705d4af46befb11ef67f9a9b1979cf",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output contains the reference-consistent advice 'Cut it back and repot it' and 'cut below the little brown nodules... stick them in a glass of water,' which is safe. But it also mixes in risky, contradictory watering advice: 'raising it with stick and constant watering' and 'SOAK the entire pot' conflict with 'Don't water it everyday.' Constant watering of a stressed, possibly root-bound plant could promote root rot. Pothos is toxic to pets and children, and no warning is given about handling or placing cuttings."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The top line, 'Cut it back and repot it. Take the cuttings and create an Army of clone pothos,' and the comment 'If you cut it back, it'll recover faster because it's not trying to support those long vines' match the reference's hard-trim, repot and propagate diagnosis. However, much of the thread blames recent transplant shock and root washing ('shock from washing the roots and repotting'), which contradicts the case, where the poster says she never repotted. Other comments call it simply 'thirsty' or say 'It looks pretty fine to me.' There is no health label or time-to-severe estimate, and the output is an unprocessed scraped Reddit thread rather than a tailored diagnosis."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual actions are easy for a home grower, for example 'cut below the little brown nodules along the vine and stick them in a glass of water' and 'wrap the long vines around each other in the pot and cover with shallow dirt.' However, they are buried in raw page markup (links, buttons, avatars). The commenters also disagree on what to do: trim, add a pole, soak, constant watering, or don't water daily. A typical owner would not get a clear, ordered plan."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Keep it out of the sun for a while as well",
+      "Give her a good soak and keep an eye out",
+      "needs some time to adjust",
+      "touch the soil make sure it's dry then if it's dry water it",
+      "Put it back in a spot that it was previously happy and then leave it alone",
+      "A good drink and some time to adjust will likely fix the problem"
+    ]
+  },
+  "input_tokens": 9666,
+  "output_tokens": 1148,
+  "graded_at": "2026-10-29T22:38:37.906365+00:00",
+  "status": "graded_pending_review"
+}

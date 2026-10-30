@@ -1,0 +1,77 @@
+{
+  "job_id": "169-resolved",
+  "query_index": 169,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "65d61cf7fce9a3758f4e06a53ed35233b3748a4656948a0ec9bcaaea5e80e7e3",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Remove soft leaves if they start to change color",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place plant in bright indirect light with a little direct sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water when soil is dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize monthly starting in March",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Trim back if leggy",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Put cuttings in water to propagate (optional)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a larger pot with fresh soil",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively split into 2 plants",
+        "minutes": 40,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is scraped generic care comments that never identify underwatering or the soil not absorbing water, nor suggest soaking. Its routine advice (water when dry, repot) is not clearly harmful."
+  },
+  "input_tokens": 2448,
+  "output_tokens": 784,
+  "graded_at": "2026-10-29T22:37:25.428768+00:00",
+  "status": "graded_pending_review"
+}

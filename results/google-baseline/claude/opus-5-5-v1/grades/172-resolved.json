@@ -1,0 +1,84 @@
+{
+  "job_id": "172-resolved",
+  "query_index": 172,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "2a2d871632788e85e5c1717d1d2d37d62e67abe668d57bda2609a57fba8a5496",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Squeeze the base of the trunk monthly to check firmness",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If the trunk is soft, stop watering and take the plant out of its pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If rot is only at the base, cut off the healthy top of the cane with a sterilized saw",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Let the cut cane callus for 2 days, then repot it in fresh soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant against the brightest south- or west-facing window",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check moisture at the bottom of the pot with a wooden stick or moisture meter",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "When bone dry, water heavily until it drains from the holes",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in a mix of 50% potting soil and 50% coarse sand, pumice and perlite",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Trim yellow or brown lower leaves cleanly at the base with scissors",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames overwatering and low light and says underwatering is almost impossible, which misses the confirmed underwatering, and its advice to water less and let the soil dry fully would likely worsen this plant."
+  },
+  "input_tokens": 3106,
+  "output_tokens": 1136,
+  "graded_at": "2026-10-29T22:38:26.204690+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "020-quality",
+  "query_index": 20,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "fc84357490e03c235c33f830836924f71526f68da42b999e47189263b07e4eed",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a scraped commercial blog about a chilli plant \"not growing\". It does not address this plant's actual issue: flowers dropping on an otherwise healthy, outdoor-sited plant. Its advice is mostly benign, but it is irrelevant. Suggestions like \"Moving a stalled plant under an LED panel\", repotting, or \"Feed to EC 1,8 to 2,2 mS/cm\" could prompt unneeded interventions or purchases on a healthy plant that only needs time. Nothing is dangerous to people or pets."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The case describes abundant flowers falling without setting fruit on a plant in hot weather with morning sun. The reference says the plant was simply not mature enough yet and should be given time. The output diagnoses a stalled-growth problem with seven generic causes (\"light under 12 hours a day, nights below 15 °C, wet roots...\") geared to Northern European windowsills in winter, which does not match the case. It even admits \"If your plant is growing but dropping its flowers, that is a different problem,\" and the passing note that \"Above 30 °C fruit set drops\" is not tied to the case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some steps are concrete, such as the finger test (\"Pushing a finger 3 cm into the compost\") and \"Taping a thermometer to the sill.\" Many others require purchases (a 100 W LED panel, an EC meter at €69, a hydroponic smart garden, LetPot nutrients). Most of the content assumes an indoor or hydroponic setup that doesn't fit this plant. The plan is long and unfocused, so a user wouldn't know which steps apply."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Light is the first thing to check",
+      "Check that the pot has drainage holes and no standing water in the saucer",
+      "water only when it comes out dry",
+      "Repot one size up",
+      "Feeding is a fix only when the other four conditions are already right",
+      "Start with light and warmth, because they solve most cases",
+      "a smart garden gives your chilli 14 hours of LED and warm roots automatically"
+    ]
+  },
+  "input_tokens": 6630,
+  "output_tokens": 1079,
+  "graded_at": "2026-10-30T00:14:41.285772+00:00",
+  "status": "graded_pending_review"
+}

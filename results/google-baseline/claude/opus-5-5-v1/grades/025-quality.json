@@ -1,0 +1,36 @@
+{
+  "job_id": "025-quality",
+  "query_index": 25,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "fde977eb11a8d0e100cc23795bd70abcdea8bdd547694166263cb91d09815043",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output's main action, 'the first job is to rip the whole thing apart and start again,' adds transplant stress to a plant that is already wilting from dehydration. It says to water only after repotting, rather than rehydrating first. Its watering guidance ('give it a proper soak' and 'don't let it sit in soggy soil') is sound, and nothing endangers people or pets, so the risk is minor. It also contains an embedded sponsor discount for a grow light, which is irrelevant but not harmful."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a generic video transcript about why supermarket basil dies. It never identifies underwatering as this plant's problem, gives no health label, and offers no time-to-severe estimate. It focuses on overcrowding ('This isn't one plant. It's about 30') and pruning or propagation, while the reference says 'this guy needs water, first' and prescribes a 20-minute bottom soak. Some parts partly overlap with the reference: 'basil is a thirsty boy,' 'window sills at night, which can dip way lower than you'd expect,' and thinning seedlings (the poster did remove some). Even so, nothing ties these points to the poster's photos or situation."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual steps are doable at home: teasing seedlings apart, repotting into pots with drainage holes, and placing basil cuttings in a glass of water. However, the content is a long, unfocused transcript with no clear immediate action for a wilting plant. It also suggests buying a moisture meter, a grow light, and specific soil mixes. The simple fix that actually worked, a 20-minute soak, is buried as a messy alternative to help with dividing the plant ('dunk the whole thing in a bowl of water and let it soak for a couple of minutes')."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Basil wants at least 6 hours of proper sunlight a day",
+      "The key thing is to check the soil, not just water on a schedule",
+      "Do make sure any pot you use has drainage holes",
+      "Pot each seedling up into something small, but decent",
+      "I recommend getting yourself a grow light",
+      "Just give it a regular boost [of fertilizer]",
+      "Then pop it somewhere bright and warm"
+    ]
+  },
+  "input_tokens": 6195,
+  "output_tokens": 1161,
+  "graded_at": "2026-10-30T00:17:54.336997+00:00",
+  "status": "graded_pending_review"
+}

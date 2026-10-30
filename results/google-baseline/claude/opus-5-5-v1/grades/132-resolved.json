@@ -1,0 +1,84 @@
+{
+  "job_id": "132-resolved",
+  "query_index": 132,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "14c14980d8c9371cdd16c8ac6cdcd213784fc4fd971fcc2c1e8cdabf6691eb14",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect the root system by gently removing the plant from its pot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Get a new pot only 1-2 inches wider and about 1 inch deeper, preferably with drainage (grower's pot inside ceramic, or terracotta)",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Get fresh potting soil mix",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If the pot has no drainage, add a half-inch layer of grower's charcoal at the bottom",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Add a half-inch layer of fresh potting soil to the bottom of the new pot",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Snip off any dark, mushy roots with sterilized shears",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Gently massage the root ends to loosen them",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place the plant in the new pot and fill soil to the previous level, leaving half-inch clearance",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Gently water the plant and place it in suitable light",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The generic repotting article identifies root-bound signs, such as roots emerging from the pot, and advises repotting only one size larger, which matches the confirmed fix; nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 3184,
+  "output_tokens": 1151,
+  "graded_at": "2026-10-30T00:12:22.717492+00:00",
+  "status": "graded_pending_review"
+}

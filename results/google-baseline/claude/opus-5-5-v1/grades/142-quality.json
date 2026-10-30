@@ -1,0 +1,31 @@
+{
+  "job_id": "142-quality",
+  "query_index": 142,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "b2d3dd2fad19ef50ccac5a3526fbbf7024a212a5248a356056e57ea07031e2d4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is a scraped Facebook comment thread, and it includes \"Cut it back to the ground and see if any green shoots are left.\" That drastic pruning could kill or severely set back azaleas that, per the REFERENCE, recovered with daily watering alone. Another comment says \"they still bit the dust... I just don't think they can handle our heat,\" which could discourage the owner from the simple fix. No toxicity warning is given, though azaleas are toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "There is no health label, no time-to-severe estimate, and no clear diagnosis. The fragments \"They really don't like the heat\" and \"Water roots good\" loosely touch on the REFERENCE's heat and drought stress and its call for more shade and water. However, the output never identifies underwatering, never says to water daily instead of every other day, and never addresses the unnecessary feeding. Its main concrete action, cutting back to the ground, contradicts the REFERENCE."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The content is cluttered with HTML/accessibility markup, URLs and reaction buttons, which makes it hard to read as advice. \"Put it in full shade\" is not feasible for azaleas already planted in the ground. \"Water roots good\" gives no frequency or amount. The steps are fragmented and partly contradictory, with no clear plan."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Water roots good",
+      "If the roots are still alive, I would put it in full shade"
+    ]
+  },
+  "input_tokens": 2743,
+  "output_tokens": 792,
+  "graded_at": "2026-10-30T00:15:31.355727+00:00",
+  "status": "graded_pending_review"
+}

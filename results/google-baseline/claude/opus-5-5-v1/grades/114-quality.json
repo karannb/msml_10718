@@ -1,0 +1,31 @@
+{
+  "job_id": "114-quality",
+  "query_index": 114,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "11b6f59d4c864d6cc9cd6b29797e7b0d815973ca3c90fe165656195e868e7c33",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The main advice, \"Leave it be and let nature do nature stuff on its own,\" is safe and fits the reference outcome: the leaf came loose on its own. However, the output also points to a video \"on removing stuck leaves from their cataphyll,\" while the first comment warns that manual release caused permanent damage. That mixed message carries a minor risk of tearing the leaf. No chemical, toxicity or watering hazards are present."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a scraped Reddit comment thread, not a structured answer. It has no health label and no time-to-severe estimate. It implicitly recognizes the leaf getting \"stuck\" in the stem/cataphyll, which partly matches the reference diagnosis. It does not mention the reference fix of misting or spraying the leaf with water, and it ignores the bathroom humidity detail. The closing line, \"If you give it more light they will unfurl,\" is a generic, unsupported claim not tied to the case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "\"Leave it be\" is trivially easy, but the output is cluttered with profile links, avatars and URLs. It offers contradictory options: wait, watch a removal video, or add more light. None of these come as clear steps, so a new plant owner would struggle to extract a coherent plan."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "If you give it more light they will unfurl",
+      "Leave it be and let nature do nature stuff on its own"
+    ]
+  },
+  "input_tokens": 2653,
+  "output_tokens": 827,
+  "graded_at": "2026-10-30T00:14:45.183929+00:00",
+  "status": "graded_pending_review"
+}

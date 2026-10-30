@@ -1,0 +1,42 @@
+{
+  "job_id": "117-resolved",
+  "query_index": 117,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "faa7d54da7cae980781560e1778a643c36699cdaa2e3d54dd38cd3ad3d071791",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Dig into the soil to check where it is wet or dry (weekly)",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water if the soil is dry",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Log time since last rain or watering, time of day watered, frequency and efficiency",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic outdoor-garden video blames most wilting on heat, wind or pressure and warns against watering, so it mentions thirst only conditionally; its 'if the soil is dry, water' step is the fix, buried but protected by a soil check."
+  },
+  "input_tokens": 6898,
+  "output_tokens": 735,
+  "graded_at": "2026-10-30T00:15:28.185306+00:00",
+  "status": "graded_pending_review"
+}

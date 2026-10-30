@@ -1,0 +1,33 @@
+{
+  "job_id": "136-quality",
+  "query_index": 136,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "39ad8ecde7e28792878d5f6d30c960b80b76b39e30206c205a2e0d0cc38e4d45",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is scraped Facebook comment markup, not structured advice. Several comments could delay the needed action for a dehydrated croton. \"I think this yucca looks fantastic!\" misidentifies the plant and falsely reassures. \"water it on occasion very hardy plant\" downplays watering when the confirmed problem is underwatering. Neither comment is likely to cause serious harm, and one comment raises the watering question."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label, no time-to-severe estimate, and no diagnosis. The content is unrelated comment fragments. \"Is it getting sunlight and full on bright indirect light?\" is generic light advice. \"Are you underwatering or over watering?\" only asks a question and does not identify the dry-soil underwatering problem the REFERENCE confirms. The \"yucca\" comment gets the plant wrong; the REFERENCE says it is a croton."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The output is mostly URLs, button labels and markup with no clear steps. \"suggest sunshine\" and \"water it on occasion\" are vague and give no amount or frequency. The user gets no concrete instruction, such as giving the plant a thorough watering now."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Is it getting sunlight and full on bright indirect light?",
+      "water it on occasion",
+      "suggest sunshine",
+      "Are you underwatering or over watering?"
+    ]
+  },
+  "input_tokens": 2824,
+  "output_tokens": 724,
+  "graded_at": "2026-10-30T00:13:49.569559+00:00",
+  "status": "graded_pending_review"
+}

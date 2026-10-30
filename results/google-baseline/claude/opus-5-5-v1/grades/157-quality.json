@@ -1,0 +1,39 @@
+{
+  "job_id": "157-quality",
+  "query_index": 157,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "91c4c4a8b8555a26d6e49787987e00ed1588fc4f3e17e56e55fc31dbf76c0f3c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output never says to plant the sprouted seed, and none of its advice targets this case. It tells the user to put seedlings 'under strong light immediately after germination... keep the light 2 to 3 inches above the seedlings' for '14 to 16 hours per day'. The reference specifically warns against this: 'just don't put it immediately into bright direct sunlight.' A pale sprout taken from a dark cupboard could be scorched or stressed by that light. Weekly half-strength fertilizer and dunking or shaking roots to separate seedlings are irrelevant here, but they add only minor risk."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a generic seed-starting video transcript about humidity domes, seed trays, thinning basil and Neptune's Harvest fertilizer. It never mentions the lychee seed, the paper-towel bag, or whether the dead-looking first leaves can recover. It also gives no health label or time-to-severe estimate. The reference's key point, that the seed is viable and should be planted with gentle light, is absent; the light advice actually contradicts it."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The steps are clear, such as 'pour water into the tray and let the seedlings sit for 10 or 15 minutes'. However, they assume equipment and a setup the user doesn't have, including grow lights, heat mats, seed-cell trays and an oscillating fan. More importantly, they don't address the user's actual next step: potting a sprouted seed that is still in a paper towel. A typical owner couldn't map this advice onto their situation."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "remove the humidity dome",
+      "Seedlings should go under strong light immediately after germination",
+      "place them directly under a grow light",
+      "keep the lights on about 14 to 16 hours per day",
+      "remove the heat mat or turn it off",
+      "bottom watering",
+      "The goal is moist soil, not soggy soil",
+      "place a small fan nearby",
+      "thin the seedlings",
+      "use a liquid fertilizer diluted to about half strength. Apply it about once a week"
+    ]
+  },
+  "input_tokens": 5273,
+  "output_tokens": 944,
+  "graded_at": "2026-10-30T00:13:15.184451+00:00",
+  "status": "graded_pending_review"
+}

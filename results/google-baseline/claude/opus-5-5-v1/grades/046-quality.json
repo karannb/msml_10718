@@ -1,0 +1,36 @@
+{
+  "job_id": "046-quality",
+  "query_index": 46,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "3115e5a6d2619208df70443e3d35d8c1e5762d49cdf175f274ff60b523c0096d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output leads with \"lack of water is a the most common reason for drooping leaves\" and \"Water thouroughly your plant will do fine... OR you can try bottom watering.\" The user reports the soil is still wet 10 days after repotting, with the indicator fully blue. Watering would worsen saturation and raise root-rot risk. The later overwatering paragraph partly offsets this, but it is never tied to the case, so a reader could easily act on the harmful watering advice first."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The reference identifies transplant shock with wet soil and low light, fixed by moving the plant closer to sun or a grow light. The output never mentions repotting, transplant shock, light, the user's chunky leca/bark mix or the wet indicator. Its main diagnosis is underwatering, which contradicts the case evidence. It does describe oversaturated soil depriving roots of oxygen (\"When soil is oversaturated with water, air pockets... filled with water\"), which overlaps with the wet-soil part of the reference, but only as generic text alongside the opposite diagnosis."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual actions are easy: \"water whenever the top 1-2 inches of the top soil dries out\" or bottom watering. However, the output tells the user both to water thoroughly and that overwatering is the biggest mistake, without saying which applies. A home owner cannot tell what to do this week. Nothing addresses light or recovery from repotting."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Croton plants need consistent moisture",
+      "Water thouroughly your plant will do fine",
+      "you can try bottom watering for even saturation",
+      "You should water your plant whenever the top 1-2 inches of the top soil dries out",
+      "in the winters let the top soil dry out about 30%",
+      "We kill our houseplants with too much care",
+      "Roots need oxygen to function properly"
+    ]
+  },
+  "input_tokens": 2551,
+  "output_tokens": 987,
+  "graded_at": "2026-10-30T00:20:51.849492+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,70 @@
+{
+  "job_id": "007-resolved",
+  "query_index": 7,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "724a64494b693bef8eec2f43fe880a7116d686a157af5988a05ed4c321770c8d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Give the plants a thorough watering",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water more often while the plants are outdoors in sun",
+        "minutes": 3,
+        "per_day": 2,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into larger pots that hold more water",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Add a layer of mulch over the soil",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Move plants to shade or put a shade cover over them during the hottest part of the day",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check whether the plants perk back up at night or early morning",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Replace the clear containers or shield them from light so the roots don't overheat",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer is a pasted thread dump, but its dominant and repeated message is that the plants are dehydrated and need water, which matches the confirmed drought stress and fix; the side suggestions (shade, hardening off) are not harmful."
+  },
+  "input_tokens": 8426,
+  "output_tokens": 869,
+  "graded_at": "2026-10-29T22:37:50.679464+00:00",
+  "status": "graded_pending_review"
+}

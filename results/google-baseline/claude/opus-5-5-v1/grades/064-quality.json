@@ -1,0 +1,38 @@
+{
+  "job_id": "064-quality",
+  "query_index": 64,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "64155bfc378a29699702cf1b2df22e1620b3f042c4d58333664502cc2b180d89",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is a raw scrape of Reddit comments, not a single recommendation, and its most prominent advice works against the confirmed root rot. The top comment says \"water every 4 to 5 days\", which is more often than the poster's weekly watering. Several comments push \"Repot in slightly bigger pot\", which adds more wet soil around a damaged root system. One buried comment does mention root rot and trimming roots, but nothing warns the user, and peace lily toxicity to pets is never mentioned."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "There is no health label, no time-to-severe estimate and no single diagnosis. The comments contradict each other, blaming a root-bound pot, sun (\"Too much sun from what it looks like\"), nutrient deficiency, tap water, thrips or mites, and heat. A few lines do match the reference: \"Looks like classic overwatering\", \"your plant probably has root root... Trim the roots\" and \"Grow in water only. No soil\". These are drowned out by the dominant root-bound and repot narrative."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Each comment is individually doable, but together they directly contradict each other. For example, \"You dont need to repot it\" sits beside \"Use a bigger one. About one or two sizes bigger\", and \"water every 4 to 5 days\" sits beside \"Looks like classic overwatering\". A home owner would not know which steps to follow. The page markup and links (\"1 more reply\", YouTube URLs) also hide whatever actionable content there is."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Repot with new soil",
+      "maybe a slightly bigger container",
+      "Repot in slightly bigger pot",
+      "use bottle or rain water they dont like tap water",
+      "fertilized in the summer with an all purpose fertilizer",
+      "kept them by a bright window",
+      "A pot with drainage really is important",
+      "Would need details on how you're caring for it",
+      "First remove the yellow leafs"
+    ]
+  },
+  "input_tokens": 9720,
+  "output_tokens": 1018,
+  "graded_at": "2026-10-30T00:13:49.160428+00:00",
+  "status": "graded_pending_review"
+}

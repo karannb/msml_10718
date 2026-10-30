@@ -1,0 +1,31 @@
+{
+  "job_id": "017-quality",
+  "query_index": 17,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "ed87801aa81ad24c049943fff0c00fe5d6b4df484719213b53bafb6d008550be",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The advice is low-risk. \"à repiquer dans un terreau très humide et à l ombre\" and \"garder le maximum de la motte des plants\" are sound transplant practices. Nothing here could damage the plant or endanger people or pets. Its main weakness is that it does not tell the poster how to rescue the plants that have already wilted."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output implicitly recognizes transplant shock caused by root disturbance: \"il ne faut pas les arracher mais les sortir avec le maximum de motte\". That matches the reference's diagnosis. However, it never names the problem and gives no recovery step for the collapsed seedlings, such as the reference's tip of placing them in water to recover. It also asks for more photos rather than acting on what is known, and much of the text is greetings."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Keeping the root ball intact, using very moist potting mix and placing the plants in shade are all easy for a beginner. The steps are scattered across several fragmentary replies, though. They focus mainly on a future transplant (\"Pour un nouveau repiquage\") rather than on what to do now with the wilted plants."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Mettez la photo du pot des plants encore en place...pour voir!",
+      "Bon courage"
+    ]
+  },
+  "input_tokens": 2143,
+  "output_tokens": 472,
+  "graded_at": "2026-10-30T00:13:21.949796+00:00",
+  "status": "graded_pending_review"
+}

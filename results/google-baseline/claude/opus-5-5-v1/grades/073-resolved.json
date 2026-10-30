@@ -1,0 +1,84 @@
+{
+  "job_id": "073-resolved",
+  "query_index": 73,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "426ebe6700984d5f60c3b1fb30d81874388e3d35eb4e60de848badf1e81e1d47",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Read the Ohio Tropicals Monstera problems article",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Make sure the plant gets plenty of light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Check how the soil feels before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Let the soil dry out (to the bottom) between waterings and water less",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Buy a moisture meter and water when it reads about 3 at the pot bottom",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize appropriately without overdoing it",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Occasionally flush the soil with water to remove excess salts",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Improve air circulation by trimming or tying back stems",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check out planterina on Instagram/YouTube for Monstera care",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The thread dump names overwatering/root rot as the likely cause but mixes it with underwatering, fungus and other possibilities and never mentions the oversized pot, so the watering-reduction part of the fix is buried and the repotting is missing; nothing is likely harmful."
+  },
+  "input_tokens": 16151,
+  "output_tokens": 957,
+  "graded_at": "2026-10-29T22:37:26.094680+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,63 @@
+{
+  "job_id": "040-resolved",
+  "query_index": 40,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "911962485b463ef1c1f0ead2dc21930c7cff8fff8c86b2a3c719591f0c3f10d6",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Switch the alocasia to a LECA wick setup with a nutrient reservoir instead of a submerged setup",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Set up a grow tent to control humidity, light and temperature",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 100,
+        "unclear": false
+      },
+      {
+        "action": "Install full-spectrum LED grow lights",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Check humidity regularly to keep it at 60-80%",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Keep the reservoir topped up with nutrient solution",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Assess your specific conditions and adjust care accordingly",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "This general vlog blames root rot from excess moisture and only mentions light as part of a grow-tent setup, so the light fix is buried among other changes; the suggestions are not harmful."
+  },
+  "input_tokens": 9672,
+  "output_tokens": 920,
+  "graded_at": "2026-10-30T00:18:48.579600+00:00",
+  "status": "graded_pending_review"
+}

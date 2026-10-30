@@ -1,0 +1,126 @@
+{
+  "job_id": "005-resolved",
+  "query_index": 5,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "203d15ad18914a54966ddeccee50e888a5387d72666b41d6cedae43cc3a2ff2a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Change the water fully every 7-10 days (weekly)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse/clean the jar",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash roots under running room-temperature water to remove slime",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant to bright indirect light (north or east window)",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add 1-2 drops liquid fertilizer every 3-4 weeks",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively drop a small iron nail in the jar",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0.5,
+        "unclear": false
+      },
+      {
+        "action": "Check roots for brown, slimy, smelly rot",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If rotten, trim brown/mushy roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Shift plant into fresh water in a clean container",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add a pinch of rooting hormone powder to the water",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Switch to a glass or ceramic container if using metal",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Thin to two or three stems per medium jar",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant away from AC vents, fans, and drafts",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Trim old yellow leaves",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rotate the bottle every 10 days",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer names stagnant low-oxygen water, root rot and low nutrients among a long list of possible causes, but it never pins them down as the main cause, misses the small-container point, and buries the correct fixes (full water changes, fertilizing, trimming rotten roots) among many others; nothing it recommends is likely to harm the plant."
+  },
+  "input_tokens": 3263,
+  "output_tokens": 925,
+  "graded_at": "2026-10-29T22:37:11.976935+00:00",
+  "status": "graded_pending_review"
+}

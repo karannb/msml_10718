@@ -1,0 +1,42 @@
+{
+  "job_id": "077-quality",
+  "query_index": 77,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "52affab083b34bb0840bd6c8de2ab1d1760d167bff29b3f89568437f9e04e629",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a generic video transcript, and its advice (\"allow the soil to dry before watering again\", \"consider improving water quality\") is not directly harmful to the plant, person, or pets. However, it never names thrips, and it steers the user toward watering, water quality, cold, and fertilizer as causes. That would delay effective treatment of an ongoing infestation that is spreading over months. It also omits any pest-treatment guidance or safety caveats."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output misses the confirmed diagnosis of thrips entirely. It ignores the key case evidence: new leaves emerging from the sheath already damaged, tiny black specks, and damage that looks chewed. Its only pest mention is \"Check regularly for pests and diseases\" in the prevention list. The bulk of the content (overwatering, fungal infection, water quality, cold, physical damage, fertilizer burn) is a generic list. None of it matches the REFERENCE's advice to use a systemic granular insecticide."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual steps such as \"allow the soil to dry before watering again\", \"try filtered water\", and \"keep the plant away from cold drafts\" are easy for a home owner to do. However, the output gives no prioritized plan. It offers seven possible causes without a way to distinguish between them. None of the steps would actually resolve the user's thrips problem, so following the advice is easy but ineffective."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "allow the soil to dry before watering again",
+      "Make sure your pot has drainage holes",
+      "use a loose soil mix",
+      "improve air circulation around the plant",
+      "Remove severely damaged leaves",
+      "Keep your tools clean when pruning",
+      "consider improving water quality",
+      "Keep the plant away from cold drafts",
+      "Provide bright indirect light",
+      "Check regularly for pests and diseases",
+      "Use fertilizer carefully and follow recommended amounts",
+      "Check the soil, adjust watering, improve light, and create a better environment",
+      "observe your plant carefully and identify the most likely cause"
+    ]
+  },
+  "input_tokens": 4741,
+  "output_tokens": 710,
+  "graded_at": "2026-10-30T00:10:55.588685+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "013-quality",
+  "query_index": 13,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "2100edc84eef50a265878d37a67de142409c7a4c86ccab4bb393e41037420e44",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is scraped Facebook comments rather than structured advice. It says \"Overwatering it looks like\", \"I haven't watered it for 2 weeks... I don't think it likes to be water logged at all\" and \"This plant likes dry dry dry chunky soil\". For a dehydrated peace lily with firm white roots and crispy edges, withholding water would worsen the actual problem and delay the soak it needs. There is also no warning that peace lilies are toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The implied diagnosis, \"Overwatering it looks like\", directly contradicts the REFERENCE, which confirms underwatering. It also ignores case evidence that points away from rot: roots \"white and ferm\" and nothing \"mushy\" or smelly. There is no health label, no time-to-severe estimate, and no mention of trimming or a thorough watering."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The output is raw page markup (links, buttons, comment metadata) with conflicting anecdotal opinions and no actionable steps. A plant owner cannot extract a clear plan from it. The only implied actions, keeping the plant dry or using chunky soil, are both vague and incorrect."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "I don't think it likes to be water logged at all",
+      "This plant likes dry dry dry chunky soil"
+    ]
+  },
+  "input_tokens": 2709,
+  "output_tokens": 847,
+  "graded_at": "2026-10-30T00:12:02.765920+00:00",
+  "status": "graded_pending_review"
+}

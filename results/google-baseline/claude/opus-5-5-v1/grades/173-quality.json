@@ -1,0 +1,35 @@
+{
+  "job_id": "173-quality",
+  "query_index": 173,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c18c58bbf8c09ef532fd47339a494faa6ba9afbc93076f2b29afee4200dda48e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The real problem is underwatering of a Dracaena marginata with a shriveling stem. The output says \"When in doubt, do not water. It is almost impossible to kill a yucca from underwatering\" and \"If there is even a hint of moisture, walk away.\" Following this would worsen the actual dehydration. It also attributes drooping to \"light starvation\" and tells the user to place it \"right against your brightest south or west-facing window,\" which risks scorching a dracaena. It never mentions that dracaena is toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a generic yucca video script that ignores the case details. It never identifies the plant as a dracaena and never considers underwatering, even though the reference confirms it. It diagnoses drooping as \"a direct sign of light starvation\" although the user said the plant is by the sun. Its main framing is overwatering and root rot, despite the user saying it is not overwatered. It ignores the prior mealybug treatment and the shriveling stem."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Several steps are easy for a home grower to do: squeezing the trunk, using a wooden stick to check moisture, mixing \"50% regular potting soil mixed with 50% coarse sand, pumice, and perlite,\" and trimming lower leaves with scissors. Cutting the cane with \"a clean, sterilized saw\" is more involved but still possible. The steps are clear, but they target the wrong problem, and the transcript is cut off mid-sentence."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "When in doubt, do not water",
+      "use a long wooden stick or a moisture meter to check the very bottom of the pot",
+      "your soil mix must be desert-like",
+      "Give it the desert light it craves",
+      "take a clean pair of scissors and trim them away",
+      "drench it heavily until water runs out of the drainage holes"
+    ]
+  },
+  "input_tokens": 3433,
+  "output_tokens": 648,
+  "graded_at": "2026-10-30T00:10:48.627313+00:00",
+  "status": "graded_pending_review"
+}

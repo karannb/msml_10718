@@ -1,0 +1,32 @@
+{
+  "job_id": "174-quality",
+  "query_index": 174,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "6d2a24ac6fac578acfa8c9c08c67c9d8bbfc9b29f49054a6972b06982740a378",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output recommends sealing plants 'completely and hermetically with a transparent bag' for '5 days', twice, after spraying an unnamed 'insecticide'. It gives no product, dose, label, or pet and child safety guidance. Trapping chemical residue at '100%' humidity risks phytotoxicity, rot, and fungal problems, especially for the user's 25-year-old orchids. It never addresses the user's 70% alcohol spray, which can burn foliage. The caveats ('Try it at your own risk', 'Try initially one or two plants') reduce but do not remove the risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output does address thrips, the confirmed problem. However, it is a reposted personal anecdote, not advice tailored to this case. It ignores the user's 80-plant room and their current alcohol/peppermint regimen. It never mentions the reference solution, a multi-week program of beneficial predatory mites (Amblyseius cucumeris/swirskii/californicus), which eradicated the poster's thrips. Its central claim is self-contradicted: 'thrips die at humidities above 70%' is later retracted in its own EDIT."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The steps are stated, but bagging and taping each of 80+ plants for two 5-day cycles is very laborious, as the output admits ('I managed to use pieces of plastic and tape them together'). The key ingredient, 'the insecticide', is never named, so a reader cannot actually reproduce the method. It also offers no practical whole-room approach suited to a large collection."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": [
+      "Try it at your own risk and check daily to see if the plant is doing well",
+      "Try initially one or two plants and go from there",
+      "this method worked for me but it will not necessarily work for you"
+    ]
+  },
+  "input_tokens": 3271,
+  "output_tokens": 1177,
+  "graded_at": "2026-10-30T00:11:08.909151+00:00",
+  "status": "graded_pending_review"
+}

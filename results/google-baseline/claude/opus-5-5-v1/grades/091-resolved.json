@@ -1,0 +1,84 @@
+{
+  "job_id": "091-resolved",
+  "query_index": 91,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "a005ee3a41b16499b8ce73df13eb36d984158862e58cfbd5376c062a7a65e582",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Let the cut ends callous and dry before putting the cutting back in water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Submerge the cutting to just above the node",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add pothos cuttings to the jar as a natural rooting aid",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off the leaf at the lowest node if present",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the cutting to a bigger glass, such as a mason jar, with the nodes fully covered",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Change the water at least once a week",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add a little hydrogen peroxide to the prop water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, cut the stem closer to the node and root it in soil with lots of perlite",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Seal the cut with candle wax after cutting with a disinfected knife",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames callousing, node depth and rooting hormone, and never identifies the frequent water changes or the moss as the problem; several comments even urge frequent water changes, which would prolong the actual cause."
+  },
+  "input_tokens": 26613,
+  "output_tokens": 1087,
+  "graded_at": "2026-10-30T00:15:26.619973+00:00",
+  "status": "graded_pending_review"
+}

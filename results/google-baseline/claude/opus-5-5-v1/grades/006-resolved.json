@@ -1,0 +1,56 @@
+{
+  "job_id": "006-resolved",
+  "query_index": 6,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "5ee09b4b15322fb8880de2de9a6c622d0eb56a8ab22c04d31044d088a26e27cb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the plant if wilting is due to lack of water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wait until evening to see if the plant recovers once heat dissipates",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If not recovered by evening, assess whether the plant is under- or overwatered",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity around the leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Flush the soil with water to wash out excess fertilizer salts",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic wilting video lists lack of water as one of several causes. Its watering fix is hedged ('may not want to add water right away') and buried among other remedies, but it is safeguarded by checks, so it is not harmful."
+  },
+  "input_tokens": 3412,
+  "output_tokens": 743,
+  "graded_at": "2026-10-29T22:37:32.611367+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,105 @@
+{
+  "job_id": "152-resolved",
+  "query_index": 152,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "e95d68ad474a9bbee2784994b4e3d631c46e63fabd830b568d371c147074732d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Hang yellow sticky traps",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Blast leaves with short bursts of water from a hose",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Introduce beneficial insects (green lacewings, ladybird beetles, or Encarsia formosa)",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Inspect a plant before buying it and report insects to the shop",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clean pot thoroughly with diluted soap or bleach solution",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use fresh potting soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Remove arthropods from the plant's soil ball",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If millipedes are a problem, spread diatomaceous earth on the soil",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively apply nematodes to control millipedes",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Capture millipedes and release them outside",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Isolate new plant for days to weeks, inspecting leaves and stems daily",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep other plants' leaves from touching the new plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic article on whiteflies and pest prevention, never identifying aphids or recommending the neem oil fix, though its water-blast and beneficial-insect suggestions would not harm the plant."
+  },
+  "input_tokens": 3412,
+  "output_tokens": 1068,
+  "graded_at": "2026-10-30T00:11:17.648524+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,35 @@
+{
+  "job_id": "109-quality",
+  "query_index": 109,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "03c87ceb5a253a734e224cb6ac0cfb64dc95a8428ad817590ffa8ed1c0d205ea",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output claims the plant is \"severely etiolated\" and says to place lights \"within one foot directly over your plant\" for \"12-16 hrs/day\". Moving a low-wattage light closer and running it longer is unlikely to harm the plant. The misdiagnosis could still prompt unneeded changes. \"Light light light. And some water\" gives a vague watering instruction with no caveat for a rootless-risk cutting."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The REFERENCE says the plant is healthy: an immature, still-curled leaf looks lighter and darkens as it unfurls, so the poster should wait. The output instead diagnoses low light and etiolation and says \"Your plant's leaves are full green because with the low light\". That directly contradicts the CASE, which describes an almost all-white leaf. The text is pasted comment-thread boilerplate (links, reaction buttons) and is not tailored to this cutting."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "A few concrete steps exist, such as \"within one foot directly over your plant\" and \"Leave them on 12-16 hrs/day\". However, the output is cluttered with Facebook URLs and UI elements. It also references a guide (\"here's a good guide to placement\") that is never actually provided. The structure is confusing and hard for a user to act on."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Leaves are little solar factories for plants",
+      "Cutting leaves off is almost never helpful",
+      "If you use lights, they must be strong",
+      "If using natural light, here's a good guide to placement",
+      "Light light light. And some water.",
+      "It needs LOADS more light"
+    ]
+  },
+  "input_tokens": 3823,
+  "output_tokens": 910,
+  "graded_at": "2026-10-30T00:13:07.794581+00:00",
+  "status": "graded_pending_review"
+}

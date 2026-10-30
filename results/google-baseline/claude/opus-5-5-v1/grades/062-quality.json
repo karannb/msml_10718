@@ -1,0 +1,32 @@
+{
+  "job_id": "062-quality",
+  "query_index": 62,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7a8fa009c74fafce75b759dcf8a61f517ecb95fd1ca6620f0cb1d031965f4387",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a spine-removal guide (\"Cut straight across the hardened leaf tips... using a pair of bypass pruners\"; \"Cut the curled, spiny teeth from the margins\"). If the user followed it, they would make many unnecessary cuts on a rare, healthy agave, permanently disfiguring it and creating extra wounds for no benefit. It does warn \"do not cut through this flesh\" and recommends protective gear, so serious harm is unlikely. It also gives no wound-care or keep-dry guidance, though the wound would likely heal anyway."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output never addresses the actual case, a single leaf pierced by a thorn. It gives no health label, no time-to-severe estimate, and no advice to keep the wound dry while it calluses. The content (\"removing the spines is the safest option,\" USDA zone lists for various species) is an unrelated scraped article. It does not match the REFERENCE, which says the wound is minor and will callus if kept dry."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The steps (\"Wear heavy protective clothing,\" \"Cut... using bypass pruners or a pair of fingernail clippers\") are concrete and use common tools. However, they are not actionable for the user's actual question about caring for a puncture wound. The user gets no usable plan for their situation, such as how long to keep it dry or when to plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Wear heavy protective clothing and eyewear",
+      "Agaves with sharp spines should be kept a minimum of 6 feet away from walking areas",
+      "If you have small children or pets, removing the spines is the safest option"
+    ]
+  },
+  "input_tokens": 3013,
+  "output_tokens": 893,
+  "graded_at": "2026-10-30T00:12:56.424016+00:00",
+  "status": "graded_pending_review"
+}

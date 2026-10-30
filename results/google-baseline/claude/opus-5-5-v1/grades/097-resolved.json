@@ -1,0 +1,56 @@
+{
+  "job_id": "097-resolved",
+  "query_index": 97,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "1f44ce1526b0692d38e36bd936aff28808c4b8caeec8a0ce13da3db28c1cc7ae",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water only with filtered or distilled water instead of tap water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Check under the plant (soil/roots) to see what is causing the issue",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity around the plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Switch to bottom watering to keep the topsoil dry",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Set out small bowls of apple cider vinegar, water and dish soap around the plants to trap gnats",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      }
+    ],
+    "reason": "Low humidity appears only as one of several competing explanations (water minerals, watering problems, fungus, gnats), and the humidity fix is buried among other suggestions, none of which is likely to harm the plant."
+  },
+  "input_tokens": 2425,
+  "output_tokens": 645,
+  "graded_at": "2026-10-29T22:37:13.089394+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,40 @@
+{
+  "job_id": "052-quality",
+  "query_index": 52,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "5aeef0b3fc4bcd7cb2c98ca8e2f57260ad9766021f933c9dca97338de3028301",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "Nothing is acutely dangerous, but several points are poorly suited to this case. The output says to \"mist the plant regularly\" and use a humidifier, yet the poster reports high humidity, so this adds moisture to a plant whose likely problem is excess wetness. It also recommends \"A mix of peat moss, perlite, and vermiculite,\" which leans toward the water-retentive media the reference blames, and it never says to inspect the roots or remove the grower plug. Philodendron toxicity to pets and children is not mentioned."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a generic Moonlight Philodendron care and pest encyclopedia, with no health label or time-to-severe estimate. It does not engage with any case details: the brown spot present at purchase, the lost leaf, recent repotting, or high humidity. It never identifies the reference's diagnosis of shipping stress and a dense sphagnum/peat grower plug holding water. Root rot (\"repot the plant into fresh, well-draining soil. Severely affected roots should be trimmed\") appears only as one item in a generic list, alongside unrelated pests like spider mites and aphids."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Each individual tip, such as \"Prune any yellow or damaged leaves\" or using alcohol-dipped swabs, is something a home owner can do. However, the output never says which problem applies or what to do first, so a novice cannot tell whether to treat for mites, leaf spot, root rot, or low humidity. The key actionable steps from the reference (unpot, check the roots, remove the plug, use a chunky aroid mix) are not laid out as a plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Prefers bright, indirect light",
+      "Thrives in well-draining, rich, organic soil",
+      "Water when the top inch of soil feels dry",
+      "Ensure the pot has good drainage",
+      "Use a humidifier, mist the plant regularly, or place it on a pebble tray",
+      "Fertilize every 4-6 weeks during the growing season",
+      "Prune any yellow or damaged leaves to encourage healthy growth",
+      "Repot every 2-3 years or when the plant becomes root-bound",
+      "Increase air circulation, avoid wetting leaves when watering",
+      "Check the soil moisture to determine the cause and adjust your watering accordingly",
+      "Ensure your philodendron is receiving enough indirect light"
+    ]
+  },
+  "input_tokens": 4268,
+  "output_tokens": 1146,
+  "graded_at": "2026-10-29T22:38:14.427434+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,20 @@
+{
+  "job_id": "054-resolved",
+  "query_index": 54,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "0546793e0c412b5ed9ba1489450144e8a129b0ff2536dc4da6e1b45a37ccfda1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [],
+    "reason": "The answer calls the mealybug normal trichomes or fuzzy stems, gives no pest treatment, and says it is nothing to worry about, which would delay removing the bug."
+  },
+  "input_tokens": 2974,
+  "output_tokens": 314,
+  "graded_at": "2026-10-29T22:38:32.993735+00:00",
+  "status": "graded_pending_review"
+}

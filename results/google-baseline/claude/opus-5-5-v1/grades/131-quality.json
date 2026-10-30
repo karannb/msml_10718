@@ -1,0 +1,33 @@
+{
+  "job_id": "131-quality",
+  "query_index": 131,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "947e7b146017369aa2b0313effc2c88819b43a711cce6e63d4f15c0642205886",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Instructables care guide for Mother of Thousands, the stowaway weed, not for the Jewel of Opar the user asked about. Its key soil advice, 'Mother of Thousands love a quick draining, gritty soil... avoid regular potting soil', would, if applied to the Talinum, reinforce the very fast-draining, nutrient-poor mix the reference identifies as the cause. It does correctly warn that MoT is toxic to pets and children. Overall the risk is minor: no chemical danger, but the advice would delay the actual fix."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output never addresses Jewel of Opar (Talinum), nutrient depletion, or fertilizing. It describes the wrong plant entirely, covering 'Kalanchoe daigremontiana... Kalanchoe delagoense' care. Its only relevant implication, that MoT is invasive and should be pulled, is never tied to the user's question. The closing comment 'Consider a larger pot.... they grow to the size of the pot!' is generic, and it partly conflicts with the reference, which says Talinum tolerate small pots."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual steps are doable, such as watering 'until water runoff is achieved' and checking pot weight. However, they are for a different plant, and the output is unstructured scraped page content with links and comments. A user would not get clear guidance on repotting their Jewel of Opar or on whether to change the soil."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Consider a larger pot.... they grow to the size of the pot!",
+      "Like all other succulents, Mother of Thousands love to dry out completely between waterings",
+      "Pinch off Dead and Damaged Leaves",
+      "Your best bet is to keep this plant in containers outside or in a southern window"
+    ]
+  },
+  "input_tokens": 5169,
+  "output_tokens": 634,
+  "graded_at": "2026-10-30T00:12:12.690243+00:00",
+  "status": "graded_pending_review"
+}

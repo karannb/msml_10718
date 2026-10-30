@@ -1,0 +1,33 @@
+{
+  "job_id": "072-quality",
+  "query_index": 72,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c3bf7983f4f73ddaefe44b6f5a73e7df4cdf5e3ad19162889f877279dc3138fd",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a raw Reddit scrape with conflicting anecdotes rather than coherent advice. 'Like to add to not use terracotta pots... the pot will make the soil way too dry' pushes toward moisture-retaining pots, which would worsen the confirmed overwatering problem. 'I wouldn't be too worried if you're doing everything else right' could delay the needed fix. There is no direct chemical hazard, but the misleading cues are a moderate risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The top-level claim, 'soil being dry or wet for too long. Inconsistent watering schedule or a soil mixture problem', is vague and covers both extremes. The REFERENCE's diagnosis (oversized pot holding moisture) appears only in a reply to an unrelated user: 'If you put a pot too big... the substrat will stay damp longer rotting some parts of roots'. It is not tied to this plant. Transplant shock and misting are also offered as competing explanations, so there is no clear diagnosis."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "There is no health label, no time-to-severe estimate, and no structured care steps. The content is buried in page markup, profile links and a prescription-drug advertisement. A user would have to dig through contradictory comments to find anything actionable. Even the useful line, 'better use smaller pot when plant is small', is not presented as a step for this case."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "this is due to the soil being dry or wet for too long",
+      "Inconsistent watering schedule or a soil mixture problem",
+      "It might just be the shock from getting a new home",
+      "I wouldn't be too worried if you're doing everything else right"
+    ]
+  },
+  "input_tokens": 14676,
+  "output_tokens": 895,
+  "graded_at": "2026-10-29T22:37:14.933005+00:00",
+  "status": "graded_pending_review"
+}

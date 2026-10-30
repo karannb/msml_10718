@@ -1,0 +1,31 @@
+{
+  "job_id": "186-quality",
+  "query_index": 186,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a09f55521f2b450131a2620683f6daa343e80136cfedafbe47c3d359b5a70630",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output says to \"put it in water with air stone in it\". For a succulent with root rot, keeping it in water can make the rot worse, whereas the reference calls for dry soil and very little water. It also recommends a \"1% Sodium Permanganate bath\". Sodium permanganate is a corrosive industrial oxidizer (the hobby product is usually potassium permanganate), 1% is a strong concentration, and no warnings about skin, eye, pet or child safety are given."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "\"Check the roots for rot\" and \"remove it from that soil\" partly address the root rot the user suspects. However, the output never says to cut above the dark, mushy tissue, and it never says the soil is far too moist for a succulent, which are the reference's key points. It does not mention the mold or the flying bugs, and its water-propagation advice runs against the reference's dry-rooting approach."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "An air stone (\"if you have one\") is optional but not standard household equipment. Sodium permanganate is not something a typical owner has or can easily buy, and the output gives no instructions on how to dilute it or handle it safely. The steps are short and vague, with no guidance on what to do with the rotted parts or how to replant."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Check the roots for rot",
+      "remove it from that soil"
+    ]
+  },
+  "input_tokens": 1936,
+  "output_tokens": 699,
+  "graded_at": "2026-10-30T00:14:28.259668+00:00",
+  "status": "graded_pending_review"
+}

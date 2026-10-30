@@ -1,0 +1,126 @@
+{
+  "job_id": "155-resolved",
+  "query_index": 155,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "1ffc47658cca50e60d8773eebcdae19092ca498633dedf6f47d001a683c78ff1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move succulent to a spot with more sun exposure",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively get one or two grow lights",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively move indoor succulent outdoors",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clean and sharpen pruning tool",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut back leggy stems straight across above a leaf node (in spring/summer)",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prep cuttings: trim curved stems and strip lower leaves",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Let cuttings heal over 3-6 days in bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove top layer of old soil if replanting in same pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Fill or top off pot with succulent and cactus mix",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Mix a few handfuls of compost into the soil (optional)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Plant the cuttings in arranged groupings",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wait 5-7 days, then water the new planting about once a week",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep cuttings in bright indirect light out of hot direct sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Top-dress with 1/2-1 inch of worm compost after rooting",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Start a fertilizing routine once cuttings are growing",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "The article lists low light as one of several causes of legginess rather than committing to etiolation; its advice to increase light, cut back and propagate matches the fix but is buried in a long generic article, and nothing in it is harmful."
+  },
+  "input_tokens": 36258,
+  "output_tokens": 1364,
+  "graded_at": "2026-10-30T00:12:18.210133+00:00",
+  "status": "graded_pending_review"
+}

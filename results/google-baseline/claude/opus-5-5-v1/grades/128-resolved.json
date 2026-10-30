@@ -1,0 +1,77 @@
+{
+  "job_id": "128-resolved",
+  "query_index": 128,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "4443a39f770314d6068b3f74653d72ea2f7ce8061b7b92b5ee100b8a9d150045",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Remove dead, damaged, diseased, or unproductive stems",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove overly tangled stems, one section at a time",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove errant stems growing away from the support",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Direct the vine's growth on a support (tie or drape)",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Limit growth by heading back stems",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If shoots are long and spindly, head them back",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pinch back shoot ends on young vines",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove unwanted suckers and spent flowers",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic vine-pruning article that never mentions low humidity or the stuck leaf, so its diagnosis and advice miss the problem, though its pruning tips are unlikely to harm the plant."
+  },
+  "input_tokens": 3730,
+  "output_tokens": 757,
+  "graded_at": "2026-10-30T00:11:29.323246+00:00",
+  "status": "graded_pending_review"
+}

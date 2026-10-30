@@ -1,0 +1,63 @@
+{
+  "job_id": "074-resolved",
+  "query_index": 74,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "7106185184251752e8a2669c326cc9d182371eb9188cf886acbe838493e265b1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move the plant to a different spot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feed/fertilize the plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Water from the bottom using rainwater",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off all yellow and clearly infested leaves",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep it in a smallish pot (repot if needed)",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Keep humidity above 60% (e.g. with a humidifier)",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      }
+    ],
+    "reason": "The scraped comments mainly blame spider mites, root rot or the plant's fussy nature rather than dehydration; watering appears only buried among moving, feeding, humidity and pot advice, and nothing is clearly likely to worsen the plant."
+  },
+  "input_tokens": 3311,
+  "output_tokens": 1197,
+  "graded_at": "2026-10-29T22:37:48.661296+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "181-quality",
+  "query_index": 181,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "73a9684c19803d751cb43cb494cc13ad163602e8b1da33ce9bce23d37fa02187",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output says \"I don't think it's anything your doing wrong. The plant indoors is just a fish out of water.\" This discourages a simple fix. The REFERENCE shows that moving the plant to more humid air solved the problem, so this advice could lead the owner to give up on a recoverable plant. It also recommends \"dracaena marginata\" without noting that it is toxic to cats and dogs. There is no direct chemical or physical risk."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output gives no real diagnosis: no health label, no time-to-severe estimate and no treatment. It assumes the plant is a \"majesty palm\" and suggests replacing it with \"a parlor palm or a dracaena marginata.\" The phrase \"outdoor in Florida like areas\" vaguely hints at environment, but it never names low humidity as the cause. That is the confirmed problem in the REFERENCE. The output also tells the user they are doing nothing wrong, which contradicts the poster's own finding."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The only actionable step is to buy a different plant (\"I'd suggest a parlor palm or a dracaena marginata\"). A home owner could easily do this, but it does not treat the current plant. The output gives no steps to correct the cause, such as raising humidity or relocating the plant. Its practical value for the question asked is low."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "I don't think it's anything your doing wrong",
+      "The plant indoors is just a fish out of water",
+      "I am not a plant expert"
+    ]
+  },
+  "input_tokens": 2009,
+  "output_tokens": 954,
+  "graded_at": "2026-10-30T00:13:13.936678+00:00",
+  "status": "graded_pending_review"
+}

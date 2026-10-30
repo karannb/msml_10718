@@ -1,0 +1,49 @@
+{
+  "job_id": "186-resolved",
+  "query_index": 186,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "38b944f700fc6443cf02e3681a3c143c25f6778173688c745dd10f152a58fd16",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Remove the plant from its current soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place the plant in water with an air stone (if you have one)",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Check the roots for rot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Disinfect the roots in a 1% permanganate bath for 5 minutes",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer only mentions root rot as something to check rather than diagnosing it, never says to chop above the rot and replant in dry cactus soil, and its advice to keep a rotting succulent in water would likely worsen the moisture-driven rot."
+  },
+  "input_tokens": 1637,
+  "output_tokens": 641,
+  "graded_at": "2026-10-30T00:14:20.387162+00:00",
+  "status": "graded_pending_review"
+}

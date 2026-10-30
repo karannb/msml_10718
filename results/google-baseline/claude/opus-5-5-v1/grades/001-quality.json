@@ -1,0 +1,32 @@
+{
+  "job_id": "001-quality",
+  "query_index": 1,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "786340ac44a7f268f5f64a9e3fac8388461838b89f825905e75c433a99a96f74",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The core advice, \"a combination of a spinosad spray and a systemic to treat the soil\" applied weekly, is standard and reasonable for thrips. It names EU products relevant to Portugal and says to spray \"outdoors out of direct sun.\" However, it recommends systemic insecticides without any pet or child safety caveat and never mentions that Monstera adansonii is toxic to pets. It also lists \"horticultural oil\" as an option without warning about leaf burn in 35°C heat, which matters because the poster has already used sulphur. These are minor risks rather than serious harm."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "\"This is a thrips infestation\" matches the reference, and recommending spinosad such as \"Captain Jack's Dead Bug Brew\" matches the commenter's advice. The \"Do not cut off affected leaves immediately\" point also speaks to the poster's habit of removing leaves. However, the output is clearly a pasted boilerplate template. It mentions \"even the succulent,\" which is not in the case, and includes an irrelevant Canada section. It ignores the low-light problem flagged in the reference (the plant is \"3 metres away from a big window\"), the summer heat, the suspected sulphur burn, and the chop-and-prop suggestion."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The steps are concrete: spray spinosad weekly, apply a systemic that lasts \"6-8 weeks,\" and remove old leaves on a \"2-in-1-out\" basis. Region-specific EU products such as \"Edialux Conserve Garden\" and \"Substral Duo-Stick\" are easy to buy in Portugal. Predatory mite sachets are also accessible. The text is cluttered with scraped interface fragments and options for other countries, which adds some confusion but does not block action."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "You'll need to treat it as well as all your other plants (even the succulent)",
+      "To be safe, it's usually best to treat every plant in the house.",
+      "CANADA: As you cannot get spinosad, systemics, or horticultural neem, your best bet is Doktor Doom pyrethrin products"
+    ]
+  },
+  "input_tokens": 4416,
+  "output_tokens": 1252,
+  "graded_at": "2026-10-29T22:35:39.561974+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,105 @@
+{
+  "job_id": "153-resolved",
+  "query_index": 153,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "11dc60d1b8acbc0e0ce18734549baa03cef98c714f41acb41f8096460f9e6da9",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect every crevice, leaf joint and under bark for hidden bugs",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off and discard infested growth",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Regularly clean leaves with lemon-water or dish soap spray and wipe down",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Dab individual bugs with a cotton swab dipped in 70% or weaker isopropyl alcohol",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray or wipe the plant with a microfiber cloth to remove dead bugs",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray soil top, stems and foliage with neem oil in the evening and repeat weekly for a few weeks",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Spray dish soap solution (3-4 tbsp per cup of water) on the plant nightly for a few days",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse the plant with water the morning after a spray treatment",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Dust the plant with food-grade diatomaceous earth in the bathtub, wearing eye/face protection, as a last resort",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Research whether the plant tolerates cold before cold treatment",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place a cold-tolerant plant near an open window or in the fridge/outdoors at about 50°F for 24-36 hours",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Order and release beneficial insects such as ladybugs, lacewings or mealybug destroyers",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is about mealybugs, not the confirmed aphids. Neem oil spray, the fix that worked, is only one of eight methods. Nothing in it would likely harm the plant."
+  },
+  "input_tokens": 5952,
+  "output_tokens": 1347,
+  "graded_at": "2026-10-30T00:11:40.237829+00:00",
+  "status": "graded_pending_review"
+}

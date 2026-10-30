@@ -1,0 +1,77 @@
+{
+  "job_id": "125-resolved",
+  "query_index": 125,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "36aa3264797edd0dbea81aab5fa90156cf78c59609100ee4435b09b18c829479",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil conditions and adjust watering (water deeply, avoid waterlogging)",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize in spring with an azalea food such as Espoma Azalea-Tone",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Ensure the azalea is in well-drained acidic soil (amend or replant if needed)",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Site the plant for morning sun and afternoon shade in a protected spot",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Apply 2–3 inches of mulch around the root zone",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Add wind protection in colder areas",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": true
+      },
+      {
+        "action": "If discoloration comes with leaf drop, stunting or spotting, inspect for pests, root issues or nutritional imbalances",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the hardiness range for your variety and choose cold-tolerant varieties",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer mainly frames red winter leaves as normal seasonal color, mentioning stress only as a secondary possibility, and buries the watering and fertilizing fix among marketing and general care tips. It does not discourage the needed care, so it is not harmful."
+  },
+  "input_tokens": 5017,
+  "output_tokens": 991,
+  "graded_at": "2026-10-29T22:38:39.032695+00:00",
+  "status": "graded_pending_review"
+}

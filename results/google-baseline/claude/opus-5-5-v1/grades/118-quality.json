@@ -1,0 +1,33 @@
+{
+  "job_id": "118-quality",
+  "query_index": 118,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "ad889e863ca755fb7789991f50b4ced084d2716b47f99ff6f654e46de4970265",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a scraped Reddit thread from a different post about whether to rinse roots bare when repotting, not an answer to this user. Its general content, such as \"loosen the root ball and then place it into a larger pot and fill in around it,\" is benign and roughly consistent with safe repotting. One commenter describes soaking roots in \"a mixture of neem oil and dawn dish soap in water\" with no dilution guidance, a minor unflagged risk, though it applies only to pests and not to this case."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output never addresses the user's questions: repot or top-dress, and regular potting soil or bonsai soil. It gives no health label and no time-to-severe estimate. It never states the reference's key points: repot, don't add soil on top because that changes the soil height on the stem, and normal potting soil is fine. Remarks like \"Plop it out and plop it in, add more dirt\" are generic forum chatter, not a diagnosis tied to this plant."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The output is a raw page dump with UI elements (\"button 'Upvote'\", \"Sort by Best\") and conflicting opinions from many commenters. It offers no clear, ordered steps for this user's situation. A plant owner could not pull an actionable plan from it, and their soil question goes unanswered."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "loosen the root ball and then place it into a larger pot and fill in around it",
+      "Plop it out and plop it in, add more dirt",
+      "I just shake loose soil out",
+      "Renewing the soil giving them good nutritions"
+    ]
+  },
+  "input_tokens": 10630,
+  "output_tokens": 808,
+  "graded_at": "2026-10-30T00:15:52.450962+00:00",
+  "status": "graded_pending_review"
+}

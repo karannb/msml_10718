@@ -1,0 +1,35 @@
+{
+  "job_id": "111-quality",
+  "query_index": 111,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "bbf79956e83b923d6f01e7c95218275db018d42e84ecbc1f386b76b15d9464be",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The first comment says \"try waiting for it to dry out\", which would prolong the underwatering stress the REFERENCE confirms. The bottom-watering soak (\"put it in the sink and let it absorb what it needs\") would help. The suggestion to \"take it out of the pot check the roots\" and \"size down one size and repot\" is unnecessary disturbance for a plant that only needed water and humidity. There is no serious chemical or pet risk, but the advice carries minor risk and could delay the fix."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a scraped Facebook thread rather than a structured answer. It has no health label, no time-to-severe estimate and no explicit diagnosis. Later fragments (\"1 humidy\", \"3 moist soil not to dry or wet\", \"keeping the soil moist\") loosely point toward the REFERENCE's moisture and humidity cause. The lead advice to let the plant dry out contradicts that cause, and the \"smaller pot\" and repotting suggestions are not tied to evidence in the CASE."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual actions such as sink bottom-watering, distilled water and repotting are things a home owner can do. However, the output is a garbled mix of UI markup, URLs and contradictory comments (\"wait for it to dry out\" vs. \"keep soil moist\"). A user would not know which steps to follow or in what order."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "take it out of the pot check the roots",
+      "the pot might be to large size down one size and repot with fresh soil",
+      "humidy",
+      "smaller pot",
+      "moist soil not to dry or wet",
+      "I use distilled water"
+    ]
+  },
+  "input_tokens": 2757,
+  "output_tokens": 985,
+  "graded_at": "2026-10-30T00:13:50.901309+00:00",
+  "status": "graded_pending_review"
+}

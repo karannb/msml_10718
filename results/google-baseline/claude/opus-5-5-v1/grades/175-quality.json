@@ -1,0 +1,32 @@
+{
+  "job_id": "175-quality",
+  "query_index": 175,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c3996c9454400b23b8bd0261b0cff25832d5533c58302e593038dc343edbdd97",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output advises to 'spray the whole plant with the insecticide and cover it completely and hermetically with a transparent bag' for '5 days', then repeat, without naming any product, dose or label limits. Trapping an unknown insecticide at near-100% humidity for 10 days risks phytotoxicity and crown or root rot, especially for the user's 25-year-old orchids. It also never flags that weekly 70% alcohol sprays on all leaves can burn foliage. Caveats like 'Try it at your own risk', 'check daily' and 'Try initially one or two plants' reduce the risk somewhat but do not offset the core unsafe method."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output accepts the thrips problem and correctly notes the need to be 'constant during the life cycle of the thrips'. Otherwise it is a reposted personal anecdote ('I would like to share with you the method...') rather than a reply to this user. It does not address their alcohol/peppermint regimen, their 80-plant room or their orchids specifically. It also omits the reference's successful approach: beneficial predatory mites (Amblyseius cucumeris, swirskii and californicus) over a 6-week program. The humidity claim is self-corrected and unsupported."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The steps ('close the plant hermetically for 5 days... open it, spray it again and close it again') are understandable. However, the insecticide is unspecified, and bagging 80+ plants, including large ones needing 'pieces of plastic and tape', is very labor-intensive. The output itself admits the approach may not suit other plant types, leaving the user unsure how to apply it to a mixed collection."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": [
+      "Try it at your own risk and check daily to see if the plant is doing well",
+      "Try initially one or two plants and go from there",
+      "this method worked for me but it will not necessarily work for you"
+    ]
+  },
+  "input_tokens": 3271,
+  "output_tokens": 1311,
+  "graded_at": "2026-10-30T00:11:30.317144+00:00",
+  "status": "graded_pending_review"
+}

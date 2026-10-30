@@ -1,0 +1,37 @@
+{
+  "job_id": "036-quality",
+  "query_index": 36,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a68eb39ee96cb05b3d88d26089d3ef8e906dc973a6d9e2f26e8d3545d403c233",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output repeatedly pushes more water: \"Yes they are soak em\", \"Drown those hoes and humidify!\", and \"you can even let them sit in water for a few hours\". The poster already waters every 5 days and the real cause is a band strangling the trunk, so extra soaking adds root-rot risk and delays removing the band. \"add some liquid plant fertilizer with each water\" could also stress a plant that cannot move water or nutrients."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped Reddit thread from a different post about multiple plants in winter (\"I just gave them all some water... Winter months are weird\"). It has no health label or time-to-severe estimate, and it never mentions the rubber band or strapping at the trunk base that the REFERENCE confirms. Every diagnosis offered (thirst, cold, light, pests, rot) is wrong or generic for this case."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The content is raw page markup with usernames, URLs and buttons, not a structured answer. It contains contradictory suggestions (\"Either over or under watering\", \"Either you drowned them or their pots turned into small deserts\") with no clear steps. The actually needed action, \"cut it off\" (the band), is absent."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Either over or under watering.",
+      "Maybe cold and/or thirsty",
+      "What is the lighting situation?",
+      "add some liquid plant fertilizer with each water",
+      "I'd suggest bottom watering",
+      "Too cold? Thirsty? Have you checked for pests? What's going on with your soil moisture, could be rot?",
+      "Drown those hoes and humidify!",
+      "They look under watered"
+    ]
+  },
+  "input_tokens": 6075,
+  "output_tokens": 863,
+  "graded_at": "2026-10-30T00:17:33.111450+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,63 @@
+{
+  "job_id": "154-resolved",
+  "query_index": 154,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "36a80f1886af655bf976385670938d7450c89bfe1c51e9a853518b66ccc175a1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check whether the plant has been receiving more light recently",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Gradually increase natural light exposure",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add a grow light if needed",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Chop and propagate the stretched plant once it's doing better",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Read the Beginner Basics guide on the wiki",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into gritty, less organic soil",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer identifies etiolation as the main cause and recommends more light, chop and prop, and gritty soil, which matches the confirmed fix with nothing harmful."
+  },
+  "input_tokens": 2133,
+  "output_tokens": 397,
+  "graded_at": "2026-10-30T00:11:58.736483+00:00",
+  "status": "graded_pending_review"
+}

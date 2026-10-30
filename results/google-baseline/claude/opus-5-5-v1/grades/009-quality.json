@@ -1,0 +1,38 @@
+{
+  "job_id": "009-quality",
+  "query_index": 9,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "41b6f02533e029c41a1832cdda527cf66eac928578195301bce0ebfefc0926fb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is a scraped Reddit thread from a different post, not advice for this case. It mostly pushes an overwatering/root-rot diagnosis: \"Looks like over watered possible starting to have root rot you will need to repot it,\" and the OP's \"repotted in new, dry soil.\" For a drought-stressed aglaonema, following this could delay the watering it needs and add repotting stress. It also contradicts itself, recommending \"in front of a window that gets direct sun\" and \"watering a bit every 2-3 days.\" It gives no warning that aglaonema is toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output gives no health label, no time-to-severe estimate and no answer to \"Will it survive?\" The content is a different user's thread (LadyDarth11, a plant owned for a month or two), not this poster's automatic-watering mishap. The dominant diagnosis is overwatering or root rot, which conflicts with the REFERENCE: underwatering that recovers once regular watering resumes. Only one passing line, \"If they curl and go brittle, it's underwatered,\" touches the real problem, and it is not tied to this case's evidence."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some individual tips are doable at home, such as \"stick it in a tub or deep bowl... for 30-45 mins\" for bottom watering, or checking the roots. However, the material is raw page markup with usernames and URLs, and the advice is contradictory: water sparingly versus every 2-3 days, indirect light versus direct sun. There is no clear step sequence a user could follow for this plant, and the most relevant action is never clearly stated: resume a normal watering schedule and wait."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "What is the light like? Have you had drastic temperature changes? Have you added nutrients recently?",
+      "Sometimes it's hard to say what's wrong without some more information",
+      "Common culprit most often is overwatering",
+      "Make sure you're using indoor potting soil mix",
+      "keep away from any direct contact with heaters or air vents or extreme temperatures",
+      "periodically changing out the old dirt for new potting mix",
+      "maybe go up a size or two in the planter",
+      "I'd check the roots just in case",
+      "move it to a brighter spot"
+    ]
+  },
+  "input_tokens": 8897,
+  "output_tokens": 1079,
+  "graded_at": "2026-10-30T00:10:47.810755+00:00",
+  "status": "graded_pending_review"
+}

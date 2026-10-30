@@ -1,0 +1,56 @@
+{
+  "job_id": "015-resolved",
+  "query_index": 15,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "f7e39769983e0806e36f9fe4c8831930268c8034d7c451e4ee9698879a9b13a0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot the peace lily into a bigger pot with good drainage",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Repot the palm into a pot with good drainage",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Top dress the repotted plants with sphagnum moss",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Water the peace lily thoroughly every 2 weeks",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check what water you use and whether you have been feeding it, to assess salt buildup",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Underwatering appears only as one of several competing guesses (overwatering, dense soil, salt buildup) and sunburn is only vaguely hinted at; watering is buried among repotting advice and moving the plant to indirect light is missing, but nothing here is likely to clearly worsen the plant."
+  },
+  "input_tokens": 2449,
+  "output_tokens": 984,
+  "graded_at": "2026-10-30T00:12:37.173336+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,49 @@
+{
+  "job_id": "094-resolved",
+  "query_index": 94,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "15348bbfb119808a2165ba0ef68e3b0c6bed75a41719ef5a35eac088ed3bb28d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Keep sprayed plants out of light until the oil-based spray dries",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Treat new plants with Captain Jack's when bringing them home and repotting",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Wipe off neem oil from leaves after treating",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use insecticidal soap against mites",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is scraped Facebook comments about light burn and mite treatments; it never identifies the Captain Jack's residue or suggests the lemon-water wipe, and it recommends nothing likely to harm the plant."
+  },
+  "input_tokens": 2635,
+  "output_tokens": 332,
+  "graded_at": "2026-10-30T00:16:26.075695+00:00",
+  "status": "graded_pending_review"
+}

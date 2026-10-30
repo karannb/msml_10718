@@ -1,0 +1,112 @@
+{
+  "job_id": "025-resolved",
+  "query_index": 25,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "eef75208c046aeb0915e832a3cd8c31f08c37698d6c0fd71528fb2af06e95c27",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Remove the basil from its pot and tease the crowded seedlings apart",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, soak the root ball in a bowl of water for a couple of minutes to loosen the seedlings",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot each seedling individually in small pots with drainage holes, using coco coir/perlite mix or compost",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Water the newly potted seedlings until water drains from the bottom",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place the plants somewhere bright and warm, such as a sunny south-facing window, getting 6+ hours of sun",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prune growing tips just above a leaf pair each time two new sets of leaves grow",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Propagate pruned cuttings in a glass of water after stripping the lower leaves, kept bright but out of direct sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot up rooted cuttings once the roots are a few cm long",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Buy a clip-on grow light and run it for 12 hours a day",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Keep the plant above 12°C, away from cold window sills at night and from radiators",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture with a moisture meter",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "When the soil is drying, give the plant a proper soak without leaving it waterlogged",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feed regularly with a balanced liquid fertilizer, especially if the leaves are pale or yellowing",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The generic basil video blames overcrowding and only mentions drying out as a general care point, so the soaking fix is buried among repotting, pruning and light advice; nothing it suggests is likely to harm the plant."
+  },
+  "input_tokens": 5867,
+  "output_tokens": 1590,
+  "graded_at": "2026-10-30T00:17:41.200281+00:00",
+  "status": "graded_pending_review"
+}

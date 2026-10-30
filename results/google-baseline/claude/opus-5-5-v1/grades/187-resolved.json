@@ -1,0 +1,112 @@
+{
+  "job_id": "187-resolved",
+  "query_index": 187,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "4404fec8ebe67e89896874ef6686ed0ace749dbbc13f8ec49e243b6202f134cc",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect plants, soil and nearby surfaces for adult gnats and check pots for excess moisture and organic debris",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place yellow sticky traps, cut into squares on skewers, in pots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 7,
+        "unclear": false
+      },
+      {
+        "action": "Place raw potato chunks cut side down in the soil, then remove and replace infested ones every few days",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 1,
+        "unclear": false
+      },
+      {
+        "action": "Let the soil surface dry between waterings",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Improve drainage by repotting in a mix with more perlite or sand",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Clean up standing water and fix any plumbing or irrigation leaks",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Buy and use only pasteurized potting mix, stored in a closed container",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Solarize potting soil in a plastic bag in the sun for 4 to 6 weeks",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Screen and caulk leaky windows and doors",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Throw out the plant if it is severely infested",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply a Bti product (e.g. Mosquito Bits, Gnatrol) as a soil drench, repeating about every five days",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Mail-order Steinernema feltiae nematodes and apply as a soil drench",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": false
+      },
+      {
+        "action": "If Bti or nematodes are unavailable, take the plant outdoors, spray the soil surface and plant with a pyrethrin product, and bring it back after a day",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic fungus gnat page that mentions overwatering and root decay only as more common causes of wilting; its moisture-reduction and drainage advice partly matches the fix but omits chopping the rot, and nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 6384,
+  "output_tokens": 1346,
+  "graded_at": "2026-10-30T00:14:40.645387+00:00",
+  "status": "graded_pending_review"
+}

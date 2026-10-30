@@ -1,0 +1,36 @@
+{
+  "job_id": "016-quality",
+  "query_index": 16,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "841e4124c83493430b985a7f01e3c49834d87b0d4e2f8c748e2802ce3429516a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a generic basil-care video transcript. Advice like \"On va arroser l'ensemble du terreau\", \"le basilic... avoir le cul mouillé mais pas trempé\" and \"au soleil plutôt du matin... pas en plein cagnard\" is benign and roughly suitable for a freshly transplanted plant. However, it never addresses the urgent collapse, so the user may not act quickly enough to rescue the wilting seedlings."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label, no time-to-severe estimate and no diagnosis of transplant shock. The output never mentions the seedlings collapsing minutes after repotting. It also omits the reference's rescue step of placing the stems in water to recover and regrow roots. Content such as \"Tu coupes à peu près à la deuxième ou troisième ramification\" and flower removal is irrelevant to 5 cm seedlings that wilted after transplant. The repotting technique segment is only loosely related and does not explain or fix the problem."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual steps (\"Fais un trou de la profondeur des racines\", watering, avoiding saucers) are simple for a home gardener. They are steps for a different task, general basil maintenance, not for reviving a wilted transplant. The rambling transcript format with off-topic content (Greek basil, Instagram plugs) leaves the user without a clear plan for their actual situation."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "arroser l'ensemble du terreau",
+      "les soucoupes sous les pots, ça t'oublie direct",
+      "mettre au soleil plutôt du matin tout début d'après-midi, pas en plein cagnard",
+      "on va prélever seulement sur les branches les plus fortes",
+      "Tu vas couper juste au-dessus de la ramification",
+      "je te conseille de les enlever les fleurs à chaque fois qu'elles se présentent",
+      "tu viens sur Insta, tu me poses tes questions en message privé"
+    ]
+  },
+  "input_tokens": 4740,
+  "output_tokens": 1100,
+  "graded_at": "2026-10-30T00:13:09.635696+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,42 @@
+{
+  "job_id": "017-resolved",
+  "query_index": 17,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "f55d145d27ac68840dc8eb5790937ce8c508cfca7ce60be35f5655a9bb3cdab9",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Replant the basil in very moist potting soil and place it in the shade",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "When replanting, lift the plants out with as much of the root ball as possible instead of pulling them",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Post a photo of the pot with the plants still in place",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer implies transplant damage from roots pulled without their root ball but never clearly names transplant shock; its advice to replant in very moist soil in shade roughly parallels the water-glass recovery without matching it, and nothing it suggests is likely to harm the plant."
+  },
+  "input_tokens": 1700,
+  "output_tokens": 620,
+  "graded_at": "2026-10-30T00:13:16.801669+00:00",
+  "status": "graded_pending_review"
+}

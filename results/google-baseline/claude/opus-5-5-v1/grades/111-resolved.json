@@ -1,0 +1,56 @@
+{
+  "job_id": "111-resolved",
+  "query_index": 111,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "4324bee03829b3923d88fadf82df61d6fea80f9dd9f54ff13fa8c3104f648cf3",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Let the soil dry out, then bottom-water the plant in the sink for 1-2 hours",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If no improvement in 2-3 weeks, unpot the plant and check the roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot one pot size smaller with fresh soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Water with distilled water instead of tap water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity around the plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "Humidity and moist soil appear only as short items among overwatering and pot-size suggestions, so both diagnosis and advice are partial; the lead advice to let an underwatered plant dry out further is likely to worsen it."
+  },
+  "input_tokens": 2373,
+  "output_tokens": 805,
+  "graded_at": "2026-10-30T00:13:40.216066+00:00",
+  "status": "graded_pending_review"
+}

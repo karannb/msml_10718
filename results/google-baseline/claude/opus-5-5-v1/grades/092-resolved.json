@@ -1,0 +1,105 @@
+{
+  "job_id": "092-resolved",
+  "query_index": 92,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "c658e36a0e993f3e0bf2990068fb901a84cba1a890c5f730a37aac6a42c938eb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Monitor new growth for a couple of weeks after bringing the tree home",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prune off brown or unsightly growth",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water thoroughly when the top of the soil feels somewhat dry, without letting it sit in water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Make sure the pot has drainage holes",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If a trunk rots and feels squishy, pluck it out",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place in bright light a couple of feet back from a south window, near other plants for humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Occasionally fertilize with Miracle-Gro indoor plant food during the growing season",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Shake the top of the tree occasionally to strengthen trunks",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rotate the plant for even light and growth",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Braid young pliable branches and tie them off with a twist tie",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prune lower leaves as the braid grows",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for a tie or rubber band at the base of the trunks and remove it",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is mostly a general care guide; it only mentions removing a tie at the base, which lets the bound trunks separate, as a buried side tip rather than identifying the tangled multiple trees as the cause, and none of its advice is likely to harm the plant."
+  },
+  "input_tokens": 4189,
+  "output_tokens": 1206,
+  "graded_at": "2026-10-30T00:15:50.008709+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,35 @@
+{
+  "job_id": "014-quality",
+  "query_index": 14,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7941318506ee8a20de39e84614bf9d64bba285ad08a349485bd42b68d2bfabca",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output tells the user to \"cut off all damaged or rotting leaves,\" \"remove all the old growing medium,\" \"cut off all the damaged roots,\" and then to \"place the plant in a cool airy spot for one day and do not water it.\" For a sunburned, thirsty peace lily, this is an invasive, unnecessary procedure that delays the one thing it needs, a good drink, and could kill a plant the housesitter doesn't own. The sugary coconut water and rice sprays may also encourage mold and gnats, and there is no warning that peace lilies are toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a generic video transcript about an \"anthurium\" with roots \"infected with mold\" (it even mentions \"orchid growing tips\"). The case and reference describe a peace lily with sunburn and underwatering after being moved. It misses the plant identity, the cause, and the fix, which is \"water it well then take it inside to a indirect bright room.\" Nothing ties it to evidence in this case."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The steps use household items (\"1 teaspoon of lemon juice\" in 500 ml water, \"100 milliliters of coconut water\" with 300 ml water, coir mix) and give quantities, so they are technically doable. However, the full repot, root surgery, soak, and DIY fertilizers take real effort. Instructions like \"sand or organic soil\" are ambiguous, and channel promotions are mixed in."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "cut off all damaged or rotting leaves",
+      "next we check the roots",
+      "remove all the old growing medium",
+      "with proper care the plant still has a chance to revive",
+      "place the plant in a spot with gentle sunlight",
+      "plant it in a new pot"
+    ]
+  },
+  "input_tokens": 5119,
+  "output_tokens": 1077,
+  "graded_at": "2026-10-30T00:12:26.727771+00:00",
+  "status": "graded_pending_review"
+}

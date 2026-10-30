@@ -1,0 +1,37 @@
+{
+  "job_id": "113-quality",
+  "query_index": 113,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c895b3220196548776232288ae93bfaea67995f7c556947aa06a82d9de00170b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The core message, \"give the plant time, and it will be fine\" and \"Keep the soil moist but not soggy,\" is safe for a drought-stressed peace lily that has just been soaked. The risks come from the irrelevant repotting and division advice (\"don't be afraid to cut the roots\"), which would add stress to a recovering plant. The Vitamin B1 recommendation is unproven but low-risk. There is no warning that peace lilies are toxic to pets and children, though no treatment here makes that critical."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a scraped blog page about peace lily shock, complete with commenter names and dates, not a response to this case. It mentions \"too dry\" and \"Forgot to water it a few days?\" but never names the three-week drought as the cause. It assumes \"Increased heat from summer\" when the user said winter, and discusses heat exposure, moves and transplant shock that do not apply. \"Give it time\" loosely matches the reference's advice to wait hours for recovery, and \"Misting\" faintly echoes the humidity fix, but the diagnosis is never clearly stated."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some steps are easy to follow: wait, keep the soil evenly moist, use the finger test, and move the plant away from vents. However, they are buried in a disorganized dump of blog comments addressed to other people (\"Pauline,\" \"Michelle,\" \"Candy\"). The detailed repotting and division instructions are unnecessary and confusing, so a user would struggle to pull out a clear plan."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "give the plant time, and it will be fine",
+      "make sure you are maintaining a healthy watering schedule",
+      "drainage is important; your peace lily pot should have drain holes",
+      "if you're plant is close to a window or vent, you might consider moving it away",
+      "Keeping moisture and temperature consistent is important",
+      "Misting you plant will also help",
+      "Move the peace lily to an area with a more acceptable temperature",
+      "it sounds like a possible pest or environmental issue"
+    ]
+  },
+  "input_tokens": 3477,
+  "output_tokens": 718,
+  "graded_at": "2026-10-30T00:14:30.019521+00:00",
+  "status": "graded_pending_review"
+}

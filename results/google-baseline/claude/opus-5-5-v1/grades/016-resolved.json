@@ -1,0 +1,63 @@
+{
+  "job_id": "016-resolved",
+  "query_index": 16,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "3592266c6860b93e4611f64dd00250e8ab6485c6d32d5969aa8f2225acee6f9a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot the basil into a larger pot filled with potting soil",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Separate the clump into individual stems with roots and plant 2-3 per pot in holes as deep as the roots, firming soil around them",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water all the soil after transplanting",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place pots in morning to early-afternoon sun rather than full sun all day",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Harvest by cutting strong stems just above the 2nd or 3rd side shoot instead of picking single leaves",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove flowers whenever they appear",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic basil-care video that never identifies transplant shock or suggests putting the wilted basil in water, and its advice to repot again and divide the root clump would further stress an already shocked plant."
+  },
+  "input_tokens": 4297,
+  "output_tokens": 831,
+  "graded_at": "2026-10-30T00:12:57.255130+00:00",
+  "status": "graded_pending_review"
+}

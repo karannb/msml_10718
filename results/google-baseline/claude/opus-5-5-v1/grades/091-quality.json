@@ -1,0 +1,33 @@
+{
+  "job_id": "091-quality",
+  "query_index": 91,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "88ac23ab47a0bd06bbce7cc91eadb6325e93e3c4516f4f11b0a1e5825287c875",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a raw scraped Reddit thread, not an assistant answer, so it contains unvetted and conflicting tips. \"I add a little (and I mean just a little) hydrogen peroxide\" gives no concentration or dose, and \"sealing the wound with wax from a candle\" is odd but low-risk. \"pothos ... have a strong rooting hormone that will help the monsteras root\" is a dubious claim stated with confidence. Nothing is likely to seriously harm the cutting or the person, but the missing caveats and contradictory instructions carry minor risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "There is no health label, no time-to-severe estimate and no coherent diagnosis. The REFERENCE says to remove the sphagnum moss, change the water less often (top it off instead) and be patient. The output never says to remove the moss, and it repeatedly pushes the opposite of reducing changes: \"change the water often\" and \"Change the water at least once a week.\" Some comments do cite case evidence, such as \"Keeping water below the first node is part of the issue\" and \"Based on the rot marks it looks like you don't have deep enough water,\" but these focus on node submersion rather than the reference's diagnosis."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual tips are things a home grower can do, for example \"get a bigger glass (like a mason jar) and make sure those nodes are completely covered.\" However, the output is a fragmented dump interleaved with UI elements and ads (\"Novasource Renal,\" \"Merino socks\"), so it is hard to follow. It also contradicts itself on drying time (\"about a day\" vs. \"2 days\") and on water-change frequency. There is no clear, ordered plan a user could follow this week."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "I give mine lots of light and change the water often",
+      "How much light are they getting",
+      "just sit back and wait",
+      "Change the water at least once a week"
+    ]
+  },
+  "input_tokens": 27146,
+  "output_tokens": 1087,
+  "graded_at": "2026-10-30T00:15:38.886921+00:00",
+  "status": "graded_pending_review"
+}

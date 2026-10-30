@@ -1,0 +1,56 @@
+{
+  "job_id": "099-resolved",
+  "query_index": 99,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "e2015343dc26b5897087712e5eb9b77965e8e4f6049e700725884f96a3ecf3cc",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Move the plant to a spot with bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water with rainwater or distilled water only",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Group the plant near other plants to raise local humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep the soil consistently moist to address underwatering",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the plant for pests such as spider mites",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Humidity is only one of several conflicting causes named (light, water quality, under- and overwatering, pests); grouping plants only hints at the humidity fix, and the claim that it doesn't need high humidity could delay the needed fix."
+  },
+  "input_tokens": 2532,
+  "output_tokens": 726,
+  "graded_at": "2026-10-29T22:37:52.975442+00:00",
+  "status": "graded_pending_review"
+}

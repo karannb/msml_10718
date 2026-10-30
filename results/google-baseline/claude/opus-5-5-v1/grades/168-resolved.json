@@ -1,0 +1,70 @@
+{
+  "job_id": "168-resolved",
+  "query_index": 168,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "25735b7552ac7534818093b32c9d4b42d407fe72ec1a67500467c79cf702d631",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Remove the plant from its pot and wash all old soil off the roots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak the bare roots for about 30 minutes in water with 3% hydrogen peroxide (1 tsp per 1.5 L)",
+        "minutes": 35,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Keep the plant in a container of plain water for about a month to regrow roots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off the top part and try rooting it in water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a new pot with peat-based universal soil and perlite, optionally with expanded clay at the bottom, keeping the stem base shallow",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Give the first watering with hydrogen peroxide solution (1 tsp per liter)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the topsoil with a finger and water only when the top layer is dry",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer explicitly gives no diagnosis. Its soak in water partly overlaps the fix, but it is buried in drastic steps. Bare-rooting and month-long water culture of a merely dry plant risks root stress and rot."
+  },
+  "input_tokens": 2491,
+  "output_tokens": 1305,
+  "graded_at": "2026-10-29T22:37:08.080557+00:00",
+  "status": "graded_pending_review"
+}

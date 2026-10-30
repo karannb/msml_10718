@@ -1,0 +1,38 @@
+{
+  "job_id": "010-quality",
+  "query_index": 10,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "53af9e7d3848f01da683316dfeb1f652b84bc4b6b034631d5de85378e7668e3d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a generic article and does not tell the user to do anything clearly damaging for an underwatered croton. 'Keep Croton well watered and do not allow the plant to dry out' points in the right direction. Minor risks come from irrelevant interventions, such as 'cotton pad wetted with isopropyl alcohol', 'heavy pruning of affected branches' and 'If galls are seen on the roots, dispose of the plant altogether'. These could prompt unnecessary actions or delay the simple fix. It also omits the warning that croton sap is toxic and irritating to people and pets, which matters because it suggests pruning and handling."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is scraped web content with no reference to the case evidence (droop that recovers after watering then returns in 2 days, bottom leaf drop, crusty fallen leaves). It mentions 'Leaf drop can also indicate overwatering or underwatering' and 'Insufficient watering during the growing season'. However, it never commits to a diagnosis. It also misses the reference's key point: water less often but thoroughly, for example by bottom watering or soaking the root ball. Most of the content (crown gall, anthracnose, scale, spider mites, patio plants, hoses, soaker hoses) is unrelated to this plant."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps such as misting or wiping leaves with alcohol are doable. However, the user, who is already overwhelmed by conflicting information, gets a long list of possibilities with no prioritization or clear action plan. Several steps assume outdoor equipment or settings ('sharp stream of water from a hose outdoors', 'soaker hoses or drip irrigation', 'Move the plant indoors if it is growing on a patio') that do not fit an indoor houseplant. The one relevant fix, 'water the plant consistently', is vague and gives no method or frequency."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Position Croton in indirect bright light for at least 4-5 hours a day",
+      "Leaf drop can also indicate overwatering or underwatering",
+      "Croton requires consistently moist soil while actively growing",
+      "use a fine mist sprayer to raise the humidity around the plant and water the plant consistently",
+      "ensure that your Croton is not near air conditioning vents, fans, or uninsulated windows",
+      "Quarantining your houseplants before bringing them in for the winter",
+      "Avoiding high nitrogen fertilizer will also keep plants healthier",
+      "Provide plenty of space between plants to allow good air circulation",
+      "Remove any affected foliage as soon as possible"
+    ]
+  },
+  "input_tokens": 4201,
+  "output_tokens": 1295,
+  "graded_at": "2026-10-30T00:11:10.588060+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,34 @@
+{
+  "job_id": "168-quality",
+  "query_index": 168,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "4645a2073d44dfdf1369667b54fc93c50a3c085d5c84da45d1c4aae0c1d4f539",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output says \"Removing all the old soil gives it a fresh start\", then describes a peroxide soak and keeping the plant in \"plain water\" for \"a month already\". For a drought-stressed Kalanchoe (a succulent), stripping the roots and leaving them in water for weeks is drastic and invites rot. The video itself admits \"the top part... rotted\". The dilute 3% hydrogen peroxide is low risk, but the overall procedure could seriously harm a plant that only needs a deep soak."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a generic rescue-video transcript about a \"schefflera — also known as the umbrella plant\", not the user's widow's thrill Kalanchoe. It explicitly dismisses diagnosis: \"It doesn't matter what brought the plant to this state.\" It never identifies underwatering or hydrophobic soil that isn't absorbing water. It also never suggests the reference fix of bottom-soaking the pot for an hour."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps such as \"One teaspoon of hydrogen peroxide is enough for one and a half liters of water\" and repotting in \"peat-based soil with perlite\" are things a home owner could physically do. However, they are presented as a narrated video about a different plant. They require a month-long water-culture phase that is inappropriate here, and they give no clear plan for this case."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "It doesn't matter what brought the plant to this state.",
+      "This method works almost every time, no matter the cause.",
+      "Sometimes, all a plant needs is calm light, a bit of water, someone who believes in it — and a little time.",
+      "Right now, the plant needs a careful balance — not too wet, not too dry.",
+      "I only water when the top layer of soil feels dry under my finger."
+    ]
+  },
+  "input_tokens": 2999,
+  "output_tokens": 881,
+  "graded_at": "2026-10-29T22:37:18.063921+00:00",
+  "status": "graded_pending_review"
+}

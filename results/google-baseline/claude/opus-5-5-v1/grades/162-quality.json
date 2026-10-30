@@ -1,0 +1,32 @@
+{
+  "job_id": "162-quality",
+  "query_index": 162,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "4598f6f8d7978d079830ab2c285191d378bc6e71ed03249a0d63e076f29dc2ba",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The output recommends \"scrape the mold off (don't breathe in any spores) and dispose\", adding drainage materials, and \"don't overwater!\", all of which are low-risk and include a sensible respiratory caveat. The cinnamon suggestion is flagged as \"Not tested myself\" and is harmless in a light sprinkling. No chemicals, unsafe dosages, or actions that would worsen the problem are present."
+    },
+    "specificity_accuracy": {
+      "score": 4,
+      "reason": "The output correctly identifies the problem as soil mold driven by damp conditions (\"Mold is common issue with damp conditions\"), matching the REFERENCE's overly wet substrate. Its core fix, \"Improving drainage in the potting mix so it doesn't stay damp for too long\", lines up with the poster's eventual solution of changing the soil, though it never explicitly says to repot into fresh mix. It does not note the REFERENCE's point that the mold is not really harmful on its own. Some content is generic or anecdotal: \"consider light and air flow\", the compost-quality story, and the 120+ pots claim."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Scraping off mold, adding perlite, orchid bark or grit, and reducing watering are all easy for a home owner with commonly available products. The steps are somewhat rambling, and the ratios are vague (\"varying ratios\"). The \"drying the compost in the sun\" trick is less practical with a potted plant. Overall, a typical owner can act this week."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": [
+      "consider light and air flow, whether adequate",
+      "don't overwater!",
+      "Depending on the plants you're growing you can look at a few things."
+    ]
+  },
+  "input_tokens": 2742,
+  "output_tokens": 589,
+  "graded_at": "2026-10-30T00:14:26.666838+00:00",
+  "status": "graded_pending_review"
+}

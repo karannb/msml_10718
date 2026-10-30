@@ -1,0 +1,30 @@
+{
+  "job_id": "120-quality",
+  "query_index": 120,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "de46ecc459b5f6cca7e7d5310760194a7bc4d19096e86c27ecf0ed5250ae25b5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output says \"Neem oil is a good, all round deterrent,\" which is safe but only endorses what the user says is already failing. The aside \"it's not likely spider mites though. Maybe scale?\" could cause slight confusion or delay escalation. There are no dangerous chemicals or dosages, but no pet or toxicity caveats either, and none are strictly needed here."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output does mention spider mites (\"super teeny red spiders... you may see their webs\"), which is the confirmed problem. However, it hedges toward scale and offers no escalation such as the systemic insecticide (Bonide systemic) recommended in the REFERENCE. It does not engage with the case-specific evidence that neem and soap are not working, and it includes a stray name (\"Lindsay Daun\"). It provides no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "There is almost nothing actionable. Identification tips (\"look for webs\") and continuing neem are easy to do but are not a plan. The output gives no steps, frequency, or alternative treatment, so the user has no clear next action beyond what they are already doing."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Neem oil is a good, all round deterrent."
+    ]
+  },
+  "input_tokens": 1892,
+  "output_tokens": 718,
+  "graded_at": "2026-10-29T22:37:08.121504+00:00",
+  "status": "graded_pending_review"
+}

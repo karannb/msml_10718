@@ -1,0 +1,112 @@
+{
+  "job_id": "090-resolved",
+  "query_index": 90,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "9d7919a2c399e566ddd08b02b57545e51c9e2364a52a44308dd65112654973bb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Add a pothos or other quick-rooting cutting to the water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Pot the cutting in soil instead of water",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Use air layering instead",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Add Liquidirt to the water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Add a bubbler or air stone to the water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Keep the water warm, around 25C or more",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": true
+      },
+      {
+        "action": "Change the water daily",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Photograph or inspect the node for rot",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut off a leaf, such as the lowest one",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash the vase weekly and add a few drops of Miracle-Gro indoor liquid",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Place the cutting in bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Fully submerge the aerial roots",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the stem for aqueous callouses",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The scraped thread mostly attributes the problem to big cuttings being slow and buries 'quit messing with it' among many suggestions, never mentions removing the moss, and includes advice to change the water daily, which directly counters the fix."
+  },
+  "input_tokens": 23597,
+  "output_tokens": 1485,
+  "graded_at": "2026-10-30T00:15:04.936565+00:00",
+  "status": "graded_pending_review"
+}

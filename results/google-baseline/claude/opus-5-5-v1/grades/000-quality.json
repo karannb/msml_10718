@@ -1,0 +1,30 @@
+{
+  "job_id": "000-quality",
+  "query_index": 0,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "04996cf6948d7f0e00ff9c13851c655b25294a0e75b7625ac6bd1a335abac3d6",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output says \"It looks fine to me\", but the case describes an ongoing thrips infestation and spreading yellow/brown patches. That false reassurance could delay needed pest treatment. \"just make sure the soil is damp\" encourages keeping soil constantly moist, which risks overwatering and root problems for Monstera adansonii. Neither problem is likely to kill the plant immediately, but the advice could let the infestation continue."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "\"It looks fine to me\" is the wrong diagnosis. The plant has a confirmed thrips infestation, and the reference adds low light, given its placement 3 m from the window. The output ignores the poster's reports of thrips, leaf patches and possible sulphur burn. It offers only a generic watering tip, unrelated to the reference advice to treat for thrips (e.g., Captain Jack's or Celaflor) and chop and propagate the healthy parts."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Keeping soil damp is easy to do, but \"make sure the soil is damp\" is vague about how often or how much to water. More importantly, the output gives no actionable steps for the plant's actual problem, so carrying it out would not help."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "just make sure the soil is damp"
+    ]
+  },
+  "input_tokens": 2100,
+  "output_tokens": 466,
+  "graded_at": "2026-10-29T22:35:07.081355+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "066-quality",
+  "query_index": 66,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "91222245f50160bbd6ae1743163ef7c2220bae306eb263a5b13cd386db485336",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output gives a mild recipe, \"Mix 1 to 2 tablespoons of apple cider vinegar with a gallon of water,\" and warns that vinegar can \"burn the leaves or worse,\" so direct harm at that dilution is limited. However, it also says \"avoid spraying vinegar directly on plants because it can burn the foliage,\" which contradicts the fungicide recipe and leaves the user unsure whether to continue spraying. By implicitly endorsing ACV as an effective fungicide, it could delay the treatment the reference shows worked: removing affected leaves and using a proper copper fungicide. It gives no guidance on how strong the plant store's spray was or how to check the leaves for burn."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is scraped web content about apple cider vinegar in general: weed control (\"Vinegar is best for\"), tool cleaning (\"Clean And Sanitize Garden Tools\") and soil pH for \"blueberries, azaleas, and gardenias.\" It provides no health label, no time-to-severe estimate and no diagnosis tied to the case's leaf spots or musty soil. It never recommends cutting off affected leaves or using a store-bought or copper fungicide, which is the reference's core advice. The only loosely relevant line, \"Diluted apple cider vinegar can keep powdery mildew, blight, black spot... from developing,\" is generic and not tailored to this plant."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The dilution \"1 to 2 tablespoons... with a gallon of water\" is concrete and easy to make at home. Otherwise the content is a disorganized fragment with truncated sentences (\"For stubborn grime or\") and contradictory instructions about spraying foliage. Most of the steps, such as soaking rusty tools overnight or adjusting soil pH, are irrelevant to the user's problem, so there is no clear action plan to follow this week."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "it should be highly diluted and used with caution to avoid burning foliage",
+      "use it sparingly",
+      "Keep garden tools sanitized between uses",
+      "amend the soil with organic material like sphagnum peat moss or use acidic fertilizer instead"
+    ]
+  },
+  "input_tokens": 2892,
+  "output_tokens": 1202,
+  "graded_at": "2026-10-30T00:14:35.181919+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,42 @@
+{
+  "job_id": "120-resolved",
+  "query_index": 120,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "66ad2cf657e144bb9a8771df000d030893e44cc97e16c30a247f55241c74db8d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect the plant for tiny red spider mites or their webbing",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for a sticky residue that would suggest scale rather than spider mites",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply neem oil as a general pest deterrent",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer raises spider mites but hedges toward scale, and recommends only neem oil as a deterrent rather than the systemic treatment that worked; the neem advice is not harmful, just weak."
+  },
+  "input_tokens": 1550,
+  "output_tokens": 513,
+  "graded_at": "2026-10-29T22:37:00.204691+00:00",
+  "status": "graded_pending_review"
+}

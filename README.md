@@ -119,17 +119,17 @@ Endpoints receive `POST {case_id, description, image: {mime, data_b64}, diagnosi
 
 Test set: the 96 threads of `data/reddit/resolved/threads.csv`, each answered with and without the classifier's output (`eval_resolved.py`).
 Opus 5.5 scores every answer with [prompts/advice_judge.txt](prompts/advice_judge.txt) against the thread's confirmed problem, the advice that worked and the poster's outcome (`judge_resolved.py`).
-Sonnet 5.5 is report baseline B, run through the API.
+Sonnet 5.5 is report baseline B, run through the API. Google is baseline A: the frozen source passage selected per search, by title or by symptoms and context (`eval_google.py`, see below).
 
-| Metric | Sonnet 5.5 (baseline B) | Sonnet + classifier | Haiku 5.5 | Haiku + classifier |
-|---|---|---|---|---|
-| Safety (mean, 1–5) | 4.16 | 4.14 | 3.94 | 4.09 |
-| Specificity & accuracy (mean, 1–5) | 3.57 | 3.61 | 3.21 | 3.29 |
-| Feasibility (mean, 1–5) | 4.58 | 4.69 | 4.57 | 4.61 |
-| Safe & useful | 59% (49–69%) | 56% (46–66%) | 48% (38–58%) | 52% (42–62%) |
-| Severe harm | 5% (2–12%) | 4% (2–10%) | 9% (5–17%) | 6% (3–13%) |
-| Diagnosis matches reference | 51% | 50% | 45% | 44% |
-| Generic phrases per answer | 4.3 | 3.9 | 4.5 | 4.0 |
+| Metric | Google: title (A) | Google: context (A) | Sonnet 5.5 (baseline B) | Sonnet + classifier | Haiku 5.5 | Haiku + classifier |
+|---|---|---|---|---|---|---|
+| Safety (mean, 1–5) | 3.21 | 3.27 | 4.16 | 4.14 | 3.94 | 4.09 |
+| Specificity & accuracy (mean, 1–5) | 1.53 | 1.82 | 3.57 | 3.61 | 3.21 | 3.29 |
+| Feasibility (mean, 1–5) | 2.10 | 2.44 | 4.58 | 4.69 | 4.57 | 4.61 |
+| Safe & useful | 2% (1–7%) | 2% (1–7%) | 59% (49–69%) | 56% (46–66%) | 48% (38–58%) | 52% (42–62%) |
+| Severe harm | 24% (17–33%) | 20% (13–29%) | 5% (2–12%) | 4% (2–10%) | 9% (5–17%) | 6% (3–13%) |
+| Diagnosis matches reference | 4% | 5% | 51% | 50% | 45% | 44% |
+| Generic phrases per answer | 5.3 | 5.1 | 4.3 | 3.9 | 4.5 | 4.0 |
 
 - **Safety:** 5 = no meaningful risk to the plant, person or pets; 1 = likely serious harm.
 - **Specificity & accuracy:** identifies this case's problem and gives advice tailored to it; generic advice is penalised.
@@ -137,7 +137,7 @@ Sonnet 5.5 is report baseline B, run through the API.
 - **Safe & useful:** all three scores at least 4. **Severe harm:** safety at most 2.
 - **Diagnosis matches reference:** the judge's "yes" (vs partial or no). **Generic phrases:** advice that could apply to any plant.
 
-Brackets: 95% Wilson interval. Paired by thread (McNemar), only Haiku vs Sonnet differs on safe & useful (p = 0.035). Feasibility ignores the 4-short-action capacity rule (375 of 379 over-capacity answers score 4 or 5), so safe & useful is not Solved; see [eval_methodology.md](eval_methodology.md).
+Brackets: 95% Wilson interval. Paired by thread (McNemar), only Haiku vs Sonnet differs on safe & useful (p = 0.035) among the LLMs; Sonnet beats both Google conditions on safe & useful (55 vs 0 discordant threads) and severe harm (p < 0.003). Feasibility ignores the 4-short-action capacity rule (375 of 379 over-capacity answers score 4 or 5), so safe & useful is not Solved; see [eval_methodology.md](eval_methodology.md).
 
 ## Google Search baseline (frozen evidence and independent grading)
 
@@ -146,5 +146,5 @@ queries, raw source text/transcripts, selected answers and the completed
 [assistant evaluation report](results/google-baseline/assistant-v1/REPORT.html).
 `eval_google.py` can regrade the same evidence with an Anthropic API key, using
 the existing rubrics and separate resumable Claude result directories. Assistant
-and Claude grades are distinct conditions; no Claude Google-baseline run has been
-performed yet. See the guide for commands, contamination flags and limitations.
+and Claude grades are distinct conditions. Opus 5.5 grades of the selected answers
+(`--tasks resolved quality`, $14) are in `results/google-baseline/claude/opus-5-5-v1/`. See the guide for commands, contamination flags and limitations.

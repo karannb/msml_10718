@@ -1,0 +1,28 @@
+{
+  "job_id": "049-quality",
+  "query_index": 49,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "341bfc814d415a0a4aae1c49b2860a18c966a8936b5e87e05372a811407c7a69",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output says \"It takes time to harden off and will turn white like the others no worries\" and \"Newest leaf. Yellowy normal.\" This treats the yellowing as normal new-leaf coloration. The user would likely keep watering every 4 days in a pot without drainage, which the REFERENCE confirms is the cause. That reassurance delays the needed fix and risks continued damage or root rot."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is scraped Facebook comment markup (URLs, reaction buttons, commenter names) from an unrelated thread about variegated leaves. Its implied diagnosis, normal hardening-off of a new leaf, is wrong for this Frydek. It never addresses overwatering, watering frequency, drainage or letting the soil dry, all of which the REFERENCE identifies."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "There are no actionable care steps. The only guidance is \"no worries\" and waiting for the leaf to turn white, and most of the content is page markup and links. A plant owner cannot carry out anything useful from this."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "input_tokens": 2968,
+  "output_tokens": 603,
+  "graded_at": "2026-10-29T22:37:21.469473+00:00",
+  "status": "graded_pending_review"
+}

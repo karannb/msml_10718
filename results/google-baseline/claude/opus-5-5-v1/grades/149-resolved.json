@@ -1,0 +1,84 @@
+{
+  "job_id": "149-resolved",
+  "query_index": 149,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "f9d06df21e506fb3e6d61e940b472cdf713f6212a45e5232fa246179fb48ce58",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Cut back the long vines hard",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into fresh soil and a bigger pot",
+        "minutes": 25,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Propagate cuttings below nodes in glasses of water",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak the entire pot with water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil dryness before watering",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep plant out of direct sun / return it to its previous happy spot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Give the plant a moss pole to climb",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Coil long vines in the pot and cover nodes with shallow soil to root",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Plant water cuttings in soil once roots exceed 10 cm",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a scraped thread dump whose opening comment says to cut it back, repot, and propagate, matching the confirmed fix, but this is buried among many comments blaming thirst or transplant shock. This makes the diagnosis and advice partial, and nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 9249,
+  "output_tokens": 1019,
+  "graded_at": "2026-10-29T22:38:26.833812+00:00",
+  "status": "graded_pending_review"
+}

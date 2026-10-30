@@ -1,0 +1,56 @@
+{
+  "job_id": "030-resolved",
+  "query_index": 30,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "866186cc2ea9d8a4dd5d922d61d2cedf500081a96d2def20438cb05ec47de739",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the plants thoroughly now",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water much more often while the plants are outdoors in the sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, move the plants into larger pots that hold water longer",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Add a layer of mulch to keep the soil from drying out",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Give the plants shade during the hottest part of the day",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer correctly calls the problem dehydration and suggests more frequent watering or larger pots, but it misses the drainage-hole repot, fresh soil and bottom-soaking fix, and nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 17178,
+  "output_tokens": 840,
+  "graded_at": "2026-10-30T00:19:08.035898+00:00",
+  "status": "graded_pending_review"
+}

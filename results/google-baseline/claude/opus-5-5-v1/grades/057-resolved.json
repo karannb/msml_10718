@@ -1,0 +1,98 @@
+{
+  "job_id": "057-resolved",
+  "query_index": 57,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "7d7e6f6a7e5128b619ade5a3a082a0ba34d71a75241d0ed1a624f3cd679eb582",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": true,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the plant thoroughly (fully soak or bottom water until excess drains)",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feel the soil before watering to check dryness",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant closer to the window",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Measure light with a light meter app",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Get a humidity reader and/or humidifier",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Buy and use a moisture meter",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Stand pot in a tub of water for a few hours to rehydrate, then drain",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If soil won't rewet, repot into a better mix",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Cut off dead and damaged parts",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wash the windows",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check whether plants are near heat or air vents and move them away",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer insists the plant is not normal and is thirsty/low on light, missing that the oxlip was healthy with flowers naturally fading, and never suggests deadheading; its watering and light tips are mostly safeguarded and unlikely to seriously harm the plant."
+  },
+  "input_tokens": 9582,
+  "output_tokens": 1043,
+  "graded_at": "2026-10-30T00:11:14.827873+00:00",
+  "status": "graded_pending_review"
+}

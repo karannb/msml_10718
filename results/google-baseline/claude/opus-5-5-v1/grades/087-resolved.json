@@ -1,0 +1,49 @@
+{
+  "job_id": "087-resolved",
+  "query_index": 87,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "5dd72723ff9995f6f94df58d6ee2d5be655238787eb404a9c7bc415dcef9c3f3",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Wait until pilea pup has 4-5 leaves (or quarter-sized leaves) before separating",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Sever pup from mother plant roots under the soil with a clean sharp knife",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot pup into a small pot with well-draining soil, not buried too deep",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "Keep the pup's soil lightly moist",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer only covers propagating Pilea pups and never addresses light placement or rearranging the plants, which was the fix that worked, but nothing it recommends would harm the plants."
+  },
+  "input_tokens": 2110,
+  "output_tokens": 340,
+  "graded_at": "2026-10-30T00:14:10.479323+00:00",
+  "status": "graded_pending_review"
+}

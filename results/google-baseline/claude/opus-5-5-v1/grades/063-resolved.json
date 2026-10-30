@@ -1,0 +1,126 @@
+{
+  "job_id": "063-resolved",
+  "query_index": 63,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "9ca8393193f2d53a67a50c4d34d446a8812189a13ec3e44d81e2ef4746b86e9e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Wear protective gloves and eyewear while pruning",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Sterilize pruning tools with rubbing alcohol or diluted bleach",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Lay a tarp or old sheet around the plant base",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply Ferber Painting Cactus Fertilizer a few weeks before pruning",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": true
+      },
+      {
+        "action": "Inspect the plant from all angles for dead or damaged leaves and offsets",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Photograph the plant before pruning",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut dead or damaged leaves and offsets close to the base at an angle",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Re-sterilize the blade between cuts",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Leave the plant in a dry, shaded spot to callus, away from rain or irrigation",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Touch the wound to check whether it has calloused",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Callus cut offsets for several days before planting",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Resume a regular fertilizer feeding schedule after recovery",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Monitor for discoloration, softness or wilting for 2-3 weeks",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If stress symptoms appear, reduce watering and move the plant to a well-draining location",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If rot is severe, remove infected tissue around the area",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic agave-pruning ad for fertilizer never says the plant is healthy with a minor thorn wound; keeping wounds dry while they callus is buried among product promotion, and the extra steps are unnecessary but unlikely to seriously harm the plant."
+  },
+  "input_tokens": 7814,
+  "output_tokens": 1504,
+  "graded_at": "2026-10-30T00:13:10.658080+00:00",
+  "status": "graded_pending_review"
+}

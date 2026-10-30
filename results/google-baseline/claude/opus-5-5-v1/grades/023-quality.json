@@ -1,0 +1,40 @@
+{
+  "job_id": "023-quality",
+  "query_index": 23,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "313478b5a166bd5a1904dc3aba1b598022fd19af2e957dba31cd3c7470708111",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output opens with 'That's moisture related almost definitely... might be worth pulling it out, cutting off dead roots, and putting it in a soil mix.' Uprooting and root-pruning a tiny, cold-stressed Monstera obliqua could easily kill it. The confident misdiagnosis delays the correct response: chop above the soil, withhold water, and raise humidity under a jar. Scattered tips such as 'water with liquid fertilizer diluted to 1/4th strength every watering' would add stress to a damaged plant, and there are no caveats."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output never mentions cold damage, even though the case title, the transport story and the reference all point to it. Instead it says 'moisture related' and 'Likely over watering.' It appears to be a scraped Reddit thread from a different post: it refers to adansonii, moss poles, zip ties, and leggy growth from too much fertilizer. None of the reference advice (cut about 1 cm above the soil, don't water, cover with a glass jar) appears."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual tips are things a home owner could do, such as 'Use a chopstick or a wooden pencil,' 'get a small humidifier,' or 'add some perlite.' However, the output is an unstructured dump of contradictory comments. One says 'water once a week, fertilize every water,' while another says to hold off on fertilizer for two months. Another claims 'this plant doesn't like too much light' while others recommend more light. A user would have no clear plan to follow."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "let it dry out more between watering",
+      "Make sure you have well draining soil",
+      "Check the soil with a moisture meter before watering",
+      "you never want to water plants on a schedule",
+      "It will also not hurt to get a small humidifier for it",
+      "Add some perlite to the soil to aerate",
+      "make sure you're not fertilising too much",
+      "Don't overwater either",
+      "Make sure your pot has drainage",
+      "you may want to do that this spring, it may need a bigger pot",
+      "Do some research into aroid potting mix"
+    ]
+  },
+  "input_tokens": 9677,
+  "output_tokens": 945,
+  "graded_at": "2026-10-30T00:15:40.825159+00:00",
+  "status": "graded_pending_review"
+}

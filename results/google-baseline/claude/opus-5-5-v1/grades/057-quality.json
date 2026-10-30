@@ -1,0 +1,38 @@
+{
+  "job_id": "057-quality",
+  "query_index": 57,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "6e3167d2837a3b03b8c0283aead990e0506ea66d12fc480e2bf65cb041117bc0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output says \"This isn't normal\" and repeatedly pushes more water (\"they look very thirsty\", \"Water your plants dude\", \"drown that hoe\"). The user already waters whenever the soil is dry, and the plant is healthy, so this invites overwatering and crown/root rot in a primrose. It also recommends that \"repotting is urgent\" and soaking pots for hours, which would needlessly stress a healthy flowering plant. It creates false alarm and gives no relevant caveats."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped Reddit thread about other plants. It mentions a \"pothos\" and \"monstera\" and assumes the plant is \"8 ft from a window\", none of which appear in the CASE. Its diagnosis (\"This isn't normal\", underwatering/low light) contradicts the REFERENCE, which says the plant is healthy and the old flowers are fading naturally. It never mentions deadheading spent flowers, and it never answers the user's question about shade versus sun on the balcony."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The content is a disjointed dump of Reddit comments, including UI artifacts like \"11 more replies\" buttons and profile links. The comments contradict each other (\"water every 5-7 days\" vs \"once a month or even less\"), and some suggest buying a light meter, humidifier or moisture meter. No clear, coherent steps apply to this oxlip, so a user could not act on it sensibly."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Do you run the heat often and are they near air vents?",
+      "What direction does your window face?",
+      "feel the soil beforehand and then water thoroughly until the excess drains out",
+      "Consider using a light meter",
+      "Washing windows helps too",
+      "get some moisture meters",
+      "You can get a humidity reader and/or humidifiers",
+      "Repot into a better mix",
+      "cut off the dead and damaged parts"
+    ]
+  },
+  "input_tokens": 10161,
+  "output_tokens": 1203,
+  "graded_at": "2026-10-30T00:11:27.366107+00:00",
+  "status": "graded_pending_review"
+}

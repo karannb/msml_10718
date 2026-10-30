@@ -1,0 +1,28 @@
+{
+  "job_id": "129-resolved",
+  "query_index": 129,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "ae0e3124975d6c68c1375443df935b3ce6c83c02590efab71152803ea51db4d6",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Wrap the long trailing stem around in the pot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is unrelated scraped content about propagating a Scindapsus. It never mentions the stuck leaf, low humidity or misting and brushing the leaf free, but nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 2237,
+  "output_tokens": 371,
+  "graded_at": "2026-10-30T00:11:40.596457+00:00",
+  "status": "graded_pending_review"
+}

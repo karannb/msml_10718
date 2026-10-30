@@ -1,0 +1,31 @@
+{
+  "job_id": "043-quality",
+  "query_index": 43,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "79beaa7b41d25c0b2b0d9a128046d11bde0a5f92a24efc25aaa2459cf5806821",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "Mary Wolff's line, \"The only way to get it back to purple is to headchop it. Even if you have it in the right light now it will stay green,\" contradicts the REFERENCE, where colour returned with more light. It could push the owner to cut an otherwise recoverable plant. The output also never warns against touching or spraying the farina, and it is silent on the 'mold' worry, so the owner might wipe or treat the leaves."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "Several lines match the REFERENCE: \"It is etiolating, stretching for light. Echeverias especially need a ton of light\" and \"The green is how long it hasn't received the right amount of light.\" However, it misses that the powdery coating is normal farina, the user's main 'green mold' concern. It wrongly claims the purple won't return without a headchop. It never answers the grow-light duration or soil questions, or says that grow lights alone are weaker than sun."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The output is a raw scraped Facebook thread with URLs, buttons, and truncated text (\"I …\", \"See more\"), not structured care advice. It has no health label or time-to-severe estimate. The only actionable guidance, \"give it a grow light or more sun light exposure,\" has no hours, placement or intensity. The headchop suggestion is unexplained."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "You need to either give it a grow light or more sun light exposure",
+      "When kept indoors they need a good grow light"
+    ]
+  },
+  "input_tokens": 3203,
+  "output_tokens": 883,
+  "graded_at": "2026-10-30T00:19:54.745654+00:00",
+  "status": "graded_pending_review"
+}

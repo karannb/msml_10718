@@ -1,0 +1,77 @@
+{
+  "job_id": "048-resolved",
+  "query_index": 48,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "230a7368f87fbc14b2fe6488f71a2508afa5e1ede73f4a447b2b26c5627ebbd9",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Inspect spot shape, size, texture and whether it is spreading over days",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Review recent changes (watering frequency, heat, light, airflow)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check plant at night for pests like thrips",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Let soil dry properly between waterings",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Improve airflow around the plant",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "If thrips found, apply thrips-specific treatment on a schedule",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Check roots after adjusting watering and airflow",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut leaf if fungal damage is actively spreading or thrips damage is severe",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic leaf-spot article that does not diagnose overwatering or drainage problems and plays overwatering down, though it does include letting the soil dry among many other steps, and nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 11177,
+  "output_tokens": 546,
+  "graded_at": "2026-10-29T22:36:59.384597+00:00",
+  "status": "graded_pending_review"
+}

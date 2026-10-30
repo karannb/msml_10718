@@ -1,0 +1,91 @@
+{
+  "job_id": "024-resolved",
+  "query_index": 24,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "438426e4e134630700efb83ef6bef0a7a67aa76ca15d2c396c288d2262b99e6d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Wait 3-4 days between waterings until the soil is completely dry",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Feed the plant with fish emulsion",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Transplant into a bigger pot or the ground",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Buy a new basil plant",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Prune tops above nodes and tie branches down (topping/supercropping)",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix Soil Moist water-retaining granules into the soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively add worm castings to retain water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Grow new basil from seed",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Protect the plant from cold wind on the balcony",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Pinch off brown, yellow or dead leaves and stems",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer diagnoses overwatering and advises letting the soil dry out further, or giving up on the plant. The plant was actually underwatered, so this advice would have delayed the soak it needed and made it worse."
+  },
+  "input_tokens": 4778,
+  "output_tokens": 861,
+  "graded_at": "2026-10-30T00:17:17.439869+00:00",
+  "status": "graded_pending_review"
+}

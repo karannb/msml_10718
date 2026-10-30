@@ -1,0 +1,33 @@
+{
+  "job_id": "183-quality",
+  "query_index": 183,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "21800e40e8e2e406a112b9186db42a736119efb62a34d3a3ca83a305fc799bc4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output claims \"Contrary to popular belief, giving a wilting plant extra water isn't the answer\" and \"If you see moisture at this depth, do not provide extra water.\" For this peace lily, wilting after 5 days without water is the actual problem, and the reference advises adding more water. Following this could delay the rehydration the plant needs, though the soil check makes a serious outcome unlikely. There are no chemical or pet-safety hazards."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped article about outdoor landscape plants in the Texas summer heat (\"The Texas summer heat is on\", \"SAWS customers\", \"irrigation system\"). It never identifies the plant as a peace lily or diagnoses underwatering wilt. It frames the wilting as heat stress and cautions against watering, which contradicts the reference. Nothing in it refers to case evidence such as the 5 days without water or the soaking."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Checking soil \"with your finger or a screwdriver\" is easy. Most of the steps, though, concern outdoor irrigation controllers, the \"3-2-1 water method\" and \"once-a-week deep soaking of 15-30 minutes\" by sprinkler, none of which applies to a potted indoor plant. A home owner would not get clear, relevant steps for this case."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "check the soil moisture at least two inches deep",
+      "Check the soil moisture with your finger or a screwdriver before adding more water",
+      "Established plants should be watered deeply, no more than once a week",
+      "you may end up drowning your plants"
+    ]
+  },
+  "input_tokens": 3334,
+  "output_tokens": 828,
+  "graded_at": "2026-10-30T00:13:47.121163+00:00",
+  "status": "graded_pending_review"
+}

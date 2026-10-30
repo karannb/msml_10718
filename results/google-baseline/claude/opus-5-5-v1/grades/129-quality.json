@@ -1,0 +1,30 @@
+{
+  "job_id": "129-quality",
+  "query_index": 129,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7272bd21f108c2a5ec312e953a5c455bd1bdbb20981f3d7b2d1886c162e613ea",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "MODEL_OUTPUT is a scraped Facebook page about a different question, not care advice for this case. The only actionable lines, \"the stem stops growing, but it will sprout new growth from the node above\" and \"Wrap the long string in the pot,\" are low-risk if followed. Because it never addresses the stuck leaf, though, the user gets no guidance and might simply wait while the tip stays stuck or tears."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output offers no health label, no diagnosis and no time-to-severe estimate. It answers a different user's question about propagating a Scindapsus exotica and filling out a pot. It never mentions the stuck new leaf, low humidity, or misting or brushing water onto the tip, which is what the REFERENCE confirms worked."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "None of the content is actionable for the user's actual problem. It is raw UI markup (\"button 'Like'\", \"Most relevant\", URLs) mixed with comments about propagation. A home owner has no clear steps to follow for freeing a stuck leaf."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Wrap the long string in the pot"
+    ]
+  },
+  "input_tokens": 2582,
+  "output_tokens": 427,
+  "graded_at": "2026-10-30T00:11:45.870498+00:00",
+  "status": "graded_pending_review"
+}

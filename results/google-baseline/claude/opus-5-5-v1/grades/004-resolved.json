@@ -1,0 +1,91 @@
+{
+  "job_id": "004-resolved",
+  "query_index": 4,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "fe98c73ad702dfe524032a8d05456c9373c1077ae623c876f0d7e7463b2c9a39",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Transfer plant to a slightly smaller pot entirely full of soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Cut the stem back to about 6 inches",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant to very bright indirect light",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil and water when top inch is dry",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Provide extra humidity",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Trim growing tip to about 3 leaves and propagate in water or leca",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Add the rooted cutting back to the pot",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Stake the plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Remove dead foliage",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "After a week, repot in fresh cactus/succulent soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames insufficient light and never mentions root rot, oxygen-depleted water, container size or fertilizer. Its advice to move the water-grown plant into soil and cut it back skips trimming the rotten roots, which is likely to delay the real fix and stress the plant further."
+  },
+  "input_tokens": 3315,
+  "output_tokens": 1204,
+  "graded_at": "2026-10-29T22:36:44.547180+00:00",
+  "status": "graded_pending_review"
+}

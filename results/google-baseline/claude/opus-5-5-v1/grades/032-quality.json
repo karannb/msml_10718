@@ -1,0 +1,33 @@
+{
+  "job_id": "032-quality",
+  "query_index": 32,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "2eaf32870b1f85590f9b1072454f48c7502ec03cdb039a2e39c0bedfbb672cf6",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output's main advice is \"Root rot. Pull it all out, rinse and trim roots, repot.\" This invasive root surgery is unnecessary for a light-starved plant and could stress or damage it. It also delays the real fix, which is moving it to brighter, outdoor-level light. \"Be careful on your watering\" and letting it dry out are low-risk and partly consistent with the reference, so the risk is moderate rather than serious."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output diagnoses \"Root rot\" and asks \"Over watered?\", but the reference confirms the cause was too little light on the shelf indoors, fixed by moving the plant outside. The output ignores the user's light details (shelf placement, 50cm from the window) and never mentions light. Only the watering caution loosely overlaps with the reference's secondary tip to extend time between waterings. The output is a raw scraped comment thread rather than a structured answer, with no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Steps like \"trim roots, repot\" and \"Trim the ends where there is black\" are technically doable at home. However, they are vague: there is no guidance on how much to trim, what soil or pot to use, or how to judge rot. The response is cluttered with Facebook UI markup, links and reaction buttons, making it hard to follow. It also mixes several commenters' suggestions without a coherent plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "repot",
+      "Be careful on your watering",
+      "I let mine get pretty dry before I water it",
+      "Trim the ends where there is black"
+    ]
+  },
+  "input_tokens": 2881,
+  "output_tokens": 963,
+  "graded_at": "2026-10-30T00:19:55.960367+00:00",
+  "status": "graded_pending_review"
+}

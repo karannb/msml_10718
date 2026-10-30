@@ -1,0 +1,49 @@
+{
+  "job_id": "188-resolved",
+  "query_index": 188,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "f33b78c3e5a7f9e23727f69057d36cddcd52c32e4113799e2954e95b2f11378f",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Research whether the plant likes to dry out or stay consistently moist",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Set regular days of the week to check plants instead of a fixed watering day",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check whether the top two inches of soil are dry and water if so",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check leaves for droopiness (thirsty) or mushy/yellow signs (overwatered)",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic video transcript about watering schedules that never diagnoses this plant or mentions low light or laying vines to root, so it misses the fix, though its soil-check watering advice is safe."
+  },
+  "input_tokens": 2392,
+  "output_tokens": 550,
+  "graded_at": "2026-10-30T00:14:58.588191+00:00",
+  "status": "graded_pending_review"
+}

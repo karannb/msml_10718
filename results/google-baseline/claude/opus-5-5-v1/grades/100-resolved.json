@@ -1,0 +1,70 @@
+{
+  "job_id": "100-resolved",
+  "query_index": 100,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "fd83d5d1d5c60f8a9e56e1045f84281fff569b47d28cc2ee7ee0479ab4d55f53",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Loosen circling or tightly bound roots before replanting",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Apply mycorrhizal fungi powder (Root Max) directly to the root ball",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Water the plant in thoroughly after transplanting to settle soil",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water regularly and consistently afterwards",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Tidy foliage to improve airflow",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bury leggy stems deeper when planting",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If conditions aren't right, pot on into a bigger container first",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer correctly identifies transplant shock and implies recovery over time, but buries the 'just wait' fix under generic planting technique and a sponsored product pitch, without recommending anything likely to harm the plant."
+  },
+  "input_tokens": 4229,
+  "output_tokens": 842,
+  "graded_at": "2026-10-29T22:38:10.211054+00:00",
+  "status": "graded_pending_review"
+}

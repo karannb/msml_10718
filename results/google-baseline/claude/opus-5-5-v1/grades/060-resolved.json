@@ -1,0 +1,49 @@
+{
+  "job_id": "060-resolved",
+  "query_index": 60,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "68e4769052c22069e98e4d4fddc6f27156cd849696cf6c32cd4c2e23eee5cb82",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Once the plant stands back up, prune leaves that died from shock",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the plant for thrips",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the roots for signs of overwatering",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water more often because the pot is terracotta",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer mainly blames repotting shock, overwatering or thrips. Its only nod to the real fix, watering more often in terracotta, is buried. Its advice to leave the plant alone and avoid overwatering would likely delay the watering it actually needed."
+  },
+  "input_tokens": 3528,
+  "output_tokens": 709,
+  "graded_at": "2026-10-30T00:12:12.682846+00:00",
+  "status": "graded_pending_review"
+}

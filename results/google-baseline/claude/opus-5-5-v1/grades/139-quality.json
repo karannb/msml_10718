@@ -1,0 +1,33 @@
+{
+  "job_id": "139-quality",
+  "query_index": 139,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "6768440a336875109adb0259d211469360dd865df3c9d4f15d705ed2b1b0a402",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output says to keep \"the soil consistently damp works better than letting it dry out.\" The poster's soil is still damp after a week and the plant has just been stressed by a light change, so this risks overwatering and root problems. \"Add a bit of Epsom salt to your water to encourage growth\" is unnecessary and does nothing for a pest problem. Neem oil is reasonably safe, but there are no caveats about spot-testing, avoiding direct sun after applying, or isolating the plant from the poster's other plants."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a raw scrape of Facebook comments. It has no health label, no time-to-severe estimate and no clear diagnosis. The only relevant line is \"Have you tried Neem Oil? That may get rid of the white spots which may bugs or a fungus,\" which partly matches the reference's neem treatment but never names thrips or another specific pest. The sun-change stress is barely touched (\"damaged/bruised,\" \"4 hours of direct sun\"), and the watering and fungus-gnat comments do not fit this case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The material is fragmented and full of interface clutter (links, buttons, \"See more\"). Buying neem oil is easy for a home owner, but there are no instructions on how to apply it, how often, or how to follow up. The other suggestions (bottom watering, Epsom salt) are doable but vague and not relevant, so a reader gets no clear plan."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "The problem with most tropical plants is they don't like inconsistent watering",
+      "keeping the soil consistently damp works better than letting it dry out",
+      "Bottom watering also helps with fungus gnats",
+      "Add a bit of Epsom salt to your water to encourage growth"
+    ]
+  },
+  "input_tokens": 3317,
+  "output_tokens": 1039,
+  "graded_at": "2026-10-30T00:14:36.012398+00:00",
+  "status": "graded_pending_review"
+}

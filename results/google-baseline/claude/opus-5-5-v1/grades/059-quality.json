@@ -1,0 +1,32 @@
+{
+  "job_id": "059-quality",
+  "query_index": 59,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "ae9353d93fad8c104e42a084ccb56730bb1620f93f439c4320369347414715f7",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is mostly benign: it suggests guttation, \"a watering issue or it could be mineral/fertilizer burn,\" and \"distilled/filtered, or treated water.\" However, \"not enough water she will get yellow crispy\" could lead the owner to water more often. In the dense, poorly draining mix identified by the REFERENCE, that would worsen the problem. The confident guttation explanation could also delay the needed repot, and there is no caveat that Alocasia is toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The lead claim, \"a common issue with Alocasias caused by guttation... mineral deposits can cause the tips to burn,\" does not match the REFERENCE, which points to stress after fertilizing in a dense, poorly draining mix. The output never mentions drainage, the potting mix, or repotting into a snug pot with sphagnum/bark/perlite. The brief \"mineral/fertilizer burn\" mention touches the poster's own guess but is not developed. The rest, such as \"too close to the light or not enough water,\" is a generic checklist. The output is also a raw scraped comment thread with UI elements, not a structured assessment, and it gives no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The only actionable step is to use \"distilled/filtered, or treated water,\" which is easy but not the key fix. The output offers no concrete instructions on watering frequency, flushing fertilizer, or changing the pot and mix. It lists several possible causes without telling the owner how to tell them apart or what to do, which leaves them unclear on next steps."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "This could be a watering issue or it could be mineral/fertilizer burn",
+      "If she's too close to the light or not enough water she will get yellow crispy",
+      "If she has too much water she will get yellow and mushy"
+    ]
+  },
+  "input_tokens": 2952,
+  "output_tokens": 1134,
+  "graded_at": "2026-10-30T00:12:04.991025+00:00",
+  "status": "graded_pending_review"
+}

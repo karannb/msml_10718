@@ -1,0 +1,34 @@
+{
+  "job_id": "095-quality",
+  "query_index": 95,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f71dda366c52bb92a6ca4bd084042f5933bc26144d31351153f97e38a3d2b34d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output says to \"Wipe or shower it, let it dry then use pesticides/neem oil\" and \"put on neem oil from time to time.\" This stacks another product on a plant that already has Captain Jack's residue, with no dosage, no patch-test warning, and no caution about leaf burn on Alocasia. It also suggests to \"cut off leaves and stems that's severely infested\" after the treatment already worked, which could remove healthy foliage. None of this is severely dangerous, but the missing caveats and unnecessary extra chemicals carry minor risk."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The user asked how to remove white dust residue. The REFERENCE solution is wiping with 1/3 lemon juice to 2/3 water, then hosing off. The output never mentions residue at all. It repeats general spider-mite advice such as \"Alocasia are infamously prone to mites\" and \"hose down the whole plant\", and the poster said they had already hosed and wiped several times. It is also raw scraped Facebook comment markup, not a tailored answer."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Steps like \"bring the whole pot of plant into bathroom and hose down the whole plant\" and applying neem oil are things a home owner can do. However, the instructions are vague (\"pesticides/neem oil\" with no product or rate) and buried in UI clutter such as links, buttons and reaction counts. They also don't solve the stated problem, so following them leaves the residue in place."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Ensure your growing area has good airflow",
+      "Wipe or shower it, let it dry then use pesticides/neem oil",
+      "put on neem oil from time to time and you should be able to contain it",
+      "regular showering then is needed",
+      "hose down the whole plant, especially the underside of leaves"
+    ]
+  },
+  "input_tokens": 2760,
+  "output_tokens": 1090,
+  "graded_at": "2026-10-30T00:16:51.433624+00:00",
+  "status": "graded_pending_review"
+}

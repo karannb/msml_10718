@@ -1,0 +1,35 @@
+{
+  "job_id": "147-resolved",
+  "query_index": 147,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "bd7ca5d3c93a3ad724f2759f2ddf66374a29c5e5c9ee6261479a4e7f891d4d9a",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Gently pour water over infested stems with a watering can to remove the pests (optional)",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray heavily infested stems with a hose to remove the pests (alternative)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer explicitly rules out mealybugs, calls the pest harmless planthoppers, and tells the owner to leave them alone, which would delay the alcohol treatment that fixed the problem and let the infestation spread."
+  },
+  "input_tokens": 2144,
+  "output_tokens": 240,
+  "graded_at": "2026-10-29T22:37:46.573061+00:00",
+  "status": "graded_pending_review"
+}

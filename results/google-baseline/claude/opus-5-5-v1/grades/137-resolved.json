@@ -1,0 +1,77 @@
+{
+  "job_id": "137-resolved",
+  "query_index": 137,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "9851764a78e6befa78b56091c748028daff6d1a7bc4601a8b0e75728fa012931",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil moisture by feeling it",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If soil is wet, leave plant to dry out and water only when top two inches are dry",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If soil is bone dry, increase watering frequency, watering when top two inches feel dry",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant gradually closer to a window for more light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Snip off old wilted leaves with clean secateurs",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a larger pot/nursery pouch with fresh compost",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Keep plant in a room with warm, even temperature",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Contact plant doctors if no improvement after a week",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "The generic article lists underwatering as just one of six causes and puts overwatering first, so both diagnosis and advice are only partial; it is not harmful, because checking the soil safeguards the watering advice, though it never says to water the dry plant right away."
+  },
+  "input_tokens": 2926,
+  "output_tokens": 559,
+  "graded_at": "2026-10-30T00:13:57.864003+00:00",
+  "status": "graded_pending_review"
+}

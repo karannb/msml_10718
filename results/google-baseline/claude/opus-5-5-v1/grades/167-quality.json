@@ -1,0 +1,34 @@
+{
+  "job_id": "167-quality",
+  "query_index": 167,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "6ab5b67a1b22c55034eb4f3adfc858f1fd6e56c1fe3483df1464e70eb4a6954c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "Removing old or damaged leaves at the base is low-risk for a bird of paradise. Two points carry minor risk. \"grab a little bit of soil and just cover the cut\" is a questionable practice that could introduce pathogens rather than prevent them. \"You're not gonna hurt your plant so don't worry about it... It makes it healthier and stronger\" overstates the benefit and could encourage over-pruning of healthy leaves."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a generic YouTube pruning transcript about the presenter's own spider-mite-damaged plant (\"The plant I have here is recovering from spider mites infestation\"). It never refers to the user's photo, the leaves touching the ground, or the two new leaves. It provides no health label or time-to-severe estimate. It partially overlaps the reference by endorsing removal of old or damaged lower leaves \"as close to the soil level as possible.\" It misses the reference's repotting advice about the narrow pot and adds irrelevant size-control pruning."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The steps are easy for a home owner: follow the stem to the base and cut with sharp scissors or a knife (\"follow the stem to where it attaches to the main stem\"). The rambling transcript format and the product promotion (\"link at the video description\") reduce clarity. It also never says which leaves this user should cut, though the user can infer it."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "you need a really, really sharp scissors or knife",
+      "cut it on the angle",
+      "grab a little bit of soil and just cover the cut",
+      "You're not gonna hurt your plant so don't worry about it",
+      "It makes it healthier and stronger"
+    ]
+  },
+  "input_tokens": 3816,
+  "output_tokens": 966,
+  "graded_at": "2026-10-30T00:15:45.238354+00:00",
+  "status": "graded_pending_review"
+}

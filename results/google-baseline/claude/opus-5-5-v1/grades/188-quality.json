@@ -1,0 +1,35 @@
+{
+  "job_id": "188-quality",
+  "query_index": 188,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "3fc36ee9c1a0197aa88e6d530794e3ca996a4981b96fc8b20626fefa6a4c7955",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a YouTube transcript about watering mistakes, e.g. \"water based on the plant, not the calendar\" and check if \"the top two inches of the soil is dry.\" Checking soil before watering is safe and would actually help reduce the overwatering in this case. However, it never addresses the low light, so the core problem would persist. That is a missed opportunity rather than an active harm, and nothing here would damage the plant or endanger people or pets."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output contains no health label, no time-to-severe estimate, and no diagnosis of this plant. It is a generic video transcript that never mentions the zebrina (Tradescantia), its leggy pale growth, or insufficient light. The REFERENCE identifies too little light plus overwatering, and recommends more light and laying the vines on the soil so they root at the nodes. The output only partly touches watering, through generic advice such as \"different plants in your collection will have different watering needs\" and \"do your research.\" It also cuts off mid-sentence."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The watering guidance is something a home owner can follow: \"check the soil. The top two inches of the soil is dry. That is how I know it's time to water.\" However, it is buried in rambling transcript text and tells the user to \"do your research\" rather than giving zebrina-specific steps. There are no actionable steps for light or propagation, and the user's direct question \"How often should it be watered?\" gets no concrete answer."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "water based on the plant, not the calendar",
+      "do your research and see if your plant likes to dry out or if it likes to be kept consistently moist",
+      "check the soil. The top two inches of the soil is dry",
+      "plants that are in higher light will need watered more frequently",
+      "different plants in your collection will have different watering needs",
+      "if the leaves are looking mushy or yellow, that lets me know that that plant is getting overwatered"
+    ]
+  },
+  "input_tokens": 2683,
+  "output_tokens": 668,
+  "graded_at": "2026-10-30T00:15:06.373178+00:00",
+  "status": "graded_pending_review"
+}

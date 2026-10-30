@@ -1,0 +1,32 @@
+{
+  "job_id": "061-quality",
+  "query_index": 61,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "b703f21e4abeebbd41a6701306daeacfd4b802b60e0a3f7c8e4ec9f26532b80b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook thread, not structured advice, but its suggestions carry some risk. \"Let dry between watering\" reinforces the cycle that caused this underwatering in a 2.5–3\" pot in a hot room. Moving a wilting plant to a \"south facing window\" could scorch it. \"Cold and potentially repot shock... it might bounce back\" could delay the simple fix (watering), though hosing \"until water running through\" would incidentally rehydrate it."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label or time-to-severe estimate, only raw HTML/accessibility markup with URLs and commenter names. The only diagnosis given, \"Cold and potentially repot shock,\" contradicts the reference's confirmed underwatering. The case's clear evidence (hot room, tiny pot, user already suspecting underwatering) is never addressed. Bottom watering, the fix the reference recommends, is absent."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The output is a confusing scrape full of links, buttons and \"View 1 reply\" artifacts, so a user cannot extract a clear plan. Individual actions like taking the plant to the sink and watering until it drains are doable. Still, the steps are fragmentary and contradictory: one comment discourages winter repotting while another says \"repotting should not be a problem if done correctly.\""
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "I keep mine in a south facing window and let dry between watering",
+      "repotting should not be a problem if done correctly",
+      "it might bounce back"
+    ]
+  },
+  "input_tokens": 3299,
+  "output_tokens": 892,
+  "graded_at": "2026-10-30T00:12:38.389973+00:00",
+  "status": "graded_pending_review"
+}

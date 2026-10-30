@@ -1,0 +1,126 @@
+{
+  "job_id": "010-resolved",
+  "query_index": 10,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "1a66270fa340877165f9344100b73406274de47bb5d5edcbfa6cf56aaed05e52",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Move croton to bright indirect light for 4-5 hours a day, shielded from hot afternoon sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mist plant with fine sprayer to raise humidity",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 3,
+        "unclear": false
+      },
+      {
+        "action": "Water consistently to keep soil moist during growing season",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant indoors if it is outside on a patio during cold temperatures",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant away from heating/AC vents, fans, or uninsulated windows",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Quarantine houseplants before bringing them indoors for winter",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Spray plant with a sharp stream of water from a hose to remove spider mites, focusing on leaf undersides and nodes",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Wipe scale insects off with gloved finger or cotton pad with isopropyl alcohol, repeated every few days",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Heavily prune branches with heavy scale infestation and dispose in trash or burn",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check base and stems for crown gall growths",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove crown-gall infected stems/leaves with pruners, disinfecting blades between cuts, and discard infected soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Discard plant if galls are on roots or plant still declines after treatment",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove leaves with anthracnose spots promptly",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use soaker hose or drip irrigation for outdoor croton",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Space plants apart for air circulation",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic croton article mentions underwatering only as one of many possible causes of leaf drop. It never identifies shallow watering as the main issue or advises soaking the root ball, so diagnosis and advice are partial. Its advice to keep the soil consistently moist is not harmful."
+  },
+  "input_tokens": 3741,
+  "output_tokens": 1027,
+  "graded_at": "2026-10-30T00:10:57.026948+00:00",
+  "status": "graded_pending_review"
+}

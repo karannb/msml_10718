@@ -1,0 +1,49 @@
+{
+  "job_id": "123-resolved",
+  "query_index": 123,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "b600c5ae92c9891d941c7d58f1923169fb74899a7e7bcad13fae7ff42a5c70ff",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Wipe the plant with rubbing alcohol",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix 50-50 water and alcohol and saturate the plant, repeating 2-3 times with 3-4 days between",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mix Bonide systemic granules into the top layer of soil",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively spray with a mix of peppermint/tea tree castile soap, alcohol, peroxide and water, letting it dry before putting the plant under lights or in sun",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      }
+    ],
+    "reason": "The comments treat the plant for a bug infestation (mealybugs) and lead with alcohol wiping and saturation, which matches the alcohol treatment that worked; the extra systemic granules and soap spray are not likely to harm the plant."
+  },
+  "input_tokens": 2658,
+  "output_tokens": 924,
+  "graded_at": "2026-10-29T22:38:00.296539+00:00",
+  "status": "graded_pending_review"
+}

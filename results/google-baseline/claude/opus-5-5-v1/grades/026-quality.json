@@ -1,0 +1,32 @@
+{
+  "job_id": "026-quality",
+  "query_index": 26,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "4e0cbd5f3199fd1705a60f54ebebcfd4629a942992b00354ff5f1bfca14afb24",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The advice to \"cut the main stem about a quarter inch above the leaf buds\", to \"trim the plants back by about one-third\", and to apply \"a liquid organic fertilizer like a fish emulsion\" poses no meaningful risk to plant, person, or pets. The ads, email signup, and affiliate links are clutter, not plant-care hazards. Nothing here would worsen an overgrown basil plant."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output is a scraped generic blog article, not a response to this case. It gives no health label or time-to-severe estimate and never mentions the poster's year-old, woody, overgrown plant. Some content does match the REFERENCE: \"separate store bought basil into individual plants\" echoes the advice to focus on the small plants, and \"clipping just above a set of side shoots\" matches the cut-above-the-Y advice. However, it never addresses removing the woody main stalk, and much of the text covers seedlings, harvesting uses, and variety recommendations rather than this plant."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The core instructions are concrete and need only fingers or snips: \"cut central stems back to a lower set of leaves where two tiny leaf buds emerge\", \"about a quarter inch above the leaf buds\", and \"prune my basil plants every two weeks\". These steps are buried among ad iframes, an email signup form, and affiliate links. The timing guidance (\"when the seedlings are about six to eight inches tall\") does not fit this older plant, so the user would have to work out what applies to them."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Stressed out basil plants begin to flower sooner than those given plenty of sunshine, well-drained soil, and consistent moisture",
+      "aim to keep your basil happy so that it keeps producing leaves, not flowers",
+      "After I harvest a big batch of basil, I give my plants an application of a liquid organic fertilizer"
+    ]
+  },
+  "input_tokens": 7138,
+  "output_tokens": 1180,
+  "graded_at": "2026-10-30T00:18:13.456227+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,35 @@
+{
+  "job_id": "180-quality",
+  "query_index": 180,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "e40d2efaa5e8f3cdce40347eec5966ceea8740d6f5833d81eb46244555f86dd1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The pruning advice is safe: \"Use clean, sharp scissors... leaving a short stub of 1 to 2 cm\" and \"Clean your snips... with rubbing alcohol.\" It recommends no chemicals or watering changes that would worsen dry-air damage. However, it never tells the user to fix the cause (low humidity), so damage could continue. Trimming leaves alone delays the real fix, which is a minor risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a generic article on whether to remove damaged leaves, not a diagnosis of this plant. It mentions in passing that \"Brown tips are the most common form of leaf damage, typically caused by low humidity,\" which brushes against the reference cause. It never connects this to the user's photos or recommends raising humidity or moving the plant, which is what solved the problem. Much of the content covers fungal lesions and cold-window damage that are irrelevant here."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The pruning steps are concrete and doable with household tools: \"cut just within the brown area to leave a small brown border\" and \"Do not pull or tear leaves.\" However, the user asked \"how to treat it,\" and there are no actionable steps to correct the environment. The user is left without a clear treatment plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Whether to remove damaged leaves depends on the extent of the damage, the species, and what caused it",
+      "Use clean, sharp scissors or secateurs",
+      "Clean your snips between plants... with rubbing alcohol",
+      "Leaves that are more than 50% brown or yellow... are reasonable candidates for removal",
+      "Removing them keeps the plant tidy and redirects resources to healthy growth",
+      "moved to better ventilation"
+    ]
+  },
+  "input_tokens": 2897,
+  "output_tokens": 812,
+  "graded_at": "2026-10-30T00:13:00.611041+00:00",
+  "status": "graded_pending_review"
+}

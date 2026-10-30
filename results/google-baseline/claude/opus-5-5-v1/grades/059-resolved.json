@@ -1,0 +1,35 @@
+{
+  "job_id": "059-resolved",
+  "query_index": 59,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "763aad3de7743427a9fea6998a401847833d743c3cab3c6f8cea4a33697d73f5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water with distilled, filtered or treated water instead of hard tap water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant farther from the light if it is too close and leaves are yellow and crispy",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer mentions fertilizer burn only as one of several possibilities, alongside guttation, light and watering, and never suggests repotting into a snug pot with an airy, well-draining mix, though its water-quality tip is not harmful."
+  },
+  "input_tokens": 2592,
+  "output_tokens": 550,
+  "graded_at": "2026-10-30T00:11:52.425095+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,35 @@
+{
+  "job_id": "143-resolved",
+  "query_index": 143,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "64b8d18c2a5e295789bb38cef6197ebd612a5874ea6676883ab8942370b78522",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check azalea roots for mushiness/root rot",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove leaf-gall-affected leaves by hand and discard",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer lists too much sun and too little water as one of several possible causes rather than the main one, and only implies shade and watering without saying to water daily; nothing it suggests is likely to harm the plant."
+  },
+  "input_tokens": 2043,
+  "output_tokens": 217,
+  "graded_at": "2026-10-30T00:15:34.917364+00:00",
+  "status": "graded_pending_review"
+}

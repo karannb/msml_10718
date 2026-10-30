@@ -1,0 +1,42 @@
+{
+  "job_id": "046-resolved",
+  "query_index": 46,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "8f895983c1b7c2e4c91b61ff5ae1036d3057cdf3b55a27068729da13bd9c21f0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the plant thoroughly if you forgot to water it",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, bottom water the plant for even saturation",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check the soil and water when the top 1-2 inches are dry (let it dry about 30% in winter)",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer leads with underwatering and only mentions overwatering as a secondary cause, never addressing transplant shock or low light. Its advice centres on watering, not the extra sun that fixed the plant, though watering is tied to checking the soil, so it is not clearly harmful."
+  },
+  "input_tokens": 2015,
+  "output_tokens": 682,
+  "graded_at": "2026-10-30T00:20:41.561603+00:00",
+  "status": "graded_pending_review"
+}

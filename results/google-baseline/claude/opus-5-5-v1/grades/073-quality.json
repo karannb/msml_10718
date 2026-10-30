@@ -1,0 +1,37 @@
+{
+  "job_id": "073-quality",
+  "query_index": 73,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "62cbdffbb5aa4940b64067108446982b2b5c91418fa8c11cbfcc0a98e844022b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a raw scrape of a Reddit thread, not a coherent assistant answer. Several comments correctly point to overwatering, e.g. \"Let the soil dry completely all the way to the bottom of the pot between waterings.\" Others could worsen the confirmed excess-moisture problem: \"mine is in a no drain pot,\" \"occasionally you need to flush the soil… by simply over flushing the entire pot,\" and the suggestion that it \"could be that or underwatering.\" None of these warn that the plant may already have root rot, and there is no note that Monstera is toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "Overwatering and root rot come up (\"over watering is the #1 issue with houseplants, so generally that's a safe bet\"), which partly matches the REFERENCE. However, nobody identifies the key cause, the oversized pot holding too much moisture. The longest comment is a generic A–E checklist (light, soil moisture, watering, fertilizer, air). It also offers competing diagnoses (fungus, underwatering, nutrients, root-bound) without resolving them, and there is no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The steps are buried in page markup, ads, usernames and links, and the comments contradict each other. Telling a reader to \"go down a checklist and try to eliminate the reasons… one by one\" gives no clear plan. Some individual tips, like drying the soil out or using a moisture meter, are doable. There is no instruction to move the plant to a smaller pot, which is what actually fixed it."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "A) Proper Light = The more light a Monstera gets the more it grows",
+      "C) Watering - too much, too little, just enough? Err on the side of less",
+      "D) Fertilizer- making sure there are nutrients in the soil",
+      "E) AIR - Plants require good circulation",
+      "go down a checklist and try to eliminate the reasons",
+      "Yellowing is often a sign of over- or under-watering",
+      "over watering is the #1 issue with houseplants, so generally that's a safe bet",
+      "I recommend you get a moisture meter"
+    ]
+  },
+  "input_tokens": 16515,
+  "output_tokens": 972,
+  "graded_at": "2026-10-29T22:37:36.565898+00:00",
+  "status": "graded_pending_review"
+}

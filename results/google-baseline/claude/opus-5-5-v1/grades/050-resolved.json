@@ -1,0 +1,42 @@
+{
+  "job_id": "050-resolved",
+  "query_index": 50,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "6c161a918d2bcfdcd6723d23cfea8ddfabd95521924cabd6a7d9f432fa990c59",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Bottom water the plant every two weeks",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place the plant in good light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Fertilize every two weeks",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer gives generic care tips with no diagnosis and never warns against direct sun, so it misses the fix. Its fixed two-week watering schedule treats the plant as if it stores water, and could let the soil dry out, which this moisture-loving plant dislikes."
+  },
+  "input_tokens": 1549,
+  "output_tokens": 611,
+  "graded_at": "2026-10-29T22:37:27.837457+00:00",
+  "status": "graded_pending_review"
+}

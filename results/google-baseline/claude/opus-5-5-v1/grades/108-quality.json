@@ -1,0 +1,45 @@
+{
+  "job_id": "108-quality",
+  "query_index": 108,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "850a9c350cdb5e329c88bcaf5748545d2c7b300ec1ad866e992969cbcdfd4263",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output never addresses the white leaf, so it gives no harmful treatment for a plant that is actually healthy. It does contain questionable claims, such as 'Let the tap water sit for a while' to address pH and that leaves absorb nutrients '10x more than by roots' and fertilizer on leaves 'can cause burns or death.' The line 'If you think a plant is getting enough light, add a grow light or two' could push the user toward more light when they asked whether to reduce it. Any risk is minor, but monstera's toxicity to pets is never mentioned."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped Reddit thread of general beginner tips (clear pots, soil amendments, water pH, vacation care, 'buying a lot of new plants'), including UI markup and profile links. It gives no health label or time-to-severe estimate, and never mentions the monstera albo, the mostly white unfurling leaf, or the grow-light question. The reference says the plant is healthy and the leaf will show more green and darken as it matures, and none of that appears."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "There are no clear steps tied to the user's situation, only a disorganized mix of unrelated tips interleaved with Reddit page markup. A user could not work out what, if anything, to do about the white leaf or the grow light. Individual tips like 'use old wood chopsticks' to test soil are doable, but none of them address the case."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "It's best to under water over",
+      "If you get down to eye level with the plant and can't see the sky then you should get grow lights",
+      "Get to know your water's pH",
+      "Clear pots. It's so much easier to check the roots",
+      "Don't ever ever ever buy indoor potting soil",
+      "find out where it grows naturally and try to mimic its conditions",
+      "water thorougly and then give it time to dry up a bit",
+      "Test the soil before watering - use old wood chopsticks",
+      "take a picture to a local nursery, and they'll tell you how to help it",
+      "talk to a pro and get to know your plant",
+      "Don't water just based on a schedule",
+      "Use pot weight to determine if a plant needs watered",
+      "Over watering is so much worse than under watering",
+      "If you think a plant is getting enough light, add a grow light or two",
+      "don't immediately repot a plant that you just bought",
+      "spending time looking at your plants"
+    ]
+  },
+  "input_tokens": 7608,
+  "output_tokens": 1172,
+  "graded_at": "2026-10-30T00:12:54.376305+00:00",
+  "status": "graded_pending_review"
+}

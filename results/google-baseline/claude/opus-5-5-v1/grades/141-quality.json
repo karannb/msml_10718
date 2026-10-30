@@ -1,0 +1,30 @@
+{
+  "job_id": "141-quality",
+  "query_index": 141,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "454ac578e4325335d66d926e21c5dbbef9e98aafa17c44a0a93e5e4e0aef0970",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The advice to 'move it into a pot that drains, and right into a window' and 'dont let it dry out for too long' matches the reference and would not worsen the actual problem. One claim is overstated: 'there is no amount of sun that's too much for this plant.' It is softened by 'as long as you go slow and gradual,' but could still risk sunburn. The output ignores the mold the poster found and gives no pet-toxicity caveat for aloe, though neither is likely to cause serious harm."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook comment thread with URLs and UI markup, not a structured answer, and has no health label or time-to-severe estimate. Its substance partly matches the reference: 'put it in a started pot with drainage holes' and 'yours is showing clear signs that it needs more sun' cover the drainage and light problems. 'dont let it dry out for too long' partly covers underwatering. 'It's also planted too deeply with several lower leaves partly buried' is case-specific, since the poster added soil 4 months ago. However, it misses the root-bound diagnosis, does not address the mold, and does not link the removed tray to the water running straight through."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The individual actions are things any home owner can do: repot into a container with drainage holes, place it at a window, and increase sun gradually. But the steps are buried among links, reaction buttons and run-on sentences. Phrases like 'put it in a started pot... unless your trying to teach it to drought' are confusing. There is no clear order of steps and no guidance on how often or how thoroughly to water."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Aloe Vera needs sunlight and good drainage."
+    ]
+  },
+  "input_tokens": 2844,
+  "output_tokens": 1020,
+  "graded_at": "2026-10-30T00:15:13.938266+00:00",
+  "status": "graded_pending_review"
+}

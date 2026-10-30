@@ -1,0 +1,36 @@
+{
+  "job_id": "081-quality",
+  "query_index": 81,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "5281ff13770e5eb58298529430b0a88d1762b92bd2347a5800b0b7bdde36e6a0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook comment thread, not a structured answer. It gives conflicting guesses: \"You are probably overwatering it,\" \"sometimes fertilizer burns plants,\" and \"I spray down every plant I buy.\" None of this is dangerous in itself. But it points away from the real cause (insufficient light), which delays the fix, and \"spray down\" is vague about what product to use."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The REFERENCE confirms yellowing from insufficient light, and the output never mentions light. It offers scattered guesses instead: overwatering, repotting depth, poor circulation, water type, fertilizer burn, pests. \"It's too close in a corner!\" is loosely compatible with low light, but it is framed as a circulation problem. There is no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The text is raw scraped markup with usernames, URLs and reaction buttons, so there are no clear steps. The suggestions contradict each other, from \"It can take a month for a new plant to get used to new conditions\" to \"I would just take the plant back to the store.\" An owner would not know what to actually do this week."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "It can take a month for a new plant to get used to new conditions",
+      "You are probably overwatering it",
+      "the type of water you're using is important",
+      "sometimes fertilizer burns plants",
+      "I spray down every plant I buy",
+      "Not enough circulation",
+      "I would just take the plant back to the store and get a new one"
+    ]
+  },
+  "input_tokens": 2844,
+  "output_tokens": 920,
+  "graded_at": "2026-10-30T00:12:16.267262+00:00",
+  "status": "graded_pending_review"
+}

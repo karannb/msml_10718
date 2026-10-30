@@ -1,0 +1,84 @@
+{
+  "job_id": "082-resolved",
+  "query_index": 82,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "cd258e07875c06ef02d9c42e7e21d5a03c374387b346ae9e28e260a597731c4c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Unpot the plant and examine the roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prune rotted roots with sterilized shears",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a free-draining aroid mix",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Water very lightly after repotting",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep the plant at comfortably warm temperatures",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a porous terracotta pot",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a smaller pot",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant closer to a window for more light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture with a finger, via the drainage holes and by pot weight; water only when dry",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic overwatering video frames root rot from overwatering as the main issue, with peat soil and low light only as contributing factors; it does include repotting into an aroid mix and moving the plant closer to the window, but those fixes are mixed in with other options, and nothing in it is harmful."
+  },
+  "input_tokens": 4444,
+  "output_tokens": 962,
+  "graded_at": "2026-10-30T00:12:25.293614+00:00",
+  "status": "graded_pending_review"
+}

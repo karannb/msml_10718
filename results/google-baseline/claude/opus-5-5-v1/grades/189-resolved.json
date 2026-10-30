@@ -1,0 +1,28 @@
+{
+  "job_id": "189-resolved",
+  "query_index": 189,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "3c4060073a9f6ab9a6b9c526db6a6c0f85ce36f56a06d56243ba2e0e78d46e1d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check soil and water only when the top couple of inches are dry",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer tentatively identifies overwatering, which is only part of the confirmed problem, and misses the low light; its watering advice addresses only part of the fix, which mainly involved more light and laying the vines down to root, and it is not harmful."
+  },
+  "input_tokens": 1575,
+  "output_tokens": 177,
+  "graded_at": "2026-10-30T00:15:08.962654+00:00",
+  "status": "graded_pending_review"
+}

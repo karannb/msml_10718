@@ -1,0 +1,36 @@
+{
+  "job_id": "137-quality",
+  "query_index": 137,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c835d806ffc991418262a09f68295e3eec7f1d2143b60ad005f000e7e89ef8c1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The 'Underwatering' section says 'If it's bone dry, you should increase the frequency of watering, but still... only water... when the top two inches of soil feel dry.' This does not tell the user to water the bone-dry croton right away, which could delay the quick fix that worked here. It also lists overwatering first ('Just leave your plant to dry out'), which would be harmful if wrongly applied. Most users would still check the soil first, so the risk is minor."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a generic six-cause wilting article, not a response to this case. It does not mention crotons, does not use the user's comment that the soil was very dry, and lists underwatering only as one option among overwatering, light, ageing, pot size and temperature. The underwatering entry, 'leaves will look drier... feel the soil', partly overlaps with the reference, but there is no diagnosis tailored to this plant."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Steps like 'feel the soil' and 'water... when the top two inches of soil feel dry' are easy for anyone to do. However, the user has to work out for themselves which of six causes applies. The advice also never gives the concrete action needed now, such as watering thoroughly today. Product links and the 'plant doctors' referral add little."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Try moving the plant somewhere a little brighter",
+      "Keep your plants somewhere with a warm, even temperature",
+      "Re-potting is best done between March and September",
+      "only water it when the top two inches of soil feel dry",
+      "give your plant a week or so to show improvement",
+      "drop our plant doctors a line",
+      "You can snip off the odd wilted leaf"
+    ]
+  },
+  "input_tokens": 3232,
+  "output_tokens": 578,
+  "graded_at": "2026-10-30T00:14:04.421914+00:00",
+  "status": "graded_pending_review"
+}

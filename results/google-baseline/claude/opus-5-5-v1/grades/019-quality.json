@@ -1,0 +1,36 @@
+{
+  "job_id": "019-quality",
+  "query_index": 19,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "2ff2d89f9c22e0889cf2cda85ea809bf3b1dfb20e4208e4da78f15b7a6365a7c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output frames the problem as neglect and underwatering: \"You shouldn't go 2 months without watering any plant\" and \"some of your roots have completely dried up because of the lack of water.\" It also insists ZZs need water \"at least once a month.\" For a plant already watered every two weeks and showing overwatering signs, this pushes toward the same or more watering, which worsens rot risk. It also suggests yellowing may be normal (\"I wouldn't worry too much about it\"), which could delay the repotting the reference says is urgent, and it gives no toxicity caveat for handling ZZ roots and sap."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output seems to answer a different post that mentions 2–3 months without water and snake plants. It ignores the user's actual every-two-weeks schedule and diagnoses neglect and underwatering. The reference confirms overwatering and says to water at least half as often. The output does say to \"take the entire plant out of its soil and check every root and every rhizome,\" and it notes rhizomes \"can drown in soil that's too soggy.\" These overlap with the reference, but only incidentally. Most of the text is off-topic: tap water, LECA, window direction and YouTube recommendations. It never addresses the user's soil question."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Unpotting, inspecting rhizomes, clipping dead parts and repotting into a pot \"about 2 inches bigger\" are doable at home. However, these steps are buried in a rambling, self-contradictory thread mixing several commenters' opinions. One voice says check the roots now and another says don't worry. There is no clear guidance on how often to water or what soil to use, so a typical owner would struggle to extract a coherent plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "wipe the leaves down from time to time",
+      "check your roots",
+      "Clip anything that seems to be dead",
+      "putting it into some fresh soil and a new pot",
+      "Do what works for you",
+      "I'd recommend getting a moisture meter",
+      "water them at least once or twice a month"
+    ]
+  },
+  "input_tokens": 5112,
+  "output_tokens": 1117,
+  "graded_at": "2026-10-30T00:14:14.351147+00:00",
+  "status": "graded_pending_review"
+}

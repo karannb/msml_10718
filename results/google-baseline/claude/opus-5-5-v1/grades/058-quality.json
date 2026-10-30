@@ -1,0 +1,33 @@
+{
+  "job_id": "058-quality",
+  "query_index": 58,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "fd6e10e114fe000ee276613b61aa1d51798172c53ce79946bf2bbd1dc8df7ed5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook thread about a different plant, not advice for this Frydek. Some of it could still mislead the user. \"Cut back and put in a small container with a tiny amount of moss or perlite. Moisten lightly and cover tight\" could lead them to strip the two remaining leaves and seal the plant in a humid container, raising the risk of rot. It never addresses fertilizer salts, flushing, or drainage. \"Cut back on the water\" was written for a leafless plant in a self-watering pot and conflicts with the reference's \"watered thoroughly and often but has a chance to dry.\""
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The content describes a different case: \"Solid white leaves,\" a \"bathroom windowsill,\" a \"self-watering pot,\" and \"a mottled mojito.\" None of these appear in the user's Frydek post. It gives no health label, no time-to-severe estimate, and no assessment of fertilizer burn. It does not mention the reference's actual fix of repotting into a pot just the size of the root ball with an airy sphagnum/bark/perlite mix. The output also contains raw page markup, URLs, and reaction buttons."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "A few fragments are doable at home, such as \"cut back on the water\" and \"you'll need strong grow lights.\" However, they are aimed at another plant and buried in markup like \"button \\\"2 reactions; see who reacted to this\\\"\". The user cannot pull clear, relevant steps for their Frydek from this, and there are no instructions on repotting or flushing out fertilizer."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "cut back on the water",
+      "you'll need strong grow lights unless you have some amazing window exposures",
+      "No direct sunlight. Leave it be. It may come back.",
+      "Yes it can grow back if the roots are ok"
+    ]
+  },
+  "input_tokens": 3101,
+  "output_tokens": 944,
+  "graded_at": "2026-10-30T00:11:46.484169+00:00",
+  "status": "graded_pending_review"
+}

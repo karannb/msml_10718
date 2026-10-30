@@ -1,0 +1,42 @@
+{
+  "job_id": "190-resolved",
+  "query_index": 190,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "fd225acf47f0e32d0a6fb09b34e5b42829cdd2263bd6ec80053aba9b00d35c18",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Watch the plant for scale insects such as mealybugs and hard-shell scale",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Rinse the palm gently in the shower",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, take the palm outside and hose it down",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The generic care text names spider mites as the cause of pale specks but alongside other pests rather than as a diagnosis for this plant, gives no mite treatment beyond occasional rinsing (not the spray regimen that worked), and recommends nothing damaging."
+  },
+  "input_tokens": 2484,
+  "output_tokens": 653,
+  "graded_at": "2026-10-30T00:15:20.392597+00:00",
+  "status": "graded_pending_review"
+}

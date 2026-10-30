@@ -1,0 +1,34 @@
+{
+  "job_id": "116-quality",
+  "query_index": 116,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "9fd5a5990d9feb78547fd976eb82b07185443c8016502f4280a005f1032bb053",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a rambling video transcript about other plants, not advice for this peace lily. Its main message, \"they just need water,\" matches the reference, and \"don't drench them in water\" is a sensible caveat. However, it also floats \"I think it's root Rod\" and suggests \"drop him in water just plain water like in a cup\" and \"sitting them in water forever.\" A novice could misapply these to the peace lily, either worrying about rot or leaving it standing in water. It gives no toxicity warning, although peace lilies are toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output never addresses the user's plant, the photo, or the soil concern, and contains no health label or time-to-severe estimate. It does repeatedly conclude \"this all needs water\" and \"see they're suffering from no water,\" which happens to align with the reference's underwatering diagnosis. That diagnosis is buried among unrelated plants (Begonia maculata, Ctenanthe, corms) and contradictory root-rot comments. It never mentions the peace lily's characteristic dramatic droop and quick recovery."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "There is one concrete, usable step: \"stick your finger down here and if it feels dry... past like your knuckle... then give it some more water.\" Everything else is conversational filler, partly about other plants. The steps are scattered and sometimes contradictory, such as flipping the pot to inspect roots versus putting the plant in a cup of water. A novice would struggle to pull a clear plan for their peace lily out of this."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "stick your finger down here and if it feels dry all the way down or like past like your knuckle... then give it some more water",
+      "just make sure that they get you know enough water",
+      "don't drench them in water",
+      "flip over and just take it out to see what the roots look like",
+      "they just need water"
+    ]
+  },
+  "input_tokens": 4963,
+  "output_tokens": 1005,
+  "graded_at": "2026-10-30T00:15:20.581597+00:00",
+  "status": "graded_pending_review"
+}

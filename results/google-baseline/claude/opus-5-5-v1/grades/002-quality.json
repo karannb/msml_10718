@@ -1,0 +1,41 @@
+{
+  "job_id": "002-quality",
+  "query_index": 2,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d77643a381f930e72987fe9dead3f2422c49ce356e509c7b5ab9fa9b282ce7f2",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output never addresses the actual causes, transplant shock and a cold window, so it could delay the right fix. Its first remedy, \"Water thoroughly until it drains from the bottom of the pot,\" risks overwatering a plant that was just repotted and watered. It also suggests repotting for root problems (\"Repot into a pot 1-2 inches larger\") and treating rot with hydrogen peroxide without dosage, which could add stress to a freshly transplanted bird of paradise. Pesticide suggestions (neem, spinosad) carry no safety caveats, though the risk is minor."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a generic blog article listing \"eight most common culprits\" for curling leaves. It never identifies the plant as a bird of paradise or mentions repotting stress. It covers \"Heat Stress\" but not cold drafts or cold-window exposure, which the reference names as the cause alongside repotting stress. None of the advice is tied to case evidence such as the store pot, the recent repot or \"winter sun.\" No health label or time-to-severe estimate is given."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps are concrete, such as \"Use a pebble tray\" and \"bottom-water for 20-30 minutes.\" However, the user must self-diagnose among eight possible causes with no guidance on which applies, which is unclear for a beginner. Some suggestions add purchases (a hygrometer, a humidifier, grow lights) that are irrelevant to the actual problem."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Water thoroughly until it drains from the bottom of the pot",
+      "Run a humidifier near your plants",
+      "Group humidity-loving plants together to create a microclimate",
+      "Use a pebble tray filled with water beneath the pot",
+      "Move the plant away from direct heat sources",
+      "Stop watering and let the soil dry out",
+      "Check the roots for rot",
+      "Apply a balanced liquid houseplant fertilizer at half the recommended strength",
+      "Isolate the affected plant immediately",
+      "Repot into a pot 1-2 inches larger",
+      "Move it back from the window or add a sheer curtain",
+      "Invest in a small digital hygrometer"
+    ]
+  },
+  "input_tokens": 6813,
+  "output_tokens": 977,
+  "graded_at": "2026-10-29T22:36:10.677895+00:00",
+  "status": "graded_pending_review"
+}

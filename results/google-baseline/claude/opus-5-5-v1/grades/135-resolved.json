@@ -1,0 +1,77 @@
+{
+  "job_id": "135-resolved",
+  "query_index": 135,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "b0c47d573fbf6c0305215f2bb967992ddcf93b5b84e192cf9b578d11bf91c0cb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": true,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Take the plant out of the pot and inspect the roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture and water accordingly",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add a top dressing of sphagnum moss",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 8,
+        "unclear": false
+      },
+      {
+        "action": "If many roots were lost, repot into the original pot with fresh soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If fertilized, flush old fertilizer out of the soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant out of direct sunlight",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity around the plant",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Trim dead or rotten roots back to healthy tissue",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames repotting stress or root damage for what was normal old-leaf yellowing, never mentions the trellising that worked, and urges unnecessary root disturbance and repotting that could stress a healthy plant."
+  },
+  "input_tokens": 3607,
+  "output_tokens": 877,
+  "graded_at": "2026-10-30T00:13:24.442348+00:00",
+  "status": "graded_pending_review"
+}

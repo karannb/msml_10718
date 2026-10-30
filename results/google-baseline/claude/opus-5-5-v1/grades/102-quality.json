@@ -1,0 +1,39 @@
+{
+  "job_id": "102-quality",
+  "query_index": 102,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "102b356fa68489a0e135a8db9144559116a65089193966cfce81db06b90eef42",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output never addresses the dry soil, so the thirsty plant may go without the water it needs. It attributes drooping to overwatering and says \"cut down on water.\" A user whose plant is droopy could follow that and make the dehydration worse. It also pushes more humidity and \"miss the leaves twice a day,\" which the poster already tried without success. Calathea is non-toxic, so the risk is to the plant, not people or pets."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a generic Calathea care video transcript, not a diagnosis of this case. It gives no health label or time-to-severe estimate. It does not engage with the case evidence: the top 2 inches are dry, leaves curled after the shower, stems are broken or laying down, and the humidifier didn't help. It frames curling and browning as humidity problems (\"the air around your plant may be too dry\") and drooping as overwatering or cold. The reference identifies thirst and recommends watering. \"Keep the soil moist all time\" is only incidentally relevant, and the stem damage is ignored."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Most of the steps use ordinary items: a finger soil check, letting water stand \"two or three days\", a pebble tray, and a humidifier. However, the transcript is garbled (e.g., \"bottom watering message... I water my plants from the top\") and partly contradictory. It gives no concrete action for this plant right now, such as soaking the dry soil or supporting the fallen stems."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "location is very important with this plant",
+      "keep her in a room between 16 to 20 degrees Celsius and avoid rooms with cold drafts",
+      "avoid direct sunlight at all the costs",
+      "put her in a room with partial shade and indirect sunlight",
+      "always check the soil",
+      "water your plant with distilled filter or rain water",
+      "you can also use a humidity tray to increase humidity",
+      "put her with other calatheas or other tropical plants",
+      "every week you just clean the leaf and check for bugs and dust",
+      "move her to a warmer room"
+    ]
+  },
+  "input_tokens": 3355,
+  "output_tokens": 1168,
+  "graded_at": "2026-10-30T00:10:59.945130+00:00",
+  "status": "graded_pending_review"
+}

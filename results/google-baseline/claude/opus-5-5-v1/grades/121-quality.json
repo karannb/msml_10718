@@ -1,0 +1,32 @@
+{
+  "job_id": "121-quality",
+  "query_index": 121,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "5da713e804bfc2cab0c5389f0ecafe193957273f90a75c34e7dab9f64b14141f",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output suggests to \"give it a good rinse with the hose\" and \"spray it with neem oil,\" which is low-risk for the plant, people and pets. However, it simply repeats the routine the poster says is already failing (\"I feel like I'm losing the battle\"). It offers no escalation, such as the systemic treatment in the REFERENCE, which could delay effective control. It also omits basic caveats like avoiding neem in direct sun and repeating treatments to break the mite life cycle."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The text nominally addresses spider mites but confuses them with spiders (\"baby spiders that have been munching on the leaves,\" \"money trees seem to attract spiders no matter how much I tidy up\"), which is inaccurate. It never provides the expected health label or time-to-severe estimate. It does not mention the REFERENCE's Bonide systemic recommendation. Much of the rest is unrelated generic care (indirect sunlight, don't overwater, rotating), plus scraped Facebook UI artifacts."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Hosing the plant and spraying neem oil is easy for any home owner. But the output is a disorganized scrape of comments, links and buttons rather than clear instructions. It gives no frequency, concentration, or follow-up schedule. The poster is already doing these steps without success, so the guidance does not give them a workable path forward."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Just make sure it gets enough indirect sunlight, and don't overwater it.",
+      "rotating is crucial to over all growth and fullness every few weeks also.",
+      "I'm confident your money tree will thrive."
+    ]
+  },
+  "input_tokens": 2393,
+  "output_tokens": 1044,
+  "graded_at": "2026-10-29T22:37:27.953917+00:00",
+  "status": "graded_pending_review"
+}

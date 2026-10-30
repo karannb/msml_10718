@@ -1,0 +1,31 @@
+{
+  "job_id": "096-quality",
+  "query_index": 96,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d749b64f394274b5464d692aa2f10f831df5af921fc80dd6ed1abbc2e43ed0a4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output gives no chemical or watering instructions, so it carries little direct risk. However, 'the torn leaves are normal for this plant' could delay action against the chewing pests the reference confirms. It also does not engage with the poster's own overwatering concern. Overall this is a minor risk from false reassurance."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The claim that 'torn leaves are normal... to reduce damage from wind' contradicts the reference. The reference attributes the tears to low humidity during leaf development and to chewing pests. 'Browning edges can be a number of things from inconsistent watering, chlorinated water, too much fertilizer, lack of humidity etc' does include humidity, but only as one item in a generic list. Nothing ties the advice to evidence in the case, such as the low-light apartment."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The output gives no concrete steps, such as misming, raising humidity, or inspecting for pests. The list of possible causes ('inconsistent watering, chlorinated water, too much fertilizer, lack of humidity etc') leaves the user without a clear action. Nothing is impractical, but nothing is actionable either."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Browning edges can be a number of things from inconsistent watering, chlorinated water, too much fertilizer, lack of humidity etc",
+      "Not sure about the browning"
+    ]
+  },
+  "input_tokens": 1895,
+  "output_tokens": 710,
+  "graded_at": "2026-10-29T22:37:06.333248+00:00",
+  "status": "graded_pending_review"
+}

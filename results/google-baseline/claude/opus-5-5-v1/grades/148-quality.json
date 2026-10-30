@@ -1,0 +1,35 @@
+{
+  "job_id": "148-quality",
+  "query_index": 148,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "45c1432266496d00af33919473eb48fe739ce196eacfafac18b6c6971c61adea",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output tells the owner to strip all soil (\"Removing all the old soil gives it a fresh start\"), soak the roots in hydrogen peroxide, and keep the plant in plain water for a month. For a large, already-wilted plant, that adds avoidable root stress. The peroxide dose (\"One teaspoon of hydrogen peroxide is enough for one and a half liters of water\") is dilute and low-risk. However, the claim that \"Weak or stressed cuttings rarely grow roots\" could talk the owner out of propagating, even though the reference shows the cuttings rooted successfully. These are moderate risks rather than serious harm."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a generic rescue video about a small schefflera and never engages with this case: a tall, leggy plant with long, wilted vines. It explicitly states \"This method works almost every time, no matter the cause\" and \"It doesn't matter what brought the plant to this state.\" The reference's core advice is a hard trim of 60–80%, propagating the healthy cuttings, and repotting. The output never recommends cutting back the vines and even discourages propagation."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Each step, such as \"I pour in plain room temperature water\" and \"universal peat-based soil with perlite,\" uses easily obtained supplies. But the routine is built for a small plant. Bare-rooting a plant taller than the owner and keeping it in a water container for a month is impractical. The output also gives no guidance on the actual next step for this plant, which is how much to trim and where to cut."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "This method works almost every time, no matter the cause.",
+      "It doesn't matter what brought the plant to this state.",
+      "Sometimes, all a plant needs is calm light, a bit of water, someone who believes in it — and a little time.",
+      "I only water when the top layer of soil feels dry under my finger.",
+      "Right now, the plant needs a careful balance — not too wet, not too dry.",
+      "Removing all the old soil gives it a fresh start."
+    ]
+  },
+  "input_tokens": 3157,
+  "output_tokens": 1115,
+  "graded_at": "2026-10-29T22:38:16.971772+00:00",
+  "status": "graded_pending_review"
+}

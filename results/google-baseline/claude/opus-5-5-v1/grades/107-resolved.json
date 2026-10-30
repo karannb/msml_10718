@@ -1,0 +1,42 @@
+{
+  "job_id": "107-resolved",
+  "query_index": 107,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "2cff408177ba63da3b8a65ab6cd1adea3443f61d5e2ada2159f1181d9968cd15",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check the roots",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot the plant into fresh soil",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, chop and propagate cuttings",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer gives no real diagnosis and only mentions confusion over watering, but its main advice to repot matches what the poster did successfully, and none of it is likely to harm the plant."
+  },
+  "input_tokens": 2426,
+  "output_tokens": 477,
+  "graded_at": "2026-10-30T00:12:18.190921+00:00",
+  "status": "graded_pending_review"
+}

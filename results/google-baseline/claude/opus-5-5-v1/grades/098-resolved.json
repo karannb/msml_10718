@@ -1,0 +1,70 @@
+{
+  "job_id": "098-resolved",
+  "query_index": 98,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "a51fa1465530d7c741652b89dba24cbfd1c99fdf75954c6df87a215479bfce8c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the plant thoroughly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use only distilled or bottled water for watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture with a finger",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If soil is dry, give a long drink",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase watering amount or frequency while heating is on",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant a few feet back from the window",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check whether the pot is big enough and the roots are crowded",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames thirst, too much light, cramped roots or cold rather than low humidity (dry air is mentioned only as a reason to water more), and it never suggests a humidity tent; the watering advice is mostly soil-checked and unlikely to hurt the plant."
+  },
+  "input_tokens": 12883,
+  "output_tokens": 846,
+  "graded_at": "2026-10-29T22:37:32.613216+00:00",
+  "status": "graded_pending_review"
+}

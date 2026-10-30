@@ -1,0 +1,44 @@
+{
+  "job_id": "158-quality",
+  "query_index": 158,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d13fea8b090397d7d26ecfdb0d9beebe70baad4ae3612303de3b9e38a2eda3f9",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a generic RHS-style diagnostic page. Its advice, such as \"Insert your finger into the growing medium to check how moist it is\" and \"Using fungicides on houseplants is not recommended,\" is conservative and unlikely to hurt the plant. However, it never commits to a diagnosis, so it could delay the needed repotting and staking. It also omits any note that monstera is toxic to pets and children, which is a minor missing caveat."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output never mentions monstera, gives no health label or time-to-severe estimate, and does not identify the actual problem: a poorly supported, struggling plant. It touches on light (\"Check there's enough light\") and repotting (\"may benefit from being repotted into fresh peat-free compost\"), but only as items on a ten-point generic checklist. It says nothing about the coir pole, staking, tying nodes to the support, or giving roots room in a well-draining mix, which are the core of the REFERENCE. It is essentially a scraped web page that could apply to any houseplant."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Each check is individually doable with household items, such as a finger moisture test, a pebble tray or secateurs. But the output leaves the owner to work through ten possible causes alone (\"Once you have identified the problem, make adjustments to your care regime\"). It gives no concrete action plan for this plant, and nothing on how to stake or support the monstera. The actionable path for this case is unclear."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Check there's enough light",
+      "Check for too much light",
+      "Check there's enough water",
+      "Check for too much water",
+      "Check the temperature",
+      "Check humidity",
+      "Check for nutrient deficiencies",
+      "Check for insects",
+      "Check for disease",
+      "Consider the growing environment",
+      "Once you have identified the problem, make adjustments to your care regime",
+      "increasing or decreasing watering, moving your plant to a sunnier, shadier, warmer or cooler spot, increasing humidity, repotting, feeding or treating a pest or disease problem",
+      "may benefit from being repotted into fresh peat-free compost",
+      "focus on providing sufficient light, correct watering and suitable peat-free compost",
+      "Cut off any mouldy, shrivelled, completely brown or completely yellow leaves"
+    ]
+  },
+  "input_tokens": 5696,
+  "output_tokens": 987,
+  "graded_at": "2026-10-30T00:13:34.811355+00:00",
+  "status": "graded_pending_review"
+}

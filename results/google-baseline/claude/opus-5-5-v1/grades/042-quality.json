@@ -1,0 +1,34 @@
+{
+  "job_id": "042-quality",
+  "query_index": 42,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "eaf87e7cca30e0f48dc489bc98f7fe6bae701afd86fd9465b8816f4a97c238c4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped watering-problems article that never addresses the real cause, insufficient light. Its line \"If your plant's leaves are starting to look yellow and transparent... it's likely suffered from overwatering\" could push the user to misread the yellowing and change watering for no reason. Its \"you'll need to do a little surgery... cut off the top of your plant\" could lead to needless cutting of a healthy plant. There are no toxic-chemical risks, but it may delay the needed fix: more direct sun plus a grow light."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The reference identifies etiolation and colour loss from too little light, and says the powdery coating is normal farina. The output never discusses light, never answers the grow-light question and never explains the farina or the green colour. Its only nod is a bare link, \"stretching out\", under \"Other problems.\" It also includes app promotion, \"I highly recommend downloading the Cheerful Plants app,\" plus ad markup, so it is entirely off-target."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some steps, such as \"make sure your soil is completely dried out before watering again\", are doable at home. However, they target the wrong problem and are buried in page markup, ads and links. The user gets no clear, relevant action such as moving the plants back to the window, or guidance on how many hours to run the grow light."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "when in doubt, wait before watering",
+      "switch to a better soil mixture and be sure you're using a pot with a drainage hole",
+      "Keep track of watering",
+      "look at my page with common succulent problems to continue self-diagnosing",
+      "make sure you get a diagnosis as soon as possible"
+    ]
+  },
+  "input_tokens": 7393,
+  "output_tokens": 839,
+  "graded_at": "2026-10-30T00:19:37.014911+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,91 @@
+{
+  "job_id": "036-resolved",
+  "query_index": 36,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "5bc6e98b9fd7010b0e9536d0950104ad66f4b355955ed554107804ed3eafcfc7",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Soak the plants thoroughly until water drains from the bottom, e.g. under the faucet",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Let the pots sit in water for a few hours (bottom watering)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity around the plants",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 30,
+        "unclear": true
+      },
+      {
+        "action": "Give the plants more light, e.g. with grow lights on a timer or stake grow lights",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Add liquid plant fertilizer with each watering",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Repot into a free-flowing growing medium to reduce rot risk",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": true
+      },
+      {
+        "action": "Grow the plants directly in water instead of soil",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Check whether the plants are too cold",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture and for root rot",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames thirst, cold, light or rot and never mentions the band strangling the trunk; its heavy-soaking advice wouldn't fix the blockage, delays the real fix and risks rot."
+  },
+  "input_tokens": 5747,
+  "output_tokens": 871,
+  "graded_at": "2026-10-30T00:17:23.775699+00:00",
+  "status": "graded_pending_review"
+}

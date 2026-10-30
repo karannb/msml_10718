@@ -1,0 +1,32 @@
+{
+  "job_id": "034-quality",
+  "query_index": 34,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "421381c6654fe0ffc30b2782e1b80cb1a2e2231f9d065119d17724e70fbb9b54",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is scraped Facebook comments, not structured advice. One comment says 'it looks like a philodendron which doesn't like full sun, so don't jam it under a light'. This misidentifies the calathea and discourages the lamp that the REFERENCE says helped recovery. 'check and see if she needs water' could prompt watering soil the CASE says is still moist, which risks root rot. Harm is moderate rather than severe because another comment does suggest a plant light."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "'Looks like shock from repotting plus not enough light' partly matches the REFERENCE. However, nothing addresses the soil staying wet or the root-rot risk. The output also contains the wrong species ID ('philodendron') and contradictory light advice. There is no clear health label or time-to-severe estimate, only 'Give it about 2-3 weeks', and much of the content is UI/URL noise."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The advice is fragmentary and contradictory: 'maybe try a plant light over the top of her' versus 'don't jam it under a light'. Embedded links and button markup obscure it further. A user would not get clear, concrete steps, even though the individual actions (using a lamp they already own, waiting) are easy."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "check and see if she needs water",
+      "Give it about 2-3 weeks",
+      "don't jam it under a light until you know what are the good growing conditions"
+    ]
+  },
+  "input_tokens": 2823,
+  "output_tokens": 762,
+  "graded_at": "2026-10-30T00:20:34.104430+00:00",
+  "status": "graded_pending_review"
+}

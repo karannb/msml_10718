@@ -1,0 +1,33 @@
+{
+  "job_id": "080-quality",
+  "query_index": 80,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "782fa9645e3910d4a563f3e8fce42f5591ac359faa63873c525bcfd4c7acefb8",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is a scraped Reddit thread rather than tailored advice. Its most actionable lines, \"TONS of water passing through them very frequently\" and \"I can drown and drain them all daily,\" could cause root rot in a palm that is light-starved and likely sitting in standard nursery soil. It also says \"Grow lights are definitely not essential,\" which could discourage the light increase that fixed this case. There are no caveats about soil type or the plant's actual conditions."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output gives no health label and no time-to-severe estimate, and never addresses the poster's three-week-old palm with yellowing leaves and brown tips. It mentions \"if your light is lacking\" only in passing, inside a debate about grow bulbs, and another commenter immediately contradicts it. Most of the content covers other users' palms (a Kentia, a Chamaedorea elegans, a majesty palm) and does not match the reference's clear diagnosis of insufficient light."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The response is raw page markup with usernames, URLs and nested comment threads. It offers no clear steps a user could follow. Some fragments are doable, such as \"bark/charcoal/perlite only\" mix and \"self watering,\" but they conflict with each other and are not directed at the user's problem. A typical owner could not extract a coherent plan from it."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Loose mix, ample drainage",
+      "tons of water passing through them very very frequently",
+      "Enough water to thoroughly wet the media, but make sure it's a media that will dry quickly",
+      "Self watering seems to be a good tool for plants that like to stay on the moist side"
+    ]
+  },
+  "input_tokens": 5294,
+  "output_tokens": 961,
+  "graded_at": "2026-10-30T00:11:58.513452+00:00",
+  "status": "graded_pending_review"
+}

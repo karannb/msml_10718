@@ -1,0 +1,63 @@
+{
+  "job_id": "105-resolved",
+  "query_index": 105,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "c2c6ccbaa76dc0a72400384798819e75d1468fb92282c58f3a236fbc208d5746",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Trim off dry leaf tips",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in fresh, loose, breathable soil",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Cut under the bark with a knife to check whether the stem or trunk inside is green or yellow",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If rotten, cut away rotten upper branches or stem sections down to healthy green tissue",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot the plant and trim away all rotted roots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If the trunk is shriveled, cut it, remove the leaves and replant the healthy part",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer mentions underwatering only briefly and frames the main problem as poor aeration and root rot; its repotting advice partly matches the fix but omits a thorough soak, and its advice to cut into a dehydrated soft stem as if it were rot could harm the plant and delay watering."
+  },
+  "input_tokens": 2390,
+  "output_tokens": 788,
+  "graded_at": "2026-10-30T00:11:45.358611+00:00",
+  "status": "graded_pending_review"
+}

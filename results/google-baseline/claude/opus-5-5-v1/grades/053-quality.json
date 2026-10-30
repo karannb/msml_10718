@@ -1,0 +1,39 @@
+{
+  "job_id": "053-quality",
+  "query_index": 53,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c9314e617b29935cc123da9fe5cbb5ec86cbc9123fbdd0d8478bc8e2086ad5bc",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output recommends \"Application of suitable fungicides can effectively control and treat the spots disease\" without a confirmed pathogen. The reference instead points to shipping stress and old, water-retaining packed soil. Unnecessary fungicide use is a minor risk and delays the needed root check and repot. The output also omits any warning that philodendrons are toxic to pets and children, though following its advice would not directly cause serious harm."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output diagnoses a generic fungal/bacterial \"Spots disease\" and never addresses the case evidence: recent purchase, peat or sphagnum packing, and the grower plug. The reference's key action is to inspect the roots and repot into a chunky aroid mix; the output only vaguely mentions \"Poorly drained soils\" as a factor. Much of the content is irrelevant boilerplate such as \"Implement crop rotation\", \"Thinning the plants\", and app download ads. The mention of high humidity loosely ties to the case, but the advice is not tailored."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Several steps are unrealistic or inapplicable for a single houseplant, such as \"Implement crop rotation\" and \"Thinning the plants and keeping sufficient space between them.\" \"Apply Fungicides\" is vague, with no product or dose named. \"Reduce humidity\" via \"Proper watering practices\" is unclear. Isolating the plant is doable, but overall the steps are not concrete."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Improve air circulation",
+      "Reduce humidity",
+      "Proper watering practices can reduce the moisture levels",
+      "Apply Fungicides",
+      "Follow instructions on labels for safety",
+      "Regularly checking Moonlight philodendron can help detect any signs of disease early on",
+      "Implement crop rotation",
+      "Proper plant care practices like optimal watering, good air circulation",
+      "isolate the infected plant and start treatment immediately",
+      "Thinning the plants and keeping sufficient space between them"
+    ]
+  },
+  "input_tokens": 3537,
+  "output_tokens": 703,
+  "graded_at": "2026-10-29T22:38:28.890034+00:00",
+  "status": "graded_pending_review"
+}

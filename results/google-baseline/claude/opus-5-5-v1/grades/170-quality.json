@@ -1,0 +1,38 @@
+{
+  "job_id": "170-quality",
+  "query_index": 170,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "991fbd550253bdd1684ed4fcb879ba9fcff76094f976433a5111d234d4f56752",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output mostly gives benign watering tips, such as \"allow the soil to slightly dry between waterings\" and \"When in doubt, water less,\" which are unlikely to damage a hungry plant. However, it leads with \"improper watering is a very likely culprit\" and \"overwatering is the number one killer\" without evidence from the case. It also downplays feeding: \"Our babies are lucky to get fed once or twice per year... they seem to forgive me!\" Together these could delay the fertilizing the plant actually needed. The suggested seaweed extract is low in nutrients and might not fix a real deficiency, but it is not dangerous."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped generic blog post on houseplant watering and feeding, not an assessment of this plant. It has no health label, no time-to-severe estimate and no reference to the photo or case. Its main framing points to watering, while the confirmed problem is nutrient deficiency. The \"FOOD\" section mentions feeding \"every 3 months or so\" with seaweed extract, but this is generic content that only coincidentally touches the right area. It never identifies hunger or yellowing upper leaves."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual tips are concrete and doable at home, such as \"poke holes in the top couple inches of the soil\" with a chopstick, watering weekly, and \"follow the dilution instructions on the bottle.\" However, there is no coherent action plan for this plant. The user must sift through a long blog post, including product links and articles on compost tea, to work out what to do. The steps are feasible, but which ones apply is ambiguous."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "improper watering is a very likely culprit",
+      "overwatering is the number one killer of all houseplants",
+      "allow the soil to slightly dry between waterings",
+      "get a regular watering routine down",
+      "When in doubt, water less",
+      "drizzle water evenly over the entire top of the soil",
+      "poke holes in the top couple inches of the soil",
+      "every 3 months or so",
+      "Just follow the dilution instructions on the bottle"
+    ]
+  },
+  "input_tokens": 4069,
+  "output_tokens": 1222,
+  "graded_at": "2026-10-29T22:37:58.920537+00:00",
+  "status": "graded_pending_review"
+}

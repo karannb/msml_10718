@@ -1,0 +1,35 @@
+{
+  "job_id": "126-quality",
+  "query_index": 126,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "fe093c9b7ef3a3175d3e06e155cac4931afdabe6c368aafdaaf1bad150db3c74",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output reinforces the poster's mistaken overwatering belief: 'Neglect is the best thing for Rosemary and lavender... not overwatering' and 'Allow the soil to dry out down to 2 inches before watering.' The REFERENCE confirms the real problem was underwatering in fast-drying terracotta during 90-degree heat. Following this advice would likely worsen drought stress and delay the needed fix of more water and plastic pots. The 'gritty soil' advice would also make the soil dry out even faster."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output does not identify underwatering or terracotta drying, which is the confirmed diagnosis. It also never answers the poster's direct question about plastic pots, which the REFERENCE recommends. The text is mostly generic rosemary care ('Sun, not too rich of soil, and good drainage', 'Use large well draining pots with gritty soil'). It is not tied to the case evidence, and there is no health label or time-to-severe estimate. 'Large pots' is the only point that loosely overlaps with the REFERENCE's 3+ gallon suggestion."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps like 'dry out down to 2 inches then soak' and 'move it into a shade area on extreme hot days' are things a home grower can do. However, the output is a raw scraped Facebook thread full of URLs, buttons and reaction counts rather than coherent assistant guidance. It is unclear and partly contradictory ('give it a soak' versus 'Neglect is the best thing'), and it is missing the required label and estimate."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Use large well draining pots with gritty soil",
+      "The plant will do best in full sun",
+      "As your plant grows pot it on to allow room for the root ball",
+      "Sun, not too rich of soil, and good drainage",
+      "Neglect is the best thing for Rosemary and lavender",
+      "You can grow inside but do not overwater"
+    ]
+  },
+  "input_tokens": 2952,
+  "output_tokens": 858,
+  "graded_at": "2026-10-30T00:11:04.420826+00:00",
+  "status": "graded_pending_review"
+}

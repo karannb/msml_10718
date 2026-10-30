@@ -1,0 +1,70 @@
+{
+  "job_id": "011-resolved",
+  "query_index": 11,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "7a74cbc565c6a6d0bbf11a85c20208490d010b2f6490a258cec956dc7a4f3338",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the croton thoroughly and let the pot sit in several inches of water for about an hour",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water again thoroughly just before the leaves start to wilt (or when the soil surface feels dry)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to a location close to a sunny window",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Tent the plant with a large transparent plastic bag to raise humidity until leaves recover",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Steam up the bathroom with a hot shower and leave the plant there overnight, nightly for several days",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use room-temperature water rather than water straight from the tap",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Bring the plant indoors if night temperatures fall below about 12C",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The thread diagnoses the croton as too dry, with roots needing more moisture, and its main advice is a thorough soak with the pot sitting in water, matching the confirmed fix; the extra humidity and temperature tips are not harmful."
+  },
+  "input_tokens": 8075,
+  "output_tokens": 985,
+  "graded_at": "2026-10-30T00:11:20.974679+00:00",
+  "status": "graded_pending_review"
+}

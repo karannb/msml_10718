@@ -1,0 +1,39 @@
+{
+  "job_id": "067-quality",
+  "query_index": 67,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "6e8f86fbfb39bc22d1570e3ed9707fac476bdef4ac9d73abf5023e9770cc27d2",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output never answers the ACV question. Its lead pattern, 'Wet soil + wet-looking spots + yellow halos = overwatering... Musty smell from soil. Root rot in progress. Unpot to inspect roots', would push the user to unpot and repot again when the store already found no root rot and replaced the soil. That adds stress but is not dangerous, and 'Stop watering... Don't water for 5–7 days' is mild. The fungal section ('consider systemic fungicide if damage spreading', 'Isolate from other plants') is reasonable but has no product-safety caveats and no warning that monstera is toxic to pets."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is a generic five-pattern monstera brown-spot article, not a response to the case. It mentions fungal spots only as 'Pattern 4' at about 10%, while giving top billing to overwatering and reading the musty smell as 'Root rot in progress', which contradicts the case evidence. It never addresses whether to keep spraying ACV. The reference advice (cut affected leaves, use a store-bought copper fungicide such as Bonide every 2 weeks per label) is only loosely echoed by 'consider systemic fungicide' and 'Trim damaged tissue'. The page also carries product promotion for watering spikes."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual steps are concrete and home-doable: 'wipe leaves with isopropyl alcohol', 'spray with neem oil', 'improve air circulation, avoid wetting leaves'. However, the user must first self-diagnose across five patterns. The fungal guidance is vague ('consider systemic fungicide') with no product, dose, or frequency. The output gives no single clear plan for this plant."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Water when top 2–4 inches of soil are dry",
+      "Add humidifier if below 40%",
+      "Move to indirect light",
+      "Inspect regularly",
+      "Use well-draining soil",
+      "improve air circulation",
+      "Isolate from other plants",
+      "Repot in fresh well-draining soil",
+      "Provide bright indirect light",
+      "Keep humidity above 40%"
+    ]
+  },
+  "input_tokens": 6579,
+  "output_tokens": 736,
+  "graded_at": "2026-10-30T00:14:58.168083+00:00",
+  "status": "graded_pending_review"
+}

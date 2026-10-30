@@ -1,0 +1,33 @@
+{
+  "job_id": "104-quality",
+  "query_index": 104,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "00401c259cedaf60fa22af4027f4647595765024a43fe2effbf7a6e51fa4b8e9",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is a scraped Reddit thread from a different post ('what-to-do-with-wobbly-dracaena'), not an assistant answer. Its dominant messages are 'Chop time, almost definitely root rot', 'Dead below the surface' and 'It seems pretty dead to me'. For a plant that only needed a deep soak, acting on these could mean needlessly cutting a healthy 7-year-old plant or withholding water. One comment suggests leaving a cutting 'living in water', which is questionable for long-term care, and no toxicity caveat for pets is given."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The content does not address this CASE. It refers to another user's wobbly plant with a 'hollow' stem, and the majority diagnosis is root rot, which contradicts the REFERENCE (underwatering with dried-out, rootbound roots). One commenter asks 'Could it perhaps be a case of underwatering and the roots drying up and dying?', but this is a minority speculation. There is no health label, no time-to-severe estimate, and nothing tied to the poster's evidence of super-dry roots despite recent watering."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "This is unstructured, contradictory forum noise: 'Cut where I marked in the photo', 'Repot', 'You need to add more dirt', 'air layering', and growing in water with leca. There is no single clear plan. Steps reference photos the user cannot see, and a home owner cannot tell which advice applies. The correct, simple action (a deep soak, then repot into a larger pot) is never clearly given."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Repot",
+      "You need to add more dirt. Over time, you always need to add some fresh dirt.",
+      "Have you checked the roots?",
+      "Cut off the top and reroot."
+    ]
+  },
+  "input_tokens": 9676,
+  "output_tokens": 906,
+  "graded_at": "2026-10-30T00:11:37.718586+00:00",
+  "status": "graded_pending_review"
+}

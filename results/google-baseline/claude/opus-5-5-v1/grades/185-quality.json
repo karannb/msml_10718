@@ -1,0 +1,32 @@
+{
+  "job_id": "185-quality",
+  "query_index": 185,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "98c850bff7b2fda7555c7dc195f1240433ac54aa7d40ad789a3d0adf2df46968",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a video transcript about a coleus, not the user's calathea/red maranta. It urges drastic pruning of the mother plant: \"I think I have to cut these back and then just wait for entirely New Growth\" and \"it doesn't mind being cut back in this fashion.\" Marantas recover more slowly, so this unwarranted pruning could set the plant back. The water-propagation suggestion itself is low risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The transcript repeatedly names the wrong plant (\"colus plants,\" \"the chus plant\") and describes damage unrelated to the user's case. It does incidentally match the reference's core method: rooting cuttings in water (\"you can just leave them to grow in water\"). However, it never addresses the user's broken stem, the node, or weekly water changes. It also gives no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "This is a rambling, timestamped transcript with no clear step list. Key steps for propagation, such as cutting below a node, putting the cutting in water and changing the water, are only implied (\"let's prep these up [Music]\"). A user would struggle to pull actionable, plant-appropriate instructions from it, although the actions it alludes to are simple."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "it does like lots of light so I'm going to put it in my nice bright spot",
+      "hopefully new stems will grow",
+      "pop these on into soil into their own pot"
+    ]
+  },
+  "input_tokens": 3129,
+  "output_tokens": 796,
+  "graded_at": "2026-10-30T00:14:13.839114+00:00",
+  "status": "graded_pending_review"
+}

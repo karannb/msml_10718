@@ -1,0 +1,34 @@
+{
+  "job_id": "132-quality",
+  "query_index": 132,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7c54f56e0b347217338fe9736891b69c1ce9c21f02cafd8a4b0353cb591e6887",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "Following the core advice is unlikely to hurt the plant. \"You only want to increase your pot size by one or two inches in diameter\" is sound and guards against overpotting and root rot. Two minor issues: \"Alternatively, you can line the bottom with a half-inch layer of grower's charcoal\" implies charcoal can stand in for drainage holes in a non-draining pot, which is a questionable waterlogging risk. There is also no note that bird of paradise is mildly toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output's core advice matches the reference's \"repot... only go up one size larger.\" It names root-bound and notes \"roots emerging from drainage holes.\" However, it is a scraped garden-center article, not a reply to this case. It never mentions bird of paradise or the 27cm pot. It never directly answers \"yes, repot.\" It ignores the poster's note that several plants share the pot, and includes store promotion (\"Uni-Gro Premium Charcoal... in our retail store\")."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "\"Repotting Steps\" 1–5 are concrete and use common materials (pot, soil, shears), so a home owner can follow them this week. Some gaps remain. There is no step for removing the plant from its current pot. Sizing is given in inches while the user's pot is 27cm. Nothing covers whether to divide the multiple plants."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "place it in an area with suitable light",
+      "Your desired soil mixture",
+      "snip off any unhealthy, dark, and mushy roots",
+      "Gently water your plant",
+      "The material you choose for your pot is up to you"
+    ]
+  },
+  "input_tokens": 3550,
+  "output_tokens": 900,
+  "graded_at": "2026-10-30T00:12:32.854506+00:00",
+  "status": "graded_pending_review"
+}

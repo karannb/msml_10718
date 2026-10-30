@@ -1,0 +1,32 @@
+{
+  "job_id": "161-quality",
+  "query_index": 161,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "c9cf8540edfc8af3944108a390c29b747efc02be4e54a4d759dfeaf0211dc2b6",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is scraped comment text, not structured advice. It says 'flapjacks and rainbow elephant bushes get huge and love lots of water' and 'succulents DO need water,' and suggests 'might need a little sip.' The reference confirms overwatering, so this pushes toward more water and could worsen rot. It also never mentions the light problem."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label and no time-to-severe estimate. The implied diagnosis, 'they're all competing for water,' contradicts the reference: overwatering plus too little light, with plants sitting too low in their pots. It ignores the user's stated move to a lower-light spot and their frequent small waterings. It also gives none of the reference advice: water thoroughly but infrequently, let the soil dry out, wait for slight leaf wrinkling, and raise the plants in their pots."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Repotting into separate pots, as in 'repotting those two in their own separate pot,' is something a home owner can do. However, the output is fragmented, mixed with URLs and UI markup, and gives no clear steps or watering schedule. A typical user could not follow a coherent plan from it."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "succulents DO need water",
+      "Looks like might need a little sip but do that after repotting",
+      "i recommend repotting"
+    ]
+  },
+  "input_tokens": 2476,
+  "output_tokens": 745,
+  "graded_at": "2026-10-30T00:14:14.760578+00:00",
+  "status": "graded_pending_review"
+}

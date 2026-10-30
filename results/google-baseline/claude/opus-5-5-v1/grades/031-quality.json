@@ -1,0 +1,36 @@
+{
+  "job_id": "031-quality",
+  "query_index": 31,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "88d38b689fa0d92d4ab9a16f3b65771fac8d3f57f9dde85781c07c1672153e5b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output contains nothing acutely dangerous. The skewer tip ('If it comes out dry, it's time to water!') would push the owner toward watering, which helps. Some risk remains: it advises monthly feeding at 'half-strength' without warning against fertilizing a stressed, wilting plant. It also never says the plant is underwatered, so the owner, who is 'afraid to over water', may keep giving tiny sips. Grouping succulents 'to maintain optimal humidity' contradicts its own 'Sedum loves dry air' advice, but this is low risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a generic 'Garden Hack' care blog with no health label, no time-to-severe estimate and no diagnosis. It never identifies the confirmed underwatering or the poor pot setup. 'Always use pots with drainage holes' and the cactus soil mix loosely overlap with the REFERENCE's advice to repot in a pot with holes. It omits the key fix of deep or bottom watering (soaking the pot in a bucket overnight). It also ignores the user's direct questions about bottom watering versus repotting. Lighting, humidity and temperature 'hacks' are boilerplate unrelated to the evidence in the CASE."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual steps are easy: the skewer moisture test, the DIY soil mix ('3 parts potting soil, 2 parts coarse sand, 1 part perlite') and using a pot with drainage holes. Others add cost without addressing the problem, such as a 'clip-on grow light' and a 'small dehumidifier'. There is no ordered plan for rescuing this wilting plant this week, so the owner must work out for themselves what to do first."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Use an affordable clip-on grow light near a south- or east-facing window",
+      "Stick a wooden skewer or chopstick into the soil to check moisture",
+      "Always use pots with drainage holes to prevent soggy roots",
+      "avoid placing it in bathrooms... pop a small dehumidifier nearby",
+      "Keep the plant cozy by avoiding drafty windows in winter",
+      "dilute regular succulent fertilizer to half-strength. Feed it once a month",
+      "Group your succulents together for a trendy indoor garden vibe"
+    ]
+  },
+  "input_tokens": 2864,
+  "output_tokens": 1200,
+  "graded_at": "2026-10-30T00:19:40.120475+00:00",
+  "status": "graded_pending_review"
+}

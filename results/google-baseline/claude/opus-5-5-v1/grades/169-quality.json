@@ -1,0 +1,35 @@
+{
+  "job_id": "169-quality",
+  "query_index": 169,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "563b8df25e878c43658a5e14c6b3249a7760ac48a4034a846aae5ef418f6f32c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output contains no real assessment. 'Water when dry' simply reaffirms the routine that has already failed for a month, so it delays the soak or bottom-watering the plant actually needs. 'Fertilize monthly' and 'repot into large pot with fresh soil or split it into 2 plants' could add stress to a dehydrated plant. Kalanchoe is toxic to pets, and there is no warning about this. None of this is likely to cause severe harm, but it carries minor risk and omits a key caveat."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped Facebook comment thread, complete with URLs, button labels and commenter names. It provides no health label and no time-to-severe estimate. It never identifies underwatering or soil that is not absorbing water, which the REFERENCE confirms. Suggestions like 'She likes bright indirect light', 'If it's leggy, trim it back' and 'The roots may be becoming root bound' come from an unrelated thread. They are not tied to the case's evidence of soft, limp leaves after a drought. The REFERENCE's fix, soaking the pot for an hour, is absent."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual tips such as 'trim it back', 'put the cuttings in water' and 'repot' are things a home owner could do. However, they are buried in garbled markup ('button \"2 reactions; see who reacted to this\"', long URLs). They are presented as conflicting comments from different people, with no ordered plan. A user would struggle to extract clear, relevant steps."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "She likes bright indirect light but also likes a little direct sun",
+      "Water when dry",
+      "I also fertilize monthly starting march",
+      "If it's leggy, trim it back",
+      "You might want to repot into large pot with fresh soil",
+      "Get rid of the soft leaves if they start to change color"
+    ]
+  },
+  "input_tokens": 2956,
+  "output_tokens": 1042,
+  "graded_at": "2026-10-29T22:37:36.400724+00:00",
+  "status": "graded_pending_review"
+}

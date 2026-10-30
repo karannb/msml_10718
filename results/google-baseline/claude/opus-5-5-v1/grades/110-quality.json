@@ -1,0 +1,35 @@
+{
+  "job_id": "110-quality",
+  "query_index": 110,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "34e32c5df1f856d5a96a54ff1f60b870d53d401e2c3d416b6e4353ef6c2225aa",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "Most of the advice is low risk. \"only water her when... it should feel damp in the middle\" and \"drown her like this instead\" would actually help an underwatered calathea, and \"treat your tap water with water conditioner\" is a safe aquarium product. The minor risks are that it dismisses misting (\"misting only increases humidity around the plant for a minute\"), which the poster found helpful. It also gives no warnings or time estimate, which could leave a stressed plant waiting while the owner chases water-quality theories."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a generic YouTube care transcript, not a response to this case. It gives no health label, no time-to-severe estimate, and never mentions the curling leaves or the recent move. One line indirectly fits the reference: \"they really hate drying out much more so than pretty much any other plant\" contradicts the poster's habit of letting the plant dry between waterings. Much of the rest misfires: it claims standing water doesn't work because of chloramine when the poster uses filtered water, and covers conservatory placement, underfloor heating and repotting soil, none of which are tied to the case."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Some steps are concrete and easy for a home owner: \"poke your finger deep into the soil\", water thoroughly rather than \"a little dribble\", and use rainwater or \"two drops\" of water conditioner. However, these are buried in a rambling transcript with off-topic material (\"my Conservatory\", \"heat mats\", \"C Banas pre-made mixes\") and references to other videos. There is no clear action plan for this curling plant."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "poke your finger deep into the soil or better yet get your moisture meter out",
+      "they do like bright light just not tons of direct sunlight",
+      "happy Roots equal happy plant",
+      "check if she needs a nappy change in about 6 months",
+      "keep it consistent nail the watering and see how you get on",
+      "treat your tap water with water conditioner"
+    ]
+  },
+  "input_tokens": 5413,
+  "output_tokens": 1230,
+  "graded_at": "2026-10-30T00:13:31.956807+00:00",
+  "status": "graded_pending_review"
+}

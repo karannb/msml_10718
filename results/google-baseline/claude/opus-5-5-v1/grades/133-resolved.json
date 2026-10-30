@@ -1,0 +1,98 @@
+{
+  "job_id": "133-resolved",
+  "query_index": 133,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "dc668bdfa681cf764a03d3f6ca073ec9e0f01208557d68cc121e66bf0b362159",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Repot into a larger pot (3-5 inches wider and deeper) with drainage or a self-watering planter",
+        "minutes": 60,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Prune and trim leaves, edges and tips",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add support stakes to straighten the leaning plant",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Place plant close to a bright natural light source",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Keep a fan on or windows open for air circulation when the AC is off",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Mist the plant daily or run a humidifier nearby",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize in spring and summer",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Wipe dust off leaves with a moist paper towel every 2-3 weeks",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Top up the soil when the level gets low",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Test soil moisture with a moisture meter every 7-10 days",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "Water slowly in two halves using the half-pot-volume method and empty the saucer",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer identifies the plant as having outgrown its pot (root-bound) and its main advice is to repot into a bigger pot, matching the fix the poster followed; it recommends only 3-5 inches larger and warns against oversized pots, so nothing in it is harmful."
+  },
+  "input_tokens": 8025,
+  "output_tokens": 1037,
+  "graded_at": "2026-10-30T00:12:42.190694+00:00",
+  "status": "graded_pending_review"
+}

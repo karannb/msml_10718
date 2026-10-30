@@ -1,0 +1,32 @@
+{
+  "job_id": "075-quality",
+  "query_index": 75,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "5ebf7b5865f61d7dbd180a484c842715133fdd76917f3be5dc7c073ac6553bde",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The output says to \"place it in a bowl of water and thoroughly water and then let it drain\" and to \"keep the soil more damp.\" Both suit a dehydrated Maranta, and the instruction to drain limits waterlogging risk. Nothing involves chemicals or toxicity concerns, and nothing would worsen the confirmed dehydration."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The comments correctly say the plant is thirsty (\"They do that when they're thirsty and trying to conserve water\", \"This baby is in need of water badly!\"), which matches the reference diagnosis of dehydration. However, the output is raw scraped Facebook markup, not an assistant response, and it has no health label or time-to-severe estimate. It does not address the heater question clearly; the bare \"No.\" is ambiguous. It also adds generic tips (\"try distilled or rainwater\", \"add some overall humidity\") that are not tied to case evidence."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "Bottom-soaking in a bowl, then draining, is a clear, easy step that any owner can do today. Keeping the soil damp and raising humidity are doable but vague, with no guidance on how often or how much. The cluttered markup format makes the advice harder to extract."
+    },
+    "diagnosis_matches_reference": "yes",
+    "generic_phrases": [
+      "add some overall humidity",
+      "try distilled or rainwater if you can",
+      "keep the soil more damp"
+    ]
+  },
+  "input_tokens": 3121,
+  "output_tokens": 946,
+  "graded_at": "2026-10-29T22:38:15.698271+00:00",
+  "status": "graded_pending_review"
+}

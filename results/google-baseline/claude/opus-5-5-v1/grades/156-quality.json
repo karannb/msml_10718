@@ -1,0 +1,35 @@
+{
+  "job_id": "156-quality",
+  "query_index": 156,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "f2b5a0ca856a3d29cb82749756b7a636ffca7ae525b8847b5d2daf98ddfa814c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "Most content is ordinary seedling care: \"plant them up to an inch deep... keep it moist\", a peat and potting soil mix, and dilute fertilizer \"maybe dilute it to 1/2 or 1/3 strength\". The main risk is \"put it on a real good lighting... T5 high output four bulbs keep it real close to the plant\" for a stressed seedling that has been kept in the dark. The REFERENCE specifically warns not to put it immediately into bright light, and the output gives no caveat about this. The hydrogen peroxide fragment is incomplete but describes a dilute use, so the risk is low."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a garbled, generic lychee germination video transcript and never addresses the user's question. It does not say whether the sprouted seed is viable or whether the dead-looking first leaves can recover, and it gives no health label or time estimate. It only loosely aligns with the REFERENCE through the line \"once it sprouts... that's when you want to take it in planted in the soil\". It cites nothing from the CASE, such as the forgotten bag, the dark cupboard or the browned leaves."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The text is a fragmented speech-to-text transcript with errors like \"don't have a ringing white\" and \"it's a girl like she\", which makes the steps hard to follow. Some steps are doable, such as planting in potting mix with peat and keeping it moist. Others assume equipment like \"t5 high output four bulbs\" or pH targets \"between five and a half... seven and a half\" without explaining how to check pH. It never gives the simple, immediate action this case needs: pot it now, buried to the sprout, in indirect light."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "keep it moist",
+      "get a good potting mix",
+      "14 hours of good lighting",
+      "keep it in a somewhat human environment you need to put it on a pebble tray",
+      "use a fertilizer for acidic loving plants maybe dilute it to 1/2 or 1/3 strength",
+      "check it every few days or so"
+    ]
+  },
+  "input_tokens": 3064,
+  "output_tokens": 1141,
+  "graded_at": "2026-10-30T00:12:55.995878+00:00",
+  "status": "graded_pending_review"
+}

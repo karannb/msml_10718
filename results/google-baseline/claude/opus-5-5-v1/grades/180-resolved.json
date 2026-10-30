@@ -1,0 +1,63 @@
+{
+  "job_id": "180-resolved",
+  "query_index": 180,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "15fe47670befad043a8f79a690b401c2ca899c5a9502b536a3ca08391f8fe776",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "If brown tips bother you, trim them with clean scissors, leaving a thin brown border",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove fully yellow, fully brown or mostly dead leaves by cutting the petiole, leaving a 1-2 cm stub",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If there are spreading fungal lesions, remove the affected leaves promptly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If there are fungal lesions, move the plant to a spot with better ventilation",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clean snips with rubbing alcohol between plants",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Dispose of diseased leaves in general waste rather than compost",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "This generic leaf-removal guide mentions low humidity only in passing as a common cause of brown tips and never advises raising humidity or moving the plant, though its trimming advice is not harmful."
+  },
+  "input_tokens": 2614,
+  "output_tokens": 775,
+  "graded_at": "2026-10-30T00:12:52.024534+00:00",
+  "status": "graded_pending_review"
+}

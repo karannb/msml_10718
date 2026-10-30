@@ -1,0 +1,31 @@
+{
+  "job_id": "112-quality",
+  "query_index": 112,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "3b5ba2f11790d5c355cf5651890d551f4e6f80857ba2eaac031013ae34fcedd5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a video transcript about a different plant, and it recommends drastic intervention: \"remove all the soil from its roots... washing all the soil from The Roots\" and moving the plant into water with \"aloe vera gel... it helps to heal the wounds and supports root growth.\" For a peace lily that was just soaked six hours ago, bare-rooting and converting it to water culture adds unnecessary transplant stress. The aloe claim is unsupported. There is no warning that peace lilies are toxic to pets and children, though it would not likely kill the plant."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The transcript describes someone else's situation (\"I bought this piece Lily from Nursery two days ago\"), not the user's three-week absence. It provides no health label or time-to-severe estimate. It does touch on drought (\"soil feels so dry... hydrophobic\"), which partly overlaps the reference's underwatering diagnosis. However, it never gives the reference's key advice: wait several hours after the soak for the plant to recover, and address dry winter air with humidity. The incidental observation \"after 3 hours... leaves are holding back their shape again\" is the closest match."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Steps like \"tapping the sides of the pot and loosening the soil,\" washing the roots and placing the plant in \"a container half filled with filtered water\" are physically doable at home. However, they are presented as a narrative rather than instructions for this user. They are also more labor-intensive than the situation requires. No clear guidance is given on when or whether to return the plant to soil (\"until I feel it's completely fine\")."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "I will monitor the progress",
+      "I will keep that in water until I feel it's completely fine"
+    ]
+  },
+  "input_tokens": 2920,
+  "output_tokens": 1007,
+  "graded_at": "2026-10-30T00:14:11.888832+00:00",
+  "status": "graded_pending_review"
+}

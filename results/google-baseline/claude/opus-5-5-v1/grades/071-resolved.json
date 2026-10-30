@@ -1,0 +1,63 @@
+{
+  "job_id": "071-resolved",
+  "query_index": 71,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "31018bb1bbb534a0e864882041670dda75b05338d1c807e7fba1029e28e1500e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Place the plant outside in bright light to full sun for 4-6 hours a day",
+        "minutes": 2,
+        "per_day": 2,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to a south-facing windowsill during fall and winter",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Add a grow light if the plant is indoors and still dropping leaves",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Check that the soil is completely dry and the leaves are slightly pinchable before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water thoroughly until fully saturated once dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use a cactus/succulent potting mix with added gravel",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer gives general care tips and never addresses sunburn or acclimating a greenhouse plant to sun, though its suggestion of outdoor bright light partly matches the 'just put it outside' fix; nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 1694,
+  "output_tokens": 876,
+  "graded_at": "2026-10-30T00:15:56.830484+00:00",
+  "status": "graded_pending_review"
+}

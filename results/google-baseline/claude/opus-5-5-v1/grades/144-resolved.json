@@ -1,0 +1,35 @@
+{
+  "job_id": "144-resolved",
+  "query_index": 144,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "f5e64c0f16623effedf65cb27d0795510cb661abb0a61a190eb6ffe47298466d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check plant closely for pests",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check soil moisture and review watering habits",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic symptom list. It mentions scorch from too much light only as one entry among dozens and never diagnoses the leaf damage or advises trimming the leaf or protecting it from sun, though nothing in it is likely to cause harm."
+  },
+  "input_tokens": 3194,
+  "output_tokens": 219,
+  "graded_at": "2026-10-29T22:36:57.948124+00:00",
+  "status": "graded_pending_review"
+}

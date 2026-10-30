@@ -1,0 +1,33 @@
+{
+  "job_id": "087-quality",
+  "query_index": 87,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "55c85b0a6be8b6f9ff982b41b28ea78660d0d5aae294d6c281cb35d73541a556",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output gives generic pup-division steps: \"sever their connection to the mother plant's roots using a sharp and clean knife\" and \"keep the soil lightly moist.\" These are low-risk in themselves. However, they address propagation, not separating a mixed planter. A nervous owner could cut into the main pilea's roots unnecessarily. It also offers no guidance on handling the kalanchoe and syngonium roots during separation, so there is minor risk but nothing seriously harmful."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The user wants to separate three different plants (pilea, kalanchoe, syngonium) from a gifted planter. The output misreads this as propagating pilea pups, as in \"once the pilea pup has about 4-5 leaves\" and \"Propagating From Root Plantlets.\" The REFERENCE centers on light placement, giving the kalanchoe the most light, and notes that the pilea transplanted easily with mild shock. The output's line that the move \"might slightly shock the babies\" loosely overlaps with that. Otherwise it ignores the actual task and the light question."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The steps are concrete and doable: \"cut it under the soil and put it into a tiny pot with well draining soil. Don't bury it too deep.\" But they describe the wrong procedure. Someone separating an established mixed planter gets no instructions for teasing apart intertwined root balls of different species. That leaves real ambiguity about how to apply the advice."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "keep the soil lightly moist",
+      "well draining soil",
+      "Don't bury it too deep",
+      "Goodluck & happy planting!"
+    ]
+  },
+  "input_tokens": 2463,
+  "output_tokens": 899,
+  "graded_at": "2026-10-30T00:14:20.693129+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,20 @@
+{
+  "job_id": "118-resolved",
+  "query_index": 118,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "2f88c4cb2236dc2fc6e517c70f5c10d233006ed9ef505e5a490f595d1208b944",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [],
+    "reason": "The answer is an unrelated scraped thread debating whether to strip soil when repotting; it never identifies this plant as rootbound or tells the owner to repot, so it neither matches the diagnosis nor gives the fix, though nothing in it is likely to harm the plant."
+  },
+  "input_tokens": 10228,
+  "output_tokens": 332,
+  "graded_at": "2026-10-30T00:15:42.770944+00:00",
+  "status": "graded_pending_review"
+}

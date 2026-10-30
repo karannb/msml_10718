@@ -1,0 +1,63 @@
+{
+  "job_id": "069-resolved",
+  "query_index": 69,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "625e9eb2d0d03451dab97d9471f3756859a92cf3c4d33bd4ef86fff5f5d56092",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Take a photo of the whole plant",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check/adjust watering habits",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check light conditions",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "If edges are browning, check humidity and drafts",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Watch new growth for small, deformed or stuck leaves",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for pests like spider mites",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer, a scraped set of Facebook comments, lists improper watering and natural lower-leaf drop among several possibilities without settling on a main cause, and it suggests checking watering but omits the pole and fertilizing, so diagnosis and advice are partial; nothing it recommends is harmful."
+  },
+  "input_tokens": 2798,
+  "output_tokens": 425,
+  "graded_at": "2026-10-30T00:15:23.683941+00:00",
+  "status": "graded_pending_review"
+}

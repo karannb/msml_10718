@@ -1,0 +1,36 @@
+{
+  "job_id": "153-quality",
+  "query_index": 153,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "9c9e9e1eb772c790c336245496bb81cd5be1c4aa49b08434a85d0f06c3576072",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The soap recipe, \"three or four tablespoons of soap\" in \"one cup of fluid\" and repeated \"nightly for a few days,\" is far too concentrated and likely to burn foliage. The suggestion to use \"shampoo or hand soap\" adds more phytotoxicity risk. Leaving plants in the \"fridge\" or outside in the cold \"for between 24 to 36 hours\" could seriously damage tropical houseplants, despite the \"research your specific plant\" caveat. The 70% alcohol dabbing and the neem advice are reasonably safe, and diatomaceous earth comes with some protective-gear warnings."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a generic YouTube transcript about \"mealy bugs... those white little fuzzy bugs,\" while the reference confirms aphids. It never refers to the user's photos, never names the pest actually present, and never answers \"Am I doomed?\" It also gives no health label or time-to-severe estimate. Some of its methods happen to work on aphids, such as \"neem oil spray\" and ladybugs that \"will also work for things like aphids,\" but that overlap is incidental to a wrong diagnosis."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The output is a rambling, timestamped transcript of eight loosely described methods, with no prioritized plan for this case. Some steps are doable, such as \"dip a q-tip into 70 percent or less isopropyl alcohol\" and the neem spray, but they are buried among tangents. Other parts are ambiguous or burdensome, including \"whatever soap you have,\" ordering beneficial insects by mail, and dusting diatomaceous earth in a bathtub with protective gear. A typical owner would struggle to pull a clear course of action out of it."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "clean your plants regularly",
+      "there are so many different DIYs you can find online",
+      "cut off the infected growth",
+      "just research your specific plant",
+      "check every little nook and cranny",
+      "whatever soap you have in your house",
+      "you can also buy premade cleaning solutions"
+    ]
+  },
+  "input_tokens": 6230,
+  "output_tokens": 1325,
+  "graded_at": "2026-10-30T00:11:54.676645+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "145-quality",
+  "query_index": 145,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "beb26e1e0a2a75582bb8542ed6d50d4bbd58c46f7e5280cb2cbe4775e8807ce5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is mostly low-risk: \"If she is getting any direct light move her\" and \"move them out of direct light\" are safe and fit the reference's sun-stress concern. However, \"take your watering down to half what you've been giving them for winter\" is a generic overwatering guess that ignores the poster's mention of 'hot months.' Halving water during heat could cause underwatering stress. There is also no pet-toxicity note for a 'monkey' plant, which may be Monstera adansonii. These are minor risks, not serious harm."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "\"It looks similar to leaf burn. They can be sensitive to direct light\" matches the reference's 'sun stress' diagnosis and ties to the poster's mention of sunlight and hot months. However, the output also offers a conflicting diagnosis (\"Brown spots/ leaves are typically a sign of over watering\") without case-specific evidence. It never suggests trimming the damaged leaf, which was the reference's main advice, and never reassures the poster that the plant is otherwise healthy. It is raw scraped Facebook comments with URLs and has no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Moving the plant to indirect light, as in \"I moved to all indirect sun\" or \"like 10 ft away\" from the window, is easy for any home owner. However, the output is a cluttered, partly truncated comment dump with links, and it gives contradictory directions (light change vs. halving water). That leaves a typical user unsure which steps to follow."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Brown spots/ leaves are typically a sign of over watering",
+      "take your watering down to half what you've been giving them for winter",
+      "move them out of direct light"
+    ]
+  },
+  "input_tokens": 2753,
+  "output_tokens": 984,
+  "graded_at": "2026-10-29T22:37:22.730928+00:00",
+  "status": "graded_pending_review"
+}

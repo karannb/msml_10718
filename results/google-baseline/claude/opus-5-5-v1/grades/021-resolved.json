@@ -1,0 +1,49 @@
+{
+  "job_id": "021-resolved",
+  "query_index": 21,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "620a5aa4f8d1df0650c4ce63ca4ee5a3929f45257d3d68017cc17316e1e06c76",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Cover the plant with cloth or plastic on a frame (cloche) for shade",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Move the plant out of afternoon sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Reduce watering to every other day, in the morning",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cover the plant with pest covers during heat waves",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is scraped comments blaming heat stress or overwatering rather than immaturity, and offers shading and watering changes instead of waiting; these are unnecessary but unlikely to seriously harm the plant."
+  },
+  "input_tokens": 2301,
+  "output_tokens": 693,
+  "graded_at": "2026-10-30T00:14:48.346873+00:00",
+  "status": "graded_pending_review"
+}

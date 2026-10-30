@@ -1,0 +1,34 @@
+{
+  "job_id": "011-quality",
+  "query_index": 11,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "209fcc5c5957756cc8a004a9fe12082867cef6bd24e2c3c394173618f9b93ff5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The core advice, \"water your Croton thoroughly, even letting the pot sit in several inches of water for an hour or so,\" is safe and fits the underwatering problem. However, the output is a raw scraped forum thread with contradictory guidance (\"never directly from the tap\" vs \"Tap water is fine\"; \"prefer cooler temperatures\" vs warnings that 8C is harmful). It also includes another user's account of moving the plant outside at 8-12C. A reader could act on the wrong part. There are no pet or child toxicity warnings for croton, whose sap is an irritant."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "It partly matches the REFERENCE: \"Crotons do not tolerate dryness at all and wilt pathetically\" and \"just give it a good soak\" correctly point to underwatering and deep soaking. But much of it addresses details absent from this CASE, such as \"moving it to drier soil,\" \"terra cotta pots,\" \"repotting,\" and \"misting.\" It never cites this poster's evidence: drooping returning two days after watering, crusty and sloppy bottom leaves, cloudy weather. It also lacks the required health label and time-to-severe estimate, and includes unrelated posts such as dorislinda's."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual actions are easy for a home owner: soaking the pot, \"tent it... put a large transparent plastic bag over it,\" and the shower steam method. However, they are buried among usernames, badges, links and timestamps. Contradictory statements make it unclear which steps to follow, and there is no clear step-by-step plan for this user."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Make sure you water it thoroughly when the surface of the soil feels dry",
+      "Crotons also require a location close to a sunny window",
+      "repotting is often stressful for plants",
+      "water with room temp water, never directly from the tap",
+      "They are also very prone to spider mite infestations, especially when they are under stress"
+    ]
+  },
+  "input_tokens": 8535,
+  "output_tokens": 1175,
+  "graded_at": "2026-10-30T00:11:33.637905+00:00",
+  "status": "graded_pending_review"
+}

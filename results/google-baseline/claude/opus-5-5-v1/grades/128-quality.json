@@ -1,0 +1,35 @@
+{
+  "job_id": "128-quality",
+  "query_index": 128,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "eced9c67b3b19c9397efa34f4c901095cfca8c9f7796cbee8e33b07e9f275f87",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a generic outdoor vine-pruning article. It tells the user to 'Remove any dead, damaged, diseased, or unproductive stems' and says vines 'may need severe heading back.' A user who reads this could cut off the healthy new Scindapsus vine they want to keep. It is not dangerous to people or pets, but it does nothing to free the stuck tip and could lead to pointless pruning."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output never addresses the stuck new leaf. It gives no diagnosis of low humidity and no advice to mist or brush water on the tip and gently ease it out, which is what the reference recommends and what worked for the poster. It talks about wisteria, Virginia creeper, honeysuckle and trellises, none of which relate to an indoor Scindapsus with a stuck tip."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The steps given, such as 'Cut to a bud or stem that is pointing in the direction you want the vine to go' and seasonal pruning schedules, do not apply to this problem. There are no actionable steps for the user's actual question. Following them would not resolve the stuck tip."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Remove any dead, damaged, diseased, or unproductive stems.",
+      "Remove overly tangled stems.",
+      "Direct its growth.",
+      "Limit its growth.",
+      "Cut cleanly and don't leave a stub, which is an invitation to bugs and diseases.",
+      "all vines need basic care"
+    ]
+  },
+  "input_tokens": 4075,
+  "output_tokens": 522,
+  "graded_at": "2026-10-30T00:11:35.323380+00:00",
+  "status": "graded_pending_review"
+}

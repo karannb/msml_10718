@@ -1,0 +1,56 @@
+{
+  "job_id": "167-resolved",
+  "query_index": 167,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "2465a3813ddc11a48408fc36e7ac28d98421bceea636a45868f1f2567ef1349c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Get a very sharp pair of scissors or knife for pruning",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut overly tall or wide leaves at an angle where the stem attaches to the main stem",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove dry parts to make the plant look cleaner",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut damaged or old leaves as close to the soil level as possible",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cover each cut with a bit of soil",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The video is about pruning damaged and unwanted bird of paradise leaves, which matches the confirmed need to cut old, damaged lower leaves; its main advice is to cut them at the base, the fix the poster used, and nothing in it is harmful (it does omit the repotting suggestion)."
+  },
+  "input_tokens": 3411,
+  "output_tokens": 417,
+  "graded_at": "2026-10-30T00:15:34.952006+00:00",
+  "status": "graded_pending_review"
+}

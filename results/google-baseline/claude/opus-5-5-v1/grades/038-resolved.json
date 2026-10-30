@@ -1,0 +1,49 @@
+{
+  "job_id": "038-resolved",
+  "query_index": 38,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "719c2086f5b8a2805010a400ea12d1058960ec81596e254761ec46c603854be0",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Leave the plant as is until late winter, then cut off the dead growth and see if it regrows in spring",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Transplant into the ground in direct sun",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Use regular potting mix without added fertilizer",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Look up your USDA hardiness zone by ZIP code",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames soil that is too wet and suggests keeping the plant dry and letting it die back, the opposite of the confirmed dehydration, so following it would likely worsen the plant and delay the fix."
+  },
+  "input_tokens": 4312,
+  "output_tokens": 753,
+  "graded_at": "2026-10-30T00:18:03.522534+00:00",
+  "status": "graded_pending_review"
+}

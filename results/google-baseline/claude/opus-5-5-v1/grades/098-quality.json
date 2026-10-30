@@ -1,0 +1,34 @@
+{
+  "job_id": "098-quality",
+  "query_index": 98,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "b65cb17d9c11b1a2245713b101433008703190b61fa5d8e8574ce7510618899b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output mainly advises watering: \"Give it a long drink and see if that resolves the problem.\" This is tempered by a finger test (\"If the soil feels dry...\"), so overwatering risk is modest. \"ONLY use distilled water!\" is overstated but harmless. The main risk is delay: pushing water instead of humidity correction may postpone the fix, and an unrelated Amazon nutrition-product ad is embedded in the output."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The dominant diagnosis is thirst (\"my calathea curls up like this whenever it's thirsty\"), not low humidity as in the REFERENCE. One comment notes \"the air has probably started to get more dry\" with heating on, but turns that into more watering rather than raising humidity, and never suggests a bag or tent enclosure. Other comments are scattershot or generic (\"Too much light\", \"Is the pot big enough?\", \"cold or thirsty\"). The output is a raw scraped Reddit thread with no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual actions are easy: a finger soil check, watering, or \"Move it back a few feet\" from the window. However, the output is an unstructured page dump with conflicting suggestions (water, light, pot size, distilled water), UI markup and ads, so a user has no clear plan to follow. It also omits the humidity-enclosure steps that actually resolved the case."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Is the pot big enough? Checked the soil?",
+      "Give it a long drink and see if that resolves the problem",
+      "Move it back a few feet and should be okay",
+      "ONLY use distilled water",
+      "Calathea curl their leaves when cold or thirsty"
+    ]
+  },
+  "input_tokens": 13289,
+  "output_tokens": 1150,
+  "graded_at": "2026-10-29T22:37:45.482206+00:00",
+  "status": "graded_pending_review"
+}

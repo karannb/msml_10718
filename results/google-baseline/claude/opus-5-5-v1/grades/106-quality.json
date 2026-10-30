@@ -1,0 +1,35 @@
+{
+  "job_id": "106-quality",
+  "query_index": 106,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "ef474e4feb38880b95f0a8419af2a09d7ee97bc80ac701ded55c3b4a0c4e9389",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Reddit thread about a different plant that was overwatered and had rotted roots: 'I think it might be a bit overwatered' and 'Looks like too much water to me'. Applied to this drought-stressed cactus, that framing could lead the owner to hold back water from a dehydrated plant. It also pushes immediate repotting, while the reference advises waiting until spring. No chemicals are involved, but the conflicting advice poses a moderate risk to the plant."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output does not address this case. It describes another user's plant ('it was with my aunt since the 80s... in Romania') with clay soil and rotted roots, and gives no health label or time-to-severe estimate. Its main diagnosis, overwatering or root rot, contradicts the reference's drought stress and old, depleted soil. One line, 'Thin, wrinkly segments... sign of dehydration', is incidental and not tied to this case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Some individual tips are doable, such as 'repot into cactus soil', 'humidity tray' and 'water when the soil is dry down to your second knuckle'. However, the output is unstructured HTML and Reddit markup with usernames and links. It mixes contradictory advice ('do not want to dry out' vs 'better to under than overwater') and offers no clear step sequence for this owner."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Place it in a bright location free from drafts",
+      "Check the soil before you water",
+      "Repot in a cactus soil to freshen things up",
+      "i would recommend a humidity tray",
+      "You may wish to consider trying to root a clipping",
+      "Yep, repoting is the thing to do"
+    ]
+  },
+  "input_tokens": 7853,
+  "output_tokens": 972,
+  "graded_at": "2026-10-30T00:12:13.314836+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,49 @@
+{
+  "job_id": "185-resolved",
+  "query_index": 185,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "394c731e09ff37e1ce0114c0bbc40a5d8b947f458ea4e036f11395a0c3e34fc3",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Cut back damaged and broken stems to a node or growth point",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Prep the cuttings and put them in water to root",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the cut-back plant to a bright spot, such as an east-facing window",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot the rooted cuttings into soil in their own pots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      }
+    ],
+    "reason": "This video transcript is about a damaged coleus rather than the red maranta. It recognizes broken stems and does include rooting the cuttings in water, but that fix sits alongside heavy cutting back and is not framed as the main remedy, and nothing it suggests is harmful."
+  },
+  "input_tokens": 2743,
+  "output_tokens": 749,
+  "graded_at": "2026-10-30T00:14:04.421954+00:00",
+  "status": "graded_pending_review"
+}

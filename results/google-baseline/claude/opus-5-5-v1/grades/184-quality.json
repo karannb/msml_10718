@@ -1,0 +1,30 @@
+{
+  "job_id": "184-quality",
+  "query_index": 184,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "bac2a5fb245d6439f3953b2497ae2864e937ff443adf9152fa6523e610b6a018",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output says \"As long as a good portion of the roots are still intact it should be fine and grow more.\" Nothing here would damage the plant, a person or pets. However, it implicitly treats the broken piece as unimportant and gives no guidance on propagating it. That could mean the cutting is discarded or left to dry out when it could easily be rooted."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The user asked whether the snapped-off branch could be saved and rooted. The output only addresses the mother plant's roots, which the user never said were damaged. It does not identify the plant as a red maranta, mention the node, or recommend rooting in water with weekly water changes, as the reference does. The single sentence is generic reassurance that misses the actual problem."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "\"It should be fine and grow more\" contains no actionable steps. It says nothing about whether to put the cutting in water or soil, where to cut, or how to care for it while it roots. The user is left with nothing to carry out."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "As long as a good portion of the roots are still intact it should be fine and grow more"
+    ]
+  },
+  "input_tokens": 1873,
+  "output_tokens": 555,
+  "graded_at": "2026-10-30T00:13:56.635677+00:00",
+  "status": "graded_pending_review"
+}

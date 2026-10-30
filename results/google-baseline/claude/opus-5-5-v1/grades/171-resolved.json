@@ -1,0 +1,56 @@
+{
+  "job_id": "171-resolved",
+  "query_index": 171,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "6381a14b6edfb3c64a6f79980cab2186e0c1bb1cf5ffb4bafae356173076a4eb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Water the plant if wilting is due to lack of water",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Increase humidity around the leaves (without wetting the leaves)",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Wait until evening to see if the wilted plant firms up once the heat dissipates",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If the plant does not recover by evening, assess and correct under- or overwatering",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Flush the soil with water to wash out excess fertilizer salts",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer is a generic transcript about wilting from water, heat, damage and fertilizer salts and never identifies nutrient deficiency or suggests feeding; its flushing advice is conditional on a fertilizer-salt problem, so it isn't clearly harmful."
+  },
+  "input_tokens": 3648,
+  "output_tokens": 809,
+  "graded_at": "2026-10-29T22:38:07.204019+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,34 @@
+{
+  "job_id": "086-quality",
+  "query_index": 86,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "148e27b390b83c16994c61af32564f02e79f719ae878448b2c2ab05affd9c9cd",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a video transcript, not advice, but its implied steps are low-risk: separate by hand gently ('i don't want to cause a lot of damage pulling these out'), use 'pots that have good well draining holes', and 'give them all a really good watering'. Nothing is toxic or dangerous. The pilea, the user's main concern, is never addressed, and there is no caution about transplant shock or overwatering after repotting. That leaves a minor gap rather than real harm."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The transcript describes a different arrangement: 'lemon lime dracaena', 'maranta', and 'seven plants total'. It never mentions the pilea or kalanchoe the user asked about. It gives no health label, no time-to-severe estimate, and no light-placement guidance. The reference's key advice, rearranging plants so the kalanchoe gets the most light, is absent. The content is unrelated to the case."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "A reader could infer rough steps from the narration: pull off the moss, separate plants by hand, pot them in draining pots, trim dead leaves, and water. These are buried in rambling narration and long '[Music]' gaps, with no clear, ordered instructions. Nothing is tailored to handling a pilea, so the user gets little actionable guidance."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "pots that have good well draining holes at the bottom",
+      "trim up any dead leaves",
+      "give them all a really good watering",
+      "hope for the best",
+      "plants are different and they don't need all the same lighting they don't need all the same care"
+    ]
+  },
+  "input_tokens": 5438,
+  "output_tokens": 731,
+  "graded_at": "2026-10-30T00:14:06.875439+00:00",
+  "status": "graded_pending_review"
+}

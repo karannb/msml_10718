@@ -1,0 +1,44 @@
+{
+  "job_id": "065-quality",
+  "query_index": 65,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "9bec6afdb1a27ee81d4007dce476b9a5a6a5241430d846f0872e9b4682ace5f4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output never commits to root rot, the confirmed problem, so its routine-care advice could worsen it. \"Water the plant once a week with purified water and ensure the top 1”-2” of the soil is moist\" would keep a rotting, root-depleted plant wet. It also recommends feeding a stressed plant and a non-specific \"Use an insecticide against insect infestations\" with no product or safety guidance. Some lines do mitigate this (\"Leave the plant to properly dry between waterings if you think the soil is waterlogged\", \"Repot your peace lily if you suspect root rot\"), so the risk is moderate rather than serious. There is also no warning that peace lilies are toxic to pets and children."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "This is a scraped retail webpage with ads, a quiz and newsletter prompts, not an assessment of this plant. It gives no health label or time-to-severe estimate. Root rot appears only as one item in a long list of possible causes (\"Overwatering, which leads to root rot, as well as underwatering...\"), alongside water quality, nutrients, temperature, sunlight, transplant shock and age. Nothing addresses the case evidence of sparse foliage and dying leaves. It omits the reference's key steps: unpot the plant, rinse away the soil and remove the mushy roots, move it to water propagation with weekly water changes, and make sure it isn't sitting in a water-filled catch pot."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps such as pruning, repotting and watering are things a home owner can do. However, the advice is scattered across sections about yellowing, browning, curling and drooping. It contradicts itself (\"ensure the top 1”-2” of the soil is moist\" versus \"allow the soil to dry completely\"). Shopping links and promotions interrupt it throughout. A user would struggle to work out which steps apply or what to do first."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Inappropriate watering routine - Overwatering, which leads to root rot, as well as underwatering",
+      "Poor water quality - Tap water contains chemicals",
+      "Temperature and humidity problems",
+      "Sunlight issues - Overexposure to sunlight can scorch",
+      "Repot your peace lily if you suspect root rot or it’s outgrown its planter",
+      "Feed your beloved indoor plant once every two months",
+      "do not expose the peace lily to bright, direct light",
+      "Water the plant once a week with purified water",
+      "Maintain 65F-85F temperature and 50%-60% humidity",
+      "Treat against pests: Aphids, fungus gnats, mealybugs, spider mites",
+      "Use an insecticide against insect infestations",
+      "Keep the plant in a spot that receives filtered, indirect light",
+      "Give the plant a balanced houseplant fertilizer in the growing season only",
+      "Peace lilies grow best in aerated, well-draining soil",
+      "Watch out for insect issues and act accordingly"
+    ]
+  },
+  "input_tokens": 6642,
+  "output_tokens": 1422,
+  "graded_at": "2026-10-30T00:14:09.539790+00:00",
+  "status": "graded_pending_review"
+}

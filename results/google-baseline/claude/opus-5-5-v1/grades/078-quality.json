@@ -1,0 +1,33 @@
+{
+  "job_id": "078-quality",
+  "query_index": 78,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "8bb10cae3de125b9ca077a94436cb1d24755a93a7347ab652634057c3f6f4d37",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is scraped Facebook comment markup, not a coherent answer. Its only actionable advice is \"Cut it all back and then check the roots, either divide it or put into a larger pot\" and \"Pull the brown crunchy stuff.\" Drastic pruning, dividing and repotting would add serious stress to plants that are simply dehydrated. It also never says to water, which delays the fix the REFERENCE confirmed worked."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label, no time-to-severe estimate and no diagnosis. Nothing mentions underwatering, dry winter air, the terracotta pot or the thanksgiving cactus. The advice fragments (\"Cut it all back\", \"put into a larger pot\") are unrelated to the case evidence and contradict the REFERENCE's simple 'just water them' fix."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The output is truncated, interleaved with URLs, button labels and emoji, and one sentence is cut off mid-phrase (\"get it out of the\"). A user could not extract clear steps. The steps that can be made out are ambiguous (\"either divide it or put into a larger pot\") and inappropriate for the problem."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Cut it all back",
+      "check the roots",
+      "either divide it or put into a larger pot",
+      "Pull the brown crunchy stuff"
+    ]
+  },
+  "input_tokens": 2487,
+  "output_tokens": 717,
+  "graded_at": "2026-10-30T00:11:10.535662+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "006-quality",
+  "query_index": 6,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "9c1c37dc23d74cbf8e31f007289539d68889d6fac555820d637131000e8f4a4b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output does say \"The remedy to this issue is to simply add water,\" but then warns \"you may not want to add water right away\" and suggests to \"wait till the evening\" for heat wilting. For a plant left in sun without water for two weeks, that hesitation could delay the fix the case needs and prolong drought stress. There are no chemical or toxicity risks, and the \"flush it out\" advice is mild, so the risk is moderate rather than serious."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is a generic YouTube transcript about wilting causes (\"today's video, we're going to look at the science behind wilting plant leaves\"), not a reply to this case. It lists lack of water first, which matches the reference, but gives equal weight to overwatering, heat, rain damage and fertilizer salts. It never ties any of these to the case evidence of two weeks of sun with no care. It also omits the required health label and time-to-severe estimate, and includes irrelevant material such as a tornado aside."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The only actionable pieces are \"simply add water,\" \"wait till the evening\" and \"when in doubt flush it out.\" These are scattered through a rambling, garbled transcript (\"tur pressure,\" \"gapot transanspiration\") with conflicting guidance on whether to water. A typical owner would not get a clear plan, even though the right action is trivially easy."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "when in doubt flush it out",
+      "you want to assess or manage that",
+      "increase the humidity in and around the leaves",
+      "wait till the evening"
+    ]
+  },
+  "input_tokens": 3702,
+  "output_tokens": 789,
+  "graded_at": "2026-10-29T22:37:41.004400+00:00",
+  "status": "graded_pending_review"
+}

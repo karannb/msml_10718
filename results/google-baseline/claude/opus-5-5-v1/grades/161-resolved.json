@@ -1,0 +1,35 @@
+{
+  "job_id": "161-resolved",
+  "query_index": 161,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "b5dbeb6b0815129e1603ef09d51278dae03ce565d5dc4895131e9c876f3b15f6",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot the flapjack and rainbow elephant bush each into its own small pot, not much bigger than the plant",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Give the plants a small drink of water after repotting",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames competition for water and pushes more watering, the opposite of the confirmed overwatering and low light, so following it would likely worsen the plants and delay the fix."
+  },
+  "input_tokens": 2079,
+  "output_tokens": 484,
+  "graded_at": "2026-10-30T00:14:06.311065+00:00",
+  "status": "graded_pending_review"
+}

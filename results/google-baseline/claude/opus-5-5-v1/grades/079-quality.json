@@ -1,0 +1,39 @@
+{
+  "job_id": "079-quality",
+  "query_index": 79,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "39d074ce081a24f3c5138ed562e0d0361447260c805929403fb31e5cca4c1424",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output leads with 'You Are Watering It Too Much' and says 'Reduce your watering frequency immediately if you suspect overwatering.' This user already fears overwatering and is actually underwatering, so the advice could worsen dehydration. It also pushes 'a reliable schedule,' which reinforces the fixed every-two-weeks routine the reference says to drop. The fertilizer and repotting suggestions add stress to a thirsty plant without tying them to any evidence, though no chemical or toxic risks appear."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "This is a scraped generic listicle ('Christmas cactus goes limp in summer', 'July heat wave', 'air conditioning') that ignores the case: Finnish winter, dry heated air, multiple plants, two-week watering. It does include 'You Are Not Watering It Enough' and 'Terracotta pots dry out faster,' which overlap with the reference. However, it gives equal or greater weight to overwatering, sunlight, nutrients and root-binding, never commits to a diagnosis, and gives no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Individual steps such as 'push your finger about an inch into the soil,' 'Set the pot in a shallow tray of water for 20 minutes' and pebble trays are concrete and doable at home. But the 12 sections contradict each other (reduce watering vs. water deeply), so the user cannot tell which to follow. The summer and air-conditioning framing does not fit a Finnish winter."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Check the soil before watering every single time",
+      "Keeping a consistent watering routine is the key to avoiding both extremes",
+      "Your Christmas cactus craves bright indirect light, not a sunbath",
+      "Grouping plants together creates a small zone of shared humidity",
+      "Finding a stable indoor spot away from drafts and direct heat sources is the smartest move",
+      "A balanced liquid fertilizer diluted to half strength works well during the growing season",
+      "Choose a new pot that is only one to two inches larger in diameter",
+      "Use a well-draining cactus or succulent mix",
+      "A small cool-mist humidifier placed nearby",
+      "Keep Temperatures Stable (60 To 75 Degrees Fahrenheit)"
+    ]
+  },
+  "input_tokens": 9707,
+  "output_tokens": 1164,
+  "graded_at": "2026-10-30T00:11:37.814070+00:00",
+  "status": "graded_pending_review"
+}

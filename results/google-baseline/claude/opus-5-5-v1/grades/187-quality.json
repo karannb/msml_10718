@@ -1,0 +1,34 @@
+{
+  "job_id": "187-quality",
+  "query_index": 187,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "d9cfc1be16450499810cf935ad8d6b0fdc1ade6e838008e9f59860a8cccf242b",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is a pasted UC IPM fungus gnat page and never addresses the root rot the user calls 'the biggest problem.' Its central advice, 'Mix Bti or nematodes with water, and apply as a soil drench,' repeated 'at about five-day intervals,' plus nematodes needing 'moist conditions,' would add water to an already rotting, overly moist succulent and could speed its death. 'Avoid overwatering and provide good drainage' partly offsets this. Pyrethroid sprays are mentioned with label and ventilation caveats, but ignoring the rot delays the needed action: cutting above the rot."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "It correctly addresses the flying bugs (fungus gnats) and notes they thrive in 'moist, organically-rich soil,' which partly matches the reference. It never mentions the mushy dark roots, chopping above the rot, propagating, or repotting the succulent in dry cactus soil, which is the reference fix. It cites no case evidence, gives no health label or time-to-severe estimate, and contains irrelevant material on greenhouses, sod farms and California seasonality."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "This is a long, unstructured reference document, not an action plan. Some items are doable, such as 'Yellow sticky traps,' 'raw potato chunks,' and 'Allow the surface of container soil to dry between waterings.' Others are impractical for this case: 'solarize soil… for about 4 to 6 weeks,' mail-order 'Hypoaspis predatory mites,' and commercial nursery rates. There are no clear steps to save the rotting plant this week."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "avoid overwatering and provide good drainage",
+      "Allow the surface of container soil to dry between waterings",
+      "Improve the drainage of the potting mix",
+      "Purchase and use only pasteurized container mix or potting mix",
+      "In some cases you may wish to toss out severely infested plants"
+    ]
+  },
+  "input_tokens": 6683,
+  "output_tokens": 1097,
+  "graded_at": "2026-10-30T00:14:52.649205+00:00",
+  "status": "graded_pending_review"
+}

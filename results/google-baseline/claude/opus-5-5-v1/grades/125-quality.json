@@ -1,0 +1,34 @@
+{
+  "job_id": "125-quality",
+  "query_index": 125,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a2f8c7c3e14f38b4c6d41ae397a2c547271563f964185553ae16e7bdbf66e026",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The advice is benign and broadly consistent with the reference. The output notes that \"purples and bronzes in cool weather are normal,\" recommends \"Annual fertilization in the spring after flowering (using an azalea food such as Espoma Azalea Tone),\" and says to \"water deeply but avoid waterlogging.\" Nothing here would damage the plant or the person. One minor risk is the repeated emphasis on \"avoiding overwatering\" without directly telling the poster to keep the plant watered as it recovers. The output also never confirms the plant is alive, which could leave the owner uncertain."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a scraped Encore Azalea marketing page, not a response to this case. It includes product links, a \"Garden Center Locator,\" and lists of cold-hardy varieties. It partly matches the reference by saying red or bronze winter tinting is \"often a normal seasonal change\" and by recommending spring fertilization and deep watering, which is what helped the poster's plants turn green. However, it never answers \"are they dead,\" never suggests checking for remaining green, and never addresses the first-year transplant stress or the missing blooms. It also gives no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "The actions the output does give are easy for a home gardener: fertilize with Azalea Tone, water deeply, and \"apply 2–3 inches of mulch.\" However, these steps are buried in promotional text and variety lists. The output gives no clear sequence of next steps and no timeline for this plant's recovery."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "take a closer look at water, drainage, soil conditions, and sunlight",
+      "inspect for pests, root issues, or nutritional imbalances",
+      "plant your evergreen azalea bush in well-drained, acidic soil",
+      "Mulching and avoiding overwatering are simple ways to protect roots",
+      "consider adjusting water and checking soil conditions"
+    ]
+  },
+  "input_tokens": 5435,
+  "output_tokens": 1175,
+  "graded_at": "2026-10-30T00:10:47.397321+00:00",
+  "status": "graded_pending_review"
+}

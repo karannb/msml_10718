@@ -1,0 +1,56 @@
+{
+  "job_id": "142-resolved",
+  "query_index": 142,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "d0b03d53274dfec3dbbdbcb22edebe4305eecbba37129dc7e1f6fd96ad43106e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Check whether the roots are still alive",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant into full shade",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Cut the plant back to the ground",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Check for remaining green shoots",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water the roots thoroughly",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames heat but never names drought or underwatering. It suggests shade and a single deep watering rather than the daily watering that fixed the plants. Cutting the azaleas to the ground is drastic and would likely set back plants that recovered on their own."
+  },
+  "input_tokens": 2373,
+  "output_tokens": 750,
+  "graded_at": "2026-10-30T00:15:21.831184+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "177-quality",
+  "query_index": 177,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "df12b5b80acb0ee85892dfb80a3bea411d80bc196b33ec000554eabf111bec55",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The advice to \"keep the soil pretty moist for the first couple weeks\" is risky here, since the REFERENCE warns that the oversized pot holds too much soil and dries slowly, inviting root rot. Telling the user to \"put it in a pot that has very well draining chunkie mix soil\" implies another repot right after cutting and transplanting, which adds stress to a plant already in shock. Neither step is likely to kill the plant outright, but both cut against the expert advice of minimal intervention."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output never names transplant shock and never mentions the oversized pot, which are the two confirmed problems. It ignores the instant droop in the bigger pot and the use of SuperThrive. \"Very well draining chunkie mix soil\" loosely touches on drainage and overwatering risk, but it is generic potting advice. It contradicts the REFERENCE's guidance to leave the plants alone and watch for water issues."
+    },
+    "feasibility": {
+      "score": 3,
+      "reason": "Buying chunky mix and repotting loosely is within reach of a home grower. However, instructions like \"keep the soil pretty moist\" and \"water as usual\" are vague. A nervous novice would not know what \"usual\" means. It also never says which plant to repot or into what size pot."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "put it in a pot that has very well draining chunkie mix soil",
+      "do not pack the soil keep it lose and airy",
+      "keep the soil pretty moist for the first couple weeks",
+      "then after that water as usual"
+    ]
+  },
+  "input_tokens": 1963,
+  "output_tokens": 832,
+  "graded_at": "2026-10-30T00:12:03.587339+00:00",
+  "status": "graded_pending_review"
+}

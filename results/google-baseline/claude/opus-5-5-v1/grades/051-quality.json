@@ -1,0 +1,30 @@
+{
+  "job_id": "051-quality",
+  "query_index": 51,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "3afd9548606065175c6299d421c8df2b7f47a0f360a8e21455b7c655a51a60dd",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output says \"Those like to stay moist so if it's to hot she'll curl.\" Keeping the soil moist matches the reference's watering guidance and is unlikely to hurt the plant. However, it never mentions moving the plant out of direct sun, the confirmed fix, so the leaf burn could continue. There is no chemical or toxicity risk."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output does not answer the user's first question, the plant's identity (Goeppertia rufibarba, Marantaceae). It does not clearly diagnose direct sun exposure. \"If it's to hot she'll curl\" loosely points toward heat stress, and \"like to stay moist\" matches the reference's watering advice. Overall it is only partly right and gives no case-specific evidence or explanation."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The only implied actions are keeping the soil moist and avoiding heat. There are no concrete steps: no instruction to move the plant from direct sun, no watering frequency or cue (the reference suggests watering when the pot feels light), and no placement guidance. A user would be left guessing what to do."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Those like to stay moist"
+    ]
+  },
+  "input_tokens": 1914,
+  "output_tokens": 604,
+  "graded_at": "2026-10-29T22:37:48.747071+00:00",
+  "status": "graded_pending_review"
+}

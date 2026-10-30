@@ -1,0 +1,70 @@
+{
+  "job_id": "112-resolved",
+  "query_index": 112,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "4e9872f303215517a142c1e169dcd694eb032ae4aa9383f1f60e18ebc6e21698",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "partial",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Check leaf texture and soil dryness",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Unpot the plant by tapping the pot and loosening the compacted soil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Soak the root ball in water and wash all soil off the roots",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Remove dead or browning leaves",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place plant in a container half filled with filtered water",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 2,
+        "unclear": false
+      },
+      {
+        "action": "Add aloe vera gel to the water",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Monitor the plant for recovery signs",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer identifies dehydration from dry, hydrophobic soil, which matches the underwatering but misses the dry winter air. Its rehydration via bare-rooting into water would likely help, though it is more drastic than a soak and omits humidity, and it is not clearly harmful."
+  },
+  "input_tokens": 2580,
+  "output_tokens": 1009,
+  "graded_at": "2026-10-30T00:14:00.885140+00:00",
+  "status": "graded_pending_review"
+}

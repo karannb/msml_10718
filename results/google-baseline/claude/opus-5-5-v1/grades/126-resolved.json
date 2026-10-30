@@ -1,0 +1,63 @@
+{
+  "job_id": "126-resolved",
+  "query_index": 126,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "45ab6e6da3524fd1d9b53d9ce7419170c6e8b1f9b5c9dc23d7da30addbce8527",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Repot into a large, well-draining pot with gritty soil",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Check that the soil has dried down 2 inches before watering",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Give the plant a thorough soak once the soil is dry",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Place the plant in full sun",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move the plant to shade on extremely hot days",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot up to a larger container as the plant grows",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer, which appears to be scraped generic rosemary/lavender comments, warns only against overwatering and praises neglect, so it misses the confirmed underwatering in fast-drying terracotta, never suggests plastic pots or more water, and its 'neglect is best' advice would likely delay the fix."
+  },
+  "input_tokens": 2466,
+  "output_tokens": 758,
+  "graded_at": "2026-10-30T00:10:55.149825+00:00",
+  "status": "graded_pending_review"
+}

@@ -1,0 +1,34 @@
+{
+  "job_id": "074-quality",
+  "query_index": 74,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "664c3756526ac4509eaface1b170ee7f9ff60c7aebfaf8c254d9264c81b772c4",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook comment thread, not a structured answer. One comment says \"Its likely spider mites... cut off all yellow and clearly infested l…\" and warns of root rot. That misdiagnosis could lead the owner to prune healthy leaves or start unnecessary pest treatments on a plant that was only thirsty. No dangerous chemicals or dosages are recommended, and the rainwater, bottom-watering and humidity tips are benign, so the risk is minor rather than serious."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "There is no health label, no time-to-severe estimate and no coherent diagnosis. The only explicit diagnosis is \"Its likely spider mites\", which contradicts the REFERENCE (dehydration, resolved by watering). The other comments are generic care tips (\"humidity is an absolute must\", \"Small ish pot\") or jokes (\"like owning a petulant teenager\"). None engages with the case evidence: the plant was underwatered, the leaves were less soft than usual, and the heater was running."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The content is raw UI markup with links, buttons and truncated text (\"See more\", \"recoverbitcut off all yellow and clearly infested l…\"). It offers contradictory threads rather than actionable steps. A typical owner would have no clear plan, and the one concrete instruction (cutting off yellow leaves for presumed mites) is cut off mid-sentence and misdirected."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Water with rainwater and from the bottom not the top",
+      "Small ish pot they don't like space",
+      "humidity is an absolute must. I keep mine over 60%",
+      "move me, feed me, water me",
+      "cut off all yellow and clearly infested leaves"
+    ]
+  },
+  "input_tokens": 3751,
+  "output_tokens": 965,
+  "graded_at": "2026-10-29T22:37:58.896143+00:00",
+  "status": "graded_pending_review"
+}

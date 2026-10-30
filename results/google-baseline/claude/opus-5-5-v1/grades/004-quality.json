@@ -1,0 +1,35 @@
+{
+  "job_id": "004-quality",
+  "query_index": 4,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7b8ef50753a99118141c5ad15363da3be1c108d62508ca5e4ee42b7c9edaf198",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output is scraped Facebook comments about a different plant, a soil-grown Dracaena, not this water-grown money plant cutting. It advises to \"transfer to a slightly smaller pot entirely full of soil, cut the stem to about 6\"\" and repot in \"cactus/succulent soil.\" Following this would shock water-adapted roots and could sacrifice a small cutting, and it never addresses the root rot or low oxygen, delaying the needed fix. The dumb cane toxicity warning is cut off (\"can make yo…\"), so that caveat is incomplete."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "It diagnoses \"insufficient lighting,\" a need for \"staking,\" and debates whether the plant is Dracaena, dumb cane or lucky bamboo. None of this matches the reference: root rot and low oxygen from topping off water, a too-small container, and no fertilizer. It never mentions full water changes, rinsing the roots, trimming rotten roots or diluted fertilizer. It also gives no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "Individual steps like \"stake it, clean off the dead leaves\" are physically doable. However, the output is raw web-page markup mixing several commenters' conflicting suggestions about soil-based care, with links and reaction counts. A user could not get a clear, coherent plan for their water-grown cutting from it."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "give it some brighter light (not direct sun, but very bright)",
+      "Some extra humidity wouldn't hurt",
+      "water when top inch of soil is dry",
+      "clean off the dead leaves",
+      "sit it indirect light",
+      "repotting with fresh soil"
+    ]
+  },
+  "input_tokens": 3808,
+  "output_tokens": 958,
+  "graded_at": "2026-10-29T22:37:03.791116+00:00",
+  "status": "graded_pending_review"
+}

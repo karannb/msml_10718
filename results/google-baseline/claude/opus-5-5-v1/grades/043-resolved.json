@@ -1,0 +1,42 @@
+{
+  "job_id": "043-resolved",
+  "query_index": 43,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "567a03c1f3b54000696adcc2d55f0e8994c8a8c3d40d64bea8f268d65e9bf67f",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "yes",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Add a grow light for the plant",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 25,
+        "unclear": false
+      },
+      {
+        "action": "Alternatively, move the plant to get more direct sunlight",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If etiolation gets too bad (or to restore purple colour), behead the rosette and propagate it",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "The comments correctly identify etiolation from insufficient light and consistently advise a grow light or more sun, matching the fix; one comment wrongly claims colour only returns after a head-chop, but this is an optional aside rather than a damaging main recommendation."
+  },
+  "input_tokens": 2669,
+  "output_tokens": 704,
+  "graded_at": "2026-10-30T00:19:44.798111+00:00",
+  "status": "graded_pending_review"
+}

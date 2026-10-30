@@ -1,0 +1,147 @@
+{
+  "job_id": "052-resolved",
+  "query_index": 52,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "7e063ae902d4c5346d228654ae0fa98a6700beff927ee554b21b6791105d865e",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Place plant near a window with a sheer curtain for bright indirect light",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Pot in well-draining peat/perlite/vermiculite mix",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": false
+      },
+      {
+        "action": "Check top inch of soil and water when dry",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Ensure pot has drainage holes",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Move plant away from cold drafts",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Run a humidifier",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 40,
+        "unclear": false
+      },
+      {
+        "action": "Mist the plant",
+        "minutes": 2,
+        "per_day": 1,
+        "cost_usd": 5,
+        "unclear": false
+      },
+      {
+        "action": "Set up a pebble tray with water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Fertilize every 4-6 weeks with half-strength balanced liquid fertilizer",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "Prune yellow or damaged leaves",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot into slightly larger pot when root-bound",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If spider mites, wash plant with strong stream of water",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "For severe pests, apply insecticidal soap or neem oil",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      },
+      {
+        "action": "If mealybugs or scale, remove with alcohol-dipped cotton swab or scrape off",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If root rot, trim damaged roots and repot into fresh well-draining soil",
+        "minutes": 30,
+        "per_day": 1,
+        "cost_usd": 10,
+        "unclear": false
+      },
+      {
+        "action": "If leaf spot, increase air circulation and remove affected leaves",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "If leaf spot is severe, apply fungicide or bactericide",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "If drooping, check soil moisture and adjust watering",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": "Generic care guide with no diagnosis of shipping stress or old packed soil; pruning damaged leaves and repotting into fresh soil appear only buried among many generic tips, and nothing recommended is likely harmful."
+  },
+  "input_tokens": 3821,
+  "output_tokens": 1606,
+  "graded_at": "2026-10-29T22:38:02.240756+00:00",
+  "status": "graded_pending_review"
+}

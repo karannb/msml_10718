@@ -1,0 +1,28 @@
+{
+  "job_id": "054-quality",
+  "query_index": 54,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "a268adb711bcdf4632948b62c1d58d105db7bbae401163a4c2f9640f8b4b180d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The output says \"That's normal, it's some sort of adaptive appendages (( trichomes))\" and \"hairy stems are typical...nothing to worry about.\" The REFERENCE confirms a mealybug, so this confident reassurance would lead the owner to leave a pest untreated. Mealybugs can multiply and spread to other plants. The direct risk is moderate rather than catastrophic, but the false all-clear delays needed action."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "The output is a scraped Reddit thread that appears to discuss fuzzy stems or trichomes and the polka dot vs. fittonia question. It diagnoses the bug as normal plant hairs (\"That's normal... trichomes\"), which directly contradicts the REFERENCE's mealybug finding. It never mentions dabbing with alcohol or inspecting for more bugs. The layering tip (\"bending them back against the soil and burying them\") has nothing to do with the problem."
+    },
+    "feasibility": {
+      "score": 1,
+      "reason": "The output gives no actionable treatment for the actual problem. It is unstructured scraped page markup with usernames, URLs, and replies, not clear care steps. The only concrete action, layering stems into soil, is irrelevant to removing a mealybug. A user could not resolve the issue from this."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": []
+  },
+  "input_tokens": 3267,
+  "output_tokens": 688,
+  "graded_at": "2026-10-29T22:38:41.053856+00:00",
+  "status": "graded_pending_review"
+}

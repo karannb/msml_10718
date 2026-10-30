@@ -1,0 +1,33 @@
+{
+  "job_id": "107-quality",
+  "query_index": 107,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "9fe3f5edb362c3808c5310d1c3b97e2387ad54f895ae4cf900e9920e62e35c7f",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 3,
+      "reason": "The output is a scraped Facebook comment thread, not structured assistant advice. Its fragments, \"Re pot it Or chop n prop\" and \"Some say it's over watered some say under watered. Confused! Probably should repot,\" carry minor risk. The water confusion could lead the owner to withhold water from a clearly drought-stressed plant. Pushing an immediate repot or chopping the heirloom also conflicts with the reference's advice to water now and wait until spring to repot. Nothing is severely dangerous."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "No health label, diagnosis or time-to-severe estimate is given. The output never identifies drought stress from the long dry period, which is the reference's confirmed problem. \"Re pot it\" and \"Check the roots\" loosely touch on the old-soil issue, and the poster did later repot with improvement. However, the output calls the watering situation \"Confused!\" and never ties its advice to the case evidence: limp leaves after severe drying and a thorough watering."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The content is raw page markup with URLs, buttons and reaction counts mixed in, so it is hard for a user to read. The actionable bits (\"Check the roots. Re pot it Or chop n prop\") are terse and give no steps on timing, soil type or how to propagate. A home owner could repot, but they would have to work out how on their own."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Check the roots",
+      "Re pot it",
+      "Probably should repot",
+      "I repotted mine when it started to do that and it got a lot better"
+    ]
+  },
+  "input_tokens": 2852,
+  "output_tokens": 910,
+  "graded_at": "2026-10-30T00:12:28.776150+00:00",
+  "status": "graded_pending_review"
+}

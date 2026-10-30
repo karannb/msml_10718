@@ -1,0 +1,63 @@
+{
+  "job_id": "053-resolved",
+  "query_index": 53,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "96e63c384cd1db9016eac5f2433cd16526e1bb3dc4ff3b8b76b0eb73bab6a12d",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "no",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Improve air circulation by spacing out or thinning plants",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Reduce humidity through proper watering practices",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      },
+      {
+        "action": "Apply a suitable fungicide following label instructions",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 15,
+        "unclear": true
+      },
+      {
+        "action": "Isolate the infected plant",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Regularly inspect the plant for signs of disease",
+        "minutes": 3,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Implement crop rotation",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": true
+      }
+    ],
+    "reason": "The answer blames a generic fungal or bacterial spot disease rather than shipping stress and packed, water-holding soil, and it never suggests checking the roots or repotting into a chunky mix; its fungicide and airflow advice is off-target but not likely to harm the plant."
+  },
+  "input_tokens": 3090,
+  "output_tokens": 749,
+  "graded_at": "2026-10-29T22:38:21.738622+00:00",
+  "status": "graded_pending_review"
+}

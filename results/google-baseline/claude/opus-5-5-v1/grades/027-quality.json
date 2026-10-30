@@ -1,0 +1,32 @@
+{
+  "job_id": "027-quality",
+  "query_index": 27,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "07b698cfcd779ea24234022dad8a0d286d735fe50faa7277e70db954085121b5",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 5,
+      "reason": "The output gives standard pruning instructions such as \"cut the stem down to the last set of leaves leave about quarter of an inch of a stem above\" and \"snip off the top of the plant\" when it bolts. Following these steps carries no meaningful risk to the plant, people, or pets. It does tell the user to \"cut every single stem\" every 1–2 weeks, which is aggressive but generally fine for basil."
+    },
+    "specificity_accuracy": {
+      "score": 3,
+      "reason": "The output is a generic YouTube-style transcript about pruning basil. Its core technique, \"cut the stem back to the last set of leaves... this will force the basil plant to keep branching out\", matches the reference advice to cut above the Y-shaped side shoots so the plant gets bushier. However, it never engages with this case's overgrown, woody plant from May 2019. It also misses the reference's specific advice to remove the old stalk and focus on the small plants. The transcript contains garbled text (\"grit push\", \"cronic basil\") and is not presented as a health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 4,
+      "reason": "The steps are concrete and easy for anyone with scissors, for example \"cut the stem down to the last set of leaves\" and \"check your basil plants every one to two weeks\". Transcription errors (\"too little of use right next to the leaves\") add some ambiguity. It also gives no guidance on dealing with an already woody, leggy plant like the user's."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "check your basil plants every one to two weeks and cut every single stem to the last set of leaves",
+      "after pruning you can enjoy the basil leaves in your cooking",
+      "it is also possible to grow another basil plant from the cuttings"
+    ]
+  },
+  "input_tokens": 2414,
+  "output_tokens": 603,
+  "graded_at": "2026-10-30T00:18:24.821488+00:00",
+  "status": "graded_pending_review"
+}

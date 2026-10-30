@@ -1,0 +1,35 @@
+{
+  "job_id": "084-quality",
+  "query_index": 84,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "0269cc92f914054ba294f1b2882bd183d9608fda91ea390c3bb02558412526bb",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The advice is mostly benign: fish emulsion, \"Container plants appreciate a weekly feeding,\" and pinching back and fertilizing a tired Wild Magic. There are no dangerous chemicals or pet or child hazards. The minor risk is that bed-scale watering advice (\"watering a bed like this about every other day\") could lead to overwatering if applied to an indoor pot, and nothing adapts it for houseplant use."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output is a scraped podcast transcript with no health label or time-to-severe estimate, and it never addresses the user directly. It does include one Wild Magic-specific passage: \"This one's sterile. So you can let this one bloom... pinch off... Fertilize it, water it, and that way you'll get a nice full plant again.\" That partly matches the reference's cut-and-fertilize advice for fuller growth. However, it also says \"Pinching off flowers doesn't actually stimulate new foliage,\" which conflicts with the reference. It never mentions upsizing to a bigger (12-inch) pot, and most of the content is generic basil gardening material such as variety lists, weeds and harvest counts."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual actions are things a home grower can do: pinch back, apply fish emulsion, plant after the last frost, use a raised bed. But they are buried in a long, unstructured transcript. Much of it is framed for field or garden scale, such as \"one inch of well-composted material per 100 square feet,\" \"per 10-foot row,\" drip irrigation and a soil test, rather than a houseplant pot. Turning this into a clear plan for indoor fullness and outdoor transplanting would take significant effort."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Warm weather, plenty of sunshine, and a good drink of water every now and then",
+      "it's always worthwhile doing a quick soil test",
+      "keep the soil consistently moist",
+      "avoid overwatering them",
+      "consider laying down an organic mulch",
+      "Container plants appreciate a weekly feeding"
+    ]
+  },
+  "input_tokens": 10164,
+  "output_tokens": 1144,
+  "graded_at": "2026-10-30T00:13:28.782970+00:00",
+  "status": "graded_pending_review"
+}

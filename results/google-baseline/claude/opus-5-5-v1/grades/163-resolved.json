@@ -1,0 +1,28 @@
+{
+  "job_id": "163-resolved",
+  "query_index": 163,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "96c2af4e740e1bed4db9587b97d404fb02e2c93bdf141c349cac1f75672c2c1c",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "correct",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": false,
+    "actions": [
+      {
+        "action": "Let the top layer of soil dry out before watering again (check soil moisture)",
+        "minutes": 1,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      }
+    ],
+    "reason": ""
+  },
+  "input_tokens": 1821,
+  "output_tokens": 299,
+  "graded_at": "2026-10-30T00:14:30.622245+00:00",
+  "status": "graded_pending_review"
+}

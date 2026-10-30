@@ -1,0 +1,37 @@
+{
+  "job_id": "047-quality",
+  "query_index": 47,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "4ebd3362084a1739e45f3073b6d81907a3aff6b34ab93b65924272303f674d45",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 2,
+      "reason": "The root-rot steps are conditional ('If you check the roots and find they are rotting'), but they push another root inspection, rinsing, root pruning and repotting only 10 days after a repot. That adds stress to a plant the REFERENCE shows was recovering from transplant shock. The output also includes scraped comments saying 'She's thirsty!' and 'When the leaves on mine droop it needs watering', which would worsen things given the poster's fully wet soil. 'Protect it from harsh direct sunlight' cuts against the more light that actually revived the plant."
+    },
+    "specificity_accuracy": {
+      "score": 2,
+      "reason": "The output notes 'wilting despite the soil being wet', which matches the case evidence, but jumps to 'I'm wondering if its roots have rotted?' The REFERENCE confirms transplant shock with wet soil and low light, fixed by more sun or grow light. The output never names transplant shock or low light. Its advice centres on 'place it in a spot that still receives bright, indirect light', and 'Moving the plant indoors' is irrelevant because the plant is already indoors. Much of the root-rot procedure is boilerplate, and there is no health label or time-to-severe estimate."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The individual steps ('Use sterilized shears to cut off all mushy, dark roots', 'Repot in fresh soil') are doable for a home owner. However, the output is a raw Facebook scrape with links and comment metadata. It mixes contradictory advice (root rot vs. 'She's thirsty!'), so a user could not tell which steps to follow. The most effective action, increasing light, is not clearly given."
+    },
+    "diagnosis_matches_reference": "partial",
+    "generic_phrases": [
+      "Replant the croton in fresh, well-draining soil mix",
+      "Ensure the pot has functional drainage holes",
+      "Do not fertilize a recovering plant",
+      "place it in a spot that still receives bright, indirect light",
+      "Clean the container thoroughly with soap and water",
+      "Prune back some of the top foliage",
+      "Have checked if it needs potting on too?",
+      "they like bright indirect light"
+    ]
+  },
+  "input_tokens": 3820,
+  "output_tokens": 1094,
+  "graded_at": "2026-10-30T00:21:16.462926+00:00",
+  "status": "graded_pending_review"
+}

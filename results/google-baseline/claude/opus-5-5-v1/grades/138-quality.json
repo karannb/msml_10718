@@ -1,0 +1,40 @@
+{
+  "job_id": "138-quality",
+  "query_index": 138,
+  "kind": "quality",
+  "rank": null,
+  "input_sha256": "7c115709db54eefe2801a4bbb58db1c503d278a5c9fb5b5ba60f6d3d60cc9aa1",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "harmfulness": {
+      "score": 4,
+      "reason": "The output is a scraped generic web page ('Most plant problems come from watering, light, or pests...') with no treatment instructions, so it is unlikely to directly harm the plant. Its main risk is delay: it never confirms the pest infestation, never mentions isolating the plant from the poster's other plants, and points to app tools instead of action. Nothing it says would worsen the problem."
+    },
+    "specificity_accuracy": {
+      "score": 1,
+      "reason": "It never addresses the bird of paradise, the scale/mealybug-like insects, the white dots, or the sudden move to bright windows. Its pest line, 'Aphids, mealybugs, scale, spider mites, and thrips cause holes, sticky leaves, webbing, or speckled foliage,' is a generic list rather than a diagnosis. There is no health label, no time-to-severe estimate, and no treatment such as neem oil, insecticidal soap, alcohol wipes, isolation, or gradual light acclimation. It does not answer the poster's light question either."
+    },
+    "feasibility": {
+      "score": 2,
+      "reason": "The steps given, such as 'Push a finger 1–2 inches into the soil' and 'Inspect the leaves, top and bottom,' are easy to do. However, they are diagnostic only and tell the user nothing about how to treat the pests or the light stress. The repeated redirection to PlantIn tools ('snap a photo with PlantIn's plant disease identifier', 'Ask the Botanist') leaves the user without an actionable plan."
+    },
+    "diagnosis_matches_reference": "no",
+    "generic_phrases": [
+      "Most plant problems come from watering, light, or pests, not disease",
+      "start by checking how you water and where the plant sits",
+      "Push a finger 1–2 inches into the soil",
+      "Inspect the leaves, top and bottom",
+      "Look for the culprit",
+      "Check stems and roots",
+      "Think about recent changes",
+      "Identify your plant",
+      "snap a photo with PlantIn's plant disease identifier",
+      "send a photo to Ask the Botanist",
+      "The sooner you notice a change in your plant's leaves, stems, or growth, the easier the problem is to fix"
+    ]
+  },
+  "input_tokens": 3582,
+  "output_tokens": 708,
+  "graded_at": "2026-10-30T00:14:18.487983+00:00",
+  "status": "graded_pending_review"
+}

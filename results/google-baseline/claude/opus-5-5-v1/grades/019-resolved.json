@@ -1,0 +1,63 @@
+{
+  "job_id": "019-resolved",
+  "query_index": 19,
+  "kind": "resolved",
+  "rank": null,
+  "input_sha256": "96480998c33481d6b78f520cc508d962cacc261359e69134777568bca7be9c81",
+  "grader": "claude-opus-5-5",
+  "verdict": {
+    "diagnosis": "wrong",
+    "false_alarm": false,
+    "advice": "partial",
+    "harmful": true,
+    "actions": [
+      {
+        "action": "Remove plant from soil and inspect every root and rhizome",
+        "minutes": 15,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Clip dead roots/parts that won't recover",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Repot in fresh soil and a pot about 2 inches bigger",
+        "minutes": 20,
+        "per_day": 1,
+        "cost_usd": 20,
+        "unclear": false
+      },
+      {
+        "action": "Wipe down leaves periodically",
+        "minutes": 10,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Water at least once a month",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 0,
+        "unclear": false
+      },
+      {
+        "action": "Buy and use a moisture meter to guide watering",
+        "minutes": 5,
+        "per_day": 1,
+        "cost_usd": 12,
+        "unclear": false
+      }
+    ],
+    "reason": "The answer blames underwatering and neglect rather than the confirmed overwatering; its repot-and-check-roots step overlaps the fix, but urging more frequent watering would worsen the problem."
+  },
+  "input_tokens": 4624,
+  "output_tokens": 940,
+  "graded_at": "2026-10-30T00:14:01.653444+00:00",
+  "status": "graded_pending_review"
+}
