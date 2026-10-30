@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2 inches down with finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly until it drains or bottom-soak pot for 20-30 minutes",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no improvement, slide plant out and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mushy black roots, trim them and repot in fresh well-draining soil",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly when top inch of soil is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off fully yellow or crispy leaves at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant out of harsh direct sun while recovering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check output and schedule of automatic watering system for this plant",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Buy and use a soil moisture meter or sensor tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Group plants by water needs",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly names underwatering as the main cause, and its first step of watering thoroughly matches the fix; its prediction of a slow recovery is off but not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2140,
+ "output_tokens": 634
+}

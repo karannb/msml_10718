@@ -1,0 +1,103 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Slide plant out of pot and check roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim rot and repot in fresh well-draining soil",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Elevate inner nursery pot or empty decorative pot after watering",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly, then let top 2-3 cm of soil dry before watering again",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered water or rainwater if tap water is hard",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant gradually to bright, indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Group plant with other plants to raise humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up a pebble tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Run a humidifier",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from vents and drafts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off fully yellow or brown fronds at the base",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown tips to a natural edge",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots look unhealthy or yellowing spreads, post close-up photos of base and roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames adjustment stress and tip burn rather than insufficient light, and its 'bright, indirect light' advice is only one buried step among many, though nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2271,
+ "output_tokens": 1302
+}

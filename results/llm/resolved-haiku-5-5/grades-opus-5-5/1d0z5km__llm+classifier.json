@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Pinch off flower spikes as they appear",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pinch stem tips just above a leaf pair",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Harvest leaves often",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take tip cuttings and root them in water to refresh the plant",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Harden off outdoors over 1-2 weeks, moving it out for gradually longer periods",
+   "minutes": 5,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that nighttime temperatures stay above 10\u00b0C before moving it outside",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Plant outside in full sun in well-draining soil",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": true
+  },
+  {
+   "action": "Water at the base in the morning",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly says the plant is healthy and flowering and recommends removing the flowers, but it omits the repotting into a bigger pot and the fertilizing that were part of the fix; nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1928,
+ "output_tokens": 725
+}

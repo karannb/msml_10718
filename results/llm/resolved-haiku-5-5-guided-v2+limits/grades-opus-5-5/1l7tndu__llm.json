@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check stems and soil before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove seedlings from water and repot in small containers of fresh moist potting mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Give one gentle watering to settle soil",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move to bright, indirect light away from midday sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil daily with a finger and water only when top inch is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cover loosely with a clear plastic bag for 3-4 days",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Open the bag for a few minutes daily to prevent mold",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If a stem turns black or mushy, discard that seedling and start again with fresh ones",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 4,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names transplant shock as the main cause, but it tells the owner to take the basil out of the water and repot it, which is the opposite of the fix that worked (keeping it in water) and would add more root disturbance.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1819,
+ "output_tokens": 773
+}

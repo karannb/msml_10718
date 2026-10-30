@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plant to a bright spot with 1-2 hours of direct morning sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Every 3-4 days increase direct sun exposure by about an hour",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch leaves for red-brown, bleached or crispy signs of sunburn",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If leaves show sunburn, move back to shade for a few days then resume more slowly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil dryness all the way down before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When soil is fully dry, soak and let excess drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set dropped leaves on dry soil to root into new plants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly treats the plant as healthy and needing sun acclimation, and its gradual exposure plan would likely also have kept it from burning, with nothing harmful advised.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1756,
+ "output_tokens": 742
+}

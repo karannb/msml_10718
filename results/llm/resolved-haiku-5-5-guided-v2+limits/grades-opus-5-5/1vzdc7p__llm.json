@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Verify plant ID with a local nursery or r/whatsthisplant",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches down with a finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, water thoroughly until it drains, then wait until dry again",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull out the Mother of Thousands and weeds by hand",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check roots and, if crowded, repot one size larger in fresh cactus/succulent mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Move to bright indirect light for about a week before full sun if previously shaded",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames competition from stowaways and mentions fast-drying cactus mix, but it doesn't make nutrient depletion the main cause; removing the stowaways matches the thread, but it recommends fast-draining cactus mix instead of the less-draining soil that fixed it and omits fertilizer, though this conditional advice is not clearly harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2005,
+ "output_tokens": 1067
+}

@@ -1,0 +1,40 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move the trough to the sunniest spot with afternoon sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hand-pollinate flowers with a soft brush or cotton swab, or tap stems",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2-3 cm deep before watering and water deeply only if dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If flowers keep dropping, move plant to a cooler, brighter spot during the hottest part of the day",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames heat, light and pollination instead of recognizing the plant simply wasn't mature yet and needed time; its advice doesn't amount to waiting, though the steps are mild and unlikely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1810,
+ "output_tokens": 370
+}

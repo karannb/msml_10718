@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect leaf undersides and new growth with a flashlight for thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether spots are raised corky bumps (edema) or flat lesions",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top 2\u20133 cm of soil with finger every few days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly at the soil when dry and let it drain fully",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ensure pot has a drainage hole and empty standing water from the cachepot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a chunky aroid mix (potting soil, bark, perlite)",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light with airflow, away from the wall",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove heavily spotted leaves with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor for new spots over 2\u20133 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If new spots keep appearing, apply copper-based fungicide per label",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names fungal leaf spot as the main issue, but the copper fungicide that fixed it is only a conditional last step after weeks of watering changes, and nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2143,
+ "output_tokens": 1124
+}

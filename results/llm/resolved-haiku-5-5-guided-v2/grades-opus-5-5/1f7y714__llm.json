@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Finger-test soil moisture 2-3 cm deep and smell for sourness",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether water runs straight through (hydrophobic soil)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If wet and sour, check the roots",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Soak pot in basin for 20-30 minutes and drain fully",
+   "minutes": 35,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully brown, crispy or mushy leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Measure automatic system output and check drippers for clogs",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Adjust automatic watering schedule",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names underwatering as the main cause and recommends a thorough soak, which matches the fix that worked, with soil checks as a safeguard and nothing likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2104,
+ "output_tokens": 477
+}

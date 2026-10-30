@@ -1,0 +1,96 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift the inner pot and check the cachepot for standing water, soft or dark stems, and sour smell",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty any standing water from the cachepot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Push a finger 3-4 cm into the soil and feel the pot weight to check for a dry root ball",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the root ball is dry, water thoroughly",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when the top 2-3 cm are dry, let it drain, then empty the outer pot after 15 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Run the plant lamp 10-12 hours a day, about 30-50 cm above the plant",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, move the plant back near the window out of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant somewhere warm, away from the radiator and cold drafts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Loosen the blue tie around the stems",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off any leaf that turns fully yellow or brown at its base",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use a humidifier for humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, group plants together for humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is transplant shock, with soggy soil only as a secondary possibility, and it misses low light as a cause; still, its advice to run the plant lamp 10-12 hours a day matches the fix that worked, and nothing in it is likely to make the plant worse.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2124,
+ "output_tokens": 1460
+}

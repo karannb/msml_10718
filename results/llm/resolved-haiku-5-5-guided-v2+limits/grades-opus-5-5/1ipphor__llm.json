@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with finger before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water lightly until it drains if soil is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light away from vents, doors and drafts",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set pot on a tray of wet pebbles to raise humidity",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively cover loosely with clear plastic bag held up by stakes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Open the plastic bag daily for air",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If stem base turns black/mushy or plant collapses, check roots for rot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names transplant shock as the main cause and gives patience-plus-bright-light advice that matches the fix; its soil-checked watering is safe, though its 1-3 week recovery timeline is longer than the actual quick rebound.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1866,
+ "output_tokens": 502
+}

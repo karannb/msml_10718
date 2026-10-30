@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Move the plant 1-2 m back from the window, out of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, place it behind a sheer curtain",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test the soil 2-3 cm deep before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly when the top layer is dry and empty the saucer afterward",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off black and brown leaves at the base with clean scissors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses sun scorch, the opposite of the confirmed problem (too little light), and its main advice to move the plant further from the light would worsen the plant and delay the real fix of moving it outside.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1962,
+ "output_tokens": 607
+}

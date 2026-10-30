@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Remove dead flowers and stems at the base with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water at soil level, let the pot drain, and keep the mix evenly moist",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to a cool spot (5\u201315\u00b0C) in bright indirect light, away from heaters",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place it on the balcony in shade or partial shade",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bring it indoors when nights are near freezing",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After blooming, plant it in a shady garden bed or a larger pot in autumn",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with normal flower aging, but frames it as made worse by heat, dry air, sun and possible fungal rot. Its first step, deadheading, plus shaded balcony placement matches the fix that worked, and nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2653,
+ "output_tokens": 886
+}

@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil 2-3 inches deep before each watering and water only if dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Confirm the pot has a drainage hole and water doesn't sit in a saucer",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides and stem joints for pests with zoom or magnifier",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place plant in a steady bright, indirect light spot away from sun and heaters",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off fully yellow or dead leaves at the base with clean scissors",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer explicitly rules out overwatering in favour of move stress, but its soil-check and drainage-check steps would partly lead to the actual fix and act as a safeguard against harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2022,
+ "output_tokens": 776
+}

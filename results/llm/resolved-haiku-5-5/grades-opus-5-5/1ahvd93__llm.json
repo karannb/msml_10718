@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2-3 inches down before watering and water only if dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let excess water drain fully and empty any saucer",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the roots for brown, mushy rot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place plant in steady bright, indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off the affected leaf at the base once fully yellow",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with general stress and treats overwatering as only one possibility, but its first step (water only when the soil is dry) points to the fix; it is not harmful because watering is gated by a soil check.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2128,
+ "output_tokens": 716
+}

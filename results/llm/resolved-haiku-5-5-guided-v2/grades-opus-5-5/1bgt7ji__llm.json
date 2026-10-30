@@ -1,0 +1,82 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check whether the soil stays wet for days, whether pots have drainage holes, and whether leaves are yellowing or stems are soft",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If overwatering signs are found, fix that problem",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Inspect leaf undersides and stem joints for scale or mealybugs",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect plants at night with a flashlight for caterpillars, slugs or snails and hand-pick any found",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plants away from netting, railings and wind",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep pets away from the plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim torn leaves back to healthy tissue or remove mostly damaged leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil 2 inches down before watering and water only when dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty saucers after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no pests or pet activity are found, take a close-up video of the damage",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names chewing pests as the main cause but never mentions low humidity, so it gets only part of the diagnosis and omits the misting fix that worked, though nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2049,
+ "output_tokens": 1082
+}

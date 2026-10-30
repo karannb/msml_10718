@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with finger 2-3 cm deep and lift pot to judge weight",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check for soggy roots signs (wet soil days after watering, soft stem bases, cover pot without drainage)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soggy, tip plant out and inspect roots for brown mushy ones",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant 1-2 m back from window or behind a sheer blind",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top 2-3 cm dry until it drains, then empty saucer/cover pot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ensure pot has drainage",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered or rain water",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly before trips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively set on wet pebble tray or use self-watering pot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Prune badly yellowed leaves at base after new leaves appear",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names direct sun scorch as the main cause and its first fix is moving the plant out of direct sun, matching the thread; the watering advice is safeguarded by checking the soil first, so nothing is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2093,
+ "output_tokens": 678
+}

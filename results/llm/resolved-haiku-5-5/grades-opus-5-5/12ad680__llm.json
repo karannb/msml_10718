@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Bottom-soak pot in sink/tub for 20-30 minutes",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let it drain completely",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide out of pot and check roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim black mushy roots if found",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown, crispy or yellow leaves and dead center material",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top inch or two of soil is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move to bright indirect light away from heaters and drafts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into fresh well-draining mix in pot with drainage if root-bound or soil compacted",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Let tap water sit overnight or use filtered water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaves and stems for pests",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies underwatering wilt on a peace lily as the main cause and leads with a thorough soak and drain, matching the fix that worked; the extra steps are optional or safeguarded and not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2231,
+ "output_tokens": 631
+}

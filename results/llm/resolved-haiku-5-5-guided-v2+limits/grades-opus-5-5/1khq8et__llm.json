@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2-3 inches down with finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, water thoroughly until it drains, then empty the decorative pot after 15 minutes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off crispy leaf and dried stem section",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides for webbing, stippling or moving dots",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from heaters/drafts into bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Post photo of leaf undersides if anything unusual found",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses underwatering or dry air and never mentions repotting, staking or tying to the pole, which were the confirmed fix; its brief light tip is too incidental to count. The watering advice is safeguarded by a soil check, and cutting off dead parts is benign, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1951,
+ "output_tokens": 481
+}

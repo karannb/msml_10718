@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "If cottony fuzz appears on the seed shell, gently rinse it off and let the seed dry slightly before rewrapping",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the seedling to a bright window with some direct morning or afternoon sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep the mix evenly damp by watering as needed",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Open the container lid for airflow to discourage mold",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the shoot keeps flopping, add a small stake",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 1,
+   "unclear": false
+  },
+  {
+   "action": "Eventually pot up or prune the lychee as it grows",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly says the sprouting lychee is viable and needs light, but it suggests direct sun, contradicting the thread's warning against immediate bright direct light, and assumes it's already planted; this is mild enough not to count as harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2106,
+ "output_tokens": 896
+}

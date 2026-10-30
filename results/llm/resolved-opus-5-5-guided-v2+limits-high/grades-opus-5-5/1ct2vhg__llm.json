@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Install a plug-in outlet timer and set the grow light to 14 hours per day",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Lower the grow light to 6\u201312 inches above the rosettes, checking the light's instructions",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If leaves bleach or crisp, raise the light 2 inches",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil dryness with a finger 2 inches deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly at the soil edge only when fully dry, avoiding the leaves",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names insufficient light as the cause and farina as normal. Its fix only boosts the grow light, without the window or sun exposure the thread recommended, so it is only partly matched. Nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2099,
+ "output_tokens": 763
+}

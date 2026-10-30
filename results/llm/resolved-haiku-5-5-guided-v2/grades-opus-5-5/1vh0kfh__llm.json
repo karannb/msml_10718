@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Measure pH and EC of runoff water",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Check whether yellowing starts on old lower leaves or new growth",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Measure light distance with a tape measure against the manufacturer's recommendation",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Adjust feed or water pH to 6.0-6.5",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "If EC is high, flush pot with pH-adjusted water until runoff is clean",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed at half strength if overfeeding is suspected",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise the light if upper leaves look bleached or curled",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top inch of soil is dry before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the pot drains freely",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls it a nutrient problem but leans toward pH lockout or excess rather than hunger, and its advice to hold off on nutrients and flush would delay the feeding that fixed the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1989,
+ "output_tokens": 1027
+}

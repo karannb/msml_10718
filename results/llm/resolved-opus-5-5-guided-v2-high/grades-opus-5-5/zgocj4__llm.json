@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Bottom water: remove from decorative bowl, set in 1\u20132 inches of water for 10\u201315 minutes, then drain fully",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil an inch down with finger and water again when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brightest south- or west-facing window against the glass",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternative: set up clip-on LED grow light 6\u201312 inches above plant for 12\u201314 hours a day",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Pull out brown, dead strands from the center",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip leggy 2\u20133 cm tips and press them into the same pot to root",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names underwatering only as a secondary cause behind low light and misses the poor pot/soil setup; its deep bottom-watering advice overlaps the fix, though it says not to repot instead of moving the plant into a draining pot, and nothing it recommends is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2107,
+ "output_tokens": 915
+}

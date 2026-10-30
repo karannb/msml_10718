@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Unroll a new leaf or check stem tips with a magnifier or phone camera for thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place blue or yellow sticky traps near the plant and monitor counts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check philodendrons and syngoniums for thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove the most damaged leaves and heavily scarred new growth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray spinosad on leaf tops, undersides and stems and drench soil surface every 5-7 days for 3-4 weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Scrape off the top inch or two of soil and replace with fresh mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant away from other plants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides for spider mite webbing or speckles",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Flush the soil to clear mineral buildup",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "Thrips is correctly named as the main cause, but the answer relies on repeated spinosad sprays and soil top-dressing rather than the systemic granules that cleared the infestation, so the advice only partly matches; nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2641,
+ "output_tokens": 1094
+}

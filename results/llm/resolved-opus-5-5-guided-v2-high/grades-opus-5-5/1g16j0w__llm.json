@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plant to bright indirect light or a bright indoor window with only gentle morning sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gradually reacclimate to direct sun over 2-3 weeks, starting with 1-2 hours of morning sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check for underwatering signs (wrinkled, deflated leaves, bone-dry soil pulling from pot)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Press stem base and rosette centers to check for rot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches deep with a finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains when soil is fully dry, then empty saucer",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into gritty cactus/succulent mix or soil amended with perlite/pumice in a pot with a drainage hole",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Gently remove crispy dead leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off stretched rosette, let it callus 2-3 days, and pot as a new plant",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer makes sun stress the main cause but demotes underwatering to an alternative it downplays. Its first steps (less light, thorough watering when the soil is dry) match the fix that worked, and nothing it suggests is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2080,
+ "output_tokens": 1215
+}

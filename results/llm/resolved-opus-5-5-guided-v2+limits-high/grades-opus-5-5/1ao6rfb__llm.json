@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Deadhead shrivelled flowers at their base weekly",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Choose one permanent spot (shaded balcony corner or coolest bright window) and place the plant there",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 cm deep every 2\u20133 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the soil is dry at 2 cm, water thoroughly onto the soil",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly says the old flowers are fading naturally and the plant is fine, recommends deadheading like the thread did, and its extra tips (stop misting, keep it in a cool spot) are benign.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2054,
+ "output_tokens": 563
+}

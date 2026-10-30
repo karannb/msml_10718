@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water only the soil, letting top inch dry between waterings",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant out of harsh midday sun to bright indirect light, acclimating gradually",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check pot for drainage",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove most damaged leaves with clean scissors",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check undersides of leaves for mites, thrips, or aphids",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor for spreading spots, mushiness, or stem rot and act if seen",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer leads with sun scorch as the main cause and recommends trimming the damaged leaf and avoiding harsh sun, which matches the confirmed fix; nothing it suggests would hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2202,
+ "output_tokens": 442
+}

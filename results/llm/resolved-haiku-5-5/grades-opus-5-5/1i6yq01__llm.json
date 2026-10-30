@@ -1,0 +1,96 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water thoroughly until it drains from the bottom and empty the saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that top inch or two of soil is dry before watering again",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from heater vents and radiators",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity with a pebble tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Group plants together to raise humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use a small humidifier",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 35,
+   "unclear": false
+  },
+  {
+   "action": "Move plant a few feet back from the window",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Filter light with a sheer curtain",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Trim crispy or fully yellow leaves at the base",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check roots if plant seems stalled",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are circling, repot into a pot 1-2 inches wider",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "If brown tips persist, switch to filtered or distilled water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with underwatering and a thorough watering, which matches the confirmed dehydration fix, and none of its other suggestions are likely to cause harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2038,
+ "output_tokens": 701
+}

@@ -1,0 +1,110 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check whether the pot drains or water pools at the bottom",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot in fresh chunky well-draining mix in a pot with drainage holes",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly only when top 2-3 inches of soil are dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty saucer or cache pot water after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Group plants together to raise humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up a pebble tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Run a humidifier",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from vents and heaters",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Flush soil with plain water if you have been fertilizing",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check and adjust grow light distance",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead leaf tissue with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides, soil surface and sticky trap for pests",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If pests found, treat them",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer blames inconsistent watering among several causes and mentions soggy soil and root rot, but never identifies the oversized pot; its advice to let the soil dry and check roots partly matches the fix, but it doesn't suggest a smaller pot, and nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2406,
+ "output_tokens": 1392
+}

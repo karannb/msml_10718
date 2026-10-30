@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Cut broken stem 1 cm below a node and trim dried tip",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place cutting in glass of water with node submerged in bright indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the water weekly",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pot rooted cutting in moist well-draining potting mix once roots are 1-2 inches",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Insert bamboo cane/stake and loosely tie sagging stems with soft plant tie",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 4,
+   "unclear": false
+  },
+  {
+   "action": "Remove ties once plant is stronger",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Group with other plants or set up pebble tray with water for humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the broken Maranta stem as a cutting that can root from a node and leads with the same fix as the thread: put it in water and change the water weekly; nothing it adds is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1839,
+ "output_tokens": 499
+}

@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Squeeze the stem above the soil to check firmness/rot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Post an update with photos if the stem is soft or smells bad",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches deep every 2 days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly until it drains, if the soil is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright shade with morning sun and afternoon shade",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully brown leaves where the stalk meets the stem",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names transplant shock as the main cause and advises trimming the dead leaves and keeping the plant watered, matching the thread's fix, with no harmful steps since watering is gated by a soil check.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1860,
+ "output_tokens": 438
+}

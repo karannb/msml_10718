@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Cut the bare woody stalk back above lowest leaves or to soil",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune leafy stems just above a leaf node, taking no more than a third",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check weekly and pinch off flower buds",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Thin seedlings, keeping the two or three strongest and pulling or transplanting the rest",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil and water when top inch is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place pot in bright light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If still mostly woody after a few months, start fresh from a cutting",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies woody, leggy, overgrown basil, and its advice to remove the stalk, focus on the young plants and prune above nodes matches the fix that worked, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1873,
+ "output_tokens": 491
+}

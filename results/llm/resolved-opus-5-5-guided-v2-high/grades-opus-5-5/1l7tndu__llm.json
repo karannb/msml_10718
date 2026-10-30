@@ -1,0 +1,89 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check the base of the stems for brown, thread-like rot (damping off)",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Replant quickly in light, moist potting soil, burying the stem up to the first leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Water gently at the base to settle the soil",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Afterwards, water only when the top of the soil is dry to the touch",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright shade without direct sun for 2-3 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cover with a cut plastic bottle or clear bag to keep humidity",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Air out the cover once a day",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Then move to the sunniest window",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, use a grow lamp 12-14 hours a day",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Plan B: keep stems that don't recover in a glass of water, changing the water every 2 days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot water-rooted stems once the roots reach 2-3 cm",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies transplant shock, but its main advice is replanting in soil, with keeping the stems in water (the actual fix) only a Plan B; nothing it suggests is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2199,
+ "output_tokens": 1118
+}

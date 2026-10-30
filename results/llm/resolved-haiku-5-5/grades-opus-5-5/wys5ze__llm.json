@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water the plant the day before repotting",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Buy a pot one size up with drainage holes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Buy standard potting mix with perlite or pumice",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Remove plant, loosen outer roots, trim up to a third if dense and remove mushy roots",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot with fresh soil keeping trunk flare at same level, press and water thoroughly",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep out of direct harsh sun for 1-2 weeks after repotting",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top inch of soil is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally top-dress with fresh soil as a stopgap",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main recommendation is repotting in regular potting soil without changing the soil height, matching the confirmed fix, and it advises nothing likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2222,
+ "output_tokens": 542
+}

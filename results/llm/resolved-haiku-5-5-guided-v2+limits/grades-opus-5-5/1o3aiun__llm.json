@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check soil moisture with finger 2 inches deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to partial shade for a week, then back to full sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove root ball and inspect roots, cutting off black/mushy roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead brown stems back to green wood",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in terracotta pot with drainage hole using cactus/succulent mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Water lightly once after repotting",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Overwinter in garage under timed lamp, watering when top inch is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses overwatering and root rot when the confirmed problem was underwatering in fast-drying terracotta, and it recommends stopping watering, avoiding plastic, and repotting into terracotta with fast-draining mix, all of which would worsen the drying out.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1972,
+ "output_tokens": 519
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Prune the oldest, lowest brown/dry/yellow leaves at the base of the petiole with clean pruners",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant gradually to the brightest spot over 1\u20132 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the soil and water thoroughly when the top 2\u20133 inches are dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty standing water from the outer pot or saucer and make sure the inner pot drains",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed with balanced liquid fertilizer every 4\u20136 weeks in spring and summer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Bring the plant indoors before temperatures drop below 50\u00b0F",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot one size up when roots fill the pot",
+   "minutes": 45,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly sees normal aging of the outer leaves and recommends pruning the lowest old leaves, but it limits cutting to mostly brown leaves and says to keep the tattered green ones, while the poster removed seven ragged lower leaves; nothing it suggests is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2032,
+ "output_tokens": 911
+}

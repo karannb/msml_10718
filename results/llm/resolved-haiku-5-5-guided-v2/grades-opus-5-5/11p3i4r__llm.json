@@ -1,0 +1,96 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push finger 3-4 inches into soil to check moisture",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift pot to check weight and look for soil pulling away from edges",
+   "minutes": 0.5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If deeper soil is wet, unpot and check roots for mushy, brown or smelly sections",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bottom-soak pot in room-temperature water 20-30 minutes, drain, and repeat in a few days if still dry",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water going forward when top inch is just dry, keeping soil evenly moist",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty saucer 15 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Group plant with other plants to raise humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set plant on a pebble tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Run a humidifier near the plant during the day",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 35,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from heating vents and drafts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully crispy or brown leaves at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered or rain water if tap water is hard",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is underwatering and its first fix is a bottom-water soak, matching what worked; it misses the broken stems but suggests nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2104,
+ "output_tokens": 1359
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap frond over white paper to check for moving mites",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect undersides with flashlight for webbing",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse fronds in shower/sink for about 5 minutes",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe fronds with damp cloth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap on all fronds, repeat every 5-7 days for 3 treatments",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Isolate plant from other plants during treatment",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches deep and water only if dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names spider mites as the main diagnosis and recommends repeated insecticidal spraying out of direct sun, which matches the fix that worked, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2123,
+ "output_tokens": 482
+}

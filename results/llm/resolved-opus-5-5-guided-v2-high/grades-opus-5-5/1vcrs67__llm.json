@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Squeeze the base of the stem and check the central leaf for rot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with a finger 5 cm deep",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water deeply when the top 2-3 cm is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead leaves where the stalks meet the stem",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the pot drains and empty the saucer",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the stem is soft, cut it down to firm tissue",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to bright shade for 2-3 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bring the plant indoors to a bright window if nights drop below 10\u00b0C",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names transplant shock as the main cause and tells the owner to trim the dead leaves and keep watering with a soil check, which matches the fix that worked, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2051,
+ "output_tokens": 541
+}

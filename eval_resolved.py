@@ -268,7 +268,8 @@ Per-thread grades and reasons: `{out}/scores-{tag}.csv`. Answers: `{out}/answers
              "differential": "weigh 3 causes first", "format": "short fixed format",
              "lead": "fix stated first", "short": "at most 150 words", "drop5": "without other-causes item",
              "drop6": "without may-be-normal item", "drop7": "without weigh-poster-details item",
-             "drop2": "without watering item", "drop4": "without pests item"}
+             "drop2": "without watering item", "drop4": "without pests item",
+             "limits": "evaluation limits"}
     base, *elements = args.prompt.split("+")
     prompt_words = base + "".join(f" + {words[e]}" for e in elements)
     for o in options:  # one tracker experiment per option

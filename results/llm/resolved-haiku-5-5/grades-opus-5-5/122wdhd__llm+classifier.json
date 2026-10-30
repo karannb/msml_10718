@@ -1,0 +1,89 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Trim the torn end of the cutting straight across below a node",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the cutting in a glass of filtered or distilled water",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 1,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively root the cutting in moist perlite or sphagnum moss",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Change the water every few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cover the cutting loosely with a plastic bag or dome for humidity",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Vent the cover occasionally to prevent mold",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the cutting somewhere bright, out of direct sun, and warm",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the base of the cutting for rot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Once roots are a few cm long, pot the cutting in a well-draining peat-based mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Stake the mother plant to support the sagging leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively repot the mother plant a bit deeper for support",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the snapped stem and recommends rooting the node cutting in water with regular water changes, which matches the fix that worked. It mislabels the plant as a calathea and calls the attempt a long shot, but nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2052,
+ "output_tokens": 1206
+}

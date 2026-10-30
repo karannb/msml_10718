@@ -1,0 +1,75 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Re-cut cuttings above brown tissue with a sterilized blade, keeping a node on each",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove the sphagnum moss and use plain water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the water every few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Add a piece of cinnamon or a drop of hydrogen peroxide to the water",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Move cuttings to bright indirect light at 70-80\u00b0F",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the mother plant's roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root rot is found, unpot, rinse, trim rotten roots, and repot in a chunky aroid mix in a pot with drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Let the mother plant's soil dry out more between waterings",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot returns, root a cleaner section or a healthy node instead",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses rot instead of slow rooting caused by the moss and over-frequent water changes; it does advise dropping the moss and being patient, but its advice to re-cut and change the water every few days runs against the fix and would likely delay rooting.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2366,
+ "output_tokens": 1086
+}

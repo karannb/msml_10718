@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Squeeze stem bases to check for mushiness",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Smell the soil for a sour/rotten odor",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tip plant out of pot and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot in fresh well-draining mix",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Let the plant drain fully after soaking and return it to its pot with no pooled water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off fully brown or crispy leaves at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil and water thoroughly when top 2-3 cm is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move to bright indirect light away from heating vents and radiators",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check tag or leaf shape to identify the grass-like plant sharing the pot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "It correctly identifies underwatering in dry winter air and endorses the soak with recovery in hours, but it never suggests raising humidity (the humidifier the poster used), only keeping the plant away from vents, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2084,
+ "output_tokens": 983
+}

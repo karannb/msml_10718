@@ -1,0 +1,68 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Cut off fully yellow or mostly brown leaves with alcohol-wiped scissors and bag them for disposal",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides and stems with a flashlight for thrips or spider mites",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If pests are found, wipe affected leaves with a dish soap solution on a cotton swab, then rinse",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only at the soil once the top inch is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the pot drains freely and is not sitting in a saucer of water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Run a fan on low in the room to improve airflow",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch whether spots keep spreading over a week or two",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If spots keep spreading, apply a copper-based fungicide according to the label",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses leaf spot disease rather than shipping stress and old packed soil, and it shares the leaf removal step but never suggests checking the roots or repotting into chunky mix, though nothing it recommends is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1990,
+ "output_tokens": 1149
+}

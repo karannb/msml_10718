@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scrape off top 1-2 cm of moldy soil and top up with fresh potting mix",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Check soil and water only when top few cm are dry, watering thoroughly",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check pot has drainage hole and isn't sitting in standing water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no drainage hole, repot into draining container or use as cachepot with nursery pot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to spot with more light and airflow",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove dead, yellowed leaves including one on soil",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil smell and stem bases for rot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot signs, lift plant, trim mushy roots and repot in fresh mix",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Report watering frequency, drainage and light to commenters",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies surface mold from overly wet soil, and its main advice to replace the moldy soil and cut back moisture closely matches the poster's soil change, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1993,
+ "output_tokens": 1141
+}

@@ -1,0 +1,82 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wipe dark spotting off pot base and check for mold",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with finger 2-3 inches down",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, water thoroughly until it drains and empty saucer after 15 minutes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift pot to judge weight and sniff for sour smell",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure pot has drainage hole and isn't in standing water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil stays wet, slide plant out and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots rotten, trim with sterilized scissors and repot in fresh well-draining mix in pot with drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brightest spot away from cold glass",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rotate pot a quarter turn weekly",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor new leaves over one to two weeks",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer mentions thirst but makes 'inconsistent watering' plus low light and possible rot the main story, so the diagnosis is only partial; the thorough-soak advice is there but buried among rot and light steps, and the soil check keeps it from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2023,
+ "output_tokens": 686
+}

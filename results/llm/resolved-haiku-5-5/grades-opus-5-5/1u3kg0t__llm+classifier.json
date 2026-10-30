@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2 inches down and water thoroughly if dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer and cachepot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift the plant out and inspect the roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot in fresh well-draining mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant away from drafts, cold glass and vents",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Group it with other plants to raise humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up a pebble tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Run a humidifier nearby",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer lists low humidity only as a secondary possibility behind cold/drafts and watering, and its humidity fixes (pebble tray, grouping, humidifier) are weaker than the sealed-bag method that worked, but nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2316,
+ "output_tokens": 535
+}

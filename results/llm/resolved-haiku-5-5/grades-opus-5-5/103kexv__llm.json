@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Slide plant out of pot and inspect roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim rotten roots, mostly black/yellow leaves and mushy stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh well-draining mix (with perlite/orchid bark if dense) in a pot 1-2 inches wider with drainage",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly only after top 1-2 inches of soil dry, checking soil",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty water from saucer or cachepot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light away from heaters and drafts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Increase humidity for the plant",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Fertilize lightly in spring and summer after recovery",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Switch to filtered or rainwater if tips keep browning",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names root rot from overwatering as the main cause, and its root check, trim and repot plan in drainage-friendly mix is an equivalent fix to the water propagation that worked; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2336,
+ "output_tokens": 624
+}

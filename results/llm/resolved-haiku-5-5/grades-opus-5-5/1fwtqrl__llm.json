@@ -1,0 +1,40 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Repot into a pot only one size larger (2-5 cm wider) in spring or early summer",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Use a chunky, well-draining mix (potting soil with perlite, orchid bark, or coco chips)",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Optionally divide the multiple stems into separate plants when repotting",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If any roots are black, mushy, or smelly, trim them off",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly spots that the plant is root-bound but says nothing is wrong and repotting is unnecessary, so the confirmed fix (repot one size up) appears only as an optional, deferred step; this is mild rather than harmful because root-bound is not urgent and the correct method is given.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1810,
+ "output_tokens": 771
+}

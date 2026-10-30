@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture an inch down with a finger before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil dries within a few days, soak pot in a basin of room-temperature water for 15-20 minutes and let drain",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer about 30 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If segments don't firm up in two weeks or stems turn soft/black, slide plant out and inspect roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim mushy or dark dead roots if found",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh cactus/succulent mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light away from direct sun and cold drafts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies long-term underwatering with compacted soil, but it makes repotting (the fix the poster used) conditional on root rot, focusing instead on soak-watering, so the advice is only partial; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1988,
+ "output_tokens": 868
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check that the top of the soil is dry before watering again",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant in bright, indirect light out of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity by grouping it with other plants or using a pebble tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Watch the stem and leaves for mushiness, blackening or rapid yellowing",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the soil stays wet and the plant keeps wilting, unpot it and inspect the roots for rot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "For future repots, use a light, well-draining mix (peat or coco with perlite or orchid bark)",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly once after future repotting",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names transplant shock as the main cause and advises patience and bright light, which matches the fix that worked; its watering guidance is protected by a soil check, so nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2043,
+ "output_tokens": 909
+}

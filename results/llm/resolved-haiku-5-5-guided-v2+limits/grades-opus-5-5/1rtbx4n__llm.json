@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Unpot the cactus and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot in fresh cactus mix in a draining pot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Empty water from the saucer",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the top 3 cm of soil is dry before watering lightly",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move both plants away from cold windows, radiators and doors to a spot above 15\u00b0C",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the oxalis with the cactus in bright indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off any segments that turn mushy or black",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames cold, wet soil and root problems, but the plants were underwatered, so its advice to withhold water, water lightly and keep the same schedule would have deepened the thirst and delayed the fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2017,
+ "output_tokens": 496
+}

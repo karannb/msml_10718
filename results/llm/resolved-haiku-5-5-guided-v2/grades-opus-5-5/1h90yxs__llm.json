@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tip the plant out of its pot and inspect the roots and soil for root-bound vs root rot signs",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take 4\u20136 inch cuttings with nodes and root them in water or moist soil",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Discard mushy or fully brown stems",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot the parent plant into a pot 1\u20132 inches wider with drainage holes and chunky aroid mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Trim any mushy or black roots during repotting",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly after repotting",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the top 1\u20132 inches of soil are dry before watering again",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant in bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut the vines back hard to encourage bushier regrowth",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer notices the leggy, root-bound state and repotting need but frames it mainly as root failure/drying; the hard trim is present via cuttings and a late note on cutting back, so the fix is partly buried, and nothing is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2177,
+ "output_tokens": 1000
+}

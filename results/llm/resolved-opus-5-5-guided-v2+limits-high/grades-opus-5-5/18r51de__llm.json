@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift nursery pot out of cachepot and pour out collected water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture by finger and pot weight every 2-3 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly when top 5 cm is dry, let drain before returning to cover",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place plant in bright, indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If droop worsens, unpot and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown mushy roots with alcohol-wiped scissors and repot in same mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names transplant shock with wet soil as the main cause but does not flag low light; the actual fix (more sun or grow light) appears only as a brief bright-indirect-light step among watering-focused steps, and nothing recommended is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1953,
+ "output_tokens": 816
+}

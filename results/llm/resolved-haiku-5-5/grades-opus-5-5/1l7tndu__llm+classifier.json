@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plants to shade or bright indirect light for 3-5 days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top 1-2 cm of soil with finger and water only if dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cover pot with a perforated clear plastic bag as a mini greenhouse",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove the plastic bag for a few hours daily and put it back",
+   "minutes": 1,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch over 3-7 days whether stems straighten",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the water in the glass for the cuttings regularly, keeping only stem bases submerged and free of soil debris",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Replant water-rooted cuttings into a small pot of light moist potting mix once roots reach 2-3 cm",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Inspect stem bases for browning, blackening or softening (damping off)",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If damping off appears, cut back watering and improve air circulation/ventilate the plastic cover more",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names transplant shock as the main cause, but its main advice is soil-based recovery, with keeping the basil in water only as a secondary note; nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2505,
+ "output_tokens": 947
+}

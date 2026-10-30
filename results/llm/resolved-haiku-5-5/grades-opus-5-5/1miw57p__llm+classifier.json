@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water deeply and slowly to 6-8 inches, daily during heat",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with finger or trowel in root zone",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull mulch back 2-3 inches from stems and keep 2-3 inch layer over bed",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Add afternoon shade with shade cloth or temporary screen",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Dig a drainage test hole and fill with water",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If drainage is slow, amend or raise the bed",
+   "minutes": 180,
+   "per_day": 1,
+   "cost_usd": 50,
+   "unclear": true
+  },
+  {
+   "action": "Inspect leaf undersides for lace bugs or spider mites",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead tips once weather cools",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If stems soft/dark at base or plant collapses, inspect roots for rot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is heat and drought stress, and its first step, daily deep watering plus afternoon shade and no feeding, matches the fix that worked; nothing it suggests would harm the plants.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2452,
+ "output_tokens": 612
+}

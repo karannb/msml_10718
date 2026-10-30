@@ -1,0 +1,89 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push a finger 2-3 inches into the soil to check dryness",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift the inner pot out of the decorative pot, empty standing water and check the bottom of the inner pot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether roots are circling or pushing out of the drainage holes (root-bound)",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains, then let the top 2-3 inches dry before the next watering",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered or rain water if tap water is hard",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant slightly out of direct midday sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, hang a sheer curtain to diffuse the light",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides and leaf joints for mealybugs",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab any mealybugs with rubbing alcohol on a cotton swab",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a pot with drainage if roots are crowded",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Trim crispy brown leaf tips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer gives underwatering as one of two equal possibilities alongside water trapped in the outer pot, and puts the thorough-watering fix among several other steps, but nothing it recommends would harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2142,
+ "output_tokens": 1198
+}

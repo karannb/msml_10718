@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap newest leaves and sheaths over white paper to confirm thrips",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse the pothos weekly with a lukewarm shower, targeting undersides, sheaths and stem joints",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap on pothos, philodendrons and syngoniums every 5 days for 6 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Place a blue sticky trap in each pot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 7,
+   "unclear": false
+  },
+  {
+   "action": "Replace sticky traps when they fill up",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names thrips as the cause, but it relies on soap sprays, showers and sticky traps and never mentions the systemic granules that fixed the problem; those steps are reasonable, so not harmful, just less effective against eggs.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2240,
+ "output_tokens": 756
+}

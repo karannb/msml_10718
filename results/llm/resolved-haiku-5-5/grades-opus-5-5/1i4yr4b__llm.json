@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift plant from pot and inspect roots and rhizomes for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off rotted rhizome or root parts, let them dry a few hours, and dust with cinnamon or sulfur",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a pot with drainage holes using universal soil mixed with about a third perlite, pumice or orchid bark",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Empty standing water from the decorative outer pot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil dryness several inches down with a moisture meter or wooden skewer before watering, and water only when completely dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Fertilize lightly in spring",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from cold drafts and cold window glass",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully yellow stems at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names overwatering as the main cause and puts checking the roots, repotting into a chunky mix and watering much less up front, which matches the fix that worked; nothing in it is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2379,
+ "output_tokens": 826
+}

@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2 inches down before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains when dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty standing water from outer decorative pot after watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brighter indirect light away from heaters, vents and AC",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully yellow or brown fronds at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil stays wet or stems turn soft/black, post follow-up with photos of plant base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames relocation stress and watering, mentioning light only as part of the move; the brighter-light fix appears as one step among several, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1909,
+ "output_tokens": 429
+}

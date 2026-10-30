@@ -188,6 +188,24 @@ and the post support or contradict it. Choose the one that best explains all the
 **Do this first:** the single action most likely to fix it, specific (how, how much, how often).
 **Then:** at most 3 more short actions, one line each; include the check that confirms the cause if it is uncertain.
 **If that's not it:** at most 2 other causes, one line each, with the sign that points to them.""",
+    # the evaluation's desiderata (eval_methodology.md): right cause, safe, no false alarm, at most 4 short actions;
+    # replaces the "How to answer" part
+    "limits": """How to answer:
+- Start with the single most likely cause, stated plainly. If two causes are about equally likely, name both and make
+  the first action the quick check that decides between them.
+- If the plant looks healthy, or the change is normal (an old leaf dying, spent flowers, adjusting after a move), say so
+  clearly and recommend no treatment. Do not invent a problem.
+- Then the fix: at most 4 actions in total. Every task the owner must do counts as one action, including checks,
+  "if ... then ..." steps and alternatives, so do not offer backup plans or extra options. Things to stop doing, or to
+  keep doing, do not count. Number the actions and give no other advice outside that list.
+- Each action must be short: under 15 minutes of work on any one day, and at most $15 beyond household supplies (water,
+  scissors, dish soap, rubbing alcohol, cotton swabs, plastic bags). Name the product, the amount, how long it takes and
+  how often, so the owner knows exactly what to do. A daily task counts its total minutes per day.
+- Recommend a longer or riskier job (repotting, cutting roots, removing much of the plant, a pesticide) only when the
+  photos or the post clearly show it is needed, and never as a precaution.
+- Be safe: never advise watering more or less without first checking the soil, never combine treatments that should
+  not be mixed, and never reassure the owner about a problem that needs action now (pests, rot).
+- Be concise: at most 200 words, no preamble.""",
 }
 
 
@@ -202,8 +220,9 @@ def system_prompt(name):
         if e.startswith("drop"):
             k = int(e[4:])
             reasoning = re.sub(rf"\n{k}\. .*?(?=\n\d\. |\n\n|$)", "", reasoning, flags=re.S)
-    middle = [ELEMENTS[e] for e in elements if e not in ("format", "short") and not e.startswith("drop")]
-    answer = ELEMENTS["format"] if "format" in elements else V2_ANSWER
+    replaces = ("format", "limits")  # elements that replace the "How to answer" part
+    middle = [ELEMENTS[e] for e in elements if e not in replaces + ("short",) and not e.startswith("drop")]
+    answer = next((ELEMENTS[e] for e in elements if e in replaces), V2_ANSWER)
     if "short" in elements:
         answer = answer.replace("about 250 words", "at most 150 words")
     return "\n\n".join([reasoning.rstrip()] + middle + [answer])

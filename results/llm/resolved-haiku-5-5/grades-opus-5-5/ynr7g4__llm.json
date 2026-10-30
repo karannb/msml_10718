@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Bottom-water thoroughly by soaking pot 15-30 minutes, then drain",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant out of direct sun to bright indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Boost humidity with pebble tray, humidifier, or grouping plants",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": true
+  },
+  {
+   "action": "Trim crispy or fully brown leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If it doesn't recover, check roots and trim black mushy ones",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is thirst after sun exposure, and its first step, a thorough watering, matches the fix that worked; the root-rot check is conditional, so nothing is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1831,
+ "output_tokens": 390
+}

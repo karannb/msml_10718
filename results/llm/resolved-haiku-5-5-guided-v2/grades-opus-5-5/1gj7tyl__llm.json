@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant away from other houseplants",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check white specks to tell dust from mealybugs (wipe test, look for cottony fluff)",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab each scale bump and white spot with an alcohol-soaked cotton swab",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively wipe both leaf surfaces with a damp cloth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray neem oil or insecticidal soap on leaf undersides and stems, repeating every 5-7 days for 3-4 rounds",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Move plant a few feet back from the window or behind a sheer curtain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gradually move the plant closer to the window over 2-3 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off leaves that are mostly brown or heavily infested",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the top 2-3 inches of soil are dry before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If drooping continues, unpot the plant and inspect the roots",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies a sap-sucking pest infestation plus sun stress (calling it scale rather than thrips), and its isolate, alcohol-wipe, neem or insecticidal soap, repeat routine matches what fixed the plant, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2341,
+ "output_tokens": 1290
+}

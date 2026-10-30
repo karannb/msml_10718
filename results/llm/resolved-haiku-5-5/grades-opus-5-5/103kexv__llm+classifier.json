@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Slide plant out of pot and check roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim mushy roots, dark stems and fully collapsed leaves",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into fresh well-draining mix (with perlite or orchid bark) in a pot with drainage holes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively lift nursery pot out of decorative cachepot so water drains",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top 1-2 inches of soil and water only when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty any water sitting in the outer pot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered or rainwater if tap water is high in salts or fluoride",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant closer to a window for bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If most roots are rotten, cut plant back and root healthy divisions",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names overwatering and root rot as the most likely cause and tells the owner to check the roots, trim the rot and stop water pooling, which matches the confirmed fix in substance even though it suggests repotting in soil rather than water propagation; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2403,
+ "output_tokens": 1178
+}

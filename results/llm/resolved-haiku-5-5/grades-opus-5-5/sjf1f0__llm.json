@@ -1,0 +1,68 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Water only when top 2-3 cm of soil is dry (check soil)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check pot has drainage holes and isn't in standing water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty saucer 15-30 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim rotten roots with clean scissors if present",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh well-draining mix with perlite/bark in slightly larger pot if needed",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Check leaves and stems for pests",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Post clearer photo of roots/soil/pot bottom",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses overwatering when the plant was actually underwatered and needed a thorough soak; its advice to water less and disturb the roots would have delayed the fix and likely worsened the drooping.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2270,
+ "output_tokens": 540
+}

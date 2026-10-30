@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Flush the soil with plenty of plain water and let it drain fully",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the medium stays soggy",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Resume fertilizing at half strength on moist soil once new growth appears",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity to 60% or more",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": true
+  },
+  {
+   "action": "Move the plant out of drafts and direct harsh light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the roots if yellowing continues",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot in fresh airy medium",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Watch for new leaves over the next few weeks",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer gets the fertilizer stress but misses the dense, poorly draining mix and oversized pot as the core issue, and it only suggests repotting into airy medium conditionally, so the diagnosis and advice are partial but not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2316,
+ "output_tokens": 921
+}

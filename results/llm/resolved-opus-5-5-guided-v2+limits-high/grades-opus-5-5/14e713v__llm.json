@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift pot out of decorative pot, pour out trapped water, slide plant out and check roots and stem base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into cactus/succulent mix after shaking off old soil",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "If roots are mushy, cut them off with alcohol-wiped scissors",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place 2 yellow sticky traps in the soil",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 6,
+   "unclear": false
+  },
+  {
+   "action": "Replace sticky traps when covered",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to sunniest (south or west) window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Give plant a quarter turn weekly",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only when soil is dry all the way down, starting after one week",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer makes wet soil the main cause but treats rot only as a possibility and calls the stem base pale and firm. Its repot into cactus mix matches the fix, but it only trims roots and never says to chop off the dark, rotting stem. Nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1955,
+ "output_tokens": 1049
+}

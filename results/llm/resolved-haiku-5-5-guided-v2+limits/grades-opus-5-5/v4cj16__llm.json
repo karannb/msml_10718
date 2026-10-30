@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2 inches down with finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil wet/sour, unpot and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots mushy, trim rotten roots and repot in fresh mix in pot with drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "If dry, water thoroughly out of decorative pot and drain 15 minutes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off fully collapsed or brown leaves at base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Later refresh soil with fresh potting mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names underwatering as the main cause and tells the owner to water thoroughly after a soil check, which matches the fix that worked, and the root-rot path is safeguarded by that check.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1941,
+ "output_tokens": 440
+}

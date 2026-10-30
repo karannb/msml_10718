@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect roots for firmness, color or mushy rot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If separate crowns with their own roots, divide into individual pots",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Check top few centimetres of soil before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is dry and pulling from pot edge, water thoroughly until it drains",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in spring/early summer into a 30\u201335 cm pot with drainage and chunky peat-free mix with perlite or bark",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Gently loosen roots and trim dead or mushy ones, keeping crown at same depth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water well after repotting",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies root-binding as the main cause and recommends repotting only slightly larger, matching the fix; calling it 'not a problem' and suggesting waiting for spring is a mild delay but not likely harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1951,
+ "output_tokens": 746
+}

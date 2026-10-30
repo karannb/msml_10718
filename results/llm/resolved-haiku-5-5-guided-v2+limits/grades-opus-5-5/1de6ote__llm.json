@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check soil moisture 2 inches down before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains when top 2 inches are dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty water from decorative pot within 15 minutes",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brightest south or west window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rotate pot a quarter turn weekly",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots rotted, trim them and repot in cactus mix in a draining pot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames low light and says watering alone won't fix it, missing the confirmed underwatering from hydrophobic soil, and it never suggests soaking the pot; its reassurance to wait weeks in better light delays the needed fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1898,
+ "output_tokens": 486
+}

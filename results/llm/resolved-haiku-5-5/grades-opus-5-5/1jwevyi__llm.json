@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scratch test a few stems to check for green tissue",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune stems that are brown and brittle back to healthy tissue",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Once new growth is established, apply acid-loving plant fertilizer if needed",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Water deeply during dry spells, about an inch per week",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Replace gravel with a 2\u20133 inch layer of pine bark, pine straw, or shredded hardwood mulch kept away from stems",
+   "minutes": 120,
+   "per_day": 1,
+   "cost_usd": 50,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls it winter-reddened but living azaleas and advises deep watering, but it tells the owner to delay the fertilizing that helped, so the advice only partly matches; nothing in it is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2100,
+ "output_tokens": 684
+}

@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check petals for grey fuzz or soft wet brown patches vs dry papery petals",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to a cool spot (8\u201315\u00b0C) with bright indirect light, e.g. north/east window or cool room",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep in shade on balcony and bring indoors before afternoon warms up",
+   "minutes": 2,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water at soil level only when top centimetre is dry, draining excess",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove spent/damaged flowers and dying leaves at base with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses heat stress/botrytis instead of naturally fading flowers on a healthy plant (a false alarm), though its deadheading step matches the reference fix, buried among unnecessary treatments; none of the advice is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2165,
+ "output_tokens": 444
+}

@@ -1,0 +1,96 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap a leaf over white paper to check for moving specks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set out blue sticky traps",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Spray neem oil or insecticidal soap on leaves, undersides and soil surface every 5-7 days for 3-4 weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Apply a soil drench or systemic insecticide if thrips persist",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": true
+  },
+  {
+   "action": "Move plant out of the window's brightest light in summer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang a sheer curtain on the window (alternative to moving the plant)",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and check roots and drainage",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top 2-3 cm of soil before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty any saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off heavily damaged leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other plants during treatment",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh mix if damage or pests continue",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with sulphur burn and lists thrips only third, so the diagnosis is partial. Repeated insecticide treatment for thrips, the fix that worked, is present but buried among sulphur, scorch and watering advice. Its suggestion to reduce light is unhelpful for a low-light plant but not likely to be seriously harmful, since pest treatment is still prescribed.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2744,
+ "output_tokens": 1521
+}

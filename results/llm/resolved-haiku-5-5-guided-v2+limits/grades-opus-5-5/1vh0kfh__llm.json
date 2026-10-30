@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Measure distance from light to top leaves",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise light fixture if too close",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches deep with finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water if soil is dry at 2 inches",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test runoff pH with pen or drop kit",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Adjust feed water pH if out of range",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": true
+  },
+  {
+   "action": "Feed balanced nutrient at half label strength",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively add cal-mag at label dose if interveinal yellowing",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Share close-up photo, light model/height and feed schedule if problem persists",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer offers nutrient deficiency only as one of two equally weighted causes, alongside light stress. Feeding comes last, after light and pH checks, and is conditional and at half strength, so the fix is present but buried. Nothing recommended is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1859,
+ "output_tokens": 923
+}

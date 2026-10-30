@@ -1,0 +1,96 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check roots for circling/root-bound condition",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root-bound, repot main plant into a larger pot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": true
+  },
+  {
+   "action": "Check soil moisture to assess under/overwatering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim cutting cleanly just below a node",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place cutting's node in a glass of water in bright indirect light",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the water every few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternative: plant cutting in damp perlite or peat-perlite covered with a clear bag or cloche",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Pot up cutting once roots are 1-2 inches long",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Stake the main plant",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, remove a few of the heaviest leaves from the main plant",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect stems and leaf undersides for spider mites or thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If pests found, wipe leaves and treat with insecticidal soap",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the broken stem with a node as the main issue and recommends rooting it in water with regular water changes, matching the fix that worked; nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1996,
+ "output_tokens": 1097
+}

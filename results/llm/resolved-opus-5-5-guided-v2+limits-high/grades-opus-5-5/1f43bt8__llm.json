@@ -1,0 +1,33 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect low leaves and remove spent ones (kinked/broken stalk or mostly brown/yellow) with sterilized tool, cutting 2-3 cm from base",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 5 cm deep and water until it drains if dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bring plant indoors to brightest window before nights drop below about 10 \u00b0C",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the plant healthy and pruning merely cosmetic, but it does point to removing the low leaves lying on the deck if spent, so it partly matches the confirmed pruning fix without being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1871,
+ "output_tokens": 563
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect leaf undersides and holes with a flashlight for pests",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove pests by hand if found",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap weekly for 3 weeks if many pests",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches down in each pot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly if soil is dry / ensure drainage if wet",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plants out of wind and away from pets, check for birds on balcony",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim torn leaves with alcohol-wiped scissors",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies chewing pests but misses low humidity, the main cause behind the fix, and never suggests misting or raising humidity, though nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1820,
+ "output_tokens": 486
+}

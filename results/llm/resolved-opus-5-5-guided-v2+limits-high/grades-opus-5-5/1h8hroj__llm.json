@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with a finger and by lifting the pot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, water slowly until it drains out the bottom, repeating whenever the top inch is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soggy, empty the saucer or cover pot and wait for the top inch to dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Thin the pot, cutting dead or floppy stems and keeping the 4-5 sturdiest",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Root 3-4 leafy tip cuttings in a glass of water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the cuttings' water every 2-3 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to the sunniest window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames overcrowding rather than naming underwatering, though it acknowledges heavy water demand; its first step (check the soil and water thoroughly if dry), plus thinning, matches the fix that worked, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1913,
+ "output_tokens": 969
+}

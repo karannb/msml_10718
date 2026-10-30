@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Press the trunk base to check for rot under the mold",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test soil 3-4 cm deep for moisture",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scrape off top 1-2 cm of soil with mold, dead leaf and debris, wipe trunk base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dust surface with cinnamon (if available)",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot to check drainage and roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a pot with a drainage hole, or use bowl as cover pot and empty after watering",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Trim mushy, brown or sour-smelling roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into fresh chunky mix (2 parts potting soil, 1 part perlite/bark)",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly only when top 3 cm is dry and let drain",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant near a bright window with some gentle sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is soil staying too wet causing mold, which matches the confirmed problem; its advice to repot into fresh mix matches the poster's fix of changing the soil, and nothing recommended is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2073,
+ "output_tokens": 695
+}

@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check soil moisture by pushing a finger 2 inches into the soil",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slowly water with about 1 gallon of room-temperature water until it drains",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer after 30 minutes",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant 3-4 feet back from the south window or behind a sheer curtain, away from the glass door",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Retire the grow light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe leaves with a damp cloth monthly",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer misidentifies the Crinum as a thirsty Dracaena and misses its need for light and warmth; telling the owner to pull it back from the sunny window and retire the grow light cuts the light it needs and would likely delay recovery and blooming.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2072,
+ "output_tokens": 668
+}

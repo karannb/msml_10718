@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Prune leaves that are mostly brown/yellow, broken, or lying on the ground",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Peel off dry brown sheaths at the base if they come away easily",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check for root-bound signs (roots from drainage hole, fast drainage, quick drying)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root-bound, repot one size up (5\u20138 cm wider) next spring",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 45,
+   "unclear": false
+  },
+  {
+   "action": "Check top 3\u20135 cm of soil and water deeply when dry",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Fertilize monthly through summer with balanced houseplant fertilizer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf bases and stems for mealybugs or scale before bringing inside",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hose off the leaves before bringing inside",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bring plant indoors to brightest window before nights drop below 10 \u00b0C",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with 'nothing is wrong' and mentions aging lower leaves on the floor only as a secondary possibility, though its first care step does advise cutting grounded or damaged leaves, which is the fix the poster used; nothing in it would harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2064,
+ "output_tokens": 1027
+}

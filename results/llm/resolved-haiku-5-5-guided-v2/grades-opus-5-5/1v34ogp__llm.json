@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Shake plant over white paper to distinguish whiteflies from aphids",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep plants isolated and check leaf undersides and stems daily",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove heavily infested leaves and bag them outside",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse plants with water spray focusing on leaf undersides",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Apply insecticidal soap or neem oil every 5-7 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Place yellow sticky traps near plants",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check other houseplants for pests",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names whiteflies as the main cause and aphids only as a secondary possibility; the water rinse that fixed it is included but placed among treatments mainly aimed at whiteflies, and nothing it suggests would harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2100,
+ "output_tokens": 501
+}

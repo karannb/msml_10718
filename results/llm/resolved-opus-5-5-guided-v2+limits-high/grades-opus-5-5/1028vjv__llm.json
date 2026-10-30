@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with finger before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly until it drains, then empty decorative pot after 10 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Flush soil monthly with lukewarm water, about 3 times pot volume",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered or rainwater for regular waterings",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown tips with clean scissors, leaving a thin brown sliver",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names dry air only as one of several causes of tip burn, and its advice covers watering, flushing and trimming but never raising humidity or moving the plant, which was the actual fix; nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1832,
+ "output_tokens": 401
+}

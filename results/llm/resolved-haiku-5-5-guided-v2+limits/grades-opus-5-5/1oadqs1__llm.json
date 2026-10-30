@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tip the plant out of its pot and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are brown or mushy, trim them with clean scissors and dust with cinnamon",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides with a white paper towel for mites or thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the drainage tray after every watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test the soil and water only when the top 2\u20133 cm are dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a 1:1 perlite and potting mix in a pot with a drainage hole",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant out of direct sun into bright indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames the leaf damage mainly on sun scorch and treats soggy dense soil as a co-cause, so the diagnosis is only partial, but its root check, reduced watering and repot into a chunkier mix match the confirmed fix and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1881,
+ "output_tokens": 950
+}

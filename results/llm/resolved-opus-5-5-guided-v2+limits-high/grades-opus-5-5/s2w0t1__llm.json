@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push a finger 5 cm into the soil to check moisture",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, lift out the plastic pot, water in the sink until it drains, let it drain 10 minutes and return it to the cover pot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the soil is still damp, recheck it in a few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf bases, crown and leaf undersides for mealybugs weekly for 3 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab any mealybugs with a cotton swab dipped in rubbing alcohol",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the plant mostly normal and names thirst only as the likely cause of any floppiness, so the diagnosis is partial, but its first step (check the soil, water thoroughly if dry) would have fixed the underwatering, and nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1896,
+ "output_tokens": 759
+}

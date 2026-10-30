@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect plants 1\u20132 hours after dark with a torch, hand-pick pests into soapy water, nightly for a week",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If snails/slugs: lift pots onto stands or bricks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "If snails/slugs: wrap copper tape around pots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If snails/slugs: scatter iron phosphate pellets on soil",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "If caterpillars: spray all leaf surfaces with Bt every 5\u20137 days for 2\u20133 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check top 2\u20133 cm of soil and water only when dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies chewing pests but misses the low-humidity cause and never suggests raising humidity or misting, which was the fix the poster credited; its pest and watering advice is unlikely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2086,
+ "output_tokens": 874
+}

@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap a new leaf over white paper to look for thrips",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place a blue sticky trap beside the pothos for 3 days and check it",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Spray spinosad on all pothos, philodendrons and syngoniums every 7 days for 3 weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Soil drench once with an imidacloprid systemic product such as Bonide",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Cut off badly damaged new leaves and bin them",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe remaining leaves with a damp cloth weekly",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names thrips as the main cause and recommends the same systemic Bonide soil treatment and leaf removal that fixed the plant; the extra spinosad spray is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2271,
+ "output_tokens": 735
+}

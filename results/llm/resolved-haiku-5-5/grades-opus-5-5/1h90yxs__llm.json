@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Take 4\u20136 inch cuttings with 2\u20133 nodes and root them in water or moist soil",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim crispy, yellow leaves and fully brown, dried stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide the plant out of its pot and check the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root-bound, repot one size up in fresh, well-draining potting mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Trim any mushy, dark roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to bright, indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the soil and water only when the top 1\u20132 inches are dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer notes legginess and a possibly root-bound pot but splits the cause among light and watering, and it recommends cuttings and repotting while telling the owner to keep the green sections rather than cutting back 60\u201380%. That makes both diagnosis and advice partial, but nothing it suggests is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2267,
+ "output_tokens": 905
+}

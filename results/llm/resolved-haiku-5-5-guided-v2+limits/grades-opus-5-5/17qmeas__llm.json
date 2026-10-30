@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 1-2 inches deep with finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, lift nursery pot out and water thoroughly at sink until it drains",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let pot drain 15 minutes, return it, and empty any water in cat planter",
+   "minutes": 16,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If damp, wait and recheck soil in a day or two",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for leaves firming up over 1-2 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If leaves stay limp with wet soil, check roots for brown mushy sections and report back",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ongoing: water when top inch of soil is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names underwatering as the main cause and recommends checking the soil and then watering thoroughly, which matches the fix that worked; the soil check makes it safe.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1952,
+ "output_tokens": 495
+}

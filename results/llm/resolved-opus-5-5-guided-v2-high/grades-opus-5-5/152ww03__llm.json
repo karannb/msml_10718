@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Squeeze each braided trunk near the soil to check firmness",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If a trunk is soft or rotting, unbraid and cut it away",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot into gritty mix with perlite or bark",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check soil dryness about 5 cm down or pot weight before watering, then water thoroughly",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tip out water left in the cover pot 15 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant at least a metre from the radiator",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames overwatering/root rot and radiator heat, never mentions the constricting band at the base, and its repotting, trunk-cutting and reduced-watering advice would delay removing the band and could further stress the strangled tree.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2146,
+ "output_tokens": 922
+}

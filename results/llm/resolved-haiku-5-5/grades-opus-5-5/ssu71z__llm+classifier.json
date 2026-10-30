@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check that the top inch of soil is dry before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the ivy to bright, indirect light out of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Loosely cover the ivy with a plastic bag with air holes as a humidity dome",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the cactus cuttings were callused before planting",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gently tug the cuttings after 3 to 6 weeks to check for roots",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the terracotta pot has a drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Drill a drainage hole in the pot if it has none",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, use the plastic nursery pot as a liner inside the terracotta pot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names transplant shock as the main cause and warns against overwatering and rot, matching the thread's advice to water sparingly and leave the plants alone, though it never ties the rot risk to the oversized pot; nothing it suggests is likely to harm the plants.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2109,
+ "output_tokens": 1145
+}

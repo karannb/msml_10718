@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect undersides and leaflet joints with hand lens or phone macro for webbing/mites",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tap a frond over white paper to check for mites or thrips",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove fronds that are mostly brown or heavily speckled",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse whole plant in shower or sink every few days",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap or neem oil every 5-7 days for 3 weeks, covering undersides",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity by grouping plants or using a humidifier",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Mist plant between treatments",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let top inch of soil dry out between waterings",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place sticky yellow or blue traps near the plant",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names spider mites as the main diagnosis and recommends repeated insecticidal spraying over several weeks, avoiding strong sun, which matches the fix that worked; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2203,
+ "output_tokens": 657
+}

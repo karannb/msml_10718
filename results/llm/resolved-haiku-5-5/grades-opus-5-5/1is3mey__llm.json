@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water only when soil is completely dry, soak thoroughly and let excess drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty saucers after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plants to brightest spot (south/west window), gradually acclimating over 1-2 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use a sheer curtain if sun is harsh",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively use grow lights",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Unpot and check roots and stems for rot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off mushy, black or brown roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh cactus/succulent mix or amended soil in pot with drainage holes if soil is dense and damp",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Take cuttings of healthy rosettes/stems, callus 2-3 days, place on dry mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lay fallen leaves on dry soil to root",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies low light and overwatering as the main problems and advises thorough but infrequent watering only when dry plus brighter light, matching the confirmed fix with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2347,
+ "output_tokens": 665
+}

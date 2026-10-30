@@ -1,0 +1,75 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check soil moisture 2-3 inches down with finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that pot drains and isn't sitting in standing water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ease off watering if soil stays wet for more than a few days",
+   "minutes": 0,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect stems and base for mushiness, darkness or smell",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides and new growth for pests",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove badly damaged leaves with clean scissors",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light with stable temperature and humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch next few new leaves for spreading yellowing",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Share photos of stems, soil surface and pot drainage",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer explicitly downplays overwatering in favour of relocation stress and light. Checking soil and drainage is included but buried as a conditional step, and the reassurance risks delaying the needed reduction in watering.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2324,
+ "output_tokens": 593
+}

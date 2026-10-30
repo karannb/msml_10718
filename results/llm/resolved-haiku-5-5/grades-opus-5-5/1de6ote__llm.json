@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Slide plant out of decorative pot and inspect roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are mushy, trim them, let cuts dry a day, and repot in cactus mix in a draining pot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides and stems for mealybugs or powdery mildew",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to a brighter south/west window, increasing exposure gradually",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly only when soil is completely dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty excess water from decorative pot or saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune leggy stems back to a node",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Root the cuttings in dry soil or water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Pinch stem tips to encourage bushier growth",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with low light and root rot from wet soil, mentioning a past dry spell only in passing. It never suggests soaking the plant to rehydrate soil that won't absorb water. Its warnings about damp soil and waiting for the soil to dry fully could delay the watering fix the plant needed.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2258,
+ "output_tokens": 1196
+}

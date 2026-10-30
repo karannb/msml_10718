@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Slide plant out of pot and check roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots rotten, trim rotten parts and repot in fresh chunky aroid mix in a pot with drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Remove every spotted leaf with sterilized scissors and bag them for disposal",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray copper fungicide on tops and undersides of leaves every 7-10 days for 2-3 applications",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Water only the soil after the top inch dries out",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If new spots keep appearing after two treatments, check leaf undersides for pests with a magnifying glass",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names fungal leaf spot as the main diagnosis and recommends removing affected leaves plus a copper fungicide (Bonide), matching the fix that worked; its root check and watering advice are safeguarded and not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2022,
+ "output_tokens": 491
+}

@@ -1,0 +1,89 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Shake branch over white paper to check for flying whiteflies",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect specks with macro lens or hand lens",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check for thrips (silvery streaks, slender insects)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tap leaf over white paper to check for spider mites",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate plant from other houseplants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray leaves with strong stream of lukewarm water every few days",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test insecticidal soap or neem oil on one leaf",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Treat with insecticidal soap or neem oil every 5-7 days for 3-4 weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Place yellow sticky traps and replace when full",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Remove heavily infested yellowing leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor new growth for a month",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses whiteflies rather than aphids, but its main treatment, thorough repeated neem oil or insecticidal soap, matches the fix that worked, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2040,
+ "output_tokens": 697
+}

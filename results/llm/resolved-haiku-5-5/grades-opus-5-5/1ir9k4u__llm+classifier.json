@@ -1,0 +1,103 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Recut each cutting back to firm green tissue with sterilized blade",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check each cutting has a node",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let cut ends dry/callus before returning to water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove moss and use fresh water",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change water every 2-3 days and rinse the jug",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Add cinnamon or a little hydrogen peroxide to water",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Place cuttings in warm, bright, indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Unpot parent plant and inspect roots and base",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim black, mushy or smelly roots if present",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot parent in fresh chunky aroid mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Water parent only when top few inches are dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Start over with new healthy stem sections if rot spreads",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Post close-up photos of node area and parent base/roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses rot rather than slow rooting. Its advice to remove the moss and be patient overlaps the fix, but it is buried among other steps. It also tells the owner to change the water every 2-3 days, the opposite of the fix, and to unpot a healthy parent plant, which is likely to delay rooting.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2389,
+ "output_tokens": 818
+}

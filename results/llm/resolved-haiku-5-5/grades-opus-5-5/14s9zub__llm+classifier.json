@@ -1,0 +1,82 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Flip leaves and inspect undersides for webbing, moving dots, or silvery streaks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tap a frond over white paper to check for falling pests",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil surface for fungus gnats",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Shower the plant with lukewarm water, tops and undersides of leaves, every few days for two weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If pests are confirmed, treat with insecticidal soap or neem oil, covering leaf undersides, and repeat per label",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity and move away from heating vents or drafts",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Water evenly: let the top inch dry, then water thoroughly",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim mostly dead brown fronds at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Report back findings (webbing, insects, gnats)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer lists spider mites alongside thrips as equal possibilities rather than as the main cause; its advice to shower and do repeated insecticidal sprays matches the fix that worked, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2422,
+ "output_tokens": 684
+}

@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Snip off the yellow leaf at the base once it is mostly yellow",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the pot has a drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If there is no drainage hole, put the plant in a plastic nursery pot with holes inside the current pot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test the soil and water thoroughly only when the top 3\u20135 cm are dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer 15 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for overwatering signs: more yellowing leaves, soil still damp a week after watering, soft or dark stem base, sour smell",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant within 1\u20132 m of a bright window, out of harsh midday sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Add a moss pole or trellis for the vine to climb",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the single yellow leaf a normal reaction, but it blames transplant stress and treats low light and overwatering as concerns rather than simply calling the plant healthy; the trellis fix only appears as an optional extra in step 3, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2126,
+ "output_tokens": 989
+}

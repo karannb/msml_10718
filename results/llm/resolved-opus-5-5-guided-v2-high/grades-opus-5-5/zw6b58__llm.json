@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Nudge base to check if plant wiggles in bark (root anchoring check)",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect crown and spike for cracks or bruising",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place clear pot into heavier ceramic/glass cachepot with stones in bottom",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Empty water from cachepot or saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Push stake to bottom, press bark firmly, and clip/tie base to stake",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Rotate pot so leaves point opposite the flower arch",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Re-clip spike more upright along stake",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water by soaking and draining when roots turn silvery-green (every 7-10 days)",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies top-heaviness and an unstable pot as the main problem, and its first fix, placing the pot inside a heavier outer pot, matches what worked; nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2021,
+ "output_tokens": 565
+}

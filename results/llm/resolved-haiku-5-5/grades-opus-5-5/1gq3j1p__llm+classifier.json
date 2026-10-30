@@ -1,0 +1,89 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect leaf undersides with magnifier or phone zoom",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe a speck with a wet cloth to test if residue",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Look for honeydew or sooty mold on leaves below",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other houseplants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray plant with water in sink or shower",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test insecticidal soap or neem oil on one leaf",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Apply insecticidal soap or neem oil to all leaf surfaces every 5-7 days for 3-4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang yellow sticky traps nearby",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Remove heavily infested leaves and dispose sealed",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check other plants for whiteflies",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If specks wipe off, post close-up photo for another look",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses whiteflies rather than aphids, but its main treatment (thorough neem oil/insecticidal soap spraying) matches the fix that worked, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2126,
+ "output_tokens": 705
+}

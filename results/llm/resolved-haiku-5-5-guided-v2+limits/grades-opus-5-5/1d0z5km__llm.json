@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Pinch off the flower spikes just above a pair of leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pinch the growing tips of each shoot weekly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the top inch of soil with a finger and water when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant in the brightest (south or west facing) window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that nighttime temperatures stay above about 10\u00b0C and the last frost has passed before moving outdoors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Harden off outdoors over 7 to 10 days, adding sun exposure each day",
+   "minutes": 5,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Plant outdoors in well-drained soil in a sunny spot",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly says the basil is healthy and flowering, and it recommends removing the flowers and pinching for fullness, but it omits the repotting into a bigger pot and the fertilizer that the poster used, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1830,
+ "output_tokens": 808
+}

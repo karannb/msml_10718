@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check whether the soil is bone-dry and the pot feels light within a day or two of watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor whether yellowing spreads beyond the older lower leaves",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a pot about 2 inches wider with regular potting mix and about 25% perlite, shaking off the old soil",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Pull unwanted stowaway plants with their roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly when the top inch of soil is dry, until it drains from the bottom",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed a balanced liquid fertilizer at half strength every 2-3 weeks through summer",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Snip seed stalks once the flowers fade",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the plant mostly healthy but 'a bit hungry,' puts nutrient shortage as a secondary possibility and hedges on the Kalanchoe, so the diagnosis is partial; its first fix, repotting into a less fast-draining mix, matches what worked, and nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2126,
+ "output_tokens": 915
+}

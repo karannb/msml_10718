@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push a finger 5 cm into the soil to check moisture",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry inside, submerge the pot in a bucket for 30-60 minutes, then drain fully",
+   "minutes": 45,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If still limp after 2 days with wet soil, slide the plant out and inspect the roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are mushy, trim the rotten roots and repot in fresh well-draining mix in a pot with drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant in bright, indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water whenever the top few cm feel dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim leaves at the base once they turn yellow",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull dead brown bits from the center",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is drought wilt with a thorough soak, which matches the confirmed fix, and the root-rot step is safeguarded by checking soil moisture first, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2128,
+ "output_tokens": 565
+}

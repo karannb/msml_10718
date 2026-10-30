@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect leaf undersides with a flashlight for spider mites",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites are found, wipe all leaves and stems with dish soap solution every 3 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture about 5 cm deep before each watering and water only when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift plant out of ceramic pot to confirm the inner pot has drainage holes",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pour out water collected in the cachepot 15 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip the yellow leaf at the base once mostly yellow",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer explicitly dismisses overwatering in favor of mites or acclimation, but its deeper soil check and drainage check partially cover the fix, and these safeguards keep it from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1963,
+ "output_tokens": 778
+}

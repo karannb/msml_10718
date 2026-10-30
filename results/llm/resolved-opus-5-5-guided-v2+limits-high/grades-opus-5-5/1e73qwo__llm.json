@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Squeeze base of blackened centre leaves and check soil moisture 3 cm deep",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant 1.5\u20132 m back from window or behind a sheer curtain (if sun scorch)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Sterilize scissors with rubbing alcohol and cut off mushy leaves at the base (if crown rot)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only when top 3 cm of soil is dry, pouring at the pot rim",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tip out saucer 15 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames crown rot or too much sun when the real cause was too little light, and moving the plant further from the window would worsen it, though the less-frequent watering partly matches the thread.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2005,
+ "output_tokens": 607
+}

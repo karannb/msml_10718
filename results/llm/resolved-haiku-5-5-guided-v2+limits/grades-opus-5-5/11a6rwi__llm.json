@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect leaf undersides and new growth for thrips and black specks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tap stems over white paper to check for thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang blue sticky traps among plants",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Patch test alcohol/peppermint spray on one leaf per plant type and wait 24 hours",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray alcohol and peppermint mix every 3-4 days for 3 weeks covering leaf undersides, soil and pot rims",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray spinosad on heavily infested plants on alternate days",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Isolate heavily infested plants",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies thrips, but it relies on sprays and spinosad rather than the beneficial predatory mites that resolved it, so the advice only partly matches the fix; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1945,
+ "output_tokens": 518
+}

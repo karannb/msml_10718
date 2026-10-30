@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Cover soil with plastic bag and rinse leaf undersides in shower",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test soap spray on one leaf a day ahead",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray leaf undersides with dish soap solution until dripping, every 4-5 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang 2-3 yellow sticky traps",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides weekly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse fruit before eating",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is whiteflies and it names aphids only as an alternative, but its rinse plus thorough soap spray to drip is an effective aphid treatment comparable to neem, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1843,
+ "output_tokens": 444
+}

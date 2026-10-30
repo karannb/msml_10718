@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push a finger 3-4 cm into the soil when the plant droops to check moisture",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the soil is still wet while drooping, slide the plant out and inspect for mushy, smelly roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ease the plant out of its pot to check whether it is root-bound",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot one size up into a pot with drainage holes using a soil/perlite or bark mix, loosening circling roots and watering thoroughly",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Water when the top 2-3 cm is dry, until water runs out the bottom",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If water runs straight through, set the pot in a bowl of water for 20-30 minutes",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant right at the window for maximum light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up an LED grow light for 10-12 hours a day during gloomy stretches",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies thirst but blames it mainly on being root-bound rather than shallow watering, and it leads with repotting, leaving the thorough soak and bowl-soak fix as secondary advice that isn't harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2157,
+ "output_tokens": 1070
+}

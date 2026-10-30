@@ -1,0 +1,40 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Raise the light bar to the manufacturer's recommended vegetative height (about 18-24 in)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the light can't be raised, dim it to about 70%",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hand-test the heat at the canopy top for 30 seconds and raise the light another 4-6 in if it feels hot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bend the tallest tops outward with soft twist ties anchored to the pot rim to level the canopy",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses light bleaching and explicitly argues against a nutrient shortage, so it never suggests the feeding that fixed the plant, and that would delay the needed fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1805,
+ "output_tokens": 368
+}

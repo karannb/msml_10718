@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plant out of direct sun to bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water at the soil, letting top inch dry between waterings",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove the worst leaves with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check for thrips by tapping a leaf over white paper and looking for streaks/specks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf spots for yellow halos, softness or spreading to rule out leaf spot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If thrips found, wipe leaves with soapy water or use insecticidal soap",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis of sunscorch with water marks matches the confirmed problem, and its advice to move the plant from direct sun and remove damaged leaves matches the fix, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2052,
+ "output_tokens": 458
+}

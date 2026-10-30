@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push a finger 2-3 inches into the soil to check moisture",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tip the plant out of the metal planter and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are mushy, brown or smelly, trim them with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a pot with drainage holes using a chunky aroid mix (bark, perlite, peat/coco)",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, set the nursery pot inside the decorative planter and empty any collected water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly when the top 2-3 inches are dry and empty the saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to bright, indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off leaves that are mostly brown",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch the new growth",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies wet soil and poor drainage but misses insufficient light as a cause; still, its main advice (repot into a draining pot with chunky aroid mix and bright light) matches the fix that worked, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2116,
+ "output_tokens": 1083
+}

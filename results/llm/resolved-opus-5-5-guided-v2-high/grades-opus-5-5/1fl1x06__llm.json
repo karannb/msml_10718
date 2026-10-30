@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Dab mealybug with alcohol-soaked cotton swab and wipe off",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf joints, undersides, tips, stem base with flashlight for more bugs and egg sacs",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate plant for about a month",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check neighboring plants for mealybugs",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test spray on a single leaf first",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap or dish soap solution on all surfaces every 5-7 days for 4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Keep plant out of direct sun until spray dries",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If bugs return, unpot and check roots for root mealybugs",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root mealybugs found, apply systemic insecticide or repot into fresh soil",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly identifies the mealybug, and its first step (dab with alcohol and inspect thoroughly) matches the confirmed fix; the extra soap-spray and isolation steps are reasonable and not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2064,
+ "output_tokens": 632
+}

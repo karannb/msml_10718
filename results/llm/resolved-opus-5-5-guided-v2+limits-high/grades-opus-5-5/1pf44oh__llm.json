@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 5 cm deep every 3\u20134 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is dry, water thoroughly and empty basket/saucer after 15 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move both plants to brightest window, at least 1 m from radiator",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check base of each stem weekly for softness, browning or sour smell",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot signs appear, post an update",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies transplant shock but blames dry air instead of the cold window, and its advice to move the plants to the brightest window never warns about cold glass, so it only partly matches the fix; nothing in it is likely to cause harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1982,
+ "output_tokens": 703
+}

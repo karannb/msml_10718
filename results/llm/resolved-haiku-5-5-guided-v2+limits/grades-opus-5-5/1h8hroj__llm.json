@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push a finger 2 inches into the soil to check moisture",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the soil is dry, water thoroughly and let it drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide the plant out of the pot and inspect the roots and stem bases",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are brown or mushy, trim them with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Split the basil into 2-3 clumps and repot each in a 4-inch pot with drainage, using bagged potting mix",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 14,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to a spot with 6+ hours of direct sun, away from cold drafts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames soggy roots and says more water won't help, when the plant was underwatered; its soil-check-then-water step and its advice to split the crowded pot contain the fix in conditional form, and that safeguard keeps it from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1886,
+ "output_tokens": 945
+}

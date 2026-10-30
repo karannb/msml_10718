@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 5 cm deep and press stem base for softness",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If stem base is soft or mushy, post an update",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only when top 5 cm of soil feels dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the built-in tray 15 minutes after each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light about 1 m from a window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off scorched leaves at the base once mostly yellow or brown",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames sun scorch first and treats overwatering in fine soil only as a secondary concern; its watering and tray advice partly addresses the problem but never suggests the repot that fixed it, though nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1805,
+ "output_tokens": 796
+}

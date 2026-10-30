@@ -1,0 +1,68 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Move plant to sunniest window, acclimating gradually over a week",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift plant out of decorative pot to check for drainage hole and pooled water",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pour out excess pooled water if present",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no drainage, repot into pot with holes using cactus mix or soil with perlite",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture about 5 cm deep with finger or chopstick",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when dry at 5 cm depth",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead, yellow and brown stems back to healthy growth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames low light and wet soil and explicitly dismisses dehydration. Its advice to move the plant into direct sun, use fast-draining mix and hold off watering would likely worsen the plant's thirst and delay the simple fix of watering more.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1840,
+ "output_tokens": 905
+}

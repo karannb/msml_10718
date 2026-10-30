@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Gently hand-pull the seedlings and weeds (stowaways) from the pot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take detailed leaf and flower photos and ask a plant ID subreddit to confirm the species",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check roots for circling, root-bound growth or waterlogging",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If needed, repot into fresh well-draining mix (cactus mix with perlite, or a more moisture-retentive blend if not a succulent) in a pot with a drainage hole",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Check that the top inch of soil is dry before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Acclimate the plant gradually to brighter light if it was recently moved",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "If yellowing spreads or spots, residue or webbing appear, post close-up photos of the affected leaves and undersides",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer mentions nutrient stress only as one possible cause of the yellowing and correctly flags the stowaways, but it says repotting isn't needed and suggests well-draining cactus mix, so the actual fix (a less draining soil) is only hinted at for non-succulents. It isn't clearly harmful because the repot is conditional and stowaway removal helps.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2235,
+ "output_tokens": 1063
+}

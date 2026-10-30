@@ -1,0 +1,75 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Inspect leaf undersides with phone zoom for webbing or mites",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe leaf underside with white tissue to check for mites",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the pot has a drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty collected water from decorative outer pot after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites found, rinse leaves top and bottom in shower",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites found, wipe leaves with insecticidal soap or dish soap solution, repeat every 5-7 days for 3-4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move or keep plant in bright indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off the yellow leaf if it turns mostly yellow or the brown spot spreads",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer explicitly rules out overwatering in favor of spider mites, and its reassurance that the watering is fine would delay the fix (watering less), though it does briefly mention checking drainage.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2185,
+ "output_tokens": 616
+}

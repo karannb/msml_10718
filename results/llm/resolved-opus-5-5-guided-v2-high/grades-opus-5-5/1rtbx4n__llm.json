@@ -1,0 +1,89 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Push a chopstick to the bottom of the soil or lift the pot to check whether it is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the soil is dry deeper down, water thoroughly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide the cactus out of its pot and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off any rotten roots with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot the cactus into a smaller draining pot with a half cactus soil, half bark or perlite mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "After about a week, water only when the top half of the soil is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take 2\u20133 segment cuttings, let them dry a day, then plant them in barely damp gritty mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Move both plants off the cold glass to a bright spot at 15\u201320 \u00b0C, away from radiators",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the oxalis rhizomes are firm",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut all oxalis foliage off and keep its soil nearly dry for 2\u20134 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Resume light watering of the oxalis when new shoots appear",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames root rot and lists underwatering only as an alternative, burying the watering fix behind a check while its main advice (repot, withhold water for a week, keep the oxalis nearly dry) would leave already-thirsty plants drier.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2292,
+ "output_tokens": 1261
+}

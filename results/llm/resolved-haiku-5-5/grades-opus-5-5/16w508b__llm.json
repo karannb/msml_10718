@@ -1,0 +1,124 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Apply insecticidal soap or neem oil in the early morning or evening below 25\u00b0C, testing on one leaf first",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides and stem joints with a magnifier",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Dab suspect insects with alcohol on a cotton swab to test them",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Put up blue sticky traps to monitor and catch thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant away from direct heat and window glass in summer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, hang a sheer curtain between the plant and the window",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Unpot the plant and check the roots",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown, mushy roots if present",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in a chunky aroid mix if the soil is compacted or the plant is rootbound",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Check that the top 5 cm of soil is dry before watering, and water consistently",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Sterilise scissors between cuts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove badly damaged leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Improve airflow around the plant",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Watch new leaves over several weeks for spreading spots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Report watering frequency, soil, drainage and afternoon sun exposure",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer mentions thrips but says they are probably not the main cause, and it misreads low light as too much light; thrips treatment appears only as a gentle spray and sticky traps among many steps, with no chop and prop, while advising the owner to move the plant away from the window and downplaying thrips risks worsening the low light and delaying a proper thrips treatment.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2505,
+ "output_tokens": 1828
+}

@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check sun-facing leaves for bleached or crispy patches",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test soil 2 inches deep and lift pot to check weight",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is hydrophobic, soak pot in sink or bucket for 20-30 minutes and drain",
+   "minutes": 35,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check pot for drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no drainage hole, repot into draining pot or use nursery pot inside cover",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light or partial shade, then gradually reintroduce sun",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil every 2-3 days and water when top inch is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Mist or raise humidity",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer's main diagnosis is underwatering and its first step is to water thoroughly, which matches the confirmed fix; the extra sun-stress advice is safe.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2101,
+ "output_tokens": 597
+}

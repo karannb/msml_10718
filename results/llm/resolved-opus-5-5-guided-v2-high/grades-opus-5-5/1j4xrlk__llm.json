@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plant 30\u201350 cm back from the window at night, away from drafts and radiators",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides for thrips or spider mites",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If pests are found, wipe the leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If pests are found, spray with insecticidal soap weekly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Run a humidifier near the plant",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, loosely cover the plant with a clear bag or box for 1\u20132 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Air out the cover daily",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the top 1\u20132 cm of soil and water until it drains when dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch the stem base for softness or blackening",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the stem turns soft or black, unpot and check the roots for rot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is cold shock from transport, which matches the confirmed problem. Its humidity cover matches part of the fix, but it omits the chop near the soil and recommends watering instead of withholding water, so the advice is only partial. Watering is guarded by a soil check, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2073,
+ "output_tokens": 1162
+}

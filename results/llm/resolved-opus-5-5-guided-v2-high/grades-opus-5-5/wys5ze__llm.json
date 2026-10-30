@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check for root-bound signs (roots out of drainage hole, water running through, soil drying in 1\u20132 days)",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brightest window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a pot 2\u20135 cm wider with drainage hole, using potting mix plus one-third perlite or orchid bark, keeping swollen root at same height",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Loosen circling roots and snip off dead or mushy roots during repot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly once after repotting",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top 2\u20133 cm of soil and water when dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep out of harsh direct sun for about 2 weeks after repot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally trim the tall shoot back to 2\u20133 leaves",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed with half-strength houseplant fertilizer monthly in spring and summer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with 'nothing is wrong' and only treats repotting/root-bound as secondary, so diagnosis is partial, but its first and main step is to repot with ordinary soil, matching the fix, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2163,
+ "output_tokens": 1055
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": true,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move the plant away from radiators and heaters to a cooler spot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only the soil or bottom-water instead of misting",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the saucer 15-20 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the top layer of soil has dried slightly before watering again",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove dead flowers at the base, plus yellowing or damaged leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light or a lightly shaded spot outside, avoiding afternoon sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If she recovers, plant in a shady, moist garden spot after the frosts end",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer treats the healthy plant as stressed by heat, misting and watering, mentioning natural flower fading only as a side note; the deadheading fix is buried among other care steps, but none of the advice is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2277,
+ "output_tokens": 922
+}

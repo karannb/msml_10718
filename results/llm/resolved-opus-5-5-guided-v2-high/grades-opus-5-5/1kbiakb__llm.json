@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Snip the damaged leaf off at the base if it yellows or the spots spread",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with a finger 3\u20134 cm deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water onto the soil instead of over the leaves when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the pot has a drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant a little back from the glass to avoid hot midday sun",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, put up a sheer curtain to filter the window light",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly sees a single damaged leaf on an otherwise healthy plant but blames weeding, listing sun and water only as alternatives; it mentions trimming only conditionally and includes sun protection, so advice is partial and nothing is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2034,
+ "output_tokens": 909
+}

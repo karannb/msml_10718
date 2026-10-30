@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Keep the medium lightly moist, not soggy",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the node is in contact with the substrate",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in a humid spot or add a loose cover",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove the white leaf if it turns brown and mushy",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for roots and the next node",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly says nothing is wrong and to keep the light and be patient, but it blames fixed variegation rather than leaf immaturity and never says the leaf will darken as it unfurls; its advice is harmless.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2091,
+ "output_tokens": 738
+}

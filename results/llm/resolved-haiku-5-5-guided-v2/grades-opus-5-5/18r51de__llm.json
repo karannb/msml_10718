@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Remove plant from cachepot and check terracotta pot for drainage hole and standing water",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Push a wooden chopstick to the bottom of the pot to check moisture",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and inspect roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, cut away black/mushy roots and dust cuts with cinnamon",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place plant in bright indirect light away from drafts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If many roots are rotten, repot into a pot with drainage hole using chunkier mix with more leca/perlite",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check top 2-3 cm of soil with finger or chopstick before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies repotting stress and wet soil but frames root rot/waterlogging as the main cause and misses low light, and the light fix is buried in a root-inspection plan, though nothing is likely to seriously harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2192,
+ "output_tokens": 972
+}

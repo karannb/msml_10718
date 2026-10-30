@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Unpot the plant and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off any black or mushy roots with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the stem base is soft, cut above the rot, let the cutting dry 5-7 days, then replant it",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into cactus/succulent soil with about 50% perlite or pumice in a slightly larger draining pot (terracotta ideal), discarding the old soil",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Before watering, check that the soil is fully dry by finger and pot weight",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Soak-water when dry, then empty the cachepot after 15 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place yellow sticky traps for adult gnats",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 6,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, water once with BTI (mosquito bits)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to the sunniest window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is overly wet soil, and it lists root rot only as a secondary possibility; still, its fix (check the roots, cut above any rot, repot into cactus soil) matches what worked, and the instruction to unpot and check now offsets its reassurance about the stem.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2140,
+ "output_tokens": 1109
+}

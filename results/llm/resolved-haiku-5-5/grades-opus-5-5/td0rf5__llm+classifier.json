@@ -1,0 +1,33 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "If the sheath is still clamped after a couple of weeks, gently loosen the dry papery part by hand or with a soft tool",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the plant gets bright, indirect light in its humid spot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the soil and leaf undersides for insects over the next week",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies a new leaf stuck in its sheath, but it advises waiting and keeping humidity rather than misting, so it only partly matches the spray fix. It is not harmful, since the leaf freed itself anyway.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1895,
+ "output_tokens": 684
+}

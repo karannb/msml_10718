@@ -1,0 +1,110 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water thoroughly until water runs out the drainage holes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is hydrophobic, soak pot in a tub of water for 20-30 minutes",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the pot drains freely and isn't sitting in standing water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil and water again once top 2-3 inches are dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check where the thin spidery leaves are rooted",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides for mites, mealybugs, or scale",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and check the roots",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim mushy, black, or hollow roots with clean scissors",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light behind a sheer curtain for 1-2 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant closer to the south window after acclimation and watch for scorch",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Stop using grow light once settled in bright window",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove yellowing, dead, or badly damaged leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Later repot into a pot 2-3 inches wider with well-draining mix and perlite or pumice",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "If pests found, treat with insecticidal soap or neem oil",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer misidentifies the Crinum as a Dracaena and blames underwatering and move stress rather than light and warmth needs; it does move the plant toward a bright south window but dismisses warmth and never suggests putting it outside in summer, though nothing it recommends is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2754,
+ "output_tokens": 1631
+}

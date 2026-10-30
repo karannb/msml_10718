@@ -1,0 +1,103 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2\u20133 cm deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift plant from decorative pot and inspect roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot in fresh well-draining soil in a pot with drainage holes",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Set up a pebble tray under the pot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Use a humidifier (alternative)",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Group plants together for humidity (alternative)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Mist leaves as a short-term fix",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Run plant lamp on a consistent 10\u201312 hour schedule",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water with rainwater, filtered, or distilled water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Let tap water sit out overnight before use (alternative)",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off mostly brown or yellow leaves at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for new leaves unfurling as a recovery sign",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Report watering frequency, water type, and drainage details",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies post-repotting stress and wet soil but blames root disturbance rather than low light, and it only treats the lamp as 'fine' instead of urging more light, so the fix is present but incomplete; nothing it suggests is likely to worsen the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2377,
+ "output_tokens": 1433
+}

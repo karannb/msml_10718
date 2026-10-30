@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Finger-check soil moisture 3-4 cm deep",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is wet and plant still droops after a day, unpot and inspect inner roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bottom-soak pot in sink or bucket for 20-30 minutes, then drain and empty saucer",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top 2-3 cm of soil is dry (about every 5-7 days)",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully yellow/brown leaves and spent flower stalk",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into pot 3-5 cm wider with fresh potting mix after recovery",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright, indirect light away from direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names underwatering as the main cause and leads with a soak and a trim of yellow leaves, which matches the fix that worked, with nothing harmful recommended.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2054,
+ "output_tokens": 522
+}

@@ -1,0 +1,40 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Loosen the root ball with vertical cuts and tear the bottom mat loose",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot at the same depth in the terracotta pot with drainage, using potting mix amended with one-third cactus/succulent mix",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly until it drains out the bottom",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil 2 inches deep every 2-3 days and water only when dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames a root-bound plant rather than underwatering in fast-drying terracotta. It recommends keeping the terracotta pot, adding faster-draining cactus mix and watering less often, which would worsen the drying out and delay the switch to plastic that fixed it.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1983,
+ "output_tokens": 589
+}

@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wipe both sides of each leaf with a damp soft cloth or brush and lukewarm water",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse the plant with a gentle shower or hose spray, then let it dry in shade",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides for mites with a magnifier or zoomed phone camera in 2-3 days",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites remain, rinse again every 3-4 days for 2 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies the white film as leftover dust treatment, and its wipe-and-rinse method matches the thread's approach. It uses plain water instead of the diluted lemon juice that actually removed the residue, so the advice is only partial; nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1839,
+ "output_tokens": 588
+}

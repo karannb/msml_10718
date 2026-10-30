@@ -1,0 +1,26 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check that the sheath has dropped once the leaf opens",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the sheath is still stuck after the leaf fully unrolls, gently loosen it with a damp finger",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies the new leaf caught in its sheath, but its main advice is to wait, with moisture only as a late conditional step rather than the misting that worked; waiting is gentle and unlikely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1675,
+ "output_tokens": 552
+}

@@ -1,0 +1,82 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2-3 inches down in several spots",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, water thoroughly until it drains and empty the saucer after 15 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Confirm the pot has a drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil stays wet, slide the plant out and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim them and repot in fresh chunky aroid mix",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 12.5,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant away from heaters, vents and cold drafts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up a pebble tray under the pot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, run a small humidifier nearby for a few hours a day",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown crispy leaf edges along the living tissue",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If fungus gnats are seen, let the top inch of soil dry between waterings",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is dryness and low humidity, with overwatering only an alternative to rule out and no mention of the oversized pot; its soil check and root-rot steps partly cover the fix but never suggest a smaller pot, and the safeguarded advice isn't harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1979,
+ "output_tokens": 1149
+}

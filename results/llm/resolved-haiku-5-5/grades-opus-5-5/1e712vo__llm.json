@@ -1,0 +1,82 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Trim off mushy, black or dead roots and soft stem sections back to firm tissue",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wash the jar or mug with soap and hot water and rinse",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the water completely every 3 to 7 days",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let tap water sit out overnight before use",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally add 1 drop of 3% hydrogen peroxide per cup of water at each change",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright, indirect light near a window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Consider potting in well-draining mix or LECA once roots are healthy",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check for pests if moving it to soil",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for firm white roots and new growth over the next few weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If stems keep going soft, take a fresh healthy node cutting from the top",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies root rot from topping off as the main cause and gives the matching fixes of full water changes and trimming rot. It misses the fertilizer and small-container parts of the confirmed fix, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2600,
+ "output_tokens": 1143
+}

@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Rinse the plant in the shower, spraying leaf undersides and stem sheaths",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Swab every white speck with 70% rubbing alcohol on cotton swabs, every 5 days for 4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap on undersides, stems and base until dripping, every 7 days for 4 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant at least a room away from other plants until no specks for 3 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies a sap-sucking insect infestation (mealybugs, close to the confirmed whitefly-type bugs), its core treatment of wiping the bugs off with rubbing alcohol matches the fix that worked, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2041,
+ "output_tokens": 611
+}

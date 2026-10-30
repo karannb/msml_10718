@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Count hours of direct sun in the spot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Finger-check soil moisture 3 cm deep daily for a few days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hand-pollinate flowers by shaking stems or brushing inside flowers each morning",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plants to sunniest spot with 6+ hours direct sun",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top 2-3 cm of soil is dry until it drains",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Switch to tomato fertilizer every 2 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames poor pollination and heat and prescribes treatments, but the plant was healthy and only needed time to mature. The advice would not have caused the fix, though the extra care steps are unlikely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2026,
+ "output_tokens": 456
+}

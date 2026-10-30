@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Unpot cactus and check roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots mushy, trim rotten roots and repot in dry cactus mix in slightly larger pot, withhold water a week",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 6,
+   "unclear": false
+  },
+  {
+   "action": "Move both plants away from cold glass/drafts to bright spot above 15 \u00b0C",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test soil 3 cm deep before watering, water only when dry, empty saucer after 10 minutes",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip yellow/brown oxalis leaves at base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses cold, wet soil and root rot instead of underwatering. Its advice to unpot, repot into dry mix and withhold water for a week would deepen the plants' thirst and delay the simple fix of watering thoroughly.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1952,
+ "output_tokens": 433
+}

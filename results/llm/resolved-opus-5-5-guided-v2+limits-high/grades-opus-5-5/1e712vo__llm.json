@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Rinse roots in lukewarm water and rub off black crust",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip mushy roots with alcohol-wiped scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check brown stem dots for scale with fingernail",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If scale, wipe stems and leaf joints with alcohol swab weekly until gone",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty, rinse and fully refill bottle weekly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Add quarter-strength liquid fertilizer at each water change",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 7,
+   "unclear": false
+  },
+  {
+   "action": "Move plant within 1-2 m of window out of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames nutrients and low light first and treats topping off as causing slime rather than oxygen-starved root rot, and it misses the small container, but its steps (full water changes, root cleaning and trimming, diluted fertilizer) match the fix and nothing is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2258,
+ "output_tokens": 870
+}

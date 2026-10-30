@@ -1,0 +1,103 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect leaf undersides, joints and stem bases with a flashlight for pests",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab suspicious spots with an alcohol-dipped cotton swab to test if they are pests",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mealybugs or scale are found, wipe them off with alcohol-dipped swabs",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant if pests are found",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant a few feet back from the window glass",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, hang a sheer curtain to diffuse direct sun",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Gradually acclimate the plant to brighter light over one to two weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check deeper soil moisture with a finger or wooden skewer",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly when the deeper soil is nearly dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the pot drains",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut fully brown leaves off at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up a pebble tray to raise humidity",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, use a humidifier to raise humidity",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with light stress and treats pests only as an unconfirmed possibility without naming thrips. Its pest check, alcohol wipe and isolation steps partly cover the fix, but it gives no thrips-specific treatment such as neem or insecticidal soap. It is not harmful because it still tells the owner to confirm there are no pests.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2642,
+ "output_tokens": 1324
+}

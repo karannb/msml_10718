@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plants to the brightest window with at least 4 hours of direct sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 5 cm deep with a finger every 3-4 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When dry, water slowly until it drains, then empty the saucer after 10 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut healthy green tips 5-8 cm long and let them callus on a paper towel for 2 days",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lay cuttings on dry soil in a small pot with a drainage hole in the bright spot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Water cuttings using the finger check once roots appear",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer gets low light right and objects to too-frequent watering, but it frames the watering problem as roots staying thirsty rather than overwatering, so the diagnosis is only partial. Its brighter-spot and soak-and-dry advice matches the fix that worked, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1992,
+ "output_tokens": 880
+}

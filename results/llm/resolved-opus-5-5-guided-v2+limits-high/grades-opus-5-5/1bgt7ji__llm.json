@@ -1,0 +1,33 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Hunt for caterpillars, slugs or snails at night with a flashlight for 5\u20137 nights, dropping any found into soapy water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check hiding spots in daylight (under pots, drainage holes, spider plant leaf bases) and remove pests, looking for droppings",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 3 cm deep before each watering and water only if dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names chewing pests but misses low humidity, which was the actual fix (misting); none of its advice raises humidity, though nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1863,
+ "output_tokens": 530
+}

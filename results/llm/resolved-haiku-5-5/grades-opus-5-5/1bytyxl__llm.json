@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect seed and roots for rot and trim any black or mushy spots before potting",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pot the seed in a deep pot (15-20 cm) with drainage and peat-free potting mix, 2-3 cm deep with shoot upward",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Check soil and water when the top layer is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place on a bright windowsill out of harsh direct sun and increase light gradually",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the shoot stays pale and leggy, move it to more light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After a few years, plant it outdoors",
+   "minutes": 45,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls the seed viable and says to plant it with gradual light, which matches the fix, but it misidentifies the lychee as a horse chestnut; nothing it recommends would hurt the seedling.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2123,
+ "output_tokens": 784
+}

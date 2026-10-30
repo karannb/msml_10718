@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Test-wipe one leaf with plain water to tell dust from mineral crust",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the crust is mineral, scrub it with a vinegar-dampened cloth after testing a small area",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides for mites with a magnifier or white-paper tap test, weekly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Brush loose powder off the leaves with a soft dry brush or paper towel",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe each leaf, top and underside, with a damp microfiber cloth and lukewarm water",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If residue remains, wipe with a dilute dish soap solution, then rinse the leaves with clean water",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Apply insecticidal soap or neem oil to both leaf surfaces every 5-7 days for about 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Keep the plant out of strong direct sun until the leaves dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies leftover Captain Jack's dust as the main cause, but its main fix (water or a soap wipe) differs from the lemon-juice wipe that worked: an acidic wipe appears only as a vinegar option for mineral crust. Nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2117,
+ "output_tokens": 1206
+}

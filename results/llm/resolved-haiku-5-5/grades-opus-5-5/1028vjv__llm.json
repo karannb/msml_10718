@@ -1,0 +1,89 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move the plant a few feet away from the radiator",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place a tray of water and pebbles between plant and radiator / use pebble tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Group plant with other plants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Run a small humidifier nearby",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 35,
+   "unclear": false
+  },
+  {
+   "action": "Mist the plant",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly when top inch is dry and empty saucer/outer pot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil and pot rim for white salt crust",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Flush soil with plenty of water (rain/filtered if tap is hard)",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Fertilize lightly at half strength in spring and summer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown tips with clean scissors",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check under leaves for spider mites",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with dry air from the radiator and makes moving the plant and raising humidity its first fixes, which matches the confirmed low-humidity cause and the move that worked, and nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2159,
+ "output_tokens": 675
+}

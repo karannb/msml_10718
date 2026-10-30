@@ -217,6 +217,73 @@ Paired differences, Opus at max effort minus each Haiku setting:
   0.656 on advice and high scores 0.750: −0.094 [−0.188, 0.000]. High effort costs about $0.05 per answer, against
   $0.47 for max.
 
+### Telling the model the evaluation's limits (all 96 threads, 1 answer each)
+
+The `evals` branch scores answers with Opus 5.5 (`score_resolved.py`, `prompts/resolved_grader.txt`). An answer counts
+as **Solved** when three things hold:
+- its main advice would most likely have produced the confirmed fix;
+- it is not harmful;
+- it has at most 4 actions, each under 15 minutes a day and at most $15.
+
+The grader counts every check, conditional step and alternative as an action. Every system scored 0% Solved, because
+its answers had 8–10 actions. None of the prompts above told the model about these limits.
+
+Element `limits` (`diagnose.ELEMENTS`) replaces the "How to answer" part of `guided-v2` with the evaluation's rules:
+- at most 4 numbered actions, where checks, "if … then" steps and alternatives each count, and no advice outside the
+  list;
+- each action under 15 min/day and at most $15, naming the product, the amount and the time;
+- say so when the plant is healthy or the change is normal, and recommend no treatment;
+- repotting, root trimming or pesticides only when clearly needed;
+- never change the watering without checking the soil first, and never reassure the owner about pests or rot.
+
+Haiku 5.5, post only, graded by Opus 5.5:
+
+| Measure | `guided-v2` | `guided-v2+limits` |
+|---|---:|---:|
+| Actions per answer (lower is better) | 8.6 | 6.6 |
+| Answers within the action limit (higher is better) | 1% | 7% |
+| Solved (higher is better) | 0/96 | 2/96 |
+| Solved without the action limit (higher is better) | 45% | 46% |
+| Diagnosis correct (higher is better) | 56% | 53% |
+| Potential harm (lower is better) | 12% | 16% |
+| False alarms on the 5 healthy threads (lower is better) | 2 | 2 |
+
+The changes are within noise: the diagnosis is correct or partly correct in 83% and 79% of answers (McNemar p = 0.29), and the harm p is 0.51. The Sonnet grader agrees: the advice
+score is 0.651 with the limits and 0.653 without. Answers are shorter but still go over the limit, for three reasons:
+- **Haiku follows the rule only in part.** After its 4 steps it often adds a line like "if the stems turn soft, repot
+  and trim the roots", which the grader counts as a fifth action of 30 minutes.
+- **The grader splits steps.** It counts "check the soil, then water" as 2 actions and "watch for new growth" as 1.
+- **Repotting and root work take 15 minutes or more.** 65 of the 96 answers still have such an action, and for
+  root rot it is often the fix that worked.
+
+Reports: `reports/eval-resolved-haiku-5-5-guided-v2.md` and `reports/eval-resolved-haiku-5-5-guided-v2+limits.md`.
+
+**The same comparison with Opus 5.5** at high effort, no search: the best Opus setting above. Opus follows the limits
+more closely than Haiku, and it gets less right as a result. Graded by Opus 5.5:
+
+| Measure | `guided-v2` | `guided-v2+limits` | McNemar p |
+|---|---:|---:|---:|
+| Actions per answer (lower is better) | 8.4 | 5.1 | |
+| Answers within the action limit (higher is better) | 0% | 23% | |
+| Solved (higher is better) | 0/96 | 7/96 | 0.016 |
+| Solved without the action limit (higher is better) | 60% | 43% | |
+| Diagnosis correct or partly correct (higher is better) | 92% | 79% | 0.002 |
+| Potential harm (lower is better) | 8% | 16% | 0.039 |
+| False alarms on the 5 healthy threads (lower is better) | 0 | 1 | |
+
+The Sonnet grader agrees. Limits minus no limits, paired by thread:
+- advice: −0.130 [−0.188, −0.078], from 0.755 to 0.625;
+- diagnosis: −0.073 [−0.130, −0.016];
+- harmful: +0.083 [+0.021, +0.156].
+
+The Solved gain is real, but small. To fit 4 short actions, Opus drops the checks and backup steps that were catching
+the actual cause, so it misses the fix more often and gives more harmful advice. The "at most 4 short actions" rule
+pulls against the correctness and harm criteria. Solved rewards answers that fit the rule, not answers more likely to
+fix the plant.
+
+Reports: `reports/eval-resolved-opus-5-5-guided-v2-high.md` and `reports/eval-resolved-opus-5-5-guided-v2+limits-high.md`.
+Opus answers cost $0.047 each at high effort.
+
 ## Conclusions
 
 - **Prompt additions don't help Haiku here.** Knowledge notes, cause rankings, format rules and reasoning instructions
@@ -228,12 +295,15 @@ Paired differences, Opus at max effort minus each Haiku setting:
 - **Development scores overstate test scores.** Advice is about 0.72 on the dev threads and 0.62 on the test threads for
   the same prompt, so the dev threads are easier or the earlier prompt work fits them. This is why the test threads were
   kept for one final check.
+- **Writing the evaluation's limits into the prompt raises Solved only a little, and costs quality.** Solved goes from
+  0 to 2 of 96 answers with Haiku and from 0 to 7 with Opus. But Opus then finds the right cause less often (92% →
+  79%) and gives more harmful advice (8% → 16%). The capacity rule, as graded, works against the other criteria.
 - **Next levers are outside the prompt:** a stronger answering model (Sonnet scored higher than Haiku in the Opus
   grading on the `evals` branch), or several answers combined into one.
 
 ## Cost and reproduction
 
-About $90 of API credits ($23 for the prompt rounds, $4 for the classifier runs, $13 for the Opus high-effort runs, $48 for the Opus max-effort full evaluation):
+About $107 of API credits ($23 for the prompt rounds, $4 for the classifier runs, $13 for the Opus high-effort runs, $48 for the Opus max-effort full evaluation, $17 for the evaluation-limits runs and their Opus grading):
 
 | Item | Cost each |
 |---|---:|

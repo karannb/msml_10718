@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move other plants at least 6 feet away to isolate this one",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check other plants' leaf undersides for similar bumps",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rub off bumps and white specks with an alcohol-dipped cotton swab, about 5 leaves a day until the whole plant is done",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap on both sides of all leaves and stems, out of direct sun, weekly for 4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Check the soil moisture every few days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water until it drains once the top 2 inches are dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls it a pest infestation plus relocation stress but names scale or mealybugs instead of thrips and doesn't blame the sun; its isolation, alcohol wipe and insecticidal soap plan matches what the poster did that worked, and nothing in it is likely to cause harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2189,
+ "output_tokens": 954
+}

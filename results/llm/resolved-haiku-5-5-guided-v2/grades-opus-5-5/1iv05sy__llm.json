@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect leaf junctions and undersides with a flashlight to tell bugs from residue",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Touch flecks to check whether they smear (residue) or are cottony bugs",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse foliage with plain water to remove spray residue",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spot-treat each visible bug with 70% isopropyl alcohol on a cotton swab, repeated every 5-7 days for 3-4 weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other plants during treatment",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove badly damaged, mostly brown leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the roots if the plant keeps declining",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mealybugs persist, apply a systemic imidacloprid houseplant insecticide to the soil",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies a sap-sucking pest infestation (mealybugs, which fit 'or similar bugs') as the main cause, and its core fix of wiping the bugs off with alcohol and cutting bad leaves matches what worked; nothing it recommends is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2169,
+ "output_tokens": 942
+}

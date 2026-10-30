@@ -1,0 +1,96 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2 inches deep with a finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only when soil is dry at 2 inches",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty standing water from bowl or saucer",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set a small humidifier nearby",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively group the plant with other plants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively set up a pebble tray with the pot above the water line",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant back closer to the window out of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Add a sheer curtain to the window",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Position the plant lamp about 30 cm above the leaves and run it 10-12 hours a day (turn on/off)",
+   "minutes": 1,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide the plant out of the pot and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are black or mushy, trim the rotten parts with clean scissors",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot is found, repot in fresh well-draining mix in a pot with a drainage hole",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies post-repot stress worsened by wet soil and low light, and explicitly tells the owner to increase light and run the plant lamp, which is the fix that worked; nothing it suggests is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2006,
+ "output_tokens": 1311
+}

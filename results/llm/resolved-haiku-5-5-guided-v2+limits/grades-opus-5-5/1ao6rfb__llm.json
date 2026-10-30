@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": true,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with a finger before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water at the soil around the base only when the top layer is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to a cool (10\u201315\u00b0C), bright spot away from heaters and direct sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Weekly remove dead flowers and yellowing or spotted leaves with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If grey fuzz or mushy brown stems appear, remove affected parts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer treats heat and wet leaves as the main problem and mentions natural flower fading only as secondary, so it is a partial diagnosis and a false alarm; the deadheading fix is there but buried among other steps, and none of the advice is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2062,
+ "output_tokens": 806
+}

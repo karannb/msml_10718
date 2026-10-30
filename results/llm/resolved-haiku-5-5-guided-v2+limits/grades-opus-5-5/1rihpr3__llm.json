@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2 inches down and lift pot before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly with rain water when top 2 inches are dry, then empty saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Sterilize scissors and remove mostly-brown leaves at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brightest indirect-light spot, e.g. near a window with sheer curtain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for new leaf growth over coming weeks",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If stems turn soft/black or soil smells sour, repot and trim mushy roots",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames transplant stress and wet soil, mentioning low light only as a contributing factor, and the move to brighter light is one step among several; its advice to delay repotting is not likely harmful given the confirmed light problem.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1993,
+ "output_tokens": 802
+}

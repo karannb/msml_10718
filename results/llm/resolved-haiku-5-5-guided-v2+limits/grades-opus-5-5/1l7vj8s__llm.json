@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Dab the wound with 70% isopropyl alcohol on a cotton swab once and let dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the wound daily for softness, darkening, smell or spreading",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If wound turns soft/dark/mushy, cut the leaf off at its base with alcohol-wiped scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gradually acclimate the plant to outdoor light over several days, starting with 1-2 hours of shade-filtered sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls it a minor physical puncture on a healthy plant and advises keeping it dry while it seals, which matches the thread's fix; the one-time alcohol dab and the monitoring steps are harmless.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1881,
+ "output_tokens": 388
+}

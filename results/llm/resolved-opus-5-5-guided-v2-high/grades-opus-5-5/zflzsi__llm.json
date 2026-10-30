@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check pot weight and whether soil is dry an inch down",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and inspect roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If pot is light, bottom-soak in a few inches of water for 30-45 minutes and drain",
+   "minutes": 45,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After 48 hours, cut off fully yellow or crispy leaves at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Loosely tie up floppy stems with soft twine",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright, indirect light away from heaters and vents",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top inch of soil is dry (every 5-8 days in winter)",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Before next trip, put plant in a self-watering pot",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, set up a wick in a jar of water before next trip",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  }
+ ],
+ "reason": "Correctly identifies drought plus dry winter air as the main cause and tells the owner to wait 1-3 days after the soak, which matches the recovery. It misses the humidifier but gives no harmful advice.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2055,
+ "output_tokens": 1110
+}

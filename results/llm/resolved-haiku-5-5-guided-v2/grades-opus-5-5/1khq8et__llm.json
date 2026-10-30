@@ -1,0 +1,75 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift nursery pot out of cachepot and check for standing water or soil wet below surface",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide root ball out and inspect roots for rot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is dry throughout and roots firm, water thoroughly",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove plant from cachepot and ensure it drains freely",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut away mushy brown roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut back soft brown stem sections and remove mostly dead leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into chunky aroid mix in a pot with drainage holes",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Water only when top 5 cm of soil is dry, letting excess drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Top up with a new shoot later if base is firm",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer diagnoses root rot from waterlogging rather than a poorly supported plant needing repotting, more light and staking. Its repot into a draining mix and bright light overlap with the fix, but it omits tying the plant to the pole. Nothing it recommends is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2083,
+ "output_tokens": 1156
+}

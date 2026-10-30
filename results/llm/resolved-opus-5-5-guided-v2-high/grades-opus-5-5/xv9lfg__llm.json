@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check the new leaf weekly for progress",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no change in 2-3 weeks or tip browns, mist the shoot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, loosely tie a clear plastic bag over the shoot for a few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, run a humidifier nearby",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "If a dry sheath grips the leaf, dab it with a damp cotton pad and ease it off",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to bright indirect light near a window",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is normal unfurling, with a humidity-stuck leaf only as a secondary possibility; the water-dabbing fix appears only as a conditional step after waiting 2-3 weeks, a mild delay with a fallback rather than clear harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2056,
+ "output_tokens": 923
+}

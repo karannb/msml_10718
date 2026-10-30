@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Wipe vinegar residue off both sides of every leaf with a damp cloth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 5 cm deep with a finger before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water onto the soil only and empty the saucer after 15 minutes",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Photograph spotted leaves today and again in 7 days to track spread",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If spots grew or multiplied, cut off affected leaves with alcohol-wiped scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light about 1 m from a window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies leaf spot as the main problem. It never recommends a fungicide, which was the fix that worked, and it advises against cutting off affected leaves. Its watch-and-wait reassurance delays the treatment the plant needed.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2005,
+ "output_tokens": 981
+}

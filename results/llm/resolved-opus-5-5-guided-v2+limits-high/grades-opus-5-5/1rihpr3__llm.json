@@ -1,0 +1,33 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Trim blackened leaf tips with alcohol-wiped scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaf undersides for spider mites with a white paper towel",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites are found, wipe both sides of all leaves with dish soap solution every 5 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames repotting stress and never mentions insufficient light; its explicit instruction not to move the plant blocks the fix that worked (moving it to a sunnier spot).",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1951,
+ "output_tokens": 289
+}

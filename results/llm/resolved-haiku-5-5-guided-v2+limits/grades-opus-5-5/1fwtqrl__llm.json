@@ -1,0 +1,40 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Lift the plant from its pot and check for a dense mass of roots with little soil",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root-bound, repot in spring into a pot 3-5 cm wider with a drainage hole and chunky well-draining mix, water in, and keep out of harsh sun for a week",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 35,
+   "unclear": false
+  },
+  {
+   "action": "Gently tease apart the clumps and give each its own pot (or keep together in the larger pot)",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Check the top 5 cm of soil with a finger and water only when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer notices the plant has filled its pot but calls it healthy and says repotting isn't needed now; it puts the one-size-up repot off until spring, which delays the fix that worked.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1812,
+ "output_tokens": 788
+}

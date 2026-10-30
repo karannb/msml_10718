@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Place the plant in bright shade with no direct sun for week 1",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "In week 2, move the plant into 1-2 hours of direct morning sun, then back to shade",
+   "minutes": 2,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "In weeks 3-4, add about an hour of direct sun every few days",
+   "minutes": 2,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the leaves for bleached or crispy white patches",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the leaves show bleaching, move the plant back to shade for a few days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the soil is fully dry before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water the soil, not the leaves, when it is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep the plant out of heavy rain or make sure the basket drains well",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set fallen leaves on dry soil to root",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer treats the plant as healthy and focuses on acclimating it to sun without burning, which is the confirmed problem; its gradual acclimation plan would also avoid sunburn and is not harmful, though it is more cautious than the 'just put it outside' advice that worked.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1865,
+ "output_tokens": 1122
+}

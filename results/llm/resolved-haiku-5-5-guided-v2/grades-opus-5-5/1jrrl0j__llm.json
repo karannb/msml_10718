@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check whether the grassy shoots at the base belong to the same pot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly and thoroughly until it drains, possibly repeating to soak, then empty saucer",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with finger or skewer and water when top 2 inches are dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light and gradually move closer to south window over two weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Run grow light on a 12-hour timer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Repot in spring into pot 2 inches larger with drainage and peat mix with perlite or bark",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Remove fully dead or brown leaves near the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect undersides of leaves for pests",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer misidentifies the Crinum as a Dracaena and blames underwatering, but it does touch on low light and recommends a well-draining mix with perlite, partly matching the light and soil fix; it omits warmth and outdoor time, though nothing it suggests is likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2275,
+ "output_tokens": 603
+}

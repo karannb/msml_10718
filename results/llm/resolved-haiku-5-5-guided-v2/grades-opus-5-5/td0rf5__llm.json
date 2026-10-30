@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "If the sheath still clings after the leaf opens, gently slide it off the stem",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure the plant gets enough bright, indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the dark speck near the stem base for fungus gnats or thrips",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Treat fungus gnats or thrips if found",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly identifies the new leaf caught in its sheath, but it never suggests misting; its humidity and wait-it-out advice only partly matches the fix, and nothing it recommends would cause harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1784,
+ "output_tokens": 614
+}

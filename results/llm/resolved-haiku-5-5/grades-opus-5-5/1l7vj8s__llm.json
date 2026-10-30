@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wipe wound with cotton swab dipped in 70% isopropyl alcohol and let air dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright spot with good airflow, out of harsh direct sun, and keep dry for 1-2 weeks",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optional: dust wound with sulfur or cinnamon",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Plant in fast-draining cactus/succulent mix once calloused",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Check whether mottled patches wipe off",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor wound over next couple of weeks for rot signs",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot appears, trim to healthy tissue with clean blade, let dry, treat as cutting if needed",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies a minor spine puncture that will callus and advises keeping it dry, which matches the fix. The extra steps (an alcohol wipe, optional cinnamon) are harmless and don't treat it as a real problem.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1993,
+ "output_tokens": 549
+}

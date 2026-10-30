@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Stake the flower spike with soft plant ties every 2-3 inches",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Push the stake deeper into the bark if it wobbles",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set the clear pot inside a heavier pot and fill the gap with gravel or pebbles",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Remove extra support once the plant stays upright on its own",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If it still tips, check that the pot isn't sitting at an angle on the saucer",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the top-heavy, unstable pot as the main cause, and its second fix (setting the pot inside a heavier pot) matches what the poster did; nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1834,
+ "output_tokens": 401
+}

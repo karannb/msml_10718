@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scrape off moldy top inch of soil and pull added soil back to original stem level",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off yellow, collapsed and brown leaves with alcohol-wiped scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that water drains out the bottom at next watering",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty outer pot or liner within 15 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test soil 2 inches deep every 3-4 days and water only when dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses overwatering, while the confirmed problem was root-binding, poor drainage and too little light and water; it never suggests repotting, tells the owner to cut back on water and to empty the tray (which was actually the fix), though its finger-test safeguard keeps the watering advice from being clearly harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1930,
+ "output_tokens": 872
+}

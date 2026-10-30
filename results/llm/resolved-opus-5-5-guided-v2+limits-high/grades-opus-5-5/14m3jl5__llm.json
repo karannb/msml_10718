@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Cut off the woody stalk above the leafy shoot or at soil level",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pinch/snip shoot tips above a leaf pair every 1-2 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pinch off flower buds weekly",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2-3 cm deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the woody, overgrown basil and gives the same advice as the thread (remove the stalk, prune above leaf pairs for bushiness), and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1889,
+ "output_tokens": 331
+}

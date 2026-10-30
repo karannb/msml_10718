@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Snip each long flower spike just above a leaf pair, repeating every 4-6 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prepare 4-6 clippings and root them in a glass of water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the cuttings' water every 3 days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pot up rooted cuttings in small pots with potting mix",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Harden off potted cuttings outdoors for a week, increasing time daily",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Plant cuttings in the ground in a sunny spot once nights stay above 10 \u00b0C",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls the plant healthy and recommends cutting back the flower spikes, which matches part of the fix. It omits the repotting into a bigger pot and the fertilizing that the thread recommended, and nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1932,
+ "output_tokens": 666
+}

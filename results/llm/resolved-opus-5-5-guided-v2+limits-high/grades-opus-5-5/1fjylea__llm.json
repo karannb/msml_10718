@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scoop off the top 1 cm of mouldy soil and discard it",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe white fuzz off the trunk base with a cotton swab dipped in rubbing alcohol",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift the plant out of the decorative bowl and pour out standing water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tip out excess water 15 minutes after each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 3 cm deep with a finger before watering, and water only when dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to the brightest window with some air movement",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly blames overly wet soil for the mould, but it only removes the top layer and adjusts watering instead of replacing the soil as the poster did; nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1822,
+ "output_tokens": 674
+}

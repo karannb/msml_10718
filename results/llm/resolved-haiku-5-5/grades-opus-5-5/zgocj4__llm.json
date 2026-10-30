@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Trim or pick out dead brown stems at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bottom-water in a tray or bowl for 15\u201320 minutes, then drain",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil every few days and water when the top feels dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty any water collecting in the decorative bowl",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to the brightest window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively set up an LED grow light on a 12\u201314 hour timer",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Repot if it becomes root-bound or the soil stays soggy",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "Dry soil is listed as one of several causes and bottom watering is suggested, but only briefly. The answer misses the undrained pot and poor soil, and its advice to hold off on repotting delays the repot into a draining container that fixed the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2038,
+ "output_tokens": 879
+}

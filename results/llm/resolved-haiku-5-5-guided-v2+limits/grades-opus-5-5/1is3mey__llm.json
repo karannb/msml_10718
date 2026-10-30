@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tug bare stems and check base for mushiness, blackness or sour smell",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil dryness with finger or wooden skewer before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only when soil is fully dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plants gradually over a week to brightest window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim rotten tissue with clean scissors and let plant dry 2-3 days",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is soggy, repot into cactus/succulent mix in pot with drainage hole",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Take cuttings of healthy stem tips or leaves, callus 2-3 days, set on dry mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Mist or water cuttings lightly once rooted",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is the confirmed one: too little light plus overwatering. Its core advice to water only when the soil is dry and to move the plants to bright light matches the fix that worked, and it is safeguarded by soil checks, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2000,
+ "output_tokens": 588
+}

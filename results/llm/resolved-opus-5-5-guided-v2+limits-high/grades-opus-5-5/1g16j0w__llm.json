@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 5 cm deep with finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly until it drains if dry, empty saucer after 10 minutes",
+   "minutes": 12,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light (outdoor shade or indoor sunny window) for 2 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gradually reintroduce morning sun, moving plant in and out daily",
+   "minutes": 2,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove dry crispy leaves and dead leaves from soil surface",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names sun stress plus thirst as the main problem and advises watering and moving him out of direct sun, which matches the confirmed fix, and the watering is guarded by a soil check, so nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1896,
+ "output_tokens": 414
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Gently ease the plant out and check roots and corm for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides for spider mite stippling, webbing or moving dots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Flush the moss with about three times the container volume of room-temperature water and let it drain",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the pot has no drainage, lift the plant out, rinse the moss and squeeze it to just damp",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After a new leaf fully opens, fertilize at quarter strength no more than monthly",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check and water the moss to keep it evenly moist like a wrung-out sponge",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally trim fully crispy leaf edges with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies fertilizer stress but misses the dense, poorly draining mix as the core issue, and it never suggests the fix that worked (repotting into a snug pot with an airy bark/perlite mix and letting it dry between waterings), though its flushing and moisture advice is not clearly damaging.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2237,
+ "output_tokens": 1049
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Put the grow light on a timer for 12-14 hours a day, 4-8 inches above the plants",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Touch a speckle with an alcohol-dipped cotton swab to identify it",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mealybugs, dab every visible spot with alcohol daily for 2 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If algae or mold, remove the worst leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches down with a finger or skewer before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When dry, water thoroughly until it drains and empty the saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove the bark mulch and add a 1-inch top layer of pumice or perlite",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names etiolation from low light, but its fix relies on the grow light alone rather than also moving the plants back to sunny window light. It is harmful because it treats the normal farina speckles as possible mealybugs and recommends alcohol swabbing, which strips the protective farina and leaves the leaves blotchy.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2120,
+ "output_tokens": 1026
+}

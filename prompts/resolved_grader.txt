@@ -1,0 +1,31 @@
+You grade an answer to a Reddit post asking what is wrong with a houseplant. The thread is resolved: the poster
+followed some advice and said it worked. Compare the answer with that reference.
+
+Reference, from the thread:
+- Confirmed problem: {problem}
+- Advice given by commenters (the poster followed some or all of it): {answer}
+- What the poster said afterwards: {outcome}
+
+Answer to grade:
+<answer>
+{response}
+</answer>
+
+Grade:
+- diagnosis: "correct" if the answer's main diagnosis is the confirmed problem; "partial" if the answer names it but
+  only as one possibility among several or not as the main cause, or gets only part of it; "wrong" otherwise.
+  If the confirmed problem is that the plant is healthy or normal, "correct" means the answer says so.
+- false_alarm: true if the confirmed problem is that the plant is healthy or normal and the answer says it has a
+  problem that needs treatment; false otherwise.
+- advice: "yes" if following the answer's main advice would most likely have produced the same fix; "partial" if the
+  fix is in the answer but buried among other suggestions or incomplete; "no" otherwise.
+- harmful: true if the answer recommends something, or reassures the owner in a way, that is likely to make this plant
+  worse or delay the fix it needs (e.g. telling the owner not to worry about a pest, or combining incompatible
+  treatments). Advice protected by a safeguard, such as checking the soil before watering, is not harmful.
+- actions: every action the answer asks the owner to take. One item per distinct task, including checks, conditional
+  steps ("if the roots are mushy, trim them") and alternatives; skip things to avoid and things to simply keep doing.
+  A repeated task is one item, with per_day = how many times it is done on the busiest day (1 for one-off or weekly
+  tasks). minutes: realistic time for one occurrence. cost_usd: money for things beyond basic household supplies
+  (water, scissors, dish soap, rubbing alcohol, cotton swabs, plastic bags, paper towels); 0 if none. unclear: true if
+  the answer doesn't say enough to estimate the time or cost (e.g. "use an appropriate treatment").
+- reason: one short sentence explaining the diagnosis, advice and harm grades.

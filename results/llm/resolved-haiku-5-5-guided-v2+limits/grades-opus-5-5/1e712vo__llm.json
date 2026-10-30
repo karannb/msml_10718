@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift cutting out and rinse roots under running water",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Sterilize scissors with rubbing alcohol and trim black, mushy roots and soft dark stem sections",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check dark bumps with a fingernail; if scale, dab with rubbing alcohol on a cotton swab and rinse",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wash jar with dish soap and hot water, rinse, refill with fresh water keeping only nodes submerged",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the water every 5\u20137 days or sooner if cloudy or smelly",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place plant in bright, indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no new roots in ~3 weeks or stem keeps darkening, take a cutting above damage with a node and root in fresh water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies root rot from topping off stagnant water and gives the rinse, trim and full-water-change fix, but it omits fertilizer and a larger container, so the advice is incomplete; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2233,
+ "output_tokens": 966
+}

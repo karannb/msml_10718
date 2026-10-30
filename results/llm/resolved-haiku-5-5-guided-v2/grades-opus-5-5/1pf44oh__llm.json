@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with a finger 2-3 cm deep and lift the pot to judge its weight",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feel the stems at the base for softness or a bad smell",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the stems are soft or smelly, unpot and check the roots for mush",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When the top 2-3 cm of soil is dry, water thoroughly, let it drain and empty the saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant out of cold drafts, away from the window glass, into bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully brown, dead leaves at the base with clean shears",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names repotting stress as the main cause and covers the cold window, and its advice to move the plant from the cold glass and wait it out matches the fix, with safeguarded watering that poses no harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2058,
+ "output_tokens": 763
+}

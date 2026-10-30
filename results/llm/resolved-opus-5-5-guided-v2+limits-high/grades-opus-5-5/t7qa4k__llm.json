@@ -1,0 +1,40 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Cut off the two yellow leaves where their stalks meet the vine",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Give the pot a quarter turn once a week",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check window-facing leaves weekly for bleached or crispy patches over 3-4 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If bleached or crispy patches appear, move the pot about 3 feet back from the glass",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls the browning normal old-leaf die-off but misses possible overwatering, and it omits the pole; its check-the-soil watering rule partly covers mindful watering and is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1881,
+ "output_tokens": 711
+}

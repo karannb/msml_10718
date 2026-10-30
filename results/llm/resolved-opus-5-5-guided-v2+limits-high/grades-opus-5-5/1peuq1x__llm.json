@@ -1,0 +1,26 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Flush the moss at the sink with about 3 pot volumes of room-temperature water and let it drain fully",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After a new leaf fully opens, fertilize at a quarter of the label dose, no more than monthly",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames fertilizer but misses the dense, poorly draining mix and oversized pot, and it never suggests repotting into a snug pot with an airy mix, though flushing and pausing fertilizer are unlikely to hurt.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2016,
+ "output_tokens": 567
+}

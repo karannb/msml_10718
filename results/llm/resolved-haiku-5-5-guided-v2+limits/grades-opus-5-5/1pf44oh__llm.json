@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with finger before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly if dry and empty the saucer",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from cold glass/drafts to a bright spot, ideally near a south- or west-facing window",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim brown crispy leaf edges with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names repotting stress worsened by cold near the window as the main cause and advises moving the plant away from the cold glass and waiting for recovery, which matches the confirmed fix, and the watering advice is safeguarded by a soil check.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1905,
+ "output_tokens": 347
+}

@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check leaf undersides for spider mites",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray spinosad on all leaf surfaces, undersides and axils every 7 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 11,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 5 cm down before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil stays wet over a week, lift pot and inspect roots for mush or sour smell",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from hot window glass, radiators and afternoon sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove mostly brown leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names thrips as the main cause but misses the low light and adds a speculative sulphur burn; its spinosad treatment matches the Captain Jack's advice that worked, and nothing it recommends is clearly harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1970,
+ "output_tokens": 875
+}

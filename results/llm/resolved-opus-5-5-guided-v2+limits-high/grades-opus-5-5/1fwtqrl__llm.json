@@ -1,0 +1,40 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Put the plant back in its basket without trimming the roots",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "About 15 minutes after each watering, check the basket and tip out any standing water",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "In spring, check whether the soil dries out within 2\u20133 days of watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If it does, cut the old pot away and repot one size up into a 30\u201332 cm nursery pot with fresh potting mix, then water once",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 13,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer notices the plant is outgrowing its pot but calls it 'nothing wrong'; it does suggest the one-size-up repot, but only conditionally and months later, which delays the repot that fixed the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1813,
+ "output_tokens": 739
+}

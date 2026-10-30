@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Pot the seed in a 3-4 inch pot with drainage and potting mix",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Water until mix is damp like a wrung-out sponge",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check top inch of soil with finger every few days and water when dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light near an east or south window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rotate the pot weekly if it leans toward the window",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If shoot base turns soft/black or mold spreads, let top dry out and improve airflow",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer says the seed is viable and should be planted, matching the confirmed diagnosis, and its advice to pot it in bright indirect light mirrors the fix that worked, with no harmful recommendations.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1856,
+ "output_tokens": 448
+}

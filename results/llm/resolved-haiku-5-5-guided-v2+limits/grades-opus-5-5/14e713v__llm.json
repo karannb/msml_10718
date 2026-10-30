@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2 inches deep with finger or chopstick before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Unpot the plant and inspect base and roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut away mushy, brown or black tissue with an alcohol-wiped knife",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let the plant callus on dry paper towel in shade for 2-3 days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh cactus/succulent mix in a pot with a drainage hole",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Remove the decorative outer pot or ensure it drains",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scrape off the white crust and discard old soil",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place a yellow sticky trap near the plant for 2-3 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "If rot has spread too far, root healthy top cuttings",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names overwatering-driven basal rot with mold and gnats as the main cause, and its core fix matches what worked for the poster: cut off the dark tissue and repot in dry cactus soil. Nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2006,
+ "output_tokens": 631
+}

@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check soil moisture 2-3 inches deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty pooled water from outer grey pot after watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant at least 1 foot away from radiator",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect stem base and roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rotten, trim roots and repot into fresh well-draining mix in a pot with drainage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames overwatering and root stress and never mentions the band strangling the trunk; its 'give it 2-3 weeks' reassurance and possible repotting would delay the simple fix of cutting the band.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1864,
+ "output_tokens": 385
+}

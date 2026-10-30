@@ -1,0 +1,33 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Move the plant to bright, indirect light with steady warmth",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity with a humid spot or pebble tray",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check the tip for browning, blackening, mushiness or a shriveling stem",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer spots the unfurling leaf and mentions humidity but calls it normal rather than stuck. It says to wait and not touch the leaf, which delays the fix of brushing on water and gently freeing it; the humidity tip is only general.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1803,
+ "output_tokens": 717
+}

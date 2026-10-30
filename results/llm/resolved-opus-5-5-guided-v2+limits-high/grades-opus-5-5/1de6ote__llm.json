@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Slide plant out of nursery pot and check roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are brown/mushy, trim them and repot into fresh dry cactus mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 6,
+   "unclear": false
+  },
+  {
+   "action": "Tip out standing water from the grey outer pot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bottom-water in a bowl with 2 inches of water for 15 minutes when soil is fully dry, then drain",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip off spent flower stalks at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant within 2 feet of brightest window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Give the plant a quarter turn weekly",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies dry, water-repellent soil that can't rehydrate the plant; its bottom-watering step resembles the soak that worked but is shorter, delayed until the next dry-out and mixed in with other tasks, though nothing is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1880,
+ "output_tokens": 903
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with finger every 2-3 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains, then empty saucer after 30 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant away from heater airflow",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up pebble tray with water for humidity",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 7.5,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively group with other plants for humidity",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If still limp after a week, slide out of pot and inspect roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root-bound, repot into a pot 2 inches wider",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names underwatering as the main cause and its core advice to water thoroughly matches the fix that worked, and its soil-check safeguard keeps it from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1893,
+ "output_tokens": 469
+}

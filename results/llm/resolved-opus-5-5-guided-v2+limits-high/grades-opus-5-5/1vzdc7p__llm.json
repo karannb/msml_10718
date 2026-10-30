@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Pull the Mother of Thousands plantlets by the base with roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil surface weekly for new Mother of Thousands babies",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull the tiny round-leaved seedlings or pot them up separately",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip off seed heads once flowers fade",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot when roots poke out of drainage hole or water runs straight through",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer calls the plant healthy and says the fast-draining cactus mix suits it, which misses the nutrient depletion caused by that soil and discourages the repot into less-draining soil that fixed it, so it delays the fix despite rightly advising removal of the Kalanchoe.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1977,
+ "output_tokens": 417
+}

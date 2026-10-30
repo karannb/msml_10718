@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move the plant within about 3 ft of the brightest window",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with a finger twice a week",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When the top inch is dry, water slowly until it drains and empty the saucer after 15 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pinch off dead brown leaves and cut the longest bare stems back by half",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Plant 5-6 stripped tip cuttings an inch deep in the bare soil on top and water them in",
+   "minutes": 7,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names low light as the main cause but misses the overwatering, even suggesting the plant is drying out; still, its advice to move to brighter light and root cuttings in the bare topsoil mirrors the fix that worked, and its soil-check watering safeguard keeps it from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1902,
+ "output_tokens": 698
+}

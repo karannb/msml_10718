@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Dab a suspected insect with a damp or alcohol swab to confirm mealybug vs scale",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab each visible insect with 70% isopropyl alcohol on a cotton swab, checking leaf undersides, stem joints and soil surface",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray the whole plant and soil surface with insecticidal soap or neem oil every 5-7 days for 3-4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If the plant is slow or wilting, inspect the roots; if mealybugs are present, wash the roots and repot in fresh soil",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check nearby plants for mealybugs after about a month without new insects",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names mealybugs as the main diagnosis and leads with dabbing them with alcohol and inspecting thoroughly, matching the fix that worked; its extra steps are standard and safe.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1954,
+ "output_tokens": 516
+}

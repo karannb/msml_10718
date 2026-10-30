@@ -1,0 +1,89 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap branches over white paper and inspect with a hand lens to tell thrips from spider mites",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place blue or yellow sticky traps near plants to monitor and reduce thrips",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Inspect new growth, flower buds, leaf undersides and soil for thrips",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test 70% alcohol spray on a few leaves first",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray plants with 70% alcohol in shade every 3-5 days for several weeks",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rotate treatments with spinosad, insecticidal soap or neem oil sprays",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Apply a spinosad soil drench",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively remove and replace the top layer of potting media",
+   "minutes": 90,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Isolate heavily infested plants",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect new plants before adding them to the collection",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove and bag badly damaged flowers",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies thrips as the main diagnosis but never mentions the beneficial predatory mites that actually fixed the problem, relying on sprays and soil treatments instead; nothing it recommends is likely to harm the plants.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2220,
+ "output_tokens": 1172
+}

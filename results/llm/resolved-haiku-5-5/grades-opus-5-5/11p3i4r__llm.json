@@ -1,0 +1,89 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water thoroughly until it drains, or bottom-water for 15\u201320 minutes, then empty the saucer",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the soil and water again when the top inch or two is dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect the roots for rot or root-binding",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim the bad parts and repot into fresh peat/perlite mix in a pot with drainage holes",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "If showering it, use lukewarm water and let the crown dry thoroughly",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use filtered, distilled, or rainwater for watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Place a humidifier near the plant to keep humidity around 50%+",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Check the leaf undersides for spider mites or thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead or badly damaged leaves at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move it to bright indirect light with stable temperatures, away from drafts and vents",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Reply with your watering frequency, tap water type, and whether the pot has drainage holes",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leads with dehydration and makes thorough watering its first step, which matches the fix, but it misses the shower-broken stems, blaming floppy stems on low light; nothing recommended would harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2354,
+ "output_tokens": 1266
+}

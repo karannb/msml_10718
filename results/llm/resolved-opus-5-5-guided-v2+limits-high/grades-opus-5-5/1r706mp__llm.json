@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Dab each mealybug tuft with a 70% alcohol cotton swab and wipe off",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray stems and leaf undersides with dish soap solution every 5-7 days for 3 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse plant with plain water 2 hours after soap spray",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When repotting, check roots and pot rim for cottony patches",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root mealybugs found, rinse roots, use fresh potting mix, wash pot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Inspect between stems with flashlight every 3 days for a month and swab new tufts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse leaves well before eating after treatment",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies mealybugs and leads with the 70% alcohol treatment that worked; the supplementary soap spray and inspection steps are safe.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1876,
+ "output_tokens": 517
+}

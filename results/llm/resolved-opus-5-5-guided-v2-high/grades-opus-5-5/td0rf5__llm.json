@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wet the stuck sheath with a damp cotton pad or mist sprays, wait 10-15 minutes, repeat once or twice",
+   "minutes": 2,
+   "per_day": 3,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Peel softened sheath away with fingers or tweezers, or slit it lengthwise with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If it resists, re-wet and try again later that day",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture by pushing a finger 3-4 cm into the soil and feeling pot weight",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check other new growth for crispy brown edges indicating dry air",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top 3-4 cm of soil is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright, indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The main diagnosis matches the stuck sheath, and the first step, misting or wetting it to soften it, is essentially the spray fix that worked; gentle peeling with a re-wet fallback is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2006,
+ "output_tokens": 534
+}

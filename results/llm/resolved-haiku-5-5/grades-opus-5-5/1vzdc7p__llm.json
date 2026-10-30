@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Send a clearer close-up of the leaves and flowers or say where the plant was bought, to confirm the ID",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to a brighter spot or give it a few hours of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the soil stays wet for long stretches",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull out the Kalanchoe stowaways, including plantlets in the soil, and keep them away from pets",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If repotting, repot in spring or early summer into cactus mix with perlite, one pot size up",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Gently tease out the roots and check for rot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are brown and mushy, trim them off",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wait a few days after repotting, then water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer mentions competition and nutrient issues only as secondary possibilities, with light as the main cause; its repotting advice calls for an even faster-draining cactus mix and says repotting may be unnecessary, the opposite of the less-draining soil that fixed the plant, so the advice is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2095,
+ "output_tokens": 1096
+}

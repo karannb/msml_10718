@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture by pushing a finger an inch into the soil",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is dry, water thoroughly until it drains",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the pot has a drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Week 1: place plant in bright indirect light",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Week 2: move plant into 1-2 hours of morning sun, then back to shade",
+   "minutes": 2,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gradually add 30-60 minutes of direct sun every few days and watch for bleaching or crisping",
+   "minutes": 2,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If leaves look bleached, white or crispy, reduce sun exposure a step",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer mostly frames the plant as healthy and focuses on watering, covering sun acclimation only as a secondary section; its gradual acclimation plan would still let the plant reach full sun without burning, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1979,
+ "output_tokens": 975
+}

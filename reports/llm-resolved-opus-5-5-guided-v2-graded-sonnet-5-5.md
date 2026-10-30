@@ -9,13 +9,13 @@ warning that it is unreliable on phone photos.
 Grading: `claude-sonnet-5-5` reads each answer, without knowing which option produced it, next to the thread's confirmed
 problem (`problem`), the commenters' advice (`answer`) and the poster's outcome (`outcome`). Scores: diagnosis correct 1,
 partial 0.5, wrong 0; advice that would have led to the same fix: yes 1, partial 0.5, no 0. With several answers per thread
-(1), scores are averaged per thread first. Brackets: 95% bootstrap interval over threads. Cost of the calls behind these numbers: $48.16.
+(1), scores are averaged per thread first. Brackets: 95% bootstrap interval over threads. Cost of the calls behind these numbers: $4.97.
 
 ## Scores (higher is better)
 
 | option   | diagnosis score   | diagnosis correct / partial / wrong   | advice score      | advice yes / partial / no   |   harmful answers |
 |:---------|:------------------|:--------------------------------------|:------------------|:----------------------------|------------------:|
-| llm      | 0.74 [0.67, 0.81] | 56/30/10                              | 0.76 [0.69, 0.82] | 58/29/9                     |                 2 |
+| llm      | 0.72 [0.66, 0.79] | 53/33/10                              | 0.76 [0.69, 0.82] | 58/29/9                     |                 5 |
 
 
-Per-thread grades and reasons: `results/llm/resolved-opus-5-5-guided-v2-max/scores-all-sonnet-5-5.csv`. Answers: `results/llm/resolved-opus-5-5-guided-v2-max/answers/`.
+Per-thread grades and reasons: `results/llm/resolved-opus-5-5-guided-v2-high/scores-all-sonnet-5-5.csv`. Answers: `results/llm/resolved-opus-5-5-guided-v2-high/answers/`.

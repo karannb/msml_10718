@@ -1,0 +1,96 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scrape off moldy top layer of soil and dispose in trash",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift plant out of pot and check roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim black, mushy or smelly roots if present",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ensure drainage holes; move into nursery pot with holes inside decorative pot if needed",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Empty standing water from saucer after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into fresh well-draining mix with perlite or pumice if soil is soggy/compacted",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Check top 1-2 inches of soil are dry before watering, then water thoroughly",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light with air movement",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place small fan nearby",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Optional: sprinkle cinnamon on soil",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Optional alternative: spray soil surface with 3% hydrogen peroxide",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 2,
+   "unclear": false
+  },
+  {
+   "action": "Monitor for mold return or soft stem at soil line and recheck roots",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies surface mold from overly wet soil as the main issue and prominently recommends repotting into fresh soil, which matches the poster's fix; none of its advice is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2056,
+ "output_tokens": 768
+}

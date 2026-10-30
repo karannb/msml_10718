@@ -1,0 +1,82 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check whether the pot has a drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test the soil 2-3 cm deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scrape off the mold and top 1-2 cm of soil and bag it",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe the pot rim with rubbing alcohol",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Top up with fresh well-draining potting mix",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "If no drainage hole, place the plant in its nursery pot inside the decorative pot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty water from the saucer or pot bottom after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to a spot with better air circulation",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are rotten, trim the rot and repot in fresh mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names mold from overly wet soil but mainly advises replacing only the top layer, with a full soil change offered only conditionally, so the advice is partial; nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1890,
+ "output_tokens": 1004
+}

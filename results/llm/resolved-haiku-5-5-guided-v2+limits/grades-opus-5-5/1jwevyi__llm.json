@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scratch several twigs across the shrub with a fingernail to check for green tissue",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture weekly by pushing a finger 2-3 inches into the soil near the base",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water deeply if the soil is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Reassess in late May or early June by scratching stems and looking for new leaves",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If stems are still brown and no new leaves, have a local nursery or extension office look at it",
+   "minutes": 45,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly says the reddish azalea is cold-stressed but alive and recommends watering, but it tells the owner not to fertilize, which was part of the fix; this delays recovery only mildly and isn't harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1840,
+ "output_tokens": 692
+}

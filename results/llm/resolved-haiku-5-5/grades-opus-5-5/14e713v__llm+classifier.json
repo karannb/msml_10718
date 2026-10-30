@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Unpot and inspect the roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim away soft, dark rotted tissue with sterilized tools",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let the plant callus out of soil for 1-3 days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in fresh cactus/succulent mix in a pot with drainage",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly only when soil is completely dry and empty runoff",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Use yellow sticky traps for gnats",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 7,
+   "unclear": false
+  },
+  {
+   "action": "Remove remaining mold from the soil surface",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If base is too far gone, propagate healthy leaf sections or pups in dry cactus mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies overwatering-induced basal/root rot with mold and gnats and recommends cutting the rot and repotting in dry cactus mix, matching the confirmed fix, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2238,
+ "output_tokens": 550
+}

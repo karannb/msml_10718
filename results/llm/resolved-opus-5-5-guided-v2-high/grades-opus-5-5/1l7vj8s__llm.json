@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Watch wound for signs of infection (soft, dark, wet, spreading tissue)",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check raised dots by flicking with fingernail for scale",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Optionally dust wound with cinnamon or sulfur",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 3,
+   "unclear": false
+  },
+  {
+   "action": "Keep plant dry in bright shade with good airflow for about a week",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gradually acclimate to full sun over 1-2 weeks, starting with morning sun",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Plant into gritty, fast-draining soil",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If roots damaged, wait 3-5 days after planting before first watering, then water only when soil fully dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip tip of pressing spine with nail clippers",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies minor thorn-puncture damage that will callus, matching the confirmed diagnosis, and its main advice (keep it dry while it calluses, it will be fine) matches the fix, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2060,
+ "output_tokens": 580
+}

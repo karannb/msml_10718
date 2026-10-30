@@ -1,0 +1,75 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect plants to distinguish pest type (fluttering, shape, webbing, jumping)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tap a leaf over white paper to check for spider mites",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray plants with a strong jet of water, especially leaf undersides, every few days",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test insecticidal soap on one leaf, then apply every 5-7 days for about 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Rinse herbs before eating after soap treatment",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place yellow sticky traps near plants",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check rest of collection on leaf undersides and stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep plants quarantined for 3-4 weeks after last sign of pests",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Post closer photos of leaf undersides or moving specks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "Aphids are named only as one of several possibilities, but the first treatment step\u2014a hard rinse with water repeated every few days\u2014matches the fix that worked, and nothing suggested is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2480,
+ "output_tokens": 620
+}

@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Prune leaves that are mostly yellow, brown, or dry at the base with alcohol-wiped shears",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2-3 inches down with a finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly when soil is dry and empty the saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed monthly in spring through early fall with half-strength balanced liquid fertilizer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brighter light if new leaves come out smaller or it leans sharply",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the plant healthy and says to leave ragged green leaves alone, missing that the damaged lower leaves needed pruning, but this is a cosmetic delay rather than likely harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1841,
+ "output_tokens": 823
+}

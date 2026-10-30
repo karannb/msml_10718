@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push finger 2-3 inches into soil to check moisture",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Squeeze base of limp segment to check for dehydration vs rot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and inspect roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bottom-soak pot in basin of water for 20-30 minutes, then drain",
+   "minutes": 35,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into fresh well-draining cactus/epiphyte mix in slightly larger pot with drainage hole",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright indirect light away from heaters and drafts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim clearly dead segments",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names drought stress plus old compacted soil as the main cause, and its rehydrate-then-repot-into-fresh-mix plan matches the repotting that worked, with a soil check guarding against overwatering.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2202,
+ "output_tokens": 511
+}
