@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to 'Water thoroughly if the soil is dry' and then 'empty the saucer' is safe, and the finger test ('If it's wet, don't water again') guards against watering an already waterlogged plant. Moving it out of direct sun is appropriate. Fittonia is non-toxic, so the lack of a pet warning is no gap. Misting is not very effective for humidity, but it does no harm."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The model's primary diagnosis, 'dehydration and heat stress', matches the reference's underwatering/drought stress, and its main fix ('Water thoroughly... should perk up within a few hours') matches 'A good drink is probably all it needs.' It cites case evidence: two weeks away, direct sun, and dry-looking surface soil. The alternatives (scorch, overwatering by a sitter) come with specific checks rather than vague hedging."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps, 'Push a finger 2 cm into the soil', 'Pour water slowly until it runs out the drainage holes', and 'Move it out of direct sun', need no special tools and can be done right away. The expected outcome ('perk up within a few hours') gives a clear checkpoint. Trimming only crispy leaves is simple and clearly explained."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Mist or set the pot on a tray of pebbles and water to raise humidity",
+  "Check that the pot drains and that the roots aren't soft or smelly"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2202,
+ "output_tokens": 532
+}

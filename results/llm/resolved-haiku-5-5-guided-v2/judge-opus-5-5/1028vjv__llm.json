@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The steps given are safe: \"Move it away from the radiator,\" use a pebble tray \"with water below the pot base (not touching it),\" and \"empty the saucer so the roots don't sit in water.\" The model checks moisture before advising more water and warns about soggy soil, so it does not push a possibly overwatered plant toward more watering. No chemicals or pet hazards are involved."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The leading diagnosis, \"dry air ... causing tip burn,\" matches the reference, and it is tied to case evidence: \"The white radiator under the window is a likely source of hot, dry air.\" The fix of relocating the plant and raising humidity is exactly what worked for the poster. Adding \"inconsistent watering\" mirrors the commenters' alternative. However, the mineral-buildup and pest checklists are generic add-ons that dilute the focus, so this falls short of a 5."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is concrete and needs only household items: \"Push a finger 2\u20133 cm into the mix,\" move the pot, use a pebble tray or group plants, and \"trim the brown tips with clean scissors.\" These are clear actions any owner can do this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "Check the undersides of leaves and the leaf joints for webbing, stippling, or tiny moving specks",
+  "Use filtered or rainwater if your tap water is hard",
+  "flush the soil with plain water every few months"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2265,
+ "output_tokens": 543
+}

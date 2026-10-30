@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Repot in spring, one size up\" with \"well-draining tropical or aroid mix\", to \"flush the white crust\", and to \"feed it with a balanced houseplant fertilizer diluted to half strength\" is low-risk. Money trees (Pachira) are non-toxic, so no pet or child warning is needed. The main risk is that \"Nothing is seriously wrong\" and \"a little stunting is common\" could delay the real fix, which is separating the tangled trunks."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model says \"The plant is probably root-bound and has run out of room in its pot.\" The reference found the actual problem: several money trees tangled together in one pot, fixed by untangling them. Root-bound crowding is related, but the model never mentions the multiple trunks or separating them, and it treats repotting as the fix. Its notes on the \"white crust\" and the \"clear saucer\" draw on the photos but don't address the stunting."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps like \"Slide the plant out of the pot. If roots circle...\", \"Choose a pot 2 inches wider with drainage holes (about $10\u201315)\", and \"Water thoroughly with plain water until it runs out the bottom\" are concrete and cheap. Any home owner can do them with ordinary supplies."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Let the top inch of soil dry out between waterings",
+  "feed it with a balanced houseplant fertilizer diluted to half strength, about once a month during spring and summer",
+  "Repot in spring, one size up",
+  "use a well-draining tropical or aroid mix",
+  "Money trees also grow slowly indoors, so a little stunting is common"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2164,
+ "output_tokens": 976
+}

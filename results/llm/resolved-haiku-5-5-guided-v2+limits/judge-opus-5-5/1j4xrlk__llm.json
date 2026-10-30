@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. \"Keep it warm and steady... move it a little back from the window\" and \"Leave the damaged leaves on for now\" pose little risk. The reference advises not watering, while the model's \"Your watering sounds reasonable\" plus continued watering when dry carries some rot risk for a cold-stressed seedling. It omits the humidity dome that helped this tiny plant recover, and gives no toxicity note for Monstera. These are minor risks."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The diagnosis, \"cold or transport shock,\" is correct and cites case evidence (\"yellowed, papery tissue... crisp brown tip\"). The advice diverges from the reference's successful interventions, which were cutting about 1 cm above the soil, withholding water, and covering with a glass jar for humidity. Instead the model leans on generic care steps: temperature range, filtered light, finger-test watering."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy: a specific temperature range, \"move it a little back from the window,\" \"Push a finger about 2\u20133 cm,\" and \"cut it off at the stem with clean scissors.\" Any home owner can do these this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Aim for about 18\u201327\u00b0C (65\u201380\u00b0F), away from drafts, AC vents",
+  "Bright indirect light is enough",
+  "use a sheer curtain",
+  "Push a finger about 2\u20133 cm (1 inch) down. Water only when it feels dry there",
+  "drain any water left in the saucer",
+  "cut it off at the stem with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2235,
+ "output_tokens": 776
+}

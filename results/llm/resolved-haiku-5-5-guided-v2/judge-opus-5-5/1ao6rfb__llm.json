@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Stop misting the leaves,\" \"Remove spent and damaged flowers,\" and keep the plant cool is benign for a primrose and won't hurt it. However, it frames a healthy plant as stressed or possibly infected (\"probably encouraging botrytis\"). It also states \"Direct sun is the wrong direction,\" which contradicts the reference that sun at this time of year is fine. That creates needless worry and restriction, but there is no real risk of damage."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference confirms the plant is healthy and the flowers are simply dying off naturally. The model's \"Most likely cause: heat and humidity stress, with the daily misting probably encouraging botrytis\" is the wrong diagnosis. It does get some things right: \"Your leaves still look firm and healthy,\" deadheading spent flowers, and the expectation that new buds will open. Those overlap with the reference's pinching advice. It never tells the user that flower senescence is normal."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy to follow this week: check the petals for grey fuzz, stop misting, water at soil level, remove spent flowers with scissors, and place the plant in a cool spot with bright indirect light. No special products or tools are needed."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Bright indirect light is ideal",
+  "Water only at the soil level, letting the top centimetre or so dry out between waterings",
+  "Let excess water drain fully and never leave her standing in water",
+  "Give her time"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2744,
+ "output_tokens": 886
+}

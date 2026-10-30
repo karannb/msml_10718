@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Nothing here poses a meaningful risk. \"Water only when that top inch is dry\" and \"empty the saucer after 30 minutes\" guard against overwatering. The pebble tray instruction (\"water filled to just below the pot's base\") avoids waterlogging. The repotting step is conditional and only follows a week of watching, so it won't trigger premature intervention. Prayer plants are non-toxic, so no pet warning was needed."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "\"Most likely cause: underwatering, made worse by dry heated air\" matches the reference's confirmed dehydration. It also answers the user's heater question directly. The advice draws on case details: the plant filling a new pot in under 6 months suggests fast drying, the user mentions the heater, and \"leaves look limp rather than mushy\" reflects the user's note that the leaves feel less soft. \"Give it a few days to perk up\" mirrors the reference's \"see how the watering affects it in the next day or two,\" and the poster did recover. The finger-test watering guidance is somewhat standard but fits the diagnosis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a finger soil check every 2\u20133 days, watering until it drains, and a pebble tray at \"about $5 to $10.\" The repotting step gives a clear trigger (\"still looks limp after a week\") and a size guideline (\"pot 2 inches wider\"). Anyone could follow this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Push a finger about an inch into the soil. Water only when that top inch is dry",
+  "Pour until water runs out the drainage hole, then empty the saucer",
+  "group it with other plants"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2333,
+ "output_tokens": 606
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core message, \"Your cutting isn't sick\" and \"Don't reduce it,\" is safe and matches the reference. Moving a 30W light to \"roughly 6-12 inches\" carries a small risk for white albo tissue, but the output adds a bleaching caveat. The \"gentle tug\" check, combined with the assumption that \"the stem has no roots yet,\" could disturb a fragile cutting. Calling rot recovery \"cut above the damage\" is reasonable, so the overall risk is minor."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly labels the plant as normal and says \"Light isn't causing the white,\" which agrees with the reference. It misses the reference's key point: an unfurling leaf looks lighter and darkens or shows more green once open, so the user should wait. Instead it attributes the color to fixed genetics and adds a pessimistic note that greener leaves \"you can't count on,\" which the update contradicted. It also asserts unverified details such as \"Your stem also has white streaking\" and \"the node is at soil level.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: keep the photoperiod, move the light to \"6-12 inches,\" keep the soil \"lightly moist, never soggy,\" and watch the base for softness or blackening. Any home grower could do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the soil lightly moist, never soggy.",
+  "If the stem goes soft or black at the base, that means rot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2512,
+ "output_tokens": 1075
+}

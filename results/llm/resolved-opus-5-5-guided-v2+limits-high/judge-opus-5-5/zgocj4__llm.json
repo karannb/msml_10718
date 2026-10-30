@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most of the advice is low-risk. Checking the soil before watering, soaking for 10\u201315 minutes, draining completely, more light and trimming dead stems are all reasonable for a thirsty sedum. The risk is the confident claim \"You don't need to repot. The nursery pot has drainage holes.\" The REFERENCE says the problem was a pot/soil setup without drainage that needed repotting. If the pot really lacks holes, this advice keeps the plant in a setup that can't be watered deeply or drained, which raises rot risk or prolongs the underwatering."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The diagnosis \"Most likely: underwatering\" correctly ties the quarter cup over almost a month and the dry soil to the drooping, matching the REFERENCE. Bottom watering also matches the commenters' approach. However, the output says repotting is unnecessary because \"The nursery pot has drainage holes,\" while the REFERENCE names the poor soil/pot setup with no drainage as part of the problem and recommends repotting into fresh soil in a pot with holes. Its added low-light point is case-specific, since the user mentions limited sun, but the main fix diverges from the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing beyond household items: \"Push a finger 1 inch into the soil,\" \"set the plastic pot in a bowl with 1\u20132 inches of water for 10\u201315 minutes,\" move it to the brightest window, and snip brown stems with scissors. Timing guidance (\"about weekly,\" \"Check again in a week\") is clear. Anyone could do this immediately."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it to your brightest window",
+  "Check again in a week"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2276,
+ "output_tokens": 995
+}

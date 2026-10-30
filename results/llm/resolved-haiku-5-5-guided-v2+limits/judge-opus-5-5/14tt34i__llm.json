@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model says \"Check the soil today... If it's damp, don't water\" and \"Cut off any rotten roots... using clean scissors dipped in rubbing alcohol.\" Both are safe and fit a wet-soil, rot-risk case. It warns against harsh direct sun, which is reasonable. It does not mention that Monstera is toxic to pets, but nothing it recommends creates a hazard."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model identifies \"overwatering or poor drainage,\" notes \"The soil looks dark and damp, the pot appears to have no drainage hole,\" and recommends \"potting soil mixed with an equal part perlite or orchid bark.\" This matches the reference's dense wet soil, drainage, and chunky aroid mix. It also correctly answers the user's question about holes for M. adansonii. It misses the reference's point that the plant is stretching and needs more light; \"Keep the plant in bright, indirect light\" is a generic maintenance line, not a diagnosis of low light."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, cheap, and time-bounded. Examples include \"Push a finger 2 inches down,\" \"about 15 minutes\" to unpot, and \"a plastic nursery pot with drainage holes, placed inside the metal pot as a cachepot (about $10).\" Every item is easy to buy, and the instructions are clear for any home owner."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when the top 2 inches of soil are dry",
+  "Keep the plant in bright, indirect light, away from harsh direct sun"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2343,
+ "output_tokens": 576
+}

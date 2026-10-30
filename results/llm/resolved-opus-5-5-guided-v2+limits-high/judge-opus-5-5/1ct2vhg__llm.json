@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to 'Lower the light to 6\u201312 inches above the rosettes... If any leaves bleach or crisp, raise it 2 inches' includes a built-in safeguard against burning. 'Water only when it's fully dry' and 'never over the leaves' suit succulents and protect the farina. No chemicals or risky treatments are suggested, and the plant is not unnecessarily treated for mold."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, 'not enough light, plus worn-off farina. There is no mold here,' matches the reference exactly. The output also correctly explains stress colors, stretching, and farina not regrowing on touched spots, and it answers the user's soil and timer questions directly. However, it relies on the grow light alone. The reference's key fix is to 'put them back by the window and put a growlight above them,' because grow lights give only a fraction of sunlight. The output does not advise combining the two."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and cheap: 'A plug-in outlet timer costs about $10. Set it for 14 hours,' a specific height range, and a finger test for watering. Any home owner can do all of this this week without special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil before each watering. Push a finger 2 inches into the soil and water only when it's fully dry."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2633,
+ "output_tokens": 759
+}

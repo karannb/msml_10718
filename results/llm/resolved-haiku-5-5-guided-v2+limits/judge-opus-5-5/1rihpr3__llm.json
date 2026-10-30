@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says to \"Check the soil before watering again\" and to \"Hold off on repotting and fertilizing,\" which is conservative and safe. It also warns \"If the stems turn soft or black, or the soil smells sour, repot it.\" Holding off on repotting means the nursery mesh around the corms, which the poster later found, would go undiscovered. That is a minor delay, not real harm. It omits that Alocasia is toxic to pets and children, a minor missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The primary diagnosis, \"transplant stress plus soil that is staying too wet,\" differs from the reference's confirmed cause of insufficient light. The model does raise light as action 3: \"Bathrooms are often too dim for Alocasias, so the bathroom may be contributing.\" It ties this to the case details (bathroom, the damp-soil observation). The fix the reference emphasizes, a lot more light or a grow light, is treated as secondary. It never mentions dormancy or nursery mesh."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: \"Push a finger 2 inches down and lift the pot,\" \"clean scissors, sterilized with rubbing alcohol,\" and \"a few feet from a bright window with a sheer curtain.\" No special tools are needed, and the timeframe is clear."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when the top 2 inches are dry, then water thoroughly until it drains and empty the saucer",
+  "Remove the most damaged leaves at the base with clean scissors",
+  "Hold off on repotting and fertilizing for at least a month",
+  "Watch for new leaf growth over the next few weeks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2540,
+ "output_tokens": 604
+}

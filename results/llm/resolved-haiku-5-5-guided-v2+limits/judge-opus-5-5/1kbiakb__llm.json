@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to \"Move it out of direct sun\", \"Water only when the soil is dry\" and to cut off only \"the most badly scorched leaves\" while leaving lightly marked ones. None of this risks harm. Pilea is non-toxic, and the escalation step is gentle: \"gently lift the plant and check\" roots only if the stem goes soft. There is no chemical use and no risky step."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis of \"sun scorch, most likely from the hot months\" matches the reference's sun stress and \"make sure it's not getting sunburnt.\" Trimming the worst leaves matches the advice to \"trim it off.\" It ties advice to case evidence: the hot months, the overhead watering in place of misting (\"Skip misting; it isn't needed\"), and the recent weeding as a cause of the split. It somewhat overstates the problem by describing multiple scorched leaves when the reference treats it as one damaged leaf on an otherwise healthy plant, and it never explicitly reassures the poster that the plant is basically fine. It also leaves out water marks, which the reference lists as a possible cause."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and cheap: \"a few feet back from a bright window, or behind a sheer curtain,\" the \"finger about 2 cm\" moisture test, and \"clean scissors.\" They respect the user's stated limits on money and tools. Everything can be done this week with no special products."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the soil is dry",
+  "Bright indirect light is ideal",
+  "If the spots keep spreading, or the stem base turns soft or black, the roots may be rotting"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2327,
+ "output_tokens": 605
+}

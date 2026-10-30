@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Check the roots today\" and \"cut off every mushy or brown root\" with \"scissors wiped with rubbing alcohol\" is safe and addresses the actual problem. It warns against watering a rotting plant by saying \"Water only when the top 2 inches of soil are dry\" and \"empty the saucer after 15 minutes.\" It does not mention that peace lilies are toxic to pets and children if chewed. That omission is minor because no ingestion risk is raised by the treatment itself."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "\"Most likely cause: overwatering and root rot\" matches the confirmed diagnosis. The output cites case evidence: \"soil looks dark and damp, the stem bases near the soil are brown and soft.\" \"empty the saucer\" corresponds to the reference's catch-pot warning. It recommends repotting in fresh soil rather than the reference's water propagation, which is a valid alternative. The final step on light and heating vents is somewhat generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable with household items: \"Slide the plant out of its pot,\" use \"scissors wiped with rubbing alcohol,\" and buy \"peat-based potting mix (about $10).\" The finger test for soil moisture and the 15-minute saucer rule are clear and actionable this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light and away from heating vents while it recovers"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2269,
+ "output_tokens": 535
+}

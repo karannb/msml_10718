@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The output warns to 'Test your alcohol spray first... 70% alcohol can scorch leaves, tender new growth, and orchid flowers' and says 'Don't spray in direct sun.' It also tells the user to 'Check the label for orchids' before using spinosad or soap. These caveats matter for 25-year-old orchids. The minor risk is that it still endorses spraying 70% alcohol 'every 3 to 5 days for at least 3 to 4 cycles' across 80 plants. Cumulative alcohol exposure could stress sensitive plants even after a spot test passes."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis of thrips matches the reference. The advice is pest-specific: 'Thrips eggs hatch in about a week, and the pupae in soil or pots are not reached by spraying,' plus shorter spray intervals, spinosad, and blue sticky cards. However, it never mentions beneficial predatory mites (Amblyseius cucumeris/swirskii), which the reference shows eradicated the infestation. It also flags soil pupae but offers no fix for them. The aside about the 'healthy' classifier label is a confusing internal artifact that the user never saw."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are clear and numbered, and they use easily bought products: sticky cards, insecticidal soap, spinosad. Spraying 80+ plants every 3\u20135 days, covering undersides and growing tips, is a heavy but realistic workload for this dedicated grower. Isolating heavily infested plants in a full plant room may be hard, but it is doable."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Quarantine new plants for a few weeks",
+  "Isolate and inspect",
+  "consistent treatment across the whole room matters more than any single product"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2498,
+ "output_tokens": 1140
+}

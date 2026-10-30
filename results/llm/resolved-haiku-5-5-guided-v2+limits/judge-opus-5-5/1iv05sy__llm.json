@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Swabbing with 70% isopropyl, removing badly damaged leaves, and following insecticidal soap labels are all low-risk. 'Stop spraying the whole plant' slightly conflicts with the reference, which recommends a full alcohol misting after wiping. Spot-swabbing alone may miss mobile pests like whiteflies, which could delay control. There is also no warning that syngonium sap is toxic to pets and children."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model states 'This looks like mealybugs,' but the poster says 'These didn't look like mealies,' and the reference identifies whiteflies or similar bugs. The output also cites details not given in the case, such as 'sticky sheen' and 'brown, crispy leaves.' Its treatment ('Dab each visible mealybug,' removing bad leaves, insecticidal soap) partly overlaps with the reference's wipe-down advice. However, the root check targets root mealybugs, which follows from the misdiagnosis rather than the case evidence."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use cheap, common supplies. 'Cotton swab dipped in 70% isopropyl alcohol... Repeat every 3 days for 3 weeks, about 10 minutes each time' gives a clear schedule. It also names an affordable product: 'Safer Brand... about $10.' Any home grower could do this."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep the plant away from your other plants while you treat it",
+  "Check the roots",
+  "repot in fresh mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2549,
+ "output_tokens": 1082
+}

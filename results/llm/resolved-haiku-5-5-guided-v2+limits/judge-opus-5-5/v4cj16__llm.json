@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"If the soil is dry, water thoroughly,\" fixes the actual problem. The finger test before watering prevents harm if the soil is unexpectedly wet. Two minor gaps: there is no warning that peace lilies are toxic to pets and children (calcium oxalate), and \"Cut off the fully collapsed or brown leaves\" could lead a nervous beginner to remove leaves that would recover after watering. Neither is a serious risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names the plant correctly (\"peace lily (Spathiphyllum)\") and makes the right diagnosis (\"badly underwatered\"). It supports this with case evidence (\"leaves are still green and firm rather than crispy or mushy\"), which matches the reference's \"very, very thirsty peace lily.\" It predicts quick recovery (\"Leaves should start to lift within a few hours\"), matching the poster's update. It also addresses the user's soil worry directly (\"worth improving at your leisure... but it isn't urgent\"). The root-rot alternative is properly conditioned on wet soil, not presented as the main diagnosis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses only fingers, water and scissors: \"Push a finger about 2 inches (5 cm) down,\" \"water slowly until it runs out the bottom, and let it drain for about 15 minutes.\" The steps are clear, numbered and doable today by a beginner. Repotting is optional and deferred."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water again only when the top 2 inches are dry",
+  "repot in fresh potting mix in a pot with drainage holes",
+  "Never let the decorative pot hold standing water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2280,
+ "output_tokens": 871
+}

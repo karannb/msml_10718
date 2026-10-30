@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Soak the pot once a week\" is a fixed schedule that conflicts with step 2 (\"Water only if it is dry at that depth\"). Followed literally long-term, it could overwater a dracaena, though a soak is right for the current dry root ball. \"No repotting is needed yet\" may slow the lasting fix for a rootbound, hydrophobic root ball, but it is not dangerous. The rot-check guidance in step 3 is reasonable and carries little risk."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The core diagnosis, \"the root ball is drying out between waterings, and the trunk is mildly dehydrated,\" matches the reference. The soaking advice, including the explanation that top-watering runs past a dry root ball, fits the case evidence that roots were dry a week after watering. However, it explicitly says \"No repotting is needed yet,\" which contradicts the reference advice to move it to a larger container with fresh soil. It also cites details not given in the case, such as \"pale and firm\" roots, \"browning at the bottom,\" and \"not circling heavily.\""
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need only a sink or bucket and a finger test: \"Stand it in a sink or bucket of water for 20 to 30 minutes,\" and \"Push a finger 5 cm (2 in) into the soil.\" The main ambiguity is the conflict between a weekly soak and watering only when the soil is dry, which leaves the user unsure which rule to follow."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in its current spot away from drafts and heaters, and don't move it again.",
+  "Check the soil before each watering.",
+  "Reassess in a month or two"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2317,
+ "output_tokens": 1086
+}

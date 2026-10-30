@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is low-risk, but it hedges toward under-feeding: 'If you've been feeding heavily, cut the strength by half' and 'A nitrogen or magnesium supplement only makes sense if your tests show a deficiency.' The plants were simply hungry, so this could delay the feeding that fixed them. Removing yellowed leaves from an underfed plant also takes away some photosynthetic tissue. Neither causes serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model correctly lands on 'a nutrient imbalance, probably nitrogen or magnesium shortage,' which broadly matches the reference's 'hungry.' But it describes the yellowing as 'on several mid and lower leaves while the newest growth at the top still looks green,' which contradicts the reference's upper-leaf yellowing. It then dilutes the diagnosis with 'feed that is too strong,' pH issues, overwatering and light stress. The core fix, simply feeding, is muddled by the advice to cut strength and test first."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps like 'Push a finger about an inch down' and 'Remove the most yellowed leaves with clean scissors' are concrete and easy. 'Test the pH of your runoff' requires a pH kit or meter, which is buyable but extra effort. Tying supplements to 'if your tests show a deficiency' is vague, since home owners can't easily test for specific nutrients."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil before watering",
+  "Water only when the top layer is dry",
+  "Healthy roots are white or light tan, not brown or slimy",
+  "use a balanced fertilizer",
+  "Remove the most yellowed leaves with clean scissors",
+  "tell me your watering schedule, pot size, and light distance"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2302,
+ "output_tokens": 841
+}

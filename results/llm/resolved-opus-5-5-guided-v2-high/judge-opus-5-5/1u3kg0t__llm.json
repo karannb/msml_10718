@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe. \"Move it 1 to 2 m back from the window\" and \"Keep it warm, ideally 65 to 75\u00b0F\" carry no risk. \"Water by the soil, not the calendar... empty the saucer afterward\" protects against overwatering. The root-rot check (\"Brown, mushy or bad-smelling means rot\") is a reasonable precaution. No chemicals or toxic treatments are involved."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model names \"Most likely cause: cold\" as the primary diagnosis, while the REFERENCE confirms low humidity. Cold is a plausible reading, since the user says \"I am constantly freezing,\" and the advice draws on case details (the window, the clear pot, the 4-day watering). However, humidity appears only as fix step 4 (\"Group it with other plants or run a humidifier nearby\"). The model misses the REFERENCE's specific remedy of sealing the plant in a clear bag or box, which is what actually worked for the poster."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: move the plant back from the window, pick a warmer room, do a finger soil test, look at the roots through the clear pot, and group plants or use a humidifier. The distances and temperatures are given explicitly. Only the humidifier would require a purchase, and it is offered as an option."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright, indirect light is still fine",
+  "Water when the top inch is dry, use room-temperature water, and empty the saucer afterward",
+  "Keep it out of the path of cold drafts and heater vents",
+  "Group it with other plants or run a humidifier nearby"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2622,
+ "output_tokens": 846
+}

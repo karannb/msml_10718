@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and treats the real problem: 'Water only when the top 2 to 3 inches are dry' and 'Repot into a pot with drainage holes, using a chunky, well-draining mix' directly address overwatering. Two minor issues: 'Replace the sticky trap with a shallow dish of water to catch gnats' swaps a working control for a weak one (plain water does little without soap or vinegar). 'If the soil is bone dry, do the same repotting steps' would put a dry-stressed plant through needless disturbance. Neither is likely to cause serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies 'soil that stays too wet' and possible rot, which matches the reference. It ties the diagnosis to case evidence: 'the yellow sticky trap suggests fungus gnats,' 'the soil looks dense and dark,' and 'a decorative container with no visible drainage.' However, it misses the key cause the reference confirms, which is a pot far too large for a three-leaf plant. It never recommends moving to a smaller pot, the fix that actually worked for the poster. It also hedges toward underwatering and humidity."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The 'Check first' steps (finger test, lifting the pot, inspecting roots) are concrete and easy for anyone. The repotting steps use common supplies like perlite, bark, and clean scissors. The gnat-trap swap is unclear and of doubtful effectiveness. The output also doesn't say what pot size to choose, so a user might repot into another oversized container."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "raise humidity with a pebble tray or grouping plants",
+  "Pause fertilizer until new growth looks healthy",
+  "Remove the most damaged leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2467,
+ "output_tokens": 990
+}

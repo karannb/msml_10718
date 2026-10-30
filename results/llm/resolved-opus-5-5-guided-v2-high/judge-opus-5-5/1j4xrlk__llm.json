@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Telling the owner to 'Water when the top 1\u20132 cm of soil is dry' and that 'Your instinct to water as it started drying was right' conflicts with the reference's 'don't water it.' This creates some rot risk for a cold-damaged baby plant. The risk is reduced by the warning 'don't keep it soggy while it's cold-stressed' and the instruction to watch the stem base for softening. The other steps (warmth, humidity cover with daily airing, insecticidal soap only if pests are found) are low risk."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The diagnosis 'cold shock' from the trip matches the reference. 'Loosely cover it with a clear bag or box' parallels the glass-jar humidity advice, and the adansonii-vs-obliqua note is a useful case-specific observation. However, the output misses the reference's key intervention of chopping the plant about 1 cm above the soil, and instead says 'Leave the damaged leaves on.' Its watering advice also contradicts the reference. The pest and window-cold alternatives are somewhat speculative padding."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy to carry out at home: 'Pull it 30\u201350 cm back from the window at night,' 'cover it with a clear bag or box for 1\u20132 weeks. Air it out daily,' and 'Aim for 18\u201324 \u00b0C.' No special tools are needed beyond an optional humidifier."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "keep it out of drafts and away from radiators",
+  "Water when the top 1\u20132 cm of soil is dry, until it drains out the bottom",
+  "Don't repot or fertilize yet",
+  "Check the leaf undersides for silvery stippling, tiny moving specks or fine webbing"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2473,
+ "output_tokens": 1064
+}

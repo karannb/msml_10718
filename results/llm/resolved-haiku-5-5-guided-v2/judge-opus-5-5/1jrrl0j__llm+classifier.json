@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The steps \"Water thoroughly... it may take two rounds\" and \"Acclimate the light gradually\" are unlikely to hurt a dormant or neglected Crinum bulb, and sun-loving Crinum tolerates gradual exposure fine. However, the confident misidentification (\"looks like a corn plant (*Dracaena fragrans*)\") leads to Dracaena-specific care that could delay giving the plant the full sun and warmth it needs. The output also omits any pet-toxicity warning, which applies to both Dracaena and Crinum. It does not flag the cold-window or cold-root risk in zone 5a that the reference raises."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The ID is wrong. The reference identifies a Crinum lily, supported by the 25 lb weight and bulb structure, yet the model says \"corn plant (Dracaena fragrans)\" and calls the bulb's papery tunic \"peeling bark on the cane.\" Its diagnosis of \"underwatering\" is loosely tied to the \"VERY dry and sandy\" soil and overlaps with the revival need. But it misses the reference's key point: light and warmth are the challenge. It even pushes the plant back from the sun (\"a few feet back from the south window\"), the opposite of the reference's \"Sunlight is the best.\" The soil advice to add perlite or bark partially matches the reference's \"tropical blend with some sand or perlite.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable with household items: \"Test with a finger or a wooden chopstick,\" \"empty the saucer after 15 minutes,\" and \"Go up only one pot size (about 2 inches wider).\" No special equipment is needed. The timeline is realistic."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when the top 2\u20133 inches are dry",
+  "make sure the pot has drainage holes",
+  "Use a well-draining potting mix",
+  "Recovery takes weeks, so don't overreact",
+  "Low humidity or dry air"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2880,
+ "output_tokens": 1155
+}

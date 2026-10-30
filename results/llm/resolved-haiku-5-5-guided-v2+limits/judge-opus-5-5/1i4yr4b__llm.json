@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice to check roots, trim rot, add perlite, and water far less is safe and matches the reference. However, \"Cut the yellowed stems at the soil line\" contradicts the reference's \"Don't cut off more stems if they just start yellowing\". It could needlessly remove a partially yellow stem that still feeds the tuber. There is also no mention that ZZ sap is irritating and the plant is toxic to pets, which matters when handling and cutting it."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely cause: overwatering, with early root rot\" matches the reference, and \"every two weeks is too often\" and the \"every 3\u20134 weeks\" interval align with the advice to at least double the watering interval. Contrasting it with underwatering (\"aren't crispy or curled\") ties the diagnosis to case evidence. But \"The soil in your photo looks dark and damp\" asserts photo details that aren't described in the case. The watering cue (\"top 5 cm is fully dry\") misses the ZZ-specific cue from the reference: wait until stems go soft. \"Repot only if you find rot\" is more hesitant than the reference's \"dig it out now\", though step 2 does have the user inspect the roots."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps are concrete and need only household items: \"Push a finger 5 cm into the soil\", \"Squeeze the stems near the soil line\", \"trim the rotten parts with clean scissors\". The one purchase, perlite (\"about $5\"), is cheap and easy to find. The mix ratio and the 15-minute saucer rule are clear. Everything can be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the top 5 cm is fully dry",
+  "Pour out any water left in the saucer or outer pot after 15 minutes",
+  "Repot into a pot with drainage",
+  "trim the rotten parts with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2485,
+ "output_tokens": 1102
+}

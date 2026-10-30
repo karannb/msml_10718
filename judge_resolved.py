@@ -1,6 +1,7 @@
 """Score eval_resolved.py's answers with the 1-5 advice judge (prompts/advice_judge.txt), as a pass separate from score_resolved.py.
 
     python judge_resolved.py --models claude-sonnet-5-5 claude-haiku-5-5 --baseline claude-sonnet-5-5:llm
+    python judge_resolved.py --models claude-opus-5-5-guided-v2-high   # MODEL[-PROMPT], as in score_resolved.py
 
 The judge reads the post (photos shown as [photo]), the thread's reference (confirmed problem, advice that worked, outcome)
 and the answer. One call per answer, cached in results/llm/resolved-<model>/judge-<grader>/. Writes reports/judge-resolved.md.
@@ -29,7 +30,8 @@ SCHEMA = {"type": "object", "additionalProperties": False, "required": AXES + ["
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--models", nargs="+", default=["claude-sonnet-5-5", "claude-haiku-5-5"])
+    ap.add_argument("--models", nargs="+", default=["claude-sonnet-5-5", "claude-haiku-5-5", "claude-haiku-5-5-guided-v2",
+                    "claude-haiku-5-5-guided-v2+limits", "claude-opus-5-5-guided-v2-high", "claude-opus-5-5-guided-v2+limits-high"])
     ap.add_argument("--grader", default="claude-opus-5-5")
     ap.add_argument("--baseline", default="claude-sonnet-5-5:llm", help="MODEL:OPTION every other run is compared with")
     args = ap.parse_args()
@@ -56,7 +58,8 @@ def main():
                     diagnosis=v["diagnosis_matches_reference"], n_generic=len(v["generic_phrases"]),
                     grade_in=v["input_tokens"], grade_out=v["output_tokens"])
 
-    jobs = [(m, row, o) for m in args.models for row in threads.itertuples() for o in OPTIONS]
+    jobs = [(m, row, o) for m in args.models for row in threads.itertuples() for o in OPTIONS  # options the run has
+            if Path(f"results/llm/resolved-{short(m)}/answers/{row.thread_id}__{o}.json").exists()]
     with ThreadPoolExecutor(8) as ex:
         df = pd.DataFrame(ex.map(score, jobs))
     df["safe_and_useful"] = (df[AXES] >= 4).all(axis=1)

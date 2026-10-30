@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Keep the light as it is\" and \"Keep the soil lightly moist, not soggy\" are safe and match the reference's view that the light is fine. The main risk is step 4: \"you can use the node to try rooting more stem or taking a new cutting\" makes little sense for a single-node cutting. It could prompt an anxious owner to cut it up unnecessarily. Leaking the internal \"fungal_bacterial label at 86%\" may also confuse or alarm the user, though it tells them to ignore it."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly calls this \"normal albo variegation, not a disease\" and judges the ~30W light at 1.5 ft as fine, both consistent with the reference. However, it attributes the whiteness to genetics and fixed low chlorophyll. It misses the reference's key point: furled, immature leaves often look whiter and show more green once unfurled and matured, which the poster's update confirmed. The watering and fertilizer tips are generic and not tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps such as \"Keep the light as it is,\" \"Water when the top inch is dry,\" and \"Don't feed it yet\" are clear and easy for any home grower. The checks for crispy browning or soft rot at the base are simple visual inspections. Step 4's suggestion to root more stem or take a new cutting is vague and hard to act on with a single node."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the soil lightly moist, not soggy. Water when the top inch is dry.",
+  "Don't feed it yet. Fertilizer can stress a young cutting.",
+  "Be patient."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2552,
+ "output_tokens": 1077
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice is mostly safe. It says to check for standing water, \"water only when the top 2\u20133 cm feel dry\", and avoid fertilizing, all of which protect a plant with wet soil. The one minor risk is \"If it's dry there, or the pot feels light, water thoroughly.\" A user could over-apply this to soil the case already describes as moist. It is conditional on a finger check, though, so the risk is small."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The headline diagnosis is \"transplant shock\", with soggy roots listed as an alternative. That partly matches the reference, which names post-repotting stress compounded by low light and wet soil. The output does say \"Give her good light. Use your plant lamp 10\u201312 hours a day... Recovering roots need energy\", which matches the reference's main fix and uses the user's lamp. However, it never connects the low light (\"further away from the window\") to the soil staying wet. That causal link is the key insight in the reference. It also adds a less relevant \"dry root ball\" hypothesis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: \"Lift the inner pot out\", \"Push a finger 3\u20134 cm down\", \"plant lamp 10\u201312 hours a day, about 30\u201350 cm above\", and loosen the tie. The user already has every item needed, and no special tools are required."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep her warm, away from the radiator and cold drafts",
+  "Be patient",
+  "Don't water on a schedule",
+  "A humidifier or grouping plants together helps more"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2534,
+ "output_tokens": 561
+}

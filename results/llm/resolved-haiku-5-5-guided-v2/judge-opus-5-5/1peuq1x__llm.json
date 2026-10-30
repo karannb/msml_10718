@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model recommends to \"Flush the medium... Repeat once or twice over a few days.\" For a plant whose real problem was a dense, poorly draining mix, saturating it repeatedly could worsen root stress or rot, even with the caveat \"Make sure the container drains.\" The root check and \"Stop fertilizing completely\" are sensible. There is no warning that Alocasia is toxic to pets and children, though that is a minor omission here."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The headline diagnosis, \"Most likely: fertilizer burn (salt damage),\" leans on timing, while the REFERENCE attributes the decline to stress in a dense, poorly draining mix. The model does flag \"Root rot from wet moss... sphagnum in a clear cup\" and suggests repotting \"into fresh, airy medium.\" However, it makes repotting conditional on finding rot, and it never recommends the snug pot or bark/perlite mix the REFERENCE advises. The claim that trimming \"stops spread\" is inaccurate, and it doesn't mention that new Alocasias commonly drop leaves."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need only household items: stop feeding, flush with plain water, slide the plant out to inspect roots, and trim with scissors. \"Make sure the container drains\" is ambiguous for a clear cup that may have no holes. The model also doesn't explain how to add drainage or what airy mix to use."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright, indirect light and steady humidity while it recovers",
+  "Trim the crispy edges with clean scissors",
+  "water only when the top of the medium starts to dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2565,
+ "output_tokens": 1021
+}

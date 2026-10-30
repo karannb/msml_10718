@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Push a finger about 2 inches (5 cm) into the soil. If it's dry, water thoroughly\" and to \"Keep him out of direct afternoon sun\" directly addresses dehydration and scorch without risking overwatering. \"Don't repot or fertilize right now\" avoids adding stress to a weakened plant. No chemicals are involved, and the light-acclimation suggestion is protective rather than risky."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output labels the plant \"underwatered and sun-stressed,\" which matches the reference's confirmed problem of underwatering and sun stress after being put outside. It cites case-specific evidence (\"brown, crispy leaf tips,\" \"dry-looking soil edge,\" \"sudden outdoor sun\"). The core actions, watering him and moving him to bright indirect light or indoors, align with the commenters' advice. The note that \"new green growth from the center means he's bouncing back\" fits the poster's later report of recovery after 2 weeks inside."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Most steps are concrete and need only a finger test, water, and scissors, e.g. \"empty the saucer after 15 minutes\" and \"cut off fully brown, dry leaves at the base.\" Step 2 is somewhat ambiguous: it says \"Move him to bright, indirect light\" but also \"bring him in at night... move him back out gradually, an hour more sun each day.\" It is unclear whether he should stay indoors to recover first, as the reference suggests, or be hardened off right away. Otherwise everything is easily doable this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water on a schedule from now on",
+  "water only when the top 2 inches are dry, which is usually once a week indoors",
+  "Don't repot or fertilize right now"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2193,
+ "output_tokens": 973
+}

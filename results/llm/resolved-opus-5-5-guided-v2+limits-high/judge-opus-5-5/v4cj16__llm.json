@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to \"check the soil\" before watering and to water only \"if the soil is dry and the pot feels light,\" which guards against overwatering a rot-affected plant. The step \"If the roots are brown, mushy or smell bad, post a photo of them before doing anything else\" is cautious and won't delay the fix for a thirsty plant. It omits a pet toxicity note for peace lily (calcium oxalate), but the user didn't ask about pets and no advice creates exposure risk. No meaningful harm."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It names the plant correctly as a peace lily and gives \"Most likely cause: thirst,\" matching the reference's confirmed underwatering diagnosis. It cites case evidence: \"leaves are still green and firm-looking, not yellow or black.\" It also directly answers the soil concern with \"You don't need to repot or change the soil right now.\" The \"perk up within 12\u201324 hours\" claim matches the reference outcome. The brighter-light step is a minor addition, but it is tied to the photo (\"This corner looks dim\")."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed: \"Push a finger 2 inches into the soil,\" \"Take the plant to the sink, water slowly until water runs out the bottom.\" They need no special tools or products. A beginner could do all of it today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2202,
+ "output_tokens": 512
+}

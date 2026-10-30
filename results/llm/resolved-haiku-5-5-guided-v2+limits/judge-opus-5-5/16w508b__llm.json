@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Treat the pests with spinosad... Follow the label dose\" is a safe, appropriate thrips treatment and matches the reference's Captain Jack's (spinosad). \"Stop using sulphur\" in 35\u00b0C heat is also sound. However, \"Move it away from hot window glass... and afternoon sun\" could push a plant already 3 m from the window into even lower light, which the reference names as a contributing problem. There is no pet or child caveat, although spinosad is relatively low risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The headline diagnosis, \"a persistent thrips problem,\" and the spinosad treatment match the reference, and the sulphur-burn point ties directly to the user's own suspicion and the 35\u00b0C temperatures. The output misses the reference's low-light factor and the \"chop and prop\" suggestion. It cites \"white and orange specks in your close-ups,\" which are not in the case description. The watering step is generic. \"Every 7 days for 3 weeks\" may be too short, since the poster said it took several lifecycles to clear the thrips."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and achievable: buy a spinosad product (\"roughly \u20ac10\"), spray the undersides and leaf axils weekly, use the finger test for soil moisture, and remove mostly brown leaves. No special equipment is needed and timing guidance is given (\"evening or early morning\"). Anyone could start this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil before each watering. Push a finger 5 cm down and water only when it's dry",
+  "Overwatering often accompanies pest-stressed plants",
+  "check the roots for mush or a sour smell",
+  "Remove any leaves that are mostly brown"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2538,
+ "output_tokens": 979
+}

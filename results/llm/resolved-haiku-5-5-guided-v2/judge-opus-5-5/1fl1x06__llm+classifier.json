@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output recommends dabbing with \"70% isopropyl alcohol\" and spraying \"insecticidal soap or diluted neem oil\" after a patch test (\"Test the spray on one leaf first, since Hypoestes can be sensitive\"). These are standard low-risk home treatments with a sensible caveat. Nothing here would damage the plant or endanger people or pets. Repeated spraying is more than this single-bug case needed, but it is not harmful."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly names mealybug as the leading diagnosis (\"most likely mealybugs or soft scale\"). It also gives the reference's core advice: dab with alcohol and inspect stem joints and leaf undersides. Hedging with soft scale, and describing the bugs as \"bumps\" at nodes, slightly dilutes the match. A 3\u20134 week spray regimen and cutting infested tips are escalations beyond what one visible bug warranted. The poster resolved it by removing the single bug and inspecting."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use easily bought products: cotton swabs, rubbing alcohol, insecticidal soap, and plastic wrap. Step 4's \"soil-wrapping plastic\" is slightly vague. The multi-week schedule takes more effort than needed. Overall, a new plant owner could follow it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate the plant away from your other houseplants",
+  "Also check your other plants before anything else"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2330,
+ "output_tokens": 545
+}

@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model leads with \"Most likely: leaf burn from the sprays, not spider mites\" and says \"If you find no mites, stop spraying completely,\" even though the poster is in an active, confirmed mite battle. That confident misdiagnosis could lead them to stop treatment early and let the infestation rebound. The warnings against layering neem with soap and against putting wet, freshly sprayed leaves in sun are sound. Nothing it recommends is directly dangerous."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The REFERENCE confirms a spider mite infestation resolved with a systemic (Bonide). The model's primary diagnosis is spray burn and it doubts the mites (\"I can't see any of that in your photos\"), which contradicts the confirmed problem. It does include a case-relevant mite check and soap regimen as a fallback. However, it never suggests escalating, for example to a systemic as the reference did, despite the user saying neem and soap are already failing."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for any home owner: the white-paper tap test, the phone-flashlight leaf check, and \"Repeat every 5\u20137 days for 3 weeks.\" They use cheap, available products. Practicality is reduced only because repeating the soap-only approach the user says is already failing is unlikely to resolve the problem."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Leave the brown spots alone... the plant will replace those leaves with new growth over time"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2183,
+ "output_tokens": 886
+}

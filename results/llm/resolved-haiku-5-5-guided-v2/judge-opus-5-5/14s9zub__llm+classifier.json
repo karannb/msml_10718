@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says \"treat with insecticidal soap or neem oil every 5 to 7 days for three weeks\" and \"Isolate the plant while treating.\" These are safe, standard treatments, and humidity plus showering both work against mites. The minor risk is the lead label \"Most likely: dust.\" It could lead a user to wipe the plant and stop, which delays treatment of an infestation the reference confirms is causing visible decline. There is no warning about spraying in direct light, which the reference stresses."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "Spider mites are named, and the stippling description and the white-paper and webbing tests are mite-specific and accurate. However, the headline diagnosis is \"dust,\" with mites and thrips presented as alternatives. The reference firmly identifies spider mites from the pale, thin fronds. The watering and humidity section (\"Check the soil before watering... Dry air or underwatering would cause the brown tips\") is partly generic and pulls focus from the confirmed mite problem."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step uses household items: \"Wipe a leaf with a damp paper towel,\" \"Tap a frond over white paper,\" a phone zoom, and a shower rinse. Insecticidal soap and neem are easy to buy, and the 5\u20137 day interval for three weeks is a clear schedule. Anyone could follow this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil moisture before each watering rather than watering on a schedule",
+  "Raise humidity around the plant with a pebble tray or a humidifier",
+  "keep it out of direct sun",
+  "Push a finger 2 to 3 cm down. If it's dry, water thoroughly until it runs out the drainage hole and empty the saucer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2648,
+ "output_tokens": 621
+}

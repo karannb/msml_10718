@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says 'Move both plants to your brightest window... direct sun for as many hours as possible' with no warning about cold glass. The REFERENCE confirms that a cold window was part of the actual problem, so this advice could worsen it. The rest is safe: 'Water thoroughly only when it feels dry,' emptying the saucer, not cutting leaves, and 'Don't fertilise for about 6 weeks.'"
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model correctly names the plants as 'young bird of paradise plants (Strelitzia)' and identifies 'transplant shock,' which matches the REFERENCE. It also correctly explains that 'Strelitzia leaves tear along their veins by design.' However, it misses the cold-window stress and blames 'dry winter air' and a radiator instead. It also invents details not in the CASE, such as a 'frosted kitchen window,' a radiator, and a basket, which suggests a hallucinated or misapplied context."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and timed, for example 'Push a finger about 5 cm deep' and 'Keep them at least 1 m from the radiator.' Anyone can do this with no special tools. The invented 'frosted kitchen window' and 'basket' references may confuse this user, which slightly reduces clarity."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water thoroughly only when it feels dry at that depth",
+  "Empty the basket and saucer 15 minutes after watering so the roots never sit in water",
+  "Move both plants to your brightest window",
+  "Don't fertilise for about 6 weeks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2384,
+ "output_tokens": 874
+}

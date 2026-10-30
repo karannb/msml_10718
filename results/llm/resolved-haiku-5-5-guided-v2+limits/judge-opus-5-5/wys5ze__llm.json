@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says \"Adding soil on top is a fine quick fix\" and suggests to \"Add a half-inch layer of the same mix over the exposed roots.\" This contradicts the reference's warning not to raise the soil level on a plant left in its pot. The risk is limited because the layer is thin and the model adds \"keeping the trunk base visible.\" The repotting steps (drainage hole, modest size increase, trunk not buried) are safe, so this is a minor risk rather than serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model plausibly identifies a ginseng ficus and engages with the user's actual questions about repotting, top-dressing, and soil type. However, it hedges with \"If the root ball is loose, top-dress only\" and presents top-dressing as an equal option. The reference clearly says to repot and not to add soil on top, and the user's outcome confirms repotting was the right call. Its soil advice (half potting soil, half perlite or bonsai mix) is reasonable but more complex than the reference's \"normal soil is just fine,\" which matters for a user who said the blogs felt like too much."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: \"Tip the plant out of the pot,\" go \"only 1\u20132 inches wider,\" and use a cheap soil mix (\"about $10 for a bag\"). It needs no special tools or layering schemes and suits a beginner who found blog instructions overwhelming."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water when the top inch of soil is dry",
+  "Keep it in bright, indirect light",
+  "Move it to a pot only 1\u20132 inches wider, with a drainage hole",
+  "spring is best"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2325,
+ "output_tokens": 940
+}

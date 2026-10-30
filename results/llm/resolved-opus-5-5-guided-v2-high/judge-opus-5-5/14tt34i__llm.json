@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Unpot and look at the roots... Cut away any that are brown, mushy or smelly with clean scissors\" and \"Repot into a plastic nursery pot with drainage holes\" directly addresses the root-rot risk without adding chemicals. \"Water only when the top 2\u20133 cm is dry\" and \"empty the bucket so the pot never sits in water\" reduce overwatering rather than worsen it. Leaf trimming is conservative (\"more than half yellow\"). There is no meaningful risk to the plant or person; a pet-toxicity note for monstera is absent but not needed for this advice."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The main diagnosis, \"roots sitting too wet in a pot that can't drain,\" matches the reference's dense, wet, poorly draining soil. It cites case evidence: the galvanized bucket, lower-leaf yellow banding, and healthy new fenestrated growth. The mix \"2 parts potting soil to 1 part perlite and 1 part orchid bark\" closely matches the reference's aroid mix. However, it misses insufficient light, which the reference names as a confirmed problem (the plant is \"reaching\"). Light appears only as a passing \"keep the plant in bright, indirect light\" with no diagnosis of stretching."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a typical owner: \"push a finger 2\u20133 cm into the soil,\" \"tip the bucket,\" and repot into a plastic nursery pot used as a liner inside the bucket. Perlite, orchid bark and nursery pots are cheap and easy to find. Watering and trimming instructions give clear thresholds."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "keep the plant in bright, indirect light",
+  "Brown and yellow areas won't turn green again"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2448,
+ "output_tokens": 944
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output correctly steers the user away from further drying (\"not overwatering\") and adds a reasonable soak step. However, \"Repot into that terracotta pot... Skip plastic\" combined with \"cactus mix with an extra handful or two of perlite\" or \"about 40% perlite\" makes the mix and pot dry even faster in 90\u00b0F heat. That could perpetuate the very drought the reference identifies. The \"every 2\u20133 days\" watering note partly mitigates this, so the risk is moderate rather than serious."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"a severely root-bound plant that's been drying out, not overwatering,\" matches the reference's confirmed underwatering. It cites case evidence: the root ball holding its old pot shape, 90\u00b0F heat, and roots not moving into new soil. The root-rot check (\"soggy and sour-smelling\" vs. \"dry and the roots are firm\") is a useful differential. But the core pot advice, \"Skip plastic: terracotta suits rosemary,\" directly contradicts the reference fix, which was switching to plastic and was what actually helped."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable with household items: \"set the root ball in a bucket of water for 20\u201330 minutes,\" \"Make 4 vertical cuts about \u00bd inch deep,\" mix proportions, and \"keep the lamp on 12\u201314 hours a day.\" A novice could follow all of this this week without special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water deeply when the top inch is dry",
+  "Snip fully dead stems back to green growth",
+  "water much less often"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2636,
+ "output_tokens": 884
+}

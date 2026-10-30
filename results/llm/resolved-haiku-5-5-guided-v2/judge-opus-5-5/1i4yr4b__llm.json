@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says \"Stop watering now\" and advises checking the rhizomes and cutting away \"all soft, dark tissue with clean scissors\". Both are safe and in line with the reference. It also says to remove yellow stems only \"once they're fully collapsed\" and to \"leave any still-green stems alone\", which matches the reference's warning not to cut stems that are just starting to yellow. ZZ toxicity to pets is not mentioned, but no chemicals are involved, so this is not a meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, \"overwatering, probably with early root or rhizome rot\", matches the reference. It draws on case evidence: the \"raisin-like\" stem, the two weeks away in winter, and the universal soil. The advice on watering frequency (\"every 4\u20136 weeks\") is consistent with the reference's \"at least double\". Two claims about photo details (\"cachepot\", \"yellow inner base\") cannot be verified from the case text. The output also partly defends the 2-week schedule as \"reasonable in summer\", which is softer than the reference's \"way too frequent\"."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear and concrete: \"Tip the plant out of its pot\", check the soil is dry to 5\u20137 cm, empty the cachepot, and amend the soil with \"about one-third perlite or bark\". All of these use common household items or products sold at any garden store. The user has only universal soil, so adding perlite needs a small purchase, but that is easy to get."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2648,
+ "output_tokens": 571
+}

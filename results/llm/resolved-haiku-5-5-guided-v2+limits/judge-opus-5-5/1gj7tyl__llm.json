@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says \"The orange dots along the midrib... look like normal leaf texture, not an insect\" and \"Flat white specks that wipe off are more likely dust.\" This downplays a real infestation, even though the user said they \"could clearly tell were a bug.\" That confident dismissal could delay treatment and let thrips spread to the poster's other plants. The model gives no isolation advice. Its only pest step is swabbing \"white cottony tufts\" with alcohol, which targets mealybugs and would not control thrips. The light, watering and trimming advice is safe."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The sun-scorch diagnosis is correct and well tied to the case: \"drooping began the same day you moved the plant.\" This matches the poster's later conclusion that \"the big damage... was the sun.\" However, the confirmed main problem is a thrips/pest infestation, and the model effectively rules it out by calling the spots leaf texture or dust. It never mentions thrips or the user's report of clearly visible bugs. It also omits the reference's key actions: neem/insecticidal soap on leaves, stems and soil, isolating plants, and persistent re-treatment."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: \"Move it a few feet back from the windows,\" \"Push a wooden chopstick in to check,\" \"dab each one with a cotton swab dipped in rubbing alcohol,\" and trim brown leaves \"at the base with clean scissors.\" All of these use household items. There is a clear schedule (\"every 3-4 days for 2 weeks\")."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when the soil is dry 2-3 inches down",
+  "Trim fully brown leaves at the base with clean scissors",
+  "bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2723,
+ "output_tokens": 945
+}

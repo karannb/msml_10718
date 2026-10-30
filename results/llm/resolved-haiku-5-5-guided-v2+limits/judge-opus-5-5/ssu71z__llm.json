@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is conservative and fits the real risk. 'Water only if it's dry there, and then just lightly' and 'Leave it alone for 3 to 4 weeks' avoid overwatering an oversized pot, which matches the reference's root-rot concern. There is no chemical overuse; it neither adds more SuperThrive nor recommends fertilizer. The one gap: ivy (likely English ivy) is toxic to pets and children, and no caveat is given."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference. 'Most likely just adjusting' corresponds to transplant shock, and 'a large pot of damp soil around unrooted stems can cause stems to turn soft or black' captures the oversized-pot rot risk. 'Leave it alone' mirrors the reference's 'not a lot of intervention.' Two points are unsupported: 'The Christmas cactus looks healthy' identifies a species not mentioned in the case text, and 'Keep it near the window' assumes a placement. The SuperThrive use is also not addressed."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need no special tools, for example 'Push a finger about an inch down' and 'After about 3 weeks, give a gentle tug.' A novice can follow them easily this week. Step 4 has one confusing sentence: 'Remove it if you find this and the rest of the stems look fine' is ambiguous about what to remove."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "Avoid drafts from the window"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2247,
+ "output_tokens": 988
+}

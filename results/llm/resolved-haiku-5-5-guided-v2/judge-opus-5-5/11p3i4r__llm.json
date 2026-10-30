@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Advice such as \"Set the pot in a tray or sink of room-temperature water for 20 to 30 minutes... Let it drain fully\" is safe and close to what fixed the plant. The output guards against the opposite problem: \"If the deeper soil is wet... check the roots... and stop watering.\" It recommends no chemicals, and calatheas are non-toxic to pets, so no toxicity warning was needed."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely cause: underwatering\" matches the reference diagnosis. The output ties it to the user's evidence that \"the top 2inches feel dry\" and explains why the humidifier didn't help. However, it says the leaves are \"crispy at the tips and edges,\" which the case never mentions. It also misses the broken or laid-down stems from the shower, which the reference names and the poster later reported. Some advice, such as pebble trays, grouping plants and filtered water, is generic filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Push a finger 3 to 4 inches down,\" \"lift the pot,\" and bottom-water \"in a tray or sink... for 20 to 30 minutes.\" Timing and follow-up are clear (\"Repeat in a few days,\" \"Give it a couple of weeks\"). Any home owner can do this right away."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Group it with other plants, set it on a pebble tray, or run a humidifier",
+  "Keep it away from heating vents and drafts",
+  "Cut off fully crispy or brown leaves at the base with clean scissors",
+  "Use filtered or rain water if your tap water is hard",
+  "Keep the soil evenly moist, not soggy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2460,
+ "output_tokens": 873
+}

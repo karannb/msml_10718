@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe and standard basil care: 'Snip stems just above a pair of leaves' and 'Take no more than about a third of the plant at once.' The one risk is step 1, 'Cut it at the soil line,' paired with 'Since it's the main stem.' If the leafy growth branches off that stem, cutting at the soil line would kill it. The hedge about cutting to the lowest leafy node softens this but does not clearly resolve it. No chemicals or toxicity concerns."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, 'normal ageing, not disease\u2026 becomes woody and leggy,' matches the reference's 'overgrown, woody basil needing pruning.' Several points line up with the commenters' advice: 'Remove the woody stalk,' 'Snip stems just above a pair of leaves, which forces two new shoots,' and focusing on the small plants via 'Thin the seedlings.' However, the output cites details absent from the case, such as 'The recent repotting' and a 'classifier's watering reading.' These may be hallucinated or drawn from unseen metadata, and they slightly reduce accuracy."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need only scissors, a glass of water, and a pot: 'A 4\u20136 inch tip cutting\u2026 can root in a glass of water in one to two weeks.' Pinching flowers and thinning seedlings are easy. Step 1 is ambiguous, offering both 'cut at the soil line' and 'cut back to the lowest node.' This could confuse a novice about which cut to make."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep watering when the top half-inch of soil is dry",
+  "give it at least 6 hours of bright light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2262,
+ "output_tokens": 949
+}

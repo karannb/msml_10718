@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says the plant is \"possibly from soggy roots\" and that \"more water won't help,\" which is the opposite of the confirmed underwatering problem and could delay the needed soak. The finger test in step 1 (\"If it's dry, water once, thoroughly\") partly protects against this. Unpacking, root-handling and dividing an already dehydrated plant before rehydrating it adds transplant stress. Overall this is moderate risk, not serious."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis, \"Wilting that continues after watering suggests the roots can't take up water,\" points to overwatering or root problems, while the reference confirms simple underwatering fixed by a 20-minute bottom soak. The model does pick up the case-specific crowding of grocery basil (\"several seedlings packed into one tiny pot\"), which matches the poster thinning the plants. It never suggests the soak, and its cold-draft note is generic rather than tied to the window-sill concern."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: the finger test, sliding the plant out, splitting it into \"2 to 3 clumps\" in \"a pot about 4 inches wide,\" and using bagged potting mix. Repotting needs extra pots and soil and some effort, but it is well within a typical owner's ability. The \"6 hours of direct sun\" target may be hard to meet indoors."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Set it in bright light",
+  "away from cold drafts",
+  "Water only when the top inch of soil is dry",
+  "Use bagged potting mix, not garden soil",
+  "pot with drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2214,
+ "output_tokens": 833
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe. It says to \"Water by feel... only when the top inch is dry\" and to \"Empty the saucer,\" which matches the reference warning against overwatering. The root check in step 4 flags rot before it's too late. One minor risk: \"Bottom-soak once\" right after a thorough watering could leave the soil soggier than needed, though the drainage caveat reduces this."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Severe underwatering (dehydration)\" matches the reference diagnosis. The output ties in case evidence such as the limp leaves, the long dry spell and the old soil, noting that \"Very old, dried-out soil often repels water.\" It also reassures about the woody base, which suits an heirloom plant. However, it never recommends repotting into fresh soil later (spring/summer), which the reference advises and which the poster said worked. Some steps, like light and vents, are generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, timed and need only household items: a sink or bowl, a finger test, and a window spot. \"Gently tip it out of the pot\" with clear signs for healthy versus rotten roots is easy for a beginner to follow this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "Keep it away from heaters and vents while it recovers",
+  "Water thoroughly only when the top inch is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2419,
+ "output_tokens": 852
+}

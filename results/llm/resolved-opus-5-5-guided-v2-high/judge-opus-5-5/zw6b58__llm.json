@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The main fix, \"Drop the clear pot into a heavier outer pot... a few stones in the bottom add more weight,\" is safe. It includes a useful caveat: \"Empty any water from the cachepot or saucer after watering so the roots never sit in it.\" Staking and \"press the bark down firmly\" carry only trivial root-disturbance risk. The watering guidance (\"soaking and draining fully\") is appropriate for orchids."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"Nothing is wrong with the plant itself. It's top-heavy,\" matches the reference's mechanical instability problem. The top fix, a heavier outer pot, is exactly what the poster did successfully. The counterbalance suggestion parallels the reference's \"rock on the back to counter balance.\" Some details (\"clear pot,\" \"the stake,\" \"leaves are firm and green\") are asserted from photos that aren't described, so they may not be accurate, and the watering step is tangential to the stability question."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use common household items: a ceramic cachepot, stones, a stake and clips. They are clear and ordered (\"most important first\"), and the cachepot fix can be done in minutes. Rotating the pot and re-clipping the spike are equally simple."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water when the roots inside the clear pot turn silvery-green, roughly every 7\u201310 days, by soaking and draining fully"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2346,
+ "output_tokens": 908
+}

@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Move it out of direct sun... 3 to 5 feet back from the window, or behind a sheer curtain,\" addresses the confirmed problem and is safe. No chemicals are involved, and calatheas are non-toxic to pets. The watering rule, \"Push a finger about 2 inches down. If it's dry, water,\" lets the soil dry somewhat more than the REFERENCE recommends (\"do not let the soil dry out completely\"). That is a minor risk for a moisture-loving Marantaceae."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"Most likely cause: too much direct sun,\" matches the REFERENCE. It is tied to case evidence (\"leaves closest to the window\") and to calatheas' light sensitivity. However, the identification \"rattlesnake plant (Calathea lancifolia)\" is wrong. The REFERENCE identifies Goeppertia rufibarba, which is in the same family but a different species, and the user explicitly asked what the plant is. The humidity and trimming steps are reasonable for calatheas but fairly generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and cheap. Examples include \"3 to 5 feet back from the window,\" the finger test, a pebble tray costing \"about $5,\" and cutting fully brown leaves \"at the base with clean scissors.\" An office worker can do all of this this week without special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil before watering",
+  "Confirm the pot has drainage holes",
+  "Raise the humidity",
+  "group it with other plants",
+  "Trim the dead leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2338,
+ "output_tokens": 944
+}

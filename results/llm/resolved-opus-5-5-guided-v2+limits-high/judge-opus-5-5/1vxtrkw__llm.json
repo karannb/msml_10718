@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Soak it today... for 30 minutes, until bubbles stop. Then let it drain fully\" directly addresses the confirmed dehydration. The poster's own 24-hour soak worked, so this gentler version is safe. Step 3, \"If a spot is mushy, hollow or black, cut the healthy top off and root it in water,\" gives a sensible fallback in case rot appears, so needed action is not delayed. No chemicals are involved, and pet toxicity is not relevant to these care steps."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the real issue: \"the root ball is bone dry a week after watering. A dense, root-bound ball often lets water run down the sides without soaking in.\" This matches the reference diagnosis of underwatering with dried-out, rootbound roots, and it ties the soft stem to dehydration. It also correctly says propagation is unnecessary. However, it notes the plant is root-bound but never recommends the reference's key step of moving it into a larger container with new soil. The claim about \"a sunnier window in your new home\" is speculation not supported by the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only a sink or bucket: \"Stand the pot in a sink or bucket... about halfway up for 30 minutes\" and \"Push a finger 3 cm into the soil, or lift the pot.\" Time estimates and clear criteria (\"Firm wood is fine\") make every step easy for a typical owner to do this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil weekly",
+  "Pull off fully brown lower leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2308,
+ "output_tokens": 811
+}

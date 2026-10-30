@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to 'Stop the peroxide, the fungicide and the rotation of different sprays' because 'layering chemicals can burn the leaves' reduces harm the poster was already causing. The treatments themselves (shower rinse, '70% rubbing alcohol' swabs, ready-to-use insecticidal soap) are mild and match the reference's alcohol approach. Minor gaps: no suggestion to patch-test alcohol and soap on a leaf, and no warning to keep the toxic syngonium away from pets during treatment."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output says 'Most likely: young mealybugs (crawlers),' but the reference confirms whiteflies or similar foliage bugs. That gets the pest category right but likely misidentifies the insect. Its reasoning does use case details, such as 'fits the year-long mealybug problem' and why the many sprays failed. The core fix, 'Wipe every white speck' with alcohol, matches the reference. But targeting 'egg clusters hiding in the papery sheaths' is mealybug-specific, and whitefly-relevant steps like yellow sticky traps or catching flying adults are missing."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step comes with a time estimate, a frequency and common products: 'cotton swabs in 70% rubbing alcohol,' 'Safer Brand (~$10),' and a shower rinse. The schedule ('every 5 days for 4 weeks,' soap 'on a different day from the swabbing') is clear and realistic for a home grower. No special equipment is needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move the plant at least a room away from your other plants"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2517,
+ "output_tokens": 998
+}

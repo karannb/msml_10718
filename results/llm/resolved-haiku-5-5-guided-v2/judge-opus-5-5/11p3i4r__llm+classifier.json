@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Water thoroughly now. Pour water over the soil until it runs out the drainage hole\" is the right action for dry soil and matches the reference, which tells the poster to water and watch for perking up. Nothing in the advice is dangerous to the plant or people, and furry feather calathea is non-toxic. The minor risk is that \"Your shower probably didn't cause the problem\" plays down the physical stem breakage, so the owner may not stake or support the broken stems."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The main diagnosis, \"underwatering combined with dry air\", matches the reference. It is tied to case evidence: \"the top 2 inches being dry supports it.\" However, the model credits the flopping stems to underwatering and says the shower probably didn't cause the problem, while the reference confirms broken stems from the shower. The poster later confirmed the stems stayed down after the leaves recovered. The output also pads with generic sections (root-bound repotting, moving away from vents, pebble trays) and possibly unsupported details such as \"tan patches\" from direct sun."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: \"Water thoroughly now,\" \"Water when the top inch feels dry,\" pebble tray, and moving the humidifier closer. No special tools are needed beyond optional distilled water. Every step can be done this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it away from heaters, vents, and drafts, into bright indirect light",
+  "Set the pot on a pebble tray or group it with other plants",
+  "Repot into a slightly larger pot with fresh, well-draining mix once the plant recovers",
+  "Check for a drainage hole",
+  "Give it a few weeks, and new growth should show whether the care change is working"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2428,
+ "output_tokens": 1162
+}

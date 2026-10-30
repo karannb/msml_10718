@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says \"Stop watering until you've looked at the roots\" and to water only \"every 10\u201314 days now.\" The REFERENCE confirms the plant was underwatered, with water running straight through, so withholding and spacing out water would worsen the real problem. The root check gives the plant some protection, but if roots look firm it says the drooping \"is just a reaction to the move,\" which misses being root-bound and thirsty. There is no chemical or pet risk, so the harm is moderate rather than severe."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The headline diagnosis, \"overwatering leading to root rot,\" is the opposite of the confirmed underwatering and poor drainage, and the model misreads the mold as proof of persistent wetness. It does cite case evidence well: the move away from the window, the added soil and the mold. Advice to repot into a pot with drainage and keep it \"in bright light by the window\" matches the REFERENCE. It never considers root-bound conditions or water passing straight through, which the poster confirmed by re-adding a tray."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: unpot, inspect the roots, trim, and repot in \"1 part potting soil, 1 part orchid bark and 1 part perlite.\" These materials are easy to buy. The finger-test watering rule is simple. Unpotting and corm surgery takes some effort but is reasonable."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water by the soil, not the calendar",
+  "Keep it in bright light by the window",
+  "Use a pot with drainage holes",
+  "Look for fine webbing or tiny pale speckles on the leaf undersides"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2541,
+ "output_tokens": 994
+}

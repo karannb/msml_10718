@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Rinse under lukewarm tap water and gently rub off the black crust\" and \"Snip any roots that are mushy... with scissors wiped in rubbing alcohol\" matches the reference and is safe. Fertilizer \"at a quarter of the label dose\" is the dilution the reference recommends. Rubbing alcohol on stems for scale is a standard low-risk treatment, and moving the plant \"out of harsh direct sun\" avoids scorch. I see no meaningful risk to the plant or the person."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output ties its points to case evidence. It names no nutrients over \"a year in plain water,\" says \"Topping off without ever changing the water let slime and algae build up,\" and calls for full water changes, root cleaning and quarter-strength feeding, all matching the reference. It frames the root problem as slime/algae buildup rather than explicitly as low-oxygen root rot, though it does mention mushy roots. It also skips the small-container point. The scale-insect suggestion is speculative, but it is hedged and tied to observed brown dots."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and timed, such as \"Clean the roots (10 min, once)\" and \"Change the water weekly (5 min).\" It names a cheap, easily bought product (\"Miracle-Gro Liquid Houseplant Food, ~$7\") and gives a clear placement distance (\"within about 1\u20132 m of the window\"). The fingernail test for scale is simple, and anyone could do all of this at the office this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2751,
+ "output_tokens": 587
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and fits the problem: \"water from the top slowly until water runs out the drainage holes. Empty the saucer after 30 minutes.\" The caution \"If the soil is still wet, don't add water\" prevents overcorrecting into root rot. One caveat is missing: peace lilies contain calcium oxalate and are toxic to pets and children if chewed, and the output never mentions this. Otherwise there is no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"underwatering on a peace lily (Spathiphyllum)\", which matches the reference diagnosis. It addresses the poster's specific worry that the plant \"seems to not have drunk a lot\" by explaining that dry, compacted soil makes water run down the sides of the pot. Its advice to water thoroughly, drain, and \"Expect the droop to lift within a day or two\" mirrors the reference and the poster's observed recovery. The root check is framed as conditional on no recovery rather than as a default step."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household tools: \"Push a finger or chopstick 2 inches down\", empty the saucer after 30 minutes, and trim with clean scissors. Each step comes with clear time estimates and conditions. Any owner could do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "repot in fresh potting mix in a pot with drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2347,
+ "output_tokens": 918
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Remove the woody stalk\" with \"clean scissors,\" \"pinch the tips,\" and \"remove flower buds\" is standard, low-risk basil care. No chemicals are involved, and basil is not a toxicity concern. The finger-test watering advice (\"water only when it feels dry\") reduces overwatering risk rather than adding to it. There is no meaningful risk to the plant, person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"turning woody and bare at the base is expected,\" matches the reference's overgrown, woody basil. \"Remove the woody stalk... the healthy green shoots from the base are your plant's future\" directly mirrors \"Get rid of the stalk and focus on the small plants.\" \"Snip just above a leaf pair. Two new stems will grow\" matches the reference's cut-above-the-Y advice. However, the output asserts details not in the case: \"4-year-old plant,\" when only a May 2019 purchase date is given and the post date is unknown, and \"The big new pot\" and \"repotting look fine,\" which are unsupported. It also omits more light or outdoor placement, which helped the poster."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses only scissors or fingers and has clear instructions and time estimates, such as \"This takes 2 minutes,\" \"Repeat every 1\u20132 weeks,\" and \"about 1 minute weekly.\" The cut locations are described concretely (\"just above the point where the leafy shoot joins it,\" \"at soil level\"). Any home grower can do this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil before each watering",
+  "Push a finger 2\u20133 cm into the soil and water only when it feels dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2164,
+ "output_tokens": 894
+}

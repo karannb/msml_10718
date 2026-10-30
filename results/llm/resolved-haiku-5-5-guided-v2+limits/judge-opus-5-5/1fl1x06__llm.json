@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Dab each bug with a cotton swab dipped in 70% isopropyl alcohol\" is safe and matches the reference, and \"Don't mix it with the alcohol\" is a sensible caution. However, \"Spray the whole plant with insecticidal soap... every 7 days for 3 to 4 weeks\" comes with no advice to test it on a few leaves first. Thin-leaved plants like Hypoestes can get leaf burn, so this is a minor risk. Nothing here endangers people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely mealybugs\" with \"Dab each bug with... isopropyl alcohol\" and \"check the nodes, leaf undersides\" matches the reference diagnosis and treatment. The output treats the case as an established infestation (\"small, pale, oval bodies,\" plural), while the user asked about one \"little guy.\" It escalates to a multi-week soap regimen and a month of isolation, whereas the reference called for removing the bug and inspecting thoroughly. Hedging with \"possibly soft scale\" is reasonable."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete: a cotton swab, 70% isopropyl alcohol, and \"Safer Brand, about $8,\" with stated frequencies and durations. Any home owner can follow them this week. The combined regimen (alcohol every 2\u20133 days plus weekly soap for 3\u20134 weeks, then another month of isolation) is more effort than a single bug likely needs. That burden could discourage a new plant owner."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate the plant away from your other plants",
+  "Check your other plants",
+  "Don't repot or prune unless you see severe damage"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2111,
+ "output_tokens": 961
+}

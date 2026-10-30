@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"submerge the whole pot in a bucket of room-temperature water for 20 to 30 minutes... Then let it drain fully,\" is safe and matches the reference. However, \"Gently slide the plant out of the pot\" to inspect roots is an unnecessary disturbance for a stressed, simply dehydrated plant. It also gives no warning that peace lilies are toxic to pets and children if chewed. Both are minor risks."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly names the problem: \"Most likely cause: underwatering... classic peace lily wilt.\" It ties this to case evidence (five days without water, the soak that didn't seem to take) and correctly reads the brown bits as spent spathes. The thorough soak-and-drain and \"Peace lilies are dramatic droopers and usually bounce back quickly\" match the reference. The root-rot digression and the root-check step dilute an otherwise accurate, specific answer."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses things a home owner has: a bucket, water, a finger test, scissors. The instructions are concrete (\"20 to 30 minutes, until the bubbling stops\", \"top inch of soil is dry\"), and nothing needs special tools or products."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright indirect light and away from heaters",
+  "repot in fresh, well-draining mix",
+  "Water when the top inch of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2495,
+ "output_tokens": 523
+}

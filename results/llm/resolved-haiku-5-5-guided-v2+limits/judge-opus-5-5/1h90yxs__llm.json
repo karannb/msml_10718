@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk: \"Remove crispy, yellow, or fully brown stems,\" take cuttings, and \"Water only when the top 2 inches of soil are dry.\" One questionable point is \"Don't repot if the roots are mushy; fix the watering problem first.\" Rotted roots usually call for trimming and fresh soil, so this could delay needed action. There is also no toxicity warning for what is likely a pothos-type aroid, which matters if pets or children are around."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model ties the problem to the poster's admission that she should have repotted: \"declined from a root-bound, depleted root system.\" Its propagation advice (\"Cut the green stems into 4 to 6 inch pieces... in a glass of water\") matches the reference's \"chop and prop.\" However, it never calls the plant overgrown or leggy. It also never recommends the reference's core fix, a hard cut-back of 60\u201380% of each vine to force branching. Instead it frames trimming as removing only dead material, and the root-check and watering steps are generic filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and numbered, with sizes (\"4 to 6 inch pieces, each with at least 2 nodes\"), timelines (\"Roots usually appear in 2 to 4 weeks\"), and cheap supplies (\"pot 2 inches wider... about $3\"). Everything uses household items or inexpensive products. Any owner could do this within a week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Push a finger 2 inches into the soil. If it's wet, don't water. If it's dry, water thoroughly and let it drain.",
+  "Water only when the top 2 inches of soil are dry.",
+  "Make sure the pot drains freely and doesn't sit in water.",
+  "bright, indirect light",
+  "firm and pale means healthy, while brown, mushy, or smelly roots mean rot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2459,
+ "output_tokens": 1163
+}

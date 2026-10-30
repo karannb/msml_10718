@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"If it's dry, water thoroughly until water runs out the bottom,\" and trimming yellow and brown leaves, is safe and matches what helped. The overwatering caveat (\"If it's wet at that depth, hold off watering\") relies on photo details the case description doesn't confirm. It could delay the watering this dehydrated plant needs. The output also never mentions that peace lilies are toxic to pets and children if chewed, a minor missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies \"a peace lily... that has been underwatered\" and ties this to case evidence: floppiness, crispy brown edges, and healthy \"white, firm roots.\" Its advice to trim yellow leaves and water thoroughly matches the reference's \"Cut the yellow, and WATER WATER WATER!\" However, the overwatering alternative cites unverified photo details (\"water sitting in the outer saucer\"), and some advice is generic (light, fertilizer, repotting)."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home owner: a finger test \"2 to 3 inches into the soil,\" watering until it drains, emptying the saucer, and trimming with clean scissors. No special products or tools are needed. The recovery timeline (\"1 to 3 weeks\") sets clear expectations."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright indirect light",
+  "skip fertilizer until new growth appears",
+  "Repot into fresh potting mix only if it's clearly root-bound"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2480,
+ "output_tokens": 747
+}

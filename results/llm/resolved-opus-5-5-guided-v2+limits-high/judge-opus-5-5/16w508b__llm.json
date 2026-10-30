@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Mix 1 teaspoon dish soap into 1 litre of water\" and spray every leaf, stem and the soil surface. Dish detergents are not true insecticidal soaps and can cause leaf burn, especially on an already-damaged plant in 35 \u00b0C heat. There is no patch-test caveat, and spraying soap onto the soil adds little. The evening timing and \"Stop using sulphur\" reduce risk, and the advice is low-toxicity overall. The main concern is that soap may be too weak to clear an entrenched infestation, though weekly monitoring with traps limits the risk of delay."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely: a thrips infestation that never fully cleared\" and \"3 m from the window is dimmer than it looks... the plant is short of light\" both match the reference's confirmed thrips plus low light. The added sulphur-burn explanation is plausible and grounded in the user's own report, but the \"Feb close-up\" reference is not supported by the case text. The output misses the reference's key advice to use a stronger thrips product (e.g. Captain Jack's/spinosad) and to chop and propagate the healthiest bits. The watering step is not tied to any evidence in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use cheap household items: \"1 teaspoon dish soap into 1 litre\", \"Blue sticky traps: about \u20ac5\", \"push a finger 5 cm deep\", \"Move it within 1 m of the window\". Frequency, duration and a measurable endpoint (\"count drops to zero\") are given. Anyone can start this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil before each watering: push a finger 5 cm deep. Water only when it's dry at that depth.",
+  "Then water until it drains out the bottom and empty the saucer.",
+  "Damaged leaves won't recover, so judge progress by the new growth."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2466,
+ "output_tokens": 1202
+}

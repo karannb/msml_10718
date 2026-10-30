@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to 'Lift the nursery pot out of the ceramic pot. Look for standing water' and to 'wait until the top 5 cm is dry before watering again' is cautious and conditional. It won't overwater a stressed palm. Moving it '1\u20132 m from that big window... no direct midday sun' avoids sunburn. Nothing here poses risk to the plant, people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The reference confirms the cause was insufficient light. The model leads with 'stress from the move into your home, plus watering that's off in one direction or the other' and only notes the 'dim corner by the curtain' as something that 'slows its recovery.' It does cite case-specific details (cover pot, dim corner, big window), and step 3 gives the correct fix. However, it frames light as secondary rather than as the main cause."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed: 'Check the water today (5 min)', 'push a finger about 5 cm into the soil', 'Place it 1\u20132 m from that big window.' No special tools are needed. The recovery expectation ('new fronds staying green over the next 1\u20132 months') is clear and realistic."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "stress from the move into your home",
+  "push a finger about 5 cm into the soil",
+  "wait until the top 5 cm is dry before watering again"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2190,
+ "output_tokens": 692
+}

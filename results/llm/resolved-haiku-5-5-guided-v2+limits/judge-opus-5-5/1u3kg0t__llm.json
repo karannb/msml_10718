@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Moving the plant away from cold glass, checking soil before watering, and adding a pebble tray are all low-risk for a calathea. The claim that \"Curled leaves won't uncurl\" is wrong, since the poster's leaves uncurled within days once humidity rose. This could make the user give up on effective humidity treatment, but nothing here would damage the plant or endanger people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model diagnoses \"cold stress from the window and drafts\" as the main cause, while the reference confirms low humidity. Cold is a reasonable inference from \"I am constantly freezing,\" but the model invents an \"open window\" when the case only says the blinds are open. Humidity appears only as a secondary step via a pebble tray, which raises humidity far less than the sealed clear bag the reference recommends and the poster found worked. The watering-check and root-rot steps are generic and not tied to symptoms in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and achievable this week: \"Move it today to a spot a few feet from the window glass,\" do a finger test \"about 2 inches (5 cm) down,\" and set up a pebble tray in about 2 minutes. No special tools or products are needed. Each instruction is clear, with timing included."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil before watering",
+  "If it's still damp, don't water",
+  "Give it a week",
+  "check the roots for rot",
+  "Trim only leaves that are fully brown or crispy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2384,
+ "output_tokens": 780
+}

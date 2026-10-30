@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk overall. \"Squeeze the cut end... If they are soft, mushy or smell bad, wipe a razor with rubbing alcohol, cut back to firm green tissue\" is a sensible, conditional rot check, and removing the moss is benign. The one minor issue is \"Keep changing the water every 3\u20134 days as you have been.\" This contradicts the reference's advice to change water less often, which in this case coincided with rooting. Frequent changes are unlikely to damage the cutting, though."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The core diagnosis matches the reference: \"Three weeks without roots is normal for a Monstera cutting.\" The output also tells the poster to remove the moss (\"Switch to plain water... Sphagnum sitting in standing water can start to decay\") and to be patient (\"Then wait\"). It addresses the brown cut areas the user mentioned, which ties the advice to the case. However, it explicitly endorses continuing frequent water changes, which runs counter to the reference. It also asserts photo details (\"looks dark and wet-glossy\") that cannot be verified."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete, time-boxed and uses household items: \"Squeeze the cut end... (1 minute)\", \"Rinse the jug and refill it with room-temperature water\", and \"Cover the node... Keep the leaves out of the water.\" No special products or tools are required. Any home owner could do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Move it somewhere bright and warm",
+  "Use bright indirect light at about 68\u201380\u00b0F, away from cold glass and drafts"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2451,
+ "output_tokens": 967
+}

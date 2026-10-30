@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model recommends \"insecticidal soap such as Safer Brand, mixed per the label\" every 3\u20134 days, \"spraying in the shade,\" and to \"Rinse any tomatoes well before eating them.\" This is a low-toxicity, label-guided treatment with sensible caveats. Insecticidal soap is also effective against aphids, so the misdiagnosis would not cause harm or meaningfully delay control. The only minor issue is that the whitefly framing (sticky traps, flutter test) could cause brief confusion, but nothing here endangers the plant, person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model states \"These look like **whiteflies**,\" but the reference confirms an aphid infestation, so the diagnosis is wrong. The \"Quick check\" for insects that \"flutter up\" and the \"yellow sticky trap\" are whitefly-specific and would not confirm or effectively address aphids. Spraying leaf undersides with insecticidal soap and rinsing foliage do overlap with the reference's successful approach (thorough neem spray), which keeps this from a 1."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and accessible: \"Hang a yellow sticky trap... (about $6 for a pack),\" use a named retail insecticidal soap \"mixed per the label,\" with a clear schedule of \"every 3 to 4 days for 3 weeks.\" Rinsing under lukewarm water and wiping with a damp paper towel are easy home actions. Anyone could start this week with no special equipment."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Isolate the tomato from your other houseplants today",
+  "Keep checking for new specks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2045,
+ "output_tokens": 607
+}

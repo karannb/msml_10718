@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk. It warns against overwatering a freshly repotted plant (\"Overwatering a freshly repotted plant is the bigger risk\") and against fertilizing new roots (\"Don't fertilize for 4 to 6 weeks\"). It also flags rot signs to watch for. The loosely covered plastic bag is opened daily, so the rot risk from added humidity is minimal. Nothing here would harm the plant, people, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"transplant shock\" matches the REFERENCE. It ties directly to case evidence: \"Washing the soil off the roots and repotting strips off the fine roots.\" The species claim (\"Zebra plants (Aphelandra squarrosa)\") is not supported by anything in the CASE, which never names the plant, so it may be fabricated. The \"1 to 3 weeks\" recovery estimate is pessimistic compared with the actual recovery within hours. Some tips, such as keeping it away from vents and drafts, are fairly generic, but the core message of giving it time in bright light matches the REFERENCE."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses household items and is concrete: \"Push a finger about an inch down\", a pebble tray or clear plastic bag, and bright indirect light. The thresholds and timeframes are clear. Any home grower could do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use bright, indirect light",
+  "away from vents, doors, and drafts",
+  "Raise humidity",
+  "Check the soil before watering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2204,
+ "output_tokens": 728
+}

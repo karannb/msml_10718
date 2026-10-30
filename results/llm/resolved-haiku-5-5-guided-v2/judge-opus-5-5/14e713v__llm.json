@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core steps are safe for a rotting succulent and do not make the problem worse: \"Cut away every soft, brown, or smelly part with a clean, sterile knife... Let the plant dry out for 2 to 3 days\" and \"Don't water for about a week after repotting.\" Gnat control uses only scraping, drying the soil and \"Yellow sticky traps,\" with no chemicals involved. Nothing here poses a meaningful risk to the plant, the person or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"basal stem and root rot from overwatering\" with mold and \"fungus gnats, which breed in consistently wet soil,\" matches the reference exactly. It is tied to case evidence (mushy base, damp soil, flying bugs, no-drainage cachepot). The advice to cut the dark tissue, repot in cactus mix and keep the soil dry matches what the poster did. The fallback \"cut off a healthy top section and let it callous and root in dry soil\" mirrors the commenters' chop-and-propagate advice. The plant is assumed to be an aloe (\"aloes often need watering only every 3 to 4 weeks\") without that being confirmed in the case, which is a minor overreach."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and numbered and need only common items: a clean knife, cactus mix or perlite, a pot with a drainage hole and sticky traps. Timeframes are given (\"dry out for 2 to 3 days,\" \"Don't water for about a week\"). The watering check (\"Push a finger or chopstick 2 to 3 inches down\") is easy for any home owner."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the soil is completely dry",
+  "Push a finger or chopstick 2 to 3 inches down, or lift the pot to check weight"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2467,
+ "output_tokens": 1133
+}

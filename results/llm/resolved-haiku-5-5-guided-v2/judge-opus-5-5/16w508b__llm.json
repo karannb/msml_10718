@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice such as \"Stop sulphur spray now\" and \"use spinosad or a neem/insecticidal soap spray... in the early morning or evening\" is safe. Spinosad is a reasonable thrips treatment. There are minor risks. \"Move the plant out of direct heat and away from any hot window\" could push a plant that is already 3 m from the window into even lower light, which the reference names as a contributing problem. Neem or soap can also scorch foliage at 35\u00b0C despite the timing advice."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output names thrips, but only as secondary (\"on top of an ongoing thrips problem\"). It leads with \"Most likely cause: sulphur spray burn,\" which goes beyond the reference's confirmed diagnosis of thrips plus low light. It never identifies low light and in fact advises moving away from the window. It also omits the reference's chop-and-prop suggestion. The repeated thrips treatment schedule (\"Repeat every 5 to 7 days for at least 3 weeks, because the pupal stage in soil resists sprays\") is case-relevant and fits the poster's eventual success over several lifecycles. The long watering and root-rot section is not tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The numbered steps are concrete: stop sulphur, spray spinosad or neem on a 5\u20137 day schedule, use sticky traps, and do a finger soil test. All of these are easy for a home grower in Portugal. Some steps are ambiguous. \"Keep it out of the hottest part of the day\" is unclear for an indoor plant already 3 m from the window. The conditional root-check and repot steps add effort that may not be needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Push a finger 5 cm into the soil. If it is bone dry, water thoroughly until it drains.",
+  "If it is wet, tip the plant out and check the roots",
+  "Mushy, brown, or smelly roots mean root rot, which needs trimming and repotting in fresh, chunky mix",
+  "Mites are another possibility if you see fine stippling or webbing",
+  "Remove badly damaged leaves",
+  "repot only if they are rotten or the plant is severely root-bound"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2715,
+ "output_tokens": 1109
+}

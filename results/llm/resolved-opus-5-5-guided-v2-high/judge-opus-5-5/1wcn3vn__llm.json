@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says 'Nothing is wrong. Your money tree looks healthy,' which misses the real cause of the stunting. However, it does not cause harm. Its repotting advice ('Go only 1\u20132 inches wider... A much bigger pot holds wet soil and risks rot') is cautious and sound, and the watering advice ('Empty that clear saucer') guards against root rot. The only risk is that 'nothing is wrong' delays the fix the reference recommends, separating the tangled trees."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference says the stunting comes from multiple money trees tangled in one pot and that untangling them fixes it. The model notices the 'braided trunks' but treats the braid as normal, explaining that 'Nursery braided money trees are cut off at the top.' It never suggests separating the trunks. Its 'Root-bound pot' point is loosely related to crowding, but most of the rest ('Not enough light,' watering, fertilizing) is generic care that does not address the actual cause."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home grower: 'about an 8-inch pot with a drainage hole,' '2 parts potting soil to 1 part perlite or orchid bark,' 'Rotate it a quarter turn each week,' and 'half strength about once a month.' Everything uses common supplies and needs little effort."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it more light.",
+  "Water thoroughly when the top 2 inches are dry.",
+  "Use a balanced liquid fertilizer at half strength about once a month from spring through summer.",
+  "Rotate it a quarter turn each week so it grows evenly.",
+  "Use chunky, fast-draining mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2368,
+ "output_tokens": 1049
+}

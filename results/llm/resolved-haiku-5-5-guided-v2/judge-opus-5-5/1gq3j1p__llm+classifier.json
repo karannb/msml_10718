@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output recommends \"Treat with insecticidal soap or neem oil following the label\", which is the same treatment that worked in the REFERENCE. Isolating the plant, washing it with water and using sticky traps are all low-risk. A missing caveat about spraying neem in strong sun or heat is a minor issue and not a meaningful harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output names the wrong pest: \"Most likely: whiteflies (or possibly scale/mealybug nymphs)\", while the REFERENCE confirms aphids. Aphids are never mentioned, although the yellowish insect near the stem is plausibly an aphid. The treatment overlaps with the REFERENCE because neem works on many soft-bodied pests, so the advice is useful by coincidence rather than through a correct diagnosis. The diagnostic checks help somewhat but do not lead toward aphids."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use easily available products: \"spray... with a strong jet of water in the sink or shower\", insecticidal soap or neem on a stated schedule (\"every 5 to 7 days for about 3 to 4 weeks\"), and yellow sticky traps. The confirmation checks need only a wet tissue or a phone zoom. Any home grower can carry this out this week."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Isolate the plant away from your other houseplants so the pests don't spread",
+  "Check your other plants too"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2253,
+ "output_tokens": 525
+}

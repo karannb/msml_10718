@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "\"Drain it today... empty any water that collects after 15 minutes\" prevents waterlogging after the soak, and \"water... when the top inch is dry\" suits a peace lily. The plastic-bag tip for trips is a standard humidity tent and says to keep it \"out of direct sun\", which avoids overheating. Nothing here risks harm to the plant, people or pets. A note that peace lilies are mildly toxic to pets would be nice but is not required, since no ingestion risk is raised."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Underwatering. Three weeks without water in dry winter air\" matches the reference diagnosis and cites case evidence (the 3-week absence, the winter dryness). \"Stems usually firm up within a day or two\" is consistent with the reference's 'took hours to bounce back', though the reference suggests recovery within hours. The output does not mention adding humidity (e.g. a humidifier), which the poster found helpful. Instead it only says to keep the plant \"away from heaters\", a partial address of dry air."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use household items: the sink, a saucer, scissors, a finger test and a dry-cleaning bag. Timeframes are given (\"30 minutes\", \"2\u20133 days\", \"every 5\u20137 days\"). Anyone can follow them this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2176,
+ "output_tokens": 518
+}

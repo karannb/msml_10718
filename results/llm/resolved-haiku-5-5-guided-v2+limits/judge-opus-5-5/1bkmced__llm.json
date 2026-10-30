@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The plan to 'Stop neem and pyrethrin, then spray spinosad... per label' and 'Soil drench once with an imidacloprid product labelled for houseplant thrips' uses appropriate, label-directed treatments and avoids mixing products. It includes the caveat 'Keep pets away from the soil until it dries.' Minor risks remain: the named 'Bonide Systemic Insect Control' is a concentrate whose label may not cover indoor houseplants (Bonide's houseplant granules would be the safer pick). There is also no mention of children, gloves or ventilation when using a systemic insecticide in a bathroom."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "'This looks like thrips' matches the confirmed diagnosis. The output ties the diagnosis to case evidence: new leaves emerging damaged, the 'tiny black specks (their droppings)', brown scarring, and the temporary relief from pyrethrin. Recommending a systemic imidacloprid drench such as Bonide matches the reference treatment. Treating all the nearby philodendrons and syngoniums mirrors what the poster did. It also correctly reassures that the bathroom's light and humidity are not the cause."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: 'Place a blue sticky trap (about $8)... for 3 days', spray spinosad 'every 7 days for 3 weeks', drench the soil once, and cut off damaged leaves. All products are easy to buy and the schedule is clear. The main burden is buying and coordinating three products (trap, spinosad, systemic), which takes some effort but is realistic."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "wipe the remaining leaves with a damp cloth weekly",
+  "keep your current watering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2833,
+ "output_tokens": 1160
+}

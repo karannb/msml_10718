@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model recommends to \"Treat with insecticidal soap or neem oil, covering the undersides of every leaf... Test on one leaf first and treat in the evening to avoid leaf burn.\" This is safe, appropriately caveated, and the same remedy that worked for the poster's aphids. The water spray and sticky traps are also harmless. The main risk is mild: the whitefly confirmation test (\"If a cloud of tiny white moth-like insects rises\") will come back negative for aphids, which could confuse the user, though the treatment plan would still work."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model confidently states \"This looks like **whiteflies**\" and reads the white specks as \"whitefly nymphs.\" The reference confirms an aphid infestation, and aphids are not even listed among the \"Other possibilities\" (only thrips and spider mites). The white specks were more likely aphid cast skins. The treatment (neem/insecticidal soap, repeated, covering leaf undersides) happens to match the reference's successful neem approach. So the advice is partly right, but only by overlap with the wrong diagnosis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps such as \"Isolate the plant,\" \"Hose or spray the leaves with a strong stream of lukewarm water,\" applying neem or soap \"every 5 to 7 days for 3 to 4 weeks,\" and adding \"yellow sticky traps\" are concrete. They use cheap, widely available products. Timelines and success criteria are clear (\"If new growth stays clean after a month\")."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Isolate the plant away from your other houseplants",
+  "Remove any heavily infested leaves if they're yellowing"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2318,
+ "output_tokens": 862
+}

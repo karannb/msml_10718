@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Spray insecticidal soap (or a neem-based spray), soaking the undersides thoroughly\" closely matches the reference's neem treatment, which worked. It includes sensible precautions: \"Spray in the evening, not under strong light, and rinse any fruit before eating.\" Washing with lukewarm water and using sticky traps carry no meaningful risk. Even though the primary diagnosis is wrong, the treatment also works on aphids, so following it would not delay effective action."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output leads with \"Most likely: whiteflies, specifically their nymphs and eggs,\" which contradicts the confirmed aphid infestation. It does list \"Aphid cast skins\" as the alternative and gives a case-specific way to tell them apart: \"A puff of tiny white moth-like insects means whitefly... crumpled skins plus live bugs on new growth, means aphids.\" The treatment overlaps with the reference (neem), so the result is partly right. Whitefly-specific items like yellow sticky traps are less relevant to aphids."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use easily bought products: insecticidal soap, neem spray and sticky traps, with a clear schedule (\"Repeat every 5\u20137 days for at least 3\u20134 weeks\"). The flick test is simple. However, \"Take the plant to the shower or sink\" may be impractical for a fruiting tomato plant, which may be large or growing outdoors, and no hose alternative is offered."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the plant every few days",
+  "look at nearby houseplants too"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2276,
+ "output_tokens": 879
+}

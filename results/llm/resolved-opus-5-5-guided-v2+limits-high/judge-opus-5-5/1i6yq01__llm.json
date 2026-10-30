@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The watering advice is safe: \"When the top inch feels dry, water slowly until it drains out the bottom, then empty the saucer after 15 minutes\" checks the soil first and avoids waterlogging. The other steps (moving it 3 ft from heaters, a pebble tray, trimming fully yellow leaves) carry no meaningful risk. Prayer plants are non-toxic, so no toxicity warning is needed."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output says \"Most likely cause: the plant dried out, and the heater made it worse,\" which matches the reference's confirmed dehydration. It cites case evidence: \"stiffer instead of soft\" and \"you said it needed a good watering.\" Its prediction that leaves \"should start to unroll and soften within 1\u20133 days\" fits the reference advice to wait a day or two and the poster's later improvement. It also addresses the user's heater question directly. The humidity step is slightly generic but is tied to the heater the user mentioned."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is concrete and needs no special equipment: \"Push a finger 1 inch (2.5 cm) into the pot,\" \"Move the plant at least 3 ft (1 m),\" and an optional pebble tray costing \"about $10.\" Any home owner can do all of this right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise the humidity",
+  "set the pot on a tray of pebbles and water",
+  "Cut off any leaves that are fully yellow or crispy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2282,
+ "output_tokens": 543
+}

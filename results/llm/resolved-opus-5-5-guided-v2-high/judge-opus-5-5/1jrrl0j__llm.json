@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The steps themselves are low-risk. \"Water deeply now\" with soaking until drainage is reasonable for bone-dry soil, and \"Pull it about a foot back from the glass on cold nights\" is sensible for zone 5a. However, because the plant is misidentified as Dracaena, there is no toxicity warning: Crinum bulbs are toxic to pets and children. Care framed for a corn plant may also under-serve the Crinum's higher sun and warmth needs. These are minor risks rather than serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The central request was an ID, and the output confidently states \"This is a corn plant (Dracaena fragrans)\" and adds that the grassy rosettes are \"a spider plant that moved in.\" The reference identifies a Crinum lily, which the poster confirmed when it bloomed. The output also invents details not in the case: \"by a glass door\" and \"Skip the Dawn\" (no soap is mentioned). Some advice partly overlaps with the reference, such as concern about 52\u00b0F nights near cold glass and a potting mix with perlite. Still, the overall advice is built on the wrong plant and generic Dracaena care."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner to carry out. \"pour slowly until it drains out the bottom, wait 20 minutes, and repeat\" and \"move closer over 2\u20133 weeks\" need no special products or tools. The repotting guidance is also specific: \"just 2 inches wider\" with \"regular indoor potting mix with some perlite.\" All of it is doable this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check leaf undersides and the leaf bases for webbing or cottony tufts",
+  "Wipe the leaves with a damp cloth",
+  "Don't repot until spring, and only if roots are circling",
+  "water when the top 2\u20133 inches are dry",
+  "confirm it has a drainage hole"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2820,
+ "output_tokens": 1226
+}

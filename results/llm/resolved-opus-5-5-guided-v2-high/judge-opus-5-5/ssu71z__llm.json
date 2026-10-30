@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. It says \"Skip further doses\" of SuperThrive and \"Water only when the top 2\u20133 cm... feels dry,\" which directly addresses the overwatering risk. One minor risk: \"Loosely cover it with a clear plastic bag\" raises moisture around a cutting already in a large, slow-drying pot, which could encourage rot or mold. The suggestion to re-pot into a smaller pot if soil stays wet adds another disturbance, against the reference's 'not a lot of intervention' guidance, though it is conditional."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely cause: normal transplant shock\" and \"That pot is large for one small cutting... will hold water for a long time\" match the reference diagnosis exactly. \"Holiday cactus: it looks healthy\" matches the reference's \"Other one looks great.\" It adds a \"Cold glass\" hypothesis and photo details (snow, twine) that the case text cannot confirm. It also adds extra interventions (humidity tent, repotting) beyond the reference's wait-and-see advice, so it is slightly less aligned."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses household items: \"clear plastic bag or an upturned clear container,\" checking the soil with a finger, moving plants away from the window, and re-tying twine \"as a figure-8.\" The instructions are concrete, with sizes and timeframes (\"1\u20132 weeks\", \"3\u20134 inch pot\"). A novice could do all of it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water by feel, not schedule",
+  "Patience is the main ingredient now",
+  "Keep it in bright light but out of direct sun"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2477,
+ "output_tokens": 916
+}

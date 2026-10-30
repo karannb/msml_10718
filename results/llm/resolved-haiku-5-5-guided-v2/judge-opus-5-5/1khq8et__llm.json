@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe because it is conditional: \"Check before you act\" asks the user to inspect the roots before cutting anything, and it covers the underwatering case. There is some risk if root rot is misdiagnosed, since \"cut back the brown, soft stem sections\" could remove tissue from a plant that mainly needs support and light. It also omits a note that monstera sap irritates pets and skin during pruning. No chemicals or dangerous steps are suggested."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The reference identifies a poorly supported plant that needs repotting, more light, well-draining roomy soil, and proper tying to the coir pole. The model partly overlaps: \"Repot into fresh, chunky aroid mix... in a pot with drainage holes\" matches the drainage and repot advice. However, it centres on \"root damage from waterlogged soil,\" which the reference never confirms. It says only \"Leave the moss pole in place\" and misses the key advice to tie nodes to the pole and untie the wrong section. It also says \"Keep it in bright, indirect light\" rather than calling for more light as a fix."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: lift the nursery pot, slide out the root ball, trim roots, repot, and water when \"the top 5 cm (2 inches) is dry.\" Materials such as aroid mix and perlite are easy to buy. The closing line \"Top up with a new shoot later if the base is firm\" is unclear, and there is no guidance on securing the plant to the pole."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "Water only when the top 5 cm (2 inches) is dry",
+  "Don't let it sit in standing water",
+  "Remove leaves that are mostly dead"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2352,
+ "output_tokens": 930
+}

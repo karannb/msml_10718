@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The watering advice ('Water only when the top 2 to 3 inches are dry... empty the saucer') is conservative and safe, and the drainage check is sensible. The main risk is indirect. By labeling the problem 'adjustment stress, plus old damage finishing itself off,' the output may delay the real fix, which is more light. Its firm 'Don't repot again' could also have kept the poster from finding the nursery mesh around the corms. No chemical, toxicity, or physical hazards, though it does not mention that Alocasia is toxic to pets."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference confirms insufficient light as the problem, and the poster improved after moving the plant somewhere sunnier. The output never names light as a cause, even though the user asked 'Maybe not enough light?' It offers only a passing 'Keep him close to the window.' Instead it leads with 'adjustment stress' and lists wet soil and spider mites as alternatives. It does cite some case details (Miracle-Gro mix, humid bathroom, small new leaves), but the core diagnosis misses the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is concrete and needs no special tools: checking for a drainage hole, feeling the stems, inspecting leaf undersides, watering until it drains, wiping off droplets, and skipping fertilizer for a month. A beginner could do all of it this week."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Skip fertilizer for about a month, then feed lightly once he's pushing out new leaves",
+  "Check the leaf undersides for fine webbing, tiny moving specks, or pale speckling",
+  "Keep the leaves dry and the air moving",
+  "Cut off a leaf at its base only once it's mostly yellow or brown"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2659,
+ "output_tokens": 806
+}

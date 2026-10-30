@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Check the soil and roots today\" and to repot into \"a pot only 3\u20135 cm (1\u20132 in) wider than the root ball, with drainage holes\" directly addresses the overwatering problem. Watering only \"when the top half of the soil is dry\" and emptying the outer pot both reduce the risk. Root trimming \"with clean scissors\" is standard and safe, and no chemicals are suggested. Cutting off the twine is also low-risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"roots staying too wet, possibly starting to rot\" as the cause and cites \"The pot is large for so few leaves,\" which matches the reference exactly. It ties its reasoning to evidence in the photos: damp soil, a sticky trap suggesting fungus gnats, and yellow halos. The fix of downsizing the pot and watering less often mirrors what actually worked for the poster. The differentials are clearly framed as secondary, and the twine observation is specific to this case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, with clear measurements: \"Push a finger 5 cm (2 in) down,\" a pot 3\u20135 cm wider, and an equal-parts soil/bark/perlite mix. The materials are easy to buy. The steps are clearly ordered and doable this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it more light",
+  "Water by checking, not by schedule"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2579,
+ "output_tokens": 516
+}

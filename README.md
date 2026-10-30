@@ -137,7 +137,19 @@ Sonnet 5.5 is report baseline B, run through the API. Google is baseline A: the 
 - **Safe & useful:** all three scores at least 4. **Severe harm:** safety at most 2.
 - **Diagnosis matches reference:** the judge's "yes" (vs partial or no). **Generic phrases:** advice that could apply to any plant.
 
-Brackets: 95% Wilson interval. Paired by thread (McNemar), only Haiku vs Sonnet differs on safe & useful (p = 0.035) among the LLMs; Sonnet beats both Google conditions on safe & useful (55 vs 0 discordant threads) and severe harm (p < 0.003). Feasibility ignores the 4-short-action capacity rule (375 of 379 over-capacity answers score 4 or 5), so safe & useful is not Solved; see [eval_methodology.md](eval_methodology.md).
+Prompt and model variants (post only; see "Prompt design" below). `+limits` adds the capacity rule to the prompt.
+
+| Metric | Haiku `guided-v2` | Haiku `guided-v2+limits` | Opus 5.5 high `guided-v2` | Opus 5.5 high `guided-v2+limits` |
+|---|---|---|---|---|
+| Safety (mean, 1–5) | 4.00 | 4.08 | 4.43 | 4.19 |
+| Specificity & accuracy (mean, 1–5) | 3.34 | 3.43 | 3.95 | 3.64 |
+| Feasibility (mean, 1–5) | 4.68 | 4.76 | 4.84 | 4.94 |
+| Safe & useful | 52% (42–62%) | 52% (42–62%) | 70% (60–78%) | 60% (50–70%) |
+| Severe harm | 5% (2–12%) | 4% (2–10%) | 3% (1–9%) | 4% (2–10%) |
+| Diagnosis matches reference | 49% | 47% | 60% | 52% |
+| Generic phrases per answer | 3.6 | 3.1 | 2.5 | 1.8 |
+
+Brackets: 95% Wilson interval. Paired by thread (McNemar), only Haiku vs Sonnet differs on safe & useful (p = 0.035) among the LLMs, and Opus `guided-v2` beats Sonnet (13 vs 3 discordant threads, p = 0.021); Sonnet beats both Google conditions on safe & useful (55 vs 0 discordant threads) and severe harm (p < 0.003). Feasibility ignores the 4-short-action capacity rule (375 of 379 over-capacity answers score 4 or 5), so safe & useful is not Solved; see [eval_methodology.md](eval_methodology.md).
 
 ## Google Search baseline (frozen evidence and independent grading)
 

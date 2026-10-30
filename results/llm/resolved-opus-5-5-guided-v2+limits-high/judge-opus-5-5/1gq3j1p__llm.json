@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model recommends a shower rinse and \"1 teaspoon of plain dish soap (no bleach or degreaser) in 1 liter of water\", adds a patch test, and says to spray \"in the evening, not in strong light\". It also says to \"Rinse any fruit before eating it.\" These are low-risk, appropriate measures for an edible plant, and the treatment is effective against aphids, so it would not delay needed action."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The headline diagnosis, \"Most likely whiteflies\", contradicts the reference, which confirms an aphid infestation. The model does hedge with \"Pale aphids or their shed skins look similar, and the treatment below works for both\", and spraying \"until they drip\" parallels the reference's drench approach (soap instead of neem). Advice such as yellow sticky traps and checking \"leaves near the top, where whiteflies prefer to settle\" is tailored to the wrong pest. It does cite case evidence (white specks on leaf undersides, flowering, fruit set)."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete, with time estimates, cost (\"about $8\"), dosages, and frequency (\"every 4\u20135 days for 3 weeks\"). Dish soap, a shower, and sticky traps are readily available to any home grower, so the plan can be followed this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2121,
+ "output_tokens": 509
+}

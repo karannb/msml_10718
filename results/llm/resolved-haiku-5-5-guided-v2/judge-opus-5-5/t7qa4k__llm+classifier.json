@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The steps, \"Move the plant back a few feet from the window\" and \"Water only when the top 2 inches are dry,\" are low-risk. The watering rule addresses the reference's overwatering concern even though the output downplays it. The model confidently dismisses watering (\"The classifier's 'watering, 100%' is not reliable here\"), which could reduce the owner's attention to overwatering. \"Don't fertilize while it's stressed\" withholds feeding the reference recommended. These are minor risks, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis, \"sunburn from a sudden move into brighter light,\" does not match the reference, which points to older leaves naturally dying off and possible overwatering. The model mentions both only as secondary possibilities (\"simply an older leaf giving up\"; \"Overwatering: If the soil is still damp...\"). It omits the reference's pole/support advice and contradicts its fertilizing advice. It does cite case evidence (the light move, the \"partial sun\" tag), but builds the wrong main conclusion from it."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household tools: \"push a finger 2 inches into the soil and lift the pot,\" \"use a sheer curtain,\" and \"Cut off the brown leaf at the base with clean scissors.\" The timelines are clear (\"gradually over 2 to 3 weeks\"). Anyone could do this within the week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when the top 2 inches are dry, then water thoroughly until it drains",
+  "Cut off the brown leaf at the base with clean scissors",
+  "bright indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2510,
+ "output_tokens": 804
+}

@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Hunt at night... drop them into a cup of water with a squirt of dish soap\" and \"water only when it feels dry at that depth\" carries no meaningful risk to plant, person, or pets. No chemicals are applied to the plant. The worst outcome of the pest-only framing is a delay in addressing humidity, which is a minor issue."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output confidently says \"Something is eating your plants, most likely caterpillars\" and attributes the brown edges to \"the wound drying out.\" This aligns with the reference's chewing-pest component. However, it misses entirely the reference's main point: low humidity, and tears that formed while the leaves were developing. The poster's fix was misting. Its observations about the damage are case-specific, but it gets only half the diagnosis and gives no humidity advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, timed, and need only household items: \"Around 9\u201310 pm, use a phone flashlight,\" \"Lift each pot and look underneath,\" and \"Push a finger 3 cm into the soil.\" Any home owner could follow them this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil before each watering. Push a finger 3 cm into the soil, and water only when it feels dry at that depth."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2200,
+ "output_tokens": 479
+}

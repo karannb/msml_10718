@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Move it out of direct midday and afternoon sun\" and \"Water at soil level... only when the top 2\u20133 cm of soil feels dry\" is safe for a Pilea and carries no chemical or pet/child risk. Telling the user to \"Leave the damaged leaf on\" differs from the reference's suggestion to trim it, but keeping a partly damaged leaf does not harm the plant. Nothing here worsens the actual problem."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output diagnoses \"sun scorch on one leaf, made worse by watering over the leaves,\" which matches the reference's \"water marks or sun stress; otherwise healthy.\" It ties the advice to case evidence: the user's habit of watering over the foliage, the hot months, the recent weeding (\"split near the stem may be a bruise from weeding\"), and the misting question. The only divergence from the reference is the advice to keep the leaf rather than trim it, and the output gives a reasonable condition for removal."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and needs no equipment: relocate the plant (\"a metre or so back from the window, or behind a sheer curtain\"), do a finger test before watering, and use scissors only if the leaf deteriorates. It also addresses the user's money constraints by saying \"You don't need to mist.\" Time estimates are given, and anyone could do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2270,
+ "output_tokens": 525
+}

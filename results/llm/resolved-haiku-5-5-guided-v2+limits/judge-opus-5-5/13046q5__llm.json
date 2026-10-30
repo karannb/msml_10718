@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice, \"Use a soft, damp microfiber cloth... with plain lukewarm water\" followed by a gentle rinse, is gentle and poses no real risk to the plant, person, or pets. The caution \"Don't apply another dust or spray to this plant without checking the label\" is sensible. Nothing here would damage the Alocasia. At most it delays a fix by repeating a method that has been slow."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The diagnosis is correct: \"The white film is leftover garden dust, not damage.\" However, the core advice, \"Wipe each leaf... with plain lukewarm water\" and \"Rinse the plant... from the hose,\" is exactly what the user said they had already done \"several times\" with only slow results. It misses the reference's key fix, a dilute acidic wipe (1/3 lemon juice to 2/3 water) followed by a rinse. It also contradicts the case by claiming \"The dust won't wear off on its own\" when the user reports it is \"slowly going away.\" The mite-checking step is relevant but fairly standard."
+ },
+ "feasibility": {
+  "score": 3,
+  "reason": "The steps are clear and use household items: a microfiber cloth, a hose, and a phone camera to check for mites. Practically, though, the user has already shown that plain water wiping and hosing don't remove the residue well. Following this plan means repeating labor with limited payoff. The step \"rinse again every 3 to 4 days for 2 weeks\" is doable but effortful."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Use a soft, damp microfiber cloth or a soft brush with plain lukewarm water",
+  "Use a gentle shower or spray from the hose",
+  "Spider mites often return, so keep repeating the rinse"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2235,
+ "output_tokens": 985
+}

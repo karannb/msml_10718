@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Check the soil... If it's wet or soggy, skip watering\" protects against overwatering. \"Move it out of direct sun... bright but indirect\" directly addresses the scorch. Trimming only \"fully brown leaves... once the plant has recovered\" is cautious. The output doesn't mention that peace lilies are mildly toxic to pets, but nothing in the advice increases exposure, so the risk is negligible."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"underwatering, possibly combined with sun scorch\" and identifies the plant as a peace lily, both matching the REFERENCE. Its core actions, \"Water thoroughly\" and \"Move it out of direct sun... bright but indirect,\" mirror the commenters' advice. It cites case-specific evidence such as \"dramatic droop\" and \"brown patches on the leaves that sit in full sun.\" The mention of \"the glass table's reflection\" can't be verified from the text, but it is a minor detail."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses only fingers, water and scissors, and each is concrete, for example \"Push a finger about 2 cm (1 inch) into the soil\" and \"empty the saucer after 10 minutes.\" A housesitter can do all of this immediately. Expected timelines such as \"perk up within 24 hours\" are realistic and help the user judge progress."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Trim the fully brown leaves at the base with clean scissors",
+  "Repeat when the top few centimetres are dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2207,
+ "output_tokens": 935
+}

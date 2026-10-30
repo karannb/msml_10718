@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The output says \"check before you water\" and gives a finger test plus a pot-weight check, which keeps the underwatering hypothesis from leading to overwatering. Pruning is limited with \"Only trim brown tissue that's clearly dead.\" Misting is a minor, ineffective suggestion rather than a harmful one. There is no pet-toxicity warning for monstera, which is a small missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The headline diagnosis, \"Most likely cause: underwatering, or dry-air stress,\" does not match the reference, which identifies a poorly supported plant that needs repotting, more light and proper staking to the coir pole. The output says nothing about light, the pole or tying nodes, even though it notices the stalk \"arches over with no firmness,\" which is the support issue. It mentions repotting only in the conditional root-rot branch. The cachepot and drainage observations are case-specific, but the core problem is missed."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home owner: the \"push a finger 2 to 3 inches into the soil\" test, lifting the inner pot, and the watering and draining instructions. Nothing needs special tools. However, the plan omits the staking and light changes that would actually help this plant recover."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Move it away from radiators, heaters, and draughts",
+  "Mist or add a humidifier if your room is dry",
+  "Repeat when the top 2 inches are dry, usually once a week in warm conditions",
+  "Post a photo of the soil and the base of the stems if you're unsure"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2390,
+ "output_tokens": 568
+}

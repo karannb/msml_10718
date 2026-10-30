@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Pinch off the flower spikes now\" and \"Pinch the growing tips regularly\" is standard and safe for basil. \"harden it off over 1 to 2 weeks\" with a 10\u00b0C night threshold protects a cold-sensitive plant. The aside dismissing the \"classifier's 47% fungal reading\" is odd but backed by \"I see no lesions,\" so it is unlikely to delay needed action. No chemicals or toxicity concerns are involved."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly reads the plant as healthy and \"flowering (bolting),\" which matches the reference. Its first step, \"Pinch off the flower spikes now,\" is exactly the reference advice. However, it omits the other two key recommendations: a balanced fertilizer and repotting into a bigger (about 12-inch) pot. The poster's own follow-up shows repotting was part of what worked. The light and watering steps are fairly generic, though light is loosely tied to the legginess."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and doable at home: \"Cut each one just above a pair of leaves,\" pinch \"every week or two,\" use a south- or west-facing window, and water when the top centimetre or two is dry. The hardening-off schedule (\"Start with an hour or two in shade each day\") is clear. Nothing requires special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it as much direct light as you can",
+  "Water when the top centimetre or two of soil is dry",
+  "Plant it in a sunny, sheltered spot or a pot with good drainage"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2349,
+ "output_tokens": 873
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk. \"Water when the top 1 to 2 cm... of soil is dry\" and \"Empty the saucer 30 minutes after watering\" would help counter the overwatering named in the reference. The \"every 5 to 10 days\" estimate is safely tied to the soil check. There is no mention that Tradescantia sap can irritate the skin of people and pets, a minor missing caveat when recommending trimming."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly identifies Tradescantia zebrina and low light, citing \"long bare stems, widely spaced leaves.\" This matches the reference's call for more light. On watering it hedges (\"can't show whether it's too dry or too wet\") rather than identifying overwatering. It also misses the reference's color-loss observation and its tip to lay vines on the soil to root, though \"cuttings can be rooted in a glass of water\" is a related propagation idea."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"Push a finger 2 cm into the soil,\" \"a few feet back from an east window,\" and \"With clean scissors... cut... back to just above a leaf node.\" Any home owner can do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Don't use a fixed schedule. Water when the top 1 to 2 cm of soil is dry",
+  "Move it to brighter indirect light",
+  "Empty the saucer 30 minutes after watering so the roots don't sit in water",
+  "Avoid direct harsh afternoon sun"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2267,
+ "output_tokens": 854
+}

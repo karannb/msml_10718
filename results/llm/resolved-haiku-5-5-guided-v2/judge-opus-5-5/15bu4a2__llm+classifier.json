@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The steps 'Remove the worst leaves with clean scissors' and 'Improve airflow' are safe. The output does not insist on watering, and it notes 'check the roots for brown, mushy sections' if the soil stays wet. The one weakness is framing: leading with 'a bacterial or fungal leaf spot' and dismissing overwatering ('your watering routine argues against it') could delay a root check. That root check was the actual fix here, since the grower's peat plug was likely holding water. Mentioning a 'copper-based fungicide' with no safety caveats is a small further risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis, 'bacterial or fungal leaf spot', does not match the reference, which points to shipping stress and old packed soil or a grower plug retaining water. Overwatering appears only as a secondary possibility, and the output argues against it. The output never mentions the nursery plug or peat, or the need for a chunky aroid mix, even though the poster says they repotted immediately. That is exactly when a plug is often left in. The suggestion to remove bad leaves does match what the poster did."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is concrete and needs only household items: cutting leaves with scissors sterilised in rubbing alcohol, the finger test 'push a finger 2 to 3 inches into the soil', running a small fan on low, and checking the saucer. Any home grower could do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check drainage and light",
+  "Make sure the pot has a drainage hole and isn't sitting in a saucer of water",
+  "Move the plant out of direct sun if the browning looks bleached",
+  "Improve airflow"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2642,
+ "output_tokens": 595
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk. \"Move it within about 3 feet of your brightest window... south/west behind a sheer curtain\" is a safe light change. Feeding at \"half strength every 4 weeks\" is conservative. \"Empty the clear outer pot about 15 minutes after each watering\" helps prevent rot. Nothing here would damage the plant or endanger people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The output says \"Nothing is wrong. This is a healthy money tree\" and blames light for the slow growth. The REFERENCE confirms the real cause was several money trees tangled together in one pot, and separating them fixed it. The output even notices the \"braided trunks\" but treats them as normal instead of the problem. The root check and the 2-inch pot upsize are tied to the user's repotting question, but the light, feeding and rotation advice could apply to almost any plant."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and cheap. Examples include \"Tip the pot sideways and slide the root ball out,\" \"a pot 2 inches wider with a drainage hole,\" \"a handful of perlite (about $5),\" and \"a quarter turn once a week.\" A typical owner could do all of this this week with no special tools."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Give it more light",
+  "Give it a quarter turn once a week so it grows evenly",
+  "Use any balanced liquid houseplant fertilizer at half strength every 4 weeks",
+  "Empty the clear outer pot about 15 minutes after each watering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2161,
+ "output_tokens": 553
+}

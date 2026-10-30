@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to \"push a finger 2\u20133 cm into the soil and lift the pot\" before choosing between soaking and root inspection, so a rotting plant would not get extra water. Bottom soaking and \"drain completely\" are safe. It omits that peace lilies are toxic to pets, but no treatment involves chemicals, so the risk is negligible."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output opens with \"This is a peace lily, and it's almost certainly just very thirsty\" and notes that peace lilies are \"dramatic\". Both match the reference exactly. It cites case evidence: the whole plant collapsing while the leaves stay green, and the friend who admits to neglect. The root-rot differential and the light comment add a little extra but are tied to observable signs. Deferring repotting matches the user's soil concern without overcomplicating the fix."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps need only a sink or bucket, a finger test and pruning scissors: \"Set it in a sink or bucket with a few cm of water for 30\u201345 minutes, then drain completely.\" The watering cue (\"top 2\u20133 cm is dry, roughly weekly\") is concrete enough for a beginner. Anyone could do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it more light",
+  "Move it near a window with bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2419,
+ "output_tokens": 490
+}

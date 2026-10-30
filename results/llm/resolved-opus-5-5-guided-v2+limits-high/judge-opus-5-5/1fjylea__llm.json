@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. \"Scoop off the top 1 cm of mouldy soil\" and \"tip out excess water 15 minutes after every watering\" directly reduce the wetness that causes the mould. Minor risks: \"Wipe the white fuzz off the base of the trunk with a cotton swab dipped in rubbing alcohol\" could irritate tender stems if overdone. \"Move it to your brightest window\" could scorch some species. The output also notes \"limp, dull, darkening leaves\" but never suggests checking the roots for rot, which could delay needed action."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"the soil is staying wet too long\" with \"harmless saprophytic mould\" matches the reference exactly: wet substrate, not really a problem in itself. The note about \"The decorative bowl may be trapping water underneath\" is case-specific. However, the poster's actual fix was replacing the soil, and the output only suggests removing the top 1 cm, never a full soil change or root inspection. The claimed leaf symptoms are not in the text and may come from the photo, so they cannot be verified."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, timed and use household items: a spoon, a cotton swab, rubbing alcohol, and the finger test \"push a finger 3 cm into the soil.\" Anyone can do all of this this week with no special products."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water by feel, not by schedule",
+  "Move it to your brightest window, where there's some air movement",
+  "Give it light and air"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2099,
+ "output_tokens": 848
+}

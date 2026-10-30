@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Scrape off the top 1 to 2 cm of soil\", \"repot into a container with drainage holes\" and \"Let the soil dry out a bit before watering again\" is low-risk. It directly addresses wet soil without recommending chemicals or anything that would worsen the problem. Telling the user to check the roots is a reasonable precaution, not a harmful alarm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"surface mold on wet soil, most likely caused by overwatering\", matches the reference, which confirmed overly wet substrate. Replacing the soil with fresh mix is what the poster did successfully. However, the case text only says \"[photo]\" with no description, so claims like \"The yellowing and crispy leaves\" and \"the pot appears to have no drainage hole\" cannot be verified and may be invented. The output also adds some generic airflow and light advice, and it does not say the reference's point that the mold itself is largely harmless."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items or easy purchases: \"push a finger 2 to 3 cm into the soil\", \"Scrape off the top 1 to 2 cm\", and repotting into cactus or aroid mix with perlite. All of it is doable by a typical owner this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Improve airflow and light",
+  "Keep the plant somewhere bright with air movement, not a closed corner",
+  "Remove any dead or badly yellowed leaves",
+  "Don't water on a schedule"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2298,
+ "output_tokens": 877
+}

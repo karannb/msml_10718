@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Plant it now\" in a \"moist, well-draining mix\" kept \"damp like a wrung-out sponge, not wet\", with \"bright, indirect light\" and \"avoid hot direct sun\", is safe. It also explicitly warns against a soggy pot. The tip to \"let it dry slightly\" if mold appears is mildly risky for a recalcitrant seed, but it is hedged with \"slightly\". Lychee seeds pose no meaningful toxicity concern here."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly judges the seed \"most likely still viable\" and says to plant it while avoiding direct sun. This matches the REFERENCE ('plant it', 'just don't put it immediately into bright direct sunlight'). Calling the pale growth etiolation and noting lychee seeds are recalcitrant are both case-specific and accurate. However, it discusses \"white fuzz\" and \"the classifier's fungal_bacterial reading\" and a \"watering\" reading, none of which appear in the user's description. This is confusing and partially off-target."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only common items: \"Put the seed in a pot with drainage holes, with the root end down... Bury it about two-thirds deep\" and \"A loose plastic bag or dome helps, but open it a few times a week\". Any home grower could do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light",
+  "pot with drainage holes",
+  "well-draining mix",
+  "plan on repotting as it grows"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2406,
+ "output_tokens": 888
+}

@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe: \"Push a finger 2 cm... into the soil. If it's dry there, water thoroughly,\" plus raising humidity and keeping it away from radiators. Telling the owner to move it \"a metre or more back from the window\" could undo the reason for the move (it wasn't growing in low light), but that is a minor risk. The claim that \"Leaves that have already curled won't flatten\" is wrong and could lead the owner to misjudge recovery or overcorrect, though it is unlikely to cause real harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output does cover the reference causes, low humidity (\"Raise the humidity\") and underwatering (\"'drying a little' can become too dry\"). However, its primary diagnosis is \"light is stronger than they're used to\" and \"sun scorch,\" even though the poster mentioned rainy weeks. It also speculates about a heater with no evidence. The statement that curled leaves \"won't flatten\" directly contradicts the outcome: the leaves uncurled almost immediately after misting."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: the finger soil test, \"Put it a metre or more back from the window, or behind a sheer curtain,\" pebble tray or grouping plants, and watering \"when the top couple of centimetres are barely dry.\" No special tools are needed beyond an optional humidifier."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright, indirect light is ideal",
+  "Group it with other plants, set it on a pebble tray",
+  "run a humidifier nearby",
+  "Keep it away from radiators and vents",
+  "Be patient",
+  "check the roots for mushy brown sections"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2404,
+ "output_tokens": 1058
+}

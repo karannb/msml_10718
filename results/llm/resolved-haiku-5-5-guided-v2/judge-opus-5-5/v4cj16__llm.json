@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Water thoroughly at the sink until water runs out the bottom,\" directly addresses the confirmed thirst. The added check (\"If the soil is soggy... Don't water\") prevents harm if the cause were overwatering. One caveat is missing: peace lilies are toxic to pets and children (calcium oxalate), which matters for a new owner handling the plant and trimming leaves. Otherwise there is no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names the problem correctly: \"a peace lily (Spathiphyllum) that needs water... Peace lilies droop dramatically when dry and often perk up within hours.\" It supports this with case-specific evidence (\"leaves are still green and not crispy or brown\"), matching the reference's \"very, very thirsty peace lily\" and the fast recovery the poster reported. The repotting advice is tied to the user's own note about poor soil. Only the light placement advice is generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing special: \"Push a finger 2 inches into the soil,\" water at the sink, \"let it drain for 15 to 30 minutes,\" and empty the saucer. Repotting \"going up only one size\" uses easily bought potting mix. A beginner could do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Put it somewhere bright but out of direct sun, such as a few feet from a window."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2425,
+ "output_tokens": 739
+}

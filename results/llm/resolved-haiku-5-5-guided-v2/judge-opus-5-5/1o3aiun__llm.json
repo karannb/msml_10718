@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The model advises \"Keep the terracotta pot,\" repotting \"in a gritty mix\" of cactus soil or 1:1 perlite, and to \"Water only when dry.\" The reference says the real problem is drying out in fast-draining terracotta, so these steps would make the plant dry out even faster during 90\u00b0F heat. It also misreads the question about plastic as covering the plant (\"Skip the plastic. Covering it traps heat\"), steering the user away from the plastic pot that actually revived it. It adds a move to full sun \"especially during the hottest part of the day.\" No chemical or pet risks, but the core advice would likely kill the plant."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The model says \"Most likely cause: a long run of overwatering,\" accepting the user's self-diagnosis. The reference says it is underwatering in terracotta and that the plant needs more water. The model does cite case evidence (\"roots... firm and pale tan,\" \"90\u00b0F afternoon sun\"), but it reads that evidence wrongly. It also misunderstands the plastic question entirely. Every main recommendation contradicts the reference: plastic 3+ gallon nursery pots and more frequent watering."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home grower. Examples include \"Scrape a brown stem with your thumbnail,\" \"Push a finger about 2 inches into the soil,\" and \"potting mix blended about 1:1 with perlite.\" The materials are cheap and easy to find, and the instructions are clear. Feasibility is high even though the advice itself is misdirected."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Water only when dry. Push a finger about 2 inches into the soil",
+  "make sure it has a drainage hole",
+  "empty any saucer afterward",
+  "Prune only the dead parts, and cut back to green growth",
+  "Keep it in bright, open shade for a few days"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2624,
+ "output_tokens": 990
+}

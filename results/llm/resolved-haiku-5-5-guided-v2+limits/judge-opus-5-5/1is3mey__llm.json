@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Water only when the soil is dry all the way down... every 2 to 4 weeks\" and \"Move them to the brightest spot... gradually\" are safe and directly address the cause. The output never says to soak thoroughly when watering. Its comment \"Your 'sip' may be enough to keep the soil damp\" could leave the user still giving shallow sips. The \"Trim any rotten parts\" step depends on the tug check, so it carries little risk of unneeded cutting."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Too little light combined with watering that's too frequent\" matches the reference diagnosis exactly. It ties this to the user's move and their 2\u20134 day sip routine. It misses two points from the reference: watering thoroughly instead of in sips, and that the plants sit too low in their pots, which shades them. Its root-rot emphasis and propagation step go further than the reference, which simply expected recovery."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"tug the bare stems,\" a \"finger or a wooden skewer, a few cm deep,\" and \"clean scissors.\" Timelines like \"2 to 3 days\" and \"over about a week\" are clear. A typical owner could do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "repot into a cactus/succulent mix in a pot with a drainage hole"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2397,
+ "output_tokens": 863
+}

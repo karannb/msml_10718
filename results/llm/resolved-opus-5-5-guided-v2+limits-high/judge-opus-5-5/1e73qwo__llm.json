@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The model says \"Move it out of direct sun. Put the plant 1.5\u20132 m back from the window,\" which is the opposite of the confirmed fix: the plant needed more light and recovered once moved outside. A user who finds a firm base, which is likely here, would cut its light further and the decline would continue. The crown-rot steps (sterilised scissors, watering at the rim, tipping out the saucer) carry no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model offers \"crown rot or sun scorch.\" Sun scorch directly contradicts the reference, which found too little light on the shelf. The crown-rot branch partly overlaps with the reference's suggestion to space out watering, and the model does cite case details (\"6 hours of direct southern French sun,\" the photo). Overall, though, the main diagnosis is wrong, and the model treats the shelf position as too bright rather than too shaded."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and quick, with times given (\"Check the base (2 minutes)\"). They need only household items like scissors and rubbing alcohol. The decision branch, firm and dry versus soft and wet, is easy for a home grower to follow this week."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Water only when the top 3 cm of soil is dry",
+  "Tip out the saucer 15 minutes after each watering",
+  "Wipe scissors with rubbing alcohol",
+  "Spider plants like bright light, but not hours of direct sun"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2407,
+ "output_tokens": 938
+}

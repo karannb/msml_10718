@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Hold off on watering until the top inch of soil is dry\" with an exception to water if the soil is \"bone dry,\" is safe for a freshly repotted, wilting plant. \"Don't fertilize for 1 to 2 months\" and \"avoid sealing it in a bag\" are sensible cautions. No chemicals or toxic treatments are involved. The 1\u20133 week recovery estimate is longer than the overnight recovery that actually happened, but it would not cause harm or delay needed action."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: \"the wilting is most likely transplant shock,\" explained by root disturbance from \"Washing off the soil.\" However, the output claims \"Your photo also shows firm, upright leaves with no crisp edges or soft stems,\" which contradicts the user's report that the plant \"wilted within 2 hours.\" This looks fabricated. The species ID (\"zebra plant\") is speculative, and the classifier reference adds noise. The expected timeline (\"1 to 3 weeks\") overshoots the reference's \"should perk up by morning.\" Several steps are boilerplate rather than tied to this case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is something a home grower can do immediately with no special tools: the \"Finger test,\" holding off on watering, moving to \"bright, indirect light,\" skipping fertilizer, and an optional \"pebble tray.\" The escalation criteria are clear and actionable: stems \"soft or black or the roots smell rotten.\""
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give bright, indirect light and keep it away from direct sun, drafts, and heaters or AC vents",
+  "Stable temperatures help",
+  "Don't fertilize for 1 to 2 months",
+  "raise humidity with a pebble tray or by grouping plants",
+  "push a finger about an inch into the mix. If it feels damp, don't water",
+  "check the roots for rot and trim any mushy ones"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2366,
+ "output_tokens": 1131
+}

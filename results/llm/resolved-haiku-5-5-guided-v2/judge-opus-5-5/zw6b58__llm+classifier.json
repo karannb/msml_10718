@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core fixes, \"Add a proper stake and tie the plant in\" with a caution \"Don't wrap too tightly,\" and \"Put the clear pot inside a heavier decorative outer pot,\" carry no meaningful risk. The watering advice, \"Wait until the bark is dry down a few centimetres... Overwatering a freshly repotted orchid... can cause rot,\" is conservative and appropriate after repotting. It also warns to keep the crown \"just above the bark, not buried,\" which prevents crown rot. Nothing here would harm the plant, person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"the plant is top-heavy and not yet anchored... this is a stability issue, not a sign of illness,\" matches the reference exactly. Its fixes include putting the pot inside a heavier outer pot, which is the solution the poster used successfully, and packing in more bark, which the poster planned to do; staking is a sensible addition. Two points lower the score. The watering section and \"Keep it out of drafts and direct sun\" drift into generic care. The claim that \"the stake can be removed\" in 2\u20134 weeks is questionable while the flower spike is still blooming. The mention of a \"classifier's 'watering' reading\" is internal noise that is not relevant to the user."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use common items: \"bamboo cane,\" \"soft plant ties or strips of cloth,\" \"heavier decorative outer pot,\" and \"pebbles or gravel.\" A typical owner can do all of them right away. One option is ambiguous: \"place a heavy object on the bottom of the saucer under the pot.\" It is unclear how this would work without making the pot sit unevenly. Otherwise the steps are clear and doable this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it out of drafts and direct sun while it settles",
+  "Hold off on watering for now",
+  "water lightly"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2349,
+ "output_tokens": 1092
+}

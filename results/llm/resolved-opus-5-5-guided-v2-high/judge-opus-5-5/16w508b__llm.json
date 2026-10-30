@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core treatment, \"Spray insecticidal soap or spinosad every 5\u20137 days for 4 weeks... Spray in the evening, never in the heat of the day,\" is safe and close to the reference's spinosad-based Captain Jack's. The main risk is that framing thrips as \"the background stress, not the cause of these patches\" could lead the owner to under-prioritize the real problem. However, the plan still treats thrips thoroughly, so this is unlikely to cause harm. There is no toxicity warning even though Monstera adansonii is toxic to pets and children, which matters when handling and propagating cuttings."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The headline diagnosis, \"Most likely: sulphur burn,\" conflicts with the reference, which confirms thrips plus low light as the problem. The model explicitly says thrips are \"not the cause of these patches,\" which is wrong given that the poster later reported stippling stopped once thrips were controlled. Several pieces do match the reference: \"Too little light. Three metres from the window fits the long bare vines,\" the switch to spinosad, and \"Prune bare vines... the cuttings root easily as a backup plant\" (chop and prop). The root rot section cites \"months of yellow leaves dropping through winter,\" a detail not supported by the case text shown, which makes it speculative."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: \"Rinse the leaves with lukewarm water in the shower,\" spray soap or spinosad on a stated schedule, add blue sticky traps, move the plant to 1\u20131.5 m from the window, and prune above a node. All products are easy to buy. Predatory mites are offered as an option, not a requirement. Even the root check (\"slide the plant out of the pot\") is simple to carry out."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "slide the plant out of the pot. Healthy roots are firm and white or tan",
+  "repot into chunky mix (soil plus bark and perlite)",
+  "water only when the top 3\u20134 cm is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2676,
+ "output_tokens": 1239
+}

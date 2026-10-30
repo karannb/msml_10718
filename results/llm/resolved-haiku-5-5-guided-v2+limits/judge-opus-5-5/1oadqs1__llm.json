@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice ('Empty the drainage tray after every watering', 'Water only when the top 2\u20133 cm of soil is dry... not when it droops', 'avoid hydro or sphagnum') directly corrects the overwatering cycle and is safe. One instruction is garbled: 'dust with cinnamon or rubbing alcohol on the blade' could confuse a user, though following it is low-risk. Alocasia is toxic to pets and children, and handling roots during repotting is when exposure is likely, yet no warning is given. These are minor issues."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output identifies 'root stress from dense soil that stays wet' and explains why the plant keeps wilting after saturation, which matches the reference's overwatering-in-dense-soil diagnosis. It cites case evidence: the fine soil, the built-in tray, the droop-triggered watering, and the failure to perk up. It also prescribes the fix the poster says worked ('Repot into a chunkier mix'). However, it attributes the visible leaf damage mainly to 'sun scorch', whereas the reference attributes it to overwatering. The mite/thrips check is not tied to any evidence in the case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and cheap: unpotting, scissors, a finger test, emptying the tray, and perlite 'about $10 for a bag' mixed 1:1. Two points are ambiguous. The cinnamon/alcohol instruction is unclear, and 'Repot... once the roots look healthy' is confusing timing since the plant will already be out of the pot. 'In a pot with a real drainage hole' may also imply buying a new pot without explanation."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it out of direct sun, in bright indirect light",
+  "check leaf undersides with a white paper towel for mites or thrips",
+  "Water only when the top 2\u20133 cm of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2319,
+ "output_tokens": 1171
+}

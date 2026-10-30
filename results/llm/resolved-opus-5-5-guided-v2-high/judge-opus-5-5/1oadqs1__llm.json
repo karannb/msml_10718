@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Check the roots today\" and \"Water when the top 3 cm feels dry... empty the tray after 15 minutes\" directly counters the overwatering problem. Pruning rot and repotting into \"barely damp sphagnum\" is reasonable. The risk is minor: leading with sun scorch could make the user treat the roots as secondary. The output also omits that alocasia is toxic to pets and children, which matters during root handling and pruning."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The headline diagnosis is \"Most likely: sun scorch from being outdoors,\" but the reference confirms overwatering in dense soil. The output does name the right cause as its second issue: \"Fine, peaty soil plus a built-in tray can leave the roots sitting wet, and watering by droop alone can't tell thirst from rot.\" That ties the cause to case details, and the repot advice matches the reference's fix. However, the primary diagnosis is wrong, and the cold-night and spider-mite possibilities add speculative noise."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week: \"Slide it out of the pot,\" cut rotten roots \"with clean scissors,\" check \"the top 3 cm,\" and \"empty the tray after 15 minutes.\" The materials (sphagnum, perlite) are easy to get, and the user already mentioned having sphagnum as an option. The branching instructions (roots rotten vs. healthy) are clear."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright, indirect light indoors",
+  "Healthy new leaves are the sign it's recovering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2476,
+ "output_tokens": 585
+}

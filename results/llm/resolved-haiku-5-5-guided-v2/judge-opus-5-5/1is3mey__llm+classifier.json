@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Water only when the soil is dry all the way through, then soak thoroughly,\" directly corrects the frequent-sip pattern, and \"Increase light gradually... to avoid sunburn\" is a useful caveat. The \"Underwatering in the heat\" alternative could tempt the user to water more, though the finger test softens this. Telling the user to unpot, trim and repot every plant may add stress, since the reference suggests they recover with just watering and light changes. No chemical, pet or person risks."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Too little light combined with watering on a fixed schedule\" matches the reference's confirmed diagnosis. It ties the advice to case evidence: \"same small sips every 2 to 3 days\" and \"moving them to a dimmer spot.\" It misses the reference's point that the plants sit too low in their pots and are shaded by the rims. It also makes specific photo claims (\"rosette in the third photo is plump\") not supported by the case text. Hedging with underwatering as an alternative dilutes the diagnosis somewhat."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and numbered: brightest window, the soak-and-dry method, a 2\u20133 inch finger test, and cactus mix with perlite. These are easy to buy and carry out. Unpotting, inspecting roots, trimming and repotting several plants takes real effort but is realistic for a home owner this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Move them to the brightest spot you have",
+  "Never leave the pot sitting in water",
+  "Repot in gritty, fast-draining soil (cactus mix with perlite or pumice) in a pot with a drainage hole",
+  "Check the roots. Firm, pale roots are fine. Brown, mushy, or smelly roots confirm rot."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2546,
+ "output_tokens": 1064
+}

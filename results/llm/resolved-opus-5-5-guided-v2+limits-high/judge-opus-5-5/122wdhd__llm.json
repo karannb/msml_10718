@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice 'Wipe scissors with rubbing alcohol... Make a clean cut about 1 cm below the lowest node' and rooting in water with weekly changes poses no risk. Marantas are non-toxic to pets, so the lack of a toxicity warning is not an omission. The output does not mention that the sagging stems could be staked, but that is a minor gap rather than a harm."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies the plant as 'a Maranta (red prayer plant), not a calathea' and points out the node 'at the bottom, where the dry brown sheath is.' Both match the reference. Its core advice, 'Stand it in a glass... with the node submerged... Replace the water once a week', mirrors the reference exactly, and the poster's update confirms the outcome. The claim that 'marantas naturally sprawl' directly addresses the sagging the user described."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed, such as 'Trim the cutting (2 min)' and 'Roots usually appear in 2\u20134 weeks', and they need only scissors, a glass, water and a small pot. The thresholds are clear: 'When the roots are 2\u20133 cm long'. Anyone could start this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Place it in bright, indirect light, out of direct sun",
+  "Water when the top 1\u20132 cm of soil feels dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2264,
+ "output_tokens": 508
+}

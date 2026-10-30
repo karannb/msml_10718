@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The most counterproductive advice is to \"Move the plant away from any heat source or sun-facing glass, keep it out of hot afternoon sun.\" The plant is already 3 m from the window, and the reference identifies low light as a contributing problem, so this would likely worsen it. Recommending \"neem or insecticidal soap\" is low-risk, but these contact sprays are weaker against thrips than spinosad, which could prolong an infestation that took several lifecycles to clear. Telling the owner to \"repot into a pot one size larger\" adds stress to an already declining plant without clear evidence of a root problem."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output does identify thrips (\"Yellow-green speckling... is consistent with thrips feeding\"), but it leads with \"heat and sulphur scorch\" as the main cause. It also dismisses light (\"not just light\"), even though the reference names low light as a cofactor. It misses the reference's chop-and-propagate advice and spends space on speculative root, watering and spider mite differentials. The claim that removing yellow leaves stops \"damage... spreading\" is inaccurate."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home owner: \"repeated every 5\u20137 days for three to four rounds,\" the finger-depth soil check, and a white paper tap test. All the products are easy to buy. The many branching checks (loupe, roots, mites) add some ambiguity about what to prioritize."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "raise humidity slightly with a tray of pebbles and water",
+  "repot into a pot one size larger with chunky, well-draining mix",
+  "Water thoroughly when the top 5 cm is dry",
+  "Remove heavily damaged leaves",
+  "If the soil stays wet, check the roots for black, mushy sections"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2810,
+ "output_tokens": 983
+}

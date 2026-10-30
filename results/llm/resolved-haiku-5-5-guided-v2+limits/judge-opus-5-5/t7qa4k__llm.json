@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model advises \"Move the plant back a few feet from the window, or behind a sheer curtain\" and \"Water only when it's dry at that depth, not on a weekly schedule.\" Both are safe, and the watering check guards against the overwatering the reference suspects. Trimming dead leaves with clean scissors is harmless. Even if sun scorch is not the true cause, none of these steps would damage the plant."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model's lead diagnosis is \"sun scorch from moving the plant too quickly into a sunnier window.\" The reference instead points to overwatering and natural die-off of older leaves. The model does tie its diagnosis to case evidence (the move to a brighter window, the \"tan, crispy, papery patch\") and adds \"Once a week may be too often,\" which partly matches the reference. It misses the older-leaf explanation and the reference's advice to add a pole and start fertilizing."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is concrete and needs only household items: \"Push a finger about 2 inches down,\" \"move it closer over 2 to 3 weeks,\" a sheer curtain, and \"Trim... with clean scissors.\" Any plant owner could do all of this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil before each watering",
+  "Trim the two damaged leaves at the base with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2240,
+ "output_tokens": 502
+}

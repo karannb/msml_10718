@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to 'Pinch the flower spikes now' and 'Water when the top inch of soil is dry, and empty any water that collects in the decorative pot' poses no risk to plant, person, or pets. It recommends no chemicals. The outdoor guidance ('Wait until nights stay above about 10\u00b0C (50\u00b0F)', 'Harden it off over 7 to 14 days') protects a frost-tender plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "'Nothing is wrong. Your basil looks healthy' correctly frames this as a healthy flowering plant, matching the reference. 'Pinch the flower spikes now' and 'Pinch the growing tips regularly' match the reference's core advice to cut the flowers for bushier growth. However, the output omits the balanced fertilizer the reference recommends. It also understates repotting as an afterthought ('It may also need repotting into a pot a size larger') rather than a key step toward the much larger pot (around 12 inches) the reference suggests. The light, watering, and rotation advice is fairly generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable this week with no special tools, for example 'Cut each stem just above a pair of leaves', 'Do this every week or two', and a stepwise hardening-off schedule ('Start with an hour or two in a sheltered, shady spot'). A home owner can easily carry out repotting and pinching."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Basil needs at least 6 hours of direct sun or a strong grow light",
+  "Turn the pot every few days so it grows evenly",
+  "Water when the top inch of soil is dry",
+  "Plant it in a sunny, sheltered spot or a pot with good drainage"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2387,
+ "output_tokens": 970
+}

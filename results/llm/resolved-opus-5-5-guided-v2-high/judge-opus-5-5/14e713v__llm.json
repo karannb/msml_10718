@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Following the advice is unlikely to harm the plant: 'Unpot and check the roots now', repotting into gritty mix, and 'Water only when the pot is completely dry' all address the moisture problem, and BTI and sticky traps are low-risk gnat controls. One minor risk is the reassurance that 'the stem base... looks pale and solid, not black or mushy'. This contradicts the user's report of a dark root and could encourage complacency, though step 1 mitigates it by telling the user to inspect anyway. Aloe is mildly toxic to pets and no warning is given, a small missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly ties the mold and flying bugs to soil that stays too wet ('Mold plus gnats tells you the soil isn't drying out'), as the reference does. Its fix matches the reference closely: 'cut above the rot, let the cut dry... and replant it as a cutting' and 'cactus/succulent soil'. However, it relegates root rot to an 'Other possibility' even though the user highlighted a dark root and the reference confirms rot. That framing makes the diagnosis only partly aligned."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use easily bought supplies: cactus soil, perlite or pumice, a terracotta pot, sticky traps and 'mosquito bits'. Instructions such as 'let the cut dry for 5\u20137 days', 'Wait about a week before the first watering' and the finger/lift test give clear, actionable guidance a home owner can follow this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move the plant to your sunniest window"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2439,
+ "output_tokens": 832
+}

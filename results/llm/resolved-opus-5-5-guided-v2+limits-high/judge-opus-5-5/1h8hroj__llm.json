@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model leads with \"Most likely cause: overcrowding\" and says \"some stems are rotting at the base,\" which could make the owner hesitate to water a plant that is actually dehydrated. Step 1 lowers that risk because \"If it's dry and light, water slowly until water runs out the bottom\" would likely lead to watering. Thinning the stems is harmless and matches what the poster actually did. The remaining risk is that the rot framing, plus the \"If it's soggy... wait\" branch, could delay needed water, but the soil check probably prevents serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The reference confirms underwatering, fixed by a 20-minute soak. The model names overcrowding as the main cause and mentions water only as a conditional check, so the primary diagnosis is wrong. It does contain the dry-soil watering branch, and \"Thin it today\" matches the poster's \"got rid of some of the plants.\" It also correctly says \"New soil isn't the fix.\" It does not recommend bottom soaking, and it mentions low light where the reference raises the window being too cold."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and timed, for example \"Push a finger an inch deep and lift the pot\" and \"cut every dead, shriveled, mushy or floppy stem at soil level. Keep only the 4\u20135 sturdiest.\" Rooting cuttings in a glass of water needs no special supplies. Anyone could do all of it this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it more light. Move it to your sunniest window"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2241,
+ "output_tokens": 567
+}

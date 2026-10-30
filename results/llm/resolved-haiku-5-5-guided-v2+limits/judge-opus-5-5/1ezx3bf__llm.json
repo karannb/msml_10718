@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is conservative. It includes 'Check the soil before watering', 'Empty the outer pot', and 'Trim only dead fronds... Leave any fronds that are partly green'. None of these would hurt the plant. Moving to 'brighter, indirect light' addresses the real cause, and areca palms are non-toxic to pets. There is no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The primary diagnosis is 'stress from the move to your home, made worse by watering problems', which differs from the reference's confirmed cause of insufficient light. Light appears only as one of four actions ('Move it to brighter, indirect light'), and the output never explains that low light causes the plant to cannibalize older fronds. The drainage concern about the decorative pot is tied to the photo, but the watering emphasis is speculative. The output is partly right, with the key fix present but de-emphasized."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and simple: 'Push a finger 2 inches down', 'lift the inner nursery pot and pour out any standing water', move near a window, and trim with clean scissors. No special tools are needed, and anyone can do this this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil before watering",
+  "keep it away from heaters, vents, and air conditioning",
+  "Trim only dead fronds"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2259,
+ "output_tokens": 482
+}

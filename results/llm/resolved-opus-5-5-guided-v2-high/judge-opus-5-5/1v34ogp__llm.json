@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model says insecticidal soap is \"safe for edible plants\" and adds \"Spray out of direct sun to avoid leaf burn. Rinse any leaves before eating them.\" Those caveats are appropriate for herbs. Rinsing with \"lukewarm water\" and pinching shoots carry no meaningful risk. There is no toxic-chemical, pet, or overwatering concern."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly says \"Most likely: aphids\" and notes the white flecks are \"shed aphid skins.\" This matches the reference's explanation that the white stuff is molted exoskeletons. The rinsing step (\"spray the leaves, especially the undersides and growing tips, with a firm stream\") matches what the reference recommended and what actually worked for the poster. Insecticidal soap is a reasonable extra step but more than the case needed. The whitefly and thrips alternatives and the sticky traps add some hedging, but each comes with distinguishing signs."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses things a home owner has or can easily buy: a sink sprayer, insecticidal soap, fingers for pinching, and a phone camera. Frequencies are concrete (\"every 2\u20133 days for two weeks\", \"every 5\u20137 days for 3\u20134 rounds\"). The poster already succeeded using the sink-sprayer step."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check your other plants' undersides weekly",
+  "Add yellow sticky traps if anything flies"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2676,
+ "output_tokens": 550
+}

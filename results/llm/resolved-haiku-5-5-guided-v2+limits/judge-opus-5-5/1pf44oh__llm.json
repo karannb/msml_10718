@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice \"Check the soil before every watering... If it's still damp, wait\" avoids overwatering a plant with stressed roots. \"Don't repot or fertilize for 6-8 weeks\" is appropriately conservative. Trimming only brown edges with clean scissors is low-risk. Nothing here would harm the plant, people, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies a bird of paradise and attributes the curling to \"transplant stress after dividing and repotting\" made worse by \"cold near the window.\" This matches the reference's confirmed cause exactly. It also correctly explains that leaf splitting is normal for Strelitzia, and \"Move it away from cold drafts. Keep it off the glass\" mirrors what the poster actually did. The only gap is that it doesn't address the balcony/outdoor exposure, though the case never mentions it."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: a finger test at \"2-3 cm,\" moving the pot off cold glass toward a bright window, trimming with clean scissors, and waiting 6-8 weeks. Any beginner can do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Be patient.",
+  "Place it where it gets the brightest light for most of the day"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2307,
+ "output_tokens": 476
+}

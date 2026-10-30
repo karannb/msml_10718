@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Advice like \"Water thoroughly now... then empty the saucer after 15 to 20 minutes\" and \"Bring him back to bright, indirect light indoors\" is low-risk and addresses the underwatering without encouraging rot. It adds a sensible caveat to check the plant's base for softness or rot if he doesn't recover. There is a minor tension between \"check before you decide\" and \"Water thoroughly now,\" but no meaningful harm results. No chemicals are involved."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"underwatering, probably made worse by being outdoors\" matches the reference's underwatering/sun stress. The core advice, to water and bring him back inside, is exactly what the commenters recommended. The output stresses wind and dry air more than sun stress, but it does say \"Avoid hot afternoon sun.\" It also speculates the plant is \"bromeliad-type\" without confirmation, though it hedges the vase advice with \"If the plant has a central cup.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing special: soak until water drains, use the finger test \"about an inch down,\" move the plant indoors to bright indirect light, and trim fully dead leaves with clean scissors. It also gives a clear follow-up timeline: \"still limp after a week.\" Any home owner can do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Push a finger about an inch down. Water when that layer is dry",
+  "bright, indirect light",
+  "Trim the dead leaves at the base with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2317,
+ "output_tokens": 864
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The steps (\"Dip a cotton swab in isopropyl alcohol and dab each scale bump,\" \"Follow up with neem oil or insecticidal soap,\" \"Isolate the plant\") are low-risk and match what the reference poster did. Watering advice is sensible given the damp soil. However, there is no warning to test alcohol or oil on a small area first, and no caution against applying neem or soap while the plant sits in direct window sun, which can burn already-stressed leaves. These are minor missing caveats."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model leads with \"Most likely cause: scale insects,\" but the reference confirms thrips, and the poster later also found webbing, which suggests mites. The model never mentions thrips, so the pest ID is partly wrong. It correctly ties the sudden crash to the light change, which the poster later confirmed: \"Scale would not usually cause a crash within a week, so the light change is probably making the damage look worse.\" The treatment plan is broad enough that it would also work on thrips and matches the reference (neem, isolate, repeat)."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use easy-to-find products: isopropyl alcohol, cotton swabs, and neem oil or insecticidal soap. Timing is clear (\"Repeat every 5 to 7 days for 3 to 4 rounds\"), and the light plan is easy to follow (\"a few feet back from the window or behind a sheer curtain, then move it closer over 2 to 3 weeks\"). Anyone could do this the same week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Cut off leaves that are mostly brown",
+  "Wait until the top 2 to 3 inches are dry before watering again",
+  "pull the plant out and check the roots. Healthy roots are firm and white or tan. Mushy or black roots mean overwatering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2879,
+ "output_tokens": 941
+}

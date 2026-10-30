@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Put the node in a glass of water in bright indirect light, changing the water every few days,\" is safe and matches what worked for the poster. The only treatment mentioned, \"treat with insecticidal soap,\" is conditional on actually finding pests, and it is low-risk. Maranta is non-toxic to pets, so no missing toxicity warning. Nothing here would damage the plant or delay needed action."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output matches the reference closely. It correctly identifies the plant as a \"red prayer plant (Maranta leuconeura) rather than a calathea,\" notes that \"Your cutting has nodes,\" and recommends water propagation, which is exactly what the reference advised and what succeeded. It loses a point for unprompted, generic diagnostic tangents (root-bound checks, under/overwatering) not supported by the case. The user said the sagging came from heavy leaf growth, not a watering problem. The claim that \"The stems have some small dark specks\" is not supported by the case text and may be over-reading the photo."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Trim the cut end cleanly just below a node, with clean scissors,\" root it in a glass of water, and \"Pot it up once roots are 1\u20132 inches long.\" Staking or removing heavy leaves is easy. The timelines (\"2\u20134 weeks\") are clear, and any home owner can do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the roots: if they're tightly circling the pot, the plant is root-bound and needs room.",
+  "If the soil was bone dry, underwatering contributed. If the soil stays soggy, overwatering is the problem.",
+  "Look under the leaves for spider mites (fine webbing, stippling) or thrips. If you find them, wipe the leaves and treat with insecticidal soap."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2382,
+ "output_tokens": 962
+}

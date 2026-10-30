@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The primary diagnosis, \"uneven or insufficient watering,\" is the opposite of the confirmed problem: an oversized pot holding too much moisture. Advice to \"water slowly and thoroughly until water runs out the bottom\" and \"make sure the whole root ball gets soaked\" could add moisture to an already waterlogged, oversized pot. The finger-test gating and \"If the soil stays wet for more than a week, don't water again\u2026 check the roots for rot\" limit the risk. However, a week of wet soil is a generous threshold for a rot-prone plant."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model leads with underwatering and dry air, which contradicts the reference. Root rot appears only as an alternative (\"Root problems (rot or a root-bound plant)\"). The model never notices the pot is far too large for a three-leaf plant, which is the key case-specific evidence, and it never suggests moving to a smaller pot. The humidity and trimming advice is generic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Push a finger or wooden chopstick 5\u20137 cm,\" trimming with clean scissors, and moving the plant away from vents. \"Check the roots for rot\" lacks instructions on how to unpot the plant and what to do if rot is found. Otherwise everything uses household tools."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Trim the dead edges with clean scissors",
+  "Raise humidity a little by moving the plant away from vents and heaters, and grouping it with other plants",
+  "Water on a schedule based on the finger test, not the calendar",
+  "Don't fertilize until it's putting out clean new growth",
+  "Make sure the pot drains and isn't sitting in a decorative cachepot with standing water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2561,
+ "output_tokens": 875
+}

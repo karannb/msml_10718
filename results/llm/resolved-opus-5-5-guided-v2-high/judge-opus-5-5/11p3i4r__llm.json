@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says \"Push a chopstick or your finger to the bottom third of the pot\" and to check roots \"before adding any water.\" That guards against watering a root-rot plant. The bottom-soak with \"room-temperature water for 30\u201345 minutes\" followed by full drainage is safe. Staking stems and trimming only \"fully brown leaves\" carry no meaningful risk, and nothing here is chemical or toxic."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The primary diagnosis, \"the roots are thirsty, even though the leaves got soaked,\" matches the reference's confirmed underwatering. It ties directly to the case evidence: \"With the top 2 inches dry\" and the humidifier failing (\"air humidity can't fix that\"). It also accounts for the splayed stems (\"weight of the wet leaves likely splayed the stems\"), which parallels the reference's broken/laying stems. Its bottom-soak remedy mirrors what worked for the poster, and it sensibly warns that \"Leaves that have splayed this far may not stand fully back up.\""
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Set the pot in a sink or tub with 2\u20133 inches of room-temperature water for 30\u201345 minutes,\" a chopstick check, and \"soft twine or a couple of bamboo stakes.\" Each has a clear duration or method. Any home owner could do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "give it a week in bright, indirect light",
+  "Use filtered or rested tap water if you can"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2416,
+ "output_tokens": 565
+}

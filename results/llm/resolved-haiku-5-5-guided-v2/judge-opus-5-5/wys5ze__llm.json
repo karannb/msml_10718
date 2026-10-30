@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output warns \"Don't just add soil on top... can bury the flare,\" which matches the reference's caution against raising soil height on the stem. Root trimming is limited (\"Remove no more than about a quarter of the root mass\") and the watering advice is sensible. There is no chemical use and no meaningful risk to the plant or to people."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output's diagnosis, \"roots have filled the small pot and the plant needs fresh soil,\" matches the reference's rootbound/old-soil finding. It ties this to case evidence: \"trunk flare and roots are sitting exposed, and the soil is shallow.\" It answers each of the user's questions directly: repot rather than top-dress, regular potting soil works, bonsai soil is optional, and no layers are needed. All of this is consistent with the reference. The ficus identification can't be verified from the case text, but it doesn't hurt the advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and simple, with specific measurements (\"2 to 5 cm wider\", \"about a third perlite\", \"top 2 to 3 cm of soil is dry\"). They use common supplies. The output explicitly reassures the user that \"You don't need layers,\" which addresses their worry that blogs were too complicated. It also gives a fallback if they can't repot now."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it out of direct harsh sun for a week or two while it settles",
+  "wait until the top 2 to 3 cm (about an inch) of soil is dry before watering again"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2413,
+ "output_tokens": 558
+}

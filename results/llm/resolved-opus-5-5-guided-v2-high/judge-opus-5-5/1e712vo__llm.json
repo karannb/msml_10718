@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The steps are gentle and appropriate for a hydroponic pothos: \"Rinse under lukewarm tap water and gently rub off the black crust,\" \"Snip any root that's mushy... with clean scissors,\" and fertilizer \"at \u00bc strength.\" Nothing here would worsen root rot, and replacing topping-off with full water changes directly fixes the cause. It doesn't note that pothos is toxic to pets, but that isn't relevant to a desk plant at work."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The main diagnosis, \"a year in stagnant, never-changed water with no nutrients... The water has also run out of oxygen,\" matches the reference's root rot from low oxygen caused by topping off, plus lack of fertilizer. It ties this to the user's own words (topping off, drinking water, kept away from the window). The advice mirrors the reference: rinse, cut rotten roots, \"Replace all the water every 1\u20132 weeks rather than topping off,\" and \u00bc-strength fertilizer. It leaves out the reference's point that the small mug limited available oxygen. Some described details (\"black crusty patches,\" \"brown bumps\") aren't in the case text, and the scale-insect alternative is speculative."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses things a typical person has or can easily buy: tap water, scissors, a liquid houseplant fertilizer and a desk lamp. Instructions are concrete (\"every 1\u20132 weeks,\" \"\u00bc strength,\" \"within 1\u20132 m of a window,\" \"8\u201312 hours a day\") and can be done this week. Clear expectations (\"new roots within a few weeks\") help the user track progress."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "If the roots keep blackening, pot it in soil instead"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2906,
+ "output_tokens": 1202
+}

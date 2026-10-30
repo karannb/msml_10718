@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice is safe for an underwatered plant: 'Check the soil first... If it's dry or light, bottom-water.' The overcorrection branch ('If it's wet and heavy, don't add water... Trim any brown, mushy ones') applies only if the soil is wet, so it won't push a dry plant into harm. No chemicals are recommended. The output doesn't mention that aglaonema is toxic to pets, but no handling-intensive treatment is suggested, so this is not a meaningful omission."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "'Most likely cause: drought stress, and the soil may still be dry inside' matches the reference. The explanation that 'A normal watering then runs down the sides and out the bottom, leaving the root ball dry' ties directly to the poster saying they watered days ago and it is 'still sad', which fits the later instant recovery after a proper watering. 'The drooping leaves may never fully stand back up' is more pessimistic than the reference and the actual outcome. The direct-sun alternative is speculative padding with no support in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: 'Push a finger 5 cm down... lift the pot to feel its weight' and 'Stand the pot in a bowl of room-temperature water for 30\u201345 minutes'. The decision branches (dry vs. wet) are clear, and any owner can do this the same day."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright indirect light away from heat sources",
+  "hold off on fertilizer until new growth appears",
+  "repot into fresh, well-draining mix in a pot with a drainage hole",
+  "water whenever the top 2\u20133 cm is dry",
+  "Aglaonemas prefer bright indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2464,
+ "output_tokens": 1064
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and fits the reference's root-rot concern: \"replant in a 5\u20136\" plastic nursery pot with a hole, using fresh aroid or houseplant mix\" and \"pour out any water collected in the bucket.\" Sterilizing scissors and trimming only mostly dead leaves are low-risk. Two minor gaps: no mention that monstera sap and leaves are toxic to pets and children (calcium oxalate), and no advice on the insufficient light, so the plant keeps stretching."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis of \"too much water sitting in a metal bucket with no drainage, which is starting to rot the roots\" cites specific evidence (damp soil, stem streaks at the soil line). This matches the reference's dense, wet soil and poor drainage, and the aroid-mix recommendation matches it directly. However, it entirely misses the reference's second confirmed problem, insufficient light causing the plant to reach. It also assumes the user's \"small holes\" are fenestrations without considering pest damage."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, timed and cheap, for example \"Check the bucket and soil (2 min)\" and \"repot (15 min, about $10).\" Each uses common household items or easily bought supplies. The tip to nest a nursery pot inside the decorative bucket is a practical way to keep the look while fixing drainage."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when the top 2 inches are dry",
+  "Cut off leaves that are more than half brown or yellow, at the base"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2285,
+ "output_tokens": 917
+}

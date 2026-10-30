@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output warns 'don't leave it standing in the saucer' and only advises root inspection 'if the soil is wet all the way through and the plant is still limp 2 days after soaking,' so it won't trigger premature repotting. The soaking step is safe for a drought-stressed peace lily. It doesn't mention that peace lilies are toxic to pets, but nothing in the advice increases exposure, so this is at most a missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It correctly names the plant and the problem, 'Peace lily: likely a drought wilt,' which matches the reference. It cites case evidence: 'leaves are still deep green and not crispy or yellow.' It also directly answers the user's worry that the plant didn't drink much by pointing to hydrophobic dried peat. The root-rot branch is extra but is tied to a specific observable condition, and the advice to water deeply and drain matches the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: 'Push a finger 5 cm down,' 'submerge the whole pot in a bucket up to the soil line for 30 to 60 minutes, until bubbles stop.' Timeframes and decision points are clear, and repotting is conditional rather than required."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light and time",
+  "repot in fresh, well-draining mix in a pot with drainage"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2520,
+ "output_tokens": 504
+}

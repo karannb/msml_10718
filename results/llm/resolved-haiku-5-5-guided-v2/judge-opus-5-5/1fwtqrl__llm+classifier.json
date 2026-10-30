@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and matches the reference: \"Going up a pot size is fine, but don't jump more than about 5 cm.\" The root check (\"Soft, mushy, hollow, or smelly: root rot. Trim those back\") is a sensible precaution, not a harmful step. Minor risks: \"Consider dividing the clump\" can set back a root-bound bird of paradise, which addresses the user's fear about stopping growth, and the output gives no caveat about this or about the plant's mild toxicity to pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"the plant is root-bound\" matches the reference, and the output cites case evidence: roots out of the drainage holes, multiple plants in one pot, healthy foliage. The one-size-up advice matches the reference. However, it contradicts itself: it says \"don't jump more than about 5 cm\" but then recommends \"around 32 to 35 cm\" from a 27 cm pot, which is a 5\u20138 cm jump. The aside about the classifier's \"fungal_bacterial\" reading is somewhat distracting, though it is handled reasonably."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The numbered steps are clear and use common supplies: \"peat-free potting soil with perlite or orchid bark\", a 32\u201335 cm pot, and spring timing. The conflicting pot-size guidance creates some ambiguity. Dividing a tightly root-bound clump of several plants takes real effort for a typical owner, though it is optional."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Use a chunky, well-draining mix",
+  "Water thoroughly after repotting",
+  "keep the plant out of harsh direct sun for a week or two while it settles"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2348,
+ "output_tokens": 878
+}

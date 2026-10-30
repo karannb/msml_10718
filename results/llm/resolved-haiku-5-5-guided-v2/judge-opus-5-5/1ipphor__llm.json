@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and matches the reference: \"bright, indirect light,\" \"Water only when the top inch is dry,\" and patience. The suggestion \"Roots, if you unpot it\" adds an optional root check that would disturb roots again only hours after a bare-root repot. This contradicts the output's own \"avoid repotting again for at least a month\" and could prolong the shock. That is a minor risk, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"most likely transplant shock\" matches the reference. The explanation is tied directly to the case: \"Rinsing off the bare-root soil and repotting disturbs the roots.\" However, the confident ID of \"zebra plant (Aphelandra squarrosa)\" has no support in the case text. Several items are generic padding, such as \"Stop fertilizing\" (no fertilizer was mentioned), the drainage checklist, and root-rot inspection. The reference's message was simply to give it time and bright light."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need only household items: a finger test, a clear bag or humidity tray, and emptying the saucer. Advice like \"Give it 1 to 2 weeks before judging\" is easy to follow. Slight ambiguity comes from optionally unpotting to inspect roots while also being told not to disturb the plant, and from the number of steps for what the reference treats as just waiting."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Stop fertilizing",
+  "Make sure the pot has a hole and the plant isn't sitting in standing water",
+  "bright, indirect light, away from drafts, heat vents, and direct sun",
+  "Water only when the top inch is dry",
+  "Raise humidity",
+  "Brown, mushy, or smelly roots mean rot, and you should trim them and repot into fresh, well-draining mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2331,
+ "output_tokens": 923
+}

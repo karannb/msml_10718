@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The output says \"Dehydration is less likely, since the soil looks dark and moist\" and tells the user to \"Water only when it's dry at that depth\" (5 cm). The reference confirms the plant was dehydrated and needed more water, so this advice would extend the drought and could kill the plant. It also says to \"Trim the dead and yellow stems with clean scissors\" without warning that rue sap causes skin irritation and blistering in sunlight (phytophotodermatitis). That missing warning is a real risk to the person."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The output names \"not enough light, with the soil probably staying wet below the surface\" as the cause and explicitly rejects dehydration. That is the opposite of the confirmed problem in the reference. It does cite case details (the 2 cm check, indirect light, the black decorative pot), but uses them to support the wrong diagnosis. The reference fix, giving more water, is never suggested."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: \"Move it to your sunniest window,\" \"Push a finger or wooden chopstick about 5 cm down,\" and use \"1 part perlite to 2 parts soil.\" They need no special equipment and give a clear 2\u20133 week timeline. The problem is that the advice is wrong, not that it is hard to follow."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Move it to your sunniest window",
+  "Check the drainage",
+  "repot into a pot with drainage holes, using a fast-draining mix",
+  "Trim the dead and yellow stems with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2175,
+ "output_tokens": 909
+}

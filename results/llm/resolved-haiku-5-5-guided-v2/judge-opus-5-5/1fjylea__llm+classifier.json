@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Scrape off the mold\" and \"Water only when the top 2 inches are dry,\" addresses overwatering and cannot worsen it. It notes the mold is \"mostly a sign of moisture rather than a direct threat,\" which matches the reference's view. The caution \"Don't touch it with bare hands, and wash up afterward\" is reasonable. No chemicals are recommended, so there is no meaningful risk to plant, people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"the soil stays too wet,\" with mold that \"thrives in damp potting mix,\" matches the reference exactly. \"Repot into... fresh, well-draining mix\" mirrors what actually fixed the plant (changing the soil). However, the output asserts details the CASE text does not show, such as \"browning, yellowing, and dropped leaves\" and \"the pot appears to have no drainage hole.\" These may come from the photo but cannot be verified. It also leaks an internal \"classifier's 'watering' call.\" A few generic lines (airflow, bright indirect light) dilute an otherwise targeted answer."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use only fingers, a spoon or scraper, a pot with a drainage hole, and potting mix with perlite or bark, all easy to obtain. Instructions are concrete: \"push a finger 2 inches into the soil,\" \"Remove the top inch or so of soil,\" \"Empty any water left in a saucer... within 15 minutes.\" A typical owner could do all of it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "move the plant somewhere with better air circulation and bright, indirect light",
+  "Cut off dead or mushy stems and leaves",
+  "Water only when the top 2 inches are dry, and then water thoroughly"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2338,
+ "output_tokens": 888
+}

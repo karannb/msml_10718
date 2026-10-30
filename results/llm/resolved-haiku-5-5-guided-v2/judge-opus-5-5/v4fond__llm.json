@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output says the damage points 'not clearly to spider mites' and blames 'dry conditions or uneven watering.' That could make the user stop or slow treatment of a confirmed, worsening infestation. It does say 'Mites can still be present, so check before you keep spraying,' and gives a safe soap/neem regimen with a sun-scorch warning, so the direct risk is mainly delay rather than damage. There are no chemical hazards."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The user reports an ongoing spider mite battle, and the reference confirms spider mites, recommending a systemic (Bonide). The model instead leads with 'Most likely cause: ... dry conditions or uneven watering, not clearly to spider mites.' That contradicts the case evidence and the reference. Its mite advice ('every 5 to 7 days for about three rounds') is reasonable but secondary. It never mentions the systemic option or escalation for a user who says soap and neem are failing."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: the white-paper tap test, the soil finger check, the spray schedule and wiping leaves. All are clear and need only common items. Practical value is reduced because the steps don't escalate beyond what the user says is already failing."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water based on the soil, not the calendar",
+  "Raise humidity and keep it steady",
+  "Move it away from heating or AC vents and drafts",
+  "group it with other plants or use a pebble tray",
+  "Trim the brown tips with clean scissors",
+  "New growth should look healthy once the conditions are right"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2372,
+ "output_tokens": 561
+}

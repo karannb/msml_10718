@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Hold off on watering. Wait until the top 2 to 3 inches are dry\" suits a damp-soil situation and lowers rot risk. \"Don't fertilize\" during settling is conservative. Trimming only fully dead leaves is safe. It omits a toxicity warning (Alocasia is toxic to pets and children if chewed), but that is a minor gap that does not create meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output leads with \"transplant stress plus a light and watering adjustment\", which slightly underweights the reference's main diagnosis of insufficient light. It does tie light to case evidence: \"The long, leaning stems and dark green leaves suggest the bathroom light is on the low side,\" and \"light is more important.\" It also uses the damp-soil observation for its overwatering caveat. It misses the nursery mesh around the corms that the poster later found, and it never suggests a grow light."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a beginner: \"a few feet back from an east or north window,\" \"Rotate him weekly,\" finger-check the soil, and \"cutting at the base with clean scissors.\" Nothing requires special tools. The suggested \"humidity reading\" would need a cheap hygrometer, but it is optional."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil with a finger rather than on a schedule",
+  "Rotate him weekly so he grows evenly",
+  "Be patient"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2622,
+ "output_tokens": 535
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Push a finger about 2 inches down. If it's wet at that depth, skip watering\" is safe and correctly avoids worsening any overwatering. Insecticidal soap \"per the label every 7 days for 3 weeks\" is a low-risk treatment. Trimming with alcohol-wiped scissors is fine. There is a minor risk in \"Trim the torn leaves\": cutting too much foliage from a low-light plant could weaken it, but the output does say to leave mostly healthy leaves."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly rejects overwatering as the cause and points to chewing pests (\"torn, ragged, and chewed edges\"), which matches part of the reference. It misses the low-humidity cause entirely, even though the reference says tears formed during leaf development and the fix that worked was misting. The wind and balcony theory (\"If they're on the balcony\") is speculative and not supported by the case, which describes an indoor apartment."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home owner: \"Inspect the undersides and holes tonight with a flashlight,\" the finger soil test, a ~$10 insecticidal soap, and scissors with rubbing alcohol. Each step has clear instructions and timing, and all of it can be done this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check each pot's soil",
+  "Trim the torn leaves with clean scissors wiped in rubbing alcohol",
+  "Move the plants out of the wind and away from pets"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2157,
+ "output_tokens": 550
+}

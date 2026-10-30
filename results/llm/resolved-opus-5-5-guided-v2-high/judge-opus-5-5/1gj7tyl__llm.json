@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The pest treatment is sound and low-risk: \"wipe every leaf underside and stem with... 70% rubbing alcohol... spray... with insecticidal soap or neem. Repeat every 5\u20137 days.\" However, \"Keep it at the windows... some direct sun is fine\" comes with no advice to acclimate gradually or filter the light, even though the browning started the day of the move and the poster later blamed the sun for the big damage. It also gives no warning to avoid spraying neem or oil on a plant in direct sun, which can scorch leaves. These are missing caveats rather than serious hazards."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly flags a pest infestation that needs treatment and isolation, and its alcohol plus soap/neem regimen lines up with the reference and with what worked for the poster. But it identifies the pests as \"probably scale\" and mealybug crawlers rather than thrips, and it never mentions the webbing or mites the poster later found. It also rejects the reference's sun-stress explanation, saying \"Brown, crispy edges like these usually come from the nursery or shipping\" and that the damage is from the move \"not the bugs\" rather than sunburn. So it is partly right: the pest treatment is right, but the pest ID and the cause of the browning are off."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses common household or garden-center supplies: \"cotton pad soaked in 70% rubbing alcohol,\" \"insecticidal soap or neem,\" and \"a chopstick or wooden skewer.\" The steps are concrete, with a clear repeat schedule (\"every 5\u20137 days for 4 weeks\") and a fingernail scrape test to confirm scale. Any home grower could do this all this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water by checking deeper, not just the top",
+  "water until it drains, then empty the saucer",
+  "Trim them with clean scissors if they bother you",
+  "Expect 1\u20132 weeks of sulking"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2896,
+ "output_tokens": 1291
+}

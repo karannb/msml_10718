@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The cleaning step, \"1 drop of dish soap... into about 1 L of lukewarm water... Support the leaf with your other hand and don't scrub hard,\" is very dilute and gentle on Alocasia leaves. The follow-up of insecticidal soap \"every 5\u20137 days for 3\u20134 weeks\" is a standard, low-risk spider mite protocol. Warning \"Never use leaf shine or oil\" also avoids a common mistake. Nothing here is likely to harm the plant, person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly identifies the problem as dust residue that is \"cosmetic, not damage,\" matching the reference, and adds the useful point that mites may still be present and need monitoring. However, its main remedy is a mild soap wipe, while the reference fix that actually worked was a dilute acidic wipe (1/3 lemon juice to 2/3 water). The model also claims vinegar \"won't shift the dust much,\" which runs counter to the reference's evidence that acid did remove it. Some photo-based details, such as \"purple and pink tint... from your grow light,\" can't be verified."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use common household items: dish soap, a microfiber cloth, white paper, and insecticidal soap. Instructions are concrete, with quantities (\"1 drop... 1 L\"), a technique (\"tap it\" over white paper), and a schedule (\"every 5\u20137 days for 3\u20134 weeks\"). Any home grower could do this within the week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate the plant until it's clean",
+  "raising the humidity helps keep them away"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2436,
+ "output_tokens": 1017
+}

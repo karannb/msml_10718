@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The plan to move from bright shade to 1\u20132 hours of morning sun and then add time gradually is conservative and cannot burn or harm the plant. The watering advice, 'Water only when the soil is fully dry', fits a succulent. Burro's tail is generally considered non-toxic, so no warning is missing. Following this advice carries no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly reads the case as a healthy plant ('Nothing looks wrong') that only needs sun acclimation, which matches the reference's confirmed problem. It gives a concrete, species-appropriate schedule. It also names signs specific to this plant: 'reddish or bronze tinges are normal' versus 'bleached, or crispy white patches'. The reference's commenters advised simply putting it outside, but the poster's good outcome is consistent with either approach, and the gradual method is what the poster asked for."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The week-by-week steps ('Week 2: Give it 1 to 2 hours of direct morning sun') are clear and need no equipment. The leaf-color cues are easy for anyone to watch for. The plan does require moving the plant daily for a few weeks, but that is realistic for a home owner and can start this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the soil is fully dry, and water the soil, not the leaves"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2211,
+ "output_tokens": 496
+}

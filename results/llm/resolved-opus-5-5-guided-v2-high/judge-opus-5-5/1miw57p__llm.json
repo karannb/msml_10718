@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model advises \"Check before every watering\" and to water 2\u20133 gallons when dry, which supports the drought correction the reference recommends. It also says \"Stop fertilizing until next spring\" and \"Shade them during the heatwave,\" both safe and in line with the reference. The minor risk is the wet-clay alternative: \"Still wet: skip that day\" and replanting higher could lead a hesitant owner to under-water in 100F heat, but the finger check limits this."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The primary diagnosis, \"heat and transplant scorch... with the root ball drying out between waterings,\" matches the reference's confirmed drought stress in hot weather. It cites case-specific evidence: tags still on, a visible root ball, a brick wall reflecting heat, and last week's feeding. The advice to stop feeding and add shade mirrors the reference. It does not plainly say to water daily, and the clay/overwatering alternative adds some hedging, so it falls short of a 5."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: \"Push a finger 3\u20134 inches into the root ball,\" \"2\u20133 gallons per plant,\" \"shade cloth or old sheet on stakes... from about 1 pm to sundown,\" and \"Scratch a stem with your nail.\" No special tools are needed, and everything can be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Mulch over the bare root ball, but keep the mulch an inch away from the stems"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2476,
+ "output_tokens": 548
+}

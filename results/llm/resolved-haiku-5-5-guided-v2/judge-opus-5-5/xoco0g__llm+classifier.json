@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model says to 'Water thoroughly when the top inch is dry... then empty the saucer' and to finger-test first, checking for 'soggy soil, a sour smell, or mushy stems' before assuming underwatering. This safely addresses the dryness without risking overwatering. No chemicals are involved and nothing would worsen the problem."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model's core diagnosis matches the REFERENCE: 'Curling leaves are its usual way of conserving water' and 'Your watering routine is the main thing to adjust.' It ties this to the poster's own words ('I let her dry a little between watering'). However, it partly blames 'the move to a brighter spot' without much support, since the weather has been rainy. It also dismisses misting ('Misting helps very little') and says 'Damaged leaves won't recover,' yet in the REFERENCE the poster sprayed the plant and the leaves uncurled almost immediately. The 'brown, crispy edge on the lower-left leaf' is not in the case text and may be invented."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing a typical owner lacks: 'Push a finger 2 to 3 cm... into the soil,' water until it drains, place the plant 'a few feet back from the window or behind a sheer curtain,' and use a pebble tray or grouping. These are clear and doable this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Avoid direct sun and heating vents",
+  "Use a pebble tray, group it with other plants, or run a small humidifier nearby",
+  "Give it a few weeks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2347,
+ "output_tokens": 1033
+}

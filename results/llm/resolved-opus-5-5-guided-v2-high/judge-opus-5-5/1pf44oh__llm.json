@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk throughout. \"Water by feel, not schedule\" and \"empty the basket or saucer\" guard against overwatering in freshly repotted, oversized pots. \"Keep leaves from touching cold window glass\" covers the cold-exposure factor. \"Don't repot again, don't fertilize\" is correct for a stressed plant. Strelitzia is only mildly toxic, so the missing pet warning is a negligible gap."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the plant as Bird of Paradise and the main cause as \"transplant shock from splitting the plants,\" matching the reference. It also cites case evidence: the droopy plants at the store and the separation into two pots. Cold windows appear only as a brief preventive note (\"Keep leaves from touching cold window glass\") rather than as a likely contributor, so half of the reference's confirmed cause is underweighted. The speculative radiator and wet-soil points are tied to the photos but add some noise."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools. Examples include \"Push a finger 5 cm into the soil,\" \"Move the plant at least a meter away,\" \"Leave it alone for 4\u20136 weeks,\" and \"Trim only leaves that turn mostly brown, cutting at the base.\" A beginner could follow all of them this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water by feel, not schedule",
+  "Give it the brightest spot you have",
+  "make sure each pot has a drainage hole"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2544,
+ "output_tokens": 558
+}

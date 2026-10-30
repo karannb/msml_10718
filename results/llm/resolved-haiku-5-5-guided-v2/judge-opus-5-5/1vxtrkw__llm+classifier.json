@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Water thoroughly\" and \"soak the root ball in a basin for 20 to 30 minutes\", directly treats the confirmed problem: a dry, root-bound plant. Nothing involves chemicals or risky interventions. The rot contingency (\"cut away the soft tissue and root the healthy top as a cutting\") is conditional and sound. The 20\u201330 minute soak may be too short for a severely dried root ball (the poster soaked for 24 hours), but that is a matter of effectiveness, not harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The headline diagnosis, \"a dry root ball after the move\" with \"A root-bound plant in a small pot dries out faster\", matches the reference (underwatering of a dried-out, root-bound plant). The fix, a thorough drink plus repotting into a slightly larger pot with fresh mix, also matches. However, the output asserts photo details it cannot verify (\"roots in your photo are pale, firm, and mostly white or tan\", \"dry leaf tips\"). It also includes generic filler about humidity and low light. Repotting is pushed to \"spring\" and made conditional, whereas the reference recommends repotting now."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items. Examples include \"soak the root ball in a basin for 20 to 30 minutes\", \"Check the soil every 5 to 7 days with a finger or wooden skewer\" and \"a pot only 2 to 3 cm wider\". A typical owner can do all of this this week without special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raise humidity a little if the air is dry",
+  "Keep the plant away from heaters and drafts",
+  "the plant may need a brighter spot. Move it gradually to avoid sunburn",
+  "Keep an eye on the trunk over the next few weeks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2516,
+ "output_tokens": 1185
+}

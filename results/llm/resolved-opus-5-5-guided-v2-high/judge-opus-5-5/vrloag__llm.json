@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The plan is gradual: \"give it about 1 hour of direct morning sun a day\" and \"add about an hour of direct sun\" every 3 to 5 days, with a clear sunburn warning sign and a fallback step (\"Move it back to the previous step\"). Watering advice (\"only when the soil is completely dry\") and the cold cutoff (\"below about 40\u00b0F\") suit a succulent. No chemicals are involved, and burro's tail is not considered toxic, so no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly says \"Nothing is wrong\" and focuses on the user's real question, acclimating a greenhouse plant to full sun. This matches the reference, where the plant did fine outdoors. Advice is tailored to burro's tail, e.g. \"leaves fall off at the slightest bump\" and \"handling also rubs off the protective farina.\" However, details like \"in bright shade under the fuchsia\" and fuchsia drip cannot be checked against the case text, since the photo is not described. The schedule is also more cautious than the reference's \"just put it outside,\" though both are reasonable."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and time-bound: \"Week 1 ... about 1 hour,\" \"Every 3 to 5 days: add about an hour,\" \"work up to 4 to 6 hours.\" They need no equipment, only moving the pot and checking the soil by touch. Any home grower could start this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the soil is completely dry a couple of inches down, then soak it until water drains out"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2308,
+ "output_tokens": 942
+}

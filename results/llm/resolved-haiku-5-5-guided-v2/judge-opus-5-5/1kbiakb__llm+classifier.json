@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk throughout: \"Move the plant out of direct afternoon sun... Bright indirect light is best\", \"Water the soil, not the leaves\", and \"empty the saucer afterward\". Checking soil before watering avoids overwatering. Nothing here involves chemicals or risky actions, and the escalation trigger (\"If the spots keep spreading, or the stems turn soft or dark, post a close-up again\") keeps the user from delaying if things get worse."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The primary diagnosis, \"sun scorch\", plus the note that \"Water droplets on leaves in strong sun can intensify scorch\", matches the reference's \"water marks or sun stress\". It ties this to case evidence: \"hot months and more sun\" and the user's habit of watering over the leaves. Its advice to \"Trim badly damaged leaves\" and its reassurance (\"Your baby is probably fine\") match the reference's advice to trim the leaf and avoid sunburn. The alternative causes, including weeding damage, are linked to the photos and the user's account, though they add a little bulk."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special equipment: move the plant or use a sheer curtain, do a finger test at \"2 cm\", water at the base, and trim with clean scissors. This fits the user's stated limits on money and tools. The timeline (\"next two to three weeks\") is clear and realistic."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright indirect light is best.",
+  "Water when the top 2 cm of soil is dry, not on a fixed schedule."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2496,
+ "output_tokens": 585
+}

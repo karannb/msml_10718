@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output advises \"Keep the wound dry for a few days\" and to \"Leave the hole open\", which matches the reference. The alcohol dab is a single, light, optional application, so the risk is negligible. Recommending gradual sun acclimation avoids sunburn on a newly shipped plant. Nothing here would harm the plant or the person."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It correctly identifies the problem as \"physical puncture from the spine during shipping\", that the wound \"will callus and scar\", and it overrides the misleading fungal classifier reading. The core advice (keep dry, let it callus, the week's wait is reasonable) matches the reference. It ties its reasoning to case evidence: the clean torn edges, the flakes, and the user's planting plan. The rot-watch section is extra but relevant."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are simple and use household items: \"70% isopropyl alcohol on a cotton swab\", clean tweezers, and checks every few days. The timelines are clear, and the acclimation guidance (\"gradually more sun over one to two weeks\") is concrete. Anyone could do this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright indirect light is fine."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2479,
+ "output_tokens": 452
+}

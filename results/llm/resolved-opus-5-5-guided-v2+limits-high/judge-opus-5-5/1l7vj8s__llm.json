@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to keep the wound dry for 5\u20137 days, which matches the reference. It also advises against disinfecting because \"Rubbing alcohol or peroxide can burn the open tissue,\" a reasonable caution that avoids harm. It gives a sensible escalation trigger: \"If it turns soft, black or starts oozing instead, post an update.\" Gradual sun acclimation further reduces the risk of scorch. No meaningful risk to the plant, the person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis \"minor physical damage, not disease\" and the claim that \"Agaves seal small punctures on their own\" match the reference (healthy, minor wound that will callus). \"Keep the wound dry for 5\u20137 days\" directly mirrors the commenters' advice. The output engages with the poster's actual plan, affirming the week's wait while correcting the disinfection step. Steps 3\u20134 on planting and acclimation are somewhat general but are tied to the case context: the plant arrived by shipping and will be planted outside."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "All steps use common items (cork or a pencil eraser, gravel or pumice) and come with time estimates, e.g. \"Glance at the hole daily (under a minute)\" and \"This takes 2 minutes, once.\" The sun acclimation schedule is concrete: \"Start with morning sun only and add an hour or two of afternoon sun every few days.\" Anyone can follow this."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only once the top few inches of soil are dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2300,
+ "output_tokens": 566
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly benign: \"Hand-pollinate flowers every morning,\" \"Keep watering consistent,\" and \"Feed with a low-nitrogen, flowering-plant fertilizer every 2 weeks\" are unlikely to hurt the plant. It does push active fixes when the plant just needed time, and \"Move the planter... so more of it gets afternoon sun\" in an already hot climate could add heat stress. That carries a minor risk. Nothing endangers people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The headline diagnosis, \"Most likely cause: not enough direct sun for fruit set,\" does not match the reference, which says the plant was simply not mature enough yet; the poster confirmed fruit appeared with time. Immaturity is never mentioned. The output uses case details (morning sun only, hot weather), but it lists the standard flower-drop causes. The nitrogen point (\"Lots of leafy growth with few flowers\") contradicts the case, where the user reports many flowers."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: tapping stems, brushing pollen, checking the top 2\u20133 cm of soil, mulching, and buying a tomato feed. There is some internal tension between \"rotate it so more of it gets afternoon sun\" and \"shade the pot from harsh afternoon heat,\" which may confuse the user. Moving the planter may also be impossible if no sunnier spot exists."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep watering consistent",
+  "Water deeply when the top 2 to 3 cm is dry, and avoid letting it dry out completely or sit waterlogged",
+  "Move the planter to the sunniest spot you have",
+  "Mulching the surface helps keep the roots cool"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2393,
+ "output_tokens": 823
+}

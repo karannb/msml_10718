@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk. \"Be patient and leave it alone\" and \"Pick one medium, not both\" match the reference fix. The rot check (\"Soft, black, slimy, or smelly: rot... cut back to firm green tissue\") is a sensible caveat and only triggers on clear rot signs. No chemicals or harmful steps are suggested. Monstera toxicity to pets isn't mentioned, but that isn't relevant to this rooting question."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly says \"Three weeks is simply too early\" and treats the browning cut as normal. It also advises removing the moss from standing water and leaving the cutting alone, which closely matches the reference (remove moss, change water less often, be patient). It falls a bit short in two ways. It still recommends \"changed weekly\" rather than just topping off as the reference suggests. It also asserts photo details (\"cut end looks dark and wet\") that can't be verified and somewhat contradict the reassurance. The node check is a useful case-specific addition."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for anyone at home. They include a touch test for callus versus rot, removing the moss or wringing it out, checking that a node is submerged, and waiting. No special tools or products are needed beyond a clean blade the user already has."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it warm and bright.",
+  "Aim for 70\u201380\u00b0F with bright indirect light."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2586,
+ "output_tokens": 758
+}

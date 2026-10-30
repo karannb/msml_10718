@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The reference confirms the rue was dehydrated and recovered with more water. The model ranks dryness as \"unlikely\" and advises \"Wait until the chopstick comes out dry from at least halfway down,\" which would lengthen watering intervals and worsen the actual problem. The chopstick test (\"If the soil is dry all the way down... water thoroughly\") offers a partial safeguard. The warning that \"rue sap can cause blistering burns on skin exposed to sunlight\" is a valuable, accurate safety caveat."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis, \"far too little light,\" and the secondary \"Roots staying too wet (likely contributing)\" both contradict the confirmed cause, dehydration. Dryness appears only as a third option labeled \"unlikely.\" The advice is tailored to rue's sun needs and the pot, but it points the user in the wrong direction on water, the factor that resolved the case."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: a chopstick moisture test, moving the plant to a south window, emptying the cover pot, and pruning by a third. A grow light and a perlite repot require modest purchases but are easy to obtain. The instructions are clear and achievable this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it to your sunniest window",
+  "use a grow light 20\u201330 cm above it for 12\u201314 hours a day",
+  "repot into a pot only slightly bigger than the root ball",
+  "Use a gritty mix (about 1/3 perlite or grit)",
+  "make sure it has drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2393,
+ "output_tokens": 894
+}

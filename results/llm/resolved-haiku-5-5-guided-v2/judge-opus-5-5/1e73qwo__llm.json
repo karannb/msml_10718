@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The output says the cause is 'sun scorch' and tells the user to 'Move it out of direct sun... a metre or more back from the window, or behind a sheer curtain.' The REFERENCE identifies too little light as the actual cause, and the fix that worked was moving the plant outdoors, so this advice would reduce light further and worsen the problem. It also suggests watering 'may be more than once a week,' while the reference recommends extending the time between waterings. Following it would likely continue the cycle of dying plants, though it would not kill the plant suddenly or endanger people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 1,
+  "reason": "The primary diagnosis, 'Most likely cause: sun scorch,' is the opposite of the reference finding of insufficient light from the shelf and indoor conditions. The output describes photo details ('terracotta pot,' 'brown, dried tips and burnt-looking patches') that cannot be checked from the case and may be invented. The 'crown rot' alternative loosely touches the reference's overwatering caution, but it is framed as secondary and dismissed ('Weekly watering is unlikely to cause this'). The rest is generic spider-plant care."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home owner: move the plant, do a finger test at 3 cm, empty the saucer after 15 minutes, pull gently on the black leaves to check for rot, and root a plantlet in water. No special tools are needed. They are feasible, but they are aimed at the wrong problem, and the instruction to judge only after 'several weeks' would delay the fix the plant actually needs."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Spider plants do best in bright indirect light",
+  "Adjust watering by the soil, not the calendar",
+  "Water thoroughly when the top 3 cm is dry, letting water run out of the drainage hole",
+  "Empty the saucer after 15 minutes so the roots don't sit in water",
+  "Use filtered or rested water if your tap water is hard",
+  "trim the brown tips with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2584,
+ "output_tokens": 1003
+}

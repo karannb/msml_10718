@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output gates watering on a soil check (\"If the soil is wet, don't water. Check the roots instead.\"), so it won't push water onto a rot-prone plant. Moving it out of sun and trimming brown tissue are low-risk. Peace lily toxicity to pets and children is not mentioned, but nothing here raises exposure, so the omission is minor."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "It names the plant as a peace lily and gives \"too much direct sun combined with drying out\" as the cause, citing case evidence: \"on the lawn in full sun,\" \"brown scorch patches,\" and a black pot heating the roots. This matches the REFERENCE (sunburn plus underwatering after an environment change). The advice to water well and move it to bright indirect light indoors matches what the poster did. The alternative causes are clearly labeled as less likely and tied to symptoms to check."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps are concrete and need only household items: \"Push a finger 3\u20134 cm deep,\" \"set the pot in a sink or bucket of water for 20\u201330 minutes,\" and \"Put it indoors near a bright window.\" Timeframes and watering frequency are given. A housesitter could do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water thoroughly when the top 2\u20133 cm of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2332,
+ "output_tokens": 494
+}

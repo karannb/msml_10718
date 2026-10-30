@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "\"Flush the moss once, today... Use about 3 times the pot's volume\" is a standard response to fertilizer salts. However, the reference identifies the real issue as a dense, poorly draining mix, so saturating it again could raise the risk of root rot. \"Nothing in the photos points to anything more serious\" may also delay the repotting into an airier mix that actually fixed the problem. The fertilizer guidance (\"quarter of the label's dose\") is conservative and safe."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output links the timing to feeding and mentions that \"Sphagnum moss holds onto fertilizer salts,\" which partly touches the substrate issue. It never identifies poor drainage or oversized pot volume, and it never recommends repotting into a root-ball-sized pot with a sphagnum/bark/perlite mix, which were the key fixes in the reference. The claim that \"white variegated patches... brown first\" and \"variegated Frydek\" is not supported by the case text and may be hallucinated. It also omits the reference's point that new alocasias commonly drop leaves."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps such as \"At the sink, slowly pour room-temperature plain water through the pot,\" \"Leave both leaves on,\" and \"Don't fertilize again until a new leaf has fully opened\" are clear and concrete. They need no special equipment and could be done today."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Leave both leaves on"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2376,
+ "output_tokens": 1001
+}

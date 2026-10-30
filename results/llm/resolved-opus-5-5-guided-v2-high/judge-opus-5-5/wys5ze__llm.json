@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model says \"Repot rather than top up\" and \"Set the plant so the swollen root sits at the same height it does now,\" which matches the reference warning against changing soil height. Watering advice (\"water whenever the top 2\u20133 cm of soil feel dry\") and \"half-strength houseplant fertilizer\" are conservative. Ficus sap can irritate skin and is mildly toxic to pets, and a pruning caveat is missing. The risk from a light trim is very low, though."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The model diagnoses old, broken-down soil and a need to repot (\"the soil has broken down and sunk, so a repot is a good idea\"), plus possible root-bound conditions. This matches the reference's rootbound/old-soil finding. It answers each of the user's questions directly: repot vs. top up, regular vs. bonsai soil (\"Bonsai soil isn't necessary since you're treating it as a houseplant\"), and no layers needed. It also cites case evidence such as the aerial roots, the stretched shoot and the 2 years without care. The ginseng ficus ID comes from the photo and can't be fully verified, but it is plausible."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and simple: \"regular indoor potting mix with about one-third perlite or orchid bark,\" \"pot 2\u20135 cm wider,\" and how to loosen roots. This responds directly to the user's complaint that blogs were too complicated. All the materials are easy to buy."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in your brightest window",
+  "Feed with half-strength houseplant fertilizer monthly in spring and summer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2565,
+ "output_tokens": 597
+}

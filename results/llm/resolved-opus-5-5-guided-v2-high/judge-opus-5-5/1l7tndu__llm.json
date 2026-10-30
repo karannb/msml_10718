@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is gentle and suits a wilted transplant: \"humide comme une \u00e9ponge essor\u00e9e, pas d\u00e9tremp\u00e9\", \"\u00e0 l'ombre lumineuse 2 \u00e0 3 jours\", plus a covered mini-greenhouse that is \"a\u00e9rez une fois par jour\". No chemicals are involved, and basil poses no toxicity concern. The warning against waterlogging and the daily airing limit damping-off risk under the cover. Nothing here would worsen transplant shock."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"un choc de repiquage\", matches the REFERENCE. It is tied to case details: 5 cm seedlings, collapse within minutes, roots torn and air-dried. The model includes the reference's solution as \"Plan B : les tiges de basilic s'enracinent facilement dans l'eau\", but leads with replanting in soil. The poster recovered the plants within 4 hours by putting them in water, so the order is slightly off. Some photo-based claims (\"tiges longues et fines\", \"feuilles encore bien vertes\") cannot be verified and may be assumed."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use household items: \"Faites un trou avec un crayon\", \"bouteille en plastique coup\u00e9e ou d'un sac transparent\", a glass of water changed \"tous les 2 jours\". The timing (2\u20133 days of shade) and the transplant threshold (\"racines font 2 \u00e0 3 cm\") are clear. A beginner could do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "n'arrosez que quand le dessus du terreau est sec au toucher",
+  "donnez-leur beaucoup de lumi\u00e8re : fen\u00eatre la plus ensoleill\u00e9e, ou lampe de culture 12 \u00e0 14 h par jour"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2642,
+ "output_tokens": 985
+}

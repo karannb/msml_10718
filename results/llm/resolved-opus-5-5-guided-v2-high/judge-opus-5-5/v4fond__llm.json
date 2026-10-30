@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model confidently asserts \"those tan, dry patches are spray burn, not mite damage\" and \"you're winning more than you think.\" The reference confirms an active mite infestation, so this downplays a real problem. It also pushes escalation (\"a miticide are the next step\") back by a month, even though the poster is already losing the battle. The rest of the advice is safe: one product at a time, a test leaf first, and no spraying in the sun."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis, spray burn, contradicts the reference's confirmed spider mite infestation, and \"I don't see any of that in your photos\" overrides the user's own report. Mites appear only as a secondary possibility. The mite advice itself is specific and accurate: the white-paper tap test, a 5\u20137 day spray cycle, targeting undersides, and predatory mites. However, it never suggests the systemic treatment (Bonide) that the reference credits with saving the plant."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home this week. Examples include \"hold white paper under a branch and tap it,\" \"spray undersides and stem joints thoroughly every 5\u20137 days for at least 3\u20134 weeks,\" and \"lukewarm shower.\" Everything uses common household items or easily bought products."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it isolated and the air less dry",
+  "Move it away from vents",
+  "test on one leaf first"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2357,
+ "output_tokens": 1036
+}

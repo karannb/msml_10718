@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Cutting back watering to \"every 3\u20135 weeks rather than every 2\" and emptying the cachepot matches the reference and will not harm the plant. However, the output never says to unpot and inspect the roots or rhizomes for rot, which the reference treats as urgent (\"I would dig it out now\"). Relying on a chopstick test could delay action if rot has already started. \"Remove the yellow stem\" slightly conflicts with the reference's \"Don't cut off more stems if they just start yellowing,\" though the output limits this to stems that are \"mostly yellow.\""
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Soil staying too wet over winter, possibly with early stem rot\" matches the reference's confirmed overwatering with root-rot risk. The advice is tied to case evidence: the 2-week watering schedule, the dense universal soil and sequential stem yellowing. It gives a ZZ-appropriate interval of 3\u20135 weeks, and the reference says at least double. It misses the reference's central action of digging the plant out and repotting. It also doesn't mention the reference's ZZ-specific cue of watering when the stems soften, or that universal soil is fine if made chunky."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step uses household items (a wooden chopstick, scissors, rubbing alcohol, the sink) and includes time estimates such as \"5 minutes\" and \"drain 15 minutes\". The instructions are concrete and doable this week by any owner."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the chopstick comes out completely dry and the pot feels light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2471,
+ "output_tokens": 939
+}

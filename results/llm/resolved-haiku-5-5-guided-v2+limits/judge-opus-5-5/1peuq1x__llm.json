@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "\"Flush the moss today... until about three times the pot's volume has drained out\" saturates a mix the reference identifies as dense and poorly draining. Pairing that with \"Water only when the top is starting to dry\" risks keeping the roots too wet, whereas the reference advises letting it dry almost fully. The output does say not to leave it in standing water, and the rest (pausing fertilizer, trimming dead tissue) is low-risk. It also never mentions that Alocasia is toxic to pets and children."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "\"Most likely like fertilizer salt burn\" partly matches the reference's 'stress/decline after fertilizing'. But it misses the core fix: repot into a pot just the size of the root ball, in an airy sphagnum/bark/perlite mix, for drainage. It names the \"moss-based container\" as a factor yet never suggests changing it. It also omits that new Alocasias commonly drop leaves in their first year, which would set realistic expectations."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home grower: \"Pour plain, room-temperature water through the pot until about three times the pot's volume has drained out,\" \"half the label strength, once a month,\" and \"Cut brown, crispy sections with clean scissors.\" No special equipment is needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check moisture before each watering. Push a finger into the moss.",
+  "Water only when the top is starting to dry, not on a fixed schedule.",
+  "Trim the damage once it's fully dry. Cut brown, crispy sections with clean scissors.",
+  "use a balanced liquid houseplant fertilizer at half the label strength, once a month"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2376,
+ "output_tokens": 1030
+}

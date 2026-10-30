@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output says \"Your watering schedule, checking the soil before each watering, is reasonable\" and steers toward relocation stress, which could lead the owner to keep overwatering a plant in a pot without drainage. It does flag that \"The white pot in your photo may not drain\" and recommends repotting or a cache pot, which offsets some of the risk. Continuing a 4-day schedule in an undrained pot risks root rot, so this is a moderate risk rather than a minor one."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis, \"stress from the move or a light change,\" contradicts the reference's confirmed overwatering in an undrained pot. The output actively dismisses the user's correct suspicion. Overwatering and drainage appear only as a secondary possibility, though the drainage note is case-specific and relevant. The sunburn and pest sections add speculation the evidence doesn't support."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable: check the soil 2\u20133 inches down, check for a drainage hole, repot or use a cache pot, and move the plant away from direct sun. No special tools are needed. The guidance is internally hedged, however, endorsing the current watering while also listing overwatering checks, so the owner gets mixed direction on what to actually change."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright, indirect light, away from direct afternoon sun",
+  "Keep humidity and temperature steady, away from drafts, heaters, and AC vents",
+  "Look under the leaves for spider mites (fine webbing, stippling) or thrips (silvery streaks)",
+  "Plants often drop or mottle a few leaves for weeks after moving to a new home"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2448,
+ "output_tokens": 596
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk. \"Inspect at night with a phone flashlight... Hand-pick anything you find\", \"Trim torn leaves with clean scissors\" and \"water only when it's dry at that depth\" involve no chemicals and nothing that would worsen the plants. Missing the humidity cause delays the real fix but causes no direct damage. Advising less watering in a dim apartment is sound."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly rejects overwatering as the cause of the tears and names \"chewing insects (caterpillars, slugs, or beetles)\", which matches half of the reference. It misses the main point: low humidity, with tears forming \"while the leaves were developing.\" Its alternative theory, \"wind or contact with it could be tearing the leaves\" near the netting, is speculative. Humidity and misting, the fix that actually worked for the poster, are never mentioned. It does cite case-specific details (the netting near the dracaena, white specks on the pothos), but the watering advice is largely boilerplate."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"push a finger 2 inches down,\" a flashlight check at night, moving pots away from netting, and trimming with clean scissors. Everything can be done this week without special products. The final suggestion of \"a close-up video\" is also easy."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check soil before watering: push a finger 2 inches down and water only when it's dry at that depth",
+  "Make sure pots drain freely and empty saucers after watering",
+  "Trim torn leaves with clean scissors",
+  "check whether the pots have drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2386,
+ "output_tokens": 832
+}

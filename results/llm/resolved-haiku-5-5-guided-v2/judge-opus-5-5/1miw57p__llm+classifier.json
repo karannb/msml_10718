@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"plan on every day for the next few weeks\" and \"Hold off on more fertilizer until the plants recover,\" matches what helped in the REFERENCE. Daily deep watering in 100\u00b0F heat is not risky. The suggestion to \"Dig a few inches near one plant\" carries only trivial risk of root disturbance, and the mulch advice is sound. Nothing here would worsen drought stress or cause chemical harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"heat and drought stress... Every-other-day watering often isn't enough at 100\u00b0F,\" matches the REFERENCE's confirmed underwatering. The advice to water daily and stop feeding mirrors the commenters exactly. However, the output describes photo details that the case never provides, such as \"photo 4 that is still mostly green\" and \"Photo 2 shows bare soil.\" It also speculates about a \"sandy or fast-draining bed.\" These are likely invented details presented as evidence. The fertilizer-burn and planting-depth alternatives are reasonable but dilute the focus."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need only a hose and a finger or trowel: \"Run a slow hose or drip at the base for 10 to 15 minutes,\" \"Pull mulch back about 2 inches.\" A typical homeowner can do all of this immediately. The heading \"Water deeply, not frequently\" contradicts the instruction to water \"every day,\" which could confuse the user about the key action."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Prune out dead brown tips once the plants have new growth",
+  "Most azaleas will bounce back if their roots are healthy",
+  "Water deeply, not frequently"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2530,
+ "output_tokens": 1198
+}

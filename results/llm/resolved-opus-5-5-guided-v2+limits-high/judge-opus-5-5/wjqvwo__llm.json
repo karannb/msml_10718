@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "\"Move it to shade today\" and \"If it's dry: water slowly until it runs out the drainage holes... don't leave it sitting in a saucer\" address the real problem and would not worsen it. The finger check before watering guards against overwatering. Trimming only \"fully brown, crispy leaves\" with clean scissors is low-risk. No chemicals are involved. A peace lily toxicity note for pets would be a nice addition but isn't needed for this advice."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "\"Most likely: sun scorch and drying out\" and \"This is a peace lily\" match the reference diagnosis: sunburn and underwatering after an environment change. The output cites case evidence (\"Sitting on the lawn in direct sun (photo 1)\", \"bleached the leaves pale\", \"centre stems still look firm and green\"). Its advice to move it indoors near a bright window and water if dry mirrors what the commenters recommended and what helped the poster."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and needs only a finger and scissors: \"Push a finger in to the second knuckle (about 5 cm)\" and \"cut off fully brown, crispy leaves at the base with clean scissors (5 minutes)\". Time estimates and the recheck interval (\"every 2\u20133 days\") are given. A housesitter could do all of it today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil before watering. Push a finger in to the second knuckle"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2137,
+ "output_tokens": 765
+}

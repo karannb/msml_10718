@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core treatment, \"Dab each visible speck with 70% isopropyl alcohol on a cotton swab, or spray with insecticidal soap every 5 to 7 days,\" is safe and matches the reference. Two caveats are missing. The reference warns to limit direct sun or grow lights for 24 hours after alcohol, and the output omits this. Gotu kola is often eaten, yet there is no note about washing or waiting before eating treated leaves. Washing roots and trimming stems carries little risk for this fast-growing herb."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies \"mealybugs\" from the \"cottony, waxy coating\" at the stem bases, matching the reference. The 70% alcohol treatment also matches what worked for the poster. It addresses the user's plan to repot, and the swab and tissue tests separate mealybugs from mold or water droplets. Points off for the missing post-alcohol light caveat, the stray \"classifier's 'watering' result\" remark, and some generic repotting and light advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use household items: cotton swabs, 70% rubbing alcohol, insecticidal soap, a sheet for repotting, and lukewarm water. Frequency and duration are concrete (\"every 5 to 7 days for about three weeks\"), and the confirmation tests are easy. \"Don't repot it indoors yet\" followed by \"Repot outside or over a sheet\" is slightly confusing, but anyone could follow these steps this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Repot into fresh potting mix in a clean pot",
+  "Keep the plant in bright indirect light",
+  "wash your hands and tools afterward",
+  "Keep the plant isolated until it's clear"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2436,
+ "output_tokens": 1010
+}

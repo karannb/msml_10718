@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says to \"Check the soil before watering\" and to empty the cachepot after 15 minutes, which guards against overwatering. Pruning dead parts and checking for pests are low risk. The main risk is delay: by treating underwatering as the core issue, it skips the support and repotting the plant actually needs. The fixed rule \"about once every 1-2 weeks\" could also lead to overwatering in low light."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "It diagnoses \"underwatering or dry air,\" but the reference identifies a poorly supported plant that needs repotting, more light, and proper staking/tying to the coir pole. The model notices \"leaning stems are also drooping\" but never suggests staking or tying them to the pole. It also omits repotting into well-draining soil. \"Bright, indirect light\" is offered only as a generic closing line, not tied to case evidence."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear and concrete: \"Push a finger 2-3 inches down,\" empty the decorative pot after 15 minutes, and use clean scissors to remove dead parts. Anyone can do these this week with no special tools."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep the plant away from heaters and drafts",
+  "give it bright, indirect light",
+  "Water on a schedule",
+  "Monsteras usually need watering about once every 1-2 weeks",
+  "Check the soil before watering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2220,
+ "output_tokens": 502
+}

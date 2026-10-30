@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe: \"hold off on watering\" if damp, \"let the cut callus for 2 to 3 days\" and \"Water lightly only after roots form\" all prevent rot. One caveat is missing. It says \"Move it to the brightest spot you have\" and recommends direct sun from \"a south- or west-facing window\" without warning to acclimate gradually, and a stretched plant moved suddenly into strong sun can sunburn. No chemicals are involved, and there are no person or pet risks."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference: \"etiolation (leggy growth) from too little light,\" supported by case evidence (\"leaves are spaced far apart,\" \"leans toward the window\"). It also correctly rejects the watering classifier. The fixes match the reference: behead and propagate the top (\"propagate the top rosette\"), repot, and move to better light. It misses the reference's tip to propagate from the removed leaves, which directly answers the user's propagation question. Some watering and repotting advice is generic filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a beginner: \"Push a finger 2 to 3 cm... down,\" \"rotate the pot a quarter turn each week,\" \"Cut the stem a few centimetres below the rosette, let the cut callus for 2 to 3 days.\" The only supplies are cactus mix, a pot with a drainage hole, and optionally a grow light, all easy to buy. Everything can be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the soil is completely dry, then soak and let it drain fully",
+  "In winter, water much less often",
+  "Repot into a free-draining mix in a pot with a drainage hole",
+  "Move it to the brightest spot you have"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2312,
+ "output_tokens": 902
+}

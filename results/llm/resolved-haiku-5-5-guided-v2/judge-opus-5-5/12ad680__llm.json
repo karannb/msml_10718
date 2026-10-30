@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Set the pot in a bucket or sink of room-temperature water for 20 to 30 minutes... Then let it drain completely. Empty the saucer,\" is safe and matches the reference's \"Dump what drains in 20 min.\" The output never mentions that peace lilies contain calcium oxalate and are toxic to pets and children, which matters when it has just identified the plant. Trimming advice is limited to fully yellow, brown or crispy leaves, so it is low risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"underwatering, most likely a peace lily... dramatic droopers... recover within hours to a day or two,\" matches the reference exactly. It also explains a case-specific detail the user raised: soil pulling away from the pot edges explains why it \"didn't drink much.\" Step 3 (\"bright indirect light, away from cold drafts and heaters. Don't fertilise\") is somewhat generic. The instruction to remove \"dead brown flower stalks in the centre\" is not supported by the case text and may be hallucinated. The root-rot check is a reasonable caveat but not needed given the clear history."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only a bucket or sink, scissors and water: \"20 to 30 minutes, until the bubbles stop,\" and \"Water when the top few centimetres of soil are dry.\" Timeframes are given (\"a few days for the leaves to firm up\"). Any home owner can do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Put it in bright indirect light, away from cold drafts and heaters",
+  "Don't fertilise for a few weeks",
+  "make sure the pot drains freely",
+  "Check for root rot first"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2451,
+ "output_tokens": 922
+}

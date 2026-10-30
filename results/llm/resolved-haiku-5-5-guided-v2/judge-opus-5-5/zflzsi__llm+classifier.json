@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe: confirm it is underwatering, drain completely ('empty any saucer or cachepot so the roots don't sit in water'), and hold off on fertilizer. Minor risks remain. The optional 'Check the roots if you can' step means unpotting a drought-stressed plant, which adds stress without clear evidence of rot. The step titled 'Water on a schedule' contradicts its own text ('Don't water on a fixed timer'), which could push a user toward rote watering. Nothing here is seriously harmful."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis matches the reference ('Most likely cause: underwatering... the three-week gap with no water') and ties it to case evidence. It also correctly says peace lilies 'often recover within a day or two of a proper soak,' consistent with the reference's note that recovery takes hours. However, it misreads the case as a 'six-hour soak' when the user said the soak was about six hours ago. It only nods to dry winter air ('away from radiators') without suggesting a humidifier or pebble tray, which is what the poster used to help recovery. The aside about grass-like leaves is speculative but reasonably hedged."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need no special tools: drain in the sink, trim fully brown leaves, check the top inch of soil, and move the plant away from radiators. The 'Water on a schedule' heading clashes with 'Don't water on a fixed timer,' which adds some ambiguity. The 'one to three weeks to perk up' timeline is also a bit inconsistent with the earlier 'day or two.' Otherwise any home owner can follow this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Put it in bright indirect light away from radiators and drafts",
+  "Hold off on fertilizer until you see new growth",
+  "Check the roots if you can: firm, pale roots are healthy, while black, mushy ones need trimming",
+  "Keep the top inch or so of soil lightly moist"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2330,
+ "output_tokens": 1237
+}

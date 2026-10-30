@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe for the plant. It says to \"Check the soil before watering\", to move the plant \"off the glass\", and to \"hold off on fertilizer\", and none of these steps can worsen transplant stress or cold damage. Trimming only \"fully brown or badly torn leaves\" is conservative. Bird of paradise is mildly toxic to pets, and the missing pet warning is not relevant to this problem."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output names \"transplant stress plus winter conditions\" and identifies the plant as bird of paradise, which matches the reference. It also ties advice to case evidence, such as moist soil in the photo and splitting the plant into two pots. However, it treats cold-window placement as a secondary possibility rather than part of the main diagnosis. It also mentions a \"sink draft\" and \"sink area\", which appear nowhere in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special equipment: \"Push a finger 3\u20135 cm down\", move the plant back from the window, trim with clean scissors, and wait 4\u20138 weeks. It gives clear recovery signs (\"New leaves that unfurl flat and green\") and clear escalation triggers. Any beginner can do this."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright indirect light",
+  "Let the top few centimetres dry out between waterings",
+  "Be patient and hold off on fertilizer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2544,
+ "output_tokens": 519
+}

@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"If dry, soak it. Water slowly until it runs out the drainage holes,\" matches the reference fix and is safe for a drought-stressed plant. The output also gates watering on a soil check (\"Wet and heavy: skip watering\"), which avoids overwatering if the cause is different. Pruning by a third and bringing the plant indoors carry no meaningful risk, and no chemicals are recommended."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "\"Most likely: drought plus sun stress from two weeks outdoors unattended\" matches the reference diagnosis (underwatering after sun exposure) and ties directly to the two-week vacation. It identifies the plant (Iresine) and draws on photo details (\"top leaves look washed out,\" \"fallen leaves and kale,\" \"blue yarn\"). The alternative causes it lists (cold, waterlogging) come with distinguishing signs rather than generic hedging."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"push a finger 3\u20135 cm into the soil and lift the pot,\" water until it drains, \"wait 10 minutes, and repeat,\" and \"Cut stems back by a third, just above a leaf pair.\" Anyone can do these today. The thresholds are clear (10\u00b0C, top 2\u20133 cm dry)."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Hold off on fertilizer and repotting until it's recovered and actively growing again."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2303,
+ "output_tokens": 785
+}

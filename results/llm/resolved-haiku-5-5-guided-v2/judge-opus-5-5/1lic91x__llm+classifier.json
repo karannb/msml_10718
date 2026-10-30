@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly benign. Hand-pollinating, watering by finger test, and switching to a potassium feed carry little risk, and the output sensibly warns \"Don't cut watering based on that label.\" There is one minor risk. \"Move the trough to the sunniest spot you have, even if it means losing some shade\" during a hot spell could add heat stress or sunscald, which contradicts the output's own claim that heat causes flower drop. Unnecessary feed changes are also a minor risk for a plant that is fine."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference says the plant is simply not mature enough yet; it looks great and only needs time, and it later fruited without intervention. The output's headline diagnosis, \"Most likely cause: not enough direct sun, combined with heat,\" is wrong, and it never mentions plant immaturity or early flower drop being normal. Its secondary causes (pollination, nitrogen) are also speculative. Only the final \"Be patient\" step overlaps with the reference, and even that is conditioned on more light and cooler weather rather than maturity."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need no special tools: a finger test for moisture, a paintbrush or tapping for pollination, and a store-bought tomato feed. Moving a trough planter may not be practical on every balcony. \"Check whether pollen is reaching the stigma\" is vague for a typical owner. Overall it is easy to follow this week."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep soil evenly moist",
+  "Push a finger about 2 cm (1 inch) into the soil. Water when it feels dry, then water thoroughly so it drains from the bottom",
+  "Maximize sun",
+  "Check the soil yourself instead"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2379,
+ "output_tokens": 1009
+}

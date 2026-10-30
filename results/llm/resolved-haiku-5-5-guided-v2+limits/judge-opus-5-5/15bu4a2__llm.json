@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says \"Your soil-dry-before-watering routine sounds right, so overwatering is less likely.\" This steers the user away from the real risk: the water-retentive grower's plug and old peat soil causing root problems. That could delay the root check the reference recommends. The rest of the advice is low-risk, including sterilized pruning, a mild soap wipe and \"copper-based fungicide, applied according to the label.\" It never mentions that philodendrons are toxic to pets and children, though that matters little for this advice."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model's diagnosis is \"a leaf spot disease (fungal or bacterial), made worse by the high humidity.\" The reference instead points to shipping stress and old packed sphagnum/peat soil with a grower's plug. The model cites \"yellow halos\" and \"spots spreading from a single point,\" which the case never describes. It never suggests inspecting the roots, removing the plug or switching to a chunky aroid mix. Only \"Remove the worst leaves\" overlaps with what actually helped the poster."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses household items: scissors, rubbing alcohol, a flashlight, dish soap and a fan. The instructions are concrete and clearly ordered, such as \"Cut off the fully yellow or mostly brown leaves at the stem\" and \"run a fan on low.\" A home grower could do all of it this week."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Check for pests. Hold a flashlight under the leaves",
+  "Make sure the pot drains freely and doesn't sit in a saucer of water",
+  "Improve airflow",
+  "let the top inch of soil dry before watering again"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2437,
+ "output_tokens": 896
+}

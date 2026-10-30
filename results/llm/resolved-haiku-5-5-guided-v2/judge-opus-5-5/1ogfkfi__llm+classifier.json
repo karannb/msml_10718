@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Emptying any standing water and \"Hold off on watering\" are safe and help with the wet-soil risk. However, \"Check the roots\" and \"Trim any rotted roots... and repot into fresh, well-draining soil\" invite unpotting a Calathea that was repotted only a week ago, which adds stress. The advice is conditional on finding rot, so the risk is minor. Nothing in it is dangerous to people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model correctly identifies post-repotting stress and the risk that \"the soil stays wet... which can lead to root rot,\" which matches half of the reference. It misses the key factor: the plant was moved away from the window into lower light. The only light advice is the generic \"Bright indirect light\", with no suggestion to move it closer or use the plant lamp the user mentioned, and that lamp is what actually fixed the problem. It also claims \"The grey bowl in the photo has standing water under the pot,\" which goes beyond the case: the user described the bowl as a humidity aid."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Most steps are concrete and easy: \"Empty the saucer now,\" water only when the \"top inch of soil is dry,\" and use a pebble tray. The \"Lift the pot\" check is muddled, because it mixes judging pot weight with inspecting the roots without explaining how to do either. Repotting again is doable but takes more effort than the problem requires."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright indirect light, away from drafts, heaters, and the AC",
+  "Don't fertilize for a few weeks",
+  "use room-temperature filtered or rainwater if you can",
+  "repot into fresh, well-draining soil in a pot with a drainage hole",
+  "Water only when the top inch of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2505,
+ "output_tokens": 959
+}

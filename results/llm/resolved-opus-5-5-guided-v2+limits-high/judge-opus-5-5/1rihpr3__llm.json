@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output says \"Don't repot or move the plant again, so it can settle,\" which directly discourages the fix that worked per the REFERENCE: moving to a sunnier spot. Combined with the confident \"repotting stress\" label, this could delay needed action and prolong the leaf decline. The rest is low-risk: alcohol-wiped scissors, a mite check, and 1 tsp dish soap per litre (a mild, common dilution). The damp-soil reassurance is not dangerous given only one watering."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The REFERENCE identifies insufficient light, but the output diagnoses \"repotting stress on a clearance plant, not a new problem.\" It never addresses the user's own question \"Maybe not enough light?\" and does not suggest more light or a grow light. It does cite case details (one watering, healthy roots, new centre leaves, tan spots), but the core diagnosis misses the confirmed cause. The spider-mite check is a reasonable alocasia-specific aside, but it is not the actual problem."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable by any home owner: \"Wipe scissors with rubbing alcohol,\" \"Wipe the underside of each leaf with a white paper towel,\" and \"1 tsp dish soap in 1 litre of water... every 5 days for 3 weeks.\" They use household items and include time estimates. Ease of execution is high even though the advice is misdirected."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep watering only when the top 2 inches are dry",
+  "Trim dead tissue",
+  "Remove a whole leaf only once it's mostly yellow or brown"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2498,
+ "output_tokens": 858
+}

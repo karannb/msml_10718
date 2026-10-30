@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model says \"Rehydrate, don't drown\" and \"Don't water again until the top inch is dry,\" which guards against overwatering, the main risk named in the reference. Bottom-soaking for 20\u201330 minutes and then draining fully is safe. Christmas cactus is non-toxic, so the missing toxicity warning does not matter. I see no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "\"Most likely cause: severe underwatering\" matches the reference's drought stress diagnosis. The model ties it to case evidence: the limp segments, and the observation that \"Old, compacted soil can also shed water down the sides,\" which echoes the reference's compacted-soil point. Its repotting advice (\"Spring is ideal, but repotting now is fine if the soil is clearly depleted\") is consistent with the reference and with what the poster actually did. The bright winter light advice also matches."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Push a finger 2 to 3 inches into the soil,\" \"Set the pot in a basin... for 20 to 30 minutes,\" and cactus mix or perlite, both easy to buy. The root check is optional and clearly explained. Anyone can do this within the week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Place it in bright, indirect light and keep it away from heaters and drafts"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2628,
+ "output_tokens": 502
+}

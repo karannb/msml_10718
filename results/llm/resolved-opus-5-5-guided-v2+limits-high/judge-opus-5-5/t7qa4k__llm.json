@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is low-risk overall: \"Cut off the two yellow leaves\" and the quarter turns are harmless. \"Keep doing what you're doing with watering\" could delay a fix if overwatering is involved, which the reference raises. That risk is reduced by the added rule \"water only when the top inch or two is dry\", which is a sound safeguard against overwatering."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "\"Normal leaf shedding... older leaves\" matches the reference's \"If it's older leaves, they just die off sometimes.\" It also cites case details such as the light change, the leaf position and the dried sheaths. However, it rules out a cultural cause (\"not something you did wrong\") and never names the overwatering the reference flagged. It also omits the pole and fertilizing advice that helped the poster. It calls the leaves \"yellow-orange\" while the user says \"completely brown,\" a minor mismatch."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, with time estimates: \"Cut off the two yellow leaves where their stalks meet the vine,\" \"Give the pot a quarter turn once a week,\" and \"move the pot about 3 feet back from the glass.\" They need no special tools, and any home owner can do them this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give the pot a quarter turn once a week so all sides get light",
+  "water only when the top inch or two is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2299,
+ "output_tokens": 732
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output tells the user to 'Water only when the top 2 to 3 inches are dry' and to move the plant into 'a plastic nursery pot with holes,' which reduces the waterlogging the REFERENCE identifies. Trimming 'mushy or black' roots with clean scissors and removing damaged leaves are standard, low-risk steps. It recommends no chemicals. Monstera toxicity to pets isn't mentioned, but nothing here raises exposure risk."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly flags poor drainage and wet soil, citing case evidence: 'galvanized metal planter with no visible drainage hole' and 'soil... looks dark and damp.' It suggests 'a chunky, well-draining aroid mix,' which matches the REFERENCE. However, it frames repotting only as conditional ('If you repot') when the dense soil itself is a core problem. It also misses insufficient light, which the REFERENCE confirms from the plant reaching; 'Bright, indirect light' is tacked on generically at the end. The underwatering and humidity differential is boilerplate."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home. A nursery pot inside the decorative planter, the finger test, and trimming with scissors need no special tools. The main ambiguity is whether to repot into new mix, since 'If you repot' leaves the most important fix optional and unclear."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright, indirect light and steady conditions will help it recover",
+  "Low humidity or dry air: the damage is mostly brown edges with no wet soil. Check whether the plant sits near a heater or vent.",
+  "Underwatering: the soil is dry and pulling away from the sides, the pot feels light",
+  "Watch the new leaves for the next few weeks to see whether the damage stops spreading"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2504,
+ "output_tokens": 1034
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Advice to 'cut the broken stem about 1 cm below a node' with 'clean scissors' and put it 'in a glass of water' while changing it weekly is low-risk. It matches the reference's method. Staking with a 'soft plant tie' and a pebble tray carry no meaningful risk. Maranta is non-toxic to pets, so no toxicity warning is needed."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly re-identifies the plant as 'prayer plant (Maranta leuconeura), not a calathea', matching the reference's 'red maranta'. It also stresses rooting 'from a node', which the reference highlights. The core step, 'Put it in a glass of water so the node is submerged... Change the water weekly', matches the reference almost exactly, and the poster's update confirms it works. Staking also addresses the case-specific sagging stems. The humidity tip is somewhat generic, and the 'dried, brown tip' detail isn't verifiable from the case text, but neither detracts from a correct, tailored answer."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use items anyone has: a glass of water, scissors, a bamboo cane and soft ties. The output gives clear cues for success: 'Roots usually appear in 3 to 6 weeks. Once they're an inch or two long, pot it'. Everything can start the same day."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep humidity up",
+  "Group it with other plants or place a tray of pebbles and water under the pot",
+  "Avoid direct sun",
+  "place it in bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2225,
+ "output_tokens": 917
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to \"Scratch-test several stems,\" \"Only remove brown wood,\" and \"water deeply and slowly, about once a week when there's no rain... Don't keep it soggy.\" None of this risks harm to the plant or people, and the watering matches the reference's \"keep it watered.\" Advising to \"Hold off on fertilizer... until new leaves push out\" differs slightly from what helped the poster but is conservative and harmless."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The core diagnosis, \"normal winter color change from cold stress, and the shrub is probably alive,\" matches the reference's winter-stressed but not dead. The scratch test is a concrete version of the reference's \"I see some green... they're not dead.\" Two claims are not supported by the case text: \"gravel drains fast\" and \"new red growth at the branch tips\" may come from the photo but could be assumptions. It also omits the reference's advice to protect from heat and sun, and its note that spring blooms are unlikely but fall bloom is possible."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps (fingernail scratch test, checking moisture a few inches down, weekly deep watering, pulling back gravel and adding 2 to 3 inches of pine bark mulch) are clear and concrete. They need only common tools and materials, and a home gardener can do all of them this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Don't keep it soggy",
+  "Give it a few weeks of warmer weather",
+  "Check moisture a few inches down"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2490,
+ "output_tokens": 839
+}

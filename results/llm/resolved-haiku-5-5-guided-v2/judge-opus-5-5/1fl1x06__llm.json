@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Dip a cotton swab in 70% isopropyl alcohol and touch each insect directly,\" is safe and matches the reference. However, \"Spray the whole plant... with insecticidal soap or neem oil\" every 5\u20137 days for 3\u20134 weeks is a heavy regimen for what the reference shows was a single bug. It also omits a test-patch or phytotoxicity caveat for the thin-leaved polka dot plant, and gives no warning about spraying in direct sun. These are minor risks, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly identifies \"mealybugs,\" and its alcohol-dab-and-inspect advice matches the reference. It adds a useful smear test to distinguish mealybugs from scale. It does describe plural insects \"clustered\" in \"leaf joints and along stems,\" which is unverifiable detail when the case shows one bug. The repeated spray schedule also goes beyond what the reference needed, where a dab and inspection resolved it."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "\"Dip a cotton swab in 70% isopropyl alcohol\" and spraying insecticidal soap or neem oil use cheap, widely available products. The numbered steps are clear and give a concrete schedule (\"every 5 to 7 days for 3 to 4 weeks\"). Any beginner could follow them this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate the plant from your other plants now",
+  "Keep it isolated until you've seen no new insects for about a month, then check any nearby plants"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2247,
+ "output_tokens": 943
+}

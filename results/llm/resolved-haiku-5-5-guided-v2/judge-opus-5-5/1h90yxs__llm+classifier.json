@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. It says to \"Repot into a container 2 inches wider\" with drainage and \"Water thoroughly when the top inch of soil is dry,\" both reasonable. One minor concern is the framing that \"a repot is exactly the fix it needs,\" which could lead the owner to repot without cutting back hard enough. There is also no pet-toxicity note for pothos, a small missing caveat."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly reads the plant as root-bound, leggy and stressed, and it does advise \"Cut back the vines\" and propagating cuttings, which partly matches the REFERENCE's \"chop and prop.\" However, it never says how much to cut. The REFERENCE's key point is removing 60\u201380% so the plant can redirect energy and branch fuller. Instead the output centers on repotting and root-rot checks, and some claims (\"soil pulling away from the pot,\" \"cachepot\") are not clearly supported by the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: unpot, inspect the roots, repot 2 inches wider, take \"cuttings of 3 to 4 inches, each with at least one node,\" and root them in water. These need only scissors, a pot and potting mix, and can be done this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright indirect light and avoid heat vents and drafts",
+  "Use a pot with drainage holes, and don't let it sit in standing water",
+  "Water thoroughly when the top inch of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2577,
+ "output_tokens": 559
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The watering advice ('Water only when the top 3\u20134 cm are dry... empty the saucer') is safe and matches the reference's suggestion to extend time between waterings. However, 'Move the plant 1\u20131.5 m back from the window or behind a sheer curtain' cuts light further. The reference says too little light was the actual problem, so this advice would likely worsen it and delay the fix that worked (moving it outside). Unpotting and trimming roots is low risk, but it may be unnecessary disturbance if rot isn't present."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The main diagnosis, 'Most likely cause: crown rot', does not match the reference's confirmed cause of insufficient light on the shelf. The output does engage with case details, such as the once-a-week watering and the southern France sun, and the tug test is a reasonable case-specific check. But it treats light as excessive ('Six hours of direct south-facing midday sun... is very strong') rather than considering that the shelf position may shade the plant. The overwatering angle only partly overlaps with the reference's secondary advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: 'Gently tug a few central leaves', 'push a finger 3\u20134 cm into the soil', and 'repot in... 2 parts potting soil to 1 part perlite'. No special tools or lab tests are needed, and everything can be done this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Bright indirect light is ideal",
+  "Water by soil, not by calendar",
+  "Use rainwater or filtered water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2584,
+ "output_tokens": 829
+}

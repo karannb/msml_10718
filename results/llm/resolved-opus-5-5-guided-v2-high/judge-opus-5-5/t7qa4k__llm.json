@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. 'Water by soil, not by calendar' and the finger-check reduce overwatering risk, which the REFERENCE flags. However, 'that may end up being more often than weekly' nudges toward more water when commenters suspected overwatering. Philodendrons are toxic to pets and children, and there is no warning about this when snipping leaves."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "'The plant is dropping two old leaves after the move' matches the REFERENCE's 'if it's older leaves, they just die off sometimes'. It cites case evidence: mature leaves, healthy new growth, the variegated 'Brasil' explaining 'less green', and leggy vines confirming low light. Overwatering, the REFERENCE's other concern, appears only as a secondary possibility. The output omits the pole suggestion that helped the poster, but it does include fertilizing, which the REFERENCE also recommends."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: 'Snip off both yellow leaves where their stalks meet the vine', the finger test at 2\u20133 cm, keeping it in the brighter window away from hot afternoon glass, and monthly diluted fertilizer in spring and summer. Any home owner can do these this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water when the top 2\u20133 cm are dry, then soak until water runs out the drainage hole",
+  "feed with a diluted houseplant fertilizer monthly in spring and summer",
+  "ideally with bright indirect light or gentle morning sun"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2508,
+ "output_tokens": 987
+}

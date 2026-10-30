@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Stop watering and check the soil by hand,\" is safe and fits the wet soil. However, \"Slide the plant out and look at the roots\" means disturbing a plant only 10 days after repotting, which could deepen transplant shock. It is also conditional and fairly mild. There is no note that croton sap irritates skin and is toxic to pets, which matters when handling and trimming roots."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"The roots are stressed and the soil is staying too wet... Repotting damages some roots\" matches the reference's transplant shock and wet-soil diagnosis. It draws on case evidence such as the 10 days since watering, the fully blue indicator and the leca/bark mix. It misses low light, which turned out to be the key factor; the plant recovered with more sun or a grow light. \"Bright indirect light\" is a generic default rather than a push to raise light levels."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Push a finger 3 cm into the mix,\" \"Lift the pot,\" \"Empty any standing water,\" and \"clean scissors dipped in rubbing alcohol.\" The sequence is clear and realistic for any home grower to do this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright indirect light at room temperature, away from heaters and drafts",
+  "Don't add extra fertilizer while it recovers",
+  "Water only when the top 3 cm feels dry, and water thoroughly until it drains"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2507,
+ "output_tokens": 915
+}

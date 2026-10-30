@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model's main fix is \"Water thoroughly... soak the whole pot in a basin of water for 20 to 30 minutes.\" The REFERENCE identifies overwatering, so this would make the real problem worse. The risk is softened by the \"Quick check\" step: \"If it's wet or soggy, the cause is different.\" It also tells the user to \"Empty the saucer.\" That makes this a moderate rather than serious risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model leads with \"Most likely cause: underwatering,\" which is the opposite of the confirmed overwatering. It also explicitly calls overwatering \"Less likely.\" It does mention \"Too little light\" and links leggy stems to light, but treats this as \"a secondary issue.\" It misses the reference's key advice to lay the vines on the soil so they root at the nodes and fill out the pot."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home grower: \"Push a finger about 2 inches into the soil,\" \"Empty the saucer about 30 minutes after watering,\" \"trim the long, bare stems back to a leaf node,\" and move it \"closer to a bright window.\" No special tools are needed. Feasibility is high even though the core advice is misdirected."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water when the top inch is dry",
+  "Move it closer to a bright window, out of direct afternoon sun",
+  "Empty the saucer about 30 minutes after watering",
+  "check the roots",
+  "Give it a couple of weeks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2415,
+ "output_tokens": 811
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to replant, water thoroughly, and use a perforated plastic bag 'perc\u00e9 de quelques trous pendant 3 \u00e0 4 jours' away from direct sun is standard, low-risk transplant-shock care for basil. The holes and the short duration limit mold risk. 'Arrosez seulement si le premier centim\u00e8tre est sec' prevents overwatering. There is nothing toxic or dangerous here."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly identifies 'un choc de transplantation' and links it to the case evidence: plants collapsed minutes after repotting and lost fine roots. The reference's fix was keeping the plants in a glass of water, which revived them within 4 hours. The model instead prioritizes immediate replanting, and its line 'Ne les laissez pas des jours dans le verre d'eau' assumes a water glass the case never mentions. The approach is valid but departs from the reference method."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed: 'Faites un trou avec un crayon', 'Enfoncez la tige jusque sous les deux premi\u00e8res petites feuilles rondes', water until it drains, cover with a plastic bag. They use household items and set a clear daily routine. A beginner could do all of it today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Arrosez seulement si le premier centim\u00e8tre est sec",
+  "avec des trous de drainage",
+  "mettez le bac \u00e0 la fen\u00eatre la plus ensoleill\u00e9e"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2384,
+ "output_tokens": 976
+}

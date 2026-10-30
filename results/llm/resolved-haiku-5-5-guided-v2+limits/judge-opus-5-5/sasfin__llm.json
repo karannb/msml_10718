@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe. 'Water slowly until it runs out the drainage hole' fits a dehydrated plant, and 'Pour out any water sitting in the saucer' prevents overcorrecting into rot. The main gap is that the output never mentions peace lilies contain calcium oxalate and are toxic to pets and children if chewed, which matters when handling trimmings. It also suggests a slow top-water rather than a full soak, which can leave very dry, hydrophobic soil unevenly wetted, but this is a minor efficacy issue, not a harm."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly diagnoses 'most likely like underwatering', matching the REFERENCE. It ties the diagnosis to case evidence: 'Peace lilies droop dramatically when they run dry', 'crispy brown leaf edges fit that', and 'white, firm roots and lack of smell suggest the roots are healthy, so rot is unlikely'. The steps 'Trim the dead leaves' and water thoroughly mirror the reference advice to cut the yellow leaves and water. The light and vent advice in step 4 is somewhat generic but secondary."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses household tools: a finger test 'Push a finger 2\u20133 inches into the soil', 'clean scissors' for trimming, and emptying the saucer. The steps are concrete and include timing ('wait about 15 minutes', 'Check again in 2\u20133 days', 'perk up within a day or two'). Any owner could do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light away from heaters and vents",
+  "check again for soggy soil or root problems"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2207,
+ "output_tokens": 828
+}

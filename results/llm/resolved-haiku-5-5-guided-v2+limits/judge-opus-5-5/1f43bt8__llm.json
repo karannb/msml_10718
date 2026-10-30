@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Prune only dead leaves\" with \"clean shears, wiped with rubbing alcohol\" is safe and won't damage the plant, and the watering advice to \"empty any saucer afterward\" guards against overwatering. However, it misses the reference's warning that the narrow-topped pot may need transplanting \"before you have to break the pot.\" Its confident \"Nothing is wrong\" could delay that repot."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output does address the pruning question. However, it advises \"Leave green leaves alone, even ragged ones,\" while the reference recommends cutting the old lower leaves touching the ground, and the poster removed 7 leaves with good results. It misses the narrow-pot/repotting issue entirely. It also invents details not in the case (\"Your sunny balcony\") and asserts a species ID (\"giant white bird of paradise\") without clear support. The remaining care tips are mostly generic, though the user did ask for maintenance tips."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy to follow: \"Push a finger 2 to 3 inches down,\" \"half the label strength, about once a month,\" and \"Cut the stalk at the base with clean shears.\" They need only common household items and a standard fertilizer."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water by checking the soil. Push a finger 2 to 3 inches down.",
+  "Feed monthly in the growing season... balanced liquid houseplant fertilizer at half the label strength",
+  "Keep it bright.",
+  "Skip feeding in winter."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2246,
+ "output_tokens": 1002
+}

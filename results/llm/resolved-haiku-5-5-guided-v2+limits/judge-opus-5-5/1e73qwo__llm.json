@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 2,
+  "reason": "The core advice, \"Move it out of direct sun today. Put it 1-2 m back from the window, or behind a sheer curtain,\" is the opposite of what the reference found. The confirmed problem was too little light on the shelf, and the fix was moving it outside. Following this would worsen the light deficit and repeat the pattern of losing every plant. The watering advice (\"Water thoroughly only when that layer is dry\") and the crown-rot warning are reasonable and low-risk, which keeps this from a 1."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The diagnosis \"Most likely cause: sun scorch\" is wrong. The reference confirms too little light indoors, and the poster recovered the plant by putting it outdoors. The model does use case details (south of France, 9am\u20133pm sun), but it misreads them, and it ignores the shelf placement 50 cm from the window. Only the finger-test watering advice partly matches the reference's suggestion to extend time between waterings."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home owner: move the plant, push \"a finger 2-3 cm into the soil,\" and cut damaged leaves \"using clean scissors... about 2 minutes.\" No special tools or products are needed. The steps are feasible even though the main one is misdirected."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Bright indirect light is ideal",
+  "Check the soil before each watering",
+  "Water thoroughly only when that layer is dry, and empty the saucer afterward",
+  "Cut off the damaged leaves",
+  "Healthy new growth should replace them"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2364,
+ "output_tokens": 922
+}

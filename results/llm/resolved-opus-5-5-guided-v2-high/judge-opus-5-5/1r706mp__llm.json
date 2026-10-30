@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Dab each blob with a cotton swab dipped in 70% isopropyl alcohol\" matches the reference treatment, which caused no damage. The note to \"choose a product labeled for edibles and wash leaves well before eating. Skip systemic insecticides\" is a good safety caveat for an edible herb. However, it recommends alcohol plus repeated insecticidal soap or neem/horticultural oil sprays without the reference's warning to limit direct sun or grow lights after treatment. This is a minor phytotoxicity risk, especially on a tender herb that is about to be repotted."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "\"Most likely: mealybugs\" is the correct diagnosis, and the output cites case-specific visual evidence: \"small white, cottony, oval blobs tucked low on the leaf stalks.\" It gives a toothpick test and sensible differentials (mold, springtails). It ties advice to the user's situation, noting the planned repot (\"Repot now. It helps\") and checking for root mealybugs. The core alcohol treatment matches what worked for the poster."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use common household or easily bought items: newspaper, cotton swabs, 70% isopropyl alcohol, insecticidal soap or neem, and fresh potting mix. It gives a clear schedule: \"Spray every 5\u20137 days for 3\u20134 weeks\" and \"Check weekly.\" It also addresses the user's squeamishness with \"Wear gloves.\" Anyone could start this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check weekly",
+  "give your other plants a quick look too",
+  "Use fresh potting mix and a scrubbed or new pot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2446,
+ "output_tokens": 856
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to \"Treat with insecticidal soap or neem oil every 5 to 7 days for about 3 weeks... Follow the label, and avoid spraying in strong sun,\" which matches the reference's warning about leaf burn from spraying in light. Rinsing and isolating the plant are low-risk. Removing \"heavily speckled\" fronds could be a bit aggressive, but it is qualified with \"mostly brown.\" Parlor palm is non-toxic, so no toxicity warning is needed."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"spider mites\" as the most likely cause and cites case-specific evidence: \"fine, pale speckling and dull, dusty look across many fronds.\" This matches the reference's note about pale, thin fronds. The repeated spray rounds over several weeks match the reference's \"3-4 rounds, one week apart.\" Listing thrips as a secondary possibility, with a way to tell the two apart, is reasonable. The humidity and soil advice is somewhat generic but is tied to mites and to the damp-looking soil."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use common items: a shower rinse, \"tap a frond over white paper,\" a phone macro lens, insecticidal soap or neem, and sticky traps. Timing is clear (\"every 5 to 7 days for about 3 weeks\"). A typical owner can do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Isolate the plant from your other plants right away",
+  "group plants, use a humidifier, or mist between treatments",
+  "let the top inch of soil dry out between waterings"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2510,
+ "output_tokens": 584
+}

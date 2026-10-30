@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice like \"Cut the woody stalk back with clean scissors to just above a node\" and \"Pinch... just above a pair of healthy leaves\" is safe. However, \"Thin the seedlings. Keep the strongest one and pull or snip out the others\" could remove the young plants the REFERENCE says to focus on. Also, \"cut it near the soil and let the base produce new shoots\" overstates how well old woody basil regrows, which could leave the owner waiting on a dead stump. Both are minor risks with no danger to people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the problem as structural: \"an old woody stem\" that \"lignifies and stays bare.\" Its pruning guidance (\"cut... just above a node\", \"just above a pair of healthy leaves\") matches the REFERENCE's \"cut the plant above those side shoots (Y).\" It diverges in places. It speculates \"years of incorrect pruning\" and \"transplant stress after repotting,\" neither of which is in the case. It also suggests thinning seedlings, whereas the REFERENCE says to drop the stalk and focus on the small plants."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps need only scissors and fingers: \"Cut the woody stalk back,\" \"Pinch, don't hack,\" \"Remove flower buds,\" and \"Thin the seedlings.\" Each is concrete and numbered, with clear landmarks such as nodes and leaf pairs. A typical owner can do all of it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep the pot in bright light and water when the top inch of soil feels dry",
+  "water only when the top inch of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2281,
+ "output_tokens": 1034
+}

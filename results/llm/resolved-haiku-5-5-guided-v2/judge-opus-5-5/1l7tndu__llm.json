@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk: \"bright, indirect light, away from direct sun\", \"Keep the soil lightly moist, not soaked\" and a loosely ventilated humidity cover. It recommends no chemicals and warns against fertilizing a stressed plant. Waiting \"1 to 2 weeks\" could slightly delay the faster water-glass fix, but this would not harm the plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly diagnoses \"transplant shock from root damage\". It ties this to evidence in the case: collapse \"minutes after repotting\" and fragile seedling roots. The reference's key fix was putting the basil in water, which revived it within 4 hours. The model mentions rooting cuttings in water only as a last resort after a week or two, rather than as the primary step. The core diagnosis matches, but the main remedy differs."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "All steps are simple and use household items: \"squeeze the base of a stem\", cover with \"a clear bag or a plastic cup with air holes\", and move the pot out of direct sun. The instructions are clear and concrete, and a beginner can follow them immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Don't fertilize or prune yet",
+  "bright, indirect light, away from direct sun"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2407,
+ "output_tokens": 472
+}

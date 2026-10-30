@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe. 'Use clean scissors or a knife to cut each broken piece just below a node' and 'Change the water every few days' carry no meaningful risk to the plant. Marantas are non-toxic, so the missing pet warning is not a gap. Calling the classifier's fungal flag 'most likely a false alarm' is reasonable, since the output also tells the user to check for 'soft, mushy, or dark stem bases.'"
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly says 'This is also a prayer plant (Maranta leuconeura), not a calathea' and points to the 'red veins,' which matches the reference's 'red maranta.' It stresses keeping a node, as the reference does, and offers water rooting ('stand them in a glass of water so the nodes are submerged'), which is what worked for the poster. The general parent-plant care line in step 4 is slightly generic, but it is a minor part of an otherwise case-specific answer."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use only a glass of water, scissors, potting mix, and optionally a plastic bag. They are concrete and numbered, with timelines ('Roots usually appear in 2 to 4 weeks') and a clear signal for when to pot up ('once roots are an inch or two long'). Any home grower can follow them this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "keep watering when the top inch of soil is dry, and keep it in bright, indirect light with decent humidity",
+  "Use a well-draining mix, such as potting soil with perlite, in a small pot with a drainage hole"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2423,
+ "output_tokens": 561
+}

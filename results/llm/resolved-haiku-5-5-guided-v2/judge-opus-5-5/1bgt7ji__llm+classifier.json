@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Inspect at night and under the leaves,\" \"Trim badly torn leaves with clean scissors,\" and \"water only when the top 2 to 3 cm... of soil is dry\" carries no meaningful risk. It recommends no chemicals and nothing that would worsen the plant's condition. Missing the humidity cause delays the real fix slightly, but it does not create harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output rightly pushes back on the user's overwatering theory and lists \"Chewing pests\" with concrete signs (frass, slime trails), which matches part of the reference. However, it puts \"physical damage\" and \"Rubbing or wind damage\" first and never mentions low humidity. The reference names humidity as a primary cause, says the tears formed while leaves developed, and misting is what fixed the problem. References to \"netting, railings\" and \"balcony\" may also not fit an apartment with little light."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear and need only things a home owner already has: a flashlight check at night, moving the plant away from rubbing points, trimming with scissors, and a finger test before watering. Anyone can do all of this within the week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move the plant to the brightest spot you have",
+  "water only when the top 2 to 3 cm (about an inch) of soil is dry, checking with a finger rather than on a schedule",
+  "Trim badly torn leaves with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2336,
+ "output_tokens": 792
+}

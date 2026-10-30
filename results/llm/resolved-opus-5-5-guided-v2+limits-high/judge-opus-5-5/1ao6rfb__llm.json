@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says \"Stop misting this plant\" and \"Pour onto the soil, not the leaves or flowers.\" Both are sound and reduce the risk of grey mould. It also says \"it's hardy, so cool nights in southern France are fine,\" which is accurate for primulas. Nothing here risks harm to the plant, person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output opens with \"This is normal. Your plant isn't dying.\" and explains that the flowers open in waves, matching the reference diagnosis of natural flower senescence. It recommends deadheading by pinching spent flowers at the base, which is the reference's main advice. It ties details to case evidence: the misting habit, the first photo, and the shaded balcony question. The reference says sun \"should be fine\" while the output says \"Don't move it into direct sun.\" This is a minor divergence in emphasis rather than an error, since the reference also says they like shade."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The output gives three concrete steps with time estimates, such as \"Deadhead weekly (2 min)\" and \"push a finger 2 cm in.\" Each needs only fingers or scissors. Any home owner could follow them this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2633,
+ "output_tokens": 459
+}

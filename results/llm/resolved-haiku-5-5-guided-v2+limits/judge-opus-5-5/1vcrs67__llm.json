@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is gentle. It says to \"Cut off fully brown, dry leaves at the base, but leave any green stalk alone\" and to \"Keep the soil lightly moist and check it 2 inches down before watering,\" which avoids both overwatering a damaged root system and letting it dry out. The corm-rot step (\"remove the plant from the pot and cut away all soft tissue\") is more invasive, but it only applies if mushy, black, or sour tissue is found, which is an appropriate condition. No chemicals are recommended, and bananas are not a notable pet toxicity concern."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely cause: transplant shock and root damage from removing the pups\" matches the reference exactly. Trimming dead material and keeping the plant watered also matches the commenters' advice, which worked. The output ties its explanation to the case: separating pups cut into the roots. One deduction: it states \"The pseudostem... still looks green and firm in the middle\" as a visual observation the case text does not provide, which risks false reassurance."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and needs no special tools: \"Scrape a small patch of the pseudostem with a fingernail,\" \"Gently tug the plant,\" cut off brown leaves, and move it somewhere shadier for 2\u20133 weeks. The output also sets realistic expectations (\"new leaves can take 4 to 8 weeks\"). Any home grower could do all of this right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep the soil lightly moist and check it 2 inches down before watering",
+  "Be patient"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2273,
+ "output_tokens": 878
+}

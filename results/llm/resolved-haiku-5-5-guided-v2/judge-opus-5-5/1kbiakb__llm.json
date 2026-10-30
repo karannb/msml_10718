@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Move it out of direct sun\" and \"Water at the soil, not the leaves\" is safe and helps with the likely problem. \"Remove the worst leaves with clean scissors\" carries no meaningful risk. Insecticidal soap is mentioned only if thrips are confirmed, which is a mild, appropriate treatment. Nothing here would damage the plant or endanger people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The main diagnosis, \"most likely sunscorch, made worse by watering over the leaves,\" matches the reference (water marks or sun stress) and ties it to the user's overhead watering and the hot months. The advice to trim the damaged leaf and avoid sunburn matches what commenters recommended. It loses a point for diluting the answer with two speculative alternatives, leaf spot and thrips. It also identifies the plant as Pilea with confidence even though the user was unsure, and the reference does not confirm the species."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "All the steps are concrete and cheap: move the pot back from the window, pour water at the base, trim with scissors, and do a white-paper tap test for pests. It explicitly drops misting, which the user said they couldn't afford or manage. Any owner could do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright, indirect light, such as a few feet back from a window or behind a sheer curtain, is ideal",
+  "let the top inch dry out between waterings",
+  "Check for pests"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2462,
+ "output_tokens": 529
+}

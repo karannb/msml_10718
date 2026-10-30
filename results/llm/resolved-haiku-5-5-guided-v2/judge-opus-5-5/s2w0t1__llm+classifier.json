@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Water thoroughly and evenly... until it runs out of the drainage hole,\" directly addresses the confirmed underwatering. \"Empty the outer pot\" helps prevent overcorrection. Dabbing mealybugs \"with rubbing alcohol\" is low-risk. Minor gaps: there is no warning that Dracaena marginata is toxic to cats and dogs. The light-based suggestion to \"Move it a metre or so back from the window\" is also speculative, though unlikely to harm the plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly re-identifies the plant as \"Dracaena marginata, not a yucca,\" matching the reference. It also attributes the drooping to \"a watering problem.\" However, it hedges between underwatering and root rot (\"If it's heavy and the soil stays wet, the roots may be rotting\") rather than committing to underwatering. It never cites the shriveling stem, the key evidence in the reference. Some steps, such as repotting and removing dead leaves, are fairly generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Lift the pot,\" check soil \"3 to 5 cm\" down, \"let it drain for 10 minutes, then empty the outer pot,\" and use rubbing alcohol on any bugs. The watering frequency guidance (\"every 1 to 2 weeks, less in winter\") is clear and realistic for any home owner."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Remove dead or badly damaged leaves at the base with clean scissors",
+  "Repot if roots are circling or rotting",
+  "Use a pot only 2 to 5 cm wider than the root ball, with drainage",
+  "Repot in spring if you can"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2451,
+ "output_tokens": 907
+}

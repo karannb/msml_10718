@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice is mostly safe: \"Stop the ACV\" sensibly ends an unproven home remedy, and removing leaves with \"sterilized scissors\" and \"Bag and discard them\" is sound. The main concern is that \"If spots keep spreading after 1 to 2 weeks, use a copper-based fungicide\" postpones treatment even though the case says spots are already appearing on several leaves; the reference treated right away. It also recommends copper fungicide and neem without any warning about gloves or keeping pets and children away while spraying."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely cause: a fungal or bacterial leaf spot\" matches the confirmed fungal leaf spot. The output ties this to case evidence: \"The musty smell that made your store replace the soil points the same way.\" Its core plan of cutting off affected leaves and using \"a copper-based fungicide... following the label\" lines up with the reference, which used Bonide copper per the bottle's instructions. Two weaknesses: the thrips description mixes in spider-mite signs (\"fine webbing\"), and several watering tips are boilerplate."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home grower: \"Wipe the scissors with rubbing alcohol between cuts,\" \"Empty any saucer or cachepot water after 15 minutes,\" and \"Spray in the morning... test one leaf first.\" Copper fungicide and neem are sold at ordinary garden centers. No special tools are needed."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the top 2 to 3 inches of the new soil are dry",
+  "make sure the pot drains freely",
+  "Empty any saucer or cachepot water after 15 minutes",
+  "Check the roots at the next repotting"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2557,
+ "output_tokens": 1027
+}

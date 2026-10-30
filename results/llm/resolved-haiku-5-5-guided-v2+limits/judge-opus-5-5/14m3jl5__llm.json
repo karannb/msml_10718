@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Cut the bare stalk back to just above the lowest pair of leaves\" and \"Take no more than a third of the plant at once\" is safe, conservative pruning guidance. No chemicals are involved, and basil poses no toxicity concern. Pinching flower buds and thinning seedlings carry no meaningful risk to the plant or to people."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"long-lived basil that has become woody and leggy,\" matches the reference (overgrown, woody basil needing pruning). \"Cut the bare stalk\" mirrors the reference's \"get rid of the stalk.\" \"Cut each stem just above a leaf pair (a node)\" matches the reference's advice to cut above the Y-shaped side shoots, and noting the small plants mirrors \"focus on the small plants.\" However, the output asserts \"kept going for four years\" with no support in the case, which only says the plant was purchased in May 2019. The closing watering and light advice is generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps need only clean scissors and fingers, and they are concrete. Examples include \"Cut each stem just above a leaf pair,\" \"checking weekly\" for flower buds, and \"Keep the two or three strongest\" seedlings. Any home grower can do this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water when the top inch of soil is dry",
+  "keep the pot in bright light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2148,
+ "output_tokens": 810
+}

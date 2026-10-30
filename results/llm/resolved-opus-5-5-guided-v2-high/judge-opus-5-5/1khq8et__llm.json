@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice ('Move it to bright, indirect light', 'Water when the top 5 cm is dry... Always empty the cover pot afterward', trim mushy roots) is safe and conservative. Checking roots before acting avoids overwatering a possibly rotted plant. There is no chemical use. The only small gap is that Monstera is toxic to pets, but no treatment here raises that risk."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly names insufficient light as the main cause and cites case evidence ('very long petiole arching away from the pole', 'stem between leaves is stretched', 'on the floor by a door'). This matches the reference's 'more light'. It only partly covers repotting: it suggests repotting in 'chunky aroid mix' only if roots are mushy, while the reference recommends repotting for drainage and root room regardless. It misses the staking/support issue entirely, which is central to the reference: tying the stem and node to the coir pole and untying the leaf stem. It notes the leaf arches away from the pole but gives no staking advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: 'within 1 m of a window', 'Slide the plant out of the pot', 'top 5 cm is dry', and a clear water-propagation fallback. They need no special tools, and the materials (orchid bark, perlite) are easy to buy."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water by checking, not by schedule",
+  "Move it to bright, indirect light",
+  "Leave the browned leaf parts alone. Trim only fully dead tissue."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2384,
+ "output_tokens": 558
+}

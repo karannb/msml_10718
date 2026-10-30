@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Soaking the pot and watering only when the soil is dry are safe for an underwatered plant, and there are no chemicals involved. The minor risk is \"Tidy up, but don't repot yet... repotting a stressed plant adds more shock.\" The reference identifies the no-drainage setup as the root problem. If no draining inner pot exists, the user could stay in a setup that prevents deep watering or leads to water pooling."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly identifies underwatering (\"about a quarter cup in almost a month\") and recognizes that \"the bowl has no drainage.\" This partly matches the reference. However, it assumes there is an inner pot with drainage holes and advises against repotting. The reference's central fix was to repot into a container with holes and bottom-water deeply. The added light diagnosis is plausible given \"limited sun exposure\" but is not in the reference."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable with household items: \"Set the pot in a sink or tray of water for 15 to 30 minutes,\" the finger test, and moving the plant to a brighter window. One ambiguity: step 1 depends on there being a separate draining pot to lift out. If the plant sits directly in the bowl, the instructions don't work as written."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it to the brightest spot you have, such as a south- or west-facing window, or add a grow light",
+  "Push a finger about a centimeter into the soil. If it feels dry, water thoroughly. If it's still damp, wait.",
+  "Don't water on a fixed schedule."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2397,
+ "output_tokens": 988
+}

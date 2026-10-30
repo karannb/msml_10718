@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output tells the user to \"Push a finger 2 to 3 cm into the soil\" before watering and says \"If it's wet or soggy... hold off on watering,\" which protects against overwatering a rotting plant. It also warns \"Don't leave it sitting in standing water.\" The trimming advice is conservative: \"Leaves that are only partly brown may still green up, so leave those on.\" One omission is that peace lilies are mildly toxic to pets, but that is not relevant to the advice given, so there is no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, \"underwatering, made worse by heat and sun\" with \"some sunscorch,\" matches the reference's \"sunburn and underwatering.\" It cites case-specific evidence: \"sitting in full sun in a black plastic pot,\" \"brown patches on the sun-facing leaves,\" and dramatic drooping typical of thirsty peace lilies. The advice to water thoroughly and move it out of harsh sun matches the reference. One small difference is that the reference suggests bringing it inside to bright indirect light, while the model suggests \"bright shade... under a tree or on a covered porch.\" Both achieve the same aim."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing beyond a sink or bowl: \"set the pot in a bowl or sink of water for 20 to 30 minutes,\" move it to shade, check \"every day or two,\" and trim fully crispy leaves. It gives a clear timeline (\"perk up within 24 to 48 hours\"). It suits a housesitter with no special equipment."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "It's worth asking the owner how often they usually water it."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2307,
+ "output_tokens": 621
+}

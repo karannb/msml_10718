@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Fix #1 says \"Water thoroughly until it runs out the drainage holes,\" but the user has already done this. Watering again soon could over-wet the soil. The preceding \"Quick check\" (\"Damp soil means you don't need to water yet\") and the soggy-soil warning largely offset this risk. Prayer plants are non-toxic, and the pebble tray and trimming advice carry no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"underwatering stress, made worse by dry heated air\" matches the reference's dehydration finding. It cites case evidence: \"the leaves are less turgid than usual,\" \"the plant was clearly dry,\" and the heater. \"they can recover within a day or two of a proper drink\" matches the reference's wait-and-see advice. Points off for some generic padding (pebble tray, grouping plants, repot next spring) and the unsupported \"hot direct sun through the blinds\" detail."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"Push a finger 2 inches into the soil,\" \"Lift the pot,\" \"empty the saucer after 15 minutes,\" and \"Move it a little away from the heater vent.\" Any home owner can do all of this immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Group it with other plants or set it on a pebble tray to raise humidity",
+  "Trim the yellowed and crispy leaves at the base",
+  "Repot next spring into a pot one size up if roots are circling",
+  "Most plants like this bounce back within a week or two once watering is consistent"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2465,
+ "output_tokens": 985
+}

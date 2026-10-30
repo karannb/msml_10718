@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Advice such as \"Keep the soil evenly moist, not soggy,\" \"Trim only fully dead leaves,\" and \"Don't fertilize yet\" is safe and fits transplant shock. The one minor risk is \"Also lift the plant gently\" to inspect roots, which could further disturb a freshly divided, stressed plant. Nothing involves chemicals or would worsen the problem."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"root damage and transplant shock\" from \"Dividing off the pups\" matches the REFERENCE exactly. It also answers the poster's questions: trim dead material and expect a new \"rolled spike\" from the center, which is what happened. However, it asserts \"The stems still look green and firm at the base\" without that being in the case description. Some content is generic (bright shade, humidity, don't fertilize, rule-out lists), and there is a slight inconsistency between \"evenly moist\" and \"water when the top 2 to 3 inches are dry.\""
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable: scrape test with a fingernail, check soil moisture, trim with clean shears, move to bright shade. \"A loose plastic bag over the plant\" is awkward for a banana plant of any size. Lifting the plant to inspect roots takes some effort, but overall the plan is easy to follow this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give bright shade, not direct hot sun",
+  "Indirect light and humidity help",
+  "Don't fertilize yet, and be patient",
+  "Make sure the pot drains freely"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2436,
+ "output_tokens": 836
+}

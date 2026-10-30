@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is safe for the plant. \"Water when the top 2\u20133 cm is dry... then empty the saucer\" and the stem squeeze test for rot both work against the overwatering the reference confirms. \"A little morning sun is good\" is appropriate for zebrina. The only gap is a minor missing caveat: Tradescantia sap can irritate the skin of people and pets during pruning and handling, and the output gives no warning."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"not enough light\" as the main cause and ties it to case evidence: \"long bare stems, wide gaps between leaves, and pale, washed-out green leaves.\" This matches the reference note that \"the leaves are losing its color.\" It also flags \"Watering problems from a pot that's too big\" with soil staying wet, which lines up with the confirmed overwatering. \"Push the 10 cm cuttings straight into the soil to fill the pot\" is close to the reference's advice to lay vines on the soil to root at the nodes and grow a bush. The monthly feeding tip is generic but minor."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"within about 1 m of a bright window,\" the finger test for watering, \"soak the pot in a sink for 20 minutes,\" and cutting and inserting cuttings. Any home owner could do all of this this week. The output could have mentioned the even simpler option of laying the vines on the soil, but cutting and replanting is about equally easy."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Feed it monthly in spring and summer with half-strength houseplant fertilizer",
+  "or use a grow light",
+  "Pinch the tips every few weeks to encourage branching"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2394,
+ "output_tokens": 1061
+}

@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to apply 'a soil drench with imidacloprid (or a systemic product labeled for thrips)' with 'Follow the label carefully' is appropriate and matches the reference. However, it gives no warning to keep treated soil and granules away from pets and children, and no reminder to ventilate a small bathroom when spraying pyrethrin every 5 to 7 days. Pothos are also toxic to pets, which goes unmentioned. These are missing caveats rather than harmful instructions."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "'Most likely cause: thrips' matches the confirmed diagnosis. It is tied to case evidence: 'The damage starts inside the sheath, the spots are small black and brown flecks', and pyrethrin 'helps for a few weeks and then the problem returns.' The explanation that eggs sit in leaf tissue and contact sprays miss them, plus the recommendation of a systemic, mirrors the reference. One minor slip: 'failure of fungicide-type sprays' is a stretch, since the user used pyrethrin and neem rather than fungicides."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The paper-tap check, 'Remove damaged new leaves at the base', sticky traps, and a clear spray schedule ('every 5 to 7 days for about 4 cycles') are concrete and easy for a home grower. Systemic products are widely sold, and it offers a fallback ('a systemic product labeled for thrips') in case imidacloprid is unavailable locally. The timeline expectation ('3 to 4 weeks') is realistic."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Follow the label carefully"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 3004,
+ "output_tokens": 1061
+}

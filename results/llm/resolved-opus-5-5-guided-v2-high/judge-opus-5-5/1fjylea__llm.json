@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output treats the mold as \"a harmless soil fungus\" and focuses on drying the soil (\"Water thoroughly only when the top 3 cm is dry\") and fixing drainage, which addresses the real cause without risk. The only product suggested is cinnamon, which is benign. Advice to trim mushy roots and repot is appropriate. There is no harmful chemical use."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis \"the soil is staying wet too long\" with a \"saprophytic mold feeding on organic bits\" matches the reference almost exactly. The output also ties its advice to photo evidence: the possibly undrained white bowl, the mold on the trunk, and the dropped leaf. Its suggestion to \"repot into fresh, chunky mix\" matches what the poster actually did to resolve the problem. The differentials include concrete tests that tell them apart (pressing the trunk, the finger test)."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Scrape off the top 1\u20132 cm\", \"Push a finger 3\u20134 cm into the soil\", and a mix of \"2 parts potting soil to 1 part perlite or bark\". Repotting and using a cover pot are easy for a typical owner. Everything can be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it more light and air",
+  "Water by the soil, not a schedule"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2350,
+ "output_tokens": 511
+}

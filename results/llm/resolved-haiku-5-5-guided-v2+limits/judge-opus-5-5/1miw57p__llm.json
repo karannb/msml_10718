@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The plan to \"Stop fertilizing now\" and \"Expect daily watering during this heat, not every other day\" addresses the drought stress directly. The finger check (\"If it's already moist, skip watering\") guards against overwatering from the long 15-20 minute soaks. Mulch kept \"pulled back a few inches from the stems\" adds a sensible safety caveat. Nothing here poses meaningful risk to the plants, the person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"heat and sun scorch, made worse by thirsty roots,\" matches the reference's underwatering and drought stress. The advice also matches: daily watering, more shade, and no feeding. However, the output asserts details the case does not establish, such as \"newly planted Encore azaleas\" and \"sandy soil under the mulch,\" which may be invented. That costs a point despite the otherwise well-tailored advice."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable this week: a finger test 3 inches down, slow 15-20 minute base watering, and \"30-50% shade cloth on stakes... Budget about $15 and about 15 minutes.\" Everything uses common, inexpensive supplies with clear instructions. The pruning timing is also given in a way any owner can follow."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water the soil, not the leaves",
+  "check the roots for rot",
+  "Keep the mulch at 2-3 inches"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2391,
+ "output_tokens": 793
+}

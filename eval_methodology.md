@@ -95,6 +95,21 @@ Haiku + classifier vs baseline B:
 
 The classifier halves Haiku's potential harm (p = 0.035) but doesn't help Sonnet: coverage is 1 vs 7 discordant threads (p = 0.07) and harm 4 vs 0 (p = 0.125). With three tests per comparison, none of these p-values survives correction except the coverage gap against baseline B.
 
+**Prompt and model variants** (post only, same Opus grader; `reports/prompt-design.md`). `guided-v2` is the tuned system prompt in `diagnose.py`; `+limits` adds the capacity rule to it (at most 4 short actions, no backup options).
+
+| Metric | Haiku `guided-v2` | Haiku `guided-v2+limits` | Opus 5.5 high `guided-v2` | Opus 5.5 high `guided-v2+limits` |
+|---|---|---|---|---|
+| Reference coverage | 83% (75–89%) | 79% (70–86%) | 92% (84–96%) | 79% (70–86%) |
+| Diagnosis correct | 56% (46–66%) | 53% (43–63%) | 53% (43–63%) | 52% (42–62%) |
+| Solved | 0% (0–4%) | 2% (1–7%) | 0% (0–4%) | 7% (4–14%) |
+| Solved without the capacity rule | 45% (35–55%) | 46% (36–56%) | 60% (50–70%) | 43% (33–53%) |
+| Potential harm | 12% (7–21%) | 16% (10–24%) | 8% (4–16%) | 16% (10–24%) |
+| False alarm (5 healthy threads) | 2/5 | 2/5 | 0/5 | 1/5 |
+| Actions per answer | 8.6 | 6.6 | 8.4 | 5.1 |
+| USD per 1,000 answers | 1.17 | 1.21 | 47.80 | 47.02 |
+
+Against baseline B, paired by thread: Opus `guided-v2` is level on coverage (3 vs 5 discordant threads, p = 0.73) and harm (4 vs 6), at 2.7 times the cost. With `+limits`, Opus solves 7 threads that Sonnet doesn't (p = 0.016) but covers less (2 vs 16, p = 0.001). Within Opus, the limits cut coverage from 92% to 79% (p = 0.002) and double potential harm (p = 0.039): the capacity rule, as graded, works against the other criteria.
+
 The 1–5 advice judge (`judge_resolved.py`; table in the README) agrees on harm (23 of 24 severe-harm answers are graded harmful) and diagnosis (92%), but its feasibility score ignores capacity: 375 of 379 over-capacity answers score 4 or 5.
 
 The capacity rule decides Solved for every system: at most 3% of LLM answers have 4 or fewer actions. Opus agrees with the original Haiku grades on 77–85% of diagnoses, 77–79% of advice grades and 86–93% of harm grades. The rule-based harm flags overlap little with the grader's harm judgments (4 of 28 flagged Haiku answers), so they don't replace the judge.

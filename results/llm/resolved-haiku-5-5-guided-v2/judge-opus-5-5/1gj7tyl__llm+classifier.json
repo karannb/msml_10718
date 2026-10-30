@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model frames pests as a secondary 'rule out' even though the user saw insects they 'could clearly tell were a bug.' This could delay treatment of an active infestation that the reference confirmed spread across all five plants. It also never says to isolate the infested plant from the others. The advice it does give is low-risk: 'dab them with a cotton swab of isopropyl alcohol,' 'Don't water yet,' and moving to bright indirect light. Nothing would directly damage the plant or the person."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The headline, 'Most likely cause: the move... scorching the leaves,' correctly ties the browning to the same-day light change, and the poster later agreed 'the big damage... was the sun.' However, the model ranks pests below this and names only 'mealybugs or scale.' It misses thrips and never mentions possible mites, which the poster later suggested by finding webbing. It also omits the reference's key steps: whole-plant neem or insecticidal soap treatment, persistence, and isolation. The overwatering section is reasonable but speculative given the evidence."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable with household items: 'Push a chopstick or your finger 4\u20135 inches down,' alcohol on a cotton swab, and 'behind a sheer curtain.' Dabbing individual bugs with alcohol is tedious, and likely insufficient for a widespread infestation across several plants compared with spraying. The repeat schedule, 'weekly for three weeks,' is clear."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the plant away from heating vents and drafts",
+  "Water only when the top 2\u20133 inches are dry",
+  "Move it to bright indirect light",
+  "If it's wet, or the roots are brown and mushy when you slide the plant out, you have root rot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2878,
+ "output_tokens": 863
+}

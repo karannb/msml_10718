@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output advises to \"Leave it alone for now\" and warns that \"Pulling on it can tear the leaf or the stem,\" which is cautious and appropriate. The fallback step, \"split the dry sheath lengthwise... Don't cut the leaf itself,\" is gentle and well caveated. It also correctly avoids changing watering for a plant that is not overwatered. There is no meaningful risk to the plant or to people."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"a new leaf unfurling... still coming out of its protective sheath,\" matches the reference's confirmed problem of a new leaf stuck in the previous leaf's sheath. It cites photo-specific evidence: the red rolled leaf, the brown papery sheath, and firm leaves. However, it does not suggest misting the sheath to soften it, which is the remedy that worked for the poster. It also includes some generic care lines about light and watering."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are simple and concrete: wait, \"Check it every day or two,\" and then after \"3 to 5 days\" gently split the sheath with fingers or sterilized scissors. A beginner can do all of this with household items and needs no special products."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright indirect light and the humidity from the bathroom suit this plant",
+  "Water only when the top inch or two of soil is dry",
+  "if you see moving specks, webbing, or sticky residue, check the plant more closely"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2205,
+ "output_tokens": 776
+}

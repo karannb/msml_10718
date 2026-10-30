@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is conservative and unlikely to harm the plant: \"Leave the pot size alone for now. Don't repot again,\" check soil before watering, and confirm drainage. One minor risk: it calls the yellow leaves \"the new shoot\" and later says \"you can snip it off at the base.\" That contradicts the reference, which identifies the yellow leaf as the oldest one. It could confuse the user about which leaf to remove and causes unwarranted worry about overwatering and rot."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output gets the bottom line right that the plant is \"basically healthy\" and should not be repotted, which matches the reference. However, it misdiagnoses the yellowing as \"transplant stress on the new growth\" caused by root cutting, when the reference says it is normal senescence of the oldest leaf. It also misses the one concrete action the reference recommends: staking or trellising the vine lying on the floor. Several steps (light, drafts, drainage, overwatering) are generic rather than tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"Push a finger 2-3 inches into the soil,\" \"Look underneath for a drainage hole,\" and wait 4-6 weeks. Any home owner could follow them this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright, indirect light away from cold drafts and radiators",
+  "Check the soil before watering again",
+  "Confirm the pot drains",
+  "don't fertilize for the next 2-3 months",
+  "Overwatering is possible, so check it"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2354,
+ "output_tokens": 888
+}

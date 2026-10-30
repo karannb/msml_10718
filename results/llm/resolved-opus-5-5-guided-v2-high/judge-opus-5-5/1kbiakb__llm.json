@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk throughout. \"Leave the damaged leaf... Snip it off at the base only if it yellows or the spots spread\" is conservative and matches what the poster later did. \"Pour water onto the soil instead of over the leaves\" and \"bright light without hot midday sun\" both reduce the reference's suspected causes (water marks, sun stress). No chemicals are recommended and nothing would worsen the problem."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model's primary diagnosis, \"physical damage from weeding,\" differs from the reference, which favors water marks or sun stress. However, it does list \"Sun scorch\" as an alternative and notes water droplets on the leaves. It correctly says the plant is otherwise healthy (\"new growth in the center looks healthy\"), and its advice lines up with the reference: trim the leaf if it worsens, protect from sunburn, keep leaves dry in hot sun. It uses case evidence well (weeding, overhead watering, direct sun in the photo, small plant in a big pot), though it ranks the likely cause differently."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is free and simple. \"Push a finger 3\u20134 cm into the soil,\" \"Pour water onto the soil,\" and \"a spot near the window with a sheer curtain, or a little back from the glass\" need no special products. This suits the user's stated lack of money for misting tools."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water by checking the soil, not on a schedule",
+  "Make sure the pot has a drainage hole"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2444,
+ "output_tokens": 837
+}

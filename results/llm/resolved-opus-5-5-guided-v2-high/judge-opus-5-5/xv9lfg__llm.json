@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is gentle and low-risk. It recommends to \"Leave it alone. Don't pull or unroll the leaf\" and to \"dab it with a damp cotton pad to soften it and ease it off gently,\" with misting and a loose bag as alternatives. Nothing here would damage the plant or endanger people or pets. The suggested 2\u20133 week wait could let a stuck tip deteriorate a little, but the stakes are low."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model's lead diagnosis is \"Most likely: nothing is wrong. It's just still unfurling,\" which conflicts with the reference's confirmed cause: the leaf was stuck due to low humidity. The correct cause does appear as a secondary possibility (\"Leaf stuck in its sheath... usually comes from low humidity\"). The suggested fix, dabbing with a damp cotton pad, matches what actually worked for the poster (brushing on water). However, the model puts that fix behind a 2\u20133 week wait instead of recommending it now. The light and watering advice is only loosely tied to the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is concrete and easy for a home grower. Misting, a plastic bag, a damp cotton pad, and moving the plant toward a window need no special equipment. Timeframes are clear (\"Check once a week,\" \"2\u20133 weeks\"), and watering guidance is specific (\"top 2\u20133 cm of soil is dry\")."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright indirect light, close to a window but out of harsh direct midday sun",
+  "Keep watering normally. Water when the top 2\u20133 cm of soil is dry",
+  "run a humidifier nearby"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2401,
+ "output_tokens": 608
+}

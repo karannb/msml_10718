@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Core advice to \"Bring him back indoors to bright, indirect light\" and water him matches the reference and is safe. The main risk is the confident species ID (\"Steven looks like a bromeliad\"), which cannot be checked against the case. If the plant is not a bromeliad, advice like \"Fill the cup in the middle... and keep it topped up\" would not fit. The \"Gently pull on the center leaves\" check could also stress an already weakened plant. These are minor risks."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Underwatering, made worse by the move outside\" matches the reference's underwatering/sun stress diagnosis. It cites case-specific evidence (\"crispy brown tips, curled and dried outer leaves... dry-looking soil\"). It also addresses the user's \"reaching\" comment, noting that \"outdoor sun or heat can scorch him.\" The bromeliad-specific cup watering is tailored but rests on an uncertain identification. Sun scorch is mentioned only in passing rather than named as a co-cause."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only water, scissors, and a window: \"Bring him back indoors,\" \"Fill the cup... with room-temperature water,\" \"water the potting mix when it feels dry an inch down,\" and \"Trim the dead leaves.\" Any home owner can do these this week, and the guidance sets realistic expectations (\"Recovery takes weeks\")."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "away from direct sun and drafts",
+  "Trim the dead leaves with clean scissors",
+  "Recovery takes weeks, so don't judge too early"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2235,
+ "output_tokens": 902
+}

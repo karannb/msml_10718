@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The pruning advice is conservative and safe: \"Remove only leaves that are mostly yellow, brown, or dried out\", \"Don't remove more than about a third of the foliage at once\", and \"Use clean, sharp secateurs and cut at the base of the leaf stalk.\" The watering guidance (\"Water thoroughly when the top 2 to 3 cm of soil is dry, and empty any saucer\") is cautious and won't harm the plant. It omits a mild pet-toxicity note for Strelitzia, but nothing here poses meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly concludes \"nothing is seriously wrong\" and tells the user to cut \"the oldest lower ones on the outside of the clump.\" This matches the reference's advice to cut the bottom leaves and the poster's outcome. It also explains why split leaves are normal (\"naturally tear along the veins\"), which suits this species. However, it misses the reference's specific point that the pot is narrow at the top and the plant should be transplanted before the pot has to be broken. It only offers a generic conditional repot (\"If the roots are circling...\"), and doesn't mention leaves touching the ground."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only secateurs, a finger test, and an ordinary fertilizer: \"cut at the base of the leaf stalk (petiole) so no stub is left\" and \"every 4 to 6 weeks in spring and summer.\" Any home owner could carry these out this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil with a finger before watering rather than following a schedule",
+  "Make sure the pot has drainage holes",
+  "If the roots are circling the surface or pushing out of the drainage holes, it's time to repot into one size larger",
+  "Use a balanced liquid fertilizer every 4 to 6 weeks in spring and summer, and stop in winter",
+  "Soggy soil is a more common cause of trouble than dryness"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2427,
+ "output_tokens": 1074
+}

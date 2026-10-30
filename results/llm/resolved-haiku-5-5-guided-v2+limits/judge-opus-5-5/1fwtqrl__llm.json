@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is largely safe. 'Move it into a pot 3 to 5 cm wider' and 'Don't cut the roots sticking out of the holes unless they are black, mushy, or dead' are sound. There are two minor risks. 'You don't need to repot right now' delays a repot the reference endorsed, though a root-bound bird of paradise is not in danger. Teasing apart several clumped plants can also cause root disturbance and setback, which is the exact outcome the user fears, and the output gives no caveat about this."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output recognises the plant has 'filled its pot' and gives sizing advice that matches the reference's 'one size larger' ('about 30 to 32 cm'). It also uses case details: the 27 cm pot and the multiple plants. However, its headline answer, 'You don't need to repot right now', conflicts with the reference, where repotting was recommended and the plant thrived afterward. The 'wait for spring' timing is assumed rather than based on anything in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: a specific pot size range, mix type, a finger-test watering rule, and a time window ('March to May'). No special tools or products are needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when the top 5 cm of soil is dry",
+  "Overwatering is a more common problem than a snug pot",
+  "keep it out of direct harsh sun for a week",
+  "chunky, well-draining aroid or houseplant mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2178,
+ "output_tokens": 925
+}

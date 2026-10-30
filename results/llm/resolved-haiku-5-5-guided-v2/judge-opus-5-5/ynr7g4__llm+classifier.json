@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says \"Set the pot in a basin or sink of room-temperature water for 20\u201330 minutes... Let it drain fully\" and to \"Move it out of direct sun.\" Both are safe and directly address drought stress. It also guards against misdiagnosis by telling the owner to let soggy soil dry before watering again. No chemicals are involved, and Fittonia is non-toxic, so no warning is missing."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, \"dehydration from heat and sun, most likely with some sun scorch,\" matches the reference (underwatering/drought stress, a good drink fixed it). It cites case evidence: two weeks in sun, the dark tray, slumping stems, and the soil near the rim looking dry. Its central advice to rehydrate thoroughly matches the reference. The humidity tip is somewhat generic but suits Fittonia."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only a sink or basin and scissors: \"Set the pot in a basin... 20\u201330 minutes,\" move it to indirect light, and check moisture every day or two. The finger test for soil moisture is easy, and anyone can do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Raising humidity (a tray of pebbles and water, or grouping plants) will also help it recover faster",
+  "Keep the soil evenly moist, not soggy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2250,
+ "output_tokens": 505
+}

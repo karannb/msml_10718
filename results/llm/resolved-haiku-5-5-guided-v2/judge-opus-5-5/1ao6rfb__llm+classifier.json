@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Stop misting the leaves and flowers\", \"Water only at the soil\" and keep it \"about 10\u201315\u00b0C, in bright indirect light\" is safe and suits primroses. Nothing here would damage the plant or endanger people or pets. The overwatering check (\"Press a finger 2 cm into the soil\") is harmless. Calling it \"heat and moisture stress\" is a misdiagnosis, but acting on it causes no harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The reference says the plant is healthy and the flowers are dying off naturally. The model's headline diagnosis is \"heat and moisture stress,\" which frames a normal process as a problem, so it misses that main point. It does note \"mostly spent flowers collapsing\" with \"leaves still looking largely healthy,\" which partly matches. Its advice to \"Remove dead flowers and stalks\" matches the reference's deadheading tip. It also says to \"Avoid direct midday sun\" and pick the shaded corner, whereas the reference says sun at this time of year is fine. The overwatering and underwatering sections add some generic speculation."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home grower: \"Stop misting\", water when \"the top centimetre or two is dry\", \"empty the saucer\", keep it on the shaded balcony, and remove dead flowers. None of them need special tools or products."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only at the soil, and only when the top centimetre or two is dry",
+  "Water until it drains, then empty the saucer",
+  "keep it away from radiators and heating vents",
+  "Press a finger 2 cm into the soil: if it's wet, wait"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2779,
+ "output_tokens": 610
+}

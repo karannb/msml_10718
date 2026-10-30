@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Most advice is benign: \"Don't repot again for at least a month or two\" and \"Water only when the top few centimetres are dry\" will not hurt a healthy plant. There is mild risk of unnecessary disturbance, though. The output suggests moving the plant \"into a nursery pot with drainage,\" which contradicts its own don't-repot advice, and it raises conditional root trimming for a plant the reference says is fine. Framing normal leaf drop as stress or overwatering may also prompt over-intervention."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference says the plant is healthy and the single yellow leaf is the oldest one, which is normal turnover. The model instead claims \"The yellowing is limited to the newest leaves\" and diagnoses \"transplant stress, possibly with a little overwatering.\" That misreads the evidence and the cause. It does correctly note \"the plant is not dying\" and that the pot is fine. It misses the reference's one concrete action, trellising the vine lying on the floor."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home owner: \"Push a finger 3 to 4 cm into the soil,\" \"Lift the pot,\" and check for a drainage hole. Nothing requires special tools. Some steps are unnecessary for this plant, and the conditional nursery-pot and root-trim instructions add a little ambiguity."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it bright, indirect light and keep it away from cold drafts",
+  "Water only when the top few centimetres are dry, then water thoroughly and empty any drainage saucer",
+  "Skip fertilizer until you see clear new growth",
+  "Check for a drainage hole"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2552,
+ "output_tokens": 1016
+}

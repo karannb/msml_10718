@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"water slowly until water runs out the bottom and empty the saucer after 10 minutes\" and to water \"whenever the top 2 cm feel dry\" fits a thirsty calathea and carries no risk of overwatering. Telling the user to \"wait and check again in 2 days\" if the soil is damp guards against root rot. No chemicals are involved, and a pebble tray is harmless."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"the soil is drying out too much, plus drier air at the window,\" and the explanation that \"Calatheas roll their leaves to save water when thirsty\" match the reference's moisture stress / low humidity / underwatering. The point that \"dry a little between waterings\" is too dry in the brighter spot ties the advice to the user's own words. However, it cites a \"terracotta pot,\" \"crispy brown edges on the lower leaves,\" and \"heating under or near a window,\" none of which appear in the case text. These may be invented, so the score is reduced slightly."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and cheap: \"Push a finger 3 cm deep,\" \"check every 2\u20133 days,\" a pebble tray \"(about $10),\" and \"pull her about 1 m back from the glass.\" Any home owner can do these this week with no special tools."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Bright indirect light is ideal.",
+  "Keep her out of direct sun."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2213,
+ "output_tokens": 730
+}

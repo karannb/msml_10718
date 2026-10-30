@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core fix, \"Stand the nursery pot in a bucket of water for 20\u201330 minutes, then drain fully. Never leave water sitting in the ceramic pot,\" directly addresses underwatering and guards against waterlogging. The root-rot step is conditional (\"If the soil is still damp days after watering\"), so it won't lead the user to dry out an already thirsty plant. Spot-treating with \"a cotton bud dipped in rubbing alcohol\" is a standard, low-risk mealybug treatment. The only omission is a pet-toxicity note for Dracaena, which doesn't affect the care actions themselves."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly re-identifies the plant (\"it's a Dracaena marginata... not a yucca\"), matching the reference. It names the confirmed problem as the most likely cause (\"the root ball is drying out\"), citing case evidence: dry peaty soil, a sunny windowsill and a plastic nursery pot. It also explains why the user may think they water enough, since dry peat sheds water. It misses the reference's key cue, the shriveling stem, and adds somewhat generic extras like fertilizing and potting up."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items, such as a bucket, rubbing alcohol and cotton buds. There is a clear diagnostic test (\"If it feels light and the soil is dry 5 cm down\"), a specific soak duration, and an ongoing schedule (\"water whenever the top half of the soil is dry... every 7\u201314 days\"). Any home grower could do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Feed it with a diluted houseplant fertiliser monthly in spring and summer",
+  "If roots are circling the pot, move it up one pot size in spring"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2442,
+ "output_tokens": 1037
+}

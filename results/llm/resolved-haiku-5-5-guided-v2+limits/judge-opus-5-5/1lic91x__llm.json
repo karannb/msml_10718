@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly benign. Hand-pollination and a finger soil check pose no real risk. However, the output blames heat (\"above about 32\u00b0C\") and then tells the user to \"Move the trough to the sunniest spot... ideally somewhere that gets afternoon sun.\" In a hot climate this could add heat stress, which is the very cause it names. It then reverses itself, suggesting a \"cooler, brighter spot during the hottest part of the day.\" That is a minor risk, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference confirms the plant was simply not mature enough and needed time, and the poster later reported fruit setting. The model never mentions plant age or that early flower drop is normal on young peppers. It confidently says \"The problem is most likely heat plus too little light.\" It also invents details not in the case (\"balcony,\" \"trough\"). Heat and sun duration are plausible pepper-specific factors, but the core diagnosis misses the confirmed cause."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for anyone: move the pot, brush flowers \"with a soft paintbrush or cotton swab,\" and \"Push a finger 2 to 3 cm into the soil.\" The only ambiguity is the conflicting direction to seek afternoon sun while also avoiding heat, which may leave the user unsure where to put the plant."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Check the soil before watering. Push a finger 2 to 3 cm into the soil. Water deeply only when it feels dry at that depth, and let excess drain away.",
+  "Move the trough to the sunniest spot you have"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2161,
+ "output_tokens": 955
+}

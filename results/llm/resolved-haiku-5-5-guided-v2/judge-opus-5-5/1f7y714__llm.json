@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to soak 'if the soil is dry' and warns 'Don't leave it sitting in water' and 'Avoid the urge to water again daily while it's drooping.' Conditioning watering on a finger test removes the risk of overwatering a plant that was already watered. Trimming is limited to 'fully brown, crispy, or mushy' leaves, which is conservative. There is no meaningful risk to the plant. Aglaonema is toxic to pets, but nothing in the advice increases exposure, so the missing warning is minor."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, 'underwatering, from the automatic system delivering too little water,' and the prognosis, 'Probably yes... usually bounce back,' match the reference. The output ties its reasoning to case evidence: the bent petioles, the plump leaves, and the misconfigured auto-watering system. It also addresses the detail that the plant was 'watered some days ago and still sad' with the hydrophobic-soil check, which fits this case well. The advice to fix the automatic system is specific to the poster's setup."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step uses household resources: 'Push a finger 2 to 3 cm into the soil,' 'Soak the pot in a basin or sink for 20 to 30 minutes,' and checking the drippers for clogs. The steps are clear, concrete, and doable immediately."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Be patient."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2481,
+ "output_tokens": 523
+}

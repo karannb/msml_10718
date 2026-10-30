@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Push a finger about 2 cm (1 inch) down. If it's dry, water thoroughly... If it's still wet, hold off\" makes watering conditional on the soil, so it cannot worsen an overwatering problem. \"Move it away from the radiator\" and \"Raise the humidity\" with a pebble tray or humidifier are low-risk measures that address the confirmed cause. No chemicals are involved. The worst outcome is a slightly over-trimmed leaf from the ambiguous tip-trimming instruction."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output names \"dry air... probably from the radiator\" as the most likely cause, which matches the REFERENCE's confirmed low-humidity diagnosis. It cites case-specific evidence: \"The plant sits right beside a radiator and in a bright window\" and \"brown, crispy leaf tips and the yellow band.\" Its core fix, \"Move it away from the radiator... out of hot drafts,\" is essentially what resolved the problem for the poster. Adding dry soil as a co-factor goes beyond the reference, but the advice tests for it rather than assuming it, and it also covers the commenters' alternative of too much water by noting that soft or black stems would indicate overwatering."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and cheap: a finger soil test, moving the pot \"at least 1 m (3 ft) away,\" and a pebble tray \"about $10 at a garden or pet shop.\" All are easy to do this week. The trimming instruction, \"leaving a thin brown-free edge,\" is confusingly worded. Standard practice is to leave a thin strip of brown tissue so you don't cut into living leaf, so a reader could misread this step."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright indirect light",
+  "Push a finger about 2 cm (1 inch) down. If it's dry, water thoroughly until it drains out the bottom"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2115,
+ "output_tokens": 1149
+}

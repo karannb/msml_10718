@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model advises \"Leave the new leaf alone. Don't unroll or pull it,\" and suggests only gently sliding off a dry sheath. Neither step risks damage. It recommends no chemicals, and \"Keep the humidity\" is consistent with what helped the leaf release. The pest note is cautious and conditional (\"if you see movement\"), so there is no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly says \"the new leaf is still unfurling... the papery tan sheath it grew inside (called a cataphyll) is caught on it,\" which matches the reference's stuck new leaf. It ties the advice to case details: the bathroom humidity and the red new growth. It does not mention the reference's specific fix of misting the leaf to loosen it, instead recommending waiting. That approach is compatible but less proactive. The light and pest remarks are somewhat generic add-ons."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are trivially doable: leave the leaf alone, gently slide off the dry sheath, and keep the plant in the humid bathroom with bright indirect light. No tools or products are needed. The only vague part is \"treat them if they're there\" for pests, but that step is conditional and minor."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "make sure it gets enough bright, indirect light so new leaves keep coming in healthy",
+  "check for fungus gnats or thrips and treat them if they're there"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2115,
+ "output_tokens": 700
+}

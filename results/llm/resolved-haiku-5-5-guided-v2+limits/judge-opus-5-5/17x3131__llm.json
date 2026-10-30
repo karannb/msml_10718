@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The lead diagnosis, \"dry, uneven root moisture plus low humidity,\" steers the owner toward more water. In the confirmed case, an oversized pot was already holding too much moisture. \"If it's dry, water thoroughly until water runs out the drainage hole\" could keep a huge soil mass soggy, because the top 2-3 inches can dry while the core stays wet. The soil check and the root-rot inspection in step 2 limit the risk, so this is a moderate rather than serious hazard."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis is the opposite of the reference, which confirmed an oversized pot causing overwatering and root-rot risk. The output never mentions that the pot is too large for a three-leaf plant, which was the key fix. It also notes \"The yellow sticky trap in the soil suggests you may have had fungus gnats\" but does not connect this to persistently wet soil, which supports the real cause. Its hedge, \"overwatering can cause similar symptoms,\" and the root check give partial credit, but the humidity advice is generic."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: \"Push a finger 2-3 inches down,\" check roots for \"black, mushy\" tissue, use a pebble tray, and trim brown edges with clean scissors. The instructions are clear and use common supplies. It would score higher if it had included the actionable fix of moving the plant to a smaller pot."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Raise humidity",
+  "Move the plant away from heaters, vents, and cold drafts",
+  "Set it on a pebble tray",
+  "Trim the damage",
+  "Check the soil",
+  "Also confirm the pot has a drainage hole"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2343,
+ "output_tokens": 918
+}

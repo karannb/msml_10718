@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to 'Put it in bright, indirect light... out of direct sun, for the first week, because pale shoots scorch easily', which matches the reference's warning against immediate bright direct sun. Watering only 'when the top 1 cm feels dry' and adding drainage holes guard against rot. It recommends no chemicals and nothing risky for people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "'Your lychee seed is very much alive' matches the reference verdict that the seed is viable and should be planted. The output ties its advice to case evidence: the pale shoot is from growing 'in a dark cupboard', and the 'tan, crumpled tip' is the first leaves the user asked about. It answers 'could it recover?' directly and notes lychees can push a new shoot. Some details (roots lying on the surface, the cup, the 'chunky mix') come from the photos and can't be fully checked, but they fit the scenario."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete: a hole 'about 2 cm deep', poking '3\u20134 [holes] in the bottom with a skewer or scissors', and checking moisture 'every 2\u20133 days'. Each step lists a time estimate and needs only household items. Any home grower could do all of it this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it evenly moist"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2263,
+ "output_tokens": 705
+}

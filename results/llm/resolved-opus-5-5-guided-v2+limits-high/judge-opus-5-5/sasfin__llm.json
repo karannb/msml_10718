@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"water slowly until water runs out the bottom, let it drain 10 minutes, then empty the saucer\" is the correct fix for dehydration. The \"If it's still wet, don't water yet\" check guards against overwatering, and \"don't repot while it's this weak\" is sensible. The only gap is that it never mentions peace lilies are mildly toxic to pets and children (calcium oxalate), which matters when trimming leaves and placing the plant."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely cause: thirst (underwatering)\" matches the REFERENCE. It ties the diagnosis to case evidence: \"The firm white roots and lack of smell mean root rot is unlikely\" and the floppy leaves with crispy brown edges. Trimming yellow leaves and watering thoroughly mirror the reference advice of \"Cut the yellow, and WATER WATER WATER!\" One point is deducted because \"wrinkled\" leaves and \"The terracotta pot\" are not in the user's text and may be unverified details from the photo."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed, such as \"Push a finger 3 cm into the soil and lift the pot\" and \"Use clean scissors to cut fully yellow or brown leaves at the base.\" They need no special tools. Any home owner can follow them this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Place it in bright indirect light, a few feet from a window and out of direct sun"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2264,
+ "output_tokens": 889
+}

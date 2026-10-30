@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Move it away from the window and any draft\" and \"Raise the humidity\" with a pebble tray, grouping, or humidifier is safe for the plant and the household, and calathea is non-toxic. \"Water only when the top 2 inches of soil are dry\" avoids overwatering. The suggestion to \"slide the plant out and check the roots\" applies only if the soil is soggy, so it adds little risk. Nothing here would worsen the problem."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly names dry air as a cause (\"cold air and dry air, probably from the window\") and ties it to case evidence: sudden onset in the same spot, the poster feeling cold, and the 4-day watering gap. The reference confirms low humidity. However, the humidity fixes (\"pebble tray... group it with your other plants... small humidifier\") are the standard, weaker options. The reference recommends sealing the plant in a clear bag or box, and the poster's follow-up showed only an airtight enclosure worked. The over/underwatering differential is largely generic padding."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: move the plant a foot or two from the glass, set up a pebble tray, use the finger test 2 inches down, and use room-temperature water. All supplies are common. The timeline \"Give it a week or two\" is clear and realistic."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Water only when the top 2 inches of soil are dry",
+  "Don't water on a fixed schedule",
+  "Hold off on fertilizer until the leaves recover",
+  "Mushy, brown, or smelly roots mean rot, and you'll need to trim them and repot in fresh, well-draining soil",
+  "group it with your other plants"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2554,
+ "output_tokens": 1267
+}

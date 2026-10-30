@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and fits a drought-stressed plant: \"Let it drain fully,\" \"Cut off the fully brown or crispy leaves,\" and keep it \"away from heating vents and radiators.\" The \"Check for root rot first\" section, including \"Tip the plant out of the pot if needed,\" is mostly unnecessary after three weeks without water and could add minor stress, but it is not dangerous. It also gives no pet or child toxicity caveat for peace lily (calcium oxalate), which is a minor missing warning."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly identifies the cause, matching the reference: \"Three weeks without water in a dry winter home is enough to make a peace lily collapse.\" It also notes that peace lilies \"perk up within hours of watering,\" consistent with the commenter's ~7-hour bounce-back. However, it never directly tells the user, who soaked it only six hours ago, to be patient. It also omits humidity measures like the humidifier the poster used, even though the case mentions dry winter air. The root-rot section and the remark about \"strappy, grass-like leaves\" (unverifiable from the case) dilute the tailoring, and \"recovers quickly after a drink\" assumes an outcome not yet stated."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"Squeeze the base of the stems,\" \"Water when the top 2 to 3 cm of soil is dry,\" \"Cut off the fully brown or crispy leaves at the base.\" The recovery timeline of \"one to three weeks\" is clear. Any home owner can do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "Water when the top 2 to 3 cm of soil is dry, until water runs out the drainage hole",
+  "Healthy roots are white or tan and firm. Brown, slimy, or hollow roots mean rot, and you should trim them off and repot in fresh, well-draining mix",
+  "check rather than follow a schedule"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2424,
+ "output_tokens": 1032
+}

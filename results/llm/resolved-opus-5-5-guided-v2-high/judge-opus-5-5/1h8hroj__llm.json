@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. It includes a soil-dryness check and says plants should \"perk up within a few hours of a thorough soak,\" so the plant does get watered. But Fix step 1 is \"Tip the plant out, gently pull the root ball into 3\u20134 clumps.\" Dividing an acutely dehydrated, wilting plant before rehydrating it adds transplant shock. The output never says to soak first, then divide once it recovers. It also omits the reference's caveat that a window sill may be too cold. These are minor risks, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The confirmed problem is underwatering. The output leads with \"overcrowding, plus thirst or stem rot\" and hedges between thirst and damping-off, so the main diagnosis is diluted. It does explain why crowded store basil dries out quickly, and its \"check that decides\" correctly predicts recovery within hours after a soak, which is what happened. Thinning the plants also matches what the poster did. However, it never gives the reference's simple first step of a 20-minute soak in a bowl. Its main fix is a full division and repot, and it adds generic light advice."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are clear and concrete: the soil check, \"Soak each pot until water runs out the bottom,\" and the cuttings in a glass of water. Dividing into \"its own 4\u20136\\\" pot\" requires buying 3\u20134 pots and potting mix, and the grow light is optional extra equipment. A beginner can do all of it this week, but it is more effort than the simple soak that solved the problem."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it the most light you can",
+  "Use your sunniest south- or west-facing window, or put a grow light about 6\u201312\" above the plants",
+  "Water by feel... whenever the top inch feels dry",
+  "Pot each clump in its own 4\u20136\" pot with a drainage hole and regular potting mix",
+  "Never leave the pots sitting in a saucer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2460,
+ "output_tokens": 1094
+}

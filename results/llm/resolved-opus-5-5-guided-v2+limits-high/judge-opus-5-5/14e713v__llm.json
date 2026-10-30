@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says 'The stem base in your photo looks pale and firm rather than black,' which contradicts the user's report of a 'dark root' and the confirmed rot. This could reassure the owner and delay the stem cut that actually saved the plant. It only advises to 'cut off any mushy roots,' with no instruction to chop the stem above rotted tissue. Otherwise the advice carries little risk: drying out, cactus mix, sterilized scissors, and waiting a week before watering are all appropriate."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly names the core cause, 'dense, peaty potting mix, which holds far too much water,' and links the mold and fungus gnats to it, which matches the reference. However, it downplays the visible rot the user flagged and misses the reference's key fix: chop above the dark, mushy area and re-root the cutting in dry soil. The note about legginess and light is a reasonable case-specific observation, but it is secondary."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed: 'Check the roots (5 min),' 'Repot into cactus/succulent mix (about $8 a bag, 15 min),' and 'Put 2 yellow sticky traps.' They use cheap, easy-to-buy products and need no special tools. Any home grower could do this in a day."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it to your sunniest window",
+  "water only when the soil is dry all the way down",
+  "Give it a quarter turn every week"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2254,
+ "output_tokens": 923
+}

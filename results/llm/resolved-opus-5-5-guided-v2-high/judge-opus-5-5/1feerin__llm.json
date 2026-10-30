@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model advises \"bottom-soak: set the pot in a bowl of water for 20\u201330 minutes... then let it drain fully\" and to \"Make sure the white pot has a drainage hole.\" Both steps are safe and prevent overcorrecting into waterlogging. It omits that croton sap is toxic to pets and children, but no treatment advice raises that risk, so nothing here is harmful."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The model correctly identifies \"Most likely cause: underwatering\" and cites case evidence: the poster confirmed the soil was very dry, and the leaves hang down while staying firm and green. It also notes that crotons are dramatic, which matches the reference. Its prediction that \"Leaves should perk up within a day\" fits the poster's report of recovery within three hours. The alternatives (sun shock, spider mites) come with specific checks rather than generic hedging."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing beyond a bowl of water: bottom-soak for 20\u201330 minutes, water when the top 2\u20133 cm is dry, and lift the pot to judge its weight. Any home grower can do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give bright light, but go easy on harsh sun",
+  "Water by feel, not schedule"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2289,
+ "output_tokens": 476
+}

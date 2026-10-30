@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The plan is mostly safe. It tells the user to keep watering \"When the top 2 cm feel dry, water until it drains\", while the reference says not to water a cold-damaged plant. Its \"If it's soft or black, post an update\" check limits the rot risk, but the watering advice is still a minor risk for a cold-stressed baby obliqua with damaged roots and leaves."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "It correctly identifies \"cold shock from the trip home\", which matches the reference, and it ties the diagnosis to case evidence like the coat transport and the window position. The care plan does not match the reference, which recommends chopping about 1 cm above the soil, withholding water, and covering with a glass jar for humidity. The output instead keeps the leaves (\"Until then they still feed the plant\"), continues watering, and never mentions a humidity dome."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, timed and easy to follow, for example \"Gently squeeze the stem at soil level\", \"Move it 30\u201350 cm back from the window glass at night\" and \"scissors wiped with rubbing alcohol\". No special tools or products are needed."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Don't repot or fertilise for at least a month while it settles.",
+  "When the top 2 cm feel dry, water until it drains from the pot's holes.",
+  "Keep it away from radiators too, ideally somewhere 18\u201324 \u00b0C."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2222,
+ "output_tokens": 521
+}

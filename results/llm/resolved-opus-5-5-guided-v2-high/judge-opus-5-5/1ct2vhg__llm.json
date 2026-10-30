@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output warns against removing farina (\"don't wipe it off\") and advises against wetting leaves (\"Water the soil, not the leaves\"), both consistent with the REFERENCE. It includes a sunburn acclimation caveat for moving plants outdoors (\"Start with 1\u20132 hours of morning sun... or they'll sunburn\"). The watering guidance is conservative and suits succulents. Nothing here risks harming the plant, person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The core diagnosis, \"Most likely cause: not enough light,\" matches the REFERENCE. So does the explanation that pinks and purples are stress colours that fade to green, and the note that the grow light probably isn't strong enough. It also correctly identifies farina as a normal protective coating, as the REFERENCE does. However, it attributes the \"green stuff\" mainly to rubbed-off farina, whereas the REFERENCE says the greening is from lack of light. It also invents a \"screened window\" not mentioned in the CASE. The REFERENCE's specific suggestion to combine window light with a grow light is replaced by grow-light-or-outdoors advice, which is close but not identical."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Steps are concrete and doable with common items: \"run it 12\u201314 hours a day on a timer, 6\u201312 inches above the plants\" and \"mix it about 50/50 with perlite or pumice.\" The watering instructions give clear checks (\"completely dry 1\u20132 inches down, or the pot feels light\"). The outdoor acclimation schedule is specific and realistic."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water the soil, not the leaves",
+  "soak until water drains out the hole, then wait until the soil is completely dry",
+  "Be patient"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2791,
+ "output_tokens": 971
+}

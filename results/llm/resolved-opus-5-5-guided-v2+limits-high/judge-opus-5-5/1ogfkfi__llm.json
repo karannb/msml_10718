@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Moving the plant back near the window or under the lamp matches the reference fix. Emptying the cachepot and watering only when the top 3 cm is dry are both safe. The minor risk is the line \"Moist soil a week after one watering is normal right now, so this isn't a sign that you're overwatering.\" The reference treats soil staying too wet as part of the problem and a root-rot risk, so this reassurance could reduce vigilance."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The model correctly calls it post-repotting stress. Its key remedy, \"Put it back near the window... Or place it 30\u201350 cm under your plant lamp for 12 hours a day,\" matches the reference, and the poster confirmed the lamp worked. However, it never ties the low light to the soil staying wet, and it frames the cause as root damage rather than low light. It also mentions a \"white pot\" and a \"radiator\" that the case text never describes."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete, timed and cheap: \"Lift the inner pot out... let it drip for 10 minutes,\" a finger test at 3 cm, and a lamp distance with a plug-in timer \"about $8.\" The user already owns a plant lamp, so anyone can do this right away."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Don't fertilize or repot again until it puts out a new leaf",
+  "Water only when it feels dry at that depth",
+  "Give it bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2343,
+ "output_tokens": 860
+}

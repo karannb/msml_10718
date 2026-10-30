@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output recommends \"70% rubbing alcohol\" applied with a cotton swab and warns \"Touch only the bugs, because the thin leaves can burn.\" It also says \"Don't spray on the same day you use alcohol,\" and adds an edibility caveat: \"wait until treatment is finished and rinse the leaves well first.\" The soap dilution (1 tsp per litre) is mild and is rinsed off. Nothing here would meaningfully harm the plant, person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, \"Mealybugs,\" matches the reference, and it cites case evidence: \"white, cottony blobs clustered on the stems near the soil.\" The alcohol treatment matches what worked for the poster. The advice is tied to the poster's situation: the upcoming repot (checking roots for root mealybugs), the separate table, the user's discomfort with bugs (gloves), and the fact that gotu kola is edible. It omits the reference's tip to limit sun for 24 hours, but the caution about leaf burn partly covers that."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use common household items: \"cotton swab,\" \"70% rubbing alcohol,\" \"mild dish soap,\" and a \"phone flashlight.\" Each step has a clear schedule and time estimate (\"Today (10 min)\", \"Every 5\u20137 days for 3 weeks\"). Any home grower could follow this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2233,
+ "output_tokens": 548
+}

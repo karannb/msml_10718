@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk: \"Scratch a small twig with your fingernail\" is non-destructive, and \"Check soil moisture weekly... If it's dry, water deeply\" will not overwater in cold, rainy weather because watering depends on the soil being dry. \"Don't fertilize or prune now\" is cautious rather than harmful. The poster later fertilized successfully, but holding off on a cold-stressed shrub carries no meaningful risk. No chemicals are recommended."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The core diagnosis matches the reference: \"most likely normal cold-weather coloring, and the shrub is probably alive.\" The model explains the reddish pigmentation and ties the poor bloom to transplanting. The scratch test parallels the reference's \"if there is some green they're not dead.\" Weaknesses: \"Don't fertilize\" diverges from what actually helped the poster. It omits the reference's advice to protect the plant from heat and sun, and doesn't set bloom expectations (none this spring, possibly by fall). It also references \"new growth,\" \"healthy-looking stems,\" and \"gravel mulch\" from a photo whose description isn't given, so these details may be invented."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is concrete and needs no equipment: \"Scratch a small twig with your fingernail,\" \"Push a finger 2\u20133 inches into the soil,\" \"Once nights stay above about 50\u00b0F,\" and \"Reassess in late May or early June.\" The thresholds and timelines are clear, and any home gardener can follow them this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "have a local nursery or extension office look at it",
+  "Check soil moisture weekly"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2258,
+ "output_tokens": 979
+}

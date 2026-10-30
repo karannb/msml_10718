@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly benign. Hand-pollinating, \"Water when the top 2\u20133 cm of soil is dry\", and \"Switch to a tomato fertilizer\" carry little risk. Two minor risks remain: \"Move the plants to the sunniest spot you have\" during what the user calls hot weather could add heat stress or sunscald, and \"this may mean daily\" watering could lead to overwatering if not checked. Nothing here would seriously harm a plant that just needs time to mature."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model leads with \"Most likely cause: the flowers aren't getting pollinated, made worse by heat.\" The reference confirms the plant was simply not mature enough yet and fruited on its own with time. The model never mentions immaturity or normal early flower drop. It does use case evidence (\"lush, glossy, pest-free leaves\", morning-only sun, heat), and its closing line \"fruit often sets on its own once nights cool down\" partly echoes the patience advice. Still, the main diagnosis and the interventions miss the confirmed cause."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need only household items. Examples include \"gently flick or shake each flowering stem\", using \"a soft paintbrush or cotton swab\", and the finger soil test. Daily hand-pollination takes some effort. \"Move the plants to the sunniest spot you have\" may not be possible for a user whose space gets only morning sun."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Move the plants to the sunniest spot you have",
+  "Water evenly. Water when the top 2\u20133 cm of soil is dry, until water runs out the bottom",
+  "Peppers need about 6 or more hours of direct sun"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2377,
+ "output_tokens": 970
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The treatments are low-risk and match what helped the poster: \"Dip a cotton swab in rubbing alcohol\", \"insecticidal soap... out of direct sun\" and \"Isolate it.\" The minor risk is in \"Keep it by the windows\" and calling the browning \"the plant adjusting to a new home.\" The reference attributes the big damage to sun, and the output gives no warning about gradual acclimation or diffusing harsh direct light, so further scorch is possible. Holding off on watering until the top is dry is appropriate."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly identifies a pest infestation plus stress from the move. It names the wrong pest, though: \"an early scale infestation, possibly with mealybugs,\" while the reference confirms thrips (with possible mites, given the webbing). It also frames the browning as normal adjustment (\"Birds of paradise brown at the edges and curl after a move\") rather than sunburn from the abrupt light change, which the poster later confirmed. It does cite case evidence (bumps along the midrib, white specks, the bug the user saw), and the treatment overlaps with the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed: \"Do about 5 leaves a day (10\u201315 min)\", \"Safer Brand, about $10\", \"Repeat every 7 days for 4 weeks.\" Everything uses common household or easily purchased products, and the steps are clear enough for anyone to follow this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Once the top 2 inches are dry, water until it drains out the bottom",
+  "It needs bright light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2727,
+ "output_tokens": 993
+}

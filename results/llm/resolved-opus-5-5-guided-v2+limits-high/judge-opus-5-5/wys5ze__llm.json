@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model advises 'Top up the soil... Add a 1\u20132 cm layer of that same mix to fill the low spots.' The reference warns against adding soil on top. The caveat 'Keep it below where the trunk flares out' limits the risk, but the advice still runs against the reference. 'Repot next spring' and 'If neither is happening, leave it' may also delay a repot that, according to the reference, the plant needed and benefited from. These are minor risks, not serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model says 'Nothing is wrong... You don't need to repot just because it has been two years.' This contradicts the reference's confirmed problem: the plant needed repotting, and it improved after the poster repotted. The model correctly says 'regular indoor potting mix is fine. You can skip the bonsai soil and layers,' which matches the commenters. Its plant ID and photo details are case-specific, but the core diagnosis and the top-dressing advice are wrong."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed: 'Check the roots (2 minutes),' 'a pot 2\u20135 cm wider with a drainage hole,' and 'regular potting mix with about one-third perlite.' Everything uses cheap, widely available materials. A typical owner could do this easily this week."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep watering it the way you have been",
+  "Repot only if the roots have run out of room",
+  "Lift the pot and look at the drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2364,
+ "output_tokens": 918
+}

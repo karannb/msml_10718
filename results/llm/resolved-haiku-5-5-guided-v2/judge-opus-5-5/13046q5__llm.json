@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The cleaning steps, \"plain lukewarm water first\" and then \"one drop of mild dish soap per cup of water, then rinse,\" are gentle, and the output warns to \"test a small area first\" with vinegar. Its follow-up of \"insecticidal soap or neem oil\" comes with a sun caveat. Minor gaps: it gives no warning about avoiding inhaling the powder when you \"Brush off loose powder with a soft, dry brush,\" and no note on pesticide residue around pets or children. Overall the risk is low."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the problem as \"leftover dust, not plant damage,\" which matches the reference. It also adds a useful, case-tied way to confirm whether mites are still present (the white-paper tap test), which answers the poster's worry. It does not suggest the reference's diluted lemon juice wipe, but its vinegar and mild-soap options follow the same idea of a mildly acidic or surfactant wipe. Calling Alocasia leaves \"fuzzy\" is a slight inaccuracy for most varieties, and the hard-water possibility is a somewhat unnecessary detour."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use common household items: \"soft, dry brush or paper towel,\" \"damp microfiber cloth,\" \"one drop of mild dish soap per cup of water,\" and white paper for the mite test. The instructions are numbered and concrete, and the schedule (\"every 5 to 7 days\" for \"about three weeks\") is clear and realistic for a home grower."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep the plant out of strong direct sun while the leaves are wet",
+  "Use a liquid treatment instead, such as insecticidal soap or neem oil"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2513,
+ "output_tokens": 1213
+}

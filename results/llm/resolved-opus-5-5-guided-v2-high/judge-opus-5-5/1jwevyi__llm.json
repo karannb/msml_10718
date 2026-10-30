@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk: \"Don't prune until you see fresh leaves,\" \"Water only when the soil is dry... Skip it while the rain keeps the soil moist,\" and \"Feed lightly once new growth starts... at label rate.\" Nothing here would harm the plant, and the conservative watering suits a cold, rainy spring. The scratch test is non-destructive. No chemical overuse or other meaningful hazard."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "It correctly says \"normal winter bronzing. Your azalea is very probably alive,\" matching the reference that the plant is winter-stressed but not dead. The advice to wait, water and fertilize mirrors what actually revived the plant. It ties advice to case details such as the first-year planting, the Connecticut cold spring and the reblooming type. However, \"The color usually doesn't revert\" conflicts with the poster's outcome, where the leaves turned green. The gravel and street-exposure details cannot be verified from the case text."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home gardener: \"Scratch a few stems lightly with a fingernail,\" \"If the soil is dry 2 inches down, water deeply once a week,\" and \"Use 2 to 3 inches of pine bark or pine needles, kept an inch off the stems.\" All the materials are readily available at garden centers, and the timing guidance is clear."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the soil is dry",
+  "Feed lightly once new growth starts... at label rate"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2576,
+ "output_tokens": 851
+}

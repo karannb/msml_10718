@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The model says to \"Wet the stuck area with a damp cotton pad or a few mist sprays\" and then \"Peel the softened brown sheath away... Don't pull on the leaf or try to unroll it.\" This is gentle and low-risk, and it includes the right caution against forcing the leaf. Slitting the sheath with clean scissors carries a slight risk of nicking the leaf, but the model explicitly warns against touching the leaf. Nothing here endangers people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The main diagnosis, \"the new leaf got stuck in its sheath while unfurling,\" matches the reference exactly. The core remedy of misting to soften the sheath is the same advice that worked for the poster. The model also responds to the case-specific bathroom detail: \"Bathrooms are humid during and after showers but can be fairly dry the rest of the time.\" The species ID (Pink Princess) and the soil-moisture alternative are extra guesses, but they don't detract from the correct diagnosis."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a spray bottle or cotton pad, fingers or tweezers, and scissors. Timing is clear (\"Leave it for 10\u201315 minutes, then repeat once or twice\"), and there is a fallback (\"re-wet it and try again later that day\"). A beginner can do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "give it bright, indirect light",
+  "Water when the top 3\u20134 cm of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2337,
+ "output_tokens": 551
+}

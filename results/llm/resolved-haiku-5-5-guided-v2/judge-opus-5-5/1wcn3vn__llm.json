@@ -1,0 +1,26 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Nothing here endangers the plant or people. The pot-sizing advice ('a pot only 2 inches wider... Don't go much bigger, or the extra soil stays wet') and 'Never let the plant sit in water' are sound, and money trees are non-toxic. Minor risks: the root-bound framing points the owner away from the real fix of separating the tangled trees, and 'Repot in spring or early summer' could postpone action. 'Rinse the old soil from the root ball' adds some transplant stress but is not dangerous."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model diagnoses 'the plant is root-bound in its nursery pot' and never notices that the pot holds multiple money trees tangled or braided together. That crowding is the confirmed cause of the stunting, and the fix is to untangle and separate them. Repotting is adjacent because both involve crowding in the pot, but it would not solve the competition between trunks. Much of the rest is generic troubleshooting: overwatering checks, light, fertilizer. It does cite some photo details, such as the clear saucer and the whitish crust."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: 'slide the root ball out of the pot', 'pot only 2 inches wider... with drainage holes', 'houseplant mix with added perlite', 'let the top 2 inches dry'. They need only common supplies and give clear quantities and timing."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Push a finger 2 inches into the soil. If it's wet, let it dry out more between waterings",
+  "Move it closer to a bright window, ideally bright indirect light",
+  "Use a well-draining mix, such as a houseplant mix with added perlite",
+  "Water thoroughly, then let the top 2 inches dry before watering again",
+  "Feed lightly once new growth starts, using a diluted balanced fertilizer every 4\u20136 weeks during the growing season",
+  "Trim any dead or mushy roots with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2388,
+ "output_tokens": 1181
+}

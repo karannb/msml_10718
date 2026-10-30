@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is safe. \"Don't leave water in the saucer\" and \"Don't keep it constantly wet\" guard against overwatering, which the REFERENCE also warns about (\"They don't like to be overwatered\"). \"Hold off on fertilizer until you see new growth\" avoids feeding a stressed plant. Schlumbergera is non-toxic and no chemicals are recommended, so there is no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly identifies \"severe, prolonged drought\" and the problem of \"water-repellent old soil,\" matching the REFERENCE's drought stress and old compacted soil. It ties advice to the case: limp segments the morning after one watering (\"One watering won't fix that overnight\"), and the old soil (\"Gently tease off the old compacted soil\"). Repotting into fresh mix matches what the poster did and what improved the plant. It differs slightly in timing: the REFERENCE suggests waiting until spring, while the model says repot \"once it perks up, or now if the roots look poor.\" That is still reasonable and in line with the eventual outcome. The insurance cuttings suggestion fits the heirloom context."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: bottom-soak \"for 20\u201330 minutes,\" water \"when the top inch is dry,\" use a mix of \"half potting soil and half orchid bark or perlite,\" and take \"3\u20135 healthy two- or three-segment pieces.\" All materials are easy to buy and no special tools are needed."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2615,
+ "output_tokens": 599
+}

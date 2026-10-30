@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Water only when the top 2-3 cm of soil is dry\" and \"Don't fertilize for a couple of months\" is conservative and appropriate for a freshly divided plant. Telling the user to \"Leave partly torn leaves alone\" avoids needless stress. Bird of paradise is mildly toxic to pets and the output does not mention this, but no treatment here creates risk to the plant, people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output identifies the plant as \"bird of paradise (Strelitzia)\" and names \"transplant shock from splitting and repotting\" as the main cause, which matches the reference. It also covers the confirmed second factor: \"Winter glass... can chill leaves... avoid placing it right against the window.\" It explains the breakage with a Strelitzia-specific fact (leaves tear along their splits). The mention of \"the sink area\" is not supported by the case text, but it is minor."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Each step is concrete and needs no special tools: \"Push a finger 2-3 cm into the soil,\" check the pot's weight, empty the saucer, move the plant away from the cold glass, and trim fully dead leaves with clean shears. A beginner could do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the top 2-3 cm of soil is dry, then water thoroughly and let the excess drain",
+  "Empty any saucer",
+  "Trim only fully brown, dead leaves at the base with clean shears"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2460,
+ "output_tokens": 544
+}

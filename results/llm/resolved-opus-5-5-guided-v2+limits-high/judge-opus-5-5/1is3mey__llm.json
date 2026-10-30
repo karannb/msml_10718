@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The soak-and-dry routine ('Water only when it's dry that deep... empty the saucer after 10 minutes') matches the reference and corrects the frequent sipping. However, 'Move the plants to your brightest window, one that gets at least 4 hours of direct sun' gives no warning to acclimate etiolated plants, so they could sunburn. The claim that 'Most of the old stems... look dead' and the advice to cut tips could lead to unnecessary propagation. The reference says the plants can recover as they are, and the poster's plants did."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly identifies low light from case evidence: 'stretched and leaning toward the window' after the move. It also flags the 'sips' as the watering problem, consistent with the reference's advice to water thoroughly and infrequently. But it frames the issue as 'roots underneath can stay thirsty' instead of overwatering, which is the reference's diagnosis. It also misses the observation that the plants sit too low in their pots and are shaded by the rim. The emphasis on cutting and rerooting diverges from the reference's message that the plants can recover in place."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home owner: a finger check to 5 cm, watering until it drains, cutting 5\u20138 cm tips, and callusing for 2 days. The only potential hurdle is finding a spot with 'at least 4 hours of direct sun' in a new home where the user already says light is reduced. A grow-light alternative is not offered."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "push a finger 5 cm (2 in) into the soil. Water only when it's dry that deep",
+  "Move the plants to your brightest window"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2389,
+ "output_tokens": 1029
+}

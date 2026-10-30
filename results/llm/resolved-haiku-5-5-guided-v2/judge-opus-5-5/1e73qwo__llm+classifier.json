@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says to 'Move it out of the hottest midday sun. Put it a metre back from the glass, or use a sheer curtain between 11am and 3pm.' The confirmed problem was too little light, so this would cut light further and worsen the decline. 'Cut away the rotten parts' carries minor risk if done unnecessarily, though it is conditioned on finding mush. The watering advice ('Let the top 2 to 3 cm dry out', 'Empty the saucer') is safe and in line with the reference's caution about overwatering."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The main diagnosis, 'water sitting in the crown... slowly rotting the centre', is not the confirmed cause, which was insufficient light on the shelf indoors. The overwatering angle does partly match the reference's tip to 'extend a bit between watering'. However, the model frames the light as excessive ('Sun and heat scorch') rather than insufficient, and never suggests moving the plant to brighter light or outdoors, which was the fix that worked. The fluoride and salt speculation is not tied to the black-centre symptom."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for any home owner: 'Gently tip the plant out or look down into the centre', 'Empty the saucer 15 to 30 minutes after watering', 'check the soil with a finger first', 'use a sheer curtain'. They need no special tools or products beyond filtered water or rainwater. Feasibility is high even though some of the advice is misdirected."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil with a finger first",
+  "Switch to filtered or rainwater",
+  "flush the soil by watering heavily until it runs out the bottom"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2626,
+ "output_tokens": 1047
+}

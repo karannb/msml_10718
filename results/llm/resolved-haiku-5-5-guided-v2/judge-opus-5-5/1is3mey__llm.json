@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and matches the reference: \"Stop watering until the soil is completely dry\" and \"water deeply only when the soil is fully dry.\" There is a minor risk in the more aggressive rescue step, \"Cut off any soft or black tissue... Take cuttings,\" because the reference says the plants can recover in place, so a user might cut plants unnecessarily. The output does include a scorch caveat (\"Increase light gradually\"). No toxicity or chemical concerns apply."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis is correct and tied to case evidence: \"overwatering combined with too little light... you moved the plant somewhere dimmer but kept the same schedule.\" It also corrects the 'sip' habit by advising to \"water deeply only when the soil is fully dry,\" which matches the reference. However, it misses the reference's point that the plants sit too low in their pots and are shaded by the rims. It also omits the wrinkled-leaf cue for when to water. Some photo details (\"soil looks dark and damp,\" \"brown and soft\") may be overstated or invented, and leaning toward root rot and propagation is more pessimistic than the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need nothing beyond a finger test, a window and scissors: \"Push a finger 2 to 3 cm into the soil,\" \"Move it to the brightest spot you have,\" \"Let the cut ends callus for 2 to 3 days.\" Any home grower can do all of this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Empty the saucer every time. Never let the pot sit in water.",
+  "Let me know your exact plant type and light source if you want a more specific plan.",
+  "water less in cooler months"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2556,
+ "output_tokens": 900
+}

@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says to \"Water deeply, less often... roughly twice a week for newly planted azaleas.\" For shallow-rooted azaleas already showing drought stress in 100\u00b0F heat, this cuts watering below the current every-other-day schedule, which could make the problem worse. The reference, and the poster's actual recovery, relied on daily watering. The hedges \"more if the soil dries out fast\" and \"check the soil\" reduce the risk somewhat, and \"Stop fertilizing for now\" is safe."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The diagnosis, \"heat and drought stress from shallow, frequent watering,\" matches the reference. The advice to stop fertilizing and give afternoon shade also matches the commenters. However, the model invents details not in the case (\"newly planted shrubs in sandy soil,\" \"Mulch that's packed against the trunk\"). Its core watering prescription of less frequent watering contradicts the reference's \"water everyday.\""
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable: the \"push a finger or trowel 4 to 6 inches\" test, \"slow trickle at the base for 10 to 15 minutes,\" pulling mulch back, and a shade cloth or temporary screen. All of this uses common tools. The shade cloth requires a small purchase, and the mulch step may not apply to this case."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Check the soil before each watering rather than following a calendar",
+  "Trim only the fully dead tips once the weather cools"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2454,
+ "output_tokens": 965
+}

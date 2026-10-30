@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Water the soil today... Pour slowly over the soil until it runs out the drainage hole, wait 15 minutes, then empty the saucer,\" fixes the actual problem of dry soil, and emptying the saucer prevents waterlogging. No chemicals are involved, and Calathea (furry feather) is non-toxic to pets. \"Stop showering this plant\" and \"Snip off the fully brown, crispy leaf\" are low-risk. I found no meaningful hazard."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output's diagnosis is \"thirst, made worse by the shower... Your dry top 2 inches confirms it.\" This matches the REFERENCE's confirmed underwatering and ties directly to the user's statement about dry soil. It also addresses the stem damage the poster later saw (\"Water also weighs down the hairy leaves and can bend the stems... Stems that got sharply bent may stay floppy\"). It correctly explains why the humidifier didn't help. The REFERENCE's 'within a few hours' versus the model's '1\u20132 days' is a minor timing difference, not an error."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and time-boxed (\"5 minutes\", \"1 minute\") and need only water, a finger, and scissors. \"Check the soil every 3\u20134 days... water the same way once the top inch feels dry\" gives a clear ongoing routine. Any home owner can do all of this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light away from drafts or heaters.",
+  "Use room-temperature water, filtered or rain water if you have it."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2235,
+ "output_tokens": 906
+}

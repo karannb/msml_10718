@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core instruction, \"If it's dry, water thoroughly until it runs out the bottom, then empty the saucer after 15 minutes,\" matches the fix in the reference and is safe. The output also leans toward \"sloppy fallen leaves could mean soggy roots\" and suggests unpotting and root-cutting \"if the soil stays wet.\" Because that step is gated on observed wetness, the risk is small. Still, this framing could lead someone to withhold water from a plant that is actually thirsty, or to disturb its roots unnecessarily. It also gives no toxicity warning, even though croton sap is irritating and toxic to pets."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "\"Drooping that recovers after watering points to thirst\" and \"water thoroughly until it runs out the bottom\" partly capture the reference's diagnosis. The reference says the waterings were too shallow to soak the root ball, and the fix was deep soaking (bathtub or bottom watering). The model never names shallow watering as the cause. Instead it hedges toward root rot and low light, and spends steps 3 and 4 on repotting and \"brightest spot\" advice that the case evidence does not strongly support. The user has already said the plant is in the best-light room. The remark about dark spotting on the pot is speculative filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a finger test, lifting the pot, emptying the saucer, and scissors wiped with rubbing alcohol. Timing cues such as \"15 minutes\" and \"one to two weeks\" are clear. Anyone could do this within the week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Give it the brightest spot you have, away from cold glass",
+  "Turn the pot a quarter turn each week so growth stays even",
+  "Make sure the pot has a drainage hole and isn't sitting in standing water",
+  "repot in fresh, well-draining potting mix",
+  "Check the soil before watering again"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2483,
+ "output_tokens": 688
+}

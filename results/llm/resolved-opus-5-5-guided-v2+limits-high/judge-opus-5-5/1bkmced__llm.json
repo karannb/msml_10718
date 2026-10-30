@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The plan uses \"ready-mixed insecticidal soap\" every 5 days, weekly \"lukewarm shower\" rinses, and \"blue sticky trap[s]\". These are low-toxicity and unlikely to harm plants or people. The main risk is delay: the REFERENCE says spray-based pesticides struggle to reach thrips hiding in folds and don't touch eggs, so a contact-only regimen may prolong a months-long infestation. It also omits a phytotoxicity patch-test caveat for frequent soap use and any pet-safety note."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"Most likely cause: thrips\" matches the REFERENCE and is tied to case evidence. It explains that thrips \"feed inside the sheath before a leaf unfurls\", that black specks are droppings, and why \"Pyrethrin only helps for a few weeks\" (eggs in tissue, pupae in soil). However, the treatment relies entirely on contact sprays and rinsing. It omits the systemic granular insecticide the REFERENCE recommends and the poster confirmed worked, even though the model itself notes eggs inside tissue that sprays can't reach."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed: \"Hold white paper under the newest leaves... and tap\", \"Spray every 5 days for 6 weeks\", plus sticky traps at about $7. Products are cheap and widely available, and the schedule and success metric (\"clean new growth after 6 weeks\") are clear. Showering pothos in a bathroom tub is easy for this user."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2802,
+ "output_tokens": 1061
+}

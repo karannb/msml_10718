@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Scrape off the mold... bag it for the trash\" and \"Wipe the rim with a cloth dampened with rubbing alcohol\" is low-risk. The instruction \"If it's wet, don't water\" directly addresses the overwatering cause rather than worsening it. Advising a root check (\"If they're brown, mushy, or smell bad, trim the rot and repot\") guards against a more serious problem being missed. No unsafe chemicals or dosages are recommended."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"surface mold on damp, organic potting mix, most likely from soil that stays wet too long,\" matches the REFERENCE, which confirms mold from an overly wet substrate. The model's main fix is scraping and topping up, whereas the poster fully changed the soil; full repotting appears only as the root-rot fallback. Some details, such as \"crispy, yellowing lower leaves\" and \"the white pot,\" are not in the CASE text and may be inferred from the photo or hallucinated. Watering and airflow tips are somewhat generic but tied to the wet-soil cause."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use household items: a finger test for moisture, rubbing alcohol, and \"about $5 for a bag of cactus or aroid mix.\" The numbered actions are easy to follow this week. However, \"move the plant in its nursery pot into the white pot\" assumes a pot setup the user never described, which adds some ambiguity."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the top inch is dry",
+  "improve airflow by moving the plant somewhere with good air circulation, away from enclosed corners",
+  "Does the pot have a drainage hole?",
+  "Add fresh, well-draining potting mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2167,
+ "output_tokens": 962
+}

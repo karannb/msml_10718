@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says to \"Hold off on hydro or sphagnum for now, since switching medium is extra stress on a weakened plant.\" The reference shows the plant recovered after a repot out of dense, overwatered soil, so this advice could leave the roots in soggy media and delay the fix that was needed. The risk is reduced by the stem-base rot check, \"If the soil is wet, don't water,\" and \"Empty the built-in tray.\" Nothing in the output is dangerous to people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The headline diagnosis, \"Most likely: sun scorch from its time outdoors,\" does not match the reference's confirmed cause, overwatering in dense soil. The model does tie the secondary concern to case evidence: \"fine soil that is fully saturated, plus a built-in tray that can hold water, can keep the roots too wet.\" However, it ranks this second and discourages changing the medium, which is the opposite of the reference's successful repot. Its observations about bleached leaves and shaded green spots are specific to the photos."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"Push a finger 5 cm into the soil,\" \"Empty the built-in tray 15 minutes after every watering,\" and \"about 1 m from a bright window.\" The pruning guidance is clear and actionable. Any home owner could do all of it this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move it to bright, indirect light",
+  "water only when the top 5 cm feels dry",
+  "Cut each one off at its base with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2243,
+ "output_tokens": 761
+}

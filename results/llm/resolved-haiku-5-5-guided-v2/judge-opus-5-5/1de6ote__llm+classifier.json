@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The output calls 'too little light' the main cause and raises 'Overwatering or poor drainage' as an alternative. A user who leans on these could keep underwatering, which delays the action actually needed. Step 3, 'Water thoroughly when the soil is fully dry, until water runs out the bottom', is the same routine the reference says was failing: dry soil was letting water run straight through without absorbing. The light advice includes a sunburn caveat, so direct harm is limited, but the misdirection is a real risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The primary diagnosis, 'too little light, plus a root system still stressed from the dry spell', does not match the reference. The reference identifies ongoing dehydration because the soil was not absorbing water. The output briefly notes drought damage but treats it as past rather than ongoing. It never suggests a soak or bottom-watering, which was the fix that worked. It does cite case details (soft leaves, the lean, the decorative pot), but those details are used to support the wrong conclusion."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy for a home owner: 'Move her to your brightest window', 'Rotate her a quarter turn each week', 'remove it from the decorative pot', and check the roots for rot. No special tools are needed. However, the plan omits the simple, effective soak the reference recommends."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move her to your brightest window",
+  "Water thoroughly when the soil is fully dry",
+  "Don't water on a schedule",
+  "Don't fertilize until she's firm again",
+  "Repot only if the roots look rotten, and then use fast-draining cactus mix"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2556,
+ "output_tokens": 923
+}

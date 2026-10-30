@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to 'Pinch off the flower spikes now' and 'Pinch the growing tips weekly' is safe for basil. The hardening-off guidance ('harden it off over 7 to 10 days... nighttime temperatures stay above about 10\u00b0C') is sound and protects a cold-sensitive plant. There are no chemicals and nothing toxic to people or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly reads the plant as healthy and flowering ('Nothing is wrong... it is flowering, which basil does when it matures'). Its advice to remove flowers to promote bushiness matches the REFERENCE. However, it omits the REFERENCE's key points of feeding with a balanced fertilizer and moving to a bigger pot (about 12 inches). The poster actually did repot and saw new growth, so that omission matters. The watering and window advice is generic rather than tied to evidence in the case."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: 'Cut each stem just above a pair of leaves', 'Check with a finger first', and a day-by-day hardening schedule ('1 to 2 hours in shade the first day, then add an hour or more...'). Any home grower could do this right away."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water when the top inch of soil is dry",
+  "Keep it in your brightest window, ideally south or west facing",
+  "Plant it in well-drained soil in a sunny spot"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2198,
+ "output_tokens": 842
+}

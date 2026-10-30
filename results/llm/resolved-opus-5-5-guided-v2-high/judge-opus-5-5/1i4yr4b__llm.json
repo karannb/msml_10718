@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice to \"Check the roots now\", cut away soft or black rhizomes, let the cuts dry, and \"Water only when the soil is dry all the way down... every 3\u20135 weeks\" directly addresses the rot risk and will not worsen it. Moving up \"only 2\u20135 cm in pot size\" is also cautious. The main gap is that the output asks the user to handle and cut rhizomes without mentioning that ZZ sap irritates skin and the plant is toxic to pets and children, so gloves and safe disposal would be prudent. This is a missing caveat rather than a dangerous instruction."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The headline, \"roots or rhizomes are staying too wet in winter and starting to rot\", matches the reference's overwatering/root-rot diagnosis. Its advice also tracks the reference: dig the plant out now, stretch watering well beyond 2 weeks, and amend the universal soil to make it chunky. Saying \"Leaves with small yellow tips can stay\" fits the reference's \"don't cut off more stems if they just start yellowing.\" However, it cites photo details as evidence (\"sits in a nursery pot inside a decorative pot with no drainage\", \"soil looks dark and damp\", \"packed with thick stems\") even though no photo description was given, which risks fabrication. It also omits the reference's useful cue of watering when the stems turn from firm to soft."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: lift the pot, pour off water, inspect for firm/pale vs soft/brown rhizomes, cut with a clean blade, and repot. The mix of \"60% of your universal soil and 40% perlite, pumice or orchid bark\" builds on what the user already has and uses widely available amendments. The \"push a chopstick in\" dryness test and \"empty the decorative pot 15 minutes after watering\" are easy, practical habits."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Repot into a grittier mix",
+  "Water by dryness, not by calendar"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2774,
+ "output_tokens": 1072
+}

@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to check first: \"Push a wooden chopstick 3 inches... don't water until a re-check shows the top 3 inches are dry.\" This is conservative and safe. It also says to empty the cover pot and confirm drainage holes, which directly reduces rot risk. Nothing in it would harm the plant, people, or pets. Monstera toxicity is not mentioned, but nothing in the advice involves handling risk beyond normal."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"soil staying too wet (root stress)\" matches the reference, and the output cites case evidence: \"A large pot relative to the plant\", the sticky trap, and browning on new leaves. However, it does not recommend moving to a smaller pot, which was the key fix the poster credited. It only addresses watering frequency and drainage. It also hedges with \"possibility of dry soil can't be ruled out,\" which is reasonable but dilutes the fix slightly."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and timed, using a chopstick and lifting the inner pot: \"Push a wooden chopstick 3 inches (7\u20138 cm) down, leave it 5 minutes.\" They need no special tools and include clear decision rules and a recheck interval (\"every 3 days\"). The trap cost is noted. Anyone can do this this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2292,
+ "output_tokens": 506
+}

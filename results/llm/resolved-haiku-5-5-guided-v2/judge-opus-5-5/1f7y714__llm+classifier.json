@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "Core advice such as \"Water thoroughly... set the pot in a basin of water for 20\u201330 minutes\" and \"let the top inch or so dry\" is safe and fits drought stress. However, \"Fix the automatic system... Reduce the volume or frequency\" contradicts the case: the system under-delivered water, so cutting it further could repeat the drought. The root-rot check is a reasonable precaution, though unpotting is somewhat invasive for a plain thirsty plant. There is also no mention that Aglaonema is toxic to pets, but nothing recommended raises that risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely cause: underwatering... the classic droop of a thirsty Aglaonema\" matches the REFERENCE, and it ties this to the case-specific automatic-watering failure. It also correctly predicts recovery, noting \"some lower leaves may yellow or drop,\" which mirrors the commenters. The root-rot rule-out is not strongly supported by the case. The advice to \"reduce the volume or frequency\" is mis-tailored, since the poster said the plant got too little water."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: \"Soak the soil until water runs out the drainage holes,\" bottom-soak in a basin, use a finger test, and trim crispy leaves. Checking the roots by sliding the plant out of its pot is easy for a home owner. The timeline of \"two to three weeks\" is clear and realistic."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright indirect light",
+  "skip fertilizer until it has perked up",
+  "check that the pot has drainage holes and isn't sitting in standing water",
+  "Check with a finger rather than on a timer"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2499,
+ "output_tokens": 891
+}

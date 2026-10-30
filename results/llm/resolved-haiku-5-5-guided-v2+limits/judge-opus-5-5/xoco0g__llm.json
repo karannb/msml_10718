@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The steps are low-risk: pebble tray, humidifier, finger-testing soil, and trimming crispy edges. 'The soil and watering don't look like the problem' could briefly delay the real fix, since the reference shows the plant was underwatered or moisture-stressed. Step 3 ('Water thoroughly when it feels barely damp') partly corrects for this. Moving it back from the window risks returning it to the low light where it wasn't growing, but this is minor."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The model makes 'the move into brighter light' the main cause, but the user reported rainy weeks, and the reference confirms moisture stress (low humidity or underwatering) relieved by misting. 'Made worse by dry air' and 'Raise the humidity' partly match the reference. Saying watering isn't the problem contradicts the outcome. It also cites 'crispy brown edges' and 'pale rolled leaf', which the case text doesn't support, so these may be hallucinated."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: 'A metre or more from the glass', a pebble tray with water below the pebble tops, and 'Push a finger about 3 cm down'. No special tools are needed beyond an optional humidifier."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the pot out of drafts and away from radiators",
+  "group it with other plants",
+  "Check the soil before each watering"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2276,
+ "output_tokens": 767
+}

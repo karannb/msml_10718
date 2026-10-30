@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Don't just add soil on top\" because it \"can cause rot where the trunk meets the roots,\" is safe and matches the reference. The main risk is \"Trim about a third of the roots if they're dense.\" That is fairly aggressive for a novice treating this as a normal houseplant, and it comes with no caveat about doing it gently. Overall the risk is minor."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output gives the same diagnosis as the reference: the plant has outgrown its soil and needs repotting. It answers the user's three questions directly: repot rather than top-dress, \"Regular potting soil works,\" and \"Bonsai soil is nice but not required.\" It cites evidence from the photos, such as \"base of the trunk is also partly above the soil line, with exposed roots.\" It also correctly sets aside the classifier's watering call."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are short, concrete, and need only easy-to-buy items: potting soil, perlite, and a pot \"one or two inches wider than the root ball\" with a drainage hole. They fit the user's request for something simpler than the complex blogs they found. Root trimming is optional (\"if they're dense\"), and the steps can be done in one session."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water thoroughly when the top inch of soil is dry, and let excess drain out",
+  "Don't water on a fixed schedule",
+  "Choose a pot with a drainage hole",
+  "Skip fertilizer for about a month after repotting"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2461,
+ "output_tokens": 884
+}

@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The steps 'Stop spraying the leaves', 'Water only at the soil' and 'Remove dead flowers' are safe and sensible for a primula. The main issue is framing: calling the plant 'suffering from heat and wet leaves' could cause unnecessary worry. Saying 'Full sun will scorch her' is overcautious, since the reference says spring sun should be fine. None of this would damage the plant."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The headline diagnosis, 'most likely suffering from heat and wet leaves', conflicts with the reference, which says the plant is healthy and the flowers are simply dying off naturally. The output does mention 'Flowers on primulas fade naturally, so some petal loss is normal', but only as an afterthought. Its deadheading advice partly matches the reference's pinch-off tip, though it is framed as grey-mould prevention rather than prolonging flowering. The leaf-spraying point ties to the case, but the mould and rot concern is speculative."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for anyone to follow. Examples include 'Push a finger about 2 cm into the soil', removing spent flowers with scissors, and stopping misting. A target of '10\u201315\u00b0C' is achievable on a shaded balcony or in a cool room. No special products are needed."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Check the soil before each watering",
+  "Water only if it feels dry",
+  "away from radiators and heaters",
+  "Remove dead flowers and yellowing or spotted leaves with clean scissors"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2641,
+ "output_tokens": 553
+}

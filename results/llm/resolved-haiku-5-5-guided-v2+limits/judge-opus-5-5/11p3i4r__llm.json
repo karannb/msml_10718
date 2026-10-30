@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The core advice, \"Set the pot in a sink or bucket of room-temperature water for 20 to 30 minutes... then let it drain fully,\" is safe and matches what actually helped the poster. Calathea (furry feather) is non-toxic to pets. The output uses no chemicals and gives no advice that could worsen the problem."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"underwatering with dehydrated roots\" matches the reference. The output ties it to case evidence: the dry top 2 inches, and that \"Humidity can't rehydrate the roots, so the humidifier overnight wouldn't fix this.\" However, it misses the broken or laid-down stems from the shower, which the reference confirms. It also says \"Your shower likely helped the leaves a little\" rather than recognizing physical stem damage. The water-quality and humidity sections are add-ons that could apply to almost any Calathea."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: a sink or bucket soak for 20\u201330 minutes, a finger check, a pebble tray, and optionally a $10 hygrometer. Timing and signs to look for are clearly stated, so anyone could do this immediately."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Move the plant away from heaters and AC vents",
+  "set it on a pebble tray or group it with other plants",
+  "If your tap water is hard or softened, use filtered or rainwater",
+  "Trim fully brown, crispy leaves at the base with clean scissors",
+  "Check with your finger rather than a schedule"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2289,
+ "output_tokens": 555
+}

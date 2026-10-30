@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and matches the reference: \"Go up only 2\u20135 cm in width\" with \"drainage holes\" and \"keep the crown at the same soil depth\" carries little risk to the plant. The optional suggestion that \"dividing them into individual pots would give each one room\" is caveated (\"Only divide if each section has its own roots\"), but it never says division is a bigger shock than a simple up-pot, which matters for a user who fears stunting the plant. It also omits that Strelitzia is mildly toxic to pets. Both are minor gaps."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis \"the plant is root-bound\" matches the reference, and it is tied to case evidence: \"Roots poking out of drainage holes mean the root ball has filled the 27 cm pot.\" It addresses the extra plants the poster mentioned. Its sizing advice matches the reference's \"one size larger.\" There is a small internal inconsistency: \"2\u20135 cm\" over 27 cm gives 29\u201332 cm, not \"around 30\u201335 cm.\" The watering section is somewhat generic, though it is linked to the crowded root ball."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are clear, numbered and achievable at home: pick a 30\u201335 cm pot, use potting mix with perlite or bark, loosen the roots by hand, and water well. No special tools are needed. The output also sets expectations (\"Expect a few weeks of slower growth\"), which directly addresses the user's worry. Waiting for spring is a realistic timing instruction."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the top few centimetres are dry",
+  "chunky, well-draining mix (peat-free potting mix with some perlite or bark)",
+  "Wait for spring or early summer, when growth is active"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2317,
+ "output_tokens": 1180
+}

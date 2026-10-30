@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output says to check moisture before watering: \"If it's already moist, don't add more.\" This guards against overwatering a stressed plant. The humidity tent comes with \"Air it out daily,\" which limits fungal risk. Telling the owner \"Don't fertilize... or repot again\" is appropriate. No chemicals are recommended and I see no meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, \"transplant shock from bare-rooting,\" matches the reference. The output ties it to case evidence: the owner rinsed off the soil, and the leaves look \"glossy and firm-coloured with no browning.\" Its reassurance (\"Yes, it should recover with time\") and its call for bright light both match the commenters' advice. The plant ID (zebra plant) and the dry-pocket check are tailored to this case. The recovery timeline, \"a few days to two weeks,\" is longer than the actual overnight recovery, but it is still accurate."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items. Examples are \"Push a finger 3\u20134 cm into the soil,\" \"Loosely drape a clear plastic bag over the plant, propped up with a couple of sticks,\" and a temperature range of 18\u201324\u00b0C. Anyone can do these this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light, not direct sun",
+  "away from drafts and vents"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2399,
+ "output_tokens": 520
+}

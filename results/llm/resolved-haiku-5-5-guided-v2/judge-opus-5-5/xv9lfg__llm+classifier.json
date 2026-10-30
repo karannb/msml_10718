@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The model says \"Wait, and don't unroll or pull the new leaf\" and \"Patience is the right call here.\" This is low risk to the plant, people, or pets. However, it delays the simple fix the reference confirmed worked: moistening the stuck tip and gently easing it out. A stuck leaf left too long can tear or deform, so this is a mild risk of delayed action rather than real harm."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model correctly notices that the tip is \"a new leaf still unrolling.\" But it calls this \"almost certainly normal growth, not a problem,\" while the reference confirms a leaf stuck unfurling from low humidity. Humidity appears only in passing (\"Warm, humid conditions speed things up\") and is never named as the cause. There is no advice to mist or brush water on the tip. The rest is general care (light, drafts, watering, checking cuttings) not tied to the stuck leaf."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "Steps such as \"Water only when the top inch or so of soil is dry\" and checking back after \"two or three weeks\" are clear and easy for any home grower. They are feasible but mostly passive. The trigger \"then look again\" gives no follow-up action, which leaves some ambiguity."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep conditions steady",
+  "Bright indirect light helps new leaves open",
+  "Avoid drafts and cold windows",
+  "Water only when the top inch or so of soil is dry",
+  "Overwatering is the bigger risk for this plant"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2272,
+ "output_tokens": 830
+}

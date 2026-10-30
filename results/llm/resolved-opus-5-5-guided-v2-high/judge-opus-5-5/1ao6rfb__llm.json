@@ -1,0 +1,19 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk. \"Stop misting. Water the soil only\" and \"Keep the soil evenly moist... Empty the saucer afterwards\" suit primroses and won't cause rot or drought. It uses no chemicals. \"Avoid direct afternoon sun\" is mildly more cautious than the reference's \"sun at this time of year should be fine,\" but it does no harm."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The headline \"Your oxlip isn't dying. It's shedding spent flowers\" matches the reference's confirmed diagnosis of normal flower die-off. The advice to \"Pinch each dead flower off where its little stalk meets the cluster\" mirrors the reference's deadheading instruction almost exactly. The output also answers the user's balcony question directly (\"Your shady balcony corner is ideal\"). The botrytis and dryness points go beyond the reference, but they are tied to case evidence: the user mists daily and lets the soil dry fully between waterings."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need no special tools: pinch off spent flowers, stop misting, keep the plant in a cool shady spot, and water when the top 1\u20132 cm is dry. Anyone could do all of this this week. The temperature range and placement guidance are clear."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2832,
+ "output_tokens": 492
+}

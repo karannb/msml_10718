@@ -1,0 +1,25 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model says to \"Re-cut every cutting... at least half an inch above any lesion\" and \"Discard any piece with no firm green tissue left.\" The case describes no lesions, only cut ends that \"turned brown,\" which is normal, so this could needlessly shorten or discard viable cuttings from an already struggling plant. It also says to \"change it every 2 to 3 days,\" even more often than the poster's current routine, which the reference identifies as part of the problem. The risk is to the plant only, with no chemical or person/pet hazard, so the harm is moderate rather than serious."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model asserts \"black, sunken, soft lesions on the stems and cut ends are rot,\" but the case only reports that cut areas \"turned brown\" while the leaves stay \"unchanged.\" That evidence is invented, and it drives a stem-rot diagnosis that contradicts the reference's \"slow rooting\" with advice to be patient. The model does match one reference point, \"Don't add moss,\" and gives a reasonable \"2 to 6 weeks\" rooting timeline. However, it misses the key fix of changing the water less often and contradicts it instead. The parent-plant steps are largely irrelevant, since the poster already cut out the only healthy section."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and need only common items: a sterilized blade, rubbing alcohol, a clean jar and a draining pot. They are easy to follow this week. Inspecting a parent plant that may be mostly discarded adds some ambiguity. Overall, a typical owner could carry out the instructions, even though several are misdirected."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "Water only when the top 2 inches of soil are dry",
+  "make sure the pot drains freely",
+  "Cut away all rotted tissue with sterilized scissors, dipping the blades in rubbing alcohol between cuts",
+  "repot it into one that drains"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2514,
+ "output_tokens": 1038
+}

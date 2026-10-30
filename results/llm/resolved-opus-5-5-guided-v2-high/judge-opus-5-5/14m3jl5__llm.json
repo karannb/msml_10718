@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "Advice like \"Cut the woody stalk at soil level with clean snips. Don't pull it out\" and \"Water only when the top 2\u20133 cm... is dry\" is safe and even protects nearby roots. Basil is non-toxic and no chemicals are involved. Nothing here would harm the plant, the person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the bare woody stalk as old, lignified growth and says \"The healthy green plants and the seedling are the future of this pot.\" This matches the reference's \"Get rid of the stalk and focus on the small plants.\" The pinching instruction (\"snip just above the second pair. This makes them branch and stay bushy\") matches the reference's \"cut above the side shoots\" advice. It frames the case as \"nothing is wrong\" rather than overgrowth needing pruning, and it assumes photo details (\"big new pot\", \"bright window\") not described in the case. It also doesn't mention moving the plant outdoors, which the poster found helpful."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only a fingernail and snips: \"Scratch the bark near the top,\" \"Cut the woody stalk at soil level,\" \"Pinch... once each has 3 to 4 pairs of leaves.\" Any home grower can do these this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "make sure the pot has a drainage hole",
+  "Water only when the top 2\u20133 cm (about an inch) is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2319,
+ "output_tokens": 871
+}

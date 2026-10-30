@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice is safe and fits a dry, sun-scorched plant. It says to check the soil before watering (\"If the soil is wet... stop watering and let it dry out\"), which guards against overwatering, and the soak-then-drain step tells the user to \"Empty any saucer afterward.\" One caveat is missing: peace lilies contain calcium oxalate and are toxic to pets and children. That matters for a housesitter who may be caring for pets, especially while trimming leaves."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly names the plant and both problems: \"a peace lily (Spathiphyllum) that has dried out and is also scorching in too much direct sun.\" This matches the reference's confirmed sunburn plus underwatering. The fix, \"Water thoroughly\" and \"Move it out of direct sun... somewhere bright but shaded,\" matches the reference advice to water well and move it to a bright, indirect spot indoors. However, it cites photo details that the case does not describe and that cannot be verified (\"sitting in full sun on a glass table\"). It also never says outright to bring the plant inside, which is what the reference recommends."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Push a finger 2 to 3 cm... into the mix,\" \"set the pot in a tub of water for 20 to 30 minutes,\" and \"Cut fully brown leaves at the base with clean scissors.\" It also gives a realistic recovery timeline and a watering schedule. Anyone could do this the same day."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Cut fully brown leaves at the base with clean scissors",
+  "Water again when the top couple of centimetres feel dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2273,
+ "output_tokens": 1035
+}

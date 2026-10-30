@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The advice is mostly safe. It recommends \"Move it to bright, indirect light,\" warns against fertilizing or repotting, and gives a stem scratch test that does no real damage. The minor risk is \"Water only when the top 2\u20133 inches of soil are dry.\" Bananas are heavy drinkers, and that instruction conflicts with \"Keep the soil moist but never soggy.\" A user could under-water a recovering plant, whereas the reference says to \"keep it watered.\" There are no chemical or toxicity concerns."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely cause: transplant shock from root damage\" matches the confirmed diagnosis. The output ties it to case evidence: pup division tearing roots, the \"narrow, yellow-green spike\" in the center, and the patio sun exposure. It departs from the reference by saying \"Leave the dead leaves on for now,\" while the reference says to definitely trim them. Its caveat to cut only fully dry, papery leaves partly reconciles the two, since the leaves already look papery. The diagnosis and tailoring are strong, with one mismatch on the key question the user asked."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy: scratch the pseudostem, look for the center spike, move the pot to shade, and hold off on fertilizer. The watering instruction is internally inconsistent. Letting the top \"2\u20133 inches\" dry out does not square with \"keep the soil moist,\" which leaves the user unsure what to do. \"Gently lift the plant\" to check for rot is doable but somewhat vague. Overall, a typical owner can follow this advice this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Move it to bright, indirect light",
+  "Water only when the top 2\u20133 inches of soil are dry",
+  "Don't fertilize or repot again until you see new leaves",
+  "Keep the soil moist but never soggy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2466,
+ "output_tokens": 972
+}

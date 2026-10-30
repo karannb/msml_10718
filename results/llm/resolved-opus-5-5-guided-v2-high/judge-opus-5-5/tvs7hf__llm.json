@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to \"Stop the apple cider vinegar... It's an acid... can burn the leaves\" is sound, and so is \"water thoroughly at the soil, not over the leaves.\" The copper fungicide is to be used \"per the label.\" Nothing here would hurt the plant or the person. A brief note on keeping copper spray away from pets and children would have been a nice extra, but its absence is not a meaningful risk."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Most likely: a minor leaf-spot infection (fungal or bacterial)\" matches the reference's fungal leaf spots. It ties the musty soil and spot shapes to the case, and \"use a copper-based fungicide per the label\" matches the treatment that actually worked. However, it delays fungicide until spots persist for 2\u20133 weeks, while the reference suggests treating promptly. It also discourages pruning (\"Remove only heavily spotted leaves\"), whereas the reference recommends cutting affected leaves to stop the spread. Some watering and light advice is generic."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and easy for a home grower. They include checking the \"top 2\u20133 cm\" with a finger, watering at the soil, using clean scissors, and buying a widely available copper fungicide. No special tools are needed."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it airflow and bright indirect light",
+  "Make sure the pot has a drainage hole",
+  "Water only when the top 2\u20133 cm of soil is dry"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2518,
+ "output_tokens": 544
+}

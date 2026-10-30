@@ -1,0 +1,24 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core diagnosis and the caution against overwatering (\"Don't water again until the top inch or two of soil is dry\") are safe, and the output flags root-rot signs. However, step 1, \"Set the pot in a bowl of room-temperature water for 20 to 30 minutes,\" is presented unconditionally even though the user watered thoroughly last night. Soaking again in old, dense soil adds some rot risk. Repotting a stressed plant right away is also slightly riskier than the reference's suggestion to wait until spring, though the poster later repotted successfully."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "\"Severe underwatering, now rehydrating\" matches the reference's drought-stress diagnosis. The output also explains that limp segments stay limp after a drink, which addresses the user's worry. It ties advice to case evidence, noting \"old, compacted soil can shrink away from the pot\" and recommending a repot into fresh mix, which matches the reference's compacted, depleted soil. Some advice is generic, such as the light, draft, and temperature guidance, and the stray reference to \"the classifier's 'watering' label\" is irrelevant to the user."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and use household items: a bowl of water, lifting the pot to judge weight, clean scissors, and cactus mix with perlite. Pot sizing (\"only 1 to 2 inches wider\") and timeline (\"1 to 2 weeks\") are clear. It is ambiguous whether to soak again right after a thorough watering, or whether to check roots and repot immediately versus waiting."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Give it bright, indirect light and steady temperatures",
+  "Keep it away from drafts and direct hot sun",
+  "Use fresh, well-draining mix",
+  "Choose a pot only 1 to 2 inches wider than the root ball, with drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2638,
+ "output_tokens": 983
+}

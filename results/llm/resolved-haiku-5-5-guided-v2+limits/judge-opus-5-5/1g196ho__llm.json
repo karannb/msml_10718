@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "\"Check the soil before watering again... Don't add more water today\" and \"Empty the saucer\" guard against overwatering, which matches the reference's caution. Bottom-soaking for 15\u201320 minutes on compacted soil is safe. Root checks are gated on clear signs (\"soft or black\"). There is no chemical risk, and Christmas cactus is non-toxic, so no warning is missing."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, \"chronic underwatering\" with \"old, compacted soil can also shed water,\" matches the reference's drought stress and compacted soil. It ties the advice to case details: one watering last night, and \"one morning is too soon to judge.\" However, it frames repotting only as a rot response rather than a planned refresh of depleted soil, which the reference recommends (spring or summer) and which the poster eventually did to good effect. It also says nothing about nutrients being exhausted in old soil."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: finger test at one inch, a basin soak for 15\u201320 minutes, emptying the saucer after 30 minutes, and a two-week checkpoint. Repotting into store-bought cactus mix (\"about $10\") is easy for a home owner."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Keep it in bright, indirect light, away from direct sun and cold drafts",
+  "Empty the saucer about 30 minutes after watering so the roots don't sit in water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2414,
+ "output_tokens": 532
+}

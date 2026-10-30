@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output advises 'Repot into a pot with drainage holes, using a chunky, well-draining aroid mix' and 'Water only when the top 2 to 3 inches of soil are dry,' which directly address the wet-soil problem and carry no meaningful risk. It also gives a finger-test check before acting on the 'underwatering' alternative, so a user is unlikely to add water to soggy soil. Trimming mushy roots with clean scissors is safe. No toxicity warning is given for monstera, but that is a minor omission in this context."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis, 'overwatering, probably with root stress from the pot,' cites case-specific evidence ('soil looks dark and damp,' 'planter appears to have no drainage hole'). The aroid-mix fix matches the reference's 'soil, perlite, orchid bark' almost exactly. However, insufficient light is a confirmed problem in the reference ('light by the looks of it reaching'), and the output only mentions it generically: 'Keep it in bright, indirect light.' It does not identify reaching or etiolation as a symptom. The underwatering alternative adds some hedging but is handled with a concrete test."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: tip the plant out, inspect and trim roots, repot into a draining pot with a named mix, and use the finger test for watering. The materials (bark, perlite, coco, a nursery pot) are easy to buy. The tip to nest a nursery pot inside the decorative planter is a practical touch."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep it in bright, indirect light",
+  "cut off leaves that are mostly brown",
+  "Don't keep the soil soggy"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2443,
+ "output_tokens": 614
+}

@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "\"Cut every leaf with dark, wet-looking blotches off at the base\" with alcohol-wiped scissors is low-risk and matches what helped the poster. Keeping leaves dry and adding airflow are also safe. The main risk is omission. By confidently calling it \"bacterial leaf spot\" and saying \"Your watering habit... is good, so keep it up,\" it never prompts a root check. Root rot from the retained peat plug or dense nursery soil could keep progressing unnoticed."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The reference attributes the problem to shipping stress and old water-holding sphagnum or peat around the grower's plug. It advises inspecting the roots and repotting into a chunky aroid mix. The model diagnoses \"bacterial leaf spot\" and cites photo details and the humidity from the broken AC, so it is tailored to the case, but to a different cause. It also misses the poster's \"I did not!\", which likely means the grower plug was never removed. Only the leaf-removal step overlaps with the reference."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step is concrete and needs only household items: rubbing alcohol, scissors, a paper towel and an optional fan. Steps include time estimates such as \"about 10 minutes\" and \"2 minutes\" and specific distances like \"about 2 feet.\" Any owner could do all of this today."
+ },
+ "diagnosis_matches_reference": "no",
+ "generic_phrases": [
+  "Improve airflow",
+  "Check every few days",
+  "Pour water only onto the soil"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2403,
+ "output_tokens": 790
+}

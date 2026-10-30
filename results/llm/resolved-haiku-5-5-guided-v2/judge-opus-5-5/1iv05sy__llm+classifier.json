@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "The model recommends \"a systemic such as imidacloprid as a soil drench\" without warning about pet or child exposure or pollinator toxicity. It also gives no caution about layering yet another product on a plant already treated with peroxide, alcohol, insecticide, neem and fungicide. Telling the user to \"Stop spraying alcohol and peroxide on the leaves\" runs against the reference, where alcohol wiping and misting cleared the bugs, so following it could delay an effective fix. The dilute alcohol dabbing and scheduled soap/neem are low risk."
+ },
+ "specificity_accuracy": {
+  "score": 2,
+  "reason": "The model says \"Most likely: mealybugs\" even though the poster wrote \"These didn't look like mealies.\" The reference identifies whiteflies or similar bugs. It correctly sees a pest problem and plausibly links browning to the repeated sprays, but the wrong pest ID shapes the advice: root mealybug checks and joint dabbing. It also discourages the alcohol wipe-down the reference recommends. Some details tie to the case, such as the user's year-long mealybug history and the spray damage."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and doable at home: zoom in with a phone, wipe a speck, unpot to check roots, prune, swab with 50% alcohol, and treat with soap or neem every 5\u20137 days for 3\u20134 weeks. Imidacloprid availability varies by region and needs label checking. Otherwise this is a clear plan the user can start this week."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Isolate the plant from your other plants until it's clear, and check your other plants for pests",
+  "Keep watering as normal",
+  "Use insecticidal soap or neem every 5\u20137 days for 3\u20134 weeks"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2743,
+ "output_tokens": 860
+}

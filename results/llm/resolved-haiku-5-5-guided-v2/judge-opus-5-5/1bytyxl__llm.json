@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, \"Pot it up now\" and \"Start with a bright window out of harsh direct sun, then move it closer to the light over a few weeks,\" matches the reference warning against immediate bright direct sun. It won't harm the seedling. \"Keep it moist, not soggy\" suits a rot-prone seed. The trimming advice is conditional (\"If it's soft, slimy, or dark\"), so it's low risk. One caveat is missing: lychee seeds contain toxic compounds, and the output doesn't warn to keep the exposed seed away from pets or children."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly concludes the seed \"has already germinated and rooted, it's viable\" and recommends planting it, which matches the reference. It explains the pale shoot as etiolation from darkness, which is a case-specific and plausible account of the \"dead-looking\" growth. However, the claim \"The shoot doesn't have true leaves yet\" contradicts the user's description of first leaves. That claim is a confident read of the photo that can't be verified. The rest of the advice is tailored to lychee: the recalcitrant seed, warmth needs, and slow growth."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and use common supplies: \"a pot at least 15 cm (6 in) wide with drainage holes,\" \"potting soil with perlite or bark,\" and a clear planting depth. The watering cue (\"let the top centimeter dry out\") and the gradual light acclimation are easy for any home grower to follow this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "light, well-draining mix",
+  "Keep it moist, not soggy",
+  "bright indirect light"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2352,
+ "output_tokens": 979
+}

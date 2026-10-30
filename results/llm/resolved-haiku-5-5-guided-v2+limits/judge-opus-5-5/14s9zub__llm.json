@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output recommends \"ready-to-spray insecticidal soap... following the label\" and \"Keep the plant out of direct sun while it dries.\" This matches the reference's caution about leaf burn. Parlor palms are non-toxic, and insecticidal soap is low-risk. Isolating the plant and confirming before treating are prudent, and nothing here would worsen the problem."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The model diagnoses \"spider mites\" and cites case evidence: \"fine, dull, speckled mottling on the fronds,\" which matches the reference's \"pale and thin\" fronds. It recommends repeated spraying (\"every 5\u20137 days for 3 treatments, since soap doesn't kill eggs\"), consistent with the reference's 3\u20134 weekly rounds. The soil check is somewhat generic, but it is tied to the brown frond tip seen in the photo."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses items a typical owner has or can easily buy: \"white paper,\" \"phone flashlight,\" a shower rinse, and a named $8 product. Frequencies and durations are clear and concrete. All of it can be done this week."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Push a finger about 2 inches into the soil. Water only if it's dry at that depth.",
+  "The brown frond tip can also come from dry soil or low humidity."
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2430,
+ "output_tokens": 502
+}

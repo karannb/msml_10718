@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice is low-risk. It says to stake \"keeping it clear of the roots\", to keep drainage holes clear so \"water doesn't pool\", and to firm the bark \"snug but not compacted\". None of this would hurt the plant, people, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The output correctly identifies the problem as a top-heavy, unstable pot. Its key fix, \"Put the clear pot inside a heavier ceramic or decorative cachepot\", matches what the reference advised and what the poster did. It ties the instability to the repot three days ago and the flower spike's weight. However, it does not mention the reference's counterweight idea (a rock on the back), and \"keep the plant out of drafts\" is filler that doesn't address stability."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps use common household items: a bamboo stake, soft ties or cloth strips, a heavier cachepot, and pebbles. Each step is concrete and could be done the same day. The instructions are clearly ordered by importance."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only when the bark is dry",
+  "keep the plant out of drafts while it settles"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2307,
+ "output_tokens": 423
+}

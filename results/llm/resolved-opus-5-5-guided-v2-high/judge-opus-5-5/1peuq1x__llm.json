@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 3,
+  "reason": "Advice to \"Run plain room-temperature water through it, about three times the container's volume\" and \"Keep the moss evenly moist but not wet\" could worsen the real problem, a dense, poorly draining mix. The reference instead advises letting the mix dry almost fully between waterings. Pulling the plant to check roots and stopping fertilizer are sensible. However, the output never suggests switching to an airier mix, and it omits that Alocasia is toxic to pets and children."
+ },
+ "specificity_accuracy": {
+  "score": 3,
+  "reason": "The output correctly links the damage to post-fertilizing stress and a small root system, and its \"Root or corm trouble\" section partly touches on drainage. But it invents details not in the case: \"made worse by the variegation\" and \"Sphagnum moss holds almost no buffer.\" It also misses the reference's core fix, which is to repot into a pot just the size of the root ball with a sphagnum/bark/perlite mix. It does not note that new alocasias commonly drop leaves."
+ },
+ "feasibility": {
+  "score": 4,
+  "reason": "The steps are concrete and easy to follow: \"Stop fertilizing until a new leaf has fully opened... \u00bc strength no more than once a month,\" plus the root inspection and trimming crispy edges. Some steps assume a moss medium the user may not have, such as \"lift the plant out, rinse the moss, and squeeze it,\" which makes them partly ambiguous."
+ },
+ "diagnosis_matches_reference": "partial",
+ "generic_phrases": [
+  "Keep the bright light and humidity you have",
+  "Check the leaf undersides for fine pale stippling, webbing, or tiny moving dots",
+  "Alocasias often sulk for a while"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2597,
+ "output_tokens": 1076
+}

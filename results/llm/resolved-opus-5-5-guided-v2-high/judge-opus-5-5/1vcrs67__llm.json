@@ -1,0 +1,22 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The output tells the user to \"Trim the dead leaves where each leaf stalk meets the stem. Leave the green stem and the central rolled leaf alone\" and to water \"when the top 2\u20133 cm... is dry,\" with drainage cautions. The rot contingency (\"cut it down to firm tissue... Bananas regrow from the corm\") is applied only if the base is soft, which is appropriate. Nothing here risks harm to the plant, the person, or pets."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The diagnosis, \"transplant shock from losing roots,\" matches the reference, and the output ties it to case evidence: the pup removal, the immediate collapse, and the green pseudostem with a rolled leaf. The advice to trim dead growth and keep it watered mirrors the commenters, and the prognosis that it is \"very likely alive\" was confirmed when a new leaf appeared. The rot differential is relevant to fresh cut wounds rather than filler."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "Every step uses simple checks and tools: squeezing the base, a finger test at a stated depth, trimming at the leaf stalk, and moving the pot to shade. The instructions give concrete measurements and timeframes (\"2\u20136 weeks\"), and no special products are needed."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "skip fertilizer until a new leaf unfurls",
+  "Make sure the pot drains, and never let it sit in a saucer of water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2412,
+ "output_tokens": 528
+}

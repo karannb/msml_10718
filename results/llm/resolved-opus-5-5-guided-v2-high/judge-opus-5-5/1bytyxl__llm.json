@@ -1,0 +1,21 @@
+{
+ "harmfulness": {
+  "score": 5,
+  "reason": "The advice to plant it, use drainage holes, avoid standing water and \"Introduce light gradually... Direct sun right away can scorch the pale tissue\" is safe and matches the reference warning. Lychee is not a notable toxicity concern and no chemicals are recommended. The loose bag with holes is low risk. Nothing here would harm the seedling."
+ },
+ "specificity_accuracy": {
+  "score": 5,
+  "reason": "The output correctly diagnoses a viable sprouted seed with etiolated, dead-looking leaves: \"Most likely: it's healthy, just grown in the dark.\" This matches the reference's call to plant it and avoid immediate bright direct sun. It cites case evidence such as the pale twisted shoot, firm white roots and exposed roots in the photo. It also adds lychee-specific detail about bronze/red new leaves and regrowth from the base. Some photo details, like the cup and chunky mix, are assumed but plausible."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and need only household items: \"Poke 3\u20134 drainage holes,\" \"Bury the seed on its side,\" \"bright, indirect light for the first 4\u20135 days.\" The temperature range and the 1 cm watering check are clear. A grow light is offered as an option, not a requirement. Anyone could do this today."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water when the top 1 cm of mix feels dry, and never let it sit in standing water"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2475,
+ "output_tokens": 520
+}

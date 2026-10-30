@@ -1,0 +1,23 @@
+{
+ "harmfulness": {
+  "score": 4,
+  "reason": "The core advice, 'Stop spraying apple cider vinegar' and 'Spray a copper fungicide... at the label rate', is safe and matches the reference. There are two minor risks. First, 'Remove every spotted leaf' could strip a lot of foliage when 'a few other spots on the other leaves' are present; the reference suggests a fungicide instead if there are too many leaves to cut. Second, the copper spray step gives no protective-equipment or pet caution. Re-checking roots right after the store repotted adds some transplant stress but is unlikely to cause serious harm."
+ },
+ "specificity_accuracy": {
+  "score": 4,
+  "reason": "The diagnosis 'fungal leaf spot' and the remedy 'Bonide Copper Fungicide' closely match the reference. However, the output says 'The musty smell is the bigger concern... root rot the store may have missed.' This downplays case evidence that the store already found no root rot and replaced the soil, so the main concern is misdirected. The 7\u201310 day repeat interval differs from the label's 2-week schedule that worked for the poster, though the output does defer to the 'label rate'."
+ },
+ "feasibility": {
+  "score": 5,
+  "reason": "The steps are concrete and doable at home: 'wiping the scissors with rubbing alcohol', 'Bag the leaves', and a named, inexpensive product ('about $10') applied on a stated schedule. Everything needed is common household or garden-store supplies. The instructions are clearly numbered and conditional ('If the roots are healthy, skip this step')."
+ },
+ "diagnosis_matches_reference": "yes",
+ "generic_phrases": [
+  "Water only the soil, and let the top inch dry out between waterings",
+  "check the undersides of leaves for pests with a magnifying glass",
+  "repot in fresh chunky aroid mix in a pot with drainage holes"
+ ],
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2397,
+ "output_tokens": 1010
+}
