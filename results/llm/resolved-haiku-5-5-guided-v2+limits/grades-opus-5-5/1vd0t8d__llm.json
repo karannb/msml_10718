@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 2-3 inches deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check pot for drainage hole",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If no drainage, move plant into nursery pot with holes inside decorative pot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Place in bright indirect light away from drafts and radiators",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If new leaves keep yellowing or stem softens, check roots for rot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip off yellow leaf once fully yellow",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer says the plant is basically healthy, but it treats the yellow leaf as transplant stress needing treatment and never mentions trellising the vine; its advice is cautious and not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1973,
+ "output_tokens": 430
+}

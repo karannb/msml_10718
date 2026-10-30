@@ -1,0 +1,33 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Keep or move the plant to bright, indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the growing tip every few days for darkening, softness or shriveling",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the tip turns dark, soft or shrivels, cut the stem back to just above the last healthy node",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the stuck leaf normal growth instead of a low-humidity stuck leaf, and its advice to wait without touching it contradicts the moisten-and-coax fix and delays it.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1933,
+ "output_tokens": 511
+}

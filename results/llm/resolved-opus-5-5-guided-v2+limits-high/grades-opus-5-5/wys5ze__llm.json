@@ -1,0 +1,33 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check drainage holes for roots pushing out or water running straight through",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rootbound, repot next spring into a pot 2\u20135 cm wider with drainage, using potting mix with one-third perlite",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Top up the soil with a 1\u20132 cm layer of potting mix plus perlite and water gently",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 13,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer says nothing is wrong and discourages repotting, when the plant actually needed repotting. It also recommends adding soil on top, which commenters warned against, and that would delay the fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1962,
+ "output_tokens": 305
+}

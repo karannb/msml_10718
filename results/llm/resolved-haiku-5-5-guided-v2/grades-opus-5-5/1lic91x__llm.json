@@ -1,0 +1,61 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check flowers for green swelling at base",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hand-pollinate or shake flowering stems each morning",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture daily and water deeply when top 2-3 cm dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Mulch the soil surface",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Move planter to sunniest spot or rotate for afternoon sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Shade pot from harsh afternoon heat if very hot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Feed with low-nitrogen flowering fertilizer every 2 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The plant was simply too young and needed time, but the answer blames light, pollination, heat and nitrogen and prescribes fixes; these are unnecessary but mostly benign and would not really delay fruiting.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2042,
+ "output_tokens": 491
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Lift pot out of bowl, water slowly until it drains, let drain 10 minutes, return to bowl",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the bowl of standing water after every watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture half an inch down every 2-3 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly whenever top half inch is dry",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to brightest window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If light is limited, set up LED grow bulb 6-12 inches above plant for about 12 hours a day",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "If soil stays soggy or stems turn black and mushy, post a follow-up photo",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies underwatering but misses the poor soil/pot setup and adds a light problem; its watering advice partly overlaps the fix, but it explicitly says not to repot and dismisses bottom watering, which delays the actual fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1987,
+ "output_tokens": 897
+}

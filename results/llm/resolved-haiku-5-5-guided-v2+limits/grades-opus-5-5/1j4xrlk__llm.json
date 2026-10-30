@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Move the plant to a warm, stable spot (18\u201327\u00b0C) away from drafts, AC vents and cold window glass",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If direct sun hits the leaves, filter it with a sheer curtain",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2\u20133 cm deep before watering; water only when dry and drain the saucer",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Once a leaf is fully brown or dry, cut it off at the stem with clean scissors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies cold/transport damage, but it misses the fix that worked: cutting the plant back to about 1 cm above the soil, withholding water, and covering it with a glass jar. Its advice to leave the damaged leaves on and wait, with reassurance that the plant will recover, would likely delay that needed fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1835,
+ "output_tokens": 888
+}

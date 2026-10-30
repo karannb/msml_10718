@@ -1,0 +1,107 @@
+{
+ "thread_id": "1f7y714",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1f7y714_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Will it survive?\n\nHello everyone! I have my aglaonema for a year or so. It is getting enough sunlight I was out for a month and I make an automatic watering system for all my 50 plants and everything survived. On this plant I didn't set up correctly the amount of water and due to less water this happend. I watered it some days ago and still it is sad ! Will it survive? Should I do something?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 100%, fungal_bacterial 0%, healthy 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: underwatering that hasn't fully recovered.** You said the automatic system delivered too little water, and the photo fits that. The leaves hang from arching stalks but look firm rather than mushy, with no obvious yellowing or black stems. Drooping from thirst usually reverses within hours of a thorough watering, so still-droopy leaves days later suggest the root ball may not be rehydrating. The classifier's \"watering\" result agrees, but it's a weak hint.\n\n**Two other possibilities:**\n- **Water isn't soaking in.** If the soil is bone dry and water runs down the gap between soil and pot, the root ball may be hydrophobic. If the soil has dried out completely and water runs straight down the gap between the soil and the pot wall, the root ball may be hydrophobic.\n- **Overwatering from the new system.** This is the main risk now. Check whether the soil stays wet. If the leaves are drooping but also turning yellow or feeling soft and mushy, you are likely dealing with wet feet. Lift the pot and look at the roots: Healthy aglaonema roots are white or pale tan and firm. Rotted roots are dark brown, soft, and may smell sour.\n\n**What to do:**\n1. **Check the soil 2 inches down today.** If it's bone dry, soak the pot in a basin of lukewarm water for about 20 minutes, then let it drain fully. If it's wet, stop the automatic watering and do not add water.\n2. **Reset the automatic schedule.** Aim for watering only once the top inch or two has dried. Typical intervals are every 7 to 10 days in summer and every 14 to 21 days in winter. Verify with a finger test rather than trusting the timer.\n3. **Leave the drooping leaves on.** If the leaves are just wilted, do not cut them. They can re-hydrate and return to normal. Only remove leaves that are completely yellow or brown.\n4. **Keep it warm and out of drafts.** Aglaonema suffer below 15\u00b0C (60\u00b0F), so keep it away from cold windows and vents.\n\n**Will it survive?** Probably yes. Aglaonemas are resilient, and if you forget to water this plant one week, it may wilt but will typically bounce back. If it's still limp after a few days of properly moist soil, check the roots for rot.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 48734,
+ "output_tokens": 2257,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "aglaonema drooping leaves underwatering or overwatering",
+   "results": [
+    {
+     "url": "https://planticapp.com/2025/12/04/fix-drooping-aglaonema/",
+     "title": "Fix Drooping Aglaonema: 7 Expert Ways to Revive Your Plant"
+    },
+    {
+     "url": "https://www.aqualogi.com/aglaonema-watering-guide/",
+     "title": "Aglaonema Watering Guide: When and How to Water Without Root Rot"
+    },
+    {
+     "url": "https://www.plantsforallseasons.co.uk/blogs/aglaonema-care/why-is-my-aglaonema-dropping-leaves-and-how-to-solve-it",
+     "title": "Why is my Aglaonema dropping leaves and how to solve it"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/aglaonema-falling-over",
+     "title": "Why Is My Aglaonema Falling Over?"
+    },
+    {
+     "url": "https://greg.app/aglaonema-pink-splash-leaves-drooping/",
+     "title": "Why Are My Aglaonema 'Pink Splash' Leaves Droopy?"
+    },
+    {
+     "url": "https://www.idyl.co.in/blogs/blog/reviving-your-aglaonema-a-guide-to-caring-for-drooping-leaves-and-stressed-plants",
+     "title": "Reviving Your Aglaonema: A Guide to Caring for Drooping Leaves and Str"
+    },
+    {
+     "url": "https://greg.app/aglaonema-super-white-leaves-drooping/",
+     "title": "Why Are My Aglaonema 'Super White' Leaves Droopy?"
+    },
+    {
+     "url": "https://greg.app/aglaonema-red-vein-leaves-drooping/",
+     "title": "Why Are My Aglaonema 'Red Vein' Leaves Droopy?"
+    },
+    {
+     "url": "https://greg.app/aglaonema-red-zircon-leaves-falling-over/",
+     "title": "Why Are My Aglaonema 'Red Zircon' Leaves Falling Over?"
+    },
+    {
+     "url": "https://greg.app/aglaonema-wishes-leaves-dropping/",
+     "title": "Why Are My Aglaonema 'Wishes' Leaves Dropping?"
+    }
+   ]
+  },
+  {
+   "query": "aglaonema care watering recovery wilted plant",
+   "results": [
+    {
+     "url": "https://www.aqualogi.com/aglaonema-watering-guide/",
+     "title": "Aglaonema Watering Guide: When and How to Water Without Root Rot"
+    },
+    {
+     "url": "https://www.gardeners.com/blogs/houseplant-encyclopedia/aglaonema-care-9744",
+     "title": "How to Care for a Aglaonema"
+    },
+    {
+     "url": "https://www.aqualogi.com/aglaonema-care-guide/",
+     "title": "Aglaonema Care Guide: How to Grow Chinese Evergreen Indoors"
+    },
+    {
+     "url": "https://www.bathgardencenter.com/post/how-to-grow-aglaonema-proper-care-and-propagation",
+     "title": "How to Grow and Care for Aglaonema (Chinese Evergreen)"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/algaonema",
+     "title": "Aglaonema Care Guide: Light, Water, Soil & Propagation Tips"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/aglaonema-care",
+     "title": "Aglaonema Care: Watering, Light & Humidity Guide for Healthy Growth"
+    },
+    {
+     "url": "https://sprouthome.com/pages/care-sheet-aglaonema",
+     "title": "Care Sheet - Aglaonema"
+    },
+    {
+     "url": "https://www.myedenplants.com/best-tool-2026/how-often-water-aglaonema",
+     "title": "Aglaonema Watering Schedule (USA Indoor 2026)"
+    },
+    {
+     "url": "https://greg.app/aglaonema-firecracker-wilting/",
+     "title": "\ud83c\udf86 How to Fix Your Aglaonema 'Firecracker' Wilting"
+    },
+    {
+     "url": "https://www.houzz.com/discussions/2874654/advice-for-my-almost-dead-aglaonema",
+     "title": "Advice for my almost dead aglaonema"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

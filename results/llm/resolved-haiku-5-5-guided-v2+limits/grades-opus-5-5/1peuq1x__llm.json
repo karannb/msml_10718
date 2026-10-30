@@ -1,0 +1,40 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Flush the moss with about three pot volumes of room-temperature water and let it drain fully",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After a new leaf unfurls, feed monthly with balanced liquid fertilizer at half strength",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check moss moisture with a finger before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dry brown crispy leaf sections with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly links the decline to fertilizing but blames salt burn and misses the dense, poorly draining mix and oversized pot; it never suggests repotting into a snug pot with an airy bark/perlite/sphagnum mix, though nothing it recommends is clearly harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2016,
+ "output_tokens": 698
+}

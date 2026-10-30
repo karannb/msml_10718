@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Replant each seedling in the large drained tray, burying the stem up to the seed leaves, and firm the soil",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water gently right away until water drains from the holes",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cover the tray with a perforated clear plastic bag and place it near a bright window out of direct sun",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After 3-4 days, remove the bag and move the tray to the sunniest window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Touch the soil daily and water only if the top centimeter is dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies transplant shock, but it advises replanting in soil under a humidity tent rather than keeping the basil in a glass of water, which was the confirmed fix; its advice is still reasonable and not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1941,
+ "output_tokens": 756
+}

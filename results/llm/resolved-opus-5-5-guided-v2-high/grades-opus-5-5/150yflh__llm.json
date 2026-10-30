@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move grow light to about 12 inches away and set it to run 12\u201314 hours a day",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wait for leaf to fully unfurl and harden before judging variegation",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity to 50\u201360% with a humidifier or clear cover",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Check soil and water when top inch of mix is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the soil stays wet for more than a week",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Fertilize with a diluted dose after the second leaf",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer says nothing is wrong and the furled leaf will darken as it opens, and it advises waiting for it to unfurl, which matches the thread's resolution with no harmful recommendations.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2146,
+ "output_tokens": 442
+}

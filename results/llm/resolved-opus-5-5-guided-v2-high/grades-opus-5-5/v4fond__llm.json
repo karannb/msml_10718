@@ -1,0 +1,82 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap a branch over white paper to check for moving mites",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides with a magnifier or phone zoom",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Test the spray on one leaf first",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray undersides and stem joints indoors or in shade in the evening, every 5\u20137 days for 3\u20134 weeks, one product at a time",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Give a lukewarm shower aimed at leaf undersides between sprays",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant away from vents to reduce dry air",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip the burnt leaves (optional)",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites persist after a month, release predatory mites (Phytoseiulus)",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, if mites persist, use a miticide",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer blames spray burn and lists mites only as a secondary possibility. Its spray cycle does target mites, and a miticide appears only as a late fallback, unlike the systemic that fixed it. It keeps mite treatment going, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2015,
+ "output_tokens": 1191
+}

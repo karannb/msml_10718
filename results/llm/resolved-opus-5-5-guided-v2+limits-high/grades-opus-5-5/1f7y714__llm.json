@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with finger and lift pot to feel weight",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bottom-soak pot in sink/bowl for 30 minutes then drain, repeat when top 2-3 cm dry",
+   "minutes": 35,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil already moist, squeeze stem bases to check firmness",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If stems soft or black, post an update with photo of stem bases",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright light out of direct sun during recovery",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Adjust this pot's line on the watering system",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly diagnoses underwatering and advises thorough watering after a soil check, which matches the fix that revived the plant. Its prediction that drooping may last 1\u20132 weeks is off, but it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1877,
+ "output_tokens": 462
+}

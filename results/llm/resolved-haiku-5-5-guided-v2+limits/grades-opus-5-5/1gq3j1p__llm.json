@@ -1,0 +1,75 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap or shake plant over white paper to check for flying insects",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the tomato from other houseplants",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang a yellow sticky trap near the plant and replace when full",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 6,
+   "unclear": false
+  },
+  {
+   "action": "Spray whole plant, especially leaf undersides, with insecticidal soap every 3-4 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Remove and bag the most heavily infested leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse foliage under lukewarm water and wipe leaf undersides with damp paper towel",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep checking for new specks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If specks remain after three weeks, repeat the spray cycle",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse tomatoes well before eating",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer misidentifies the aphids as whiteflies, but its main advice of thorough, repeated insecticidal soap sprays on the leaf undersides would likely clear aphids much as neem did, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1767,
+ "output_tokens": 984
+}

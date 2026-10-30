@@ -1,0 +1,99 @@
+{
+ "thread_id": "td0rf5",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/td0rf5_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Hi! I\u2019m fairly new to the indoor plant world so could someone help me out and tell me what\u2019s happening here?\ud83e\udd72 It\u2019s like the leaf is stuck :0\n\nit\u2019s in the bathroom which gets pretty humid throughout the day\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 84%, healthy 9%, other 6%, fungal_bacterial 1%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: a new leaf snagged in its protective sheath (cataphyll).** Your photo shows a red leaf partly out, with the dried tan sheath still caught around it. This is common in philodendrons and related aroids. Once the leaf grows out, the cataphyll dries up. Sometimes the leaf catches on it. This may not need rescuing, since the leaf is already visibly emerging.\n\n**Other possibilities:**\n- **Low humidity near the plant.** A steamy bathroom can be humid only during showers. Sheaths can dry out and stiffen in drier air, and this sheath can dry out, becoming stiff and almost \"glued\" shut. If the plant sits away from the shower, this could still be the cause.\n- **Underwatering.** Check the soil. If your philodendron is underwatered, it may not have enough hydraulic power to push the new leaf out. The soil in your photo looks fairly moist, so I'd rate this less likely, and I'd give the classifier's \"watering\" result little weight.\n\n**Quick check:** Push a finger about an inch into the soil. If it's dry, water thoroughly until it drains out the bottom. If it's wet, don't water.\n\n**What to do:**\n1. **Wait 2\u20133 days and watch.** Depending on the species and environment, it can take anywhere from a few days to two weeks for a leaf to fully open.\n2. **Soften the sheath gently.** Dampen a cotton swab or soft cloth with lukewarm water and dab along the sheath's seam for 10\u201315 minutes, once or twice a day. Don't pull or pry at the leaf.\n3. **Raise humidity steadily.** Move the plant out of the window draft and near other plants, or use a small humidifier. Misting is a weaker option, so don't leave the leaves soaked.\n4. **Last resort, only if it's still stuck after about a week and the leaf is shriveling.** Cut the dry sheath along its seam with clean scissors, taking care not to touch the leaf inside.\n\nAlso look closely at the base of the new leaf for small insects, since a tiny dark speck appears there. If you see any, post a closer photo.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 46794,
+ "output_tokens": 2370,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "philodendron new leaf stuck in sheath cataphyll how to help",
+   "results": [
+    {
+     "url": "https://greenygardener.com/philodendron-new-leaf-stuck/",
+     "title": "Philodendron New Leaf Stuck: A Gardener'S Guide To Unfurling New"
+    },
+    {
+     "url": "https://biologyinsights.com/philodendron-leaf-stuck-heres-what-to-do/",
+     "title": "Philodendron Leaf Stuck? Here\u2019s What to Do - Biology Insights"
+    },
+    {
+     "url": "https://plnts.com/en/blog/plant-leaves-not-opening-or-unfurling-the-cause-and-solution",
+     "title": "Plant leaves not opening or unfurling: the cause & solution!"
+    },
+    {
+     "url": "https://growitinside.com/philodendron-leaf-not-unfurling/",
+     "title": "Why is My Philodendron Leaf Not Unfurling"
+    },
+    {
+     "url": "https://flourishingplants.com/plant-leaves-not-opening-or-unfurling-causes-and-solutions/",
+     "title": "Plant Leaves Not Opening or Unfurling: Causes and Solutions"
+    },
+    {
+     "url": "https://plantscraze.com/stuck-leaf/",
+     "title": "Is Your Plant's Leaf Stuck? [3+ Causes & Quick Fix]"
+    },
+    {
+     "url": "https://www.forwardplant.com/articleinfo/186",
+     "title": "How to prevent and treat the phenomenon of new leaves getting stuck on foliage plants?"
+    },
+    {
+     "url": "https://thephilodendron.com/philodendron-leaf-stuck/",
+     "title": "Philodendron Leaf Stuck? 6 Quick Fixes to Help It Unfurl Naturally"
+    },
+    {
+     "url": "https://www.tiktok.com/discover/stuck-leaf-on-plant",
+     "title": "Stuck Leaf on Plant"
+    }
+   ]
+  },
+  {
+   "query": "philodendron leaf unfurling stuck cataphyll humidity",
+   "results": [
+    {
+     "url": "https://plnts.com/en/blog/plant-leaves-not-opening-or-unfurling-the-cause-and-solution",
+     "title": "Plant leaves not opening or unfurling: the cause & solution!"
+    },
+    {
+     "url": "https://storeparrot.com/plants/care/why-my-philodendron-leaf-not-unfurling",
+     "title": "Why is My Philodendron Leaf Not Unfurling"
+    },
+    {
+     "url": "https://biologyinsights.com/philodendron-leaf-stuck-heres-what-to-do/",
+     "title": "Philodendron Leaf Stuck? Here\u2019s What to Do - Biology Insights"
+    },
+    {
+     "url": "https://greenygardener.com/philodendron-new-leaf-stuck/",
+     "title": "Philodendron New Leaf Stuck: A Gardener'S Guide To Unfurling New"
+    },
+    {
+     "url": "https://flourishingplants.com/plant-leaves-not-opening-or-unfurling-causes-and-solutions/",
+     "title": "Plant Leaves Not Opening or Unfurling: Causes and Solutions"
+    },
+    {
+     "url": "https://treleaf.shop/blogs/news/philodendron-as-houseplants-how-to-grow-care-and-support-them-indoor",
+     "title": "Philodendron as Houseplants: How to Grow, Care, and Support Them Indoors"
+    },
+    {
+     "url": "https://afriendlygardener.com/houseplants/problems-how-to-fix/philodendron-leaves-curling-this-may-be-the-reason/",
+     "title": "Philodendron Leaves Curling? This May Be the Reason - a Friendly Gardener"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=N39D189zHJY",
+     "title": "Philodendron White Princess - Releasing stuck leaf inside cataphyll - YouTube"
+    },
+    {
+     "url": "https://moviecultists.com/how-to-help-a-leaf-unfurl",
+     "title": "How to help a leaf unfurl?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

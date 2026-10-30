@@ -1,0 +1,54 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Lift nursery pot out and empty standing water from decorative pot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Let pot drain 10 minutes after each watering before replacing in decorative pot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with a wooden chopstick before watering",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Squeeze trunks at soil level to check firmness",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If trunk is mushy, unpot, trim rotten roots and repot in fresh fast-draining soil",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Move plant at least 1 m from radiator while keeping it near the window",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames overwatering and never mentions the constricting band at the base, so its advice would not fix the problem, and its promise that watering changes will fix it in weeks delays removing the band that is strangling the tree.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1931,
+ "output_tokens": 878
+}

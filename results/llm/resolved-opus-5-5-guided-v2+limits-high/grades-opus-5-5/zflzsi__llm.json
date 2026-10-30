@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Leave the pot in the sink for 30 minutes to drain, then return it to its saucer",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty any water that collects in the saucer after 15 minutes",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the pot has no drainage hole, tip the excess water out",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place the plant in bright, indirect light away from heaters",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After 2\u20133 days, cut stems that are still kinked or have yellow or brown leaves at the soil line",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the soil weekly with a finger",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains when the top inch is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Before the next trip, water thoroughly and loosely cover the plant with a clear plastic bag in bright indirect light",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names underwatering in dry winter air, but it only implies a soak, gives the wait time as days rather than hours, and never mentions raising humidity (the poster's fix was a humidifier), so the advice is partial; nothing it recommends would harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1836,
+ "output_tokens": 1095
+}

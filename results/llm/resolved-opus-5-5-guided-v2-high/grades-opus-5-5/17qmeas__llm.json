@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift pot and finger-test soil moisture",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bottom water nursery pot in bowl for 15-20 minutes (or water slowly until it drains) and let drain fully",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is wet, let it dry out and check stem base for rot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil every 2-3 days and water when top 1-2 cm dry or pot light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into 4-inch pot in March or April",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names thirst as the main cause and recommends bottom watering after a soil check, which matches the confirmed fix, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2103,
+ "output_tokens": 390
+}

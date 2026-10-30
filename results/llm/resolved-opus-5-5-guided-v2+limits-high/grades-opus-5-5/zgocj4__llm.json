@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture by pushing a finger 1 inch into the soil",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Bottom water the plastic pot in a bowl of 1-2 inches of water for 10-15 minutes, drain, and return it to the decorative bowl whenever the top inch is dry",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant to the brightest window with at least 4 hours of direct sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip off brown, dried stems in the center with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check again in a week for firmed stems and soil dryness before watering again",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly calls underwatering the main cause but misses the soil and pot problem and adds low light; its short bottom-watering advice partly matches the fix but skips the repot and overnight deep soak, though watering would still help rather than harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1916,
+ "output_tokens": 863
+}

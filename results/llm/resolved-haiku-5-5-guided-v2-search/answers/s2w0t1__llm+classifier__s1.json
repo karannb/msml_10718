@@ -1,0 +1,58 @@
+{
+ "thread_id": "s2w0t1",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/s2w0t1_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Would you have any tips for my dropping yucca? It\u2019s not overwatered, it\u2019s by the sun, i did treat it for pests 6 months ago as it had the white fuzzies on it but I don\u2019t know how to make it happy again :/\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 70%, healthy 27%, fungal_bacterial 2%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: a watering problem, and the photo can't tell whether it's too much or too little.** This is a dragon tree (*Dracaena*), not a yucca, and it's a common houseplant that droops for either reason. Although Dracaenas are more tolerant of dry conditions than wet ones, underwatering can still cause significant drooping. Overwatering is also a real risk here: the plant sits in an inner pot inside a decorative outer pot, and water can pool at the bottom where you can't see it.\n\n**Quick check (do this before changing anything):**\n- Push a finger about two inches into the soil in several spots, and lift the pot to compare its weight with a freshly watered one.\n- If the soil is dry and the pot feels light, the plant needs water. Water thoroughly and empty any drainage water.\n- If the soil stays damp or the pot feels heavy, if the roots appear mushy when you inspect them, repot the plant in fresh, well-draining soil in a pot with drainage holes. Trim any soft, brown roots first.\n\n**Light:** The yellowing and bleached look on the sun-facing leaves suggests some scorching from the window. Move it to a shadier spot or filter the light with a curtain. Dracaenas do best in bright but indirect light.\n\n**Pests:** I can't see any webbing, cottony tufts, or bumps in this photo. Check the leaf undersides and where leaves meet the stem with a flashlight. If you see white fuzz again, wipe it off with alcohol on a cotton swab.\n\n**Fix, in order:**\n1. Do the soil and pot-weight check, then water or hold off based on what you find.\n2. Empty the outer decorative pot after watering, or use a pot with drainage.\n3. Move the plant out of direct sun, or behind a sheer curtain.\n4. Be consistent. Big swings between soggy and bone-dry soil stress the plant. Check the top inch of soil \u2014 if it's bone dry, your Dracaena is thirsty.\n\nRecovery can be slow, so give it several weeks. Let me know how often you water and what the soil feels like, and I can narrow this down.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 20803,
+ "output_tokens": 2083,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "dracaena marginata drooping leaves causes watering light",
+   "results": [
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/dracaena-marginata-drooping-leaves",
+     "title": "Dracaena Marginata Drooping Leaves: Causes & Fixes"
+    },
+    {
+     "url": "https://www.nature-and-garden.com/gardening/dracaena-marginata-problem.html",
+     "title": "Dracaena marginata problems: brown tips and yellow leaves"
+    },
+    {
+     "url": "https://bloomscape.com/common-issue/plant-care-guide-dracaena-leaves-drooping/",
+     "title": "Why Are My Dracaena Leaves Drooping?"
+    },
+    {
+     "url": "https://garden.org/thread/view/124754/Droopy-Dracena-Marginata-Leaves/",
+     "title": "Droopy Dracena Marginata Leaves in the Houseplants forum - Garden.org"
+    },
+    {
+     "url": "https://mylivelyplants.com/6-reasons-why-your-dracaena-marginata-is-drooping/",
+     "title": "6 Reasons Why Your Dracaena Marginata Is Drooping - My Lively Plants"
+    },
+    {
+     "url": "https://microveggy.com/dracaena-leaves-are-drooping/",
+     "title": "9 [Common] Reasons Why Your Dracaena Leaves Are Drooping"
+    },
+    {
+     "url": "https://www.beangrowing.com/why-your-dracaena-is-drooping/",
+     "title": "7 Reasons Why Your Dracaena is Drooping & How to Fix ..."
+    },
+    {
+     "url": "https://greg.app/dracaena-marginata-bicolor-leaves-dropping/",
+     "title": "\ud83c\udf42 Why Is My Dracaena marginata 'Bicolor' Dropping Leaves?"
+    },
+    {
+     "url": "https://greg.app/dracaena-marginata-bicolor-leaves-drooping/",
+     "title": "\ud83e\udd40 Why Are My Dracaena marginata 'Bicolor' Leaves Droopy?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

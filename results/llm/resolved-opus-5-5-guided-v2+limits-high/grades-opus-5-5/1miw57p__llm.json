@@ -1,0 +1,40 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Finger-test soil moisture 3 inches into root ball and bed soil",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If wet, withhold water until top 2 inches dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, slowly trickle about 2 gallons per plant over root ball every other day",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scrape off visible fertilizer granules",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames overwatering and root rot when the actual problem was underwatering in heat. Its main push to water less (every 3-5 days) is the opposite of the daily watering that fixed it, and despite the soil check it likely delays the fix; it also never mentions shade.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1912,
+ "output_tokens": 356
+}

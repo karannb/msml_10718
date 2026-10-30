@@ -1,0 +1,54 @@
+{
+ "thread_id": "150yflh",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/150yflh_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Ummm advice needed\n\nI bought this monstera albo single node cutting for 30$ from a local Facebook plant group. Fast forward to 3 weeks later it\u2019s pushing out a leaf which I\u2019m excited for until I noticed it is basically all white so far. I do see a very small sliver of green but. It\u2019s under a grow light for 8-10 hours a day. Do I need to lessen up on it? My biggest fear is that it\u2019s going to push out an all white leaf before it even creates another node and then die.\n\nAnd it\u2019s about 1 1/2 feet away maybe more. I forgot how many watts it was but it was pretty low. I think like 30? I\u2019m not sure.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: fungal_bacterial 86%, other 6%, watering 5%, healthy 3%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: normal variegation drift, with too little light to support the white leaf. This is not a fungal or rot problem.**\n\nThe classifier's 86% fungal_bacterial reading is probably wrong here. The stem is firm and green with no spots, soft patches, or darkening at the base. The new leaf is pale because Monstera Albo is grown from cuttings of a chimeric mutation, so every plant is different and the variegation can drift toward green or white. An all-white new leaf is usually variegation drifting too far, and white leaves cannot photosynthesize.\n\nLight is the other factor. Direct sun scorches white tissue within 1 to 2 hours, but your setup is more likely too dim than too bright. A low-wattage light about 1.5 feet away is weak. Keep the light on; don't reduce it. In deep shade, the plant prioritises chlorophyll-producing green growth for survival, so light that is too weak pushes leaves toward green, while the cutting's energy is still limited.\n\n**Possibilities to rule out:**\n- **Rot at the cut end:** Gently check whether the base is soft or dark. If so, cut above the damage and restart.\n- **Node with too little green:** Your stem shows green and white striping, which is good. An all-white node is a poor choice for propagation, as an all-white node produces white leaves that die.\n\n**Fix:**\n1. **Raise the light.** Move the light closer, to roughly 6 to 12 inches above the plant, and run it 10 to 12 hours daily. Aim for bright, indirect light, and buy a cheap light meter if you can. Sources disagree on targets: one recommends 600 to 800 foot-candles of bright indirect light, while another suggests aim for 200-400 foot-candles.\n2. **Keep it in water or moist medium, with the node covered.** Make sure the node stays submerged or covered, and keep the cutting in bright indirect light.\n3. **Be patient, and don't cut the white leaf yet.** It still uses the stem's energy. If future leaves come out fully white and the plant stalls, cut back to the last leaf with a good green and white balance.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 28457,
+ "output_tokens": 2014,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "monstera albo cutting white new leaf light care",
+   "results": [
+    {
+     "url": "https://www.plantblueprint.com/the-lab/monstera-albo-care/",
+     "title": "Monstera Albo Care: How to Stop White Leaves Browning"
+    },
+    {
+     "url": "https://www.plantsolve.com/plants/monstera-albo/",
+     "title": "Monstera Albo Care: Keep Variegation Stable Indoors"
+    },
+    {
+     "url": "https://www.floralogist.com/plants/monstera-albo",
+     "title": "Monstera Albo care: light, water and problems"
+    },
+    {
+     "url": "https://rootsgrowhere.com/how-to-care-for-a-monstera-albo/",
+     "title": "How to Care for a Monstera Albo - Roots Grow Here"
+    },
+    {
+     "url": "https://monsteramash.com/variegated-monstera-deliciosa-albo/",
+     "title": "13 Things to Know About Your Variegated Monstera Deliciosa Albo: Care Guide & Tips"
+    },
+    {
+     "url": "https://thursd.com/articles/monstera-albo-unraveling-the-secrets-behind-its-striking-white-patches",
+     "title": "Monstera Albo Also Called Monstera Deliciosa Albo Variegata and Its Striking White Patches"
+    },
+    {
+     "url": "https://essentialindoorplants.com/monstera-albo/",
+     "title": "Monstera Albo Care: 7 Tips for Thriving Plants"
+    },
+    {
+     "url": "https://www.plantzenith.com/monstera-albo-care/",
+     "title": "How to Grow and Care for Monstera Albo : Complete Guide"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

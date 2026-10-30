@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wipe wound edges with alcohol or hydrogen peroxide on a cotton swab",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim loose hanging tissue with a sterilized blade if present",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check wound every few days for signs of rot",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place plant in bright, airy indirect light with good air movement",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Plant in fast-draining cactus/succulent mix once wound is dry",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Give a few days of partial shade before full sun after planting",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies minor mechanical thorn damage on an otherwise healthy plant, and its main advice to keep the leaf dry while it calluses matches the fix; the optional wound cleaning and rot checks are mild and not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2099,
+ "output_tokens": 462
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push a finger or trowel 4-6 inches into the soil near the root ball to check moisture before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Deep water with a slow trickle at the base for 10-15 minutes, about twice a week or more if soil dries fast",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is soggy or sour-smelling, cut back watering and let it dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull mulch back to a 2-3 inch layer, a few inches away from the stems",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up shade cloth or a temporary screen for afternoon shade",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully dead tips once the weather cools",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed lightly in spring once new growth is steady",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly identifies heat and drought stress and includes shade and no feeding, but it recommends deep watering about twice a week rather than the daily watering that worked; this is only partial advice, and it is not harmful because watering is tied to soil checks.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2084,
+ "output_tokens": 816
+}

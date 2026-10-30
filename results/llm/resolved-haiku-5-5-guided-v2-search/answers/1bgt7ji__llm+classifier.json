@@ -1,0 +1,157 @@
+{
+ "thread_id": "1bgt7ji",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1bgt7ji_01.jpg",
+  "data/reddit/resolved/images/1bgt7ji_02.jpg",
+  "data/reddit/resolved/images/1bgt7ji_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: why do my plant leaves have tore up?\n\nthe apartment i am living in doesnt receive a lot of sun light, so the water from the soil doesnt dry up much quickly than regular time. the brown spots are from overwatering pretty sure.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 83%, fungal_bacterial 16%, watering 1%, other 0%, pest 0%\nPhoto 2: watering 84%, healthy 8%, fungal_bacterial 6%, other 2%, pest 0%\nPhoto 3: healthy 69%, watering 30%, fungal_bacterial 1%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: physical tearing or chewing, not overwatering.** The Monstera's tears are ragged and cut across the leaf rather than following its natural splits, and the pothos has a bite-shaped chunk missing. Clean tears with no discoloration usually come from handling, pets, or wind Holes from physical trauma have clean, torn edges with no discoloration, no yellow halo, and no progression over time. The photos show no yellowing, mushy stems, or dark soft tissue, which overwatering would usually cause. The pothos has a bite-shaped chunk missing, which fits a chewer or a knock. Your balcony photo suggests the dracaena may have snagged on the netting or railing.\n\n**Other possibilities:**\n1. **Night-feeding caterpillars or slugs.** Holes that appear overnight, with black droppings (frass) or silvery slime trails, point here. Slugs and snails leave large, irregular holes with smooth, silvery slime trails and are most active after rain or heavy watering at night. Check with a torch after dark, under leaves and around pot rims.\n2. **Dracaena tip browning.** If the tips turn crisp and tan with a sharp line between green and brown, the likely causes are water quality, low humidity, or underwatering. Your torn edges are not this pattern, but the white specks on that plant are worth checking for mealybugs or scale.\n\n**Checking the watering:** Push a finger about 2 inches into the soil. Water only when it's dry at that depth. Low light does slow drying, so check every few days instead of on a fixed schedule. Only cut back if the soil stays wet for many days or the stems turn soft or smell bad.\n\n**Fixes, most important first:**\n1. Trim torn and chewed leaves with clean scissors, cutting just past the damage. Trim ragged edges with sterile scissors.\n2. Move the plants out of reach of pets and high-traffic paths, away from wind and snag points like the netting.\n3. Inspect at night for three nights. Handpick caterpillars and slugs; for caterpillars, a Bt spray works if you find more.\n4. Make sure every pot drains, and empty saucers after watering.\n\nMost of the plant looks healthy, so the damage is probably a one-time event rather than a spreading problem.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 66128,
+ "output_tokens": 3378,
+ "web_search_requests": 3,
+ "searches": [
+  {
+   "query": "monstera leaves torn or chewed holes causes",
+   "results": [
+    {
+     "url": "https://leafypixels.com/guides/holes-in-leaves/",
+     "title": "Why Do My Leaves Have Holes? Causes & Fixes for Monstera, Philodendron, and More"
+    },
+    {
+     "url": "https://medium.com/@botanybreakdown/why-your-monstera-has-holes-and-when-to-worry-60bbde53bfd0",
+     "title": "Why Monstera Leaves Have Holes and When to Worry"
+    },
+    {
+     "url": "https://www.cambridgebee.com/blogs/news/the-holly-truth-of-monstera-leaves-with-holes",
+     "title": "Truth about Monstera leaves and their holes - Cambridge Bee"
+    },
+    {
+     "url": "https://biologyinsights.com/monstera-leaf-damage-causes-and-how-to-fix-them/",
+     "title": "Monstera Leaf Damage: Causes and How to Fix Them - Biology Insights"
+    },
+    {
+     "url": "https://ecofamilylife.com/garden/tiny-holes-in-monstera-leaves/",
+     "title": "Tiny Holes in Monstera Leaves"
+    },
+    {
+     "url": "https://www.dahingplants.com/blogs/news/why-does-the-monstera-leaf-have-holes",
+     "title": "Why Does The Monstera Leaf Have Holes?"
+    },
+    {
+     "url": "https://www.thesill.com/blogs/plants-101/why-swiss-cheese-plant-has-holes",
+     "title": "Why Your Monstera Plant's Leaves Have Holes"
+    },
+    {
+     "url": "https://www.thaitissues.com/post/unlocking-the-mystery-why-do-monstera-leaves-have-holes",
+     "title": "Unlocking the Mystery: \"Why Do Monstera Leaves Have Holes?\""
+    },
+    {
+     "url": "https://greg.app/question/3mu6ac/can-anyone-tell-me-why-my-monstera-leaves-seem-to-be-ripping-i-feel-like-the-holes-in-the-leaves-are",
+     "title": "Can anyone tell me why my #Monstera leaves seem to be rip..."
+    },
+    {
+     "url": "https://www.gardening-forums.com/threads/monstera-leaf-ripping-what-is-wrong-please-help.18939/",
+     "title": "Monstera Leaf Ripping- What is Wrong - Please Help"
+    }
+   ]
+  },
+  {
+   "query": "pothos leaves holes chewed by pests or slugs",
+   "results": [
+    {
+     "url": "https://www.littleflowercottage.com/7-reasons-for-holes-in-your-pothos-leaves-and-how-to-fix-them/",
+     "title": "7 Reasons for Holes in your Pothos Leaves (and How to Fix Them) - Little Flower Cottage"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/why-does-my-pothos-have-holes",
+     "title": "Why Does My Pothos Have Holes? 7 Causes & How to Fix Them"
+    },
+    {
+     "url": "https://houseplantauthority.com/holes-pothos-leaves/",
+     "title": "7 Causes of Holes in Pothos Leaves (and How to Fix Them)"
+    },
+    {
+     "url": "https://gardenforindoor.com/holes-in-pothos-leaves/",
+     "title": "Holes In Pothos Leaves (6 Causes And Solutions) - Garden For Indoor"
+    },
+    {
+     "url": "https://plantscraze.com/holes-in-pothos-leaves/",
+     "title": "Why are There Holes in My Pothos Leaves? - Plants Craze"
+    },
+    {
+     "url": "https://thenatureofhome.com/why-holes-in-pothos-leaves/",
+     "title": "Why Holes in Pothos Leaves? Causes, Treatment & Prevention"
+    },
+    {
+     "url": "https://thepracticalplanter.com/pothos-holes-in-leaves/",
+     "title": "Pothos Leaves Looking Like Swiss Cheese? 7 Reasons for the Holes - The Practical Planter"
+    },
+    {
+     "url": "https://microveggy.com/holes-in-pothos-leaves/",
+     "title": "What Causes Holes in Pothos Leaves? And How to Fix Them 2026"
+    },
+    {
+     "url": "https://simplifyplants.com/causes-of-holes-in-pothos-leaves/",
+     "title": "7 Causes Of Holes In Pothos Leaves (+How To Fix It) \u00bb Simplify Plants"
+    }
+   ]
+  },
+  {
+   "query": "dracaena leaf tips torn ragged brown causes",
+   "results": [
+    {
+     "url": "https://www.mars-hydro.com/info/post/dracaena-brown-tips",
+     "title": "Dracaena Brown Tips Explained: How to Help Your Plant Recover"
+    },
+    {
+     "url": "https://www.gardeningknowhow.com/houseplants/dracaena/dracaena-leaves-are-brown.htm",
+     "title": "Dracaena\u2019s Leaves Are Turning Brown: Reasons For Browning Dracaena Leaves"
+    },
+    {
+     "url": "https://smartgardenguide.com/why-does-my-dracaena-have-brown-tips/",
+     "title": "Why Does My Dracaena Have Brown Tips? - Smart Garden Guide"
+    },
+    {
+     "url": "https://www.nature-and-garden.com/gardening/dracaena-marginata-problem.html",
+     "title": "Dracaena marginata problems: brown tips and yellow leaves"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/dracaena-brown-tips",
+     "title": "Why Do The Leaves On My Dracaena Have Brown Tips?"
+    },
+    {
+     "url": "https://plantidentifierfree.app/blog/dracaena-brown-tips",
+     "title": "Dracaena Brown Tips: Causes and How to Fix Them"
+    },
+    {
+     "url": "https://bloomflowerblog.com/prevent-fix-brown-leaf-tips-dracaena/",
+     "title": "How to Prevent and Fix Brown Leaf Tips on Dracaena Plants"
+    },
+    {
+     "url": "https://gardensage.co/guides/dracaena-brown-tips/",
+     "title": "Why are my dracaena leaf tips turning brown?"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/dracaena-care-guide",
+     "title": "Dracaena Care: Light, Watering, Brown Tips, and Species Guide"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": [
+  {
+   "url": "https://www.dahingplants.com/blogs/news/why-does-the-monstera-leaf-have-holes",
+   "title": "Why Does The Monstera Leaf Have Holes?",
+   "title_similarity": 0.62
+  },
+  {
+   "url": "https://www.thesill.com/blogs/plants-101/why-swiss-cheese-plant-has-holes",
+   "title": "Why Your Monstera Plant's Leaves Have Holes",
+   "title_similarity": 0.71
+  }
+ ]
+}

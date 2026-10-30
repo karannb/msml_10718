@@ -1,0 +1,62 @@
+{
+ "thread_id": "14e713v",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/14e713v_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: How to save it?\n\nThere is the mold\u2026 also bugs flying around all the time but the biggest problem is the dart root I think. Help me on how to save it please\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 99%, healthy 1%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: overwatering, with root and stem rot.** The soil is dark and damp, there's white fuzzy growth on the surface, and gnats are flying around. The base of the stem looks discoloured and soft. Your classifier's \"watering\" call fits, but the photos point to too much water rather than too little. Your \"dart root\" is probably \"dark root,\" the rot you're seeing at the base.\n\n**Other possibilities:**\n- **Cachepot trapping water:** The plant sits in a plastic nursery pot inside a decorative pot with no visible drainage. Check whether water pools at the bottom. Trapped water causes the same problem as overwatering, so it's worth fixing at the same time.\n- **Fungus gnats:** These are a symptom of constantly wet soil, not a separate cause. Sticky traps help, but drying the soil matters more. The white growth on the soil is most likely mould on wet, organic-rich mix, but a fungus gnat larva or mould check under magnification would confirm it.\n\n**Fix, in order:**\n1. **Stop watering now.** Remove the plant from the decorative pot, and check that the nursery pot has drainage holes.\n2. **Unpot and inspect the roots.** Healthy roots are firm and pale. Brown or black, slimy roots are rotten. Cut away all rot with a sterilised knife until you reach firm tissue. If the stem is soft all the way to the soil line, the plant probably can't recover, so take cuttings or offsets instead.\n3. **Let the cuts dry for 2\u20133 days** in a shaded spot, then repot into a gritty cactus mix with added perlite (roughly 50/50). Use a clean pot about 1\u20132 inches wider than the root ball, with drainage holes. Discard the old soil.\n4. **Wait about a week before watering.** After that, water only when the soil is completely dry several inches down, and empty any saucer within 30 minutes. Give it bright indirect light while it recovers.\n\nNew leaves from the centre are the best sign that the plant is recovering.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 32114,
+ "output_tokens": 1701,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "aloe vera root rot overwatering stem base soft mold repot",
+   "results": [
+    {
+     "url": "https://canadagrowsupplies.com/blogs/main/root-rot-in-aloe-vera",
+     "title": "Root Rot in Aloe Vera: Prevention and Treatment Tips"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/aloe/root-rot-2/",
+     "title": "Aloe Root Rot: 5 Causes and How to Fix It - Blooming Expert"
+    },
+    {
+     "url": "https://gardenforindoor.com/save-aloe-from-root-rot/",
+     "title": "7 Steps To Save Aloe Vera From Root Rot - Garden For Indoor"
+    },
+    {
+     "url": "https://www.gardeninginsteps.com/article/why-is-aloe-vera-rotting-at-the-base-4-winter-care-solutions",
+     "title": "Why Is Aloe Vera Rotting at the Base? 4 Winter Care Solutions"
+    },
+    {
+     "url": "https://gardenine.com/overwatered-aloe-plant/",
+     "title": "Overwatered Aloe Plant - How to Tell and Save It"
+    },
+    {
+     "url": "https://heavenlyhouseplants.com/aloe-vera-too-much-water/",
+     "title": "Aloe Vera Too Much Water: Signs of Overwatering and How to Save It - Heavenly Houseplants"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/aloe/drooping/",
+     "title": "Aloe Drooping: 5 Causes and How to Fix It"
+    },
+    {
+     "url": "https://handygardening.com/aloe-vera-stem-rot/",
+     "title": "What to Do About Aloe Vera Stem Rot: A Practical Guide"
+    },
+    {
+     "url": "https://en.pampas2palms.com/why-your-aloe-vera-is-rotting-the-sunday-watering-trap-that-kills-succulents/",
+     "title": "Why Your Aloe Vera Is Rotting: The Sunday Watering Trap That Kills Succulents - Pampas2Palms"
+    },
+    {
+     "url": "https://northernnester.com/how-to-save-overwatered-aloe-plant/",
+     "title": "How to Save Overwatered Aloe Plant - Garden Tips 2024 - Northern Nester"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

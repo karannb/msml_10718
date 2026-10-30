@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Spray tops and undersides of all leaves, stems and soil surface with dish soap solution (1 tsp per litre) weekly for 6 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Buy blue sticky traps and place 2 in the pot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 5.5,
+   "unclear": false
+  },
+  {
+   "action": "Count the thrips caught on the sticky traps weekly",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 5 cm deep before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When dry, water until it drains and empty the saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant within 1 m of the window, out of direct midday sun",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is thrips plus low light, matching the confirmed problem, but it relies on a weaker soap spray instead of an insecticide like spinosad/celaflor and skips chop-and-prop, so the fix is only partial; nothing recommended is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1898,
+ "output_tokens": 813
+}

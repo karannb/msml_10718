@@ -1,0 +1,107 @@
+{
+ "thread_id": "1vh0kfh",
+ "option": "llm",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1vh0kfh_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Hi\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: a nutrient problem, probably pH lockout or a mineral shortage.** This looks like a cannabis plant. The older lower and middle leaves are yellowing, but the new growth at the top looks fairly healthy. Yellowing that starts low and spreads up often means a mobile nutrient is running short. Pale new top growth or yellow-between-the-veins can point to an immobile nutrient or a pH problem locking nutrients out. Your photo can't tell these apart, so check the pH first.\n\n**Other possibilities:**\n- **Nitrogen deficiency.** Lower leaves fade evenly from the margin inward, and the veins stay green. Nitrogen deficiency starts by yellowing the edges of leaves before working its way inwards, and the central veins remain dark green. If the leaves are dark, glossy, or clawing downward instead, that points to too much nitrogen.\n- **Overwatering.** Less likely if the pot drains well. Check whether the mix stays wet for days. Droopy, heavy-looking leaves with soggy soil would support this.\n\n**Checks that decide it:**\n1. Measure runoff pH. Soil should sit around 6.0\u20137.0 ([source](https://www.growguide.app/blog/why-cannabis-leaves-turn-yellow/) gives 6.0\u20136.5 for soil). If it's out of range, that's your lockout.\n2. Look at the yellow pattern. Yellow between green veins on lower leaves suggests magnesium.\n3. Push a finger 2\u20133 cm into the mix. Wet means hold off on water.\n\n**Fix:**\n- **Correct pH first.** Adjust your water and runoff into range before adding anything. Adding more nutrients to a lockout makes it worse.\n- **Feed lightly.** If the pH is fine and the pattern is uniform lower-leaf yellowing, raise feed slightly. If you see burnt tips, reduce feed and flush with plain pH-adjusted water.\n- **Add cal-mag** only if the interveinal pattern on lower leaves is confirmed.\n- **Water when the top layer is dry**, not on a fixed schedule.\n\nTell us the stage (veg or flower), your feed and pH, how often you water, and the pot and mix. That would narrow this down a lot.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 51327,
+ "output_tokens": 1911,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "cannabis yellowing leaves clawing nutrient deficiency or overwatering",
+   "results": [
+    {
+     "url": "https://www.growweedeasy.com/cannabis-plant-problems/overwatering",
+     "title": "Over-Watering Cannabis Plants - Symptoms & Solutions"
+    },
+    {
+     "url": "https://www.growweedeasy.com/cannabis-plant-problems/nitrogen-toxicity",
+     "title": "How to Identify & Fix Cannabis Nitrogen Toxicity (with Pics)"
+    },
+    {
+     "url": "https://www.royalqueenseeds.com/us/blog-yellow-cannabis-leaves-n523",
+     "title": "The causes and solutions for yellow cannabis leaves - RQS USA - RQS Blog"
+    },
+    {
+     "url": "https://www.growgreentrees.com/blog/yellow-cannabis-leaves",
+     "title": "3 Common Causes/Solutions for Yellow Cannabis Leaves in 2023"
+    },
+    {
+     "url": "https://www.mars-hydro.com/info/post/weed-leaves-turning-yellow",
+     "title": "Weed Leaves Turning Yellow: Causes & Fixes"
+    },
+    {
+     "url": "https://trianglehemp.com/why-your-cannabis-leaves-are-turning-yellow-and-what-to-do-about-it/",
+     "title": "Why Your Cannabis Leaves Are Turning Yellow (and What to Do)"
+    },
+    {
+     "url": "https://www.lahuertagrowshop.com/blog/en/yellow-leaves-cannabis-plants/",
+     "title": "Yellow Leaves in Cannabis Plants: Causes and Solutions - La Huerta Blog"
+    },
+    {
+     "url": "https://www.pacificseedbank.com/growing-marijuana/weed-leaf-issues/",
+     "title": "Your Guide to Diagnosing and Fixing Weed Leaf Issues"
+    },
+    {
+     "url": "https://vivosun.com/growing_guide/why-weed-plants-turning-yellow/",
+     "title": "Why & How to Stop My Weed Plants Turning Yellow?"
+    },
+    {
+     "url": "https://myplantin.com/weed/weed-leaves-turning-yellow",
+     "title": "Why Cannabis Leaves Turning Yellow?"
+    }
+   ]
+  },
+  {
+   "query": "cannabis leaf tips yellow pH lockout nitrogen magnesium",
+   "results": [
+    {
+     "url": "https://www.barneysfarm.com/us/wiki/yellow-cannabis-leaves-and-nutrient-lockout",
+     "title": "Yellow Cannabis Leaves and Nutrient Lockout: Causes and Fixes"
+    },
+    {
+     "url": "https://www.azarius.com/wiki/cultivation/cannabis/cannabis-leaf-problems-yellowing-curling",
+     "title": "Cannabis Leaf Problems Yellowing Curling: Diagnostic Guide"
+    },
+    {
+     "url": "https://growguide.app/blog/why-cannabis-leaves-turn-yellow/",
+     "title": "Why Your Cannabis Leaves Are Turning Yellow ... \u2014 GrowGuide"
+    },
+    {
+     "url": "https://madmanplant.com/yellow-cannabis-leaves-nutrient-lockout/",
+     "title": "Yellow Cannabis Leaves? Fix Nutrient Lockout Fast"
+    },
+    {
+     "url": "https://cannoptikum.com/en/blog/factors-in-cannabis-cultivation/yellow-leaves-on-cannabis",
+     "title": "Yellow leaves in cannabis"
+    },
+    {
+     "url": "https://modernfarms.store/blogs/modernfarms-blog/cannabis-nutrient-deficiencies-how-to-diagnose-and-fix-them",
+     "title": "Cannabis Nutrient Deficiencies: How to Diagnose and Fix Them"
+    },
+    {
+     "url": "https://trym.io/cannabis-nutrient-lockout/",
+     "title": "Cannabis Nutrient Lockout - Trym"
+    },
+    {
+     "url": "https://kindgreenbuds.com/grow-guide/nutrient-lockout-in-marijuana-plants/",
+     "title": "Nutrient Lockout in Marijuana Plants - Kind Green Buds"
+    },
+    {
+     "url": "https://www.zamnesia.com/us/grow-weed/564-cannabis-yellow-leaves-diagnose-treat",
+     "title": "Cannabis yellow leaves? Diagnose & treat now"
+    },
+    {
+     "url": "https://trianglehemp.com/why-your-cannabis-leaves-are-turning-yellow-and-what-to-do-about-it/",
+     "title": "Why Your Cannabis Leaves Are Turning Yellow (and What to Do)"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

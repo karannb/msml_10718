@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move the full-spectrum grow light closer, to about 6-12 inches above the plant",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise the light again if leaves show bleaching or crisping",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gently tug the cutting to check for root formation",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep the soil lightly moist but not soggy",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check that the node and stem base stay firm and green",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the stem goes soft or black, cut above the damage and re-root the healthy part",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly says the plant is healthy and the white leaf is not a problem, but it attributes this to permanent variegation rather than leaf immaturity, never advises waiting for the leaf to unfurl and darken, and adds an unnecessary light change; nothing it recommends is likely to cause harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2047,
+ "output_tokens": 893
+}

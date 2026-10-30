@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Finger-check soil moisture, lift nursery pot to check weight, and check for pooled water in cat planter",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If dry, bottom-water in a bowl for 15-20 minutes, drain 5 minutes, and return to planter",
+   "minutes": 25,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If wet or standing water, empty cat pot and keep plant on a saucer until top inch is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ongoing finger check every 2-3 days and water when top inch is dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names thirst in a small, root-filled pot in a hot room as the main cause and recommends bottom watering after a soil check, matching the confirmed fix with no harmful advice.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1962,
+ "output_tokens": 375
+}

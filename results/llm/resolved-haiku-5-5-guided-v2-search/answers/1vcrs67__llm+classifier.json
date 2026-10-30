@@ -1,0 +1,108 @@
+{
+ "thread_id": "1vcrs67",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1vcrs67_01.jpg",
+  "data/reddit/resolved/images/1vcrs67_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Is this banana plant done for?\n\nI repotted this banana plant after removing two pups from it. It pretty immediately went brown and limp on me. I was hoping it would recover, but there\u2019s no signs of new leaves. Is there any hope? If I trim away the dead stuff, is there a possibility we\u2019ll get some new leaves?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: fungal_bacterial 44%, watering 33%, other 23%, healthy 0%, pest 0%\nPhoto 2: fungal_bacterial 72%, watering 27%, other 1%, healthy 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: transplant shock from the pup removal and repotting.** Splitting off pups and repotting damages the root system, so the plant can't pull enough water up to its leaves, and they collapse and dry out. The photos fit this: the leaves are limp and papery throughout, and the stems look firm. The classifier's \"fungal_bacterial\" guess doesn't match what I see. I see no spots, rot, or pests, and the plant looks like it's wilting from root damage.\n\n**Other possibilities:**\n- **Root rot.** This is the main alternative, since repotting often leads to overwatering. Check the base of the stem near the soil. If it's soft, mushy, or sour-smelling, rot is likely. If it's firm, that favors shock.\n- **Dry root ball.** If the soil is dry and pulling away from the pot, the damaged roots couldn't keep up. Check by pushing a finger 2\u20133 inches into the soil.\n\n**Signs of life:** The tall, green-yellow spike at the center of the first photo looks like a new leaf still unfurling. If you can see it, the plant may still be growing. Scratch the outer stem with a fingernail. Green or pale tissue underneath means it's alive.\n\n**What to do:**\n1. **Leave the firm green stem alone.** Only remove leaves that are fully dead and come off with a gentle tug. Don't cut the stem or the center spike yet.\n2. **Water carefully.** Water thoroughly once, then only when the top few inches are dry. Keep the soil from drying out completely, but don't keep it soggy.\n3. **Hold off on fertilizer and repotting** for at least 4\u20136 weeks. Keep the plant in bright indirect light, shaded from hot afternoon sun and out of wind.\n4. **Watch for a few weeks.** Recovery can take weeks to months. If the base turns soft or dark, unpot it, check the roots, and cut back to firm tissue.\n\nWith a firm stem and a living center, your banana still has a good chance of pushing out new leaves.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 54622,
+ "output_tokens": 2347,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "potted banana plant leaves collapse after repotting transplant shock recovery",
+   "results": [
+    {
+     "url": "https://couchtohomestead.com/banana-plants-droopy-leaves/",
+     "title": "Why Banana Plants Get Droopy Leaves (& How To Fix It)"
+    },
+    {
+     "url": "https://garden.org/thread/view/167173/HELP-Indoor-Banana-Plant-wrinkling-and-drooping/",
+     "title": "HELP!! Indoor Banana Plant wrinkling and drooping in the Ask a Question forum - Garden.org"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/repotting-shock-signs-and-recovery",
+     "title": "Repotting Shock: Signs You Damaged Your Plant \u2014 and How to Recover"
+    },
+    {
+     "url": "https://plantcareclub.com/blog/plant-leaves-drooping-after-repotting",
+     "title": "Plant Drooping After Repotting? Causes, Recovery & Fixes"
+    },
+    {
+     "url": "http://www.bananas.org/f11/transplant-shock-18230.html",
+     "title": "Transplant shock! - Bananas.org"
+    },
+    {
+     "url": "https://www.trustbasket.com/blogs/how-to-grow/transplant-shock-causes-ways-to-prevent-and-cure",
+     "title": "Transplant shock: causes, ways to prevent and cure"
+    },
+    {
+     "url": "https://www.mars-hydro.com/info/post/transplant-shock",
+     "title": "What Is Transplant Shock & How to Deal with It"
+    },
+    {
+     "url": "https://greg.app/how-to-repot-a-banana/",
+     "title": "\ud83c\udf4c Should I Repot My Banana And If So, How?"
+    },
+    {
+     "url": "https://www.bananas.org/f11/banana-plant-transplant-shock-54561.html",
+     "title": "*Banana Plant with transplant shock - Bananas.org"
+    },
+    {
+     "url": "https://mothernaturesapprentice.com/dealing-with-dreaded-transplant-shock/",
+     "title": "Dealing With the Dreaded Transplant Shock - Mother Natures Apprentice"
+    }
+   ]
+  },
+  {
+   "query": "banana plant pseudostem check alive green inside rot care",
+   "results": [
+    {
+     "url": "https://www.ferberpainting.com/uk/blog/how-to-know-if-your-banana-tree-is-dead-the-complete-guide/",
+     "title": "How to Know If Your Banana Tree Is Dead: The Complete Guide"
+    },
+    {
+     "url": "https://garden.org/learn/howto/grow/bananas/",
+     "title": "How to Grow and Care for Bananas - Garden.org"
+    },
+    {
+     "url": "https://www.getgrowli.app/diagnose/banana-plant/mushy-stem",
+     "title": "Why is my banana plant stem mushy? \u2014 causes + fix"
+    },
+    {
+     "url": "https://thehomesprouts.com/plantcare/large-how-to-care-for-indoor-banana-plant",
+     "title": "Large Indoor Banana Plant Care Guide (2026)"
+    },
+    {
+     "url": "https://gardening.alibaba.com/plant-care/banana-plant-stem",
+     "title": "Banana Plant Stem Care: Facts and Safety Guidelines"
+    },
+    {
+     "url": "https://greg.app/plant-care/pruning/banana/",
+     "title": "How to Prune Banana"
+    },
+    {
+     "url": "https://www.ukhouseplants.com/plants/banana-palms",
+     "title": "Growing & Troubleshooting Indoor Banana Plants!"
+    },
+    {
+     "url": "https://www.bananas.org/f2/banana-stem-rotten-middle-51886.html",
+     "title": "Banana Stem Rotten in Middle??? - Bananas.org"
+    },
+    {
+     "url": "https://nhb.gov.in/pdf/fruits/banana/ban002.pdf",
+     "title": "Banana Diseases Panama Wilt (Fusarium oxysporum f. sp. cubense) :"
+    },
+    {
+     "url": "https://www.bananas.org/f2/rot-stem-47891.html",
+     "title": "Rot on stem - Bananas.org"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

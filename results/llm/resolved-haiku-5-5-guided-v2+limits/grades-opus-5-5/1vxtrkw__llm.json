@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Soak the pot in a sink or bucket for 20-30 minutes, then drain fully (weekly)",
+   "minutes": 35,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 5 cm deep with a finger before each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Press the base of the trunk weekly to check firmness",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If trunk is mushy, dark or sour-smelling, cut away the soft part and reassess",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Reassess in a month or two and repot if roots emerge from drainage holes or water runs straight through",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the dried-out root ball as the main cause and recommends soaking, which matches the fix that worked. It dismisses repotting, which commenters suggested, but this is not likely to harm the plant since soaking resolved the issue.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1871,
+ "output_tokens": 789
+}

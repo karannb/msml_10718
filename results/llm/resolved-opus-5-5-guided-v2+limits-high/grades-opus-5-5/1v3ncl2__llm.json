@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift plant out of cover pot, tip out pooled water, and check inner pot for drainage holes",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with a chopstick pushed to the bottom of the pot every 3\u20134 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When the chopstick comes out dry, water until it drains and empty the cover pot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant against sunniest south or west window with blinds open",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wearing gloves, snip off yellow and brown leaves at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames low light and soggy lower soil and explicitly dismisses thirst, so the diagnosis is wrong; its chopstick check would still lead to watering a dry plant, so the fix is only indirectly present and the safeguard keeps it from being harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1775,
+ "output_tokens": 763
+}

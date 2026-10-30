@@ -1,0 +1,89 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap leaf over white paper to check for thrips",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Stop the weekly 70% alcohol spray",
+   "minutes": 0,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Patch-test spinosad on one leaf of each orchid type 48 hours ahead",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray spinosad on leaf undersides, new growth and flowers every 5-7 days for 6 weeks",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Alternate spinosad with insecticidal soap sprays",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Release Amblyseius cucumeris or swirskii on foliage",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 40,
+   "unclear": false
+  },
+  {
+   "action": "Release Stratiolaelaps (Hypoaspis) mites in soil",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  },
+  {
+   "action": "Isolate worst-hit plants away from the others",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang blue sticky traps",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Count trap catches weekly",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut off spent flowers and damaged leaves and bag them",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names thrips as the main cause and its predatory-mite program matches the beneficial-insect fix that worked; it even pauses sprays before releasing mites, so nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2131,
+ "output_tokens": 712
+}

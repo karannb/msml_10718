@@ -1,0 +1,110 @@
+{
+ "thread_id": "1o3aiun",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1o3aiun_01.jpg",
+  "data/reddit/resolved/images/1o3aiun_02.jpg",
+  "data/reddit/resolved/images/1o3aiun_03.jpg",
+  "data/reddit/resolved/images/1o3aiun_04.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Help! I'm a rosemary serial killer.\n\nI want to change. I know I'm overwatering them. I've set up this rescue station on this 90 degree day in hopes of saving it before it's too late. Brown is creeping up on the stems. I am a novice and Idk what this root base should look like. I just know it needs to not be moist. Should I repot it in succulent soil?\n\nI'd prefer them in pots because we moving soon\n\nThese roots have not moved from the root ball. Should i still get plastic if it's not getting any rain? I live in the great plains. It's not rain season yet. During winter I plan to put them in the garage with a timed lamp. I take them into the patio area every time it may rain.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 83%, fungal_bacterial 15%, watering 2%, other 0%, pest 0%\nPhoto 2: fungal_bacterial 99%, healthy 0%, pest 0%, watering 0%, other 0%\nPhoto 3: watering 47%, fungal_bacterial 32%, healthy 22%, pest 0%, other 0%\nPhoto 4: healthy 49%, watering 29%, fungal_bacterial 21%, pest 1%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: overwatering, leading to root decline.** You said you're overwatering, and the wet-soil pattern fits. Rosemary's roots rot when the mix stays wet, and that damage often shows above ground as browning stems. The plant can no longer move water to its leaves, so it can wilt even though the soil is soaking.\n\nThe root photos are less clear. The roots look dense and tan-brown, not black or obviously mushy, so rot may not be advanced. **The quick check decides it:** tip the plant out and smell the root ball and squeeze the roots. Healthy roots are white or light tan and firm; rotted roots are brown to black, mushy, and smell sour. If the roots are firm and clean, the brown stems may be dieback or heat and dryness stress, and the fix is mostly pruning and drainage.\n\n**Fix, in order:**\n\n1. **Stop watering until the mix dries.** Water only when the top 1\u20132 inches are dry, then soak until it runs out the bottom. If the soil stays damp for more than 3 to 4 days after watering, the pot is too large. Skip the plastic: it traps heat and moisture around the roots.\n\n2. **Unpot and trim.** Shake off the loose mix, cut any dark, mushy roots with clean shears, and loosen the circling roots on the outside of the ball. Let the plant sit for a day before repotting.\n\n3. **Repot in a fast-draining mix.** Use terracotta with a drainage hole, only about 2 inches wider than the root ball. A reasonable mix is potting soil with perlite or coarse sand, roughly 70/30. Your succulent-soil idea is fine if it's gritty, but a dense mix is the problem to avoid.\n\n4. **Prune brown stems.** Snip away any brown foliage or stems back to healthy growth. Scratch a stem: green underneath means it can recover.\n\n**On the garage plan:** a single timed lamp is likely too weak for rosemary. Use the brightest sunny spot you have, and bring it into a bright window or under a strong grow light in winter.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 61143,
+ "output_tokens": 3280,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "rosemary overwatering root rot symptoms stems brown",
+   "results": [
+    {
+     "url": "https://www.gardenerreport.com/how-to-revive-a-dying-rosemary-plant/",
+     "title": "How to Revive a Dying Rosemary Plant"
+    },
+    {
+     "url": "https://www.weekand.com/home-garden/article/signs-overwatering-rosemary-bush-18030962.php",
+     "title": "Signs of Overwatering My Rosemary Bush - Week"
+    },
+    {
+     "url": "https://www.getgrowli.app/diagnose/rosemary/root-rot",
+     "title": "How do I save my rosemary from root rot? \u2014 causes + fix"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/herbs/rosemary/problems-57/",
+     "title": "Why Is My Rosemary Dying? 7 Problems and How to Fix Each One"
+    },
+    {
+     "url": "https://smartgardenexperts.com/blog/what-does-overwatered-rosemary-look-like",
+     "title": "What does overwatered rosemary look like? - Smart Garden Experts"
+    },
+    {
+     "url": "https://urbanlotusproject.org/why-is-my-rosemary-dying/",
+     "title": "Why Is My Rosemary Dying? Causes & Fixes"
+    },
+    {
+     "url": "https://gardenlyhome.com/why-rosemary-turns-brown-and-dies/",
+     "title": "Why Rosemary Turns Brown and Dies (Common Causes and Fixes) - Gardenly Home"
+    },
+    {
+     "url": "https://biologyinsights.com/signs-of-overwatered-rosemary-and-how-to-save-it/",
+     "title": "Signs of Overwatered Rosemary and How to Save It - Biology Insights"
+    },
+    {
+     "url": "https://www.theplantaide.com/articles/101829.html",
+     "title": "Overwatered vs. Underwatered Rosemary: How to Tell the Difference - The Plant Aide"
+    },
+    {
+     "url": "https://biologyinsights.com/why-is-my-rosemary-drooping-diagnosing-the-cause/",
+     "title": "Why Is My Rosemary Drooping? Diagnosing the Cause - Biology Insights"
+    }
+   ]
+  },
+  {
+   "query": "potted rosemary care soil drainage watering extension",
+   "results": [
+    {
+     "url": "https://www.gardeningknowhow.com/edible/herbs/rosemary/rosemary-grown-in-containers.htm",
+     "title": "Rosemary Container Care - Tips For Growing Rosemary In Pots"
+    },
+    {
+     "url": "https://www.wilsonbrosgardens.com/how-to-plant-and-care-for-rosemary.html",
+     "title": "How To Plant, Prune, Fertilize & Water Rosemary In Garden Beds & Pots - Wilson Bros Gardens"
+    },
+    {
+     "url": "https://celebratednest.com/best-soil-for-rosemary-in-pots/",
+     "title": "Best Soil for Rosemary (Simple Mix for Pots That Works Every Time) - Celebrated Nest"
+    },
+    {
+     "url": "https://thegardenplaybook.com/how-often-to-water-rosemary-in-pots-7-smart-rules-that-work/",
+     "title": "How Often To Water Rosemary In Pots: 7 Smart Rules That Work"
+    },
+    {
+     "url": "https://thegardeningcook.com/fresh-rosemary/",
+     "title": "How to Grow Rosemary in Pots: Soil, Sun, Watering & Care"
+    },
+    {
+     "url": "https://greg.app/plant-care/pots/salvia-rosmarinus/",
+     "title": "Best Pot for Rosemary"
+    },
+    {
+     "url": "https://plantaddicts.com/growing-rosemary-in-pots/",
+     "title": "Growing Rosemary in Pots"
+    },
+    {
+     "url": "https://savvygardening.com/how-to-grow-rosemary/",
+     "title": "How to Grow Rosemary in Gardens and Containers"
+    },
+    {
+     "url": "https://balconygardenweb.com/growing-rosemary-in-pots-rosemary-plant-care/",
+     "title": "Growing Rosemary In Pots"
+    },
+    {
+     "url": "https://www.gardeningknowhow.com/edible/herbs/rosemary/growing-rosemary-plants-rosemary-plant-care.htm",
+     "title": "How To Grow And Care For Rosemary Plants"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

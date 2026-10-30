@@ -1,0 +1,109 @@
+{
+ "thread_id": "17x3131",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/17x3131_01.jpg",
+  "data/reddit/resolved/images/17x3131_02.jpg",
+  "data/reddit/resolved/images/17x3131_03.jpg",
+  "data/reddit/resolved/images/17x3131_04.jpg",
+  "data/reddit/resolved/images/17x3131_05.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Why is my new Monstera Leaf shriveling and browning?\n\nHi! My monstera leaves have been slowly yellowing and getting brown at the edges. Im especially confused because it happens for new leaves that grow too. Would love some advice and some help understanding what is happening and how to fix it!\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 99%, healthy 1%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 60%, healthy 36%, fungal_bacterial 4%, other 0%, pest 0%\nPhoto 3: watering 50%, healthy 50%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 4: watering 99%, healthy 1%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 5: watering 99%, healthy 1%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: dry, crispy margins from low humidity or uneven watering.** The brown is papery and dry along the edges and tips, with a yellow band between brown and green, and the leaves are otherwise glossy and vigorous. Brown, crispy edges that run around the whole leaf margin, with normal soil moisture, point to humidity, since the soil is fine and browning happens even when watering is correct. Low humidity produces a similar look: stiff brown edges while the soil is not bone dry.\n\n**Other possibilities:**\n- **Underwatering:** A very light pot with dry soil throughout points toward underwatering. In your photos the soil doesn't look obviously pulled away from the pot, but I can't see the whole root zone.\n- **Overwatering or root stress:** Your pot is large and the mix looks dense. A heavy pot with cool, wet mix several days after watering points toward slow drainage or overwatering. Check whether the brown tissue is soft or papery. Soft, wet patches would point here instead.\n\n**Quick checks:**\n1. Push a finger or chopstick 3 inches into the soil in several spots, and lift the pot. Dry and light means underwatering. Wet and heavy means slow drainage.\n2. Press a brown edge. If it crumbles or crinkles, it's dry damage. If it squishes or smells sour, suspect rot.\n3. Look for a white crust on the soil or pot rim, which suggests fertilizer salt buildup.\n\n**Fix:**\n1. If the soil is dry, water thoroughly until water runs out of the drainage holes. If it's wet, let it dry out and check the roots for rot before watering again.\n2. Raise humidity toward 50\u201360%. A humidifier works better than misting, which doesn't help much. A humidifier is the most reliable solution because it maintains ambient humidity rather than just wetting the leaf surface temporarily.\n3. Trim the dead brown tissue with clean scissors, cutting just inside the brown. Browned tissue won't recover, but new growth will.\n4. Hold off on fertilizer until the plant recovers.\n\nThe browning on the older leaves and new growth may be partly normal aging, but the new leaves browning as well means the cause is ongoing. Watch whether the next new leaf emerges clean.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 63882,
+ "output_tokens": 2481,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "monstera brown crispy leaf edges underwatering overwatering",
+   "results": [
+    {
+     "url": "https://www.bloomingexpert.com/tips/monstera/why-is-turning-brown/",
+     "title": "Monstera Leaves Turning Brown: 7 Causes Diagnosed by Where the Brown Starts - Blooming Expert"
+    },
+    {
+     "url": "https://www.rareplantfairy.com/blogs/news/decoding-monstera-browning-light-care-and-recovery",
+     "title": "Decoding Monstera Browning: Light, Care, and Recovery"
+    },
+    {
+     "url": "https://monsteraplantresource.com/is-your-monstera-overwatered-or-underwatered/",
+     "title": "Is Your Monstera Overwatered or Underwatered?"
+    },
+    {
+     "url": "https://leafypixels.com/guides/monstera-leaves-turning-brown/",
+     "title": "Monstera Leaves Turning Brown: 6 Causes and Fixes"
+    },
+    {
+     "url": "https://plantcareforbeginners.com/articles/overwatered-vs-underwatered-monstera",
+     "title": "Overwatered vs Underwatered Monstera: Signs, Symptoms, and Solutions"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/overwatered-monstera",
+     "title": "5 Telltale Signs of an Overwatered Monstera Plant"
+    },
+    {
+     "url": "https://greenygardener.com/monstera-plant-brown-leaves/",
+     "title": "Monstera Plant Brown Leaves"
+    },
+    {
+     "url": "https://www.womanandhome.com/homes/why-are-my-monstera-tips-turning-brown-expert-advice/",
+     "title": "Why are my monstera tips turning brown? Experts explain 4 possible causes and cures"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/monstera/dropping-leaves-8/",
+     "title": "Why Is Your Monstera Dropping Leaves: 7 Causes"
+    },
+    {
+     "url": "https://whitegarden.net/monstera-watering-signs",
+     "title": "Monstera Watering Signs"
+    }
+   ]
+  },
+  {
+   "query": "monstera yellowing brown leaf edges causes humidity fertilizer",
+   "results": [
+    {
+     "url": "https://bloomscape.com/common-issue/why-are-the-leaves-on-my-monstera-turning-yellow/",
+     "title": "Why are the leaves on my Monstera turning yellow?"
+    },
+    {
+     "url": "https://www.petalrepublic.com/monstera-leaves-turning-yellow/",
+     "title": "12 Reasons Your Monstera Leaves Are Turning Yellow (And How To Fix It) - Petal Republic"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/monstera-leaves-turning-brown",
+     "title": "Monstera Leaves Turning Brown? 7 Causes & How to Fix Them"
+    },
+    {
+     "url": "https://yourindoorplant.com/monstera-leaves-turning-yellow/",
+     "title": "Monstera Leaves Turning Yellow: Causes & Fixes"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/monstera/why-is-turning-brown/",
+     "title": "Monstera Leaves Turning Brown: 7 Causes Diagnosed by Where the Brown Starts - Blooming Expert"
+    },
+    {
+     "url": "https://www.bumbleplants.com/blogs/plants/why-is-my-monstera-turning-yellow",
+     "title": "Why is My Monstera Turning Yellow? \u00b7 Bumble Plants"
+    },
+    {
+     "url": "https://easyplant.com/blog/monstera-yellow-leaves",
+     "title": "Why Are My Monstera Leaves Turning Yellow?"
+    },
+    {
+     "url": "https://gardenine.com/monstera-leaves-turning-yellow/",
+     "title": "Monstera Leaves Turning Yellow: 5 Fixes that Work"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": [
+  {
+   "url": "https://easyplant.com/blog/monstera-yellow-leaves",
+   "title": "Why Are My Monstera Leaves Turning Yellow?",
+   "title_similarity": 0.62
+  }
+ ]
+}

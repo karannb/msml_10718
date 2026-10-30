@@ -1,0 +1,101 @@
+{
+ "thread_id": "1fl1x06",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1fl1x06_01.jpg",
+  "data/reddit/resolved/images/1fl1x06_02.jpg",
+  "data/reddit/resolved/images/1fl1x06_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Somewhat new to having plants. Should I be worried about this little guy on my polka dot plant?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 92%, fungal_bacterial 7%, other 1%, watering 0%, pest 0%\nPhoto 2: other 47%, healthy 41%, fungal_bacterial 12%, watering 0%, pest 0%\nPhoto 3: healthy 88%, other 7%, fungal_bacterial 5%, pest 0%, watering 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: mealybugs.** The pale pink-white, oval bodies sitting in the leaf joints and along the stems match mealybugs. Look closely at a leaf joint and you may find white or pinkish fuzz, like cotton, snow or ashes, which is what these look like. The classifier's \"healthy\" label is a weak hint here and doesn't outweigh what the photos show.\n\n**Second possibility: scale insects.** Scale also sits on stems and in leaf joints, but it has a hard or waxy shell and usually doesn't look fluffy. Scale insects usually have an oval shape, and a hard or soft waxy shell. To tell them apart, press one with a damp cotton swab. Mealybugs smear or lift off with fuzzy wax, while scale stays put and feels hard.\n\n**Why it matters:** Mealybugs feed on sap, and mealybugs feed on the sap of plants, causing wilting leaves, yellowing, and stunted growth. Catching them now is much easier than later.\n\n**Fix:**\n1. **Isolate the plant** away from your other plants, since move the plant away from others to prevent spread.\n2. **Dab each visible bug** with a cotton swab dipped in 70% isopropyl alcohol. For small infestations, UC IPM recommends dabbing 70% (or weaker) isopropyl alcohol directly on each mealybug with a cotton swab. Test one leaf first and wait a day or two, since Maryland says leaves may be damaged; Colorado State warns of leaf burn. Keep the plant out of direct sun while it dries.\n3. **Check the soil and roots.** Mealybugs can hide on roots, and alcohol misses them. If the plant keeps declining, lift it out of the pot and look for waxy white patches that cling to roots rather than dissolving.\n4. **Repeat weekly for about 3 weeks.** Follow each alcohol treatment with insecticidal soap or neem oil, and recheck the leaf joints and stem undersides. Treat with 70% isopropyl alcohol to remove adults, followed by neem oil or insecticidal soap spray every 5\u20137 days for 3 weeks.\n\nYour plant otherwise looks reasonably healthy, so this is a treatable problem. If you share how often you water and what the soil and pot look like, I can help rule out any other stress.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 46576,
+ "output_tokens": 1780,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "polka dot plant pests white oval bumps stems mealybugs scale",
+   "results": [
+    {
+     "url": "https://leafyplace.com/white-bugs-on-plants/",
+     "title": "White Bugs on Plants (Tiny and Small): Pictures, Identification, and Control"
+    },
+    {
+     "url": "https://garden.org/thread/view/55192/Identifying-pest-on-house-plant-white-spots-rice-shaped-dots/",
+     "title": "Identifying pest on house plant (white spots/rice-shaped dots) in the Ask a Question forum - Garden.org"
+    },
+    {
+     "url": "https://www.nature-and-garden.com/gardening/scale-insects.html",
+     "title": "Controlling Scale Insects and Mealybugs"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/polka-dot-begonia-pests",
+     "title": "Common Polka Dot Begonia Pests (And What To Do About Them)"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/polka-dot-plant-pests",
+     "title": "Common Polka Dot Plant Pests (And What To Do About Them)"
+    },
+    {
+     "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8685423",
+     "title": "Controlling mealybugs"
+    },
+    {
+     "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11076602",
+     "title": "Mummified mealy bug product and method"
+    },
+    {
+     "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11083203",
+     "title": "Mummified mealy bug product and method"
+    },
+    {
+     "url": "https://livetoplant.com/most-common-polka-dot-plant-pests-identification-and-treatment-guide/",
+     "title": "Most Common Polka Dot Plant Pests: Identification and Treatment Guide"
+    },
+    {
+     "url": "https://fernlea.com/identify-treat-garden-pests/",
+     "title": "Stop Garden Pests: Identify & Treat Aphids, Scale & More"
+    }
+   ]
+  },
+  {
+   "query": "mealybug treatment houseplants isopropyl alcohol",
+   "results": [
+    {
+     "url": "https://planthouseandgarden.com/70-alcohol-on-houseplants/",
+     "title": "Isopropyl Alcohol on Plants: Can You Spray It? I Tested 70%"
+    },
+    {
+     "url": "https://www.gardenia.net/pest/mealybugs",
+     "title": "7 Methods to Get Rid of Mealybugs on Plants - Gardenia.net"
+    },
+    {
+     "url": "https://plantgrail.com/articles/mealybugs-on-houseplants/",
+     "title": "Mealybugs on houseplants: find them, check the roots, and treat from alcohol swab up"
+    },
+    {
+     "url": "https://www.plantsolve.com/blog/mealybugs-on-houseplants/",
+     "title": "Mealybugs on Houseplants: Treatment & Prevention"
+    },
+    {
+     "url": "https://www.angi.com/articles/how-to-get-rid-mealybugs.htm",
+     "title": "How to Get Rid of Mealybugs"
+    },
+    {
+     "url": "https://plantcaretoday.com/killing-mealybugs-with-alcohol.html",
+     "title": "How To Kill Mealybugs With Alcohol And Not Hurt The Plant"
+    },
+    {
+     "url": "https://www.solutionsstores.com/mealybug-control",
+     "title": "Mealybug Control: How To Get Rid Of Mealybugs"
+    },
+    {
+     "url": "https://cleverbloom.com/how-to-get-rid-of-mealy-bugs/",
+     "title": "How To Get Rid Of Mealy Bugs On House Plants Clever Bloom"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Shake a branch over white paper to tell whiteflies from aphids",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab visible bugs with a rubbing-alcohol cotton swab and wipe leaf undersides",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray all leaf surfaces with insecticidal soap every 5-7 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Rinse herbs under running water before eating",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Place yellow sticky traps near the plants (optional)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Replace sticky traps when full",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep plants separated until no pests for three weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer leans toward whiteflies and lists aphids only as an alternative, but its swab-and-insecticidal-soap treatment would likely clear aphids too, and nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1997,
+ "output_tokens": 888
+}

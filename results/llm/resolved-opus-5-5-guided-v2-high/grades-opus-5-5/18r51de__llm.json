@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Push a chopstick next to the stem to check if the old root ball is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides for spider mites and check stem fuzz for mealybugs",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wait to water until the top 3 cm is dry and the pot feels lighter, checking soil",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the core is dry, water slowly at the stem",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift nursery pot and empty standing water from outer pot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant back under grow light or into a very bright window",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If not improved in a week or stem soft/sour smell, unpot and inspect roots, trim mushy ones",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites found, shower the plant and treat with insecticidal soap weekly",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is transplant stress worsened by wet soil and lower light, matching the reference; its central advice to return the plant to bright light or a grow light is the fix that worked, and its watering advice is safeguarded.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2134,
+ "output_tokens": 593
+}

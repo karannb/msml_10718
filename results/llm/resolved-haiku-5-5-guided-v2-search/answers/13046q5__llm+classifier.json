@@ -1,0 +1,108 @@
+{
+ "thread_id": "13046q5",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/13046q5_01.jpg",
+  "data/reddit/resolved/images/13046q5_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Used Capt jack bug brew on my Alocasia and I can\u2019t get residue off the leaves\u2026SOS!\n\nI used this garden dust to treat a spider nite infestation. It worked well but I can\u2019t get this residue off the leaves! I\u2019ve hosed the plant down and wiped the leaves down several times. It\u2019s slowly going away but it\u2019s hard to tell of the mites are gone with the white residue\u2026any tips would be so helpful!!\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 86%, healthy 11%, other 2%, fungal_bacterial 1%, pest 0%\nPhoto 2: watering 80%, healthy 17%, fungal_bacterial 2%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: the white film is the garden dust itself, not a disease.** The leaves look firm and upright, with no crispy edges, soft spots, or wilting, so this isn't a watering problem (the classifier's \"watering\" label doesn't fit these photos). The product contains spinosad, which is applied by dusting both the undersides and tops of leaves, so a powder film is expected. Dust clinging to the leaf surface is a plausible reason it's hard to remove.\n\n**Other possibilities:**\n- **Mineral or hard-water residue:** Mineral deposits usually look like a crust rather than powder. A damp cloth that lifts the white material off cleanly points to dust; residue that stays put after wiping is more likely minerals.\n- **Mite waste:** If you see fine webbing, or the white specks look like tiny dots, check whether they're mites. Spider mites are usually spotted by the webs and excrement they leave behind. Turn leaves over and tap them onto white paper: moving red or tan specks mean mites are still present.\n\n**Fix:**\n1. **Rinse thoroughly.** Use lukewarm water from a sink or shower, hitting the undersides and the leaf bases, since wiping and spraying the undersides of leaves matters too.\n2. **Wipe each leaf.** Use a damp microfiber cloth or soft cloth with a drop of mild dish soap in water, working from the base outward. Be gentle with the dark purple leaves, and dry each leaf afterward. Plan on a few sessions, not one.\n3. **Stop dusting.** The product is designed for outdoor residential use in home gardens, lawns, and ornamentals. For indoor mite control, use an insecticidal soap or neem oil spray applied as a liquid, and keep it off the leaves between treatments.\n4. **Monitor for 2\u20133 weeks.** Repeat the soapy rinse every few days, and keep humidity up. Remove leaves that stay heavily damaged.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 42799,
+ "output_tokens": 2355,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "Captain Jack's Deadbug Dust active ingredient spinosad residue on plants",
+   "results": [
+    {
+     "url": "https://www3.epa.gov/pesticides/chem_search/ppls/000004-00479-20110301.pdf",
+     "title": "U.S. EPA, Pesticides, Label, CAPTAIN JACK'S DEADBUG ..."
+    },
+    {
+     "url": "https://bonide.com/product/captain-jacks-dbb-dust/",
+     "title": "Captain Jack's DeadBug Brew\u00ae Dust - Bonide"
+    },
+    {
+     "url": "https://www3.epa.gov/pesticides/chem_search/ppls/000004-00479-20110208.pdf",
+     "title": "VEGETABLE GARDEN DUST, 2/8/2011"
+    },
+    {
+     "url": "https://captainjacks.com/product/captain-jacks-ddb-dust/",
+     "title": "Deadbug Brew\u00ae Dust"
+    },
+    {
+     "url": "https://bonide.com/product/captain-jacks-dbb-conc/",
+     "title": "Captain Jack's DeadBug Brew\u00ae Concentrate - Bonide"
+    },
+    {
+     "url": "https://diypestcontrol.com/captain-jacks-deadbug-brew-flower-vegetable-garden-dust",
+     "title": "Captain Jacks Deadbug Brew Flower and Vegetable Garden Dust"
+    },
+    {
+     "url": "https://www.solutionsstores.com/captain-jacks-deadbug-flower-vegetable-garden-dust",
+     "title": "Captain Jack's Deadbug Flower & Vegetable Garden Dust"
+    },
+    {
+     "url": "https://heritagencfarmsupply.com/products/captain-jacks-deadbug-flower-and-vegetable-garden-dust",
+     "title": "Captain Jack's Deadbug Flower and Vegetable Garden Dust"
+    },
+    {
+     "url": "https://diypestcontrol.com/captain-jacks-dead-bug-brew-concentrate",
+     "title": "Captain Jack's Deadbug Brew"
+    },
+    {
+     "url": "https://growertoday.com/captain-jacks-dead-bug/",
+     "title": "Is Captain Jack\u2019s Deadbug Safe For Humans and The environment? Is Captain Jack's Deadbug Safe For Pets, Humans, and The Environment? - Grower Today"
+    }
+   ]
+  },
+  {
+   "query": "spider mites on alocasia leaves white powder residue removal",
+   "results": [
+    {
+     "url": "https://garden.org/thread/view/181815/White-spots-on-leaves-Alocasia-Spider-mites/",
+     "title": "White spots on leaves. Alocasia. Spider mites? in the Houseplants forum - Garden.org"
+    },
+    {
+     "url": "https://www.justanswer.com/landscaping/rexvu-foot-alocasia-plant-developed-white-ish.html",
+     "title": "Alocasia Plant Care: Fix White Dots & Powdery Substance FAQ"
+    },
+    {
+     "url": "https://www.bybrittanygoldwyn.com/get-rid-of-spider-mites-on-plants/",
+     "title": "How to get rid of and prevent spider mites on houseplants"
+    },
+    {
+     "url": "https://greg.app/bugs-on-green-velvet-alocasia/",
+     "title": "\ud83d\udc1b What To Do About Bugs on My Green Velvet Alocasia?"
+    },
+    {
+     "url": "https://greg.app/question/3gywk2/white-powdery-specks-on-my-pollys-leaves-probably-going-to-check-my-alocasia-pollys-roots-soon",
+     "title": "White powdery specks on my polly\u2019s leaves?"
+    },
+    {
+     "url": "https://outsideinco.com/blogs/learn/zap-houseplant-spider-mites-in-6-quick-but-mighty-pest-measures",
+     "title": "Zap Houseplant Spider Mites in 6 Quick but Mighty Measures"
+    },
+    {
+     "url": "https://www.bathgardencenter.com/post/how-to-get-rid-of-spider-mites",
+     "title": "How to Get Rid of Spider Mites on Plants: Complete Treatment"
+    },
+    {
+     "url": "https://greg.app/bugs-on-alocasoia-amazonica-polly/",
+     "title": "\ud83d\udc1e What Are The Bugs on My Alocasia Amazonica 'Polly'?"
+    },
+    {
+     "url": "https://plantsmag.com/alocasia-spider-mite-resistance-why-wiping-leaves-isnt-enough/",
+     "title": "Alocasia Spider Mite Resistance: Why Wiping Leaves Isn't Enough - Your Smart Indoor Jungle Starts Here"
+    },
+    {
+     "url": "https://microveggy.com/do-alocasia-attract-spider-mites/",
+     "title": "How to Get Rid of Spider Mites on Alocasia"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

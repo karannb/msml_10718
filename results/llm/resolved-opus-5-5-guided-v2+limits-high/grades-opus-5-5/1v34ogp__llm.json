@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Quarantine the plants",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse plants with lukewarm water in sink/shower, focusing on undersides, every 3 days for 2 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray insecticidal soap labeled for edibles on all leaf undersides and stems, every 5-7 days for 3 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides and tips twice a week and squash any aphids",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse leaves well before eating and observe soap label waiting time",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies aphids and leads with rinsing under water plus regular checks and squashing, which matches the fix that worked; the added insecticidal soap is safe for edibles and not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1998,
+ "output_tokens": 424
+}

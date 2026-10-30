@@ -1,0 +1,100 @@
+{
+ "thread_id": "1l7tndu",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1l7tndu_01.jpg",
+  "data/reddit/resolved/images/1l7tndu_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: HELP mon basilic est en train de mourir apr\u00e8s tentative repiquage\n\nBonjour \u00e0 tous et toutes, Je d\u00e9bute le jardinage, et je fais toutes les erreurs possibles. J'ai voulu ce matin, pensant que c'\u00e9tait une bonne id\u00e9e, repiquer mes petits plants de Basilic d'environ 5 cms, dans un bac plus grand. Quelques minutes apr\u00e8s, les plants qui \u00e9taient pourtant en forme se sont litt\u00e9ralement effondr\u00e9s.\n\nLes feuilles sont toutes molles, les tiges tombantes, ...\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 72%, healthy 11%, fungal_bacterial 9%, other 9%, pest 0%\nPhoto 2: healthy 47%, watering 40%, other 9%, fungal_bacterial 4%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: transplant shock.** Basil is very sensitive to root disturbance, and repotting seedlings this small often tears the fine roots that carry water. The plants wilted within minutes of being moved, which fits damaged roots rather than a watering problem. Roots can get damaged when a seedling is moved into a container, and without them the plant cannot draw up enough moisture, so the leaves go limp. Photo 2 shows thin stems and few roots clinging to the soil, which supports this. Photo 1 shows limp leaves that are still green and not mushy or blackened, so I don't see rot yet.\n\n**Other possibilities:**\n- **Overwatering or root rot.** This is the main risk if the soil was soaked after repotting. Check the soil with a finger 1-2 cm down. If it is wet and sticky, and the stem bases are dark, soft, or smell sour, the roots may be rotting. Wet or soggy soil with a drooping plant is a red flag for root rot.\n- **Standing water in the glass.** In photo 2 the roots sit in water with no drainage. If that is where they are kept, lift them out.\n- **Heat or cold stress.** Less likely indoors, but sudden temperature changes can also cause drooping.\n\n**What to do:**\n1. **Stop feeding and avoid soaking.** Keep the soil slightly moist. Water only when the top centimetre or two is dry, and let excess drain. Do not water the plant more when wilting appears after transplanting.\n2. **Give bright, indirect light.** Keep them out of hot direct sun and cold drafts for about a week.\n3. **Wait 3 to 7 days.** Recovery from transplant shock usually takes a few days to a couple of weeks. Transplant shock typically resolves in 1-2 weeks with consistent moisture and shade.\n4. **If stems blacken or the soil smells,** unpot, trim brown mushy roots with clean scissors, and repot in fresh, airy mix in a pot with drainage holes.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 54409,
+ "output_tokens": 2306,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "basil seedlings wilt after transplanting shock care",
+   "results": [
+    {
+     "url": "https://www.gardenerreport.com/basil-plant-wilting/",
+     "title": "Basil Plant Wilting? (Solutions That Actually Work)"
+    },
+    {
+     "url": "https://gardeningmentor.com/why-is-my-basil-wilting-after-transplant/",
+     "title": "Why Is My Basil Wilting After Transplant? - Gardening Mentor"
+    },
+    {
+     "url": "https://www.gardenerbasics.com/blog/basil-leaves-wilting",
+     "title": "7 Reasons For Your Basil Leaves Wilting And Solutions To Fix It"
+    },
+    {
+     "url": "https://www.theindoorgardens.com/how-to-transplant-basil/",
+     "title": "How To Transplant Basil"
+    },
+    {
+     "url": "https://seedsandscraps.com/blog/2023/05/06/transplantshock/",
+     "title": "Transplant Shock"
+    },
+    {
+     "url": "https://www.ihumico.com/basil-plant-wilting",
+     "title": "Why Is My Basil Plant Wilting and How Do I Revive It? - Potassium Humate, Potassium Fulvate, Sodium Humate, Humic Acid, Humic Amino Shiny Balls, Amino Acid, Seaweed Extract, Fish Protein, Chitosan, EDDHA Fe 6%, EDTA and Fulvic Acid Agriculture Organic Fertilizers/Animal Feed Manufacturer and Export Supplier in China"
+    },
+    {
+     "url": "https://www.ferberpainting.com/us/blog/how-to-transplant-basil-the-complete-guide/",
+     "title": "How to Transplant Basil: The Complete Guide"
+    },
+    {
+     "url": "https://plantidentifierfree.app/blog/basil-drooping-wilting",
+     "title": "Basil Plant Drooping and Wilting: Causes & Fixes"
+    },
+    {
+     "url": "https://thegardenfixes.com/how-to-transplant-basil-seedlings/",
+     "title": "How to Transplant Basil Seedlings"
+    }
+   ]
+  },
+  {
+   "query": "basil wilting limp leaves overwatering or underwatering check soil",
+   "results": [
+    {
+     "url": "https://www.tomsguide.com/home/outdoors/why-is-my-basil-wilting",
+     "title": "Why is my basil wilting? 5 reasons why, and how to treat it"
+    },
+    {
+     "url": "https://spiderfarmer.eu/blog/basil-plant-wilting/",
+     "title": "How to Save a Wilting and Drooping Basil Plant?"
+    },
+    {
+     "url": "https://plantidentifierfree.app/blog/basil-drooping-wilting",
+     "title": "Basil Plant Drooping and Wilting: Causes & Fixes"
+    },
+    {
+     "url": "https://urbanharvestlab.com/blog/plant-problems/why-basil-wilting-indoors/",
+     "title": "Why is my basil wilting indoors? Stop the droop"
+    },
+    {
+     "url": "https://www.tomsguide.com/home/is-your-basil-plant-wilting-5-causes-and-quick-fixes-to-revive-it",
+     "title": "Why is your basil wilting? 5 causes and quick fixes to revive it and bring it back to life"
+    },
+    {
+     "url": "https://shopping.yahoo.com/home-garden/gardening/articles/basil-wilting-5-causes-quick-105435701.html",
+     "title": "Basil wilting? 5 causes and quick fixes to revive it"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/curling-leaves-3/",
+     "title": "Why Are My Basil Leaves Curling? 6 Causes \u2014 Diagnosed and Fixed - Blooming Expert"
+    },
+    {
+     "url": "https://www.gardeninginsteps.com/article/basil-leaves-drooping-and-yellowing-4-common-causes-and-fixes",
+     "title": "Basil Leaves Drooping & Yellowing? 4 Common Causes & Fixes"
+    },
+    {
+     "url": "https://evergreenseeds.com/overwatered-vs-underwatered-basil/",
+     "title": "Overwatered vs Underwatered Basil: Signs You're Killing Your Plants - Evergreen Seeds"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

@@ -1,0 +1,47 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Sterilize scissors and cut off every leaf with dark, wet-looking blotches, wiping blades between cuts, then bag and discard them",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water only onto the soil and blot any splashes off leaves with a paper towel",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant about 2 feet away from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If you have a fan, run it on low nearby for a few hours a day",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Every few days, check the remaining leaves for new dark spots and cut affected leaves off",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses bacterial leaf spot rather than shipping stress and old packed soil. It shares the leaf removal step but omits the root check and repotting into a chunky mix, so the advice is only partial. Nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1956,
+ "output_tokens": 788
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Inspect roots for firmness, color and sour smell",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim all black/mushy roots and stem sections, cut above healthy node, sterilizing scissors between cuts",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse the cutting and scrub the bottle or mug clean",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Do a full water change with fresh room-temperature water every 3 to 5 days",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright, indirect light",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Once new roots are a few cm long, pot in well-draining mix or LECA and keep lightly moist",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "If rot returns, reassess container or light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly identifies root rot from topping off and gives the key fixes (trim rotten roots, rinse, full water changes), but it misses the small-container and fertilizer parts and even says nothing needs adding to the water, which is incomplete but not likely to worsen the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2385,
+ "output_tokens": 1069
+}

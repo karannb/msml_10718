@@ -1,0 +1,58 @@
+{
+ "thread_id": "td0rf5",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/td0rf5_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Hi! I\u2019m fairly new to the indoor plant world so could someone help me out and tell me what\u2019s happening here?\ud83e\udd72 It\u2019s like the leaf is stuck :0\n\nit\u2019s in the bathroom which gets pretty humid throughout the day\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 84%, healthy 9%, other 6%, fungal_bacterial 1%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: a new leaf that is slow to come out of its protective sheath. This is normal.** The curled red shape is the new leaf, and the papery tan wrapping around it is the cataphyll, the sheath that protects a new leaf as it grows. Your plant looks healthy otherwise. The leaf is not wilting, so the classifier's \"watering\" label is probably wrong here. Pink-striped philodendrons like this one are especially prone to this.\n\n**Other possibilities:**\n- **Dry soil.** Stick a finger an inch into the soil. If it's bone dry, water thoroughly until it runs out the drainage holes. If it's wet, don't water. A plant short on water can struggle to push out new leaves, but your bathroom humidity makes that less likely.\n- **Pests.** Look closely at both sides of the new leaf and the stem base for webbing, tiny specks, or cottony tufts. There is a tiny dark spot near the base in your photo, so check it. If you see pests, treat them with insecticidal soap.\n\n**What to do:**\n1. **Wait.** Unfurling can take one to two weeks, so give it time before stepping in.\n2. **Don't pull or cut the sheath.** Pulling can tear the new leaf, and that damage is permanent.\n3. **Keep the bright indirect light and humidity steady.** Your bathroom works well if it gets some daylight.\n4. **If it's still stuck after about two weeks,** dampen a cotton bud with water and gently work it along the seam where the sheath splits, using only very light pressure. Stop if you feel resistance.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 31329,
+ "output_tokens": 1708,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "philodendron new leaf stuck unfurling cataphyll help",
+   "results": [
+    {
+     "url": "https://planethouseplant.com/why-do-philodendron-leaves-get-stuck/",
+     "title": "This Is Why Philodendron Leaves Get Stuck (And How to Help Them Out) - Planet Houseplant"
+    },
+    {
+     "url": "https://plnts.com/en/blog/plant-leaves-not-opening-or-unfurling-the-cause-and-solution",
+     "title": "Plant leaves not opening or unfurling: the cause & solution!"
+    },
+    {
+     "url": "https://biologyinsights.com/philodendron-leaf-stuck-heres-what-to-do/",
+     "title": "Philodendron Leaf Stuck? Here\u2019s What to Do - Biology Insights"
+    },
+    {
+     "url": "https://growitinside.com/philodendron-leaf-not-unfurling/",
+     "title": "Why is My Philodendron Leaf Not Unfurling"
+    },
+    {
+     "url": "https://greenygardener.com/philodendron-new-leaf-stuck/",
+     "title": "Philodendron New Leaf Stuck: A Gardener'S Guide To Unfurling New"
+    },
+    {
+     "url": "https://flourishingplants.com/plant-leaves-not-opening-or-unfurling-causes-and-solutions/",
+     "title": "Plant Leaves Not Opening or Unfurling: Causes and Solutions"
+    },
+    {
+     "url": "https://blog.planteka.co/en/2022/03/30/how-to-help-a-new-stuck-leaf-unfurl/",
+     "title": "How to help a new stuck leaf unfurl?"
+    },
+    {
+     "url": "https://plantscraze.com/stuck-leaf/",
+     "title": "Is Your Plant's Leaf Stuck? [3+ Causes & Quick Fix]"
+    },
+    {
+     "url": "https://greg.app/post/371cu1/strawberry-shake-philodendron-just-noticed-this-yesterday-is-this-a-stuck-leaf-its-underneath-a-grow",
+     "title": "Is my philodendron leaf stuck?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

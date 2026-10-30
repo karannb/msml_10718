@@ -1,0 +1,40 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Hand-pollinate open flowers with a cotton swab and tap flowering stems",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with finger before watering and water thoroughly when dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed with low-nitrogen high-potassium tomato fertilizer every 2 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 9,
+   "unclear": false
+  },
+  {
+   "action": "Move boxes to sunniest spot on balcony",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames blossom drop from pollination, heat, low sun and excess nitrogen rather than simple immaturity, and prescribes treatments for a plant that only needed time; its passing note that fruit often sets later echoes the fix but is buried, and none of the steps are likely to hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1826,
+ "output_tokens": 383
+}

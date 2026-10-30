@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Soak the pot in a sink or bucket of water halfway up for 30 minutes, then drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture weekly by finger or pot weight and water thoroughly when the top half is dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Squeeze each trunk at the base for firmness, now and again in two weeks",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If a trunk spot is mushy, hollow or black, cut the healthy top off and root it in water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull off fully brown lower leaves",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies a bone-dry, root-bound root ball as the main problem and recommends a thorough soak, which matches what fixed the plant. It omits repotting, but nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1862,
+ "output_tokens": 579
+}

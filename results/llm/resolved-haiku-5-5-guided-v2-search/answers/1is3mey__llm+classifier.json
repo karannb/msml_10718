@@ -1,0 +1,111 @@
+{
+ "thread_id": "1is3mey",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1is3mey_01.jpg",
+  "data/reddit/resolved/images/1is3mey_02.jpg",
+  "data/reddit/resolved/images/1is3mey_03.jpg",
+  "data/reddit/resolved/images/1is3mey_04.jpg",
+  "data/reddit/resolved/images/1is3mey_05.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Can i save them?\n\nI dont know what am i doing wrong\n\nYes. I move to another Place and now they dont recieve the light they used to. And I am watering them with the same amount of water.\n\nWhen is hot like now I\u2019m watering them every 2 days with a little amount of water but I was watering them daily when it was very very hot and when it is not hot I water them every 3/4 days\n\nA little amount is like a sip of water.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 96%, healthy 3%, fungal_bacterial 1%, other 0%, pest 0%\nPhoto 2: watering 81%, healthy 10%, fungal_bacterial 6%, other 3%, pest 0%\nPhoto 3: watering 93%, healthy 7%, other 1%, fungal_bacterial 0%, pest 0%\nPhoto 4: watering 96%, healthy 4%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 5: watering 99%, fungal_bacterial 0%, healthy 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: overwatering in too little light, which has rotted the roots.** This looks like a burro's tail (*Sedum morganianum*). Your watering schedule is the biggest clue. Burro's tail stores water in its leaves, and watering on a fixed schedule causes more failures than any other mistake. Watering every 2 to 3 days in a dimmer spot means the soil stays wet, and symptoms include rapidly yellowing leaves, mouldy soil, shrivelled growth and a rotten brown base. The photos fit: bare, shrivelled stems and damp-looking soil.\n\n**Other possibilities:**\n- **Too little light:** This is almost certainly also happening. The long, bare stems with widely spaced leaves are stretching, and in low light, stems stretch and grow apart with widely spaced leaves. Stretched stems won't shorten back.\n- **Underwatering:** Less likely given your schedule. It would fit if the roots are firm and the soil is dry several inches down. Wrinkled, shriveled, soft leaves with dry soil point this way.\n\n**The check that decides:** Unpot the plant and look at the roots and the base of the stems. Firm, pale roots mean dehydration. Root rot appears as dark brown or black roots that feel slimy or fall apart.\n\n**What to do:**\n1. **Stop the schedule today.** Water only when the lowest leaves feel soft when gently squeezed. Soak the pot until water runs out the drainage hole, then let it dry out completely. In your conditions that may mean every few weeks.\n2. **If roots are rotten,** cut away all soft, black tissue with clean scissors. Let the healthy parts dry for a day, and repot in fresh, dry, gritty mix. Often the only survivors are the upper stems \u2014 treat them as cuttings and start over.\n3. **Move it to the brightest spot you have**, and shift it gradually to avoid sunburn. Rotate it so it grows evenly.\n4. **Save the fallen leaves.** Plump leaves that dropped can be left to callus and then rooted. Also look in the leaf joints for white, cottony mealybugs, which can be dabbed off with alcohol.\n\nCan you save them? Probably, at least the top growth. Start with the root check, because that decides how much you can keep.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 66775,
+ "output_tokens": 2670,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "burro's tail sedum morganianum shriveled stems overwatering low light",
+   "results": [
+    {
+     "url": "https://www.healthyhouseplants.com/indoor-houseplants/burros-tail-sedum-morganianum-care-guide-a-trailing-succulent-beauty/",
+     "title": "Burro's Tail (Sedum morganianum) Care Guide: A Trailing Succulent Beauty \ud83c\udf1f - Healthy Houseplants"
+    },
+    {
+     "url": "https://www.joyusgarden.com/burros-tail-care/",
+     "title": "Sedum Morganianum (Burro's Tail) Care and Propagation"
+    },
+    {
+     "url": "https://www.ukhouseplants.com/plants/burro-s-tail-sedum-morganianum-burrito-c-cacti-succulents",
+     "title": "The COMPLETE Care-Guide for Burro's Tail! (Sedum Morganianum/Bu..."
+    },
+    {
+     "url": "https://www.theplantindex.com/plants/burros-tail",
+     "title": "Burro's Tail (Sedum morganianum): Care, Watering & How It Differs from Sedum burrito"
+    },
+    {
+     "url": "https://botanicmate.com/en_US/wiki/plant/sedum-morganianum/",
+     "title": "Burro's Tail (Sedum morganianum) \u2014 Care Guide"
+    },
+    {
+     "url": "https://www.thedailyeco.com/how-to-care-for-burro-s-tail-1095.html",
+     "title": "Sedum Morganianum or Burro\u2019s-Tail - Watering, Light & Soil"
+    },
+    {
+     "url": "https://urbaneeight.com/blogs/news/sedum-morganianum-care-guide-for-burro-s-tail-indoors",
+     "title": "Burro\u2019s Tail Care Guide for Indoor Growing"
+    },
+    {
+     "url": "https://urbanlotusproject.org/how-to-care-for-a-burros-tail/",
+     "title": "How to Care for a Burro's Tail Succulent"
+    },
+    {
+     "url": "https://www.gardeningknowhow.com/ornamental/cacti-succulents/burros-tail/burros-tail-care.htm",
+     "title": "How To Grow Burro\u2019s Tail"
+    },
+    {
+     "url": "https://plantgeh.com/problem-solution/burros-tail-leaves-falling-off-how-to-stop-the-bald-stems-problem/",
+     "title": "Burro's Tail Leaves Falling Off: How to Stop the \u201cBald Stems\u201d Problem"
+    }
+   ]
+  },
+  {
+   "query": "succulent etiolation low light root rot check roots",
+   "results": [
+    {
+     "url": "https://sukulentler.com/en/article/how-to-save-rotting-succulent-root-stem-rot-guide",
+     "title": "How to Save a Rotting Succulent: Root & Stem Rot Guide"
+    },
+    {
+     "url": "https://www.succulencare.com/blog/succulent-care-guide-for-beginners-water-light-soil",
+     "title": "Succulent Care for Beginners: The Complete Guide (2026)"
+    },
+    {
+     "url": "https://leafysos.com/succulents/dying/",
+     "title": "Why Is My Succulent Dying? Diagnose & Save It"
+    },
+    {
+     "url": "https://gardeningrescue.com/the-definitive-indoor-succulent-care-guide-soil-physics-light-calibration-and-leaf-diagnostics/",
+     "title": "The Definitive Indoor Succulent Care Guide: Soil Physics, Light Calibration, and Leaf Diagnostics"
+    },
+    {
+     "url": "https://www.sublimesucculents.com/root-rot-succulents/",
+     "title": "Succulent Root Rot - Fast Treatment to Healthy Plants"
+    },
+    {
+     "url": "https://succulentalley.com/how-do-i-know-if-my-succulent-has-root-rot/",
+     "title": "Identifying Root Rot in Succulents: A Simple Checklist"
+    },
+    {
+     "url": "https://www.betterindoorhouseplants.com/guides/succulent-problems-diagnosis",
+     "title": "Why Is My Succulent Dying? A Symptom-by-Symptom Diagnosis Guide"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/plant-catalog/succulents-indoors-care-guide/",
+     "title": "How to Care for Succulents Indoors: A Beginner's Guide"
+    },
+    {
+     "url": "https://www.hojnysucculents.com/blog/effective-treatments-for-succulent-root-rot",
+     "title": "\ud83c\udf31 Effective Treatments for Succulent Root Rot"
+    },
+    {
+     "url": "https://thenextgardener.com/blogs/news/how-to-tell-the-succulents-rotting",
+     "title": "How To Tell The Succulents Rotting"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

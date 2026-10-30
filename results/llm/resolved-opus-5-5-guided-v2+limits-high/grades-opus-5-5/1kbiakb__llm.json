@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Move plant out of direct midday/afternoon sun to a bright spot with gentle morning sun, farther from the window, or behind a sheer curtain",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the top 2-3 cm of soil with a finger before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly at soil level in the morning until it drains, avoiding the leaves",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the damaged leaf turns yellow or mushy, snip it off at the base with clean scissors",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch new leaves to see if they come in unmarked",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies sun scorch worsened by water on the leaves and advises reducing direct sun, but it tells the owner to keep the damaged leaf unless it yellows, while the poster's fix included removing it; the advice is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1860,
+ "output_tokens": 688
+}

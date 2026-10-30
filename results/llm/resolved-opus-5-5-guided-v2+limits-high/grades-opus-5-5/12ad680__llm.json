@@ -1,0 +1,40 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Slide the plant out of the pot and inspect the root ball and roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If the core is dry and roots are healthy, bottom-soak the pot in a sink for 45 minutes, then drain and empty the saucer",
+   "minutes": 50,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are brown or mushy, trim them with alcohol-wiped scissors and repot into fresh potting mix in a draining pot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Pull off fully collapsed or yellowing stems at the base",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer offers a dry root ball as one of two possibilities alongside root rot, and wrongly assumes watering failed; its soak fix would work but sits behind an unpotting check, while the root-rot branch is safeguarded by inspecting the roots first.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1909,
+ "output_tokens": 1010
+}

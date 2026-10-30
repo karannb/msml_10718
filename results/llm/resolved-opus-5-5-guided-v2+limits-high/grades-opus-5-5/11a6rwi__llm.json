@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Stop the weekly 70% alcohol spray",
+   "minutes": 0,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Buy spinosad concentrate (Captain Jack's Deadbug Brew)",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 13,
+   "unclear": false
+  },
+  {
+   "action": "Mix and spray spinosad on leaves, undersides, stems and soil in batches of about 20 plants, weekly for 4 rounds",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang blue sticky traps among plant groups, with extras near the worst-hit plants",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check traps weekly, count catches, and replace full traps",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names thrips and gives a sound, non-harmful plan, but it relies on spinosad and sticky traps rather than the beneficial predatory mites that resolved the infestation, so it is only a partial match to the fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1874,
+ "output_tokens": 433
+}

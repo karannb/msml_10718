@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check dark root tips for firmness or smell to rule out rot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tip out water collecting in the basket about 15 minutes after watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Watch for signs that repotting is needed sooner (soil drying in 2\u20133 days, water running straight through, bulging pot, tipping plant)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Mix chunky soil: 2 parts potting soil, 1 part orchid bark, 1 part perlite",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "Repot into a 32\u201335 cm pot with drainage holes, cutting the nursery pot away, planting at the same depth, firming lightly and watering thoroughly",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies root-bound as the issue and recommends repotting one size up, but its main advice is to wait until spring rather than repot now as the poster did, though this mild delay is unlikely to harm a tolerant Strelitzia.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2021,
+ "output_tokens": 1046
+}

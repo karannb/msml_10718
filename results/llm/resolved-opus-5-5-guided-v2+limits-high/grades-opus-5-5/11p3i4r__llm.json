@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water soil thoroughly with room-temperature water until it drains, wait 15 minutes, empty saucer",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with finger every 3-4 days and water when top inch is dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip off the fully brown crispy leaf at its base",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep plant in bright indirect light away from drafts or heaters",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies thirst as the main cause and notes the shower bent the stems, matching the confirmed problem; its main advice to water thoroughly matches the fix that worked; nothing it recommends would harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1879,
+ "output_tokens": 358
+}

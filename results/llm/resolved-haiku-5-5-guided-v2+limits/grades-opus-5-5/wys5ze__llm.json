@@ -1,0 +1,40 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tip the plant out and check whether the roots are circling",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rootbound, repot into a pot 1-2 inches wider with drainage, using half potting soil and half perlite or cactus mix, with the trunk base above the soil",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "If not repotting, top-dress with a half-inch layer of the mix over the exposed roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Check the top inch of soil with a finger and water when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the plant healthy and makes repotting conditional on a root check, offering top-dressing as an equal alternative, so it only partly matches the confirmed rootbound diagnosis and fix; the root check would likely lead to repotting, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1923,
+ "output_tokens": 717
+}

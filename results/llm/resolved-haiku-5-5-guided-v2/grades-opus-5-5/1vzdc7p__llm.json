@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check plant label/seller listing or post photo to plant ID sub to confirm ID",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull out the Mother of Thousands including plantlets and roots",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and inspect roots for root-binding",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root-bound, repot into fresh cactus mix in a pot one size larger with drainage holes",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check roots for rot and trim brown/mushy roots, repot in dry mix",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when top inch of soil is dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "After 1-2 weeks, feed with balanced fertilizer at half strength",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Move plant gradually to bright indirect light if in harsh sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer mentions nutrient shortage and the Kalanchoe but leads with competition and misses the fast-draining soil cause; its feeding and Kalanchoe-removal advice overlaps the thread, but it suggests repotting into cactus mix (fast-draining) rather than the less-draining soil that fixed it, though only conditionally, so not clearly harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2141,
+ "output_tokens": 1148
+}

@@ -1,0 +1,99 @@
+{
+ "thread_id": "1f43bt8",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1f43bt8_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Should I prune or not?\n\nHello everyone, I need help with a bird of paradise. We\u2019ve had this plant for about a year, we never cut any leaves or branch from it but we are debating whether or not we should start cutting some old/not so good looking leaves. We don\u2019t know if it will help or harm our plant. Which one should we cut and why please? She recently made 2 new leaves (one from each \u201cmain branch\u201d). Also any tips on maintenance would be appreciated. Thanks!\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 70%, other 22%, healthy 7%, fungal_bacterial 1%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely: normal ageing and wind splitting, not a serious problem.** Most of the foliage is firm and green, and the two new leaves are a good sign. The tattered older leaves are typical for this plant, and the classifier's \"watering\" call is a weak hint on a phone photo. The few brown-edged leaves could reflect dry air or uneven watering on a sunny, breezy balcony. Check the soil before changing anything. Push a finger or a skewer several inches down. If the root zone is dry, water thoroughly. If it is still damp, or the pot has no drainage hole, hold off watering and check the roots.\n\n**What to cut:** Leave the plant alone unless a leaf is fully brown, yellow, or collapsed. Cut leaves that are fully dead or fully yellow, and trim only the dead margin on leaves that are still mostly green. Split leaves that are still green are useful, so keep them. Cut each dead stalk at the base where the leaf stalk meets the main stem, using clean, sharp pruners. Do not tear them off by hand.\n\n**Maintenance:**\n1. **Water by the soil, not the calendar.** When the root zone is dry, soak the pot until water runs out the bottom, then empty the saucer. Don't leave it sitting in water.\n2. **Give it the brightest spot you can.** Rotate the pot every week or two so growth stays even. Avoid cold drafts.\n3. **Check the undersides of leaves** for webbing, sticky residue, or scale. Treat any pests promptly.\n4. **Repot only if roots are crowded.** Larger pots are not a first fix for brown or curling leaves.\n5. **Limit cuts.** Don't strip more than a third of the plant's leaves in a single session.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 50404,
+ "output_tokens": 1810,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "bird of paradise pruning old leaves when to cut",
+   "results": [
+    {
+     "url": "https://greg.app/plant-care/pruning/bird-of-paradise/",
+     "title": "How to Prune Bird of Paradise"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/bird-of-paradise/removing-damaged-leaves/",
+     "title": "How to Prune Bird of Paradise Correctly"
+    },
+    {
+     "url": "https://mygardeningzone.com/how-to-prune-birds-of-paradise/",
+     "title": "Birds of Paradise Pruning: Step-by-Step for Lush, Flower-Packed Growth - My Gardening Zone"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/bird-of-paridise-flower",
+     "title": "When & How to Prune Bird of Paradise Flowers: Expert Guide"
+    },
+    {
+     "url": "https://diybackyardfarm.com/how-to-prune-bird-of-paradise-rejuvenation-pruning-after-bloom/",
+     "title": "How To Prune Bird Of Paradise"
+    },
+    {
+     "url": "https://www.housedigest.com/1839313/how-to-prune-bird-of-paradise/",
+     "title": "How To Prune Bird Of Paradise The Correct Way - House Digest"
+    },
+    {
+     "url": "https://www.weekand.com/home-garden/article/cut-back-bird-paradise-18016364.php",
+     "title": "How to Cut Back a Bird of Paradise - Week"
+    },
+    {
+     "url": "https://ecofamilylife.com/garden/can-i-cut-bird-of-paradise-to-the-ground/",
+     "title": "Can I Cut Bird of Paradise to the Ground?"
+    },
+    {
+     "url": "https://www.indoorplantguides.com/how-to-prune-bird-of-paradise/",
+     "title": "How to Prune Bird of Paradise - Tricks and Tips for a Perfect Bloom - Indoor Plant Guides"
+    }
+   ]
+  },
+  {
+   "query": "bird of paradise watering drooping brown leaves care",
+   "results": [
+    {
+     "url": "https://www.livelyroot.com/blogs/plant-care/bird-of-paradise-leaves-troubleshooting",
+     "title": "Why Are My Bird of Paradise Leaves Curling, Splitting or Turning Brown? Fixing Common Strelitzia Leaf Issues"
+    },
+    {
+     "url": "https://bloomscape.com/common-issue/why-are-the-leaves-on-my-bird-of-paradise-dry-and-curling/",
+     "title": "Why are the leaves on my Bird of Paradise dry and curling?"
+    },
+    {
+     "url": "https://www.theplantmanual.com/article/common-problems-bird-of-paradise/",
+     "title": "Bird of Paradise Problems: Curling, Splitting & Brown Leaves"
+    },
+    {
+     "url": "https://cheekygardener.com/bird-of-paradise-leaves-turning-brown/",
+     "title": "Bird of Paradise Leaves Turning Brown and Other Problems: Care and Solutions"
+    },
+    {
+     "url": "https://gardenviveflorida.com/bird-of-paradise-leaves-turning-brown-and-brown-spots-how-to-treat/",
+     "title": "Why Are My Bird of Paradise Leaves Turning Brown (and How to Treat Brown Spots Naturally!)"
+    },
+    {
+     "url": "https://www.livelyroot.com/blogs/plant-care/bird-of-paradise-care-and-growing-guide",
+     "title": "How to Care for a Bird of Paradise Plant: A Comprehensive Guide"
+    },
+    {
+     "url": "https://birdfusion.com/2025/11/15/how-to-take-care-of-a-bird-of-paradise/",
+     "title": "How to Take Care of a Bird of Paradise: Expert Tips for Thriving Plants - Birds Fusion"
+    },
+    {
+     "url": "https://www.botanicaly.com/en/plant-care/strelitzia-reginae/brown-tips",
+     "title": "Bird of paradise brown leaves"
+    },
+    {
+     "url": "https://deplantrekkers.com/en/blogs/news/caring-for-bird-of-paradise",
+     "title": "How to care for a bird of paradise plant (Strelitzia)"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

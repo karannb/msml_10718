@@ -1,0 +1,100 @@
+{
+ "thread_id": "1v34ogp",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1v34ogp_01.jpg",
+  "data/reddit/resolved/images/1v34ogp_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: white bugs(?) on new-ish herbs - quarantined but unsure what to do\n\ni found what looks like a small infestation on a few of my newer plants - i\u2019ve never kept herbs before and the things they might attract are new territory for me! i\u2019ve removed the most affected leaves and separated these from my other plants - if i couldn\u2019t tell, they went into the other space far apart from one another. i hate bugs, but these plants all seem relatively healthy! they are doing great on water and sun, and if i can kill these suckers i\u2019d prefer that to getting rid of my guys. photos attached are my basil and a mint variant. what are these? and how can i get rid of them?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 96%, fungal_bacterial 4%, other 0%, pest 0%, watering 0%\nPhoto 2: watering 40%, other 27%, fungal_bacterial 17%, healthy 15%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: sap-sucking pests, probably aphids, though whiteflies are also possible.** The single pale, oval insect in photo 1 and the scattered white specks on the mint in photo 2 fit either pest. The specks sit on the upper leaf surface, and white specks on the upper leaf surface that do not move are more likely aphid cast skins, since whiteflies and their nymphs sit on the underside. Mint and basil growing tips are also a high-priority target for aphids. The classifier's \"healthy\" score for photo 1 shouldn't reassure you.\n\n**Quick check to decide:** Hold a sheet of white paper under a plant and gently shake a stem. Whiteflies rise in a small cloud, flutter briefly, then return to the plant. If nothing flies up, look at the new growth with a magnifier. Aphids are soft and pear-shaped, while whitefly nymphs are flat and oval-shaped, translucent to pale yellowish-green, and scale-like in appearance. Also watch for fine webbing or stippling, which would point to spider mites.\n\n**Fix:**\n1. **Rinse first.** Take the plants to the sink or shower and spray every surface, including tips and leaf undersides, with lukewarm water at gentle pressure. This knocks off most of the colony.\n2. **Follow with soap.** Spray to runoff with insecticidal soap, repeating the shower and spray cycle every 7 days for three rounds total. Use a soap labelled for edible plants, and rinse leaves before use if you plan to eat them.\n3. **Prune and trap.** Cut off the worst tips and discard them sealed. If it turns out to be whiteflies, add yellow sticky traps near the plants. Keep up the cycle for about three weeks, then inspect with a magnifier.\n4. **Ease off feeding.** Avoid over-fertilizing with high-nitrogen products, which encourages tender new growth that pests prefer.\n\nYour isolation is the right move. Since mint can be propagated from cuttings of healthy sections, you have a backup if the infestation doesn't clear.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 53115,
+ "output_tokens": 2852,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "whiteflies on indoor herbs identify control",
+   "results": [
+    {
+     "url": "https://www.betterindoorhouseplants.com/guides/whiteflies-indoor-plants",
+     "title": "Whiteflies on Indoor Plants: Prevention, Identification, and Control"
+    },
+    {
+     "url": "https://thelifelogic.com/blogs/gardening-plants/how-to-prevent-and-treat-whitefly-infestations-on-indoor-herbs",
+     "title": "How to Prevent and Treat Whitefly Infestations on Indoor Herbs"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/whiteflies-on-houseplants",
+     "title": "Whiteflies on Houseplants: ID, Treatment, and Why Indoor Outbreaks Spread So Fast"
+    },
+    {
+     "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/insects-pests-and-problems/insects/whiteflies/whitefly-indoors",
+     "title": "Whitefly - indoors"
+    },
+    {
+     "url": "https://www.happyhouseplants.co.uk/blogs/pests-on-houseplants/whitefly-on-houseplants-how-to-spot-them-and-keep-them-under-control",
+     "title": "Whitefly on Houseplants: How to Spot Them and Keep Them Under Control"
+    },
+    {
+     "url": "https://extension.umd.edu/resource/whiteflies-indoor-plants",
+     "title": "Whiteflies on Indoor Plants"
+    },
+    {
+     "url": "https://plantgrail.com/articles/whiteflies-on-houseplants/",
+     "title": "Whiteflies on houseplants: identification, honeydew, sticky cards and control"
+    },
+    {
+     "url": "https://plantfix.org/guides/tiny-white-bugs",
+     "title": "Tiny White Bugs on Plants: Identify & Kill All 5 Types"
+    },
+    {
+     "url": "https://costafarms.com/blogs/get-growing/plant-pests-101-whiteflies",
+     "title": "Whiteflies on Houseplants: How to Identify and Treat"
+    },
+    {
+     "url": "https://www.lovethegarden.com/uk-en/garden-problem/whitefly",
+     "title": "Whiteflies On Plants - Tips To Prevent and Kill A Whitefly Infestation"
+    }
+   ]
+  },
+  {
+   "query": "aphids on basil and mint indoors treatment",
+   "results": [
+    {
+     "url": "https://www.theplantindex.com/articles/aphids-on-houseplants",
+     "title": "Aphids on Houseplants: Identification and Treatment"
+    },
+    {
+     "url": "https://bugwiz.com/basil-bugs/",
+     "title": "How to Get Rid of Bugs on Basil (Aphids, Beetles, Flies, Mites, and More!)"
+    },
+    {
+     "url": "https://thegardeningdad.com/proven-ways-to-get-rid-of-aphids-on-basil/",
+     "title": "16 PROVEN Ways to Get Rid of Aphids on Basil (2023) - The Gardening Dad"
+    },
+    {
+     "url": "https://www.tipsbulletin.com/how-to-get-rid-of-aphids-on-basil/",
+     "title": "3+ Savvy Tips and Recipes to Kill Aphids on Basil"
+    },
+    {
+     "url": "https://mygreenscape.ca/blogs/common-pest/battling-aphids-beginners-guide",
+     "title": "How to Get Rid of Aphids on Indoor Plants"
+    },
+    {
+     "url": "https://www.seedsandspades.com/aphids-on-mint/",
+     "title": "Aphids on Mint: 12 Tips for Effective Treatment & Prevention - Seeds and Spades"
+    },
+    {
+     "url": "https://lifetips.alibaba.com/plant-care/keep-aphids-off-indoor-mint-no-chemicals",
+     "title": "Keep Aphids Off Indoor Mint\u2014No Chemicals - LifeTips"
+    },
+    {
+     "url": "https://www.gardeningknowhow.com/edible/herbs/basil/holes-in-basil-leaves.htm",
+     "title": "Holes in Basil Leaves"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

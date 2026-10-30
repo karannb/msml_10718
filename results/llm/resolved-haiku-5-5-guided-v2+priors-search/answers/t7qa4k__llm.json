@@ -1,0 +1,58 @@
+{
+ "thread_id": "t7qa4k",
+ "option": "llm",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/t7qa4k_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Philodendron isn't happy. What did I do wrong?\n\nThe plant is not new. I've had it for almost a year now. I had it in a window that wasn't getting much light and the leaves were looking significantly less green. So I moved it to a window that gets more light and these two leaves just went completely brown. I water it probably once a week if it needs it (top water). It's just in regular potting soil.\n\nIt wasn't previously because the tag said 'partial sun.' But the leaves were looking less green so I moved it to a window with more sun.\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: sun scorch from a sudden jump in light.** The two brown and yellow leaves were grown in dim light, then hit brighter sun, and that is when they burned. The rest of the plant is green, which fits a single-event stress rather than a whole-plant problem. Sun damage shows up as crisp, papery patches on the sun-facing side of the leaf. Yellowing from overwatering usually starts in the centre of the leaf and spreads outward, and that doesn't match what you're seeing.\n\n**Other possibilities and how to tell:**\n- **Underwatering:** Terracotta dries quickly, and a weekly top-watering may be too little. Push a finger 2 inches into the soil and lift the pot. If it's dry and light, water thoroughly now and check again in a few days.\n- **Overwatering:** Less likely, since the soil looks loose and dry in places. If the soil stays wet a few inches down, or the stems are soft, cut back on watering.\n\n**What to do:**\n1. **Move it back from the window** or put a sheer curtain between the plant and the glass. Avoid direct afternoon sun. Philodendrons tolerate bright, indirect light well, and a few hours of gentle morning sun is usually fine.\n2. **Acclimate gradually if you want more light.** Over about two weeks, increase direct sun in small steps, and back off if new scorch appears. Damaged tissue won't recover, but new leaves will adapt.\n3. **Leave the damaged leaves on the plant** for now. Let it shed them when ready, or trim only the crispy edges with clean scissors. Removing them early takes away photosynthesis from the healthy parts.\n4. **Water when the top 2 inches are dry,** and water thoroughly until it drains from the bottom. Make sure the pot drains.\n\nThe plant will likely produce new, healthy leaves within a few weeks if conditions are steady.",
+ "system_prompt": "guided-v2+priors",
+ "input_tokens": 31528,
+ "output_tokens": 1468,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "philodendron leaves scorch sudden light change",
+   "results": [
+    {
+     "url": "https://en.pampas2palms.com/after-the-clock-change-your-houseplants-are-already-burning-here-s-the-one-leaf-sign-you-re-missing/",
+     "title": "After the Clock Change, Your Houseplants Are Already Burning: Here's the One Leaf Sign You're Missing - Pampas2Palms"
+    },
+    {
+     "url": "https://www.heyrooted.com/blogs/plant-care/philodendron-leaves-turning-yellow",
+     "title": "Philodendron Leaves Turning Yellow: Reasons Behind It and How to Fix It"
+    },
+    {
+     "url": "https://lawngearlab.com/can-philodendron-take-full-sun/",
+     "title": "Can Philodendron Take Full Sun?"
+    },
+    {
+     "url": "https://botanapp.com/plant/philodendron-moonlight/light",
+     "title": "Philodendron (Philodendron 'Moonlight') Light Requirements"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/acclimating-houseplants-to-spring-light",
+     "title": "Acclimating Houseplants to Spring Light (Without Scorching Them)"
+    },
+    {
+     "url": "https://florasense.com/blogs/signs-your-philodendron-needs-more-or-less-light/",
+     "title": "Flora"
+    },
+    {
+     "url": "https://simplifyplants.com/can-philodendrons-get-sunburned/",
+     "title": "Burnt Leaves Of Philodendron? (Why+How To Fix) \u00bb Simplify Plants"
+    },
+    {
+     "url": "https://greenygardener.com/how-much-light-do-philodendrons-need/",
+     "title": "How Much Light Do Philodendrons Need"
+    },
+    {
+     "url": "https://greg.app/philodendron-gloriosum-problems/",
+     "title": "Why Is My Philodendron gloriosum Not Doing Well?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

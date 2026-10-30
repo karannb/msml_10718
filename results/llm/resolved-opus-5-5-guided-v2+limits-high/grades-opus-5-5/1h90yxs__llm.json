@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water, wait 30 minutes, then slide plant out to check roots",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If root-bound, repot into a pot 2 inches wider with drainage and fresh mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 18,
+   "unclear": false
+  },
+  {
+   "action": "Water when top 2 inches of soil feel dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rotten, cut off mushy roots with sterilized scissors and replant in fresh mix",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Cut bare, shriveled vines back to about 12 inches",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Take 4-6 inch cuttings and root them in a jar of water",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change propagation water weekly",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Plant rooted cuttings back into the pot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames root-binding (with rot as an alternative) rather than overgrowth, so the diagnosis is only partial, but it still recommends repotting plus a hard trim and propagation, which matches the fix that worked, and nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2010,
+ "output_tokens": 1073
+}

@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant away from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wash hands after handling the plant",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab each bug with 70% isopropyl alcohol on a cotton swab, checking nodes, leaf undersides and stem joints, repeating every 2-3 days",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray whole plant with insecticidal soap weekly for 3-4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Check other plants for white fluff or bugs along stems and soil line",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If other plants are infested, treat them the same way",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep plant isolated for another month after bugs are gone, then return it to group",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names mealybugs as the main diagnosis and leads with dabbing them with alcohol and inspecting, matching the fix that worked; the extra soap spray, applied separately from the alcohol, is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1818,
+ "output_tokens": 528
+}

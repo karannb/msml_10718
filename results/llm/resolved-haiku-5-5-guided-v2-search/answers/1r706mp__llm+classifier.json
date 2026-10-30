@@ -1,0 +1,104 @@
+{
+ "thread_id": "1r706mp",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1r706mp_01.jpg",
+  "data/reddit/resolved/images/1r706mp_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: What are these small fuzzy bugs on my gotu kola? If they are harmful, how do i get rid of it?\n\nOh no... I'm about to repot this. Now I'm dreading it.... Bugs give me the creeps \ud83d\ude29\ud83d\ude29\ud83d\ude29\n\nGood thing it's on a separate table from my other plants. Whew\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 54%, watering 45%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 74%, healthy 24%, fungal_bacterial 1%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: mealybugs.** The white tufts clustered where the stems meet the base look like the cottony wax that mealybugs produce. Extension guides describe the same signs: white cotton-like masses at leaf joints and along stems, often with sticky honeydew. The plant's dense, soft new growth is the kind of tissue they favor. Root rot is the main lookalike, but the stems and leaves here look firm and green, not soft or black. To confirm, lift one tuft with a cotton swab or tweezers. A small, oval, segmented insect underneath settles it.\n\n**Fix, in order:**\n\n1. **Isolate the plant now, and wash your hands and tools after touching it.** Keep it away from your other plants until the problem is cleared. Mealybugs spread easily.\n\n2. **Check the roots before you repot.** Root mealybugs live in the soil and are easy to miss. Slide the plant out and look along the root ball for white, waxy specks. If you find them, rinse the roots off, trim what's heavily infested, and repot in fresh mix in a clean pot. Discard the old soil.\n\n3. **Spot-treat every visible tuft.** Dip a cotton swab in 70% isopropyl alcohol and dab each one. Avoid pooling alcohol on leaves.\n\n4. **Follow up with a spray.** Use insecticidal soap or neem oil on the stems, leaf undersides, and crown, repeating every 5 to 7 days for about 3 weeks. Eggs and hidden nymphs survive the first round, so stopping early is the usual reason treatment fails. Rinse off any residue afterward.\n\n**Watering:** Nothing in the post or photos points to overwatering or underwatering, so keep your current schedule. The classifier's \"watering\" label is a weak hint and doesn't fit what the photos show.\n\nIf new tufts keep appearing after three weeks of consistent treatment, the plant is likely not worth saving, and discarding it protects your other plants.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 41030,
+ "output_tokens": 1753,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "mealybugs houseplants identify white cottony treatment",
+   "results": [
+    {
+     "url": "https://extension.umd.edu/resource/mealybugs-indoor-plants",
+     "title": "Mealybugs on Indoor Plants"
+    },
+    {
+     "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/mealybugs",
+     "title": "Mealybugs"
+    },
+    {
+     "url": "https://dragonflyfarmlanglois.com/blogs/garden-guides/mealybugs-id-removal",
+     "title": "Mealybugs: How to Identify and Get Rid of Them"
+    },
+    {
+     "url": "https://www.gardendesign.com/how-to/mealybugs.html",
+     "title": "How to Identify and Control Mealybugs"
+    },
+    {
+     "url": "https://wallygrow.com/blogs/feature/how-to-get-rid-of-mealybug-on-houseplants",
+     "title": "How To Get Rid Of Mealybug On Houseplants"
+    },
+    {
+     "url": "https://www.healthyhouseplants.com/what-are-the-white-cottony-bugs-on-my-houseplants/",
+     "title": "What Are the White, Cottony Bugs on My Houseplants? - Healthy Houseplants"
+    },
+    {
+     "url": "https://plantcircle.com/blogs/plant-circle-care-guides-blog/common-pests-mealybugs",
+     "title": "Mealybugs on Houseplants: Identify & Treat Them - Plant Circle"
+    },
+    {
+     "url": "https://www.plantsolve.com/blog/mealybugs-on-houseplants/",
+     "title": "Mealybugs on Houseplants: Treatment & Prevention"
+    },
+    {
+     "url": "https://foliage-factory.com/blogs/plant-care/mealybugs-identify-and-treat",
+     "title": "Mealybugs on Houseplants: Signs, Treatment & Prevention"
+    },
+    {
+     "url": "https://plantgrail.com/articles/mealybugs-on-houseplants/",
+     "title": "Mealybugs on houseplants: find them, check the roots, and treat from alcohol swab up"
+    }
+   ]
+  },
+  {
+   "query": "Centella asiatica gotu kola pests indoor",
+   "results": [
+    {
+     "url": "https://wintergreenbotanicals.com/2022/09/14/gotukola/",
+     "title": "Gotu Kola (Centella asiatica) - Wintergreen Botanicals & Maria Noel Groves ~ Clinical Herbalist, Herbal Clinic & Education Center"
+    },
+    {
+     "url": "https://vegplotter.com/grow-guides/gotu-kola",
+     "title": "VegPlotter"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8627341/",
+     "title": "Pharmacological Effects of Centella asiatica on Skin Diseases: Evidence and Possible Mechanisms"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359802/",
+     "title": "Centella asiatica (L.) Urban: From Traditional Medicine to Modern Medicine with Neuroprotective Potential"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9656378/",
+     "title": "Biotechnological Intervention and Secondary Metabolite Production in Centella asiatica L"
+    },
+    {
+     "url": "https://plants.ces.ncsu.edu/plants/centella-asiatica/",
+     "title": "Centella asiatica (Asiatic pennywort, Gotu kola, Indian Pennywort, Kodavan, Marsh Pennywort, Spadeleaf)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Centella_asiatica",
+     "title": "Centella asiatica"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498642/",
+     "title": "Therapeutic Potential of Centella asiatica and Its Triterpenes: A Review"
+    },
+    {
+     "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10709746",
+     "title": "Compositions and methods for treating memory loss and diminished cognition"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

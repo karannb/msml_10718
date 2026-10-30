@@ -1,0 +1,33 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift inner pot, empty cachepot water, test soil with chopstick and squeeze stem base",
+   "minutes": 12,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water in sink only when chopstick is dry and pot is light, drain 15 minutes, return to cachepot",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut mostly yellow stem at soil level with sterilized scissors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names overwatering with possible stem rot and cuts watering frequency, but it never suggests repotting to check and save the roots, which was a key part of the confirmed fix; nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1983,
+ "output_tokens": 574
+}

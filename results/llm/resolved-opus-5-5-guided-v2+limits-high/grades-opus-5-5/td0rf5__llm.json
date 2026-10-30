@@ -1,0 +1,26 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check daily whether the leaf tip has slipped free of the sheath",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If still stuck after a week, moisten the sheath with a wet cotton swab, let it soften, and gently peel it away",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies the leaf stuck in its sheath, but its main advice is to wait a week, with the moistening step that worked held back as a later fallback; waiting is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1795,
+ "output_tokens": 396
+}

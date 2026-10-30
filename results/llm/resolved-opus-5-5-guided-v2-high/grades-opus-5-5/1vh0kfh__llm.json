@@ -1,0 +1,68 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Raise the light 15\u201330 cm or dim it by 20\u201325%",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the light's recommended hanging height for the growth stage",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Compare a shaded new leaf to exposed ones to separate nutrient from light issues",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feel top leaves and check tent temperature for heat stress",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Test pH of input water/feed and runoff",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "If runoff pH is off by 0.5+, adjust pH of each watering into range",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Keep canopy at 24\u201328\u00b0C",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  },
+  {
+   "action": "Angle fan to move air gently across the tops",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is light bleaching and it explicitly rules out nitrogen deficiency, mentioning a nutrient issue only as secondary pH lockout; it also tells the owner to hold off on feeding, which would delay the actual fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2016,
+ "output_tokens": 916
+}

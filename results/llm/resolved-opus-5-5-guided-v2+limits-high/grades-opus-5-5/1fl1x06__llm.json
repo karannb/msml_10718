@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant away from other plants",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab the mealybug with a cotton swab dipped in 70% rubbing alcohol and wipe it off",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect the whole plant (leaf undersides, joints, stem tip, soil surface, pot rim) and swab any bugs found",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repeat the inspection every 3-4 days for 4 weeks, keeping the plant isolated until two clean checks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the mealybug as the main problem and recommends dabbing it with alcohol and inspecting thoroughly, which matches the fix that worked; none of its advice is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1834,
+ "output_tokens": 378
+}

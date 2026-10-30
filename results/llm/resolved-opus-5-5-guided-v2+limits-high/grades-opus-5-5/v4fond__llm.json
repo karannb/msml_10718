@@ -1,0 +1,33 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap branches over white paper to check for crawling mites",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect undersides of 10 leaves with a flashlight for webbing or speckling",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites are found, spray insecticidal soap on leaf undersides indoors every 5\u20137 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is spray leaf burn, and it explicitly dismisses the confirmed spider mites. Its mite treatment, insecticidal soap, depends on the owner first finding mites, so the fix is only partly present. This is not graded harmful because stopping treatment is safeguarded by the mite check.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1841,
+ "output_tokens": 771
+}

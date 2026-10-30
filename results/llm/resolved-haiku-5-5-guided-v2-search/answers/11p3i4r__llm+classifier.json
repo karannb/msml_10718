@@ -1,0 +1,109 @@
+{
+ "thread_id": "11p3i4r",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/11p3i4r_01.png",
+  "data/reddit/resolved/images/11p3i4r_02.jpg",
+  "data/reddit/resolved/images/11p3i4r_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: My wife showered this furry feather and it instantly didn't like it. Any suggestions?\n\nI ready that furry feather curls on low humidity, which doesn't make sense after showering! I have tried to turn on the humidifier overnight with no luck.\n\nNot at all, the top 2inches feel dry!\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 93%, healthy 7%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 3: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: underwatering, made worse by dry air.** The top 2 inches of soil are dry, and the leaves are curling inward, drooping, and going crispy at the edges. Calatheas curl inward when they lack water at the roots, and when humidity drops, often in winter with heating, the leaves respond by curling tightly inward. The shower only wet the leaves, which doesn't rehydrate the root ball. A humidifier helps the air but won't fix dry soil.\n\n**Other possibilities:**\n- **Low humidity:** If the soil is moist deeper down, air is more likely the culprit. Below 50% humidity, consistent crispy edges are almost inevitable. Check with a hygrometer.\n- **Tap water:** Brown tips on otherwise firm leaves point here. These compounds accumulate in the leaf tips and margins, causing the classic brown, crispy edges.\n- **Overwatering** is unlikely given the dry top soil. Only reduce watering if the soil stays wet, and check the bottom first.\n\n**Fix, in order:**\n1. **Rehydrate the root ball now.** If the soil has pulled away from the pot or water runs straight through, water until it flows out of the drainage holes, then let the excess drain away. Soaking the pot in a tub for about 30 minutes works well. If water runs off the surface, poke the soil with a chopstick so it can absorb moisture.\n2. **Switch water.** Use distilled, filtered, or rainwater at room temperature. Fluoride in tap water is a documented, repeated cause of brown leaf edges in this genus, and letting tap water stand does not remove it.\n3. **Keep soil evenly moist.** Water when the top inch is dry, typically every 5\u20137 days in summer and every 10\u201314 days in winter. Don't let it dry out fully, and don't let it sit soggy.\n4. **Raise humidity to about 60%** with a humidifier placed near the plant, and keep it away from vents and cold drafts.\n\nTrim fully crispy leaves at the base once the plant recovers. Most leaves should uncurl within a day or two of a good soak, though crispy edges won't reverse.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 47018,
+ "output_tokens": 2672,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "Calathea furry feather drooping curling leaves underwatering",
+   "results": [
+    {
+     "url": "https://www.epicgardening.com/calathea-leaves-curling/",
+     "title": "9 Reasons The Leaves on Your Calathea Plant are Curling"
+    },
+    {
+     "url": "https://greg.app/furry-feather-calathea-leaves-falling-over/",
+     "title": "Why Are My Furry Feather Calathea Leaves Falling Over? \ud83d\udc08"
+    },
+    {
+     "url": "https://www.epicgardening.com/calathea-problems/",
+     "title": "11 Common Problems With Calathea Plants"
+    },
+    {
+     "url": "https://www.forwardplant.com/plant-info/goeppertia-rufibarba/",
+     "title": "Furry Feather Calathea (Goeppertia rufibarba) Care Guide: Pests, Diseases, Watering, Fertilizing & Toxicity \u2014 Keep It Thriving All Year"
+    },
+    {
+     "url": "https://houseplantcentral.com/problems-with-calathea/",
+     "title": "Problems with Calathea"
+    },
+    {
+     "url": "https://calatheaplant.com/calathea-curling-drooping-watering-mistakes/",
+     "title": "Why Is My Calathea Curling or Drooping? 7 Watering Mistakes to Avoid"
+    },
+    {
+     "url": "https://www.quirkyplants.co.uk/blogs/plant-care-guides/mike-the-calathea-rufibarba",
+     "title": "Calathea Rufibarba Care Guide"
+    },
+    {
+     "url": "https://www.homesandgardens.com/gardens/calathea-drooping",
+     "title": "Why is my calathea drooping? Plant experts say there's just one mistake causing this common issue"
+    },
+    {
+     "url": "https://bloomscape.com/common-issue/why-are-the-leaves-on-my-calathea-turning-brown-on-the-edges/",
+     "title": "Why are the leaves on my Calathea turning brown on the edges?"
+    },
+    {
+     "url": "https://www.heyrooted.com/blogs/plant-care/calathea-leaves-curling-common-problems",
+     "title": "Calathea Leaves Curling: Reasons & Fixes to Common Problems"
+    }
+   ]
+  },
+  {
+   "query": "Calathea leaves curling brown edges causes watering humidity",
+   "results": [
+    {
+     "url": "https://www.ohiotropics.com/2019/08/30/calathea-care-brown-leaves/",
+     "title": "Keep Your Calathea Alive-3 Secrets to No Brown/Crispy Edges"
+    },
+    {
+     "url": "https://plantfix.org/plants/calathea",
+     "title": "Calathea \u2014 Care & Troubleshooting"
+    },
+    {
+     "url": "https://www.getgrowli.app/blog/calathea-care",
+     "title": "Calathea care \u2014 fix the humidity, or skip the plant"
+    },
+    {
+     "url": "https://www.leonandgeorge.com/pages/help-why-are-my-calathea-s-leaf-edges-browning",
+     "title": "Why Does My Calathea Have Brown Leaf Edges? by L\u00e9on & George"
+    },
+    {
+     "url": "https://plantwateringguide.com/plant-problems/calathea-leaves-curling",
+     "title": "Calathea Leaves Curling: Causes by Cultivar and How to Fix It"
+    },
+    {
+     "url": "https://www.getgrowli.app/blog/calathea-leaves-curling",
+     "title": "Calathea leaves curling \u2014 humidity, water, or stress?"
+    },
+    {
+     "url": "https://plantwateringguide.com/tropical-houseplants-guides/calathea-watering",
+     "title": "Calathea Watering: How Often, Tap Water and Reviving a Stressed Plant"
+    },
+    {
+     "url": "https://growersguide.ca/houseplants/calathea-care-guide",
+     "title": "Calathea Care Canada \u2014 Brown Edges Fix & Watering"
+    },
+    {
+     "url": "https://plantcareclub.com/care-guides/calathea-care-guide",
+     "title": "Calathea Care Guide: Humidity, Water & Troubleshooting"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/calathea/why-it-has-brown-edges/",
+     "title": "Why Your Calathea Has Brown Edges: A Complete Diagnostic Guide - Blooming Expert"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

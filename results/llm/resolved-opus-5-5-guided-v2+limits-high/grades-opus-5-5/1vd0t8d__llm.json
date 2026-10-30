@@ -1,0 +1,40 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": true,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture 5 cm deep with finger every 3-4 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water thoroughly until it drains, then empty saucer after 15 minutes",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip off fully yellow/brown leaves at base with alcohol-wiped scissors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant within 1-2 m of a bright window out of harsh direct sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses transplant shock and prescribes care changes instead of calling the plant healthy with a normal old-leaf yellowing, and it never mentions trellising the trailing vine; its advice is mild and safeguarded, so it is not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1980,
+ "output_tokens": 374
+}

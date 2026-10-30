@@ -1,0 +1,107 @@
+{
+ "thread_id": "1g16j0w",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1g16j0w_01.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: I messed up i need help\n\nNeed some real help. My wife and I named him Steven. He was reaching so I put him outside. I put him in a semi shaded area but I messed up and didn't water him enough. How do I help him?\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: underwatering (dehydration) after the move outdoors.** The curled, brown-tipped outer leaves and your own account of not watering enough fit this. This looks like a bromeliad, a plant that can still suffer from insufficient water, and leaves may begin to curl, become limp or develop dry brown tips. The classifier's \"watering\" call agrees, though it is only a weak hint.\n\n**Check that decides it:** Look into the central cup, the rosette of leaves in the middle. If it is empty or nearly dry, thirst is the cause. Then gently pull on the center leaves. If the base is soft, brown, or smells, rot is also present, and a rotted center rarely recovers, so save the pups. Rot is less likely given the soil's dry-looking surface, but check the base before you treat it as a drought.\n\n**Fixes, most important first:**\n\n1. **Refill the cup.** Use rainwater or distilled water if you have it. Keep about 1/2\u20131 inch of water in the central cup and replace it every 1\u20132 weeks.\n2. **Water the soil lightly.** Water the mix only when the top inch is dry. Let the top inch dry, then water until a little drains out. Never leave the pot standing in water.\n3. **Move him to brighter, gentler light.** Semi-shade is fine, but leaves bleached, tan or with pale scorched patches point to too much sun, so keep him out of hot afternoon sun. Bring him indoors if nights drop below about 50\u00b0F.\n4. **Trim the dead leaves.** Cut the brown, crispy outer leaves back to the base with clean scissors. Once brown, they won't green up again.\n\nExpect recovery to take weeks, not days. If the center stays firm and green, he should bounce back and may produce pups.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 47885,
+ "output_tokens": 1780,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "bromeliad underwatering brown curling leaves care",
+   "results": [
+    {
+     "url": "https://greg.app/bromeliaceae-leaves-curling/",
+     "title": "What to Do About Curling Leaves on Your Bromeliaceae \ud83c\udf43"
+    },
+    {
+     "url": "https://www.gardenerreport.com/how-to-revive-a-dying-bromeliad/",
+     "title": "How to Revive a Dying Bromeliad"
+    },
+    {
+     "url": "https://greg.app/bromeliad-leaves-curling/",
+     "title": "Why Are My Bromeliad Leaves Curling?"
+    },
+    {
+     "url": "https://cafeplanta.com/a/blog/why-are-bromeliad-leaves-curling",
+     "title": "Why Are Bromeliad Leaves Curling?"
+    },
+    {
+     "url": "https://www.naturescolours.com.au/how-to-care-for-a-bromeliad/",
+     "title": "How to Care for a Bromeliad"
+    },
+    {
+     "url": "https://www.bromeliads.info/troubleshooting-bromeliad-problems/",
+     "title": "How to Troubleshoot Bromeliad Problems - Bromeliad Plant Care"
+    },
+    {
+     "url": "https://thepracticalplanter.com/bromeliad-leaves-turning-brown-or-yellow/",
+     "title": "7 Reasons Your Bromeliad Leaves Are Turning Brown or Yellow - The Practical Planter"
+    },
+    {
+     "url": "https://plantophiles.com/plant-care/curly-leaves-on-bromeliads-no-more/",
+     "title": "Curly Leaves on Bromeliads"
+    },
+    {
+     "url": "https://www.thesill.com/blogs/plants-101/how-to-care-for-a-bromeliad-plant",
+     "title": "How to Care for a Bromeliad Plant Indoors - The Sill"
+    },
+    {
+     "url": "https://cafeplanta.com/a/blog/why-are-pineapple-bromeliad-leaves-curling",
+     "title": "Why Are Pineapple Bromeliad Leaves Curling?"
+    }
+   ]
+  },
+  {
+   "query": "bromeliad water central cup soil watering how often",
+   "results": [
+    {
+     "url": "https://plantaddicts.com/watering-bromeliads/",
+     "title": "Watering Bromeliads"
+    },
+    {
+     "url": "https://www.botanicaly.com/en/guides/bromeliad-care",
+     "title": "Bromeliad care: watering the cup, light and pups - Botanicaly"
+    },
+    {
+     "url": "https://www.getgrowli.app/water/blushing-bromeliad",
+     "title": "How often to water blushing bromeliad"
+    },
+    {
+     "url": "https://www.houseplant.co.uk/pages/care/bromeliad-watering-frequency",
+     "title": "How Often to Water a Bromeliad"
+    },
+    {
+     "url": "https://florafact.com/plants/bromeliad/",
+     "title": "Bromeliad Plant Care: Light, Tank Water, Pups and Bloom"
+    },
+    {
+     "url": "https://bromelia.info/how-to-water-a-bromeliad-everything-you-need-to-know/",
+     "title": "How to water a Bromeliad: everything you need to know - Bromelia"
+    },
+    {
+     "url": "https://www.getgrowli.app/water/basket-bromeliad",
+     "title": "How Often to Water Basket Bromeliad? Every 5-7 Days"
+    },
+    {
+     "url": "https://www.getgrowli.app/water/sad-bromeliad",
+     "title": "How Often to Water Sad Bromeliad? Every 5-7 Days"
+    },
+    {
+     "url": "https://help.heyrooted.com/en-US/bromeliads-1432465",
+     "title": "Bromeliads"
+    },
+    {
+     "url": "https://www.bromeliads.info/caring-for-bromeliads-part-four-water/",
+     "title": "Bromeliad Basics: Watering - Bromeliad Plant Care"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Finger-check root ball moisture 3-4 inches deep before watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water slowly at base with 2-3 gallons per plant in early morning when dry",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If wet for days, dig up one plant and replant slightly higher",
+   "minutes": 45,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scratch loose fertilizer granules off the surface",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Set up shade cloth or old sheet on stakes over plants in afternoon",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Mulch over bare root ball, keeping mulch an inch from stems",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Scratch a stem with fingernail to check for green tissue",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune brown growth in fall",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The main diagnosis is heat stress with the root ball drying out, which matches the confirmed underwatering, and the advice to water daily when dry, shade the plants and stop feeding mirrors the fix; the soil check is a safeguard, so nothing here is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2106,
+ "output_tokens": 577
+}

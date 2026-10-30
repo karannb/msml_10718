@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wipe leaf tops and undersides with a mild dish-soap or insecticidal-soap solution, then wipe again with plain water",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If there are chalky hard-water spots, wipe them with a damp cloth and a little white vinegar",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect stem joints and the newest leaf for webbing and stippling",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Tap leaves over white paper to check for crawling mites",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively, inspect leaf undersides with a magnifier",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Spray or wipe leaf undersides with insecticidal soap every 5\u20137 days for 3\u20134 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Isolate the plant until it is clean",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Raise humidity around the plant",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": true
+  }
+ ],
+ "reason": "The answer correctly identifies the white film as Captain Jack's dust residue and recommends a gentle wipe-and-rinse, but it uses soap instead of the dilute lemon-juice acid that worked and says vinegar won't shift the dust; nothing it suggests is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2040,
+ "output_tokens": 1264
+}

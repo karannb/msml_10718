@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the plant from other plants",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove mostly brown leaves with clean scissors and bag them",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dab each visible mealybug with a cotton swab dipped in 70% isopropyl alcohol, every 3 days for 3 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Slide plant out of pot and check roots for white cottony masses",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are infested, rinse them under lukewarm water and repot in fresh mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Spray whole plant weekly with insecticidal soap, including leaf undersides",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  }
+ ],
+ "reason": "It identifies a sap-sucking pest infestation, a close match to the confirmed whiteflies or similar bugs, and its core fix of wiping the bugs off with alcohol and removing badly damaged leaves matches what worked; its advice to stop whole-plant alcohol spraying differs from the thread but is not likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2073,
+ "output_tokens": 901
+}

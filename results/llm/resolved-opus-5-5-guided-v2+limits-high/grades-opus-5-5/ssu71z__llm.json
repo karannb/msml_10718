@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Make a humidity tent over the ivy with a clear plastic bag supported by a stake or chopstick",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Open the humidity tent briefly each day to air it out",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture with a finger in each pot every 3 days",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water the ivy when the top inch is dry, and the cactus when the top half is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move both pots about a foot back from the cold window in the evening and return them to bright light by day",
+   "minutes": 1,
+   "per_day": 2,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names transplant shock as the main cause and warns that the oversized pot can stay wet and cause rot, matching the reference. Its core advice to check soil before watering and accept some droop matches the low-intervention fix, and the humidity tent and window moves are unlikely to cause harm.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1958,
+ "output_tokens": 852
+}

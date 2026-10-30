@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Wipe leaves top and underside with dilute dish soap solution",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse-wipe leaves with plain water and pat dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Second cleaning pass in a few days for leftover specks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Mite check by tapping leaves over white paper every 4 days for 3 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If mites found, wipe undersides with soap solution and rinse every 3 days for 2 weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies the dust residue, and its soap-wipe-and-rinse method is harmless, but it uses dish soap instead of the acidic lemon-juice wipe that actually dissolved the residue, so it is only partly the same fix.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1885,
+ "output_tokens": 422
+}

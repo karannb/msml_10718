@@ -1,0 +1,54 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Water thoroughly until it drains, repeat after 10 minutes, then empty the saucer after 20 minutes",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches down weekly and water only when dry",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Gradually move the plant to the south window over two weeks, starting 3-5 ft back behind a sheer curtain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Stop using the grow light once the plant is in the window",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pull the plant back from the window if crispy, bleached patches appear",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in 4-6 weeks into a pot 2 inches wider with a drainage hole, using a well-draining mix with perlite",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer misidentifies the Crinum as a Dracaena and blames underwatering, though it does mention low light and moving to a south window. It never addresses warmth, so the fix is only partly covered, but nothing it recommends is likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2160,
+ "output_tokens": 840
+}

@@ -1,0 +1,108 @@
+{
+ "thread_id": "1ogfkfi",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1ogfkfi_01.jpg",
+  "data/reddit/resolved/images/1ogfkfi_02.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: A week after repotting\n\nNever seen calathea this sad before \ud83d\ude2d Is she ok? Has been watered after the repotting, the soil is still moist, but I hope, a bowl of water could help to keep the humidity level higher. It\u2019s standing further away from the window, but not in complete darkness\n\nLast Sunday, didn\u2019t water it since then\n\nIt was the same pot size, i repotted it to get rid of the soil from the store\n\nI have a plant lamp.\n\nI watered her once right after the repotting\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\nPhoto 2: watering 100%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: transplant shock, made worse by soil that is still wet.** Calatheas are sensitive to root disturbance, and post-repot drooping is normal: expect the plant to droop for 1\u20132 weeks after repotting. The curled, drooping leaves in both photos fit that. The classifier's \"watering\" label is a weak hint here, and the post's details matter more.\n\n**Other possibilities:**\n- **Root rot.** Fresh store soil that stays wet, a decorative pot, and water standing in the saucer (visible in photo 2) all raise this risk. Rot is more likely if the stems at the base feel soft. A soft, mushy, or sour-smelling base means you're past overwatering and into rot.\n- **Low humidity.** Moving the plant away from the window can make it curl even when the soil is damp. The distinguishing pattern is that all leaves curl at once, including the newest growth, and the soil is still damp when you press your finger 2 inches below the surface.\n\n**Quick check:** Push a finger 2 inches into the soil and lift the pot. Then gently ease the plant out. Firm, pale roots mean shock. Brown, mushy roots with a sour smell mean rot, so trim those with clean scissors and repot in fresh, airy mix.\n\n**Fix:**\n1. **Empty the saucer and hold off on watering.** Water again only when the top 2 inches are dry. Standing water in the saucer should be poured out within about 30 minutes of watering.\n2. **Raise humidity without wetting the soil.** Set the pot on a pebble tray with the water below the base of the pot, or run a humidifier. Keep it away from drafts and vents.\n3. **Keep it still in bright, indirect light.** Direct sun can stress the leaves, but a dark corner can slow recovery. Leave it in one spot.\n4. **Don't fertilize yet.** Wait 3\u20134 weeks. If there is still no new growth after two weeks, or the roots look rotten, check the roots as described above.\n\nShe will likely look worse before she improves, so give her a couple of weeks.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 54788,
+ "output_tokens": 3006,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "calathea drooping after repotting transplant shock care",
+   "results": [
+    {
+     "url": "https://calatheaplant.com/how-to-repot-calathea/",
+     "title": "How to Repot Calathea Without Shock, Drooping, or Root Stress"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/calathea/drooping-3/",
+     "title": "Why Is Your Calathea Drooping? 5 Causes \u2014 Diagnosed by Soil Moisture and Leaf Position - Blooming Expert"
+    },
+    {
+     "url": "https://growhub.ae/blogs/blog/when-to-repot-calathea-orbifolia-avoiding-the-dreaded-transplant-shock",
+     "title": "When to Repot Calathea Orbifolia: Avoiding the Dreaded Transplant Shoc"
+    },
+    {
+     "url": "https://gardengotime.com/why-calatheas-are-drooping/",
+     "title": "Why Calatheas Are Drooping: Causes and Solutions"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/medallion-calathea-wilting-after-repotting",
+     "title": "Why Is My Medallion Calathea Wilting After Repotting It?"
+    },
+    {
+     "url": "https://www.lovethatleaf.co.nz/blogs/plant-care-guides/emergency-rehab-recovery-indoor-plants-transplant-stress-shock",
+     "title": "Emergency Rehab and Recovery for Indoor Plants"
+    },
+    {
+     "url": "https://shridharagreens.com/how-to-help-plants-recover-after-transplant-shock/",
+     "title": "How to Help Plants Recover After Transplant Shock"
+    },
+    {
+     "url": "https://www.heyrooted.com/blogs/plant-care/calathea-leaves-curling-common-problems",
+     "title": "Calathea Leaves Curling: Reasons & Fixes to Common Problems"
+    },
+    {
+     "url": "https://greg.app/question/2a3w4v/just-being-a-diva-transplant-shock-sick-plant-my-rattlesnake-is-looking-super-droopy-the-past-couple",
+     "title": "Just being a diva? Transplant shock? Sick plant? My rattl..."
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/calathea/dropping-leaves-3/",
+     "title": "Calathea Dropping Leaves: Exact Cause and Fix by Pattern"
+    }
+   ]
+  },
+  {
+   "query": "calathea leaves curling overwatering or underwatering check soil roots",
+   "results": [
+    {
+     "url": "https://calatheaplant.com/calathea-overwatering-vs-underwatering/",
+     "title": "Calathea Overwatering or Underwatering? How to Tell From Real Plant Signals"
+    },
+    {
+     "url": "https://www.bloomingexpert.com/tips/calathea/curling-leaves-4/",
+     "title": "Calathea Curling Leaves: Diagnose the Real Cause in 5 ..."
+    },
+    {
+     "url": "https://plantwateringguide.com/plant-problems/calathea-leaves-curling",
+     "title": "Calathea Leaves Curling: Causes by Cultivar and How to Fix It"
+    },
+    {
+     "url": "https://www.homesandgardens.com/gardens/leaves-on-my-calathea-curling",
+     "title": "Why are the leaves on my calathea curling? We provide details on the causes and remedies"
+    },
+    {
+     "url": "https://calatheaplant.com/calathea-curling-drooping-watering-mistakes/",
+     "title": "Why Is My Calathea Curling or Drooping? 7 Watering Mistakes to Avoid"
+    },
+    {
+     "url": "https://plantidentifierfree.app/blog/calathea-leaves-curling",
+     "title": "Calathea Leaves Curling: Causes and How to Fix It"
+    },
+    {
+     "url": "https://www.getgrowli.app/blog/calathea-leaves-curling",
+     "title": "Calathea leaves curling \u2014 humidity, water, or stress?"
+    },
+    {
+     "url": "https://greeneryunlimited.co/blogs/plant-care/calathea-care",
+     "title": "Calathea Care"
+    },
+    {
+     "url": "https://plantfix.org/guides/plant-leaves-curling",
+     "title": "Plant Leaves Curling? 7 Causes and the Fix for Each"
+    },
+    {
+     "url": "https://sanjaynursery.com/why-calathea-leaves-curl/",
+     "title": "Reasons Your Calathea Plant Is Curling\u2014And How to Revive It - sanjaynursery"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

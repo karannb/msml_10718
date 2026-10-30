@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Scratch-test stems from tips downward to check for green tissue",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2 inches down under the gravel",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water deeply once a week when soil is dry, through the first summer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Replace gravel over root zone with 2-3 inches of pine bark or pine needle mulch",
+   "minutes": 45,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "After new growth appears, prune twigs that stay bare and fail the scratch test",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Feed with azalea/acid fertilizer at label rate once new growth starts",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "If salt is a concern, water deeply a few times in spring to flush the soil",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main call is a winter-bronzed but living azalea, which matches the confirmed problem; it includes the watering and fertilizing that fixed it, and nothing it recommends would hurt the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2158,
+ "output_tokens": 934
+}

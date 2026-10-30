@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Feel the cut end to check for rot versus a healthy callus",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rotten, cut back to firm green tissue with a clean blade, let it dry a few hours, and restart",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make sure at least one node sits in the water or moss",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Pick one medium: switch to plain water covering the node, or to wrung-out damp moss with no standing water",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change the water weekly if using plain water",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the cutting to a warm (70\u201380\u00b0F), bright spot with indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether the mother plant's roots and base stem are firm, and keep it if so",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly says the slow rooting is normal and urges patience, and it does suggest dropping the moss, but only as one of two medium options alongside rot checks and weekly water changes; nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2053,
+ "output_tokens": 950
+}

@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Squeeze the stem at soil level to check it is firm and green, and post an update if it is soft or black",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the plant 30\u201350 cm back from the window glass at night, away from radiators, ideally somewhere at 18\u201324 \u00b0C",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check the soil moisture every 2\u20133 days",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "When the top 2 cm are dry, water until it drains from the pot's holes",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Once leaves are mostly yellow or brown, cut each at its base with alcohol-wiped scissors",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies cold damage from transport, but its advice (keep the leaves, water when dry, move it from the window) does not include the fix that worked: cutting back to about 1 cm above the soil, not watering, and covering with a glass jar. The soil-check safeguard and the stem check keep it from being clearly harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1822,
+ "output_tokens": 824
+}

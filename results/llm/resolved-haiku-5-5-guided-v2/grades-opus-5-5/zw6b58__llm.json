@@ -1,0 +1,61 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Gently pull the plant up to check whether roots are anchored in the bark",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Insert a stake along the root ball and tie the plant loosely to it",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Place the clear pot inside a heavier ceramic cachepot",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Add pebbles or stones under the pot for ballast",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Gently firm the bark around the roots",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Water when the bark is dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Keep the plant out of drafts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies a top-heavy, unstable pot as the main cause, and its second fix, setting the pot inside a heavier cachepot, matches what the poster did, with nothing harmful suggested.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1982,
+ "output_tokens": 476
+}

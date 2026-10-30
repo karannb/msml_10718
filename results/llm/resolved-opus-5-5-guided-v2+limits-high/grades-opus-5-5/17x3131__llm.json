@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check soil moisture with a chopstick pushed 3 inches deep for 5 minutes",
+   "minutes": 6,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Lift inner pot out of cover pot, confirm drainage holes, and pour out pooled water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Every 3 days, re-check soil and water thoroughly only if dry, then empty the cover pot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Replace the sticky trap when it is covered",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies soil staying too wet as the main cause and cites the large pot, but it only advises watering less and never suggests moving to a smaller pot, so the advice is partial; nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1928,
+ "output_tokens": 618
+}

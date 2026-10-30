@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Place plastic pot inside heavier ceramic/glass outer pot with pebble layer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Re-seat stake near center and re-clip spike over pot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Firm bark around base of plant",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty outer pot of water after each watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer identifies the tipping as a balance problem, gives the heavier outer pot (the poster's actual fix) as its first step, and includes a drainage safeguard, so nothing in it is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1857,
+ "output_tokens": 324
+}

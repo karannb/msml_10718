@@ -3,10 +3,11 @@
     python score_resolved.py                                  # Haiku's answers, graded by Opus
     python score_resolved.py --model claude-opus-5-5 --grader claude-opus-5-5
     python score_resolved.py --baseline claude-sonnet-5-5:llm   # also compare each option with an already scored run
+    python score_resolved.py --prompt guided-v2+limits --options llm --baseline claude-haiku-5-5:llm
 
 One grader call per answer with prompts/resolved_grader.txt (diagnosis, false alarm, advice, harm, actions), cached in
-results/llm/resolved-<model>/grades-<grader>/. Writes reports/eval-resolved-<model>.md and
-results/llm/resolved-<model>/eval-<grader>.csv.
+results/llm/resolved-<model>[-<prompt>]/grades-<grader>/. Writes reports/eval-resolved-<model>[-<prompt>].md and
+results/llm/resolved-<model>[-<prompt>]/eval-<grader>.csv.
   Reference coverage: diagnosis correct or partial.
   Solved: advice "yes", not harmful, and at most 4 short actions (each under 15 min/day and at most $15).
 """
@@ -56,13 +57,16 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--model", default="claude-haiku-5-5", help="the model whose answers are scored")
     ap.add_argument("--grader", default="claude-opus-5-5")
-    ap.add_argument("--baseline", help="MODEL:OPTION already scored by the same grader, e.g. claude-sonnet-5-5:llm")
+    ap.add_argument("--baseline", help="MODEL[-PROMPT]:OPTION already scored by the same grader, e.g. claude-sonnet-5-5:llm")
+    ap.add_argument("--prompt", default="plain", help="system prompt of the answers (eval_resolved.py --prompt)")
+    ap.add_argument("--options", nargs="+", default=OPTIONS, choices=OPTIONS)
     args = ap.parse_args()
     load_dotenv()
     short = lambda m: m.removeprefix("claude-")
     price = lambda m: PRICE[next(k for k in PRICE if k in m)]
 
-    run = Path(f"results/llm/resolved-{short(args.model)}")
+    name = short(args.model) + ("" if args.prompt == "plain" else f"-{args.prompt}")
+    run = Path(f"results/llm/resolved-{name}")
     cache = run / f"grades-{short(args.grader)}"
     cache.mkdir(exist_ok=True)
     template = Path("prompts/resolved_grader.txt").read_text()
@@ -81,7 +85,7 @@ def main():
                     grade_in=g["input_tokens"], grade_out=g["output_tokens"])
 
     with ThreadPoolExecutor(8) as ex:
-        df = pd.DataFrame(ex.map(score, [(row, o) for row in threads.itertuples() for o in OPTIONS]))
+        df = pd.DataFrame(ex.map(score, [(row, o) for row in threads.itertuples() for o in args.options]))
 
     healthy = df.problem.str.contains(r"^healthy|\(healthy plant", case=False)
     is_short = lambda a: a["minutes"] * a["per_day"] < 15 and a["cost_usd"] <= 15 and not a["unclear"]
@@ -102,13 +106,13 @@ def main():
                      "USD per 1,000 answers": f"{(d.answer_in * p_in + d.answer_out * p_out).mean() / 1e3:.2f}"})
     wide = {k: df.pivot(index="thread_id", columns="option", values=k) for k in ["covered", "solved", "harmful"]}
     paired = [{"this vs baseline": "llm+classifier vs llm", "metric": k, **mcnemar(w["llm+classifier"].to_numpy(bool), w["llm"].to_numpy(bool))}
-              for k, w in wide.items()]
+              for k, w in wide.items()] if len(args.options) == 2 else []
     if args.baseline:
         m, o = args.baseline.rsplit(":", 1)
         b = pd.read_csv(f"results/llm/resolved-{short(m)}/eval-{short(args.grader)}.csv", dtype={"thread_id": str})
         b = b[b.option == o].set_index("thread_id")
         paired += [{"this vs baseline": f"{opt} vs {args.baseline}", "metric": k,
-                    **mcnemar(w[opt].to_numpy(bool), b.loc[w.index, k].to_numpy(bool))} for opt in OPTIONS for k, w in wide.items()]
+                    **mcnemar(w[opt].to_numpy(bool), b.loc[w.index, k].to_numpy(bool))} for opt in args.options for k, w in wide.items()]
 
     agreement = ""
     if (run / "grades").exists():
@@ -118,7 +122,7 @@ def main():
     cost = (df.grade_in.sum() * g_in + df.grade_out.sum() * g_out) / 1e6
 
     df.drop(columns=["actions", "text"]).to_csv(run / f"eval-{short(args.grader)}.csv", index=False)
-    report = f"""# eval_methodology.md metrics: {args.model} on the 96 resolved Reddit threads
+    report = f"""# eval_methodology.md metrics: {args.model}, prompt {args.prompt}, on the 96 resolved Reddit threads
 
 Answers from `eval_resolved.py`, graded by `{args.grader}` with `prompts/resolved_grader.txt` (`score_resolved.py`;
 grading cost ${cost:.2f}). Solved = advice "yes", not harmful, at most 4 short actions (under 15 min/day, at most $15).
@@ -133,7 +137,7 @@ Paired by thread (McNemar; for harmful, "correct" = harmful):
 {agreement}
 Per-answer results: `{run}/eval-{short(args.grader)}.csv`; grades with listed actions: `{cache}/`.
 """
-    Path(f"reports/eval-resolved-{short(args.model)}.md").write_text(report)
+    Path(f"reports/eval-resolved-{name}.md").write_text(report)
     print(report)
 
 

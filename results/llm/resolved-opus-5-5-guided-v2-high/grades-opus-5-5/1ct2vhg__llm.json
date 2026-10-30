@@ -1,0 +1,68 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Run grow light 12\u201314 hours a day on a timer, positioned 6\u201312 inches above plants",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively move plants outdoors, acclimating with 1\u20132 hours of morning sun and adding an hour every few days over two weeks",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether patches are flat (farina loss) or fuzzy/raised (mold)",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check leaves for softness/translucency or upward-spreading yellowing indicating overwatering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check whether new growth is still stretched and pale after 3\u20134 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "At next repot, mix cactus soil 50/50 with perlite or pumice",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 10,
+   "unclear": false
+  },
+  {
+   "action": "Water by soaking until it drains, only when soil is dry 1\u20132 inches down or pot feels light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Later cut and re-root leggy stems",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is insufficient light, it correctly explains farina, and its central fix of more light matches what worked, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2257,
+ "output_tokens": 604
+}

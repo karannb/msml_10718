@@ -148,3 +148,36 @@ queries, raw source text/transcripts, selected answers and the completed
 the existing rubrics and separate resumable Claude result directories. Assistant
 and Claude grades are distinct conditions. Opus 5.5 grades of the selected answers
 (`--tasks resolved quality`, $14) are in `results/google-baseline/claude/opus-5-5-v1/`. See the guide for commands, contamination flags and limitations.
+
+## Prompt design, web search and model choice (`reports/prompt-design.md`)
+
+**Question.** Do system-prompt additions or web search make Claude's answers match the fix that worked more often?
+
+**Setup.**
+- Prompt work used the 32 development threads only; the 64 test threads were held out for the final checks.
+- Every addition was ablated one element at a time, with and without web search.
+- Reddit and its mirrors are blocked in search, and every query and result URL is saved with the answer.
+- Each answer is graded by Sonnet 5.5.
+
+**Results.**
+- **No prompt element and no web search beats `guided-v2`**, for Haiku or for Opus. The elements were plant-care notes,
+  common causes ranked, answer format rules, reasoning instructions and removing checklist items.
+- **Changing the model does help.** Opus 5.5 at max effort, with `guided-v2` and no search, on all 96 threads, scores
+  0.755 on advice, against 0.653 for Haiku: +0.10 [+0.05, +0.16]. Its harmful answers drop from 10% to 2%.
+- **High effort does as well as max** on the 32 threads where both were run, at about a tenth of the cost.
+
+**Where the outputs are.**
+- Tables, ablations and costs: [reports/prompt-design.md](reports/prompt-design.md).
+- Per-run reports: `reports/llm-resolved-*-graded-sonnet-5-5.md`.
+- Answers, search logs and grades, by model, prompt and setting:
+  `results/llm/resolved-<model>-<prompt>[-search][-<effort>]/{answers,grades-sonnet-5-5}/`.
+
+```bash
+python eval_resolved.py --prompt guided-v2+kb --threads dev --options llm --samples 6 --grader claude-sonnet-5-5   # one variant
+python eval_resolved.py --model claude-opus-5-5 --effort high --prompt guided-v2 --search research --threads test --grader claude-sonnet-5-5
+python jobs/run_many.py "<args of run 1>" "<args of run 2>" ...   # several runs in one process (login-node thread limit)
+python jobs/compare_prompts.py dev   # paired comparison with guided-v2, and the API spend so far
+```
+
+Prompt elements: `diagnose.py` `ELEMENTS`. A prompt name `guided-v2+<element>+...` adds them in that order;
+`drop<k>` removes item k of the checklist.

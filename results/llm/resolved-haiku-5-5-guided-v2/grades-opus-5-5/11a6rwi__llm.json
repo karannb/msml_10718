@@ -1,0 +1,89 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Check leaf undersides and stems for fine webbing with a hand lens to rule out spider mites",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 5,
+   "unclear": false
+  },
+  {
+   "action": "Tap a stem over white paper or a sticky card to confirm thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spot-test the alcohol spray on one leaf of a few plants and wait 48 hours",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Dilute the alcohol spray further if browning appears",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray plants with alcohol in the evening, out of direct sun",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove badly damaged leaves and infested flowers, then bag and dispose of them outside the room",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang blue sticky traps around the room to monitor thrips",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 12,
+   "unclear": false
+  },
+  {
+   "action": "Treat every 5-7 days for at least 4 weeks, rotating spinosad and insecticidal soap",
+   "minutes": 60,
+   "per_day": 1,
+   "cost_usd": 25,
+   "unclear": false
+  },
+  {
+   "action": "For severe cases, apply a systemic such as imidacloprid per the label",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Quarantine new or heavily infested plants",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect every plant weekly",
+   "minutes": 40,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies thrips, but it never mentions the beneficial predatory mites that actually solved the problem, relying instead on sprays and systemics; those are reasonable and not likely to harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2061,
+ "output_tokens": 1233
+}

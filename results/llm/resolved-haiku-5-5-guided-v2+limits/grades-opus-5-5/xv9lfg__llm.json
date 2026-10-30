@@ -1,0 +1,26 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check the top inch of soil and water only when it is dry",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Monitor the tip and, if it turns brown, soft, or black or the stem collapses, post a photo",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer calls the stuck leaf normal unfurling instead of identifying a leaf stuck from low humidity, and its advice to wait and not touch the leaf contradicts the fix (moistening and gently freeing it), delaying the needed help.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1721,
+ "output_tokens": 484
+}

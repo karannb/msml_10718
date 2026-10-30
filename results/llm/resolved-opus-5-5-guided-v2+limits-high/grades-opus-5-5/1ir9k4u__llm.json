@@ -1,0 +1,40 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Squeeze the cut end and brown nubs to check firmness",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soft or mushy, cut back to firm tissue with an alcohol-wiped razor and air-dry 2-4 hours",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Remove the sphagnum, rinse the jug and refill with plain room-temperature water covering the node",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move the cutting to bright indirect light at 68-80\u00b0F away from drafts",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer rightly calls the slow rooting normal and removes the moss, but it never flags the frequent water changes as a cause and tells the poster to keep doing them, so it gets only half of the fix; the advice is not seriously harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1918,
+ "output_tokens": 741
+}

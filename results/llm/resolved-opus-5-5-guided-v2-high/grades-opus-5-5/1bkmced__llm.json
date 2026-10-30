@@ -1,0 +1,75 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tap a new leaf over white paper or zoom into an unfurling sheath with a phone camera to confirm thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If bacterial leaf spot: cut off affected leaves with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If bacterial leaf spot: add a small fan for air movement",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Spray spinosad (e.g., Captain Jack's) on all leaf surfaces, sheaths and joints every 5\u20137 days for 6 weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Drench the top soil layer with the spinosad spray",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Alternatively apply systemic imidacloprid granules to the soil",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Treat every plant in the bathroom, including philodendrons and syngoniums",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Hang blue or yellow sticky traps to monitor thrips",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 8,
+   "unclear": false
+  },
+  {
+   "action": "Cut off the worst damaged leaves",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names thrips as the main cause. Its lead fix is a spinosad spray regimen, with the systemic granules that actually worked offered only as an option. Nothing it recommends would harm the plant.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2409,
+ "output_tokens": 1102
+}

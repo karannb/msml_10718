@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Tip the plant out of its pot and inspect the rhizomes for mushy, black or hollow ones",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil dryness 5\u20137 cm down before watering and water only when dry",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Empty the cachepot after every watering",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot is found, cut away all soft, dark tissue with clean scissors and let the cuts dry for a day or two",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot is found, repot into a pot with a drainage hole using universal soil mixed with about one-third perlite or bark",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Remove yellow stems once they are fully collapsed",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer names overwatering with early rot as the main cause and advises much less frequent watering, checking the roots and repotting into a chunkier mix, which matches the confirmed fix with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2160,
+ "output_tokens": 860
+}

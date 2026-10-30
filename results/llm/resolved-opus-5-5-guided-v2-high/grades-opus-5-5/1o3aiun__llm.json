@@ -1,0 +1,61 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Break into the center of the root ball to check for rot vs. dryness",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Soak the root ball in a bucket of water for 20-30 minutes, in shade",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Make vertical cuts in the root ball, slice off the matted bottom and tease the outer roots loose",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot into the terracotta pot with cactus mix plus perlite (or potting mix with 40% perlite) at the same depth",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Check the top inch of soil and water deeply when dry (every 2-3 days in heat)",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Snip fully dead stems back to green growth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "In winter in the garage, run the lamp 12-14 hours a day and water much less often",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies drying out rather than overwatering but blames root-binding instead of the terracotta pot. It explicitly tells the owner to skip plastic and repot into terracotta with an extra-fast-draining mix, which works against the fix that actually worked.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2150,
+ "output_tokens": 1046
+}

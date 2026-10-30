@@ -1,0 +1,68 @@
+{
+ "diagnosis": "wrong",
+ "false_alarm": false,
+ "advice": "no",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Check roots for rot (color, texture, smell)",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim rotted roots back to healthy tissue if found",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Scrape brown stems to test if alive",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Prune dead stems back to green growth",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright open shade for a few days, then to full sun",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot in terracotta with gritty cactus mix or potting mix plus perlite/pumice, loosening roots",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 15,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test soil 2 inches deep and water thoroughly only when dry, emptying saucer",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "For winter, place in bright south window or under full-spectrum grow light 12-14 hours in cool room",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 30,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer diagnoses overwatering when the confirmed problem was underwatering in fast-drying terracotta. It explicitly says to keep the terracotta, use an even faster-draining gritty mix and skip the plastic, all of which would worsen the drying out and delay the actual fix of switching to a plastic pot and watering more.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2138,
+ "output_tokens": 614
+}

@@ -1,0 +1,66 @@
+{
+ "thread_id": "1miw57p",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/1miw57p_01.jpg",
+  "data/reddit/resolved/images/1miw57p_02.jpg",
+  "data/reddit/resolved/images/1miw57p_03.jpg",
+  "data/reddit/resolved/images/1miw57p_04.jpg",
+  "data/reddit/resolved/images/1miw57p_05.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Azaleas are dying. They get water once every other day in this 100F weather. I have fed them acidic food last week. Zone 7b. What am I doing wrong? Please help!\n\nThey get some shade since they are close to trees and the foundation.\n\nI fed them a week ago and the time before that was like 2 months ago\n\nFront side\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: healthy 88%, fungal_bacterial 11%, watering 1%, pest 0%, other 0%\nPhoto 2: fungal_bacterial 63%, healthy 31%, other 5%, watering 1%, pest 0%\nPhoto 3: healthy 60%, fungal_bacterial 29%, other 11%, pest 0%, watering 0%\nPhoto 4: healthy 96%, fungal_bacterial 3%, other 1%, watering 0%, pest 0%\nPhoto 5: healthy 65%, fungal_bacterial 31%, watering 3%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: heat and drought stress on young, shallow-rooted azaleas.** The crispy tan and brown leaves are on the tips and outer branches, while the new growth at the tops is still green. That pattern fits scorch from water loss. Wind also poses a threat. On blustery days, the foliage loses water faster than the shallow roots can pump it up. Every-other-day watering at 100\u00b0F is probably not keeping up. Newly planted shrubs are also the most vulnerable, since a newly planted azalea has zero drought tolerance.\n\n**Other possibilities:**\n- **Lace bugs:** Check the undersides of leaves. Speckled, bleached tops and tarry black dots on the undersides point to lace bugs. Lace bugs leave behind hard, black, tar-like spots of excrement that confirm their presence.\n- **Fertilizer burn or soggy roots:** Brown tips after feeding suggest fertilizer burn. If the soil stays wet, root rot is possible. Dig down a few inches to tell the difference. Soil that is dry means underwatering. Soil that stays soggy or smells sour means too much water.\n\n**Fix, in order:**\n1. **Soak deeply, not often.** Dig a finger or trowel 4 to 6 inches down first. If it is dry, run a hose slowly at the base for 30 to 60 minutes so water reaches the root zone. Water every day during this heat while they establish, and water under the mulch rather than on the leaves. Note that check daily during heatwaves is the standard advice for summer.\n2. **Stop fertilizing for now.** Do not fertilize a drought-stressed plant. Fertilizer forces new growth that the damaged root system cannot support. The feeding last week may have added stress.\n3. **Adjust the mulch and shade.** Keep 2 to 3 inches of mulch, but pull it back an inch from the stems. Afternoon shade, even temporary shade cloth, will help. The photos show the bed in open sun.\n4. **Wait before pruning.** Leave the browned leaves on for now, since they can still help the plant. Trim dead branch tips once green buds show new growth.\n\nExpect the damaged leaves to stay brown. Many plants will recover from the base if the roots survive.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 48377,
+ "output_tokens": 2497,
+ "web_search_requests": 1,
+ "searches": [
+  {
+   "query": "azalea leaves brown crispy summer heat drought watering landscape",
+   "results": [
+    {
+     "url": "https://www.epicgardening.com/azaleas-turning-brown/",
+     "title": "8 Reasons Your Azaleas Are Turning Brown and Dying"
+    },
+    {
+     "url": "https://wtop.com/garden-plot/2017/07/brown-azaleas-are-these-shallow-rooted-plants-victims-of-a-hot-dry-july/",
+     "title": "Brown azaleas: Are these shallow-rooted plants victims of a hot, dry July? - WTOP News"
+    },
+    {
+     "url": "https://gardeningbeyond.com/are-azaleas-drought-tolerant/",
+     "title": "Are Azaleas Drought Tolerant?"
+    },
+    {
+     "url": "https://gardenerhow.com/why-are-my-azalea-leaves-turning-brown/",
+     "title": "Why are my azalea leaves turning brown? Reasons & Solutions"
+    },
+    {
+     "url": "https://horticulture.co.uk/azalea/brown-leaves/",
+     "title": "Are Your Azaleas Getting Enough Water? Brown Leaves And Their Causes"
+    },
+    {
+     "url": "https://yourflowersguide.com/azaleas/azalea-brown-yellow-leaves-save-shrub/",
+     "title": "Why azalea leaves are turning brown or yellow and how to save your shrub"
+    },
+    {
+     "url": "https://shopping.yahoo.com/home-garden/gardening/articles/why-azalea-leaves-turning-brown-123000975.html",
+     "title": "Why Are My Azalea Leaves Turning Brown? 4 Possible Causes"
+    },
+    {
+     "url": "https://positivebloom.com/early-signs-your-azaleas-in-georgia-are-getting-too-much-sun/",
+     "title": "7 Early Signs Your Azaleas In Georgia Are Getting Too Much Sun"
+    },
+    {
+     "url": "https://www.epicgardening.com/azalea-dying/",
+     "title": "Why Your Azalea is Dying and How to Revive it"
+    },
+    {
+     "url": "https://gobuyplants.com/blogs/news/struggling-with-your-azaleas",
+     "title": "Struggling With Your Azaleas?"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

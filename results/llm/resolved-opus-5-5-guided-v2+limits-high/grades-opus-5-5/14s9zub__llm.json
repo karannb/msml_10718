@@ -1,0 +1,47 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Isolate the palm from other plants and check neighbors for speckling",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Rinse fronds in the shower with soil covered by a plastic bag",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Spray both sides of leaflets with dish soap solution every 5 days for 4 weeks",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Wipe off soap residue with plain water 2 hours after spraying",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Weekly white-paper tap test for mites for 6 weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly names spider mites and gives a repeated spray regimen over several weeks, comparable to the alcohol and insecticide sprays that worked, with nothing harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2096,
+ "output_tokens": 398
+}

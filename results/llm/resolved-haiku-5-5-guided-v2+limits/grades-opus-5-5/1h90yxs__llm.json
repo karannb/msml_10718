@@ -1,0 +1,82 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Lift plant out of decorative pot and empty standing water",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Finger-test soil moisture 2 inches deep",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If soil is dry, water thoroughly and let drain",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect roots for rot",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim dead, crispy, yellow or brown stems and leaves",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Cut green stems into 4-6 inch cuttings with 2 nodes and place in water or moist mix in bright indirect light",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Change cutting water weekly",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If roots are healthy, repot into 2-inch-wider pot with drainage and aroid mix",
+   "minutes": 20,
+   "per_day": 1,
+   "cost_usd": 13,
+   "unclear": false
+  },
+  {
+   "action": "Trim any rotted roots before repotting",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Ongoing: water only when top 2 inches of soil are dry and ensure pot drains",
+   "minutes": 3,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer blames a root-bound plant with dieback rather than overgrown leggy growth needing a hard cut-back. Its chop-and-prop and repot steps overlap the fix but focus on removing dead material and propagation, not an explicit 60-80% trim of the mother plant. Nothing it recommends is harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2042,
+ "output_tokens": 1130
+}

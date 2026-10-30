@@ -1,0 +1,54 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "yes",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Press the trunk from the soil line up to check for rot",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Soak the pot in a bowl of water for 30-45 minutes, then drain",
+   "minutes": 45,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Repot one size up into a pot with drainage and fresh well-draining mix, teasing apart circling roots",
+   "minutes": 30,
+   "per_day": 1,
+   "cost_usd": 20,
+   "unclear": false
+  },
+  {
+   "action": "Check the top 3-5 cm of soil and water thoroughly when dry",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Recheck trunk firmness in two weeks",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If rot is found or the trunk hasn't firmed, cut the top above soft tissue and root it in water",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer's main diagnosis is dehydration from a root-bound root ball, which matches the confirmed problem, and its soak-then-repot fix mirrors what worked; the shorter soak and conditional rot check are not harmful.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2005,
+ "output_tokens": 481
+}

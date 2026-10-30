@@ -1,0 +1,47 @@
+{
+ "diagnosis": "partial",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": true,
+ "actions": [
+  {
+   "action": "Move plant a few feet back from windows into bright indirect light",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Inspect leaf undersides and stem joints with flashlight and phone magnifier",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If cottony tufts found, dab each with alcohol-dipped cotton swab, repeating every 3-4 days for 2 weeks",
+   "minutes": 15,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil moisture 2-3 inches down with a chopstick before watering",
+   "minutes": 2,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Trim fully brown leaves at the base with clean scissors",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer gets the sun stress right but says it can't confirm pests and dismisses the spots as normal texture or dust, missing the thrips. Its pest advice covers only mealybugs, with no neem or insecticide treatment and no isolation, and downplaying the bugs delays the needed treatment.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 2185,
+ "output_tokens": 452
+}

@@ -1,0 +1,151 @@
+{
+ "thread_id": "16w508b",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/16w508b_01.jpg",
+  "data/reddit/resolved/images/16w508b_02.jpg",
+  "data/reddit/resolved/images/16w508b_03.png",
+  "data/reddit/resolved/images/16w508b_04.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Last Attempt to Save Adansonii - Please Help! (story in comments)\n\nLooking for some advice on my next plan of action with my Adansonii. It's taken a beating over the last year despite hours of research, worry, and remedial action.\n\n**Context**: I'm based in Portugal, the plant gets a lot of indirect light (dark photos are taken at night), but temps do get over 35 celsius in Summer.\n\n* **Aug '23:** plant extra sad, leaves getting yellow/ brown patches (sulphur burn?). Thrips still present but infestation not major = finding around 3 each week.\n\n* **Aug/Sept '23:** new shoots growing fast suddenly but leaves getting even more yellow/ brown patches, including new leaves. I'm removing these to avoid disease spread. Still finding the odd black (non moving) thrip on the new leaves but still no larvae\n\nIt's about 3 metres away from a big window.\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 95%, healthy 5%, fungal_bacterial 0%, pest 0%, other 0%\nPhoto 2: watering 84%, healthy 14%, fungal_bacterial 1%, pest 0%, other 0%\nPhoto 3: watering 95%, healthy 5%, fungal_bacterial 0%, pest 0%, other 0%\nPhoto 4: watering 92%, healthy 7%, fungal_bacterial 1%, pest 0%, other 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: heat and sun scorch, worsened by your sulphur spray, on top of an ongoing thrips problem.**\n\nThe dark-centred brown patches with yellow halos on the leaf in the bottom-left photo look like scorch, not an insect. Sulphur can burn leaves when temperatures go above roughly 85\u00b0F (29\u00b0C), and it can burn plants when the sprays are applied too hot. Your summers exceed 35\u00b0C, and the plant sits about 3 metres from a big window. Sunburn produces a scorched patch concentrated on the leaves and the side of the leaf facing the light source, and it stays static once it appears.\n\nThrips are still the underlying problem. The speckled, yellowing leaves in the middle photos fit thrips damage, which leaves silvery, papery patches with small black dots of excrement.\n\n**Other possibilities:**\n- **Thrips damage alone:** This would show as scattered speckling rather than one scorched zone. Check the undersides with a phone torch and hang blue sticky traps. Live thrips on new growth mean the infestation is active.\n- **Underwatering in heat:** Terracotta dries quickly in 35\u00b0C summers. Push a finger about 5 cm into the soil. If it's dry and pulling away, water thoroughly. If it's wet, hold off. Soft stems or a sour smell would point to overwatering. The classifier's \"watering\" label is a weak hint and doesn't match what I see.\n\n**Fix:**\n1. **Move the plant out of direct sun and hot afternoon light.** Pull it back or add a sheer curtain, and change its position gradually.\n2. **Stop the sulphur.** Switch to insecticidal soap, spraying the entire plant, especially the undersides of leaves and along stems, and repeating every 5\u20137 days for at least 3\u20134 weeks. Spray early morning or evening, never in sun or heat.\n3. **Trim leaves that are more than half brown.** The damaged leaves will not heal. Keep the healthy stem intact.\n4. **Keep watering by the finger test,** not on a schedule.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 62547,
+ "output_tokens": 3728,
+ "web_search_requests": 3,
+ "searches": [
+  {
+   "query": "monstera adansonii thrips damage control",
+   "results": [
+    {
+     "url": "https://a-z-animals.com/blog/thrips-on-monstera/",
+     "title": "Thrips on Monstera: 8 Ways to Stop Them Quickly - A-Z Animals"
+    },
+    {
+     "url": "https://www.tiktok.com/@plantswithkrystal/video/7529917915215482143",
+     "title": "Thrips infestation on Monstera adansonii #shorts"
+    },
+    {
+     "url": "https://www.getgrowli.app/what-eats/monstera-adansonii-mint",
+     "title": "What's Eating My Monstera Adansonii Mint? Spider mites"
+    },
+    {
+     "url": "https://en.jardineriaon.com/How-to-combat-thrips-on-monstera.html",
+     "title": "Eliminating and Preventing Thrips on Monstera: An Eco-Friendly and Effective Guide"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12841956/",
+     "title": "Evaluation of Trap Systems for Monitoring of Odontothrips loti and Frankliniella occidentalis: A Pilot Field Trial"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217019/",
+     "title": "The omnivorous predator Macrolophus pygmaeus, a good candidate for the control of both greenhouse whitefly and poinsettia thrips on gerbera plants"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11050518/",
+     "title": "Biological Control and Habitat Management for the Control of Onion Thrips, Thrips tabaci Lindeman (Thysanoptera: Thripidae), in Onion Production in Quebec, Canada"
+    },
+    {
+     "url": "https://deplantrekkers.com/en/blogs/news/thrips-on-my-monstera",
+     "title": "There are thrips on my Monstera!"
+    },
+    {
+     "url": "https://plantscraze.com/how-to-treat-thrips-on-monstera-leaves/",
+     "title": "Thrips Damage on Monstera"
+    }
+   ]
+  },
+  {
+   "query": "sulfur spray leaf burn high temperature houseplants",
+   "results": [
+    {
+     "url": "https://www.epicgardening.com/sulfur-fungicide/",
+     "title": "How to Use Sulfur Fungicide on Plants"
+    },
+    {
+     "url": "https://justaplantroom.com/blogs/learn-share/sulfur-in-pest-control-benefits-challenges-and-best-practices",
+     "title": "Sulfur in Pest Control: Benefits, Challenges, and Best Practices"
+    },
+    {
+     "url": "https://scienceinsights.org/how-to-use-sulfur-plant-fungicide-rates-safety/",
+     "title": "How to Use Sulfur Plant Fungicide: Rates & Safety - ScienceInsights"
+    },
+    {
+     "url": "https://whyfarmit.com/sulfur-powder-for-plants/",
+     "title": "Sulfur Powder for Plants: When To Use It, How To Apply & More"
+    },
+    {
+     "url": "https://topgardenliving.com/sulfur-spray-for-plants/",
+     "title": "Best Sulfur Spray for Plants: Top Picks for Healthy Verdant Gardens"
+    },
+    {
+     "url": "https://home.onehowto.com/article/sulfur-for-plants-uses-and-benefits-13310.html",
+     "title": "Sulfur for Plants - Uses and Benefits - With Guide to Using Sulfur at Home"
+    },
+    {
+     "url": "https://www.growershub.co.nz/blogs/thehub/why-spraying-sulfur-in-a-grow-room-is-a-bad-idea",
+     "title": "Why Spraying Sulfur in a Grow Room Is A Bad Idea!"
+    },
+    {
+     "url": "https://www.greenwaybiotech.com/blogs/gardening-articles/sulfur-powder-in-organic-gardening-a-complete-guide-to-soil-amendment-ph-adjustment-pest-control-and-plant-health",
+     "title": "Sulfur Powder in Organic Gardening: A Complete Guide to Soil Amendment, pH Adjustment, pest control and Plant Health"
+    },
+    {
+     "url": "https://compassgm.co.uk/what-is-sulphur-used-for/",
+     "title": "What is Sulphur Used For? The Gardener's Secret Weapon"
+    },
+    {
+     "url": "https://seedy.farm/crop-protection/sulfur-pesticide-fungicide/",
+     "title": "Sulfur Pesticides & Fungicides: A Home Gardener\u2019s Essential Guide \u2014 Seedy Farm"
+    }
+   ]
+  },
+  {
+   "query": "monstera sunburn leaf scorch brown patches heat",
+   "results": [
+    {
+     "url": "https://greg.app/question/2kgn79/burnt-my-monstera-leaves-im-in-the-middle-of-moving-and-my-two-giant-monsteras-havent-gotten-much",
+     "title": "Burnt my monstera leaves"
+    },
+    {
+     "url": "https://www.beangrowing.com/why-is-your-monstera-turning-brown/",
+     "title": "Why Is Your Monstera Turning Brown & How to Fix it"
+    },
+    {
+     "url": "https://houseplantauthority.com/monstera-sunburn/",
+     "title": "8 Proven Signs of a Sunburnt Monstera (and How to Fix It)"
+    },
+    {
+     "url": "https://gardenforindoor.com/sunburned-leaves-on-monstera/",
+     "title": "7 Signs Of Sunburnt Monstera (And How To Revive It) - Garden For Indoor"
+    },
+    {
+     "url": "https://indoorswithamy.com/should-i-cut-off-burnt-monstera-leaves/",
+     "title": "Should I Cut Off Burnt Monstera Leaves? - Indoors with Amy"
+    },
+    {
+     "url": "https://biologyinsights.com/monstera-sunburn-how-to-treat-and-prevent-burnt-leaves/",
+     "title": "Monstera Sunburn: How to Treat and Prevent Burnt Leaves - Biology Insights"
+    },
+    {
+     "url": "https://leafypixels.com/guides/monstera-leaves-turning-brown/",
+     "title": "Monstera Leaves Turning Brown: 6 Causes and Fixes"
+    },
+    {
+     "url": "https://yourindoorplant.com/monstera-leaves-turning-brown/",
+     "title": "Monstera Leaves Turning Brown: 9 Proven Fixes"
+    },
+    {
+     "url": "https://foliagefriend.com/what-to-do-with-burnt-monstera-leaves/",
+     "title": "What to Do with Burnt Monstera Leaves: Effective Remedies and Tips - Foliage Friend - Learn About Different Types of Plants"
+    },
+    {
+     "url": "https://cafeplanta.com/blogs/resources/monstera-deliciosa-sunburn",
+     "title": "How To Save A Sunburnt Monstera Deliciosa"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

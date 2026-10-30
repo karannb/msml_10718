@@ -1,0 +1,109 @@
+{
+ "thread_id": "v4fond",
+ "option": "llm+classifier",
+ "model": "claude-haiku-5-5",
+ "photos": [
+  "data/reddit/resolved/images/v4fond_01.jpg",
+  "data/reddit/resolved/images/v4fond_02.jpg",
+  "data/reddit/resolved/images/v4fond_03.jpg"
+ ],
+ "prompt": "Reddit post, r/houseplants.\nTitle: Spider mite battle . I\u2019m using neem oil, and insecticidal soap. I feel like I\u2019m losing the battle. The money tree I\u2019ve had for two years. \u2639\ufe0f\n\nI just took it outside to wash it down and spray it. Only about 2 hours\n\nAn automatic image classifier was also run on each photo. It only knows 5 classes:\n- healthy: no visible problem\n- watering: wilting or withering from too little or too much water\n- fungal_bacterial: leaf spots, rust, anthracnose, blight, rot, bacterial wilt\n- pest: visible insects or mites (trained almost only on cochineal scale on cactus)\n- other: anything else, e.g. sunburn, nutrient or mineral problems, viruses, leaf tip necrosis, cold damage\n\nThe classifier is not perfect. It was trained mostly on curated dataset photos, not on phone photos like these,\nand on such photos it is often wrong while still reporting a very high probability. Treat it as one weak hint:\nrely on what you see in the photos and on the post first.\n\nClassifier output (probability of each class):\nPhoto 1: watering 66%, healthy 32%, fungal_bacterial 2%, pest 0%, other 0%\nPhoto 2: watering 75%, healthy 25%, other 0%, fungal_bacterial 0%, pest 0%\nPhoto 3: watering 99%, healthy 0%, fungal_bacterial 0%, other 0%, pest 0%\n\nWhat is wrong with my plant?",
+ "answer": "**Most likely cause: dry air or underwatering, not spider mites.** The damage is papery tan tissue at the leaflet tips and edges. I don't see the fine stippling, bronzing, or webbing that mites leave. Brown tips on pachira usually mean the surrounding air is too dry. Underwatering causes crispy brown leaf tips and drooping. The terracotta pot also dries out quickly. Your watering schedule would help confirm this.\n\n**Other possibilities:**\n- **Salt or fluoride buildup.** Pachira is sensitive to fluoride, chlorine, and dissolved minerals, which accumulate at leaf margins and scorch them. If the tips keep browning even with good humidity and watering, this is more likely. Look for white crust on the soil surface.\n- **Spider mites.** They're still possible, since they're hard to see. Hold white paper under a leaf and tap it. Tiny specks that walk across the paper confirm mites. Check the leaf undersides, too.\n\n**What to do:**\n1. **Check the soil.** Push a finger 2\u20133 inches down. If it's dry, water thoroughly until liquid drains from the bottom. If it's still wet, stop watering and check the roots for rot.\n2. **Raise humidity.** Keep the plant away from heating or AC vents, group it with other plants, or use a humidifier. A pebble tray helps a little.\n3. **Switch or flush the water.** Use filtered, distilled, or rainwater if your tap water is hard. Flush the soil with plain water every three months.\n4. **Stop spraying unless the paper test finds mites.** Damaged tips won't recover, but new growth should come in normal-coloured and healthy if the fix works. Give it a few weeks before judging.\n\nYour outdoor photo shows glossy, healthy leaves, so the plant overall looks sound. Trim the brown tips with clean scissors, following the leaf's natural shape.",
+ "system_prompt": "guided-v2",
+ "input_tokens": 49109,
+ "output_tokens": 2673,
+ "web_search_requests": 2,
+ "searches": [
+  {
+   "query": "money tree Pachira aquatica brown leaf tips causes",
+   "results": [
+    {
+     "url": "https://www.hunker.com/12506024/brown-leaves-on-a-money-tree-plant/",
+     "title": "What Causes Brown Leaves On A Money Tree Plant? - Hunker"
+    },
+    {
+     "url": "https://www.verdantlyfe.com/blogs/plant-lyfe/braided-money-tree-care-troubleshooting-yellow-leaves-drooping-and-other-common-problems",
+     "title": "Braided Money Tree Care: Troubleshooting Yellow Leaves, Drooping, and Other Common Problems"
+    },
+    {
+     "url": "https://www.nature-and-garden.com/gardening/pachira.html",
+     "title": "Pachira - care, watering, diseases, propagating money tree"
+    },
+    {
+     "url": "https://www.theplantdaddies.com/blogs/plant-care/how-to-care-for-your-pachira-aquatica-money-tree",
+     "title": "How to Care for your Pachira aquatica (Money Tree)"
+    },
+    {
+     "url": "https://gardenforindoor.com/money-tree-leaves-turning-brown/",
+     "title": "10 Causes Of Money Tree Leaves Turning Brown (And Solutions) - Garden For Indoor"
+    },
+    {
+     "url": "https://www.plantsforallseasons.co.uk/blogs/pachira-care/common-problems-and-solutions-for-pachira-aquatica-money-tree",
+     "title": "Common Problems and Solutions for Pachira Aquatica (Money Tree)"
+    },
+    {
+     "url": "https://thebotanicalbarindy.com/blogs/blog/money-tree-pachira-aquatica-care",
+     "title": "Money Tree (Pachira Aquatica) Care"
+    },
+    {
+     "url": "https://xxlplant.com/en/blogs/news/problemen-pachira-aquatica",
+     "title": "Pachira Aquatica Problems & Solutions: Yellow Leaves, Brown Tips"
+    },
+    {
+     "url": "https://plantgrail.com/articles/money-tree-care-guide-pachira-aquatica/",
+     "title": "Money Tree Care Guide (Pachira aquatica): Watering, Light, and Braided-Trunk Rescue"
+    },
+    {
+     "url": "https://gardenguidehub.com/money-tree-care/",
+     "title": "Money Tree Care: Complete Guide to Growing Healthy Pachira Aquatica"
+    }
+   ]
+  },
+  {
+   "query": "spider mite signs webbing stippling houseplant identify",
+   "results": [
+    {
+     "url": "https://www.almanac.com/pest/spider-mites",
+     "title": "Spider Mites: How to Get Rid of Spider Mites on Plants"
+    },
+    {
+     "url": "https://www.theplantdaddies.com/blogs/plant-care/how-to-identify-and-treat-spider-mites-on-indoor-plants",
+     "title": "How to Identify and Treat Spider Mites on Indoor Plants"
+    },
+    {
+     "url": "https://wallygrow.com/blogs/feature/spider-mites",
+     "title": "How To Get Rid Of Spider Mites On Houseplants"
+    },
+    {
+     "url": "https://www.gardeningknowhow.com/plant-problems/pests/insects/spider-mite-treatment.htm",
+     "title": "How To Identify And Get Rid Of Spider Mites On Plants"
+    },
+    {
+     "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+     "title": "Spider Mites / Home and Landscape / UC Statewide IPM Program (UC IPM)"
+    },
+    {
+     "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/insects-pests-and-problems/insects/mites/spider-mites",
+     "title": "Spider Mites"
+    },
+    {
+     "url": "https://www.theplantindex.com/articles/spider-mites-on-houseplants",
+     "title": "Spider Mites on Houseplants: Identify Webbing, Damage, and How to Kill Them"
+    },
+    {
+     "url": "https://www.plantsolve.com/blog/spider-mites-on-houseplants/",
+     "title": "Spider Mites on Houseplants: How to Stop Them Fast"
+    },
+    {
+     "url": "https://getplanta.com/discover/spider-mites-identify-treat-prevent",
+     "title": "Spider Mites: Identify, Treat & Prevent Infestations"
+    },
+    {
+     "url": "https://www.plantblueprint.com/the-infirmary/how-to-get-rid-of-spider-mites/",
+     "title": "How to Get Rid of Spider Mites on Houseplants (6-Step Plan)"
+    }
+   ]
+  }
+ ],
+ "possible_leaks": []
+}

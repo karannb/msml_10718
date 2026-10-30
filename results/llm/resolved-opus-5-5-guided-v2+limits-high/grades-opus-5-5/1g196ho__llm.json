@@ -1,0 +1,40 @@
+{
+ "diagnosis": "correct",
+ "false_alarm": false,
+ "advice": "partial",
+ "harmful": false,
+ "actions": [
+  {
+   "action": "Bottom-soak the pot in 2\u20133 inches of water for 30 minutes, then drain and empty the saucer",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Check soil with a finger and water thoroughly when the top inch is dry, emptying the saucer after 15 minutes",
+   "minutes": 1,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "Move plant to bright, indirect light away from heaters and vents",
+   "minutes": 5,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  },
+  {
+   "action": "If still limp after a week despite moist soil, tip out of pot and inspect roots for rot",
+   "minutes": 10,
+   "per_day": 1,
+   "cost_usd": 0,
+   "unclear": false
+  }
+ ],
+ "reason": "The answer correctly identifies drought stress and notes the old, water-repellent soil, but it never suggests repotting, which is what fixed the plant. Its watering and light advice is safe and safeguarded.",
+ "grader": "claude-opus-5-5",
+ "input_tokens": 1993,
+ "output_tokens": 681
+}
